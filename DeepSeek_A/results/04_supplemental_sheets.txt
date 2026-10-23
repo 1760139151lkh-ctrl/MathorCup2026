@@ -1,0 +1,291 @@
+sheets: ['Supplementary File S1', 'Supplementary File S2', 'Supplementary File S3', 'Supplementary File S4', 'Supplementary File S5', 'Supplementary File S6', 'Supplementary File S7', 'Supplementary Table S1', 'Supplementary Table S2', 'Supplementary Table S3', 'Supplementary Table S4', 'Supplementary Table S5', 'Supplementary Table S6', 'Supplementary Table S7', 'Sensory thresholds', 'Sensory names', 'Validation Results 1', 'Validation Results 2', 'Validation Results 3', 'Validation Concentrations', 'Validation Details', 'GBM importance MDI', 'GBM SHAP Values', 'Calibrated chemical dataset', 'Beer Prices', 'Performance of 100 models', '100 models feature importance', 'GBM model on merged dataset', 'GBM model with style informatio']
+------------------------------------------------------------------------------------------
+[Supplementary File S1]
+shape: (251, 234)
+    0              1                      2             3         4         5         6    ...                  227               228                        229         230             231        232         233
+0  beer        beer_id  tasting_category_fine  acetaldehyde       CS2       DES       DMS  ...  ethyl.octadecanoate  ethyl.pentanoate  X2.ethyl.3.methylpyrazine  esters_sum  aroma_hops_sum  acids_sum  sulfur_sum
+1    10  5410228202929         Low/No alcohol     -0.641741 -2.146292 -1.905267  0.046211  ...             4.438951          0.014728                   0.054353   -0.532634        3.696586   0.244085    0.166286
+2    86  5410783031019         Low/No alcohol     -0.174824 -2.146292 -0.257098  0.347241  ...             4.247826          0.023167                     0.0014   -0.465401        1.219563  -0.152156    0.098931
+3     2  5410228142003         Low/No alcohol      0.511067 -2.146292 -1.905267  0.898604  ...             3.598293          0.017571                   0.000699   -0.409346        1.148974  -0.161504   -0.022943
+4    83       54055520         Low/No alcohol      0.249793 -2.146292 -1.905267  0.782126  ...             4.498781          0.016959                   0.001101    -0.42008        1.416847  -0.056092    0.068372
+5    40  5410228141181         Low/No alcohol     -1.902829 -0.756987  -1.34727  0.553356  ...              4.78922          0.117921                   0.000492   -0.144457        0.672328  -1.204001    0.639462
+------------------------------------------------------------------------------------------
+[Supplementary File S2]
+shape: (232, 232)
+                      0             1                 2                3                 4                       5              6    ...                  225               226                       227                    228                        229          230                     231
+0                     NaN  Acetaldehyde  Carbon disulfide  Diethyl sulfide  Dimethyl sulfide  Ethyl 2-methylbutyrate  Ethyl acetate  ...  Ethyl octadecanoate  Ethyl pentanoate  2-ethyl-3-methylpyrazine  Total ester compounds  Total hop aroma compounds  Total acids  Total sulfur compounds
+1            Acetaldehyde             1          0.064655         0.300136          0.186098                0.083059       0.576089  ...             0.146698         -0.018536                  0.022335               0.567289                   0.045487     0.073188                0.326325
+2        Carbon disulfide      0.064655                 1        -0.112705         -0.006972                0.060046       0.086777  ...             0.191285          0.045328                  0.058103               0.002152                  -0.063244     0.070578               -0.083962
+3         Diethyl sulfide      0.300136         -0.112705                1          0.232726                0.236087       0.190418  ...             0.127468          -0.07005                 -0.054294               0.342968                   0.197031    -0.182019                0.519204
+4        Dimethyl sulfide      0.186098         -0.006972         0.232726                 1                -0.00175       0.276166  ...            -0.003502          0.005275                  0.029586               0.335257                   0.250886    -0.017551                0.693797
+5  Ethyl 2-methylbutyrate      0.083059          0.060046         0.236087          -0.00175                       1       0.220627  ...             0.220727          0.036404                  0.354114              -0.123564                   0.104924     0.426484                0.098013
+------------------------------------------------------------------------------------------
+[Supplementary File S3]
+shape: (101, 33)
+   0      1   2   3   4   5   6   ...  26  27  28  29  30  31  32
+0 NaN   Date NaN NaN NaN NaN NaN  ... NaN NaN NaN NaN NaN NaN NaN
+1 NaN    NaN NaN NaN NaN NaN NaN  ... NaN NaN NaN NaN NaN NaN NaN
+2 NaN  Name: NaN NaN NaN NaN NaN  ... NaN NaN NaN NaN NaN NaN NaN
+3 NaN    NaN NaN NaN NaN NaN NaN  ... NaN NaN NaN NaN NaN NaN NaN
+4 NaN  Aroma NaN NaN NaN NaN NaN  ... NaN NaN NaN NaN NaN NaN NaN
+5 NaN   Malt NaN NaN NaN NaN NaN  ... NaN NaN NaN NaN NaN NaN NaN
+------------------------------------------------------------------------------------------
+[Supplementary File S4]
+shape: (251, 53)
+     0              1                      2           3             4             5            6   ...        46        47        48          49        50        51        52
+0  beer        beer_id  tasting_category_fine  A_malt_all  A_malt_grain  A_malt_bread  A_malt_cara  ...    acetic  barnyard   alcohol  aftertaste      body       co2   overall
+1    10  5410228202929         Low/No alcohol   -0.481208      -0.17907     -0.464636    -0.554391  ... -0.282149  -0.35729 -1.807336   -1.682733 -0.630386 -1.043431 -0.467852
+2    86  5410783031019         Low/No alcohol    1.678276      1.759243      0.356967     0.649475  ... -0.282149  -0.35729 -1.974904   -1.456136 -1.380574 -0.408753 -0.994806
+3     2  5410228142003         Low/No alcohol   -0.135865      0.215999     -0.083786    -0.554391  ... -0.282149  -0.35729 -1.990725   -1.647121 -1.169839 -1.353028 -1.528544
+4    83       54055520         Low/No alcohol    0.538252      1.059832      0.486692    -0.554391  ... -0.282149  -0.35729 -2.150729   -1.801023 -0.997524  -1.04561 -0.934138
+5    40  5410228141181         Low/No alcohol   -0.437823     -0.507368      0.076957    -0.503614  ... -0.269671 -0.331149 -1.681082   -2.100345 -1.862278 -1.739428 -1.735965
+------------------------------------------------------------------------------------------
+[Supplementary File S5]
+shape: (52, 51)
+                     0                     1                   2                   3                     4                    5                     6   ...           44        45        46           47          48        49                    50
+0         Trained panel  Malt aroma - overall  Malt aroma - grain  Malt aroma - bread  Malt aroma - caramel  Malt aroma - smoked  Hops aroma - overall  ...  Acetic acid  Barnyard   Alcohol  Carbonation  Aftertaste      Body  Overall appreciation
+1  Malt aroma - overall                     1            0.567791            0.607872              0.708501             0.488511             -0.008802  ...    -0.068198 -0.189552   0.38416     0.071204    0.233322  0.498133              0.067048
+2    Malt aroma - grain              0.567791                   1            0.368783              0.199304             0.019665              0.010189  ...      0.12704  -0.23324  0.135222     0.026543    0.037976  0.190031              0.066587
+3    Malt aroma - bread              0.607872            0.368783                   1              0.300219             0.178251              0.147919  ...    -0.066856 -0.189716  0.290249     0.140522    0.232843  0.352688              0.077012
+4  Malt aroma - caramel              0.708501            0.199304            0.300219                     1             0.442964             -0.162363  ...    -0.123099 -0.032659  0.354111     0.068552    0.143968  0.424137              0.064274
+5   Malt aroma - smoked              0.488511            0.019665            0.178251              0.442964                    1              0.036591  ...    -0.147082  0.055776    0.2629    -0.030181    0.260622  0.332798               0.02957
+------------------------------------------------------------------------------------------
+[Supplementary File S6]
+shape: (45, 51)
+                 0                     1                   2                   3                     4                    5                     6   ...           44        45        46           47          48        49                    50
+0     Trained panel  Malt aroma - overall  Malt aroma - grain  Malt aroma - bread  Malt aroma - caramel  Malt aroma - smoked  Hops aroma - overall  ...  Acetic acid  Barnyard   Alcohol  Carbonation  Aftertaste      Body  Overall appreciation
+1     Ethyl acetate              0.256068            0.097671            0.210304              0.241116             0.102823              0.174297  ...      0.06216 -0.110084  0.578353      0.39685    0.434725  0.504669              0.324999
+2   Ethyl decanoate              0.083749           -0.035192              0.1086              0.040553             0.113894               0.42767  ...    -0.026986  0.077226  0.479907     0.428564     0.48915  0.396447              0.222887
+3   Ethyl hexanoate              0.189772            0.065174            0.203661              0.204072             0.104738              0.295405  ...    -0.121657 -0.026838  0.618768     0.467309      0.3966  0.554674              0.262999
+4   Ethyl octanoate              0.105317            -0.04771            0.155969              0.080724             0.105219              0.463745  ...    -0.061437  0.070959  0.619371     0.552687    0.506179  0.530738              0.285956
+5  Ethyl propionate              0.108807           -0.034878            0.022173              0.137562             0.142247             -0.017798  ...     0.033605   0.03536  0.208175     0.084942    0.197816  0.191294              0.123978
+------------------------------------------------------------------------------------------
+[Supplementary File S7]
+shape: (251, 189)
+    0              1                      2                   3              4             5             6    ...            182         183          184          185          186             187          188
+0  beer        beer_id  tasting_category_fine  aroma_acetaldehyde  aroma_acetate  aroma_acetic  aroma_acidic  ...  taste_solvent  taste_sour  taste_stale  taste_sweet  taste_toast  taste_tropical  taste_woody
+1    10  5410228202929         Low/No alcohol           -0.145066      -0.139059     -0.308488     -0.541218  ...      -0.343435   -0.548848    -0.571463     1.478909    -0.698196       -0.540469     -0.72104
+2    86  5410783031019         Low/No alcohol           -0.145066      -0.139059     -0.308488     -0.541218  ...      -0.343435    -0.67342    -0.571463     1.020469    -0.698196       -0.540469     -0.72104
+3     2  5410228142003         Low/No alcohol           -0.145066      -0.139059     -0.308488     -0.541218  ...      -0.343435   -0.595404    -0.571463     0.700821     1.772489       -0.540469     -0.72104
+4    83       54055520         Low/No alcohol           -0.145066      -0.139059     -0.308488     -0.541218  ...      -0.343435   -0.754565    -0.571463    -0.945087    -0.698196       -0.540469     -0.72104
+5    40  5410228141181         Low/No alcohol           -0.145066      -0.139059     -0.308488     -0.541218  ...      -0.343435   -0.617429    -0.571463    -0.124719    -0.698196       -0.540469     -0.72104
+------------------------------------------------------------------------------------------
+[Supplementary Table S1]
+shape: (236, 6)
+                             0                1              2                     3                       4                          5
+0                    Compound   Compound class         Origin   Method of detection                  Flavor            Flavor reference
+1               2-acetylfuran            Furan    Malt, Aging                 GC-MS   almond, rubber, burnt   ASBC Beer flavor database
+2             2-acetylpyrrole          Pyrrole           Malt                 GC-MS       walnut, liquorice   ASBC Beer flavor database
+3                acetaldehyde         Aldehyde   Yeast, Aging                GC-FID      Green apple, paint   ASBC Beer flavor database
+4                 acetic acid             Acid       Bacteria       Enzymatic assay                 vinegar   ASBC Beer flavor database
+5  allo-aromadendrene epoxide        Terpenoid           Hops                 GC-MS                      NaN                        NaN
+------------------------------------------------------------------------------------------
+[Supplementary Table S2]
+shape: (51, 13)
+                     0        1        2        3         4         5         6         7         8         9         10        11        12
+0             Attribute  Beer 23  Beer 37  Beer 75  Beer 114  Beer 127  Beer 139  Beer 185  Beer 202  Beer 214  Beer 219  Beer 224  Beer 238
+1  Malt aroma - overall    0.826    0.068    0.376     0.871     0.182     0.875     0.283     0.052     0.541         1     0.377     0.776
+2    Malt aroma - grain    0.544    0.825    0.705      0.15     0.127     0.451     0.214     0.653     0.804     0.414     0.921     0.593
+3    Malt aroma - bread     0.23    0.225    0.334      0.76     0.396     0.273         1     0.078         1     0.813     0.778     0.736
+4  Malt aroma - caramel        1    0.018    0.334         1         1     0.872         1     0.094     0.615     0.341     0.372     0.388
+5   Malt aroma - smoked    0.334    0.068    0.662     0.163     0.661     0.334         1     0.252         1         1     0.496     0.519
+------------------------------------------------------------------------------------------
+[Supplementary Table S3]
+shape: (51, 11)
+                     0         1           2              3                   4                         5             6     7             8                     9        10
+0                aspect  AdaBoost  ExtraTrees  GradientBoost  Lasso interactions  LinearModel interactions  MLPRegressor   PLS  RandomForest  SupportVectorMachine  XGBoost
+1  Malt aroma - overall      0.41        0.38           0.37                0.35                     -2.21          0.29 -4.46           0.4                 -7.65      0.3
+2    Malt aroma - grain     -0.12        0.12           0.01                0.02                     -1.11         -0.23 -1.85          0.04                  0.04    -0.24
+3    Malt aroma - bread      0.11        0.07           0.01                0.08                    -13.44          0.04 -3.25          0.08                 -0.28     0.06
+4  Malt aroma - caramel      0.29        0.36           0.25                0.24                      -3.8           0.1 -3.68          0.35                 -0.04     0.35
+5   Malt aroma - smoked      0.23        0.06           0.11               -0.05                        -1         -0.09 -2.14          0.04                 -0.03     0.23
+------------------------------------------------------------------------------------------
+[Supplementary Table S4]
+shape: (7, 11)
+                   0         1           2              3                   4                         5             6     7             8                     9        10
+0              aspect  AdaBoost  ExtraTrees  GradientBoost  Lasso interactions  LinearModel interactions  MLPRegressor   PLS  RandomForest  SupportVectorMachine  XGBoost
+1      Ratebeer score       0.6        0.62           0.67                0.62                    -11.41           0.7  0.62          0.62                  0.58     0.65
+2  Aroma appreciation      0.64        0.64           0.71                0.63                     -9.19          0.69  0.63          0.65                  0.64     0.68
+3          Appearance      0.59        0.63           0.68                0.61                     -10.3          0.61  0.03          0.62                  0.61     0.66
+4  Taste appreciation       0.6        0.61           0.71                0.66                    -11.69          0.62  0.63          0.64                  0.58     0.67
+5              Palate       0.6        0.62           0.64                0.63                    -12.37          0.51  0.36          0.65                 -4.42     0.65
+------------------------------------------------------------------------------------------
+[Supplementary Table S5]
+shape: (83, 4)
+                      0           1           2                 3
+0              Compound  CAS-number    Supplier  Reference number
+1         (E)-2-nonenal  18829-56-6  Merck KGaA           W321303
+2  (E)-beta-damascenone  23726-91-2  Merck KGaA           W324300
+3      (E)-beta-ocimene  13877-91-3  Merck KGaA           W353901
+4  (E,E)-2,4-decadienal  25152-84-5  Merck KGaA           W313505
+5     1-alpha-terpineol     98-55-5  Merck KGaA             04899
+------------------------------------------------------------------------------------------
+[Supplementary Table S6]
+shape: (99, 4)
+               0           1        2                            3
+0       Software    Packages  Version              Citation Nature
+1     Python 3.6  langdetect    1.0.7  Nakatani, S. Langdetect:...
+2     Python 3.6      langid    1.1.6  Lui, M. & Baldwin, T. la...
+3     Python 3.6        nltk    3.2.5  Bird, S., Klein, E. & Lo...
+4     Python 3.6      scrapy    1.5.1  Kouzis-Loukas, D. Learni...
+5  Python 3.9.16    anaconda  2023.07  Anaconda Software Distri...
+------------------------------------------------------------------------------------------
+[Supplementary Table S7]
+shape: (23, 4)
+             0          1                            2          3
+0         Test  Principle                     Reagents  Reference
+1  Acetic acid  Enzymatic  Reagent 1 (buffer, D-glu...     984318
+2          NaN        NaN    Reagent 2 (NAD, ATP, CoA)        NaN
+3      Ammonia  Enzymatic  Reagent 1 (buffer, ADP, ...     984320
+4          NaN        NaN             Reagent 2 (NADH)        NaN
+5          NaN        NaN  Reagent 3 (buffer, 2-oxo...        NaN
+------------------------------------------------------------------------------------------
+[Sensory thresholds]
+shape: (262, 11)
+                     0                      1                 2                    3           4                           5     6         7            8               9                 10
+0     field_name_python           field_name_R     chemical_name  chemical_name_short  calibrated                origin_paper  unit     aging  off_flavors  threshold_mean  threshold_median
+1       2,3-hexanedione       X2.3.hexanedione   2,3-hexanedione      2,3-hexanedione         NaN  Internal standard solution   NaN       NaN          NaN             NaN               NaN
+2      acetic acid.g.L.       acetic_acid.g.L.       Acetic acid          Acetic acid         yes                  Wild flora   g/L       NaN          NaN         0.14025             0.145
+3          acetophenone           acetophenone      Acetophenone         Acetophenone         NaN                       Yeast   NaN       NaN          NaN             NaN               NaN
+4  (E)-beta-damascenone  X.E..beta.damascenone  E-Î²-damascenone     E-Î²-damascenone    yes_gcms                        Hops  mg/L  increase          NaN             NaN               NaN
+5            bitterness             bitterness   Iso-alpha acids      Iso-alpha acids         yes                        Hops   IBU       NaN          NaN               5                 5
+------------------------------------------------------------------------------------------
+[Sensory names]
+shape: (102, 8)
+               0                1               2         3                     4                           5                           6            7
+0        dataset           R_name  Category_Paper  Category       CleanName_Paper         CleanName_PaperLong     CleanName_PanelFeedback     DataType
+1  Trained panel     A_esters_all           Aroma     Yeast      Esters - overall                Esters aroma      Esters aroma - overall      numeric
+2  Trained panel   A_esters_ethac           Aroma     Yeast  Esters - nail polish  Esters aroma - nail polish  Esters aroma - nail polish  categorical
+3  Trained panel  A_esters_flower           Aroma     Yeast       Esters - floral       Esters aroma - floral       Esters aroma - floral  categorical
+4  Trained panel  A_esters_fruity           Aroma     Yeast       Esters - fruity       Esters aroma - fruity       Esters aroma - fruity  categorical
+5  Trained panel   A_esters_isoaa           Aroma     Yeast       Esters - banana       Esters aroma - banana       Esters aroma - banana  categorical
+------------------------------------------------------------------------------------------
+[Validation Results 1]
+shape: (43, 16)
+                    0         1     2     3          4     5           6   ...                 9                     10                           11                           12               13         14                           15
+0                 Time      Name  Beer  Malt  Sweetness  Hops  Bitterness  ...  Alcohol (warming)  Overall appreciation                     Comments                      Browser       IP Address  Unique ID                     Location
+1  2020-07-13 14:57:15  Taster 8   506     4          4     2           3  ...                  4                     5                          NaN  Chrome 80.0.3987.119 / A...  193.190.253.145  634809008  50.879600524902, 4.70090...
+2  2020-07-13 14:57:15  Taster 8   913     4          3     1           1  ...                  2                     4                          NaN  Chrome 80.0.3987.119 / A...  193.190.253.145  634809008  50.879600524902, 4.70090...
+3  2020-07-13 14:58:20  Taster 4   506     2          3     2           2  ...                  3                     5                       4VG!!!  Chrome 79.0.3945.136 / A...  193.190.253.145  634809413  50.879600524902, 4.70090...
+4  2020-07-13 14:58:20  Taster 4   913     2          2     3           3  ...                  3                     3  Lots if everything detec...  Chrome 79.0.3945.136 / A...  193.190.253.145  634809413  50.879600524902, 4.70090...
+5  2020-07-13 14:58:51  Taster 2   506     4          4     3           3  ...                  4                     5                          NaN  Chrome 79.0.3945.136 / A...  193.190.253.145  634809627  50.879600524902, 4.70090...
+------------------------------------------------------------------------------------------
+[Validation Results 2]
+shape: (27, 16)
+                    0          1     2     3          4     5           6   ...                 9                     10                           11                           12               13         14                           15
+0                 Time       Name  Beer  Malt  Sweetness  Hops  Bitterness  ...  Alcohol (warming)  Overall appreciation                     Comments                      Browser       IP Address  Unique ID                     Location
+1  2020-08-03 12:20:42  Taster 18   880     3          3     2           2  ...                  3                     4  Slightly sweeter. More b...  Chrome 83.0.4103.106 / A...  193.190.253.145  642607733  50.879600524902, 4.70090...
+2  2020-08-03 12:22:10  Taster 20   880     3          2     3           3  ...                  3                     5  Fruity esters, lingering...  Chrome 83.0.4103.106 / A...  193.190.253.145  642608036  50.879600524902, 4.70090...
+3  2020-08-03 15:25:13   Taster 5   880     2          3     1           1  ...                  3                     4  A bit astringent but nic...  Chrome 83.0.4103.106 / A...  193.190.253.145  642675246  50.879600524902, 4.70090...
+4  2020-08-03 15:25:49   Taster 2   880     3          3     3           2  ...                  4                     5                          NaN  Chrome 83.0.4103.106 / A...  193.190.253.145  642675503  50.879600524902, 4.70090...
+5  2020-08-03 15:30:42  Taster 17    65     2          4     2           3  ...                  0                     4                      Sweeter  Chrome 83.0.4103.106 / A...  193.190.253.145  642677496  50.879600524902, 4.70090...
+------------------------------------------------------------------------------------------
+[Validation Results 3]
+shape: (27, 16)
+                    0          1     2     3          4     5           6   ...                 9                     10                           11                           12               13         14                           15
+0                 Time       Name  Beer  Malt  Sweetness  Hops  Bitterness  ...  Alcohol (warming)  Overall appreciation                     Comments                      Browser       IP Address  Unique ID                     Location
+1  2020-08-05 11:58:15   Taster 6   153     3          1     2           3  ...                  2                     2                   Astringent  Chrome 83.0.4103.106 / A...  193.190.253.145  643539659  50.879600524902, 4.70090...
+2  2020-08-05 11:58:56   Taster 2   411     2          4     2           1  ...                  1                     2          Artificially fruity  Chrome 80.0.3987.119 / A...  193.190.253.145  643539793  50.879600524902, 4.70090...
+3  2020-08-05 12:01:43  Taster 14   411     5          3     4           3  ...                  2                     4  Especially malty in tast...  Chrome 83.0.4103.106 / A...  193.190.253.145  643540364  50.879600524902, 4.70090...
+4  2020-08-05 12:02:54  Taster 20   411     3          3     2           2  ...                  0                     4  Esters. Banana.  Slightl...  Chrome 84.0.4147.111 / A...  193.190.253.145  643540631  50.879600524902, 4.70090...
+5  2020-08-05 12:13:57  Taster 16   153     3          3     2           1  ...                  2                     2                          NaN  Chrome 80.0.3987.119 / A...  193.190.253.145  643542859  50.879600524902, 4.70090...
+------------------------------------------------------------------------------------------
+[Validation Concentrations]
+shape: (6, 9)
+           0                            1              2                     3                       4                       5                           6               7                  8
+0  BeerStyle                      SetName  Ethanol (v/v)  Ethyl acetate (mg/l)  Ethyl hexanoate (mg/l)  Isoamyl acetate (mg/l)  Phenylethyl acetate (mg/l)  Glycerol (g/l)  Lactic acid (g/l)
+1      blond                    Base beer           4.71                 15.59                     0.1                    2.59                        0.36            1.51                148
+2      blond              Best predictors           8.59                 33.12                    0.32                    3.46                        0.39            3.21                194
+3      blond  Best predictors - no eth...           4.71                 33.12                    0.32                    3.46                        0.39            3.21                194
+4     NABLAB                    Base beer              0                  4.27                    0.11                    1.69                        0.07            1.63                 88
+5     NABLAB  Best predictors - no eth...              0                  8.43                    0.11                    2.58                        0.33           17.59                820
+------------------------------------------------------------------------------------------
+[Validation Details]
+shape: (159, 11)
+                     0    1     2         3          4            5        6               7         8
+0                 Date  Set  Code  BaseBeer  BeerStyle   SampleName  SetName   CompoundsConc      Note
+1  2019-12-19 00:00:00    A     1        75      Blond           A1      NaN             NaN  Glycerol
+2  2019-12-19 00:00:00    A     2        75      Blond  A2 – spiked      NaN    Glycerol – 0       NaN
+3  2019-12-19 00:00:00    A     3        75      Blond           B1      NaN             NaN       NaN
+4  2019-12-19 00:00:00    A     4        75      Blond  B2 – spiked      NaN  Glycerol – 0.6       NaN
+5  2019-12-19 00:00:00    A     5        75      Blond           C1      NaN             NaN       NaN
+------------------------------------------------------------------------------------------
+[GBM importance MDI]
+shape: (232, 2)
+          0                        1
+0       NaN                        0
+1  0.008620             acetaldehyde
+2  0.000342                      CS2
+3  0.004495                      DES
+4  0.003099                      DMS
+5  0.001217  ethyl_2.methyl_butyrate
+------------------------------------------------------------------------------------------
+[GBM SHAP Values]
+shape: (501, 236)
+    0     1              2                      3             4         5         6    ...               229                        230         231             232        233         234              235
+0  data  beer        beer_id  tasting_category_fine  acetaldehyde       CS2       DES  ...  ethyl.pentanoate  X2.ethyl.3.methylpyrazine  esters_sum  aroma_hops_sum  acids_sum  sulfur_sum  base_prediction
+1  SHAP    10  5410228202929         Low/No alcohol     -0.002579 -0.000811 -0.009588  ...         -0.001757                   0.006419     -0.0002        0.002687   0.016976   -0.031733        -0.326338
+2  SHAP    86  5410783031019         Low/No alcohol     -0.002491 -0.000628  0.006789  ...          0.000663                  -0.017773    0.000477       -0.007062  -0.094942   -0.031721        -0.326338
+3  SHAP     2  5410228142003         Low/No alcohol     -0.001989  -0.00113 -0.007698  ...         -0.000566                   -0.02025     0.00027       -0.006112  -0.108983   -0.033376        -0.326338
+4  SHAP    83       54055520         Low/No alcohol     -0.002929 -0.001048 -0.006924  ...          0.000141                  -0.020019    0.000238       -0.005145  -0.064683   -0.031746        -0.326338
+5  SHAP    40  5410228141181         Low/No alcohol     -0.003037  0.001825  -0.00625  ...         -0.000193                  -0.016591    0.000559       -0.003692  -0.104315     0.00018        -0.326338
+------------------------------------------------------------------------------------------
+[Calibrated chemical dataset]
+shape: (251, 73)
+     0              1                      2             3        4         5         6   ...                     66        67                 68                     69               70              71           72
+0  beer        beer_id  tasting_category_fine  acetaldehyde      CS2       DES       DMS  ...  X.E.E..2.4.decadienal   eugenol  gamma.nonalactone  X.E..beta.damascenone  E.caryophyllene  alpha.humulene  Z.nerolidol
+1    10  5410228202929         Low/No alcohol       0.22817        0         0         0  ...               0.007134  0.001417           0.251248               1.053305         0.002168        0.008573     0.000855
+2    86  5410783031019         Low/No alcohol      0.668615        0  0.553225  2.224545  ...               0.000089  0.000178           0.068477               0.046221         0.000092        0.005094     0.000912
+3     2  5410228142003         Low/No alcohol      3.243895        0         0  7.917785  ...               0.000156  0.000175           0.060928               0.062954         0.000691        0.003652     0.001937
+4    83       54055520         Low/No alcohol       1.77743        0         0   6.05516  ...               0.000262  0.000124           0.096711               0.106334         0.000174        0.004478      0.00059
+5    40  5410228141181         Low/No alcohol             0  0.17499   0.04495  3.575655  ...                0.00001  0.000039           0.086277               0.016286         0.000081        0.001695     0.001346
+------------------------------------------------------------------------------------------
+[Beer Prices]
+shape: (251, 11)
+     0              1                 2     3                    4                      5                       6                  7                            8                            9                           10
+0  beer        beer_id  tasting_category   ABV  Price_TotalWine_USA  Price_Colruyt_Belgium  Price_Delhaize_Belgium  Price_BeerHawk_UK  Price_TheBelgianBeerShop...  Price_TheBelgianShop_global  Price_BeerOfBelgium_global
+1     1  5413970150111              brut     9                  NaN                    NaN                     NaN                NaN                          NaN                        38.08                       26.34
+2     2  5410228142003    low_no alcohol   0.5                  NaN                    NaN                    2.63               5.81                          NaN                        16.31                         NaN
+3     3       54055308             blond     7                  NaN                   3.15                    4.33                NaN                         9.12                        18.18                        8.52
+4     4       54079021        strong ale  10.5                14.07                    NaN                    5.52                NaN                          8.4                        18.97                        7.05
+5     5  5400000000006             blond   5.8                  NaN                    NaN                     NaN                NaN                          NaN                        72.77                        37.5
+------------------------------------------------------------------------------------------
+[Performance of 100 models]
+shape: (101, 4)
+           0         1         2         3
+0  Iteration       GBM        RF        ET
+1          0  0.672365  0.607663  0.604875
+2          1  0.648723  0.616545  0.619147
+3          2  0.675236  0.607691  0.622479
+4          3  0.592325  0.610523  0.622494
+5          4  0.633391  0.598112  0.615971
+------------------------------------------------------------------------------------------
+[100 models feature importance]
+shape: (1387, 103)
+     0      1                        2         3         4         5             6    ...        96         97         98         99         100        101        102
+0  Model  Score                 Compound  0.000000  1.000000  2.000000  3.000000e+00  ...  93.000000  94.000000  95.000000  96.000000  97.000000  98.000000  99.000000
+1    GBM    MDI             acetaldehyde  0.008620  0.000893  0.009434  6.515934e-03  ...   0.008268   0.005578   0.007461   0.012578   0.013616   0.005475   0.008078
+2    GBM    MDI                      CS2  0.000342  0.001143  0.000093  3.920000e-07  ...   0.000005   0.000523   0.000113   0.000874   0.001448   0.000009   0.000013
+3    GBM    MDI                      DES  0.004495  0.001120  0.002002  1.535986e-03  ...   0.000367   0.001473   0.001495   0.001536   0.003370   0.000909   0.001349
+4    GBM    MDI                      DMS  0.003099  0.000056  0.004725  4.153549e-03  ...   0.000363   0.002428   0.004201   0.004677   0.015846   0.001571   0.003099
+5    GBM    MDI  ethyl_2.methyl_butyrate  0.001217  0.000784  0.001264  5.951970e-04  ...   0.003271   0.002787   0.000853   0.001120   0.002881   0.001055   0.000342
+------------------------------------------------------------------------------------------
+[GBM model on merged dataset]
+shape: (233, 3)
+                         0         1         2
+0                 Compound       MDI      SHAP
+1             acetaldehyde  0.004746  0.006942
+2                      CS2  0.000161  0.000276
+3                      DES  0.002165  0.005016
+4                      DMS  0.007009  0.007365
+5  ethyl_2.methyl_butyrate  0.003171  0.002208
+------------------------------------------------------------------------------------------
+[GBM model with style informatio]
+shape: (254, 3)
+                         0         1         2
+0                 Compound       MDI      SHAP
+1             acetaldehyde  0.009156  0.010118
+2                      CS2  0.000021  0.000118
+3                      DES  0.006136  0.004414
+4                      DMS  0.000422  0.002016
+5  ethyl_2.methyl_butyrate  0.001598  0.002608

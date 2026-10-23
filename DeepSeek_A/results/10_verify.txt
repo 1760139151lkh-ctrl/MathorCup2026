@@ -1,0 +1,145 @@
+chem features: 231 sensory dims: 50
+2.csv rows: 231 unmapped/unmatched: 73
+unmapped: ['α-phellandrene', 'E-β-ocimene', 'Trans-dihydro-β-terpineol', 'Cis-β-terpineol', 'Cis-dihydro-β-terpineol', 'β-cyclohomocitral', 'Cinnamaldehyde', '4-ethyl-guaiacol', 'Trans-dihydro-α-terpinyl acetate', 'Terpiryl acetate', 'E,E-2,4-decadienal', 'Dimethoxy-E-citral', '2-butyl octanoate', 'E-β-damascenone', '4,8-α-epoxy-caryophyllane', 'Caryophyllene', 'E-α-ionone', 'β-humulene', 'Z-β-farnesene', 'E-β-farnesene']
+comparable pairs: 158
+2.csv vs Spearman-from-1.csv: r=1.0000, MAD=0.0000
+2.csv vs Pearson-from-1.csv: r=0.8055, MAD=0.0862
+5.csv shape (50, 50) sensory 50
+5.csv labels sample: ['Malt aroma - overall', 'Malt aroma - grain', 'Malt aroma - bread'] ...
+5.csv vs Spearman(4.csv): r=0.9785 MAD=0.0140
+==========================================================================================
+Calibrated dataset columns: ['beer', 'beer_id', 'tasting_category_fine', 'acetaldehyde', 'CS2', 'DES', 'DMS', 'ethyl_2.methyl_butyrate', 'ethyl_acetate', 'ethyl_decanoate', 'ethyl_hexanoate', 'ethyl_isovalerate', 'ethyl_octanoate', 'ethyl_propionate', 'H2S', 'isoamyl_alcohol', 'isobutanol', 'isobutyl_acetate', 'isopentyl_acetate', 'MeSH', 'octyl_acetate', 'phenethyl_acetate', 'phenethyl_alcohol', 'X4VG', 'SO2.mg.L.', 'acetic_acid.g.L.', 'ammonia.mg.L.', 'color.EBC.', 'betaglucan.mg.L.', 'lactic_acid.mg.L.', 'glycerol', 'iron', 'pH', 'protein.g.L.', 'bitterness', 'GFS', 'ethanol..v.v.', 'CO2.PSI.', 'unfermentables', 'kcalperc', 'X2.3.butanedione', 'X3.methylbutanal', 'ethyl.isobutyrate', 'ethyl.butyrate', 'X2.methyltetrahydrofuran.3.one', 'methylpyrazine', 'furfural', 'X3Z.hexenol', 'n.hexanol', 'styrene', 'ethyl.pentanoate', 'amyl.acetate', 'benzaldehyde', 'X5.methylfurfural', 'X2.ethyl.3.methylpyrazine', 'hexyl.acetate', 'benzyl.alcohol', 'phenylacetaldehyde', 'X.E..beta.ocimene', 'linalool', 'X.E..2.nonenal', 'diethyl.succinate', 'X1.alpha.terpineol', 'ethyl.nicotinate', 'citronellol', 'geraniol', 'X.E.E..2.4.decadienal', 'eugenol', 'gamma.nonalactone', 'X.E..beta.damascenone', 'E.caryophyllene', 'alpha.humulene', 'Z.nerolidol']
+calibrated cols matching 1.csv: 70 ['acetaldehyde', 'CS2', 'DES', 'DMS', 'ethyl_2.methyl_butyrate', 'ethyl_acetate', 'ethyl_decanoate', 'ethyl_hexanoate', 'ethyl_isovalerate', 'ethyl_octanoate', 'ethyl_propionate', 'H2S', 'isoamyl_alcohol', 'isobutanol', 'isobutyl_acetate', 'isopentyl_acetate', 'MeSH', 'octyl_acetate', 'phenethyl_acetate', 'phenethyl_alcohol']
+  acetaldehyde                 n=249 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  CS2                          n= 41 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  DES                          n=221 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  DMS                          n=249 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  ethyl_2.methyl_butyrate      n=165 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  ethyl_acetate                n=250 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  ethyl_decanoate              n=249 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  ethyl_hexanoate              n=249 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  ethyl_isovalerate            n=167 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  ethyl_octanoate              n=250 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  ethyl_propionate             n=240 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  H2S                          n=240 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  isoamyl_alcohol              n=248 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  isobutanol                   n=245 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  isobutyl_acetate             n=242 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  isopentyl_acetate            n=249 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  MeSH                         n=250 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  octyl_acetate                n=140 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  phenethyl_acetate            n=249 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  phenethyl_alcohol            n=250 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  X4VG                         n= 82 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  SO2.mg.L.                    n=249 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  acetic_acid.g.L.             n=248 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  ammonia.mg.L.                n=244 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  color.EBC.                   n=250 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  betaglucan.mg.L.             n=238 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  lactic_acid.mg.L.            n=250 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  glycerol                     n=250 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  iron                         n=247 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  pH                           n=250 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  protein.g.L.                 n=250 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  bitterness                   n=248 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  GFS                          n=244 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  ethanol..v.v.                n=249 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  CO2.PSI.                     n=211 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  unfermentables               n=249 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  kcalperc                     n=250 r(log10)=+1.0000 r(ln)=+1.0000 slope_ln=2.303
+  X2.3.butanedione             n=241 r(log10)=+0.3357 r(ln)=+0.3357 slope_ln=0.080
+  X3.methylbutanal             n=242 r(log10)=+0.2609 r(ln)=+0.2609 slope_ln=0.078
+  ethyl.isobutyrate            n=246 r(log10)=+0.5965 r(ln)=+0.5965 slope_ln=9.624
+  ethyl.butyrate               n=249 r(log10)=+0.6298 r(ln)=+0.6298 slope_ln=3.430
+  X2.methyltetrahydrofuran.3.one n=250 r(log10)=+0.4430 r(ln)=+0.4430 slope_ln=0.001
+  methylpyrazine               n=238 r(log10)=+0.3345 r(ln)=+0.3345 slope_ln=13.577
+  furfural                     n=248 r(log10)=+0.4176 r(ln)=+0.4176 slope_ln=6.177
+  X3Z.hexenol                  n=250 r(log10)=+0.6192 r(ln)=+0.6192 slope_ln=1.906
+  n.hexanol                    n=250 r(log10)=+0.6553 r(ln)=+0.6553 slope_ln=0.849
+  styrene                      n=250 r(log10)=+0.5060 r(ln)=+0.5060 slope_ln=3.057
+  ethyl.pentanoate             n=250 r(log10)=+0.6298 r(ln)=+0.6298 slope_ln=3.252
+  amyl.acetate                 n=223 r(log10)=+0.6374 r(ln)=+0.6374 slope_ln=190.375
+  benzaldehyde                 n=247 r(log10)=+0.6519 r(ln)=+0.6519 slope_ln=15.272
+  X5.methylfurfural            n=249 r(log10)=+0.6165 r(ln)=+0.6165 slope_ln=211.686
+  X2.ethyl.3.methylpyrazine    n=249 r(log10)=+0.6213 r(ln)=+0.6213 slope_ln=6.493
+  hexyl.acetate                n=250 r(log10)=+0.4751 r(ln)=+0.4751 slope_ln=0.815
+  benzyl.alcohol               n=246 r(log10)=+0.4372 r(ln)=+0.4372 slope_ln=32.950
+  phenylacetaldehyde           n=248 r(log10)=+0.5097 r(ln)=+0.5097 slope_ln=23.472
+  X.E..beta.ocimene            n=249 r(log10)=+0.5597 r(ln)=+0.5597 slope_ln=6.160
+  linalool                     n=247 r(log10)=+0.7304 r(ln)=+0.7304 slope_ln=0.278
+  X.E..2.nonenal               n=249 r(log10)=+0.4873 r(ln)=+0.4873 slope_ln=0.687
+  diethyl.succinate            n=247 r(log10)=+0.8085 r(ln)=+0.8085 slope_ln=4.251
+  X1.alpha.terpineol           n=250 r(log10)=+0.7433 r(ln)=+0.7433 slope_ln=0.780
+==========================================================================================
+type
+log              175
+raw_or_nonneg     56
+nonneg columns (possible raw-physical):
+                                      col  n_missing           min           max       mean         std  n_neg           type
+47         X2.methyltetrahydrofuran.3.one          0  2.974410e-04  12596.432870  51.285537  795.037938      0  raw_or_nonneg
+146                     gamma.nonalactone          0  2.296790e-04   7256.135876  73.138533  546.923103      0  raw_or_nonneg
+148                 X.E..beta.damascenone          0  4.363221e-03   5991.012523  26.533725  378.130529      0  raw_or_nonneg
+39                       X3.methylbutanal          7  5.500000e-09    127.059107   1.132215    9.565218      0  raw_or_nonneg
+38                       X2.3.butanedione          9  5.900000e-08    121.731018   2.745824   13.890533      0  raw_or_nonneg
+154                       E.caryophyllene          0  1.640000e-05     40.926660   0.336102    2.742008      0  raw_or_nonneg
+94                               linalool          0  1.317915e-02     32.484748   2.024999    4.497919      0  raw_or_nonneg
+108                        X.E..2.nonenal          0  6.140000e-05     14.910092   0.178601    1.235672      0  raw_or_nonneg
+120                           citronellol          0  6.587682e-03     11.741787   0.578305    1.134037      0  raw_or_nonneg
+74                          hexyl.acetate          0  1.693980e-04     10.808223   0.183996    0.782297      0  raw_or_nonneg
+117                    X1.alpha.terpineol          0  1.900819e-02     10.789342   0.717984    1.034014      0  raw_or_nonneg
+43                    X2.methyl.1.butanol          0  5.791555e+00      9.049597   8.214132    0.372557      0  raw_or_nonneg
+44                      isopentyl.formate          0  5.248896e+00      9.023886   8.170649    0.420870      0  raw_or_nonneg
+93                            terpinolene          0  4.017765e+00      8.756311   6.247480    0.796333      0  raw_or_nonneg
+57                    X3.methyl.2.hexanol          0  7.022097e+00      8.719027   7.748382    0.284203      0  raw_or_nonneg
+42                             n.pentanol          0  5.699395e+00      8.668641   7.926917    0.390873      0  raw_or_nonneg
+171                      X.E..beta.ionone          0  3.936970e+00      8.440701   5.037736    0.616944      0  raw_or_nonneg
+112                        ethyl.benzoate          0  3.698708e+00      8.422289   6.185249    0.648052      0  raw_or_nonneg
+58                       X3.furanmethanol          0  6.010021e+00      8.020248   6.725152    0.405682      0  raw_or_nonneg
+54                              n.hexanol          0  5.802034e-03      7.804922   0.506204    0.791956      0  raw_or_nonneg
+90                              n.octanol          0  4.757805e+00      7.798775   6.899442    0.458407      0  raw_or_nonneg
+95                             nonan.2.ol          0  4.512325e+00      7.389021   6.241101    0.458477      0  raw_or_nonneg
+46                    X3.methyl.2.butenal          0  4.813145e+00      7.353396   6.005474    0.355223      0  raw_or_nonneg
+65                             n.heptanol          0  4.838275e+00      7.248115   5.923129    0.405358      0  raw_or_nonneg
+71                  ethyl.hex..3E..enoate          0  4.454240e+00      7.233225   6.098235    0.398626      0  raw_or_nonneg
+111                            isoborneol          0  4.297496e+00      7.139664   5.730022    0.582160      0  raw_or_nonneg
+134  trans.dihydro.alpha.terpinyl.acetate          0  3.383275e+00      7.115463   5.532088    0.704962      0  raw_or_nonneg
+163                        alpha.humulene          0  8.797280e-04      6.062247   0.089944    0.549365      0  raw_or_nonneg
+228                        aroma_hops_sum         13  6.723284e-01      3.862224   2.075042    0.646449      0  raw_or_nonneg
+26                      lactic_acid.mg.L.          0  1.311754e+00      3.856578   2.280821    0.468681      0  raw_or_nonneg
+145                               eugenol          0  3.860000e-05      3.567576   0.061218    0.301853      0  raw_or_nonneg
+53                            X3Z.hexenol          0  1.319407e-03      3.423350   0.084683    0.365618      0  raw_or_nonneg
+55                                styrene          0  2.390150e-04      2.931369   0.106855    0.292581      0  raw_or_nonneg
+178                           Z.nerolidol          0  2.241990e-04      2.743349   0.068003    0.314534      0  raw_or_nonneg
+3                                     DMS          0  4.621120e-02      2.716380   1.392987    0.339382      0  raw_or_nonneg
+25                       betaglucan.mg.L.          0  9.691001e-02      2.603144   1.862985    0.570340      0  raw_or_nonneg
+24                             color.EBC.          0  6.532125e-01      2.476179   1.330447    0.401224      0  raw_or_nonneg
+127                              geraniol          0  6.300000e-06      2.225406   0.277349    0.375509      0  raw_or_nonneg
+36                               kcalperc          0  9.552864e-01      1.978454   1.737920    0.110938      0  raw_or_nonneg
+35                         unfermentables          0  7.096092e-02      1.896085   1.416143    0.287338      0  raw_or_nonneg
+48                         ethyl.butyrate          0  2.056210e-04      1.883684   0.127209    0.210645      0  raw_or_nonneg
+51                               furfural          1  6.450000e-08      1.818861   0.040933    0.148995      0  raw_or_nonneg
+225                      ethyl.pentanoate          0  4.320453e-03      1.678874   0.045132    0.156743      0  raw_or_nonneg
+83                      X.E..beta.ocimene          0  2.060560e-04      1.518681   0.036663    0.123879      0  raw_or_nonneg
+115                     diethyl.succinate          0  1.359126e-03      1.279588   0.211997    0.272262      0  raw_or_nonneg
+226             X2.ethyl.3.methylpyrazine          0  4.400000e-05      1.138484   0.039496    0.136269      0  raw_or_nonneg
+50                         methylpyrazine         12  2.400000e-08      0.896099   0.011657    0.076689      0  raw_or_nonneg
+45                      ethyl.isobutyrate          1  5.000000e-10      0.885720   0.098805    0.148105      0  raw_or_nonneg
+29                                     pH          0  5.705429e-01      0.674402   0.613943    0.017121      0  raw_or_nonneg
+63                           benzaldehyde          0  2.869330e-04      0.487929   0.018902    0.056369      0  raw_or_nonneg
+82                     phenylacetaldehyde          1  2.430000e-07      0.362993   0.023098    0.041133      0  raw_or_nonneg
+80                         benzyl.alcohol          0  2.850000e-08      0.335620   0.013978    0.040152      0  raw_or_nonneg
+119                      ethyl.nicotinate          2  2.400000e-07      0.305615   0.031070    0.045902      0  raw_or_nonneg
+138                 X.E.E..2.4.decadienal          0  4.000000e-08      0.164756   0.005531    0.020211      0  raw_or_nonneg
+61                           amyl.acetate         27  1.000000e-09      0.074073   0.007771    0.010457      0  raw_or_nonneg
+64                      X5.methylfurfural          0  1.100000e-05      0.039861   0.001281    0.003117      0  raw_or_nonneg
+missing cells: 73
+                    col  n_missing           min         max      mean        std  n_neg           type
+38     X2.3.butanedione          9  5.900000e-08  121.731018  2.745824  13.890533      0  raw_or_nonneg
+39     X3.methylbutanal          7  5.500000e-09  127.059107  1.132215   9.565218      0  raw_or_nonneg
+45    ethyl.isobutyrate          1  5.000000e-10    0.885720  0.098805   0.148105      0  raw_or_nonneg
+50       methylpyrazine         12  2.400000e-08    0.896099  0.011657   0.076689      0  raw_or_nonneg
+51             furfural          1  6.450000e-08    1.818861  0.040933   0.148995      0  raw_or_nonneg
+61         amyl.acetate         27  1.000000e-09    0.074073  0.007771   0.010457      0  raw_or_nonneg
+82   phenylacetaldehyde          1  2.430000e-07    0.362993  0.023098   0.041133      0  raw_or_nonneg
+119    ethyl.nicotinate          2  2.400000e-07    0.305615  0.031070   0.045902      0  raw_or_nonneg
+228      aroma_hops_sum         13  6.723284e-01    3.862224  2.075042   0.646449      0  raw_or_nonneg

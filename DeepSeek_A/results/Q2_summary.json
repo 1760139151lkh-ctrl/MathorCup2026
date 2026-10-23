@@ -1,0 +1,26 @@
+{
+  "n_candidates": 218,
+  "graph": {
+    "n_nodes": 218,
+    "n_edges": 591,
+    "density": 0.024986259671077666,
+    "threshold": 0.5,
+    "n_communities": 61,
+    "modularity": 0.6494871966398863,
+    "mean_degree": 5.422018348623853
+  },
+  "stability": {
+    "bootstrap_B": 100,
+    "mean_top3_frequency": 0.5003333333333333,
+    "mean_final_top3_frequency": 0.4632,
+    "mean_jaccard_methods": 0.337
+  },
+  "rationality": {
+    "marker_hit_top3": 0.22,
+    "marker_hit_top10": 0.52,
+    "origin_consistent": 0.72,
+    "R2_top3_only_mean": 0.17412298954386732,
+    "R2_all_features_mean": 0.19960683370598406
+  },
+  "alpha_lasso": 0.21544346900318823
+}

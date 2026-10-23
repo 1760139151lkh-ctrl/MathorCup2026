@@ -1,0 +1,530 @@
+{
+  "best_model": "条件变分自编码器（CVAE）",
+  "model_scores": {
+    "条件 PPCA（概率主成分）": 0.5814613545614977,
+    "条件变分自编码器（CVAE）": 0.90468063968889
+  },
+  "real_style_classifier_acc": 0.5640000000000001,
+  "evaluation": [
+    {
+      "model": "条件 PPCA（概率主成分）",
+      "style": "Tripel",
+      "style_fidelity": 0.335,
+      "sensory_corr": 0.5061365169134412,
+      "MMD": 0.23707215471970933,
+      "defect_exceed_rate": 0.0,
+      "real_defect_exceed_rate": 1.0,
+      "diversity": 13.037602147699705
+    },
+    {
+      "model": "条件 PPCA（概率主成分）",
+      "style": "Kriek",
+      "style_fidelity": 0.645,
+      "sensory_corr": 0.9331622316289703,
+      "MMD": 0.32361304631554555,
+      "defect_exceed_rate": 0.0,
+      "real_defect_exceed_rate": 0.8,
+      "diversity": 13.020936189709937
+    },
+    {
+      "model": "条件 PPCA（概率主成分）",
+      "style": "Lambic",
+      "style_fidelity": 0.425,
+      "sensory_corr": 0.91003905301992,
+      "MMD": 0.3472215181313566,
+      "defect_exceed_rate": 0.37,
+      "real_defect_exceed_rate": 0.9090909090909091,
+      "diversity": 13.021147286305434
+    },
+    {
+      "model": "条件变分自编码器（CVAE）",
+      "style": "Tripel",
+      "style_fidelity": 0.9,
+      "sensory_corr": 0.8780716965489752,
+      "MMD": 0.17275407940655196,
+      "defect_exceed_rate": 0.0,
+      "real_defect_exceed_rate": 1.0,
+      "diversity": 7.023976755750022
+    },
+    {
+      "model": "条件变分自编码器（CVAE）",
+      "style": "Kriek",
+      "style_fidelity": 0.935,
+      "sensory_corr": 0.9591656105849216,
+      "MMD": 0.23449750126551916,
+      "defect_exceed_rate": 0.0,
+      "real_defect_exceed_rate": 0.8,
+      "diversity": 7.148945777432938
+    },
+    {
+      "model": "条件变分自编码器（CVAE）",
+      "style": "Lambic",
+      "style_fidelity": 0.995,
+      "sensory_corr": 0.9854544608106479,
+      "MMD": 0.21439623391680235,
+      "defect_exceed_rate": 0.365,
+      "real_defect_exceed_rate": 0.9090909090909091,
+      "diversity": 5.067460516549502
+    }
+  ],
+  "generated_styles": [
+    "Tripel",
+    "Kriek",
+    "Lambic"
+  ],
+  "generated_per_style": 200,
+  "defect_definition": [
+    {
+      "compound": "DMS",
+      "transform": "log10",
+      "threshold": 17.25,
+      "unit": "ug/L"
+    },
+    {
+      "compound": "X4VG",
+      "transform": "log10",
+      "threshold": 0.206333,
+      "unit": "mg/L"
+    },
+    {
+      "compound": "X2.3.butanedione",
+      "transform": "raw",
+      "threshold": 0.29925,
+      "unit": "mg/L"
+    },
+    {
+      "compound": "X.E..2.nonenal",
+      "transform": "raw",
+      "threshold": 0.35,
+      "unit": "ug/L"
+    }
+  ],
+  "transfer": {
+    "source": "Pils/Lager",
+    "target": "Tripel",
+    "n_source": 11,
+    "P_Tripel_before": 0.0,
+    "P_Tripel_after": 0.48000000000000004,
+    "sensory_corr_before": -0.13979166046867933,
+    "sensory_corr_after": 0.8070136402759168,
+    "defect_flags_before": 0.45454545454545453,
+    "defect_flags_after": 0.36363636363636365,
+    "non_worsen_rate": 1.0
+  },
+  "fingerprint": {
+    "Tripel": {
+      "up": [
+        {
+          "compound": "esters_sum",
+          "delta_z": 0.7807699790969479
+        },
+        {
+          "compound": "ethyl_octanoate",
+          "delta_z": 0.6445723367854956
+        },
+        {
+          "compound": "isopentyl_acetate",
+          "delta_z": 0.6442451475188138
+        },
+        {
+          "compound": "ethyl_hexanoate",
+          "delta_z": 0.627689968049526
+        },
+        {
+          "compound": "kcalperc",
+          "delta_z": 0.6099592711031459
+        },
+        {
+          "compound": "DMS",
+          "delta_z": 0.5944748917555033
+        },
+        {
+          "compound": "sulfur_sum",
+          "delta_z": 0.5842358904331907
+        },
+        {
+          "compound": "isobutyl_acetate",
+          "delta_z": 0.5786916841194053
+        },
+        {
+          "compound": "ethyl_acetate",
+          "delta_z": 0.5778865370154371
+        },
+        {
+          "compound": "acetaldehyde",
+          "delta_z": 0.564019851596094
+        }
+      ],
+      "down": [
+        {
+          "compound": "X2.6.dimethyl.pyrazine",
+          "delta_z": -0.7161501178145416
+        },
+        {
+          "compound": "color.EBC.",
+          "delta_z": -0.6443701831437657
+        },
+        {
+          "compound": "methylpyrazine",
+          "delta_z": -0.6148329447209846
+        },
+        {
+          "compound": "X3.furanmethanol",
+          "delta_z": -0.5339143175259292
+        },
+        {
+          "compound": "X4.ethyl.guaiacol",
+          "delta_z": -0.5302016902901212
+        },
+        {
+          "compound": "trans.dihydro.beta.terpineol",
+          "delta_z": -0.48652774678543276
+        },
+        {
+          "compound": "phenethyl_alcohol",
+          "delta_z": -0.48514283314347323
+        },
+        {
+          "compound": "neryl.formate",
+          "delta_z": -0.44351040070876263
+        },
+        {
+          "compound": "dimethoxy..E..citral",
+          "delta_z": -0.3677912832051495
+        },
+        {
+          "compound": "isopropyl.hexadecanoate",
+          "delta_z": -0.36576994495466264
+        }
+      ],
+      "sensory_mean": {
+        "A_malt_all": -0.030846420136137524,
+        "A_malt_grain": 0.029032984766612493,
+        "A_malt_bread": 0.09164712032843748,
+        "A_malt_cara": -0.026273869753099973,
+        "A_malt_burn": -0.07965723674429999,
+        "A_hops_all": 0.1842480625085874,
+        "A_hops_citrus": 0.04789577536647501,
+        "A_hops_tropical": 0.1011161248565,
+        "A_hops_noble": 0.13743513935019988,
+        "A_hops_woody": -0.030337365966537508,
+        "A_esters_all": 0.11364337873108749,
+        "A_esters_ethac": 0.08586618153912501,
+        "A_esters_isoaa": 0.09937747759451245,
+        "A_esters_flower": 0.009418984360924997,
+        "A_esters_fruity": -0.009564426245062523,
+        "F_malt_all": 0.05089594293431248,
+        "F_malt_grain": 0.05932416652061251,
+        "F_malt_bread": 0.10814609165824997,
+        "F_malt_cara": -0.020795801372249994,
+        "F_malt_burn": -0.03879487554302507,
+        "F_hops_all": 0.20657025556623748,
+        "F_hops_citrus": 0.043817348626387476,
+        "F_hops_tropical": 0.06812769901042501,
+        "F_hops_noble": 0.1658732484020625,
+        "F_hops_woody": 0.034182799088125014,
+        "F_esters_all": 0.1555418704293499,
+        "F_esters_ethac": 0.12739558472397497,
+        "F_esters_isoaa": 0.13064644486177493,
+        "F_esters_flower": 0.017988782334337487,
+        "F_esters_fruity": -0.016937577667000003,
+        "acidity": -0.20565472326943746,
+        "bitternes": 0.1906251566174374,
+        "sweetness": -0.05537977363985,
+        "X4vg": 0.11123140670667489,
+        "diacetyl": -0.016204546476062474,
+        "dms": 0.03417788996097499,
+        "metallic": 0.03429060944498749,
+        "stale_hops": -0.028362699825412535,
+        "t2n": -0.021604891694612504,
+        "orange": -0.05464365756391256,
+        "coriander": 0.010127043419925043,
+        "clove": -0.04317284724647497,
+        "lactic": -0.18675345794942505,
+        "acetic": -0.19101785513887484,
+        "barnyard": -0.02760800291878751,
+        "alcohol": 0.2941990917023002,
+        "aftertaste": 0.09413061718161254,
+        "body": 0.14335789104977503,
+        "co2": 0.18922057417645002,
+        "overall": 0.08197730167486243
+      }
+    },
+    "Kriek": {
+      "up": [
+        {
+          "compound": "benzyl.alcohol",
+          "delta_z": 3.448123339414597
+        },
+        {
+          "compound": "eugenol",
+          "delta_z": 2.384931162782013
+        },
+        {
+          "compound": "ethyl.benzoate",
+          "delta_z": 2.3727290585637086
+        },
+        {
+          "compound": "benzaldehyde",
+          "delta_z": 2.2219708524271846
+        },
+        {
+          "compound": "lactic_acid.mg.L.",
+          "delta_z": 2.197680996432895
+        },
+        {
+          "compound": "X.E..beta.ocimene",
+          "delta_z": 2.0068769901990895
+        },
+        {
+          "compound": "acids_sum",
+          "delta_z": 1.7847850549593571
+        },
+        {
+          "compound": "X4.ethyl.phenol",
+          "delta_z": 1.620100826472046
+        },
+        {
+          "compound": "X3.furanmethanol",
+          "delta_z": 1.5964328610151945
+        },
+        {
+          "compound": "X4.ethyl.guaiacol",
+          "delta_z": 1.5539790526777526
+        }
+      ],
+      "down": [
+        {
+          "compound": "humulene.epoxide.II",
+          "delta_z": -1.9574918170273314
+        },
+        {
+          "compound": "DES",
+          "delta_z": -1.6119439197331666
+        },
+        {
+          "compound": "tau.muurolol",
+          "delta_z": -1.584471643790601
+        },
+        {
+          "compound": "alpha.muurolol",
+          "delta_z": -1.4605036057718084
+        },
+        {
+          "compound": "CO2.PSI.",
+          "delta_z": -1.375362003147602
+        },
+        {
+          "compound": "X1.10.di.epi.cubenol",
+          "delta_z": -1.3738810101151486
+        },
+        {
+          "compound": "bitterness",
+          "delta_z": -1.310727157890797
+        },
+        {
+          "compound": "betaglucan.mg.L.",
+          "delta_z": -1.2451238331943746
+        },
+        {
+          "compound": "caryophyllene.oxide",
+          "delta_z": -1.1964186599850648
+        },
+        {
+          "compound": "isopentyl_acetate",
+          "delta_z": -1.1892472932487723
+        }
+      ],
+      "sensory_mean": {
+        "A_malt_all": -0.2327790887347871,
+        "A_malt_grain": -0.06881900194274997,
+        "A_malt_bread": -0.10595117654751265,
+        "A_malt_cara": -0.18589971932489965,
+        "A_malt_burn": -0.13036452538900023,
+        "A_hops_all": -0.39685512300341197,
+        "A_hops_citrus": -0.23765114635871223,
+        "A_hops_tropical": -0.15152848865473778,
+        "A_hops_noble": -0.2849771769532,
+        "A_hops_woody": -0.045894612248875005,
+        "A_esters_all": 0.29642107857108785,
+        "A_esters_ethac": -0.016125914815674946,
+        "A_esters_isoaa": 0.11165524004417479,
+        "A_esters_flower": 0.11890284873043745,
+        "A_esters_fruity": 0.33982612633698733,
+        "F_malt_all": -0.39325224929879943,
+        "F_malt_grain": -0.09483742548232513,
+        "F_malt_bread": -0.22815700457608792,
+        "F_malt_cara": -0.18865783970275007,
+        "F_malt_burn": -0.2607674817862627,
+        "F_hops_all": -0.5319463741890383,
+        "F_hops_citrus": -0.21453918019448723,
+        "F_hops_tropical": -0.08919983006398718,
+        "F_hops_noble": -0.38706880320429954,
+        "F_hops_woody": -0.1930478625235876,
+        "F_esters_all": 0.2596167434674,
+        "F_esters_ethac": 0.07464782053882503,
+        "F_esters_isoaa": 0.10658369840107518,
+        "F_esters_flower": 0.17752990020375006,
+        "F_esters_fruity": 0.3271572853627871,
+        "acidity": 1.3512887707431254,
+        "bitternes": -0.7115612799905628,
+        "sweetness": 0.23752604286185008,
+        "X4vg": -0.3663236694203251,
+        "diacetyl": -0.019715304779462386,
+        "dms": -0.16940594525261246,
+        "metallic": -0.23212945140031235,
+        "stale_hops": -0.07610462015955005,
+        "t2n": -0.025923974125512506,
+        "orange": 0.009071754515599934,
+        "coriander": -0.05856810977909996,
+        "clove": -0.07849709264760014,
+        "lactic": 1.109192365311786,
+        "acetic": 1.0260215369743129,
+        "barnyard": -0.06955831167677501,
+        "alcohol": -0.5274061818814129,
+        "aftertaste": 0.026400699559125048,
+        "body": -0.24989234575257502,
+        "co2": -0.31983111469232517,
+        "overall": -0.08378780642027499
+      }
+    },
+    "Lambic": {
+      "up": [
+        {
+          "compound": "lactic_acid.mg.L.",
+          "delta_z": 2.2197565847635214
+        },
+        {
+          "compound": "acids_sum",
+          "delta_z": 1.8853736320137982
+        },
+        {
+          "compound": "X3.furanmethanol",
+          "delta_z": 1.6976566721871436
+        },
+        {
+          "compound": "X4.ethyl.guaiacol",
+          "delta_z": 1.6129988574236651
+        },
+        {
+          "compound": "X4.ethyl.phenol",
+          "delta_z": 1.5249700931459684
+        },
+        {
+          "compound": "acetic_acid.g.L.",
+          "delta_z": 1.3721386776119462
+        },
+        {
+          "compound": "prenyl.isobutyrate",
+          "delta_z": 1.2822956064715996
+        },
+        {
+          "compound": "neryl.formate",
+          "delta_z": 1.2604018300771735
+        },
+        {
+          "compound": "ethyl_isovalerate",
+          "delta_z": 1.2141573403030606
+        },
+        {
+          "compound": "ethyl_2.methyl_butyrate",
+          "delta_z": 1.1922989931236896
+        }
+      ],
+      "down": [
+        {
+          "compound": "pH",
+          "delta_z": -2.0415650273859542
+        },
+        {
+          "compound": "X3.methylthio.propanol",
+          "delta_z": -1.704961674767546
+        },
+        {
+          "compound": "phenylacetaldehyde",
+          "delta_z": -1.5895657020062206
+        },
+        {
+          "compound": "alpha.muurolol",
+          "delta_z": -1.5449666064232574
+        },
+        {
+          "compound": "X4.8.alpha.epoxy.caryophyllane",
+          "delta_z": -1.4582948568463316
+        },
+        {
+          "compound": "neo.allo.ocimene",
+          "delta_z": -1.4553921623527992
+        },
+        {
+          "compound": "E.cinnamaldehyde",
+          "delta_z": -1.418558072894811
+        },
+        {
+          "compound": "isopentyl_acetate",
+          "delta_z": -1.2600740523636338
+        },
+        {
+          "compound": "CO2.PSI.",
+          "delta_z": -1.2192083831131455
+        },
+        {
+          "compound": "X13.epi.manool.oxide",
+          "delta_z": -1.2178037306666363
+        }
+      ],
+      "sensory_mean": {
+        "A_malt_all": -0.22950210141889965,
+        "A_malt_grain": -0.009410915903925005,
+        "A_malt_bread": -0.12333049515607503,
+        "A_malt_cara": -0.19048519750112475,
+        "A_malt_burn": -0.15581230607428787,
+        "A_hops_all": -0.26517581699616244,
+        "A_hops_citrus": -0.17679628608755008,
+        "A_hops_tropical": -0.1835381481734253,
+        "A_hops_noble": -0.12458584559817495,
+        "A_hops_woody": -0.015793673884425034,
+        "A_esters_all": 0.00014145076336248054,
+        "A_esters_ethac": -0.0762448288614375,
+        "A_esters_isoaa": -0.07766023489620015,
+        "A_esters_flower": -0.054729215872512456,
+        "A_esters_fruity": 0.07228388130983747,
+        "F_malt_all": -0.39204154153618803,
+        "F_malt_grain": -0.04085379308890005,
+        "F_malt_bread": -0.2123657225756624,
+        "F_malt_cara": -0.21743960437886214,
+        "F_malt_burn": -0.3007092026609623,
+        "F_hops_all": -0.4045079830497499,
+        "F_hops_citrus": -0.13240035948292495,
+        "F_hops_tropical": -0.1405154174909247,
+        "F_hops_noble": -0.2378733363918371,
+        "F_hops_woody": -0.20037061363716252,
+        "F_esters_all": 0.015361573148612463,
+        "F_esters_ethac": -0.041861391666774994,
+        "F_esters_isoaa": -0.013696345068924918,
+        "F_esters_flower": -0.02544648519487502,
+        "F_esters_fruity": 0.11739722406724998,
+        "acidity": 1.469018342155449,
+        "bitternes": -0.6107381930149872,
+        "sweetness": 0.03893094562926252,
+        "X4vg": -0.3590745993083123,
+        "diacetyl": 0.004158045748987566,
+        "dms": -0.09860029303804986,
+        "metallic": -0.07824599937035001,
+        "stale_hops": 0.07015496419127493,
+        "t2n": -0.016804344425012472,
+        "orange": 0.12769231261071257,
+        "coriander": -0.027115710601262503,
+        "clove": -0.13601749135475014,
+        "lactic": 1.2248551703100363,
+        "acetic": 1.2349277882190877,
+        "barnyard": 0.08557328643848747,
+        "alcohol": -0.5326720482468131,
+        "aftertaste": 0.06795373382058746,
+        "body": -0.2130605455183625,
+        "co2": -0.1975492390364251,
+        "overall": 0.028491145165575004
+      }
+    }
+  }
+}

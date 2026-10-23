@@ -1,0 +1,7 @@
+﻿compound,name,dim,threshold,n_above,median_sensory_above,median_sensory_below,p_value_one_sided
+DMS,Dimethyl sulfide,dms,17.25,27,-0.038016059,-0.125332508,0.2130010132330507
+X2.3.butanedione,Diacetyl,diacetyl,0.29925,96,-0.2112024775,-0.140910835,0.9252551860525869
+X4VG,4-vinylguaiacol,X4vg,0.206333,82,0.126177145,-0.3338102035,1.421687199776015e-12
+X.E..2.nonenal,E-2-nonenal,t2n,1.272517057768258,25,-0.157769153,-0.073141848,0.8666703611889797
+lactic_acid.mg.L.,Lactic acid,lactic,416.6667,0,,-0.304324965,
+acetic_acid.g.L.,Acetic acid,acetic,0.14025,111,-0.265117304,-0.276372668,9.544878399823265e-07
