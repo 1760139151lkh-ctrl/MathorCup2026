@@ -1,6 +1,6 @@
 {
   "round": "round3",
-  "updated_utc": "2026-10-24T10:21:28.891098+00:00",
+  "updated_utc": "2026-10-24T10:26:17.873778+00:00",
   "status": "q1_q2_q3_core_integrated_q4_and_coupling_pending",
   "reviewer": "main advisor and independent AI read-only reviewers; not human scientific adoption",
   "q1": {
@@ -120,6 +120,53 @@
       "height_semantics": "ctopo0 vertical input/output; internal normal conversion explicit",
       "native_float32_surface_constant_wet_cells": 216,
       "conclusion": "Pure-fluid static target applies; measured60m csurface0 configuration does not preserve expected rest. Discrete/shoreline/slope sources not separated; not a universal constitutive-law failure or blanket rejection of granular regional routes."
+    },
+    "time_step_pair": {
+      "control_difference": "CFL0.5 versus0.25 only; native run_grass and paramcomm independently checked",
+      "horizontal_saved_peak_m_s": [
+        92.394,
+        53.256
+      ],
+      "native_all_step_peak_m_s": [
+        152.356,
+        92.633
+      ],
+      "junction_saved_brackets_s": [
+        [
+          420.9,
+          441.3
+        ],
+        [
+          461.0,
+          480.7
+        ]
+      ],
+      "port_threshold_hits": [
+        false,
+        false
+      ],
+      "conclusion": "not converged; native full-step velocity difference also large, not only saved-frame sampling; smaller physical effect cannot yet be isolated"
+    },
+    "entrainment_pair": {
+      "registered_bed_cells": 663,
+      "erodible_bed_max_m": 1,
+      "capacity_m3": 9547200,
+      "native_entrained_volume_m3": 5618430,
+      "bed_change_integral_m3": 5618419.199,
+      "same_density_kg_m3": 2105,
+      "added_mass_kg": 11826795150,
+      "raster_source_adjusted_residual_pct": -1.17468,
+      "native_internal_source_adjusted_residual_pct": -1.1572,
+      "reference_raster_residual_pct": -1.04065,
+      "reference_native_residual_pct": -1.02627,
+      "stationary_residual_definition": "h>=0.1m and horizontal speed<0.1m/s at final stored frame",
+      "stationary_residual_volume_both_m3": 0,
+      "entrained_junction_saved_bracket_s": [
+        400.1,
+        421.7
+      ],
+      "native_controls": "centrainment1; hentrmax1 erodible_bed; entrainment -7,0; ctopo0; cmelt0; cstopping0",
+      "conclusion": "material growth has independent registered source budget; residual kept; apparent speed/arrival changes not separated from CFL sensitivity; final thickness is not permanent deposit"
     }
   },
   "q4_mapped_v2_review": {

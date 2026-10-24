@@ -69,7 +69,7 @@
       "previous_source_commit": "539df84bec574a27e3288c3dc944a87e692d7f4c",
       "git_branch": "codex/track-b-q3-r3",
       "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
-      "status": "core_research_integrated_pending_mapped_propagation",
+      "status": "core_and_domain_mapped_v2_integrated_pending_fullmask",
       "dispatch_sent": true,
       "dispatch_at_utc": "2026-10-24T07:27:07.551750+00:00",
       "startup_verification": {
@@ -80,10 +80,16 @@
         "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial",
         "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official"
       ],
-      "source_commit": "bb9258d791a6e9735c28528ff4408c7434c3d149",
-      "integration_commit": "15eec61aad14de43c06963771642f1e6b624aedf",
+      "source_commit": "eb3dc6b2ff4c67d8968b3fabce2aaddb15a9edb3",
+      "integration_commit": "980258d04780dfc2dee1c675ccdd8d8c5c7ded22",
       "output_files_verified": 511,
-      "final_output_manifest_sha256": "be979b3449118d8332ca7ff07c52c8c503889650246be8c97ac4d2f8565ee5b9"
+      "final_output_manifest_sha256": "be979b3449118d8332ca7ff07c52c8c503889650246be8c97ac4d2f8565ee5b9",
+      "increment_manifests": [
+        "track_b/research/q3/round3/results/applicability_sensitivity/INPUT_MANIFEST.json",
+        "track_b/research/q3/round3/results/applicability_sensitivity/OUTPUT_MANIFEST.json",
+        "track_b/research/q3/round3/results/followup_v2/input_manifest.json",
+        "track_b/research/q3/round3/results/followup_v2/output_manifest.json"
+      ]
     },
     {
       "question": "q4",
