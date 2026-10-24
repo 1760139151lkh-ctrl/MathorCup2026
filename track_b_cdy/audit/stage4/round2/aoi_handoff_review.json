@@ -1,0 +1,61 @@
+{
+  "round": "round2",
+  "generated_at_utc": "2026-10-24T06:05:16.453337+00:00",
+  "reviewer": "main_advisor_AI_technical_review",
+  "status": "adopted_for_search_only",
+  "human_scientific_geometry_acceptance": "pending",
+  "source_question": "q4",
+  "consumer_question": "q2",
+  "version": "q4-r2-fig1-search-v1",
+  "geometry_sha256": "14db392ea6d318c2df34152af950b227653fd1f938aed1f4aa9eedf92c29579f",
+  "evidence_sha256": "78ff69266903ee77626679b0bba542ec36f1e73e3d39581909543d63ba262d14",
+  "bbox_west_south_east_north": [
+    85.35717450521027,
+    28.261058229928057,
+    85.54598368048458,
+    28.34920248297248
+  ],
+  "area_m2_epsg32645": 175360939.0348353,
+  "checks": {
+    "valid_polygon": true,
+    "three_map_search_anchors_inside": true,
+    "paper_page_and_300dpi_crop_actually_viewed": true,
+    "longitude_tick_values_and_crop_coordinates_visually_checked": true,
+    "longitude_holdout_error_m": 20.847632601753833,
+    "latitude_independent_holdout_available": false,
+    "original_map_accuracy_known": false,
+    "original_datum_verified": false,
+    "search_padding_m": 2000,
+    "padding_is_accuracy_or_confidence_bound": false
+  },
+  "allowed_use": "Search AOI and scene-footprint coverage only; no release geometry, volume, true flowpath or pre-event predictor. Separate advisor record supersedes producer pending review only for this limited role.",
+  "source_crop_sha256_actually_viewed": "31c063dc8947e5fd4fd12e7dfb2fffa86b641c785de48751f3b314d52917279d",
+  "common_baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+  "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+  "files": [
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round2/results/search_aoi.geojson",
+      "delivered_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round2/inputs/search_aoi.geojson",
+      "bytes": 1225,
+      "sha256": "14db392ea6d318c2df34152af950b227653fd1f938aed1f4aa9eedf92c29579f"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round2/results/search_aoi_evidence.json",
+      "delivered_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round2/inputs/search_aoi_evidence.json",
+      "bytes": 6107,
+      "sha256": "78ff69266903ee77626679b0bba542ec36f1e73e3d39581909543d63ba262d14"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round2/results/georeference_review.json",
+      "delivered_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round2/inputs/georeference_review.json",
+      "bytes": 3453,
+      "sha256": "beda557273033ea212d6fcd523661864220f79aee095541db5c48b79b246ee68"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round2/results/georeference_controls.csv",
+      "delivered_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round2/inputs/georeference_controls.csv",
+      "bytes": 1088,
+      "sha256": "6e404e7bf960ed2798cc85a576f9a85c4e7a10aba2cff7d1dc6776bac8a1f4e1"
+    }
+  ]
+}

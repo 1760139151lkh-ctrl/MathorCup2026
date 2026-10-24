@@ -1,0 +1,74 @@
+{
+  "status": "completed",
+  "seed": 20261024,
+  "real_physical_groups": 14,
+  "observed_failure_groups": 0,
+  "right_censored_groups": 14,
+  "administrative_censor_fraction": 0.5,
+  "numerical_grid_max_nodes": 512,
+  "anchors_only": false,
+  "evaluation_stratum": "conditional_scenario",
+  "censored_groups_are_new_real_nonfailure_sites": false,
+  "monitored_model_exposure_hours": 27340.679444443886,
+  "guaranteed_survival_exposure_hours": 27340.679444443886,
+  "interval_label_width_hours": 0.0,
+  "risk_intervals": 3296,
+  "raw_prediction_rows": 1879008,
+  "model_branches": 4,
+  "future_cutoff_or_probability_violations": [],
+  "inputs": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/deformation/observations.csv",
+      "bytes": 17528504,
+      "sha256": "355cfb1c8f44ef9048be8df4fdaaa5396019e0a4e0260665a1c5bb7acc662c3b"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/deformation/site_registry.csv",
+      "bytes": 9080,
+      "sha256": "3414206069197b945d8286d404ff98d17988b00fb16945cef11966d346c80303"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/EXPERIMENT_PROTOCOL.md",
+      "bytes": 5913,
+      "sha256": "f292f8011f75be4234a3ef15cbb917f6e305dfdfdcaf349988db9a8bd35a5447"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/sources/survival_engine_c_record_age_aade36485d977136b5ede96e0dd729ef0235756fe6d5cf48435a525c442e9e88.py",
+      "bytes": 48783,
+      "sha256": "aade36485d977136b5ede96e0dd729ef0235756fe6d5cf48435a525c442e9e88"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/survival/stampa_observations.csv",
+      "bytes": 109020,
+      "sha256": "8e10eeca979ef1838d238e202503e621914cd546e7d84678bc54887fcf9565fa"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/survival/stampa_site_registry.csv",
+      "bytes": 630,
+      "sha256": "d7c9d8cdb551d8bfdda4bd179c6f86f01f94765f3168c002c238206ed0b4358c"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/EXPERIMENT_AMENDMENT_CENSOR.md",
+      "bytes": 833,
+      "sha256": "e32a5da8c5e63b463b48426df3743b54766937cd012974dab2e870e9448a37f4"
+    }
+  ],
+  "utc": "source UTC absent retained native relative clocks",
+  "limitations": [
+    "Case-selection conditional probability, not operational population risk",
+    "Rolling rows are dependent; physical group count is the independent denominator",
+    "Frozen-covariate finite-horizon model; no measured main-region initiation truth",
+    "Model-internal conditional 95% interval is not a validated 95% coverage guarantee",
+    "Crossfit scale calibration has no independent calibration-set guarantee",
+    "Censor KM assumes transferable independent censoring; actual assumption unverified",
+    "For interval event labels IPCW censor KM uses upper endpoint as event-removal bound; report score bounds alongside it",
+    "Sensor preprocessing may have used retrospective smoothing in original data",
+    "No event label or verified censor follow-up means excluded from likelihood"
+  ],
+  "model_domain_role": "curation_sensitive_challenge_record_age",
+  "feature_specification": "record_age_curation_sensitive_challenge",
+  "executed_source_sha256": "aade36485d977136b5ede96e0dd729ef0235756fe6d5cf48435a525c442e9e88",
+  "executed_source_original_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/scripts/engine_c.py",
+  "executed_source_snapshot": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/sources/survival_engine_c_record_age_aade36485d977136b5ede96e0dd729ef0235756fe6d5cf48435a525c442e9e88.py",
+  "metadata_binding_note": "Original source snapshot frozen before scientific no-record-age correction; runtime bytecode used this source. No predictions/fit parameters altered."
+}

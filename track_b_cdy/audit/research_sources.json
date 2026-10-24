@@ -1,0 +1,794 @@
+{
+  "schema_version": "1.0",
+  "prepared_for": "MathorCup2026 赛道B 阶段1–2",
+  "as_of_user_date": "2026-10-23",
+  "user_timezone": "America/New_York",
+  "scope": "定向研究依据、外部官方数据源可行性及采用门槛；不替队员完成核心建模、算法求解或结论计算。",
+  "verification_policy": "每条记录区分实际读取范围和未知项；只把原始研究、作者官方机构库/代码及官方数据文档当依据。检索命中/产品可覆盖不等于实际下载解码成功。",
+  "research": [
+    {
+      "id": "R01",
+      "title": "The 26 August 2026 Chhochen Khola ice-rock avalanche-debris flow cascade on the Nepal-China border: dynamics, numerical computation, and causes",
+      "authors": "Li Hao; Li Pu; Hu Kaiheng; Liu Junyu; Liu Shuang; Kang Shichang; Su Pengcheng; You Yong",
+      "year": 2026,
+      "type": "原始研究；期刊官网摘要",
+      "doi": "10.1007/s11629-026-1482-y",
+      "url": "https://jms.imde.ac.cn/en/article/doi/10.1007/s11629-026-1482-y",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "supports": "本次事件可按冰岩体失稳、撞击卷入、下游泥石流分阶段审视；作者分别用一维深度平均 Voellmy 和 Saint-Venant 模型。摘要称事前没有单一极端降雨或温度异常，提出长期变暖、冰川退缩、地质条件和冻融的复合作用。",
+      "limits": "同一事件的事后反演不能充作独立验证集；摘要不足以核验体积、时间、摩擦参数与误差，文中数值只列为待原文核对的文献估计。无单一异常不等于排除气象作用，也不能证明因果。",
+      "read_scope": "已读官网标题、作者、摘要全文；HTML 未返回正文和参考文献细节。DOI、2026-08-26 日期由原站核对。",
+      "next_read": "取得正式全文及附录，核对数据时间截止、阶段边界、参数表和校准证据。"
+    },
+    {
+      "id": "R02",
+      "title": "A massive rock and ice avalanche caused the 2021 disaster at Chamoli, Indian Himalaya",
+      "authors": "Dan H. Shugar; Mylène Jacquemart; David Shean 等",
+      "year": 2021,
+      "type": "原始研究；作者机构库摘要",
+      "doi": "10.1126/science.abh4455",
+      "url": "https://doi.org/10.1126/science.abh4455",
+      "verified_url": "https://eprints.ncl.ac.uk/275391",
+      "questions": [
+        "Q1",
+        "Q4"
+      ],
+      "supports": "结合卫星、地震、数值模拟和视频的证据链，可辨认岩冰崩向高流动性碎屑流转化，并交叉约束物源与传播。为本题设计多证据核查表提供案例。",
+      "limits": "2021 印度事件是机制类比，物源、地形、水量和摩擦参数不能直接移植到2026 Langtang/吉隆。",
+      "read_scope": "已读 Newcastle University 作者机构库的摘要和发表元数据；Science 官网403；作者稿PDF因过大未完整读取。",
+      "next_read": "若采用其机理与数值范围，须由队员读正文和补充材料，核对能量、水量和卷入项。"
+    },
+    {
+      "id": "R03",
+      "title": "An earthquake-triggered avalanche in Nepal in 2015 was exacerbated by climate variability and snowfall anomalies",
+      "authors": "Yu Zhuang; Binod Dawadi; Jakob Steiner; Rajesh Kumar Dash; Yves Bühler; Jessica Munch; Perry Bartelt",
+      "year": 2024,
+      "type": "原始研究；期刊官网",
+      "doi": "10.1038/s43247-024-01624-z",
+      "url": "https://www.nature.com/articles/s43247-024-01624-z",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "supports": "2015 Langtang 研究通过调查和数值模拟指出，异常积雪和温度可改变卷入、融水、运动性和气浪效应。它说明气象既可能影响前期条件，也可能影响失稳后的传播强度。",
+      "limits": "地震触发的2015南侧山谷事件与2026事件有不同边界条件；不能将论文中的温度/雪量关联自动解释成2026失稳阈值。",
+      "read_scope": "已读官网检索返回的摘要、Langtang事件描述、结论及作者/发表日期信息；网页open后续受Cookie限制；未审读方程、参数和补充材料。",
+      "next_read": "核对模型中融水生成的热力过程、雪量和温度资料及不确定性。"
+    },
+    {
+      "id": "R04",
+      "title": "Representative rainfall thresholds for landslides in the Nepal Himalaya",
+      "authors": "Ranjan Kumar Dahal; Shuichi Hasegawa",
+      "year": 2008,
+      "type": "原始研究；出版商检索摘录",
+      "doi": "10.1016/j.geomorph.2008.01.014",
+      "url": "https://doi.org/10.1016/j.geomorph.2008.01.014",
+      "verified_url": "https://www.sciencedirect.com/science/article/pii/S0169555X08000172",
+      "questions": [
+        "Q1",
+        "Q2"
+      ],
+      "supports": "尼泊尔历史滑坡资料可构成强度–历时阈值与前期降雨分析的地区背景；研究使用1951–2006的193个事件。适合说明应记录事件、历时、雨强及站点代表性。",
+      "limits": "广域、混合滑坡类型、早期观测条件；其数值阈值不是岩冰崩的通用触发规则，也不是本题可直接交付的阈值。",
+      "read_scope": "核对出版商检索摘录中的题名、分析规模和摘要要点；出版商正文/PDF403。未声称读过全文。",
+      "next_read": "由队员获取全文，核对I、D、归一化、事件定义和阈值不确定性，先作为对照候选。"
+    },
+    {
+      "id": "R05",
+      "title": "Probabilistic rainfall thresholds for landslide occurrence using a Bayesian approach",
+      "authors": "M. Berti; M. L. V. Martina; S. Franceschini; S. Pignone; A. Simoni; M. Pizziolo",
+      "year": 2012,
+      "type": "原始研究；期刊官网",
+      "doi": "10.1029/2012JF002367",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012JF002367",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "supports": "阈值概率应同时考虑触发与未触发的降雨事件；P(降雨条件|灾害)不等于P(灾害|降雨条件)。同一降雨条件可能对应不同失稳结果，事件构造必须一致。",
+      "limits": "原研究主要是意大利区域滑坡；本地事件日期/完整负样本若不足，不能据此计算可靠的灾害发生概率。未报告不等于未发生。",
+      "read_scope": "已读摘要、引言、方法2.1–2.3及基准概率例子；未核对后续全部区域实验。",
+      "next_read": "核对当地事件目录的完整期、时空单位与未触发事件构造，再决定是否有条件采用。"
+    },
+    {
+      "id": "R06",
+      "title": "A distributed temperature-index ice- and snowmelt model including potential direct solar radiation",
+      "authors": "Regine Hock",
+      "year": 1999,
+      "type": "原始研究；期刊官网",
+      "doi": "10.3189/S0022143000003087",
+      "url": "https://www.cambridge.org/core/journals/journal-of-glaciology/article/distributed-temperatureindex-ice-and-snowmelt-model-including-potential-direct-solar-radiation/2013F2D6B911401D67EA84728AF93629",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "supports": "正积温或增强温度指数可作为融水代理的低复杂度候选；原研究显示日内和空间融化差异不能由固定度日因子充分捕捉。仅匹配径流可能发生降雨误差被融化参数补偿的等效性问题。",
+      "limits": "瑞典冰川两个消融季案例；不能直接继承其温度递减率、度日因子或把气温代理写成实测融水。",
+      "read_scope": "已读官网摘要、引言、模型应用与参数优化段落；未逐式核验全文。原期刊年份1999，平台数字化上线2017，两者不是事件日期冲突。",
+      "next_read": "本地高程温度订正、雪/冰覆盖和融水/流量验证缺一时，保持为代理变量或情景区间。"
+    },
+    {
+      "id": "R07",
+      "title": "Satellite-Based Assessment of Rainfall-Triggered Landslide Hazard for Situational Awareness",
+      "authors": "Dalia Kirschbaum; Thomas Stanley",
+      "year": 2018,
+      "type": "原始研究；期刊官网",
+      "doi": "10.1002/2017EF000715",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2017EF000715",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "supports": "LHASA将静态易发性与近期降雨结合，提供可解释规则基线；验证结果随时空容差和降水产品改变。原文明确GLC有语言、人口/基础设施附近更易报告及录入不确定性。",
+      "limits": "它是降雨型滑坡态势nowcast，不是冰岩崩精确时刻预报；论文性能不能作为本题预期性能，广容差命中不能冒充小时级命中。",
+      "read_scope": "已读摘要、引言、2.3灾害目录、3.1前期降雨指数；未审读全部结果与代码。",
+      "next_read": "只借鉴静态/动态条件分开与评估窗显式定义，不移植其已校准窗口和阈值。"
+    },
+    {
+      "id": "R08",
+      "title": "blockCV: An R package for generating spatially or environmentally separated folds for k-fold cross-validation of species distribution models",
+      "authors": "Roozbeh Valavi; Jane Elith; José J. Lahoz-Monfort; Gurutzeta Guillera-Arroita",
+      "year": 2019,
+      "type": "原始方法研究；作者代码与出版商摘录",
+      "doi": "10.1111/2041-210X.13107",
+      "url": "https://doi.org/10.1111/2041-210X.13107",
+      "verified_url": "https://github.com/rvalavi/blockCV",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "supports": "空间/环境分块和缓冲可用于把训练地点与测试地点分离，帮助审视对新沟谷/新环境的泛化。块划分与随机种子应保存以复现。",
+      "limits": "原对象为物种分布；块大小需与本题相关尺度一致，不能随意选块后把外推误差混同插值误差。类别稀少可能使某折无正例。",
+      "read_scope": "已读作者官方仓库说明/引用和出版商全文检索摘录中的三种分块策略；出版商open403；未审读全部实例。",
+      "next_read": "先展示事件/沟谷分组、空间相关尺度与每折正例数，再冻结测试划分。"
+    },
+    {
+      "id": "R09",
+      "title": "Evaluating time series forecasting models: an empirical study on performance estimation methods",
+      "authors": "Vitor Cerqueira; Luis Torgo; Igor Mozetič",
+      "year": 2020,
+      "type": "原始研究；期刊官网",
+      "doi": "10.1007/s10994-020-05910-7",
+      "url": "https://link.springer.com/article/10.1007/s10994-020-05910-7",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "supports": "在其174条真实序列和合成序列实验中，评估方法随平稳性而异；非平稳条件下多测试期留出法表现较好。支持对本题采取保序的多个起报点回放候选。",
+      "limits": "经验结果不是任意时序任务的定理；本地稀有灾害和时空相关仍需按事件分组，并排除跨分割窗口重叠。",
+      "read_scope": "已读期刊官网摘要、作者、发表元数据和可见附录图注；主文订阅限制，作者PDF超时。",
+      "next_read": "队员结合自身序列长度、季节变化和标签密度决定滚动或扩展窗口；不能用测试集调窗口。"
+    },
+    {
+      "id": "R10",
+      "title": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+      "authors": "Takaya Saito; Marc Rehmsmeier",
+      "year": 2015,
+      "type": "原始研究；期刊官网",
+      "doi": "10.1371/journal.pone.0118432",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432",
+      "questions": [
+        "Q2",
+        "Q3"
+      ],
+      "supports": "稀有事件评估应同时看精确率、召回率及PR曲线；PR基线随真实正例比例变动。准确率或ROC-AUC单独使用容易遮蔽误报负担。",
+      "limits": "不能据此说ROC没有价值；若重采样/筛选改变测试正例比例，PR结果也不能直接代表部署表现。",
+      "read_scope": "已读摘要、引言、理论背景、PR基线及方法中的模拟设计；未复算所有图表。",
+      "next_read": "固定原始测试分布并报告混淆矩阵、事件级召回、单位时间误报与提前量。"
+    },
+    {
+      "id": "R11",
+      "title": "Conformalized Quantile Regression",
+      "authors": "Yaniv Romano; Evan Patterson; Emmanuel Candès",
+      "year": 2019,
+      "type": "原始方法研究；NeurIPS官方论文",
+      "doi": null,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/5103c3584b063c431bd1268e9b5e76fb-Abstract.html",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/5103c3584b063c431bd1268e9b5e76fb-Paper.pdf",
+      "questions": [
+        "Q3"
+      ],
+      "supports": "分位数区间可通过独立校准调整；论文定理1的有限样本边际覆盖保证要求校准样本与新样本可交换。可借此明确名义95%与样本覆盖率的区别。",
+      "limits": "普通split conformal不能无条件保证相关时序、空间外推、分布漂移、每个站点/每次极端事件的95%覆盖。连续气象量的区间不是灾害触发时刻区间。",
+      "read_scope": "已读官方摘要、算法1、校准分位数定义和定理1–2的条件；未复核证明与全部实验。",
+      "next_read": "先明确区间目标、校准集、独立测试期和覆盖单位，再判断假设是否可接受；同时报告宽度。"
+    },
+    {
+      "id": "R12",
+      "title": "Adaptive Conformal Inference Under Distribution Shift",
+      "authors": "Isaac Gibbs; Emmanuel Candès",
+      "year": 2021,
+      "type": "原始方法研究；NeurIPS官方论文",
+      "doi": null,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/0d441de75945e5acbc865406fc9a2559-Abstract.html",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/0d441de75945e5acbc865406fc9a2559-Paper.pdf",
+      "questions": [
+        "Q3"
+      ],
+      "supports": "在线调整可使长期经验覆盖频率接近目标；原文命题4.1与后续理论明确区别长期频率和额外假设下的有限时段表现。",
+      "limits": "需要观测结果到达后更新。长期95%不保证任意短窗口、稀有灾害时段或单次灾害95%；也不自动约束区间宽度。",
+      "read_scope": "已读官方摘要和正文4.1命题4.1、4.2假设；未复核附录证明和全部实验。",
+      "next_read": "只有连续且及时返回的真值才考虑在线校准；避免以长期总体覆盖掩盖灾害时段欠覆盖。"
+    },
+    {
+      "id": "R13",
+      "title": "A general two-phase debris flow model",
+      "authors": "Shiva P. Pudasaini",
+      "year": 2012,
+      "type": "原始研究；期刊官网",
+      "doi": "10.1029/2011JF002186",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2011JF002186",
+      "questions": [
+        "Q4"
+      ],
+      "supports": "固液相可具有不同动量及相互作用；固相摩尔–库仑、流体黏性应力、拖曳、浮力和虚质量是多相建模的候选机制。深度平均来自浅层流假设，适用于运行阶段的近似。",
+      "limits": "不能由现有气象和DEM直接识别所有相参数；复杂模型未必在稀少观测下可校准。陡峭源区崩落/撞击不一定满足浅层假设。",
+      "read_scope": "已读官网摘要、引言和4.3.3深度平均方程推导文字；未逐式审查全部推导。",
+      "next_read": "由队员先判断单相分阶段是否足够，再以数据可辨识性决定是否需要多相模型。"
+    },
+    {
+      "id": "R14",
+      "title": "r.avaflow v4, a multi-purpose landslide simulation framework",
+      "authors": "Martin Mergili; Hanna Pfeffer; Andreas Kellerer-Pirklbauer; Christian Zangerl; Shiva P. Pudasaini",
+      "year": 2025,
+      "type": "原始模型研究；期刊官网",
+      "doi": "10.5194/gmd-18-9879-2025",
+      "url": "https://gmd.copernicus.org/articles/18/9879/2025/",
+      "questions": [
+        "Q4"
+      ],
+      "supports": "GIS驱动的多相框架可表达灾害链并支持参数研究；原文同时强调复杂灾害链前向模拟依赖观测校准，新增功能需经验评估。",
+      "limits": "框架可运行不等于适合本事件；版本差异影响方程、输出和压力解释。未进行实际安装、算例或性能验证。",
+      "read_scope": "已读官网摘要、引言及列举的前向模拟/模型边界；未完整审读第2节方程、案例参数和源码。",
+      "next_read": "安装前确定可用观测、计算范围、参数个数和最小验证案例；冻结精确版本。"
+    },
+    {
+      "id": "R15",
+      "title": "RAMMS::Debrisflow — Friction Parameters",
+      "authors": "WSL Institute for Snow and Avalanche Research SLF / RAMMS 团队",
+      "year": null,
+      "type": "官方模型文档",
+      "doi": null,
+      "url": "https://ramms.ch/ramms-debrisflow/friction-parameters/",
+      "questions": [
+        "Q4"
+      ],
+      "supports": "Voellmy阻力含随法向应力的干摩擦项和随速度平方的阻力项；官方强调应依据流高、速度、堆积范围和材料资料校准摩擦参数。",
+      "limits": "雪崩的标准参数不能自动用于泥石流；未从文档抽取一组数值来替代本地校准。官方页面未给明确发布日期，采用访问日期记录。",
+      "read_scope": "已读官方摩擦参数页全文及手册检索返回的相关段落；未完整阅读PDF手册。",
+      "next_read": "把μ、ξ及任何屈服应力的来源、单位、校准证据和敏感范围单列参数证据表。"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "D01",
+      "name": "Sentinel-2 L1C / L2A",
+      "agency": "ESA / European Commission / Copernicus Data Space Ecosystem",
+      "kind": "光学遥感观测及处理产品",
+      "urls": [
+        "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2",
+        "https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel2.html",
+        "https://documentation.dataspace.copernicus.eu/Registration.html"
+      ],
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "access": "数据免费公开；CDSE浏览/下载需免费注册和邮箱验证，API下载需鉴权。未替用户注册或登录。",
+      "space": "陆地广域覆盖；13波段分别为10/20/60 m。实际AOI、云影、山体阴影和可用轨道尚未逐景核验。",
+      "time": "L1C档案官方标示2015-07至今；L2A覆盖与处理基线须逐景查。双星设计赤道5日重访不等于无云可用5日影像。",
+      "latency": "已处理影像可回放；具体2026-08-26前后景的获取/处理时间、云量未知。",
+      "historical_replay": "可按采集时间重建事前/事后影像；若作预警输入还必须限定当时已发布的处理产品。",
+      "priority": "P0（事前边界与事后验证各取少量关键景）；P1（长序列）",
+      "minimum_evidence": "至少有可定位的事前、事后影像各1景或替代多证据；保存产品ID、采集/处理时间、处理级别、基线和人工判读记录。",
+      "limits": "10 m像元不能自动识别裂缝/冰厚；阴影、积雪和云可能导致变化假象。",
+      "read_scope": "已读官方集合和产品文档以及注册说明；未查询具体AOI目录，未下载影像。"
+    },
+    {
+      "id": "D02",
+      "name": "Sentinel-1 GRD / SLC",
+      "agency": "ESA / Copernicus Data Space Ecosystem",
+      "kind": "C波段SAR观测及处理产品",
+      "urls": [
+        "https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel1.html",
+        "https://documentation.dataspace.copernicus.eu/APIs/OData.html"
+      ],
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "access": "免费公开；CDSE账号/API鉴权同D01。",
+      "space": "GRD全球档案；分辨率与模式、极化有关，不把像元间距当有效分辨率。SLC保留复数相位，GRD不保留。",
+      "time": "官方GRD档案2014-10至今；SLC产品的地区/档案格式有不同可用性。实际重复轨道与2026事前序列未知。",
+      "latency": "可回放历史观测；具体景和精密轨道的生成时间未知，精密轨道可能在数日后才有。",
+      "historical_replay": "可用于灾前形变/冰速或灾后变化线索，但必须匹配轨道、几何、时间间隔及可得时刻。",
+      "priority": "P1；若光学不可用或研究灾前形变则升P0",
+      "minimum_evidence": "同轨同模式的可配对产品及精确时间、轨道/极化信息；完成叠掩、阴影、相干性和配准检查后再用。",
+      "limits": "冰雪快速变化可能失相干；SAR视线位移不能直接当三维冰速或岩体位移。",
+      "read_scope": "已读官方GRD、SLC和轨道产品说明；未处理具体场景。"
+    },
+    {
+      "id": "D03",
+      "name": "Landsat Collection 2 Level-2 Surface Reflectance",
+      "agency": "USGS",
+      "kind": "光学遥感观测及大气校正产品",
+      "urls": [
+        "https://www.usgs.gov/landsat-missions/landsat-collection-2-surface-reflectance",
+        "https://www.usgs.gov/faqs/how-do-landsat-collection-2-level-2-products-compare-products-collection-1"
+      ],
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "access": "公开免费产品；官方EarthExplorer为下载入口。本次未核验账号登录流程。",
+      "space": "全球场景；所选产品原生网格、波段分辨率和QA应从产品手册读，不在此假定所有波段同分辨率。",
+      "time": "Level-2官方范围1982至今，具体传感器分时段；Landsat8从2013-04、Landsat9从2021-10。",
+      "latency": "历史可回放；Level-2有辅助数据要求和处理延迟。2026目标景可用时间未知。",
+      "historical_replay": "适合较长时期冰川边界/地表变化对照；不是连续气象观测或灾害时刻标签。",
+      "priority": "P1；长期背景缺资料时使用",
+      "minimum_evidence": "产品ID、传感器、采集/处理时间、Tier、QA掩膜、尺度因子；跨传感器变化需一致处理。",
+      "limits": "云雪阴影与不同传感器造成差异，不能仅比较原始DN认定冰川变化。",
+      "read_scope": "已读USGS产品说明与FAQ；未查看具体影像或所有传感器手册。"
+    },
+    {
+      "id": "D04",
+      "name": "GPM IMERG V07 Early / Late / Final",
+      "agency": "NASA / GPM / GES DISC / PPS",
+      "kind": "多卫星降水反演估计；Final含事后雨量校正，均不是未来降水预报",
+      "urls": [
+        "https://gpm.nasa.gov/data/imerg",
+        "https://gpm.nasa.gov/data/directory",
+        "https://gpm.nasa.gov/sites/default/files/2023-07/IMERG_TechnicalDocumentation_final_230713.pdf",
+        "https://disc.gsfc.nasa.gov/help",
+        "https://data.nasa.gov/dataset/gpm-imerg-late-precipitation-l3-1-day-0-1-degree-x-0-1-degree-v07-gpm-3imergdl-at-ges-disc-dc951",
+        "https://ntrs.nasa.gov/api/citations/20250006579/downloads/Argo-Geoinformatics%202025.pdf?attachment=true"
+      ],
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "access": "开放数据；GES DISC下载需要免费Earthdata账号；PPS部分入口有单独注册。未登录或下载。",
+      "space": "V07全球/高纬扩展；本题地区在覆盖内；0.1°、半小时为核心网格/时间步，日值是聚合产品。",
+      "time": "TRMM/GPM历史延续；NASA当前产品页描述2000起，部分NASA培训表标1998起，起点须按所选具体短名与版本核验。2026-08-26实际文件清单未查。",
+      "latency": "Early约4小时；Late名义14小时，技术文档称部分近期约12小时；Final约3.5个月。按2026-10-23不能假定8月Final已发布。",
+      "historical_replay": "回放预警时只能选当时已可用的Early/Late；现存重处理版本不等于当年业务版本。Final适合事后分析，不能回填当时预报输入。",
+      "priority": "P0（降水时空对照与可得性审计）",
+      "minimum_evidence": "锁定shortName/run/version；保存观测区间、实际/推定发布时刻、单位和质控字段；用站点/多源交叉检查，缺测与零降水分开。",
+      "limits": "网格约10 km不能视为源区局地雨强；雨/雪、复杂地形和冰雪反演误差待评估。4h延迟不支持几分钟级现场预警。",
+      "read_scope": "已读NASA主说明、数据目录检索摘录、技术文档延迟段与GES DISC账号要求；未完整审读算法说明或检查granule。"
+    },
+    {
+      "id": "D05",
+      "name": "ERA5 / ERA5-Land",
+      "agency": "ECMWF / Copernicus Climate Change Service",
+      "kind": "再分析；由模型和历史资料同化重建，不是原始站点观测或当时发出的预报",
+      "urls": [
+        "https://climate.copernicus.eu/climate-reanalysis",
+        "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels",
+        "https://cds.climate.copernicus.eu/how-to-api"
+      ],
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "access": "公共CDS；需账号、个人访问令牌和手动接受数据集条款；未替用户操作。",
+      "space": "ERA5公共下载网格0.25°；ERA5-Land官方约9 km，不能通过插值把它升级为坡面观测。",
+      "time": "ERA5 1940起、ERA5-Land 1950起，小时级；覆盖延续至近期。具体变量、累计量重置和研究期完整性待查。",
+      "latency": "官方近期数据约滞后5天；前三个月左右可能为初步ERA5T/ERA5-Land-T，后续可能修订。",
+      "historical_replay": "适合多年背景、缺测对照和事后验证；若用于真实预报输入，应至少按5天可得延迟截断且考虑历史版本，不能用未来再分析。",
+      "priority": "P0（站点代表性及背景对照）；大范围长序列为P1",
+      "minimum_evidence": "变量、单位、累计约定、网格/高程、下载时间、ERA5或ERA5T标记；与站点重合期对照后再用于补缺。",
+      "limits": "山地降水/气温偏差和代表性未本地验证；不能把同化再分析当独立无误差真值。",
+      "read_scope": "已读C3S官方再分析介绍和CDSAPI账号/许可说明；数据集overview超时，未下载变量。"
+    },
+    {
+      "id": "D06",
+      "name": "TIGGE全球集合预报档案",
+      "agency": "ECMWF / CMA / 多全球数值预报中心",
+      "kind": "带起报时刻、预报时效和成员的历史业务集合预报档案",
+      "urls": [
+        "https://www.ecmwf.int/en/research/projects/tigge",
+        "https://confluence.ecmwf.int/spaces/TIGGE/pages/40797492/FAQ",
+        "https://apps.ecmwf.int/datasets/licences/tigge/",
+        "https://confluence.ecmwf.int/spaces/TIGGE/pages/192923433/Issues+with+data"
+      ],
+      "questions": [
+        "Q3"
+      ],
+      "access": "免费科研/教育；注册并接受使用条件，通常起报后48小时开放。官方FAQ称2026-05-27访问迁至ECDS/CDS-API，旧WebAPI示例不能照搬。",
+      "space": "全球，多中心原生/输出网格、变量和成员数不同；不能先假定单一分辨率。",
+      "time": "2006-10起的集合预报档案。所选中心2026-08事前起报、目标变量、成员完整性尚未实际检索。",
+      "latency": "研究开放延迟48h不等于业务预报发布时间；若论证实战预警，需另说明业务当时的实际可得条件。",
+      "historical_replay": "可作为问3历史预报回放首选候选；每条必须保留forecast_reference_time、lead_time、valid_time、member。",
+      "priority": "P0（确认历史起报可取、变量/成员齐全）",
+      "minimum_evidence": "至少成功核验一个事件前起报批次和一个独立验证期，含降水/温度必要字段、成员、时效与缺档记录，才确认方案可执行。",
+      "limits": "2006–2019部分control/surface数据官方报告损坏缺档；中心模型会升级。未经下载验证不能承诺8/26数据可取。",
+      "read_scope": "已读官方项目介绍、许可与FAQ/缺档页面检索全文返回；FAQ后续open超时。未登录检索或下载GRIB。"
+    },
+    {
+      "id": "D07",
+      "name": "ECMWF Open Data IFS / AIFS",
+      "agency": "ECMWF",
+      "kind": "实时数值/机器学习天气预报开放子集",
+      "urls": [
+        "https://www.ecmwf.int/en/forecasts/datasets/open-data"
+      ],
+      "questions": [
+        "Q3"
+      ],
+      "access": "免费公开子集，CC-BY-4.0与ECMWF条款；直连有并发限制，特定交付方式可收费。未测试下载。",
+      "space": "原有0.25°；官方页面称2026-10-20新增IFS 0.1°，不能把10月新增分辨率假定用于8月历史。",
+      "time": "四次日循环的实时子集；官方仅滚动保留最近12次起报，约2–3天。",
+      "latency": "具体时次发布延迟需查通知；0.1°比0.25°约晚2小时。",
+      "historical_replay": "现行直连滚动档案无法据此证明8/26起报存在；完整历史另查档案服务/云副本留存，不将产品页等同于历史可取。",
+      "priority": "P1（未来验证/实时演示）；对8/26历史回放不作为唯一来源",
+      "minimum_evidence": "固定起报和文件索引、可得时间、变量、成员与分辨率；保存文件或校验和以防滚动删除。",
+      "limits": "天气集合2.5%–97.5%分位数只是气象分布估计，不自动给出灾害时间95%覆盖。",
+      "read_scope": "已读官方开放数据说明、许可、2026-10-20变更和滚动留存段。"
+    },
+    {
+      "id": "D08",
+      "name": "NOAA GFS历史预报",
+      "agency": "NOAA / NCEI / NCEP",
+      "kind": "历史数值天气预报；须区别分析场与forecast字段",
+      "urls": [
+        "https://www.ncei.noaa.gov/products/weather-climate-models/global-forecast",
+        "https://www.ready.noaa.gov/archives.php",
+        "https://gdex.ucar.edu/datasets/d084001/filelist/20260826/",
+        "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20260826/00/atmos/gfs.t00z.pgrb2.0p25.f006.idx",
+        "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20260825/18/atmos/gfs.t18z.pgrb2.0p25.f009.idx",
+        "https://gdex.ucar.edu/datasets/d084001/filelist/20260825/"
+      ],
+      "questions": [
+        "Q3"
+      ],
+      "access": "官方公开HTTPS/云档案；本次未查特定对象。NCEI页面提示云迁移可能延迟订单。",
+      "space": "NODD近期0.25°/0.5°；NCEI长期0.5°、1°。ARL另有2019-06起0.25°重整档案，其变量和时间组织不能先假定等同原始业务全集。",
+      "time": "NCEI文档称NODD高分辨率滚动30天、长期另有0.5°；独立探针已实测2026-08-25 18UTC f009的0.25°索引HTTP200（743条），数据头16字节范围请求206且GRIB标记有效。文档窗口不可代替对象实测。",
+      "latency": "起报为00/06/12/18 UTC；真实发布时间和缺档需逐对象核验。",
+      "historical_replay": "2026-08-25 18UTC事前起报已定位，f009有效时刻为8/26 03UTC，晚于公开目录起始时刻；索引含2m温度/湿度、10m风、APCP 6–9h与0–9h累计。尚未解码网格或区域提取；当前可取不等于历史实时已可用。",
+      "priority": "P0备选，已定位并探测历史起报索引/GRIB头；下载解码及业务可得延迟待核",
+      "minimum_evidence": "见track_b/audit/forecast_probe/summary.json的独立探针；再以小范围必要字段核验值、单位、累计区间和空间覆盖，补实际业务发布时间证据。一个对象成功不证明全档完整。",
+      "limits": "粗网格对高山局地触发的代表性有限；单一确定性GFS本身不提供灾害发生95%区间。",
+      "read_scope": "已读NCEI数据表与ARL官方说明，并读取根代理留存的forecast_probe/summary.json；GDEX清单、S3索引与GRIB头为根代理独立实测。本子代理未重复下载或解码GRIB。"
+    },
+    {
+      "id": "D09",
+      "name": "Copernicus DEM GLO-30 / GLO-90",
+      "agency": "European Commission / ESA / DLR / Airbus",
+      "kind": "数字表面模型DSM，源于TanDEM-X及部分填补资料",
+      "urls": [
+        "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+        "https://documentation.dataspace.copernicus.eu/Data/Others/CCM.html"
+      ],
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "access": "GLO-30/90全球免费许可；CDSE/CCM注册可下载，需按许可署名；本次未登录。",
+      "space": "全球30/90 m；DGED水平WGS84，垂直EGM2008。DSM含植被/建筑，不等于裸地DTM。",
+      "time": "主要采集2011–2015，部分空洞用更早DEM；发布/修订年份不等于观测年份。",
+      "latency": "静态历史地形；不代表2026灾前/灾后地形。",
+      "historical_replay": "可作区域通道或本地DEM对照；不得因2024_1发布名而认为是2024地表。",
+      "priority": "P1；本地DEM缺覆盖或垂直基准不明时作对照",
+      "minimum_evidence": "具体tile/release、源影像/填补、CRS、垂直基准、空洞和质量掩膜；与本地DEM重叠区检验后再拼接。",
+      "limits": "30 m地形对窄沟、桥梁、陡崖及骤变可能不足；上下游边界应由题目研究范围确定。",
+      "read_scope": "已读官方产品页/数据说明及产品手册基准检索段；未审读完整手册或tile。"
+    },
+    {
+      "id": "D10",
+      "name": "Randolph Glacier Inventory 7.0 / GLIMS",
+      "agency": "IACS RGI Working Group / GLIMS / NSIDC",
+      "kind": "冰川边界和属性清单；RGI为目标时点快照，GLIMS可多时相",
+      "urls": [
+        "https://nsidc.org/data/nsidc-0770/versions/7",
+        "https://www.glims.org/RGI/",
+        "https://www.glims.org/rgi_user_guide/products/glacier_product.html"
+      ],
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "access": "公开数据，DOI 10.5067/f6jmovy5navz；具体下载入口账号要求本次未登录实测。",
+      "space": "全球冰川（不含格陵兰/南极冰盖），推荐最小面积0.01 km²；WGS84边界。",
+      "time": "RGI7目标尽量接近2000；NSIDC集合日期范围1950–2021，不能当成逐年序列。每个outline应看其源影像/分析日期。",
+      "latency": "非实时；不代表2026边界、裂隙或冰厚。",
+      "historical_replay": "可关联本地RGI和区域冰川属性；逐冰川变化研究应回到有精确日期的原始边界/GLIMS和遥感。",
+      "priority": "P0（核对本地边界属性日期和ID）；扩展下载为P1",
+      "minimum_evidence": "rgi_id、glims_id、anlys_id、源影像日期、面积及边界版本；2026源区另需接近事件的观测。",
+      "limits": "RGI官方明确不是为逐冰川面积变化率测量设计；ID跨版本可能改变，不能直接按行匹配。",
+      "read_scope": "已读NSIDC产品页、RGI说明和glacier product属性说明；未审查本地全部边界。"
+    },
+    {
+      "id": "D11",
+      "name": "COOLR / Global Landslide Catalog / Landslide Reporter Catalog",
+      "agency": "NASA及研究者/志愿者贡献者",
+      "kind": "报告型和特定事件型灾害目录，不是均匀监测的完整真值",
+      "urls": [
+        "https://gpm.nasa.gov/applications/landslides/coolr",
+        "https://gpm.nasa.gov/applications/landslides/reporter-faq"
+      ],
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "access": "开放浏览/共享平台；当前官方导出指南链接打开404，导出方式及账号要求待实际测试。",
+      "space": "全球但报道不均匀；地点置信度和灾害类型须逐条筛查，无法保证研究区足够事件。",
+      "time": "GLC原研究描述2007起，COOLR聚合其他更早/更晚事件清单；当前最新事件/字段完整性未知。",
+      "latency": "报告和人工审核的延迟不一，不能视为实时全目录；实际发生日期与报道日期必须分开。",
+      "historical_replay": "可补事件候选与文献线索，需回到原始报告/影像核验；没有记录只能叫未报告，不能直接赋负标签。",
+      "priority": "P0（先查询本地区候选事件和日期字段是否足够）",
+      "minimum_evidence": "每条保留event_id、原始出处、发生时间区间、位置误差、类型、触发因素和证据等级；重复报道要去重。",
+      "limits": "语言、人口/基础设施、地区和录入偏差见R07；无法单独给出真实灾害发生率。",
+      "read_scope": "已读NASA官方COOLR页与FAQ摘录；未导出目录，未核对AOI事件数量。"
+    },
+    {
+      "id": "D12",
+      "name": "Hugonnet et al. 2000–2019 glacier elevation-change products",
+      "agency": "Hugonnet作者团队 / LEGOS / Theia / SEDOO",
+      "kind": "卫星高程重建的冰川高程变化率和不确定性产品",
+      "urls": [
+        "https://www.nature.com/articles/s41586-021-03436-z",
+        "https://github.com/rhugonnet/ww_tvol_study",
+        "https://www.theia-land.fr/en/blog/product/rate-of-glacier-elevation-changes-from-2000-to-2019/"
+      ],
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "access": "原论文DOI 10.1038/s41586-021-03436-z；作者库导向数据DOI 10.6096/13。具体数据端账号/下载状态未测试。",
+      "space": "作者库说明全球100 m posting栅格，Theia按1°tile展示；不是事件前后高分辨率DEM。",
+      "time": "作者公开说明为2000–2019的5/10/20年窗口和相关变化率；本地文件名2000–2020/2020-01-01须查产品时间边界，不能仅凭名称纠错。",
+      "latency": "事后长期变化估计，非实时速度或融化观测。",
+      "historical_replay": "用于长期冰川减薄背景；若要推到2026必须说明外推/新增观测，不能伪装成当年状态。",
+      "priority": "P0（识别本地数据来源、时间窗口及误差图）；新增全球下载不必要",
+      "minimum_evidence": "来源DOI、时间窗口含义、dhdt单位、配套err含义与置信水平、分辨率/CRS；勿把净减薄率直接当当日融水。",
+      "limits": "局地不确定性、空间相关与岩冰崩实际脱落体积不能由长期dhdt直接替代。",
+      "read_scope": "已读原论文官方检索摘录、作者官方仓库数据说明和Theia产品页；Nature正文Cookie限制，未下载全球数据。"
+    },
+    {
+      "id": "D13",
+      "name": "ESA WorldCover 2020 v100 / 2021 v200",
+      "agency": "ESA WorldCover consortium / VITO",
+      "kind": "全球土地覆盖分类，来自遥感的年度产品",
+      "urls": [
+        "https://esa-worldcover.org/en/data-access"
+      ],
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "access": "官方免费、CC-BY-4.0；Viewer/Terrascope下载需账号，公开AWS示例支持--no-sign-request。实际目标tile未下载。",
+      "space": "全球约10 m、11类；Map以3×3度COG tile分发、EPSG:4326。应查有效像元而非仅看矩形覆盖。",
+      "time": "2020和2021两期；分别算法v100/v200，官方明确跨年差异同时含真实变化与算法变化。",
+      "latency": "历史年度分类，非2026源区实时土地状态。",
+      "historical_replay": "可补本地县域土地覆盖未有效覆盖的跨境源区背景，须用接近事件的遥感更新变化部分。",
+      "priority": "P1（跨境源区背景补数）；若队员确定它是必要模型输入则升P0",
+      "minimum_evidence": "先以正式GIS复核本地7152个正glacier_mask格中心的NoData结果，不能推定产生原因；再查目标tile的有效覆盖、类别映射、版本和InputQuality。",
+      "limits": "冰雪/裸地及地形阴影分类要核查；不能把县域NoData解释成某种地类，也不能把2020→2021差值全当真实变化。",
+      "read_scope": "已读官方data-access页的版本、许可、tile、访问方式和质量层说明；未读取产品手册/验证报告全文或目标tile。"
+    }
+  ],
+  "metadata_checks": [
+    {
+      "id": "C01",
+      "subject": "题面事件日期",
+      "local_statement": "2026-08-26",
+      "external_verified": "JMS原站题名、引用和摘要均写26 August 2026；npj原站Editorial亦写2026-08-26。",
+      "conclusion": "本次核验未发现必须改题面日期的证据；保留2026-08-26。",
+      "urls": [
+        "https://jms.imde.ac.cn/en/article/doi/10.1007/s11629-026-1482-y",
+        "https://www.nature.com/articles/s44304-026-00271-y"
+      ],
+      "limitations": "npj是Editorial，仅用于元数据交叉核对，不作为原始机制/参数证据；JMS全文尚未获取。"
+    },
+    {
+      "id": "C02",
+      "subject": "同地区不同历史事件",
+      "local_statement": "Langtang Lirung / 吉隆周边",
+      "external_verified": "2015 Langtang为Gorkha地震相关事件（R03）；2021 Chamoli在印度（R02）。",
+      "conclusion": "这两者只作机制/方法类比，不与2026事件合并标签、阈值、体积或通道。",
+      "urls": [
+        "https://www.nature.com/articles/s43247-024-01624-z",
+        "https://doi.org/10.1126/science.abh4455"
+      ],
+      "limitations": "同名地区的南北坡及支沟边界仍需本地GIS核对。"
+    },
+    {
+      "id": "C03",
+      "subject": "时间点的物理含义与时区",
+      "local_statement": "题面约10:30与公开02:52:10 UTC等时刻待根代理总审",
+      "external_verified": "npj官方页写02:52:10 UTC / 08:37:10 Nepal Time / 10:52:10 China Standard Time。",
+      "conclusion": "不要静默覆盖题面；崩塌起始、地震信号、进入河道和口岸到达是不同事件时刻。统一时区后仍有差异就保留各自来源和含义。",
+      "urls": [
+        "https://www.nature.com/articles/s44304-026-00271-y"
+      ],
+      "limitations": "本卡不裁定题面时间；USGS原始记录和赛题口径由根代理单独核验。"
+    },
+    {
+      "id": "C04",
+      "subject": "长期高程变化数据的时间边界",
+      "local_statement": "本地文件/目录写2000–2020及2020-01-01",
+      "external_verified": "Hugonnet原论文和作者资料描述2000–2019变化及5/10/20年窗口（D12）。",
+      "conclusion": "公开时期标签与本地端点命名可能是区间边界约定；必须读产品元数据/文档，不凭文件名认定多了一年或自行改名。",
+      "urls": [
+        "https://github.com/rhugonnet/ww_tvol_study"
+      ],
+      "limitations": "本子代理未审查各TIF的时间与误差字段；由数据审计合并核对。"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "P0-1",
+      "need": "可靠事件标签及观测完整期",
+      "why": "所有触发概率、召回率和发生时间覆盖率的分母；单一2026事件无法独立估计泛化表现。",
+      "candidates": [
+        "D11",
+        "官方灾害通报/原始调查",
+        "本地历史灾点原始来源"
+      ],
+      "minimum": "逐事件的发生时间或区间、位置误差、灾害类型、原始出处与去重；明确哪些时期/区域可把未记录视为未发生，不能满足则按presence-only/不完全目录叙述。",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "status": "缺口待目录实测，不因存在灾点shp而判完成"
+    },
+    {
+      "id": "P0-2",
+      "need": "事前预报文件及真实信息截止",
+      "why": "问3必须使用起报时真正可获得的资料，回放能够把预报误差与灾害关系分开。",
+      "candidates": [
+        "D06",
+        "D08"
+      ],
+      "minimum": "至少一批事前起报和一个独立验证期的必要变量，带init/lead/valid/member/累计区间；保存索引、缺档、可得时间证据。",
+      "questions": [
+        "Q3"
+      ],
+      "status": "根代理已定位GDEX和NOAA S3索引；下载解码/业务发布延迟待核"
+    },
+    {
+      "id": "P0-3",
+      "need": "源区、通道及接近事件的边界/地形",
+      "why": "同名Langtang不代表同坡同通道；不同日期/基准地形会改变落差、物源和运行路径。",
+      "candidates": [
+        "D01",
+        "D09",
+        "D10",
+        "本地DEM元数据"
+      ],
+      "minimum": "统一AOI；事前/事后关键景或多证据对应；DEM观测年代、水平/垂直基准和误差清楚。",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "status": "需与本地审计合并"
+    },
+    {
+      "id": "P0-4",
+      "need": "气象数据质量和空间代表性",
+      "why": "远站和粗网格不能直接代表高海拔源区；缺测占位不可当干日/低温。",
+      "candidates": [
+        "本地站点与QC元数据",
+        "D04",
+        "D05"
+      ],
+      "minimum": "时区、单位、采样/累计区间、质量标记、有效时段、站点坐标/高程；用重合期和替代产品评估差异。",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "status": "本地审计负责实测，外部候选已核验文档"
+    },
+    {
+      "id": "P0-5",
+      "need": "仿真校准与独立检查证据",
+      "why": "摩擦、物源和水量可能互相补偿，单凭动画和一个堆积范围不能证明运行时间准确。",
+      "candidates": [
+        "R01正式全文与附录",
+        "D01",
+        "官方水文/影像/调查资料"
+      ],
+      "minimum": "至少把物源范围/体积、运行/堆积范围、到达时间或速度/水位中的可得约束逐项列明；校准与独立检查证据分开；无独立证据则明确情景模拟。",
+      "questions": [
+        "Q4"
+      ],
+      "status": "尚未取得完备本地参数与观测证据，不先承诺前向可信度"
+    },
+    {
+      "id": "P1-1",
+      "need": "灾前SAR形变/冰速",
+      "why": "有助于检验气象以外的前兆，但处理和可解释性要求高。",
+      "candidates": [
+        "D02"
+      ],
+      "minimum": "同轨、同模式、足够时间基线及相干性/几何可用；不以云雾下光学缺失直接证明形变。",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "status": "候选，先小样本可行性检查"
+    },
+    {
+      "id": "P1-2",
+      "need": "长时段冰川/积雪演变",
+      "why": "支撑前期条件和长期变化，不宜直接当短时触发标签。",
+      "candidates": [
+        "D03",
+        "D10",
+        "D12",
+        "本地冰厚/速度数据"
+      ],
+      "minimum": "来源、日期、观测/推断类别、误差及跨产品一致性；高程变化率与净融水区别清楚。",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "status": "先核本地已给数据，不批量拉取重复资料"
+    },
+    {
+      "id": "P1-3",
+      "need": "在线预报演示与独立未来测试",
+      "why": "有助于验证流程，但不能补回2026事前资料的缺口。",
+      "candidates": [
+        "D07"
+      ],
+      "minimum": "自动留存init/lead/valid与文件校验和，记录真实可得时刻，冻结评估规则。",
+      "questions": [
+        "Q3"
+      ],
+      "status": "阶段3以后再决定，不当前部署"
+    },
+    {
+      "id": "P1-4",
+      "need": "跨境源区的有效土地覆盖/遥感背景",
+      "why": "根代理初步检查中，本地县域2020–2023土地覆盖在NC正glacier_mask格中心未给有效类别；矩形包络重合不能证明源区有数据。",
+      "candidates": [
+        "D13",
+        "D01",
+        "D02"
+      ],
+      "minimum": "正式GIS复核坐标/采样与NoData含义；用全球产品小范围目标tile检查有效覆盖与质量，不推断缺测是国界截断。",
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "status": "初步证据，7152个格中心结果待正式GIS复核；补数为候选"
+    }
+  ],
+  "unresolved": [
+    "历史灾害样本的发生时刻、完整观测期、未报告事件与真负例的区分。",
+    "本地站点QC和有效覆盖，远站到高海拔源区的代表性；其原始官方元数据由根代理审计。",
+    "2026事件前天气预报虽然已定位索引/清单，必要字段解码、成员完整性及原始业务发布时间仍待核。",
+    "JMS事后论文的正式全文/附录参数、观测误差与校准验证分离尚未取得。",
+    "2026灾前DEM、冰川边界、冰厚/物源体积和运行时间的独立约束是否足够。",
+    "95%究竟针对气象量、发生时刻、到达时刻还是空间范围，须由题目口径矩阵冻结；不可跨对象移用覆盖率。"
+  ]
+}

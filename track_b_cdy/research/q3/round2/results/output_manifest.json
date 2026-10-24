@@ -1,0 +1,168 @@
+{
+  "files": [
+    {
+      "path": "track_b/research/q3/round2/AVAILABILITY_REVIEW.md",
+      "bytes": 4474,
+      "sha256": "e0876a258742899e21501e171481d7a4d1b90b5559cd2b206fecf459c005ae19"
+    },
+    {
+      "path": "track_b/research/q3/round2/EVENT_REVIEW.md",
+      "bytes": 5018,
+      "sha256": "c6a69a6189ada4f92b18446590009af0798a6c2d1cb9b1c67858b8745187b134"
+    },
+    {
+      "path": "track_b/research/q3/round2/HANDOFF.md",
+      "bytes": 7148,
+      "sha256": "7a1a585fd3af2ad040453669184cb0597a7619cce9cbec6a8812caccf99a3da1"
+    },
+    {
+      "path": "track_b/research/q3/round2/ROUTE_UPDATE.md",
+      "bytes": 3709,
+      "sha256": "cf8bcb68ec413e2844c979a4a2695c610305629faa4914aea060174daa68b0e6"
+    },
+    {
+      "path": "track_b/research/q3/round2/TASK.md",
+      "bytes": 6211,
+      "sha256": "699197c742fbcb4d0fcc8f2c080aba2d024fab34dbb8c0cb74f689573d77011a"
+    },
+    {
+      "path": "track_b/research/q3/round2/results/evidence_checks.json",
+      "bytes": 570,
+      "sha256": "f41d1c7293bd7c004e07564c8741df41ada0fc7615ae8a56780ee1820c416841"
+    },
+    {
+      "path": "track_b/research/q3/round2/results/gfs_f009_availability_chain.json",
+      "bytes": 2890,
+      "sha256": "619f6fde143120cc33bbc1cb313cfd7970e2e0e3978452967bf589070477fb3d"
+    },
+    {
+      "path": "track_b/research/q3/round2/results/mechanical_initiation_mapping.csv",
+      "bytes": 5507,
+      "sha256": "5382617510591c3f58e3c33f52205c93d3e022872896e62e898cd112ad945e96"
+    },
+    {
+      "path": "track_b/research/q3/round2/results/source_register.json",
+      "bytes": 9428,
+      "sha256": "4e2dc3d3eae398b0aa8d425f73104530700ee36738fd9f4ab2b3d549256374d2"
+    },
+    {
+      "path": "track_b/research/q3/round2/results/summary.json",
+      "bytes": 1322,
+      "sha256": "5c2a14761c4452a9d2de299305d569dfede269ffc7217ffd581d3b7488a5d1cb"
+    },
+    {
+      "path": "track_b/research/q3/round2/results/us7000tc90_review.json",
+      "bytes": 4548,
+      "sha256": "e3b629b1d925ac20612e72914d2b46c1c3ea31b91bb6520a42945a3f9fdaef12"
+    },
+    {
+      "path": "track_b/research/q3/round2/results/workspace_binding_at_run.json",
+      "bytes": 734,
+      "sha256": "3ecaf235b2ad6a918a0dabc7f66789c6c9232ada9a06dfd6809739da8f7f64bd"
+    },
+    {
+      "path": "track_b/research/q3/round2/results/workspace_exit_verification.json",
+      "bytes": 4157,
+      "sha256": "c950673a2122f780722f294f27cecba6ed78746bacc716044d87de4f7a066544"
+    },
+    {
+      "path": "track_b/research/q3/round2/results/workspace_readiness_at_run.json",
+      "bytes": 1805,
+      "sha256": "a02433bc27ff440faf8abb5da575021c1d526da8fc9ffc29056d2f1051219a6a"
+    },
+    {
+      "path": "track_b/research/q3/round2/scripts/review_evidence.py",
+      "bytes": 26963,
+      "sha256": "2c6a3a5e6b3c08df3d93cb26c03c116548b8a4c33b21ff6ac35cfbcfc84847cb"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/aws_headobject.md",
+      "bytes": 49643,
+      "sha256": "fe5216a6d102071cdf00f9f265554c851331954df6ca7b730f6418c6f558b07a"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/aws_headobject.md_request.json",
+      "bytes": 1906,
+      "sha256": "501cedc9545aef683d132341b75eb0b4370289e1a732671ad89025ca13709961"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gdex_20260825_listing.html",
+      "bytes": 1682615,
+      "sha256": "470b2f1b2ab982b8e2e16038065e1b9d49d9453fd43b3e3cd21d802f3ad9cab4"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gdex_20260825_listing.html_request.json",
+      "bytes": 1178,
+      "sha256": "39862e08b65988a3713ec343becf62d96abba4d491f8ca1d819454f2c69dd3e3"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gfs_f009_current.idx",
+      "bytes": 40473,
+      "sha256": "1084fb07c3ec70234a763de9c43ede3b23b8f27447866fc7b34283d8f2559081"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gfs_f009_current.idx_request.json",
+      "bytes": 1188,
+      "sha256": "08a005a9c3fd1ca8453c1c6f6156eb5748d28a52671a89afc71e70897ef43ff6"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gfs_f009_head.json",
+      "bytes": 1012,
+      "sha256": "7462892000310dd2300061b6dbeea64ff6d0c87ef8e837c5c34b27cc77161ee9"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gfs_f009_idx_head.json",
+      "bytes": 1020,
+      "sha256": "9c27a3929f378b9b1238f9c38b42b3b3076a683622b183383b64152dda2c295d"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/ncep_current_production.html",
+      "bytes": 65777,
+      "sha256": "dca83a406305166948cf666f5e59efcd961996694aa8f09c7d3ab1c1f661251a"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/ncep_current_production.html_request.json",
+      "bytes": 1323,
+      "sha256": "9811c60337fe0a62465d22eaabdf28616e3f654daf510f28a103e1d547257a1c"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/us7000tc90.geojson",
+      "bytes": 6529,
+      "sha256": "959675e32af594c192cedea66d84d8828ea9f36c86b030bb72c604c4f366ab9e"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/us7000tc90_origin_quakeml.xml",
+      "bytes": 3659,
+      "sha256": "009f8944e9880e84735b442d0499eb531b73bdc8befbb0a656ef78606f040b99"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/us7000tc90_origin_request.json",
+      "bytes": 1963,
+      "sha256": "51b45f27890545f867d750f883797ac31a95ca0b8373d10e1c253bad7e5183a0"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/us7000tc90_request.json",
+      "bytes": 1522,
+      "sha256": "48fa7d923723017bfd01a42399999953631a9752c194f3a557277d97c5a58f2e"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/usgs_special_page.html",
+      "bytes": 118803,
+      "sha256": "42505636182dec5357b17f4b8be03bf2dee8f1603857ab7e93adc0bc1b8188fe"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/usgs_special_page.html_request.json",
+      "bytes": 3714,
+      "sha256": "6a638ad83a30906208b2451290830d42380db6d50aa9c1bcff267e9a183f00b9"
+    }
+  ],
+  "file_count": 31,
+  "all_hashes_rechecked": true,
+  "excluded_names": [
+    "input_manifest.json",
+    "output_manifest.json",
+    "workspace_binding.json",
+    "workspace_verification.json"
+  ],
+  "exclusion_reason": "Both manifests exclude themselves and each other; runtime binding/readiness are mutable and copied to results at run time."
+}

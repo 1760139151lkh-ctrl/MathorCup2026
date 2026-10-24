@@ -1,0 +1,34 @@
+{
+  "diagnostic_rows": 20250,
+  "resolved_parameter_event_rows_read": 342,
+  "distinct_support_parameter_ids": [
+    "q2r3-p0149"
+  ],
+  "status_counts": {
+    "no_resolved_event_support": 18756,
+    "degenerate_discrete_support_not_empirical_uncertainty": 1494
+  },
+  "nominal_conditional_interval_rows_uniform_prior": 1452,
+  "nominal_intervals_with_one_physical_design": 1452,
+  "maximum_conditional_interval_width_hours": 0.0,
+  "event_counts_match_prediction_rows": true,
+  "independent_observed_events": 0,
+  "explanation": "ESS aggregates duplicated law/model scenario weights by physical parameter_set_id or time point. One design/point is discrete degeneracy, not precise empirical uncertainty; equal-mechanism equals uniform here only because delivered design is balanced.",
+  "inputs": [
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/parameter_first_passages.parquet",
+      "sha256": "fd557599f6fa54ad21bd7a44dd19aa74f5578ce73533db1ad8aeef19de2688d5",
+      "bytes": 33794095
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/predictions.csv.gz",
+      "sha256": "a3dc1602e9d4ea7c80173286f5e78e5ef6cc15b2e00a0b0fb5d33f5ff3fa122d",
+      "bytes": 887395
+    }
+  ],
+  "output": {
+    "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/event_support_diagnostics.csv",
+    "sha256": "42f79cc305b148607e1d3542495203fccff3841891c5cf2fcab5b4fe81160a01",
+    "bytes": 3527323
+  }
+}

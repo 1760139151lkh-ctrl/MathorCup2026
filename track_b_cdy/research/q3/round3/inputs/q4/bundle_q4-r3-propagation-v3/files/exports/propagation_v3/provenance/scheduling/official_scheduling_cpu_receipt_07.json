@@ -1,0 +1,153 @@
+{
+  "registered_utc": "2026-10-24T10:39:02.057124+00:00",
+  "authority": "parent/root explicit six-solvers oneCPUquota instruction",
+  "scope": "scheduling quota only; no restart, OMPenv/physics/case/execution bytes unchanged",
+  "prior_scheduling_registration_preserved": "config/official_scheduling_amendment_06.json",
+  "future_launcher_sha256_before": "9eb580305f1db62baf7489f6657b6d95dfbd7d48e21f172323bb6673acfda916",
+  "future_launcher_sha256_after": "f58baaaff2053bcc2f107cb5c6a3986dddcf42e6e35c9bf37b941a6014886d3b",
+  "future_launch_cpus": 1,
+  "omp_num_threads_preserved": 3,
+  "target_total_solver_quota_cpus": 6,
+  "records": [
+    {
+      "container_id": "cedfe0da3f6529fcd247033831d0fca73614b4adc086ea00f604284c7e194032",
+      "run_id": "copdem_120_single_xi500__sf0",
+      "working_directory": "/work/runs/copdem_120_single_xi500__sf0",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "change_started_utc": "2026-10-24T10:39:02.128760+00:00",
+      "before_nano_cpus": 3000000000,
+      "omp_num_threads": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "1",
+        "cedfe0da3f6529fcd247033831d0fca73614b4adc086ea00f604284c7e194032"
+      ],
+      "returncode": 0,
+      "stdout": "cedfe0da3f6529fcd247033831d0fca73614b4adc086ea00f604284c7e194032",
+      "stderr": "",
+      "change_finished_utc": "2026-10-24T10:39:02.302198+00:00",
+      "after_nano_cpus": 1000000000
+    },
+    {
+      "container_id": "dab2ec7c0227c2428c5a0b1528a3aea4f112d37f8dbc57bbf02293bc8e3efa43",
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "working_directory": "/work/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "change_started_utc": "2026-10-24T10:39:02.433095+00:00",
+      "before_nano_cpus": 3000000000,
+      "omp_num_threads": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "1",
+        "dab2ec7c0227c2428c5a0b1528a3aea4f112d37f8dbc57bbf02293bc8e3efa43"
+      ],
+      "returncode": 0,
+      "stdout": "dab2ec7c0227c2428c5a0b1528a3aea4f112d37f8dbc57bbf02293bc8e3efa43",
+      "stderr": "",
+      "change_finished_utc": "2026-10-24T10:39:02.518747+00:00",
+      "after_nano_cpus": 1000000000
+    },
+    {
+      "container_id": "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d",
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "working_directory": "/work/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "change_started_utc": "2026-10-24T10:39:02.636531+00:00",
+      "before_nano_cpus": 3000000000,
+      "omp_num_threads": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "1",
+        "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d"
+      ],
+      "returncode": 0,
+      "stdout": "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d",
+      "stderr": "",
+      "change_finished_utc": "2026-10-24T10:39:02.802857+00:00",
+      "after_nano_cpus": 1000000000
+    },
+    {
+      "container_id": "79ea922f472fad4f96c01ee3d897abe1e7d3fcaf413ab01f8ac0667812505011",
+      "run_id": "copdem_120_single_h30__sf0",
+      "working_directory": "/work/runs/copdem_120_single_h30__sf0",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "change_started_utc": "2026-10-24T10:39:02.925290+00:00",
+      "before_nano_cpus": 3000000000,
+      "omp_num_threads": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "1",
+        "79ea922f472fad4f96c01ee3d897abe1e7d3fcaf413ab01f8ac0667812505011"
+      ],
+      "returncode": 0,
+      "stdout": "79ea922f472fad4f96c01ee3d897abe1e7d3fcaf413ab01f8ac0667812505011",
+      "stderr": "",
+      "change_finished_utc": "2026-10-24T10:39:03.096709+00:00",
+      "after_nano_cpus": 1000000000
+    },
+    {
+      "container_id": "c3e24f0fa10bacd690c3252b18fb8a0b2f408099593c439f524aa9a441ab9e3b",
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "working_directory": "/work/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "change_started_utc": "2026-10-24T10:39:03.212577+00:00",
+      "before_nano_cpus": 3000000000,
+      "omp_num_threads": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "1",
+        "c3e24f0fa10bacd690c3252b18fb8a0b2f408099593c439f524aa9a441ab9e3b"
+      ],
+      "returncode": 0,
+      "stdout": "c3e24f0fa10bacd690c3252b18fb8a0b2f408099593c439f524aa9a441ab9e3b",
+      "stderr": "",
+      "change_finished_utc": "2026-10-24T10:39:03.399350+00:00",
+      "after_nano_cpus": 1000000000
+    },
+    {
+      "container_id": "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa",
+      "run_id": "composite_rock_water_120__sf0",
+      "working_directory": "/work/runs/composite_rock_water_120__sf0",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "change_started_utc": "2026-10-24T10:39:03.523250+00:00",
+      "before_nano_cpus": 3000000000,
+      "omp_num_threads": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "1",
+        "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa"
+      ],
+      "returncode": 0,
+      "stdout": "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa",
+      "stderr": "",
+      "change_finished_utc": "2026-10-24T10:39:03.639028+00:00",
+      "after_nano_cpus": 1000000000
+    }
+  ],
+  "changed_solver_count": 6,
+  "finished_utc": "2026-10-24T10:39:03.699190+00:00"
+}

@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "field": "temperature_2m",
+      "passed": true,
+      "metadata_keys_compared": [
+        "dataDate",
+        "dataTime",
+        "validityDate",
+        "validityTime",
+        "stepType",
+        "startStep",
+        "endStep",
+        "stepUnits",
+        "units",
+        "shortName"
+      ],
+      "aoi_cells": 25
+    },
+    {
+      "field": "relative_humidity_2m",
+      "passed": true,
+      "metadata_keys_compared": [
+        "dataDate",
+        "dataTime",
+        "validityDate",
+        "validityTime",
+        "stepType",
+        "startStep",
+        "endStep",
+        "stepUnits",
+        "units",
+        "shortName"
+      ],
+      "aoi_cells": 25
+    },
+    {
+      "field": "wind_u_10m",
+      "passed": true,
+      "metadata_keys_compared": [
+        "dataDate",
+        "dataTime",
+        "validityDate",
+        "validityTime",
+        "stepType",
+        "startStep",
+        "endStep",
+        "stepUnits",
+        "units",
+        "shortName"
+      ],
+      "aoi_cells": 25
+    },
+    {
+      "field": "wind_v_10m",
+      "passed": true,
+      "metadata_keys_compared": [
+        "dataDate",
+        "dataTime",
+        "validityDate",
+        "validityTime",
+        "stepType",
+        "startStep",
+        "endStep",
+        "stepUnits",
+        "units",
+        "shortName"
+      ],
+      "aoi_cells": 25
+    },
+    {
+      "field": "precip_accum_6_9h",
+      "passed": true,
+      "metadata_keys_compared": [
+        "dataDate",
+        "dataTime",
+        "validityDate",
+        "validityTime",
+        "stepType",
+        "startStep",
+        "endStep",
+        "stepUnits",
+        "units",
+        "shortName"
+      ],
+      "aoi_cells": 25
+    },
+    {
+      "field": "precip_accum_0_9h",
+      "passed": true,
+      "metadata_keys_compared": [
+        "dataDate",
+        "dataTime",
+        "validityDate",
+        "validityTime",
+        "stepType",
+        "startStep",
+        "endStep",
+        "stepUnits",
+        "units",
+        "shortName"
+      ],
+      "aoi_cells": 25
+    }
+  ],
+  "actual_available_time": null,
+  "reference_time_utc": "2026-08-25T18:00:00+00:00",
+  "valid_time_utc": "2026-08-26T03:00:00+00:00",
+  "precipitation_intervals_overlap": true,
+  "precipitation_interval_policy": "Keep 0-9h and 6-9h distinct. Do not sum overlapping forecasts or treat accumulated amount as instantaneous intensity."
+}

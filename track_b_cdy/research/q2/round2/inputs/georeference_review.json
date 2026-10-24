@@ -1,0 +1,101 @@
+{
+  "calibration_model": "separable longitude=a*x+b and latitude=c*y+d; zero rotation/shear assumed, not independently verified",
+  "fit_coefficients": {
+    "longitude": [
+      0.00014169275409458383,
+      85.32972061983423
+    ],
+    "latitude": [
+      -0.00014169323414806536,
+      28.389868933758397
+    ]
+  },
+  "axis_constraints": [
+    {
+      "id": "lon_24",
+      "axis": "longitude",
+      "x": 496.5,
+      "y": 1018.0,
+      "degrees": 85.4,
+      "label": "85 deg 24 min E",
+      "role": "train",
+      "predicted_degrees": 85.4000710722422,
+      "residual_degrees": 7.10722421928267e-05,
+      "residual_equivalent_m": 6.9713420100655314,
+      "other_coordinate_status": "unconstrained; axis tick is not a full 2D ground control point"
+    },
+    {
+      "id": "lon_28",
+      "axis": "longitude",
+      "x": 965.5,
+      "y": 1018.0,
+      "degrees": 85.46666666666667,
+      "label": "85 deg 28 min E",
+      "role": "holdout_then_final_fit",
+      "predicted_degrees": 85.46652497391256,
+      "residual_degrees": -0.00014169275411290982,
+      "residual_equivalent_m": 13.898374650812253,
+      "other_coordinate_status": "unconstrained; axis tick is not a full 2D ground control point"
+    },
+    {
+      "id": "lon_32",
+      "axis": "longitude",
+      "x": 1437.5,
+      "y": 1018.0,
+      "degrees": 85.53333333333333,
+      "label": "85 deg 32 min E",
+      "role": "train",
+      "predicted_degrees": 85.5334039538452,
+      "residual_degrees": 7.06205118632397e-05,
+      "residual_equivalent_m": 6.92703263517165,
+      "other_coordinate_status": "unconstrained; axis tick is not a full 2D ground control point"
+    },
+    {
+      "id": "lat_20",
+      "axis": "latitude",
+      "x": 63.0,
+      "y": 399.0,
+      "degrees": 28.333333333333332,
+      "label": "28 deg 20 min N",
+      "role": "train",
+      "predicted_degrees": 28.333333333333318,
+      "residual_degrees": -1.4210854715202004e-14,
+      "residual_equivalent_m": 2.1194058745074637e-09,
+      "other_coordinate_status": "unconstrained; axis tick is not a full 2D ground control point"
+    },
+    {
+      "id": "lat_16",
+      "axis": "latitude",
+      "x": 63.0,
+      "y": 869.5,
+      "degrees": 28.266666666666666,
+      "label": "28 deg 16 min N",
+      "role": "train",
+      "predicted_degrees": 28.266666666666655,
+      "residual_degrees": -1.0658141036401503e-14,
+      "residual_equivalent_m": 1.413167369744879e-09,
+      "other_coordinate_status": "unconstrained; axis tick is not a full 2D ground control point"
+    }
+  ],
+  "longitude_holdout": {
+    "id": "lon_28",
+    "prediction_degrees": 85.46645412681548,
+    "reference_degrees": 85.46666666666667,
+    "equivalent_error_m": 20.847632601753833,
+    "fit_used_for_holdout": "two endpoint longitude ticks only"
+  },
+  "latitude_holdout": null,
+  "latitude_holdout_reason": "Only two latitude ticks; exact two-point fit has no independent residual degree of freedom.",
+  "cross_axis_rotation_or_shear_verified": false,
+  "five_render_pixel_sensitivity_equivalent_m": {
+    "longitude": 69.49187324560324,
+    "latitude": 78.51526724629024
+  },
+  "sensitivity_is_accuracy_bound": false,
+  "original_map_positional_accuracy_m": null,
+  "source_datum_error_m": null,
+  "feature_identification_error_m": null,
+  "search_padding_m": 2000.0,
+  "padding_is_confidence_bound": false,
+  "outcome": "adoptable_with_explicit_role_search_only; not acceptable as event truth or survey geometry"
+}

@@ -1,0 +1,61 @@
+{
+  "checked_utc": "2026-10-24T07:33:25.563651+00:00",
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "os_version",
+      "returncode": 0,
+      "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/os_version.txt",
+      "stdout_sha256": "594d5ddd35aedb47f00d9c34d140017907a5b9f93c975aba125fc924daac5c07"
+    },
+    {
+      "check": "grass_version",
+      "returncode": 0,
+      "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/grass_version.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "check": "gfortran_version",
+      "returncode": 0,
+      "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/gfortran_version.txt",
+      "stdout_sha256": "a475e81c41e3e808aafe42a1ea29f6c38a4535d7bcb6e53c1e7770a1d0be2a3f"
+    },
+    {
+      "check": "gdal_version",
+      "returncode": 0,
+      "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/gdal_version.txt",
+      "stdout_sha256": "fc4e457108ab1e7ee038fd7ee8a004b15267531098a781c5960709490faa1a3d"
+    },
+    {
+      "check": "python_imports",
+      "returncode": 0,
+      "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/python_imports.txt",
+      "stdout_sha256": "fc442e982a6a3ffc478b7306115a07b398100dadd7646e47eee26c96bd820511"
+    },
+    {
+      "check": "ravaflow_interface",
+      "returncode": 0,
+      "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/ravaflow_interface.xml",
+      "stdout_sha256": "1eb9efade6de5108a68a4b88718f9c019c7709f4bfcfeb8b06d6573dbb9f13af",
+      "parameters": 94
+    },
+    {
+      "check": "binaries",
+      "returncode": 0,
+      "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/binaries.txt",
+      "stdout_sha256": "b94fc000f54c1930da8ca5b514d38c9e82f6321b28d1ee8a4199bedade2f95e0"
+    },
+    {
+      "check": "r_imports",
+      "returncode": 0,
+      "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/r_imports.txt",
+      "stdout_sha256": "706747fae933a7c9ee5ce9fc8174156f90616d4603d50d76f593dd73089d8ebd"
+    },
+    {
+      "check": "dpkg_packages",
+      "returncode": 0,
+      "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/dpkg_packages.txt",
+      "stdout_sha256": "204be1dc128c69e85bfed676cec960278f70068e657247f907355c85c6ebbce6"
+    }
+  ]
+}

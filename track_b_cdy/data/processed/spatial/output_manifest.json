@@ -1,0 +1,62 @@
+{
+  "coordinate_operations.json": {
+    "bytes": 10935,
+    "sha256": "dac32a3ff87d59d4a6e80585e42de2af846c6dbb05dbf56e41c457e7344e36fa"
+  },
+  "dem_on_nc_grid.tif": {
+    "bytes": 68003,
+    "sha256": "dd4204378ba7740f45525994bb8cf158857126a7bb49aee908cc56d0981b1327"
+  },
+  "dem_utm45_30m.tif": {
+    "bytes": 6623907,
+    "sha256": "eaf39d044af5580fb12b7b991bdadf4da54294f8f78a818c15fff0f6390c2e95"
+  },
+  "history_dem_coverage.csv": {
+    "bytes": 7930,
+    "sha256": "f8d9668ba7afa7fed62669a21c3a11c0d617b2efbb1193e737ea299f1229b03e"
+  },
+  "jilong_LUCD_2020_nc_grid_nearest.tif": {
+    "bytes": 1303,
+    "sha256": "5e6dee61e5770d45b4b709d2d9e2fb72f44ab5fafe5d6e735fb4774e47980b28"
+  },
+  "jilong_LUCD_2021_nc_grid_nearest.tif": {
+    "bytes": 1303,
+    "sha256": "2b97e7a35248da4a8751a07c20028b5349fd1f7405ed93c39ec10a4f88d9c258"
+  },
+  "jilong_LUCD_2022_nc_grid_nearest.tif": {
+    "bytes": 1303,
+    "sha256": "eef505913dd3514c2c867f0c13fe53b2fa19e6b3f73d6151eb2ace73acc3a21b"
+  },
+  "jilong_LUCD_2023_nc_grid_nearest.tif": {
+    "bytes": 1303,
+    "sha256": "dfabe0f1443586e2bed41d441f65287a5f493addf0b7144f88b0f1f3e7aee71d"
+  },
+  "nc_dem_native_grid.tif": {
+    "bytes": 67745,
+    "sha256": "51316ce445f89016d79dcbb5baa12e2444e6eef90448d4f46825cd9d77f80d20"
+  },
+  "nc_glacier_mask.tif": {
+    "bytes": 1925,
+    "sha256": "88f91bb215d00f9773933befb27ba85dba250198e28ded265f5d9f0d20b12732"
+  },
+  "pipeline_report.json": {
+    "bytes": 60588,
+    "sha256": "811e11cbda3885f587d0b5cd8c8f55a138c01522c1353982732ac10dc484c65b"
+  },
+  "source_manifest.json": {
+    "bytes": 6984,
+    "sha256": "24de9976bcd0f011ff89617fbd66eb629834b792f76e15f454a2cf4fefac559d"
+  },
+  "spatial_diagnostic.gpkg": {
+    "bytes": 1691648,
+    "sha256": "c10ca5a2db28fe379504ccc2c148c2f0a9df6d81a2b24ca30a5d367f3725171d"
+  },
+  "spatial_pipeline_qa.png": {
+    "bytes": 698388,
+    "sha256": "a3729e7498674f54ea104cd09086853e89a0a3dfba9600eda435504f6099f8c6"
+  },
+  "visual_review.json": {
+    "bytes": 1567,
+    "sha256": "c2e989c18b047a6586eb2c964f0e228c4560b46c70b526ef26533468d29dbd08"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "q4-r2-independent-status-v1",
+  "generated_at_utc": "2026-10-24T06:24:42.202778+00:00",
+  "geometry_version": "q4-r2-fig1-candidates-v1",
+  "geometry_sha256": "cd68bf0bda80ab1d075fa33dbf0d713307d535e95e0f2494e41ce16b698b113e",
+  "evidence_csv_sha256": "060c373ead13146effff7734eac2f3efe4a67ec75a5258ff02ec64ab459a4073",
+  "bounded_review_path": "sources/independent_geography_review.json",
+  "bounded_review_sha256": "30d405eccd530befdb878853a5635ac34318cb916a5807578b45b9c2e89028da",
+  "update_policy": "Sidecar supplements unchanged candidate evidence; it does not replace geometry or source-read-time hashes.",
+  "objects": [
+    {
+      "space_id": "paper_source_outline",
+      "independent_machine_geometry_obtained": false,
+      "independent_crs": null,
+      "independent_accuracy_m": null,
+      "independent_observation_time_utc": null,
+      "geometry_status": "retrospective_reconstruction_candidate_from_same_JMS_Fig1c",
+      "acceptable_use": "search_and_candidate_coverage_only",
+      "event_geometry_accepted": false
+    },
+    {
+      "space_id": "paper_port_symbol",
+      "independent_machine_geometry_obtained": false,
+      "independent_crs": null,
+      "independent_accuracy_m": null,
+      "independent_observation_time_utc": null,
+      "geometry_status": "retrospective_reconstruction_candidate_from_same_JMS_Fig1c",
+      "acceptable_use": "search_and_candidate_coverage_only",
+      "event_geometry_accepted": false
+    },
+    {
+      "space_id": "paper_junction",
+      "independent_machine_geometry_obtained": false,
+      "independent_crs": null,
+      "independent_accuracy_m": null,
+      "independent_observation_time_utc": null,
+      "geometry_status": "retrospective_reconstruction_candidate_from_same_JMS_Fig1c",
+      "acceptable_use": "search_and_candidate_coverage_only",
+      "event_geometry_accepted": false
+    },
+    {
+      "space_id": "paper_chhochen_blue_trace",
+      "independent_machine_geometry_obtained": false,
+      "independent_crs": null,
+      "independent_accuracy_m": null,
+      "independent_observation_time_utc": null,
+      "geometry_status": "retrospective_reconstruction_candidate_from_same_JMS_Fig1c",
+      "acceptable_use": "search_and_candidate_coverage_only",
+      "event_geometry_accepted": false
+    },
+    {
+      "space_id": "paper_lende_blue_trace",
+      "independent_machine_geometry_obtained": false,
+      "independent_crs": null,
+      "independent_accuracy_m": null,
+      "independent_observation_time_utc": null,
+      "geometry_status": "retrospective_reconstruction_candidate_from_same_JMS_Fig1c",
+      "acceptable_use": "search_and_candidate_coverage_only",
+      "event_geometry_accepted": false
+    }
+  ]
+}

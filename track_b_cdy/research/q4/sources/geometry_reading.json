@@ -1,0 +1,63 @@
+{
+  "date_user_local": "2026-10-24",
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "initiation_propagation_arrival_evidence_kept_separate",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "source_area": null,
+    "channel": null,
+    "target_site": null,
+    "geometry_verification_status": "not_verified"
+  },
+  "data_role": "exploration",
+  "evidence_status": "external_source",
+  "available_time": null,
+  "issue_time": null,
+  "forecast_reference_time": null,
+  "valid_time": null,
+  "reading": [
+    {
+      "source_path": "track_b/data/external/event_remote/pdf_preview/jms-06.png",
+      "parent_pdf": "track_b/data/external/event_remote/jms_2026_uncorrected_proof.pdf",
+      "doi": "10.1007/s11629-026-1482-y",
+      "reading_scope": "Actually opened and visually inspected existing full rendered PDF page 6, Fig.1 and full caption; no other new PDF pages claimed in this pass.",
+      "supported": [
+        "qualitative source area on north Langtang Lirung massif",
+        "Chhochen Khola joins Lende Khola towards Gyirong Port",
+        "map labels and source outline are present"
+      ],
+      "not_supported": [
+        "survey-grade georeferenced digitisation",
+        "verified target point coordinate",
+        "independent river centreline or propagation distance",
+        "actual polygon equals NC inventory mask"
+      ],
+      "status": "uncorrected proof and retrospective study; proposed geometry requires validation",
+      "source_sha256": "2e504a0068a37c0c3f18f89596956d295ca64d34d341a4c44ad5ed07a01251de"
+    },
+    {
+      "source_path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/jms_article.html",
+      "reading_scope": "Actually parsed and read saved dc.description abstract; not a new full methods reading.",
+      "source_url": "https://jms.imde.ac.cn/en/article/doi/10.1007/s11629-026-1482-y",
+      "reported_candidate_constraints": {
+        "source_to_port_km": 22.8,
+        "lende_segment_km": 14.2,
+        "initial_slide_area_km2": 0.76,
+        "entrained_glacier_tongue_area_km2": 0.92,
+        "initial_slide_volume_m3": 103000000,
+        "initial_ice_volume_m3": 12600000,
+        "remobilised_debris_volume_m3": 36000000
+      },
+      "qualification": "Paper claims only; values not independently re-estimated, accepted as measured parameters, or used to initialise a simulation. Abstract reports 1D depth-averaged Voellmy and Saint-Venant modelling; no claim to reproduce the authors' implementation.",
+      "source_sha256": "6cf316f8d40fee7d48ab40f9a62699a867cf632ef5ca17bcfe56a5df7ca04b41"
+    }
+  ],
+  "input_version": {
+    "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+    "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97"
+  },
+  "variable_semantics": {
+    "geometry": "qualitative source map and reported lengths; no georeferenced digitisation"
+  }
+}

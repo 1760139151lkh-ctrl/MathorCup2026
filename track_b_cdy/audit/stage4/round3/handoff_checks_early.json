@@ -1,0 +1,321 @@
+{
+  "generated_at_utc": "2026-10-24T09:59:24.904315+00:00",
+  "round": "round3",
+  "integrated": false,
+  "status": "passed",
+  "passed": true,
+  "delivery_count": 18,
+  "checks": [
+    {
+      "delivery_index": 0,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q3",
+        "consumer": "q1",
+        "bundle_version": "q3-r3-event-v1-local",
+        "upstream_path": "track_b/research/q3/round3/exports/event_bundle.json",
+        "upstream_bundle_sha256": "075b149214b5c9a8827af45af221ee6ee6b6428090e6d9337afb1943698d2faf",
+        "delivered_bundle_path": "track_b/research/q1/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+        "delivered_bundle_sha256": "04016b75b0af3be4439952705f39d83493317b2b3b594d9bed49448ea13a1ff3",
+        "files": 3,
+        "referenced_bytes": 12123,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 1,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q3",
+        "consumer": "q2",
+        "bundle_version": "q3-r3-event-v1-local",
+        "upstream_path": "track_b/research/q3/round3/exports/event_bundle.json",
+        "upstream_bundle_sha256": "075b149214b5c9a8827af45af221ee6ee6b6428090e6d9337afb1943698d2faf",
+        "delivered_bundle_path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+        "delivered_bundle_sha256": "16ecf5a0e3af9ad572104490b79a56f59a78fc011e37cee2dd8f75e34d0a5a32",
+        "files": 3,
+        "referenced_bytes": 12123,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 2,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q3",
+        "consumer": "q4",
+        "bundle_version": "q3-r3-event-v1-local",
+        "upstream_path": "track_b/research/q3/round3/exports/event_bundle.json",
+        "upstream_bundle_sha256": "075b149214b5c9a8827af45af221ee6ee6b6428090e6d9337afb1943698d2faf",
+        "delivered_bundle_path": "track_b/research/q4/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+        "delivered_bundle_sha256": "b38711d8e34e7ab79a21a8856099aa5fb2bd003f31fdab4a5074b55337003724",
+        "files": 3,
+        "referenced_bytes": 12123,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 3,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q4",
+        "consumer": "q2",
+        "bundle_version": "q4-r3-spatial-copdem-v1-frozen-export",
+        "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/bundle.json",
+        "upstream_bundle_sha256": "5a2315f807bac296e5ae9bf877e655499b7a2b40e39df8edd3b0cccbeade853a",
+        "delivered_bundle_path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/bundle.json",
+        "delivered_bundle_sha256": "8eb6cbc1b85e60fe8a82906f4f025ec22b3bcf96d5c59bd0535ffbe0ccf8a0c5",
+        "files": 8,
+        "referenced_bytes": 1060847,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 4,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q4",
+        "consumer": "q3",
+        "bundle_version": "q4-r3-spatial-copdem-v1-frozen-export",
+        "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/bundle.json",
+        "upstream_bundle_sha256": "5a2315f807bac296e5ae9bf877e655499b7a2b40e39df8edd3b0cccbeade853a",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/bundle.json",
+        "delivered_bundle_sha256": "b6c02508acbe7bf131a0414ef7a90cafef2c5580597e2bc3b6f990e6892c4955",
+        "files": 8,
+        "referenced_bytes": 1060847,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 5,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q1",
+        "consumer": "q2",
+        "bundle_version": "q1-r3-feature-v1",
+        "upstream_path": "track_b/research/q1/round3/exports/feature_bundle.json",
+        "upstream_bundle_sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+        "delivered_bundle_path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/bundle.json",
+        "delivered_bundle_sha256": "765037010dadc269a6b3d89831abb61fc9d1163c2b9b989facbfcf4a2107b918",
+        "files": 10,
+        "referenced_bytes": 26963743,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 6,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q1",
+        "consumer": "q3",
+        "bundle_version": "q1-r3-feature-v1",
+        "upstream_path": "track_b/research/q1/round3/exports/feature_bundle.json",
+        "upstream_bundle_sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/bundle.json",
+        "delivered_bundle_sha256": "edd817989c3bdb5b21953e31d2a2ebcc7c637eedb414a1c86495e02210d3eaa9",
+        "files": 10,
+        "referenced_bytes": 26963743,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 7,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q2",
+        "consumer": "q3",
+        "bundle_version": "q2-r3-mechanism-v1",
+        "upstream_path": "track_b/research/q2/round3/exports/mechanism_bundle.json",
+        "upstream_bundle_sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/bundle.json",
+        "delivered_bundle_sha256": "65758b85d934267e883616eb2a56924e5b52d818e10b6f3eaa08bf934e54ce3a",
+        "files": 8,
+        "referenced_bytes": 5291189,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 8,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q2",
+        "consumer": "q4",
+        "bundle_version": "q2-r3-release-v1",
+        "upstream_path": "track_b/research/q2/round3/exports/release_bundle.json",
+        "upstream_bundle_sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+        "delivered_bundle_path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/bundle.json",
+        "delivered_bundle_sha256": "ed745576ff706a4d82a560269b0e07804add6fc9bde2b3948cced43932ddf5b5",
+        "files": 4,
+        "referenced_bytes": 1101582,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 9,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q2",
+        "consumer": "q4",
+        "bundle_version": "q2-r3-release-v2-spatial-copdem-v1",
+        "upstream_path": "track_b/research/q2/round3/exports/release_bundle_v2.json",
+        "upstream_bundle_sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3",
+        "delivered_bundle_path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json",
+        "delivered_bundle_sha256": "108ce2d34289fe3c5cdb5dacf6927bf977439bd9f06b959ff931f7d06b57f683",
+        "files": 11,
+        "referenced_bytes": 481669,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 10,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q2",
+        "consumer": "q3",
+        "bundle_version": "q2-r3-release-v2-spatial-copdem-v1",
+        "upstream_path": "track_b/research/q2/round3/exports/release_bundle_v2.json",
+        "upstream_bundle_sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json",
+        "delivered_bundle_sha256": "0b273b1b5eb7d65b9b9ab9731c9dceeef73f1c5f396fc743c97a7fdd206dc4f9",
+        "files": 11,
+        "referenced_bytes": 481669,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 11,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q2",
+        "consumer": "q3",
+        "bundle_version": "q2-r3-mechanism-thermal-refinement-v2",
+        "upstream_path": "track_b/research/q2/round3/exports/mechanism_bundle_v2.json",
+        "upstream_bundle_sha256": "dc53a9f805e96ff32b2c1fd064b0b7b33d90034e7d2c987f42403ae70bfcb093",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/bundle.json",
+        "delivered_bundle_sha256": "12eb0b329acede54face734b145cf33a8bfc5d329f6231b5a110c52ddec618c9",
+        "files": 17,
+        "referenced_bytes": 6673453,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 12,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q2",
+        "consumer": "q3",
+        "bundle_version": "q2-r3-numerical-limits-v1",
+        "upstream_path": "track_b/research/q2/round3/exports/numerical_supplement_bundle.json",
+        "upstream_bundle_sha256": "151a7c7f822f3970a7dbdc0194b4c1df18548dbb70afca19a5927f49f3206b03",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/bundle.json",
+        "delivered_bundle_sha256": "8ad708b3867ac35421ac1e3aa035969c52136e5bed1c845b190e9223fcad1b5b",
+        "files": 7,
+        "referenced_bytes": 583432,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 13,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q2",
+        "consumer": "q3",
+        "bundle_version": "q2-r3-literature-composition-v1",
+        "upstream_path": "track_b/research/q2/round3/exports/composition_bundle.json",
+        "upstream_bundle_sha256": "14f96d7d1e8600154a831dba9921a9efbf70eeacfd71e54b12af78879b762335",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/bundle.json",
+        "delivered_bundle_sha256": "0837c492726e78b2fd7b945e64731ee989ce141ec4cb817c3a0abff8cb12fdf9",
+        "files": 11,
+        "referenced_bytes": 7661758,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 14,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q2",
+        "consumer": "q4",
+        "bundle_version": "q2-r3-literature-composition-v1",
+        "upstream_path": "track_b/research/q2/round3/exports/composition_bundle.json",
+        "upstream_bundle_sha256": "14f96d7d1e8600154a831dba9921a9efbf70eeacfd71e54b12af78879b762335",
+        "delivered_bundle_path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/bundle.json",
+        "delivered_bundle_sha256": "c8fb79484b4455ab5b64d4099fedcd0a9945ff8da6e00e30b44b51648ef54b4c",
+        "files": 11,
+        "referenced_bytes": 7661758,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 15,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q2",
+        "consumer": "q3",
+        "bundle_version": "q2-r3-analytic-erfc-thermal-v1",
+        "upstream_path": "track_b/research/q2/round3/exports/analytic_thermal_bundle.json",
+        "upstream_bundle_sha256": "ff989d23894f9b2d44daf032418583430791ef5b8367d423aa5cb54763767684",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/bundle.json",
+        "delivered_bundle_sha256": "05e8b885198a3011e316472f562ba92480788cb04c6ab9bebfb3e04dbd3660ca",
+        "files": 21,
+        "referenced_bytes": 8109745,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 16,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q4",
+        "consumer": "q3",
+        "bundle_version": "q4-r3-propagation-v1-metadata-handoff",
+        "upstream_path": "track_b/research/q4/round3/exports/propagation_handoff_v1.json",
+        "upstream_bundle_sha256": "ef63555c5decb383a66eeb01ef48a7cfe1c1a29ec52cd435a9ed55a801ba2c16",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/bundle.json",
+        "delivered_bundle_sha256": "ca2687f43fbca865fea8556435c9765ccc429fed4bf3f05dd5df8f79deb2fda0",
+        "files": 40,
+        "referenced_bytes": 10174196,
+        "original_upstream_bytes_preserved": true
+      }
+    },
+    {
+      "delivery_index": 17,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q4",
+        "consumer": "q3",
+        "bundle_version": "q4-r3-propagation-v2",
+        "upstream_path": "track_b/research/q4/round3/exports/propagation_v2/bundle.json",
+        "upstream_bundle_sha256": "2a54e77d811faa8d949f92a2e45788751122517b6e91839ca8742cda20ea88a4",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/bundle.json",
+        "delivered_bundle_sha256": "9fec7f2083ab43f81b19da2c1cca3cef9b2ad0b5db36441495162412d1e8dda4",
+        "files": 39,
+        "referenced_bytes": 3450527,
+        "original_upstream_bytes_preserved": true
+      }
+    }
+  ],
+  "tool_version": "1.0.0",
+  "tool_sha256": "f4c9c349e08c4db03e524d90dc8536c258eaceee12a8c856035d5a3fa3a192c7",
+  "ledger_sha256": "7d224009d77c7ef16e7bab4309b4c16afae01ba176e66423a888d9ad7b3b66d7",
+  "workspace_registry_sha256": "ce6f1b4d70924407d7cb2a04df7b87850e02d9a0c2ce20cd933b55fd70efee78",
+  "scope": "Versioned bundle bytes, baseline, file mapping and hashes only; review_note is not machine-validated scientific adoption."
+}

@@ -1,0 +1,3137 @@
+[
+  {
+    "claim_id": "q1-counts-met",
+    "statement": "MET原变量、驱动量、主轨特征及探索增量的实际规模。",
+    "value": {
+      "raw_variables": 22,
+      "drivers": 10,
+      "original_qc_features": 37,
+      "unknown_increment_features": 5
+    },
+    "unit": "counts",
+    "source_files": [
+      {
+        "path": "track_b/data/processed/temporal/data_dictionary.json",
+        "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/feature_contract.csv",
+        "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-features"
+  },
+  {
+    "claim_id": "q1-counts-radm",
+    "statement": "RADM原变量、驱动量、主轨特征及探索增量的实际规模。",
+    "value": {
+      "raw_variables": 4,
+      "drivers": 4,
+      "original_qc_features": 20,
+      "unknown_increment_features": 0
+    },
+    "unit": "counts",
+    "source_files": [
+      {
+        "path": "track_b/data/processed/temporal/data_dictionary.json",
+        "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/feature_contract.csv",
+        "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-features"
+  },
+  {
+    "claim_id": "q1-counts-soil",
+    "statement": "SOIL原变量、驱动量、主轨特征及探索增量的实际规模。",
+    "value": {
+      "raw_variables": 12,
+      "drivers": 5,
+      "original_qc_features": 25,
+      "unknown_increment_features": 0
+    },
+    "unit": "counts",
+    "source_files": [
+      {
+        "path": "track_b/data/processed/temporal/data_dictionary.json",
+        "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/feature_contract.csv",
+        "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-features"
+  },
+  {
+    "claim_id": "q1-counts-flux",
+    "statement": "FLUX原变量、驱动量、主轨特征及探索增量的实际规模。",
+    "value": {
+      "raw_variables": 25,
+      "drivers": 5,
+      "original_qc_features": 0,
+      "unknown_increment_features": 25
+    },
+    "unit": "counts",
+    "source_files": [
+      {
+        "path": "track_b/data/processed/temporal/data_dictionary.json",
+        "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/feature_contract.csv",
+        "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-features"
+  },
+  {
+    "claim_id": "q1-feature-schema-total",
+    "statement": "完整特征库包含24驱动及112列，主轨82列、探索增量30列；18主轨驱动和6探索驱动。",
+    "value": {
+      "raw_variables": 63,
+      "drivers": 24,
+      "original_qc_drivers": 18,
+      "unknown_drivers": 6,
+      "features": 112,
+      "original_qc_features": 82,
+      "unknown_increment_features": 30,
+      "main_families": 9,
+      "new_unknown_families": 3,
+      "ordinary_drivers_times_five": 21,
+      "direction_drivers_times_one": 2,
+      "precipitation_drivers_times_five": 1,
+      "statistic_counts": {
+        "median": 24,
+        "p95": 22,
+        "p05": 21,
+        "trend_per24h": 21,
+        "longest_increase_fraction": 21,
+        "max": 1,
+        "positive_fraction": 1,
+        "longest_positive_fraction": 1
+      }
+    },
+    "unit": "counts",
+    "source_files": [
+      {
+        "path": "track_b/data/processed/temporal/data_dictionary.json",
+        "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/feature_contract.csv",
+        "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/variable_family_map.csv",
+        "sha256": "0b339b5b813a3cf95673acbb18168589aaaae81fde3d95005824e967f7e22e15"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-features"
+  },
+  {
+    "claim_id": "q1-station-and-clock",
+    "statement": "区域背景站元数据位置及源时钟换算；坐标与海拔是元数据声明。",
+    "value": {
+      "latitude": 28.86,
+      "longitude": 85.29,
+      "elevation_m": 4140,
+      "source_reference": "2026-08-26T10:30:00+08:00",
+      "reference_utc": "2026-08-26T02:30:00+00:00",
+      "source_timezone": "Asia/Shanghai",
+      "geodetic_datum": null,
+      "timezone_status": "UTC+8 declared by external same-title metadata mirror; local downloaded-file equivalence not hash-verified",
+      "hourly_interval_status": "unverified: instant/start/end/centre and accumulation intervals not assigned"
+    },
+    "unit": "degree; m; timezone-aware ISO8601",
+    "source_files": [
+      {
+        "path": "track_b/config/temporal_policy.json",
+        "sha256": "0ac6e5f9f8d82d23f801fada55e604dc61260d1a1be6438b8600d359c3b4f8f2"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/experiment.json",
+        "sha256": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b"
+      },
+      {
+        "path": "track_b/research/q1/round3/evidence/waternet_target.html",
+        "sha256": "614a83a76f7d46bfdb94c56f2c4dfb3814060d2f696ffeb5c733357b6e58b7ed"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": "regional_observational_case",
+    "scope": "Metadata regional-station coordinates; datum and positional error unspecified. UTC+8 is the documented source-clock assumption; not a source-area measurement or event initiation truth.",
+    "paper_anchor": "q1-sec"
+  },
+  {
+    "claim_id": "q1-background-and-sample-counts",
+    "statement": "五年各61个同钟点日历背景组成每窗305样本、45个七日过程代理；完整敏感性样本库5526行。",
+    "value": {
+      "background_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "inclusive_day_offsets": [
+        -30,
+        30
+      ],
+      "daily_anchors_per_year": 61,
+      "background_anchors_per_track_shift_window": 305,
+      "process_days": 7,
+      "processes_per_year": 9,
+      "processes_per_track_shift_window": 45,
+      "window_hours": [
+        24,
+        72,
+        168
+      ],
+      "quality_tracks": [
+        "original_qc_view",
+        "unknown_qc_exploration"
+      ],
+      "anchor_shifts_hours": [
+        -1,
+        0,
+        1
+      ],
+      "target_reference_count": 2,
+      "samples": 5526,
+      "background_samples": 5490,
+      "target_samples": 36,
+      "formula": "2 * (5 * 61 * 3 * 3 + 2 * 3 * 3)"
+    },
+    "unit": "counts; hours; days",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/config/experiment.json",
+        "sha256": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/sample_metadata.csv",
+        "sha256": "06c7b1273240779fcbde4a9777a878124fd9de47d5a4faff190f5118e73625b5"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/feature_build_validation.json",
+        "sha256": "c19c74937b4052ec9a4b104199d0bde4998af27bda904b5c959b900045800f98"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-sec"
+  },
+  {
+    "claim_id": "q1-fold-counts-and-isolation",
+    "statement": "两质量轨、三窗口复用50种分组形成300个评估折，所有训练与留出168小时支持无交叠。",
+    "value": {
+      "group_templates": 50,
+      "leave_year_templates": 5,
+      "leave_process_templates": 45,
+      "evaluation_folds": 300,
+      "route_fold_records": 900,
+      "membership_records": 91500,
+      "counts_by_fold_kind": {
+        "leave_process": {
+          "n_train": {
+            "minimum": 286,
+            "maximum": 294
+          },
+          "n_test": {
+            "minimum": 5,
+            "maximum": 7
+          },
+          "n_purged": {
+            "minimum": 6,
+            "maximum": 12
+          },
+          "n_years_train": {
+            "minimum": 5,
+            "maximum": 5
+          },
+          "n_process_train": {
+            "minimum": 43,
+            "maximum": 44
+          }
+        },
+        "leave_year": {
+          "n_train": {
+            "minimum": 244,
+            "maximum": 244
+          },
+          "n_test": {
+            "minimum": 61,
+            "maximum": 61
+          },
+          "n_purged": {
+            "minimum": 0,
+            "maximum": 0
+          },
+          "n_years_train": {
+            "minimum": 4,
+            "maximum": 4
+          },
+          "n_process_train": {
+            "minimum": 36,
+            "maximum": 36
+          }
+        }
+      },
+      "max_support_hours": 168,
+      "overlap_violations": 0
+    },
+    "unit": "counts; hours",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/fold_metrics.csv",
+        "sha256": "28d03cb9960c7f9a7bd185f2039c4cccaa318a116930a17d2195511afb3d3627"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/fold_membership.csv",
+        "sha256": "6eca6719e1afd8a1620723607157d1b93659ac319edbb7b236c5220c8b69c175"
+      },
+      {
+        "path": "track_b/research/q1/round3/scripts/run_models.py",
+        "sha256": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-sec"
+  },
+  {
+    "claim_id": "q1-feature-definitions",
+    "statement": "特征、缺测链、质量轨及覆盖规则按登记定义实现。",
+    "value": {
+      "coverage_primary": 0.75,
+      "coverage_sensitivity": [
+        0.5,
+        0.9
+      ],
+      "distribution_minimum_valid_labels": 2,
+      "trend_minimum_valid_labels": 6,
+      "ordinary_statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ],
+      "precipitation_statistics": [
+        "median",
+        "p95",
+        "max",
+        "positive_fraction",
+        "longest_positive_fraction"
+      ],
+      "trend": "OLS against true label hour index; slope multiplied by24",
+      "growth_run": "longest consecutive accepted +1hour positive increments / nominal label count; missing breaks",
+      "quality_rule": "37 supplied-QC variables remain QC0 in both tracks; only26 supplied no-QC variables may use numeric-present values in exploration",
+      "wind_direction": "sin/cos of nominal10m degrees; median only",
+      "precipitation": "label statistics; no rainfall accumulation or energy integration"
+    },
+    "unit": "mixed; see each parameter",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/config/experiment.json",
+        "sha256": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      },
+      {
+        "path": "track_b/research/q1/round3/scripts/build_features.py",
+        "sha256": "dbea3bca9f519e43b065481b433372d7abdab3e8f789cf1a1804d09589a3aeb0"
+      },
+      {
+        "path": "track_b/config/temporal_policy.json",
+        "sha256": "0ac6e5f9f8d82d23f801fada55e604dc61260d1a1be6438b8600d359c3b4f8f2"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-features"
+  },
+  {
+    "claim_id": "q1-method-A",
+    "statement": "A使用加权中点ECDF双侧偏离，驱动内和族内依次取中位数。",
+    "value": {
+      "weights": "1/(Y * P_y * n_yp), recalculated for finite feature support",
+      "ecdf": "sum_i w_i * (I[x_ij<x] +0.5 I[x_ij=x])",
+      "feature_score": "2*abs(F_j-0.5)",
+      "aggregation": "median statistics within driver, then median drivers within family",
+      "minimum_actual_years": 3,
+      "interpretation": "relative marginal anomaly, not a p-value"
+    },
+    "unit": "dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/scripts/run_models.py",
+        "sha256": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/experiment.json",
+        "sha256": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b"
+      }
+    ],
+    "model_id": "A_marginal_ecdf",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-eq-ecdf"
+  },
+  {
+    "claim_id": "q1-method-B",
+    "statement": "B在训练折内拟合稳健尺度与收缩协方差，计算按族维数归一的条件块贡献并留年校准。",
+    "value": {
+      "minimum_weighted_observation_fraction": 0.8,
+      "minimum_actual_years": 3,
+      "target_observed": true,
+      "imputation": "training weighted median",
+      "primary_scale": "1.4826*weighted_MAD",
+      "fallback_scale": "weighted_IQR/1.349; zero scale excluded",
+      "transform": "clip((x-median)/scale,-8,8) minus training weighted mean",
+      "covariance": "C=sum_i w_i z_i z_i^T; Sigma=(1-lambda)C+lambda*I; P=inverse(Sigma)",
+      "lambda": 0.5,
+      "lambda_sensitivity": [
+        0.1,
+        0.9
+      ],
+      "conditional_block": "eta=P*delta; b_g=eta_g^T inverse(P_gg) eta_g / d_g",
+      "equivalence": "(full squared Mahalanobis distance minus deleted-family marginal distance using same fitted covariance)/d_g",
+      "calibration": "upper midpoint ECDF of out-of-year family contributions; not a two-sided transformation",
+      "heldout_support": "all active family columns must actually be observed; each fold refits transforms and active columns",
+      "family_contributions_additive": false
+    },
+    "unit": "dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/scripts/run_models.py",
+        "sha256": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/experiment.json",
+        "sha256": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b"
+      }
+    ],
+    "model_id": "B_shrunk_conditional",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-eq-conditional"
+  },
+  {
+    "claim_id": "q1-method-C",
+    "statement": "C排除待评族，用其他族等权距离选取不同过程类比，再用双侧分数及两层中位数聚合。",
+    "value": {
+      "matching_columns": "complete-training B fit active columns; all tested-family columns excluded",
+      "distance_squared": "mean over other families of mean over their active feature squared standardized differences",
+      "minimum_matching_observed_fraction": 0.8,
+      "processes_per_year": 2,
+      "maximum_primary_analogs": 10,
+      "selection": "nearest anchor per process, then2 nearest distinct processes per year",
+      "feature_score": "2*abs(midpoint weighted ECDF in selected analogs -0.5)",
+      "aggregation": "median statistics within driver, then median drivers within family",
+      "processes_per_year_sensitivity": [
+        1,
+        3
+      ]
+    },
+    "unit": "dimensionless; counts",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/scripts/run_models.py",
+        "sha256": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/experiment.json",
+        "sha256": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b"
+      }
+    ],
+    "model_id": "C_other_family_analog",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-sec"
+  },
+  {
+    "claim_id": "q1-consensus-definition",
+    "statement": "每路线每窗口先归一中间名次，再等权汇总三路线三窗口；缺路不计零。",
+    "value": {
+      "fractional_rank": "Q=1-(r-1)/(G-1)",
+      "primary_finite_family_count": 9,
+      "per_route_cross_window_score": "mean over24/72/168h of Q",
+      "consensus": "mean over24/72/168h of mean over A/B/C of Q; all3 routes and all3 windows required",
+      "tie_definition": "midrank after score rounding to12 decimal places",
+      "top5_credit": "clip((5-number_ranked_above_tie)/tie_size,0,1)",
+      "duplicate_minute_anchors_extra_votes": false
+    },
+    "unit": "dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/scripts/run_models.py",
+        "sha256": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/experiment.json",
+        "sha256": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-eq-consensus"
+  },
+  {
+    "claim_id": "q1-table-rank-soil_moisture",
+    "statement": "主质量轨土壤水分三路线跨窗名次、共识及条件入选份额。",
+    "value": {
+      "family_id": "soil_moisture",
+      "route_ranks": {
+        "A_marginal_ecdf": 1.0,
+        "B_shrunk_conditional": 5.0,
+        "C_other_family_analog": 1.0
+      },
+      "consensus_score": 0.7430555555555555,
+      "consensus_rank": 1.0,
+      "mean_window_top5_credit_frequency": 0.8143939393939394,
+      "valid_consensus_draws_per_window": 44,
+      "requested_draws_per_window": 100,
+      "paper_rounded_consensus": "0.743",
+      "paper_rounded_frequency": "0.814"
+    },
+    "unit": "rank; dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/top5_three_routes.csv",
+        "sha256": "6efb36a12cf6d5ab8d5a8c64b3ce9e4a14fca13566b698f9b49fba2d1c4d9e4b"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-ranks"
+  },
+  {
+    "claim_id": "q1-table-rank-air_moisture",
+    "statement": "主质量轨空气湿状态三路线跨窗名次、共识及条件入选份额。",
+    "value": {
+      "family_id": "air_moisture",
+      "route_ranks": {
+        "A_marginal_ecdf": 5.0,
+        "B_shrunk_conditional": 2.0,
+        "C_other_family_analog": 3.0
+      },
+      "consensus_score": 0.6666666666666666,
+      "consensus_rank": 2.0,
+      "mean_window_top5_credit_frequency": 0.8143939393939394,
+      "valid_consensus_draws_per_window": 44,
+      "requested_draws_per_window": 100,
+      "paper_rounded_consensus": "0.667",
+      "paper_rounded_frequency": "0.814"
+    },
+    "unit": "rank; dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/top5_three_routes.csv",
+        "sha256": "6efb36a12cf6d5ab8d5a8c64b3ce9e4a14fca13566b698f9b49fba2d1c4d9e4b"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-ranks"
+  },
+  {
+    "claim_id": "q1-table-rank-soil_thermal",
+    "statement": "主质量轨土壤热状态三路线跨窗名次、共识及条件入选份额。",
+    "value": {
+      "family_id": "soil_thermal",
+      "route_ranks": {
+        "A_marginal_ecdf": 6.0,
+        "B_shrunk_conditional": 1.0,
+        "C_other_family_analog": 4.0
+      },
+      "consensus_score": 0.6388888888888888,
+      "consensus_rank": 3.0,
+      "mean_window_top5_credit_frequency": 0.8434343434343434,
+      "valid_consensus_draws_per_window": 44,
+      "requested_draws_per_window": 100,
+      "paper_rounded_consensus": "0.639",
+      "paper_rounded_frequency": "0.843"
+    },
+    "unit": "rank; dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/top5_three_routes.csv",
+        "sha256": "6efb36a12cf6d5ab8d5a8c64b3ce9e4a14fca13566b698f9b49fba2d1c4d9e4b"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-ranks"
+  },
+  {
+    "claim_id": "q1-table-rank-air_thermal",
+    "statement": "主质量轨空气热状态三路线跨窗名次、共识及条件入选份额。",
+    "value": {
+      "family_id": "air_thermal",
+      "route_ranks": {
+        "A_marginal_ecdf": 2.5,
+        "B_shrunk_conditional": 3.0,
+        "C_other_family_analog": 5.0
+      },
+      "consensus_score": 0.611111111111111,
+      "consensus_rank": 4.0,
+      "mean_window_top5_credit_frequency": 0.8901515151515151,
+      "valid_consensus_draws_per_window": 44,
+      "requested_draws_per_window": 100,
+      "paper_rounded_consensus": "0.611",
+      "paper_rounded_frequency": "0.890"
+    },
+    "unit": "rank; dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/top5_three_routes.csv",
+        "sha256": "6efb36a12cf6d5ab8d5a8c64b3ce9e4a14fca13566b698f9b49fba2d1c4d9e4b"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-ranks"
+  },
+  {
+    "claim_id": "q1-table-rank-mean_wind",
+    "statement": "主质量轨平均风三路线跨窗名次、共识及条件入选份额。",
+    "value": {
+      "family_id": "mean_wind",
+      "route_ranks": {
+        "A_marginal_ecdf": 8.0,
+        "B_shrunk_conditional": 4.0,
+        "C_other_family_analog": 2.0
+      },
+      "consensus_score": 0.5833333333333334,
+      "consensus_rank": 5.0,
+      "mean_window_top5_credit_frequency": 0.5265151515151515,
+      "valid_consensus_draws_per_window": 44,
+      "requested_draws_per_window": 100,
+      "paper_rounded_consensus": "0.583",
+      "paper_rounded_frequency": "0.527"
+    },
+    "unit": "rank; dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/top5_three_routes.csv",
+        "sha256": "6efb36a12cf6d5ab8d5a8c64b3ce9e4a14fca13566b698f9b49fba2d1c4d9e4b"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-ranks"
+  },
+  {
+    "claim_id": "q1-table-rank-soil_heat_flux",
+    "statement": "主质量轨土热通量三路线跨窗名次、共识及条件入选份额。",
+    "value": {
+      "family_id": "soil_heat_flux",
+      "route_ranks": {
+        "A_marginal_ecdf": 4.0,
+        "B_shrunk_conditional": 6.0,
+        "C_other_family_analog": 6.0
+      },
+      "consensus_score": 0.4652777777777778,
+      "consensus_rank": 6.0,
+      "mean_window_top5_credit_frequency": 0.5593434343434343,
+      "valid_consensus_draws_per_window": 44,
+      "requested_draws_per_window": 100,
+      "paper_rounded_consensus": "0.465",
+      "paper_rounded_frequency": "0.559"
+    },
+    "unit": "rank; dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/top5_three_routes.csv",
+        "sha256": "6efb36a12cf6d5ab8d5a8c64b3ce9e4a14fca13566b698f9b49fba2d1c4d9e4b"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-ranks"
+  },
+  {
+    "claim_id": "q1-table-rank-shortwave",
+    "statement": "主质量轨短波辐射三路线跨窗名次、共识及条件入选份额。",
+    "value": {
+      "family_id": "shortwave",
+      "route_ranks": {
+        "A_marginal_ecdf": 2.5,
+        "B_shrunk_conditional": 8.5,
+        "C_other_family_analog": 7.0
+      },
+      "consensus_score": 0.4097222222222222,
+      "consensus_rank": 7.0,
+      "mean_window_top5_credit_frequency": 0.3042929292929293,
+      "valid_consensus_draws_per_window": 44,
+      "requested_draws_per_window": 100,
+      "paper_rounded_consensus": "0.410",
+      "paper_rounded_frequency": "0.304"
+    },
+    "unit": "rank; dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/top5_three_routes.csv",
+        "sha256": "6efb36a12cf6d5ab8d5a8c64b3ce9e4a14fca13566b698f9b49fba2d1c4d9e4b"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-ranks"
+  },
+  {
+    "claim_id": "q1-table-rank-longwave",
+    "statement": "主质量轨长波辐射三路线跨窗名次、共识及条件入选份额。",
+    "value": {
+      "family_id": "longwave",
+      "route_ranks": {
+        "A_marginal_ecdf": 7.0,
+        "B_shrunk_conditional": 7.0,
+        "C_other_family_analog": 8.0
+      },
+      "consensus_score": 0.2638888888888889,
+      "consensus_rank": 8.0,
+      "mean_window_top5_credit_frequency": 0.2323232323232323,
+      "valid_consensus_draws_per_window": 44,
+      "requested_draws_per_window": 100,
+      "paper_rounded_consensus": "0.264",
+      "paper_rounded_frequency": "0.232"
+    },
+    "unit": "rank; dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/top5_three_routes.csv",
+        "sha256": "6efb36a12cf6d5ab8d5a8c64b3ce9e4a14fca13566b698f9b49fba2d1c4d9e4b"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-ranks"
+  },
+  {
+    "claim_id": "q1-table-rank-air_pressure",
+    "statement": "主质量轨气压三路线跨窗名次、共识及条件入选份额。",
+    "value": {
+      "family_id": "air_pressure",
+      "route_ranks": {
+        "A_marginal_ecdf": 9.0,
+        "B_shrunk_conditional": 8.5,
+        "C_other_family_analog": 9.0
+      },
+      "consensus_score": 0.1180555555555555,
+      "consensus_rank": 9.0,
+      "mean_window_top5_credit_frequency": 0.0151515151515151,
+      "valid_consensus_draws_per_window": 44,
+      "requested_draws_per_window": 100,
+      "paper_rounded_consensus": "0.118",
+      "paper_rounded_frequency": "0.015"
+    },
+    "unit": "rank; dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/top5_three_routes.csv",
+        "sha256": "6efb36a12cf6d5ab8d5a8c64b3ce9e4a14fca13566b698f9b49fba2d1c4d9e4b"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-tab-ranks"
+  },
+  {
+    "claim_id": "q1-fifth-slot-competition",
+    "statement": "风场名义共识第五，土热通量的条件入选份额较高，两种排序摘要刻画不同性质。",
+    "value": {
+      "wind_consensus": 0.5833333333333334,
+      "ground_heat_consensus": 0.4652777777777778,
+      "wind_frequency": 0.5265151515151515,
+      "ground_heat_frequency": 0.5593434343434343,
+      "frequency_difference_percentage_points": 3.282828282828276
+    },
+    "unit": "dimensionless; percentage points",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-sec"
+  },
+  {
+    "claim_id": "q1-bootstrap-denominators",
+    "statement": "100次原始层级抽样全部保留；主QC的A/C每窗89次有效，B及共识每窗44次。",
+    "value": {
+      "requested_draws": 100,
+      "valid_draws_per_window": {
+        "A_marginal_ecdf": [
+          89
+        ],
+        "B_shrunk_conditional": [
+          44
+        ],
+        "C_other_family_analog": [
+          89
+        ],
+        "consensus": [
+          44
+        ]
+      },
+      "unique_year_count_histogram": {
+        "2": 11,
+        "3": 45,
+        "4": 40,
+        "5": 4
+      },
+      "fewer_than_three_distinct_years": 11,
+      "fewer_than_four_distinct_years": 56,
+      "frequency_definition": "within each window mean fractional TOP5 credit over finite-rank draws; then equally average3 windows",
+      "independent_events_added": 0,
+      "minimum_valid_draws_for_stable_label": 70,
+      "all_primary_labels": [
+        "conditional_candidate"
+      ]
+    },
+    "unit": "counts; conditional frequency",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/bootstrap_draw_specification.json",
+        "sha256": "3b4c9908afdef96620d60d878542db9604adfa86750b716ca3a78bc2c97a728a"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/research/q1/round3/scripts/run_models.py",
+        "sha256": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-fig-stability"
+  },
+  {
+    "claim_id": "q1-soil-water-state-and-direction",
+    "statement": "0.1m体积含水率的较高季节背景位置与168小时内下降同时成立。",
+    "value": {
+      "window_hours": 168,
+      "n_valid": 168,
+      "n_labels": 168,
+      "first_valid_time_utc": "2026-08-19T03:00:00+00:00",
+      "last_valid_time_utc": "2026-08-26T02:00:00+00:00",
+      "first_valid_value": 0.164703,
+      "last_valid_value": 0.0827526,
+      "endpoint_change": -0.0819503999999999,
+      "target_median": 0.1210305,
+      "background_median_percentile": 0.8222222222222222,
+      "target_trend_per24h": -0.0122206331725391
+    },
+    "unit": "m3 m-3; OLS slope in m3 m-3 per24h; UTC",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/case_state_evidence.csv",
+        "sha256": "b141bf2f370730aaf6fc9e54fb1f0d96a2484c71ad2ebbd8bf072c8cf2c9f29a"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/factor_directions.csv",
+        "sha256": "3bac727ac99df13eb3f52d40684d8da28d6290149f6a4bb83f2ae81a6d7f853a"
+      }
+    ],
+    "model_id": "A_marginal_ecdf",
+    "scenario_id": "regional_observational_case",
+    "scope": "Accepted original-QC regional0.1m soil values,168 hourly labels spanning167h between endpoints. A negative window OLS trend is not proof of monotonic change, source-area pressure or causation.",
+    "paper_anchor": "q1-fig-state"
+  },
+  {
+    "claim_id": "q1-median-direction-air_temperature_2m",
+    "statement": "air_temperature_2m的固定代表中位数、季节背景中位秩和方向。",
+    "value": [
+      {
+        "window_hours": 24,
+        "target_value": 12.045,
+        "background_percentile": 0.882539682539682,
+        "signed_direction": 1.0
+      },
+      {
+        "window_hours": 72,
+        "target_value": 11.77,
+        "background_percentile": 0.866666666666667,
+        "signed_direction": 1.0
+      },
+      {
+        "window_hours": 168,
+        "target_value": 11.245,
+        "background_percentile": 0.677777777777778,
+        "signed_direction": 1.0
+      }
+    ],
+    "unit": {
+      "value": "degC",
+      "background_percentile": "fraction from0 to1"
+    },
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/factor_directions.csv",
+        "sha256": "3bac727ac99df13eb3f52d40684d8da28d6290149f6a4bb83f2ae81a6d7f853a"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      }
+    ],
+    "model_id": "A_marginal_ecdf",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-fig-state"
+  },
+  {
+    "claim_id": "q1-median-direction-relative_humidity_2m",
+    "statement": "relative_humidity_2m的固定代表中位数、季节背景中位秩和方向。",
+    "value": [
+      {
+        "window_hours": 24,
+        "target_value": 67.975,
+        "background_percentile": 0.346666666666667,
+        "signed_direction": -1.0
+      },
+      {
+        "window_hours": 72,
+        "target_value": 68.805,
+        "background_percentile": 0.391746031746032,
+        "signed_direction": -1.0
+      },
+      {
+        "window_hours": 168,
+        "target_value": 74.03,
+        "background_percentile": 0.758730158730159,
+        "signed_direction": 1.0
+      }
+    ],
+    "unit": {
+      "value": "%",
+      "background_percentile": "fraction from0 to1"
+    },
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/factor_directions.csv",
+        "sha256": "3bac727ac99df13eb3f52d40684d8da28d6290149f6a4bb83f2ae81a6d7f853a"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      }
+    ],
+    "model_id": "A_marginal_ecdf",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-fig-state"
+  },
+  {
+    "claim_id": "q1-median-direction-wind_speed_10m",
+    "statement": "wind_speed_10m的固定代表中位数、季节背景中位秩和方向。",
+    "value": [
+      {
+        "window_hours": 24,
+        "target_value": 1.2305,
+        "background_percentile": 0.356825396825397,
+        "signed_direction": -1.0
+      },
+      {
+        "window_hours": 72,
+        "target_value": 1.226,
+        "background_percentile": 0.30063492063492,
+        "signed_direction": -1.0
+      },
+      {
+        "window_hours": 168,
+        "target_value": 1.226,
+        "background_percentile": 0.262222222222222,
+        "signed_direction": -1.0
+      }
+    ],
+    "unit": {
+      "value": "m s-1",
+      "background_percentile": "fraction from0 to1"
+    },
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/factor_directions.csv",
+        "sha256": "3bac727ac99df13eb3f52d40684d8da28d6290149f6a4bb83f2ae81a6d7f853a"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      }
+    ],
+    "model_id": "A_marginal_ecdf",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-fig-state"
+  },
+  {
+    "claim_id": "q1-median-direction-soil_temperature_0p1m",
+    "statement": "soil_temperature_0p1m的固定代表中位数、季节背景中位秩和方向。",
+    "value": [
+      {
+        "window_hours": 24,
+        "target_value": 18.75125,
+        "background_percentile": 0.521269841269841,
+        "signed_direction": 1.0
+      },
+      {
+        "window_hours": 72,
+        "target_value": 17.97785,
+        "background_percentile": 0.371428571428571,
+        "signed_direction": -1.0
+      },
+      {
+        "window_hours": 168,
+        "target_value": 17.26475,
+        "background_percentile": 0.195555555555556,
+        "signed_direction": -1.0
+      }
+    ],
+    "unit": {
+      "value": "degC",
+      "background_percentile": "fraction from0 to1"
+    },
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/factor_directions.csv",
+        "sha256": "3bac727ac99df13eb3f52d40684d8da28d6290149f6a4bb83f2ae81a6d7f853a"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      }
+    ],
+    "model_id": "A_marginal_ecdf",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-fig-state"
+  },
+  {
+    "claim_id": "q1-median-direction-soil_vwc_0p1m",
+    "statement": "soil_vwc_0p1m的固定代表中位数、季节背景中位秩和方向。",
+    "value": [
+      {
+        "window_hours": 24,
+        "target_value": 0.08314195,
+        "background_percentile": 0.587936507936508,
+        "signed_direction": 1.0
+      },
+      {
+        "window_hours": 72,
+        "target_value": 0.0939277,
+        "background_percentile": 0.684444444444444,
+        "signed_direction": 1.0
+      },
+      {
+        "window_hours": 168,
+        "target_value": 0.1210305,
+        "background_percentile": 0.822222222222222,
+        "signed_direction": 1.0
+      }
+    ],
+    "unit": {
+      "value": "m3 m-3",
+      "background_percentile": "fraction from0 to1"
+    },
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/factor_directions.csv",
+        "sha256": "3bac727ac99df13eb3f52d40684d8da28d6290149f6a4bb83f2ae81a6d7f853a"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      }
+    ],
+    "model_id": "A_marginal_ecdf",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-fig-state"
+  },
+  {
+    "claim_id": "q1-median-direction-soil_heat_flux_0p1m",
+    "statement": "soil_heat_flux_0p1m的固定代表中位数、季节背景中位秩和方向。",
+    "value": [
+      {
+        "window_hours": 24,
+        "target_value": 3.05332,
+        "background_percentile": 0.770793650793651,
+        "signed_direction": 1.0
+      },
+      {
+        "window_hours": 72,
+        "target_value": 2.087245,
+        "background_percentile": 0.695873015873016,
+        "signed_direction": 1.0
+      },
+      {
+        "window_hours": 168,
+        "target_value": 0.18298555,
+        "background_percentile": 0.530793650793651,
+        "signed_direction": 1.0
+      }
+    ],
+    "unit": {
+      "value": "W m-2",
+      "background_percentile": "fraction from0 to1"
+    },
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/factor_directions.csv",
+        "sha256": "3bac727ac99df13eb3f52d40684d8da28d6290149f6a4bb83f2ae81a6d7f853a"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      }
+    ],
+    "model_id": "A_marginal_ecdf",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-fig-state"
+  },
+  {
+    "claim_id": "q1-median-direction-shortwave_down",
+    "statement": "shortwave_down的固定代表中位数、季节背景中位秩和方向。",
+    "value": [
+      {
+        "window_hours": 24,
+        "target_value": 45.4201385,
+        "background_percentile": 0.837460317460318,
+        "signed_direction": 1.0
+      },
+      {
+        "window_hours": 72,
+        "target_value": 32.34454,
+        "background_percentile": 0.84973544973545,
+        "signed_direction": 1.0
+      },
+      {
+        "window_hours": 168,
+        "target_value": 18.725715,
+        "background_percentile": 0.774603174603175,
+        "signed_direction": 1.0
+      }
+    ],
+    "unit": {
+      "value": "W m-2",
+      "background_percentile": "fraction from0 to1"
+    },
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/factor_directions.csv",
+        "sha256": "3bac727ac99df13eb3f52d40684d8da28d6290149f6a4bb83f2ae81a6d7f853a"
+      },
+      {
+        "path": "track_b/research/q1/round3/config/features.json",
+        "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+      }
+    ],
+    "model_id": "A_marginal_ecdf",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-fig-state"
+  },
+  {
+    "claim_id": "q1-figure-state-complete-data",
+    "statement": "状态图完整168点时序及7代表量×3窗口背景位置，直接重绘冻结结果。",
+    "value": {
+      "state_figure_values": {
+        "reference_utc": "2026-08-26T02:30:00+00:00",
+        "n_vwc": 168,
+        "vwc_first": 0.164703,
+        "vwc_last": 0.0827526,
+        "representative_driver_ids": [
+          "air_temperature_2m",
+          "relative_humidity_2m",
+          "wind_speed_10m",
+          "soil_temperature_0p1m",
+          "soil_vwc_0p1m",
+          "soil_heat_flux_0p1m",
+          "shortwave_down"
+        ],
+        "windows_hours": [
+          24,
+          72,
+          168
+        ],
+        "median_percentiles": [
+          [
+            0.8825396825396825,
+            0.8666666666666667,
+            0.6777777777777778
+          ],
+          [
+            0.3466666666666667,
+            0.3917460317460317,
+            0.7587301587301587
+          ],
+          [
+            0.3568253968253967,
+            0.3006349206349205,
+            0.2622222222222221
+          ],
+          [
+            0.5212698412698411,
+            0.3714285714285714,
+            0.1955555555555555
+          ],
+          [
+            0.587936507936508,
+            0.6844444444444444,
+            0.8222222222222222
+          ],
+          [
+            0.7707936507936509,
+            0.6958730158730158,
+            0.5307936507936507
+          ],
+          [
+            0.8374603174603175,
+            0.8497354497354498,
+            0.7746031746031746
+          ]
+        ]
+      },
+      "hourly_series": [
+        {
+          "time_utc": "2026-08-19T03:00:00+00:00",
+          "hours_before_reference": -167.5,
+          "soil_vwc_0p1m": 0.164703
+        },
+        {
+          "time_utc": "2026-08-19T04:00:00+00:00",
+          "hours_before_reference": -166.5,
+          "soil_vwc_0p1m": 0.163992
+        },
+        {
+          "time_utc": "2026-08-19T05:00:00+00:00",
+          "hours_before_reference": -165.5,
+          "soil_vwc_0p1m": 0.162492
+        },
+        {
+          "time_utc": "2026-08-19T06:00:00+00:00",
+          "hours_before_reference": -164.5,
+          "soil_vwc_0p1m": 0.160993
+        },
+        {
+          "time_utc": "2026-08-19T07:00:00+00:00",
+          "hours_before_reference": -163.5,
+          "soil_vwc_0p1m": 0.158723
+        },
+        {
+          "time_utc": "2026-08-19T08:00:00+00:00",
+          "hours_before_reference": -162.5,
+          "soil_vwc_0p1m": 0.1572
+        },
+        {
+          "time_utc": "2026-08-19T09:00:00+00:00",
+          "hours_before_reference": -161.5,
+          "soil_vwc_0p1m": 0.156505
+        },
+        {
+          "time_utc": "2026-08-19T10:00:00+00:00",
+          "hours_before_reference": -160.5,
+          "soil_vwc_0p1m": 0.156128
+        },
+        {
+          "time_utc": "2026-08-19T11:00:00+00:00",
+          "hours_before_reference": -159.5,
+          "soil_vwc_0p1m": 0.156401
+        },
+        {
+          "time_utc": "2026-08-19T12:00:00+00:00",
+          "hours_before_reference": -158.5,
+          "soil_vwc_0p1m": 0.15664
+        },
+        {
+          "time_utc": "2026-08-19T13:00:00+00:00",
+          "hours_before_reference": -157.5,
+          "soil_vwc_0p1m": 0.1567
+        },
+        {
+          "time_utc": "2026-08-19T14:00:00+00:00",
+          "hours_before_reference": -156.5,
+          "soil_vwc_0p1m": 0.156344
+        },
+        {
+          "time_utc": "2026-08-19T15:00:00+00:00",
+          "hours_before_reference": -155.5,
+          "soil_vwc_0p1m": 0.156159
+        },
+        {
+          "time_utc": "2026-08-19T16:00:00+00:00",
+          "hours_before_reference": -154.5,
+          "soil_vwc_0p1m": 0.156207
+        },
+        {
+          "time_utc": "2026-08-19T17:00:00+00:00",
+          "hours_before_reference": -153.5,
+          "soil_vwc_0p1m": 0.155929
+        },
+        {
+          "time_utc": "2026-08-19T18:00:00+00:00",
+          "hours_before_reference": -152.5,
+          "soil_vwc_0p1m": 0.155597
+        },
+        {
+          "time_utc": "2026-08-19T19:00:00+00:00",
+          "hours_before_reference": -151.5,
+          "soil_vwc_0p1m": 0.155635
+        },
+        {
+          "time_utc": "2026-08-19T20:00:00+00:00",
+          "hours_before_reference": -150.5,
+          "soil_vwc_0p1m": 0.155455
+        },
+        {
+          "time_utc": "2026-08-19T21:00:00+00:00",
+          "hours_before_reference": -149.5,
+          "soil_vwc_0p1m": 0.155003
+        },
+        {
+          "time_utc": "2026-08-19T22:00:00+00:00",
+          "hours_before_reference": -148.5,
+          "soil_vwc_0p1m": 0.155019
+        },
+        {
+          "time_utc": "2026-08-19T23:00:00+00:00",
+          "hours_before_reference": -147.5,
+          "soil_vwc_0p1m": 0.155068
+        },
+        {
+          "time_utc": "2026-08-20T00:00:00+00:00",
+          "hours_before_reference": -146.5,
+          "soil_vwc_0p1m": 0.1544
+        },
+        {
+          "time_utc": "2026-08-20T01:00:00+00:00",
+          "hours_before_reference": -145.5,
+          "soil_vwc_0p1m": 0.154417
+        },
+        {
+          "time_utc": "2026-08-20T02:00:00+00:00",
+          "hours_before_reference": -144.5,
+          "soil_vwc_0p1m": 0.154445
+        },
+        {
+          "time_utc": "2026-08-20T03:00:00+00:00",
+          "hours_before_reference": -143.5,
+          "soil_vwc_0p1m": 0.153715
+        },
+        {
+          "time_utc": "2026-08-20T04:00:00+00:00",
+          "hours_before_reference": -142.5,
+          "soil_vwc_0p1m": 0.152992
+        },
+        {
+          "time_utc": "2026-08-20T05:00:00+00:00",
+          "hours_before_reference": -141.5,
+          "soil_vwc_0p1m": 0.152197
+        },
+        {
+          "time_utc": "2026-08-20T06:00:00+00:00",
+          "hours_before_reference": -140.5,
+          "soil_vwc_0p1m": 0.150932
+        },
+        {
+          "time_utc": "2026-08-20T07:00:00+00:00",
+          "hours_before_reference": -139.5,
+          "soil_vwc_0p1m": 0.150524
+        },
+        {
+          "time_utc": "2026-08-20T08:00:00+00:00",
+          "hours_before_reference": -138.5,
+          "soil_vwc_0p1m": 0.14927
+        },
+        {
+          "time_utc": "2026-08-20T09:00:00+00:00",
+          "hours_before_reference": -137.5,
+          "soil_vwc_0p1m": 0.149112
+        },
+        {
+          "time_utc": "2026-08-20T10:00:00+00:00",
+          "hours_before_reference": -136.5,
+          "soil_vwc_0p1m": 0.148495
+        },
+        {
+          "time_utc": "2026-08-20T11:00:00+00:00",
+          "hours_before_reference": -135.5,
+          "soil_vwc_0p1m": 0.148535
+        },
+        {
+          "time_utc": "2026-08-20T12:00:00+00:00",
+          "hours_before_reference": -134.5,
+          "soil_vwc_0p1m": 0.147905
+        },
+        {
+          "time_utc": "2026-08-20T13:00:00+00:00",
+          "hours_before_reference": -133.5,
+          "soil_vwc_0p1m": 0.147264
+        },
+        {
+          "time_utc": "2026-08-20T14:00:00+00:00",
+          "hours_before_reference": -132.5,
+          "soil_vwc_0p1m": 0.147357
+        },
+        {
+          "time_utc": "2026-08-20T15:00:00+00:00",
+          "hours_before_reference": -131.5,
+          "soil_vwc_0p1m": 0.147302
+        },
+        {
+          "time_utc": "2026-08-20T16:00:00+00:00",
+          "hours_before_reference": -130.5,
+          "soil_vwc_0p1m": 0.1468
+        },
+        {
+          "time_utc": "2026-08-20T17:00:00+00:00",
+          "hours_before_reference": -129.5,
+          "soil_vwc_0p1m": 0.146407
+        },
+        {
+          "time_utc": "2026-08-20T18:00:00+00:00",
+          "hours_before_reference": -128.5,
+          "soil_vwc_0p1m": 0.14619
+        },
+        {
+          "time_utc": "2026-08-20T19:00:00+00:00",
+          "hours_before_reference": -127.5,
+          "soil_vwc_0p1m": 0.146105
+        },
+        {
+          "time_utc": "2026-08-20T20:00:00+00:00",
+          "hours_before_reference": -126.5,
+          "soil_vwc_0p1m": 0.145528
+        },
+        {
+          "time_utc": "2026-08-20T21:00:00+00:00",
+          "hours_before_reference": -125.5,
+          "soil_vwc_0p1m": 0.145583
+        },
+        {
+          "time_utc": "2026-08-20T22:00:00+00:00",
+          "hours_before_reference": -124.5,
+          "soil_vwc_0p1m": 0.144905
+        },
+        {
+          "time_utc": "2026-08-20T23:00:00+00:00",
+          "hours_before_reference": -123.5,
+          "soil_vwc_0p1m": 0.144914
+        },
+        {
+          "time_utc": "2026-08-21T00:00:00+00:00",
+          "hours_before_reference": -122.5,
+          "soil_vwc_0p1m": 0.144737
+        },
+        {
+          "time_utc": "2026-08-21T01:00:00+00:00",
+          "hours_before_reference": -121.5,
+          "soil_vwc_0p1m": 0.144303
+        },
+        {
+          "time_utc": "2026-08-21T02:00:00+00:00",
+          "hours_before_reference": -120.5,
+          "soil_vwc_0p1m": 0.144337
+        },
+        {
+          "time_utc": "2026-08-21T03:00:00+00:00",
+          "hours_before_reference": -119.5,
+          "soil_vwc_0p1m": 0.143624
+        },
+        {
+          "time_utc": "2026-08-21T04:00:00+00:00",
+          "hours_before_reference": -118.5,
+          "soil_vwc_0p1m": 0.1429
+        },
+        {
+          "time_utc": "2026-08-21T05:00:00+00:00",
+          "hours_before_reference": -117.5,
+          "soil_vwc_0p1m": 0.1414
+        },
+        {
+          "time_utc": "2026-08-21T06:00:00+00:00",
+          "hours_before_reference": -116.5,
+          "soil_vwc_0p1m": 0.140051
+        },
+        {
+          "time_utc": "2026-08-21T07:00:00+00:00",
+          "hours_before_reference": -115.5,
+          "soil_vwc_0p1m": 0.138332
+        },
+        {
+          "time_utc": "2026-08-21T08:00:00+00:00",
+          "hours_before_reference": -114.5,
+          "soil_vwc_0p1m": 0.136273
+        },
+        {
+          "time_utc": "2026-08-21T09:00:00+00:00",
+          "hours_before_reference": -113.5,
+          "soil_vwc_0p1m": 0.135387
+        },
+        {
+          "time_utc": "2026-08-21T10:00:00+00:00",
+          "hours_before_reference": -112.5,
+          "soil_vwc_0p1m": 0.134797
+        },
+        {
+          "time_utc": "2026-08-21T11:00:00+00:00",
+          "hours_before_reference": -111.5,
+          "soil_vwc_0p1m": 0.134217
+        },
+        {
+          "time_utc": "2026-08-21T12:00:00+00:00",
+          "hours_before_reference": -110.5,
+          "soil_vwc_0p1m": 0.133614
+        },
+        {
+          "time_utc": "2026-08-21T13:00:00+00:00",
+          "hours_before_reference": -109.5,
+          "soil_vwc_0p1m": 0.133023
+        },
+        {
+          "time_utc": "2026-08-21T14:00:00+00:00",
+          "hours_before_reference": -108.5,
+          "soil_vwc_0p1m": 0.13242
+        },
+        {
+          "time_utc": "2026-08-21T15:00:00+00:00",
+          "hours_before_reference": -107.5,
+          "soil_vwc_0p1m": 0.132545
+        },
+        {
+          "time_utc": "2026-08-21T16:00:00+00:00",
+          "hours_before_reference": -106.5,
+          "soil_vwc_0p1m": 0.13191
+        },
+        {
+          "time_utc": "2026-08-21T17:00:00+00:00",
+          "hours_before_reference": -105.5,
+          "soil_vwc_0p1m": 0.131992
+        },
+        {
+          "time_utc": "2026-08-21T18:00:00+00:00",
+          "hours_before_reference": -104.5,
+          "soil_vwc_0p1m": 0.131326
+        },
+        {
+          "time_utc": "2026-08-21T19:00:00+00:00",
+          "hours_before_reference": -103.5,
+          "soil_vwc_0p1m": 0.1314
+        },
+        {
+          "time_utc": "2026-08-21T20:00:00+00:00",
+          "hours_before_reference": -102.5,
+          "soil_vwc_0p1m": 0.130787
+        },
+        {
+          "time_utc": "2026-08-21T21:00:00+00:00",
+          "hours_before_reference": -101.5,
+          "soil_vwc_0p1m": 0.130769
+        },
+        {
+          "time_utc": "2026-08-21T22:00:00+00:00",
+          "hours_before_reference": -100.5,
+          "soil_vwc_0p1m": 0.130798
+        },
+        {
+          "time_utc": "2026-08-21T23:00:00+00:00",
+          "hours_before_reference": -99.5,
+          "soil_vwc_0p1m": 0.130193
+        },
+        {
+          "time_utc": "2026-08-22T00:00:00+00:00",
+          "hours_before_reference": -98.5,
+          "soil_vwc_0p1m": 0.130193
+        },
+        {
+          "time_utc": "2026-08-22T01:00:00+00:00",
+          "hours_before_reference": -97.5,
+          "soil_vwc_0p1m": 0.130159
+        },
+        {
+          "time_utc": "2026-08-22T02:00:00+00:00",
+          "hours_before_reference": -96.5,
+          "soil_vwc_0p1m": 0.130161
+        },
+        {
+          "time_utc": "2026-08-22T03:00:00+00:00",
+          "hours_before_reference": -95.5,
+          "soil_vwc_0p1m": 0.130138
+        },
+        {
+          "time_utc": "2026-08-22T04:00:00+00:00",
+          "hours_before_reference": -94.5,
+          "soil_vwc_0p1m": 0.129847
+        },
+        {
+          "time_utc": "2026-08-22T05:00:00+00:00",
+          "hours_before_reference": -93.5,
+          "soil_vwc_0p1m": 0.128971
+        },
+        {
+          "time_utc": "2026-08-22T06:00:00+00:00",
+          "hours_before_reference": -92.5,
+          "soil_vwc_0p1m": 0.12787
+        },
+        {
+          "time_utc": "2026-08-22T07:00:00+00:00",
+          "hours_before_reference": -91.5,
+          "soil_vwc_0p1m": 0.126312
+        },
+        {
+          "time_utc": "2026-08-22T08:00:00+00:00",
+          "hours_before_reference": -90.5,
+          "soil_vwc_0p1m": 0.12481
+        },
+        {
+          "time_utc": "2026-08-22T09:00:00+00:00",
+          "hours_before_reference": -89.5,
+          "soil_vwc_0p1m": 0.123475
+        },
+        {
+          "time_utc": "2026-08-22T10:00:00+00:00",
+          "hours_before_reference": -88.5,
+          "soil_vwc_0p1m": 0.122608
+        },
+        {
+          "time_utc": "2026-08-22T11:00:00+00:00",
+          "hours_before_reference": -87.5,
+          "soil_vwc_0p1m": 0.12144
+        },
+        {
+          "time_utc": "2026-08-22T12:00:00+00:00",
+          "hours_before_reference": -86.5,
+          "soil_vwc_0p1m": 0.121535
+        },
+        {
+          "time_utc": "2026-08-22T13:00:00+00:00",
+          "hours_before_reference": -85.5,
+          "soil_vwc_0p1m": 0.120974
+        },
+        {
+          "time_utc": "2026-08-22T14:00:00+00:00",
+          "hours_before_reference": -84.5,
+          "soil_vwc_0p1m": 0.121087
+        },
+        {
+          "time_utc": "2026-08-22T15:00:00+00:00",
+          "hours_before_reference": -83.5,
+          "soil_vwc_0p1m": 0.121179
+        },
+        {
+          "time_utc": "2026-08-22T16:00:00+00:00",
+          "hours_before_reference": -82.5,
+          "soil_vwc_0p1m": 0.12058
+        },
+        {
+          "time_utc": "2026-08-22T17:00:00+00:00",
+          "hours_before_reference": -81.5,
+          "soil_vwc_0p1m": 0.12061
+        },
+        {
+          "time_utc": "2026-08-22T18:00:00+00:00",
+          "hours_before_reference": -80.5,
+          "soil_vwc_0p1m": 0.120673
+        },
+        {
+          "time_utc": "2026-08-22T19:00:00+00:00",
+          "hours_before_reference": -79.5,
+          "soil_vwc_0p1m": 0.120005
+        },
+        {
+          "time_utc": "2026-08-22T20:00:00+00:00",
+          "hours_before_reference": -78.5,
+          "soil_vwc_0p1m": 0.120059
+        },
+        {
+          "time_utc": "2026-08-22T21:00:00+00:00",
+          "hours_before_reference": -77.5,
+          "soil_vwc_0p1m": 0.1201
+        },
+        {
+          "time_utc": "2026-08-22T22:00:00+00:00",
+          "hours_before_reference": -76.5,
+          "soil_vwc_0p1m": 0.12014
+        },
+        {
+          "time_utc": "2026-08-22T23:00:00+00:00",
+          "hours_before_reference": -75.5,
+          "soil_vwc_0p1m": 0.119487
+        },
+        {
+          "time_utc": "2026-08-23T00:00:00+00:00",
+          "hours_before_reference": -74.5,
+          "soil_vwc_0p1m": 0.119532
+        },
+        {
+          "time_utc": "2026-08-23T01:00:00+00:00",
+          "hours_before_reference": -73.5,
+          "soil_vwc_0p1m": 0.119566
+        },
+        {
+          "time_utc": "2026-08-23T02:00:00+00:00",
+          "hours_before_reference": -72.5,
+          "soil_vwc_0p1m": 0.119598
+        },
+        {
+          "time_utc": "2026-08-23T03:00:00+00:00",
+          "hours_before_reference": -71.5,
+          "soil_vwc_0p1m": 0.118895
+        },
+        {
+          "time_utc": "2026-08-23T04:00:00+00:00",
+          "hours_before_reference": -70.5,
+          "soil_vwc_0p1m": 0.118193
+        },
+        {
+          "time_utc": "2026-08-23T05:00:00+00:00",
+          "hours_before_reference": -69.5,
+          "soil_vwc_0p1m": 0.117305
+        },
+        {
+          "time_utc": "2026-08-23T06:00:00+00:00",
+          "hours_before_reference": -68.5,
+          "soil_vwc_0p1m": 0.115682
+        },
+        {
+          "time_utc": "2026-08-23T07:00:00+00:00",
+          "hours_before_reference": -67.5,
+          "soil_vwc_0p1m": 0.113853
+        },
+        {
+          "time_utc": "2026-08-23T08:00:00+00:00",
+          "hours_before_reference": -66.5,
+          "soil_vwc_0p1m": 0.11304
+        },
+        {
+          "time_utc": "2026-08-23T09:00:00+00:00",
+          "hours_before_reference": -65.5,
+          "soil_vwc_0p1m": 0.111145
+        },
+        {
+          "time_utc": "2026-08-23T10:00:00+00:00",
+          "hours_before_reference": -64.5,
+          "soil_vwc_0p1m": 0.109705
+        },
+        {
+          "time_utc": "2026-08-23T11:00:00+00:00",
+          "hours_before_reference": -63.5,
+          "soil_vwc_0p1m": 0.109092
+        },
+        {
+          "time_utc": "2026-08-23T12:00:00+00:00",
+          "hours_before_reference": -62.5,
+          "soil_vwc_0p1m": 0.10851
+        },
+        {
+          "time_utc": "2026-08-23T13:00:00+00:00",
+          "hours_before_reference": -61.5,
+          "soil_vwc_0p1m": 0.108598
+        },
+        {
+          "time_utc": "2026-08-23T14:00:00+00:00",
+          "hours_before_reference": -60.5,
+          "soil_vwc_0p1m": 0.107997
+        },
+        {
+          "time_utc": "2026-08-23T15:00:00+00:00",
+          "hours_before_reference": -59.5,
+          "soil_vwc_0p1m": 0.108077
+        },
+        {
+          "time_utc": "2026-08-23T16:00:00+00:00",
+          "hours_before_reference": -58.5,
+          "soil_vwc_0p1m": 0.108135
+        },
+        {
+          "time_utc": "2026-08-23T17:00:00+00:00",
+          "hours_before_reference": -57.5,
+          "soil_vwc_0p1m": 0.107715
+        },
+        {
+          "time_utc": "2026-08-23T18:00:00+00:00",
+          "hours_before_reference": -56.5,
+          "soil_vwc_0p1m": 0.107553
+        },
+        {
+          "time_utc": "2026-08-23T19:00:00+00:00",
+          "hours_before_reference": -55.5,
+          "soil_vwc_0p1m": 0.107592
+        },
+        {
+          "time_utc": "2026-08-23T20:00:00+00:00",
+          "hours_before_reference": -54.5,
+          "soil_vwc_0p1m": 0.107622
+        },
+        {
+          "time_utc": "2026-08-23T21:00:00+00:00",
+          "hours_before_reference": -53.5,
+          "soil_vwc_0p1m": 0.107664
+        },
+        {
+          "time_utc": "2026-08-23T22:00:00+00:00",
+          "hours_before_reference": -52.5,
+          "soil_vwc_0p1m": 0.10769
+        },
+        {
+          "time_utc": "2026-08-23T23:00:00+00:00",
+          "hours_before_reference": -51.5,
+          "soil_vwc_0p1m": 0.107055
+        },
+        {
+          "time_utc": "2026-08-24T00:00:00+00:00",
+          "hours_before_reference": -50.5,
+          "soil_vwc_0p1m": 0.107578
+        },
+        {
+          "time_utc": "2026-08-24T01:00:00+00:00",
+          "hours_before_reference": -49.5,
+          "soil_vwc_0p1m": 0.107154
+        },
+        {
+          "time_utc": "2026-08-24T02:00:00+00:00",
+          "hours_before_reference": -48.5,
+          "soil_vwc_0p1m": 0.107187
+        },
+        {
+          "time_utc": "2026-08-24T03:00:00+00:00",
+          "hours_before_reference": -47.5,
+          "soil_vwc_0p1m": 0.106502
+        },
+        {
+          "time_utc": "2026-08-24T04:00:00+00:00",
+          "hours_before_reference": -46.5,
+          "soil_vwc_0p1m": 0.105804
+        },
+        {
+          "time_utc": "2026-08-24T05:00:00+00:00",
+          "hours_before_reference": -45.5,
+          "soil_vwc_0p1m": 0.104405
+        },
+        {
+          "time_utc": "2026-08-24T06:00:00+00:00",
+          "hours_before_reference": -44.5,
+          "soil_vwc_0p1m": 0.102961
+        },
+        {
+          "time_utc": "2026-08-24T07:00:00+00:00",
+          "hours_before_reference": -43.5,
+          "soil_vwc_0p1m": 0.101934
+        },
+        {
+          "time_utc": "2026-08-24T08:00:00+00:00",
+          "hours_before_reference": -42.5,
+          "soil_vwc_0p1m": 0.0997583
+        },
+        {
+          "time_utc": "2026-08-24T09:00:00+00:00",
+          "hours_before_reference": -41.5,
+          "soil_vwc_0p1m": 0.0979974
+        },
+        {
+          "time_utc": "2026-08-24T10:00:00+00:00",
+          "hours_before_reference": -40.5,
+          "soil_vwc_0p1m": 0.0961186
+        },
+        {
+          "time_utc": "2026-08-24T11:00:00+00:00",
+          "hours_before_reference": -39.5,
+          "soil_vwc_0p1m": 0.0947701
+        },
+        {
+          "time_utc": "2026-08-24T12:00:00+00:00",
+          "hours_before_reference": -38.5,
+          "soil_vwc_0p1m": 0.0948427
+        },
+        {
+          "time_utc": "2026-08-24T13:00:00+00:00",
+          "hours_before_reference": -37.5,
+          "soil_vwc_0p1m": 0.0942548
+        },
+        {
+          "time_utc": "2026-08-24T14:00:00+00:00",
+          "hours_before_reference": -36.5,
+          "soil_vwc_0p1m": 0.0943304
+        },
+        {
+          "time_utc": "2026-08-24T15:00:00+00:00",
+          "hours_before_reference": -35.5,
+          "soil_vwc_0p1m": 0.0930998
+        },
+        {
+          "time_utc": "2026-08-24T16:00:00+00:00",
+          "hours_before_reference": -34.5,
+          "soil_vwc_0p1m": 0.0931942
+        },
+        {
+          "time_utc": "2026-08-24T17:00:00+00:00",
+          "hours_before_reference": -33.5,
+          "soil_vwc_0p1m": 0.093265
+        },
+        {
+          "time_utc": "2026-08-24T18:00:00+00:00",
+          "hours_before_reference": -32.5,
+          "soil_vwc_0p1m": 0.0926574
+        },
+        {
+          "time_utc": "2026-08-24T19:00:00+00:00",
+          "hours_before_reference": -31.5,
+          "soil_vwc_0p1m": 0.0933608
+        },
+        {
+          "time_utc": "2026-08-24T20:00:00+00:00",
+          "hours_before_reference": -30.5,
+          "soil_vwc_0p1m": 0.0934107
+        },
+        {
+          "time_utc": "2026-08-24T21:00:00+00:00",
+          "hours_before_reference": -29.5,
+          "soil_vwc_0p1m": 0.0934418
+        },
+        {
+          "time_utc": "2026-08-24T22:00:00+00:00",
+          "hours_before_reference": -28.5,
+          "soil_vwc_0p1m": 0.0934744
+        },
+        {
+          "time_utc": "2026-08-24T23:00:00+00:00",
+          "hours_before_reference": -27.5,
+          "soil_vwc_0p1m": 0.0935083
+        },
+        {
+          "time_utc": "2026-08-25T00:00:00+00:00",
+          "hours_before_reference": -26.5,
+          "soil_vwc_0p1m": 0.0935828
+        },
+        {
+          "time_utc": "2026-08-25T01:00:00+00:00",
+          "hours_before_reference": -25.5,
+          "soil_vwc_0p1m": 0.0936006
+        },
+        {
+          "time_utc": "2026-08-25T02:00:00+00:00",
+          "hours_before_reference": -24.5,
+          "soil_vwc_0p1m": 0.0935853
+        },
+        {
+          "time_utc": "2026-08-25T03:00:00+00:00",
+          "hours_before_reference": -23.5,
+          "soil_vwc_0p1m": 0.092956
+        },
+        {
+          "time_utc": "2026-08-25T04:00:00+00:00",
+          "hours_before_reference": -22.5,
+          "soil_vwc_0p1m": 0.0916397
+        },
+        {
+          "time_utc": "2026-08-25T05:00:00+00:00",
+          "hours_before_reference": -21.5,
+          "soil_vwc_0p1m": 0.0902111
+        },
+        {
+          "time_utc": "2026-08-25T06:00:00+00:00",
+          "hours_before_reference": -20.5,
+          "soil_vwc_0p1m": 0.0895151
+        },
+        {
+          "time_utc": "2026-08-25T07:00:00+00:00",
+          "hours_before_reference": -19.5,
+          "soil_vwc_0p1m": 0.0877637
+        },
+        {
+          "time_utc": "2026-08-25T08:00:00+00:00",
+          "hours_before_reference": -18.5,
+          "soil_vwc_0p1m": 0.0872666
+        },
+        {
+          "time_utc": "2026-08-25T09:00:00+00:00",
+          "hours_before_reference": -17.5,
+          "soil_vwc_0p1m": 0.0859624
+        },
+        {
+          "time_utc": "2026-08-25T10:00:00+00:00",
+          "hours_before_reference": -16.5,
+          "soil_vwc_0p1m": 0.0846108
+        },
+        {
+          "time_utc": "2026-08-25T11:00:00+00:00",
+          "hours_before_reference": -15.5,
+          "soil_vwc_0p1m": 0.0840149
+        },
+        {
+          "time_utc": "2026-08-25T12:00:00+00:00",
+          "hours_before_reference": -14.5,
+          "soil_vwc_0p1m": 0.0834171
+        },
+        {
+          "time_utc": "2026-08-25T13:00:00+00:00",
+          "hours_before_reference": -13.5,
+          "soil_vwc_0p1m": 0.0834873
+        },
+        {
+          "time_utc": "2026-08-25T14:00:00+00:00",
+          "hours_before_reference": -12.5,
+          "soil_vwc_0p1m": 0.082908
+        },
+        {
+          "time_utc": "2026-08-25T15:00:00+00:00",
+          "hours_before_reference": -11.5,
+          "soil_vwc_0p1m": 0.0829926
+        },
+        {
+          "time_utc": "2026-08-25T16:00:00+00:00",
+          "hours_before_reference": -10.5,
+          "soil_vwc_0p1m": 0.0830494
+        },
+        {
+          "time_utc": "2026-08-25T17:00:00+00:00",
+          "hours_before_reference": -9.5,
+          "soil_vwc_0p1m": 0.0831073
+        },
+        {
+          "time_utc": "2026-08-25T18:00:00+00:00",
+          "hours_before_reference": -8.5,
+          "soil_vwc_0p1m": 0.08316
+        },
+        {
+          "time_utc": "2026-08-25T19:00:00+00:00",
+          "hours_before_reference": -7.5,
+          "soil_vwc_0p1m": 0.0831239
+        },
+        {
+          "time_utc": "2026-08-25T20:00:00+00:00",
+          "hours_before_reference": -6.5,
+          "soil_vwc_0p1m": 0.0825874
+        },
+        {
+          "time_utc": "2026-08-25T21:00:00+00:00",
+          "hours_before_reference": -5.5,
+          "soil_vwc_0p1m": 0.0826199
+        },
+        {
+          "time_utc": "2026-08-25T22:00:00+00:00",
+          "hours_before_reference": -4.5,
+          "soil_vwc_0p1m": 0.0826451
+        },
+        {
+          "time_utc": "2026-08-25T23:00:00+00:00",
+          "hours_before_reference": -3.5,
+          "soil_vwc_0p1m": 0.0826727
+        },
+        {
+          "time_utc": "2026-08-26T00:00:00+00:00",
+          "hours_before_reference": -2.5,
+          "soil_vwc_0p1m": 0.0827027
+        },
+        {
+          "time_utc": "2026-08-26T01:00:00+00:00",
+          "hours_before_reference": -1.5,
+          "soil_vwc_0p1m": 0.0827284
+        },
+        {
+          "time_utc": "2026-08-26T02:00:00+00:00",
+          "hours_before_reference": -0.5,
+          "soil_vwc_0p1m": 0.0827526
+        }
+      ],
+      "aggregation": "time series is every accepted original-QC0.1m soil label in [reference-168h,reference); heatmap is each preselected driver median midpoint background ECDF, not family scores or an average over drivers"
+    },
+    "unit": "UTC; hours; m3 m-3; fraction",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/exports/hourly_drivers.parquet",
+        "sha256": "9580f4ab81903e0bbdcea3b274815128b7bfc99a08972a59c933c51a487a059d"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/factor_directions.csv",
+        "sha256": "3bac727ac99df13eb3f52d40684d8da28d6290149f6a4bb83f2ae81a6d7f853a"
+      },
+      {
+        "path": "track_b/paper/figures/q1/q1_figure_values.json",
+        "sha256": "69691b561f54118b7c6036c884955c08637c7fbed2321a75273ef750596b72bc"
+      },
+      {
+        "path": "track_b/paper/scripts/q1_figures.py",
+        "sha256": "274a8ec170821f08dc2ae815b3f5cff5075b1a2418ce005c8c25fe29ad65d55d"
+      },
+      {
+        "path": "track_b/paper/figures/q1/q1_state.pdf",
+        "sha256": "a33efd89e3199ef8172437b6d9690081c8812183be996654bec2343355cf6b6d"
+      }
+    ],
+    "model_id": "A_marginal_ecdf",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-fig-state"
+  },
+  {
+    "claim_id": "q1-figure-stability-complete-data",
+    "statement": "稳定性图完整9族×3路线频率及6类×3路线Jaccard均值，使用各自有效分母。",
+    "value": {
+      "figure_values": {
+        "family_ids": [
+          "soil_moisture",
+          "air_moisture",
+          "soil_thermal",
+          "air_thermal",
+          "mean_wind",
+          "soil_heat_flux",
+          "shortwave",
+          "longwave",
+          "air_pressure"
+        ],
+        "models": [
+          "A_marginal_ecdf",
+          "B_shrunk_conditional",
+          "C_other_family_analog"
+        ],
+        "frequency_mean_over_three_windows": [
+          [
+            0.8801498127340824,
+            0.6363636363636364,
+            0.8370786516853932
+          ],
+          [
+            0.6104868913857678,
+            0.8333333333333334,
+            0.7047440699126092
+          ],
+          [
+            0.7322097378277154,
+            0.8863636363636364,
+            0.6320224719101124
+          ],
+          [
+            0.8670411985018727,
+            0.8484848484848485,
+            0.6044319600499376
+          ],
+          [
+            0.14981273408239695,
+            0.6287878787878788,
+            0.6727840199750313
+          ],
+          [
+            0.6460674157303371,
+            0.5151515151515151,
+            0.5491885143570537
+          ],
+          [
+            0.7621722846441948,
+            0.1818181818181818,
+            0.3185393258426967
+          ],
+          [
+            0.35205992509363293,
+            0.2272727272727272,
+            0.3694132334581772
+          ],
+          [
+            0.0,
+            0.2424242424242424,
+            0.31179775280898875
+          ]
+        ],
+        "valid_bootstrap_draws_per_window": {
+          "A_marginal_ecdf": [
+            89
+          ],
+          "B_shrunk_conditional": [
+            44
+          ],
+          "C_other_family_analog": [
+            89
+          ]
+        },
+        "requested_draws_per_window": 100,
+        "sensitivity_categories": [
+          "参考时刻 ±1 h",
+          "过程块 3 / 14 d",
+          "季节范围 ±15 d",
+          "支持率 50% / 90%",
+          "收缩系数 0.1 / 0.9",
+          "每年类比数 1 / 3"
+        ],
+        "jaccard_mean_over_three_windows_and_listed_variants": [
+          [
+            0.7222222222222222,
+            0.8888888888888888,
+            0.8898809523809524
+          ],
+          [
+            0.8055555555555555,
+            0.9444444444444443,
+            0.8253968253968255
+          ],
+          [
+            0.6666666666666666,
+            0.8095238095238094,
+            0.6468253968253969
+          ],
+          [
+            0.9444444444444443,
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.7936507936507936,
+            1.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.7787698412698413
+          ]
+        ]
+      },
+      "sensitivity_record_support": [
+        {
+          "category": "参考时刻 ±1 h",
+          "records_per_route": {
+            "A_marginal_ecdf": 6,
+            "B_shrunk_conditional": 6,
+            "C_other_family_analog": 6
+          },
+          "variants": [
+            "primary"
+          ],
+          "shift_hours": [
+            -1,
+            1
+          ]
+        },
+        {
+          "category": "过程块 3 / 14 d",
+          "records_per_route": {
+            "A_marginal_ecdf": 6,
+            "B_shrunk_conditional": 6,
+            "C_other_family_analog": 6
+          },
+          "variants": [
+            "process_14",
+            "process_3"
+          ],
+          "shift_hours": [
+            0
+          ]
+        },
+        {
+          "category": "季节范围 ±15 d",
+          "records_per_route": {
+            "A_marginal_ecdf": 3,
+            "B_shrunk_conditional": 3,
+            "C_other_family_analog": 3
+          },
+          "variants": [
+            "season_15"
+          ],
+          "shift_hours": [
+            0
+          ]
+        },
+        {
+          "category": "支持率 50% / 90%",
+          "records_per_route": {
+            "A_marginal_ecdf": 6,
+            "B_shrunk_conditional": 6,
+            "C_other_family_analog": 6
+          },
+          "variants": [
+            "support_0.5",
+            "support_0.9"
+          ],
+          "shift_hours": [
+            0
+          ]
+        },
+        {
+          "category": "收缩系数 0.1 / 0.9",
+          "records_per_route": {
+            "A_marginal_ecdf": 6,
+            "B_shrunk_conditional": 6,
+            "C_other_family_analog": 6
+          },
+          "variants": [
+            "shrinkage_0.1",
+            "shrinkage_0.9"
+          ],
+          "shift_hours": [
+            0
+          ]
+        },
+        {
+          "category": "每年类比数 1 / 3",
+          "records_per_route": {
+            "A_marginal_ecdf": 6,
+            "B_shrunk_conditional": 6,
+            "C_other_family_analog": 6
+          },
+          "variants": [
+            "analogs_1",
+            "analogs_3"
+          ],
+          "shift_hours": [
+            0
+          ]
+        }
+      ],
+      "left_aggregation": "per family/route equal mean of3 window-specific TOP5 fractional-credit frequencies; A/C denominator89 and B44 per window; not consensus frequency",
+      "right_aggregation": "per category/route arithmetic mean TOP5 set Jaccard over all3 windows and all listed variants or hour shifts; deterministic sensitivity, not event prediction accuracy",
+      "fit_performed": false
+    },
+    "unit": "fraction from0 to1; counts",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/sensitivity_metrics.csv",
+        "sha256": "d5b5eece0a3fec2994c95041cfab7a69a1a92ccad00ec380cd83f56d62f0a4ba"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/paper/figures/q1/q1_figure_values.json",
+        "sha256": "69691b561f54118b7c6036c884955c08637c7fbed2321a75273ef750596b72bc"
+      },
+      {
+        "path": "track_b/paper/scripts/q1_figures.py",
+        "sha256": "274a8ec170821f08dc2ae815b3f5cff5075b1a2418ce005c8c25fe29ad65d55d"
+      },
+      {
+        "path": "track_b/paper/figures/q1/q1_stability.pdf",
+        "sha256": "c38059a4a36bbf9a72d8236f04e7ab7759ba690bd0b2b369298f74cc0388124b"
+      }
+    ],
+    "model_id": [
+      "A_marginal_ecdf",
+      "B_shrunk_conditional",
+      "C_other_family_analog"
+    ],
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-fig-stability"
+  },
+  {
+    "claim_id": "q1-unknown-track-comparison",
+    "statement": "探索轨前五集合相同、前两项互换；湍流热和湍流机械的主设置B分数及共识保持空值。",
+    "value": {
+      "main_top5": [
+        "soil_moisture",
+        "air_moisture",
+        "soil_thermal",
+        "air_thermal",
+        "mean_wind"
+      ],
+      "unknown_top5": [
+        "air_moisture",
+        "soil_moisture",
+        "soil_thermal",
+        "air_thermal",
+        "mean_wind"
+      ],
+      "unknown_consensus_rows": [
+        {
+          "family_id": "air_moisture",
+          "consensus_score": 0.791245791245791,
+          "recommended_rank": 1.0,
+          "mean_window_bootstrap_top5_frequency": 0.892676767676768,
+          "min_window_bootstrap_valid_draws": 44
+        },
+        {
+          "family_id": "soil_moisture",
+          "consensus_score": 0.745230078563412,
+          "recommended_rank": 2.0,
+          "mean_window_bootstrap_top5_frequency": 0.833333333333333,
+          "min_window_bootstrap_valid_draws": 44
+        },
+        {
+          "family_id": "soil_thermal",
+          "consensus_score": 0.66273849607183,
+          "recommended_rank": 3.0,
+          "mean_window_bootstrap_top5_frequency": 0.647727272727273,
+          "min_window_bootstrap_valid_draws": 44
+        },
+        {
+          "family_id": "air_thermal",
+          "consensus_score": 0.608305274971942,
+          "recommended_rank": 4.0,
+          "mean_window_bootstrap_top5_frequency": 0.821969696969697,
+          "min_window_bootstrap_valid_draws": 44
+        },
+        {
+          "family_id": "mean_wind",
+          "consensus_score": 0.562850729517396,
+          "recommended_rank": 5.0,
+          "mean_window_bootstrap_top5_frequency": 0.435606060606061,
+          "min_window_bootstrap_valid_draws": 44
+        },
+        {
+          "family_id": "soil_heat_flux",
+          "consensus_score": 0.508417508417508,
+          "recommended_rank": 6.0,
+          "mean_window_bootstrap_top5_frequency": 0.416666666666667,
+          "min_window_bootstrap_valid_draws": 44
+        },
+        {
+          "family_id": "shortwave",
+          "consensus_score": 0.450617283950617,
+          "recommended_rank": 7.0,
+          "mean_window_bootstrap_top5_frequency": 0.257575757575758,
+          "min_window_bootstrap_valid_draws": 44
+        },
+        {
+          "family_id": "longwave",
+          "consensus_score": 0.297979797979798,
+          "recommended_rank": 8.0,
+          "mean_window_bootstrap_top5_frequency": 0.174242424242424,
+          "min_window_bootstrap_valid_draws": 44
+        },
+        {
+          "family_id": "precipitation",
+          "consensus_score": 0.295735129068462,
+          "recommended_rank": 9.0,
+          "mean_window_bootstrap_top5_frequency": 0.26010101010101,
+          "min_window_bootstrap_valid_draws": 44
+        },
+        {
+          "family_id": "air_pressure",
+          "consensus_score": 0.142536475869809,
+          "recommended_rank": 10.0,
+          "mean_window_bootstrap_top5_frequency": 0.015151515151515,
+          "min_window_bootstrap_valid_draws": 44
+        },
+        {
+          "family_id": "turbulent_heat",
+          "consensus_score": null,
+          "recommended_rank": null,
+          "mean_window_bootstrap_top5_frequency": 0.677777777777778,
+          "min_window_bootstrap_valid_draws": 10
+        },
+        {
+          "family_id": "turbulent_mechanics",
+          "consensus_score": null,
+          "recommended_rank": null,
+          "mean_window_bootstrap_top5_frequency": 0.4,
+          "min_window_bootstrap_valid_draws": 10
+        }
+      ],
+      "unknown_B_missing_scores": [
+        {
+          "window_hours": 24,
+          "family_id": "turbulent_heat",
+          "score": null,
+          "rank": null
+        },
+        {
+          "window_hours": 24,
+          "family_id": "turbulent_mechanics",
+          "score": null,
+          "rank": null
+        },
+        {
+          "window_hours": 72,
+          "family_id": "turbulent_heat",
+          "score": null,
+          "rank": null
+        },
+        {
+          "window_hours": 72,
+          "family_id": "turbulent_mechanics",
+          "score": null,
+          "rank": null
+        },
+        {
+          "window_hours": 168,
+          "family_id": "turbulent_heat",
+          "score": null,
+          "rank": null
+        },
+        {
+          "window_hours": 168,
+          "family_id": "turbulent_mechanics",
+          "score": null,
+          "rank": null
+        }
+      ],
+      "actual_primary_family_support": [
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "air_thermal",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "air_moisture",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 4,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 15,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 244,
+          "B_observed_calibration_years": 4,
+          "B_observed_calibration_processes": 36,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "mean_wind",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 12,
+          "B_active_feature_count": 12,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "air_pressure",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 5,
+          "B_active_feature_count": 5,
+          "B_observed_calibration_rows": 303,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "shortwave",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 303,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "longwave",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 303,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "soil_thermal",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "soil_moisture",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "soil_heat_flux",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 5,
+          "B_active_feature_count": 5,
+          "B_observed_calibration_rows": 303,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "precipitation",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 5,
+          "B_active_feature_count": 4,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "turbulent_heat",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 4,
+          "maximum_actual_feature_years": 4,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 0,
+          "B_observed_calibration_rows": 0,
+          "B_observed_calibration_years": 0,
+          "B_observed_calibration_processes": 0,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 24,
+          "family_id": "turbulent_mechanics",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 4,
+          "maximum_actual_feature_years": 4,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 0,
+          "B_observed_calibration_rows": 0,
+          "B_observed_calibration_years": 0,
+          "B_observed_calibration_processes": 0,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "air_thermal",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "air_moisture",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 4,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 15,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 244,
+          "B_observed_calibration_years": 4,
+          "B_observed_calibration_processes": 36,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "mean_wind",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 12,
+          "B_active_feature_count": 12,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "air_pressure",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 5,
+          "B_active_feature_count": 5,
+          "B_observed_calibration_rows": 304,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "shortwave",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 304,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "longwave",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 304,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "soil_thermal",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "soil_moisture",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "soil_heat_flux",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 5,
+          "B_active_feature_count": 4,
+          "B_observed_calibration_rows": 304,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "precipitation",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 5,
+          "B_active_feature_count": 4,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "turbulent_heat",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 4,
+          "maximum_actual_feature_years": 4,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 0,
+          "B_observed_calibration_rows": 0,
+          "B_observed_calibration_years": 0,
+          "B_observed_calibration_processes": 0,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 72,
+          "family_id": "turbulent_mechanics",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 4,
+          "maximum_actual_feature_years": 4,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 0,
+          "B_observed_calibration_rows": 0,
+          "B_observed_calibration_years": 0,
+          "B_observed_calibration_processes": 0,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "air_thermal",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "air_moisture",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 4,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 15,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 244,
+          "B_observed_calibration_years": 4,
+          "B_observed_calibration_processes": 36,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "mean_wind",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 12,
+          "B_active_feature_count": 12,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "air_pressure",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 5,
+          "B_active_feature_count": 5,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "shortwave",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "longwave",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "soil_thermal",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 8,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "soil_moisture",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "soil_heat_flux",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 5,
+          "B_active_feature_count": 5,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "precipitation",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 5,
+          "maximum_actual_feature_years": 5,
+          "target_available_feature_count": 5,
+          "B_active_feature_count": 4,
+          "B_observed_calibration_rows": 305,
+          "B_observed_calibration_years": 5,
+          "B_observed_calibration_processes": 45,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "turbulent_heat",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 4,
+          "maximum_actual_feature_years": 4,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 0,
+          "B_observed_calibration_rows": 0,
+          "B_observed_calibration_years": 0,
+          "B_observed_calibration_processes": 0,
+          "context_ref": "results/model_context.json"
+        },
+        {
+          "quality_track": "unknown_qc_exploration",
+          "window_hours": 168,
+          "family_id": "turbulent_mechanics",
+          "nominal_background_years": 5,
+          "minimum_actual_feature_years": 4,
+          "maximum_actual_feature_years": 4,
+          "target_available_feature_count": 10,
+          "B_active_feature_count": 10,
+          "B_observed_calibration_rows": 0,
+          "B_observed_calibration_years": 0,
+          "B_observed_calibration_processes": 0,
+          "context_ref": "results/model_context.json"
+        }
+      ],
+      "bootstrap_denominator_turbulent_A_C": 61,
+      "bootstrap_denominator_turbulent_B_consensus": 10,
+      "unknown_B_valid_draw_rule": "four non2022 years all present and2022 absent; all-five-year draws fail80% LOYO support"
+    },
+    "unit": "rank; dimensionless; actual-year counts",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+        "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/rankings.csv",
+        "sha256": "f7b79c33e5cb671f6c35531721ee2037e2858de552d54c41f03925961c0dd53a"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/effective_family_support.csv",
+        "sha256": "84994c64217aba95a19f7094f086117172eb218d7162ee3ded001b7d019eef15"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+        "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+      },
+      {
+        "path": "track_b/research/q1/round3/results/bootstrap_draw_specification.json",
+        "sha256": "3b4c9908afdef96620d60d878542db9604adfa86750b716ca3a78bc2c97a728a"
+      }
+    ],
+    "model_id": "consensus",
+    "scenario_id": "regional_observational_case",
+    "scope": "Regional background station, local_observational/exploration; case anomaly description, not causal or hazard-probability validation.",
+    "paper_anchor": "q1-sec"
+  }
+]

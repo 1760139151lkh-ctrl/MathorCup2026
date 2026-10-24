@@ -1,0 +1,21 @@
+{
+  "updated_utc": "2026-10-24T11:05:43.273822+00:00",
+  "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+  "queues": {
+    "single": {
+      "status": "done",
+      "case_count": 17
+    },
+    "multi": {
+      "status": "done",
+      "case_count": 8
+    },
+    "dclaw": {
+      "status": "done",
+      "case_count": 6
+    },
+    "all": {
+      "status": "done"
+    }
+  }
+}

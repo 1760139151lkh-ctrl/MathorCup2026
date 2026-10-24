@@ -1,0 +1,43 @@
+{
+  "run_id": "copdem_120_dclaw_ref",
+  "image_id": null,
+  "container_id": "ad84a77a0ea9eb7447f61eb2e08756f00665429b7c90f8744a957efd918fd8c7",
+  "base_image_id": "sha256:0e0a0fc6d18feda9db1590da249ac93e8d5abfea8f4c3c0c849ce512b5ef8982",
+  "command": [
+    "docker",
+    "exec",
+    "-e",
+    "CLAW=/opt/clawpack",
+    "-e",
+    "PYTHONPATH=/opt/clawpack",
+    "-e",
+    "GRASS_ADDON_BASE=/opt/grass-addons",
+    "-e",
+    "MPLBACKEND=Agg",
+    "-e",
+    "OMP_NUM_THREADS=2",
+    "-e",
+    "OFFICIAL_WORK_ROOT=/work/q4/official",
+    "-w",
+    "/work/q4/official/runs/copdem_120_dclaw_ref",
+    "mathorcup-r3-toolchain-build",
+    "python3",
+    "/work/q4/official/scripts/official_container.py",
+    "/work/q4/official/runs/copdem_120_dclaw_ref/case.json"
+  ],
+  "copy_output_command": [
+    "docker",
+    "cp",
+    "mathorcup-r3-toolchain-build:/work/q4/official/runs/copdem_120_dclaw_ref/.",
+    "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref"
+  ],
+  "copy_returncode": 0,
+  "copy_stderr": "",
+  "case_sha256": "f039f5d79bc7238739b0b397814ac25cda1325a92006e26d1b8ce88be64cd0d9",
+  "started_utc": "2026-10-24T07:47:41.946203+00:00",
+  "elapsed_seconds": 490.19870495796204,
+  "returncode": 0,
+  "log_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/run.log",
+  "log_sha256": "02747a91655bae106c3c10804820ab8d8f3c43b3f59b3d30822e5f71f4dcf70b",
+  "shared_solver_source_unchanged": true
+}

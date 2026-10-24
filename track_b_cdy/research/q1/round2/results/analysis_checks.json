@@ -1,0 +1,62 @@
+{
+  "analysis_version": "q1-r2-equal-year-v1",
+  "generated_at_utc": "2026-10-24T06:08:15.386800+00:00",
+  "script_sha256": "8206d544836eaa463c195cb3fecabb0b4e7f9c9a988df92d9d3ece940c3f3b81",
+  "config_sha256": "a4e481d06a62c79689f02832ae0f496971db1f619163358b150ab8dea4c4dbad",
+  "input_rows": 2268,
+  "background_year_rows": 1890,
+  "target_rows": 378,
+  "groups": 378,
+  "valid_year_count_distribution": {
+    "4": 144,
+    "5": 234
+  },
+  "groups_with_fewer_than_five_years": 144,
+  "same_sample_anchors": true,
+  "year_weights_are_hour_counts": false,
+  "constant_segment_labels": 4317,
+  "raw_boundary_excerpt_rows": 12,
+  "round1_preservation": {
+    "files_verified": 130,
+    "policy_sha256": "48503d599d29438747b27681b528937f07011256ca3c1b2c28465aa5b7b02649"
+  },
+  "synthetic_arithmetic_checks": [
+    {
+      "case": "unequal_hour_counts_do_not_weight_years",
+      "passed": true,
+      "role": "synthetic_arithmetic_check_not_observed_background"
+    },
+    {
+      "case": "missing_year_not_filled_with_zero",
+      "passed": true,
+      "role": "synthetic_arithmetic_check_not_observed_background"
+    },
+    {
+      "case": "zero_is_a_valid_annual_median",
+      "passed": true,
+      "role": "synthetic_arithmetic_check_not_observed_background"
+    },
+    {
+      "case": "empty_background_is_null",
+      "passed": true,
+      "role": "synthetic_arithmetic_check_not_observed_background"
+    }
+  ],
+  "checks": {
+    "round1_window_table_hash_bound": true,
+    "unique_group_year_records": true,
+    "background_role_and_years_only": true,
+    "target_2026_separate": true,
+    "quality_views_preserved": true,
+    "equal_year_mean_independently_cross_checked": true,
+    "missing_years_not_zero_and_zero_is_valid": true,
+    "duplicate_anchors_not_independent": true,
+    "single_constant_segment_raw_and_pipeline_equal": true,
+    "direct_inputs_unchanged": true,
+    "round1_preservation_unchanged": true
+  },
+  "passed": true,
+  "physical_phase": "background",
+  "data_role": "exploration",
+  "no_final_top5_or_causality_or_qc_migration": true
+}

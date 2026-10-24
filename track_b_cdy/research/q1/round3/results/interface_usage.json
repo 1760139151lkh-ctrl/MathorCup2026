@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-10-24T07:41:31.622622+00:00",
+  "bundle_path": "track_b/research/q1/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+  "sha256": "04016b75b0af3be4439952705f39d83493317b2b3b594d9bed49448ea13a1ff3",
+  "files_verified": 3,
+  "adopted_scope": {
+    "upstream_bundle_sha256": "075b149214b5c9a8827af45af221ee6ee6b6428090e6d9337afb1943698d2faf",
+    "note": "Accepted as inherited local stage/label/availability constraints only. No new accepted first-initiation truth, independent training event, real-time availability or coverage validation. Same chain remains grouped; literature arrival/onset values are candidate reconstruction constraints and not independent validation.",
+    "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+  },
+  "use_in_q1": "retains first-mechanical-initiation unaccepted and local independent supervised event count=0; no supervised association branch fitted from these stage proxies",
+  "accepted_independent_training_events": 0,
+  "accepted_independent_validation_events": 0,
+  "limitations": [
+    "Local exact first mechanical initiation remains unaccepted; independent accepted local training/validation=0",
+    "Later us7000tc90 is a different subevent; causal relation and statistical independence unverified",
+    "Historical GFS first availability unknown; latency values are assumptions only",
+    "External real deformation and exposure acquisition is ongoing; later update will have a new version and paths"
+  ]
+}

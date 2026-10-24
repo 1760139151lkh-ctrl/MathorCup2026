@@ -1,0 +1,370 @@
+{
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "files": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q2/sar_v1/catalog_v02.json",
+      "bytes": 7647190,
+      "sha256": "5d2a6ada0d80368f124287ef666936faa482b1375889e3aeb73892d60ca1891f",
+      "role": "public acquisition response; actual role/scope in SAR register"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q2/sar_v1/itslive_s1d_post.nc",
+      "bytes": 17569302,
+      "sha256": "fb108ff579fe0dab9b0a159bc53b29eb373de6741c48388f199877abcfdbfcdb",
+      "role": "public acquisition response; actual role/scope in SAR register"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q2/sar_v1/itslive_s1d_pre.nc",
+      "bytes": 17148466,
+      "sha256": "abfe8866dd70b61dc7da10d543902ee1e16663f2f525bbd749b350990509806a",
+      "role": "public acquisition response; actual role/scope in SAR register"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q2/sar_v1/itslive_s1d_straddle.nc",
+      "bytes": 17431649,
+      "sha256": "46a8a9601ee888dab7bca0e8ded57734e6aa00551721329afff3ac8346ffa7f3",
+      "role": "public acquisition response; actual role/scope in SAR register"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_120m.tif",
+      "bytes": 39968,
+      "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+      "role": "advisor-approved immutable cache input; primary_dem_120m"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "role": "advisor-approved immutable cache input; primary_dem_60m"
+    },
+    {
+      "path": "track_b/audit/stage4/round3/baseline_manifest.json",
+      "bytes": 194493,
+      "sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/config/stage4_contract.json",
+      "bytes": 2286,
+      "sha256": "45189e648cd5238b4d064ebde1cc64f3b1388ffc1eb1e93be4db9b5c470ab00d",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/config/stage4_round3_contract.json",
+      "bytes": 6373,
+      "sha256": "3409420a66c0d35911d469708cf91c54e77f55420951c01e45a58470370daac4",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/data/processed/temporal/data_dictionary.json",
+      "bytes": 97865,
+      "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_raw_numeric.parquet",
+      "bytes": 15685229,
+      "sha256": "96fde2bc36b72919859546c3b4dcf8a35f2e4b59da2b08bd322ae28691df5b32",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_strict_qc0.parquet",
+      "bytes": 6451135,
+      "sha256": "9a2609a696d252abb0548ebcc1f794a5bd3f10a30cdbc305d59bde288f9d4460",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_time_axis.parquet",
+      "bytes": 1527460,
+      "sha256": "ae95cadabf5158348bd7069f285eafe96ab04c4a691fab5da715ee31ec4921fa",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/requirements-lock.txt",
+      "bytes": 708,
+      "sha256": "5a780bc65de35a11a1eac4ec9370cad50957dcabb8ebe02cecdbfdb550ad645a",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/research/q2/results/input_check.json",
+      "bytes": 7836,
+      "sha256": "6c4995ce63ee71cc812923c63d81510443f0b3ef1b708e9b5af3f8cbd3bc8e0d",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/research/q2/results/nc_parameter_support.csv",
+      "bytes": 3191,
+      "sha256": "cfbe29dbf4131af73d3956180aa9544027ad05eb28e48d2899c234f8bbdef678",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/research/q2/round2/HANDOFF.md",
+      "bytes": 7769,
+      "sha256": "e02c9db0fcf25a73c90008c856d77d40246df50868c55087119960370af02465",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/research/q2/round2/VELOCITY_REVIEW.md",
+      "bytes": 7114,
+      "sha256": "98410b4b602f738e7969cec2294d07604cb7b2d610dcf811f7ca150bbcd4857f",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/search_aoi.geojson",
+      "bytes": 1225,
+      "sha256": "14db392ea6d318c2df34152af950b227653fd1f938aed1f4aa9eedf92c29579f",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/search_aoi_evidence.json",
+      "bytes": 6107,
+      "sha256": "78ff69266903ee77626679b0bba542ec36f1e73e3d39581909543d63ba262d14",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/research/q2/round3/config/experiment_v1.json",
+      "bytes": 4192,
+      "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a",
+      "role": "preregistered local design configuration"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/bundle.json",
+      "bytes": 6728,
+      "sha256": "765037010dadc269a6b3d89831abb61fc9d1163c2b9b989facbfcf4a2107b918",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/config/features.json",
+      "bytes": 14787,
+      "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/exports/hourly_drivers.parquet",
+      "bytes": 260088,
+      "sha256": "9580f4ab81903e0bbdcea3b274815128b7bfc99a08972a59c933c51a487a059d",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_build_validation.json",
+      "bytes": 27873,
+      "sha256": "c19c74937b4052ec9a4b104199d0bde4998af27bda904b5c959b900045800f98",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_contract.csv",
+      "bytes": 58398,
+      "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_extrema.csv",
+      "bytes": 12646116,
+      "sha256": "09ae88b26738bb526ab9bc829c2b8917cf957e13edfa70df985c4ad7b5f8b664",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_support.csv",
+      "bytes": 11289057,
+      "sha256": "8e8306d6c8bfcb8d3156cbd521dbff001c5e86413ab62bedb6cdcf81db2737b9",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/features.parquet",
+      "bytes": 1435260,
+      "sha256": "7300b94b5f537873a6b4d1ecaf46015fa130e8e28aa9464e098e219f52833079",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/sample_metadata.csv",
+      "bytes": 1188914,
+      "sha256": "06c7b1273240779fcbde4a9777a878124fd9de47d5a4faff190f5118e73625b5",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/variable_family_map.csv",
+      "bytes": 12742,
+      "sha256": "0b339b5b813a3cf95673acbb18168589aaaae81fde3d95005824e967f7e22e15",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/scripts/build_features.py",
+      "bytes": 30508,
+      "sha256": "dbea3bca9f519e43b065481b433372d7abdab3e8f789cf1a1804d09589a3aeb0",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/upstream_bundle.json",
+      "bytes": 4827,
+      "sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+      "bytes": 2514,
+      "sha256": "16ecf5a0e3af9ad572104490b79a56f59a78fc011e37cee2dd8f75e34d0a5a32",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/event_group_registry.csv",
+      "bytes": 1820,
+      "sha256": "c2109a17be0d0c92a4d35c4257c320af04e8e16e0e649c247e7abf2caa3f8741",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/forecast_availability.csv",
+      "bytes": 2911,
+      "sha256": "f4627f1edabe316c986916cb599f49945de63cdc3a27b270ef5745c6196c99e6",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/label_mapping.csv",
+      "bytes": 7392,
+      "sha256": "3c920a97038f5f75227d040a3783a13bd91d6aac9c5f181ab885194bb55b4df6",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/upstream_bundle.json",
+      "bytes": 1537,
+      "sha256": "075b149214b5c9a8827af45af221ee6ee6b6428090e6d9337afb1943698d2faf",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/bundle.json",
+      "bytes": 7712,
+      "sha256": "8eb6cbc1b85e60fe8a82906f4f025ec22b3bcf96d5c59bd0535ffbe0ccf8a0c5",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/figures/spatial_terrain_paths.png",
+      "bytes": 370168,
+      "sha256": "0de4a3e0cfa492e58ce8b35ac66e4e1f54b4f48ef4c5454d0da4f0ea678dac1d",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_120m.npz",
+      "bytes": 55797,
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_60m.npz",
+      "bytes": 241460,
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_paths.csv",
+      "bytes": 101231,
+      "sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/terrain_bundle.json",
+      "bytes": 4745,
+      "sha256": "c7ce3a11c0dd5637f39bcb1fad81f3dbf08238045c825b41f80d00f14422ca0e",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/upstream_bundle.json",
+      "bytes": 5950,
+      "sha256": "5a2315f807bac296e5ae9bf877e655499b7a2b40e39df8edd3b0cccbeade853a",
+      "role": "advisor delivered own-tree copy; top-level role usage in interface_use.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_2025_paper.html",
+      "bytes": 305988,
+      "sha256": "d26092199c6a9ef6b46af0dfeab9a636adb3306795a15ad7793be4dacf98e1ff",
+      "role": "public acquisition response; actual role/scope in SAR register"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_official_index.html",
+      "bytes": 41768,
+      "sha256": "e93020908f28ec81bc35e92cdbf92dc0b96830b825d4629d99c9d2805424f263",
+      "role": "public acquisition response; actual role/scope in SAR register"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_query_background_2024.json",
+      "bytes": 64766,
+      "sha256": "3741cfa3abf2e44787bc0dc6769c093bc3938a26b415185d728af1bd847df388",
+      "role": "public acquisition response; actual role/scope in SAR register"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_query_event_2026.json",
+      "bytes": 64766,
+      "sha256": "62bdc1551646d078d652e85442eb64614491f75f23676ea6b59356f6c091cd31",
+      "role": "public acquisition response; actual role/scope in SAR register"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_stac_background.json",
+      "bytes": 317839,
+      "sha256": "332674a6dbbcdd69658a8e5e192b3eb0171e130c7ecf880c5cb1b5185385d13f",
+      "role": "public acquisition response; actual role/scope in SAR register"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_stac_event.json",
+      "bytes": 317700,
+      "sha256": "446522e13eae45e3e460c560beb1888d9522f44c08e9280008ce1366d94147ea",
+      "role": "public acquisition response; actual role/scope in SAR register"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_stac_event_bracket.json",
+      "bytes": 23385,
+      "sha256": "ed2921cec4a486eebe05b6a19655668ce81fffa88552a00fe95faf0d6bb2ccfc",
+      "role": "public acquisition response; actual role/scope in SAR register"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.html",
+      "bytes": 324421,
+      "sha256": "4ff53f5745dafc83d4919125132a1605f027f8b1bb46cfc5bfdb696c66f7c51b",
+      "role": "official strength/thermal/hydrology source snapshot"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "bytes": 8371754,
+      "sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "role": "official strength/thermal/hydrology source snapshot"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.zip",
+      "bytes": 3397215,
+      "sha256": "5fcd735a88654af1f4c150313ee79afb855a0ae67ed9319a851d8e125fa420a0",
+      "role": "official strength/thermal/hydrology source snapshot"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/thermal_diffusivity2025.html",
+      "bytes": 418555,
+      "sha256": "df9810d2001dd37d740c6fafdef05114a216249017a61f8ae49f036b0314458b",
+      "role": "official strength/thermal/hydrology source snapshot"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/waterflow2026.html",
+      "bytes": 310716,
+      "sha256": "36d4f5ed16c2ed3ec10d0c70e6b1683a5e43f14f0138ac2191d1b21ee733122f",
+      "role": "official strength/thermal/hydrology source snapshot"
+    },
+    {
+      "path": "track_b/research/q2/sources/jms_abstract.html",
+      "bytes": 209068,
+      "sha256": "6cf316f8d40fee7d48ab40f9a62699a867cf632ef5ca17bcfe56a5df7ca04b41",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    },
+    {
+      "path": "track_b/research/q2/sources/yin_abstract.html",
+      "bytes": 309894,
+      "sha256": "7e7312b13c0c7acd39d68810fdbe78863ea8c836837d38aaac34a5f5879da56c",
+      "role": "frozen shared/background input; semantics documented in protocol/evidence review"
+    }
+  ],
+  "file_count": 60,
+  "self_entry": false
+}

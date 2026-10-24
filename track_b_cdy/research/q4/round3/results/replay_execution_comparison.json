@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-10-24T09:08:51.183644+00:00",
+  "purpose": "Actual safe-wrapper scientific replay of two existing cases into NEW directories; not new model or independent validation event",
+  "command": "replay_reduced.py --output results/replay_execution_check --cache-name execution_check_v1 --mode all --select 1d_P1_ref,2d_ref_120m",
+  "replayed_cases": [
+    {
+      "run_id": "1d_P1_ref",
+      "all_numeric_field_array_max_abs_differences": {
+        "h_final": 0.0,
+        "maxdepth": 0.0,
+        "maxspeed": 0.0,
+        "u_east_final": 0.0,
+        "v_north_final": 0.0,
+        "times": 0.0,
+        "snapshots": 0.0,
+        "station": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "target_mask": 0.0,
+        "u_path_final": 0.0
+      },
+      "all_physical_summary_fields_equal": true,
+      "runtime_wall_seconds_not_required_identical": true,
+      "original_fields": {
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_ref/fields_vectors.npz",
+        "sha256": "bf7ce89f4bd7009b518d524995f69ed13d958b6796f5369e9e8546105065094a"
+      },
+      "replayed_fields": {
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/replays/execution_check_v1/regional/1d_P1_ref/fields.npz",
+        "sha256": "140365fdb9e45058552c75d99c281bdeff0f7a322515cf6d19ae45231e61c0cd"
+      }
+    },
+    {
+      "run_id": "2d_ref_120m",
+      "all_numeric_field_array_max_abs_differences": {
+        "h_final": 0.0,
+        "maxdepth": 0.0,
+        "maxspeed": 0.0,
+        "u_east_final": 0.0,
+        "v_north_final": 0.0,
+        "times": 0.0,
+        "snapshots": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "source_mask": 0.0,
+        "target_mask": 0.0
+      },
+      "all_physical_summary_fields_equal": true,
+      "runtime_wall_seconds_not_required_identical": true,
+      "original_fields": {
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_ref_120m/fields.npz",
+        "sha256": "5f824c9b5c219dee422a8015bbf1c5fb2004ec6cddfe5abd2ef6093b022e0527"
+      },
+      "replayed_fields": {
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/replays/execution_check_v1/regional/2d_ref_120m/fields.npz",
+        "sha256": "5f824c9b5c219dee422a8015bbf1c5fb2004ec6cddfe5abd2ef6093b022e0527"
+      }
+    }
+  ],
+  "original_frozen_reduced_packet_unchanged": true,
+  "frozen_packet_and_cache_files_verified": 153,
+  "scientific_execution_complete_for_selected_two": true,
+  "all34_rerun": false,
+  "regional_accuracy_requalified": false
+}

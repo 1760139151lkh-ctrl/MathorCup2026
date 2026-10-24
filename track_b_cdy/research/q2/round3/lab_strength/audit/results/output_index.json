@@ -1,0 +1,130 @@
+{
+  "files": [
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/audit_report.json",
+      "bytes": 6454,
+      "sha256": "48ae364bb6d8aaad3d7a3a28553860d10fdd5e9e24ca8c79466f7d46534f321a"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/coefficient_strata.csv",
+      "bytes": 14516,
+      "sha256": "32739872d3b82ae79dc1bfaca0eaa114a43c3edc28dfc42f12cd0f62e8ceb1fe"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/coefficient_temperature_reconciliation.csv",
+      "bytes": 10419,
+      "sha256": "c42f66bafcd467974579f168eb20c452e1c41b954cac810bea8cdd394592f0d7"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/condition_replicates.csv",
+      "bytes": 12896,
+      "sha256": "7cc7a85b5d636685f898307292944f5f06b0255ddde8ae03618684d2e3840963"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/duplicates_and_independence.json",
+      "bytes": 643,
+      "sha256": "a8523b61010324ff9edf80fb8ffcf02fc528b2b382527d4163a87a6df7fd5e38"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/field_missingness.csv",
+      "bytes": 593,
+      "sha256": "c8782ac11f41d77d4bcca280c3c43cb3cb8e48e16aa9e951758ec7d44249b1cb"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/input_record.json",
+      "bytes": 1926,
+      "sha256": "a472fddfce615a7c9f63d3f7293676fb5df0d34f07875d9a6dfd777679dfdd7b"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/nominal_actual_domain_audit.json",
+      "bytes": 1810,
+      "sha256": "73ab58b37de9beedd1abe29b167eb801d9d0864358d94475d6eae2ba519c4244"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/normalization_issues.json",
+      "bytes": 401,
+      "sha256": "87bd5d00fead3e722001cd3c47278d05b370a48d978dc86157b64ccdc50d3643"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/observations.csv",
+      "bytes": 577837,
+      "sha256": "7b0601f0b5c9aff60e79d2730ef21ac42c168f61b54984cd36d2b8175f58b600"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/raw_cell_inventory.csv",
+      "bytes": 1796565,
+      "sha256": "a25b180c7b7c6d78ec62d58aa507987910e8dd5043677afd4d6814352c1781df"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/schema.json",
+      "bytes": 3878,
+      "sha256": "dc0858482123a6e75e5b0ba72f6555807623e01f55c5428ad172de832d755c1d"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/semantics_and_ambiguities.json",
+      "bytes": 1246,
+      "sha256": "5a9e6d939b5befa55c6c4dea4f3c44402b7fb5bce82b4236f6decc7d0d184269"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/shared_string_inventory.csv",
+      "bytes": 13730,
+      "sha256": "1f0aacda6c60e58b2eb814b95b929782013e527865c873e9b45d08cdaeacc819"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/source_headers_and_notes.csv",
+      "bytes": 8806,
+      "sha256": "b635f1150f48fb9faf08b04f0bea4e21263af8c71b169274793a40f424b1126c"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/specimen_label_repeats.csv",
+      "bytes": 7268,
+      "sha256": "6860c1bb9f69b489a3381fbbd54d892f79da9dd2d77726d6f0157ab552d5c260"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/validation.json",
+      "bytes": 1565,
+      "sha256": "7066448502261667352b6d4b5ba67eb2032c5ed10079690fe210d05baaa95b02"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/workbook_and_sheet_metadata.json",
+      "bytes": 28416,
+      "sha256": "7a86daf1a369e6ea30d6cddac425029099b3861ffe38231d11a3793d171bc7b0"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/worksheet_xml/coefficients_sheet1.xml",
+      "bytes": 9754,
+      "sha256": "79a374990cd18de5df8f47733fc239afa0c18bd5956d593cfd5794d905c7e0e8"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/worksheet_xml/coefficients_sheet2.xml",
+      "bytes": 995,
+      "sha256": "003d9e8178089867539b38d6e10da45f6b361635a98996560f0e1251f1a6a2b3"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/worksheet_xml/coefficients_sheet3.xml",
+      "bytes": 995,
+      "sha256": "003d9e8178089867539b38d6e10da45f6b361635a98996560f0e1251f1a6a2b3"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/worksheet_xml/experiments_sheet1.xml",
+      "bytes": 92179,
+      "sha256": "6abcd2601c3ec672d45863978048877bc59b12a9a6a4693431a830b2fdf9010f"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/worksheet_xml/experiments_sheet2.xml",
+      "bytes": 684,
+      "sha256": "75fce1eaa652175b6797fe60c027ad223e0dbfc70a1156622e009e736af1b301"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/worksheet_xml/experiments_sheet3.xml",
+      "bytes": 684,
+      "sha256": "75fce1eaa652175b6797fe60c027ad223e0dbfc70a1156622e009e736af1b301"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/xlsx_part_inventory.csv",
+      "bytes": 4438,
+      "sha256": "3ec6ebdc5992996c321dfdea5658bf44e7298269874205d28e46c3e8edaeb8cf"
+    }
+  ],
+  "self_entry": false
+}

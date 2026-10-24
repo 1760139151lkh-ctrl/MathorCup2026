@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "all_mixture_mechanism_masses_close_to_one_or_empty": true,
+    "conservative_four_way_partition_preserved": true,
+    "conservative_unknown_mass_matches_main_predictions": true,
+    "all_6750_mixture_conservative_rows_matched": true
+  },
+  "passed": true,
+  "mixture_mechanism_rows": 36000,
+  "mass_transfer_rows": 6750,
+  "physics_rerun": false
+}

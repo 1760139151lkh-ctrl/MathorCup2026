@@ -1,0 +1,21 @@
+{
+  "generated_at_utc": "2026-10-24T11:25:34.917377+00:00",
+  "passed": true,
+  "checks": {
+    "approved_66_files_hash_verified": true,
+    "adapter_quality_and_lineage_checks": true,
+    "independent_review": true,
+    "prior_tracked_payload_bytes_preserved": true,
+    "standard_workspace_checks": true,
+    "unique_portable_input_records": true,
+    "actual_final_figure_review": true
+  },
+  "input_manifest_sha256": "5e58c21c9e592b629d4cf3489614ee043a44e9d68a2a27e0668ee90fc1285c0b",
+  "output_manifest_sha256": "5818c45fb63cefc0c8166cf78fc6d4ce3399c9586b492b3b4d01fe599529249b",
+  "frozen_prior_manifest_sha256": "5e92e712831ec8f5b36cde759750a791bd1c0ac38a729100b37d20ac8f5a9606",
+  "bundle_sha256": "f76097b0cf75f403c04ef0315be0a366d8d07d3b37406e94f787be7dd504fbd8",
+  "source_base_commit": "0d5326d6e3428df4d714d8101c41c7c925eca0ef",
+  "physics_rerun": false,
+  "local_truth_events": 0,
+  "empirical_coverage": null
+}

@@ -1,0 +1,128 @@
+{
+  "verified_utc": "2026-10-24T11:21:52.310340+00:00",
+  "registered": 38,
+  "applicable_required": 30,
+  "required_model_counts": {
+    "ravaflow_single": 18,
+    "dclaw": 9,
+    "ravaflow_multi": 3
+  },
+  "required_closed": 30,
+  "generic_diagnostic_closed": 1,
+  "material_excluded_not_run": 7,
+  "active_native_containers": 0,
+  "continuous_workers": [],
+  "actual_requested_1800_horizon_end_range_s": [
+    1800.0,
+    1802.4
+  ],
+  "parser_sha256": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+  "field_interfaces_checked": 45,
+  "bound_csv_rows_checked": 3194,
+  "native_control_index_run_count": 50,
+  "historical_adapter_hash_missing_not_reconstructed": 22,
+  "raw_manifest_run_count": 52,
+  "cancelled_retry_manifest_count": 1,
+  "replay_plans_checked": 50,
+  "native_replay_executions_added": 0,
+  "physical_accuracy_or_prediction_qualification": false,
+  "local_event_validation_count": 0,
+  "figures_visually_reviewed": [
+    "official_max_depth.png",
+    "official_process_histories.png"
+  ],
+  "scripts_ast_parse_passed": true,
+  "self_inclusion": false,
+  "stable_artifacts": [
+    {
+      "path": "track_b/research/q4/round3/results/official_metrics.csv",
+      "bytes": 65693,
+      "sha256": "a927b1bb437451105c7f6abce7400200eeb1ef7e2f664cb72455a91cd909bb1d"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_arrivals.csv",
+      "bytes": 77083,
+      "sha256": "111f2adb4b14af30e702fb8f5b727216d98b6ce67e4f22b1bb9cb5c9c4c26f72"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_target_arrivals_v2.csv",
+      "bytes": 129419,
+      "sha256": "13daab5c617cbfc62fe72d8cc2245c6920846449abc1fff5f35065596a8494a8"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_runs.csv",
+      "bytes": 61390,
+      "sha256": "17c50dcb242f1d49192a009e42d63eb5a7e89b44068dc07223ab1d15156eabcc"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_fields.json",
+      "bytes": 94708,
+      "sha256": "b6d793011f2ac5f13c41230869ae27d1897e794c66be4618fa0c4f843d914b03"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_validation.json",
+      "bytes": 279450,
+      "sha256": "4afd0959dde27389e7e8c21dd536ec046757260089c6677a2e8246faa2872eda"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_parser_validation.json",
+      "bytes": 595,
+      "sha256": "ee48b2729966cc5d11e4c3b851df2d07d2e3e6934a5f27ca2c77e89fb63fea58"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_native_control_index.json",
+      "bytes": 163613,
+      "sha256": "b696597dba57cbca397de9f6de6e6a1572d7ee424ed599653b1456e889a60d20"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_raw_output_index.json",
+      "bytes": 17281,
+      "sha256": "a8eedcffe801448d9f00bde41b7dbb90c3d65907c5111238c8382c0d3848a446"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_result_matrix.csv",
+      "bytes": 36997,
+      "sha256": "85740011f0339bda7731b0afde1760f3be714f356f63c4af2b77a0e13299cba9"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_final_diagnostics.json",
+      "bytes": 31614,
+      "sha256": "ce376fe874622aeadcae1f1dc86b2a62cc054fe859c325dfa88a2c6acad0cb08"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_replay_validation.json",
+      "bytes": 40788,
+      "sha256": "75c321e45013b84644ffabbf44f5b23ba096ad7bd5a8f5ef5c9fde94fe507f24"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_q2full_ready_receipt.json",
+      "bytes": 49519,
+      "sha256": "33b78cf3a25da72acfaf0462c74cd1fd8de8004d1c485561f3e6dc8d33ccaf25"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_scheduling_cpu_receipt_07.json",
+      "bytes": 6095,
+      "sha256": "c1309131f5a1ccfcf615514bfa2e5707cb7c7664046191927e1e438c96f7dd31"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_scheduling_cpu_tail_receipts_08.json",
+      "bytes": 8217,
+      "sha256": "17624c27bebe6e8650ebb5a1301ee65620bf8271ab72d5cc173fd0b1e4b6fa8b"
+    },
+    {
+      "path": "track_b/research/q4/round3/OFFICIAL_MODELS.md",
+      "bytes": 24873,
+      "sha256": "3371f0ef5b892fa87645df274ea436cfab8ddf964e21cb348c63d3ef94f41d6b"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/official_max_depth.png",
+      "bytes": 110167,
+      "sha256": "94a175914ee0f2b3ad0e25f1a77c2750412054dae30859005db083daba56ce9d"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/official_process_histories.png",
+      "bytes": 144452,
+      "sha256": "9c6fd300a3f784a1ffc51c8da9cffde099ab9e3859c643e9a2cafa5a5d43f5f2"
+    }
+  ]
+}

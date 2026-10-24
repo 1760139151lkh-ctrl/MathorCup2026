@@ -1,0 +1,18 @@
+{
+  "exact_full_data_row_duplicate_groups": [],
+  "duplicate_experiment_specimen_keys": [],
+  "exact_temperature_stress_peak_duplicate_groups": [],
+  "specimen_label_count": 8,
+  "specimen_label_counts": {
+    "spec1": 27,
+    "spec2": 29,
+    "spec3": 27,
+    "spec4": 24,
+    "spec5": 19,
+    "spec6": 10,
+    "spec7": 4,
+    "spec8": 1
+  },
+  "independent_physical_specimen_count": null,
+  "specimen_identity_note": "Workbook has8labels including1spec8, but no IDs linking labels across tests to physical rock pairs. The paper's seven-rock-pair context is owned by the separate literature review; no rock-pair identity is asserted here."
+}

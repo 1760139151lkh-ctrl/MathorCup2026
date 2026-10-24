@@ -1,0 +1,65 @@
+{
+  "schema_version": "q1-paper-visual-review-v1",
+  "section_cjk_characters": 2554,
+  "section_pages": 4,
+  "preview_pages": 5,
+  "preview_page_5": "three references only; production references integrated by advisor",
+  "scientific_figures": 2,
+  "tables": 2,
+  "numbered_equations": 3,
+  "compiler": "XeLaTeX / TeX Live 2026",
+  "latex_diagnostics": {
+    "overfull_boxes": 0,
+    "undefined_references": 0,
+    "missing_characters": 0,
+    "latex_warnings": 0
+  },
+  "visual_inspection": {
+    "preview_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "checked": [
+      "Chinese text and units legible",
+      "all tables within text block",
+      "all equations and numbered labels visible",
+      "heatmap labels separated",
+      "reference URLs wrap without clipping",
+      "body ends with shared AIcredit"
+    ],
+    "result": "pass"
+  },
+  "font_resolution": "Direct input of shared preamble at advisor-synchronized commit bbc7b5a2027a81ce358353061a0f305322a2c184; no local preamble/font override. TeX Gyre Termes/Heros and Latin Modern Mono by TeX filename; shared CJK font selection used.",
+  "frozen_research_manifest": {
+    "path": "track_b/research/q1/round3/output_manifest.json",
+    "sha256": "f9066518e7466d3cfd5cda1b249fe27402ca8c245f27f4933c88a67bc083daab",
+    "files_checked": 79,
+    "all_match": true
+  },
+  "manuscript": {
+    "path": "track_b/paper/sections/q1.tex",
+    "sha256": "d6c4f2ed618b63e7da0792c2b550902aec67ff5019f90bbfa395d9f2a9c9115c"
+  },
+  "artifacts": [
+    {
+      "path": "track_b/paper/figures/q1/q1_state.pdf",
+      "sha256": "a33efd89e3199ef8172437b6d9690081c8812183be996654bec2343355cf6b6d"
+    },
+    {
+      "path": "track_b/paper/figures/q1/q1_stability.pdf",
+      "sha256": "c38059a4a36bbf9a72d8236f04e7ab7759ba690bd0b2b369298f74cc0388124b"
+    },
+    {
+      "path": "track_b/paper/figures/q1/qa/q1_preview.pdf",
+      "sha256": "6beeb08a8e8e338e1dfc48b1666f26fd6f5bf7ca65ddc1108f50199d7e69dfa1"
+    }
+  ],
+  "shared_preamble": {
+    "path": "track_b/paper/preamble.tex",
+    "sha256": "6b9adddfc84cb47f16a6f0be21c94344af9cc74b5e6e58d358de4cd876380d3b",
+    "source_commit": "bbc7b5a2027a81ce358353061a0f305322a2c184"
+  }
+}

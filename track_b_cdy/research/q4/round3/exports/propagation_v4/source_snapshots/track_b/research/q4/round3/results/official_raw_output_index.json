@@ -1,0 +1,347 @@
+{
+  "created_utc": "2026-10-24T11:19:48.785684+00:00",
+  "registered_native_scientific_cases": 38,
+  "applicable_required_cases": 30,
+  "diagnostic_only_cases": [
+    "copdem_120_multi_ref__sf0"
+  ],
+  "not_run_material_applicability_exclusion": [
+    "copdem_120_multi_dry__sf0",
+    "copdem_120_multi_wet__sf0",
+    "copdem_120_multi_nodrag__sf0",
+    "copdem_60_multi_ref__sf0",
+    "copdem_60_multi_dry__sf0",
+    "copdem_60_multi_wet__sf0",
+    "copdem_60_multi_nodrag__sf0"
+  ],
+  "applicability_pending_cases": [],
+  "unfinished_applicable_required_cases": [],
+  "unfinished_diagnostic_cases": [],
+  "unfinished_registered_cases": [],
+  "final_delivery_complete": true,
+  "local_only": true,
+  "raw_run_manifests": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_multi__sf0/raw_output_manifest.json",
+      "bytes": 95278,
+      "sha256": "073f042d2258e66830d3d056940fef0a906f546fcef24ebab50607a887aba441",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_multi__sf0__resourcefix/raw_output_manifest.json",
+      "bytes": 94451,
+      "sha256": "b6e910bf7d42aede7d5b9912e20ab43e4f5f0ce8983c5eba2a313efdcffb96db",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single/raw_output_manifest.json",
+      "bytes": 38715,
+      "sha256": "5b4caffa50dd3014f058be03892b11bf4234819815c4863357769fe3a45208cf",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0/raw_output_manifest.json",
+      "bytes": 43184,
+      "sha256": "4d78b28276401c2a3f71dc4eccca61f64b5b713738cb7913c99103832883b1ad",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0__noa/raw_output_manifest.json",
+      "bytes": 28542,
+      "sha256": "c2a87834e3f2085ee0a64faefc81b9460fde3355041e8951a321a5efcd6e828a",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0__resourcefix/raw_output_manifest.json",
+      "bytes": 45579,
+      "sha256": "0ff0f3546a09f8a53b8470439832d4bca816dbbd04e7df51b8f87e7ecf28a569",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf1/raw_output_manifest.json",
+      "bytes": 43184,
+      "sha256": "0f5389e5768a9fa0fc44911af53ba544ea601ea57927dedea52dd7aa010da917",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf1__resourcefix/raw_output_manifest.json",
+      "bytes": 45579,
+      "sha256": "6262290c0fba135d3ec676ee4c917fe67c2b85a9e40bccc8df7e8fa18fb8a5b8",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_120__sf0/raw_output_manifest.json",
+      "bytes": 930815,
+      "sha256": "3b379a9192d03fc0bd1d78f7dff4d4374eebaa969a4c60cf3cd5756d8488e31c",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_nodragvm_120__sf0/raw_output_manifest.json",
+      "bytes": 1004562,
+      "sha256": "e04b0f8411a02952fde3b61c3190055851aced46f1b05c8498d51d79258c6dd5",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_rock_water_120__sf0/raw_output_manifest.json",
+      "bytes": 939275,
+      "sha256": "c7554c527a932e8fd882b7600c36d6d634acf5f0bb94754e0f73f37fe29c8c27",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/raw_output_manifest.json",
+      "bytes": 91961,
+      "sha256": "c393c7736c5421beeb666b52e62374980131150b0f2043ebd5e4a69beab326ab",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/raw_output_manifest.json",
+      "bytes": 93553,
+      "sha256": "1f815aeafa303ed8474e85e1a52ca20de57875391ca8a40b43620b88640e27dd",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/raw_output_manifest.json",
+      "bytes": 93234,
+      "sha256": "30be27a3826353be861378a97de51a5d49c1c0c998889ef55a56cfb268a4146c",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/raw_output_manifest.json",
+      "bytes": 91334,
+      "sha256": "d6eef112734dd7a4a81c65ed203e23153300300644828b084575e55e2674f0e9",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_multi_ref__sf0/raw_output_manifest.json",
+      "bytes": 902535,
+      "sha256": "da0ca70a4663a5b6ae6f61825e23e26400d5b5b31157e479138b826278032ddb",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_cfl025__sf0/raw_output_manifest.json",
+      "bytes": 379637,
+      "sha256": "0420ac2056ee8700d160f9234c2eab533684d332cdc2678f473048b7cda7829b",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_entrain1m_P1buf250__sf0/raw_output_manifest.json",
+      "bytes": 466075,
+      "sha256": "782d9903db40fb6a3b6c4b55c06f4b0e9bc7ec7fcadb6e4cc96c99abdc2277a3",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h136__sf0/raw_output_manifest.json",
+      "bytes": 372313,
+      "sha256": "d8747b6fc9cd12c74bc85c131a16ef0e30236b2228a6f6b80599ab871aa6b0d4",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h30__sf0/raw_output_manifest.json",
+      "bytes": 368651,
+      "sha256": "a20525bf4087e0a5c8c232b38889cd78be9ccf5121d601a1279020ce38daf01c",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h5__sf0/raw_output_manifest.json",
+      "bytes": 364988,
+      "sha256": "5efaae651c00932e19919695ef415339b2e90beeccef5dede6d79b06da8e7297",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_mu0p08__sf0/raw_output_manifest.json",
+      "bytes": 379637,
+      "sha256": "37e1140a29222d434d89fe98b4db6021d0e64357a19e41fc804cc22bf31acf5f",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_mu0p25__sf0/raw_output_manifest.json",
+      "bytes": 383663,
+      "sha256": "a1ac2fcf6c4638f0d493d53eff28e77af65aecbf431aa641b4ec87b691dcf617",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_ref/raw_output_manifest.json",
+      "bytes": 228357,
+      "sha256": "81e64c95bf88c1fb2c932f7c5d4f95ca616bff76dea3a06e04ec3b10c88bc68d",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_ref__sf0/raw_output_manifest.json",
+      "bytes": 374182,
+      "sha256": "75645deaa0f58be2e8d0214be2083eed3e433f3e4a280cd7e52000757d35515d",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_xi2000__sf0/raw_output_manifest.json",
+      "bytes": 379637,
+      "sha256": "3f3341ce0fbb12b0ee21b3ed7da8b76e6b527b72d1027cde68f600406c6d3c2d",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_xi500__sf0/raw_output_manifest.json",
+      "bytes": 375975,
+      "sha256": "371a7c477ae630e8a2a0db7363a84127ec5946203e5848b2992560c333d408e4",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/raw_output_manifest.json",
+      "bytes": 91116,
+      "sha256": "20e463dc6db717c41708382a267484ff1827b854a5bceabaa770f91c615283f7",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/raw_output_manifest.json",
+      "bytes": 92691,
+      "sha256": "98dd3265cd280cfc4d35c7b34a38c764e6b5d330f3c237070c9fc65882740eaa",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/raw_output_manifest.json",
+      "bytes": 92376,
+      "sha256": "1b44750ddebbc8beea14d9a9badebbcb0a8d49f55c8610ae81318871373d2abb",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/raw_output_manifest.json",
+      "bytes": 91108,
+      "sha256": "91d41ca57a1e38fb250ef420dc38ef81b4195a17d1f5bebd367786bc78c3dd4d",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_single_ref__sf0/raw_output_manifest.json",
+      "bytes": 365906,
+      "sha256": "df30e62334310a5b3bed150f444ec7c25ba14508d92c71f93378d8998771692d",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/raw_output_manifest.json",
+      "bytes": 91445,
+      "sha256": "ecd23916a003f1cfe80e1d4ef5368b58dba2e45bb29cd1c3e63a9257e41501a0",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/raw_output_manifest.json",
+      "bytes": 17923,
+      "sha256": "458be1893122c43d9f33cec27e6085c23c2f1843c579dbb662f5962f7c7ec4ad",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi/raw_output_manifest.json",
+      "bytes": 57705,
+      "sha256": "45b9bff68e15f07522513fcfb1423595ec6527bc6bce957364889bc2745b2d79",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi__sf0/raw_output_manifest.json",
+      "bytes": 59422,
+      "sha256": "db66bdce9d6ece92f452f703206f11c17624d4f81468ca0113ef0a8c546836e9",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi__sf0__resourcefix/raw_output_manifest.json",
+      "bytes": 59735,
+      "sha256": "f1915680a19f14887430bdce64ac88c05b22ef286f88d065c95709ad287e1bbb",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single/raw_output_manifest.json",
+      "bytes": 21358,
+      "sha256": "9886732bff093d85f9d22deb8acde452aa94761edcdbda2f7d2c20b04ea4841f",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single__sf0/raw_output_manifest.json",
+      "bytes": 24960,
+      "sha256": "98b39f1f32fda654a43959ca5adde5f882737bb0c188ba1eefdfcb849f0f9a07",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single__sf0__noa/raw_output_manifest.json",
+      "bytes": 18168,
+      "sha256": "97731180567619b8b8428500f968a9a403874e2c75086d437643439b036c0a24",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single__sf0__resourcefix/raw_output_manifest.json",
+      "bytes": 27006,
+      "sha256": "09e65f93c42bf147020695aa77503660fa157c05a02561c5d11911d944c23a11",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m/raw_output_manifest.json",
+      "bytes": 27941,
+      "sha256": "1f1a0ca98827bd43aef4494a0e1cbe05b7920bcc8f9977c416a84a5a3a1ef849",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/raw_output_manifest.json",
+      "bytes": 431822,
+      "sha256": "91e5bf3369bf3fefa9666bcd751d4ab8f219e9aad7a0e759fc970e971e2a1e58",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/raw_output_manifest.json",
+      "bytes": 441891,
+      "sha256": "965e25201ab00d965d70ee6b1997ade94dd56f718e3dcb113d3b86a13c36a308",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/raw_output_manifest.json",
+      "bytes": 439146,
+      "sha256": "8769ea362c49bc26d6507aee2c8fc41c51bd9b33e02f565640e24e2b08d23bc9",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear/raw_output_manifest.json",
+      "bytes": 99422,
+      "sha256": "c98d86476134ce3f301fe58659120fa433b9fb93fc04f6890f32009bee20942f",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/raw_output_manifest.json",
+      "bytes": 393175,
+      "sha256": "4f5132274e6066d27624e53106b7e5eb8419e09770d38216d323d71b1dd4ffc4",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/raw_output_manifest.json",
+      "bytes": 400188,
+      "sha256": "ddd52da0518655d908e8be445aefb52b0bfbe404aff3eb3d0ad701215f554626",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/raw_output_manifest.json",
+      "bytes": 398864,
+      "sha256": "d9daa1334b5b19ac03905f9f54c71aaba6d4470d02781a4be0cbfbf5cea1d61e",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/raw_output_manifest.json",
+      "bytes": 406188,
+      "sha256": "a430a9125018852712791bbc118ed1198d0e77aa4e7421357bdd228c815684fa",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/benchmarks/cascadia/raw_output_manifest.json",
+      "bytes": 148152,
+      "sha256": "eb79e3910437c7eacde2a1b833d7380e37e0bfbcfc50cd442b9d4e86ee29e036",
+      "role": "full_raw_native_file_index"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/benchmarks/gully/raw_output_manifest.json",
+      "bytes": 23288,
+      "sha256": "86d6f9bb120412c064011358a6af899cb1d9d370cb4b297e69a47a9e38ab3ce6",
+      "role": "full_raw_native_file_index"
+    }
+  ],
+  "cancelled_retry_partial_manifests": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/cancelled_runs/copdem_120_multi_ref__sf2_retry_20261024T090438Z/raw_output_manifest.json",
+      "bytes": 488834,
+      "sha256": "eb66df0cc4111f898b2fceaeafbc69bf698c6bc46113441070c5aa16193d2ef6",
+      "role": "cancelled_partial_raw_file_index"
+    }
+  ],
+  "self_inclusion": false,
+  "not_event_validation": true
+}

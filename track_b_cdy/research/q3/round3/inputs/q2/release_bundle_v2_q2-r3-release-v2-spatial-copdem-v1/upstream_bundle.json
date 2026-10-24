@@ -1,0 +1,89 @@
+{
+  "bundle_version": "q2-r3-release-v2-spatial-copdem-v1",
+  "producer_question": "q2",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "evaluation_stratum": "conditional_scenario",
+  "geometry_version": "q4-r3-spatial-copdem-v1",
+  "geometry_bundle_sha256": "8eb6cbc1b85e60fe8a82906f4f025ec22b3bcf96d5c59bd0535ffbe0ccf8a0c5",
+  "parent_release_bundle_version": "q2-r3-release-v1",
+  "parent_release_bundle_sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+  "files": [
+    {
+      "path": "track_b/research/q2/round3/results/release_states_geometry_v2.csv",
+      "bytes": 121276,
+      "sha256": "c40aa56cfd5075ab73b84d97abbea17dc932343f776ff87eb25a868a9f47d575",
+      "role": "release_states_geometry_v2"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/geometry_integration_summary.json",
+      "bytes": 24501,
+      "sha256": "22edf0eb580488df01ae98b2f263e8230abc38b4674c7e9a5390193cf6aaea9b",
+      "role": "geometry_integration_checks"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/geometry_integration_terrain.csv",
+      "bytes": 912,
+      "sha256": "a974b276a7a46994d72a660b85e4e9de617f68c35e4f32188459785ae4665b29",
+      "role": "source_surface_slope_diagnostics"
+    },
+    {
+      "path": "track_b/research/q2/round3/GEOMETRY_INTEGRATION.md",
+      "bytes": 3361,
+      "sha256": "a626bf6ebfffe007fbf7e1e26335a2d1d7ad2e26b83e5beae3ed78f3f8cbdb63",
+      "role": "geometry_integration_methods_and_limits"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/integrate_geometry.py",
+      "bytes": 22904,
+      "sha256": "3c5f087013e52a932275548ed735f51dba738a5446b13630e2b2723edd5849e3",
+      "role": "geometry_integration_reproduction_script"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/release_thickness_q2r3-p0000_60m_v2.tif",
+      "bytes": 3794,
+      "sha256": "9be5c69fcb388182a843058deec9cce1026692bb4b5d30454f84a86872dd39d7",
+      "role": "release_thickness_q2r3-p0000_60m"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/release_thickness_q2r3-p0000_120m_v2.tif",
+      "bytes": 1941,
+      "sha256": "f0a21b0b435d76f67ee2289e5c4e6e5a60b18f7d238744019b162956a2ef2f00",
+      "role": "release_thickness_q2r3-p0000_120m"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/release_thickness_q2r3-p0036_60m_v2.tif",
+      "bytes": 3792,
+      "sha256": "ec3a73e460db37b67d33eb1f3f2f4490fd8265e72747a1ac861522f6f8871827",
+      "role": "release_thickness_q2r3-p0036_60m"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/release_thickness_q2r3-p0036_120m_v2.tif",
+      "bytes": 1931,
+      "sha256": "081ef7c3fd20c26b87ed717e67c283f3f7c2e39810cd329e3ee24283d57e0275",
+      "role": "release_thickness_q2r3-p0036_120m"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_60m.npz",
+      "bytes": 241460,
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915",
+      "role": "source_mask_model_arrays_60m"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_120m.npz",
+      "bytes": 55797,
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+      "role": "source_mask_model_arrays_120m"
+    }
+  ],
+  "limitations": [
+    "All geometry/thickness/composition/release states are conditional scenarios, not measured source initial conditions.",
+    "Surface slope is distinct from assumed structural plane angle; no mechanism parameters refitted.",
+    "Two grids share fixed volume; 120m constant vertical thickness normalized by its source-mask horizontal area.",
+    "Zero initial velocity and zero free-water release fraction are explicit inherited scenarios, not inferred from background velocity or reservoir state.",
+    "No-start/left-censored parent trajectories retained; propagation from them requires additional conditional release, not predicted onset.",
+    "No parameter probabilities; no independent observed events; human scientific adoption pending."
+  ]
+}

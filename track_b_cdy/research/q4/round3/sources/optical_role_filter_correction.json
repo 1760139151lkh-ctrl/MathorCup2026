@@ -1,0 +1,22 @@
+{
+  "corrected_at_utc": "2026-10-24T11:20:09.425613+00:00",
+  "type": "Implementation correction to existing all_completed_2d_models protocol; no change in masks, domains, thresholds, metrics, models or tuning.",
+  "reason": "Exact role==conditional_scenario omitted7 cross-question,3 component-closure and1 bounded-entrainment completed2D cases despite preregistered all-completed scope. Explicit registered role families now included; material-proxy diagnostic and numerical benchmarks remain excluded.",
+  "legacy_limited_scope_records": [
+    {
+      "path": "track_b/research/q4/round3/results/optical_model_agreement_limited_role_legacy.csv",
+      "bytes": 67151,
+      "sha256": "076c3e52cd0ace567972519e16e1947c736b1247a7467a02997d5f25e0ce70c3"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/optical_model_agreement_limited_role_legacy.json",
+      "bytes": 471,
+      "sha256": "fb10909c9f3e59532351c0c5aaf6bd502198b96de2ab6ade14b0f10063e465df"
+    }
+  ],
+  "script_sha256_before": "0495c1ce55e80dc472c6d32829bb15bdbc56a68c09d7fb1f958b5305c93133c9",
+  "script_sha256_after": "9ba3fe68e123a2e46f28eeefd270d00d74d3bfc02250fcba24dec9e1a54b02b6",
+  "expected_final_native_cases": 30,
+  "expected_reduced_2d_cases": 10,
+  "independent_local_event_validation_count": 0
+}

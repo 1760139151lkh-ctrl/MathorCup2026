@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "name": "Q4 search-only AOI; not release geometry",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "q4-r2-fig1-search-v1",
+      "properties": {
+        "purpose": "search_only",
+        "event_id": "B20260826_Chhochen",
+        "geometry_status": "retrospective_map_reconstruction_candidate",
+        "release_geometry": false,
+        "source_datum_verified": false,
+        "positional_accuracy_m": null,
+        "search_padding_m": 2000.0,
+        "padding_is_error_bound": false,
+        "advisor_review_status": "pending",
+        "version": "q4-r2-fig1-search-v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.54598368048458,
+              28.263182085827058
+            ],
+            [
+              85.54481335172997,
+              28.34920248297248
+            ],
+            [
+              85.35717450521027,
+              28.347071011560164
+            ],
+            [
+              85.3584955860455,
+              28.261058229928057
+            ],
+            [
+              85.54598368048458,
+              28.263182085827058
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

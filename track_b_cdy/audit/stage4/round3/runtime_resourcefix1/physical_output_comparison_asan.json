@@ -1,0 +1,12 @@
+{
+  "scope": "identical ASAN O0 compiler/config and identical small benchmark before/after cleanup-only patch",
+  "common_ascii_fields": 34,
+  "only_before": [
+    "flatrest_60_ravaflow_single_ascii/flatrest_60_ravaflow_single_basechange0000.asc",
+    "flatrest_60_ravaflow_single_ascii/flatrest_60_ravaflow_single_basechange0001.asc",
+    "flatrest_60_ravaflow_single_ascii/flatrest_60_ravaflow_single_basechange_fin.asc"
+  ],
+  "only_after": [],
+  "nonidentical_fields": [],
+  "all_common_ascii_byte_identical": true
+}

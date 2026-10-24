@@ -1,0 +1,13 @@
+model_id,horizon_hours,independent_sites,failure_sites,censored_sites,known_outcomes,brier,logloss,conditional_coverage,conditional_coverage_sites,conditional_overlap,interval_width_hours
+linear_dynamic_hazard_no_record_age_crossfit_calibrated,24.0,14,13,1,5,1.0435603755547531e-05,0.00276986024960929,,0,,22.79999738237706
+linear_dynamic_hazard_no_record_age_crossfit_calibrated,48.0,14,13,1,10,0.5892162673419433,2.833652476891704,0.0,6,1.0,45.59997965284011
+linear_dynamic_hazard_no_record_age_crossfit_calibrated,72.0,13,12,1,10,0.5845996771964618,2.6172888751583185,0.0,6,1.0,68.39993420236398
+linear_dynamic_hazard_no_record_age_raw,24.0,14,13,1,5,2.7383458185941782e-05,0.00509106599654218,,0,,22.79998850530566
+linear_dynamic_hazard_no_record_age_raw,48.0,14,13,1,10,0.58381223482135,2.5884257631983103,0.0,6,1.0,45.59994899284941
+linear_dynamic_hazard_no_record_age_raw,72.0,13,12,1,10,0.5769341094890048,2.3737316578346115,0.0,6,1.0,68.39983108305961
+nonlinear_rbf_hazard_no_record_age_crossfit_calibrated,24.0,14,13,1,5,0.003254409788495669,0.02755511095512635,,0,,22.798369571944026
+nonlinear_rbf_hazard_no_record_age_crossfit_calibrated,48.0,14,13,1,10,0.42151414591805675,1.4826515851569906,0.0,6,1.0,45.586811145766944
+nonlinear_rbf_hazard_no_record_age_crossfit_calibrated,72.0,13,12,1,10,0.3595634467408238,1.2904094420574517,0.0,6,1.0,68.35942575646988
+nonlinear_rbf_hazard_no_record_age_raw,24.0,14,13,1,5,0.0054806431491772984,0.03724015063249676,,0,,22.796725112019555
+nonlinear_rbf_hazard_no_record_age_raw,48.0,14,13,1,10,0.376875950404712,1.323813647448297,0.0,6,1.0,45.57343859765918
+nonlinear_rbf_hazard_no_record_age_raw,72.0,13,12,1,10,0.3099070680233926,1.1383431545404712,0.0,6,1.0,68.31868610347823

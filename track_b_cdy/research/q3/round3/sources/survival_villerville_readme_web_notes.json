@@ -1,0 +1,23 @@
+{
+  "canonical_url": "https://www.easydata.earth/back/public-api/v1/metadata/datasets/f238a562-8741-4aee-9eaf-1443faa22cad/files/README_Villerville_Dataset.txt",
+  "retrieval_channel": "web.run indexed text, not direct raw HTTP snapshot",
+  "retrieved_at_utc": "2026-10-24T07:39:48.642325+00:00",
+  "actual_read_scope": "README rendered lines0-57: slow-moving landslide velocities, table columns, date span, cm/day units and missing values. No event or catastrophe-free follow-up labels found.",
+  "facts": {
+    "observation_start": "2009-07-06",
+    "observation_end": "2025-03-14",
+    "columns": [
+      "Date",
+      "VLRB_vel_processed",
+      "VLRH_vel_processed"
+    ],
+    "unit": "cm.day-1",
+    "physical_sites": 1,
+    "plots": 2,
+    "measurement_role": "processed_slow_movement_velocity",
+    "failure_label": null,
+    "censoring_status": "unknown_not_verified_failure_free",
+    "first_mechanical_initiation_risk_status": "already_moving_at_monitor_start; onset left-censored or unknown"
+  },
+  "direct_download_status": "401; closed; no credentials bypass or alternative private endpoint attempted"
+}

@@ -1,0 +1,59 @@
+{
+  "all_checks_passed": true,
+  "raw_cell_coordinates": 4074,
+  "nonempty_cells": 2423,
+  "sheets_audited": 6,
+  "blank_sheets": 4,
+  "formulas": 0,
+  "cached_formula_missing_or_stale_status": "no formulas in either source; no calculation required or performed",
+  "source_error_cells": 0,
+  "comments": 0,
+  "nonformula_cached_mismatches": 0,
+  "xml_parts_indexed": 28,
+  "shared_strings_indexed": 75,
+  "source_headers_notes_cells": 55,
+  "normalized_observations": 141,
+  "normalized_aggregate_records": 14,
+  "numeric_string_conversions": 2,
+  "missing_source_fields": 0,
+  "all_normalized_fields_trace_to_original_cells": true,
+  "raw_inventory_coverage": [
+    {
+      "workbook": "experiments",
+      "sheet": "Sheet1",
+      "all_xml_cells_covered": true
+    },
+    {
+      "workbook": "experiments",
+      "sheet": "Sheet2",
+      "all_xml_cells_covered": true
+    },
+    {
+      "workbook": "experiments",
+      "sheet": "Sheet3",
+      "all_xml_cells_covered": true
+    },
+    {
+      "workbook": "coefficients",
+      "sheet": "Sheet1",
+      "all_xml_cells_covered": true
+    },
+    {
+      "workbook": "coefficients",
+      "sheet": "Sheet2",
+      "all_xml_cells_covered": true
+    },
+    {
+      "workbook": "coefficients",
+      "sheet": "Sheet3",
+      "all_xml_cells_covered": true
+    }
+  ],
+  "all_source_hashes_unchanged": true,
+  "canonical_early_outputs_unchanged": true,
+  "failures": [],
+  "independent_events": 0,
+  "evaluation_stratum": "external_transfer",
+  "statistical_fits_performed": 0,
+  "physical_independent_specimens": null
+}

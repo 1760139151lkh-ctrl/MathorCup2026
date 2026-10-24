@@ -1,0 +1,2596 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-24T04:14:38.017263+00:00",
+  "preparation_commit": "1a31c6f2c3e11fcc32ac870b7a5896a7ef67f06e",
+  "contract_version": "stage4-r1-v1",
+  "scope": "Original B/rules/templates plus preparation-commit shared data/audits/scripts/config/lock; no question outputs or self-reference.",
+  "file_count": 431,
+  "files": [
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2010-01-01_2015-01-01_dhdt5_UTM45_UTM45_GCS.tif",
+      "bytes": 1670810,
+      "sha256": "95b3537a72275f73d99a15ca235d3757bf5049e0b7b343a84440569452cfa17a",
+      "git_blob": "0082fb386c20b83fd3980310c48f6875e5a0746d"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1239561,
+      "sha256": "ef9731d53d3ad037b1fc437e66ec5e37a4d08245cf3da8e81317e4cff1f9a764",
+      "git_blob": "00ab74b13ed3973a7468e763ff9c77a0be875bd6"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_raw_qc.parquet",
+      "bytes": 42428,
+      "sha256": "58a0dcc112affae1450265b2d3d0cf05ef404e846c23178fbed49c3454033106",
+      "git_blob": "012e48e6124a3f5043d03bd367b3abfa0979b3f7"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_qc_9.parquet",
+      "bytes": 40578,
+      "sha256": "190d6dfeca8208f1824ad09e70601471efd721af4ecc155ff6f56489d440d120",
+      "git_blob": "01721c805917497ecae0d8354abbf5b3810528ae"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.sbx",
+      "bytes": 2452,
+      "sha256": "908770412bf2220a451b7d3f031d15a140f1eed9b366daa277019fbdba8d2023",
+      "git_blob": "01e3a56e6b83c2f81a0453fac15f365d06d2fbcb"
+    },
+    {
+      "path": "01_比赛规范/MathorCup数学应用挑战赛人工智能工具使用规定（试行）.pdf",
+      "bytes": 122350,
+      "sha256": "34be7fabb7a6df6b800bfb9cf1944c056246a89d1675efe1d860d1ddf8c71e83",
+      "git_blob": "022cd198ca9608b23a12f95d7ba269fe34369a0e"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 3355276,
+      "sha256": "2a146edc7845110c8501add4663bb2c6d80317207c494845d5a2535d48037d2d",
+      "git_blob": "059dcd96a5e04dc1c107434c186f2f3bc482507e"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/landsat_anonymous_thumbnail_probe.bin",
+      "bytes": 35532,
+      "sha256": "af285cc289242e0fe2ecc677286f51e9fc218136c55809dd0fb7c5127956bd93",
+      "git_blob": "0622401cadb11854c76421db84e1ed9719e06f6a"
+    },
+    {
+      "path": "track_b/data/processed/spatial/jilong_LUCD_2021_nc_grid_nearest.tif",
+      "bytes": 1303,
+      "sha256": "2b97e7a35248da4a8751a07c20028b5349fd1f7405ed93c39ec10a4f88d9c258",
+      "git_blob": "062feccca830d2501da994238695b8dc3dab77ca"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2419732,
+      "sha256": "dec81e2420a1ec317fd5537bfbec2ad76b90350b7ea012acf2b94c0f43a26af8",
+      "git_blob": "0683139aea13f9b59fc232298a2545fe98e09e10"
+    },
+    {
+      "path": "track_b/data/external/event_remote/supplemental_original_source.json",
+      "bytes": 2875,
+      "sha256": "2fd554be53594c2d6a03c35726f8144c3e1d272aac9d7f43c28d2249a81fe1b2",
+      "git_blob": "07e71b60412617ddb970e04d2ed053479729b226"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2021.xlsx",
+      "bytes": 30600,
+      "sha256": "3719f2b87306bbdcddee8b1a5932e45db398d3c7afe51ac84bd9dddae4acc5ed",
+      "git_blob": "080ae758c28ab733703534f8afb711c7bc0c1688"
+    },
+    {
+      "path": "track_b/scripts/prepare_temporal.py",
+      "bytes": 30305,
+      "sha256": "652f582e2a8804f72c53a4fe0e24b3a6358b858b5c1556bcb68541cd5238b023",
+      "git_blob": "088623e41f73362bd7795190c70128f23fa5d72d"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 895686,
+      "sha256": "b07e3aa511a7249703d554fd15d22e24c8aa5c353da7e402c34068194475f105",
+      "git_blob": "095efc76d9953df42105ea64f3bc586bfe2e1ff2"
+    },
+    {
+      "path": "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.sbx",
+      "bytes": 116,
+      "sha256": "d25692a00bc81879f0f1ddcc1c722c75789eab5867555be5dc537673f15e40cc",
+      "git_blob": "0966f38a7d38d9912aee704b275b400f34c2dd67"
+    },
+    {
+      "path": "track_b/audit/temporal/hourly_qc_value_crosstab.csv",
+      "bytes": 80475,
+      "sha256": "481d082b4d4fa5261079b697da8aa02faf5a75c50e02aca2e0a094710d4ccc6a",
+      "git_blob": "0ada96dae61891c5daa398875b2b4a574d36d6a4"
+    },
+    {
+      "path": "track_b/audit/spatial/coverage.json",
+      "bytes": 8904,
+      "sha256": "5e1ad2fb85ba011dd007c0694aee660b28629e43444bdabfd4d7b3cc95c9832c",
+      "git_blob": "0bcf4bcf8cafaecb09cb96971a79652fba53d2d1"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2021.csv",
+      "bytes": 1781827,
+      "sha256": "2f493e18232ed3a8c7c517e2b57e8dd9ac6c2a448f67a7e241355a73c4a62409",
+      "git_blob": "0c3497091b8fad767e1b5347dd3feee240e38077"
+    },
+    {
+      "path": "track_b/audit/temporal/summary.json",
+      "bytes": 7875,
+      "sha256": "1ed345048cabe71dc3607735cfdce22da42bb0043351483f2af2532615e8a3d5",
+      "git_blob": "0cf4b2a9a73101c93151968e9da18c264d873ef6"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2020.xlsx",
+      "bytes": 30429,
+      "sha256": "4eb34f174aa99664fa1a4f7c4b141ead26039d3df19a850e4424ed2ae11f468e",
+      "git_blob": "0d2604a0d9d5d0dd93fde314fa3b3f1775139645"
+    },
+    {
+      "path": "track_b/requirements-lock.txt",
+      "bytes": 708,
+      "sha256": "5a780bc65de35a11a1eac4ec9370cad50957dcabb8ebe02cecdbfdb550ad645a",
+      "git_blob": "0d413571c9bd528cfa7b7a9be4976faaa7d17ceb"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 937662,
+      "sha256": "e1ef220305657fc291d12ec8e3eb1d4eac3c29507d9cc0faa226bcef730601d8",
+      "git_blob": "0e0f15768ea4be47d8c78c8752aeab205b4e6a53"
+    },
+    {
+      "path": "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.sbn",
+      "bytes": 132,
+      "sha256": "30f1a86798c7100d504d53aa13b881ad7a34671ce2067ed1c128cbe4e82a21bc",
+      "git_blob": "0e940b74444a4dbdd4beddce5c3644b04d0452e6"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 935680,
+      "sha256": "5aa3a0e9f30c3edd151014d34890de1a7343385e79b750b81a7cdb828b7a299e",
+      "git_blob": "0f07d5cfbb3784b12085d6f0bd6796af972062b7"
+    },
+    {
+      "path": "track_b/scripts/prepare_spatial.py",
+      "bytes": 28934,
+      "sha256": "bd26dd1beef20d7e2c7f9522d5db5f264c25e00541c8bcd0e8019dfd046f4295",
+      "git_blob": "0f2648bc499df94d91913b1b83faefd7269f30e5"
+    },
+    {
+      "path": "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2023.tif",
+      "bytes": 25095672,
+      "sha256": "4f5cc202b88b5c73a66e07c178bad11146237750790add5fecda8869d47da7b4",
+      "git_blob": "0f717487ddb82ff52d6fcf6f12b34b5a562f0275"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 2492928,
+      "sha256": "b61e636efaefebda738666dbf31ac1f718bf3dca3c789f197d2a25788c1c7630",
+      "git_blob": "0fd299dece5de53cbed44bee55d6bec5a91a8aa0"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 1115790,
+      "sha256": "bce4271953b3e98b91c6ae5a11b351a4a51d8ef89b5462e78de76a61e259dd76",
+      "git_blob": "109e836011d3aac4a53ecf95f671e8ee2c598626"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1864270,
+      "sha256": "10cad9c26af846f2b5c0cfac6a40253482d009580850f698c3658d243c203eac",
+      "git_blob": "14a6d4ee5b0fb5d67e7d89770084ad2178fb1766"
+    },
+    {
+      "path": "track_b/data/processed/temporal/input_manifest.json",
+      "bytes": 11238,
+      "sha256": "edb1d1d3ed13b5fd687f504774c5164843f2011b5928dd03b48b8a5038c130ce",
+      "git_blob": "14cb65b6afebf550ca754a16bc4319f36517e6b7"
+    },
+    {
+      "path": "track_b/data/processed/spatial/jilong_LUCD_2022_nc_grid_nearest.tif",
+      "bytes": 1303,
+      "sha256": "eef505913dd3514c2c867f0c13fe53b2fa19e6b3f73d6151eb2ace73acc3a21b",
+      "git_blob": "14fa5c1a418f51f9b00cbc15e9f2baacb3871798"
+    },
+    {
+      "path": "track_b/audit/temporal/daily_workbooks.csv",
+      "bytes": 5811,
+      "sha256": "28530ef2b4869f536b4a5e6df2a2d19599fc1ddf26b9379d79fa68dca083b6b9",
+      "git_blob": "15a14dc3becf35467b76ca889b36812b0ea016d1"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2007.xlsx",
+      "bytes": 30524,
+      "sha256": "cecea826ced4c816420918dbd907be704443ad9916c3d14e74a20c62283e28ac",
+      "git_blob": "15e260905d4eaec2e57a3c216d27071d41e03a1f"
+    },
+    {
+      "path": "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+      "bytes": 362728,
+      "sha256": "0a57192a65557f052dbc0bfbca71687ad1d158d4edaa363f26b3d65f337f32c8",
+      "git_blob": "161b1a04ad2d90a768cce6a1efdde29067fe4d32"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 549296,
+      "sha256": "6076ef70834b89922970f7e202cffac3f535f18cf4cfdfd7ffc7e65d7ce0cee4",
+      "git_blob": "1633afd33445767038cf7a24ad51601408becd99"
+    },
+    {
+      "path": "track_b/audit/temporal/daily_monthly_coverage.csv",
+      "bytes": 86885,
+      "sha256": "d811030c9e6fa1801f8b70fec0f912cb8b76d3da71199f78b06366a7b166681f",
+      "git_blob": "1739fa707910eecafc86ea02e08d3dd91dc05873"
+    },
+    {
+      "path": "track_b/audit/temporal/hourly_files.csv",
+      "bytes": 6564,
+      "sha256": "31e1eaae031f18f38928fdc14998a8e793e3929088738b3dbd643609ec83d16d",
+      "git_blob": "174f0e422660e3e1d31cea8bc28a27f1d003b8ef"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1883876,
+      "sha256": "09deef29f7c329b6b00890cc69cdf2add03500ca20d8b9d633b4ee50882de71b",
+      "git_blob": "178692856af251fad9ef7a1f88b4ae75a48f6d72"
+    },
+    {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif.aux.xml",
+      "bytes": 2326,
+      "sha256": "8f6c82061d45641e5733a5f7d920d3fd10e028203282021de13ad18f3a80b98b",
+      "git_blob": "1833e294268e3b393ecbcdf9dce6c42509678a78"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 1285668,
+      "sha256": "9cd20429b45f5f5745fcfc4c476e06a2e64cd0603c6c0477fe4c052c1e853089",
+      "git_blob": "1848732163ca9fa19e25c2c8f2f8ebca090ff6ff"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 3353140,
+      "sha256": "d88f2b29f53b0592676286fd7d73ba384f0e01481039cda6962f4851c5a9330f",
+      "git_blob": "189830f053fe3c80f1b7208381a813834abf4898"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 1165582,
+      "sha256": "2472f9585eb84eba24d11722f155cac1e3be801290d86ae258fae80741dcfb39",
+      "git_blob": "19438a0bee3f8a180240a52fe1335766ca19992c"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2017.xlsx",
+      "bytes": 30482,
+      "sha256": "ac4acdbd759f3ad685cafcb74019e7f141c423658df3f92cdb506be752c61355",
+      "git_blob": "1a4f3ed97fd91429397e0f34e97c003ec44002c3"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2026.csv",
+      "bytes": 1800913,
+      "sha256": "9422c99a38ecac4c7ad3a7f416e047400aa87f70012da5fcb76fb99c8aa72791",
+      "git_blob": "1c6fd434c9b2c284f00407cfcbbf27675f94bbea"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2744348,
+      "sha256": "4bb9f5a1f02ef73837979e8955779bed1aa04bc76acaed80300b7b3c2d551374",
+      "git_blob": "1e194daa4decbd5b91e5a0182ac1eb5435b0ec38"
+    },
+    {
+      "path": "track_b/data/processed/spatial/coordinate_operations.json",
+      "bytes": 10935,
+      "sha256": "dac32a3ff87d59d4a6e80585e42de2af846c6dbb05dbf56e41c457e7344e36fa",
+      "git_blob": "1e391b661fa587d00ee0c997732f7c40420e0757"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_is_numeric_present.parquet",
+      "bytes": 61383,
+      "sha256": "555c4e5f96fe221e750fd0d21d86b74a14b81078f58c036f8f842be1a50a7ecf",
+      "git_blob": "1e4730692d15805daf9664e57309fbb4d60fe83f"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1241532,
+      "sha256": "c23b39d27dbcbb41d22bf354d676ff82077ce32895a7a749fd506ff01d4c3e9f",
+      "git_blob": "1f30631cfde756c6d7234905f2dd6bc74a334f58"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.shx",
+      "bytes": 34796,
+      "sha256": "2e0db27e1ce614316007ed724e85b83bf49fd74588ef94f952e38d23766e9cc9",
+      "git_blob": "1f5006853ffa6de881b620aadd815148da033641"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 638527,
+      "sha256": "b3bbd63e08739e639e201f750a03c30d2cfc6007f8494fadca07d19177c9f3b3",
+      "git_blob": "1ff9f3c6bf3b1a56b33ded5d8dcba32adc6957e5"
+    },
+    {
+      "path": "track_b/scripts/audit_temporal.py",
+      "bytes": 24855,
+      "sha256": "dadae0a248210a9bbc225f514ece86279eba6036683ff4225915a887beb8af73",
+      "git_blob": "2087a10bef619e5d318c0636f911ca7d724a1357"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2011.xlsx",
+      "bytes": 30439,
+      "sha256": "814faf97d47c16b2a5adcd962d81c78da986b6fba263ef486a9d02058834e917",
+      "git_blob": "22e9f2c6e876a52ec7ee5db12b12a2b9cfaa8f19"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1706650,
+      "sha256": "254f20f586e663d1e033bfd770ac7fbec5357e1418b8c35608f379c6ae26e19f",
+      "git_blob": "235b1fce8e2d5bb2277289005e41f60dcce420c4"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1231720,
+      "sha256": "0cd7c95517478b65cff7e3f3872bb26c8db69cb0dfa577b846461143b604fee8",
+      "git_blob": "23b06fe3ffe372a545c760703bf7d50f81a1bac0"
+    },
+    {
+      "path": "track_b/data/processed/spatial/jilong_LUCD_2020_nc_grid_nearest.tif",
+      "bytes": 1303,
+      "sha256": "5e6dee61e5770d45b4b709d2d9e2fb72f44ab5fafe5d6e735fb4774e47980b28",
+      "git_blob": "24304a70996d16abb6bfcae1cc65442f0db14ebf"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1029266,
+      "sha256": "80e10a497eebe774709b57b019f93c9ed12101c18c3fcacbde1bd33696460e19",
+      "git_blob": "2488518a50aa4d12ff038553af99a785bbb78643"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.dbf",
+      "bytes": 4164450,
+      "sha256": "8c734113fff29f6426ad19d2dafd76ce136f419f86d89108298eb698bb986255",
+      "git_blob": "24a4d19ba76aecdaa8799c4da2b4121af420df0f"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.sbx",
+      "bytes": 116,
+      "sha256": "ad4cc9182a14a8f7dc98ff5fb25b47fbc05258a11d4baf64cea1d30114c16aa6",
+      "git_blob": "24ce4ea38e063b37b8c976830a87d715c8c0f8c4"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2325096,
+      "sha256": "22cd113ed0342fb6155f1c683322728c07dbcc943bcd800c7725ebcf5c8537fb",
+      "git_blob": "24d9a652fa2d9f62b97788a73b568d5443432acb"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/MET_Gyirong_2024.csv",
+      "bytes": 1596015,
+      "sha256": "86ff4b2fdf7b3390664621ab8a5b18b707756cdc7219d5d769a1f27b48f92101",
+      "git_blob": "250560c43832e9e97e016c8bad756088a6cc1614"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 1292157,
+      "sha256": "3a0cde29bce9468f2a891ac58f7740cdc33b88fb358ee14610d45f0fb5658ac9",
+      "git_blob": "25362882854b9c72ee5aed9f08fa8e5539f195d9"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/五县年度平均气温热图.jpg",
+      "bytes": 193008,
+      "sha256": "67e5f0aa8fbaeb52cbd5a01dfe959965be16657170c84b1908c8d717b4182392",
+      "git_blob": "2541331b07ce1b9925b94ef41deabf3d6395f862"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 776274,
+      "sha256": "755d29e87d5fb8942edd05ba8689c1c67606a8a353a3e6174646ee297af880a5",
+      "git_blob": "263379d328b4e5829d0c853045d956ba6c208a7c"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1037642,
+      "sha256": "fe1a9bdacfd101737cf9b9eafb87e6a0d567cf084a9d566aae1cfcafbf947c73",
+      "git_blob": "264e1e272340c49069a6e621291880403fa72f36"
+    },
+    {
+      "path": "track_b/audit/research_sources.json",
+      "bytes": 49382,
+      "sha256": "5d8ae2df4457a011fe98b60c730f5974ad215b35eebefd3b327c3cfc424e5178",
+      "git_blob": "26a221bf8cf218cd1945a1150660a5a8c982ee29"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 2387149,
+      "sha256": "53deaf4ae11d9cec97860ba3734e113066899de9028e092bcdd41a0675f7ac75",
+      "git_blob": "281d6b0589aff162434c7190b5217fc825dd52d8"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2010.xlsx",
+      "bytes": 30534,
+      "sha256": "502a1631014c4e99d5aa7321066a4aad5ea38dba9ee1cf82d83cbbab82148f00",
+      "git_blob": "2a095dc496a1b358ed4570af6d8beb4ae1404ed3"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/SOIL_Gyirong_2022.csv",
+      "bytes": 1013676,
+      "sha256": "d54a95c3236615cadc463160bee6cc4d6e780bbe840bd534d721e85299a367a9",
+      "git_blob": "2a6c0fb50086bd2b8b273d22dd59fa78db2e02e7"
+    },
+    {
+      "path": "track_b/audit/stage3/integration_checks.json",
+      "bytes": 2411,
+      "sha256": "96170a74bf7c2ee01994800f7c29579748b0c2ad85d256e3ecac45006827c8cb",
+      "git_blob": "2a90b12bd04cada7c217190c662066bbabd21d20"
+    },
+    {
+      "path": "track_b/scripts/verify_stage3.py",
+      "bytes": 12836,
+      "sha256": "cc5d1470d79eb68bee970d1a47e041c96fcbb5f75ccf36882cd300524bad587c",
+      "git_blob": "2b0aafd2594525d03b4cdd596daa7a9271882763"
+    },
+    {
+      "path": "track_b/scripts/capture_stage3_environment.py",
+      "bytes": 3291,
+      "sha256": "54a5820f4d24abbaf135b614322cc02fc570809671404b8cdd09731bb5f66fef",
+      "git_blob": "2b2addaca956aece4c8f61e9b4d586cb83b784ea"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1230980,
+      "sha256": "9eee2bac7abdc213c39649d1c7be869ef50df613a13c27ffc45b42b6414b97d1",
+      "git_blob": "2b4bec9796d3b00009ea27f27f46d450ca85761c"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2023.xlsx",
+      "bytes": 30431,
+      "sha256": "2e1f430aba3dfbe9bc02661933a177cd71ada4995ea952154691fa9b8bb89aa1",
+      "git_blob": "2bb9282e6dbc300b0a741adb9257bc6bfface27b"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1739656,
+      "sha256": "527d518a8b84f843ef94f789d01f0f22ae27e714f83cf9743fc71d9776db49a4",
+      "git_blob": "2bf6eb1c72b1566f47fb244642ebffba8a02c0d7"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 1672949,
+      "sha256": "54644e9c7ad660efd0c78a5ae45558e26b24ddb5c79a6e3f563a72ce580fe42b",
+      "git_blob": "2dd07a1f943831f02a42861994fdc5fcd418bac4"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1711651,
+      "sha256": "f8406bb173393b981eafce86f4dca81bf2ca82c4de777f6b425bc3a9ba7248bf",
+      "git_blob": "2e61259737b59eed1a938b6101a1ca8b9fa2ba6f"
+    },
+    {
+      "path": "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.shx",
+      "bytes": 108,
+      "sha256": "007647ad73e8167d57f42921936f6fb39125e183319603a8745a2e4263ebde29",
+      "git_blob": "2e9d32df4dc231a7e3c4c90e4288981b5b79d693"
+    },
+    {
+      "path": "track_b/data/processed/forecast_sample/summary.json",
+      "bytes": 7870,
+      "sha256": "073a9f13f4ed11b32ddad23a86f8fc072ea2fe0d1e170514334d3bf363b1d81c",
+      "git_blob": "2ecbf0401d54f86e2cb3c6f8597be5a8b533d166"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 1598980,
+      "sha256": "0268b715c1ce1fec2a6306f3ef56df970eebd6360c8021c73d42b17cd5c64599",
+      "git_blob": "2eddf220d0ed3deb5e4979fb30febb80672e3e32"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/jms_article.html",
+      "bytes": 209068,
+      "sha256": "6cf316f8d40fee7d48ab40f9a62699a867cf632ef5ca17bcfe56a5df7ca04b41",
+      "git_blob": "2ef9a0e6133ddde87536581e1a1220c5c2c5ed4d"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 1689459,
+      "sha256": "2bd45d3d11f028da623c2507c53328d3a5108b9ce1b156f21760930c46cae932",
+      "git_blob": "2f212bc3072b3b2e78bcd4e785d23583bc41a6cd"
+    },
+    {
+      "path": "track_b/scripts/audit_environment.py",
+      "bytes": 2350,
+      "sha256": "d2d59aa4f1b4967f64efded23981d013396088b5f7d927f56d63a53c316ac25b",
+      "git_blob": "2f5a28dc74807f23097a272912b7da7e3a68b733"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1739840,
+      "sha256": "6fd2e6afbc1d0df21841e0505f8d9be078f56c02a4801f50e71c7b4dd993bb7d",
+      "git_blob": "2f94c8b0d07a05b52bcf3bbe2b7c38a9eabf603a"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/precip_accum_0_9h.grib2",
+      "bytes": 405228,
+      "sha256": "342d34c3d44c28df5cf08ac60874029b37bda6c58d08ed9cb864c98381589991",
+      "git_blob": "2fb017bb9830c0da8785707afc19c8ec4d0bec79"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 554821,
+      "sha256": "bd78009498099724439df735eb5264f745795f3680adfe590f4fbad748b27d49",
+      "git_blob": "2ffdb1cad798043f2521de44de0c2a11a14a94da"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_qc_1.parquet",
+      "bytes": 40739,
+      "sha256": "3d9f2c5af5751797bee0cced18b6c6574aad32d9aaf3fb36390aa4dc94e51361",
+      "git_blob": "3038453a499c448719267dd62b7ed99525daba60"
+    },
+    {
+      "path": "track_b/audit/spatial/netcdf.json",
+      "bytes": 18481,
+      "sha256": "505f0e7abd035801ea8820ace6a9d1f3f6fc2eefd9cdf39566f3324f870ad089",
+      "git_blob": "311c777e556c034a18c939013eb664bc4fab15dc"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2014.xlsx",
+      "bytes": 30443,
+      "sha256": "f7bcc935cc9d37f64fa8a719f2c58d273d0a42903b1097ffe4a7b84be5c8b08b",
+      "git_blob": "32728778368c4d2ccabd61b72b0f580caef50eb2"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 1675068,
+      "sha256": "8695a409efaeac22e0b99b352e799edc2f60a2d776755121ad5eac9b99755007",
+      "git_blob": "33c2cba3e0d6ba5e9124a43b79e0671fb190cd9c"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 2005040,
+      "sha256": "5707e89473ba38ba3efcc951c4e18403273e765c0b89b9b8154d5fed7eaa8b69",
+      "git_blob": "33f1ebead68500995b9fa8c15f4097c95772cb1d"
+    },
+    {
+      "path": "track_b/audit/temporal/hourly_event_windows.csv",
+      "bytes": 34933,
+      "sha256": "6269035d1cdc40aa0f4764d2e4b690480520bce579ea834aa3ee860799aeb146",
+      "git_blob": "33f33752ae1ea236005ea3b531e06dc654c133fe"
+    },
+    {
+      "path": "track_b/audit/spatial/JilongFlood_Buffer_200km_attributes.csv",
+      "bytes": 99,
+      "sha256": "7882012defe486442d2df626af3c1f1eefd45220c1843870069dbc596482ba86",
+      "git_blob": "346ba2c0db2ad024c96be6aaa287dcf2bd13117e"
+    },
+    {
+      "path": "track_b/audit/spatial/RGI_V6_JilongFlood_Buffer_200km_attributes.csv",
+      "bytes": 477954,
+      "sha256": "f18e8d35c41ee670af0e70fb2727d86ef20a7869cf1e688e76866112fbe66d0f",
+      "git_blob": "35265da45c2777fcfc05614aabb419093f5e66a4"
+    },
+    {
+      "path": "track_b/scripts/collect_event_remote.py",
+      "bytes": 34965,
+      "sha256": "1dc7e7500035a6a47ab2ff0c8f69418ce2dbbc0040341fc24ad81834e5cc0b58",
+      "git_blob": "3626ff27e4c898ed5e533ed5dd5ad573808dd291"
+    },
+    {
+      "path": "track_b/audit/temporal/hourly_variables.csv",
+      "bytes": 74960,
+      "sha256": "a1bc5e2f6f04bc4f13daa2b2268c3fae0048d906c6474ba121476bca6a0eb460",
+      "git_blob": "367821147fa457797b3748ed9dcd26b3374de03e"
+    },
+    {
+      "path": "track_b/audit/spatial/summary.json",
+      "bytes": 3664,
+      "sha256": "d3856b8f8b82c8dfcfb803b443a857ba1f18d90170a51d91d733895f504725e8",
+      "git_blob": "371d9dba9ef5cd400c73ed83b4ed67c4fd411799"
+    },
+    {
+      "path": "track_b/audit/temporal/manifest.csv",
+      "bytes": 7146,
+      "sha256": "8314f8040cb4560f73a59717773aac0db7783dd2ee1639665b379d997024062f",
+      "git_blob": "37e786134b347ef15a1da67db64112dedb6823ca"
+    },
+    {
+      "path": "track_b/data/processed/spatial/output_manifest.json",
+      "bytes": 2084,
+      "sha256": "baa0f03d1def4b2ce1443f97af9f7ddf05a40a406a241dc4af3a1a7a311577f4",
+      "git_blob": "38076303f6778b6448433e323fdc16488563cc44"
+    },
+    {
+      "path": "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2022.tif",
+      "bytes": 25095672,
+      "sha256": "5ba75e0b5e4c89502dbadcb296cf67ff1b83c3762c17fa5d00dab2228f8d49bb",
+      "git_blob": "38586fe09dc9e464954a5f0eff74589f041884c8"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.sbn",
+      "bytes": 132,
+      "sha256": "f2b233cbe84e349a9602cb035a39dd68570ba6e2f162c19e046113d270b571ae",
+      "git_blob": "393faa3101d980b95146321c1138505865cc85f8"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 1200397,
+      "sha256": "67d6384a7a39e54418d45c00e858c569b2945996767cef0cd3db4eacf3797c46",
+      "git_blob": "398e0a8b3935b730d9b8f2a8e354dc65aeb3a444"
+    },
+    {
+      "path": "track_b/data/processed/spatial/dem_utm45_30m.tif",
+      "bytes": 6623907,
+      "sha256": "eaf39d044af5580fb12b7b991bdadf4da54294f8f78a818c15fff0f6390c2e95",
+      "git_blob": "3a41e9bbea5fc5d887d9b4b00040727d69438da5"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.cpg",
+      "bytes": 5,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "git_blob": "3ad133c048f2189041151425a73485649e6c32c0"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.cpg",
+      "bytes": 5,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "git_blob": "3ad133c048f2189041151425a73485649e6c32c0"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.cpg",
+      "bytes": 5,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "git_blob": "3ad133c048f2189041151425a73485649e6c32c0"
+    },
+    {
+      "path": "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.cpg",
+      "bytes": 5,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "git_blob": "3ad133c048f2189041151425a73485649e6c32c0"
+    },
+    {
+      "path": "track_b/audit/spatial/西藏日喀则市吉隆县第七次人口普查数据_geometry_envelopes.csv",
+      "bytes": 148,
+      "sha256": "35b31cea3eabd7ffd5895b6ed8e0913a3499b54669a8a589e32bfa4ba939f67e",
+      "git_blob": "3b07d40fe42372a7611b757b448d83624090c608"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.sbn",
+      "bytes": 32948,
+      "sha256": "09f97be271cacaac50843ec2fc11c3bdc2c09347156d52b3bbc8bba04072205d",
+      "git_blob": "3b6f31852fab57b11dfc06f9e3c8d04db9721681"
+    },
+    {
+      "path": "02_提交模板/2026年MathorCup数学应用挑战赛—大数据竞赛论文模板.docx",
+      "bytes": 20229,
+      "sha256": "04fd7918d973338cdb50318132dd00df213d3b7b044bc25ff29a5bda57150bd6",
+      "git_blob": "3bd5193aac165aa5064f0d8b0d734678d9e6943b"
+    },
+    {
+      "path": "track_b/scripts/audit_inventory.py",
+      "bytes": 4172,
+      "sha256": "5d35fdfd908e5cff7ccb925d0894afa524d44281e60f7e879d14d70b21a4ecbe",
+      "git_blob": "3c235ec2369c295178bc93f013a97a075d175f8c"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/CDSE_Sentinel2_L2A.json",
+      "bytes": 1497676,
+      "sha256": "6c4d20bc00b5e427a2cd135aadb35e02854812e3b7f92124d3a825411ff5d861",
+      "git_blob": "3d3d01fe9bc695438c7177f9c31c34e615114e4d"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/文档说明.docx",
+      "bytes": 14448,
+      "sha256": "92b76332481a6b4dbc2e2443cce7a04018afcf1825bdbbe66568f1255326a298",
+      "git_blob": "3e51b533e26ff46cff10077ed8d3d015c3aca01a"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2005.xlsx",
+      "bytes": 30402,
+      "sha256": "c85fe67efb94bf796f0ac78fdd533d2e7bf3b6f3bb9451a603d97272abee4ec1",
+      "git_blob": "3eac51e1c5e5af83bf981b6a8849c5fb823a86aa"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2019.xlsx",
+      "bytes": 30498,
+      "sha256": "973d361f9b3da582456547a7fe2dd3963196664f8d1b4175d0151ca361eb36e8",
+      "git_blob": "3f0f81ef62dd572dc99c3cb05e2b36d33f105eeb"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2024.csv",
+      "bytes": 2163215,
+      "sha256": "ff8cb28da61c8297468a07e1ca6ec550a6c8bffabf53a9be6e587f59b13fdc8c",
+      "git_blob": "3f5cee3cb3fff95caeaa8be37c7ceb421c95c7cd"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1237290,
+      "sha256": "37873bcbcec268d900ccc6a8908f7d989f306a988486699ea10091a1998d09b2",
+      "git_blob": "401007077eca6db28cf34e611b20509138f7b8d3"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_quality_summary.csv",
+      "bytes": 8858,
+      "sha256": "96ab4232ffd0f19bbff3de6e99c713273753d2b04f1fb0afe453adb869bcb643",
+      "git_blob": "401897e0614bcc7eaae6dc7e7ea5099b19c826e8"
+    },
+    {
+      "path": "track_b/data/external/event_remote/worldcover_2021_v200_test_aoi.tif",
+      "bytes": 20662,
+      "sha256": "77b7f73e68f9f0940c322610de343d6748360120616b5de67554e40277ea40e4",
+      "git_blob": "40a4c087da016c3bb62c5a789595ed55310448e1"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/wind_v_10m.grib2",
+      "bytes": 950674,
+      "sha256": "0873171f768a5abf707ff8a08f370dc824ac35ed9e1c4659a743d648c41e605e",
+      "git_blob": "40afad91d219922d488363a9b5502f97a080ef9d"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/temperature_2m.http.json",
+      "bytes": 436,
+      "sha256": "68f3a9bc13ed1bfc9816194cb185a5a32fe3688aecf0d635f772443fb7260d89",
+      "git_blob": "40eab64ab08e4dc03a41c48296eeadf3f86ee6a8"
+    },
+    {
+      "path": "track_b/data/processed/forecast_sample/gfs_2026082518_f009_aoi.nc",
+      "bytes": 28380,
+      "sha256": "da53c0217ee1c3f74b31ffcbfafaa000483e4f209572b2105cd6fda2661441e8",
+      "git_blob": "4172afcd723b1b831218c85b1da3b58801bb7baf"
+    },
+    {
+      "path": "track_b/audit/spatial/RGI_V6_JilongFlood_Buffer_200km_representative_point_coverage.csv",
+      "bytes": 208077,
+      "sha256": "61f9f24cd1a7a0f1da767a14c7b852b9c471ae624644ec6cf2bf70c1047a596b",
+      "git_blob": "425fa355b97480d7c28a0058d7eff7d4189e971b"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1114928,
+      "sha256": "2926db1d79cac95d66b29533d152516f2e28b37e4b8e4cfd4c05d21cc0f597e6",
+      "git_blob": "43c20f5938fcd1eec7ae83a41cc9a15acc90e5a7"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/worldcover_block_0701.bin",
+      "bytes": 76866,
+      "sha256": "825db192f909e3086316c1543f70b519f83cee06d5bdc074e3b1b76bb99201a4",
+      "git_blob": "4410ba90cfe8158d9c576119b0310b094155a5ff"
+    },
+    {
+      "path": "track_b/data/external/event_remote/pdf_preview/jms-06.png",
+      "bytes": 1265779,
+      "sha256": "2e504a0068a37c0c3f18f89596956d295ca64d34d341a4c44ad5ed07a01251de",
+      "git_blob": "44741e0fe8734e060ee1db7fb178e5a69f896332"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2015.xlsx",
+      "bytes": 30355,
+      "sha256": "64f1a76c681e28b66488a3124e2a6b528db330f443ae2c89e941c510f1b8ebc5",
+      "git_blob": "44db74cbe7a26dcefbbe72376d3f59c08f3e31aa"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.shp",
+      "bytes": 15111028,
+      "sha256": "8b2776c226e7a9784df4d577f964cd14906cb2a439c698dddb29f964d3537eae",
+      "git_blob": "4591e2986dd63972fe72456b57a3b2e06de41529"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 638497,
+      "sha256": "2a3e581c7d95d371388468a55ebf18c20e5cb58eb75f6adee719f8fd08c5c03d",
+      "git_blob": "465ddd961b12cef56132f95131c17c3d8f9a647c"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/paper_reading.json",
+      "bytes": 2154,
+      "sha256": "bd449fcdb0d4866eac16588c4be9eec8e10cd596049c9f10694a1949c7b025df",
+      "git_blob": "46a4a5eddd57036ebb5ffce134573dbba7fa413b"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2400262,
+      "sha256": "be69696424762f87469f05b65d0ad009e4fe7e229ca1b464b8e2d5bd104e8546",
+      "git_blob": "471c6ae2c005226ed0799ce587a9568cf9618313"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1673094,
+      "sha256": "779c44dfaddfefea23e413ca5b460b11bc068cdcf7b92f9551b1347220a94f27",
+      "git_blob": "473ce2869ff5f8ca8def9e90bdfe829674873199"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1428302,
+      "sha256": "dca42f43506e36a50f9826d6d0a37e7dd201e845c2c11892257ca540392f490b",
+      "git_blob": "4747b53d8540516f58c72f62f38d418eef05483f"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1989228,
+      "sha256": "01f7e5a70a0cb2cc02053c959f082d0b50dc09bb8f2767fb904fb859d62d2481",
+      "git_blob": "4874e6a98ef98f91e770798378cccffefad8b385"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1864764,
+      "sha256": "d980c100c55b67f2d10a91ea82eb9db6327f5ffc4a7884c1889e5354b7901e64",
+      "git_blob": "48a27baa5bc91230ebc144fed3fb0e1c8ebb430d"
+    },
+    {
+      "path": "track_b/audit/forecast_probe/20260825_gfs.t18z.pgrb2.0p25.f009.idx",
+      "bytes": 40473,
+      "sha256": "1084fb07c3ec70234a763de9c43ede3b23b8f27447866fc7b34283d8f2559081",
+      "git_blob": "4933b59f538825928e3b4a4f78f7b8ed3e48995a"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/gfs_2026082518_f009.idx",
+      "bytes": 40473,
+      "sha256": "1084fb07c3ec70234a763de9c43ede3b23b8f27447866fc7b34283d8f2559081",
+      "git_blob": "4933b59f538825928e3b4a4f78f7b8ed3e48995a"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1512434,
+      "sha256": "daf77fc81263da98fc5d3a2910c522bda9da1d13c90281879670b01c58f76311",
+      "git_blob": "49918102a837139553ff7e9ea559ae05f8734abb"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1245624,
+      "sha256": "e65a87ccc8de1af5344ffffab44612698038784030a436a79c5ee2d1187f47b2",
+      "git_blob": "4adf607890c91a1db1ff744b2dc77df1fef3952d"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 2551751,
+      "sha256": "dfd134ba00f417d86f7169693fe67719440877f3c0141b6e666bf5d2416e4bec",
+      "git_blob": "4b4200e7cc118e27c4309745518d7bc219eaa2d8"
+    },
+    {
+      "path": "track_b/data/processed/spatial/nc_dem_native_grid.tif",
+      "bytes": 67745,
+      "sha256": "51316ce445f89016d79dcbb5baa12e2444e6eef90448d4f46825cd9d77f80d20",
+      "git_blob": "4b97855aecbd7d60af8ba56a9cad199c261113f7"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/nasa_COOLR_Reports_Polygons.json",
+      "bytes": 5828,
+      "sha256": "9bab6b1fbf0186018d0b308f921d7e683f4141da41fa5d803977aa7ea75d63ba",
+      "git_blob": "4c11447726477df0c20584c145ec879799fe1b6a"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2012.xlsx",
+      "bytes": 30457,
+      "sha256": "d12663549bc65bd4ef87977ead2c8a1e7f9de706a4fa3eb406420c5ca6443c91",
+      "git_blob": "4c2bd7e5d1e7f26bca206b7981b4f794097787a2"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1721737,
+      "sha256": "21231d4460ff24e138be2a590f79fd7f25f19561393bbb2c98c7ed45ec31fbd8",
+      "git_blob": "4cd9320ffa56fd8c43034702eb47230b6bfee4bd"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1115570,
+      "sha256": "0327e03544d5c5007f47215348233b83c9634f2654d7160a89db288066615b8f",
+      "git_blob": "4f3c375c0004e830424310f510302d47fc64650d"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2025.xlsx",
+      "bytes": 19657,
+      "sha256": "673ae21c010de63997f78d56a62f248eefb980303cc73b185ffcd5b13737cbe9",
+      "git_blob": "4f4884647a98007692f1b85416dfa7720796d27f"
+    },
+    {
+      "path": "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2021.tif",
+      "bytes": 25095672,
+      "sha256": "7ef2dace1fbcfb8d6b13dbfcb0b3caa31c7feeb7648da19a759b7928b127db56",
+      "git_blob": "4fa80f6b6dc35ac8b138eca88ef919c210de8df0"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2396634,
+      "sha256": "579638d14937581a95b685be91e4f8cd4028c89dcdf51101d5e88efc7b32975d",
+      "git_blob": "50136fdb93393ca196924b5dc8f777bfda27b422"
+    },
+    {
+      "path": "track_b/audit/spatial/JilongFlood_Buffer_200km_representative_point_coverage.csv",
+      "bytes": 315,
+      "sha256": "6a50daf250ef9b2becdfa20e274a9c9c72e417ecbdd3023ca0a544ecbe42c553",
+      "git_blob": "5061b3f6245a3860cc4f9ac32f14ad5fff432b01"
+    },
+    {
+      "path": "track_b/data/external/event_remote/scene_inventory.json",
+      "bytes": 1408249,
+      "sha256": "94b3a2c3e266c7fcc4717254db48d417215ee68421b54d84a7cc7d51d9fc92d3",
+      "git_blob": "50a3965c2123461cfcc674af88a102cc563dc52f"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1741158,
+      "sha256": "ceedb9a22eb53d8dc7fc7eeebbf4b63d7e2e0eda809117715105cbce0a4102eb",
+      "git_blob": "513b31cbbe722b3e5b5976e2cb621c660c4a51f7"
+    },
+    {
+      "path": "track_b/audit/stage3/environment.json",
+      "bytes": 2352,
+      "sha256": "02a856821579919bdb24a4716fbea6e60ce4c30e33a7c6051ddd0e8c25a4955f",
+      "git_blob": "5197f830737ac01344552281e6424b9ced9a7bc6"
+    },
+    {
+      "path": "track_b/audit/spatial/rasters.json",
+      "bytes": 371998,
+      "sha256": "b0bd89831b5804efe8dfcad413c87cc1df8325d0ad8cc5c579b9248c1bf3331f",
+      "git_blob": "52e3cbd02333f01aaad13e54519a480b4898b047"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 776963,
+      "sha256": "1f7e48ff8b7de63e1802fa5fc2052a7ab3ecf1e971320dd9cce8b6dc5365fbb1",
+      "git_blob": "53717eca249f5792643a34fc52a550c5d35c4b0f"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/worldcover_tiff_header.bin",
+      "bytes": 65536,
+      "sha256": "22d250f8faeaf9755ac0cd26d4fa912bc7db65206adffd678964d639a5ce7831",
+      "git_blob": "538d18a0375441596257d136832e1117e5d49f5f"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/RADM_Gyirong_2025.csv",
+      "bytes": 487388,
+      "sha256": "3f91af8809aa23f4115e698114823471265308e7779b6eecf3d84eb012400aa1",
+      "git_blob": "544c708d48b943b49bcfb70598c4dc8e9d79a99b"
+    },
+    {
+      "path": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp.xml",
+      "bytes": 34590,
+      "sha256": "f1a9fdeee78947fca465235ffe8101a0a6225e7327f70df07c9457711ad79124",
+      "git_blob": "546d36a1cc4e7a6fb6d364912c73f8f53a3ab57b"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1232427,
+      "sha256": "bb10a7570839f5a4ce8994eca212e8b96c5c126d71987fbca00ee27d839f3ebe",
+      "git_blob": "56fbbbb597fc6c8d8a5d49e4adeac820353acd77"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1513054,
+      "sha256": "39020e9de9fb122a9a2c1d68e81859a4c30635423e8757813f6027f9cc538b40",
+      "git_blob": "57b06a52f9409d44c55515a03ae987149caa6b36"
+    },
+    {
+      "path": "track_b/audit/spatial/file_inventory.csv",
+      "bytes": 46416,
+      "sha256": "580c1146abd5f6fda4a4d49b1a02dc4428d9db4479a75e45a51e1a981e41ec65",
+      "git_blob": "5878e8c39b5dd479863386c884ab44e058afd218"
+    },
+    {
+      "path": "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.shp",
+      "bytes": 50524,
+      "sha256": "7e287b8f118a97987539c1a7f35f0b93107c705ff7438fe1f2e9bba2e619b9e0",
+      "git_blob": "59a3c7746b6d182a2bc7b9a1d1d56130ddbbd494"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/nasa_COOLR_Reports_Points.json",
+      "bytes": 71679,
+      "sha256": "207de958300fac7f8d42ec55aa39d6509a4e7837f14536172450697b6750ad55",
+      "git_blob": "59e51bf0b80d3a6b18f35ca3e004155f0b140d06"
+    },
+    {
+      "path": "track_b/data/processed/spatial/history_dem_coverage.csv",
+      "bytes": 7930,
+      "sha256": "f8d9668ba7afa7fed62669a21c3a11c0d617b2efbb1193e737ea299f1229b03e",
+      "git_blob": "59f4390f38433f92a516580d920827ec9df2cf60"
+    },
+    {
+      "path": "track_b/audit/temporal/hourly_missing_runs_ge6h.csv",
+      "bytes": 185508,
+      "sha256": "32fee053589611d980d12c7942edaafd5a37d9a464b98c5dee01dbbe9c2a85eb",
+      "git_blob": "5a96f1bf79b278f59d45d01b3f586d5d67f17892"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 939130,
+      "sha256": "af5f2bc5330147548195072a5c4cd0c524e480f3e7e9c0d12de3da4546711d2e",
+      "git_blob": "5ac625fcbf649cf111aa9ee24c171a8d458eac68"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 2004269,
+      "sha256": "583fa39a5b102609c2288506fb8c4b51e5683fb3e18e2258da05c8b3b9889642",
+      "git_blob": "5ae00d254944bc9e7a7e4a8ecfad1bdaf94b8759"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1516926,
+      "sha256": "1eade5a8f3474063e032dbfd6a2e95f73526a0cfd0b891f3cdac4dfbc53ad70d",
+      "git_blob": "5b546264c845e4e1e040be95e4501fcd544afd2b"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_time_axis.parquet",
+      "bytes": 1527460,
+      "sha256": "ae95cadabf5158348bd7069f285eafe96ab04c4a691fab5da715ee31ec4921fa",
+      "git_blob": "5b785e54e776087bbf610c1c39cc8c242a85be85"
+    },
+    {
+      "path": "track_b/data/processed/spatial/source_manifest.json",
+      "bytes": 6984,
+      "sha256": "24de9976bcd0f011ff89617fbd66eb629834b792f76e15f454a2cf4fefac559d",
+      "git_blob": "5c3876023adaf8a097ef9ea1933e6de30690d139"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 808990,
+      "sha256": "af334b1404ba2916a075879e493de8364621894e7a4d527abf03d2f6d5889d77",
+      "git_blob": "5d7338194329311aaec2b889d09ab2d174d24cc3"
+    },
+    {
+      "path": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.sbn",
+      "bytes": 956,
+      "sha256": "b6d70c39213aa426fdd82dbe5c17e40f2c185a83cde6d6789befe6eb1fd658da",
+      "git_blob": "5d734c43a50eef8cb87b147e3257e1a22add9294"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2023.csv",
+      "bytes": 2106293,
+      "sha256": "1dd38328dab47873af92dbae8d8ecf5745ac9683d78a961fc8b41db39aba7102",
+      "git_blob": "5e22082abc5737f1d0bb4f8baee4c235c531cc39"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2013.xlsx",
+      "bytes": 30314,
+      "sha256": "f01abfe34603e73dc1af32ab0551660e0a5e4cbc31bdf3147e4e937c7ae6039d",
+      "git_blob": "5e5818debc4c8c205cf22b71f0ba2310c72c4ee3"
+    },
+    {
+      "path": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.prj",
+      "bytes": 176,
+      "sha256": "b10dbe4d6d1de908d340f892c90b3d31a552630af3742bb515bfe1bd26124f2c",
+      "git_blob": "5ea8faaf01fba528b7e0bf4bc86e3c2252c5c9e0"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_qc_unknown.parquet",
+      "bytes": 40573,
+      "sha256": "37730ac0a4c4f1e26b0c5ed03abc6c7f52384fb87527ede97e8482701f3bd95e",
+      "git_blob": "6182064f40baaca554d44e11fdfa12a0fa262cd6"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1230654,
+      "sha256": "907f4908b3c017fe9e9791471b8612db14e1166b04f36dbe48f41229632a44be",
+      "git_blob": "62103b5dbe994a50b3e31f38bd6ccc1bc6239b1a"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2324308,
+      "sha256": "1dbf40f2aa507b16fb99a24f9fc77bb1543956eed4190ec5dfce6bcbabf94c44",
+      "git_blob": "63bd749221a433ac1016e0a889b08f5b0f03caa0"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1248965,
+      "sha256": "049cb3b360f1b838ea6de0a25ff8b5939a91b2db9a6d226fb1a2ae8f43f666b8",
+      "git_blob": "649ce4b786eb7cf98889fc243f6eb6207d0c2a61"
+    },
+    {
+      "path": "track_b/data/external/event_remote/event_evidence_ledger.json",
+      "bytes": 14194,
+      "sha256": "7027df1460fbbdc536c626ceb4cd2b715626cf2ecac6e9bca1717a817970956a",
+      "git_blob": "6517b4e2c97f8d6c8811ec06f40bd0aaf9e5ffb8"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2397640,
+      "sha256": "304edb101822e6073c8c5ae3da78bb187ddd1fb778ab9fd0e18d68a1fa01aa49",
+      "git_blob": "65a26fecc57ed618b7d54b4d4f109c13c80fc647"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/worldcover_block_0737.bin",
+      "bytes": 71625,
+      "sha256": "9bed36be0e8b1e1a75bef64f75131ce151ae7b2a4115248b823ac1f9fba12295",
+      "git_blob": "66a7d504ecca932213bb36a36f13bf8064dc22f0"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2399732,
+      "sha256": "3c822fae7bff71d77518a348ff2649343970d5829d91938a96c3baf195dac577",
+      "git_blob": "672c615f917c994a6c5797e3d98246c2802fa5dc"
+    },
+    {
+      "path": "track_b/data/processed/spatial/spatial_pipeline_qa.png",
+      "bytes": 698388,
+      "sha256": "a3729e7498674f54ea104cd09086853e89a0a3dfba9600eda435504f6099f8c6",
+      "git_blob": "676c3514f36b39af5611d7b779d30c30efde90b3"
+    },
+    {
+      "path": "track_b/audit/stage3/worldcover_nc_alignment.json",
+      "bytes": 486,
+      "sha256": "a49dc9e0407c1aaccf2e7d85fa31ed08e267881eba9b5b2f5f6720207113724b",
+      "git_blob": "6771ffcee3864f67986be0b957aca37fc562593f"
+    },
+    {
+      "path": "track_b/audit/inventory/original_manifest.csv",
+      "bytes": 68613,
+      "sha256": "28e71ee73edc6c3940fb78ca611a3cb113a23e355e982b5a0d8be9cfe39b45cd",
+      "git_blob": "67e60e849eb42daeccb70c61b9efbc40a620a878"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 1627584,
+      "sha256": "9fb980816d2f79abf0ba1b5e564aa050232c9944d4d8beb0223a0b379910a6e9",
+      "git_blob": "6901e3dd627d825f260bcf8ce44fc5f63ba2afeb"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_provenance.parquet",
+      "bytes": 724012,
+      "sha256": "14b05dae7255c6d5cd87c520c0d011b0b4d43b7dd4d392d04526a97f84b6da74",
+      "git_blob": "69103ed92a2c5d9c43f333b2b568e82d903b599a"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2417758,
+      "sha256": "2e246589ecd341e8f5c273f9aa369e4e6000631e5c784e4e3dc5faa1dd3044a1",
+      "git_blob": "693543c49b3e581c14de64023af3a959f8834979"
+    },
+    {
+      "path": "track_b/audit/spatial/source_documentation.json",
+      "bytes": 34350,
+      "sha256": "b3e7770e812bc172d1ec6b5315338439bb29d607bb88a01366ee03c7731b34c1",
+      "git_blob": "69f8876a7003636188202c515de3d83f5e50f9c0"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2024.xlsx",
+      "bytes": 30473,
+      "sha256": "f9d8276b303f45f99e6687855cf7f1ffec591210c39d5a9e12d0e17d8fa1c12f",
+      "git_blob": "6a504a7c0144aa3220ebef440a65c18cf7bc28cd"
+    },
+    {
+      "path": "track_b/data/processed/temporal/daily_processing_counts.csv",
+      "bytes": 2089,
+      "sha256": "b4fe20123e8f4adbf5742921797c026325f9f804d80127847e9eb16ceb59dfad",
+      "git_blob": "6afeaf0e13279972ed0b583bd275ab409d9b48ec"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 3604384,
+      "sha256": "70c83a48136e3b26103c0ac2326e64005bf9cfbae07712d8d73f0fb643720f20",
+      "git_blob": "6b15d7398d17bf1933de533169979d5b1c202b3a"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/worldcover_block_0702.bin",
+      "bytes": 78022,
+      "sha256": "ab34844ef9049172d9953e3cca5d398f27e96210475914c33f0a7c9db72559df",
+      "git_blob": "6d5bda70853b3bc055acc281a0a84f460e123753"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1214982,
+      "sha256": "d017ccd088c95a39e810f8797502476e25cc8def104f14ed8f2f68868b2e9cfd",
+      "git_blob": "6db3de94144d9255967235fd1ce99799f3242f19"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/RADM_Gyirong_2026.csv",
+      "bytes": 474824,
+      "sha256": "702adb9b792184ece3a1cf1a74460237b050171a44762acc05f26837a273c40f",
+      "git_blob": "6e0f597050d7de5f0284c1513954baec9a2e3897"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1169127,
+      "sha256": "99b12c0cb14bb1eeb74db16c3f9896a29865484db01616fe06a1e190698d6d48",
+      "git_blob": "6e1d804d17ee1999b857ca8c580b3d85cd587b05"
+    },
+    {
+      "path": "track_b/audit/temporal/output_manifest.json",
+      "bytes": 2373,
+      "sha256": "f5d83f294cf3b6afb8163f3188b41f6aa99f6bd65c2399191ddd0c6e678ab8a5",
+      "git_blob": "701a27cf9fc5aa6511df437f23dab39128dba5ca"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2390216,
+      "sha256": "ffb855d7812da557423921838d65659d9a529cdbe6033f858ae8e96a2578c8d4",
+      "git_blob": "703238d96dfdbd38576ac2ead34c69e2f6f586d1"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2747278,
+      "sha256": "87e3404c459a7217016423cabb52e25df1999f2025d1509e6ad114db22f4d63d",
+      "git_blob": "7062d92f062bc95c624d06b01efad4093117c54d"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1987610,
+      "sha256": "dcba08d8fe02ad1bb36039a46998cb92924e5a4f6655eff6f85657ec50aa0c69",
+      "git_blob": "7139e6cfbe55cbe2949f2b623921a7238cd5afe0"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 2403804,
+      "sha256": "d7598d946cdc1da6183ffe3080c636459cede17fe67aff45b0938981ab9d7afb",
+      "git_blob": "7150157266fd08e55cab0cea8518ec98675c0a16"
+    },
+    {
+      "path": "track_b/audit/temporal/daily_variables.csv",
+      "bytes": 23333,
+      "sha256": "2fbddcbfdb0d92f24b36ebef8df8f6b6af6e53c9fdbb1830eaa0b689691cd3e1",
+      "git_blob": "717a19d6b552cd1d031957ab0f7cf5790a900182"
+    },
+    {
+      "path": "track_b/data/processed/spatial/spatial_diagnostic.gpkg",
+      "bytes": 1691648,
+      "sha256": "c10ca5a2db28fe379504ccc2c148c2f0a9df6d81a2b24ca30a5d367f3725171d",
+      "git_blob": "71f6005b9113dead87c0d3217e7cc89675aa021e"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2025.csv",
+      "bytes": 2211463,
+      "sha256": "fa36e7088fbb7fc74ed37654898926ea49c535a9efdc94b214df5725014aff95",
+      "git_blob": "726ae6731a3c34afce5ef1e794351f0912c0a1ea"
+    },
+    {
+      "path": "track_b/audit/inventory/summary.json",
+      "bytes": 1706,
+      "sha256": "41e5f1b56a1c0412b933c64aaaed1193b3cad6b01788dcfc0c2eafac8eeab520",
+      "git_blob": "741e3a871c69480fcfdd026e96b961ce521fc5d9"
+    },
+    {
+      "path": "track_b/data/external/event_remote/summary.json",
+      "bytes": 1841,
+      "sha256": "f3a49e55eee0144fe2aeb8c16a79f9abd1fffb64bdc929d654b65b14868f3a27",
+      "git_blob": "75ec4b2ec08a979ecf147eca7b44dc384f17c747"
+    },
+    {
+      "path": "track_b/scripts/probe_forecast_archive.py",
+      "bytes": 4441,
+      "sha256": "689077d4be4b5c838eedd0e197e6552367a08e5adecf2d43572013da8f940e74",
+      "git_blob": "760735d4cce9180c6a36a8fd728e6d599537b211"
+    },
+    {
+      "path": "track_b/data/processed/temporal/output_manifest.json",
+      "bytes": 3979,
+      "sha256": "9c4d30d9738a86602e757004713accf6226de076e7ebb3d2232ee492251faa95",
+      "git_blob": "76d706a30d6106f0482a7ec60639e7be5108ca45"
+    },
+    {
+      "path": "track_b/audit/forecast_probe/summary.json",
+      "bytes": 1961,
+      "sha256": "330dcf93ad37cd9934c161688b9a937f8cc5978e6cfb11bb715506db46d0e5b6",
+      "git_blob": "77e629b0f3ef4f62479c01b814648db8985c8682"
+    },
+    {
+      "path": "track_b/data/external/event_remote/scene_candidates.csv",
+      "bytes": 3423,
+      "sha256": "fbe155f19b8dc7054dc0ee998539d1e59e3c4ac71fc28133bf599e626baa9b98",
+      "git_blob": "780dfecec45c612b242b2045d9b71c72b5a126e3"
+    },
+    {
+      "path": "track_b/scripts/verify_delivery.py",
+      "bytes": 6287,
+      "sha256": "3afcb4bff1c346549807942747521eda40fb0e3c68179ec7b4c0be990f69492a",
+      "git_blob": "7993202299721fc7ce91de567721eb2fe614ab4a"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1178336,
+      "sha256": "8c5f794e36194a85d9feb3b8c42b26d5dc4fb6feeffe357d8a9bd732dc92ffb2",
+      "git_blob": "79b5c2b583bd799af457fdbbed678d87cbd1d6d5"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2327008,
+      "sha256": "81626680a6058a727b4ca8ea2e549b897151292e33f2635fb924dd8cbb9c6757",
+      "git_blob": "7a4293027e714ae3e711b427e5c7fd90fd040ca5"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 1718079,
+      "sha256": "585e04ef0ee4db4c8fc06074fb83f871fd8d84e6994c5a751901d7eb952bf715",
+      "git_blob": "7a6eff63c9cb815f90da34125690653be87a439b"
+    },
+    {
+      "path": "track_b/data/external/event_remote/jms_2026_uncorrected_proof.pdf",
+      "bytes": 924233,
+      "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0",
+      "git_blob": "7b8507f3c3821fc92767e3b59d410eca41a4d51c"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/jms_uncorrected_proof.pdf",
+      "bytes": 924233,
+      "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0",
+      "git_blob": "7b8507f3c3821fc92767e3b59d410eca41a4d51c"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1166792,
+      "sha256": "8798b6cb028108a472ca866d9fcda3aae79295a867f75fef2d5616b7cf7f0961",
+      "git_blob": "7b980ae53ff75ba12431b50e0040b98882d9d521"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 549217,
+      "sha256": "89c7c79f3bd750178d9406525ed80a59a74ab4e31fffda399ae7092f80e4f444",
+      "git_blob": "7c81bbb855b18cca12503328399a24ac1be56b71"
+    },
+    {
+      "path": "track_b/data/processed/spatial/visual_review.json",
+      "bytes": 1567,
+      "sha256": "c2e989c18b047a6586eb2c964f0e228c4560b46c70b526ef26533468d29dbd08",
+      "git_blob": "7db16a134de8f1904a43b77a4c62bc489e42fbee"
+    },
+    {
+      "path": "01_比赛规范/2026年MathorCup数学应用挑战赛—大数据挑战赛论文格式及提交规范.pdf",
+      "bytes": 162444,
+      "sha256": "75beb9a6acbe000bce28b9ded9acfd3cf385a05c32901932e50b3ea851597e41",
+      "git_blob": "7e1714e766c9cf21df9f7eae4553e68c70f39a0e"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/cdse_anonymous_asset_probe.bin",
+      "bytes": 96,
+      "sha256": "b2f4dc82a250ea228e905eb40cc7302ca89d827cf194b46f4efcaa362cc144c0",
+      "git_blob": "7e55557acb47f15e6c9eb2f62c38c05a5713d175"
+    },
+    {
+      "path": "track_b/audit/temporal/hourly_event_daily_coverage.csv",
+      "bytes": 130635,
+      "sha256": "9f0930311d70405e40afc4f18609d75bb56595ec39713018480966a0f2d81f29",
+      "git_blob": "7e62e1b25bcf0b241a11b259bf014db95d633679"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 886718,
+      "sha256": "126b44cec1cdddc2f87cb67c82016d75f9483e97a10db9d9d88ec2a4d3b6df21",
+      "git_blob": "7e984fc81b20e21ef61546a63a5e95a29f54192c"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 1277723,
+      "sha256": "46b424425a7e27a4c45ebb77b0dc4fc9f2603be6af939ad72d43f42cbd047927",
+      "git_blob": "8061d5cf52b58e1455db9847490e0e4f69fe3d21"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/USGS_Landsat_C2_L2_SR_page_02.json",
+      "bytes": 181,
+      "sha256": "879d19d03b51be8a14c32e4ff712072ff07b51d9eef6a21e1d495f30a6621c23",
+      "git_blob": "811ba9979d1d9bd9bd7a520853f84f278c51669e"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1865228,
+      "sha256": "d47e8eb7ff6d2761ec6282bcba6ac7a0d4f5e8c3db282236f549f698c58a5737",
+      "git_blob": "8199572a019256864f0504d83052188e841f923b"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/usgs_event.json",
+      "bytes": 16261,
+      "sha256": "01933b8af6a2cd0cf792ed488927034378c10c9ce4ca718ec48c9839b8f378bc",
+      "git_blob": "81aa73b438c50b96118434552f950212435cd39b"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/precip_accum_6_9h.grib2",
+      "bytes": 309231,
+      "sha256": "034612a951b34d1681ba75d5fd32426dee9ec00faf9456fd2a3a64c9f7eed536",
+      "git_blob": "82601c57bbde5f381c239460bd598c6cf96cfa99"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 1646456,
+      "sha256": "6f38812743f78ad6cc1e9d03acc1bdb045fcd83e76d9d1b26700f8d14cf2d47d",
+      "git_blob": "83393f5b7a31a377855256efc259a598459f3b75"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1215058,
+      "sha256": "17a4d41612f22643105fb581fd9cc3f59b922d7bd28f7b6103257384a61f0b30",
+      "git_blob": "848938fb850aae8e3de54b6565a8a1c6c26d6042"
+    },
+    {
+      "path": "track_b/data/processed/spatial/nc_glacier_mask.tif",
+      "bytes": 1925,
+      "sha256": "88f91bb215d00f9773933befb27ba85dba250198e28ded265f5d9f0d20b12732",
+      "git_blob": "84b7ed197dc6b6a5dbfdd233f622bef6eab0f214"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 3597000,
+      "sha256": "501383cf88fc61682bef04db6846459d4ae93c7902ac8acb7908a855401fbac3",
+      "git_blob": "86c5d0c2db31d5fa731f26a304e5cfadabf7fc11"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 1087935,
+      "sha256": "943e1f2d7b1abd7cf5475ca644629ae38853c91d5098be2e3cccf19e5902971b",
+      "git_blob": "87c54e55ab337aa291502674e9d7e8489dc99b47"
+    },
+    {
+      "path": "track_b/data/external/event_remote/pdf_preview/jms-08.png",
+      "bytes": 866068,
+      "sha256": "ea9a79807783804cb8e94cfa72800bcfa59c31eaf590376388822acfd1b70c40",
+      "git_blob": "8809eb9001e6efe5388ea9a18d05ab31590829cc"
+    },
+    {
+      "path": "track_b/config/temporal_policy.json",
+      "bytes": 2970,
+      "sha256": "0ac6e5f9f8d82d23f801fada55e604dc61260d1a1be6438b8600d359c3b4f8f2",
+      "git_blob": "899eed418d3699bf464df39f826efb763f636bd9"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_is_missing_sentinel.parquet",
+      "bytes": 42331,
+      "sha256": "c681ac673489d00da8f952cce50411e319953a2e6a5d65ef9cdb9749493d28d3",
+      "git_blob": "89bbf45b728acc658d3a494d3cffb54668e80aeb"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_qc_8.parquet",
+      "bytes": 42287,
+      "sha256": "dfb4effac618e94488a40e80cce3f8c12aa1f70c43e4aa09e311457a5cd5f32e",
+      "git_blob": "89bf483c9645db4df12aaf822c87e31af830e8e3"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 2404964,
+      "sha256": "124dfecce641023a68a2fce08c58133a417b405cb243216fee8cc3a8e7f45c50",
+      "git_blob": "8a4ff0036e3beaeac9b49f7a6d4c6bf0f87e1de4"
+    },
+    {
+      "path": "track_b/scripts/prepare_forecast_sample.py",
+      "bytes": 12095,
+      "sha256": "00700ebc483b50c71590ec0ba35dd5f93f5bf846b74564f82386b59d99c39a91",
+      "git_blob": "8aeb1cbbe074ee5513bd714fe80b97ea318f6d95"
+    },
+    {
+      "path": "track_b/audit/event_metadata.json",
+      "bytes": 1104,
+      "sha256": "3d70b9b6e0acda4f6516b2e77bbbea9a6fce65d3c99ca4fa102fa152e54c9303",
+      "git_blob": "8b28901f1bbeacac077c03f7580dc7e49c07124f"
+    },
+    {
+      "path": "track_b/audit/spatial/RGI_V7_JilongFlood_Buffer_200km_representative_point_coverage.csv",
+      "bytes": 287404,
+      "sha256": "660718c394353b229097d5bcacde765839a727650cd4563c1e47349d07b783da",
+      "git_blob": "8b84a54b6ee551604a3423ce27d87ed981e55d21"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1228210,
+      "sha256": "ec99527b9cb1b2f530795fe1d83c4ea1e37b343e0846440bf1810149e8e89b5e",
+      "git_blob": "8bc7d2a5dfeae2481dd03c23f70f31d0e392dff3"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1865102,
+      "sha256": "501382f8d147b0b1cb76bda3a97ca630109bf1fca997f468ddbdd13e616872b3",
+      "git_blob": "8bfb4d287867a254ce027d5d5a6de73d20dbc230"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.dbf",
+      "bytes": 621568,
+      "sha256": "4248165d44777c2738c236b8048258bd22abe31a53e67e5f303fb6b975eb63d9",
+      "git_blob": "8c4bbca04b21fadcc07f45e1c5909e430fd8175f"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2018.xlsx",
+      "bytes": 30396,
+      "sha256": "e14bdec62e5244907f444d76ab05676202681ad5be185bbd38ece52f69ff8fc0",
+      "git_blob": "8c679c9d41a92b416c340234a3eafa88dbd46ca9"
+    },
+    {
+      "path": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp",
+      "bytes": 294244,
+      "sha256": "c5c6264c71452109ee74abddcd0774ece904592a511f04ab55ae72afbf7524ea",
+      "git_blob": "8d524424b8b57a67b79ebb0958a5307d6a9e1e93"
+    },
+    {
+      "path": "track_b/audit/spatial/vector_attributes.json",
+      "bytes": 55524,
+      "sha256": "dd969b7b5fb1f0c7ceff307a2aa7c0f5035a95b5bd852453b546a057c37c7624",
+      "git_blob": "8d8464f59e57342cf75b336e6e9ee87217244be8"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 842990,
+      "sha256": "a6954fb8e7e4604d81e6c1a8aca1be1287576886e17d1525ddd190f6f12ae116",
+      "git_blob": "8d93f2275e8fc160fded94ca78480c063ec83d3b"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2415282,
+      "sha256": "a55691ac28c0c8e9599e4274170728532e64a4ad6b6deec112e1cd163faf9ded",
+      "git_blob": "8e6b7f6d4a354ea14c5d884fdcd96c905437f83d"
+    },
+    {
+      "path": "track_b/audit/spatial/西藏日喀则市吉隆县泥石流灾害区历史灾点数据_geometry_envelopes.csv",
+      "bytes": 7841,
+      "sha256": "305a732aeaa88d5716fee09a51e08b5c3c647ffda95940dce91ee96aba5cb3b1",
+      "git_blob": "8f1bc679b71c8f5542d4202a24080e59974b3a60"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_is_finite_numeric.parquet",
+      "bytes": 59638,
+      "sha256": "ce5b23fe07d6906a07fc2ce4ce368a4f93d0ba9db2779e78798f14e62c9fe5fa",
+      "git_blob": "8f22b3682611a4c3ad7d995afd7e5b6201a8de72"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1985888,
+      "sha256": "3866d90f2bf1b4b5674a1b7f15aa8bb6d8bd332d92193fdce07858b2b871e026",
+      "git_blob": "9018be2e20029216d9917cfb4360e6afa33b80fb"
+    },
+    {
+      "path": "track_b/data/external/event_remote/historical_candidates.json",
+      "bytes": 140113,
+      "sha256": "d55e68cbcd423a3a059c4659b219675ed2ed3c8fa538de25d630647addceb737",
+      "git_blob": "906f7fa61b0bd3f06c303f16ee0b6d62eb8725f5"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 763795,
+      "sha256": "c7a10ccf504778e84aa22cb535b910b179f4c89a4cae1e320433e3a4984f74e9",
+      "git_blob": "91463f3ac36bec3af64d69a72f24dbf0beefd432"
+    },
+    {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif",
+      "bytes": 8437119,
+      "sha256": "7b9e8e53282b2e91d5302e616840c802eda80a963ce0777ddc6da2b65c6db9af",
+      "git_blob": "9209de2b58349a9ae04a794c0089c5d63c836ff4"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 1067531,
+      "sha256": "2b6dc639474a5307e1387ee32e55c82ae9a565f254b24d662dae62b335f50f35",
+      "git_blob": "923277abfab90212251c09bb76a545822186f278"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 1661782,
+      "sha256": "89305098c4cf3ccbf2516fc84c7404e25ca77c59a5e538838e0443459a12bcb4",
+      "git_blob": "926ba8a001ed2c8420f5cc1bee68fc4a8afae09d"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/wind_u_10m.http.json",
+      "bytes": 436,
+      "sha256": "ff949be2ee13596aec5b473f620b6f4a7254b8d7233efff7d3644c6bd71b8265",
+      "git_blob": "92b6dd02f3d47d8014faed10085f94c83570d0b5"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/wind_u_10m.grib2",
+      "bytes": 973065,
+      "sha256": "fb8634f1144503501a895148032a7da2af3f55fe20d42ea10b139f6510a5ad3f",
+      "git_blob": "92f87497ed302893ccbc139315f63c7e0920ca0e"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 3599292,
+      "sha256": "1a335f6965477c6ce379e7dd8f842408b3440b83679cc3f77aed97486058df2f",
+      "git_blob": "939c4091ec08bdd44a63099263225b295118b73b"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/http_requests.json",
+      "bytes": 19178,
+      "sha256": "9a97fb331dfe398e70566f0229513bf27a915d46da9bd90bbf084bb6ff214ddc",
+      "git_blob": "93c5c432bf48275612da7a726e6032f5836e5795"
+    },
+    {
+      "path": "track_b/audit/spatial/vectors.json",
+      "bytes": 3988,
+      "sha256": "d395775176adfa4aed52d51f29e8a7df7d440aff14b35053d9e24855e22a2a35",
+      "git_blob": "94322709b442567820ca1553c40ce2e6ea5d22db"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1742262,
+      "sha256": "d5f8a6f4368e813002e4282124afff5e78358373ebf5fe0867f93c230742e846",
+      "git_blob": "94640123651bfdf94496cbc71089b344e435e1c3"
+    },
+    {
+      "path": "track_b/audit/spatial/西藏日喀则市吉隆县泥石流灾害区历史灾点数据_representative_point_coverage.csv",
+      "bytes": 5682,
+      "sha256": "6b586758b6182391cf946263859391485e4ab81770406ad468a56da7e7265f64",
+      "git_blob": "9586cda054b71d9cdf21a534ecf5d7a6286e7dc5"
+    },
+    {
+      "path": "track_b/data/processed/temporal/data_dictionary.json",
+      "bytes": 97865,
+      "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0",
+      "git_blob": "95c64c2bbd3653372cbfa91a20c4375cb0762637"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/RADM_Gyirong_2024.csv",
+      "bytes": 488760,
+      "sha256": "1c1a04ebe3899a89dccbdf0b5b38b64696d39190c292a28bf14ef4809146ca5f",
+      "git_blob": "9697e8249198242887ebceb4d64c1e271043d475"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1672108,
+      "sha256": "fd015eba22c20b55452538be8ffc2a4beb5f720232cbd334bf8a4492db51bf8c",
+      "git_blob": "96b54f87b65b56cea3c801b50e52b24d9fc1037a"
+    },
+    {
+      "path": "track_b/audit/spatial/RGI_V7_JilongFlood_Buffer_200km_geometry_envelopes.csv",
+      "bytes": 262930,
+      "sha256": "febe6480e538302961a29301ea208cd6318400ebcab47fca02878b196fdc098f",
+      "git_blob": "96cd9d93e5786f053f51bd912bac5b9b7e0c9b11"
+    },
+    {
+      "path": "track_b/audit/temporal/hourly_qc_distribution.csv",
+      "bytes": 26517,
+      "sha256": "8898be92902099024ce273d99645b4fdfd0df46a3aec0f7d6776e4946ff8c22e",
+      "git_blob": "96dc90b65bc98bfb2bb5bb1199b695f9f351a4f6"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/usgs_origin_quakeml.xml",
+      "bytes": 3612,
+      "sha256": "d4e3b96594474387c114b3af23a61f854b64d5b7a53abcf912efdd57a1a832a9",
+      "git_blob": "96edb62be4d703b70b23334bb7b4565bf0672043"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 1707372,
+      "sha256": "18cd2039eb57150740a593ab8d75e35dd3ef3fa428c99d704754ff00ae18e146",
+      "git_blob": "9724ccde82bc5216301e281ca6d59a41c8cbf907"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2022.csv",
+      "bytes": 1704763,
+      "sha256": "d5913e0ed45e78fa5440646fb8451becbce5ebc2a7754a206ba79a7fa27bfedf",
+      "git_blob": "9898d06b059c61fcf8f4c796aa5d7e70c5ee33aa"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 549498,
+      "sha256": "1a71d11f44b08651b24960ae5272b1e13389e5907f452eedc9fb305101c53167",
+      "git_blob": "98ec64e18f2951a48cc2cdf8ad8257482e6ff168"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1875590,
+      "sha256": "890d615274eabfe8161b626b682e7c07b9ccddf98d64b11a2031a27dbd882278",
+      "git_blob": "9b4dcb482d3af6953eff94fea3001545011cb1d7"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 2569736,
+      "sha256": "4adb3312b3b069af7b0192b2c182b4b2f30b4ad871779483d92c999e44ecae7b",
+      "git_blob": "9b58d316eb7cf8999513de01d521c3d662b65cbe"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/SOIL_Gyirong_2026.csv",
+      "bytes": 1196302,
+      "sha256": "b0956e6c0c8d88146db00956a107dd348721e3629736fb6ac66541302ddefa32",
+      "git_blob": "9b8696cea12109351e527880e9507bd99548acd9"
+    },
+    {
+      "path": "track_b/audit/spatial/rasters.csv",
+      "bytes": 145765,
+      "sha256": "82c895cb7617c1dd582a288f5b8313e98583507821618f9766aaa5a40afee4c1",
+      "git_blob": "9bbe22204aea7b7723fc69e888fb97eab3032071"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2008.xlsx",
+      "bytes": 30479,
+      "sha256": "8c90df1a9e51f8b70b53e512a6d4c4c8dd6f42302efcf75723e931af636e503f",
+      "git_blob": "9d593262d2badf81dfd1b50d1cff88a2b49bc08c"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 842622,
+      "sha256": "2b5016b8125be1d08b5252c129c2e86a1dc16879af4f6b9687c9cd835cb7de2b",
+      "git_blob": "9d7c5120f93599dffde7e8ac0ac4f55304780690"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 799648,
+      "sha256": "67cc4735c352275bb94d8322df575de045cc3decd8c55289535486c9d3f7ad8c",
+      "git_blob": "9dfca223e9b2147584d511fc6b4b273959debe8f"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/chinese_primary_article.html",
+      "bytes": 309894,
+      "sha256": "7e7312b13c0c7acd39d68810fdbe78863ea8c836837d38aaac34a5f5879da56c",
+      "git_blob": "9e6f70f303ee71b0ee5e1397b1d077ddee710133"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 799445,
+      "sha256": "118687481cdf296419bf8644104a6489e91fe0072e41adb6c226b7aecd8fc2fa",
+      "git_blob": "9ebc34133625a1e3c0225c41e9a5538846f0b4ee"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 644524,
+      "sha256": "4ec223c05a5f4a7ac026693ce8ae18c3594762a6699ba4690aedb093a6fef94f",
+      "git_blob": "9f40c309ed220ed83d4e5fab26f1366e29bde5b4"
+    },
+    {
+      "path": "track_b/config/spatial_policy.json",
+      "bytes": 3432,
+      "sha256": "7bf25e43d64cdb72184282ca97fd2a8bd7c56e916ff7a219474d9dc455c180c7",
+      "git_blob": "a00c54fd6e2c75f05345fc58e412407c4c5838db"
+    },
+    {
+      "path": "track_b/data/processed/temporal/quality_summary.json",
+      "bytes": 2611,
+      "sha256": "8c55da8bbc4300fc757bc69494bf24a2b258a54f99e238cc79135b77ae1aecd3",
+      "git_blob": "a202354be5ea66376494008289ac5b23232f96d8"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 864903,
+      "sha256": "c797acedc65b187fccba8072f244e1c4916415dcc6e0fbe1381c1e51e80d5cd1",
+      "git_blob": "a326d2fa532cdba26784e6d5f47da53bede9a2a9"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/relative_humidity_2m.http.json",
+      "bytes": 436,
+      "sha256": "398819eff9d733032e0ba2e24e2546463d78e00518fe3acd880abfb92a718210",
+      "git_blob": "a3af0a51351e5abf1b3db63350356f65b6d330a6"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2744648,
+      "sha256": "4f86fb280a54797040117406b0474dd44f60dd6b7c055bdae98184d7266d2c6d",
+      "git_blob": "a44aa0da0b99024f7439aa82de196cd9ad2cb04a"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_qc_2.parquet",
+      "bytes": 49449,
+      "sha256": "d012d6a06941b111c506a06dfb98346ecb88d6066e7cfe710e6f13a23d588dd6",
+      "git_blob": "a51728db2b589aee3d0a42ec874b20cd4de69ef6"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.sbn",
+      "bytes": 45028,
+      "sha256": "72e64fcd52130ebf8abfd0471adc2a781d570126b4ee441167eaaaa96f9a7601",
+      "git_blob": "a56c9cbeeddbcca6a3cf5ec647b6fd25f665ab58"
+    },
+    {
+      "path": "track_b/data/external/event_remote/asset_access_tests.json",
+      "bytes": 966,
+      "sha256": "ec91cf328c69ed0f538c3949c67a96d8028d7073aee3b424ac740468e00ad066",
+      "git_blob": "a5ae15a37a6fbf14fc83d96b5b74122c1c28b26e"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/RADM_Gyirong_2021.csv",
+      "bytes": 475770,
+      "sha256": "b2e3387401b1ac131b3c8fdc8bfc892c53347f4fb84c5344cb95c15f59164fd6",
+      "git_blob": "a5d33454cc72e9426e2bf062aa59d5c04d4fdc86"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1029729,
+      "sha256": "6a2533e74ad64857f74497fb88e80f64ad197b5467e4da20e61f5665ddc6e63d",
+      "git_blob": "a7f89b4ac17fda276de25295098378fd774e30f1"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1439114,
+      "sha256": "a70a7b44f7be676c1eafb4c4d99f153037278a8fb9659725b35d4c2ba8f1c888",
+      "git_blob": "a9015e1243bff63079efaa35747c2356fb197549"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1230270,
+      "sha256": "eb531eca2e4213bcca1aadbd46b78740648c43d8403b59e383a6dd068dca309a",
+      "git_blob": "a9ede2e89482d69cd28a0ebbc0fc42016ba8a213"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1237292,
+      "sha256": "1ada23a8a40579ff85ea3db24bb6983e9703566e790a58659fd9f6ab977a5ad6",
+      "git_blob": "aa6e8938ff02d7f8bb265c94602d47788efb3741"
+    },
+    {
+      "path": "track_b/data/external/event_remote/manifest.json",
+      "bytes": 5741,
+      "sha256": "63af8ccffdce10554e80b4137c80db44b880dae962ed2f958942065e865a0d13",
+      "git_blob": "aa73662468a16231a57d2cd31f0197705609586f"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.shx",
+      "bytes": 27540,
+      "sha256": "b631a87d80df1325c3d3ac262805167128eb2d22729920278a139c1bb26d39db",
+      "git_blob": "abe5ba065e5310b58cc324d114d6337eabc56298"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/SOIL_Gyirong_2024.csv",
+      "bytes": 1245453,
+      "sha256": "ce8096b515d0732d5ea97be6add09b432c416bff256442b22f9c4e2c3311689b",
+      "git_blob": "ac1eef7edc9f7b851e7f22f6c041f99dcdbbbde2"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/worldcover_block_0738.bin",
+      "bytes": 66496,
+      "sha256": "5e9be55db2f3ba5a46275eb61fe3f13bf8f0d04e7ed1aeadb628c41e3dccf288",
+      "git_blob": "ac40ec67ea62d53aea32b19454d759f6b3c3da8f"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_is_text_missing.parquet",
+      "bytes": 59604,
+      "sha256": "fa3dc51e7bb198cf41743d0dfdc07f25f4a854f9305f7cfab45388d5fabf7b4e",
+      "git_blob": "ac6ea8b75235dcc7f50d833b86df5d19ddddda46"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_processing_counts.csv",
+      "bytes": 2088,
+      "sha256": "822f5ad275cd86c0befa895ec8f664a4e5f5f4fa98b218c6b91ab09a206f3b8e",
+      "git_blob": "acf8db3680edafef0d0eacf1a363769bab39b5a9"
+    },
+    {
+      "path": "track_b/data/processed/spatial/dem_on_nc_grid.tif",
+      "bytes": 68003,
+      "sha256": "dd4204378ba7740f45525994bb8cf158857126a7bb49aee908cc56d0981b1327",
+      "git_blob": "ad269d6b17740c1419a4ab525965bc2e046583de"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 1179141,
+      "sha256": "28db852bd7d9bd31b476180d9df0f94fe53c6d86b39bdda6d1886063815c9c1f",
+      "git_blob": "ad81104815dbac74d1a3ba1f98fc77edf0223d93"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 1675980,
+      "sha256": "e3336c84007760f779d0fe7a186f282bde7b3e112aa82c323d7c5c674018d97c",
+      "git_blob": "ae24b3ec80ed5b2963f2a5cfdaad405d5ca7d86e"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_qc_0.parquet",
+      "bytes": 53053,
+      "sha256": "2d8554ef0a67d759eafb1245e4bac64730af8f55dcf127e4bf8f0b0f3f46a264",
+      "git_blob": "ae3d34a06a0c259f173d1969a850ba4fdb63f2bf"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_strict_qc0_accepted.parquet",
+      "bytes": 53053,
+      "sha256": "2d8554ef0a67d759eafb1245e4bac64730af8f55dcf127e4bf8f0b0f3f46a264",
+      "git_blob": "ae3d34a06a0c259f173d1969a850ba4fdb63f2bf"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/SOIL_Gyirong_2025.csv",
+      "bytes": 1258833,
+      "sha256": "af92b23302ed1a0e2e94c825857468f4f58af277404c561a5996e947bdeb31ba",
+      "git_blob": "af7ee0810c83a3d668a1ffa219f7ce9235e771f3"
+    },
+    {
+      "path": "track_b/audit/spatial/RGI_V6_JilongFlood_Buffer_200km_geometry_envelopes.csv",
+      "bytes": 319969,
+      "sha256": "f7429300be5ba94ae990d69f32daa8597c2f3ab07d0d0e44dfac1b2a64e8244b",
+      "git_blob": "b08fcd8e08e775ec0a6d376481213c925aee9f84"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_qc_4.parquet",
+      "bytes": 45360,
+      "sha256": "ad17b3a6a175fa5a9a91e962bfbe43a24446a47cac4e7a751d273e49f152884a",
+      "git_blob": "b2625a385b53270c31d824b9867e4b16885fe6f8"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2390714,
+      "sha256": "ae880e2c4d0fd237c49a7bff396e064ba85c08e19c57d4a3278882be18132b1f",
+      "git_blob": "b2d5f872ba92a45d906eb5a69ebd10379d44d74a"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/relative_humidity_2m.grib2",
+      "bytes": 794008,
+      "sha256": "61e4997e0a3c918a349889082662e02170c7cbf4165d0b21d868dfb52a638381",
+      "git_blob": "b2d9368e50325fd303d8292b24abdbc230298b78"
+    },
+    {
+      "path": "track_b/audit/spatial/RGI_V7_JilongFlood_Buffer_200km_attributes.csv",
+      "bytes": 2011787,
+      "sha256": "d90f9a87b890cceef2995129dbdeb09762d629c1f3daa4860dfa7d955f762d42",
+      "git_blob": "b4cbf8d5f68bd0e1b84a297cc69d96e006dcfe30"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 852176,
+      "sha256": "7e336de5cba24cf9a0fbc471bfa845564aea8a5b19cc50c1008f36609e56e314",
+      "git_blob": "b5b5920389ac1de0c8414c804dd7e902f75423fa"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1028262,
+      "sha256": "559b608633dab05913cee3a8366e0367846d6e8f0e6aa812dd56fe8e8fd11b20",
+      "git_blob": "b5e6f4dba23e6877c56c47baa1756a608e1964bc"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/数据引用-数据来源.doc",
+      "bytes": 13824,
+      "sha256": "ab9030b577ccee55ec8aeadca811ae3d11510f74a36617e2b08541b343e7b7b2",
+      "git_blob": "b7284100079bd3e347aad18dd538c7e23abfceeb"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.shp",
+      "bytes": 5427520,
+      "sha256": "35154f430b67ae1a50e7b07639e294a302c37830ef7ceff30b8148a9cba750de",
+      "git_blob": "b749f08623cf37ea679c820666716e64e2752286"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1177016,
+      "sha256": "843a32d5ef3f9addd78031be69c8566a14188366eb3078a8ea68991b69580abb",
+      "git_blob": "b7ed7403bfa6cb39a17f6db0ae9fdc80152bbf82"
+    },
+    {
+      "path": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.dbf",
+      "bytes": 124318,
+      "sha256": "c521cde04df6819e18b241a08655cefcfa7166e4a72e76051ae0d267f138ce66",
+      "git_blob": "b7f3c467b77c98c90dd5eff61b48e0edc95abc63"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1515288,
+      "sha256": "169c56efdea8ae3d9a8a15ddb92b8a15e43935d4f0a91216b2e6cba3531fc258",
+      "git_blob": "b9d77e52831d6a2f26b5dcc8b0b9bf0128fc4335"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2006.xlsx",
+      "bytes": 30407,
+      "sha256": "3f50d2b0341da91c124cac3fd4e769bd9cd3545a487fdd12b1e211597e5d8a2c",
+      "git_blob": "bb1f04256abd7c3fc06f610aa1651454f0e9cfd4"
+    },
+    {
+      "path": "track_b/audit/temporal/hourly_extrema.csv",
+      "bytes": 70101,
+      "sha256": "4a61101bcc61236d63f205e318824c4bc0e0953712a81e006d948b15dd9e62fd",
+      "git_blob": "bcb5bb7c51e035c6424c8fbf1dd2849fd06038ed"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1429485,
+      "sha256": "99b8669bb06a36d31243ec1fcbfe67dc530f323cb6d6263526fa388b74de9812",
+      "git_blob": "bcc13078bd944df8b6781e6ba7bd5ed3aa3072ca"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 1083103,
+      "sha256": "4232ea87356de9484ec7f119a529c33d1373232d7cad5017151a142752870aa2",
+      "git_blob": "bd07ffd672905879803eb2c0a06269f7ae263ce2"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/USGS_Landsat_C2_L2_SR.json",
+      "bytes": 238530,
+      "sha256": "80b14ff015fffbc2d162b30bc57858cab0de26f0e1ffe38bede1ce74af234254",
+      "git_blob": "bd3de6bc3a4fb06a18364473fc37bff7bb1a2235"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/SOIL_Gyirong_2023.csv",
+      "bytes": 1007493,
+      "sha256": "e285a8edd8646cff3b0bd8c5c6d1b2c95f70fc281a240bc406a0325502fe1ac0",
+      "git_blob": "bdb2a874ea7ea6701900c997fce676f0296b5557"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1434684,
+      "sha256": "c5ed8e2170bb3a8bf0ab916c5a577626bb007268b4e7116b2fcb572d6b0400e6",
+      "git_blob": "be23aa39be32d2338974e4e2046948a0f809828d"
+    },
+    {
+      "path": "track_b/audit/environment.json",
+      "bytes": 2744,
+      "sha256": "e903c40a3aaf313e85f7db8ae37daa73fdbefc8c832910d4bbb9c97612ab7cb1",
+      "git_blob": "be8af4af2c2228d72318ff8ef76e6f62be14438d"
+    },
+    {
+      "path": "track_b/audit/spatial/dhdt_source_groups.json",
+      "bytes": 36741,
+      "sha256": "145e9a0146281ec2f72df5f80472d64cdd51b06927307c30fd088d6d65f2ae16",
+      "git_blob": "c090f3413900cb3ad9ad69509f3b31df51e3ae99"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 2381980,
+      "sha256": "6cb857502e6291aa9025bd1948f1780fa36315c15758374b8800133a5e5c9720",
+      "git_blob": "c0c4eb0ee4c9772b59290881f46a5c74336435e9"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 1300268,
+      "sha256": "7a7bc94db95b22abc2cbc7f408db8fbe9f28ae1c422fbb4ad9d5f1ab31e9ab1b",
+      "git_blob": "c13ce9cca18d8057c46d5475d4c7a93cf826d0a5"
+    },
+    {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif.xml",
+      "bytes": 5786,
+      "sha256": "80557f3241126bc525a27e30f6f94f55ebc19f98b6676ebd0596606bd531e8be",
+      "git_blob": "c1e93251e177ddb0da0301d0b6c3de6fc0ed3e51"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2395336,
+      "sha256": "1b297dcc951b0b0c79a648791d2a7976059223b4f22a191ad85811e5e06001f7",
+      "git_blob": "c251be6ddb9ec69ae98e4907da021d2813b79d54"
+    },
+    {
+      "path": "02_提交模板/2026年MathorCup数学应用挑战赛—大数据竞赛承诺书（手写或者电子签名后上传）.docx",
+      "bytes": 15590,
+      "sha256": "2560fe9393310855778948bdb08271db671a040bb4c573bc370b45f01704cb5e",
+      "git_blob": "c4995a2adfc327fa94dd02a6fee5bc407636e880"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/MET_Gyirong_2026.csv",
+      "bytes": 1680672,
+      "sha256": "66f9ce15d43d0e2403905136e9997ea4458cd87d9390891ec3f9ea5af0eeae53",
+      "git_blob": "c4ec9e8b2b11201171e2a6268a10c6e80b78c4fa"
+    },
+    {
+      "path": "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.dbf",
+      "bytes": 1705,
+      "sha256": "c3155f4c30d0fb139d6915f114a73504060acb3503a594905840bcb57a0cd5cd",
+      "git_blob": "c5ae1b1dca46b5b2061a76a12b38580109b1e2d3"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 845701,
+      "sha256": "de963c3011f37cbfc4626f06a38d4b94b516e368f41dfaed5c1d536bf0517bb9",
+      "git_blob": "c6a306b702947f9707d1c9a50b594b96e50b847e"
+    },
+    {
+      "path": "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2020.tif",
+      "bytes": 25144116,
+      "sha256": "03a2de7e6545bb4973add8a54040f24a81ae22f71b227c71e0ed19084b7f2073",
+      "git_blob": "c7145886aba19a3e7f28f562f6b356601f100c57"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 1650279,
+      "sha256": "b2438c29c50f9775978523cf003c53d227ea31ca3e127ef00ef0d0ee333157b3",
+      "git_blob": "cc5fc695973c3866f9cbe982eac13a963c61e22c"
+    },
+    {
+      "path": "track_b/audit/delivery_checks.json",
+      "bytes": 618,
+      "sha256": "3459578c11db01bea443b9a8d72d1bf154ae5cdec4c9196dba0914926819b423",
+      "git_blob": "cd04e5bde2e734ae8465a9ae497b6c2c1548fece"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 1383896,
+      "sha256": "876165ced52882eb7232852f9dcd591c7d928aff8b1ab46d703644a790a3fca4",
+      "git_blob": "cd447ae523ee99d35952ab733c2b62c271c54cbd"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1116770,
+      "sha256": "bb11d8a2e2381644c64eb93b6cf6148e3c929adf8283c37277867570c8dd4f2b",
+      "git_blob": "cd48b7dc0a4635d181485560797db9aba5cb446a"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2010-01-01_2015-01-01_dhdt5_UTM45_UTM45.tif",
+      "bytes": 837596,
+      "sha256": "514d1f79d037e72af92b18bc1432177fe10aec98b23f16c3f0dcb391e72a2287",
+      "git_blob": "cd7b64d86a892a485e0ba334bfcd312c1e981212"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/MET_Gyirong_2021.csv",
+      "bytes": 1666729,
+      "sha256": "443b42a6602578fa11ad3988db3a622dbcb63c9f1ba21c13adf93bc5d5361cac",
+      "git_blob": "cdd3d0326a530ab99645d11c4ad6ee69f372a470"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2415806,
+      "sha256": "f07b73617fb0ebeef1235776283432355288ecc9aa14e2133c6e786c65a5864a",
+      "git_blob": "ce8f511204b5ada462b7fa354901f09391efde4e"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 3600854,
+      "sha256": "55f1caf2795c31725976085377d0ce1c5058d6f16c705e1a9a9bcf168bf77fdb",
+      "git_blob": "ced1c18637f9b4163072cee7686b71a53bf0bec9"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/wind_v_10m.http.json",
+      "bytes": 436,
+      "sha256": "7ab886471f7c2240ace7f86487155cd1b4d697f94cedf14ae6df1c8f6f9b5d2b",
+      "git_blob": "cf39f8d1672cdafc77889f6dc0aa43ae99228888"
+    },
+    {
+      "path": "track_b/data/external/event_remote/worldcover_crop_summary.json",
+      "bytes": 2329,
+      "sha256": "afb0dea9745a903c2290596c0f848da6139b833f95a2d2d7e418a46144e80733",
+      "git_blob": "cfbc09caf6b6a7136d870c360e3a29ed2e12207b"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2022.xlsx",
+      "bytes": 30604,
+      "sha256": "1b2d9bd8728669f4e610a4433b9b9082b44a243defb057dc58b456c8a6f0ebf8",
+      "git_blob": "d027a1f5049d17c84ab366bb879ff01e0b72116d"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 842394,
+      "sha256": "efd13e84cc45cc5a6178e7d1f8ebf98647f9eb74bc50183597e20ab3fb4340da",
+      "git_blob": "d1c1421a7ee77390d3f7cfb3aecff5c69b355672"
+    },
+    {
+      "path": "track_b/audit/spatial/西藏日喀则市吉隆县第七次人口普查数据_attributes.csv",
+      "bytes": 478,
+      "sha256": "23671b4e64f41d6dc09d72a85778e425df4c07f0eed3cc76f485016e82267f89",
+      "git_blob": "d206ca17f64f1ed5f8ad0595e72999c76d7f4394"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 891665,
+      "sha256": "31957c9002f17310532a46013f595f636691f2d3ffac011f97a98f667d571d0b",
+      "git_blob": "d309baf3c07b6625d1d8067257adeedd9adcb1d5"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_raw_text_missing.parquet",
+      "bytes": 599662,
+      "sha256": "962990c1c5fa105b4cd3869d945c1d1c9eae624574187f82f7372207229f2ada",
+      "git_blob": "d3b42fdd2ad11b6f7add37e7b542047721ade87c"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/RADM_Gyirong_2023.csv",
+      "bytes": 487379,
+      "sha256": "e4ee23b7e3ef83b8323c204c4a73a364a79e74e585d78c6b17361fc0b17b4a1c",
+      "git_blob": "d474018ee5c4800416a7bcb469f48d00759866df"
+    },
+    {
+      "path": "track_b/data/processed/temporal/verification.json",
+      "bytes": 3234,
+      "sha256": "58ce37a51f13f5dfa9363ed24d71af6c663f2c3cbebdf7d9588ea82749c524ff",
+      "git_blob": "d480b4dbb42c9ff77e9d1c7a36a84420fffa6929"
+    },
+    {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tfw",
+      "bytes": 81,
+      "sha256": "5a3abc5a2ec97ca8f662558305229333c7b6d4a672f34416754622895e05831c",
+      "git_blob": "d48db335c62ab6cf412670e43961cab9abd6339f"
+    },
+    {
+      "path": "track_b/data/processed/temporal/daily_county_raw.parquet",
+      "bytes": 280539,
+      "sha256": "3a56e6e1de64fa146ac0541f882c9a71ea321a3b0b3f3116f4b48ebdae0152a8",
+      "git_blob": "d4d30e881965ee4221a37b69e923b36a35d2245d"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2752258,
+      "sha256": "dbe4e9c157d3c3cf2a98859a2dbd1dbc0ba59a688881013d73e5cea63abb0c95",
+      "git_blob": "d4e08cf98697bd51749e9cbb96b34a424d5cb044"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.shx",
+      "bytes": 108,
+      "sha256": "2411977dd68c8047b67271654ddcea9baab09c71447440076f2a1e79893f7e2a",
+      "git_blob": "d517469a556ff7765a28ed390b2ff6ec169771ce"
+    },
+    {
+      "path": "track_b/data/processed/spatial/jilong_LUCD_2023_nc_grid_nearest.tif",
+      "bytes": 1303,
+      "sha256": "dfabe0f1443586e2bed41d441f65287a5f493addf0b7144f88b0f1f3e7aee71d",
+      "git_blob": "d5edcc487bbe6ccdb2b6ab763ac7aa714f57c96d"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/MET_Gyirong_2023.csv",
+      "bytes": 1585900,
+      "sha256": "5334911d95397d876b45e7b469cc460e12e19f6bff674683a40b669a08c6a06f",
+      "git_blob": "d66eec526e59f47a9495b23a94ac837ccf5b6acb"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 797979,
+      "sha256": "d051fae5e39ea4325c5bde2ebda20e53fb4804c3c2de95e910efbc4783bc3576",
+      "git_blob": "d6c870e4fe94abcebeaf193b50ab9b069988817d"
+    },
+    {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif.ovr",
+      "bytes": 2276161,
+      "sha256": "5adf265f23f2984c191bf64e2fbae9adc37bb31fc03edf278de737017d7ad1f6",
+      "git_blob": "d816f1adcf55c30632fd260155a061012fbbdd35"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 1375128,
+      "sha256": "266b5aaa8dd0ea993421f99ed6740574e10a0c70f533a1ede64ff3555603adf5",
+      "git_blob": "d8785abe9a4f678f3f6076dae72aba94c587cc5e"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/SOIL_Gyirong_2021.csv",
+      "bytes": 1030464,
+      "sha256": "1f3608f4724d2af6b98f75588501622da07ae508361ab7008c72f128037017d1",
+      "git_blob": "d8e3b22665da7bbcdec85e640c92280aaac43cd4"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 2042098,
+      "sha256": "5a41ee6829811c74de416481142ed8bbc0783c175aacffc340e0bd155b09030a",
+      "git_blob": "d9f448414cb87f6f2282c0362592da880e41e2bb"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 1755526,
+      "sha256": "3104811876977ddf871c05a0138ea19a7cbf55e38406fb850a6e108cddae8957",
+      "git_blob": "da0d8204ff21ac0a2a2f641ad7950e3516b30333"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.shp",
+      "bytes": 5212,
+      "sha256": "694e78e6514930e34ed6177f0319e3ebf238b095773e78eb550ebd61131fa5bd",
+      "git_blob": "da78c508fcdc6b0dc05229d179fe8f0bf652db86"
+    },
+    {
+      "path": "track_b/audit/spatial/西藏日喀则市吉隆县泥石流灾害区历史灾点数据_attributes.csv",
+      "bytes": 29733,
+      "sha256": "aac5e72edd8923416ac40fcda2398feb5bb950d989c09ceb254ddc1b74675145",
+      "git_blob": "dab4fba2fd8698883d3e493e200ca1cc45c3da91"
+    },
+    {
+      "path": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shx",
+      "bytes": 772,
+      "sha256": "d0e2a08e6eb116a8f721a017a6f9f019136e9324ed3c1900bfc022e5075653c8",
+      "git_blob": "db30a2886ab6d785bfb3c18625d648ae1e843069"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/MET_Gyirong_2025.csv",
+      "bytes": 1584489,
+      "sha256": "6e252e33ec1674547e82c7d60d352bcbf354e74972be100d1a0d945264249854",
+      "git_blob": "db55819a3ded80080d51ab1d258577678536327e"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.dbf",
+      "bytes": 230,
+      "sha256": "5a89a155b055be7c7373540c460c3397cba99624eec3448a9ce7e9db9dbeea26",
+      "git_blob": "dc4c0acf09d1a71f40cdae055705b78df2a47da0"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 1618438,
+      "sha256": "d64ebcad916f558403f55098d16233a69a5012282651d2716fb3d21061126cd5",
+      "git_blob": "dc6f245935890eb44f8a1bca4f038876d2a0229b"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.sbx",
+      "bytes": 1572,
+      "sha256": "683e0af8c748d8df7c1f68b21c4fc89ca17a4d073b8c83fdc0275e399a1aab61",
+      "git_blob": "dce16cc7ae8910a8783b945e94b5816578b90a1b"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/RADM_Gyirong_2022.csv",
+      "bytes": 487575,
+      "sha256": "5f522c201e420500d9dd2401d3a5787798412aaa1b5f530b1d7b15402239b122",
+      "git_blob": "dd10dc72f66cf79781341c631753aa216eb886dd"
+    },
+    {
+      "path": "04_B赛道/00_赛题/2026年MathorCup大数据挑战赛-赛道B初赛.pdf",
+      "bytes": 262977,
+      "sha256": "c50a72f809703de0c80304f2002314d749a7fc00f276d289de960cfa376de0fb",
+      "git_blob": "dd668a5112249d4e9d0677761fe9463282847b0e"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2323296,
+      "sha256": "e41b8b5df21a7d80b466edcffe2a586751a01ba5aea9e73e4c31af9638271c83",
+      "git_blob": "ddc7828c3782a835fd217c40f938dfa94656d0d7"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 842729,
+      "sha256": "5ca7166e072d05cfb73fb8ecdf701301a2987ed2a89298b322f52c7ee53a4518",
+      "git_blob": "de12d9885e30c44a9d43a4a70fca815bdb2b2d64"
+    },
+    {
+      "path": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.sbx",
+      "bytes": 188,
+      "sha256": "963aadb08a90952a5e6457d94d1e5c18c34ea9da538df6952f5c31698d0253b0",
+      "git_blob": "de6716ed2caa92ef04db5f9a52a405391da0902a"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E087_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 1653542,
+      "sha256": "8a308014d5cbc1fd655a654a207fd150a99f466b475de34e6ccb1eac5f31b544",
+      "git_blob": "de9974144ae0cb433b36bc7bb3ade42626e05b33"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/MET_Gyirong_2022.csv",
+      "bytes": 1591541,
+      "sha256": "d7a2cd91e783e80077f42aa37d22fc3cc843664c0f80f52f22d3b3e585c76824",
+      "git_blob": "dfcf52dfdcf4e0224d06bd0affabc7428cc4fedc"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/precip_accum_6_9h.http.json",
+      "bytes": 436,
+      "sha256": "2f0ada931cd415a107fa891d0bfd2ca4caf7735e4b821045667b04df19509e89",
+      "git_blob": "dffbf550b08d62fb1d9be79bb6d8c6c8638be87c"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2016.xlsx",
+      "bytes": 30554,
+      "sha256": "973807053b91902a62303f5d5071a6db324726872c760753917fc7dd683802a2",
+      "git_blob": "e0dfcc6e50b3a5a6b307e24a2c7fa9346eabcd7e"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 781927,
+      "sha256": "ceb15f3d988de7e1124b8d31b934d256a66d3524e3f5e7f19bf1456a08e80f07",
+      "git_blob": "e153fd6fa0b8724289224b8a491b13533551d38b"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/temperature_2m.grib2",
+      "bytes": 511028,
+      "sha256": "36c0bab95887d7c0395bd2d2e5cf59ff5323e7bbaa1fa9b5b8e6f86bf104bba2",
+      "git_blob": "e18320814e2a3e07d6beb8b015f6a082f8561372"
+    },
+    {
+      "path": "track_b/audit/spatial/JilongFlood_Buffer_200km_geometry_envelopes.csv",
+      "bytes": 149,
+      "sha256": "6119d5df80d712c57b08ed16f8b11581aa496f00b5f3af8aad1894c04c0bb0ec",
+      "git_blob": "e4589e29bdf8621d5f970ac56d3ae28d2cd1eb87"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 1409682,
+      "sha256": "dfec5b1f95a48f7f49d53ad3edb77ed365208f4906714aec22d9dfca20bd2ac7",
+      "git_blob": "e464613697026fa4091d9ed8e2bd09354e007bc7"
+    },
+    {
+      "path": "track_b/scripts/audit_spatial.py",
+      "bytes": 33627,
+      "sha256": "04f20ecb1c39562574c1413545e047837afbbdaecc78b37ae80f2fdea9106f3f",
+      "git_blob": "e541bbcd28d7a71b9ab27816cc791409dca15b81"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 1157492,
+      "sha256": "a603c6f1784667d6fb94a8dfd90cdf070fbbfe2b1eb61ea8fedcbec5ae6ed369",
+      "git_blob": "e5d1c818ca2313462fe6bfde894f48914015c38c"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1224926,
+      "sha256": "371517bb62e58b74b21818d9395fa9e6b3becbe9bf9e1261aa92bc98d0bc9950",
+      "git_blob": "e660010fa6565f060ca2e2ebbaffc291eb183e78"
+    },
+    {
+      "path": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp.CZN.26552.33604.sr.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp.CZN.29700.33604.sr.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp.CZN.30008.33604.sr.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp.CZN.4308.33604.sr.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 3355696,
+      "sha256": "cb62d622b735b433bea93c8ee4c289583f85142caf99ed086a5c867ac6fc63a8",
+      "git_blob": "e73131775921da707e7d7127af207c7c1fc82a49"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 1160720,
+      "sha256": "80f9c594db86491de22688d8654f39319c1a8bc8854839717a53e2acf65cacc0",
+      "git_blob": "e7b2eb61da491c0af9cb97d0fa3fe078f7fd820f"
+    },
+    {
+      "path": "track_b/scripts/fetch_event_metadata.py",
+      "bytes": 2442,
+      "sha256": "1c7198e37701a1ad9aabbaa6aaf9ead05494713ef77f69634a9bf37670c74950",
+      "git_blob": "e7e9d72e9d5cc86bd488e74d9497929ffe46d305"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1865692,
+      "sha256": "f7a2c6e148d836e5361e887b908cd3aba798a3a4841bdedcb533b8a4072ce324",
+      "git_blob": "e95317efe1c69e8b58ec11a0f0c039f839d71e2d"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1672518,
+      "sha256": "0d65a0637c3205dddc082c24e0b3c997e9fc57cfc707601e8533068486fc9d74",
+      "git_blob": "e9f848bb2e3768af27eaa151b569c73dc80e5559"
+    },
+    {
+      "path": "track_b/audit/spatial/spatial_coverage_diagnostic.png",
+      "bytes": 304918,
+      "sha256": "cf9d1925ff38b5f42969113bd069c4701e50a522ef9b833150bd862a5079fc8f",
+      "git_blob": "ea28ae39a25adc5969ff9f78db2bb9a77cc3d996"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 639272,
+      "sha256": "de31bee6067462e23177e2d6853d4ce656fed7221276b71db9d71f28fda1d18d",
+      "git_blob": "ea6a9ad2f19a1d3d9fb6da255218c1e1d9d49a30"
+    },
+    {
+      "path": "track_b/data/processed/spatial/pipeline_report.json",
+      "bytes": 60588,
+      "sha256": "811e11cbda3885f587d0b5cd8c8f55a138c01522c1353982732ac10dc484c65b",
+      "git_blob": "ebadc5398ee57c80776947f83af7dff425541d54"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 1407386,
+      "sha256": "1746dd7739a297932f3123d7e09404c2c395bae4c3f2c3a95182f80ab456265e",
+      "git_blob": "ec35fa03634e6965d3a2e64ff982849a49633a3f"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 1141617,
+      "sha256": "f19ca909cb73492e7c0621f7c0877a3db01292b9ddfce1190ef208ea18dacaa2",
+      "git_blob": "ec63e8387a72d18938331bbf46ae9b04e948cde3"
+    },
+    {
+      "path": "track_b/audit/temporal/quality_overview.png",
+      "bytes": 179214,
+      "sha256": "e2fce3d1b6ee08364df61de607728e9fa79320b4f4715b1df312797c5a24fbe8",
+      "git_blob": "ed489121b90bb371e564062612b6dce3e300fdee"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1720687,
+      "sha256": "d5e626e6271af3c257888c0a44a0f7385e6eb59d7bcf9965f25ac0f5eb351b54",
+      "git_blob": "ed66f4c8917a62f34ac09037ed9bcec6bcfd9074"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E084_2005-01-01_2010-01-01_dhdt_err.tif",
+      "bytes": 1961890,
+      "sha256": "cd0080a8558f9bd43d839051bcb1181b03140aedad0ffd01e6a51a04c077c762",
+      "git_blob": "ed6c05d9b230116735391a1dd091c24f026ee2b3"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 841806,
+      "sha256": "fb232b8237a8d021c489600da00aa0864355cc4ee86bf38eff58c66c6c206043",
+      "git_blob": "ee13a8de435e46ba4a20d8901f7883bce26a04fe"
+    },
+    {
+      "path": "track_b/audit/temporal/hourly_monthly_coverage.csv",
+      "bytes": 301309,
+      "sha256": "68fcd44c74031efa74026ba7d7396a8287281a02f0cee5556631656117cc886d",
+      "git_blob": "ef039630b4deeb5c21bbbe61e5d0705591a9929b"
+    },
+    {
+      "path": "track_b/requirements.in",
+      "bytes": 322,
+      "sha256": "429dacb28aba56f32923a5b805de6169da4a17f66a69f86f80271f8813f85247",
+      "git_blob": "ef55c23a005326e3989b04543c6b4b644684dfec"
+    },
+    {
+      "path": "track_b/audit/temporal/daily_source_doc_extracted.txt",
+      "bytes": 726,
+      "sha256": "bd91eb69f2b00c86e200b201c2fbb7b4931418f10c5d7da61d7d0e8d3ee8612f",
+      "git_blob": "efee84564a0332caeaed793dd9d130e0ffe6adaf"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 2394600,
+      "sha256": "6d91d69efaefb10658b25468d4bb7117c8af6c7574ed1f705cb880e706ca9f76",
+      "git_blob": "f0f7ec583eed972992a7ed3c723d8cc636395d70"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1115168,
+      "sha256": "33f9ee6a0b77a33925f19af4da45b300c362e6c49648ee477d29a92fa26b5cd1",
+      "git_blob": "f1acb00d09da6c0daafe67594f37efef468665fa"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 2529689,
+      "sha256": "511413fa2a389309c28d01ddb7a2c32628eafe7fa3eb314d8d11568441543133",
+      "git_blob": "f1f48d7c8fc92eba4a020afcece0eab616f43c14"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1231672,
+      "sha256": "cc0b4a5cb8f8ecf24490108ea630dbec124f0e5b32d33210dee20c4f9bf5dac8",
+      "git_blob": "f31a2ecb4b7c70467247516fa2cb1a7f1fef7f83"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 941754,
+      "sha256": "26f97d5a66d6732c69169fb50cee5d1d4f5ba74549747a45ff4918a72d3d3116",
+      "git_blob": "f44acf8125f8d16dcb4963a5fb393c19a2d850f7"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.prj",
+      "bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+      "git_blob": "f45cbadf0074d8b7b2669559a93bc50bb95f82d4"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.prj",
+      "bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+      "git_blob": "f45cbadf0074d8b7b2669559a93bc50bb95f82d4"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.prj",
+      "bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+      "git_blob": "f45cbadf0074d8b7b2669559a93bc50bb95f82d4"
+    },
+    {
+      "path": "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.prj",
+      "bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+      "git_blob": "f45cbadf0074d8b7b2669559a93bc50bb95f82d4"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E087_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 1213560,
+      "sha256": "0339a6685c6597012d0b377c3b256288fba62cfa21b1156b033788aeb6c4b7f4",
+      "git_blob": "f47cc2109b71af0f1d35d7c721c6cd175d342aa3"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E085_2010-01-01_2015-01-01_dhdt_err.tif",
+      "bytes": 1717688,
+      "sha256": "e251f0cc01fefdabc7906e1eedb7d944fcaff1678fd86a2b871e3c232a404056",
+      "git_blob": "f4b4f73ae95bdd3ddf9704e150551b1c02884d31"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_strict_qc0.parquet",
+      "bytes": 6451135,
+      "sha256": "9a2609a696d252abb0548ebcc1f794a5bd3f10a30cdbc305d59bde288f9d4460",
+      "git_blob": "f4bb6f1bebe839f1133c4f99e7a375069fac8ad7"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/precip_accum_0_9h.http.json",
+      "bytes": 436,
+      "sha256": "abfe201e8c411af88a5e61e2093d736301f6849b4dc9d7a9d6742224062c849a",
+      "git_blob": "f5f1ad6167572b490c27231a136af682e758714b"
+    },
+    {
+      "path": "04_B赛道/02_逐日平均气温（2005-2025）/2米气温数据_2009.xlsx",
+      "bytes": 30534,
+      "sha256": "da2b7ca8473cd0425d64bb38ff86c5b6d1cd602771553b0fd9bdc928edd97a2f",
+      "git_blob": "f60820144ba645c043e1f2fd5d9b61be2dd3b2f1"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N29E086_2000-01-01_2005-01-01_dhdt_err.tif",
+      "bytes": 1713550,
+      "sha256": "b5ceebd25f209326550079cdf5a53fc488eb766a3453b68a7b3b52084ba9042a",
+      "git_blob": "f6cf0cefb623b388702251fd2e16ab0b339090ae"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/CDSE_Sentinel1_GRD.json",
+      "bytes": 167066,
+      "sha256": "7a8296f16b78b73b2ed0d0598a6844b6f6f0a51414a4a5ebe4c32b4509fc37fc",
+      "git_blob": "f6e932b1857e6670c9bc43ce521abf75df480259"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_raw_numeric.parquet",
+      "bytes": 15685229,
+      "sha256": "96fde2bc36b72919859546c3b4dcf8a35f2e4b59da2b08bd322ae28691df5b32",
+      "git_blob": "f70254095568bf58ec20c118613bf4ca7c1ae5d6"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 3355458,
+      "sha256": "a04478b0da49292cc025da27b37a208de792392b1ea995e49ec0b98c36d5527a",
+      "git_blob": "f806cb840844e62bdb190f4626d2c9c42ea4796e"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N28E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "bytes": 1881092,
+      "sha256": "9be957ed3eda294303f525d6ad06b9fe063cef39523f80ea3332d5b1cc4ed24f",
+      "git_blob": "fb6e5a01b1c8a0e6ec2bf2cd9927fadc100ca513"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N27E086_2015-01-01_2020-01-01_dhdt_err.tif",
+      "bytes": 1147204,
+      "sha256": "54b29134560f07915ed0d7f589987eee0a4bbc050aa8ed190221a1a70a2de434",
+      "git_blob": "fcb53f80c82a3f27016c644e8f4f5a30f6948d53"
+    },
+    {
+      "path": "04_B赛道/03_冰川及表面高程变化（2000-2020）/N30E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "bytes": 1987528,
+      "sha256": "48bc971fa8bc48180c01c025c303e94689d15c54133f8cf91dc1daf96891e670",
+      "git_blob": "ff1b86b41f7bdef8fff83e614a5f8b6d7d6a93da"
+    }
+  ]
+}

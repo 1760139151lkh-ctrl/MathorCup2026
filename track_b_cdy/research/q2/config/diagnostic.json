@@ -1,0 +1,20 @@
+{
+  "version": "q2-r1-diagnostic-v1",
+  "baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "background_parameter_domain_not_confirmed_failure_polygon",
+  "data_role": "exploration",
+  "source_geometry_verified": false,
+  "reference_clocks": {
+    "problem_statement_unspecified_phase": "2026-08-26T02:30:00+00:00",
+    "paper_reconstructed_initiation_candidate": "2026-08-26T02:51:50+00:00",
+    "catalogue_proxy_reference": "2026-08-26T02:52:10+00:00"
+  },
+  "coverage_windows_hours": [24, 72, 168],
+  "coverage_clock": "problem_statement_unspecified_phase",
+  "coverage_variables": ["MET__Ta_2m", "MET__Precip", "RADM__Rsd", "RADM__Rld", "SOIL__soilT_0.1m", "SOIL__VWC_0.1m", "FLUX__LE", "FLUX__H"],
+  "nc_variables": ["dem", "slope", "thickness", "vx", "vy", "v", "vx_amp", "vy_amp", "v_amp"],
+  "finite_value_semantics": "finite is numerical support only; neither physical validation nor event-time observability",
+  "remote_pair_semantics": "same product family, orbit state, relative orbit and polarization is a metadata screening condition only; not co-registration or pixel visibility acceptance",
+  "policy": "No threshold fitting, no source-volume inference, no universal trigger estimate, no new event labels, no imputation, no automatic historical-availability acceptance."
+}

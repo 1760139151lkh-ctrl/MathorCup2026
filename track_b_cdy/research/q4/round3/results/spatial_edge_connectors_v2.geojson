@@ -1,0 +1,280 @@
+{
+  "type": "FeatureCollection",
+  "name": "q4-r3-edge-connectors-v2",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "C1",
+      "properties": {
+        "connector_id": "C1",
+        "source_edge_offset_m": 0,
+        "source_edge_lonlat": [
+          85.5193055248128,
+          28.283882394615638
+        ],
+        "source_edge_utm": [
+          354788.730539817,
+          3129539.345660505
+        ],
+        "river_candidate_nearest_utm": [
+          354152.16530611954,
+          3129655.7834856613
+        ],
+        "raster_snap_start_m": 36.24303694426841,
+        "raster_snap_end_m": 25.87424749506263,
+        "direct_geometric_gap_m": 647.12677573986,
+        "path_length_m": 709.7056274847714,
+        "start_height_m": 4305.90380859375,
+        "end_height_m": 4021.752197265625,
+        "net_drop_m": 284.151611328125,
+        "cumulative_ascent_m": 0.0,
+        "max_single_step_ascent_m": 0.0,
+        "max_uphill_gradient": 0.0,
+        "strict_nonincreasing_height_reaches_goal": true,
+        "strict_test_scope": "8-neighbour current 60m bilinear DSM, bounded local window; not physical avalanche impossibility test",
+        "geometry_status": "conditional_connector_candidate; independently observed connection unknown"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.51952601005783,
+            28.283619933035546
+          ],
+          [
+            85.51890687567165,
+            28.284154734836818
+          ],
+          [
+            85.51828773510172,
+            28.284689533556897
+          ],
+          [
+            85.51767608847389,
+            28.284682895858687
+          ],
+          [
+            85.51706444205364,
+            28.28467625542305
+          ],
+          [
+            85.51645279584105,
+            28.28466961224999
+          ],
+          [
+            85.51584114983623,
+            28.284662966339496
+          ],
+          [
+            85.51522950403925,
+            28.284656317691585
+          ],
+          [
+            85.51461785845022,
+            28.284649666306265
+          ],
+          [
+            85.51400621306918,
+            28.284643012183526
+          ],
+          [
+            85.51339456789627,
+            28.28463635532338
+          ],
+          [
+            85.51278292293152,
+            28.28462969572583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C2",
+      "properties": {
+        "connector_id": "C2",
+        "source_edge_offset_m": 300,
+        "source_edge_lonlat": [
+          85.52035745132612,
+          28.286424596538627
+        ],
+        "source_edge_utm": [
+          354895.3531196041,
+          3129819.758972385
+        ],
+        "river_candidate_nearest_utm": [
+          354152.16530611954,
+          3129655.7834856613
+        ],
+        "raster_snap_start_m": 27.166490676403207,
+        "raster_snap_end_m": 25.87424749506263,
+        "direct_geometric_gap_m": 761.0624720469804,
+        "path_length_m": 794.5584412271571,
+        "start_height_m": 4337.12646484375,
+        "end_height_m": 4021.752197265625,
+        "net_drop_m": 315.374267578125,
+        "cumulative_ascent_m": 0.0,
+        "max_single_step_ascent_m": 0.0,
+        "max_uphill_gradient": 0.0,
+        "strict_nonincreasing_height_reaches_goal": true,
+        "strict_test_scope": "8-neighbour current 60m bilinear DSM, bounded local window; not physical avalanche impossibility test",
+        "geometry_status": "conditional_connector_candidate; independently observed connection unknown"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.52010021233423,
+            28.2863337318977
+          ],
+          [
+            85.51949604707252,
+            28.285785668267433
+          ],
+          [
+            85.51889188799508,
+            28.28523760215377
+          ],
+          [
+            85.51828773510172,
+            28.284689533556897
+          ],
+          [
+            85.51767608847389,
+            28.284682895858687
+          ],
+          [
+            85.51706444205364,
+            28.28467625542305
+          ],
+          [
+            85.51645279584105,
+            28.28466961224999
+          ],
+          [
+            85.51584114983623,
+            28.284662966339496
+          ],
+          [
+            85.51522950403925,
+            28.284656317691585
+          ],
+          [
+            85.51461785845022,
+            28.284649666306265
+          ],
+          [
+            85.51400621306918,
+            28.284643012183526
+          ],
+          [
+            85.51339456789627,
+            28.28463635532338
+          ],
+          [
+            85.51278292293152,
+            28.28462969572583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C3",
+      "properties": {
+        "connector_id": "C3",
+        "source_edge_offset_m": -300,
+        "source_edge_lonlat": [
+          85.52152532277476,
+          28.28260124958282
+        ],
+        "source_edge_utm": [
+          355004.7163005296,
+          3129394.729864473
+        ],
+        "river_candidate_nearest_utm": [
+          354152.16530611954,
+          3129655.7834856613
+        ],
+        "raster_snap_start_m": 15.457720375605867,
+        "raster_snap_end_m": 25.87424749506263,
+        "direct_geometric_gap_m": 891.6233460408589,
+        "path_length_m": 939.4112549695428,
+        "start_height_m": 4595.833984375,
+        "end_height_m": 4021.752197265625,
+        "net_drop_m": 574.081787109375,
+        "cumulative_ascent_m": 0.0,
+        "max_single_step_ascent_m": 0.0,
+        "max_uphill_gradient": 0.0,
+        "strict_nonincreasing_height_reaches_goal": true,
+        "strict_test_scope": "8-neighbour current 60m bilinear DSM, bounded local window; not physical avalanche impossibility test",
+        "geometry_status": "conditional_connector_candidate; independently observed connection unknown"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.5213758955769,
+            28.28255694360397
+          ],
+          [
+            85.52075677644225,
+            28.283091754453622
+          ],
+          [
+            85.52013765112416,
+            28.283626562222583
+          ],
+          [
+            85.5195185196225,
+            28.28416136691066
+          ],
+          [
+            85.51889938193708,
+            28.28469616851768
+          ],
+          [
+            85.51828773510172,
+            28.284689533556897
+          ],
+          [
+            85.51767608847389,
+            28.284682895858687
+          ],
+          [
+            85.51706444205364,
+            28.28467625542305
+          ],
+          [
+            85.51645279584105,
+            28.28466961224999
+          ],
+          [
+            85.51584114983623,
+            28.284662966339496
+          ],
+          [
+            85.51522950403925,
+            28.284656317691585
+          ],
+          [
+            85.51461785845022,
+            28.284649666306265
+          ],
+          [
+            85.51400621306918,
+            28.284643012183526
+          ],
+          [
+            85.51339456789627,
+            28.28463635532338
+          ],
+          [
+            85.51278292293152,
+            28.28462969572583
+          ]
+        ]
+      }
+    }
+  ]
+}

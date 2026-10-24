@@ -1,0 +1,43 @@
+{
+  "run_id": "flatrest_60_ravaflow_multi",
+  "image_id": null,
+  "container_id": "ad84a77a0ea9eb7447f61eb2e08756f00665429b7c90f8744a957efd918fd8c7",
+  "base_image_id": "sha256:0e0a0fc6d18feda9db1590da249ac93e8d5abfea8f4c3c0c849ce512b5ef8982",
+  "command": [
+    "docker",
+    "exec",
+    "-e",
+    "CLAW=/opt/clawpack",
+    "-e",
+    "PYTHONPATH=/opt/clawpack",
+    "-e",
+    "GRASS_ADDON_BASE=/opt/grass-addons",
+    "-e",
+    "MPLBACKEND=Agg",
+    "-e",
+    "OMP_NUM_THREADS=2",
+    "-e",
+    "OFFICIAL_WORK_ROOT=/work/q4/official",
+    "-w",
+    "/work/q4/official/runs/flatrest_60_ravaflow_multi",
+    "mathorcup-r3-toolchain-build",
+    "python3",
+    "/work/q4/official/scripts/official_container.py",
+    "/work/q4/official/runs/flatrest_60_ravaflow_multi/case.json"
+  ],
+  "copy_output_command": [
+    "docker",
+    "cp",
+    "mathorcup-r3-toolchain-build:/work/q4/official/runs/flatrest_60_ravaflow_multi/.",
+    "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi"
+  ],
+  "copy_returncode": 0,
+  "copy_stderr": "",
+  "case_sha256": "ec894c468aafb71ea828d55bfaf6808047e57cac204d42f087ce04c43e3466f7",
+  "started_utc": "2026-10-24T07:50:59.646857+00:00",
+  "elapsed_seconds": 8.647741794586182,
+  "returncode": 1,
+  "log_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi/run.log",
+  "log_sha256": "855169e1c63f80a84ba24b71754efa5215106da9d56803e36a3137bf1c2cbdf9",
+  "shared_solver_source_unchanged": true
+}

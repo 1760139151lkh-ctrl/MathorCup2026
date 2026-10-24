@@ -1,0 +1,22 @@
+{
+  "full_design_rows": 2048,
+  "status_match": true,
+  "maximum_absolute_differences": {
+    "final_margin": 9.33975119465913e-14,
+    "minimum_margin": 9.245382237565991e-14,
+    "final_damage": 1.9551027463649007e-13,
+    "peak_pressure": 3.893774191965349e-12,
+    "final_interface_temperature": 1.7763568394002505e-15,
+    "onset_elapsed_hours": 2.9956481739645824e-10
+  },
+  "representative_rows": 133696,
+  "representative_scenarios": 64,
+  "representative_maximum_absolute_differences": {
+    "failure_margin": 5.551115123125783e-15,
+    "damage": 3.6637359812630166e-15,
+    "storage_m": 1.1102230246251565e-16,
+    "interface_temp_c": 1.7763568394002505e-15,
+    "pressure_kpa": 4.742872761198669e-13
+  },
+  "passed": true
+}

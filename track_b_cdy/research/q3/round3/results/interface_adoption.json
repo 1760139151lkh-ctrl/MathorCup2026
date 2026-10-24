@@ -1,0 +1,111 @@
+{
+  "generated_at_utc": "2026-10-24T09:10:10.270238+00:00",
+  "passed": true,
+  "interfaces": [
+    {
+      "bundle_version": "q4-r3-propagation-v1-metadata-handoff",
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/bundle.json",
+      "sha256": "ca2687f43fbca865fea8556435c9765ccc429fed4bf3f05dd5df8f79deb2fda0",
+      "verified_files": 40,
+      "adoption": {
+        "upstream_bundle_sha256": "ef63555c5decb383a66eeb01ef48a7cfe1c1a29ec52cd435a9ed55a801ba2c16",
+        "note": "Accept only partial conditional propagation context: 6 completed DClaw scenarios/42 targets, independently re-read saved NPZ confirms arrival brackets and boundary flags. No Q2-parent mapping in this version, no absolute mechanical arrival and no calibrated probability. Expanded reference port (160,180] seconds after bulk release; numerical mass/volume accounting and full competition remain pending, so envelope flag does not certify numerical accuracy. Preserve original package and all limitations.",
+        "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+      }
+    },
+    {
+      "bundle_version": "q2-r3-analytic-erfc-thermal-v1",
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/bundle.json",
+      "sha256": "05e8b885198a3011e316472f562ba92480788cb04c6ab9bebfb3e04dbd3660ca",
+      "verified_files": 21,
+      "adoption": {
+        "upstream_bundle_sha256": "ff989d23894f9b2d44daf032418583430791ef5b8367d423aa5cb54763767684",
+        "note": "Accept as numerical thermal reference within the registered linear hourly-step boundary only; 2048 outcomes preserve all censoring/base IDs and 137 finite pairs. Max onset difference vs fine FD 0.34708 h, vs v2 19.07238 h. Not an exact coupled solution, observed initiation label, calibrated probability, or validation event. Keep all previous versions and report strength-branch/time-discretization limitations.",
+        "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+      }
+    },
+    {
+      "bundle_version": "q1-r3-feature-v1",
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/bundle.json",
+      "sha256": "edd817989c3bdb5b21953e31d2a2ebcc7c637eedb414a1c86495e02210d3eaa9",
+      "verified_files": 10,
+      "adoption": {
+        "upstream_bundle_sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+        "note": "Accepted as regional-station feature definitions, QC-separated numerical features and support metadata only. No ranking or source-area representation is accepted here. Available time and hourly integration semantics remain unknown; downstream must apply registered coverage thresholds, and precipitation is label statistics rather than an accepted accumulated rainfall input.",
+        "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+      },
+      "actual_read_scope": "All feature definition rows and family map; support metadata only, no ranking or source representation adoption",
+      "feature_definition_rows": 112,
+      "variable_map_rows": 63
+    },
+    {
+      "bundle_version": "q2-r3-mechanism-v1",
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/bundle.json",
+      "sha256": "65758b85d934267e883616eb2a56924e5b52d818e10b6f3eaa08bf934e54ce3a",
+      "verified_files": 8,
+      "adoption": {
+        "upstream_bundle_sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+        "note": "Accepted for conditional mechanism coupling and ideal-weather first-passage research only. 256 parameter design points are not probability priors, 8 representative trajectories per mechanism/policy are not independent observed events. Lab domain flags and explicit extrapolation/thaw branches retained; left censoring/never-cross/missing retained. No local event calibration, operational weather eligibility or empirical coverage accepted.",
+        "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+      }
+    },
+    {
+      "bundle_version": "q2-r3-mechanism-thermal-refinement-v2",
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/bundle.json",
+      "sha256": "12eb0b329acede54face734b145cf33a8bfc5d329f6231b5a110c52ddec618c9",
+      "verified_files": 17,
+      "adoption": {
+        "upstream_bundle_sha256": "dc53a9f805e96ff32b2c1fd064b0b7b33d90034e7d2c987f42403ae70bfcb093",
+        "note": "Accepted as thermally refined conditional mechanism branch (dz0.125m; representative reference0.0625m), retaining v1. All2048 outcomes preserve onset category; v1-v2 onset times differ by up to46.819h, so timing conclusions must use/refine the new branch and report numerical sensitivity.64 representative comparisons have max margin error0.01027, not an all-parameter convergence theorem. Join release v2 through base_scenario_id and documented model mapping; no new observed event/operational eligibility/probability prior accepted.",
+        "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+      }
+    },
+    {
+      "bundle_version": "q2-r3-numerical-limits-v1",
+      "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/bundle.json",
+      "sha256": "8ad708b3867ac35421ac1e3aa035969c52136e5bed1c845b190e9223fcad1b5b",
+      "verified_files": 7,
+      "adoption": {
+        "upstream_bundle_sha256": "151a7c7f822f3970a7dbdc0194b4c1df18548dbb70afca19a5927f49f3206b03",
+        "note": "Required numerical limits accompanying mechanism v2. Full2048 paired cases retain all categories but10 fail margin0.02 target; max first-crossing difference18.9438h among137 finite pairs. Representative64-case convergence cannot be generalized. Cross-grid differences are neither rigorous error bounds nor probabilities; do not present model-internal narrow intervals as precise initiation forecasts without this sensitivity.",
+        "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+      }
+    },
+    {
+      "bundle_version": "q2-r3-literature-composition-v1",
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/bundle.json",
+      "sha256": "0837c492726e78b2fd7b945e64731ee989ce141ec4cb817c3a0abff8cb12fdf9",
+      "verified_files": 11,
+      "adoption": {
+        "upstream_bundle_sha256": "14f96d7d1e8600154a831dba9921a9efbf70eeacfd71e54b12af78879b762335",
+        "note": "Accepted as paired parameter-domain sensitivity: literature-candidate rock fractions0.85/0.90 on8 fixed representatives,128 integrations. Bulk density intervention only; bridge area fraction and all other paired parameters unchanged. Categories unchanged while finite crossing times shift substantially; not event calibration, probability prior, new release mapping or observed material composition. Existing release bundles not altered.",
+        "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+      }
+    },
+    {
+      "bundle_version": "q2-r3-release-v2-spatial-copdem-v1",
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json",
+      "sha256": "0b273b1b5eb7d65b9b9ab9731c9dceeef73f1c5f396fc743c97a7fdd206dc4f9",
+      "verified_files": 11,
+      "adoption": {
+        "upstream_bundle_sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3",
+        "note": "Accepted as additional full-Q4-candidate-mask release mapping, distinct from v1 small-area release assumptions. 64 rows retain base_scenario_id, 60/120m grids conserve the same volume, four provided TIFFs independently read and integrated. Full-mask volume16.48-51.76Mm3 is conditional, not observed; no pressure-storage-to-free-water conversion, no-start/left-censored parents retained. Preserve release mapping and base-state linkage; do not silently substitute into v1 preregistered geometry experiments.",
+        "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+      }
+    },
+    {
+      "bundle_version": "q4-r3-spatial-copdem-v1-frozen-export",
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/bundle.json",
+      "sha256": "b6c02508acbe7bf131a0414ef7a90cafef2c5580597e2bc3b6f990e6892c4955",
+      "verified_files": 8,
+      "adoption": {
+        "upstream_bundle_sha256": "5a2315f807bac296e5ae9bf877e655499b7a2b40e39df8edd3b0cccbeade853a",
+        "note": "Accepted as conditional computational geometry and independently sourced COPDEM EGM2008 terrain only. Three terrain-cost paths are candidates, source/port remain paper reconstructions; no observed release boundary, bridge identity, path, initial thickness or velocity is accepted. Native acquisition2011-2015/release2021 is not event2026 topography. Normalize release thickness by grid source area to hold volume fixed; use delivered file-role/path mapping rather than nested upstream-relative paths.",
+        "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+      }
+    }
+  ],
+  "original_event_v1_unchanged": true,
+  "external_event_v2_unchanged": true,
+  "phase_v3_is_candidate_only": true
+}

@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "review_kind": "AI-assisted source, equation and numeric cross-review",
+  "chapters": [
+    {
+      "path": "sections/q1.tex",
+      "sha256": "902b7982230a6c52c3a9e9d70ede8655c5abbf7b997b17284813ac7478962997"
+    },
+    {
+      "path": "sections/q2.tex",
+      "sha256": "c6d55c822f99675f33f001839b7a02f732e3581d6ece50b63f74343759e9fed0"
+    },
+    {
+      "path": "sections/q3.tex",
+      "sha256": "6c3ff5d4c0a63990f15c17cf4bda6bcfce1c72c71856358725f4ed526509a337"
+    },
+    {
+      "path": "sections/q4.tex",
+      "sha256": "ef8690f3d741922143ac462547dceeebf847a26d357b9035521f9002746279e7"
+    }
+  ],
+  "scopes": [
+    "Q1 factors, directions, 44/100 estimable resampling denominator, three routes and 300 folds",
+    "Q2 analytic/finite-difference comparison, 2048 paired designs, 141 original lab trials, ST/STH margin medians 0.4853/0.4718",
+    "Q3 mechanical initiation, conditional intervals, external 13 failed plus 1 censored group, 3/13 versus 6/13 and paired 5/8/8 denominators, probability null semantics",
+    "Q4 actual output times, conditional bulk-release clock, full-source ST 120 m, mass/source budgets and model comparisons",
+    "Common thermal response times, clock relationships, abstract and conclusion roles"
+  ],
+  "corrections_applied": [
+    {
+      "topic": "Q4 paired overlap timing",
+      "adopted": "All-rock 0.3 s; noDragVM 0.4 s."
+    },
+    {
+      "topic": "Q4 lengths",
+      "adopted": "15 m is release thickness; 120 m is computational grid spacing."
+    },
+    {
+      "topic": "Narrative",
+      "adopted": "Results-led wording and citation-key consolidation; numeric results and equations preserved."
+    }
+  ],
+  "editorial_record": "evidence/editorial_changes.json",
+  "explicit_numeric_check_report": "evidence_check.json",
+  "chapter_numeric_checks": "Per-question audits in evidence/ and tasks/ handoffs",
+  "human_review": "User has reviewed third-round results and authorized paper plan, as recorded in adoption_record.json; technical reviewers here are AI agents."
+}

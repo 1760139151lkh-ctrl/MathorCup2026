@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/12/3333/2018/",
+      "product_version": "DOI10.5194/tc-12-3333-2018; published2018-10-17",
+      "retrieved_at_utc": "2026-10-24T09:47:50.005164+00:00",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/applicability/mamot2018_article.html",
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/applicability/mamot2018_article.request.json",
+      "bytes": 324421,
+      "sha256": "4ff53f5745dafc83d4919125132a1605f027f8b1bb46cfc5bfdb696c66f7c51b",
+      "actual_read_scope": "Abstract and stated fitted-criterion applicability declaration only; distinguishes full tests100–800kPa/-10..-.5C from criterion100–400kPa/-8..-.5C; not a new full-paper methods audit",
+      "data_role": "published_constitutive_applicability_reference",
+      "available_time": null,
+      "license": "CC-BY4.0 publisher page"
+    }
+  ],
+  "no_local_material_certification": true
+}

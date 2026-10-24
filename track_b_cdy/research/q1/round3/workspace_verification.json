@@ -1,0 +1,146 @@
+{
+  "generated_at_utc": "2026-10-24T08:45:32.760452+00:00",
+  "question": "q1",
+  "passed": true,
+  "checks": [
+    {
+      "name": "workspace_and_git_baseline",
+      "passed": true,
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+        "head": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+        "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+        "branch": "codex/track-b-q1-r3"
+      }
+    },
+    {
+      "name": "frozen_input_hashes",
+      "passed": true,
+      "evidence": {
+        "file_count": 725,
+        "manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+        "preparation_commit": "de790034cf302de58e69329dbe288aad269a359c"
+      }
+    },
+    {
+      "name": "isolated_environment_and_lock",
+      "passed": true,
+      "evidence": {
+        "python": "3.12.14",
+        "prefix": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1/track_b/.venv",
+        "package_count": 44,
+        "lock_sha256": "5a780bc65de35a11a1eac4ec9370cad50957dcabb8ebe02cecdbfdb550ad645a",
+        "pip_check": "No broken requirements found."
+      }
+    },
+    {
+      "name": "six_real_formats",
+      "passed": true,
+      "evidence": {
+        "formats_read": [
+          "CSV",
+          "XLSX",
+          "SHP",
+          "GeoTIFF",
+          "NetCDF4",
+          "GRIB2"
+        ]
+      }
+    },
+    {
+      "name": "question_file_ownership",
+      "passed": true,
+      "evidence": {
+        "allowed_directory": "track_b/research/q1/round3/",
+        "changed_paths": [
+          "track_b/research/q1/round3/EVIDENCE_REVIEW.md",
+          "track_b/research/q1/round3/EXPERIMENT_PROTOCOL.md",
+          "track_b/research/q1/round3/HANDOFF.md",
+          "track_b/research/q1/round3/INTERFACE_HANDOFF.md",
+          "track_b/research/q1/round3/MODEL_COMPARISON.md",
+          "track_b/research/q1/round3/PAPER_OUTLINE.md",
+          "track_b/research/q1/round3/PROTOCOL_DEVIATIONS.md",
+          "track_b/research/q1/round3/REPRODUCE.md",
+          "track_b/research/q1/round3/config/experiment.json",
+          "track_b/research/q1/round3/config/features.json",
+          "track_b/research/q1/round3/config/runtime_environment.json",
+          "track_b/research/q1/round3/evidence/access_log.json",
+          "track_b/research/q1/round3/evidence/fetch_sources.py",
+          "track_b/research/q1/round3/evidence/finalize_register.py",
+          "track_b/research/q1/round3/evidence/ledoitwolf_official.html",
+          "track_b/research/q1/round3/evidence/related_essd.html",
+          "track_b/research/q1/round3/evidence/tpdc_target.html",
+          "track_b/research/q1/round3/evidence/waternet_target.html",
+          "track_b/research/q1/round3/exports/feature_bundle.json",
+          "track_b/research/q1/round3/exports/hourly_drivers.parquet",
+          "track_b/research/q1/round3/figures/bootstrap_stability.png",
+          "track_b/research/q1/round3/figures/event_hourly_context.png",
+          "track_b/research/q1/round3/figures/feature_direction_percentiles.png",
+          "track_b/research/q1/round3/figures/route_rank_comparison.png",
+          "track_b/research/q1/round3/figures/sensitivity_comparison.png",
+          "track_b/research/q1/round3/figures/visual_review.json",
+          "track_b/research/q1/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+          "track_b/research/q1/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/event_group_registry.csv",
+          "track_b/research/q1/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/forecast_availability.csv",
+          "track_b/research/q1/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/label_mapping.csv",
+          "track_b/research/q1/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/upstream_bundle.json",
+          "track_b/research/q1/round3/model_preoptimization.log",
+          "track_b/research/q1/round3/model_run.log",
+          "track_b/research/q1/round3/output_manifest.json",
+          "track_b/research/q1/round3/results/analog_matches.csv",
+          "track_b/research/q1/round3/results/bootstrap_draw_specification.json",
+          "track_b/research/q1/round3/results/case_state_evidence.csv",
+          "track_b/research/q1/round3/results/comparison_metrics.csv",
+          "track_b/research/q1/round3/results/comparison_summary.csv",
+          "track_b/research/q1/round3/results/covariance_diagnostics.json",
+          "track_b/research/q1/round3/results/effective_family_support.csv",
+          "track_b/research/q1/round3/results/effective_feature_support.csv",
+          "track_b/research/q1/round3/results/execution_history.json",
+          "track_b/research/q1/round3/results/factor_directions.csv",
+          "track_b/research/q1/round3/results/feature_anomalies.csv",
+          "track_b/research/q1/round3/results/feature_build_validation.json",
+          "track_b/research/q1/round3/results/feature_contract.csv",
+          "track_b/research/q1/round3/results/feature_extrema.csv",
+          "track_b/research/q1/round3/results/feature_support.csv",
+          "track_b/research/q1/round3/results/features.parquet",
+          "track_b/research/q1/round3/results/fold_membership.csv",
+          "track_b/research/q1/round3/results/fold_metrics.csv",
+          "track_b/research/q1/round3/results/independent_feature_review.json",
+          "track_b/research/q1/round3/results/independent_numerical_review.json",
+          "track_b/research/q1/round3/results/independent_result_review.json",
+          "track_b/research/q1/round3/results/input_manifest.json",
+          "track_b/research/q1/round3/results/interface_usage.json",
+          "track_b/research/q1/round3/results/model_context.json",
+          "track_b/research/q1/round3/results/model_run_validation.json",
+          "track_b/research/q1/round3/results/quality_sensitivity.csv",
+          "track_b/research/q1/round3/results/question_requirement_map.csv",
+          "track_b/research/q1/round3/results/ranking_stability.csv",
+          "track_b/research/q1/round3/results/rankings.csv",
+          "track_b/research/q1/round3/results/recommendation_rule_sensitivity.csv",
+          "track_b/research/q1/round3/results/recommended_factors.csv",
+          "track_b/research/q1/round3/results/sample_metadata.csv",
+          "track_b/research/q1/round3/results/sensitivity_metrics.csv",
+          "track_b/research/q1/round3/results/stability_draws.csv",
+          "track_b/research/q1/round3/results/startup_workspace_verification.json",
+          "track_b/research/q1/round3/results/top5_candidates.csv",
+          "track_b/research/q1/round3/results/top5_three_routes.csv",
+          "track_b/research/q1/round3/results/validation.json",
+          "track_b/research/q1/round3/results/variable_family_map.csv",
+          "track_b/research/q1/round3/scripts/build_features.py",
+          "track_b/research/q1/round3/scripts/finalize_packet.py",
+          "track_b/research/q1/round3/scripts/independent_numerical_review.py",
+          "track_b/research/q1/round3/scripts/run_models.py",
+          "track_b/research/q1/round3/scripts/summarize_results.py",
+          "track_b/research/q1/round3/scripts/validate_results.py",
+          "track_b/research/q1/round3/scripts/write_handoff.py",
+          "track_b/research/q1/round3/source_register.json",
+          "track_b/research/q1/round3/summary_run.log",
+          "track_b/research/q1/round3/workspace_binding.json",
+          "track_b/research/q1/round3/workspace_verification.json"
+        ]
+      }
+    }
+  ],
+  "scope": "Workspace, frozen inputs, environment and technical I/O only; no scientific model acceptance.",
+  "round": "round3"
+}

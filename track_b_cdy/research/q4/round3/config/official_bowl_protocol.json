@@ -1,0 +1,10 @@
+{
+  "protocol": "q4-r3-official-bowlrest-v1",
+  "registered_utc": "2026-10-24T07:55:08.047964+00:00",
+  "before_execution": true,
+  "motivating_failure": "all-wet flatrest ravaflow single SIGSEGV -11 and native edge outflow; original kept",
+  "equilibrium": "b=100+4e-5*((x-1200)^2+(y-900)^2),h=max(110-b,0),u=v=0; constantfree surface anddryboundary",
+  "solver": "unmodified r.avaflow phases1 withfluiddensity1000,internal/basalfriction0,cmelt0,centraint0",
+  "end_seconds": 100,
+  "role": "numerical_benchmark_not_event_validation"
+}

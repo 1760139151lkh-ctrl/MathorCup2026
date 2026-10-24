@@ -1,0 +1,4 @@
+数据来源：ERA5-Land再分析数据集，来源于Climate Data Store（CDS），网址： HYPERLINK "https://cds.climate.copernicus.eu/datasets/derived-era5-land-daily-statistics?tab=download" https://cds.climate.copernicus.eu/datasets/derived-era5-land-daily-statistics?tab=download
+
+引用格式：Muñoz Sabater, J., Comyn-Platt, E., Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A., Muñoz Sabater, J., Nicolas, J., Peubey, C., Radu, R., Rozum, I., Schepers, D., Simmons, A., Soci, C., Dee, D., Thépaut, J-N., Cagnazo, C., Cucchi, M. (2024): ERA5-land post-processed daily-statistics from 1950 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS), DOI: 10.24381/cds.e9c9c792
+

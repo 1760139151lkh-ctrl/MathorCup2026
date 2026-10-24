@@ -1,0 +1,23 @@
+{
+  "generated_at_utc": "2026-10-24T11:38:14.392281+00:00",
+  "passed": true,
+  "checks": {
+    "all_153_approved_registrations_verified": true,
+    "seven_runs_four_designs_49_rows": true,
+    "all_source_columns_retained": true,
+    "no_qualified_arrival_absolute_or_probability": true,
+    "delta_consumer_checks": true,
+    "delta_independent_review": true,
+    "fullmask_packet_offline_verification": true,
+    "prior_740_tracked_files_preserved": true,
+    "unique_portable_master_inputs": true,
+    "delta_final_figure_opened": true
+  },
+  "input_manifest_sha256": "40dd81ebd0dcab0d7748f385ac0975950352e1cd37569ad7670cf884ac0ef92b",
+  "output_manifest_sha256": "986cf532f935b08294d71675146e98c982a4d0e3be52a17507c44f25399babfc",
+  "frozen_prior_manifest_sha256": "2b3208e5fddfad1406650fff8dc85c48ab4b3647cc5d1dacd65b1533c175ae57",
+  "bundle_sha256": "b13db70865cfc8e233a9c97a896abf79da666b2a5aea71e25cca2da0a9b3d283",
+  "source_base_commit": "c6200b95db074775cc1cb24b163e3caef29f5cd2",
+  "original_increment_base": "0d5326d6e3428df4d714d8101c41c7c925eca0ef",
+  "physics_rerun": false
+}

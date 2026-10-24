@@ -1,0 +1,146 @@
+{
+  "track_b/config/spatial_policy.json": {
+    "bytes": 3432,
+    "sha256": "7bf25e43d64cdb72184282ca97fd2a8bd7c56e916ff7a219474d9dc455c180c7"
+  },
+  "track_b/scripts/prepare_spatial.py": {
+    "bytes": 28934,
+    "sha256": "bd26dd1beef20d7e2c7f9522d5db5f264c25e00541c8bcd0e8019dfd046f4295"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.cpg": {
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.dbf": {
+    "bytes": 230,
+    "sha256": "5a89a155b055be7c7373540c460c3397cba99624eec3448a9ce7e9db9dbeea26"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.prj": {
+    "bytes": 145,
+    "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.shp": {
+    "bytes": 5212,
+    "sha256": "694e78e6514930e34ed6177f0319e3ebf238b095773e78eb550ebd61131fa5bd"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.shx": {
+    "bytes": 108,
+    "sha256": "2411977dd68c8047b67271654ddcea9baab09c71447440076f2a1e79893f7e2a"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.cpg": {
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.dbf": {
+    "bytes": 621568,
+    "sha256": "4248165d44777c2738c236b8048258bd22abe31a53e67e5f303fb6b975eb63d9"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.prj": {
+    "bytes": 145,
+    "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.shp": {
+    "bytes": 5427520,
+    "sha256": "35154f430b67ae1a50e7b07639e294a302c37830ef7ceff30b8148a9cba750de"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.shx": {
+    "bytes": 27540,
+    "sha256": "b631a87d80df1325c3d3ac262805167128eb2d22729920278a139c1bb26d39db"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.cpg": {
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.dbf": {
+    "bytes": 4164450,
+    "sha256": "8c734113fff29f6426ad19d2dafd76ce136f419f86d89108298eb698bb986255"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.prj": {
+    "bytes": 145,
+    "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.shp": {
+    "bytes": 15111028,
+    "sha256": "8b2776c226e7a9784df4d577f964cd14906cb2a439c698dddb29f964d3537eae"
+  },
+  "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.shx": {
+    "bytes": 34796,
+    "sha256": "2e0db27e1ce614316007ed724e85b83bf49fd74588ef94f952e38d23766e9cc9"
+  },
+  "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.dbf": {
+    "bytes": 124318,
+    "sha256": "c521cde04df6819e18b241a08655cefcfa7166e4a72e76051ae0d267f138ce66"
+  },
+  "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.prj": {
+    "bytes": 176,
+    "sha256": "b10dbe4d6d1de908d340f892c90b3d31a552630af3742bb515bfe1bd26124f2c"
+  },
+  "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp": {
+    "bytes": 294244,
+    "sha256": "c5c6264c71452109ee74abddcd0774ece904592a511f04ab55ae72afbf7524ea"
+  },
+  "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shx": {
+    "bytes": 772,
+    "sha256": "d0e2a08e6eb116a8f721a017a6f9f019136e9324ed3c1900bfc022e5075653c8"
+  },
+  "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.cpg": {
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.dbf": {
+    "bytes": 1705,
+    "sha256": "c3155f4c30d0fb139d6915f114a73504060acb3503a594905840bcb57a0cd5cd"
+  },
+  "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.prj": {
+    "bytes": 145,
+    "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+  },
+  "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.shp": {
+    "bytes": 50524,
+    "sha256": "7e287b8f118a97987539c1a7f35f0b93107c705ff7438fe1f2e9bba2e619b9e0"
+  },
+  "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.shx": {
+    "bytes": 108,
+    "sha256": "007647ad73e8167d57f42921936f6fb39125e183319603a8745a2e4263ebde29"
+  },
+  "04_B赛道/07_DEM（2026-08-26）/DEM.tfw": {
+    "bytes": 81,
+    "sha256": "5a3abc5a2ec97ca8f662558305229333c7b6d4a672f34416754622895e05831c"
+  },
+  "04_B赛道/07_DEM（2026-08-26）/DEM.tif": {
+    "bytes": 8437119,
+    "sha256": "7b9e8e53282b2e91d5302e616840c802eda80a963ce0777ddc6da2b65c6db9af"
+  },
+  "04_B赛道/07_DEM（2026-08-26）/DEM.tif.aux.xml": {
+    "bytes": 2326,
+    "sha256": "8f6c82061d45641e5733a5f7d920d3fd10e028203282021de13ad18f3a80b98b"
+  },
+  "04_B赛道/07_DEM（2026-08-26）/DEM.tif.ovr": {
+    "bytes": 2276161,
+    "sha256": "5adf265f23f2984c191bf64e2fbae9adc37bb31fc03edf278de737017d7ad1f6"
+  },
+  "04_B赛道/07_DEM（2026-08-26）/DEM.tif.xml": {
+    "bytes": 5786,
+    "sha256": "80557f3241126bc525a27e30f6f94f55ebc19f98b6676ebd0596606bd531e8be"
+  },
+  "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc": {
+    "bytes": 362728,
+    "sha256": "0a57192a65557f052dbc0bfbca71687ad1d158d4edaa363f26b3d65f337f32c8"
+  },
+  "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2020.tif": {
+    "bytes": 25144116,
+    "sha256": "03a2de7e6545bb4973add8a54040f24a81ae22f71b227c71e0ed19084b7f2073"
+  },
+  "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2021.tif": {
+    "bytes": 25095672,
+    "sha256": "7ef2dace1fbcfb8d6b13dbfcb0b3caa31c7feeb7648da19a759b7928b127db56"
+  },
+  "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2022.tif": {
+    "bytes": 25095672,
+    "sha256": "5ba75e0b5e4c89502dbadcb296cf67ff1b83c3762c17fa5d00dab2228f8d49bb"
+  },
+  "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2023.tif": {
+    "bytes": 25095672,
+    "sha256": "4f5cc202b88b5c73a66e07c178bad11146237750790add5fecda8869d47da7b4"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "background_evidence_review",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "id": "NC_parameter_domain_or_reviewed_search_AOI",
+    "true_failure_geometry_verified": false
+  },
+  "variable_semantics": "historical product and access evidence only; no event parameter estimates",
+  "available_time": null,
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "data_role": "exploration",
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+  },
+  "evidence_status": "local_fact",
+  "generated_at_utc": "2026-10-24T06:15:10.351096+00:00",
+  "status": "ready_for_joint_review",
+  "velocity_chain_records": 16,
+  "parameter_updates": 9,
+  "sar_scenes_attempted": 2,
+  "sar_http_statuses": [
+    401,
+    401
+  ],
+  "sar_body_bytes_combined": 192,
+  "sar_body_limit": 134217728,
+  "usable_pixels_obtained": false,
+  "co_registration_verified": false,
+  "search_aoi_adopted_only_for_catalogue_screening": true,
+  "whole_search_aoi_contained": false,
+  "all_three_map_symbol_anchors_inside": true,
+  "offline_guard_checks_passed": 7,
+  "first_round_residual_recomputed": false,
+  "raw_velocity_values_modified": false,
+  "scientific_model_acceptance": "not_evaluated; no threshold or event reconstruction",
+  "resolved": [
+    "official definition context",
+    "stage3 velocity preservation",
+    "fixed-pair anonymous access outcome",
+    "reviewed search-AOI catalogue support"
+  ],
+  "unknown": [
+    "exact native source object/local maker chain",
+    "residual cause",
+    "velocity vector rotation",
+    "event parameters",
+    "pixel content and quality"
+  ],
+  "blocked_for_current_route": [
+    "2026 VV pixel change analysis via tested anonymous endpoints",
+    "event-constrained critical-condition estimation"
+  ],
+  "can_continue": [
+    "background evidence stratification",
+    "source/terrain provenance",
+    "conditional uncertainty design"
+  ]
+}

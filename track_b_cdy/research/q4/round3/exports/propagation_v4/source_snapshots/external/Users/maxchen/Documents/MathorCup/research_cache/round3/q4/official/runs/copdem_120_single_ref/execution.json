@@ -1,0 +1,15 @@
+{
+  "run_id": "copdem_120_single_ref",
+  "image_id": null,
+  "container_id": "ad84a77a0ea9eb7447f61eb2e08756f00665429b7c90f8744a957efd918fd8c7",
+  "returncode": -15,
+  "quality_gate": "quarantined_single_phase_surface2_out_of_bounds_risk",
+  "actual_termination_or_classification_utc": "2026-10-24T08:07:10.487505+00:00",
+  "status": "quarantined_configuration",
+  "excluded_from_model_comparison_and_q3": true,
+  "preserve_original_case_and_partial_fields": true,
+  "case_sha256": "9f26a8f543a8b2eccd9f463c17cfcc0a38834f5b49906a7b0cec8198351f4575",
+  "log_sha256": "626d3ad2f6d598608d8d04146cb4423afca8a2f511bdae9a79c7439773e4fc42",
+  "elapsed_seconds": null,
+  "original_execution_record": null
+}

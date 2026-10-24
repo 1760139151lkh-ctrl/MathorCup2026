@@ -1,0 +1,53 @@
+{
+  "common_baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+  "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+  "model_ids": [
+    "A_marginal_ecdf",
+    "B_shrunk_conditional",
+    "C_other_family_analog"
+  ],
+  "mechanism_id": "not_applicable_statistical_case_anomaly",
+  "experiment_id": "q1-r3-three-route-v1",
+  "scenario_id": "regional_observational_case",
+  "geometry_version": "Gyirong_metadata_unverified_local_equivalence",
+  "parameter_version": "q1-r3-protocol-v1",
+  "evaluation_stratum": "local_observational",
+  "data_role": "exploration",
+  "available_time": null,
+  "event_id": "B20260826_Chhochen_case_reference_not_independent_truth",
+  "physical_phase": "pre_reference_regional_background_comparison",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "station_id": "Gyirong_regional_background",
+    "longitude": 85.29,
+    "latitude": 28.86,
+    "elevation_m": 4140,
+    "crs": null,
+    "positional_uncertainty": null,
+    "status": "metadata assertion; local equivalence and source-area representativeness unverified"
+  },
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "source_clock_hypothesis": "UTC+8; averaging intervals unknown",
+  "independent_accepted_training_events": 0,
+  "independent_accepted_validation_events": 0,
+  "interpretation": "case anomaly rankings; no hazard discrimination/causality validation",
+  "input_version": {
+    "common_baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "frozen_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+    "feature_bundle_version": "q1-r3-feature-v1",
+    "feature_bundle_sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+    "advisor_q3_bundle_sha256": "04016b75b0af3be4439952705f39d83493317b2b3b594d9bed49448ea13a1ff3"
+  },
+  "evidence_status": "inference_and_candidate_from_local_numeric_facts; metadata_equivalence_unverified",
+  "variable_semantics": {
+    "contract_ref": "results/feature_contract.csv",
+    "quality_rule": "original paired QC0 remains strict in both tracks; unknown finite labels separate; 0.75 support primary with 0.50/0.90 sensitivity",
+    "units": "feature-specific contract; all scores/ranks dimensionless",
+    "integration_interval": null,
+    "availability_status": "unknown"
+  },
+  "model_id": "multiple_models; see per-row model_id or model_ids list"
+}

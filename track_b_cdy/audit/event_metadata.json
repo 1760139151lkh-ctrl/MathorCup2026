@@ -1,0 +1,26 @@
+{
+  "source_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tbwb&format=geojson",
+  "retrieved_at_utc": "2026-10-24T03:07:45.346416+00:00",
+  "selected_fields_only": true,
+  "event_id": "us7000tbwb",
+  "event_type": "landslide",
+  "origin_time_epoch_ms": 1787712730000,
+  "origin_time_utc": "2026-08-26T02:52:10+00:00",
+  "origin_time_china": "2026-08-26T10:52:10+08:00",
+  "origin_time_nepal": "2026-08-26T08:37:10+05:45",
+  "coordinates_lon_lat_depth_km": [
+    85.515,
+    28.271,
+    0
+  ],
+  "place": "55 km NW of Kodāri̇̄, Nepal",
+  "status": "reviewed",
+  "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbwb",
+  "source_updated_epoch_ms": 1792791413040,
+  "limitations": [
+    "Catalog origin time is a reference, not proof of the first mechanical failure or debris-flow conversion time.",
+    "No verified port-arrival time is included.",
+    "The problem statement time is retained separately; the discrepancy is unresolved.",
+    "Current reviewed metadata may contain post-event revisions unavailable at a simulated forecast issue time."
+  ]
+}

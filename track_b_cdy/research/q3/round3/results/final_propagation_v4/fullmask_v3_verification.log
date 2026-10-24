@@ -1,0 +1,1 @@
+{"passed": true, "mode": "verify_only", "source_base_commit": "0d5326d6e3428df4d714d8101c41c7c925eca0ef", "input_manifest_sha256": "5e58c21c9e592b629d4cf3489614ee043a44e9d68a2a27e0668ee90fc1285c0b", "output_manifest_sha256": "5818c45fb63cefc0c8166cf78fc6d4ce3399c9586b492b3b4d01fe599529249b", "bundle_sha256": "f76097b0cf75f403c04ef0315be0a366d8d07d3b37406e94f787be7dd504fbd8"}

@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-10-24T10:08:01.541072+00:00",
+  "native_parameter_files": [
+    {
+      "run_id": "copdem_120_single_ref__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_ref__sf0/copdem_120_single_ref__sf0_results/copdem_120_single_ref__sf0_files/copdem_120_single_ref__sf0_paramcomm.txt",
+      "sha256": "fa0c86b27ede13831814970478ec7a49a1ca1adcedc56b3491262bfe99a17358"
+    },
+    {
+      "run_id": "copdem_120_single_cfl025__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_cfl025__sf0/copdem_120_single_cfl025__sf0_results/copdem_120_single_cfl025__sf0_files/copdem_120_single_cfl025__sf0_paramcomm.txt",
+      "sha256": "1a1417ef8561ed035ed30128c307bca7f0e0c4edccb0f626d151ee25fcb6a2fb"
+    }
+  ],
+  "normalization": "runid strings only, allactualnumericparametersretained",
+  "native_diff_after_runid_normalization": [
+    "--- copdem_120_single_ref__sf0",
+    "+++ copdem_120_single_cfl025__sf0",
+    "@@ -100,7 +100,7 @@",
+    " Factor for slow motion\t1.00",
+    " Viscosity control\t1.00000",
+    " Flux control\t1.00000",
+    "-CFL criterion\t0.50",
+    "+CFL criterion\t0.25",
+    " Length of first time step (s)\t0.0100",
+    " Profile vertices (x and y coordinates)\tNone",
+    " Control points (x and y coordinates)\tNone"
+  ],
+  "actual_binary_sha256": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+  "no_native_reexecution": true
+}

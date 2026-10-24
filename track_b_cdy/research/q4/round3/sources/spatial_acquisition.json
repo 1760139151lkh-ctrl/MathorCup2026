@@ -1,0 +1,71 @@
+{
+  "version": "q4-r3-spatial-source-v1",
+  "records": [
+    {
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/readme.html",
+      "method": "GET",
+      "status": 200,
+      "retrieved_at_utc": "2026-10-24T07:31:03.617059+00:00",
+      "bytes": 8536,
+      "sha256": "922461d55070e3c7e0cf2903ec54190d69e3773da2dc9e776a3f03566cfd56d2",
+      "actual_read_scope": "complete HTTP response",
+      "content_type": "text/html",
+      "etag": "\"022cee281269bfa9eafa36401ef3e104\"",
+      "request_body": null,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/copdem_readme.html"
+    },
+    {
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N28_00_E085_00_DEM/Copernicus_DSM_COG_10_N28_00_E085_00_DEM.tif",
+      "method": "GET",
+      "status": 200,
+      "retrieved_at_utc": "2026-10-24T07:31:05.833931+00:00",
+      "bytes": 38402839,
+      "sha256": "1590255a0ae7e8c1f49b277e287032a18a2e32c8e13c4c3298ed458f851cd3c7",
+      "actual_read_scope": "complete HTTP response",
+      "content_type": "image/tiff",
+      "etag": "\"0e1522e26e1a768bdaa827aa64436a0b\"",
+      "request_body": null,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/Copernicus_DSM_COG_10_N28_00_E085_00_DEM.tif"
+    },
+    {
+      "url": "https://overpass-api.de/api/interpreter",
+      "method": "POST",
+      "status": 406,
+      "retrieved_at_utc": "2026-10-24T07:31:25.417016+00:00",
+      "bytes": 156,
+      "sha256": "7cd905d731bc5983f218aa91824747ef52e7b2cef4a2bf4aa2adba91dc3e61e6",
+      "actual_read_scope": "complete HTTP response",
+      "content_type": "text/html",
+      "etag": null,
+      "request_body": {
+        "data": "[out:json][timeout:60];(way[\"waterway\"~\"river|stream\"](28.25,85.35,28.36,85.55);way[\"bridge\"](28.25,85.35,28.36,85.55);node[\"barrier\"=\"border_control\"](28.25,85.35,28.36,85.55);way[\"amenity\"=\"customs\"](28.25,85.35,28.36,85.55);node[\"amenity\"=\"customs\"](28.25,85.35,28.36,85.55););out tags center geom;"
+      },
+      "failure_excerpt": "<html>\r\n<head><title>406 Not Acceptable</title></head>\r\n<body>\r\n<center><h1>406 Not Acceptable</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "url": "https://earth-search.aws.element84.com/v1/search",
+      "method": "POST",
+      "status": 200,
+      "retrieved_at_utc": "2026-10-24T07:31:27.446912+00:00",
+      "bytes": 648432,
+      "sha256": "edc4d9a0511dcfb0024c34ee4e6f159010f4a2af166e02a430c85f91e5c17e56",
+      "actual_read_scope": "complete HTTP response",
+      "content_type": "application/geo+json; charset=utf-8",
+      "etag": "W/\"9e4f0-2W1bFECtzZux9RdVlgGTSPAhVoM\"",
+      "request_body": {
+        "collections": [
+          "sentinel-2-l2a"
+        ],
+        "bbox": [
+          85.35,
+          28.25,
+          85.55,
+          28.36
+        ],
+        "datetime": "2026-08-01T00:00:00Z/2026-09-30T23:59:59Z",
+        "limit": 100
+      },
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/sentinel2_search.json"
+    }
+  ]
+}

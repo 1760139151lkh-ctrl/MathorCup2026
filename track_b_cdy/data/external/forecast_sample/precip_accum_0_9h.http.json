@@ -1,0 +1,13 @@
+{
+  "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20260825/18/atmos/gfs.t18z.pgrb2.0p25.f009",
+  "range": [
+    433413970,
+    433819197
+  ],
+  "http_status": 206,
+  "content_range": "bytes 433413970-433819197/544955433",
+  "etag": "\"854b49133eff0621b43f59c19b3e1c66\"",
+  "fetched_at_utc": "2026-10-24T03:35:19.594911+00:00",
+  "bytes": 405228,
+  "sha256": "342d34c3d44c28df5cf08ac60874029b37bda6c58d08ed9cb864c98381589991"
+}

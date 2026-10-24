@@ -1,0 +1,60 @@
+{
+  "experiment_id": "q2r3-composition-domain-extension-v1",
+  "files": [
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/baseline_outcomes_64.csv",
+      "bytes": 46130,
+      "sha256": "26decc1c8cfe3f16a90602a8d3d194f2f7056ee001bd7bb3f7086021566a45a3",
+      "role": "independent_composition_result"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/comparison_by_mechanism.csv",
+      "bytes": 2823,
+      "sha256": "d52046abb36f0a155e06ae5524e540570eb306e24a0849a117e4d9365f76d286",
+      "role": "independent_composition_result"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/paired_changes_128.csv",
+      "bytes": 149920,
+      "sha256": "63c1689a787f4ef55803e8a5c097d32d4f5100af6ff5259ba02b4d0fce2b2d4a",
+      "role": "independent_composition_result"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/parameter_ensemble_128.csv",
+      "bytes": 80892,
+      "sha256": "f5efa93e7ce69dc11e4dc6ddeb77b8c2e92dbb7f40dc66ec5f86350d50d02c2d",
+      "role": "independent_composition_result"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/protocol.json",
+      "bytes": 8844,
+      "sha256": "c28bec93ee0e15b291898b9a6b8943f700caedb6ec3b8c6630bbee665d218dd6",
+      "role": "independent_composition_result"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/scenario_outcomes_128.csv",
+      "bytes": 93350,
+      "sha256": "7049de22947c497e527a3d0913a2bcdb80da3594c1010821da33674ed8c4ee59",
+      "role": "independent_composition_result"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/state_trajectories_128.parquet",
+      "bytes": 7241929,
+      "sha256": "dfcc46be9b3a97b4cce51b3e425d3afb4d45536c4e845e47a7c5ce2be46e893e",
+      "role": "independent_composition_result"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/summary.json",
+      "bytes": 3061,
+      "sha256": "a154eccd5349024fc1a994b34140ad83c32baab64c590036701e5f1697c8d1a5",
+      "role": "independent_composition_result"
+    },
+    {
+      "path": "track_b/research/q2/round3/COMPOSITION_SENSITIVITY.md",
+      "bytes": 2976,
+      "sha256": "8ed109ce17d130b0a2edb905b0d9079a152aae3a59283c9e865613d07164314c",
+      "role": "human_readable_composition_report"
+    }
+  ],
+  "self_entry": false
+}

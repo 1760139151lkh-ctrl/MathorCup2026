@@ -1,0 +1,15 @@
+{
+  "worldcover_year": 2021,
+  "source_sha256": "77b7f73e68f9f0940c322610de343d6748360120616b5de67554e40277ea40e4",
+  "method": "Rasterio reproject to NC grid, nearest resampling; original class codes retained.",
+  "mask_cells": 7152,
+  "valid_class_cells": 7152,
+  "class_code_counts": {
+    "30": 1,
+    "60": 706,
+    "70": 6260,
+    "80": 161,
+    "100": 24
+  },
+  "limitation": "2021 background classification; not an observed 2026 failure polygon or event-time land-cover map."
+}

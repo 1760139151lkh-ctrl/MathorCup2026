@@ -1,0 +1,22 @@
+# Stage 3: data I/O, GIS, quality-control and reproducible diagnostic plots.
+# Resolved versions are recorded in requirements-lock.txt after actual validation.
+numpy<3
+pandas<3
+scipy<2
+pyarrow
+openpyxl
+xarray
+h5netcdf
+h5py
+rasterio
+pyproj
+shapely
+geopandas
+pyogrio
+tifffile
+Pillow
+matplotlib
+requests
+cfgrib
+eccodes
+pypdf

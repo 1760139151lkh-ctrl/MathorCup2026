@@ -1,0 +1,32 @@
+{
+  "code_files": [
+    {
+      "path": "track_b/paper/scripts/build_evidence.py",
+      "title": "论文论断与数值来源核对"
+    },
+    {
+      "path": "track_b/paper/scripts/build_references.py",
+      "title": "参考文献按首次引用排序"
+    },
+    {
+      "path": "track_b/paper/scripts/build_program_appendix.py",
+      "title": "自编程序清单与完整源码附录"
+    },
+    {
+      "path": "track_b/paper/scripts/build_supplement_tables.py",
+      "title": "参数范围与机制分类附表生成"
+    },
+    {
+      "path": "track_b/paper/scripts/verify_paper.py",
+      "title": "论文结构、引用、匿名和研究完整性检查"
+    },
+    {
+      "path": "track_b/paper/scripts/render_qa.py",
+      "title": "PDF逐页渲染与总览图生成"
+    },
+    {
+      "path": "track_b/paper/scripts/build_paper.py",
+      "title": "论文可重复构建入口"
+    }
+  ]
+}

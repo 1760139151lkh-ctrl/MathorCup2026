@@ -1,0 +1,119 @@
+{
+  "generated_at_utc": "2026-10-24T08:43:25.313456+00:00",
+  "inputs": [
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/state_trajectories.parquet",
+      "bytes": 3188047,
+      "sha256": "8f69e562bda819a348ec0e7dc000d79af7885015f4770a5ebbe5c6ec01a7b081"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/bundle.json",
+      "bytes": 9041,
+      "sha256": "12eb0b329acede54face734b145cf33a8bfc5d329f6231b5a110c52ddec618c9"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_protocol.json",
+      "bytes": 895,
+      "sha256": "21e72fbe8d79980a626e390958469305ee4e8f84b9cdd744f2d2e4c4756be006"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/config.json",
+      "bytes": 4642,
+      "sha256": "210616d1e1adb94e57cdb3ef415cb40808ae4a05f7a0fdd81f3b5dddfd24d5ac"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/forcing_hourly_v2.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/parameter_ensemble.csv",
+      "bytes": 1169784,
+      "sha256": "a8a8f091a7cb0abf1847db784c83d9e4b73f42896c126468b100026f1ea35293"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/state_trajectories.parquet",
+      "bytes": 3188047,
+      "sha256": "8f69e562bda819a348ec0e7dc000d79af7885015f4770a5ebbe5c6ec01a7b081"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/scenario_outcomes.csv",
+      "bytes": 837472,
+      "sha256": "2338e53291c2225f1e172cc85145d6cc047d6c40599b49051f51fe790b5f6edd"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/model_comparison.csv",
+      "bytes": 1688,
+      "sha256": "5a54fb20bced14d387daaa6acd34f364bef776e919bddc513ebc9b89c7f703a6"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/mechanism_contract.json",
+      "bytes": 3907,
+      "sha256": "afca7a8fd0684808e4bab67cdad073e80aedc189bc0fae234047e9ecfaa5e5ff"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/paired_v1_v2.csv",
+      "bytes": 1065426,
+      "sha256": "c3a2d4a971cf98b355ec6a69800ec0d56abeea96a2f7caeb250214aa2ca1e0f1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/joint_sensitivity.csv",
+      "bytes": 30015,
+      "sha256": "38a97ed39c79cab5964a1b31cf18b753fb6fc40f86b73a2f9b4cabbd499fe4de"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/interaction.csv",
+      "bytes": 13784,
+      "sha256": "8681e19e24fa0ee3569720f4032df9d288f07d7cfa6dfe9071cf0d8f9e36b456"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_125_vs_0625.csv",
+      "bytes": 10885,
+      "sha256": "a45f8707ea1afcd91521187e223c1e27332d055fbdd3689ea9d1ec99b02f591d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_summary.json",
+      "bytes": 4746,
+      "sha256": "091ce1777f5deaa4ff76341ebe435ec9a713e73d3dd901b6b48a6aff08dc7a79"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/run_experiments.py",
+      "bytes": 21983,
+      "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/run_refined_v2.py",
+      "bytes": 28213,
+      "sha256": "100ece09e9348a81d3344964a6d9603347b388b5f5dc01beea707542e808e616"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/NUMERICAL_REFINEMENT.md",
+      "bytes": 3098,
+      "sha256": "0c147f8f7cc52d6135ce7dee87fc12304f5f3c633123c13f960f464d84658b9f"
+    }
+  ],
+  "scenario_trajectories": 2048,
+  "status_counts": {
+    "no_cross_observed_complete": 1663,
+    "left_censored_already_unstable": 248,
+    "point_crossing_linear_between_samples": 137
+  },
+  "prediction_rows": 3375,
+  "checks": {
+    "probability_normalized": true,
+    "nonnegative_no_start_preserved": true,
+    "no_false_local_coverage": true,
+    "historical_certification_not_inferred": true,
+    "left_censor_is_not_precise_first_sample": true
+  },
+  "limitations": [
+    "Future trajectories are conditional scenarios unless delivered per-issue forecast provenance establishes otherwise",
+    "Discrete priors are explicit analyst sensitivity assumptions; parameter range alone does not imply probability",
+    "No accepted local initiation truth; no local empirical coverage or validated onset probability"
+  ]
+}

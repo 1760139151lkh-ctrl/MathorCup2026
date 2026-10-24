@@ -1,0 +1,128 @@
+{
+  "generated_at_utc": "2026-10-24T07:45:55.373451+00:00",
+  "geometry_version": "q4-r3-spatial-copdem-v1",
+  "bundle_sha256": "b6c02508acbe7bf131a0414ef7a90cafef2c5580597e2bc3b6f990e6892c4955",
+  "verified_files": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "role": "primary_dem_60m"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_60m.npz",
+      "bytes": 241460,
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915",
+      "role": "model_arrays_60m",
+      "producer_original_path": "track_b/research/q4/round3/results/spatial_inputs_60m.npz",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_inputs_60m.npz"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_120m.tif",
+      "bytes": 39968,
+      "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+      "role": "primary_dem_120m"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_120m.npz",
+      "bytes": 55797,
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+      "role": "model_arrays_120m",
+      "producer_original_path": "track_b/research/q4/round3/results/spatial_inputs_120m.npz",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_inputs_120m.npz"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "role": "computational_geometry_candidates",
+      "producer_original_path": "track_b/research/q4/round3/results/computational_geometries.geojson",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/computational_geometries.geojson"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_paths.csv",
+      "bytes": 101231,
+      "sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e",
+      "role": "paths_60m_csv",
+      "producer_original_path": "track_b/research/q4/round3/results/spatial_paths.csv",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_paths.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/terrain_bundle.json",
+      "bytes": 4745,
+      "sha256": "c7ce3a11c0dd5637f39bcb1fad81f3dbf08238045c825b41f80d00f14422ca0e",
+      "role": "terrain_bundle",
+      "producer_original_path": "track_b/research/q4/round3/results/terrain_bundle.json",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/terrain_bundle.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/figures/spatial_terrain_paths.png",
+      "bytes": 370168,
+      "sha256": "0de4a3e0cfa492e58ce8b35ac66e4e1f54b4f48ef4c5454d0da4f0ea678dac1d",
+      "role": "terrain_path_figure",
+      "producer_original_path": "track_b/research/q4/round3/figures/spatial_terrain_paths.png",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/figures/spatial_terrain_paths.png"
+    }
+  ],
+  "dem_read_checks": [
+    {
+      "role": "primary_dem_60m",
+      "crs": "EPSG:32645",
+      "shape": [
+        154,
+        300
+      ],
+      "finite_cells": 46200,
+      "bounds": [
+        339480.0,
+        3127680.0,
+        357480.0,
+        3136920.0
+      ],
+      "resolution": [
+        60.0,
+        60.0
+      ]
+    },
+    {
+      "role": "primary_dem_120m",
+      "crs": "EPSG:32645",
+      "shape": [
+        77,
+        150
+      ],
+      "finite_cells": 11550,
+      "bounds": [
+        339480.0,
+        3127680.0,
+        357480.0,
+        3136920.0
+      ],
+      "resolution": [
+        120.0,
+        120.0
+      ]
+    }
+  ],
+  "conditional_source_centroid_lon_lat": [
+    85.52533160239356,
+    28.288343460174772
+  ],
+  "nearest_GFS_grid_centre": {
+    "latitude": 28.25,
+    "longitude": 85.5,
+    "distance_m": 4922.861473447089
+  },
+  "weather_grid_spacing_degrees": 0.25,
+  "source_raster_areas_m2": {
+    "60": 925200,
+    "120": 964800
+  },
+  "evaluation_stratum": "conditional_scenario",
+  "limitations": [
+    "Source is a computational candidate, not an accepted release boundary",
+    "GFS 0.25 degree cells and regional station are environmental background, not source-slope thermohydrology measurements",
+    "COPDEM acquisition2011-2015/release2021 is not 2026 event topography; EGM2008 height reference",
+    "No propagation delay supplied yet; geometry does not establish initiation or arrival truth"
+  ]
+}

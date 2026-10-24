@@ -1,0 +1,92 @@
+[
+  {
+    "member": "m1688868/data_repository/data/Agoyama.csv",
+    "sha512": "ff15e4e2dd19653b8691f0ad3c431e178225113876490e40b473d292f31a2d1f040d99ee582b49d4586be2f967c0829537e5c70a1269d976b18f6d91e3e7fd98",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Arvigo.csv",
+    "sha512": "5015fe4ab8ad407c4e7332d1fc1e793af77effd6b1a6bbd74e6fd01c0e7d784502f1d027ca85ae8cd92a217bb2c6c9839563ae6b49cf741e0df78d1818e1b321",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Galterengraben.csv",
+    "sha512": "cb30d563672e52e68745ce8b1d2a58009731e9da92a3c4f627b432cad889918d5950ef19df050212b9f286f744b0b14c9b86fcfae9889d3efa41efda853e0b77",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Grabengufer_gnss.csv",
+    "sha512": "ec93d89fbc350b03704fdf78a23746cc1e3728ab9fcbff1b7bec7a0325d4248d461aacb2060ff8909c20e4e9a95c2c32837ae2804abcce9be0255be164917c2b",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Grabengufer_inclinometer.csv",
+    "sha512": "de502c2318eb0c87018c70982df70585d71658bba3240f445ffcf67d5014a9800c638e95c6df1f6db406db567071083254be052c6544b885ff31b0bbe4cd69b4",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Hogarth.csv",
+    "sha512": "2ae6e21e9d865adb2534e81205a775b6ce664a9d114cc803c0bd2d8d2d9f5788760e61e467bbaf0eb02f136ae200fe80a4d3e0eed329e103ce547c2d4906d475",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Kagemori.csv",
+    "sha512": "b1a86497f24a7c6cebd3938165abc7a9c41fe340127fa4dbe485d4a770140485704b76ec14c17e373de94d4e6bd75d3809ea2a547c9a49224473307820657d48",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/La_Saxe.csv",
+    "sha512": "99497d2c9f974483b46352fb9d36ac6758136c8ff9bc681bb41da8f123f0c67686f30d777bb1d63c3fdb7771cc2ae6ef4ec042628ab8f55b87a6b59ca0afb22c",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Nevis-Bluff.csv",
+    "sha512": "a210a544adc63b473654cac014b116d3f0df2e982930494e9dba167e9e31d6a931b7439f9cf49b3bff20c73feb4613753115cd33cb64fa0956d6b19de4d0036a",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Ohto.csv",
+    "sha512": "6c3217985a7a83bf5c41134b23a5bb27194befed101b5f00c139c774f7bc327ca17924b8664e0395ed1e141db7480676a406b66d4cb87e7bd62c38ea46bacf74",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Preonzo_extensometers.csv",
+    "sha512": "93a2bee354526b19cae31821933c24e169b3a27accc06e970ff7f6ef1a35d6b1439a24d018b61354ccb0fed1b5e27c9c1b51cc29238ee61d27e09e7f39a1f8da",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Preonzo_reflectors.csv",
+    "sha512": "a9962f31d855f43f5dfe5c2b4b7d93b7f9503bac58d4c40430eec7dc79906adbabacaa323470d6931e0b2a61a41404a9459cad00ac15a4e79d94ca6846b725f8",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Ryan_Call_slope2.csv",
+    "sha512": "87dde975f3c4191f552e39fed858fe400f86e8b4f545953c16e2f0045c1478fea9c9e06294dc6ae4c6e144042c2887add2f8ef05798511713720547be478a12c",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Vaiont.csv",
+    "sha512": "853b11b0c458cb60ebdfad8b1b190fc112099bfe0e1e345b1e405a5b5d23e72f9d7497a5d43302600d7ce24ec536aee27c66d0f2dea07cb5bf6f3d3fd469fb02",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Veslemannen.csv",
+    "sha512": "0ac2ed519bb460f0bb9a5cdc5cb9877097df703be093b2ce3e0f5359bfc12556f3cdc977ac19dcc839438ff636ce37f360eee3652fb54d23ada75dc896a4d91d",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Weissmiess_camera.csv",
+    "sha512": "c55291da039c7c86f1e77844cbb1a7d9cbd559cdcd784ab99402010dc1f16c59a48645574ef1f9dae3a5d77eee786330219a25878c28c7c547534553209d3464",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/data/Weissmiess_radar.csv",
+    "sha512": "2f0a70b8372925bab004a2483de6c03e5c788b72cd8fca41c77ff864888f9f1f748d45cfcbb161e8414c6e44625626e9324dc48412c3242811c23cc53adbd401",
+    "matches": true
+  },
+  {
+    "member": "m1688868/data_repository/README.txt",
+    "sha512": "2126e0abb41275b9cfaf953716a896a2aa487fd2dd3dd1fef0f02564bd84ec02806a0b137b6698d3181316cf462bed9d7815eb0ccc4e77237345f377e926d949",
+    "matches": true
+  }
+]

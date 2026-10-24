@@ -1,0 +1,99 @@
+{
+  "bundle_version": "q2-r3-literature-composition-v1",
+  "producer_question": "q2",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "evaluation_stratum": "conditional_scenario",
+  "files": [
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/COMPOSITION_SENSITIVITY.md",
+      "bytes": 2976,
+      "sha256": "8ed109ce17d130b0a2edb905b0d9079a152aae3a59283c9e865613d07164314c",
+      "role": "COMPOSITION_SENSITIVITY.md",
+      "upstream_path": "track_b/research/q2/round3/COMPOSITION_SENSITIVITY.md"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/scripts/analyze_composition.py",
+      "bytes": 29369,
+      "sha256": "801bd11ce305a6c3d679bd795b94c76994a384f32634d241bfb831e160823699",
+      "role": "scripts/analyze_composition.py",
+      "upstream_path": "track_b/research/q2/round3/scripts/analyze_composition.py"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/baseline_outcomes_64.csv",
+      "bytes": 46130,
+      "sha256": "26decc1c8cfe3f16a90602a8d3d194f2f7056ee001bd7bb3f7086021566a45a3",
+      "role": "results/composition_sensitivity/baseline_outcomes_64.csv",
+      "upstream_path": "track_b/research/q2/round3/results/composition_sensitivity/baseline_outcomes_64.csv"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/comparison_by_mechanism.csv",
+      "bytes": 2823,
+      "sha256": "d52046abb36f0a155e06ae5524e540570eb306e24a0849a117e4d9365f76d286",
+      "role": "results/composition_sensitivity/comparison_by_mechanism.csv",
+      "upstream_path": "track_b/research/q2/round3/results/composition_sensitivity/comparison_by_mechanism.csv"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/output_index.json",
+      "bytes": 2464,
+      "sha256": "e3e1fb5730aa6e769e4182335adb1cf53fb6c197ffd0150290f54f818cd4a229",
+      "role": "results/composition_sensitivity/output_index.json",
+      "upstream_path": "track_b/research/q2/round3/results/composition_sensitivity/output_index.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/paired_changes_128.csv",
+      "bytes": 149920,
+      "sha256": "63c1689a787f4ef55803e8a5c097d32d4f5100af6ff5259ba02b4d0fce2b2d4a",
+      "role": "results/composition_sensitivity/paired_changes_128.csv",
+      "upstream_path": "track_b/research/q2/round3/results/composition_sensitivity/paired_changes_128.csv"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/parameter_ensemble_128.csv",
+      "bytes": 80892,
+      "sha256": "f5efa93e7ce69dc11e4dc6ddeb77b8c2e92dbb7f40dc66ec5f86350d50d02c2d",
+      "role": "results/composition_sensitivity/parameter_ensemble_128.csv",
+      "upstream_path": "track_b/research/q2/round3/results/composition_sensitivity/parameter_ensemble_128.csv"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/protocol.json",
+      "bytes": 8844,
+      "sha256": "c28bec93ee0e15b291898b9a6b8943f700caedb6ec3b8c6630bbee665d218dd6",
+      "role": "results/composition_sensitivity/protocol.json",
+      "upstream_path": "track_b/research/q2/round3/results/composition_sensitivity/protocol.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/scenario_outcomes_128.csv",
+      "bytes": 93350,
+      "sha256": "7049de22947c497e527a3d0913a2bcdb80da3594c1010821da33674ed8c4ee59",
+      "role": "results/composition_sensitivity/scenario_outcomes_128.csv",
+      "upstream_path": "track_b/research/q2/round3/results/composition_sensitivity/scenario_outcomes_128.csv"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/state_trajectories_128.parquet",
+      "bytes": 7241929,
+      "sha256": "dfcc46be9b3a97b4cce51b3e425d3afb4d45536c4e845e47a7c5ce2be46e893e",
+      "role": "results/composition_sensitivity/state_trajectories_128.parquet",
+      "upstream_path": "track_b/research/q2/round3/results/composition_sensitivity/state_trajectories_128.parquet"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/summary.json",
+      "bytes": 3061,
+      "sha256": "a154eccd5349024fc1a994b34140ad83c32baab64c590036701e5f1697c8d1a5",
+      "role": "results/composition_sensitivity/summary.json",
+      "upstream_path": "track_b/research/q2/round3/results/composition_sensitivity/summary.json"
+    }
+  ],
+  "limitations": [
+    "128 integrations on8 fixed representatives; rock volume fraction .85/.90 changes homogenized slab density only; bridge area fraction unchanged.",
+    "Retrospective literature candidate composition, not local measurement or prior.103.35/90.75 precise volumes are advisor-provided only; original abstracts support about12% or10-15%ice.",
+    "No automatic change to frozen release geometry/volume/composition; use explicit new scenario mapping if adopted.",
+    "Changed timing is conditional counterfactual; independent events0; numerical precision limits of fine thermal model still apply."
+  ],
+  "advisor_review": {
+    "upstream_bundle_sha256": "14f96d7d1e8600154a831dba9921a9efbf70eeacfd71e54b12af78879b762335",
+    "note": "Accepted as paired parameter-domain sensitivity: literature-candidate rock fractions0.85/0.90 on8 fixed representatives,128 integrations. Bulk density intervention only; bridge area fraction and all other paired parameters unchanged. Categories unchanged while finite crossing times shift substantially; not event calibration, probability prior, new release mapping or observed material composition. Existing release bundles not altered.",
+    "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+  }
+}

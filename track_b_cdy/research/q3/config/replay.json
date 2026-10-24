@@ -1,0 +1,16 @@
+{
+  "config_version": "q3-r1-replay-v1",
+  "baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+  "event_id": "B20260826_Chhochen",
+  "issue_times_utc": ["2026-08-25T21:00:00+00:00", "2026-08-26T02:00:00+00:00", "2026-08-26T03:00:00+00:00"],
+  "issue_grid_role": "fixed technical gate demonstration; not a finalized warning schedule",
+  "forecast_delay_scenarios_hours": [0, 3, 6, 9],
+  "scenario_note": "Explicit assumptions measured from forecast reference time; not verified historical delays and not certified conservative bounds",
+  "unknown_available_time_eligible": false,
+  "availability_boundary": "available_time <= issue_time",
+  "coverage_boundary": "closed_interval",
+  "nominal_alpha_for_synthetic_formula_check": 0.05,
+  "allow_model_fitting": false,
+  "allow_real_coverage_claim": false,
+  "label_role": "audit_only; no training or independent validation acceptance"
+}

@@ -1,0 +1,68 @@
+{
+  "generated_at_utc": "2026-10-24T09:58:06.992565+00:00",
+  "base_research_commit": "bb9258d791a6e9735c28528ff4408c7434c3d149",
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/parameter_first_passages.parquet",
+      "bytes": 33794095,
+      "sha256": "fd557599f6fa54ad21bd7a44dd19aa74f5578ce73533db1ad8aeef19de2688d5"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/predictions.csv.gz",
+      "bytes": 887395,
+      "sha256": "a3dc1602e9d4ea7c80173286f5e78e5ef6cc15b2e00a0b0fb5d33f5ff3fa122d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv",
+      "bytes": 1171832,
+      "sha256": "8393874e341789316d2862435f8498ed8c9e01c4e3f674dc2b46d9bcadce6203"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/scenario_outcomes.csv",
+      "bytes": 909276,
+      "sha256": "847143dc8ad8c495ea6e7747fbbcdb187ef465b9c7879fecb4717135372dc30c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/execution_protocol_080706ce65a85932bcf2a2e98b5b86cf124dfb6b9ba792f5ad74f87c57f2b254.md",
+      "bytes": 3154,
+      "sha256": "080706ce65a85932bcf2a2e98b5b86cf124dfb6b9ba792f5ad74f87c57f2b254"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/applicability_sensitivity.py",
+      "bytes": 13744,
+      "sha256": "9c5fa15bc8a514bd90c6a335812b159bf15a91cad80176b6a4e8ccb82abff357"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/applicability/mamot2018_article.html",
+      "bytes": 324421,
+      "sha256": "4ff53f5745dafc83d4919125132a1605f027f8b1bb46cfc5bfdb696c66f7c51b"
+    },
+    {
+      "path": "track_b/research/q3/round3/exports/research_bundle.json",
+      "bytes": 4954,
+      "sha256": "fec1e69d761c04fea4c67e5379ce2b518b5e22aa301b253d01828987eef03019"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/output_manifest.json",
+      "bytes": 115457,
+      "sha256": "be979b3449118d8332ca7ff07c52c8c503889650246be8c97ac4d2f8565ee5b9"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/input_registration.json",
+      "bytes": 2228,
+      "sha256": "1723acef71726d8e6d371acd8923011807dba221646c897a7ace4d002d4bc05f"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/PROTOCOL.md",
+      "bytes": 3999,
+      "sha256": "23accd9f5368f9877ef6a2e98caa06fde751c7b4b6c25cb59aac6d1c40f71689"
+    }
+  ],
+  "execution_protocol_note": "Source terminology/history wording clarified after registration; exact executed protocol snapshot verifies registered hash; no weight-rule change",
+  "physics_rerun": false
+}

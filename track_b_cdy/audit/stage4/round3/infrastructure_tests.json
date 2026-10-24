@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-10-24T07:20:25.774005+00:00",
+  "command": "track_b/.venv/bin/python -m unittest discover -s track_b/scripts/tests -p test_stage4_workspace.py -q",
+  "tests_run": 30,
+  "passed": true,
+  "elapsed_seconds": 10.129,
+  "scope": "Original19 + 11R3 temporary-Git fixture tests; no production snapshot/verify or stage3 regeneration",
+  "code": [
+    {
+      "path": "track_b/scripts/stage4_workspace.py",
+      "sha256": "3f9b403a44b948e37972e2bf1cf55a0a621e44bc0c9ec29bf626221e8a01266b"
+    },
+    {
+      "path": "track_b/scripts/tests/test_stage4_workspace.py",
+      "sha256": "f615bc66db20b413092364c9f8f0062e7780b418ac9c7e3932a73d80e9fcad6d"
+    }
+  ]
+}

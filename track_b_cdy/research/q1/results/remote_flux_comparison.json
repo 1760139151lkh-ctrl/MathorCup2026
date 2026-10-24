@@ -1,0 +1,101 @@
+{
+  "comparison_version": "q1-r1-remote-flux-v1",
+  "local_file": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2026.csv",
+  "local_sha256": "9422c99a38ecac4c7ad3a7f416e047400aa87f70012da5fcb76fb99c8aa72791",
+  "remote_file": "sources/waternet_flux_2026.csv",
+  "remote_sha256": "f2497ab03d3898c5e0a5fd879e8acf9a56a00e0afafb4b677d86e39bc6b3c4f0",
+  "byte_identical": false,
+  "local_rows": 8760,
+  "remote_rows": 8760,
+  "common_timestamp_labels": 8760,
+  "local_only_labels": 0,
+  "remote_only_labels": 0,
+  "local_measurement_columns": 25,
+  "all_mapped_columns_exact_on_common_labels": false,
+  "timestamp_match_scope": "naive source-clock labels only; timezone and interval semantics are not proved by matching",
+  "extra_remote_columns": [
+    "Bowen_ratio",
+    "CO2_sig_strgth_Min",
+    "FC_QC",
+    "FP_EQUATION",
+    "G",
+    "H2O_sig_strgth_Min",
+    "H_QC",
+    "LE_QC",
+    "NETRAD",
+    "SG",
+    "TAU_QC",
+    "Unnamed: 37"
+  ],
+  "candidate_quality_columns": {
+    "FC_QC": "FC_mass",
+    "LE_QC": "LE",
+    "H_QC": "H",
+    "TAU_QC": "TAU"
+  },
+  "qc_semantics_accepted": false,
+  "raw_candidate_qc_tokens_by_field": {
+    "FC_QC": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "NaN"
+    ],
+    "LE_QC": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "NaN"
+    ],
+    "H_QC": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "NaN"
+    ],
+    "TAU_QC": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "NaN"
+    ]
+  },
+  "shared_met_qc_codes_for_comparison_only": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    9
+  ],
+  "candidate_qc_tokens_cannot_inherit_met_code_meanings": true,
+  "public_input_changed": false,
+  "public_quality_labels_transferred": 0,
+  "adoption_status": "proposal_only; advisor/team must review mapping, quality-code origin and historical availability",
+  "data_role": "exploration",
+  "context_ref": "context.json"
+}

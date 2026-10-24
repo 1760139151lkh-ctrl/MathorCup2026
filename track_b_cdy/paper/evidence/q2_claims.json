@@ -1,0 +1,1330 @@
+[
+  {
+    "claim_id": "q2-C01",
+    "statement": "平面板法向/驱动应力、体积组成密度与法向厚度定义",
+    "value": {
+      "sigma_n": "rho*g*h*cos(theta)/1000",
+      "tau_g": "rho*g*h*sin(theta)/1000",
+      "rho": "2700*r+917*(1-r)",
+      "g": 9.80665,
+      "h_direction": "normal_to_failure_plane"
+    },
+    "unit": {
+      "stress": "kPa",
+      "density": "kg/m^3",
+      "h": "m",
+      "g": "m/s^2"
+    },
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+        "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+      },
+      {
+        "path": "track_b/research/q2/round3/scripts/run_experiments.py",
+        "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "prescribed plane-slab scenario mechanics",
+    "paper_anchor": "q2:eq-stress"
+  },
+  {
+    "claim_id": "q2-C02",
+    "statement": "损伤仅乘面积混合黏聚项，摩擦采用非负有效应力；正裕度稳定",
+    "value": {
+      "C": "(1-D)*(fb*cb+(1-fb)*cj(T))",
+      "mu_e": "fb*mu_b+(1-fb)*mu_j(T)",
+      "R": "C+max(sigma_n-u,0)*mu_e",
+      "M": "(R-tau_g)/tau_g"
+    },
+    "unit": {
+      "C_R": "kPa",
+      "mu_e_M_D": "dimensionless"
+    },
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+        "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "common mechanical state relation",
+    "paper_anchor": "q2:eq-resistance"
+  },
+  {
+    "claim_id": "q2-C03",
+    "statement": "Mamot冰填石灰岩快速剪切关系及两强度策略",
+    "value": {
+      "c_j_intercept_kpa": 53.3,
+      "c_j_T_slope_kpa_per_c": -73.5,
+      "mu_j_intercept": 0.42,
+      "mu_j_T_slope_per_c": -0.21,
+      "source_temperature_c": [
+        -8,
+        -0.5
+      ],
+      "source_nominal_normal_stress_kpa": [
+        100,
+        400
+      ],
+      "mean_strain_rate_s_inv": 0.0048,
+      "strain_rate_plus_minus_s_inv": 0.0014,
+      "thaw_challenger_above_c": -0.5,
+      "thaw_c_kpa": 0,
+      "thaw_mu": 0.6
+    },
+    "unit": "mixed; see field suffixes",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+        "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+      },
+      {
+        "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+        "sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471"
+      },
+      {
+        "path": "track_b/research/q2/round3/lab_strength/literature/literature_facts.json",
+        "sha256": "3d8451dbe1b1a678db46e2189a7097406653ae2d5254598630fe018847cb301b"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "external brittle limestone law with domain flags; warm contact is a prescribed challenger",
+    "paper_anchor": "q2:eq-strength"
+  },
+  {
+    "claim_id": "q2-C04",
+    "statement": "19维条件域、256共同参数点、4机制和2政策构成2048情景",
+    "value": {
+      "parameter_ranges": {
+        "theta_deg": {
+          "min": 30,
+          "max": 60,
+          "scale": "linear",
+          "source": "conditional structural plane; not NC surface slope"
+        },
+        "thickness_normal_m": {
+          "min": 10,
+          "max": 60,
+          "scale": "linear",
+          "source": "conditional; NC inventory 6..154 m is background only"
+        },
+        "rock_volume_fraction": {
+          "min": 0.2,
+          "max": 0.8,
+          "scale": "linear",
+          "source": "conditional two-solid mixture; not measured"
+        },
+        "bridge_fraction": {
+          "min": 0.0,
+          "max": 0.25,
+          "scale": "linear",
+          "source": "conditional load-bearing area fraction"
+        },
+        "bridge_cohesion_kpa": {
+          "min": 300,
+          "max": 3000,
+          "scale": "log",
+          "source": "conditional rock-bridge effective cohesion, not measured"
+        },
+        "rock_mu": {
+          "min": 0.45,
+          "max": 0.85,
+          "scale": "linear",
+          "source": "conditional friction coefficient"
+        },
+        "initial_temp_c": {
+          "min": -6,
+          "max": -0.8,
+          "scale": "linear",
+          "source": "conditional initial joint temperature; within lab thermal domain"
+        },
+        "diffusivity_m2_s": {
+          "min": 9e-07,
+          "max": 2.1e-06,
+          "scale": "linear",
+          "source": "external_transfer Weber2025 median +/- MAD endpoints; design interval not statistical CI"
+        },
+        "interface_depth_m": {
+          "min": 0.5,
+          "max": 20,
+          "scale": "log",
+          "source": "conditional depth of thermal path, distinct from slab thickness"
+        },
+        "station_source_offset_c": {
+          "min": -18,
+          "max": -6,
+          "scale": "linear",
+          "source": "conditional combined elevation/exposure/surface transfer offset"
+        },
+        "storativity": {
+          "min": 0.002,
+          "max": 0.08,
+          "scale": "log",
+          "source": "conditional water-equivalent storage/head ratio"
+        },
+        "drainage_hours": {
+          "min": 3,
+          "max": 240,
+          "scale": "log",
+          "source": "conditional reservoir time constant; not fixed by external flow lag"
+        },
+        "connected_depth_m": {
+          "min": 2,
+          "max": 40,
+          "scale": "log",
+          "source": "conditional maximum connected water head"
+        },
+        "rain_multiplier": {
+          "min": 0.25,
+          "max": 3,
+          "scale": "log",
+          "source": "conditional station-to-source and effective infiltration multiplier"
+        },
+        "melt_mm_deg_day": {
+          "min": 0.5,
+          "max": 6,
+          "scale": "linear",
+          "source": "conditional degree-day coefficient; not an energy balance"
+        },
+        "damage_rate_h_inv": {
+          "min": 1e-07,
+          "max": 0.0002,
+          "scale": "log",
+          "source": "phenomenological design range; not calibrated ice rheology"
+        },
+        "damage_exponent": {
+          "min": 2,
+          "max": 6,
+          "scale": "linear",
+          "source": "phenomenological stress-ratio power"
+        },
+        "initial_damage": {
+          "min": 0.05,
+          "max": 0.7,
+          "scale": "linear",
+          "source": "conditional cohesion loss fraction"
+        },
+        "drainage_damage_coupling": {
+          "min": 0,
+          "max": 3,
+          "scale": "linear",
+          "source": "conditional damage-enhanced drainage exp(-k*D)"
+        }
+      },
+      "parameter_count": 19,
+      "parameter_sets": 256,
+      "mechanisms": 4,
+      "policies": 2,
+      "scenario_outcomes": 2048,
+      "seed": 260826,
+      "probability_prior": false,
+      "weights": null
+    },
+    "unit": "ranges per parameter; counts",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/config/experiment_v1.json",
+        "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a"
+      },
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/config.json",
+        "sha256": "539c6e857d5d07e2cab7a70346ec02d2aad13eb47ee546df17f797850446177d"
+      },
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/summary.json",
+        "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "space-filling computational design; no event-probability weights",
+    "paper_anchor": "q2:tab-parameters"
+  },
+  {
+    "claim_id": "q2-C05",
+    "statement": "共同边界2089小时状态与条件降水口径",
+    "value": {
+      "start_utc": "2026-06-01T00:00:00Z",
+      "end_utc": "2026-08-27T00:00:00Z",
+      "hourly_states": 2089,
+      "state_dt_hours": 1.0,
+      "initial_W_m": 0,
+      "temperature_qc": "QC0",
+      "precipitation_role": "conditional assumed mm/h; QC and integration interval unresolved",
+      "available_time": null
+    },
+    "unit": "UTC, h, m",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/config/experiment_v1.json",
+        "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a"
+      },
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/forcing_hourly.csv",
+        "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a"
+      },
+      {
+        "path": "track_b/research/q2/round3/EXPERIMENT_PROTOCOL.md",
+        "sha256": "888b65535ff477f4e6ef07be3dfeea19392209d7903ef58559cb8473ad96626a"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "retrospective ideal-weather scenario forcing; not operational availability acceptance",
+    "paper_anchor": "q2:sec-structure"
+  },
+  {
+    "claim_id": "q2-C06",
+    "statement": "半无限常系数导热的erfc边界增量因果叠加作为线性热数值参考",
+    "value": {
+      "surface_B": "min(T_air+offset,0)",
+      "initial_temperature": "uniform_T0",
+      "kernel": "erfc(z/(2*sqrt(alpha*lag_seconds)))",
+      "delta_B0": "B0-T0",
+      "causal_j_lt_k": true,
+      "K0": 0,
+      "nfft": 8192,
+      "minimum_linear_padding": 4177
+    },
+    "unit": {
+      "T_B": "degC",
+      "alpha": "m^2/s",
+      "z": "m",
+      "lag": "s"
+    },
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+        "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607"
+      },
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/protocol.json",
+        "sha256": "1b775e7a942d9cbb0709d4a45f914fa3bba88e76229a466858911d2791bf53fd"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "constant-property linear conduction with prescribed boundary; water/damage remain hourly",
+    "paper_anchor": "q2:eq-thermal"
+  },
+  {
+    "claim_id": "q2-C07",
+    "statement": "72小时纯导热的2m和5m阶跃幅度响应",
+    "value": [
+      {
+        "diffusivity_m2_s": 1.5e-06,
+        "depth_m": 2.0,
+        "hours": 72,
+        "step_response_fraction": 0.0233263995853345
+      },
+      {
+        "diffusivity_m2_s": 1.5e-06,
+        "depth_m": 5.0,
+        "hours": 72,
+        "step_response_fraction": 1.4270157958793224e-08
+      }
+    ],
+    "unit": "dimensionless interface/surface amplitude ratio",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/results/thermal_response_times.csv",
+        "sha256": "205b7501180039f697662088041f976bdd222738228305409112f41f2bd86d9f"
+      },
+      {
+        "path": "track_b/research/q2/round3/scripts/analyze_robustness.py",
+        "sha256": "fbf6345802318a7a54a2d307cfcb5f7b79af98ec64e9a906ac8dc3ac4f3ff355"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "ideal conductive step benchmark, not observed local temperature",
+    "paper_anchor": "q2:eq-thermal"
+  },
+  {
+    "claim_id": "q2-C08",
+    "statement": "雨融水经储排水到孔压，损伤促进排水，采用每小时连续溢流分段解析水库",
+    "value": {
+      "gamma_w_kpa_per_m": 9.80665,
+      "rho_w_kg_m3": 1000,
+      "I": "mR*P*clip((Ts+1)/2,0,1)/1000+km*max(Ts,0)/24000",
+      "u_kpa": "gamma_w*W/Sy",
+      "tau_d_hours": "tau0*exp(-kappa*D_i)",
+      "capacity_m": "Sy*min(Hconn,.98*sigma_n/gamma_w)",
+      "damage_update": "Dnext=min(.999999,1-(1-D)*exp(-A*min(tau_g/max(R,1e-6),10)^n*dt_h))",
+      "state_dt_hours": 1,
+      "max_water_budget_error_m": 1.1546319456101628e-14
+    },
+    "unit": "m/h, m, kPa, h; see field suffixes",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+        "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+      },
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/summary.json",
+        "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "conditional water-equivalent reservoir and phenomenological cohesion loss, not calibrated creep",
+    "paper_anchor": "q2:eq-states",
+    "additional_paper_anchors": [
+      "q2:eq-inflow"
+    ]
+  },
+  {
+    "claim_id": "q2-C09",
+    "statement": "条件临界水头公式、容量判定和固定p0036温度示例",
+    "value": {
+      "Hc": "[sigma_n-(tau_g-C)/mu_e]/gamma_w",
+      "conditions": "C<=tau_g and mu_e>0; capacity criterion separately applied",
+      "examples": [
+        {
+          "parameter_set_id": "q2r3-p0036",
+          "temperature_c": -6.0,
+          "critical_head_m": null,
+          "root_status": "no_pressure_only_root",
+          "allowed_head_capacity_m": 7.8329456558,
+          "root_reachable_before_capacity": false
+        },
+        {
+          "parameter_set_id": "q2r3-p0036",
+          "temperature_c": -3.0,
+          "critical_head_m": 11.3583547071,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 7.8329456558,
+          "root_reachable_before_capacity": false
+        },
+        {
+          "parameter_set_id": "q2r3-p0036",
+          "temperature_c": -1.0,
+          "critical_head_m": -8.2143710953,
+          "root_status": "dry_already_critical",
+          "allowed_head_capacity_m": 7.8329456558,
+          "root_reachable_before_capacity": false
+        }
+      ]
+    },
+    "unit": "m, degC",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/results/critical_relations.csv",
+        "sha256": "f2765fbc418e64ffb912dff736db255f2c513cf10dbc9df4a78a0db6ef58f551"
+      },
+      {
+        "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+        "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": "q2r3-p0036",
+    "scope": "fixed initial-damage algebraic states, not measured trigger thresholds",
+    "paper_anchor": "q2:eq-critical"
+  },
+  {
+    "claim_id": "q2-C10",
+    "statement": "最终解析热线性分支四机制计数与评估期最小裕度中位数",
+    "value": [
+      {
+        "mechanism_id": "S",
+        "model_id": "q2r3_S_analytic_v1",
+        "n_parameter_sets": 256,
+        "interval_crossing_n": 4,
+        "left_censored_n": 31,
+        "never_crossed_n": 221,
+        "median_min_margin": 0.6900801901421822,
+        "p05_min_margin": -0.2302498561112501,
+        "p95_min_margin": 2.77253760291464
+      },
+      {
+        "mechanism_id": "S_T",
+        "model_id": "q2r3_S_T_analytic_v1",
+        "n_parameter_sets": 256,
+        "interval_crossing_n": 28,
+        "left_censored_n": 31,
+        "never_crossed_n": 197,
+        "median_min_margin": 0.4852997674212091,
+        "p05_min_margin": -0.42929198870183,
+        "p95_min_margin": 2.3661394269487395
+      },
+      {
+        "mechanism_id": "S_H",
+        "model_id": "q2r3_S_H_analytic_v1",
+        "n_parameter_sets": 256,
+        "interval_crossing_n": 6,
+        "left_censored_n": 31,
+        "never_crossed_n": 219,
+        "median_min_margin": 0.662315744180745,
+        "p05_min_margin": -0.2679610747384832,
+        "p95_min_margin": 2.607236962528243
+      },
+      {
+        "mechanism_id": "S_T_H",
+        "model_id": "q2r3_S_T_H_analytic_v1",
+        "n_parameter_sets": 256,
+        "interval_crossing_n": 31,
+        "left_censored_n": 31,
+        "never_crossed_n": 194,
+        "median_min_margin": 0.4717932586129435,
+        "p05_min_margin": -0.4668268690686569,
+        "p95_min_margin": 2.2425009813957986
+      }
+    ],
+    "unit": "counts; dimensionless margin",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+        "sha256": "add46d7873516e8b91db034308fd46b4eef08f912c9f442ce161b79b3a744921"
+      },
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/scenario_outcomes.csv",
+        "sha256": "847143dc8ad8c495ea6e7747fbbcdb187ef465b9c7879fecb4717135372dc30c"
+      }
+    ],
+    "model_id": [
+      "q2r3_S_analytic_v1",
+      "q2r3_S_T_analytic_v1",
+      "q2r3_S_H_analytic_v1",
+      "q2r3_S_T_H_analytic_v1"
+    ],
+    "scenario_id": null,
+    "scope": "onset counts over whole June1–Aug27 horizon; margin minimum over Aug19–27; no probability interpretation",
+    "paper_anchor": "q2:tab-mechanisms"
+  },
+  {
+    "claim_id": "q2-C11",
+    "statement": "全2048解析结果分类和暖端接触ST分支变化",
+    "value": {
+      "status_counts": {
+        "never_crossed": 1663,
+        "left_censored_already_unstable": 248,
+        "interval_crossing": 137
+      },
+      "thaw_ST": {
+        "interval_crossing_n": 27,
+        "left_censored_n": 31,
+        "never_crossed_n": 198
+      },
+      "independent_local_events": 0,
+      "probabilities_assigned": false
+    },
+    "unit": "counts",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+        "sha256": "add46d7873516e8b91db034308fd46b4eef08f912c9f442ce161b79b3a744921"
+      },
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/summary.json",
+        "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "computational scenarios, censored and no-crossing retained",
+    "paper_anchor": "q2:sec-results"
+  },
+  {
+    "claim_id": "q2-C12",
+    "statement": "解析STH线性分支最小裕度联合关联前五因素及方向",
+    "value": [
+      {
+        "parameter": "theta_deg",
+        "spearman_rho": -0.5452213035019454,
+        "n_joint_design": 256
+      },
+      {
+        "parameter": "initial_temp_c",
+        "spearman_rho": -0.3903353170061798,
+        "n_joint_design": 256
+      },
+      {
+        "parameter": "initial_damage",
+        "spearman_rho": -0.318179932478828,
+        "n_joint_design": 256
+      },
+      {
+        "parameter": "station_source_offset_c",
+        "spearman_rho": -0.2957849336232547,
+        "n_joint_design": 256
+      },
+      {
+        "parameter": "thickness_normal_m",
+        "spearman_rho": -0.2850423437857633,
+        "n_joint_design": 256
+      }
+    ],
+    "unit": "Spearman rho, dimensionless",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv",
+        "sha256": "cc1df1e87bfb6a8ab0a0fa2086de5a3ebc4d11a39bec37101369c763afd77187"
+      }
+    ],
+    "model_id": "q2r3_S_T_H_analytic_v1",
+    "scenario_id": null,
+    "scope": "association conditional on prescribed19-dimensional parameter ranges; not empirical causal ranking",
+    "paper_anchor": "q2:fig-critical"
+  },
+  {
+    "claim_id": "q2-C13",
+    "statement": "解析热对细/原FD参考的完整有限启动配对及不连续暖端误差",
+    "value": {
+      "finite_pairs": 137,
+      "fd00625_max_hours": {
+        "value": 0.34707951714221963,
+        "base_scenario_id": "q2r3-p0067-S_T_H-linear",
+        "mechanism_id": "S_T_H",
+        "law_policy": "linear_extension"
+      },
+      "fd0125_max_hours": {
+        "value": 19.07238048020787,
+        "base_scenario_id": "q2r3-p0107-S_T_H-linear",
+        "mechanism_id": "S_T_H",
+        "law_policy": "linear_extension"
+      },
+      "max_margin_difference": {
+        "value": 0.17903188146659127,
+        "base_scenario_id": "q2r3-p0052-S_T_H-thaw",
+        "mechanism_id": "S_T_H",
+        "law_policy": "thawed_rock_contact"
+      },
+      "finite40_vs_halfspace_max_temperature_bound_c": 2.3837703814831352e-26,
+      "category_changes_vs_fd00625": 0,
+      "state_dt_hours": 1
+    },
+    "unit": "h; dimensionless margin",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/summary.json",
+        "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080"
+      },
+      {
+        "path": "track_b/research/q2/round3/results/analytic_thermal/paired_v2_fd0625.csv",
+        "sha256": "a9a620bd0566603b22205c30babe8cbb5736585f6a845bd01576431b9830aac9"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "thermal numerical comparison; does not establish full coupled physical-time accuracy",
+    "paper_anchor": "q2:sec-results"
+  },
+  {
+    "claim_id": "q2-C14",
+    "statement": "四未知量的局部可辨识性秩随温压损伤信息增加",
+    "value": [
+      {
+        "design_id": "margin_single",
+        "n_observations": 1,
+        "n_unknown_parameters": 4,
+        "rank": 1,
+        "condition_status": "infinite_rank_deficient"
+      },
+      {
+        "design_id": "margin_24_fixed_condition_repeats",
+        "n_observations": 24,
+        "n_unknown_parameters": 4,
+        "rank": 1,
+        "condition_status": "infinite_rank_deficient"
+      },
+      {
+        "design_id": "margin_plus_temperature",
+        "n_observations": 2,
+        "n_unknown_parameters": 4,
+        "rank": 2,
+        "condition_status": "infinite_rank_deficient"
+      },
+      {
+        "design_id": "margin_plus_temperature_pressure",
+        "n_observations": 3,
+        "n_unknown_parameters": 4,
+        "rank": 3,
+        "condition_status": "infinite_rank_deficient"
+      },
+      {
+        "design_id": "margin_plus_temperature_pressure_damage",
+        "n_observations": 4,
+        "n_unknown_parameters": 4,
+        "rank": 4,
+        "condition_status": "finite"
+      }
+    ],
+    "unit": "rank",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/results/identifiability.csv",
+        "sha256": "618e58dab165a96f1fd22cc5a4a91f303a5ee883eaac9372481fac3ae9e16f7d"
+      },
+      {
+        "path": "track_b/research/q2/round3/results/identifiability_details.json",
+        "sha256": "c5b999fc8aec0255b9d5dd62bd0fddd7aadc79fffb489bf1d38d8131e3b36ea7"
+      }
+    ],
+    "model_id": "q2r3_STH_v1",
+    "scenario_id": null,
+    "scope": "numerical Jacobian benchmark at known geometry and ideal measurements; not local inversion",
+    "paper_anchor": "q2:sec-results"
+  },
+  {
+    "claim_id": "q2-C15",
+    "statement": "完整141实验、14派生温层、800名义组20次的实际温应力域",
+    "value": {
+      "tests": 141,
+      "derived_temperature_summaries": 14,
+      "high_class": {
+        "nominal_kpa": 800,
+        "tests": 20,
+        "measured_normal_stress_min_kpa": 808.886485058098,
+        "measured_normal_stress_max_kpa": 868.6324664032768,
+        "measured_temperature_min_c": -4.1,
+        "measured_temperature_max_c": -0.3,
+        "nominal_temperature_classes_c": [
+          -4.0,
+          -3.0,
+          -2.0,
+          -1.0,
+          -0.5
+        ],
+        "failure_type_counts": {
+          "rock/ice": 15,
+          "mixed": 5
+        }
+      },
+      "subset_membership": "nominal stress/temperature groups",
+      "regression_predictors": "measured values at failure",
+      "physical_specimen_UID": null
+    },
+    "unit": "counts, kPa, degC",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/lab_strength/audit/results/observations.csv",
+        "sha256": "7b0601f0b5c9aff60e79d2730ef21ac42c168f61b54984cd36d2b8175f58b600"
+      },
+      {
+        "path": "track_b/research/q2/round3/lab_strength/audit/results/coefficient_strata.csv",
+        "sha256": "32739872d3b82ae79dc1bfaca0eaa114a43c3edc28dfc42f12cd0f62e8ceb1fe"
+      },
+      {
+        "path": "track_b/research/q2/round3/lab_strength/audit/results/schema.json",
+        "sha256": "dc0858482123a6e75e5b0ba72f6555807623e01f55c5428ad172de832d755c1d"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "external repeated lab tests and author-derived summaries kept separate",
+    "paper_anchor": "q2:sec-laboratory"
+  },
+  {
+    "claim_id": "q2-C16",
+    "statement": "外部实验的四候选、四域两权重32拟合与576完整留组折",
+    "value": {
+      "fits": 32,
+      "folds": 576,
+      "warm_common_tests": 83,
+      "bootstrap_attempts": 32000,
+      "bootstrap_usable": 31994,
+      "unknown_physical_UID": true
+    },
+    "unit": "counts",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/lab_strength/model/results/run_summary.json",
+        "sha256": "3376cd75b5c8cde3c420857284beba541cc273fc06a35fe96dc89d06d2b7fb99"
+      },
+      {
+        "path": "track_b/research/q2/round3/lab_strength/model/results/run_config.json",
+        "sha256": "91064a45f2b05dab0e79131394ede660634d6cebc3e29342737d5723a28f4e52"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "external constitutive competition only; no replacement of local engine or independent local events",
+    "paper_anchor": "q2:sec-laboratory"
+  },
+  {
+    "claim_id": "q2-C17",
+    "statement": "暖域各本构候选训练、整温层/应力层和仅800组留出RMSE",
+    "value": {
+      "grouped_row_ols": [
+        {
+          "domain": "warm_all",
+          "model": "mc_linear",
+          "weight": "row_ols",
+          "holdout_scheme": "temperature",
+          "n": 83,
+          "rmse_kpa": 203.161171687247,
+          "mae_kpa": 153.831105745538,
+          "bias_kpa": 1.65258520847871,
+          "cell_macro_rmse_kpa": 200.392446365904,
+          "cell_macro_mae_kpa": 151.42154644824,
+          "max_absolute_error_kpa": 884.42607518055,
+          "folds": 5,
+          "usable_folds": 5,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 198.414076500316,
+          "group_macro_mae_kpa": 150.895396226082
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_linear",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "n": 83,
+          "rmse_kpa": 292.549982933218,
+          "mae_kpa": 210.27429195197,
+          "bias_kpa": 76.9284646207415,
+          "cell_macro_rmse_kpa": 287.319830251607,
+          "cell_macro_mae_kpa": 205.554799223345,
+          "max_absolute_error_kpa": 904.175087765035,
+          "folds": 4,
+          "usable_folds": 4,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 296.339992458579,
+          "group_macro_mae_kpa": 212.578319927697
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_linear",
+          "weight": "row_ols",
+          "holdout_scheme": "specimen_label_assumed",
+          "n": 83,
+          "rmse_kpa": 198.181419354014,
+          "mae_kpa": 146.02046170176,
+          "bias_kpa": -2.85431036540773,
+          "cell_macro_rmse_kpa": 194.076972750481,
+          "cell_macro_mae_kpa": 142.001243700373,
+          "max_absolute_error_kpa": 901.098000507607,
+          "folds": 8,
+          "usable_folds": 8,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 198.346190695731,
+          "group_macro_mae_kpa": 154.885661177282
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_temperature_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "temperature",
+          "n": 83,
+          "rmse_kpa": 237.604814269818,
+          "mae_kpa": 170.728113329154,
+          "bias_kpa": -18.6706675944662,
+          "cell_macro_rmse_kpa": 237.035968812275,
+          "cell_macro_mae_kpa": 170.85942627527,
+          "max_absolute_error_kpa": 1181.20558540253,
+          "folds": 5,
+          "usable_folds": 5,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 236.274013418512,
+          "group_macro_mae_kpa": 171.096524042522
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_temperature_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "n": 83,
+          "rmse_kpa": 286.414985852486,
+          "mae_kpa": 203.165514522564,
+          "bias_kpa": 71.9994862826766,
+          "cell_macro_rmse_kpa": 280.714718455884,
+          "cell_macro_mae_kpa": 195.979840109323,
+          "max_absolute_error_kpa": 951.168176736007,
+          "folds": 4,
+          "usable_folds": 4,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 289.996887722138,
+          "group_macro_mae_kpa": 205.147530717692
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_temperature_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "specimen_label_assumed",
+          "n": 83,
+          "rmse_kpa": 205.654805757639,
+          "mae_kpa": 147.253701017038,
+          "bias_kpa": -1.82430031997066,
+          "cell_macro_rmse_kpa": 201.805520564605,
+          "cell_macro_mae_kpa": 143.212780576905,
+          "max_absolute_error_kpa": 971.933998763431,
+          "folds": 8,
+          "usable_folds": 8,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 200.25572605747,
+          "group_macro_mae_kpa": 148.719748253052
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "temperature",
+          "n": 83,
+          "rmse_kpa": 200.363378603322,
+          "mae_kpa": 149.545582987098,
+          "bias_kpa": 1.65573118306973,
+          "cell_macro_rmse_kpa": 199.849666391798,
+          "cell_macro_mae_kpa": 148.742034658692,
+          "max_absolute_error_kpa": 829.398617814887,
+          "folds": 5,
+          "usable_folds": 5,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 196.515418335105,
+          "group_macro_mae_kpa": 147.346505410941
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "n": 83,
+          "rmse_kpa": 483.29165413148,
+          "mae_kpa": 299.853118340034,
+          "bias_kpa": 66.2024877157028,
+          "cell_macro_rmse_kpa": 479.555149290304,
+          "cell_macro_mae_kpa": 296.257426837939,
+          "max_absolute_error_kpa": 1700.14775079778,
+          "folds": 4,
+          "usable_folds": 4,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 491.610333668525,
+          "group_macro_mae_kpa": 306.806789799735
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "specimen_label_assumed",
+          "n": 83,
+          "rmse_kpa": 198.607692182233,
+          "mae_kpa": 146.276778283268,
+          "bias_kpa": -1.93118869904655,
+          "cell_macro_rmse_kpa": 196.84463982008,
+          "cell_macro_mae_kpa": 144.412049644764,
+          "max_absolute_error_kpa": 771.176987807232,
+          "folds": 8,
+          "usable_folds": 8,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 179.374031793045,
+          "group_macro_mae_kpa": 141.600835370064
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_hinge_400",
+          "weight": "row_ols",
+          "holdout_scheme": "temperature",
+          "n": 83,
+          "rmse_kpa": 200.217310856215,
+          "mae_kpa": 149.097434615967,
+          "bias_kpa": 1.13540807145267,
+          "cell_macro_rmse_kpa": 199.949358849127,
+          "cell_macro_mae_kpa": 148.303725149405,
+          "max_absolute_error_kpa": 841.784762071721,
+          "folds": 5,
+          "usable_folds": 5,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 195.945024340668,
+          "group_macro_mae_kpa": 146.554550744574
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_hinge_400",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "n": 83,
+          "rmse_kpa": 1029.12393084076,
+          "mae_kpa": 545.112369063698,
+          "bias_kpa": -190.790234840902,
+          "cell_macro_rmse_kpa": 1053.03066763436,
+          "cell_macro_mae_kpa": 566.507011444819,
+          "max_absolute_error_kpa": 3729.97767638082,
+          "folds": 4,
+          "usable_folds": 4,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 1047.93387492287,
+          "group_macro_mae_kpa": 561.065272463002
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_hinge_400",
+          "weight": "row_ols",
+          "holdout_scheme": "specimen_label_assumed",
+          "n": 83,
+          "rmse_kpa": 199.260387210924,
+          "mae_kpa": 146.497823179552,
+          "bias_kpa": -1.14795996160468,
+          "cell_macro_rmse_kpa": 197.632623503411,
+          "cell_macro_mae_kpa": 144.658242135986,
+          "max_absolute_error_kpa": 807.650389275631,
+          "folds": 8,
+          "usable_folds": 8,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 181.995351185502,
+          "group_macro_mae_kpa": 140.36233785147
+        }
+      ],
+      "only_800_holdout": [
+        {
+          "domain": "warm_all",
+          "model": "mc_linear",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "heldout_group": "800.0",
+          "training_n": 63,
+          "test_n": 20,
+          "rank": 4,
+          "parameter_count": 4,
+          "condition_number_scaled_design": 19.3645284919194,
+          "train_stress_classes": "[100.0, 200.0, 400.0]",
+          "train_temperature_classes": "[-4.0, -3.0, -2.0, -1.0, -0.5]",
+          "train_measured_sigma_min_kpa": 96.9143927953878,
+          "train_measured_sigma_max_kpa": 525.286683725388,
+          "train_measured_T_min_c": -4.6,
+          "train_measured_T_max_c": -0.4,
+          "test_ids_sha256": "e7587764e6ccd130e6acf6d570c60f937a3ff8ce08fa659e728ede55a8993106",
+          "status": "full_rank",
+          "high_stress_design_support_absent": true,
+          "test_group_is_nominal_edge": true,
+          "n": 20.0,
+          "rmse_kpa": 443.940293425653,
+          "mae_kpa": 363.914615855666,
+          "bias_kpa": 342.367551425319,
+          "cell_macro_rmse_kpa": 430.816026509123,
+          "cell_macro_mae_kpa": 351.13291886395,
+          "max_absolute_error_kpa": 821.924339958702,
+          "max_test_design_leverage": 1.07467703992166,
+          "max_conditional_mean_label_cr1_se_kpa": 341.982813811459,
+          "max_training_leverage": 0.339404910409968
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_temperature_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "heldout_group": "800.0",
+          "training_n": 63,
+          "test_n": 20,
+          "rank": 6,
+          "parameter_count": 6,
+          "condition_number_scaled_design": 114.96163894818,
+          "train_stress_classes": "[100.0, 200.0, 400.0]",
+          "train_temperature_classes": "[-4.0, -3.0, -2.0, -1.0, -0.5]",
+          "train_measured_sigma_min_kpa": 96.9143927953878,
+          "train_measured_sigma_max_kpa": 525.286683725388,
+          "train_measured_T_min_c": -4.6,
+          "train_measured_T_max_c": -0.4,
+          "test_ids_sha256": "e7587764e6ccd130e6acf6d570c60f937a3ff8ce08fa659e728ede55a8993106",
+          "status": "full_rank",
+          "high_stress_design_support_absent": true,
+          "test_group_is_nominal_edge": true,
+          "n": 20.0,
+          "rmse_kpa": 421.06899425059,
+          "mae_kpa": 328.900494509832,
+          "bias_kpa": 319.834888475133,
+          "cell_macro_rmse_kpa": 409.838899018637,
+          "cell_macro_mae_kpa": 314.427670023052,
+          "max_absolute_error_kpa": 903.278323086484,
+          "max_test_design_leverage": 2.19544488274367,
+          "max_conditional_mean_label_cr1_se_kpa": 346.765473797694,
+          "max_training_leverage": 0.540631939162877
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "heldout_group": "800.0",
+          "training_n": 63,
+          "test_n": 20,
+          "rank": 6,
+          "parameter_count": 6,
+          "condition_number_scaled_design": 145.322715854853,
+          "train_stress_classes": "[100.0, 200.0, 400.0]",
+          "train_temperature_classes": "[-4.0, -3.0, -2.0, -1.0, -0.5]",
+          "train_measured_sigma_min_kpa": 96.9143927953878,
+          "train_measured_sigma_max_kpa": 525.286683725388,
+          "train_measured_T_min_c": -4.6,
+          "train_measured_T_max_c": -0.4,
+          "test_ids_sha256": "e7587764e6ccd130e6acf6d570c60f937a3ff8ce08fa659e728ede55a8993106",
+          "status": "full_rank",
+          "high_stress_design_support_absent": true,
+          "test_group_is_nominal_edge": true,
+          "n": 20.0,
+          "rmse_kpa": 925.776587102246,
+          "mae_kpa": 793.933019403322,
+          "bias_kpa": 291.132461016724,
+          "cell_macro_rmse_kpa": 901.956897210264,
+          "cell_macro_mae_kpa": 756.056066696467,
+          "max_absolute_error_kpa": 1700.14775079778,
+          "max_test_design_leverage": 43.0063807716031,
+          "max_conditional_mean_label_cr1_se_kpa": 874.967094159638,
+          "max_training_leverage": 0.671055959598945
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_hinge_400",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "heldout_group": "800.0",
+          "training_n": 63,
+          "test_n": 20,
+          "rank": 6,
+          "parameter_count": 6,
+          "condition_number_scaled_design": 296.903992045068,
+          "train_stress_classes": "[100.0, 200.0, 400.0]",
+          "train_temperature_classes": "[-4.0, -3.0, -2.0, -1.0, -0.5]",
+          "train_measured_sigma_min_kpa": 96.9143927953878,
+          "train_measured_sigma_max_kpa": 525.286683725388,
+          "train_measured_T_min_c": -4.6,
+          "train_measured_T_max_c": -0.4,
+          "test_ids_sha256": "e7587764e6ccd130e6acf6d570c60f937a3ff8ce08fa659e728ede55a8993106",
+          "status": "full_rank",
+          "high_stress_design_support_absent": true,
+          "test_group_is_nominal_edge": true,
+          "n": 20.0,
+          "rmse_kpa": 2065.12858064623,
+          "mae_kpa": 1789.79999692054,
+          "bias_kpa": -854.572535112931,
+          "cell_macro_rmse_kpa": 2076.08799644226,
+          "cell_macro_mae_kpa": 1816.93735532738,
+          "max_absolute_error_kpa": 3729.97767638082,
+          "max_test_design_leverage": 277.649080819939,
+          "max_conditional_mean_label_cr1_se_kpa": 1089.03647589501,
+          "max_training_leverage": 0.926845350675317
+        }
+      ],
+      "training_fits": [
+        {
+          "model": "mc_linear",
+          "parameter_count": 4,
+          "n": 83,
+          "rmse_kpa": 187.454677790228
+        },
+        {
+          "model": "mc_temperature_quadratic",
+          "parameter_count": 6,
+          "n": 83,
+          "rmse_kpa": 185.392915158702
+        },
+        {
+          "model": "mc_stress_quadratic",
+          "parameter_count": 6,
+          "n": 83,
+          "rmse_kpa": 174.322689586083
+        },
+        {
+          "model": "mc_stress_hinge_400",
+          "parameter_count": 6,
+          "n": 83,
+          "rmse_kpa": 177.406928870166
+        }
+      ],
+      "macro_RMSE_definition": "sqrt(mean(fold_RMSE^2))"
+    },
+    "unit": "kPa",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/lab_strength/model/results/fits.csv",
+        "sha256": "21c6c9c99fc2d4cf1b7a9e5e213e58726229dfd4059f77a707c19454e8474050"
+      },
+      {
+        "path": "track_b/research/q2/round3/lab_strength/model/results/holdout_summary.csv",
+        "sha256": "4e219db8f5657112e1a027469903ea748ba32b87e7a3cebf8c3c1c78096d77e7"
+      },
+      {
+        "path": "track_b/research/q2/round3/lab_strength/model/results/holdout_folds.csv",
+        "sha256": "d8e62b4e98a5c4e08f098ce934b343f52297f9be95559b45727b2c40e1b115f8"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "83 external warm-domain tests; full class holdout; published Eq6 same-table score descriptive",
+    "paper_anchor": "q2:fig-lab",
+    "additional_paper_anchors": [
+      "q2:tab-lab"
+    ]
+  },
+  {
+    "claim_id": "q2-C18",
+    "statement": "作者共同暖域的低/全应力线选择不同温层；低复杂度只作为外部挑战",
+    "value": {
+      "selected_warm_low_c": [
+        -4,
+        -2,
+        -0.5
+      ],
+      "selected_warm_all_c": [
+        -4,
+        -2,
+        -1,
+        -0.5
+      ],
+      "all_common_warm_c": [
+        -4,
+        -3,
+        -2,
+        -1,
+        -0.5
+      ],
+      "local_engine_replaced": false,
+      "local_events_added": 0
+    },
+    "unit": "nominal degC; boolean",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/lab_strength/literature/figure6_temperature_screen.csv",
+        "sha256": "11c3078d5f3a1a56f28c400a8525878d3ea126a3990919a42d7a1ad6975155c9"
+      },
+      {
+        "path": "track_b/research/q2/round3/lab_strength/literature/literature_facts.json",
+        "sha256": "3d8451dbe1b1a678db46e2189a7097406653ae2d5254598630fe018847cb301b"
+      },
+      {
+        "path": "track_b/research/q2/round3/lab_strength/REPORT.md",
+        "sha256": "557cd7ec79212c9f8f9b1c406db35ef89759ec204512a172652b11e0911079bd"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "source selection confounding distinguished from stress coverage; no automatic field transfer",
+    "paper_anchor": "q2:sec-laboratory"
+  },
+  {
+    "claim_id": "q2-C19",
+    "statement": "在固定实验设计坐标处的条件均值与两种重复相关性假设百分位范围",
+    "value": [
+      {
+        "model": "mc_linear",
+        "scheme": "within_cell_independent_tests",
+        "temperature_c": -2,
+        "normal_stress_kpa": 800,
+        "role": "fixed_nominal_lab_design_coordinate_not_local_event_target",
+        "mean_kpa": 659.3006982135558,
+        "mean_percentiles_2p5_50_97p5_kpa": [
+          614.4866188271816,
+          657.2878431184342,
+          714.293421927502
+        ],
+        "usable_draws": 1000,
+        "not_individual_prediction_interval_or_event_probability": true
+      },
+      {
+        "model": "mc_linear",
+        "scheme": "specimen_label_blocks_assumed",
+        "temperature_c": -2,
+        "normal_stress_kpa": 800,
+        "role": "fixed_nominal_lab_design_coordinate_not_local_event_target",
+        "mean_kpa": 659.3006982135558,
+        "mean_percentiles_2p5_50_97p5_kpa": [
+          607.5750989593263,
+          662.1970947411046,
+          691.8812135658819
+        ],
+        "usable_draws": 1000,
+        "not_individual_prediction_interval_or_event_probability": true
+      }
+    ],
+    "unit": "kPa at T=-2 degC and nominal sigma=800kPa",
+    "source_files": [
+      {
+        "path": "track_b/research/q2/round3/lab_strength/model/results/decision_summary.json",
+        "sha256": "10ca4ed72ad0c552757b79543ef668a2f052b9717205af3cff06404f26995a2c"
+      },
+      {
+        "path": "track_b/research/q2/round3/lab_strength/model/results/bootstrap_coefficient_draws.npz",
+        "sha256": "906dd62c57558349a49231fe78938dca1937118af246e3e29a377eeba56ab5e6"
+      }
+    ],
+    "model_id": "mc_linear",
+    "scenario_id": null,
+    "scope": "fixed lab design coordinate; bootstrap conditional mean sensitivity, not individual-event probability",
+    "paper_anchor": "q2:sec-laboratory"
+  },
+  {
+    "claim_id": "q2-F01",
+    "statement": "共同参数机制比较图",
+    "value": {
+      "figure_file": "track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "selection_rules": "See bound figure_sources metadata"
+    },
+    "unit": "see plot axes",
+    "source_files": [
+      {
+        "path": "track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+        "sha256": "b735a06df83702bdc41bac9795da0b53c43fc384143712a8c6afd235c1984c63"
+      },
+      {
+        "path": "track_b/paper/figures/q2/q2_figure_sources.json",
+        "sha256": "cb18fa6985f86111056219d7454fb1cf9c910f7e51beac4a2d022b3577d97a0f"
+      },
+      {
+        "path": "track_b/paper/scripts/q2_make_figures.py",
+        "sha256": "9c2ee22d79d5d5a289491266b569e4e882c76b5c2312bf1c0c0c943998fa8e34"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "paper-only redraw from frozen source tables; no model recalculation",
+    "paper_anchor": "q2:fig-mechanisms"
+  },
+  {
+    "claim_id": "q2-F02",
+    "statement": "临界水头与联合敏感性图",
+    "value": {
+      "figure_file": "track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "selection_rules": "See bound figure_sources metadata"
+    },
+    "unit": "see plot axes",
+    "source_files": [
+      {
+        "path": "track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+        "sha256": "883ca10cd9ef32d91248d72fe2a11fe64124f573b6f4f9b8786600eb02bb6d0d"
+      },
+      {
+        "path": "track_b/paper/figures/q2/q2_figure_sources.json",
+        "sha256": "cb18fa6985f86111056219d7454fb1cf9c910f7e51beac4a2d022b3577d97a0f"
+      },
+      {
+        "path": "track_b/paper/scripts/q2_make_figures.py",
+        "sha256": "9c2ee22d79d5d5a289491266b569e4e882c76b5c2312bf1c0c0c943998fa8e34"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "paper-only redraw from frozen source tables; no model recalculation",
+    "paper_anchor": "q2:fig-critical"
+  },
+  {
+    "claim_id": "q2-F03",
+    "statement": "外部本构分组评价图",
+    "value": {
+      "figure_file": "track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "selection_rules": "See bound figure_sources metadata"
+    },
+    "unit": "see plot axes",
+    "source_files": [
+      {
+        "path": "track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+        "sha256": "aa33e916a917a17b9c3efc8ede1958ea412a30d913ff23ad147bd755d196eae7"
+      },
+      {
+        "path": "track_b/paper/figures/q2/q2_figure_sources.json",
+        "sha256": "cb18fa6985f86111056219d7454fb1cf9c910f7e51beac4a2d022b3577d97a0f"
+      },
+      {
+        "path": "track_b/paper/scripts/q2_make_figures.py",
+        "sha256": "9c2ee22d79d5d5a289491266b569e4e882c76b5c2312bf1c0c0c943998fa8e34"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "paper-only redraw from frozen source tables; no model recalculation",
+    "paper_anchor": "q2:fig-lab"
+  }
+]

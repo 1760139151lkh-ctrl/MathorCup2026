@@ -1,0 +1,86 @@
+{
+  "sources": [
+    {
+      "canonical_url_or_product_id": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=NK&sta=KKN&loc=--&cha=BHZ&start=2026-08-26T02%3A20%3A00&end=2026-08-26T03%3A10%3A00&nodata=404",
+      "product_version": "NSLC+fixed20260826window; current archive representation; FDSNserviceversion1 API",
+      "retrieved_at_utc": "2026-10-24T08:29:08.912046+00:00",
+      "actual_read_scope": "allfixedheaders/blockettes plus eachSTEIM2X0Xn; noindependentfullSTEIM2decode",
+      "bytes": 290816,
+      "sha256": "086221d6a6f1987d0b46cee19234e514671a8f1a76df69fef98123af87623736",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/NK_KKN_BHZ_0220_0310.mseed",
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/NK_KKN_BHZ_0220_0310.mseed.request.json",
+      "data_role": "retrospective_waveform_phase_evidence",
+      "available_time_or_unknown": null,
+      "status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=NK&sta=KKN&loc=--&cha=BHZ&start=2026-08-26T02%3A20%3A00&end=2026-08-26T03%3A10%3A00&nodata=404&format=geocsv.inline",
+      "product_version": "NSLC+fixed20260826window; current archive representation; FDSNserviceversion1 API",
+      "retrieved_at_utc": "2026-10-24T08:29:12.191303+00:00",
+      "actual_read_scope": "all150001rawcount/time samplepairs and headers",
+      "bytes": 5400579,
+      "sha256": "5060a87f117305cd157f77401b4221d207d8f55f3ae2b78c5b7890882604ba36",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/NK_KKN_BHZ_0220_0310.geocsv",
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/NK_KKN_BHZ_0220_0310.geocsv.request.json",
+      "data_role": "retrospective_waveform_phase_evidence",
+      "available_time_or_unknown": null,
+      "status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://service.earthscope.org/fdsnws/station/1/query?net=NK&sta=KKN&loc=--&cha=BHZ&start=2026-08-26T02%3A20%3A00&end=2026-08-26T03%3A10%3A00&nodata=404&level=response&format=xml",
+      "product_version": "NSLC+fixed20260826window; current archive representation; FDSNserviceversion1 API",
+      "retrieved_at_utc": "2026-10-24T08:29:08.167289+00:00",
+      "actual_read_scope": "KKN/BHZ sensor/channel/response sensitivity and stagecount; no response deconvolution",
+      "bytes": 53952,
+      "sha256": "894ad7cef8b0ec8df80f28d29d15aaa8fb9c011c6d5b9dcb1fbe12a5f51a919b",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/NK_KKN_BHZ_response.xml",
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/NK_KKN_BHZ_response.xml.request.json",
+      "data_role": "retrospective_waveform_phase_evidence",
+      "available_time_or_unknown": null,
+      "status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://service.earthscope.org/mustang/measurements/1/query?metric=percent_availability,max_gap,num_gaps&target=NK.KKN.*.BH?.*,IO.EVN.*.BH?.*,IO.EVN.*.HH?.*,IC.LSA.*.BHZ.*&start=2026-08-26&end=2026-08-27&format=text",
+      "product_version": "NSLC+fixed20260826window; current archive representation; FDSNserviceversion1 API",
+      "retrieved_at_utc": "2026-10-24T08:29:07.787576+00:00",
+      "actual_read_scope": "KKN.BHZ.M rows for three dailymetrics; other targets retrievedin same explicit parentquery not interpreted",
+      "bytes": 2796,
+      "sha256": "fcde167862323febf7c31cfdffa755e287e2527b43db6b9be11711adf4cf6aa2",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/mustang_20260826.txt",
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/mustang_20260826.txt.request.json",
+      "data_role": "availability_or_service_documentation",
+      "available_time_or_unknown": null,
+      "status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://service.earthscope.org/fdsnws/dataselect/1/",
+      "product_version": "NSLC+fixed20260826window; current archive representation; FDSNserviceversion1 API",
+      "retrieved_at_utc": "2026-10-24T08:29:09.682055+00:00",
+      "actual_read_scope": "actualformat/blanklocation/quality retirement/GeoCSV and timequery instructions",
+      "bytes": 21732,
+      "sha256": "73f4f222f52fbf693df3615e839d38328a026a71fcc5ad6730abada1fe954807",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/dataselect_docs.html",
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/dataselect_docs.html.request.json",
+      "data_role": "availability_or_service_documentation",
+      "available_time_or_unknown": null,
+      "status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://service.earthscope.org/fdsnws/station/1/",
+      "product_version": "NSLC+fixed20260826window; current archive representation; FDSNserviceversion1 API",
+      "retrieved_at_utc": "2026-10-24T08:29:10.373759+00:00",
+      "actual_read_scope": "channel epoch and response metadata instructions",
+      "bytes": 29393,
+      "sha256": "adbbfed952053792f8ba6ced979d3c6fe451ae8135e7efe34dd62f334784439c",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/station_docs.html",
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/waveform/station_docs.html.request.json",
+      "data_role": "availability_or_service_documentation",
+      "available_time_or_unknown": null,
+      "status": 200
+    }
+  ],
+  "historical_realtime_availability": "unknown; current successfulretrieval andMUSTANGposteventmetriclddate not firstpublicavailability",
+  "source_truth": "not_adopted",
+  "rawdata_station": "NK.KKN..BHZ",
+  "no_new_dependencies_installed": true
+}

@@ -1,0 +1,25 @@
+# Compact SH/STH delta adapter results
+
+All **48 delivered role objects** and the producer snapshot were pinned and verified. Exact lineage succeeds for all **14 rows = 2 selected runs x 7 representative points**, with zero rejected pairs. These are two additional conditional numerical cases, not two independent events or a probability sample. Five OSM points represent three candidate entities; two paper points remain candidate objects.
+
+Both exact linear branches preserve all **20 shared physical parameters**, parameter version, law policy and mechanical slab geometry through the registered model replacements `q2r3_SH_v1 -> q2r3_S_H_analytic_v1` and `q2r3_STH_v1 -> q2r3_S_T_H_analytic_v1`. Thaw siblings are excluded by exact base ID. The embedded original Q2-v1 release catalogue is byte-identical to the previously frozen Q3 copy and matches its original upstream hash.
+
+The p0072 prescribed compact source has area **100,000m²**, normal thickness38.2499348559m, vertical thickness51.0000686576m and volume5,100,006.8658m³. p0255 has area **40,000m²**, normal thickness15.8932673403m, vertical thickness31.3878657458m and volume1,255,514.6298m³. Approved actual release TIFF integrals, equivalent areas, case parameters, passive rock/ice volume fractions, density and zero velocity agree. H does not mean nonzero free-water release: both parent catalogues explicitly prescribe free-water fraction0 and one equivalent bulk solver phase with passive composition. The original release table has only a conditional area; Q4 declares a compact-circle mapping. No compact vector polygon or independent mapping table was delivered, so that exact boundary is not independently certified. Positive raster cell support is larger than weighted plan area at partial edge cells.
+
+p0072 retains **no_cross_observed_complete** with null onset time, and propagation is only **if released**. p0255 uses the analytic full-history **July1 11:00–12:00 UTC** bracket and new interpolation **11:01:09.649776747 UTC**, replacing the old global interpolation11:19:16.802118373. Its original later evaluation-window status **left_censored_already_unstable** is separately retained. A first already-unstable evaluation sample is not a new known start inside that evaluation window. All onset timestamps here are conditional retrospective ideal-weather mechanism outputs, not observed release or operational forecast truth.
+
+Independent saved-field checks reproduce two paper-junction brackets: p0072 **(801.1,820.6]s**, p0255 **(1400.1,1420.5]s** after assumed bulk release. Detection uses h>=0.1m at registered cell centres within100m representative-point buffers, with previous-below/first-above saved-output brackets rather than solver-step precision. The other12 rows have no threshold hit at saved outputs; this does not establish continuous-time non-arrival or safety. Requested1800s, last saved output inside it, and actual final1800.9/1802.0s are separate fields.
+
+Both remain **mass-conservation, regional and scientifically unqualified**. Native internal budget residuals **+11.66547% / +12.40282%** and saved-raster residuals remain separate in `release_mapping_audit.csv`; no passing tolerance is inferred from them. Decision05's accepted-run list is empty. Raw diagnostic availability/eligibility does not upgrade acceptance. All absolute arrival times, qualified intervals, probabilities and weights are null; initiation-to-bulk-release delay is unknown and never assumed zero.
+
+Input/output quantization is explicit: p0072 has40 positive supplied TIFF cells but39 positive native initial cells. One supplied edge cell of depth0.0000740281m / volume0.2665011m³ rounds to zero in the three-decimal native output; maximum initial depth difference is0.000495911m. p0255 retains16 positive cells, with maximum initial difference0.000473022m. These are separate support definitions, not a claim of exact support identity or a scientific qualification pass.
+
+Descriptive 0.1/1/5m footprint diagnostics use only actual stored fields, for outputs <=1800s and all actual saved outputs. Area is affected cell area; distance is affected cell-centre Euclidean distance to the union of positive **actual per-run release raster cell footprints**, not exact compact polygon runout, centroid/cost-path distance or a validated warning distance/hazard zone. The actual two-panel figure is explicitly unqualified. Together with the earlier two compact and three fullmask runs, root may compare seven numerical runs from four mechanical designs; none becomes an independent validation event or weighted2048-member result.
+
+Reproduce from the Q3 worktree:
+
+```sh
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 track_b/.venv/bin/python track_b/research/q3/round3/scripts/join_compact_delta_v1.py
+```
+
+The independent `review/` directory is excluded from this adapter's own output index; root seals it together with the stable adapter results. No prior v2/fullmask-v3 script, result, imported packet or export is modified.

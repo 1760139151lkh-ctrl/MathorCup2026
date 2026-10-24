@@ -1,0 +1,2136 @@
+{
+  "status": "frozen_partial_for_q3_review",
+  "generated_at_utc": "2026-10-24T08:54:17.006500+00:00",
+  "partial": true,
+  "provisional_compare_scope": true,
+  "selected_run_ids": [
+    "copdem_120_dclaw_loose",
+    "copdem_120_dclaw_nopressure",
+    "copdem_120_dclaw_permeable",
+    "copdem_120_dclaw_ref",
+    "copdem_60_dclaw_ref",
+    "dclaw_ref_extended120"
+  ],
+  "selected_run_count": 6,
+  "all_routes_completed": false,
+  "full_inventory_snapshot_count": 153,
+  "full_actual_regional_attempts_snapshot": 49,
+  "remaining_and_excluded_run_statuses": [
+    {
+      "run_id": "1d_P1_h136",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P1_h30",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P1_h5",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P1_mu08",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P1_mu25",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P1_ref",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P1_xi2000",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P1_xi500",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P2_h136",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P2_h30",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P2_h5",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P2_mu08",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P2_mu25",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P2_ref",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P2_xi2000",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P2_xi500",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P3_h136",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P3_h30",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P3_h5",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P3_mu08",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P3_mu25",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P3_ref",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P3_xi2000",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "1d_P3_xi500",
+      "model_id": "independent_1d_path_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "2d_h136_60m",
+      "model_id": "independent_2d_hydrostatic_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "2d_h30_60m",
+      "model_id": "independent_2d_hydrostatic_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "2d_h5_60m",
+      "model_id": "independent_2d_hydrostatic_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "2d_mu08_60m",
+      "model_id": "independent_2d_hydrostatic_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "2d_mu25_60m",
+      "model_id": "independent_2d_hydrostatic_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "2d_ref_120m",
+      "model_id": "independent_2d_hydrostatic_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "2d_ref_60m",
+      "model_id": "independent_2d_hydrostatic_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "2d_ref_60m_cflhalf",
+      "model_id": "independent_2d_hydrostatic_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "2d_xi2000_60m",
+      "model_id": "independent_2d_hydrostatic_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "2d_xi500_60m",
+      "model_id": "independent_2d_hydrostatic_fv",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_multi__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "pipeline_failure",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_multi__sf0__resourcefix",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": "explicit_resourcefix_build"
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": true,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "pipeline_failure",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf0__noa",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "pipeline_failure",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf0__resourcefix",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": "explicit_resourcefix_build"
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf1",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "pipeline_failure",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf1__resourcefix",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": "explicit_resourcefix_build"
+    },
+    {
+      "run_id": "composite_RI_water_120__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "historical_preparation",
+      "execution_attempted": true,
+      "execution_status": "running_unfinalized",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "composite_rock_water_120__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "historical_preparation",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_multi_dry",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_multi_dry__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_multi_nodrag",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_multi_nodrag__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_multi_ref",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": true,
+      "execution_status": "finished_unanalysed",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_multi_ref__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "running_unfinalized",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_multi_wet",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_multi_wet__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_cfl025",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_cfl025__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_h136",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_h136__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_h30",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_h30__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_h5",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_h5__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_mu0p08",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_mu0p08__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_mu0p25",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_mu0p25__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_ref",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": true,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_ref__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "finished_unanalysed",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_xi2000",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_xi2000__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_xi500",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120_single_xi500__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_dclaw_loose",
+      "model_id": "dclaw",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "historical_preparation",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_dclaw_nopressure",
+      "model_id": "dclaw",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "historical_preparation",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_dclaw_permeable",
+      "model_id": "dclaw",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "historical_preparation",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_dclaw_ref",
+      "model_id": "dclaw",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "historical_preparation",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_multi_dry",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_multi_nodrag",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_multi_ref",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_multi_wet",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_single_cfl025",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_single_h136",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_single_h30",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_single_h5",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_single_mu0p08",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_single_mu0p25",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_single_ref",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_single_xi2000",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_120p0_single_xi500",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_dclaw_loose",
+      "model_id": "dclaw",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_dclaw_nopressure",
+      "model_id": "dclaw",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "running_unfinalized",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_dclaw_permeable",
+      "model_id": "dclaw",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_multi_dry",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_multi_dry__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_multi_nodrag",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_multi_nodrag__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_multi_ref",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_multi_ref__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_multi_wet",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_multi_wet__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_single_ref",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60_single_ref__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60p0_dclaw_loose",
+      "model_id": "dclaw",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "historical_preparation",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60p0_dclaw_nopressure",
+      "model_id": "dclaw",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "historical_preparation",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60p0_dclaw_permeable",
+      "model_id": "dclaw",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "historical_preparation",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60p0_dclaw_ref",
+      "model_id": "dclaw",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "historical_preparation",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60p0_multi_dry",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60p0_multi_nodrag",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60p0_multi_ref",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60p0_multi_wet",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "copdem_60p0_single_ref",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "flatrest_60_dclaw",
+      "model_id": "dclaw",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "historical_preparation",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_multi",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": true,
+      "execution_status": "pipeline_failure",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_multi__sf0",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "pipeline_failure",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_multi__sf0__resourcefix",
+      "model_id": "ravaflow_multi",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": "explicit_resourcefix_build"
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": true,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "pipeline_failure",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single__sf0__noa",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "pipeline_failure",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single__sf0__resourcefix",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": "explicit_resourcefix_build"
+    },
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": true,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": true,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "running_unfinalized",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0036_S_T_linear",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0036_S_T_linear__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "superseded_configuration",
+      "execution_attempted": false,
+      "execution_status": "quarantined_configuration",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "model_id": "ravaflow_single",
+      "evaluation_stratum": "conditional_scenario",
+      "plan_scope": "current_registered",
+      "execution_attempted": false,
+      "execution_status": "planned_without_execution",
+      "solver_build": "official_original_frozen_source"
+    },
+    {
+      "run_id": "reduced_benchmark::lake_at_rest_wet_dry::0",
+      "model_id": "independent_fv_numerical_benchmark",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::ritter_dry_bed_grid_and_cfl::0",
+      "model_id": "independent_fv_numerical_benchmark",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::ritter_dry_bed_grid_and_cfl::1",
+      "model_id": "independent_fv_numerical_benchmark",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::ritter_dry_bed_grid_and_cfl::2",
+      "model_id": "independent_fv_numerical_benchmark",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::ritter_dry_bed_grid_and_cfl::3",
+      "model_id": "independent_fv_numerical_benchmark",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::radial_dry_front::0",
+      "model_id": "independent_fv_numerical_benchmark",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::open_boundary_volume_ledger::0",
+      "model_id": "independent_fv_numerical_benchmark",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::uniform_incline_grid_response::0",
+      "model_id": "independent_fv_numerical_benchmark",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::uniform_incline_grid_response::1",
+      "model_id": "independent_fv_numerical_benchmark",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::uniform_incline_grid_response::2",
+      "model_id": "independent_fv_numerical_benchmark",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::rigid_constant_slope_voellmy_analytic::0",
+      "model_id": "independent_rigid_ode",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed_configuration",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::rigid_constant_slope_voellmy_analytic::1",
+      "model_id": "independent_rigid_ode",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed_configuration",
+      "solver_build": null
+    },
+    {
+      "run_id": "reduced_benchmark::rigid_constant_slope_voellmy_analytic::2",
+      "model_id": "independent_rigid_ode",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed_configuration",
+      "solver_build": null
+    },
+    {
+      "run_id": "official_external_benchmark::cascadia/execution.json",
+      "model_id": "ravaflow",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed_pipeline_only",
+      "solver_build": null
+    },
+    {
+      "run_id": "official_external_benchmark::gully/attempts/01_optional_plotting_failure/execution.json",
+      "model_id": "ravaflow",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "pipeline_failure",
+      "solver_build": null
+    },
+    {
+      "run_id": "official_external_benchmark::gully/execution.json",
+      "model_id": "dclaw",
+      "evaluation_stratum": "numerical_benchmark",
+      "plan_scope": "current_registered",
+      "execution_attempted": true,
+      "execution_status": "completed_pipeline_only",
+      "solver_build": null
+    }
+  ],
+  "arrival_status_counts": {
+    "not_arrived_by_horizon": 1,
+    "arrived": 41
+  },
+  "arrival_envelope_eligible_count": 12,
+  "within_framework_pairs": [
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "copdem_120_dclaw_ref",
+      "other_run_id": "copdem_120_dclaw_loose",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.55,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.55,
+          0.45
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": true,
+      "same_base_scenario_key": true,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "phase_volume_fractions",
+        "extras"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": -20.784697958965562,
+      "impact_area_m2_difference": -19483200.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "copdem_120_dclaw_ref",
+      "other_run_id": "copdem_120_dclaw_nopressure",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": -1,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": true,
+      "same_base_scenario_key": true,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "extras"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": -4.007250071865592,
+      "impact_area_m2_difference": -1972800.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "copdem_120_dclaw_ref",
+      "other_run_id": "copdem_120_dclaw_permeable",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-08
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": true,
+      "same_base_scenario_key": true,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "extras"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": 13.575282091056451,
+      "impact_area_m2_difference": -8856000.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "copdem_120_dclaw_ref",
+      "other_run_id": "copdem_60_dclaw_ref",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 60.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": true,
+      "same_base_scenario_key": true,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "resolution_m"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": -13.003437401419173,
+      "impact_area_m2_difference": -5868000.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "copdem_120_dclaw_ref",
+      "other_run_id": "dclaw_ref_extended120",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": false,
+      "same_base_scenario_key": false,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": 19.8503684133049,
+      "impact_area_m2_difference": 31910400.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "copdem_60_dclaw_ref",
+      "other_run_id": "copdem_120_dclaw_loose",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 60.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.55,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.55,
+          0.45
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": true,
+      "same_base_scenario_key": true,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "phase_volume_fractions",
+        "extras",
+        "resolution_m"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": -7.781260557546389,
+      "impact_area_m2_difference": -13615200.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "copdem_60_dclaw_ref",
+      "other_run_id": "copdem_120_dclaw_nopressure",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 60.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": -1,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": true,
+      "same_base_scenario_key": true,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "extras",
+        "resolution_m"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": 8.996187329553582,
+      "impact_area_m2_difference": 3895200.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "copdem_60_dclaw_ref",
+      "other_run_id": "copdem_120_dclaw_permeable",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 60.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-08
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": true,
+      "same_base_scenario_key": true,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "extras",
+        "resolution_m"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": 26.578719492475624,
+      "impact_area_m2_difference": -2988000.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "copdem_60_dclaw_ref",
+      "other_run_id": "copdem_120_dclaw_ref",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 60.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": true,
+      "same_base_scenario_key": true,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "resolution_m"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": 13.003437401419173,
+      "impact_area_m2_difference": 5868000.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "copdem_60_dclaw_ref",
+      "other_run_id": "dclaw_ref_extended120",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 60.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": false,
+      "same_base_scenario_key": false,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "resolution_m"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": 32.85380581472407,
+      "impact_area_m2_difference": 37778400.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "dclaw_ref_extended120",
+      "other_run_id": "copdem_120_dclaw_loose",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.55,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.55,
+          0.45
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": false,
+      "same_base_scenario_key": false,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "phase_volume_fractions",
+        "extras"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": -40.63506637227046,
+      "impact_area_m2_difference": -51393600.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "dclaw_ref_extended120",
+      "other_run_id": "copdem_120_dclaw_nopressure",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": -1,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": false,
+      "same_base_scenario_key": false,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "extras"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": -23.85761848517049,
+      "impact_area_m2_difference": -33883200.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "dclaw_ref_extended120",
+      "other_run_id": "copdem_120_dclaw_permeable",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-08
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": false,
+      "same_base_scenario_key": false,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "extras"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": -6.275086322248448,
+      "impact_area_m2_difference": -40766400.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "dclaw_ref_extended120",
+      "other_run_id": "copdem_120_dclaw_ref",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": false,
+      "same_base_scenario_key": false,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": -19.8503684133049,
+      "impact_area_m2_difference": -31910400.0
+    },
+    {
+      "model_id": "dclaw",
+      "solver_build": "official_original_frozen_source",
+      "reference_run_id": "dclaw_ref_extended120",
+      "other_run_id": "copdem_60_dclaw_ref",
+      "comparison_scope": "within-framework conditional sensitivity; not calibrated model gain",
+      "reference_parameters": {
+        "resolution_m": 120.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "other_parameters": {
+        "resolution_m": 60.0,
+        "release_thickness_m": 15,
+        "mu_basal": 0.15,
+        "xi": null,
+        "extras": {
+          "init_ptype": 0,
+          "m0": 0.63,
+          "kref": 1e-10
+        },
+        "phase_volume_fractions": [
+          0.63,
+          0.37
+        ],
+        "bulk_density_kg_m3": null,
+        "passive_material_volume_fractions": null
+      },
+      "same_geometry_version": false,
+      "same_base_scenario_key": false,
+      "same_initial_volume_within1e_minus6": true,
+      "changed_parameter_fields": [
+        "resolution_m"
+      ],
+      "ref_numerical_qualification": "conditional_native_execution_only",
+      "other_numerical_qualification": "conditional_native_execution_only",
+      "max_depth_m_difference": -32.85380581472407,
+      "impact_area_m2_difference": -37778400.0
+    }
+  ],
+  "independent_local_training_events": 0,
+  "independent_local_validation_events": 0,
+  "probability_weights": null,
+  "coverage_probability_claimed": false,
+  "time_origin": "bulk_release",
+  "initiation_to_release_delay_seconds": null,
+  "limitations": [
+    "inventory is not number of completed formal experiments; plan_scope and actual attempts separated",
+    "reduced 1D/2D unqualified for thin-flow arrival timing; 1D area is equivalent-width only",
+    "ravaflow scalar terrain-corrected speed differs from horizontal magnitude; sampling/cutoffs retained",
+    "DClaw nodal-to-cell effective terrain/release differ; signed sampled boundary flux is not native conservation verification",
+    "failed-pipeline and early-terminated hits retained as observed_hit only, valid travel time null",
+    "all travel times relative to scenario bulk release; initiation-to-release delay unknown",
+    "Early partial DClaw packet only; all-route and Q2 mapping comparisons remain pending",
+    "Boundary-affected arrivals are conditional diagnostics, excluded from the arrival envelope",
+    "Saved-output target detection was independently re-evaluated against hashed native NPZ times/depth; not solver-step arrival precision",
+    "Five OSM representatives refer to three distinct candidate entities, not five independent validation targets",
+    "copdem_120_dclaw_ref historical build-container image ID is unavailable; base image/container and exact execution/log/fields retained"
+  ]
+}

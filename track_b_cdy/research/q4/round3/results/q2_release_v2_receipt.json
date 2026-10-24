@@ -1,0 +1,31 @@
+{
+  "received_at_utc": "2026-10-24T08:03:30.953035+00:00",
+  "bundle_path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json",
+  "sha256": "108ce2d34289fe3c5cdb5dacf6927bf977439bd9f06b959ff931f7d06b57f683",
+  "file_count_verified": 11,
+  "selected_mappings": [
+    {
+      "scenario_id": "q2r3-p0000-S-linear__geomv2_60m",
+      "base_scenario_id": "q2r3-p0000-S-linear",
+      "release_raster_path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0000_60m_v2.tif",
+      "actual_grid_volume_m3": 51755728.59264966
+    },
+    {
+      "scenario_id": "q2r3-p0036-S_T-linear__geomv2_60m",
+      "base_scenario_id": "q2r3-p0036-S_T-linear",
+      "release_raster_path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0036_60m_v2.tif",
+      "actual_grid_volume_m3": 31184139.128429696
+    },
+    {
+      "scenario_id": "q2r3-p0036-S_T-linear__geomv2_120m",
+      "base_scenario_id": "q2r3-p0036-S_T-linear",
+      "release_raster_path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0036_120m_v2.tif",
+      "actual_grid_volume_m3": 31184139.128429696
+    }
+  ],
+  "adoption": {
+    "upstream_bundle_sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3",
+    "note": "Accepted as additional full-Q4-candidate-mask release mapping, distinct from v1 small-area release assumptions. 64 rows retain base_scenario_id, 60/120m grids conserve the same volume, four provided TIFFs independently read and integrated. Full-mask volume16.48-51.76Mm3 is conditional, not observed; no pressure-storage-to-free-water conversion, no-start/left-censored parents retained. Preserve release mapping and base-state linkage; do not silently substitute into v1 preregistered geometry experiments.",
+    "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+  }
+}

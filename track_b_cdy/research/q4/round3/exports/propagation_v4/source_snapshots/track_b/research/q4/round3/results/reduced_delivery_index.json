@@ -1,0 +1,941 @@
+{
+  "bundle_version": "q4-r3-reduced-delivery-v1",
+  "producer_question": "q4",
+  "input_version": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+  "evaluation_stratum": "conditional_scenario_and_numerical_benchmark_separately_labelled",
+  "runs": 34,
+  "files": [
+    {
+      "path": "track_b/research/q4/round3/scripts/reduced_benchmarks.py",
+      "bytes": 6023,
+      "sha256": "58c77910c029b60619ffe53000f2bab9c91afd0994c45ef77298f8e0c6b6076a",
+      "role": "reduced-model scripts artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/reduced_region.py",
+      "bytes": 7775,
+      "sha256": "37dd019f086240de32300749d29cc426fc32dd2c3c2fa231275aab12686b5e77",
+      "role": "reduced-model scripts artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/reduced_report.py",
+      "bytes": 23694,
+      "sha256": "6929110d5434f3d5e2e3db3180b2b6f187e10d013188e296f5c8443663567b3e",
+      "role": "reduced-model scripts artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/reduced_solver.py",
+      "bytes": 9896,
+      "sha256": "0cb0eb23bb4c752fb6688c4dc721d660b5288de0537ac1e6854fce56614af054",
+      "role": "reduced-model scripts artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/reduced_validate.py",
+      "bytes": 6083,
+      "sha256": "52b7c745d0174646b1b4dee9715aacf3a2c5ea105c6bb1b84503d6f6d41281e4",
+      "role": "reduced-model scripts artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/reduced_environment.json",
+      "bytes": 1059,
+      "sha256": "f4634155cc0d26c7f95786d23d3a0e19e2378a1a99dedd986a3bad026bef04e0",
+      "role": "reduced-model config artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/reduced_environment.lock",
+      "bytes": 727,
+      "sha256": "09311aefffac85a082b680c176b1912335a1c7a96467cd198ecc31c181db035e",
+      "role": "reduced-model config artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/reduced_protocol.json",
+      "bytes": 5550,
+      "sha256": "ec4caac240dfa667cdd3917da0f0e07946cd780ec481a0a25d883f12eb6df7fc",
+      "role": "reduced-model config artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/reduced_protocol_amendment01.json",
+      "bytes": 1003,
+      "sha256": "e781a54ec40aaf798bef095d23fb47579d2049eee21be75241cfc4e5356be865",
+      "role": "reduced-model config artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_h136.json",
+      "bytes": 4332,
+      "sha256": "9faa026aadc38eee02ded53ed25306bdc9f6e577f7001b636c38efce87b896c8",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_h136_timeseries.csv",
+      "bytes": 4455,
+      "sha256": "b1ad0ec01d588a62315a70d62e8123b45800971ab5144ba74a11d7ce79135998",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_h30.json",
+      "bytes": 4311,
+      "sha256": "3865b632e097e0e6062028e1efa797a19520a1dfa355b60f5cf6b86eed587274",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_h30_timeseries.csv",
+      "bytes": 4438,
+      "sha256": "de43bb67cb1d0cfa6aa5d14ea6329dd8e40973f19f89afb1d28f46a03b53c37f",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_h5.json",
+      "bytes": 4281,
+      "sha256": "489490d3c1e493ede214f225290a8f2106a484aa64a7531e8f3665602f517db6",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_h5_timeseries.csv",
+      "bytes": 3373,
+      "sha256": "941d0f1b475aec7f6c9509a8834a2279caae7f2b386a2590e6bf267b34b5a928",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_mu08.json",
+      "bytes": 4289,
+      "sha256": "b657c90f2db799cde68342be171f1bd395ab128194976f1b5ef7ab0a8c09307a",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_mu08_timeseries.csv",
+      "bytes": 4428,
+      "sha256": "5dd02b1e2c8161b965b0ba5c75b9dc28cc2351272bc364bd9ea6868d23db5fe4",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_mu25.json",
+      "bytes": 4303,
+      "sha256": "ef4ba7e8bb4c755e23867dcd39937f605660e09918b3f5a14e77ddcd2b0994a3",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_mu25_timeseries.csv",
+      "bytes": 3247,
+      "sha256": "70a15a05c7023d2917f56d887d273d3b38ac5c1f2e37ee77aa9b2618a95c6db9",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_ref.json",
+      "bytes": 4299,
+      "sha256": "4a89cbefd6540c6fffaeeaf15f76f69db06917b74f24057ee5c5032dc46195f0",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_ref_timeseries.csv",
+      "bytes": 3289,
+      "sha256": "a36165b3ea228dc8310cd52c70a9f2f2b3b5130eab089c4e21cf1552e9160140",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_xi2000.json",
+      "bytes": 4311,
+      "sha256": "77cb2c126ccbce989b9f98eda33f396867190b078a764b693974c1e52fdabc27",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_xi2000_timeseries.csv",
+      "bytes": 3321,
+      "sha256": "714234de0875707bae27d7a936ee86d6fe2e34b4225cbf9bff2caade244628ce",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_xi500.json",
+      "bytes": 4306,
+      "sha256": "2f4a8b6936224e4ea0e4b596d6c6d21d0ea713234462f6dff353dc936e5f6f3c",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P1_xi500_timeseries.csv",
+      "bytes": 3341,
+      "sha256": "7b4e64221c19a68226360a380283e77544d44e3a8261ad4176b023843c298b24",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_h136.json",
+      "bytes": 4284,
+      "sha256": "b1964859105e744b1b61832817c4f426caef770eda2549a71b0c6c75fd33fbfa",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_h136_timeseries.csv",
+      "bytes": 4422,
+      "sha256": "1bc0f64f8285f96b0294e7a752e97d44e8c6690fd5b1a151530eef78c5f0d411",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_h30.json",
+      "bytes": 4310,
+      "sha256": "820bbfda43ddbbc1ef77b296081c6a304aefa9e3e37ab8bbd6b58ac54e1f5dda",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_h30_timeseries.csv",
+      "bytes": 4379,
+      "sha256": "2d5ceea95e676d26907ecff9981195fc2f66c4f362c0036b077c621c3716e36e",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_h5.json",
+      "bytes": 4202,
+      "sha256": "321f02fc4219309576691815f712d7788261c7d50fa9844ff8c3fc95b2e8946b",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_h5_timeseries.csv",
+      "bytes": 3036,
+      "sha256": "f755c91a5247ed025fa3a5380a83459154bb988c0a3214698ee9bfb627e7d741",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_mu08.json",
+      "bytes": 4283,
+      "sha256": "782deb6a74d7776b45e5176b31592eba98d7545dd448332c1471bf23355b8b8c",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_mu08_timeseries.csv",
+      "bytes": 4378,
+      "sha256": "37462577360fd29799c8e8898c3b1cb2c20df379974b24c35b63b730414cb240",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_mu25.json",
+      "bytes": 4286,
+      "sha256": "3037bee34a36eec7883e47def236572515682e31450d158160c996a171037338",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_mu25_timeseries.csv",
+      "bytes": 3391,
+      "sha256": "f98bab58d9887360b7c3e615c341d3cd2dfc50b8ecfcd969870c63b5fce3c24f",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_ref.json",
+      "bytes": 4242,
+      "sha256": "c9fa2ac1e04286cfb77965269762658cdc84a1e055055ba62f22677f828dfd31",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_ref_timeseries.csv",
+      "bytes": 3500,
+      "sha256": "9b60420d7a1a5bafa66d1b6bd3b8879acb13ee3121b3e2090f88268c6ac84d55",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_xi2000.json",
+      "bytes": 4312,
+      "sha256": "c7667f5e52e85b70202ce79a7d4d3cb64042e486b4683d3e1374964eb6fec5fd",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_xi2000_timeseries.csv",
+      "bytes": 3321,
+      "sha256": "9813c7743efb5ca9f7090e0e30812678eb13e6cd26ee36317ebc32d9a195105d",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_xi500.json",
+      "bytes": 4308,
+      "sha256": "2ca47e5956c928d345159365d4c3befb11393c318bb65973805aced3d9e8c05f",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P2_xi500_timeseries.csv",
+      "bytes": 3285,
+      "sha256": "47d0ce24aa8b2c905f2139fc8ce0a8b30c5ec390e5aae81851990fc831dba28f",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_h136.json",
+      "bytes": 4317,
+      "sha256": "610c09b519a368052ede560e49cde171091a2c26e16f1bfc20a349aea0fe303d",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_h136_timeseries.csv",
+      "bytes": 4449,
+      "sha256": "4068129c9387f59670463e11ff6e7aabdf1be2fdcd3c091b9d691fe9ff2b5a69",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_h30.json",
+      "bytes": 4278,
+      "sha256": "21b8576130b3a8c57bd874ba36960e2afa6e784739838a2937224c1daf1d1b12",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_h30_timeseries.csv",
+      "bytes": 4454,
+      "sha256": "b27476e18c73411a5303da21f570e88cd7096073ab6f8cd6a1d43f700496c4b2",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_h5.json",
+      "bytes": 4258,
+      "sha256": "2794021c32b1b785b58d096f08c23ff9611b49b2656e63dcb6288e176d418bbf",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_h5_timeseries.csv",
+      "bytes": 3152,
+      "sha256": "22bf8a22674a80933da0c84ef1658a6a107480202ac48b377b5b6d298ab43281",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_mu08.json",
+      "bytes": 4317,
+      "sha256": "9fbc9f7f926f5b151534cd089d9d9134efdc0ebfa00348ffade833872b7d2217",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_mu08_timeseries.csv",
+      "bytes": 4372,
+      "sha256": "16d536512f6af045f72665bc4b75f08eceeded80837bb673556b176e7ecff4bf",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_mu25.json",
+      "bytes": 4291,
+      "sha256": "cd750e4051a4734af58d7bfe19a6d0d796ecb7ed4737fc1ba01ff67b72429a90",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_mu25_timeseries.csv",
+      "bytes": 3421,
+      "sha256": "1bf222b05212c5745ea781b661200b32259084911709f1c16b948695f383bc44",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_ref.json",
+      "bytes": 4307,
+      "sha256": "aeacb868a29ab71d03b955630e62c98a9142268076a895f0afbb3895916feebd",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_ref_timeseries.csv",
+      "bytes": 3323,
+      "sha256": "78ed670d9c69ca91ac955fc038561f8630cf01bf1f27101692138ed90905d961",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_xi2000.json",
+      "bytes": 4320,
+      "sha256": "4dbcf1555afc7adb4d5cb622e7c88beacee098d0f7e447e5e81ec2948207f5ba",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_xi2000_timeseries.csv",
+      "bytes": 3265,
+      "sha256": "18f3bd4e29e9319ef0de175f0fe74d1f451a346197c65844c7f7d5f4c558468c",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_xi500.json",
+      "bytes": 4316,
+      "sha256": "0af4365eb7a606ce967aa62f2e6e62e25450094b7d863219e7a86d1050ed41dd",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_1d_P3_xi500_timeseries.csv",
+      "bytes": 3409,
+      "sha256": "25a73f27122464a269d45a3039901c74930addf6fb0036c6993e62f213ba301d",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_h136_60m.json",
+      "bytes": 4246,
+      "sha256": "5222c49c65e017ee36429c244143874896c0c73b8f7c12a8c05d891738b72d98",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_h136_60m_timeseries.csv",
+      "bytes": 4014,
+      "sha256": "43a35dd5ee67dea92132cbb587d667a25772511e3f106e806ecde820594c47db",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_h30_60m.json",
+      "bytes": 4305,
+      "sha256": "30baebbdfdd9f7e6c22caa30a58a697237e182f1f6c9e9498c6dd15f3c817cff",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_h30_60m_timeseries.csv",
+      "bytes": 4003,
+      "sha256": "7d495399841b3679826240c205ac5ee7625b06e6490ba75673640a3ebdadb0d8",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_h5_60m.json",
+      "bytes": 4186,
+      "sha256": "f100c51b1628b503e0073e792d44d5adccdf022307690259b76f1db671f13500",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_h5_60m_timeseries.csv",
+      "bytes": 3363,
+      "sha256": "63d63b6810a48bb99511fba9cf0cc8c3948dee0cdfe5ec1f4b1e82b827fed68a",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_mu08_60m.json",
+      "bytes": 4255,
+      "sha256": "837e0fe92e550493641067cd9f008432147f510a948e7ed6f0ebdf73dc56fa06",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_mu08_60m_timeseries.csv",
+      "bytes": 4150,
+      "sha256": "52af6e2e1eb49baa672b3e264228ec6b29f0f87547dc1124126dd9ee3943d187",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_mu25_60m.json",
+      "bytes": 4291,
+      "sha256": "47ad3b37e94471effc6c6d56fd26d76e7f78cd9772e020d21196a3b34b23791d",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_mu25_60m_timeseries.csv",
+      "bytes": 3460,
+      "sha256": "7f5f49ab4ad9285f8079aaf0998a7aab8bf81141be44be9d20951bd885496ca8",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_ref_120m.json",
+      "bytes": 4277,
+      "sha256": "eb83172d5e826ff144e8cd5121341154317eb60ef691acb3617ebc1683096969",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_ref_120m_timeseries.csv",
+      "bytes": 3397,
+      "sha256": "14b47b340fd638831f33b0119c9210c4f9189678f30a8d0c8917d0a6e99f795a",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_ref_60m.json",
+      "bytes": 4284,
+      "sha256": "70519c6b390174ada09bdc8d92654fb6affc2ac2945576390afd00da183f5b30",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_ref_60m_cflhalf.json",
+      "bytes": 4308,
+      "sha256": "b3ff89add15127348b8123f31ed28adf567373b239ca694a4a6f70f4f5eda752",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_ref_60m_cflhalf_timeseries.csv",
+      "bytes": 3639,
+      "sha256": "33a6c4fcccc08380e665aab7bdde77997cd9804aeba08e8f1e7124b899f1ae75",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_ref_60m_timeseries.csv",
+      "bytes": 3530,
+      "sha256": "3e1d347c235a0dc9bcbe08774cc7777edbf17ef79eac329ad46e9b323fc31958",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_xi2000_60m.json",
+      "bytes": 4241,
+      "sha256": "c56cd6344e3c2e5a44f7646c42412b6e66e72315b891b709bc781deaa26c8d2f",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_xi2000_60m_timeseries.csv",
+      "bytes": 3550,
+      "sha256": "b2ffbeeff0e275329a886b75cc066f8ab58a0be02b22b972ceca5273995a55dd",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_xi500_60m.json",
+      "bytes": 4294,
+      "sha256": "33a2b7398225f088fa971f4f6ad09697ac8c79063d559e592c4ab4f9027d9cb1",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_2d_xi500_60m_timeseries.csv",
+      "bytes": 3573,
+      "sha256": "2baca5518b026f3659e02cc22ef34d307e77aaf5f1dc8b3b899fcd43df549e58",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_comparisons.json",
+      "bytes": 2019,
+      "sha256": "ddadac159411c3143be224d57787e1823ea5e8717b545041b79ff282813e6106",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_delivery_metrics.csv",
+      "bytes": 19955,
+      "sha256": "4cf9838e4dc55c5aabafcba8b99fe606fc83f3d563d35bd20ba08667b0eef3d0",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_delivery_validation.json",
+      "bytes": 1096,
+      "sha256": "5c99ba0766bbd2adcdb91c1a6920941fa716e8daf39a7a09c80166efb0d04482",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_figure_index.json",
+      "bytes": 1778,
+      "sha256": "c2e3f95db3c87df6d365c99965b4a0ece800fca8b1b5bc744e6f83f4cfdb921e",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_numerical_validation.json",
+      "bytes": 15571,
+      "sha256": "1f3c0cefa507689dff03aff2de489dae7ae1a715d2d127f4f7953e281805ee46",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_osm_target_arrivals_v2.csv",
+      "bytes": 77657,
+      "sha256": "7130f014d825eca464a5e40a18091295b5c94616a9d9930a5e4f3dad71a0abaf",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_osm_target_postprocess_v2.json",
+      "bytes": 1138,
+      "sha256": "b528affcd4dd1e3016459a2521493cf0fadf43e1d54808827b0b31fa622feaf0",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_runs.csv",
+      "bytes": 17286,
+      "sha256": "00d4a5aff1351e364cfdcbb1e4912be1f55d023ed1d988800df85cc782b0afd1",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_target_arrivals.csv",
+      "bytes": 9369,
+      "sha256": "0d2212368559df0306fe3204f071b6d5d6a22df5ca4b1db698f9b01c39b0ab2b",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_visual_review.json",
+      "bytes": 2299,
+      "sha256": "f9d093ce4de0ff8c7298598934efcb4a3cf37c3a78f1f9007e4f83cb5c6b7923",
+      "role": "reduced-model results artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/reduced_1d_profiles.png",
+      "bytes": 311831,
+      "sha256": "c70bd9a6d27d95567c35162f83a7dc7bfcbb1fa36b29927d71998030978d333f",
+      "role": "reduced-model figures artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/reduced_2d_reference.png",
+      "bytes": 490771,
+      "sha256": "440d4dcc158912d5c0defe2d13155ed1bb6f3fae88083a52ff0015a5bb014fbb",
+      "role": "reduced-model figures artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/reduced_2d_sensitivity.png",
+      "bytes": 114902,
+      "sha256": "a7196032439c60805fc35c4399d4834c9c3c4b2d5c6a91b73b0425a5e0622e86",
+      "role": "reduced-model figures artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/reduced_2d_snapshots.png",
+      "bytes": 159473,
+      "sha256": "7278c0389c61f6b0653adbe8576299f4661c9e2e78e368280e38fc2bbcb77456",
+      "role": "reduced-model figures artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/reduced_numerical_checks.png",
+      "bytes": 109495,
+      "sha256": "83c8fd04a972bfdd2a335acf78600c898425659596eb85dd65f2f318a9f8afaa",
+      "role": "reduced-model figures artifact"
+    },
+    {
+      "path": "track_b/research/q4/round3/REDUCED_MODELS.md",
+      "bytes": 9191,
+      "sha256": "a85c798bd9a7b3a423b6334ad0082229017ab4f27e5c78a3ad2723edd12a48c2",
+      "role": "model equations, actual results, rejection evidence and reproduction"
+    }
+  ],
+  "cache_files": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_h136/fields_vectors.npz",
+      "bytes": 50026,
+      "sha256": "6eb86814bb3682d8dbf183096f86b282b4dc9ae0e8d346f02c5609a5c24ca540",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_h136/fields.npz",
+      "bytes": 49755,
+      "sha256": "58dcce68be833d67ec4f5fde64637179d559e110a624dbd6cbb96c2891375f22",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_h30/fields_vectors.npz",
+      "bytes": 33174,
+      "sha256": "b5c5d44cb52e32ad0c6797829560da728bbe1f1a00d7fe91128ed484ee9503f1",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_h30/fields.npz",
+      "bytes": 32903,
+      "sha256": "d99a16e2303a3c0b46929436b8a82a1470344eb8c0a65ca8852295f1a572a596",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_h5/fields_vectors.npz",
+      "bytes": 24761,
+      "sha256": "a5dc78f58582c92f024301ff1c959fc0da21b3a5a3146c686307aa0d8f8547f0",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_h5/fields.npz",
+      "bytes": 24490,
+      "sha256": "c9551c622538b18866d7b41b2f0c31fde5ff375c4ccfe4ee45c5d05969c56fb1",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_mu08/fields_vectors.npz",
+      "bytes": 30267,
+      "sha256": "8150061b1fd643aa3d2bf17c2e752303a53196597e68e59fcb459865e87d260d",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_mu08/fields.npz",
+      "bytes": 29996,
+      "sha256": "a0ad9ba27c6366a99948e2f4e60dc3a07bd2cc73b58f8bc5f19b08912f8d6c55",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_mu25/fields_vectors.npz",
+      "bytes": 29101,
+      "sha256": "6eea83bfc9e87056a5abf32cacd0df2b48442e0fdf158301b4d9999ea784a65a",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_mu25/fields.npz",
+      "bytes": 28830,
+      "sha256": "8ff24d8393dee987a6a05fb7fb286157dacb05f282ed8b8e1172f7d9fb6d4070",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_ref/fields_vectors.npz",
+      "bytes": 29142,
+      "sha256": "bf7ce89f4bd7009b518d524995f69ed13d958b6796f5369e9e8546105065094a",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_ref/fields.npz",
+      "bytes": 28871,
+      "sha256": "345a818ef65505c17b8f96337dc57d081ff4d6f39dfec4dad99c33fc4ef47aa4",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_xi2000/fields_vectors.npz",
+      "bytes": 29156,
+      "sha256": "2e67709e64bc3556d1e434058df121172d18e34a820266ae01fdcffe62b7c875",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_xi2000/fields.npz",
+      "bytes": 28885,
+      "sha256": "a14de4e3fe14c32e78c33e3848a42734c34b9b969f0bf4f9ea58d1146086f298",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_xi500/fields_vectors.npz",
+      "bytes": 29164,
+      "sha256": "e03605fcd8cae5df921b2300c803b37a348cf0f3f34efb3c2c3f424a12301f55",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P1_xi500/fields.npz",
+      "bytes": 28893,
+      "sha256": "7724d3a51153bcabdf19b6786d5954ee8366a6b775127c3b1e4e1555e42cc6b5",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_h136/fields_vectors.npz",
+      "bytes": 47159,
+      "sha256": "8691e286c4c0aa50cd75fd3d650e00bf13351bd647f540f61d4a3c6ac6c8bd40",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_h136/fields.npz",
+      "bytes": 46864,
+      "sha256": "883d374e52d1c28c5bc1c1b77ee9522320095071f5c39ef81eaab26f8ce043e9",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_h30/fields_vectors.npz",
+      "bytes": 32609,
+      "sha256": "e475e56ffdc473ab88368475aba6fd7b0ab7764392f0eb2569b472ce1e4283a6",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_h30/fields.npz",
+      "bytes": 32314,
+      "sha256": "0ec7da89228d1029b963814d64579f65a69ded88a09cf028c06cf03d3d5c806d",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_h5/fields_vectors.npz",
+      "bytes": 25366,
+      "sha256": "bb2b1699434de8aa847f5870b6214c2c6822df3264a070baf6c6ec4b1d29240e",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_h5/fields.npz",
+      "bytes": 25071,
+      "sha256": "37e7ab3784dec1208ffee6bcfc566326219325139fd034a9b848d3dd7cc6b398",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_mu08/fields_vectors.npz",
+      "bytes": 30589,
+      "sha256": "a2aa0c9fbd4b5df3ba7ee2e303fff3fde2997898a3891666b99c5132c12509ca",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_mu08/fields.npz",
+      "bytes": 30294,
+      "sha256": "a172f768e6a3cf71a19fed72cc633700d2d59bdd093dbee4c1c7820c49f8dddc",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_mu25/fields_vectors.npz",
+      "bytes": 28999,
+      "sha256": "8d525e05125b3e31ed67a51884a4862d0d0ccc70a896813831b7ddb6d0737a86",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_mu25/fields.npz",
+      "bytes": 28704,
+      "sha256": "88b1d18db214819230d394e7c47837ee39a53c7bb8fbe9035b8c501ed16731d4",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_ref/fields_vectors.npz",
+      "bytes": 29205,
+      "sha256": "f4cd3afecf6d28f1afdd2b797b40fc8a9f92636d008a517cff25c24fe94607f7",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_ref/fields.npz",
+      "bytes": 28910,
+      "sha256": "78e2e0dcccf65233f5bf38fc1071da9c11aa22a1ce699e49b24f13fbba872a97",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_xi2000/fields_vectors.npz",
+      "bytes": 29190,
+      "sha256": "b6fc9b0acb2a6f8e9d81dc2e3819d4463164c612c9308cc56fcef32fcfdd152d",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_xi2000/fields.npz",
+      "bytes": 28895,
+      "sha256": "425cebf9fdddf1f7f3e96be082b87e931559ade9a4f28555307e6d9d26abb734",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_xi500/fields_vectors.npz",
+      "bytes": 29188,
+      "sha256": "cffd1baf2f504581e7988ff2458f11116677214149e116652eb4fe9ee581d301",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P2_xi500/fields.npz",
+      "bytes": 28893,
+      "sha256": "5a5645a63b91b779c7c19fd4a88f904dd7782ed7222a300bbc50057d5727ceeb",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_h136/fields_vectors.npz",
+      "bytes": 47691,
+      "sha256": "5dac1fb31af1c008eac87411735265bc1f2e8d1a8e607c527fb230ad05f54a76",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_h136/fields.npz",
+      "bytes": 47414,
+      "sha256": "52d1b36fd450cae961c0d4372d39bb3c1fb427d31b536cfeae8fdc5d731218ba",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_h30/fields_vectors.npz",
+      "bytes": 32827,
+      "sha256": "e6130b1cfc3886de47dbcd071e9a86e418a3c11f2e83d9e6adb98b83bebada2f",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_h30/fields.npz",
+      "bytes": 32550,
+      "sha256": "25f76e7648a87ce40a1daaf881c9ec95d4b51a8b06743611000a2fb63dbe0728",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_h5/fields_vectors.npz",
+      "bytes": 25484,
+      "sha256": "575d558818fea1fab3b70d8c4a14aba0c4c1519b74387b4a8f61b60fdfa6b67e",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_h5/fields.npz",
+      "bytes": 25207,
+      "sha256": "48ee5dd756537a842e63e248977029441c1e16941d713ec91a3b791e92484704",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_mu08/fields_vectors.npz",
+      "bytes": 30743,
+      "sha256": "17290ec84814c5c542db5af0b5ce574709e8ab08846601ace429ab3224833ad2",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_mu08/fields.npz",
+      "bytes": 30466,
+      "sha256": "8817c074c7ec0090571382f2585873190933b747ca7b4e611399e71c4363c7c1",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_mu25/fields_vectors.npz",
+      "bytes": 29150,
+      "sha256": "2dce124b623d654850017b350ac76fc6d8bf35d1f9b9a323be95eadadd63ecd9",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_mu25/fields.npz",
+      "bytes": 28873,
+      "sha256": "ef69aee0e733b40e2f59962e1fc0f9f64f8ad81619075824422a5ae074f3912e",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_ref/fields_vectors.npz",
+      "bytes": 29347,
+      "sha256": "b03738981927f92a00bade47e2f07fe080d1c0526cfcde656cdf408bf99140b4",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_ref/fields.npz",
+      "bytes": 29070,
+      "sha256": "6a7ef23f462a680444cdc96c48a76e7cf81500a2f2088f7f7a2f011db869e2ed",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_xi2000/fields_vectors.npz",
+      "bytes": 29349,
+      "sha256": "7b30f69ad90f80a370c6ed38c126bc27733fce499e3afbd253d00737c3bbc71b",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_xi2000/fields.npz",
+      "bytes": 29072,
+      "sha256": "ecab910cc7b9ff8c76ac5be67017b4b3542acbc4f527f73db2c05bc18515413c",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_xi500/fields_vectors.npz",
+      "bytes": 29366,
+      "sha256": "dd1bdcc015788bd361a7831fcd91a1fa32efdc9d08c361942c77f4a5db42f258",
+      "role": "derived 1D longitudinal velocity mapped to local UTM45N east/north tangents; raw scalar fields retained"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/1d_P3_xi500/fields.npz",
+      "bytes": 29089,
+      "sha256": "21b87988d68d4a17edf0cec4b5f62796cb81861e2911bde18efac29182f9f9e0",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_h136_60m/fields.npz",
+      "bytes": 796025,
+      "sha256": "59bccc3978cb82553685d5cae8b385a4341cacaf47e50038c44d8346e8094858",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_h30_60m/fields.npz",
+      "bytes": 488867,
+      "sha256": "c61e81eed1a95b2f5083b9c2369231ad05d2b45cd7303c6fd3700394e47e5522",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_h5_60m/fields.npz",
+      "bytes": 407860,
+      "sha256": "c51490595a1f12f486734580cc5da4dc2ef5e94e802f1f6a84418261d3380dd0",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_mu08_60m/fields.npz",
+      "bytes": 477063,
+      "sha256": "68b4311eed8da9599b455a0b33b3b89bc8e86706bc22ebee7acd7ac99d53cfdc",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_mu25_60m/fields.npz",
+      "bytes": 443786,
+      "sha256": "b98b905184aa6869170f2c8b5835d98b35835449f5a5b7e3d863e686145d9e4f",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_ref_120m/fields.npz",
+      "bytes": 127626,
+      "sha256": "5f824c9b5c219dee422a8015bbf1c5fb2004ec6cddfe5abd2ef6093b022e0527",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_ref_60m/fields.npz",
+      "bytes": 448505,
+      "sha256": "953cebe432e4114144178441b44bf81567e7964abaa91fa71b875dda47495e13",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_ref_60m_cflhalf/fields.npz",
+      "bytes": 448757,
+      "sha256": "29bfa9da9507a69d070b7dd2d1e430ce58ec080923281f1a3c9a77bddd55a3f7",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_xi2000_60m/fields.npz",
+      "bytes": 448756,
+      "sha256": "df19213c18abfedbca7ee8702de56a47ced9cc1d95fecb7210347fbf93bedb57",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_xi500_60m/fields.npz",
+      "bytes": 448243,
+      "sha256": "50e5e644959b4d6639b3d45e1b6811a54d6cef8984bf89b0695be626b2926188",
+      "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/ramms_friction.html",
+      "bytes": 344799,
+      "sha256": "062405fe7312994a79699aa1c4bc2e935d2e7784c4d6e26d7299e03a222033a0",
+      "role": "bounded primary-source download; actual read scope recorded in protocol"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/hydrostatic_limitation.html",
+      "bytes": 42172,
+      "sha256": "db174d0cfda76eb18fa89d1ad8858c3af82e981cfa9b74055034683eb2b53d24",
+      "role": "bounded primary-source download; actual read scope recorded in protocol"
+    }
+  ],
+  "exclusions": [
+    "this index, to avoid self-reference",
+    "Numba cache/venv and ephemeral logs; environment lock/version metadata retained",
+    "other research agents outputs"
+  ],
+  "limitations": [
+    "both reduced routes excluded from arrival envelope because thin-flow HR accuracy is unqualified",
+    "no calibration or independent event validation",
+    "1D equivalent-width swept area is not a planar hazard footprint",
+    "all 120 new 1D-OSM pairs have no target-cell spatial support; retain missing"
+  ],
+  "all_scoped_files_stable_at_delivery": true
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "citation_order": [
+    "common-waternet",
+    "common-copdem",
+    "common-gfs",
+    "q1-shrinkage",
+    "q1-analog",
+    "q2-mamot2018",
+    "q2-weber2025",
+    "q2-benasher2026",
+    "q3-leinauer2023",
+    "q3-loewdata2024",
+    "q3-schild2026",
+    "q3-noaa-gfs-products",
+    "q3-fukuzono1985",
+    "q3-kalman1960",
+    "q3-friedman1982",
+    "q3-angelopoulos2021",
+    "q4-dem",
+    "q4-ravaflow",
+    "q4-multiphase",
+    "q4-dclaw",
+    "q4-dclaw-code",
+    "common-openai"
+  ],
+  "reference_count": 22,
+  "sources": [
+    "evidence/q1_references.tex",
+    "evidence/q2_references.tex",
+    "evidence/q3_references.tex",
+    "evidence/q4_references.tex",
+    "evidence/common_references.tex"
+  ],
+  "duplicate_keys": [],
+  "conflicting_keys": [],
+  "missing_keys": [],
+  "unused_keys": [
+    "q1-data",
+    "q3-mamot2018"
+  ]
+}

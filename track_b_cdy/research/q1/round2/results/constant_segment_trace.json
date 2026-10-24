@@ -1,0 +1,36 @@
+{
+  "variable_id": "FLUX__amb_e_sat",
+  "raw_unit_label": "kPa",
+  "attachment_source_clock_assumption": "UTC+8; no new interval convention accepted",
+  "start_source_clock": "2022-07-17T21:00:00",
+  "end_source_clock_inclusive": "2023-01-13T17:00:00",
+  "hour_label_count": 4317,
+  "unique_raw_tokens": [
+    "1.776582"
+  ],
+  "exact_constant_value": 1.776582,
+  "attachment_and_saved_pipeline_equal": true,
+  "pipeline_introduced_constant": false,
+  "raw_ranges_inclusive": [
+    {
+      "file": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2022.csv",
+      "first_row_1based": 4751,
+      "last_row_1based": 8761
+    },
+    {
+      "file": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2023.csv",
+      "first_row_1based": 2,
+      "last_row_1based": 307
+    }
+  ],
+  "row_counting": "CSV header=physical row1, first data row=2; no embedded newlines in this selected CSV range",
+  "outside_neighbors_each_side": 2,
+  "all_other_constant_segments_reaudited": false,
+  "originating_instrument_or_processing_or_fill_cause": null,
+  "cause_status": "unknown_with_evidence_and_next_action",
+  "observation_status": "present in competition attachment; not proof of true atmospheric stability",
+  "data_changed_or_quality_labels_created": false,
+  "physical_phase": "background",
+  "data_role": "exploration",
+  "context_ref": "context.json"
+}

@@ -1,0 +1,69 @@
+{
+  "reviewed_at_utc": "2026-10-24T08:46:06.062043+00:00",
+  "figures": [
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/comparison.png",
+      "bytes": 112954,
+      "sha256": "0d34f5363a9525a748cad96625be71d0eb40f6f07a6703e7a7405e491de31548",
+      "actually_opened_with_view_image": true,
+      "review_result": "readable axes/legend; no clipping; blank coverage panels for zero-event administrative views are intentional",
+      "model_role": "record_age_curation_sensitive_challenge",
+      "caption_requirement": "State physical cases, available anchors, known positive outcomes and terminal-collapse phase; no validated95 coverage claim"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/nodes_1024/comparison.png",
+      "bytes": 112458,
+      "sha256": "68033ccd7192a4505197ded73255df4c09de50dfe98f37ae24912e2b71466690",
+      "actually_opened_with_view_image": true,
+      "review_result": "readable axes/legend; no clipping; blank coverage panels for zero-event administrative views are intentional",
+      "model_role": "record_age_curation_sensitive_challenge",
+      "caption_requirement": "State physical cases, available anchors, known positive outcomes and terminal-collapse phase; no validated95 coverage claim"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/administrative_censor_0.5/comparison.png",
+      "bytes": 123216,
+      "sha256": "0e6c6b3020d8380770dc7ded8e84120606088854f2bd8e692803417565f05474",
+      "actually_opened_with_view_image": true,
+      "review_result": "readable axes/legend; no clipping; blank coverage panels for zero-event administrative views are intentional",
+      "model_role": "administrative_censor_conditional_scenario_with_record_age",
+      "caption_requirement": "State physical cases, available anchors, known positive outcomes and terminal-collapse phase; no validated95 coverage claim"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/administrative_censor_0.75/comparison.png",
+      "bytes": 118930,
+      "sha256": "0adcbe1d74ae1f9260879e54242b7ceb68e7661773655bd420fb1fae7abc705a",
+      "actually_opened_with_view_image": true,
+      "review_result": "readable axes/legend; no clipping; blank coverage panels for zero-event administrative views are intentional",
+      "model_role": "administrative_censor_conditional_scenario_with_record_age",
+      "caption_requirement": "State physical cases, available anchors, known positive outcomes and terminal-collapse phase; no validated95 coverage claim"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/record_age_anchor_reference/comparison.png",
+      "bytes": 112954,
+      "sha256": "0d34f5363a9525a748cad96625be71d0eb40f6f07a6703e7a7405e491de31548",
+      "actually_opened_with_view_image": true,
+      "review_result": "readable axes/legend; no clipping; blank coverage panels for zero-event administrative views are intentional",
+      "model_role": "record_age_curation_sensitive_challenge",
+      "caption_requirement": "State physical cases, available anchors, known positive outcomes and terminal-collapse phase; no validated95 coverage claim"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/comparison.png",
+      "bytes": 111673,
+      "sha256": "4c80ba390f7c1c1d5ec8cd5806c1549101075fd3c92a737cd7f4e449345b70ce",
+      "actually_opened_with_view_image": true,
+      "review_result": "readable axes/legend; no clipping; blank coverage panels for zero-event administrative views are intentional",
+      "model_role": "no_record_age_external_main_feature_domain",
+      "caption_requirement": "State physical cases, available anchors, known positive outcomes and terminal-collapse phase; no validated95 coverage claim"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/comparison.png",
+      "bytes": 111978,
+      "sha256": "e639113c33be7887a155fb579f8f22eaf0b76ce994fddb845db92188ef6e5c44",
+      "actually_opened_with_view_image": true,
+      "review_result": "readable axes/legend; no clipping; blank coverage panels for zero-event administrative views are intentional",
+      "model_role": "no_record_age_external_main_feature_domain",
+      "caption_requirement": "State physical cases, available anchors, known positive outcomes and terminal-collapse phase; no validated95 coverage claim"
+    }
+  ],
+  "all_seven_actually_opened": true
+}

@@ -1,0 +1,892 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "sources": [
+    "evidence/q1_code_files.json",
+    "evidence/q2_code_files.json",
+    "evidence/q3_code_files.json",
+    "evidence/q4_code_files.json",
+    "evidence/common_code_files.json"
+  ],
+  "program_count": 58,
+  "source_lines": 12815,
+  "chapter_program_counts": {
+    "common": 7,
+    "q1": 5,
+    "q2": 7,
+    "q3": 20,
+    "q4": 19
+  },
+  "programs": [
+    {
+      "source_path": "track_b/research/q1/round3/scripts/build_features.py",
+      "portable_path": "code/track_b/research/q1/round3/scripts/build_features.py",
+      "display_path": "code_print/track_b/research/q1/round3/scripts/build_features.py",
+      "display_sha256": "dbea3bca9f519e43b065481b433372d7abdab3e8f789cf1a1804d09589a3aeb0",
+      "path_anonymization_count": 0,
+      "sha256": "dbea3bca9f519e43b065481b433372d7abdab3e8f789cf1a1804d09589a3aeb0",
+      "bytes": 30508,
+      "lines": 405,
+      "chapters": [
+        "q1"
+      ],
+      "title": "build_features.py"
+    },
+    {
+      "source_path": "track_b/research/q1/round3/scripts/run_models.py",
+      "portable_path": "code/track_b/research/q1/round3/scripts/run_models.py",
+      "display_path": "code_print/track_b/research/q1/round3/scripts/run_models.py",
+      "display_sha256": "6136d9bf456d15659571f075d95a5121088cfb92b9199b0438b23261a810a20b",
+      "path_anonymization_count": 1,
+      "sha256": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2",
+      "bytes": 30321,
+      "lines": 405,
+      "chapters": [
+        "q1"
+      ],
+      "title": "run_models.py"
+    },
+    {
+      "source_path": "track_b/research/q1/round3/scripts/summarize_results.py",
+      "portable_path": "code/track_b/research/q1/round3/scripts/summarize_results.py",
+      "display_path": "code_print/track_b/research/q1/round3/scripts/summarize_results.py",
+      "display_sha256": "8597e600f3249f060a65e9d23bfd9a1daf37c480188b787f02138e633c5f3d69",
+      "path_anonymization_count": 1,
+      "sha256": "be13ac1f5bdfaf595e76faff3f116e65b06dc75757608db637307b182f705769",
+      "bytes": 22561,
+      "lines": 205,
+      "chapters": [
+        "q1"
+      ],
+      "title": "summarize_results.py"
+    },
+    {
+      "source_path": "track_b/paper/scripts/q1_figures.py",
+      "portable_path": "code/track_b/paper/scripts/q1_figures.py",
+      "display_path": "code_print/track_b/paper/scripts/q1_figures.py",
+      "display_sha256": "274a8ec170821f08dc2ae815b3f5cff5075b1a2418ce005c8c25fe29ad65d55d",
+      "path_anonymization_count": 0,
+      "sha256": "274a8ec170821f08dc2ae815b3f5cff5075b1a2418ce005c8c25fe29ad65d55d",
+      "bytes": 7912,
+      "lines": 151,
+      "chapters": [
+        "q1"
+      ],
+      "title": "q1_figures.py"
+    },
+    {
+      "source_path": "track_b/paper/scripts/q1_evidence.py",
+      "portable_path": "code/track_b/paper/scripts/q1_evidence.py",
+      "display_path": "code_print/track_b/paper/scripts/q1_evidence.py",
+      "display_sha256": "219fb7118b02591288a8c9cb96f4c8ceb886746419b1743e21a1f84a3b516131",
+      "path_anonymization_count": 0,
+      "sha256": "219fb7118b02591288a8c9cb96f4c8ceb886746419b1743e21a1f84a3b516131",
+      "bytes": 34211,
+      "lines": 458,
+      "chapters": [
+        "q1"
+      ],
+      "title": "q1_evidence.py"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "portable_path": "code/track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "display_path": "code_print/track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "display_sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "path_anonymization_count": 0,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "bytes": 10650,
+      "lines": 182,
+      "chapters": [
+        "q2"
+      ],
+      "title": "共同力学、损伤及储排水推进"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "portable_path": "code/track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "display_path": "code_print/track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "display_sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607",
+      "path_anonymization_count": 0,
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607",
+      "bytes": 7560,
+      "lines": 143,
+      "chapters": [
+        "q2"
+      ],
+      "title": "因果erfc热核与解析热接口"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/scripts/run_experiments.py",
+      "portable_path": "code/track_b/research/q2/round3/scripts/run_experiments.py",
+      "display_path": "code_print/track_b/research/q2/round3/scripts/run_experiments.py",
+      "display_sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1",
+      "path_anonymization_count": 0,
+      "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1",
+      "bytes": 21983,
+      "lines": 246,
+      "chapters": [
+        "q2"
+      ],
+      "title": "共同19维参数设计与情景记录"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/scripts/run_analytic_thermal.py",
+      "portable_path": "code/track_b/research/q2/round3/scripts/run_analytic_thermal.py",
+      "display_path": "code_print/track_b/research/q2/round3/scripts/run_analytic_thermal.py",
+      "display_sha256": "242c5e602bad21b0314110aaa3c3f44105f0c8fd120d45461d294733f1562240",
+      "path_anonymization_count": 1,
+      "sha256": "8cb54a4a6db606994c18d9e82ab9dce8269e77b1e5445287f9f5d865f3e3e1d6",
+      "bytes": 34185,
+      "lines": 399,
+      "chapters": [
+        "q2"
+      ],
+      "title": "全2048解析热竞争与参考配对后处理"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/scripts/analyze_identifiability.py",
+      "portable_path": "code/track_b/research/q2/round3/scripts/analyze_identifiability.py",
+      "display_path": "code_print/track_b/research/q2/round3/scripts/analyze_identifiability.py",
+      "display_sha256": "13bf5a0542300cf60b7b6f693fdc3189e055d58b9bbdfc1671dbfd72ce2a3569",
+      "path_anonymization_count": 0,
+      "sha256": "13bf5a0542300cf60b7b6f693fdc3189e055d58b9bbdfc1671dbfd72ce2a3569",
+      "bytes": 13881,
+      "lines": 226,
+      "chapters": [
+        "q2"
+      ],
+      "title": "局部雅可比与参数补偿基准"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/lab_strength/model/competition.py",
+      "portable_path": "code/track_b/research/q2/round3/lab_strength/model/competition.py",
+      "display_path": "code_print/track_b/research/q2/round3/lab_strength/model/competition.py",
+      "display_sha256": "5f93736b630b683ad52ba0c7d9fbca0fe9f50b4f88d0e954579a620506d53292",
+      "path_anonymization_count": 0,
+      "sha256": "5f93736b630b683ad52ba0c7d9fbca0fe9f50b4f88d0e954579a620506d53292",
+      "bytes": 21680,
+      "lines": 365,
+      "chapters": [
+        "q2"
+      ],
+      "title": "完整外部实验本构拟合、分组留出与条件不确定性"
+    },
+    {
+      "source_path": "track_b/paper/scripts/q2_make_figures.py",
+      "portable_path": "code/track_b/paper/scripts/q2_make_figures.py",
+      "display_path": "code_print/track_b/paper/scripts/q2_make_figures.py",
+      "display_sha256": "42929bd7ae4767adf2f3dd8c42be93871e858a795a4ae8eeef6daa2156b77f3f",
+      "path_anonymization_count": 1,
+      "sha256": "9c2ee22d79d5d5a289491266b569e4e882c76b5c2312bf1c0c0c943998fa8e34",
+      "bytes": 17938,
+      "lines": 272,
+      "chapters": [
+        "q2"
+      ],
+      "title": "本章节三幅矢量图重绘"
+    },
+    {
+      "source_path": "track_b/paper/scripts/q3_evidence.py",
+      "portable_path": "code/track_b/paper/scripts/q3_evidence.py",
+      "display_path": "code_print/track_b/paper/scripts/q3_evidence.py",
+      "display_sha256": "e0bc4e0998bb840164507d3496145cbb4752e0b625304ba4050876bc7ce3d0bf",
+      "path_anonymization_count": 0,
+      "sha256": "e0bc4e0998bb840164507d3496145cbb4752e0b625304ba4050876bc7ce3d0bf",
+      "bytes": 16702,
+      "lines": 259,
+      "chapters": [
+        "q3"
+      ],
+      "title": "paper plotting, preview compilation or evidence assembly; no model refit"
+    },
+    {
+      "source_path": "track_b/paper/scripts/q3_figures.py",
+      "portable_path": "code/track_b/paper/scripts/q3_figures.py",
+      "display_path": "code_print/track_b/paper/scripts/q3_figures.py",
+      "display_sha256": "1b0c236fc7fd132c838333a96c70b43e1951aa7ad5111513488f58471d624e70",
+      "path_anonymization_count": 0,
+      "sha256": "1b0c236fc7fd132c838333a96c70b43e1951aa7ad5111513488f58471d624e70",
+      "bytes": 9163,
+      "lines": 163,
+      "chapters": [
+        "q3"
+      ],
+      "title": "paper plotting, preview compilation or evidence assembly; no model refit"
+    },
+    {
+      "source_path": "track_b/paper/scripts/q3_preview.py",
+      "portable_path": "code/track_b/paper/scripts/q3_preview.py",
+      "display_path": "code_print/track_b/paper/scripts/q3_preview.py",
+      "display_sha256": "d9c0adae0df2133c3864be93b4c35b2e75a490156ece208cb87f65dc0a096b67",
+      "path_anonymization_count": 0,
+      "sha256": "d9c0adae0df2133c3864be93b4c35b2e75a490156ece208cb87f65dc0a096b67",
+      "bytes": 1688,
+      "lines": 48,
+      "chapters": [
+        "q3"
+      ],
+      "title": "paper plotting, preview compilation or evidence assembly; no model refit"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/analytic_thermal_engine.py",
+      "portable_path": "code/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/analytic_thermal_engine.py",
+      "display_path": "code_print/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/analytic_thermal_engine.py",
+      "display_sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607",
+      "path_anonymization_count": 0,
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607",
+      "bytes": 7560,
+      "lines": 143,
+      "chapters": [
+        "q3"
+      ],
+      "title": "erfc线性因果卷积热提供者"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+      "portable_path": "code/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+      "display_path": "code_print/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+      "display_sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "path_anonymization_count": 0,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "bytes": 10650,
+      "lines": 182,
+      "chapters": [
+        "q3"
+      ],
+      "title": "结构/损伤/储水与温应力强度关系自编引擎"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/postprocess.py",
+      "portable_path": "code/track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/postprocess.py",
+      "display_path": "code_print/track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/postprocess.py",
+      "display_sha256": "94205d0a172062b5088fc261688e8c68ea3c4939e695cac5f7ee9683b7694ee2",
+      "path_anonymization_count": 0,
+      "sha256": "94205d0a172062b5088fc261688e8c68ea3c4939e695cac5f7ee9683b7694ee2",
+      "bytes": 8246,
+      "lines": 99,
+      "chapters": [
+        "q3"
+      ],
+      "title": "同输入热提供者与同随访天气状态对照"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/replay.py",
+      "portable_path": "code/track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/replay.py",
+      "display_path": "code_print/track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/replay.py",
+      "display_sha256": "210d03092d6db43f76b7eb98c5a7817b7be255adf1740dc19a29366bdd0f3086",
+      "path_anonymization_count": 1,
+      "sha256": "61dfe484844fed5676f3902733ead10416eef89fd34218b1461dd3bcebd816d9",
+      "bytes": 18188,
+      "lines": 279,
+      "chapters": [
+        "q3"
+      ],
+      "title": "实际解析热与逐issue天气耦合消费端"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/acquire_deformation.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/acquire_deformation.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/acquire_deformation.py",
+      "display_sha256": "9578477a402513a2edaabe0f151960e7202f09a85b05ab4e978d003609e63194",
+      "path_anonymization_count": 1,
+      "sha256": "e4d4f2f40e0616e159676f6efa9ab5bcb7d08a8898d9e8ecc42c40019fc9317e",
+      "bytes": 17366,
+      "lines": 133,
+      "chapters": [
+        "q3"
+      ],
+      "title": "Primarypublic data acquisition/provenance andcanonical time/label/measurement audit"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/acquire_weather.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/acquire_weather.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/acquire_weather.py",
+      "display_sha256": "2c3867de9f2df8063d5c288f076c133101613f3efa990060e9ceff97f7cd3ab2",
+      "path_anonymization_count": 2,
+      "sha256": "b451ea7e17d2384dc3812f521260391c3709fc7962de2d1dc5ef7aac7da340d6",
+      "bytes": 20230,
+      "lines": 289,
+      "chapters": [
+        "q3"
+      ],
+      "title": "GFS实际字段获取、原生累计解析与区域摘要"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/applicability_fixed_risk.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/applicability_fixed_risk.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/applicability_fixed_risk.py",
+      "display_sha256": "4d99af9d88d1155b58222f93520fdbe4a424a951057913d5d7ffa5eb015e2b28",
+      "path_anonymization_count": 0,
+      "sha256": "4d99af9d88d1155b58222f93520fdbe4a424a951057913d5d7ffa5eb015e2b28",
+      "bytes": 8471,
+      "lines": 80,
+      "chapters": [
+        "q3"
+      ],
+      "title": "固定历史风险适用性质量划分"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/applicability_sensitivity.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/applicability_sensitivity.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/applicability_sensitivity.py",
+      "display_sha256": "9c5fa15bc8a514bd90c6a335812b159bf15a91cad80176b6a4e8ccb82abff357",
+      "path_anonymization_count": 0,
+      "sha256": "9c5fa15bc8a514bd90c6a335812b159bf15a91cad80176b6a4e8ccb82abff357",
+      "bytes": 13744,
+      "lines": 149,
+      "chapters": [
+        "q3"
+      ],
+      "title": "原先验与适用性分组汇总"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/common_anchor_comparison.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/common_anchor_comparison.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/common_anchor_comparison.py",
+      "display_sha256": "cc0a09d458169d68dbffd582bef776dcc75c347dfeed6505341bc89885fc5a42",
+      "path_anonymization_count": 1,
+      "sha256": "32d1d0efa170ff57e347f735f90d780b6d931f75ffa71ccd0e98b1e8b2942083",
+      "bytes": 11951,
+      "lines": 108,
+      "chapters": [
+        "q3"
+      ],
+      "title": "self-written common sensor/issue/H B-vs-C opportunity construction and group-paired scoring"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/engine_b.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/engine_b.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/engine_b.py",
+      "display_sha256": "64345cb27f445eba6b05bd03185588b12e65247401a08fb386fe0af481e5293a",
+      "path_anonymization_count": 2,
+      "sha256": "84fb535ef46fbdd9e6a1ee8878567e5e158244782b355ec2bfdcd8607db60977",
+      "bytes": 31067,
+      "lines": 188,
+      "chapters": [
+        "q3"
+      ],
+      "title": "OLS/SS models, causalvelocity, MonteCarlo mixture, replay/evaluation andStampa challenge"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/engine_c.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/engine_c.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/engine_c.py",
+      "display_sha256": "9270f14238df94e23e78e63ada640a4983e9ce118dae148b8759203d6fd2a6ef",
+      "path_anonymization_count": 2,
+      "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd",
+      "bytes": 51265,
+      "lines": 806,
+      "chapters": [
+        "q3"
+      ],
+      "title": "self-written dimensionless causal features, piecewise exponential/RBF likelihood, group-heldout tuning, rate scaling and predictions; 512/1024 run entry"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/final_propagation_v4.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/final_propagation_v4.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/final_propagation_v4.py",
+      "display_sha256": "519feb9c39279fa0f1b77e92e42b15a3ea7231757afb56ef7f2ec269e2777a71",
+      "path_anonymization_count": 0,
+      "sha256": "519feb9c39279fa0f1b77e92e42b15a3ea7231757afb56ef7f2ec269e2777a71",
+      "bytes": 15737,
+      "lines": 245,
+      "chapters": [
+        "q3"
+      ],
+      "title": "join/check frozen seven-run conditional target response"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/integrate_results.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/integrate_results.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/integrate_results.py",
+      "display_sha256": "bc6404976b94e5b25678471b3d9cf2a3075e006a6c5fd5206bee8eed171fb9f8",
+      "path_anonymization_count": 0,
+      "sha256": "bc6404976b94e5b25678471b3d9cf2a3075e006a6c5fd5206bee8eed171fb9f8",
+      "bytes": 10799,
+      "lines": 104,
+      "chapters": [
+        "q3"
+      ],
+      "title": "self-written final integration of already computed paired scores"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/join_propagation.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/join_propagation.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/join_propagation.py",
+      "display_sha256": "b2d0b8885ebe6c9aad0d0561a24486e8d68cf92d6a7c39ef22e5037a2e630a4d",
+      "path_anonymization_count": 0,
+      "sha256": "b2d0b8885ebe6c9aad0d0561a24486e8d68cf92d6a7c39ef22e5037a2e630a4d",
+      "bytes": 6965,
+      "lines": 75,
+      "chapters": [
+        "q3"
+      ],
+      "title": "first conditional propagation join"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/join_propagation_v2.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/join_propagation_v2.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/join_propagation_v2.py",
+      "display_sha256": "7ac390b1f12bb5a9f4e112995c73700bd79dfd621e6362b4327896ac72c09499",
+      "path_anonymization_count": 1,
+      "sha256": "87171f5ce437abaa91e688e07194219f5146cbe6e8fbaeed2ae316d4bdf3bc5b",
+      "bytes": 42429,
+      "lines": 603,
+      "chapters": [
+        "q3"
+      ],
+      "title": "compact/base parameter handoff"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/join_propagation_v3.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/join_propagation_v3.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/join_propagation_v3.py",
+      "display_sha256": "f2e4cec0c6e39d40b4567243e675d0372ab3b6f759d76ba7d152bd2a902dbf25",
+      "path_anonymization_count": 1,
+      "sha256": "cf80cd39517fae3ec850d6f711157a8c1ea6f2767b3da2c257e6ef1babae2b4e",
+      "bytes": 50583,
+      "lines": 679,
+      "chapters": [
+        "q3"
+      ],
+      "title": "full source-mask join"
+    },
+    {
+      "source_path": "track_b/research/q3/round3/scripts/mechanistic_replay.py",
+      "portable_path": "code/track_b/research/q3/round3/scripts/mechanistic_replay.py",
+      "display_path": "code_print/track_b/research/q3/round3/scripts/mechanistic_replay.py",
+      "display_sha256": "cbc2075d63e7640183a548492d284db50e4883f66d4579c9b0e322ef8bf46c37",
+      "path_anonymization_count": 1,
+      "sha256": "4610d63dc9140ae0c61d011bd768f134c617b008a8501b352444ba8c7edbfa75",
+      "bytes": 53738,
+      "lines": 672,
+      "chapters": [
+        "q3"
+      ],
+      "title": "机械状态更新、首过阈、权重、信息界与导出通用逻辑"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/reduced_solver.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/reduced_solver.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/reduced_solver.py",
+      "display_sha256": "0cb0eb23bb4c752fb6688c4dc721d660b5288de0537ac1e6854fce56614af054",
+      "path_anonymization_count": 0,
+      "sha256": "0cb0eb23bb4c752fb6688c4dc721d660b5288de0537ac1e6854fce56614af054",
+      "bytes": 9896,
+      "lines": 175,
+      "chapters": [
+        "q4"
+      ],
+      "title": "reduced_solver.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/reduced_region.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/reduced_region.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/reduced_region.py",
+      "display_sha256": "f21d197164df7e0d3b94f318b5f8c4715a5dc8a23254430ee77752f85e82ee68",
+      "path_anonymization_count": 1,
+      "sha256": "37dd019f086240de32300749d29cc426fc32dd2c3c2fa231275aab12686b5e77",
+      "bytes": 7775,
+      "lines": 80,
+      "chapters": [
+        "q4"
+      ],
+      "title": "reduced_region.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/reduced_benchmarks.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/reduced_benchmarks.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/reduced_benchmarks.py",
+      "display_sha256": "58c77910c029b60619ffe53000f2bab9c91afd0994c45ef77298f8e0c6b6076a",
+      "path_anonymization_count": 0,
+      "sha256": "58c77910c029b60619ffe53000f2bab9c91afd0994c45ef77298f8e0c6b6076a",
+      "bytes": 6023,
+      "lines": 68,
+      "chapters": [
+        "q4"
+      ],
+      "title": "reduced_benchmarks.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/reduced_validate.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/reduced_validate.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/reduced_validate.py",
+      "display_sha256": "52b7c745d0174646b1b4dee9715aacf3a2c5ea105c6bb1b84503d6f6d41281e4",
+      "path_anonymization_count": 0,
+      "sha256": "52b7c745d0174646b1b4dee9715aacf3a2c5ea105c6bb1b84503d6f6d41281e4",
+      "bytes": 6083,
+      "lines": 52,
+      "chapters": [
+        "q4"
+      ],
+      "title": "reduced_validate.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/spatial_build.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/spatial_build.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/spatial_build.py",
+      "display_sha256": "ce7e52e57cf605d7f022f4e2df1730533125b93bad2393b1eccb249b6324068b",
+      "path_anonymization_count": 2,
+      "sha256": "f8ff904d1d9818c81ae8a9f07dd24e9b075bd2411e7ba773fd1b31a54b349c01",
+      "bytes": 10456,
+      "lines": 95,
+      "chapters": [
+        "q4"
+      ],
+      "title": "spatial_build.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/map_q2_releases.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/map_q2_releases.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/map_q2_releases.py",
+      "display_sha256": "154996be1823349273f3b1b548837a7c39e91a83d28137ab02d9ea5e49b8fbc2",
+      "path_anonymization_count": 1,
+      "sha256": "55bccbfbeaaf12633e0da851041f382ea5b58791984d6df8432cbcb1bfc2e64e",
+      "bytes": 7541,
+      "lines": 125,
+      "chapters": [
+        "q4"
+      ],
+      "title": "map_q2_releases.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/official_q2_v2_cases.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/official_q2_v2_cases.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/official_q2_v2_cases.py",
+      "display_sha256": "987647284357f18367f747d12a58ac46eebca39565f9326d9f49f48e4128ffe8",
+      "path_anonymization_count": 1,
+      "sha256": "0b8593db9610bb4aabcf3590396876fef21ff773c056001ae7ff5b38f7658821",
+      "bytes": 2895,
+      "lines": 16,
+      "chapters": [
+        "q4"
+      ],
+      "title": "official_q2_v2_cases.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/extend_computational_domain.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/extend_computational_domain.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/extend_computational_domain.py",
+      "display_sha256": "f7952203278e736c000ac058118877f179661317d0f9e9c7a25c15abf9c7ae67",
+      "path_anonymization_count": 1,
+      "sha256": "d93074dc940ab3008751787f7ba0978aca7b84e52a9ddfb9e11caa56e6e4cc3f",
+      "bytes": 3884,
+      "lines": 74,
+      "chapters": [
+        "q4"
+      ],
+      "title": "extend_computational_domain.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/official_composite_cases.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/official_composite_cases.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/official_composite_cases.py",
+      "display_sha256": "77a187962a00b7eda50b346f389db7dd0bb1f34598659755b8deefa29530b88a",
+      "path_anonymization_count": 1,
+      "sha256": "f8dacb4d99542bfa29a80181c66cabe521ea407a391ff71828fe703a799b27ff",
+      "bytes": 3019,
+      "lines": 11,
+      "chapters": [
+        "q4"
+      ],
+      "title": "official_composite_cases.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/official_entrainment_case.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/official_entrainment_case.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/official_entrainment_case.py",
+      "display_sha256": "fae91d766945e43a2d89d4d0069070444a65fc012f23db96f56bd5c4465d5398",
+      "path_anonymization_count": 1,
+      "sha256": "110482d57e8641fc266a793f2c2cc2b54a23d5a44c4ccf526477706ab5c3af88",
+      "bytes": 4799,
+      "lines": 18,
+      "chapters": [
+        "q4"
+      ],
+      "title": "official_entrainment_case.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/official_container.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/official_container.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/official_container.py",
+      "display_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "path_anonymization_count": 0,
+      "sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "bytes": 5174,
+      "lines": 44,
+      "chapters": [
+        "q4"
+      ],
+      "title": "official_container.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/official_launch_container.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/official_launch_container.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/official_launch_container.py",
+      "display_sha256": "849ea7245c5e74699f9ee8bf680043e2ed1dcc1678c47f9f33dcb9b3cc5d4677",
+      "path_anonymization_count": 2,
+      "sha256": "c501f6e594eb503b4f3af0de962fa628869b30c5fb913cbf271e3d42110e42a9",
+      "bytes": 3370,
+      "lines": 26,
+      "chapters": [
+        "q4"
+      ],
+      "title": "official_launch_container.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/official_analyse.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/official_analyse.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/official_analyse.py",
+      "display_sha256": "57d6a59c980a6839f81741ae1e91abe33efe53454623a26cda868f12c19787ec",
+      "path_anonymization_count": 1,
+      "sha256": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+      "bytes": 30931,
+      "lines": 205,
+      "chapters": [
+        "q4"
+      ],
+      "title": "official_analyse.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/official_targets.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/official_targets.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/official_targets.py",
+      "display_sha256": "c54aada40316dd3eedca552ce6048f59749475c958b9466df32ecaa53a6e3311",
+      "path_anonymization_count": 0,
+      "sha256": "c54aada40316dd3eedca552ce6048f59749475c958b9466df32ecaa53a6e3311",
+      "bytes": 3029,
+      "lines": 24,
+      "chapters": [
+        "q4"
+      ],
+      "title": "official_targets.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/integrate_comparison.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/integrate_comparison.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/integrate_comparison.py",
+      "display_sha256": "5a338f935b8ca5e184165f1fb74906842097341f3bdca1a02c9f92d55b324f19",
+      "path_anonymization_count": 1,
+      "sha256": "e7e475ffbaf4fc6216cf4c1ce7a50abcf5c069408507d5ed7ebd45cba9b98eeb",
+      "bytes": 137154,
+      "lines": 1412,
+      "chapters": [
+        "q4"
+      ],
+      "title": "integrate_comparison.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/audit_dclaw_mass.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/audit_dclaw_mass.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/audit_dclaw_mass.py",
+      "display_sha256": "b32f460e1c0f86e4c3d41d0e871354fefd6b8258c5935b96e7c9765bf8abf0ce",
+      "path_anonymization_count": 2,
+      "sha256": "4cfcc891bded122944557d7e0b337a78b2435af4e909246e685c8af03e1bcc9c",
+      "bytes": 18280,
+      "lines": 282,
+      "chapters": [
+        "q4"
+      ],
+      "title": "audit_dclaw_mass.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/compare_native_sensitivity.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/compare_native_sensitivity.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/compare_native_sensitivity.py",
+      "display_sha256": "93b365d672a27aa3234b59b4d255efa30ae93dbe7e63bf0fa347ab38386fa97d",
+      "path_anonymization_count": 1,
+      "sha256": "2b4c22e67317c4f40c8f9ed921e58f2d016b1ccdf84528efb580cb859c803367",
+      "bytes": 8395,
+      "lines": 148,
+      "chapters": [
+        "q4"
+      ],
+      "title": "compare_native_sensitivity.py"
+    },
+    {
+      "source_path": "track_b/research/q4/round3/scripts/official_result_matrix.py",
+      "portable_path": "code/track_b/research/q4/round3/scripts/official_result_matrix.py",
+      "display_path": "code_print/track_b/research/q4/round3/scripts/official_result_matrix.py",
+      "display_sha256": "3d3c567a8bf86ab4f3191253f12016ed11cc57a4fd58772c2dd617e6fa6055d7",
+      "path_anonymization_count": 0,
+      "sha256": "3d3c567a8bf86ab4f3191253f12016ed11cc57a4fd58772c2dd617e6fa6055d7",
+      "bytes": 7914,
+      "lines": 126,
+      "chapters": [
+        "q4"
+      ],
+      "title": "official_result_matrix.py"
+    },
+    {
+      "source_path": "track_b/paper/scripts/q4_plot_results.py",
+      "portable_path": "code/track_b/paper/scripts/q4_plot_results.py",
+      "display_path": "code_print/track_b/paper/scripts/q4_plot_results.py",
+      "display_sha256": "e27b7003ab9b797f1edca548517bab3f622b0e7af355c5d511d5828372741c27",
+      "path_anonymization_count": 0,
+      "sha256": "e27b7003ab9b797f1edca548517bab3f622b0e7af355c5d511d5828372741c27",
+      "bytes": 9606,
+      "lines": 170,
+      "chapters": [
+        "q4"
+      ],
+      "title": "q4_plot_results.py"
+    },
+    {
+      "source_path": "track_b/paper/scripts/build_evidence.py",
+      "portable_path": "code/track_b/paper/scripts/build_evidence.py",
+      "display_path": "code_print/track_b/paper/scripts/build_evidence.py",
+      "display_sha256": "9ffc9e321f6fe5e49aec6420522c447a3300d44213e50a15cb81cc6f304cbb02",
+      "path_anonymization_count": 0,
+      "sha256": "9ffc9e321f6fe5e49aec6420522c447a3300d44213e50a15cb81cc6f304cbb02",
+      "bytes": 10406,
+      "lines": 219,
+      "chapters": [
+        "common"
+      ],
+      "title": "论文论断与数值来源核对"
+    },
+    {
+      "source_path": "track_b/paper/scripts/build_references.py",
+      "portable_path": "code/track_b/paper/scripts/build_references.py",
+      "display_path": "code_print/track_b/paper/scripts/build_references.py",
+      "display_sha256": "10f0f421843ed048b0672e85ed77a397556cea1dffef3d392357eeda69b68d2c",
+      "path_anonymization_count": 0,
+      "sha256": "10f0f421843ed048b0672e85ed77a397556cea1dffef3d392357eeda69b68d2c",
+      "bytes": 4883,
+      "lines": 114,
+      "chapters": [
+        "common"
+      ],
+      "title": "参考文献按首次引用排序"
+    },
+    {
+      "source_path": "track_b/paper/scripts/build_program_appendix.py",
+      "portable_path": "code/track_b/paper/scripts/build_program_appendix.py",
+      "display_path": "code_print/track_b/paper/scripts/build_program_appendix.py",
+      "display_sha256": "798e0906e8702b14cba0704d3e4cdb656b9b8f330dc8eab43ace7c7762f7b46e",
+      "path_anonymization_count": 0,
+      "sha256": "798e0906e8702b14cba0704d3e4cdb656b9b8f330dc8eab43ace7c7762f7b46e",
+      "bytes": 10901,
+      "lines": 203,
+      "chapters": [
+        "common"
+      ],
+      "title": "自编程序清单与完整源码附录"
+    },
+    {
+      "source_path": "track_b/paper/scripts/build_supplement_tables.py",
+      "portable_path": "code/track_b/paper/scripts/build_supplement_tables.py",
+      "display_path": "code_print/track_b/paper/scripts/build_supplement_tables.py",
+      "display_sha256": "61e99652db2555ba907b459fb48401522104a03d093957257397caaee6c41f5d",
+      "path_anonymization_count": 0,
+      "sha256": "61e99652db2555ba907b459fb48401522104a03d093957257397caaee6c41f5d",
+      "bytes": 3900,
+      "lines": 57,
+      "chapters": [
+        "common"
+      ],
+      "title": "参数范围与机制分类附表生成"
+    },
+    {
+      "source_path": "track_b/paper/scripts/verify_paper.py",
+      "portable_path": "code/track_b/paper/scripts/verify_paper.py",
+      "display_path": "code_print/track_b/paper/scripts/verify_paper.py",
+      "display_sha256": "84b7d3eda775025a75e3a72369eb71c2e71842fbd019c4272d76ba07efd4f095",
+      "path_anonymization_count": 0,
+      "sha256": "84b7d3eda775025a75e3a72369eb71c2e71842fbd019c4272d76ba07efd4f095",
+      "bytes": 13411,
+      "lines": 235,
+      "chapters": [
+        "common"
+      ],
+      "title": "论文结构、引用、匿名和研究完整性检查"
+    },
+    {
+      "source_path": "track_b/paper/scripts/render_qa.py",
+      "portable_path": "code/track_b/paper/scripts/render_qa.py",
+      "display_path": "code_print/track_b/paper/scripts/render_qa.py",
+      "display_sha256": "ccdd2287b11c905b974c63b39abf0a3c030f9584af19f28d902201d13502ef0d",
+      "path_anonymization_count": 0,
+      "sha256": "ccdd2287b11c905b974c63b39abf0a3c030f9584af19f28d902201d13502ef0d",
+      "bytes": 2202,
+      "lines": 44,
+      "chapters": [
+        "common"
+      ],
+      "title": "PDF逐页渲染与总览图生成"
+    },
+    {
+      "source_path": "track_b/paper/scripts/build_paper.py",
+      "portable_path": "code/track_b/paper/scripts/build_paper.py",
+      "display_path": "code_print/track_b/paper/scripts/build_paper.py",
+      "display_sha256": "36f1972024b76869cb1b5563c8aaa021959f0d8ab4bb7c594caaf42b03224b1f",
+      "path_anonymization_count": 0,
+      "sha256": "36f1972024b76869cb1b5563c8aaa021959f0d8ab4bb7c594caaf42b03224b1f",
+      "bytes": 2081,
+      "lines": 31,
+      "chapters": [
+        "common"
+      ],
+      "title": "论文可重复构建入口"
+    }
+  ],
+  "third_party": [
+    {
+      "chapter": "q4",
+      "name": "r.avaflow",
+      "version": "4.0 Revision7",
+      "release": "20250902",
+      "source_url": "https://www.landslidemodels.org/r.avaflow/software/r.avaflow.40G.zip",
+      "archive_sha256": "8301b4804f45e228633aa823caba4a3387a47f8bd143cf5569fdc5a9f95ad3a7",
+      "is_self_authored": false,
+      "full_source_in_self_authored_appendix": false,
+      "source_files": [
+        {
+          "path": "track_b/audit/stage4/round3/runtime/source_versions.json",
+          "sha256": "7d71429b432b5ca4699bf0fbc35ffc9457faedc1ee6396023bbde880143c8d2e"
+        },
+        {
+          "path": "track_b/audit/stage4/round3/runtime/advisor_snapshot.json",
+          "sha256": "53eb1e6c851d5971a9375c4204c25ee31fc7549760b0ea9a25c7e94055c36ea9"
+        }
+      ]
+    },
+    {
+      "chapter": "q4",
+      "name": "D-Claw",
+      "version": "1.0.0",
+      "commit": "7d48663bbed916372ba18732627c52043afb109f",
+      "source_url": "https://github.com/geoflows/dclaw.git",
+      "is_self_authored": false,
+      "full_source_in_self_authored_appendix": false,
+      "numerical_dependency": {
+        "name": "Clawpack",
+        "version": "v5.11.0",
+        "commit": "285b7de9837702276213b7deb040495adc60c4cc"
+      },
+      "source_files": [
+        {
+          "path": "track_b/audit/stage4/round3/runtime/source_versions.json",
+          "sha256": "7d71429b432b5ca4699bf0fbc35ffc9457faedc1ee6396023bbde880143c8d2e"
+        }
+      ]
+    },
+    {
+      "chapter": "q4",
+      "name": "ravaflow resourcefix1",
+      "scope": "45 final resource cleanup calls replaced; physical equations unchanged; small-grid numerical workflows only, separate build identity",
+      "is_a_new_self_authored_physical_model": false,
+      "full_source_in_self_authored_appendix": false,
+      "source_files": [
+        {
+          "path": "track_b/audit/stage4/round3/runtime_resourcefix1/advisor_snapshot.json",
+          "sha256": "8ad3f32908910bcdaefc8787a1b9728d97fd3d76a8eca4e42295f5eb157fc616"
+        }
+      ]
+    }
+  ],
+  "issues": [],
+  "copy_policy": "Full UTF-8 original sources copied byte-for-byte; third-party solvers indexed by declared version/configuration only.",
+  "display_copy_policy": "Only /Users/[A-Za-z0-9_.-]+ path prefixes are replaced with <LOCAL_HOME>; equations, parameters and program logic are otherwise unchanged. Original portable copies preserve exact source bytes."
+}

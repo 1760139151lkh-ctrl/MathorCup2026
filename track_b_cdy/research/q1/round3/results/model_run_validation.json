@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-24T07:58:48.441338+00:00",
+  "finished_at_utc": "2026-10-24T08:30:48.688866+00:00",
+  "duration_seconds": 1920.232,
+  "script_sha256": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2",
+  "config_sha256": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b",
+  "ranking_rows": 2835,
+  "fold_membership_rows": 91500,
+  "stability_rows": 34650,
+  "bootstrap_replicates": 100,
+  "bootstrap_draws_with_fewer_than_three_unique_years": 11,
+  "bootstrap_draws_with_fewer_than_four_unique_years_B_crossfit_insufficient": 56,
+  "checks": {
+    "three_routes_computed": true,
+    "strict_does_not_import_nonzero_qc": true,
+    "year_process_row_equal_weights": true,
+    "target_not_used_for_fit_or_shrinkage_choice": true,
+    "b_calibration_out_of_year_refitted": true,
+    "matched_family_excluded_from_distance": true,
+    "purged_folds_use_168h_support": true,
+    "duplicate_minute_anchors_equal": true,
+    "windows_all_retained": true,
+    "unknown_track_separate": true,
+    "no_independent_event_inflation": true
+  },
+  "check_scope": "Internal implementation checks and calculations; independent reviewer verification separately recorded"
+}

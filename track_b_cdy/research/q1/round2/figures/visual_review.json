@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-24T06:15:31.932220+00:00",
+  "reviewer": "Q1 primary AI agent, actual view_image inspection after final plotted output",
+  "human_review": false,
+  "passed": true,
+  "checks": [
+    "all labels and n-year annotations visible",
+    "one valid annual median per gray point and equal-year mean distinguished",
+    "2026 separate and unknown QC explicitly labelled",
+    "no confidence bands, ranking or causal claim; all windows retained"
+  ],
+  "files": [
+    {
+      "path": "figures/equal_year_background.png",
+      "sha256": "da37e5681ebed6520680bb2e462ee5cd073adc1adc87057054a36cbc911ff127"
+    }
+  ]
+}

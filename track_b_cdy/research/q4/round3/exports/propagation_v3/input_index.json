@@ -1,0 +1,690 @@
+{
+  "files": [
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/model_runs.csv",
+      "bytes": 75118,
+      "sha256": "7629e9524b5db9d2731b576d5749aafd7316e382439992be6cf67079fe881719",
+      "role": "model_runs",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/comparison_metrics.csv",
+      "bytes": 21002,
+      "sha256": "3c7f99a7254bb3566db8054680a8c5d75c8ea0d09bbff1976ca28bc808dd28dd",
+      "role": "comparison_metrics",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/target_arrivals.csv",
+      "bytes": 122580,
+      "sha256": "d41c8fdb9e2d3859466a7877b62a9221c407dd29db01b6a9777de4757dd644ed",
+      "role": "target_arrivals",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/comparison_summary.json",
+      "bytes": 52680,
+      "sha256": "1c2294c41edec6dfe970b8a299ba9e1ef2d3e51f99b7ea645482df6475040cc0",
+      "role": "comparison_summary",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/numerical_validation.json",
+      "bytes": 26548,
+      "sha256": "46b7bbbf3293a52087facaa44056e1557dd461024c5053f7e262dec89c797b30",
+      "role": "numerical_validation",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/fields_index.json",
+      "bytes": 6430,
+      "sha256": "64e39083ec3041ae5d0113f3c04fa6b69e22eb590ee3932a2b11c8b3b15a1b01",
+      "role": "fields_index",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/case.json",
+      "bytes": 6022,
+      "sha256": "4ba9554a8353a3042830e5f2026abf52d7cd00061a4d01dbb9a35278e6cfa4e1",
+      "role": "native case",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/execution.json",
+      "bytes": 1950,
+      "sha256": "0efa8f7b5f00eadb5c1eef67b6ea828ce55faaff80deb5912a13f5d767e532f3",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run.log",
+      "bytes": 172803,
+      "sha256": "0774aac0f2eeef294c4a7eb0aa62ec791f8ca9143c2424b6f5db9386174465d7",
+      "role": "actual native execution log snapshot",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run.log"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_controls/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_paramcomm.txt",
+      "bytes": 6025,
+      "sha256": "76e3dedd89fc52ed2bc4fd28f50572b75f02b48248ab96ae2269fdbeed214075",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_results/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_files/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_paramcomm.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_controls/run_grass.sh",
+      "bytes": 647,
+      "sha256": "478b477da7bc9c7972cd0fe8ce5426f38e6802e28dfdba4743cdbc8861137324",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run_grass.sh"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/adapter_executed.py",
+      "bytes": 5174,
+      "sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "role": "saved actual executed adapter; contemporaneous hash retained",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/adapter_executed.py"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/postprocessing/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "bytes": 30931,
+      "sha256": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+      "role": "actual parser source snapshot bound to selected process fields",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_internal_summary.txt",
+      "bytes": 5709,
+      "sha256": "9cebac4fc75631f12e4224fe15ec0e88b11f12623fff3d4755432bd06961e6f9",
+      "role": "actual native internal unscaled volume summary",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_results/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_files/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_summary.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_nout1.txt",
+      "bytes": 181,
+      "sha256": "0c5028cf754a0c00817fdde2e6f337160a372b02d3f23d2d41b1a523308c9e5b",
+      "role": "actual native nout success/source/edge accounting output",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_results/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_files/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_nout1.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/case.json",
+      "bytes": 6095,
+      "sha256": "d5550a6e402f27682ebdd3022b596f22655ce45c50b8a48e34790a80d8c88e39",
+      "role": "native case",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/execution.json",
+      "bytes": 1970,
+      "sha256": "08311c31cd562a5f9134101960b68474179d9176de5620f40c41bd4439ce230a",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run.log",
+      "bytes": 155524,
+      "sha256": "3a4295d1aaee6801d0a901701eb572d809a222b81e5ca60debfa4592abdcd85a",
+      "role": "actual native execution log snapshot",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run.log"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_controls/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_paramcomm.txt",
+      "bytes": 6058,
+      "sha256": "e23dca9237845c34c5a81d39491629a50ccd9cf74519899dffd83fecce3e4a12",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_results/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_files/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_paramcomm.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_controls/run_grass.sh",
+      "bytes": 654,
+      "sha256": "f739833b76e080938e68d1fb314ebb43128db875d58becd294fe2963e42fe279",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run_grass.sh"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/adapter_executed.py",
+      "bytes": 5174,
+      "sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "role": "saved actual executed adapter; contemporaneous hash retained",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/adapter_executed.py"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_internal_summary.txt",
+      "bytes": 5717,
+      "sha256": "40af1b7f636fc41c0b2586a4260622a9ba60afedc72d8ad881bab71aa126b985",
+      "role": "actual native internal unscaled volume summary",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_results/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_files/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_summary.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_nout1.txt",
+      "bytes": 180,
+      "sha256": "70f2659d9631c838ed99328d2db25625927da93b2316de2276ff0c37826c3219",
+      "role": "actual native nout success/source/edge accounting output",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_results/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_files/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_nout1.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/case.json",
+      "bytes": 6069,
+      "sha256": "6082cc9a5cba60d93ae005bc3af7b9027cd483d83e811282cbebef0597c900fa",
+      "role": "native case",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/execution.json",
+      "bytes": 1964,
+      "sha256": "113988d3f78857112651ec8ae104edc9661227ab912452b89b8d6f96bfc59c44",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run.log",
+      "bytes": 175960,
+      "sha256": "77b4d84d6c143a9f2b7c867e71f9cd3f08ccab9270c15f3001b7a777b8b33ae5",
+      "role": "actual native execution log snapshot",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run.log"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_controls/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_paramcomm.txt",
+      "bytes": 6047,
+      "sha256": "d7906a3ca970bbc30637575dd3dd73620f8bf8a1179bb45d3b5e54d786fbe76c",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_results/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_files/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_paramcomm.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_controls/run_grass.sh",
+      "bytes": 650,
+      "sha256": "01f62dd211d6b79b9148a626271d471158672f5225ea4db5959465c423860256",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run_grass.sh"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/adapter_executed.py",
+      "bytes": 5174,
+      "sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "role": "saved actual executed adapter; contemporaneous hash retained",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/adapter_executed.py"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_internal_summary.txt",
+      "bytes": 5708,
+      "sha256": "3825074b3c6a137ee3c33f67e9aa384ac8e4401759a683291aa0dc0fbe22ef40",
+      "role": "actual native internal unscaled volume summary",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_results/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_files/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_summary.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_nout1.txt",
+      "bytes": 180,
+      "sha256": "f38ffd23f327bdcc5c44a020b43800e976525fb94e0aec26840f80f900820b85",
+      "role": "actual native nout success/source/edge accounting output",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_results/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_files/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_nout1.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/fullmask_registration/official_q2full_ready_receipt.json",
+      "bytes": 49519,
+      "sha256": "33b78cf3a25da72acfaf0462c74cd1fd8de8004d1c485561f3e6dc8d33ccaf25",
+      "role": "owner exactready receipt bound to actual three native attempts, fixed parser and21 targets",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/official_q2full_ready_receipt.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/upstream_q2_fullmask/bundle.json",
+      "bytes": 7040,
+      "sha256": "108ce2d34289fe3c5cdb5dacf6927bf977439bd9f06b959ff931f7d06b57f683",
+      "role": "delivered Q2 fullmask geometry-v2 lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/upstream_q2_fullmask/upstream_bundle.json",
+      "bytes": 4354,
+      "sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3",
+      "role": "delivered Q2 fullmask geometry-v2 lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/upstream_bundle.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/upstream_q2_fullmask/release_states_geometry_v2.csv",
+      "bytes": 121276,
+      "sha256": "c40aa56cfd5075ab73b84d97abbea17dc932343f776ff87eb25a868a9f47d575",
+      "role": "delivered Q2 fullmask geometry-v2 lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_states_geometry_v2.csv"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/upstream_q2_fullmask/geometry_integration_summary.json",
+      "bytes": 24501,
+      "sha256": "22edf0eb580488df01ae98b2f263e8230abc38b4674c7e9a5390193cf6aaea9b",
+      "role": "delivered Q2 fullmask geometry-v2 lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/geometry_integration_summary.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/upstream_q2_fullmask/geometry_integration_terrain.csv",
+      "bytes": 912,
+      "sha256": "a974b276a7a46994d72a660b85e4e9de617f68c35e4f32188459785ae4665b29",
+      "role": "delivered Q2 fullmask geometry-v2 lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/geometry_integration_terrain.csv"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/upstream_q2_fullmask/GEOMETRY_INTEGRATION.md",
+      "bytes": 3361,
+      "sha256": "a626bf6ebfffe007fbf7e1e26335a2d1d7ad2e26b83e5beae3ed78f3f8cbdb63",
+      "role": "delivered Q2 fullmask geometry-v2 lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/GEOMETRY_INTEGRATION.md"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/fullmask_registration/official_cases_q2fullmask_v2.json",
+      "bytes": 725,
+      "sha256": "77ca87d2db06d3b73720d94a47499d9cd55900462f257fa8a2993f2dbb080b7e",
+      "role": "registered fullmask protocol",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/official_cases_q2fullmask_v2.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/fullmask_registration/q2_fullmask_integration_protocol.json",
+      "bytes": 11929,
+      "sha256": "556902c41430fd9fb6bc1cbd2cca9d1ede025a0582f63bc248a3c92d3c462e40",
+      "role": "registered fullmask protocol",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/q2_fullmask_integration_protocol.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/fullmask_registration/official_q2_v2_protocol.json",
+      "bytes": 750,
+      "sha256": "35103a7f638db49d619bc1781111d0752ff5586f245088d699064bf01a4f009e",
+      "role": "registered fullmask protocol",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/official_q2_v2_protocol.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/quality/scientific_acceptance_decision_05.json",
+      "bytes": 2947,
+      "sha256": "1619328370807cbe78be707918993fa83031621e39b469c4408dd689282b3674",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/scientific_acceptance_decision_05.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/quality/model_qualification_evidence_05.json",
+      "bytes": 52044,
+      "sha256": "e80f8060ca73ae8f1331c86673bd94b993f1d504e32417492c909ac746a89bb5",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/sources/model_qualification_evidence_05.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/quality/DCLAW_MASS_AUDIT.md",
+      "bytes": 8473,
+      "sha256": "f2eece67243bdfb6d0cbdcb8d951baab4e7767487b14272872414eba7aed6816",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/DCLAW_MASS_AUDIT.md"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/quality/dclaw_mass_audit.json",
+      "bytes": 276746,
+      "sha256": "4aed4ff3e28e68e2fafb6baae16c5d37afbdcf1c5346d1bf3a18248adc570b04",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/dclaw_mass_audit.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/quality/official_cfl_control_crosscheck.json",
+      "bytes": 1510,
+      "sha256": "feaa0b91845f377b4d715d04ff1ae0d4ae36f9c5f539fef667aa44390c8659b9",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/official_cfl_control_crosscheck.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/quality/reduced_numerical_validation.json",
+      "bytes": 15571,
+      "sha256": "1f3c0cefa507689dff03aff2de489dae7ae1a715d2d127f4f7953e281805ee46",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/reduced_numerical_validation.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/scheduling/official_scheduling_amendment_06.json",
+      "bytes": 1865,
+      "sha256": "ff9233eeb461bc6315d8228c4b27720029970a2dcecf52e6ece85ca5470d3155",
+      "role": "scheduling/resource context; no controlled performance benchmark",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/official_scheduling_amendment_06.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/scheduling/official_scheduling_cpu_receipt_07.json",
+      "bytes": 6095,
+      "sha256": "c1309131f5a1ccfcf615514bfa2e5707cb7c7664046191927e1e438c96f7dd31",
+      "role": "scheduling/resource context; no controlled performance benchmark",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/official_scheduling_cpu_receipt_07.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/scheduling/official_scheduling_cpu_tail_receipts_08.json",
+      "bytes": 8407,
+      "sha256": "fa7eb6c33dfbf5a972278b381515e6e4998c05c1b1a657c4cbd700930300b9c3",
+      "role": "scheduling/resource context; no controlled performance benchmark",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/official_scheduling_cpu_tail_receipts_08.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/native_controls_index.json",
+      "bytes": 6241,
+      "sha256": "bb58a214852fd8dd05b720b2a4878e8f6e3a9198af9954daf7d26120170f829c",
+      "role": "selected actual native controls provenance index",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/geometry/spatial_targets_v2.csv",
+      "bytes": 1483,
+      "sha256": "6735c7dbb668c97bd73024050cbd0b7d1570bb78382dce005dddd983a276b18d",
+      "role": "target geometry",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/geometry/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "role": "target geometry",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/integrate_comparison.py",
+      "bytes": 128163,
+      "sha256": "b638597035040f501befc4fc3ac4b3954040ca2142727bf499fc90f831e94f35",
+      "role": "exact early-package postprocessor source",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "role": "immutable native input terrain",
+      "read_at_utc": "2026-10-24T11:09:23.441315+00:00",
+      "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0000-S-linear__geomv2_60m/release.tif",
+      "bytes": 3794,
+      "sha256": "9be5c69fcb388182a843058deec9cce1026692bb4b5d30454f84a86872dd39d7",
+      "role": "immutable native release thickness",
+      "read_at_utc": "2026-10-24T11:09:23.441756+00:00",
+      "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "bytes": 3682170,
+      "sha256": "49b15da62ef0f4478d13dcfcab2205c0c40bb591b02d8718b790857ae0ede589",
+      "role": "actual_official_process_fields",
+      "case_sha256": "4ba9554a8353a3042830e5f2026abf52d7cd00061a4d01dbb9a35278e6cfa4e1",
+      "execution_sha256": "0efa8f7b5f00eadb5c1eef67b6ea828ce55faaff80deb5912a13f5d767e532f3",
+      "log_sha256": "0774aac0f2eeef294c4a7eb0aa62ec791f8ca9143c2424b6f5db9386174465d7",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "time_end_seconds": 1800.5,
+      "native_time_evidence": "flushed summary or native stdout tsum; no frame index time inference",
+      "parser_sha256_at_start": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+      "parser_source_snapshot_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "fields_schema": "v4_phase_depth_stationary",
+      "solver_build": "official_original",
+      "actual_binary_sha256": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+      "actual_binary_path": "/opt/grass-addons/bin/r.avaflow.main",
+      "binary_identity_evidence": "sha256sum_in_this_execution_log",
+      "execution_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "container_id": null,
+      "readonly_addon_mount": null,
+      "official_source_archive_preserved": true,
+      "executed_solver_source_modified": false,
+      "source_modification_scope": "official fixed native source",
+      "physical_equations_modified": false,
+      "applicability_decision": "required",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run.log",
+      "bytes": 172803,
+      "sha256": "0774aac0f2eeef294c4a7eb0aa62ec791f8ca9143c2424b6f5db9386174465d7",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/dem.tif",
+      "bytes": 39968,
+      "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+      "role": "immutable native input terrain",
+      "read_at_utc": "2026-10-24T11:09:23.453480+00:00",
+      "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_120m/release.tif",
+      "bytes": 1931,
+      "sha256": "081ef7c3fd20c26b87ed717e67c283f3f7c2e39810cd329e3ee24283d57e0275",
+      "role": "immutable native release thickness",
+      "read_at_utc": "2026-10-24T11:09:23.454390+00:00",
+      "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "bytes": 1566998,
+      "sha256": "2d3ffbb57ddec47179c56d8ea6e5a540dfc857019dabd7b28ce7584f02769fe1",
+      "role": "actual_official_process_fields",
+      "case_sha256": "d5550a6e402f27682ebdd3022b596f22655ce45c50b8a48e34790a80d8c88e39",
+      "execution_sha256": "08311c31cd562a5f9134101960b68474179d9176de5620f40c41bd4439ce230a",
+      "log_sha256": "3a4295d1aaee6801d0a901701eb572d809a222b81e5ca60debfa4592abdcd85a",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "time_end_seconds": 1800.5,
+      "native_time_evidence": "flushed summary or native stdout tsum; no frame index time inference",
+      "parser_sha256_at_start": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+      "parser_source_snapshot_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "fields_schema": "v4_phase_depth_stationary",
+      "solver_build": "official_original",
+      "actual_binary_sha256": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+      "actual_binary_path": "/opt/grass-addons/bin/r.avaflow.main",
+      "binary_identity_evidence": "sha256sum_in_this_execution_log",
+      "execution_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "container_id": null,
+      "readonly_addon_mount": null,
+      "official_source_archive_preserved": true,
+      "executed_solver_source_modified": false,
+      "source_modification_scope": "official fixed native source",
+      "physical_equations_modified": false,
+      "applicability_decision": "required",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run.log",
+      "bytes": 155524,
+      "sha256": "3a4295d1aaee6801d0a901701eb572d809a222b81e5ca60debfa4592abdcd85a",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_60m/release.tif",
+      "bytes": 3792,
+      "sha256": "ec3a73e460db37b67d33eb1f3f2f4490fd8265e72747a1ac861522f6f8871827",
+      "role": "immutable native release thickness",
+      "read_at_utc": "2026-10-24T11:09:23.461930+00:00",
+      "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "bytes": 3092369,
+      "sha256": "243bdbee9dd186995f2323e71c48c10bb461ab67199cdf33e1e97d60ab3f025c",
+      "role": "actual_official_process_fields",
+      "case_sha256": "6082cc9a5cba60d93ae005bc3af7b9027cd483d83e811282cbebef0597c900fa",
+      "execution_sha256": "113988d3f78857112651ec8ae104edc9661227ab912452b89b8d6f96bfc59c44",
+      "log_sha256": "77b4d84d6c143a9f2b7c867e71f9cd3f08ccab9270c15f3001b7a777b8b33ae5",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "time_end_seconds": 1801.2,
+      "native_time_evidence": "flushed summary or native stdout tsum; no frame index time inference",
+      "parser_sha256_at_start": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+      "parser_source_snapshot_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "fields_schema": "v4_phase_depth_stationary",
+      "solver_build": "official_original",
+      "actual_binary_sha256": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+      "actual_binary_path": "/opt/grass-addons/bin/r.avaflow.main",
+      "binary_identity_evidence": "sha256sum_in_this_execution_log",
+      "execution_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "container_id": null,
+      "readonly_addon_mount": null,
+      "official_source_archive_preserved": true,
+      "executed_solver_source_modified": false,
+      "source_modification_scope": "official fixed native source",
+      "physical_equations_modified": false,
+      "applicability_decision": "required",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run.log",
+      "bytes": 175960,
+      "sha256": "77b4d84d6c143a9f2b7c867e71f9cd3f08ccab9270c15f3001b7a777b8b33ae5",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    }
+  ],
+  "all_entries_have_path_bytes_sha256_role": true,
+  "file_list_excludes_self": true,
+  "source_observer_snapshot_hashes": [
+    {
+      "path": "track_b/research/q4/round3/results/official_superseded_cancellations.json",
+      "bytes": 1880,
+      "sha256": "be7e09569d99d0af4a1391ef9a8ea44bd9a8e9b57e272f105be79413dc4c4a41",
+      "role": "independent stopped-retry cancellation receipts",
+      "read_at_utc": "2026-10-24T11:09:21.335553+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_runs.csv",
+      "bytes": 60088,
+      "sha256": "111388c84daafc7569b8a34a8fcbd60f3fcfd0fd0915c364ed3932f2c1820ea1",
+      "role": "official parsed run snapshot",
+      "read_at_utc": "2026-10-24T11:09:21.354288+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_metrics.csv",
+      "bytes": 64270,
+      "sha256": "2a98f042dc24a66c4e70e5ec075774e14b8236547651db3f7214f817b2655a16",
+      "role": "official parsed metric snapshot",
+      "read_at_utc": "2026-10-24T11:09:21.356240+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_validation.json",
+      "bytes": 272531,
+      "sha256": "891117d96a707fcf79ac2e9f8c3d1d7e5ba7a5b8ba08b1d84d328e79b8959d89",
+      "role": "official numerical evidence snapshot",
+      "read_at_utc": "2026-10-24T11:09:21.358389+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_fields.json",
+      "bytes": 92648,
+      "sha256": "446bf635ff37775b4e720b065c36c23bc924a21313abf9a9f1668ade29a9b803",
+      "role": "official process field index",
+      "read_at_utc": "2026-10-24T11:09:21.360865+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_arrivals.csv",
+      "bytes": 74675,
+      "sha256": "cfbd17b0ade23e6a1f0ea437765935bc583617f52eb6366056c0dc2199306980",
+      "role": "official primary target snapshot",
+      "read_at_utc": "2026-10-24T11:09:21.361736+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_histories.csv",
+      "bytes": 3471684,
+      "sha256": "ab1b2e62639807cde6a1dccc1af437fa81343bf9d5870519866b7da9ef11b0e2",
+      "role": "official saved-time mass/volume history",
+      "read_at_utc": "2026-10-24T11:09:21.368106+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_target_arrivals_v2.csv",
+      "bytes": 125273,
+      "sha256": "ac98447c352de393ea1309fbbd3e6b10260f28bae806af76697bd787f69646d3",
+      "role": "official OSM target snapshot",
+      "read_at_utc": "2026-10-24T11:09:21.426602+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_native_control_index.json",
+      "bytes": 161852,
+      "sha256": "42bff60b75ec85a5d3fef066d30db20a788a89f7323fdba034a04cf0b5e239e7",
+      "role": "acquired actual native input/control provenance index",
+      "read_at_utc": "2026-10-24T11:09:22.653004+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_scheduling_cpu_receipt_07.json",
+      "bytes": 6095,
+      "sha256": "c1309131f5a1ccfcf615514bfa2e5707cb7c7664046191927e1e438c96f7dd31",
+      "role": "actual scheduling/CPU quota context; not a controlled runtime performance benchmark",
+      "read_at_utc": "2026-10-24T11:09:22.944055+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_scheduling_cpu_tail_receipts_08.json",
+      "bytes": 8407,
+      "sha256": "fa7eb6c33dfbf5a972278b381515e6e4998c05c1b1a657c4cbd700930300b9c3",
+      "role": "actual scheduling/CPU quota context; not a controlled runtime performance benchmark",
+      "read_at_utc": "2026-10-24T11:09:22.944967+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_result_matrix.csv",
+      "bytes": 34504,
+      "sha256": "2aadedac937754ff1ed852b8e8f9ebd7e41f902b114a7f07a1b46bc196cb2bda",
+      "role": "actual cohort diagnostics; no new model cases or independent validation events",
+      "read_at_utc": "2026-10-24T11:09:22.946492+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_final_diagnostics.json",
+      "bytes": 28585,
+      "sha256": "b4fd2cea947be8c69c3143cc0ff43f37cfaa8ff7397ab6ca0796b857f538914b",
+      "role": "actual cohort diagnostics; no new model cases or independent validation events",
+      "read_at_utc": "2026-10-24T11:09:22.947547+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_cfl_control_crosscheck.json",
+      "bytes": 1510,
+      "sha256": "feaa0b91845f377b4d715d04ff1ae0d4ae36f9c5f539fef667aa44390c8659b9",
+      "role": "fixed qualification counterevidence text snapshot",
+      "read_at_utc": "2026-10-24T11:09:22.956244+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_q2full_ready_receipt.json",
+      "bytes": 49519,
+      "sha256": "33b78cf3a25da72acfaf0462c74cd1fd8de8004d1c485561f3e6dc8d33ccaf25",
+      "role": "owner exactready receipt for the three fullmask native attempts and fixed-parser target rows",
+      "read_at_utc": "2026-10-24T11:09:23.472525+00:00"
+    }
+  ],
+  "dependency_scope": "copied selected-run metadata; immutable byte-hash-bound external native fields, logs and initial rasters",
+  "rolling_root_input_index_at_export": {
+    "path": "results/comparison_input_index.json",
+    "sha256": "8814db760243953a55fc3e5dd8bc52841ab3417c347d8334e2269e0cc32421b1"
+  }
+}

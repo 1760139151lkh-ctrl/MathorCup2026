@@ -1,0 +1,1336 @@
+{
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "file_count": 220,
+  "files": [
+    {
+      "path": "track_b/research/q2/round3/AI_ASSISTANCE.md",
+      "bytes": 1847,
+      "sha256": "8a30ff013bf224ee067451dedf44cc959f38b637e5d3462ef235591ee0a3e130",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/ANALYTIC_THERMAL.md",
+      "bytes": 4168,
+      "sha256": "0902aface2105015fb278a2590593d010cedfd9e2d025e34813b1025a182877a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/COMPOSITION_SENSITIVITY.md",
+      "bytes": 2976,
+      "sha256": "8ed109ce17d130b0a2edb905b0d9079a152aae3a59283c9e865613d07164314c",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/EVIDENCE_REVIEW.md",
+      "bytes": 5166,
+      "sha256": "d0606a5ea2c173607406563029debb5f5ef1b0128c8b6b8ce54417c926c1c1fa",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/EXPERIMENT_PROTOCOL.md",
+      "bytes": 5797,
+      "sha256": "888b65535ff477f4e6ef07be3dfeea19392209d7903ef58559cb8473ad96626a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/GEOMETRY_INTEGRATION.md",
+      "bytes": 3361,
+      "sha256": "a626bf6ebfffe007fbf7e1e26335a2d1d7ad2e26b83e5beae3ed78f3f8cbdb63",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/INTERFACE_HANDOFF.md",
+      "bytes": 6271,
+      "sha256": "9f67bf2e970f55ae8e826ee679a5a7071336ea2ba87a18a985f7148241ed685d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/MODEL_COMPARISON.md",
+      "bytes": 10207,
+      "sha256": "a9528edbc95f54b654e5cc9632575c1f9b5e7322f1b4a2d68a8f719f34e92f76",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/NUMERICAL_LIMITS.md",
+      "bytes": 2906,
+      "sha256": "8ef2e2c0c49ff24ea662dc6e28f3d7633ed5989f77ae4e7ad427d2349e561b83",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/NUMERICAL_REFINEMENT.md",
+      "bytes": 3098,
+      "sha256": "0c147f8f7cc52d6135ce7dee87fc12304f5f3c633123c13f960f464d84658b9f",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/PAPER_OUTLINE.md",
+      "bytes": 4898,
+      "sha256": "76aca15c4d0f236376eb4760e00b635969358782441c9c786b5b142927ff40d2",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/PROTOCOL_AMENDMENT.md",
+      "bytes": 1171,
+      "sha256": "fcb64da5a274f282649bd2697315550668f65b0ca7cfc9f25be2e576e2187110",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/REMOTE_EVIDENCE.md",
+      "bytes": 8059,
+      "sha256": "56b81ea5b32f25026e4dad0a3af4db1f6cb48aef5e479562fb9f9ae20d9959d5",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/REPRODUCE.md",
+      "bytes": 5306,
+      "sha256": "5ac586e5ec96c887eff43d1c745351d994baeb1cd6d2bfe124ff676e3a0c0793",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/TASK.md",
+      "bytes": 7415,
+      "sha256": "d4bc3da9c5aee358845e34ced1357ef3dbb0312f220139f00a648f888a639624",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/config/environment.json",
+      "bytes": 1522,
+      "sha256": "176221b3e0f857f9268d9fbe9ad31d8c7fbb66760da35ab8ea28791857bb6cb4",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/config/environment_lock.txt",
+      "bytes": 708,
+      "sha256": "5a780bc65de35a11a1eac4ec9370cad50957dcabb8ebe02cecdbfdb550ad645a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/config/experiment_v1.json",
+      "bytes": 4192,
+      "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/analytic_thermal_bundle.json",
+      "bytes": 6267,
+      "sha256": "ff989d23894f9b2d44daf032418583430791ef5b8367d423aa5cb54763767684",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/composition_bundle.json",
+      "bytes": 4034,
+      "sha256": "14f96d7d1e8600154a831dba9921a9efbf70eeacfd71e54b12af78879b762335",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/mechanism_bundle.json",
+      "bytes": 2760,
+      "sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/mechanism_bundle_v2.json",
+      "bytes": 5484,
+      "sha256": "dc53a9f805e96ff32b2c1fd064b0b7b33d90034e7d2c987f42403ae70bfcb093",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/numerical_supplement_bundle.json",
+      "bytes": 2553,
+      "sha256": "151a7c7f822f3970a7dbdc0194b4c1df18548dbb70afca19a5927f49f3206b03",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/release_bundle.json",
+      "bytes": 1801,
+      "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/release_bundle_v2.json",
+      "bytes": 4354,
+      "sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/analytic_thermal_onset_comparison.png",
+      "bytes": 93668,
+      "sha256": "cafa5b51b1e5038059cf37d5ba27e2ffbd7b8416ac4c4217d4d4da64f9ae1ef6",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/critical_surface.png",
+      "bytes": 275949,
+      "sha256": "8163dc2c4f6dddf7fcea7effa5c9ee0cce005db85aa4487d89814d4ad88e4ed2",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/joint_sensitivity.png",
+      "bytes": 163007,
+      "sha256": "cea34ce69f7ad32f8fff019558eebfe5b5877f594f29be256dc3bd7973d045cd",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/joint_sensitivity_analytic.png",
+      "bytes": 161576,
+      "sha256": "b2e8d01c564df7b565cfe9f8f8d59ebc1118b9756148b3e3d559763c6ece914f",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/joint_sensitivity_v2.png",
+      "bytes": 162813,
+      "sha256": "a7d290b0ae6dcd16a62fe6c763f1907302a48eabf0e4c7d33bb765bdcf1052c1",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/mechanism_competition.png",
+      "bytes": 75997,
+      "sha256": "1e9f7eea36f204974a1e666508ec06bcff3cf9e57011809b13398149206a29d0",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/mechanism_competition_analytic.png",
+      "bytes": 74689,
+      "sha256": "086ccce836527a801464b08f971c96c1f3330b711b517020700fb61629cbcdac",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/mechanism_competition_v2.png",
+      "bytes": 76328,
+      "sha256": "8f29192d280f307f01787fa2e85957f3429ea475e6c95a7bb4efc7a526b9a6fc",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/response_timescales.png",
+      "bytes": 119520,
+      "sha256": "c0a2541171aa963616d8168eadaac967deba29bb6c5c837145aba8f11c9bf43c",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/state_evolution.png",
+      "bytes": 175744,
+      "sha256": "d1a09fcc72a6268baaf3cd7dc5a43b0b2dbd9f7d8e5a659d134cf90a0bd388d0",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/state_evolution_analytic.png",
+      "bytes": 175749,
+      "sha256": "cbb36cf69a2f6c846125719ff1f2415d8a4099712e851c16d34c36f4f76c17c3",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/state_evolution_v2.png",
+      "bytes": 177208,
+      "sha256": "52995d647a302fa97ede656ba780d658a3a4b7360f88a049eb0b194d3e75122b",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/input_manifest.json",
+      "bytes": 18705,
+      "sha256": "0bc88f7359cb3cd58d4dabe69fa0038320822965fd02a48db2f96460dbd53cb7",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/bundle.json",
+      "bytes": 6728,
+      "sha256": "765037010dadc269a6b3d89831abb61fc9d1163c2b9b989facbfcf4a2107b918",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/config/features.json",
+      "bytes": 14787,
+      "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/exports/hourly_drivers.parquet",
+      "bytes": 260088,
+      "sha256": "9580f4ab81903e0bbdcea3b274815128b7bfc99a08972a59c933c51a487a059d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_build_validation.json",
+      "bytes": 27873,
+      "sha256": "c19c74937b4052ec9a4b104199d0bde4998af27bda904b5c959b900045800f98",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_contract.csv",
+      "bytes": 58398,
+      "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_extrema.csv",
+      "bytes": 12646116,
+      "sha256": "09ae88b26738bb526ab9bc829c2b8917cf957e13edfa70df985c4ad7b5f8b664",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_support.csv",
+      "bytes": 11289057,
+      "sha256": "8e8306d6c8bfcb8d3156cbd521dbff001c5e86413ab62bedb6cdcf81db2737b9",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/features.parquet",
+      "bytes": 1435260,
+      "sha256": "7300b94b5f537873a6b4d1ecaf46015fa130e8e28aa9464e098e219f52833079",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/sample_metadata.csv",
+      "bytes": 1188914,
+      "sha256": "06c7b1273240779fcbde4a9777a878124fd9de47d5a4faff190f5118e73625b5",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/variable_family_map.csv",
+      "bytes": 12742,
+      "sha256": "0b339b5b813a3cf95673acbb18168589aaaae81fde3d95005824e967f7e22e15",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/scripts/build_features.py",
+      "bytes": 30508,
+      "sha256": "dbea3bca9f519e43b065481b433372d7abdab3e8f789cf1a1804d09589a3aeb0",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/upstream_bundle.json",
+      "bytes": 4827,
+      "sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+      "bytes": 2514,
+      "sha256": "16ecf5a0e3af9ad572104490b79a56f59a78fc011e37cee2dd8f75e34d0a5a32",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/event_group_registry.csv",
+      "bytes": 1820,
+      "sha256": "c2109a17be0d0c92a4d35c4257c320af04e8e16e0e649c247e7abf2caa3f8741",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/forecast_availability.csv",
+      "bytes": 2911,
+      "sha256": "f4627f1edabe316c986916cb599f49945de63cdc3a27b270ef5745c6196c99e6",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/label_mapping.csv",
+      "bytes": 7392,
+      "sha256": "3c920a97038f5f75227d040a3783a13bd91d6aac9c5f181ab885194bb55b4df6",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/upstream_bundle.json",
+      "bytes": 1537,
+      "sha256": "075b149214b5c9a8827af45af221ee6ee6b6428090e6d9337afb1943698d2faf",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/bundle.json",
+      "bytes": 7712,
+      "sha256": "8eb6cbc1b85e60fe8a82906f4f025ec22b3bcf96d5c59bd0535ffbe0ccf8a0c5",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/figures/spatial_terrain_paths.png",
+      "bytes": 370168,
+      "sha256": "0de4a3e0cfa492e58ce8b35ac66e4e1f54b4f48ef4c5454d0da4f0ea678dac1d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_120m.npz",
+      "bytes": 55797,
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_60m.npz",
+      "bytes": 241460,
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_paths.csv",
+      "bytes": 101231,
+      "sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/terrain_bundle.json",
+      "bytes": 4745,
+      "sha256": "c7ce3a11c0dd5637f39bcb1fad81f3dbf08238045c825b41f80d00f14422ca0e",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/upstream_bundle.json",
+      "bytes": 5950,
+      "sha256": "5a2315f807bac296e5ae9bf877e655499b7a2b40e39df8edd3b0cccbeade853a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/ablation.csv",
+      "bytes": 89631,
+      "sha256": "529a1299db05e14ca7b0565f8c9274e5dbf0dbca6ebe82cdedf1f5bcb2da3f16",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/ablation_summary.csv",
+      "bytes": 104642,
+      "sha256": "42afa1967f12edac3faced83293a9ef6d0332ce2b3fc3aed1264842323e82d01",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/API_LIMITS.md",
+      "bytes": 1522,
+      "sha256": "6f8c22974c898e1b9c63adf9ee103f7cfa86e6bafc9faa70c1c618bc95f17cf2",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/config.json",
+      "bytes": 4478,
+      "sha256": "539c6e857d5d07e2cab7a70346ec02d2aad13eb47ee546df17f797850446177d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/diagnostic_traces.csv",
+      "bytes": 1818058,
+      "sha256": "2f8fefb7599d2b42a2a17a7f7f0b531b29fa6cbed9509ffbf5b4f8e29791b9f5",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/figure_visual_review.json",
+      "bytes": 575,
+      "sha256": "e1014fff2dccf550f986d588d49ff1531b3339f87d08e6f799c42b88227375eb",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/finite_mirror_fd_cases.csv",
+      "bytes": 993,
+      "sha256": "909a5b18af508fecda3129d4f23d414bab0ca02d5d6c4a9fd10326bbae11f502",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/forcing_hourly.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/interaction.csv",
+      "bytes": 8384,
+      "sha256": "308494ed4c083c8759d97181124f282c83ee4183470f875c3220fda6bca921c1",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv",
+      "bytes": 26199,
+      "sha256": "cc1df1e87bfb6a8ab0a0fa2086de5a3ebc4d11a39bec37101369c763afd77187",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/mechanism_contract.json",
+      "bytes": 4149,
+      "sha256": "44d3966717bdddc04e31ff8e4089bb8a7321a6a33e850371e3cb4c15cd4d1e4d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "bytes": 1614,
+      "sha256": "add46d7873516e8b91db034308fd46b4eef08f912c9f442ce161b79b3a744921",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/numerical_benchmarks.json",
+      "bytes": 3328,
+      "sha256": "309fbe00d9afdb948f3b08b6253210bf52cba6378d089bf4e38bfe9aa0f8141a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/numerical_comparison.png",
+      "bytes": 167034,
+      "sha256": "d5ba51b03c7ce1d76caaaf8758d58f9e1e23ea41267378873570533b9306b626",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/paired_v2_fd0625.csv",
+      "bytes": 576099,
+      "sha256": "a9a620bd0566603b22205c30babe8cbb5736585f6a845bd01576431b9830aac9",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/parameter_ensemble.csv",
+      "bytes": 1171832,
+      "sha256": "8393874e341789316d2862435f8498ed8c9e01c4e3f674dc2b46d9bcadce6203",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/plot_numerical_comparison.py",
+      "bytes": 2590,
+      "sha256": "cc5f4564675c1c57ca7fb26a2786e106c8459174a87d14e38e23d80de6048770",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/protocol.json",
+      "bytes": 1304,
+      "sha256": "1b775e7a942d9cbb0709d4a45f914fa3bba88e76229a466858911d2791bf53fd",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/reflection_bounds.csv",
+      "bytes": 34816,
+      "sha256": "961f6fea14872b3d0c7cfa43f03f687a7b14750182eb94d5d04af53161b7a5c2",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/scenario_outcomes.csv",
+      "bytes": 909276,
+      "sha256": "847143dc8ad8c495ea6e7747fbbcdb187ef465b9c7879fecb4717135372dc30c",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/state_trajectories.parquet",
+      "bytes": 3188841,
+      "sha256": "6592967eafdbdde9cce6c0547943abf7d15190c8ce9aac70f085b969ccf6e1bb",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "bytes": 3610,
+      "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal_independent_review.json",
+      "bytes": 11988,
+      "sha256": "0995ab1bbf55b841bfdde72829672f9307f42dd2e53aea28b24d419ecdb7380d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/applicability_audit.csv",
+      "bytes": 530583,
+      "sha256": "eb18a6d243c07949e0af068a3f32189d6fefcf4c77fb0de5337ffa067aba7d24",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/baseline_outcomes_64.csv",
+      "bytes": 46130,
+      "sha256": "26decc1c8cfe3f16a90602a8d3d194f2f7056ee001bd7bb3f7086021566a45a3",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/comparison_by_mechanism.csv",
+      "bytes": 2823,
+      "sha256": "d52046abb36f0a155e06ae5524e540570eb306e24a0849a117e4d9365f76d286",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/output_index.json",
+      "bytes": 2464,
+      "sha256": "e3e1fb5730aa6e769e4182335adb1cf53fb6c197ffd0150290f54f818cd4a229",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/paired_changes_128.csv",
+      "bytes": 149920,
+      "sha256": "63c1689a787f4ef55803e8a5c097d32d4f5100af6ff5259ba02b4d0fce2b2d4a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/parameter_ensemble_128.csv",
+      "bytes": 80892,
+      "sha256": "f5efa93e7ce69dc11e4dc6ddeb77b8c2e92dbb7f40dc66ec5f86350d50d02c2d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/protocol.json",
+      "bytes": 8844,
+      "sha256": "c28bec93ee0e15b291898b9a6b8943f700caedb6ec3b8c6630bbee665d218dd6",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/scenario_outcomes_128.csv",
+      "bytes": 93350,
+      "sha256": "7049de22947c497e527a3d0913a2bcdb80da3594c1010821da33674ed8c4ee59",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/state_trajectories_128.parquet",
+      "bytes": 7241929,
+      "sha256": "dfcc46be9b3a97b4cce51b3e425d3afb4d45536c4e845e47a7c5ce2be46e893e",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/composition_sensitivity/summary.json",
+      "bytes": 3061,
+      "sha256": "a154eccd5349024fc1a994b34140ad83c32baab64c590036701e5f1697c8d1a5",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/convergence.csv",
+      "bytes": 5241,
+      "sha256": "59a8cad40106f1502ec23c82f578832ee0f8c7e0c1d1c7570a451fa569bb3bdd",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/critical_relations.csv",
+      "bytes": 6626,
+      "sha256": "f2765fbc418e64ffb912dff736db255f2c513cf10dbc9df4a78a0db6ef58f551",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/forcing_hourly_v1.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/forcing_support.json",
+      "bytes": 650,
+      "sha256": "dd7d8b89681d2c2b231cf9b9924fc7830cae7b3226528489878181a3a9061e65",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/geometry_integration_summary.json",
+      "bytes": 24501,
+      "sha256": "22edf0eb580488df01ae98b2f263e8230abc38b4674c7e9a5390193cf6aaea9b",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/geometry_integration_terrain.csv",
+      "bytes": 912,
+      "sha256": "a974b276a7a46994d72a660b85e4e9de617f68c35e4f32188459785ae4665b29",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/identifiability.csv",
+      "bytes": 4108,
+      "sha256": "618e58dab165a96f1fd22cc5a4a91f303a5ee883eaac9372481fac3ae9e16f7d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/identifiability_details.json",
+      "bytes": 22123,
+      "sha256": "c5b999fc8aec0255b9d5dd62bd0fddd7aadc79fffb489bf1d38d8131e3b36ea7",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/independent_physics_review.json",
+      "bytes": 12157,
+      "sha256": "3f8e3505b71b1f8cac1bbd87b7a674738499f8456f94c1ac888519649e83f53b",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/interaction.csv",
+      "bytes": 13784,
+      "sha256": "9c1adee9ca4eda3659caa6a54a210d01d80897f24cd718be43fae76e480b683f",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/interaction_timepoint.parquet",
+      "bytes": 198449,
+      "sha256": "82aa55dabafb9b9f0d5906b5532a8e5d21ef59264912a32fd71735e144f65e80",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/interface_use.json",
+      "bytes": 3743,
+      "sha256": "009b3176582fb967755e9c84430cc9f965001aacc7bebd9babbf6bd6da79b202",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/mapping_sensitivity.csv",
+      "bytes": 57506,
+      "sha256": "7e05644a66d86b3c5abe8d9334f474fac6714b7a2eabca2741c8885990e04da7",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/mechanism_contract.json",
+      "bytes": 3236,
+      "sha256": "fd47ca5af08c56a5076d07a4707764e07e58089e3030a47cc812facf620923e7",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/model_comparison.csv",
+      "bytes": 1587,
+      "sha256": "c15e10442160d988c2085defdf8e8b68cf9af299a6d5cff46ed78a9ad0c09a59",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/parameter_ensemble.csv",
+      "bytes": 1071463,
+      "sha256": "27a77ced72931366be5e19f431cb40218e1f243d77a7fe2671fc6125b0cf98b6",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/config.json",
+      "bytes": 4642,
+      "sha256": "210616d1e1adb94e57cdb3ef415cb40808ae4a05f7a0fdd81f3b5dddfd24d5ac",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/forcing_hourly_v2.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/full_reference_check.py",
+      "bytes": 9289,
+      "sha256": "78e2ca0511cf5ce0c26e27f7383aac6c3910f402d7858534c47f4df945b983e3",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/full_reference_checks.csv",
+      "bytes": 524365,
+      "sha256": "1344f30d8e9fdffbd7db5051cb1d58bdb97d9a8ba202fe6b072aa5ecfe072623",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/full_reference_summary.json",
+      "bytes": 7931,
+      "sha256": "56798acafd21718b89bc7fd5743baf876cb6710c6322a2fd5280a667c3b32786",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/interaction.csv",
+      "bytes": 13784,
+      "sha256": "8681e19e24fa0ee3569720f4032df9d288f07d7cfa6dfe9071cf0d8f9e36b456",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/joint_sensitivity.csv",
+      "bytes": 30015,
+      "sha256": "38a97ed39c79cab5964a1b31cf18b753fb6fc40f86b73a2f9b4cabbd499fe4de",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/mechanism_contract.json",
+      "bytes": 3907,
+      "sha256": "afca7a8fd0684808e4bab67cdad073e80aedc189bc0fae234047e9ecfaa5e5ff",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/model_comparison.csv",
+      "bytes": 1688,
+      "sha256": "5a54fb20bced14d387daaa6acd34f364bef776e919bddc513ebc9b89c7f703a6",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/paired_v1_v2.csv",
+      "bytes": 1065426,
+      "sha256": "c3a2d4a971cf98b355ec6a69800ec0d56abeea96a2f7caeb250214aa2ca1e0f1",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/parameter_ensemble.csv",
+      "bytes": 1169784,
+      "sha256": "a8a8f091a7cb0abf1847db784c83d9e4b73f42896c126468b100026f1ea35293",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/refinement_125_vs_0625.csv",
+      "bytes": 10885,
+      "sha256": "a45f8707ea1afcd91521187e223c1e27332d055fbdd3689ea9d1ec99b02f591d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/refinement_protocol.json",
+      "bytes": 895,
+      "sha256": "21e72fbe8d79980a626e390958469305ee4e8f84b9cdd744f2d2e4c4756be006",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/refinement_summary.json",
+      "bytes": 4746,
+      "sha256": "091ce1777f5deaa4ff76341ebe435ec9a713e73d3dd901b6b48a6aff08dc7a79",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/scenario_outcomes.csv",
+      "bytes": 837472,
+      "sha256": "2338e53291c2225f1e172cc85145d6cc047d6c40599b49051f51fe790b5f6edd",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/state_trajectories.parquet",
+      "bytes": 3188047,
+      "sha256": "8f69e562bda819a348ec0e7dc000d79af7885015f4770a5ebbe5c6ec01a7b081",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/top5_onset_reference_checks.csv",
+      "bytes": 28311,
+      "sha256": "cd4cf56d6c34971fb0721cb9f021922492fcb35c72d2c75ad7d86d3e2dae789b",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/top5_onset_reference_summary.json",
+      "bytes": 3235,
+      "sha256": "fc963bcffc9d14f248440902139d6a8271116ca0cecb742ef7aac0f452a4910b",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/top5_reference_extract.py",
+      "bytes": 7395,
+      "sha256": "b161423dda2857f6e11b4ecec0cbbf3609a7b27d4beea61313de2d29ae037114",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/release_states.csv",
+      "bytes": 22691,
+      "sha256": "23278ea66f3141ad75634dbe8512d678bc46ab5a715c61228cf48ecba85ffad4",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/release_states_geometry_v2.csv",
+      "bytes": 121276,
+      "sha256": "c40aa56cfd5075ab73b84d97abbea17dc932343f776ff87eb25a868a9f47d575",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/release_thickness_q2r3-p0000_120m_v2.tif",
+      "bytes": 1941,
+      "sha256": "f0a21b0b435d76f67ee2289e5c4e6e5a60b18f7d238744019b162956a2ef2f00",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/release_thickness_q2r3-p0000_60m_v2.tif",
+      "bytes": 3794,
+      "sha256": "9be5c69fcb388182a843058deec9cce1026692bb4b5d30454f84a86872dd39d7",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/release_thickness_q2r3-p0036_120m_v2.tif",
+      "bytes": 1931,
+      "sha256": "081ef7c3fd20c26b87ed717e67c283f3f7c2e39810cd329e3ee24283d57e0275",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/release_thickness_q2r3-p0036_60m_v2.tif",
+      "bytes": 3792,
+      "sha256": "ec3a73e460db37b67d33eb1f3f2f4490fd8265e72747a1ac861522f6f8871827",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/result_index.json",
+      "bytes": 4806,
+      "sha256": "f344e946ba3e46deaa67caf60d26b95f179aa7269e36fda3971496cb697749bc",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/run_metadata.json",
+      "bytes": 701,
+      "sha256": "afd0682655c9d498c9349de5367e6fec7b209b4c5ba02c0a34a3b75d3fd258bf",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/sar_evidence_pair_comparison.csv",
+      "bytes": 2019,
+      "sha256": "d30369db6645b45263345c6e94d0e711f030890b6a788b6b42db93dacdf6c682",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/sar_evidence_pixels.png",
+      "bytes": 121572,
+      "sha256": "34698205f5442367831fc7f961b12a5026f3c49ff7f2766e9adccc79634b7d4d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/sar_evidence_product_attributes.json",
+      "bytes": 50547,
+      "sha256": "bce450e6c0ea6d198e6559bfbf43a9fc79c9f7df5718e0c8620bb6a741a3432a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/sar_evidence_register.json",
+      "bytes": 19189,
+      "sha256": "1c81720afc6f678db042b2ccc0fbd2f3647d1bb424d9bd96a58abdf91e885983",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/sar_evidence_run.json",
+      "bytes": 9734,
+      "sha256": "88b0a154dda2adfb16b764504f8cd99587d1b49a2e2cb20865416b11d00f186b",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/sar_evidence_source_window_pixels.csv",
+      "bytes": 100504,
+      "sha256": "4834ea4ee4992749388024a1fbbb12db033104fe672f4906764518e1b1d2ee4d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/sar_evidence_summary.csv",
+      "bytes": 2753,
+      "sha256": "8e21bf96b6cc2cef8132345a91ad5922553f48c6176d67ab0869906dcdcce351",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/sar_evidence_validation.json",
+      "bytes": 1416,
+      "sha256": "6ca02e1a78b78730ed03d27b45ce87684e17ae9edaa000180a2eb00419c55cee",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/scenario_outcomes.csv",
+      "bytes": 722959,
+      "sha256": "dd7be14535d0a782ca5b260375b830ca16b0275817bba6cde1852cd22c2a1737",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/sensitivity.csv",
+      "bytes": 31847,
+      "sha256": "a703789268b70f727c54c5f777a507056827c3fe6cc6555e8681e701d5031ef3",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/source_register.json",
+      "bytes": 17707,
+      "sha256": "4a51e6a4c088eef00e7b1e07797a24d657379ccbda658d3dbaeae61e1db8da4e",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/startup_workspace_verification.json",
+      "bytes": 1805,
+      "sha256": "18e24e559343b5258798d8edf0f14bd1685b8c90aea47eb48abca63490229003",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/state_trajectories.parquet",
+      "bytes": 3194674,
+      "sha256": "7ce07a43bc3cce5d51d39b4ff86eddd795ca12fb996d0c508f1a4bea6e2bb587",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/strength_coefficient_sensitivity.csv",
+      "bytes": 88846,
+      "sha256": "0abf1dcacce5f9540476f79fa649fccc78443ce053fb5553d1f8331acf4ec20d",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/strength_evidence.csv",
+      "bytes": 15604,
+      "sha256": "268f7734ed74aebf7ab975de0244fa6af82816d030243a7db8e88ae156a97d95",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/thermal_response_times.csv",
+      "bytes": 6840,
+      "sha256": "205b7501180039f697662088041f976bdd222738228305409112f41f2bd86d9f",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/validation.json",
+      "bytes": 5407,
+      "sha256": "ab70e5d36954f011f13d12625cb0311469fcb7a0e3c7033f701e1ce9f223b700",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/visual_review.json",
+      "bytes": 4918,
+      "sha256": "eae66d5600ef9b8480816590e914c0c5ea71e0265ed24971203b1b59dc759418",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/acquire_sar_evidence.py",
+      "bytes": 18881,
+      "sha256": "a6f40fa7f83a8df7596fd164632f4e9d95714fa8cb1971be4423e12dc8b28bab",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "bytes": 7560,
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analyze_composition.py",
+      "bytes": 29369,
+      "sha256": "801bd11ce305a6c3d679bd795b94c76994a384f32634d241bfb831e160823699",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analyze_identifiability.py",
+      "bytes": 13881,
+      "sha256": "13bf5a0542300cf60b7b6f693fdc3189e055d58b9bbdfc1671dbfd72ce2a3569",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analyze_numerics.py",
+      "bytes": 3471,
+      "sha256": "1d5d85d933c3c4166416db86f44e184513711d020d0a727560571725b32f6334",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analyze_robustness.py",
+      "bytes": 4190,
+      "sha256": "fbf6345802318a7a54a2d307cfcb5f7b79af98ec64e9a906ac8dc3ac4f3ff355",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/check_interfaces.py",
+      "bytes": 3929,
+      "sha256": "9a58a8e99043cbe371bbed0f95c0b3c83e57f6ee09ada58bce4fc6638f65243b",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/finalize_packet.py",
+      "bytes": 15044,
+      "sha256": "d7be8f05dd6e2493b3e9c64b2c2031dce4aafb3b793a1cd4baa88a50ee122adb",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/integrate_geometry.py",
+      "bytes": 22904,
+      "sha256": "3c5f087013e52a932275548ed735f51dba738a5446b13630e2b2723edd5849e3",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/make_figures.py",
+      "bytes": 8356,
+      "sha256": "1991ca00b4834e3e755c0e088b8b76ce15879b6c417f353faa109dfe53cb4eb3",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/review_analytic_thermal.py",
+      "bytes": 19775,
+      "sha256": "126676168a1fd26d9822c5c02d75f41e01a6cc0a208bb431e52f0732c9278463",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/run_analytic_thermal.py",
+      "bytes": 34185,
+      "sha256": "8cb54a4a6db606994c18d9e82ab9dce8269e77b1e5445287f9f5d865f3e3e1d6",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/run_experiments.py",
+      "bytes": 21983,
+      "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/run_refined_v2.py",
+      "bytes": 28213,
+      "sha256": "100ece09e9348a81d3344964a6d9603347b388b5f5dc01beea707542e808e616",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/validate_engine.py",
+      "bytes": 19724,
+      "sha256": "c9f0f47da9f2d0afe849a59366f08f2f9c14263b015eee3f87b12a3665572b79",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/catalog_v02.json.request.json",
+      "bytes": 970,
+      "sha256": "4abfe6c5d694216cc172c828be3d864ba4722e62aa03404976a59f6a33432a79",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/derived_post_search.nc",
+      "bytes": 158159,
+      "sha256": "636b6175068dc333ee979f4663ddbee815eb899748d5e5b2028bb9351ff9f0d1",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/derived_pre_search.nc",
+      "bytes": 158396,
+      "sha256": "52175e80846cd1387bfa1c4727ae908b26cc2c51246b9791962d3df19ff86cf1",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/derived_straddle_search.nc",
+      "bytes": 156502,
+      "sha256": "86952c81a5103ecff6f9ab011d3e72e3ae190a42d31d2e9fd7e6e043ef52edfa",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_2025_paper.html",
+      "bytes": 305988,
+      "sha256": "d26092199c6a9ef6b46af0dfeab9a636adb3306795a15ad7793be4dacf98e1ff",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_2025_paper.html.request.json",
+      "bytes": 941,
+      "sha256": "fd30b8d75746a2fd6b8cac7df777acf813350e57845ae4d22d51a557c2efe9e4",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_official_index.html",
+      "bytes": 41768,
+      "sha256": "e93020908f28ec81bc35e92cdbf92dc0b96830b825d4629d99c9d2805424f263",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_official_index.html.request.json",
+      "bytes": 972,
+      "sha256": "921a5b8b8879c1170c723992ab5de0e2205293f154a4b7162d4d557409153477",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_query_background_2024.json",
+      "bytes": 64766,
+      "sha256": "3741cfa3abf2e44787bc0dc6769c093bc3938a26b415185d728af1bd847df388",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_query_background_2024.json.request.json",
+      "bytes": 1257,
+      "sha256": "bdc17a5d74cf3f38c175864ad384b2b8e2193100ba615d6fbf17f4036f28c4d7",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_query_event_2026.json",
+      "bytes": 64766,
+      "sha256": "62bdc1551646d078d652e85442eb64614491f75f23676ea6b59356f6c091cd31",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_query_event_2026.json.request.json",
+      "bytes": 1252,
+      "sha256": "d00594dc12766cafd5691e747a1df904151576a09ea4396befd3a229844a66bb",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_s1d_post.nc.request.json",
+      "bytes": 1321,
+      "sha256": "223f59c9401a2fbcc76e9a04e1b6b49a2324cf52adc6eb843e7f10d403e2df69",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_s1d_pre.nc.request.json",
+      "bytes": 1320,
+      "sha256": "8504800f3c2d6c80e16f99b4df3de73800dcc5425852eadcfb5e364a1c38fa2a",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_s1d_straddle.nc.request.json",
+      "bytes": 1325,
+      "sha256": "e0e3204712f3d66831e044c8937648616f8d888d4b0fce8653dea95ebf78e8f0",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_stac_background.json",
+      "bytes": 317839,
+      "sha256": "332674a6dbbcdd69658a8e5e192b3eb0171e130c7ecf880c5cb1b5185385d13f",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_stac_background.json.request.json",
+      "bytes": 1180,
+      "sha256": "b45139eee82ce9caddabafbd97243fb998a48c184013c05f8b82aad5bdaab2bb",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_stac_event.json",
+      "bytes": 317700,
+      "sha256": "446522e13eae45e3e460c560beb1888d9522f44c08e9280008ce1366d94147ea",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_stac_event.json.request.json",
+      "bytes": 1175,
+      "sha256": "b5f17e2097df4bd5992579e1038b3599f5da6b43703c0ee403cc81978ad7354e",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_stac_event_bracket.json",
+      "bytes": 23385,
+      "sha256": "ed2921cec4a486eebe05b6a19655668ce81fffa88552a00fe95faf0d6bb2ccfc",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/itslive_stac_event_bracket.json.request.json",
+      "bytes": 1336,
+      "sha256": "f4acaaa268e82e5e29393bd56ca53da7405bea43fd0a32301994b3632091c2ec",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/matching_cube_catalog_features.json",
+      "bytes": 1807,
+      "sha256": "b2136fcaf7c8f0660fdbbbc6a37eba14f53d9b9036893773c008601a927f0986",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/sar/selected_sar_pairs.json",
+      "bytes": 17145,
+      "sha256": "b99bfa165d4040e9c92732f9b051062c7919e149bb877ed3ae19eac8bc2ba0db",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/EVIDENCE_NOTES.md",
+      "bytes": 6381,
+      "sha256": "5e71a7a3917548157256c06c5ba91042cbfed56eeeee8fd5ddce012cc7432d80",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/build_evidence.py",
+      "bytes": 12334,
+      "sha256": "43b0b7762ff4ba1d422729051cedc3067b953c636a7652554c713a8c4fff4b47",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.html",
+      "bytes": 324421,
+      "sha256": "4ff53f5745dafc83d4919125132a1605f027f8b1bb46cfc5bfdb696c66f7c51b",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "bytes": 8371754,
+      "sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article_extracted.txt",
+      "bytes": 93596,
+      "sha256": "dd8c2b1e71f3a0fe8937280ead7edba5be2a2c01bfaf7cdab52dcbd3801184e0",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_coefficients.json",
+      "bytes": 2096,
+      "sha256": "e7f3310039ebf917ad2520939f49c6b1b042fdbd07d2bcf5d319114c6adae778",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.pdf",
+      "bytes": 999636,
+      "sha256": "4efee06535c2673304d5cb325bc03b0d24dec8f9eb86deedbb7cafe566f96bfe",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.zip",
+      "bytes": 3397215,
+      "sha256": "5fcd735a88654af1f4c150313ee79afb855a0ae67ed9319a851d8e125fa420a0",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement_extracted.txt",
+      "bytes": 10715,
+      "sha256": "3c8c6f6d09ae4316564e6a26e689f3689264395cec4f6f5a7cb416953c6faad1",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_table_s2_transcribed.csv",
+      "bytes": 450,
+      "sha256": "5abe57f985521885ceb0318110cb41b9d27a954cbe4bb2f179dbb603129054ea",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-05.png",
+      "bytes": 392388,
+      "sha256": "c97703559417a8a6171c195d795eeb33aedf6ef6b91b459275dd7a3430a6281f",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-06.png",
+      "bytes": 486253,
+      "sha256": "f43becda389491f21f204dbc83f05bb758c6f16b75f444b610781efb4b6102b7",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-07.png",
+      "bytes": 320263,
+      "sha256": "85991bf04d4f9729150473323a71c6528cf2186d7dd29af72451c71851de34d5",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-10.png",
+      "bytes": 328106,
+      "sha256": "6c58fc825ea4f0aeec83803d530d531feef5a4cb5bdd7ca33ba1876c09b4d776",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-11.png",
+      "bytes": 267151,
+      "sha256": "8cb4c83c990bc2523d6205752f18c4d7684f2ca8cc12a0b88e1975fd1d0e1f04",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-14.png",
+      "bytes": 195037,
+      "sha256": "feb98b4cf0d5d697f50b7a00fc8f03e25820dac34a54cd19fbe50674292ad492",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot_supp_review-10.png",
+      "bytes": 113675,
+      "sha256": "feca9bb8d9a289028841982fad198b4c74eb4b9a0161dd0e7a2df4d80af1f864",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/source_register.json",
+      "bytes": 11331,
+      "sha256": "366e6c6852bc445823f0da9dc3662a7f0c26f0814344eef24f8bff1d5e6455ca",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/thermal_diffusivity2025.html",
+      "bytes": 418555,
+      "sha256": "df9810d2001dd37d740c6fafdef05114a216249017a61f8ae49f036b0314458b",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/thermal_diffusivity2025_extracted.txt",
+      "bytes": 100648,
+      "sha256": "31624aa7182abf46e079fcdf6c851f15396b95fec228059466da83bc60ebebac",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/waterflow2026.html",
+      "bytes": 310716,
+      "sha256": "36d4f5ed16c2ed3ec10d0c70e6b1683a5e43f14f0138ac2191d1b21ee733122f",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/waterflow2026_extracted.txt",
+      "bytes": 90906,
+      "sha256": "7cabba2784d9bb5793cf0d0c2ca8242c93efeb9a60dc2031b3a4b57c642cb729",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/workspace_binding.json",
+      "bytes": 739,
+      "sha256": "036df77f376a04aa6a28ebb5eb2c6124e0ef9d308069ac801a867596f21851a8",
+      "role": "committed Q2R3 packet artifact"
+    },
+    {
+      "path": "track_b/research/q2/round3/workspace_verification.json",
+      "bytes": 20067,
+      "sha256": "7fbe264d14e36b9e444f186dec81a6dcfaa04f3e3734e9a8350b5baccd7bb92b",
+      "role": "committed Q2R3 packet artifact"
+    }
+  ],
+  "excluded": [
+    "output_manifest.json self",
+    "HANDOFF.md bound by Git commit",
+    "__pycache__ and ignored runtime environments",
+    "large immutable caches referenced in input_manifest"
+  ],
+  "self_entry": false
+}

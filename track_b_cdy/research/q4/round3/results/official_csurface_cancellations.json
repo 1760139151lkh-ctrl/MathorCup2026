@@ -1,0 +1,68 @@
+{
+  "utc": "2026-10-24T08:07:10.487505+00:00",
+  "source_evidence": "sources/official_csurface_source_evidence.json",
+  "events": [
+    {
+      "action": "terminate_only_own_host_queue",
+      "pid": 87082,
+      "command": "track_b/.venv/bin/python track_b/research/q4/round3/scripts/official_launch_container.py --cases track_b/research/q4/round3/config/official_cases_copdem.json --only 120_single_ref"
+    },
+    {
+      "action": "terminate_only_own_host_queue",
+      "pid": 91266,
+      "command": "track_b/.venv/bin/python track_b/research/q4/round3/scripts/official_launch_container.py --cases track_b/research/q4/round3/config/official_cases_q2mapped.json"
+    },
+    {
+      "action": "terminate_only_own_host_queue",
+      "pid": 93662,
+      "command": "track_b/.venv/bin/python track_b/research/q4/round3/scripts/official_launch.py --image sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29 --cases track_b/research/q4/round3/config/official_cases_q2fullmask.json"
+    },
+    {
+      "action": "terminate_only_unsafe_single_sf2_solver",
+      "pid": 8463,
+      "command": "python3 /opt/grass-addons/scripts/r.avaflow.40G -ae prefix=copdem_120_single_ref cellsize=120.0 elevation=elev ctopo=0 csurface=2 centrainment=0 cstopping=0 cmelt=0 gravity=9.81 limiter=1 time=20,1800 cfl=0.5,0.01 thresholds=0.1,10000,10000,0.1,0.000001 phases=1 hrelease=release density=2105 friction=35,8.530765609948133,-1000 viscosity=-7",
+      "children": [
+        8499
+      ],
+      "kill_command": [
+        "docker",
+        "exec",
+        "mathorcup-r3-toolchain-build",
+        "kill",
+        "-TERM",
+        "8499",
+        "8463"
+      ],
+      "returncode": 0
+    },
+    {
+      "action": "terminate_only_unsafe_single_sf2_solver",
+      "pid": 9011,
+      "command": "python3 /opt/grass-addons/scripts/r.avaflow.40G -ae prefix=q2map60_q2r3_p0000_S_linear cellsize=60.0 elevation=elev ctopo=0 csurface=2 centrainment=0 cstopping=0 cmelt=0 gravity=9.81 limiter=1 time=20,1800 cfl=0.5,0.01 thresholds=0.1,10000,10000,0.1,0.000001 phases=1 hrelease=release density=1298.4352126854276 friction=35,8.530765609948133,-1000 viscosity=-7",
+      "children": [
+        9047
+      ],
+      "kill_command": [
+        "docker",
+        "exec",
+        "mathorcup-r3-toolchain-build",
+        "kill",
+        "-TERM",
+        "9047",
+        "9011"
+      ],
+      "returncode": 0
+    },
+    {
+      "action": "stop_only_own_private_unsafe_single_container",
+      "container_id": "790e5eccf9d674695cd38d097cffa3f5f2f5fddedde7042427be52068d7686fb",
+      "args": [
+        "/repo/track_b/research/q4/round3/scripts/official_container.py",
+        "/work/runs/q2full_q2r3_p0000_S_linear__geomv2_60m/case.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "shared_container_not_stopped": true,
+  "fixed_solver_source_not_modified": true
+}

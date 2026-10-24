@@ -1,0 +1,57 @@
+{
+  "version": "q2-r3-lab-strength-evidence-v1",
+  "producer_question": "q2",
+  "event_id": null,
+  "event_id_null_reason": "External laboratory test series, not additional local disaster chains",
+  "physical_phase": "external_laboratory_peak_shear_failure",
+  "time_utc": null,
+  "time_uncertainty": {
+    "status": "not_a_local_event_clock",
+    "test_durations": "source seconds retained; no conversion to local onset"
+  },
+  "space_object": {
+    "id": "external_Wetterstein_limestone_rock_ice_laboratory",
+    "crs": null,
+    "reason": "laboratory specimens, not mapped local source geometry"
+  },
+  "variable_semantics": {
+    "temperature": "measured rock temperature at failure °C",
+    "sigma": "area-corrected laboratory normal stress kPa",
+    "tau": "peak shear stress kPa",
+    "grouping": "nominal classes; actual columns used for fitting",
+    "qc_policy": "all141 rows; no deletion or imputation; 14 summaries not double counted"
+  },
+  "available_time": null,
+  "available_time_note": "Article public2018-10-17; cached2026 acquisition exists; no historical operational availability claim",
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "data_role": "exploration",
+  "laboratory_roles": [
+    "calibration",
+    "group_holdout_evaluation",
+    "source_reproduction"
+  ],
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+    "increment_base_commit": "a4a034eb3a93ae93d9ffb3852a0d7e13eabd2231"
+  },
+  "evidence_status": "external_laboratory_not_locally_validated",
+  "independent_local_events": 0,
+  "models_or_probabilities_updated": false,
+  "entrypoints": [
+    "REPORT.md",
+    "REPRODUCE.md",
+    "audit/results/audit_report.json",
+    "model/results/decision_summary.json",
+    "independent_review/REVIEW.md"
+  ],
+  "important_limits": [
+    "unknown physical specimen UID and eight recurring labels",
+    "published Eq6 same-table reference is descriptive",
+    "selected warm source relations use different temperature layers",
+    "no automatic effective-stress transfer",
+    "conditional mean intervals not event probabilities or verified95percent coverage"
+  ]
+}

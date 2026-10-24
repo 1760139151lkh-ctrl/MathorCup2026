@@ -1,0 +1,109 @@
+{
+  "version": "q4-r3-spectral-screen-v1",
+  "protocol": {
+    "version": "q4-r3-spectral-screen-v1",
+    "registered_before_spectral_computation": true,
+    "role": "exploratory independent pixel constraint; not accepted event footprint, release polygon or calibration-validation split",
+    "pre_scene": "S2C_45RUM_20260812_0_L2A",
+    "post_scene": "S2C_45RUM_20260928_0_L2A",
+    "reason": "pre AOI relatively clear and post river valley visible; chosen after TCI screening, spectral threshold not yet computed",
+    "bands": [
+      "red",
+      "nir"
+    ],
+    "reflectance_conversion": "use per-item per-band STAC raster:bands scale and offset, never DN-only NDVI",
+    "paired_mask": "both images SCL4 or SCL5; red/nir nonzero finite; snow, water, unclassified, topographic dark, cloud shadow, cloud and cirrus excluded",
+    "candidate_change": "preNDVI>0.4 and postNDVI<0.3 and postNDVI-preNDVI<-0.3",
+    "sensitivity_deltaNDVI_thresholds": [
+      -0.2,
+      -0.3,
+      -0.4
+    ],
+    "spatial_comparison": "union P1/P2/P3 250m corridors versus 500-1000m distance annulus, paired-mask denominators separate",
+    "attribution_limits": [
+      "47-day interval includes vegetation seasonality and unrelated processes",
+      "SCL and image registration errors unvalidated locally",
+      "routes/threshold selection are exploration, not independent model validation",
+      "No causal debris-flow footprint acceptance"
+    ]
+  },
+  "rows": [
+    {
+      "region": "candidate_corridor_250m",
+      "delta_threshold": -0.2,
+      "region_pixels": 128888,
+      "paired_usable_pixels": 74505,
+      "paired_usable_area_m2": 7450500,
+      "candidate_change_pixels": 42445,
+      "candidate_change_area_m2": 4244500,
+      "change_fraction_of_paired_usable": 0.569693309173881,
+      "median_deltaNDVI_paired": -1.3811211181937086
+    },
+    {
+      "region": "control_annulus_500_1000m",
+      "delta_threshold": -0.2,
+      "region_pixels": 226955,
+      "paired_usable_pixels": 142275,
+      "paired_usable_area_m2": 14227500,
+      "candidate_change_pixels": 9801,
+      "candidate_change_area_m2": 980100,
+      "change_fraction_of_paired_usable": 0.06888771744860306,
+      "median_deltaNDVI_paired": -0.19703394014280184
+    },
+    {
+      "region": "candidate_corridor_250m",
+      "delta_threshold": -0.3,
+      "region_pixels": 128888,
+      "paired_usable_pixels": 74505,
+      "paired_usable_area_m2": 7450500,
+      "candidate_change_pixels": 42433,
+      "candidate_change_area_m2": 4243300,
+      "change_fraction_of_paired_usable": 0.5695322461579759,
+      "median_deltaNDVI_paired": -1.3811211181937086
+    },
+    {
+      "region": "control_annulus_500_1000m",
+      "delta_threshold": -0.3,
+      "region_pixels": 226955,
+      "paired_usable_pixels": 142275,
+      "paired_usable_area_m2": 14227500,
+      "candidate_change_pixels": 9780,
+      "candidate_change_area_m2": 978000,
+      "change_fraction_of_paired_usable": 0.06874011597258829,
+      "median_deltaNDVI_paired": -0.19703394014280184
+    },
+    {
+      "region": "candidate_corridor_250m",
+      "delta_threshold": -0.4,
+      "region_pixels": 128888,
+      "paired_usable_pixels": 74505,
+      "paired_usable_area_m2": 7450500,
+      "candidate_change_pixels": 42398,
+      "candidate_change_area_m2": 4239800,
+      "change_fraction_of_paired_usable": 0.5690624790282531,
+      "median_deltaNDVI_paired": -1.3811211181937086
+    },
+    {
+      "region": "control_annulus_500_1000m",
+      "delta_threshold": -0.4,
+      "region_pixels": 226955,
+      "paired_usable_pixels": 142275,
+      "paired_usable_area_m2": 14227500,
+      "candidate_change_pixels": 9749,
+      "candidate_change_area_m2": 974900,
+      "change_fraction_of_paired_usable": 0.06852222807942365,
+      "median_deltaNDVI_paired": -0.19703394014280184
+    }
+  ],
+  "connected_candidate_components_ge9pixels": 1201,
+  "paired_usable_total_pixels": 798700,
+  "limits": [
+    "47-day interval includes vegetation seasonality and unrelated processes",
+    "SCL and image registration errors unvalidated locally",
+    "routes/threshold selection are exploration, not independent model validation",
+    "No causal debris-flow footprint acceptance"
+  ],
+  "status": "REJECTED_RADIOMETRIC_CONVERSION",
+  "reason": "legacy Earth Search boa_offset_applied=true but raster band offset=-0.1 was applied twice; resulting reflectance/NDVI unphysical",
+  "not_for_use": true
+}

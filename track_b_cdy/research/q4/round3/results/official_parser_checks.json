@@ -1,0 +1,47 @@
+{
+  "scope": "read-only parser test against runtime selfcheck outputs, no rerun",
+  "ravaflow": [
+    {
+      "file": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0000.asc",
+      "volume_m3": 7957897.625023313,
+      "min": 0.0,
+      "max": 100.0,
+      "finite": true
+    },
+    {
+      "file": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0001.asc",
+      "volume_m3": 7957622.402898734,
+      "min": 0.0,
+      "max": 100.40299987792969,
+      "finite": true
+    },
+    {
+      "file": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0002.asc",
+      "volume_m3": 7956766.0003866535,
+      "min": 0.0,
+      "max": 100.02100372314453,
+      "finite": true
+    },
+    {
+      "file": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0003.asc",
+      "volume_m3": 7955612.819061102,
+      "min": 0.0,
+      "max": 97.78399658203125,
+      "finite": true
+    },
+    {
+      "file": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0004.asc",
+      "volume_m3": 7954220.777451666,
+      "min": 0.0,
+      "max": 94.08300018310547,
+      "finite": true
+    },
+    {
+      "file": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0005.asc",
+      "volume_m3": 7952655.187622039,
+      "min": 0.0,
+      "max": 89.7750015258789,
+      "finite": true
+    }
+  ]
+}

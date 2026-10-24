@@ -1,0 +1,66 @@
+{
+  "nearest_pre": "S1D_IW_GRDH_1SDV_20260824T001844_20260824T001909_004260_007D5D_45FC_COG",
+  "nearest_post": "S1D_IW_GRDH_1SDV_20260828T122141_20260828T122206_004326_007FA4_C73B_COG",
+  "nearest_pair_metadata_compatible": false,
+  "compatible_candidate_count": 3,
+  "pairs": [
+    {
+      "platform": "sentinel-1d",
+      "orbit_state": "ascending",
+      "relative_orbit": 85,
+      "polarizations": [
+        "VV",
+        "VH"
+      ],
+      "pre_scene": "S1D_IW_GRDH_1SDV_20260816T122141_20260816T122206_004151_007980_B091_COG",
+      "pre_time_utc": "2026-08-16T12:21:41.058298+00:00",
+      "post_scene": "S1D_IW_GRDH_1SDV_20260828T122141_20260828T122206_004326_007FA4_C73B_COG",
+      "post_time_utc": "2026-08-28T12:21:41.762029+00:00",
+      "gap_days": 12.000008145034721,
+      "metadata_compatible": true,
+      "co_registration_verified": false,
+      "pixels_obtained": false,
+      "product": "GRD; no interferometric phase",
+      "data_role": "exploration"
+    },
+    {
+      "platform": "sentinel-1d",
+      "orbit_state": "descending",
+      "relative_orbit": 19,
+      "polarizations": [
+        "VV",
+        "VH"
+      ],
+      "pre_scene": "S1D_IW_GRDH_1SDV_20260824T001844_20260824T001909_004260_007D5D_45FC_COG",
+      "pre_time_utc": "2026-08-24T00:18:44.555468+00:00",
+      "post_scene": "S1D_IW_GRDH_1SDV_20260905T001844_20260905T001909_004435_00837B_60FD_COG",
+      "post_time_utc": "2026-09-05T00:18:44.831563+00:00",
+      "gap_days": 12.00000319554398,
+      "metadata_compatible": true,
+      "co_registration_verified": false,
+      "pixels_obtained": false,
+      "product": "GRD; no interferometric phase",
+      "data_role": "exploration"
+    },
+    {
+      "platform": "sentinel-1d",
+      "orbit_state": "descending",
+      "relative_orbit": 121,
+      "polarizations": [
+        "VV",
+        "VH"
+      ],
+      "pre_scene": "S1D_IW_GRDH_1SDV_20260819T001036_20260819T001101_004187_007ABD_B38C_COG",
+      "pre_time_utc": "2026-08-19T00:10:36.889384+00:00",
+      "post_scene": "S1D_IW_GRDH_1SDV_20260831T001037_20260831T001102_004362_0080EC_65B9_COG",
+      "post_time_utc": "2026-08-31T00:10:37.647071+00:00",
+      "gap_days": 12.000008769525463,
+      "metadata_compatible": true,
+      "co_registration_verified": false,
+      "pixels_obtained": false,
+      "product": "GRD; no interferometric phase",
+      "data_role": "exploration"
+    }
+  ],
+  "scope": "metadata screening, not accepted change-detection pairs or image interpretation"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-24T08:09:36.307599+00:00",
+  "reason": "entity_id was added after target CSV had already been bound by reduced_delivery_index / target pre-protocol; original path scientific coordinates did not change but bytes did, so it cannot be called a successful old-hash check",
+  "historical_binding": {
+    "original_path": "track_b/research/q4/round3/results/spatial_targets_v2.csv",
+    "sha256": "96202126426c50fdebe5d72ddf74bd443f531a77c77db094d0c8fe739dc86b98",
+    "bytes": 1360,
+    "preserved_exact_bytes_path": "track_b/research/q4/round3/results/spatial_targets_v2_initial.csv",
+    "preserved_sha256": "96202126426c50fdebe5d72ddf74bd443f531a77c77db094d0c8fe739dc86b98",
+    "line_endings": "CRLF"
+  },
+  "current_binding": {
+    "path": "track_b/research/q4/round3/results/spatial_targets_v2.csv",
+    "sha256": "6735c7dbb668c97bd73024050cbd0b7d1570bb78382dce005dddd983a276b18d",
+    "bytes": 1483,
+    "schema_change": "add entity_id grouping centerline and structure representations as duplicate representations of three logical entities",
+    "line_endings": "CRLF"
+  },
+  "comparison": {
+    "rows": 5,
+    "all_original_columns_byte_values_equal": true,
+    "coordinate_columns_unchanged": [
+      "x_m",
+      "y_m",
+      "longitude",
+      "latitude"
+    ],
+    "row_order_unchanged": true,
+    "other_column_order_unchanged": true
+  },
+  "treatment": "Historical source alias only; preserve current frozen spatial v2 bundle and scientific results; do not rerun 170 target rows or edit their delivery index; final root validator must explicitly declare schema-only exception and follow historical alias"
+}

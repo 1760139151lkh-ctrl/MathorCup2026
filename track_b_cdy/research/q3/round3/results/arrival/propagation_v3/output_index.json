@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/PROTOCOL.md",
+      "bytes": 5410,
+      "sha256": "3a1cd2513ae99deaa64e64862ae7c546bd789a1c272d7d7d39d001f18a9a53c2",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/RESULTS.md",
+      "bytes": 4019,
+      "sha256": "892831ec3cdf2602c5eaa1d606e1cce875a260438640ae14d7257b1d8d69ca21",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/adapter_schema.json",
+      "bytes": 1460,
+      "sha256": "7837378ed060f2ee4e36e309ac970b9eea3195f5b1bda8221a6f07815e0f0137",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/compact_v2_comparison.csv",
+      "bytes": 1520,
+      "sha256": "e6926f655521a79c066b48ada70097e128cb865ee2d338cd284120b09477c503",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/conditional_arrivals.csv",
+      "bytes": 24268,
+      "sha256": "ac3a8ed308bedd9c3e2dd14f19dc2843c3d6022a3bff1b1913fa0c4290c8c1ee",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/conditional_footprints.png",
+      "bytes": 212813,
+      "sha256": "d05400180865daa210d4bac0134053009a9339eab302b59c6b3075de593f2a1e",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/depth_footprint_diagnostics.csv",
+      "bytes": 7394,
+      "sha256": "8a9afb56d673e54d7f1e2e50a396df03d1fda14270d7275a70a79d88828fc061",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/figure_review.json",
+      "bytes": 1462,
+      "sha256": "7aa93a6f4a88959eca9c3be44773bb63a0372e9a061f7f525a483102ec9a574b",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/input_index.json",
+      "bytes": 29783,
+      "sha256": "da1a76b6d0f523d8fdfa539de081119932375982e63ac0c1c870ebd79e5130b9",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/lineage_audit.csv",
+      "bytes": 2178,
+      "sha256": "d84826735095231c0192ddadba211edd829e8d9ea717398d543920b0025950f1",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/physical_parameter_audit.csv",
+      "bytes": 7780,
+      "sha256": "a7cf7261b6a23833b082775bd25ff4149b3cb1c3407b72da86ae2d38a6e065ef",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/rejected_pairings.csv",
+      "bytes": 25,
+      "sha256": "f635b63432d0fe49bc36f22f9d6ad55337e8fde0d774519af2939c83c245d7d9",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/release_mapping_audit.csv",
+      "bytes": 3695,
+      "sha256": "7925787d864383148cd1722380df0409e598e47d2ee20383a783894d2b964e22",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/saved_field_target_checks.csv",
+      "bytes": 4733,
+      "sha256": "e7ff12ebfcd2050098717eb487ea61e0187fc5c3470088a527d0bf726ce0192e",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/status.json",
+      "bytes": 1540,
+      "sha256": "3b162f359018664a154e1ded01d38ad01c2365cd11362261d32c2c4d60b99cd1",
+      "role": "new fullmask adapter output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/summary.json",
+      "bytes": 1540,
+      "sha256": "3b162f359018664a154e1ded01d38ad01c2365cd11362261d32c2c4d60b99cd1",
+      "role": "new fullmask adapter output"
+    }
+  ],
+  "file_list_excludes_self": true,
+  "validation_excluded_to_avoid_cycle": true,
+  "independent_review_directory_excluded": true,
+  "path_resolution": "Q3 ROOT-relative repository paths; no recursive output traversal"
+}

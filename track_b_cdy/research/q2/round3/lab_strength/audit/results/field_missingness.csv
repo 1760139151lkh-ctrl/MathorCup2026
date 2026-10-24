@@ -1,0 +1,17 @@
+field,unit,n_rows,n_missing,n_numeric_source_strings
+experiment_id,identifier,141,0,0
+specimen_label,identifier,141,0,0
+ice_layer_thickness_mm,mm,141,0,0
+temperature_target_c,degC,141,0,0
+temperature_at_failure_c,degC,141,0,0
+normal_stress_target_kpa,kPa,141,0,1
+normal_stress_at_failure_kpa,kPa,141,0,1
+deformation_start_s,s,141,0,0
+shear_start_to_end_s,s,141,0,0
+rupture_time_s,s,141,0,0
+AE_onset_s,s,141,0,0
+peak_shear_kpa,kPa,141,0,0
+failure_type_code,code,141,0,0
+failure_type_description,category,141,0,0
+shear_rate_mm_min,mm/min,141,0,0
+shear_deformation_mm,mm,141,0,0

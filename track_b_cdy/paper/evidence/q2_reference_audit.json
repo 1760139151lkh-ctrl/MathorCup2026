@@ -1,0 +1,231 @@
+{
+  "audit_version": "q2-paper-reference-audit-v1",
+  "verified_at_utc": "2026-10-24T13:45:11.134601+00:00",
+  "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2",
+  "branch": "codex/track-b-q2-paper",
+  "paper_start_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+  "access_date": "2026-10-24",
+  "sources_reused_without_network": true,
+  "network_requests": 0,
+  "new_experiments": 0,
+  "research_files_modified": false,
+  "bibitem_count": 3,
+  "references": [
+    {
+      "bibkey": "q2-mamot2018",
+      "title": "A temperature- and stress-controlled failure criterion for ice-filled permafrost rock joints",
+      "authors_full_publisher_order": [
+        "Mamot, Philipp",
+        "Weber, Samuel",
+        "Schröder, Tanja",
+        "Krautblatter, Michael"
+      ],
+      "journal": "The Cryosphere",
+      "volume": 12,
+      "first_page": 3333,
+      "last_page": 3353,
+      "publication_date": "2018-10-17",
+      "year": 2018,
+      "doi": "10.5194/tc-12-3333-2018",
+      "doi_url": "https://doi.org/10.5194/tc-12-3333-2018",
+      "official_url": "https://tc.copernicus.org/articles/12/3333/2018/",
+      "access_date": "2026-10-24",
+      "source": {
+        "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.html",
+        "bytes": 324421,
+        "sha256": "4ff53f5745dafc83d4919125132a1605f027f8b1bb46cfc5bfdb696c66f7c51b",
+        "role": "saved_official_publisher_html"
+      },
+      "actual_read_scope": "Paper phase: citation metadata reread; prior actual PDF review pages5–7,9–14,16 and supplement pages3,4,7–10 recorded in lab_strength/literature; no new fulltext visual review claimed.",
+      "intended_citation_use": "Eq6及试验设计、材料/温度/应力/应变率适用条件"
+    },
+    {
+      "bibkey": "q2-weber2025",
+      "title": "Thermal diffusivity of mountain permafrost derived from borehole temperature data in the Swiss Alps",
+      "authors_full_publisher_order": [
+        "Weber, Samuel",
+        "Vieli, Andreas",
+        "Phillips, Marcia",
+        "Cicoira, Alessandro"
+      ],
+      "journal": "The Cryosphere",
+      "volume": 19,
+      "first_page": 6727,
+      "last_page": 6748,
+      "publication_date": "2025-12-18",
+      "year": 2025,
+      "doi": "10.5194/tc-19-6727-2025",
+      "doi_url": "https://doi.org/10.5194/tc-19-6727-2025",
+      "official_url": "https://tc.copernicus.org/articles/19/6727/2025/",
+      "access_date": "2026-10-24",
+      "source": {
+        "path": "track_b/research/q2/round3/sources/strength/thermal_diffusivity2025.html",
+        "bytes": 418555,
+        "sha256": "df9810d2001dd37d740c6fafdef05114a216249017a61f8ae49f036b0314458b",
+        "role": "saved_official_publisher_html"
+      },
+      "actual_read_scope": "Paper phase: citation metadata,abstract,introduction,heat-conservation/diffusivity derivation and methods applicability paragraphs; no new PDF download or borehole data reading.",
+      "intended_citation_use": "一维导热与热扩散率外部设计范围"
+    },
+    {
+      "bibkey": "q2-benasher2026",
+      "title": "Water flow timing, quantity, and sources in a fractured high mountain permafrost rock wall",
+      "authors_full_publisher_order": [
+        "Ben-Asher, Matan",
+        "Chabas, Antoine",
+        "Josnin, Jean-Yves",
+        "Bock, Josué",
+        "Malet, Emmanuel",
+        "Poulain, Amaël",
+        "Perrette, Yves",
+        "Magnin, Florence"
+      ],
+      "journal": "Hydrology and Earth System Sciences",
+      "volume": 30,
+      "first_page": 1735,
+      "last_page": 1754,
+      "publication_date": "2026-03-31",
+      "year": 2026,
+      "doi": "10.5194/hess-30-1735-2026",
+      "doi_url": "https://doi.org/10.5194/hess-30-1735-2026",
+      "official_url": "https://hess.copernicus.org/articles/30/1735/2026/",
+      "access_date": "2026-10-24",
+      "source": {
+        "path": "track_b/research/q2/round3/sources/strength/waterflow2026.html",
+        "bytes": 310716,
+        "sha256": "36d4f5ed16c2ed3ec10d0c70e6b1683a5e43f14f0138ac2191d1b21ee733122f",
+        "role": "saved_official_publisher_html"
+      },
+      "actual_read_scope": "Paper phase: citation metadata,abstract,methods3.5.1–3.5.2,results water-temperature timing/recession paragraphs; no new rawfielddata reading.",
+      "intended_citation_use": "冻土岩壁裂隙水流、雪融与降水补给及退水概念背景"
+    }
+  ],
+  "reference_use_limits": [
+    {
+      "bibkey": "q2-mamot2018",
+      "note": "作者100–400是名义应力类；实现strength_domain按瞬时effective100..400与T[-8,-.5]检查，仅为数值域标志。800暖域数据未并入Eq6。141试验与14作者摘要不重复计样本。"
+    },
+    {
+      "bibkey": "q2-weber2025",
+      "note": "bedrock中位±MAD=1.5±.6 mm²/s；换成m²/s后为1.5±.6e-6。端点是外部设计范围，不是置信区间。原文解析法为谐波边界，不直接出处于本项目erfc阶跃/FFT算法。"
+    },
+    {
+      "bibkey": "q2-benasher2026",
+      "note": "支持裂隙水流/热平流及补给概念，不标定本项目tau0、Sy、孔压或损伤增强排水。作者使用事件退水和一般非线性关系b约1至1.15；GST滞后摘要0–3h与结果0–6h存在差异，不引用其单一时滞作为排水常数。"
+    }
+  ],
+  "formula_read_only_review": [
+    {
+      "id": "q2-eq-normal-thickness",
+      "code_function": "stresses",
+      "equation": "sigma_n=rho*g*h_normal*cos(theta)/1000; tau=rho*g*h_normal*sin(theta)/1000 [kPa]",
+      "paper_nuance": "h为坡面法向厚度；不能将垂直厚度直接代入同一式。"
+    },
+    {
+      "id": "q2-eq-strength-mixing",
+      "code_function": "resistance",
+      "equation": "R=(1-D)*(f_b*c_b+(1-f_b)*c_j(T))+max(sigma_n-u,0)*(f_b*mu_b+(1-f_b)*mu_j(T))",
+      "paper_nuance": "损伤只乘混合黏聚项；f_b是承载面积比例，区别于决定密度的岩石体积分数。"
+    },
+    {
+      "id": "q2-eq-source-strength",
+      "code_function": "joint_strength",
+      "equation": "c_j=53.3-73.5*T [kPa]; mu_j=0.42-0.21*T; thaw challenger whenT>-.5: c=0,mu=.60",
+      "paper_nuance": "Mamot为薄冰填石灰岩结构面快速剪切关系；有效应力替换、混合、损伤及暖端c=0/mu=.6均为模型情景扩展，不归为原文校准。"
+    },
+    {
+      "id": "q2-eq-water-input",
+      "code_function": "simulate",
+      "equation": "Tsrc=air+offset; chi=clip((Tsrc+1)/2,0,1); I=rain_multiplier*P_mm_h*chi/1000+melt_mm_deg_day*max(Tsrc,0)/24000 [m/h]",
+      "paper_nuance": "雨/融水用未截断的Tsrc，不能用B=min(Tsrc,0)替代正温融水项；H的融水边界不等于启用T内部导热。"
+    },
+    {
+      "id": "q2-eq-water-state",
+      "code_function": "simulate and reservoir_step",
+      "equation": "dW/dt=I-W/tau_d-q_over; tau_d=tau0*exp(-kappa*D_i); Wcap=Sy*min(Hconn,.98*sigma_n/g); u=g*W/Sy [kPa]",
+      "paper_nuance": "每小时I/tau_d取左端常数；储排水连续溢流采用分段解析积分，不是Euler。u简写使用rho_water=1000kg/m3与Pa到kPa换算抵消。"
+    },
+    {
+      "id": "q2-eq-damage",
+      "code_function": "simulate",
+      "equation": "lambda=A*min(tau/max(R,1e-6),10)^n; Dnext=min(1-(1-D)*exp(-lambda*dt_h),.999999)",
+      "paper_nuance": "稳定正裕度下仍可累积损伤；这是现象学应力比设计，不是由Mamot试验标定的慢蠕变率。"
+    },
+    {
+      "id": "q2-eq-margin-and-censoring",
+      "code_function": "resistance and classify_trajectory",
+      "equation": "margin=(R-tau)/tau; first nonpositive after finite positive initial value uses adjacent-hour linear interpolation",
+      "paper_nuance": "初始非正标left_censored，never_cross/missing单列；无压力根/负根/接触极限根及容量不可达需分开。后越阈继续轨迹为诊断。"
+    },
+    {
+      "id": "q2-eq-analytic-causality",
+      "code_function": "thermal_transfer_analytic and linear_causal_convolution",
+      "equation": "DeltaB0=B0-Tinit; DeltaBj=Bj-Bj-1; K0=0; Kk=erfc(z/(2sqrt(alpha*k*dt_h*3600))); T[k]=Tinit+sum(j<k)DeltaBj*K[k-j]",
+      "paper_nuance": "B_i=min(air_i+offset,0)作用[i,i+1)；nfft>=2nt-1排除循环卷积。state0指定初温，z=0时statek取B[k-1]左极限。"
+    },
+    {
+      "id": "q2-eq-thermal-boundary",
+      "code_function": "reflection_temperature_bound",
+      "equation": "|Tfinite40-Tsemi|<=sum(abs(DeltaB_used))*erfc((80-z)/(2sqrt(alpha*t_horizon_s)))",
+      "paper_nuance": "这只界定给定线性导热边界的差；不代表真实温度误差，不消除1h水/损伤离散、热对流或潜热。"
+    }
+  ],
+  "additional_source_files": [
+    {
+      "path": "track_b/docs/19_stage4_round3_review.md",
+      "bytes": 28733,
+      "sha256": "e51db6d006b5471b34ab86f5fd5a802930e5abeeebd171fe002db3b6d5a531bc",
+      "role": "final_joint_review_Q2_section_read"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "role": "constitutive_water_damage_code_read_only"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "bytes": 7560,
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607",
+      "role": "analytic_thermal_code_read_only"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "bytes": 8371754,
+      "sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "role": "previous_full_relevant_pdf_pages_reviewed"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article_extracted.txt",
+      "bytes": 93596,
+      "sha256": "dd8c2b1e71f3a0fe8937280ead7edba5be2a2c01bfaf7cdab52dcbd3801184e0",
+      "role": "existing_equation_and_method_extraction"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/source_register.json",
+      "bytes": 11331,
+      "sha256": "366e6c6852bc445823f0da9dc3662a7f0c26f0814344eef24f8bff1d5e6455ca",
+      "role": "original_acquisition_metadata_read"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/literature_input_audit.json",
+      "bytes": 19573,
+      "sha256": "39c2b8ad074cad71465b1a78f6a80e63216b8a157a1b8ec5591b593c422d352e",
+      "role": "prior_actual_visual_reading_scope"
+    }
+  ],
+  "output_tex": {
+    "path": "track_b/paper/evidence/q2_references.tex",
+    "bytes": 1172,
+    "sha256": "f7e955db25aa677f411d6843415f32508cc28a198624a2638ed2bd8f91383559",
+    "role": "actual_Q2_bibitems_fragment"
+  },
+  "latex_scope": "bibitem fragment only;no documentclass,thebibliography environment,shared macro or bibliography layout change",
+  "verification": {
+    "bibkeys_unique_and_q2_prefixed": true,
+    "all_doi_and_titles_match_saved_publisher_metadata": true,
+    "all3_metadata_authors_recorded_in_original_order": true,
+    "unicode_names_preserved_for_XeLaTeX": true,
+    "no_numerical_execution_or_new_install": true
+  }
+}

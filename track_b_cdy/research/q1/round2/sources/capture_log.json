@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://essd.copernicus.org/articles/18/1147/2026/",
+    "retrieved_at_utc": "2026-10-24T06:03:24.587360+00:00",
+    "version": "Published 2026-02-10, DOI 10.5194/essd-18-1147-2026",
+    "reading_scope": "Abstract, sections 2.1/2.2/4 and targeted processing/data-DOI passages; supplements not read",
+    "adoption_boundary": "Related-method evidence only; binds dataset 302428, not target 303600",
+    "maximum_bytes": 2000000,
+    "http_status": 200,
+    "final_url": "https://essd.copernicus.org/articles/18/1147/2026/",
+    "content_type": "text/html",
+    "path": "sources/essd_2026_article.html",
+    "bytes": 360458,
+    "sha256": "055be0ab376812a4123a027633770527cd8a81a030e19a35d602f06d3d618261",
+    "response_saved": true,
+    "article_body_reading_verified": true
+  },
+  {
+    "url": "https://doi.org/10.1007/s00376-026-6282-3",
+    "retrieved_at_utc": "2026-10-24T06:03:27.670378+00:00",
+    "version": "DOI cited by target WaterNet metadata; processing version unverified",
+    "reading_scope": "Access attempt only; if blocked or frontend shell, no article-body reading claimed",
+    "adoption_boundary": "No target-data processing claim from an inaccessible article",
+    "maximum_bytes": 500000,
+    "http_status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "path": "sources/aas_doi_response.html",
+    "bytes": 10614,
+    "sha256": "83e2fe649bf6bb307447d9fd263fa60bfe9e07fe51c97d5ec743910d9b7803e7",
+    "response_saved": true,
+    "article_body_reading_verified": false
+  }
+]

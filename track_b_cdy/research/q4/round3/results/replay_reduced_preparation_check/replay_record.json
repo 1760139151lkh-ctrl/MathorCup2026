@@ -1,0 +1,44 @@
+{
+  "prepared_at_utc": "2026-10-24T08:21:51.374384+00:00",
+  "source_code_unchanged": true,
+  "original_output_paths_untouched": true,
+  "packet_destination": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_reduced_preparation_check",
+  "cache_destination": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/replays/preparation_check_v1",
+  "copied_inputs": [
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/spatial_inputs_60m.npz",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_reduced_preparation_check/results/spatial_inputs_60m.npz",
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/spatial_inputs_120m.npz",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_reduced_preparation_check/results/spatial_inputs_120m.npz",
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/spatial_paths.csv",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_reduced_preparation_check/results/spatial_paths.csv",
+      "sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/additional_target_protocol_v2.json",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_reduced_preparation_check/config/additional_target_protocol_v2.json",
+      "sha256": "d8b07436070bad4768f8a73abf71a46ecac66854a7aab00dfd733d2622219e91"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/reduced_protocol.json",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_reduced_preparation_check/config/reduced_protocol.json",
+      "sha256": "ec4caac240dfa667cdd3917da0f0e07946cd780ec481a0a25d883f12eb6df7fc"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/spatial_targets_v2_initial.csv",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_reduced_preparation_check/results/spatial_targets_v2.csv",
+      "sha256": "96202126426c50fdebe5d72ddf74bd443f531a77c77db094d0c8fe739dc86b98"
+    }
+  ],
+  "mode": "all",
+  "select": "all",
+  "prepare_only": true,
+  "scientific_execution_complete": false,
+  "script_evolution_note": "Preparation check copied6 inputs; current wrapper additionally copies environment lock/json. No scientific replay performed."
+}

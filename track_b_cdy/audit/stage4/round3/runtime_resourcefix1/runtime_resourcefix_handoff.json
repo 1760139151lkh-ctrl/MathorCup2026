@@ -1,0 +1,87 @@
+{
+  "version": "ravaflow4r7-resourcefix1",
+  "published_utc": "2026-10-24T08:45:24.078149+00:00",
+  "immutable": true,
+  "scope": "45 final Segment cleanup calls only; original physical equations, state evolution, parameter parsing and wrappers unchanged",
+  "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+  "derived_image_id": "sha256:3d8d8b4a31a520f64c52c2e8d3e23684181222c40ffd246f2d9e25d5cd511bce",
+  "derived_image_tag": "mathorcup-r3-solvers:r3-resourcefix1-20261024",
+  "image_inspect": "resourcefix1_image_inspect.json",
+  "addon_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/release_addon",
+  "addon_manifest": {
+    "path": "resourcefix1_addon_manifest.json",
+    "sha256": "6702a2bf4e7e6d4514b209ec465f98861cb632ac16bad4b1f1475a8683f09bef",
+    "files": 24
+  },
+  "binary": {
+    "path": "release_addon/bin/r.avaflow.main",
+    "sha256": "45ace2befd657d31232a73e1f5eabc174dd68c5962f6353385594fc70499bc1c",
+    "image_path": "/opt/grass-addons/bin/r.avaflow.main",
+    "asan_in_production": false
+  },
+  "source": {
+    "official_rev": "4.0 G Revision 7, VERSION 20250902",
+    "official_main_sha256": "cdb1168d7cf154e3504d199f7bef8d095cbafe74298cb9087874e1d700a1127a",
+    "derived_main_sha256": "5cd245c8aadc8f1869cb091a0eefc49e3f3241cec4a8266bd117a432d0f1b975",
+    "patch": "segment_close.patch",
+    "patch_sha256": "f9da53231d43cb741d51e65293f895d7347b38c76993beb8d37d3b159759d177",
+    "reverse_replacement_restores_official_bytes": true,
+    "changed_files": [
+      "r.avaflow.main/main.c"
+    ],
+    "original_python_wrapper_sha256": "d062d4c62092e9cb026cd55869505e16db2aea463c603ec997740ff1beb682ec",
+    "published_python_wrapper_sha256": "d062d4c62092e9cb026cd55869505e16db2aea463c603ec997740ff1beb682ec",
+    "wrapper_byte_identical": true
+  },
+  "environment": {
+    "platform": "linux/amd64, local Docker Desktop",
+    "ubuntu": "22.04",
+    "grass": "7.8.7",
+    "gcc": "11.4.0",
+    "build": "grass --tmp-location XY --exec g.extension extension=r.avaflow.40G url=/diagnostics/derived/source_package/r.avaflow.40G prefix=/diagnostics/derived/release_addon",
+    "makefile": "official unchanged GRASS Module.make",
+    "compile_log": "build_release.log",
+    "compilation_success": true,
+    "environment_unchanged_from_base": true
+  },
+  "checks": {
+    "root_cause": "original ASAN NULL read at Segment_release main.c:12483; independent API probe release fails, close passes",
+    "ownership": "resource_ownership_check.json: all 45 opened descriptors paired, same conditions, no later use/manual free/close",
+    "asan": "patched flatrest single/multi exit 0, no ASAN error; original fails at cleanup; physical_output_comparison_asan.json 34/34 common ASCII byte-identical",
+    "production_flat": "physical_output_comparison_production.json: single34/34 and multi102/102 common ASCII byte-identical. Old bowl csurface2 comparison invalid, see caveat.",
+    "valid_cs0": "valid_cs0_regression.json: original repeats77/77, patched repeats70/70; original-to-patched70/70; patched-to-image70/70; patched-to-readonly-addon70/70 byte-identical; native time arrays identical",
+    "valid_cs0_actual_seconds": [
+      0,
+      27.3,
+      40.8,
+      70.3,
+      85.7,
+      115.3
+    ],
+    "image_binary_sha256_verified": true,
+    "readonly_addon_GRASS_ADDON_BASE_verified": true,
+    "original_runtime_handoff_unchanged_sha256": "cb4bdbbcbcf82993f5d42c4fae3d1a0962618f38fd083bbbc3da444199aa44c6"
+  },
+  "trigger_condition": {
+    "block_rows": 16,
+    "block_cols": 16,
+    "memory_blocks": 16,
+    "all_memory_branch": "ceil(rows/16)*ceil(cols/16) <= 16",
+    "Q4_small_30x40_blocks": 6,
+    "Q4_CopDEM120m_77x150_blocks": 50,
+    "Q4_CopDEM60m_154x300_blocks": 190,
+    "large_domain_existing_results_need_rerun_due_to_this_fix": false
+  },
+  "limitations": [
+    "Resource regression is not a physical validation or additional event sample.",
+    "Single-phase csurface=2 legacy bowl outputs are invalid state-indexing configuration; retained, excluded from dynamic-equivalence claims.",
+    "Time stepping may overshoot requested frames/end time; use native tsum/summary/volumes actual seconds, never frame index*20.",
+    "Source-label success=1 is insufficient: require process exit, flushed summary, native time and physical/numerical checks.",
+    "Original source/image/v1 handoff retained; record solver_build and resource_fix in each new run."
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/OSGeo/grass/7.8.7/lib/segment/open.c",
+    "https://raw.githubusercontent.com/OSGeo/grass/7.8.7/lib/segment/release.c",
+    "https://raw.githubusercontent.com/OSGeo/grass/7.8.7/lib/segment/close.c"
+  ]
+}

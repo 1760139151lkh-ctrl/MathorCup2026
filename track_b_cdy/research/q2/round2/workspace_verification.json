@@ -1,0 +1,102 @@
+{
+  "generated_at_utc": "2026-10-24T06:13:27.346497+00:00",
+  "question": "q2",
+  "passed": true,
+  "checks": [
+    {
+      "name": "workspace_and_git_baseline",
+      "passed": true,
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2",
+        "head": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "branch": "codex/track-b-q2-r2"
+      }
+    },
+    {
+      "name": "frozen_input_hashes",
+      "passed": true,
+      "evidence": {
+        "file_count": 565,
+        "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+        "preparation_commit": "85e66c94a054780d476324cdcdfc02d406b703d7"
+      }
+    },
+    {
+      "name": "isolated_environment_and_lock",
+      "passed": true,
+      "evidence": {
+        "python": "3.12.14",
+        "prefix": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/.venv",
+        "package_count": 44,
+        "lock_sha256": "5a780bc65de35a11a1eac4ec9370cad50957dcabb8ebe02cecdbfdb550ad645a",
+        "pip_check": "No broken requirements found."
+      }
+    },
+    {
+      "name": "six_real_formats",
+      "passed": true,
+      "evidence": {
+        "formats_read": [
+          "CSV",
+          "XLSX",
+          "SHP",
+          "GeoTIFF",
+          "NetCDF4",
+          "GRIB2"
+        ]
+      }
+    },
+    {
+      "name": "question_file_ownership",
+      "passed": true,
+      "evidence": {
+        "allowed_directory": "track_b/research/q2/round2/",
+        "changed_paths": [
+          "track_b/research/q2/round2/HANDOFF.md",
+          "track_b/research/q2/round2/REMOTE_ACCESS_REVIEW.md",
+          "track_b/research/q2/round2/ROUTE_UPDATE.md",
+          "track_b/research/q2/round2/VELOCITY_REVIEW.md",
+          "track_b/research/q2/round2/input_manifest.json",
+          "track_b/research/q2/round2/inputs/advisor_aoi_review.json",
+          "track_b/research/q2/round2/inputs/georeference_controls.csv",
+          "track_b/research/q2/round2/inputs/georeference_review.json",
+          "track_b/research/q2/round2/inputs/search_aoi.geojson",
+          "track_b/research/q2/round2/inputs/search_aoi_evidence.json",
+          "track_b/research/q2/round2/network_budget.json",
+          "track_b/research/q2/round2/output_manifest.json",
+          "track_b/research/q2/round2/results/INDEPENDENT_REVIEW.md",
+          "track_b/research/q2/round2/results/aoi_pixel_support.csv",
+          "track_b/research/q2/round2/results/aoi_support_check.json",
+          "track_b/research/q2/round2/results/network_guard_checks.json",
+          "track_b/research/q2/round2/results/pair_access.json",
+          "track_b/research/q2/round2/results/parameter_evidence_update.csv",
+          "track_b/research/q2/round2/results/result_index.json",
+          "track_b/research/q2/round2/results/source_register.json",
+          "track_b/research/q2/round2/results/velocity_definition_chain.csv",
+          "track_b/research/q2/round2/scripts/check_aoi_support.py",
+          "track_b/research/q2/round2/scripts/check_network_guards.py",
+          "track_b/research/q2/round2/scripts/consolidate_round2.py",
+          "track_b/research/q2/round2/scripts/probe_pair.py",
+          "track_b/research/q2/round2/sources/sar/post_response.bin",
+          "track_b/research/q2/round2/sources/sar/pre_response.bin",
+          "track_b/research/q2/round2/sources/velocity_build_chain.py",
+          "track_b/research/q2/round2/sources/velocity_itslive_composite.py",
+          "track_b/research/q2/round2/sources/velocity_itslive_mosaics_types.py",
+          "track_b/research/q2/round2/sources/velocity_nsidc_mosaics_v2.py",
+          "track_b/research/q2/round2/sources/velocity_nsidc_v2_userguide.pdf",
+          "track_b/research/q2/round2/sources/velocity_pdf_review-04.png",
+          "track_b/research/q2/round2/sources/velocity_pdf_review-05.png",
+          "track_b/research/q2/round2/sources/velocity_pdf_review-10.png",
+          "track_b/research/q2/round2/sources/velocity_pdf_review-11.png",
+          "track_b/research/q2/round2/sources/velocity_s3_README.html",
+          "track_b/research/q2/round2/sources/velocity_source_register.json",
+          "track_b/research/q2/round2/workspace_binding.json",
+          "track_b/research/q2/round2/workspace_verification.json"
+        ]
+      }
+    }
+  ],
+  "scope": "Workspace, frozen inputs, environment and technical I/O only; no scientific model acceptance.",
+  "round": "round2"
+}

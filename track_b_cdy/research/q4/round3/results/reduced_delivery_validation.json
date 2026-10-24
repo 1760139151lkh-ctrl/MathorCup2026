@@ -1,0 +1,25 @@
+{
+  "validated_at_utc": "2026-10-24T08:00:22.102582+00:00",
+  "checks": {
+    "expected_34_runs": true,
+    "all_completed_1800s": true,
+    "all_common_source_volumes": true,
+    "all_primary_null_not_reached_preserved": true,
+    "cache_field_hashes_match": true,
+    "finite_nonnegative_states_and61_saved_times": true,
+    "one_d_utm_vector_norm_matches_path_speed": true,
+    "maximum_relative_mass_error_lt_1e_minus12": true,
+    "all_negative_raw_depths_above_failure_threshold": true,
+    "actual_numba_compilation_signatures_present": true,
+    "regional_accuracy_false_explicit": true,
+    "all_reduced_runs_excluded_from_arrival_envelope": true,
+    "all_170_additional_target_rows": true,
+    "five_figures_actually_reviewed_and_hashes_match": true,
+    "source_scripts_compile": true
+  },
+  "all_pass": true,
+  "max_relative_mass_error": 8.052940550068989e-16,
+  "max_1d_velocity_vector_norm_difference_m_s": 0.0,
+  "scope": "Data integrity, conservation and declared exclusions only; regional thin-flow timing remains unqualified.",
+  "scientific_adoption": "pending_team_review"
+}

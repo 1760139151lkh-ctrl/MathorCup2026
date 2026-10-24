@@ -1,0 +1,90 @@
+{
+  "review_type": "read_only_interface_design",
+  "reviewed_at_utc": "2026-10-24T07:35:44.783382+00:00",
+  "reviewer": "r3_export_reviewer",
+  "blocking_findings": [],
+  "checks": [
+    "failure margin sign/units/normalization and crossing interpolation/persistence",
+    "first sample unstable is left-censored, not a known first initiation",
+    "UTC origin, timestep and historical information cutoff",
+    "never crossed vs missing vs numerical failure; explicit probability priors/weights",
+    "release phase fractions basis, sum, density, volume integral and velocity coordinates",
+    "mechanical initiation to release delay separate from propagation delay",
+    "arrival threshold and never arrival/out-of-domain/failure statuses",
+    "scenario/model/mechanism/geometry/parameter version join prevents duplicate combinations"
+  ],
+  "action": "Checks delivered to Q2/Q3/Q4; no global truth/quality values changed",
+  "early_actual_bundles": {
+    "q1_feature": {
+      "sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+      "files": 10
+    },
+    "q2_mechanism": {
+      "sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+      "files": 8
+    },
+    "q2_release": {
+      "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "files": 4
+    }
+  },
+  "actual_q2_state_checks": {
+    "rows": 133696,
+    "trajectories": 64,
+    "hourly_continuous": true,
+    "duplicate_scenario_time": 0,
+    "nonfinite_margins": 0,
+    "forcing_before_state": true,
+    "input_mode": "ideal_weather",
+    "release_ids_match_states": 32,
+    "phase_volume_fractions_sum_one": true,
+    "design_outcome_counts": {
+      "never_crossed": 1663,
+      "left_censored_already_unstable": 248,
+      "interval_crossing": 137
+    }
+  },
+  "implementation_followups_to_q3": [
+    "first_passage gap detection must check missing timestamp rows, not only finite values",
+    "discover/read Q2 state_trajectories.parquet, not CSV only"
+  ],
+  "actual_review_updated_at_utc": "2026-10-24T08:52:29.251043+00:00",
+  "q4_code_review": {
+    "reviewed": [
+      "official_prepare.py",
+      "official_container.py",
+      "official_analyse.py",
+      "Q2 release mapping",
+      "fixed Rev7/D-Claw output and initialization source"
+    ],
+    "confirmed": [
+      "DClaw binary64 layout, ghost removal, north-south flip, velocities and Pa pore pressure",
+      "Q2 CRS84 to UTM transformation and exact intersection-volume mapping"
+    ],
+    "issues_delivered": [
+      "Replace frame_index*20 fallback with native output time; preserve unknown if no evidence",
+      "Retain native-crash/partial-run status even after earlier target hit",
+      "DClaw initial normalized L1 thickness difference13.899percent and support67 to111 cells; distinguish shared input/volume from native initial field",
+      "Native edge store vs extrapolation vs FV zero-gradient boundaries; compare before boundary interaction and avoid attributing all difference to extra physics"
+    ],
+    "research_status": "ongoing; issues do not terminate whole routes"
+  },
+  "supplementary_evidence_requests": [
+    "Q2 first-passage convergence for largest v1-v2 timing differences",
+    "Q2 published candidate ice fraction10-15percent versus initial design20-80percent ice; retain original and add paired domain sensitivity"
+  ],
+  "analytic_thermal_review": {
+    "upstream_sha256": "ff989d23894f9b2d44daf032418583430791ef5b8367d423aa5cb54763767684",
+    "files_verified": 21,
+    "scenario_outcomes": 2048,
+    "finite_onset_pairs": 137,
+    "left_censored": 248,
+    "never_crossed": 1663,
+    "representative_state_rows": 133696,
+    "independent_direct_fft_max_abs_error_c": 4.440892098500626e-16,
+    "max_analytic_fd0625_onset_difference_h": 0.34707951714221963,
+    "max_analytic_v2_onset_difference_h": 19.07238048020787,
+    "category_changes": 0,
+    "scope": "Numerical reference under registered linear conduction boundary, not exact full coupling or scientific validation; new onset version joins unchanged release through base_scenario_id."
+  }
+}

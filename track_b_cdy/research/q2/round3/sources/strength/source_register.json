@@ -1,0 +1,183 @@
+{
+  "sources": [
+    {
+      "source_id": "mamot2018_html",
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/12/3333/2018/tc-12-3333-2018.html",
+      "product_version": "Mamot et al. (2018), final, DOI 10.5194/tc-12-3333-2018",
+      "retrieved_at_utc": "2026-10-24T07:29:57.450624+00:00",
+      "retrieval_time_method": "file write mtime recorded immediately following request; requests Session trust_env=False; no credentials",
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.html",
+      "bytes": 324421,
+      "sha256": "4ff53f5745dafc83d4919125132a1605f027f8b1bb46cfc5bfdb696c66f7c51b",
+      "actual_read_scope": "Full publisher HTML captured; read Sect2.2-2.4, Sect3.3-3.5, Sect4.1-4.5, Eq3-Eq6, Fig7/Fig9 captions and conclusion; PDF cross-check used for equations and tables; bibliography not independently verified",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": "public article date 2018-10-17; publication does not prove actual historical acquisition by forecasting system",
+      "published_at_date": "2018-10-17"
+    },
+    {
+      "source_id": "mamot2018_pdf",
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/12/3333/2018/tc-12-3333-2018.pdf",
+      "product_version": "Mamot et al. (2018), final, DOI 10.5194/tc-12-3333-2018",
+      "retrieved_at_utc": "2026-10-24T07:30:23.411875+00:00",
+      "retrieval_time_method": "file write mtime recorded immediately following request; requests Session trust_env=False; no credentials",
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "bytes": 8371754,
+      "sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "actual_read_scope": "All21 pages machine-extracted by pypdf. Actual reading focused printed3337-3339,3341-3348,3350; rendered and actually opened PDF one-based pages5,6,7,10,11,14; formulas Eq4-Eq6 also checked against publisher HTML; not an independent experiment replication",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": "public article date 2018-10-17; publication does not prove actual historical acquisition by forecasting system",
+      "published_at_date": "2018-10-17"
+    },
+    {
+      "source_id": "mamot2018_supplement_zip",
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/12/3333/2018/tc-12-3333-2018-supplement.zip",
+      "product_version": "Mamot et al. (2018) official supplement",
+      "retrieved_at_utc": "2026-10-24T07:32:01.703006+00:00",
+      "retrieval_time_method": "file write mtime recorded immediately following request; requests Session trust_env=False; no credentials",
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.zip",
+      "bytes": 3397215,
+      "sha256": "5fcd735a88654af1f4c150313ee79afb855a0ae67ed9319a851d8e125fa420a0",
+      "actual_read_scope": "ZIP member inventory inspected; actual member Supplement/Supplement_Mamot et al.pdf extracted (10 pages), TableS2 PDFpage10 read/rendered/opened and transcribed; introductory inventory and TableS1 location read. XLSX and DOCX members not opened or fitted",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": "public article date 2018-10-17; publication does not prove actual historical acquisition by forecasting system",
+      "published_at_date": "2018-10-17"
+    },
+    {
+      "source_id": "weber2025_thermal_html",
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/19/6727/2025/",
+      "product_version": "The Cryosphere 19, 6727, 2025, final",
+      "retrieved_at_utc": "2026-10-24T07:32:03.170398+00:00",
+      "retrieval_time_method": "file write mtime recorded immediately following request; requests Session trust_env=False; no credentials",
+      "path": "track_b/research/q2/round3/sources/strength/thermal_diffusivity2025.html",
+      "bytes": 418555,
+      "sha256": "df9810d2001dd37d740c6fafdef05114a216249017a61f8ae49f036b0314458b",
+      "actual_read_scope": "Full publisher HTML captured and plain text extracted; read methods applicability around heat equation, Sect3.3-3.4, Fig6 exclusions, Sect4 limitations and Sect5 conclusions; no source borehole dataset downloaded; no PDF visual review claimed",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": "public article date 2025-12-18; publication does not prove actual historical acquisition by forecasting system",
+      "published_at_date": "2025-12-18"
+    },
+    {
+      "source_id": "benasher2026_water_html",
+      "canonical_url_or_product_id": "https://hess.copernicus.org/articles/30/1735/2026/index.html",
+      "product_version": "Hydrology and Earth System Sciences 30, 1735, 2026, final",
+      "retrieved_at_utc": "2026-10-24T07:32:06.164954+00:00",
+      "retrieval_time_method": "file write mtime recorded immediately following request; requests Session trust_env=False; no credentials",
+      "path": "track_b/research/q2/round3/sources/strength/waterflow2026.html",
+      "bytes": 310716,
+      "sha256": "36d4f5ed16c2ed3ec10d0c70e6b1683a5e43f14f0138ac2191d1b21ee733122f",
+      "actual_read_scope": "Full publisher HTML captured and plain text extracted; read Sect3.5.1-3.5.2 recession/cross-correlation, Sect4.1, Sect4.3, Sect5.1-5.4 and Sect6; identified GST lag discrepancy Results4.1 vs abstract/conclusion; no original flow dataset downloaded; no PDF visual review claimed",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": "public article date 2026-03-31; publication does not prove actual historical acquisition by forecasting system",
+      "published_at_date": "2026-03-31"
+    }
+  ],
+  "failed_requests": [
+    {
+      "url": "https://tc.copernicus.org/articles/12/3333/2018/tc-12-3333-2018-supplement.pdf",
+      "status": 404,
+      "action": "stopped endpoint and read publisher actual ZIP link; response body not used as PDF",
+      "retrieved_at_utc": null,
+      "time_note": "time not separately captured; happened between first PDF acquisition and official ZIP acquisition; never represented as successful data"
+    }
+  ],
+  "reviewed_at_utc": "2026-10-24T07:38:08.011571+00:00",
+  "data_role": "external_transfer; conditional_scenario only for explicit engineering extensions",
+  "license": "Official papers state Creative Commons Attribution4.0; source snapshots retain original files and attribution",
+  "rendered_pages_opened": [
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "pdf_page_one_based": 5,
+      "printed_page": 3337,
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-05.png",
+      "bytes": 392388,
+      "sha256": "c97703559417a8a6171c195d795eeb33aedf6ef6b91b459275dd7a3430a6281f",
+      "review_status": "actually_opened_with_view_image; legible formulas/methods/figure context; external applicability not validated"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "pdf_page_one_based": 6,
+      "printed_page": 3338,
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-06.png",
+      "bytes": 486253,
+      "sha256": "f43becda389491f21f204dbc83f05bb758c6f16b75f444b610781efb4b6102b7",
+      "review_status": "actually_opened_with_view_image; legible formulas/methods/figure context; external applicability not validated"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "pdf_page_one_based": 7,
+      "printed_page": 3339,
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-07.png",
+      "bytes": 320263,
+      "sha256": "85991bf04d4f9729150473323a71c6528cf2186d7dd29af72451c71851de34d5",
+      "review_status": "actually_opened_with_view_image; legible formulas/methods/figure context; external applicability not validated"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "pdf_page_one_based": 10,
+      "printed_page": 3342,
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-10.png",
+      "bytes": 328106,
+      "sha256": "6c58fc825ea4f0aeec83803d530d531feef5a4cb5bdd7ca33ba1876c09b4d776",
+      "review_status": "actually_opened_with_view_image; legible formulas/methods/figure context; external applicability not validated"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "pdf_page_one_based": 11,
+      "printed_page": 3343,
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-11.png",
+      "bytes": 267151,
+      "sha256": "8cb4c83c990bc2523d6205752f18c4d7684f2ca8cc12a0b88e1975fd1d0e1f04",
+      "review_status": "actually_opened_with_view_image; legible formulas/methods/figure context; external applicability not validated"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "pdf_page_one_based": 14,
+      "printed_page": 3346,
+      "path": "track_b/research/q2/round3/sources/strength/mamot_review-14.png",
+      "bytes": 195037,
+      "sha256": "feb98b4cf0d5d697f50b7a00fc8f03e25820dac34a54cd19fbe50674292ad492",
+      "review_status": "actually_opened_with_view_image; legible formulas/methods/figure context; external applicability not validated"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.pdf",
+      "zip_member": "Supplement/Supplement_Mamot et al.pdf",
+      "pdf_page_one_based": 10,
+      "path": "track_b/research/q2/round3/sources/strength/mamot_supp_review-10.png",
+      "bytes": 113675,
+      "sha256": "feca9bb8d9a289028841982fad198b4c74eb4b9a0161dd0e7a2df4d80af1f864",
+      "review_status": "actually_opened_with_view_image; TableS2 transcribed and checked"
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article_extracted.txt",
+      "bytes": 93596,
+      "sha256": "dd8c2b1e71f3a0fe8937280ead7edba5be2a2c01bfaf7cdab52dcbd3801184e0",
+      "role": "locally extracted evidence; immutable source hashes above"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.pdf",
+      "bytes": 999636,
+      "sha256": "4efee06535c2673304d5cb325bc03b0d24dec8f9eb86deedbb7cafe566f96bfe",
+      "role": "locally extracted evidence; immutable source hashes above"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement_extracted.txt",
+      "bytes": 10715,
+      "sha256": "3c8c6f6d09ae4316564e6a26e689f3689264395cec4f6f5a7cb416953c6faad1",
+      "role": "locally extracted evidence; immutable source hashes above"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/thermal_diffusivity2025_extracted.txt",
+      "bytes": 100648,
+      "sha256": "31624aa7182abf46e079fcdf6c851f15396b95fec228059466da83bc60ebebac",
+      "role": "locally extracted evidence; immutable source hashes above"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/waterflow2026_extracted.txt",
+      "bytes": 90906,
+      "sha256": "7cabba2784d9bb5793cf0d0c2ca8242c93efeb9a60dc2031b3a4b57c642cb729",
+      "role": "locally extracted evidence; immutable source hashes above"
+    }
+  ]
+}

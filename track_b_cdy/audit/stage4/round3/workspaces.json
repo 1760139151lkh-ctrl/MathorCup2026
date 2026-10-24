@@ -1,0 +1,164 @@
+{
+  "schema_version": 3,
+  "round": "round3",
+  "date_user_local": "2026-10-24",
+  "parent_thread_id": "01a16bc9-3c57-76a2-996d-eb801a26f735",
+  "parent_title": "赛道B · 主参谋与集成",
+  "repository": "/Users/maxchen/Documents/MathorCup/MathorCup2026",
+  "preparation_commit": "de790034cf302de58e69329dbe288aad269a359c",
+  "common_baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+  "stage": "round3_research_integrated",
+  "workspaces": [
+    {
+      "question": "q1",
+      "thread_id": "01a16c20-9e9f-7a93-b025-2e8a46f905d3",
+      "title": "赛道B · Q1 气象特征与关联因素",
+      "chat_associated_cwd": "/Users/maxchen/Documents/MathorCup",
+      "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+      "worktree_management": "manual_git_worktree_explicit_dispatch_binding",
+      "previous_branch": "codex/track-b-q1-r2",
+      "previous_source_commit": "79f652a5b15a59250d63d4a3bb69fc1b469f20c5",
+      "git_branch": "codex/track-b-q1-r3",
+      "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+      "status": "integrated_research_packet",
+      "dispatch_sent": true,
+      "dispatch_at_utc": "2026-10-24T07:27:07.547238+00:00",
+      "startup_verification": {
+        "passed": true,
+        "sha256": "b3c92ae897a2c6590ddc070d2152a04ce9c556f7d03db6257e2ea195b761299a"
+      },
+      "source_commit": "8583b8164154abc0fa7a3f89f9f38efc780c5f3a",
+      "integration_commit": "a6162b313d21ee9d390eab8e845e77d95df86388",
+      "output_files_verified": 79,
+      "final_output_manifest_sha256": "f9066518e7466d3cfd5cda1b249fe27402ca8c245f27f4933c88a67bc083daab"
+    },
+    {
+      "question": "q2",
+      "thread_id": "01a16c20-e7a7-77b1-86c5-8831d1a6a8a2",
+      "title": "赛道B · Q2 触发条件与评估模型",
+      "chat_associated_cwd": "/Users/maxchen/Documents/MathorCup",
+      "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2",
+      "worktree_management": "manual_git_worktree_explicit_dispatch_binding",
+      "previous_branch": "codex/track-b-q2-r2",
+      "previous_source_commit": "9024b21a1c67607a826007e9e987223364d4834a",
+      "git_branch": "codex/track-b-q2-r3",
+      "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+      "status": "integrated_research_packet",
+      "dispatch_sent": true,
+      "dispatch_at_utc": "2026-10-24T07:27:07.549931+00:00",
+      "startup_verification": {
+        "passed": true,
+        "sha256": "18e24e559343b5258798d8edf0f14bd1685b8c90aea47eb48abca63490229003"
+      },
+      "accepted_cache_roots": [
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial"
+      ],
+      "source_commit": "604ce1be4d0f09cd9d18f3c1556993ddf066981d",
+      "integration_commit": "02a58df00119265e6e29b3d977fa834f93a393f3",
+      "output_files_verified": 220,
+      "final_output_manifest_sha256": "1ad183731b3fe46a554c98a8282af94aeb668526e3256c3c28c4c429592cb097",
+      "increment_manifests": [
+        "track_b/research/q2/round3/lab_strength/input_manifest.json",
+        "track_b/research/q2/round3/lab_strength/output_manifest.json"
+      ],
+      "output_manifest_scope": "immutable original core; external lab increment seal listed separately"
+    },
+    {
+      "question": "q3",
+      "thread_id": "01a16c21-4a06-7653-be46-2f2ffcc0ff2c",
+      "title": "赛道B · Q3 预报与不确定性",
+      "chat_associated_cwd": "/Users/maxchen/Documents/MathorCup",
+      "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3",
+      "worktree_management": "manual_git_worktree_explicit_dispatch_binding",
+      "previous_branch": "codex/track-b-q3-r2",
+      "previous_source_commit": "539df84bec574a27e3288c3dc944a87e692d7f4c",
+      "git_branch": "codex/track-b-q3-r3",
+      "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+      "status": "integrated_research_packet",
+      "dispatch_sent": true,
+      "dispatch_at_utc": "2026-10-24T07:27:07.551750+00:00",
+      "startup_verification": {
+        "passed": true,
+        "sha256": "e4bfc6cad7f3d1018ae52ef850cce69b1cfb6ba27de3c5f43d1b2b82afc8917e"
+      },
+      "accepted_cache_roots": [
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official"
+      ],
+      "source_commit": "f629a332844f07ff0be3275b74f24d7018fbdcac",
+      "integration_commit": "329a4550843fecd2e41562bdc4fd566d2cef13f2",
+      "output_files_verified": 511,
+      "final_output_manifest_sha256": "be979b3449118d8332ca7ff07c52c8c503889650246be8c97ac4d2f8565ee5b9",
+      "increment_manifests": [
+        "track_b/research/q3/round3/results/applicability_sensitivity/INPUT_MANIFEST.json",
+        "track_b/research/q3/round3/results/applicability_sensitivity/OUTPUT_MANIFEST.json",
+        "track_b/research/q3/round3/results/followup_v2/output_manifest.json",
+        "track_b/research/q3/round3/results/followup_v3/input_manifest.json",
+        "track_b/research/q3/round3/results/final_propagation_v4/input_manifest.json",
+        "track_b/research/q3/round3/results/final_propagation_v4/output_manifest.json"
+      ],
+      "output_manifest_scope": "immutable original core; versioned incremental seals listed separately"
+    },
+    {
+      "question": "q4",
+      "thread_id": "01a16c21-82cb-7f80-8b44-204ba9b8cc04",
+      "title": "赛道B · Q4 传播仿真",
+      "chat_associated_cwd": "/Users/maxchen/Documents/MathorCup",
+      "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
+      "worktree_management": "manual_git_worktree_explicit_dispatch_binding",
+      "previous_branch": "codex/track-b-q4-r2",
+      "previous_source_commit": "de826005cdd8dd86d43cc99fea7cf8a16ca4c763",
+      "git_branch": "codex/track-b-q4-r3",
+      "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+      "status": "integrated_research_packet",
+      "dispatch_sent": true,
+      "dispatch_at_utc": "2026-10-24T07:27:07.552954+00:00",
+      "startup_verification": {
+        "passed": true,
+        "sha256": "1d7f61686c48d89ec86fee5f5326daa73325cb28cb6697f59937fc0d533d4c6f"
+      },
+      "source_commit": "6d0562965727f32cb5ab6ae0f665c00b958eb109",
+      "integration_commit": "579d1a8e253b08da3b6050d6ec69220e102d24be",
+      "input_manifest_path": "track_b/research/q4/round3/results/input_manifest.json",
+      "output_manifest_path": "track_b/research/q4/round3/results/output_manifest.json",
+      "output_files_verified": 1191,
+      "final_output_manifest_sha256": "8dd01a5d7388b4c1dd3a5443278a90fb5ecdb036f4efabb8519e361a07cef599",
+      "cache_manifest_path": "track_b/research/q4/round3/results/cache_manifest.json",
+      "cache_manifest_sha256": "8b6e1eec15af1e0dcc285f34847852d621c3f88460f369beb32f32e41c70f097",
+      "cache_files_verified": 33934,
+      "cache_bytes": 8847957733,
+      "metadata_revision": "evaluation-stratum-v1; prior02193169 seal archived, active manifest updated; numerical payload and cache rows unchanged"
+    }
+  ],
+  "cache_root": "/Users/maxchen/Documents/MathorCup/research_cache/round3",
+  "compute": "local_only_full_research",
+  "human_scientific_adoption": "pending",
+  "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+  "baseline_manifest_file_count": 725,
+  "runtime": {
+    "status": "ready",
+    "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+    "image_tag": "mathorcup-r3-solvers:r3-rev7-dclaw1-20261024",
+    "evidence": "track_b/audit/stage4/round3/runtime/advisor_snapshot.json",
+    "cache_root": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime",
+    "derived_resource_fix": {
+      "status": "ready",
+      "image_id": "sha256:3d8d8b4a31a520f64c52c2e8d3e23684181222c40ffd246f2d9e25d5cd511bce",
+      "image_tag": "mathorcup-r3-solvers:r3-resourcefix1-20261024",
+      "evidence": "track_b/audit/stage4/round3/runtime_resourcefix1/advisor_snapshot.json",
+      "scope": "45 final Segment cleanup calls only; all original equations unchanged; csurface=0 common70 ASCII byte identical"
+    }
+  },
+  "completed_at_utc": "2026-10-24T12:19:23.374895+00:00",
+  "final_acceptance": {
+    "research_delivery": "passed",
+    "global_checks": 23,
+    "deliveries": 20,
+    "handoff_checks": 40,
+    "evidence": [
+      "track_b/audit/stage4/round3/integration_checks.json",
+      "track_b/audit/stage4/round3/handoff_checks.json"
+    ],
+    "scientific_scope": "Research delivery and reproducibility accepted; local predictive qualification and human adoption remain separate."
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "background_parameter_domain_not_confirmed_failure_polygon",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "available_time": null,
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "data_role": "exploration",
+  "input_version": {
+    "baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+    "baseline_manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+    "diagnostic_config_sha256": "564572d86b30a0dd112e8a9e343c7112bf6894c147c3ea28164b6ca0f1ef9dd0"
+  },
+  "evidence_status": "local_fact",
+  "space_object": {
+    "id": "NC_parameter_domain",
+    "crs": "EPSG:32645",
+    "source_geometry_verified": false
+  },
+  "variable_semantics": "see per-row metadata; finite does not imply physical or event validity",
+  "generated_at_utc": "2026-10-24T04:36:49.796173+00:00",
+  "passed": true,
+  "scientific_model_acceptance": "not_evaluated; velocity identity discrepancy remains unresolved",
+  "scope": "numerical support, metadata compatibility and parameter identifiability only",
+  "nc": {
+    "path": "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+    "dimensions": {
+      "y": 138,
+      "x": 145
+    },
+    "positive_mask_cells": 7152,
+    "cell_area_m2": 900.0,
+    "parameter_domain_area_km2": 6.4368,
+    "global_attributes": {
+      "Conventions": "CF-1.8",
+      "title": "Glacier topographic and dynamic drivers",
+      "source": "dem_30m.tif, slope_30m.tif, thickness_30m.tif",
+      "velocity_source": "ITS_LIVE v2.1",
+      "velocity_resampling": "bilinear to the 30 m reference grid",
+      "ice_thickness_source": "https://www.research-collection.ethz.ch/entities/researchdata/23bc92d0-aa11-48b8-b6ca-69c5dcf0de6b",
+      "author": "zhaohongyu (zhaohongyu@swpu.edu.cn); zhang tong (tzhang@bnu.edu.cn)"
+    },
+    "time_dimension_present": false
+  },
+  "velocity_arithmetic_consistency": {
+    "max_abs_residual_m_per_year": 0.4946554486149263,
+    "median_abs_residual_m_per_year": 0.024470053252602875,
+    "p95_abs_residual_m_per_year": 0.16701166226455771,
+    "cells_abs_residual_above_1e_minus_4_m_per_year": 7142,
+    "diagnostic_comparison_tolerance_m_per_year": 0.0001,
+    "tolerance_role": "arithmetic discrepancy screen, not physical or trigger threshold",
+    "calculation_dtype": "float64 using stored float32 values",
+    "stored_identity_confirmed_within_tolerance": false,
+    "status": "discrepancy_requires_product_processing_review",
+    "candidate_explanation_not_verified": "Nonlinear magnitude calculation and interpolation may not commute; provenance must determine processing order.",
+    "meaning": "no data correction; no event-time acceleration information"
+  },
+  "dem_comparison": {
+    "definition": "independent DEM minus NC DEM, positive NC mask; not terrain change",
+    "cells": 7152,
+    "min_m": -80.49267578125,
+    "max_m": 109.373046875,
+    "mean_m": -30.74067497253418,
+    "median_m": -31.161865234375,
+    "vertical_reference_and_dates_reconciled": false
+  },
+  "worldcover_background": {
+    "source_year": 2021,
+    "resampling": "nearest; background only",
+    "positive_mask_cells": 7152,
+    "valid_background_cells": 7152,
+    "class_counts": {
+      "30": 1,
+      "60": 706,
+      "70": 6260,
+      "80": 161,
+      "100": 24
+    },
+    "event_time_state_or_failure_geometry_verified": false
+  },
+  "remote_catalogue_count": 41,
+  "s1_pair_screen": {
+    "nearest_pre": "S1D_IW_GRDH_1SDV_20260824T001844_20260824T001909_004260_007D5D_45FC_COG",
+    "nearest_post": "S1D_IW_GRDH_1SDV_20260828T122141_20260828T122206_004326_007FA4_C73B_COG",
+    "nearest_pair_metadata_compatible": false,
+    "compatible_candidate_count": 3,
+    "pairs": [
+      {
+        "platform": "sentinel-1d",
+        "orbit_state": "ascending",
+        "relative_orbit": 85,
+        "polarizations": [
+          "VV",
+          "VH"
+        ],
+        "pre_scene": "S1D_IW_GRDH_1SDV_20260816T122141_20260816T122206_004151_007980_B091_COG",
+        "pre_time_utc": "2026-08-16T12:21:41.058298+00:00",
+        "post_scene": "S1D_IW_GRDH_1SDV_20260828T122141_20260828T122206_004326_007FA4_C73B_COG",
+        "post_time_utc": "2026-08-28T12:21:41.762029+00:00",
+        "gap_days": 12.000008145034721,
+        "metadata_compatible": true,
+        "co_registration_verified": false,
+        "pixels_obtained": false,
+        "product": "GRD; no interferometric phase",
+        "data_role": "exploration"
+      },
+      {
+        "platform": "sentinel-1d",
+        "orbit_state": "descending",
+        "relative_orbit": 19,
+        "polarizations": [
+          "VV",
+          "VH"
+        ],
+        "pre_scene": "S1D_IW_GRDH_1SDV_20260824T001844_20260824T001909_004260_007D5D_45FC_COG",
+        "pre_time_utc": "2026-08-24T00:18:44.555468+00:00",
+        "post_scene": "S1D_IW_GRDH_1SDV_20260905T001844_20260905T001909_004435_00837B_60FD_COG",
+        "post_time_utc": "2026-09-05T00:18:44.831563+00:00",
+        "gap_days": 12.00000319554398,
+        "metadata_compatible": true,
+        "co_registration_verified": false,
+        "pixels_obtained": false,
+        "product": "GRD; no interferometric phase",
+        "data_role": "exploration"
+      },
+      {
+        "platform": "sentinel-1d",
+        "orbit_state": "descending",
+        "relative_orbit": 121,
+        "polarizations": [
+          "VV",
+          "VH"
+        ],
+        "pre_scene": "S1D_IW_GRDH_1SDV_20260819T001036_20260819T001101_004187_007ABD_B38C_COG",
+        "pre_time_utc": "2026-08-19T00:10:36.889384+00:00",
+        "post_scene": "S1D_IW_GRDH_1SDV_20260831T001037_20260831T001102_004362_0080EC_65B9_COG",
+        "post_time_utc": "2026-08-31T00:10:37.647071+00:00",
+        "gap_days": 12.000008769525463,
+        "metadata_compatible": true,
+        "co_registration_verified": false,
+        "pixels_obtained": false,
+        "product": "GRD; no interferometric phase",
+        "data_role": "exploration"
+      }
+    ],
+    "scope": "metadata screening, not accepted change-detection pairs or image interpretation"
+  },
+  "scale_support": {
+    "station_to_nc_parameter_domain_mean_centre_distance_km": 67.7672337737459,
+    "station_metadata_status": "external mirror assertion; local-file equivalence pending",
+    "distance_to_verified_failure_source_km": null,
+    "meaning": "representativeness diagnostic using a parameter-domain reference, not a source-location estimate",
+    "forecast_grid_shape": {
+      "latitude": 5,
+      "longitude": 5
+    },
+    "forecast_grid_spacing_degrees": {
+      "longitude": 0.25,
+      "latitude": 0.25
+    },
+    "historical_forecast_available_time": null
+  },
+  "label_support": {
+    "evidence_rows": 9,
+    "event_groups": 1,
+    "approved_independent_groups": 0,
+    "meaning": "row count is not independent-event count"
+  },
+  "parameter_evidence_rows": 26,
+  "checks": [
+    {
+      "name": "nine_parameter_fields_full_numeric_support_on_parameter_mask",
+      "passed": true
+    },
+    {
+      "name": "all_41_catalogue_scenes_screened_without_pixel_acceptance",
+      "passed": true
+    },
+    {
+      "name": "background_worldcover_read_and_aligned",
+      "passed": true
+    },
+    {
+      "name": "three_fixed_pre_reference_support_windows",
+      "passed": true
+    },
+    {
+      "name": "no_independent_approved_label_inflation",
+      "passed": true
+    },
+    {
+      "name": "no_event_parameter_or_threshold_estimated",
+      "passed": true
+    }
+  ],
+  "uncertainty_not_resolved": [
+    "source geometry",
+    "vertical datum and terrain epoch",
+    "structural and hydraulic state",
+    "forecast publication latency",
+    "actual 2026 pixel visibility",
+    "independent labels and controls"
+  ]
+}

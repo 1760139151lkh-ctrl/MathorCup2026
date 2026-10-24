@@ -1,0 +1,138 @@
+{
+  "generated_at_utc": "2026-10-24T04:40:42.412081+00:00",
+  "baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+  "file_count": 25,
+  "files": [
+    {
+      "path": "track_b/research/q2/METHOD_OPTIONS.md",
+      "bytes": 5841,
+      "sha256": "96b855cd82b464a416babd9d4e13112c0ce7a246bff067ab3a45077f809a4f46"
+    },
+    {
+      "path": "track_b/research/q2/PROPOSALS.md",
+      "bytes": 4315,
+      "sha256": "41dee7bef8034083b15f2fb25b56c5020fa9de0a0890fc16f7b03eda252f543c"
+    },
+    {
+      "path": "track_b/research/q2/TASK.md",
+      "bytes": 9302,
+      "sha256": "c9b94999a4624e97effec8947047900d4bff22f01ad2e84be4a32b87fe236df6"
+    },
+    {
+      "path": "track_b/research/q2/config/diagnostic.json",
+      "bytes": 1356,
+      "sha256": "564572d86b30a0dd112e8a9e343c7112bf6894c147c3ea28164b6ca0f1ef9dd0"
+    },
+    {
+      "path": "track_b/research/q2/environment_setup.log",
+      "bytes": 12861,
+      "sha256": "735249d39c904f9b8ebef92839e8579eb6f342b5207d1b362c7837bbf93717c1"
+    },
+    {
+      "path": "track_b/research/q2/results/INDEPENDENT_REVIEW.md",
+      "bytes": 1417,
+      "sha256": "998e0c9594d3e763323f0ff299c0d56ad7a64919c1b9fe51c06cdcec57535194"
+    },
+    {
+      "path": "track_b/research/q2/results/input_check.json",
+      "bytes": 7836,
+      "sha256": "6c4995ce63ee71cc812923c63d81510443f0b3ef1b708e9b5af3f8cbd3bc8e0d"
+    },
+    {
+      "path": "track_b/research/q2/results/input_manifest.json",
+      "bytes": 3795,
+      "sha256": "927ad01371f6ce79db3ab1cdceddf5d30bdd0f97525e42faab232b639636ee38"
+    },
+    {
+      "path": "track_b/research/q2/results/nc_parameter_support.csv",
+      "bytes": 3191,
+      "sha256": "cfbe29dbf4131af73d3956180aa9544027ad05eb28e48d2899c234f8bbdef678"
+    },
+    {
+      "path": "track_b/research/q2/results/parameter_evidence.csv",
+      "bytes": 26285,
+      "sha256": "4a6fc9a411e378756d5da8d4dcfeab33c71b57d3de329c3e5ad34e0c93448ee0"
+    },
+    {
+      "path": "track_b/research/q2/results/remote_feasibility.csv",
+      "bytes": 46441,
+      "sha256": "fdd418e8a8ba773fd76e9d5ddabf3852dafb01b19153ed545a02bdd30b2f775b"
+    },
+    {
+      "path": "track_b/research/q2/results/reproducibility.json",
+      "bytes": 1425,
+      "sha256": "155f1efb7aadfb7571638c6576fc1ccef89af1b7a617b4d251d4b20deb597692"
+    },
+    {
+      "path": "track_b/research/q2/results/s1_pair_screen.json",
+      "bytes": 2493,
+      "sha256": "7310ba03cf9d56dca2452ab5ec026920c01183a0942fa067b301d8cdc430337e"
+    },
+    {
+      "path": "track_b/research/q2/results/window_support.csv",
+      "bytes": 7270,
+      "sha256": "4cbf3313a8cbcebc0ebca34ea7575b3f1d27daed42c2fbf026433545e3f812a0"
+    },
+    {
+      "path": "track_b/research/q2/scripts/diagnose_inputs.py",
+      "bytes": 25232,
+      "sha256": "0d4dcac13d2e6d318d19ace95ae0b686e0b296b8c0751eed945d956a3a0bd878"
+    },
+    {
+      "path": "track_b/research/q2/sources/MECHANISM_EVIDENCE.md",
+      "bytes": 4043,
+      "sha256": "66a8db12e8c274e2d580c2af53e9520ae71450f11acae041026f0fe628ff2ae6"
+    },
+    {
+      "path": "track_b/research/q2/sources/jms_abstract.html",
+      "bytes": 209068,
+      "sha256": "6cf316f8d40fee7d48ab40f9a62699a867cf632ef5ca17bcfe56a5df7ca04b41"
+    },
+    {
+      "path": "track_b/research/q2/sources/mechanism_reading.json",
+      "bytes": 2664,
+      "sha256": "3f26027dd096deb168c2665dc2517fb7cbbd0e3346baaae7dd3ac432f488f48b"
+    },
+    {
+      "path": "track_b/research/q2/sources/official_product_reading.json",
+      "bytes": 2393,
+      "sha256": "31c5b0b3b673c6d5bd69e851fe1770d1e35cf722719a64d1e91dd01ca9e7b008"
+    },
+    {
+      "path": "track_b/research/q2/sources/sentinel1_grd_processing.html",
+      "bytes": 214223,
+      "sha256": "d952e9cf0c5440d4eab043b8f8ed6f9d9c6f447c8c01352f3bd30490e8257a2e"
+    },
+    {
+      "path": "track_b/research/q2/sources/sentinel1_product_types.html",
+      "bytes": 243401,
+      "sha256": "634fa6efe68e58f56664e0fa01b3df46a95892e7c775e3facbe1361a0df00b4d"
+    },
+    {
+      "path": "track_b/research/q2/sources/worldcover_data_access.html",
+      "bytes": 49887,
+      "sha256": "71dccb4c949d489a903865f97ff3bddab75dbefad7f1c277acd1ba94967ed0e8"
+    },
+    {
+      "path": "track_b/research/q2/sources/yin_abstract.html",
+      "bytes": 309894,
+      "sha256": "7e7312b13c0c7acd39d68810fdbe78863ea8c836837d38aaac34a5f5879da56c"
+    },
+    {
+      "path": "track_b/research/q2/workspace_binding.json",
+      "bytes": 661,
+      "sha256": "ccfe9f015376df3c8958b65182f6bcad41ac4894dfbfb43450b7a0adaafb333c"
+    },
+    {
+      "path": "track_b/research/q2/workspace_verification.json",
+      "bytes": 3269,
+      "sha256": "010d323672ec1c626dff578395e3bf0cf996a236d6a2a9019c0f56294484162f"
+    }
+  ],
+  "excluded": [
+    "HANDOFF.md (Git commit binds this text; avoids circular reference)",
+    "results/output_manifest.json (self-reference)",
+    "__pycache__ (runtime cache)"
+  ],
+  "scope": "Exact bytes of this local delivery; execution timestamps may change on replay"
+}

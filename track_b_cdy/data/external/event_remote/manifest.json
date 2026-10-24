@@ -1,0 +1,165 @@
+{
+  "generated_at_utc": "2026-10-24T03:44:56.605251+00:00",
+  "files": [
+    {
+      "path": "asset_access_tests.json",
+      "bytes": 966,
+      "sha256": "ec91cf328c69ed0f538c3949c67a96d8028d7073aee3b424ac740468e00ad066"
+    },
+    {
+      "path": "event_evidence_ledger.json",
+      "bytes": 14194,
+      "sha256": "7027df1460fbbdc536c626ceb4cd2b715626cf2ecac6e9bca1717a817970956a"
+    },
+    {
+      "path": "historical_candidates.json",
+      "bytes": 140113,
+      "sha256": "d55e68cbcd423a3a059c4659b219675ed2ed3c8fa538de25d630647addceb737"
+    },
+    {
+      "path": "jms_2026_uncorrected_proof.pdf",
+      "bytes": 924233,
+      "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0"
+    },
+    {
+      "path": "pdf_preview/jms-06.png",
+      "bytes": 1265779,
+      "sha256": "2e504a0068a37c0c3f18f89596956d295ca64d34d341a4c44ad5ed07a01251de"
+    },
+    {
+      "path": "pdf_preview/jms-08.png",
+      "bytes": 866068,
+      "sha256": "ea9a79807783804cb8e94cfa72800bcfa59c31eaf590376388822acfd1b70c40"
+    },
+    {
+      "path": "runs/20261024T034202Z/http_requests.json",
+      "bytes": 19178,
+      "sha256": "9a97fb331dfe398e70566f0229513bf27a915d46da9bd90bbf084bb6ff214ddc"
+    },
+    {
+      "path": "runs/20261024T034202Z/paper_reading.json",
+      "bytes": 2154,
+      "sha256": "bd449fcdb0d4866eac16588c4be9eec8e10cd596049c9f10694a1949c7b025df"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/CDSE_Sentinel1_GRD.json",
+      "bytes": 167066,
+      "sha256": "7a8296f16b78b73b2ed0d0598a6844b6f6f0a51414a4a5ebe4c32b4509fc37fc"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/CDSE_Sentinel2_L2A.json",
+      "bytes": 1497676,
+      "sha256": "6c4d20bc00b5e427a2cd135aadb35e02854812e3b7f92124d3a825411ff5d861"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/USGS_Landsat_C2_L2_SR.json",
+      "bytes": 238530,
+      "sha256": "80b14ff015fffbc2d162b30bc57858cab0de26f0e1ffe38bede1ce74af234254"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/USGS_Landsat_C2_L2_SR_page_02.json",
+      "bytes": 181,
+      "sha256": "879d19d03b51be8a14c32e4ff712072ff07b51d9eef6a21e1d495f30a6621c23"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/cdse_anonymous_asset_probe.bin",
+      "bytes": 96,
+      "sha256": "b2f4dc82a250ea228e905eb40cc7302ca89d827cf194b46f4efcaa362cc144c0"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/chinese_primary_article.html",
+      "bytes": 309894,
+      "sha256": "7e7312b13c0c7acd39d68810fdbe78863ea8c836837d38aaac34a5f5879da56c"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/jms_article.html",
+      "bytes": 209068,
+      "sha256": "6cf316f8d40fee7d48ab40f9a62699a867cf632ef5ca17bcfe56a5df7ca04b41"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/jms_uncorrected_proof.pdf",
+      "bytes": 924233,
+      "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/landsat_anonymous_thumbnail_probe.bin",
+      "bytes": 35532,
+      "sha256": "af285cc289242e0fe2ecc677286f51e9fc218136c55809dd0fb7c5127956bd93"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/nasa_COOLR_Reports_Points.json",
+      "bytes": 71679,
+      "sha256": "207de958300fac7f8d42ec55aa39d6509a4e7837f14536172450697b6750ad55"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/nasa_COOLR_Reports_Polygons.json",
+      "bytes": 5828,
+      "sha256": "9bab6b1fbf0186018d0b308f921d7e683f4141da41fa5d803977aa7ea75d63ba"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/usgs_event.json",
+      "bytes": 16261,
+      "sha256": "01933b8af6a2cd0cf792ed488927034378c10c9ce4ca718ec48c9839b8f378bc"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/usgs_origin_quakeml.xml",
+      "bytes": 3612,
+      "sha256": "d4e3b96594474387c114b3af23a61f854b64d5b7a53abcf912efdd57a1a832a9"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/worldcover_block_0701.bin",
+      "bytes": 76866,
+      "sha256": "825db192f909e3086316c1543f70b519f83cee06d5bdc074e3b1b76bb99201a4"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/worldcover_block_0702.bin",
+      "bytes": 78022,
+      "sha256": "ab34844ef9049172d9953e3cca5d398f27e96210475914c33f0a7c9db72559df"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/worldcover_block_0737.bin",
+      "bytes": 71625,
+      "sha256": "9bed36be0e8b1e1a75bef64f75131ce151ae7b2a4115248b823ac1f9fba12295"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/worldcover_block_0738.bin",
+      "bytes": 66496,
+      "sha256": "5e9be55db2f3ba5a46275eb61fe3f13bf8f0d04e7ed1aeadb628c41e3dccf288"
+    },
+    {
+      "path": "runs/20261024T034202Z/raw/worldcover_tiff_header.bin",
+      "bytes": 65536,
+      "sha256": "22d250f8faeaf9755ac0cd26d4fa912bc7db65206adffd678964d639a5ce7831"
+    },
+    {
+      "path": "scene_candidates.csv",
+      "bytes": 3423,
+      "sha256": "fbe155f19b8dc7054dc0ee998539d1e59e3c4ac71fc28133bf599e626baa9b98"
+    },
+    {
+      "path": "scene_inventory.json",
+      "bytes": 1408249,
+      "sha256": "94b3a2c3e266c7fcc4717254db48d417215ee68421b54d84a7cc7d51d9fc92d3"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1841,
+      "sha256": "f3a49e55eee0144fe2aeb8c16a79f9abd1fffb64bdc929d654b65b14868f3a27"
+    },
+    {
+      "path": "supplemental_original_source.json",
+      "bytes": 2875,
+      "sha256": "2fd554be53594c2d6a03c35726f8144c3e1d272aac9d7f43c28d2249a81fe1b2"
+    },
+    {
+      "path": "worldcover_2021_v200_test_aoi.tif",
+      "bytes": 20662,
+      "sha256": "77b7f73e68f9f0940c322610de343d6748360120616b5de67554e40277ea40e4"
+    },
+    {
+      "path": "worldcover_crop_summary.json",
+      "bytes": 2329,
+      "sha256": "afb0dea9745a903c2290596c0f848da6139b833f95a2d2d7e418a46144e80733"
+    }
+  ]
+}

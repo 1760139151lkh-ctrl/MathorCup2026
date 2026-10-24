@@ -1,0 +1,144 @@
+{
+  "policy": "仅登记正文实际引用来源；阅读范围按实际HTML/摘要/原文或元数据区别。",
+  "references": [
+    {
+      "key": "q3-mamot2018",
+      "authors": [
+        "Mamot, P.",
+        "Weber, S.",
+        "Schröder, T.",
+        "Krautblatter, M."
+      ],
+      "title": "A temperature- and stress-controlled failure criterion for ice-filled permafrost rock joints",
+      "journal": "The Cryosphere",
+      "year": 2018,
+      "volume": 12,
+      "pages": "3333–3353",
+      "doi": "10.5194/tc-12-3333-2018",
+      "url": "https://tc.copernicus.org/articles/12/3333/2018/",
+      "accessed_on": "2026-10-24",
+      "actual_read_scope_cn": "本次官方网页：文献信息、摘要域声明、Sec3.3中Eq4/5/6及100–400kPa筛选说明、Sec3.4的全试验域区别；未在本任务重新分析补充试验表。",
+      "supports": [
+        "温度相关c、mu的函数形式与拟合适用域",
+        "区别全试验100–800kPa与所用拟合100–400kPa"
+      ]
+    },
+    {
+      "key": "q3-noaa-gfs-products",
+      "authors": [
+        "NOAA/NCEP/NCO"
+      ],
+      "title": "NCEP Data Products: GFS and GDAS",
+      "year": null,
+      "doi": null,
+      "url": "https://www.nco.ncep.noaa.gov/pmb/products/gfs/",
+      "accessed_on": "2026-10-24",
+      "actual_read_scope_cn": "官方产品目录中0.25度GRIB2文件命名、CC起报周期、FFF预报时效说明；具体历史文件字节与累计区间以本研究冻结来源登记为准。",
+      "supports": [
+        "GFS产品命名和起报/预报小时对象"
+      ]
+    },
+    {
+      "key": "q3-fukuzono1985",
+      "authors": [
+        "Teruki Fukuzono"
+      ],
+      "year": 1985,
+      "title": "A Method to Predict the Time of Slope Failure Caused by Rainfall Using the Inverse Number of Velocity of Surface Displacement",
+      "journal": "Landslides (Japan Landslide Society; Japanese article)",
+      "volume": "22",
+      "issue": "2",
+      "pages_publisher_literal": "8-13_1",
+      "pages_for_standard_citation": "8–13",
+      "doi": "10.3313/jls1964.22.2_8",
+      "url": "https://www.jstage.jst.go.jp/article/jls1964/22/2/22_2_8/_article/-char/en",
+      "read_scope": "Publisher HTML bibliographic record and full English abstract, including acceleration–velocity relation, alpha=2 straight inverse-velocity line and zero-time interpretation. Japanese article body not claimed read. Publisher PDF request timed out in web; in-memory urllib obtained bytes but text extraction unavailable, so not used as full-text evidence.",
+      "supports": "Original alpha2 inverse velocity foundation. This DOI belongs to the Japanese journal article, not the separate similarly named 1985 conference proceeding.",
+      "adoption": "Cite the original journal article for the relation, then identify our OLS/SS/probability construction as this study implementation."
+    },
+    {
+      "key": "q3-kalman1960",
+      "authors": [
+        "R. E. Kalman"
+      ],
+      "year": 1960,
+      "title": "A New Approach to Linear Filtering and Prediction Problems",
+      "journal": "Journal of Basic Engineering",
+      "volume": "82",
+      "issue": "1",
+      "pages": "35–45",
+      "doi": "10.1115/1.3662552",
+      "url": "https://doi.org/10.1115/1.3662552",
+      "read_scope": "Publisher-deposited Crossref bibliographic metadata; ASME article/PDF requests returned403. No full-text reading claim. Recursions above audited from actual local source and are our explicit linear-Gaussian implementation.",
+      "bibliographic_verification": {
+        "url": "https://api.crossref.org/works/10.1115/1.3662552",
+        "bytes": 3291,
+        "sha256": "747b0ceb434d0a0022206b9302099a4221e7e2a1a577ea0c2a89e4c6e6ed2b55"
+      },
+      "supports": "Foundational Kalman filtering citation. Does not credit this original paper with our inverse-velocity state choice, noise estimate, fixed window or failure-time Monte Carlo."
+    },
+    {
+      "key": "q3-friedman1982",
+      "authors": "Michael Friedman",
+      "year": 1982,
+      "title": "Piecewise Exponential Models for Survival Data with Covariates",
+      "publication": "The Annals of Statistics 10(1):101–113",
+      "doi": "10.1214/aos/1176345693",
+      "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-10/issue-1/Piecewise-Exponential-Models-for-Survival-Data-with-Covariates/10.1214/aos/1176345693.full",
+      "read_url": "https://www.ms.uky.edu/~mai/sta635/piecewise%20Exp.pdf",
+      "source_type": "original research article; university-hosted original PDF",
+      "verified_scope": "Original abstract/citation verifies positive interval-constant hazard and covariate log-hazard model. Current nonlinear basis and penalty are our code specification, not attributed to this article.",
+      "access_date": "2026-10-24"
+    },
+    {
+      "key": "q3-angelopoulos2021",
+      "authors": "Anastasios N. Angelopoulos; Stephen Bates",
+      "year": 2021,
+      "version": "arXiv2107.07511v6, revised2022-12-07",
+      "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification",
+      "doi": "10.48550/arXiv.2107.07511",
+      "url": "https://arxiv.org/abs/2107.07511",
+      "read_url": "https://arxiv.org/html/2107.07511v6",
+      "source_type": "authors original research/tutorial paper",
+      "verified_scope": "Section1.1 reserves fresh calibration data; AppendixD.1 uses ceil((n+1)(1-alpha)) and explicitly sets qhat=infinity when alpha<1/(n+1); exchangeability condition stated.",
+      "access_date": "2026-10-24"
+    },
+    {
+      "key": "q3-leinauer2023",
+      "authors": "Johannes Leinauer; Samuel Weber; Alessandro Cicoira; Jan Beutel; Michael Krautblatter",
+      "year": 2023,
+      "title": "An approach for prospective forecasting of rock slope failure time",
+      "publication": "Communications Earth & Environment4:253",
+      "doi": "10.1038/s43247-023-00909-z",
+      "url": "https://www.nature.com/articles/s43247-023-00909-z",
+      "official_author_metadata_url": "https://www.cee.ed.tum.de/en/landslides/news-detail/?cHash=b19d53577d57f7889082ea2edf9ff17b&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=3223",
+      "source_type": "original research article and authors institutional metadata",
+      "verified_scope": "Original collection described as46 displacement datasets from14 historic slope failures; it is not46 independent failure events. Current C subset/selection/censor are defined by our canonical files.",
+      "access_date": "2026-10-24"
+    },
+    {
+      "key": "q3-loewdata2024",
+      "authors": "Simon Loew",
+      "year": 2024,
+      "title": "Monitoring Data from the Insel Compartment at Brienz/Brinzauls Switzerland",
+      "doi": "10.3929/ethz-b-000670494",
+      "url": "https://www.research-collection.ethz.ch/entities/researchdata/71f80c84-731a-4486-a529-47f3ef0b37dd",
+      "source_type": "official ETH research-data record",
+      "verified_scope": "Official indexed record identifies TPS displacement/velocity data2012–2023 and Insel failure15June2023; source UTC/local alignment still follows our frozen registry.",
+      "live_access_note": "Official indexed record read; direct entity fetch403.",
+      "access_date": "2026-10-24"
+    },
+    {
+      "key": "q3-schild2026",
+      "authors": "Lukas Schild; Thomas Scheiber; Paula Snook; Alexander Maschler; Reza Arghandeh",
+      "year": 2026,
+      "title": "Exposing the potential of XAI-based causal discovery for analysing unstable rock slopes",
+      "publication": "Scientific Reports16:18935",
+      "doi": "10.1038/s41598-026-48268-x",
+      "url": "https://www.nature.com/articles/s41598-026-48268-x",
+      "source_type": "original research article",
+      "verified_scope": "Stampa rock section4a collapsed in a two-stage event inJuly2023; article monitoring period2020–2022 precedes collapse. Block4a and Base are components of the same instability, not independent cases. Raw CSV725 dates and selected censor endpoint are checked in frozen C audit.",
+      "access_date": "2026-10-24"
+    }
+  ]
+}

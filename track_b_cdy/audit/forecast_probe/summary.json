@@ -1,0 +1,39 @@
+{
+  "retrieved_at_utc": "2026-10-24T03:13:28.977635+00:00",
+  "index_url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20260825/18/atmos/gfs.t18z.pgrb2.0p25.f009.idx",
+  "data_url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20260825/18/atmos/gfs.t18z.pgrb2.0p25.f009",
+  "provider_registry": "https://registry.opendata.aws/noaa-gfs-bdp-pds/",
+  "archive_listing": "https://gdex.ucar.edu/datasets/d084001/filelist/20260825/",
+  "reference_time_utc": "2026-08-25T18:00:00+00:00",
+  "lead_hours": 9,
+  "valid_time_utc": "2026-08-26T03:00:00+00:00",
+  "data_decoded": false,
+  "regional_data_extracted": false,
+  "actual_operational_available_time": null,
+  "limitations": [
+    "One object/index success does not establish archive completeness.",
+    "Current access does not establish when this forecast was operationally available in August.",
+    "No weather forecast skill, local accuracy, or event forecast is assessed.",
+    "The valid time is after the catalog event onset; forecast reference time is earlier."
+  ],
+  "index_http_status": 200,
+  "index_bytes": 40473,
+  "index_sha256": "1084fb07c3ec70234a763de9c43ede3b23b8f27447866fc7b34283d8f2559081",
+  "index_records": 743,
+  "index_file": "20260825_gfs.t18z.pgrb2.0p25.f009.idx",
+  "selected_variable_index_records": [
+    "581:423354063:d=2026082518:TMP:2 m above ground:9 hour fcst:",
+    "584:425625586:d=2026082518:RH:2 m above ground:9 hour fcst:",
+    "588:427974461:d=2026082518:UGRD:10 m above ground:9 hour fcst:",
+    "589:428947526:d=2026082518:VGRD:10 m above ground:9 hour fcst:",
+    "596:433104739:d=2026082518:APCP:surface:6-9 hour acc fcst:",
+    "597:433413970:d=2026082518:APCP:surface:0-9 hour acc fcst:"
+  ],
+  "header_http_status": 206,
+  "content_range": "bytes 0-15/544955433",
+  "etag": "\"854b49133eff0621b43f59c19b3e1c66\"",
+  "grib_header_hex": "475249420000000200000000000f3430",
+  "grib_signature_valid": true,
+  "first_message_bytes": 996400,
+  "success": true
+}

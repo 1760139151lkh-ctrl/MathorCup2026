@@ -1,0 +1,1169 @@
+{
+  "schema_version": "q4-r3-input-manifest-v1",
+  "generated_at_utc": "2026-10-24T12:02:31.762183+00:00",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+    "frozen_file_count": 725
+  },
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "bulk_release_propagation_and_target_arrival",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "primary_geometry_version": "q4-r3-spatial-copdem-v1",
+    "position_uncertainty_m": null,
+    "event_truth_accepted": false
+  },
+  "variable_semantics": {
+    "units": "m, m/s, seconds after bulk release, m3, kg; model-specific definitions retained",
+    "forecast_role": "not a forecast of mechanical initiation"
+  },
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "available_time": null,
+  "data_role": "scenario",
+  "evidence_status": "candidate",
+  "evaluation_stratum": [
+    "conditional_scenario",
+    "numerical_benchmark"
+  ],
+  "evaluation_stratum_note": "local products/external_transfer/numerical_benchmark individually labelled; row/source roles remain authoritative",
+  "initiation_to_release_delay_seconds": null,
+  "human_scientific_adoption": "pending_team_review",
+  "files": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/domain_extension_v1/dem_120m.tif",
+      "bytes": 267673,
+      "sha256": "4cae4537a6a5991938247082731f958c05008cc07a55141cae8e608f50e313b1",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/domain_extension_v1/release_h15_120m.tif",
+      "bytes": 2036,
+      "sha256": "640c682dfd9e9004383ca96a783b597198a80311dafc1ed1f54471b698a83eaf",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/q4-r3-q2-mapped-release-v1/q2r3_p0000_S_linear_release_60m.tif",
+      "bytes": 1417,
+      "sha256": "df57a83dda2844eb8b8cfe2f718b7d4781dc7e255f72fbdbf01b58bd014d94eb",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/q4-r3-q2-mapped-release-v1/q2r3_p0036_S_T_linear_release_60m.tif",
+      "bytes": 1455,
+      "sha256": "37973f5dc5b60eb96133b314d9b88776913c5004b994cb4bf74db8415e3a19c9",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/q4-r3-q2-mapped-release-v1/q2r3_p0072_S_H_linear_release_60m.tif",
+      "bytes": 1530,
+      "sha256": "3e138cd6097579f40b7b17097417aae9f553a6544bca1aa6310c637d3effbd14",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/q4-r3-q2-mapped-release-v1/q2r3_p0255_S_T_H_linear_release_60m.tif",
+      "bytes": 1456,
+      "sha256": "0a720e8a5593339b266922f99a066b36438c64c9fb0efdd7d0beedb1fe82636b",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/bowlrest/dem.tif",
+      "bytes": 5178,
+      "sha256": "984caeb66d8c81f15fbe9b1fbe59d85bf6c2e5406ae4c68d0e66dc0e83951937",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/bowlrest/release.tif",
+      "bytes": 5178,
+      "sha256": "2ea41ac80cc4380e40bc6cb8ad8c62eaef4e8f08aca915792b23bc31f6fa8ced",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/dem.tif",
+      "bytes": 39968,
+      "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/release_136m.tif",
+      "bytes": 674,
+      "sha256": "0f678b66e68b3331e862c7d0b182541efc05cff709e5d57f8c98e28ff9bb9b8f",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/release_15m.tif",
+      "bytes": 676,
+      "sha256": "64efb8011842e3d431e3f9fe75b65d073e9c0af3fc7b5028e886e07e61d7c9a2",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/release_30m.tif",
+      "bytes": 676,
+      "sha256": "3559285e0cb924403680a6b54bf9e75c4426f2bc0d89b3cd235be9bf359cf29b",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/release_5m.tif",
+      "bytes": 675,
+      "sha256": "44a84b999eba8df519b0d790a9abf2cf969849e01d4a9b46cdf1283851aba2b0",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/release_136m.tif",
+      "bytes": 1447,
+      "sha256": "7c4bd19d2abcd8114dec7a68f409af4036df7054f12d26bde3a14c4749b9ff4b",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/release_15m.tif",
+      "bytes": 1447,
+      "sha256": "5bc9f95ca38aa46f018fa40f804ef063eb7835a65e408d578a6881c8ced61890",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/release_30m.tif",
+      "bytes": 1449,
+      "sha256": "02a225c1aa68b0501a1e6cfaebd0c983ed8f923e141105798f11e4ee83ad629a",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/release_5m.tif",
+      "bytes": 1444,
+      "sha256": "43e2af5d3b8502fd2149afee508f357a0649845a782ca663b8253f1453fca15b",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/entrainment120/erodible_bed_max_1m_P1buf250m.tif",
+      "bytes": 931,
+      "sha256": "59115749171bc2e60981779fbc11dd36625a51c171cfa09f06977387006ef2d8",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/extended120/dem.tif",
+      "bytes": 267673,
+      "sha256": "4cae4537a6a5991938247082731f958c05008cc07a55141cae8e608f50e313b1",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/extended120/release.tif",
+      "bytes": 2036,
+      "sha256": "640c682dfd9e9004383ca96a783b597198a80311dafc1ed1f54471b698a83eaf",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/flatrest/dem.tif",
+      "bytes": 5178,
+      "sha256": "05212228ff4b7ff87416b5812f3c55d7fe495e93d740f6d45a42606a84729ea4",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/flatrest/release.tif",
+      "bytes": 5178,
+      "sha256": "7234adbb648fbe5a93bb068e69e7b6d17b81147bc5fa51400d010db45b5c2809",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0000-S-linear__geomv2_60m/release.tif",
+      "bytes": 3794,
+      "sha256": "9be5c69fcb388182a843058deec9cce1026692bb4b5d30454f84a86872dd39d7",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_120m/release.tif",
+      "bytes": 1931,
+      "sha256": "081ef7c3fd20c26b87ed717e67c283f3f7c2e39810cd329e3ee24283d57e0275",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_60m/release.tif",
+      "bytes": 3792,
+      "sha256": "ec3a73e460db37b67d33eb1f3f2f4490fd8265e72747a1ac861522f6f8871827",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0000-S-linear/release.tif",
+      "bytes": 1417,
+      "sha256": "df57a83dda2844eb8b8cfe2f718b7d4781dc7e255f72fbdbf01b58bd014d94eb",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0036-S_T-linear/release.tif",
+      "bytes": 1455,
+      "sha256": "37973f5dc5b60eb96133b314d9b88776913c5004b994cb4bf74db8415e3a19c9",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0072-S_H-linear/release.tif",
+      "bytes": 1530,
+      "sha256": "3e138cd6097579f40b7b17097417aae9f553a6544bca1aa6310c637d3effbd14",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0255-S_T_H-linear/release.tif",
+      "bytes": 1456,
+      "sha256": "0a720e8a5593339b266922f99a066b36438c64c9fb0efdd7d0beedb1fe82636b",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/Copernicus_DSM_COG_10_N28_00_E085_00_DEM.tif",
+      "bytes": 38402839,
+      "sha256": "1590255a0ae7e8c1f49b277e287032a18a2e32c8e13c4c3298ed458f851cd3c7",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2B_45RUM_20260824_0_L2A.json",
+      "bytes": 33627,
+      "sha256": "3bec33387083a74129077e97166558a43e03928e50c41111a473b36c30013200",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2B_45RUM_20260824_0_L2A_scl.tif",
+      "bytes": 1753893,
+      "sha256": "9c1fb8dfb4975cd416ab8989284e540a85c67862f2467f32629b66e69905088d",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2B_45RUM_20260824_0_L2A_visual.tif",
+      "bytes": 128104115,
+      "sha256": "2bb50bf86890a2e1fb3d3f680ddbb563060fa169272390cc22eef3bc9fdaa7b4",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2B_45RUM_20260824_0_L2A_visual_crop.tif",
+      "bytes": 2458080,
+      "sha256": "b9540c7982c0bd0434a12b91b8f9c9fbfd79de69efeaa9af815d118757b5117d",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A.json",
+      "bytes": 33694,
+      "sha256": "54d94594638bd6770272827f4bd6af9c0e0ca79fb9c42782ed4ed1e8350bc6e9",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_nir_crop.tif",
+      "bytes": 2812167,
+      "sha256": "feaddba7fed82910072e87d88df3c1fc0cd8d641dddd049d2aca5e3a02250081",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_red_crop.tif",
+      "bytes": 2512641,
+      "sha256": "2939638d36c235ee767cc1662b3608d47edfd0e0457f1821d5bd6e785b178419",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_scl.tif",
+      "bytes": 3063474,
+      "sha256": "bb7d751e5e7b4c313cbf320c72c8dad8b505de65bc8a577a592e599d4a533fe8",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_visual.tif",
+      "bytes": 265529453,
+      "sha256": "d87a9f98b759ff52ca6781ed1403828eaf5743fb662604e6b65d343cdfbb0ab0",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_visual_crop.tif",
+      "bytes": 4003253,
+      "sha256": "699a4b0b1e5d80ba78c9e152c0722b020e5d0b9d8b88039807791ddbed164cca",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A.json",
+      "bytes": 33619,
+      "sha256": "3514e651be3a24c516331e60a02fcdd8e6064affbbeb216399912158173453b4",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_nir_crop.tif",
+      "bytes": 2342254,
+      "sha256": "ce73a1d87a30abe2ba54413159d77c06abf65a946d219c349461c407edc0a4ec",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_red_crop.tif",
+      "bytes": 2209366,
+      "sha256": "e87ff1fe3ffd877053b86c7f89d1c60578df0971ec97aa72a55774c651b82329",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_scl.tif",
+      "bytes": 820797,
+      "sha256": "8915e3d43618e58de1aa28d4f22939ea5038c9ca440dc468310fbd12a3d3245f",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_visual.tif",
+      "bytes": 98535707,
+      "sha256": "85a9caefbf072a0d686a6e72267e52a421f5c6abfc4a7a4ead50f9c50cef9afc",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_visual_crop.tif",
+      "bytes": 2585714,
+      "sha256": "2e98c9ec36620ef43e9f9484779f4157afce68363de140d86096f4781a804eda",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260812T050239_L2A_c1.json",
+      "bytes": 25677,
+      "sha256": "f548be1c5f7d8b13f7a1dcf39357a3f074536b593946f24f9522a8d191171e29",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260812T050239_L2A_nir_radiometry_sample.tif",
+      "bytes": 21288,
+      "sha256": "c77ad4d08349cbfa6e9ce310bbfce1c0236086285ccc50e1fe0d85964627dd70",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260812T050239_L2A_red_radiometry_sample.tif",
+      "bytes": 18819,
+      "sha256": "9c7da18f6aa35b3d393701773cd3306b968c2fd954b66d5061445a86fc57ffbf",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260928T045730_L2A_c1.json",
+      "bytes": 25598,
+      "sha256": "7ebad7e556014040edd42b89d99f4325d490f322679e4d17c4b47da65d8383ac",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260928T045730_L2A_nir_radiometry_sample.tif",
+      "bytes": 21178,
+      "sha256": "a82b326eaffb12c91b2c28f94feb56660d7a8ae9df072bb1f92ba728d4559d8b",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260928T045730_L2A_red_radiometry_sample.tif",
+      "bytes": 19743,
+      "sha256": "360c83e3cfb2189deef7933bb85aa0a3f83058db2ebd468d90efd6820bf55f2d",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/copdem_cdse_description.html",
+      "bytes": 114252,
+      "sha256": "7beef5b37afc9ce183afa499fa7656c3f14fa2ec72104e4aa0f7662b5bb26494",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/copdem_readme.html",
+      "bytes": 8536,
+      "sha256": "922461d55070e3c7e0cf2903ec54190d69e3773da2dc9e776a3f03566cfd56d2",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/copdem_registry.html",
+      "bytes": 10002,
+      "sha256": "04b2d63198acecd854a2a04100feb63d71aeecd83773c692b7f5093a0a4defca",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/earthsearch_issue41_comments.json",
+      "bytes": 2748,
+      "sha256": "5ba5825fa7a2f633e5b54f421b48f206b9aca33c9d7dfa1c532b4771b6fc13fc",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/osm_map.osm",
+      "bytes": 7089549,
+      "sha256": "00b716cf68b779ea4bce61e79041e56fc27ccfa53154dcf841a4701ee42735fb",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/osm_map_direct.osm",
+      "bytes": 7089549,
+      "sha256": "903e813b392dcaf7fe310a5aa09ee8f891858282ed241ffb9229408fec002484",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_120m.tif",
+      "bytes": 39968,
+      "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spectral-screen-v2_masks.npz",
+      "bytes": 50721,
+      "sha256": "b350e6022beadd7f0bbecd53f29415b3d15fbc756cd90a33d595509ed9b0562b",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/sentinel2_c1_search.json",
+      "bytes": 549478,
+      "sha256": "b7431b15374a17c45fdb69556bbcfe57e4d2de84275cf0b1bd4c730bdbeed5c4",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/sentinel2_search.json",
+      "bytes": 648432,
+      "sha256": "edc4d9a0511dcfb0024c34ee4e6f159010f4a2af166e02a430c85f91e5c17e56",
+      "role": "new_cached_model_input_or_source"
+    },
+    {
+      "path": "track_b/audit/stage4/round3/baseline_manifest.json",
+      "bytes": 194493,
+      "sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+      "role": "frozen_baseline_manifest"
+    },
+    {
+      "path": "track_b/config/stage4_contract.json",
+      "bytes": 2286,
+      "sha256": "45189e648cd5238b4d064ebde1cc64f3b1388ffc1eb1e93be4db9b5c470ab00d",
+      "role": "frozen_inherited_direct_input_or_protocol"
+    },
+    {
+      "path": "track_b/config/stage4_round3_contract.json",
+      "bytes": 6373,
+      "sha256": "3409420a66c0d35911d469708cf91c54e77f55420951c01e45a58470370daac4",
+      "role": "frozen_inherited_direct_input_or_protocol"
+    },
+    {
+      "path": "track_b/data/external/event_remote/jms_2026_uncorrected_proof.pdf",
+      "bytes": 924233,
+      "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0",
+      "role": "frozen_inherited_direct_input_or_protocol"
+    },
+    {
+      "path": "track_b/data/processed/spatial/dem_utm45_30m.tif",
+      "bytes": 6623907,
+      "sha256": "eaf39d044af5580fb12b7b991bdadf4da54294f8f78a818c15fff0f6390c2e95",
+      "role": "frozen_inherited_direct_input_or_protocol"
+    },
+    {
+      "path": "track_b/docs/18_stage4_round3_workflow.md",
+      "bytes": 7771,
+      "sha256": "b4a2dfda3c1fc48d6e1ad4ebfd592434cdb1aab1a5987c0e81a67d7b1fbd4300",
+      "role": "frozen_inherited_direct_input_or_protocol"
+    },
+    {
+      "path": "track_b/research/q4/round2/results/geometry_candidates.geojson",
+      "bytes": 9824,
+      "sha256": "cd68bf0bda80ab1d075fa33dbf0d713307d535e95e0f2494e41ce16b698b113e",
+      "role": "frozen_inherited_direct_input_or_protocol"
+    },
+    {
+      "path": "track_b/research/q4/round2/results/search_aoi.geojson",
+      "bytes": 1225,
+      "sha256": "14db392ea6d318c2df34152af950b227653fd1f938aed1f4aa9eedf92c29579f",
+      "role": "frozen_inherited_direct_input_or_protocol"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/additional_target_protocol_v2.json",
+      "bytes": 1099,
+      "sha256": "d8b07436070bad4768f8a73abf71a46ecac66854a7aab00dfd733d2622219e91",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/comparison_policy.json",
+      "bytes": 2956,
+      "sha256": "a47ca1e05d699545de2a95eb6576ee52f81088798c31f1ef21f076e7ee139346",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/domain_extension_protocol.json",
+      "bytes": 1474,
+      "sha256": "b4342253dc70b6603f506ca84d464c5314f5b366550d433c7ac2e8ce71841c19",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/execution_budget_amendment_02.json",
+      "bytes": 1329,
+      "sha256": "87cff5cbf7ea27fb3e24467e63864e220d67415a5b18996c8ff5ec8d02ad6f80",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/experiment_registration.json",
+      "bytes": 604,
+      "sha256": "d53751ddfe9442d2ad950530cb5386d717efc0811e57afef369bbc70b53bb482",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/model_applicability_decision_03.json",
+      "bytes": 3436,
+      "sha256": "fb64f37fed3c7266942748667440f38cbe79e58e9c3847c8a934c4ce3911e500",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_bowl_protocol.json",
+      "bytes": 537,
+      "sha256": "3c383e2c184673d342f0395b27f4309c7c4245cea06540ec9f5935db580f88c8",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_bowlrest.json",
+      "bytes": 208,
+      "sha256": "05cf81f2d22516cf3360237676c791ad3dee5590e9245926a160967e29272998",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_composite.json",
+      "bytes": 400,
+      "sha256": "1200187065177a396ede8928d53319b11ee0117ed7c50c3cf01073eb737d8416",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_composite_ablation.json",
+      "bytes": 288,
+      "sha256": "81707122bf6998e37d53430daa2c13635663b391ba23c4adb72c8da6b103e477",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_copdem.json",
+      "bytes": 5108,
+      "sha256": "0b66aee94831df6a932dfced855bbfd970d84e22afdf981ca0644057970ec34f",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_copdem_v2.json",
+      "bytes": 4861,
+      "sha256": "462bb27c19ee8a8bcbb48b2325a6dd1c7d6c21e9cab60d251f61a8e895c231f9",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_entrainment.json",
+      "bytes": 289,
+      "sha256": "df668711f9a1c695243bb5f6d34be58f745b85f07b04e11cbd9329580f7588a1",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_extended.json",
+      "bytes": 196,
+      "sha256": "381f866023cdc9fbd3ed4deca9ae72e2893ee09a98211a5aeb5a1dd43f1329b5",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_flatrest.json",
+      "bytes": 562,
+      "sha256": "95212e0ef6957d629c5f03fda614e2f9572509548f5b45eed4534c0a57bbfb13",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_output_flag.json",
+      "bytes": 436,
+      "sha256": "e0138519c3919c3b64e90641c4a956702d5eca20989c6b45bfcfef8926f477f0",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_physics_v2.json",
+      "bytes": 1041,
+      "sha256": "29bf712f97c15721a7fbd70c8ffa6aaebc777aff772f4b303976760c8c557aa4",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_q2fullmask.json",
+      "bytes": 660,
+      "sha256": "4f9f68016a8f2f61c2c253ceffc693a190a869c8529e8b74e9b993e65f6746e2",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_q2fullmask_v2.json",
+      "bytes": 725,
+      "sha256": "77ca87d2db06d3b73720d94a47499d9cd55900462f257fa8a2993f2dbb080b7e",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_q2mapped.json",
+      "bytes": 788,
+      "sha256": "e5290f6b48a33b78ed1328d19ef7800536c712a1a9da7aa8019e0eff1cd87cac",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_q2mapped_v2.json",
+      "bytes": 863,
+      "sha256": "8c21d0fbb3a2928dfa11ef2a81aadca9630ea3baa7efcece0e45a38999bfcc97",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cases_resourcefix.json",
+      "bytes": 1136,
+      "sha256": "a3d9afa78768f47dcbeab8989fa2dc723c3a2a92f102e87608e7ea19addab180",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_composite_ablation_protocol.json",
+      "bytes": 1392,
+      "sha256": "e83f3fc8340c9f2392c4ddfeacf6420810404971e6b58ffb7f139547e386c482",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_composite_protocol.json",
+      "bytes": 10450,
+      "sha256": "e3d14160d0f32bb0d20f765ea6c8745265f4370c040cb5f1545fc919607259e8",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_cpu_tail_budget_protocol_08.json",
+      "bytes": 777,
+      "sha256": "644538430adb814e7b0ba5ca428a33b37987a1cabcb84265269c210d6de146a9",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_entrainment_protocol.json",
+      "bytes": 5268,
+      "sha256": "69b3cc6219d5d059e186986eabbdd716a76958e657b539ec46c0ed419041a05f",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_execution_applicability.json",
+      "bytes": 4500,
+      "sha256": "64f1902aee64b955e45864a3306531d62cd36bf4c39c4a255c05bbbcb2c334cc",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_extended_protocol.json",
+      "bytes": 685,
+      "sha256": "b2cbadc7d1001eeb86d4dd9db5f8a89fea2b5b03da76f6714c99482861057e07",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_gully_retry_protocol.json",
+      "bytes": 460,
+      "sha256": "ec00344004436f0cc42428252865f451d12d91699c8d604d99992542fbaba4fa",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_output_flag_protocol.json",
+      "bytes": 498,
+      "sha256": "4c5ba332ceddf2774533f9e0c608213e826b209d0bcfd11615376b6843ab4201",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_composite_RI_water_nodragvm_120__sf0.json",
+      "bytes": 226,
+      "sha256": "533cedaa0c1b5ecec997dca9fb4993d844e577c9b745efafafc1146e7c3ce441",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_copdem_120_single_cfl025__sf0.json",
+      "bytes": 212,
+      "sha256": "e30cbdb7cb5a63b145b2b69ce424f42ca64d94e5706f47a9329bef91380ce2c9",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_copdem_120_single_entrain1m_P1buf250__sf0.json",
+      "bytes": 236,
+      "sha256": "5ef5d824c03c1d3aefbde35f0c96572d20c9ac831ace273cec23dccc74028f4d",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_copdem_120_single_h136__sf0.json",
+      "bytes": 208,
+      "sha256": "50052a7d21f68e8feb04cb4186bfc32e3b19178b193bdac93eb66d68079c9a11",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_copdem_120_single_h30__sf0.json",
+      "bytes": 206,
+      "sha256": "45b1dc2553f6fd7da4ce1857a54d43e82975cbe4c3f081d2cdd1d96e8544577b",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_copdem_120_single_h5__sf0.json",
+      "bytes": 204,
+      "sha256": "c52191988de11fc92041d2c4b194a3dbf378fecb7ef4945a1a5f05b5c2a93774",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_copdem_120_single_mu0p08__sf0.json",
+      "bytes": 212,
+      "sha256": "12a4c86dd764e524767d943a22b69d5b74ee582cfe70ff3596902347710e11a2",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_copdem_120_single_mu0p25__sf0.json",
+      "bytes": 212,
+      "sha256": "acee786944c3d256d376df9fa1cfdb187d80ca25a59547088aaac7d7d3c939c4",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_copdem_120_single_xi2000__sf0.json",
+      "bytes": 212,
+      "sha256": "16d1dbe1c66b2859b4b91af0540328c0c55f3fbc806bd8ef9f5a29837521431e",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_copdem_120_single_xi500__sf0.json",
+      "bytes": 210,
+      "sha256": "4bdb11ea3f1bea637651f038a12704ef0de34476533862ed72dc41a0f0a73ae1",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_copdem_60_single_ref__sf0.json",
+      "bytes": 204,
+      "sha256": "3721dd684007e7bf14089af2e0721a5a379bb6266107f1261d82b2d99622c2e0",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_protocol.json",
+      "bytes": 979,
+      "sha256": "8ed7a9eb5762c72153631f5c20a536bd0cb75ed0258cb098d846f412650b4226",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0.json",
+      "bytes": 246,
+      "sha256": "b98214f1d8030e4b5d99847f07a00f909933b11a9e5a47c7f9fa6f6e9330cb45",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_parallel_q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0.json",
+      "bytes": 244,
+      "sha256": "be7289ce01fab987917183ddd65dc2ddf0ff157d789371d1fc6bee664c411e67",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_physics_protocol.json",
+      "bytes": 552,
+      "sha256": "f089555602a901b86ed700bb01db9d350f6b929476d1167902d1850f316e80a7",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_protocol.json",
+      "bytes": 7112,
+      "sha256": "d321304b67b381e0bc14a862c2e262bdbe86fd89f4b7743807e6ff6dea936e7d",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_protocol_v2.json",
+      "bytes": 7629,
+      "sha256": "6bbe5ea342008bf5afc0878edf4eb781a70a1a171e16b61a1b3b7ba404efba24",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_q2_protocol.json",
+      "bytes": 955,
+      "sha256": "15a779de8927ea7f0c3c95e121379f3de91b54f45ec22a19306dc8756c270224",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_q2_v2_protocol.json",
+      "bytes": 750,
+      "sha256": "35103a7f638db49d619bc1781111d0752ff5586f245088d699064bf01a4f009e",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_resourcefix_protocol.json",
+      "bytes": 970,
+      "sha256": "8c1433a2203e56c99125b896c095e2faa344211637eabe7957643c6f80a992f5",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_scheduling_amendment_06.json",
+      "bytes": 1865,
+      "sha256": "ff9233eeb461bc6315d8228c4b27720029970a2dcecf52e6ece85ca5470d3155",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_surface_correction_v2.json",
+      "bytes": 501,
+      "sha256": "334aa8aac5305e0d9a1294349404fa4eeb7b78af3d721fa390c0bdd3a14ee4ae",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_sweep_v2_dclaw_current.json",
+      "bytes": 204,
+      "sha256": "681c2e95f5bf32552e68780ff6ccf06e924148d4a470db3cdffa79f79d5d016f",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_sweep_v2_multi_current.json",
+      "bytes": 202,
+      "sha256": "1119d0e7085c8be6f6bc2510a02e19194ef3a33ca7b7acac815357784995a0c2",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_sweep_v2_single_current.json",
+      "bytes": 210,
+      "sha256": "4bdb11ea3f1bea637651f038a12704ef0de34476533862ed72dc41a0f0a73ae1",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/official_unexecuted_textual_options.json",
+      "bytes": 800,
+      "sha256": "1bfb930ac702568d29d98d7890fd576b02fc103500b28b7b63d09ca6068a168d",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/optical_agreement_protocol.json",
+      "bytes": 1460,
+      "sha256": "e67198696388427d567b9c446a0e564c504fa198946aa8f272a354ea9ca2c144",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/protocol_amendment_01.md",
+      "bytes": 972,
+      "sha256": "11b45b8d6a242cfb1d94411e75a58700dd3ecc73907625fbc02ae434df64c60c",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/protocol_amendment_01_registration.json",
+      "bytes": 276,
+      "sha256": "72e57563e9f14d70f016ccd3e43bca73f4dc729111072481df5e977d5753cb8a",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/q2_compact_quality_review_04.json",
+      "bytes": 1374,
+      "sha256": "7df7b72d13733a77368c19a95172499284103f9643837c2607212c67d234e59d",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/q2_fullmask_integration_protocol.json",
+      "bytes": 11929,
+      "sha256": "556902c41430fd9fb6bc1cbd2cca9d1ede025a0582f63bc248a3c92d3c462e40",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/q2_release_mapping_protocol.json",
+      "bytes": 2203,
+      "sha256": "53fc3e562a49c9eb4c26f751e3ddff70b72e9e5d9a449fbc12b240c4cd14e796",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/reduced_environment.json",
+      "bytes": 1059,
+      "sha256": "f4634155cc0d26c7f95786d23d3a0e19e2378a1a99dedd986a3bad026bef04e0",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/reduced_environment.lock",
+      "bytes": 727,
+      "sha256": "09311aefffac85a082b680c176b1912335a1c7a96467cd198ecc31c181db035e",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/reduced_protocol.json",
+      "bytes": 5550,
+      "sha256": "ec4caac240dfa667cdd3917da0f0e07946cd780ec481a0a25d883f12eb6df7fc",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/reduced_protocol_amendment01.json",
+      "bytes": 1003,
+      "sha256": "e781a54ec40aaf798bef095d23fb47579d2049eee21be75241cfc4e5356be865",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/scientific_acceptance_decision_05.json",
+      "bytes": 2947,
+      "sha256": "1619328370807cbe78be707918993fa83031621e39b469c4408dd689282b3674",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/spatial_protocol.json",
+      "bytes": 1812,
+      "sha256": "3422fbf617244d922d504335f66dc5ceeff01d2132b7660cd6ffb62c8c967dfc",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/spatial_spectral_protocol_v1.json",
+      "bytes": 1511,
+      "sha256": "6c465e75acfa13f5253d729e7af4bdf6babfb3baf661f6de82f6d9acc01d1eae",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/spatial_spectral_protocol_v2.json",
+      "bytes": 1806,
+      "sha256": "42aabaa90378c82dd8326ac7f295d7351e8d470fa0d56ac392baa8141f85a464",
+      "role": "registered_experiment_or_environment_definition"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/bundle.json",
+      "bytes": 6572,
+      "sha256": "c8fb79484b4455ab5b64d4099fedcd0a9945ff8da6e00e30b44b51648ef54b4c",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/COMPOSITION_SENSITIVITY.md",
+      "bytes": 2976,
+      "sha256": "8ed109ce17d130b0a2edb905b0d9079a152aae3a59283c9e865613d07164314c",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/baseline_outcomes_64.csv",
+      "bytes": 46130,
+      "sha256": "26decc1c8cfe3f16a90602a8d3d194f2f7056ee001bd7bb3f7086021566a45a3",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/comparison_by_mechanism.csv",
+      "bytes": 2823,
+      "sha256": "d52046abb36f0a155e06ae5524e540570eb306e24a0849a117e4d9365f76d286",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/output_index.json",
+      "bytes": 2464,
+      "sha256": "e3e1fb5730aa6e769e4182335adb1cf53fb6c197ffd0150290f54f818cd4a229",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/paired_changes_128.csv",
+      "bytes": 149920,
+      "sha256": "63c1689a787f4ef55803e8a5c097d32d4f5100af6ff5259ba02b4d0fce2b2d4a",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/parameter_ensemble_128.csv",
+      "bytes": 80892,
+      "sha256": "f5efa93e7ce69dc11e4dc6ddeb77b8c2e92dbb7f40dc66ec5f86350d50d02c2d",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/protocol.json",
+      "bytes": 8844,
+      "sha256": "c28bec93ee0e15b291898b9a6b8943f700caedb6ec3b8c6630bbee665d218dd6",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/scenario_outcomes_128.csv",
+      "bytes": 93350,
+      "sha256": "7049de22947c497e527a3d0913a2bcdb80da3594c1010821da33674ed8c4ee59",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/state_trajectories_128.parquet",
+      "bytes": 7241929,
+      "sha256": "dfcc46be9b3a97b4cce51b3e425d3afb4d45536c4e845e47a7c5ce2be46e893e",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/summary.json",
+      "bytes": 3061,
+      "sha256": "a154eccd5349024fc1a994b34140ad83c32baab64c590036701e5f1697c8d1a5",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/scripts/analyze_composition.py",
+      "bytes": 29369,
+      "sha256": "801bd11ce305a6c3d679bd795b94c76994a384f32634d241bfb831e160823699",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/upstream_bundle.json",
+      "bytes": 4034,
+      "sha256": "14f96d7d1e8600154a831dba9921a9efbf70eeacfd71e54b12af78879b762335",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/bundle.json",
+      "bytes": 3007,
+      "sha256": "ed745576ff706a4d82a560269b0e07804add6fc9bde2b3948cced43932ddf5b5",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/files/config/experiment_v1.json",
+      "bytes": 4192,
+      "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/files/results/mechanism_contract.json",
+      "bytes": 3236,
+      "sha256": "fd47ca5af08c56a5076d07a4707764e07e58089e3030a47cc812facf620923e7",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/files/results/parameter_ensemble.csv",
+      "bytes": 1071463,
+      "sha256": "27a77ced72931366be5e19f431cb40218e1f243d77a7fe2671fc6125b0cf98b6",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/files/results/release_states.csv",
+      "bytes": 22691,
+      "sha256": "23278ea66f3141ad75634dbe8512d678bc46ab5a715c61228cf48ecba85ffad4",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/upstream_bundle.json",
+      "bytes": 1801,
+      "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json",
+      "bytes": 7040,
+      "sha256": "108ce2d34289fe3c5cdb5dacf6927bf977439bd9f06b959ff931f7d06b57f683",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/GEOMETRY_INTEGRATION.md",
+      "bytes": 3361,
+      "sha256": "a626bf6ebfffe007fbf7e1e26335a2d1d7ad2e26b83e5beae3ed78f3f8cbdb63",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_120m.npz",
+      "bytes": 55797,
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_60m.npz",
+      "bytes": 241460,
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/geometry_integration_summary.json",
+      "bytes": 24501,
+      "sha256": "22edf0eb580488df01ae98b2f263e8230abc38b4674c7e9a5390193cf6aaea9b",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/geometry_integration_terrain.csv",
+      "bytes": 912,
+      "sha256": "a974b276a7a46994d72a660b85e4e9de617f68c35e4f32188459785ae4665b29",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_states_geometry_v2.csv",
+      "bytes": 121276,
+      "sha256": "c40aa56cfd5075ab73b84d97abbea17dc932343f776ff87eb25a868a9f47d575",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0000_120m_v2.tif",
+      "bytes": 1941,
+      "sha256": "f0a21b0b435d76f67ee2289e5c4e6e5a60b18f7d238744019b162956a2ef2f00",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0000_60m_v2.tif",
+      "bytes": 3794,
+      "sha256": "9be5c69fcb388182a843058deec9cce1026692bb4b5d30454f84a86872dd39d7",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0036_120m_v2.tif",
+      "bytes": 1931,
+      "sha256": "081ef7c3fd20c26b87ed717e67c283f3f7c2e39810cd329e3ee24283d57e0275",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0036_60m_v2.tif",
+      "bytes": 3792,
+      "sha256": "ec3a73e460db37b67d33eb1f3f2f4490fd8265e72747a1ac861522f6f8871827",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/scripts/integrate_geometry.py",
+      "bytes": 22904,
+      "sha256": "3c5f087013e52a932275548ed735f51dba738a5446b13630e2b2723edd5849e3",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/upstream_bundle.json",
+      "bytes": 4354,
+      "sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+      "bytes": 2514,
+      "sha256": "b38711d8e34e7ab79a21a8856099aa5fb2bd003f31fdab4a5074b55337003724",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/event_group_registry.csv",
+      "bytes": 1820,
+      "sha256": "c2109a17be0d0c92a4d35c4257c320af04e8e16e0e649c247e7abf2caa3f8741",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/forecast_availability.csv",
+      "bytes": 2911,
+      "sha256": "f4627f1edabe316c986916cb599f49945de63cdc3a27b270ef5745c6196c99e6",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/label_mapping.csv",
+      "bytes": 7392,
+      "sha256": "3c920a97038f5f75227d040a3783a13bd91d6aac9c5f181ab885194bb55b4df6",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/upstream_bundle.json",
+      "bytes": 1537,
+      "sha256": "075b149214b5c9a8827af45af221ee6ee6b6428090e6d9337afb1943698d2faf",
+      "role": "advisor_delivered_immutable_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "role": "versioned_derived_model_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/extended_domain_bundle.json",
+      "bytes": 1703,
+      "sha256": "5945bca9d96bd3a8aa1c91f8f831e842f02d148492fb541fdd2d7175470c1760",
+      "role": "versioned_derived_model_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/q2_release_mapping.json",
+      "bytes": 10631,
+      "sha256": "75e59d97b861bd409f1fde35719ee202f5e8bd00bbb4e559b346630b79e832c4",
+      "role": "versioned_derived_model_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_inputs_120m.npz",
+      "bytes": 55797,
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+      "role": "versioned_derived_model_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_inputs_60m.npz",
+      "bytes": 241460,
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915",
+      "role": "versioned_derived_model_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_paths.csv",
+      "bytes": 101231,
+      "sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e",
+      "role": "versioned_derived_model_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_targets_v2.csv",
+      "bytes": 1483,
+      "sha256": "6735c7dbb668c97bd73024050cbd0b7d1570bb78382dce005dddd983a276b18d",
+      "role": "versioned_derived_model_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_targets_v2_initial.csv",
+      "bytes": 1360,
+      "sha256": "96202126426c50fdebe5d72ddf74bd443f531a77c77db094d0c8fe739dc86b98",
+      "role": "versioned_derived_model_input"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/terrain_bundle.json",
+      "bytes": 4745,
+      "sha256": "c7ce3a11c0dd5637f39bcb1fad81f3dbf08238045c825b41f80d00f14422ca0e",
+      "role": "versioned_derived_model_input"
+    }
+  ],
+  "file_count": 188,
+  "self_included": false,
+  "scope": "Direct inherited inputs, approved cross-question copies, protocols and derived/new cached inputs; full inherited725 inputs checked by workspace verifier",
+  "read_time_schema_alias": "sources/spatial_target_schema_revision.json preserves old962021... CSV bytes separately; no false claim original path stayed unchanged."
+}

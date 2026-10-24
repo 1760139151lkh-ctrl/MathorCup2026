@@ -1,0 +1,629 @@
+{
+  "integration_version": "q2-r3-release-v2-spatial-copdem-v1",
+  "evaluation_stratum": "conditional_scenario",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "geometry_version": "q4-r3-spatial-copdem-v1",
+  "geometry_bundle_sha256": "8eb6cbc1b85e60fe8a82906f4f025ec22b3bcf96d5c59bd0535ffbe0ccf8a0c5",
+  "parent_release_bundle_sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+  "parent_release_states_sha256": "23278ea66f3141ad75634dbe8512d678bc46ab5a715c61228cf48ecba85ffad4",
+  "inputs": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "role": "primary_dem_60m",
+      "actual_read_scope": "full bytes for hash; numerical content read for DEM/NPZ; terrain metadata read; geometry/path/figure content not used in calculations"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_60m.npz",
+      "bytes": 241460,
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915",
+      "role": "model_arrays_60m",
+      "producer_original_path": "track_b/research/q4/round3/results/spatial_inputs_60m.npz",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_inputs_60m.npz",
+      "actual_read_scope": "full bytes for hash; numerical content read for DEM/NPZ; terrain metadata read; geometry/path/figure content not used in calculations"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_120m.tif",
+      "bytes": 39968,
+      "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+      "role": "primary_dem_120m",
+      "actual_read_scope": "full bytes for hash; numerical content read for DEM/NPZ; terrain metadata read; geometry/path/figure content not used in calculations"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_120m.npz",
+      "bytes": 55797,
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+      "role": "model_arrays_120m",
+      "producer_original_path": "track_b/research/q4/round3/results/spatial_inputs_120m.npz",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_inputs_120m.npz",
+      "actual_read_scope": "full bytes for hash; numerical content read for DEM/NPZ; terrain metadata read; geometry/path/figure content not used in calculations"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "role": "computational_geometry_candidates",
+      "producer_original_path": "track_b/research/q4/round3/results/computational_geometries.geojson",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/computational_geometries.geojson",
+      "actual_read_scope": "full bytes for hash; numerical content read for DEM/NPZ; terrain metadata read; geometry/path/figure content not used in calculations"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_paths.csv",
+      "bytes": 101231,
+      "sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e",
+      "role": "paths_60m_csv",
+      "producer_original_path": "track_b/research/q4/round3/results/spatial_paths.csv",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_paths.csv",
+      "actual_read_scope": "full bytes for hash; numerical content read for DEM/NPZ; terrain metadata read; geometry/path/figure content not used in calculations"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/terrain_bundle.json",
+      "bytes": 4745,
+      "sha256": "c7ce3a11c0dd5637f39bcb1fad81f3dbf08238045c825b41f80d00f14422ca0e",
+      "role": "terrain_bundle",
+      "producer_original_path": "track_b/research/q4/round3/results/terrain_bundle.json",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/terrain_bundle.json",
+      "actual_read_scope": "full bytes for hash; numerical content read for DEM/NPZ; terrain metadata read; geometry/path/figure content not used in calculations"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/figures/spatial_terrain_paths.png",
+      "bytes": 370168,
+      "sha256": "0de4a3e0cfa492e58ce8b35ac66e4e1f54b4f48ef4c5454d0da4f0ea678dac1d",
+      "role": "terrain_path_figure",
+      "producer_original_path": "track_b/research/q4/round3/figures/spatial_terrain_paths.png",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/figures/spatial_terrain_paths.png",
+      "actual_read_scope": "full bytes for hash; numerical content read for DEM/NPZ; terrain metadata read; geometry/path/figure content not used in calculations"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/bundle.json",
+      "bytes": 7712,
+      "sha256": "8eb6cbc1b85e60fe8a82906f4f025ec22b3bcf96d5c59bd0535ffbe0ccf8a0c5",
+      "role": "advisor_delivered_geometry_bundle",
+      "actual_read_scope": "all JSON"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/release_bundle.json",
+      "bytes": 1801,
+      "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "role": "parent_release_v1_bundle",
+      "actual_read_scope": "all JSON and every member hash"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/release_states.csv",
+      "bytes": 22691,
+      "sha256": "23278ea66f3141ad75634dbe8512d678bc46ab5a715c61228cf48ecba85ffad4",
+      "role": "parent_release_states",
+      "actual_read_scope": "all 32 scenarios"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/parameter_ensemble.csv",
+      "bytes": 1071463,
+      "sha256": "27a77ced72931366be5e19f431cb40218e1f243d77a7fe2671fc6125b0cf98b6",
+      "role": "parent_parameter_grid",
+      "actual_read_scope": "all rows indexed; 32 release scenarios used"
+    }
+  ],
+  "terrain_diagnostics": [
+    {
+      "geometry_version": "q4-r3-spatial-copdem-v1",
+      "grid_resolution_m": 60,
+      "source_cells": 257,
+      "source_plan_area_m2": 925200.0,
+      "elevation_min_m": 4274.24462890625,
+      "elevation_max_m": 5174.2734375,
+      "slope_min_deg": 5.286094082826993,
+      "slope_p05_deg": 15.169813319391585,
+      "slope_p25_deg": 33.74475311517109,
+      "slope_median_deg": 41.226254237006415,
+      "slope_p75_deg": 48.928551349723534,
+      "slope_p95_deg": 60.88916817155597,
+      "slope_max_deg": 67.00566346051178,
+      "slope_mean_deg": 40.8815850812456,
+      "slope_definition": "arctan(norm(gradient DSM height)); cell-centred DEM surface, not structural sliding plane",
+      "evaluation_stratum": "conditional_scenario"
+    },
+    {
+      "geometry_version": "q4-r3-spatial-copdem-v1",
+      "grid_resolution_m": 120,
+      "source_cells": 67,
+      "source_plan_area_m2": 964800.0,
+      "elevation_min_m": 4355.3603515625,
+      "elevation_max_m": 5178.4111328125,
+      "slope_min_deg": 9.352729985619288,
+      "slope_p05_deg": 15.229701757710844,
+      "slope_p25_deg": 31.91793575897192,
+      "slope_median_deg": 41.813507514643845,
+      "slope_p75_deg": 48.29573852856295,
+      "slope_p95_deg": 56.80303146920388,
+      "slope_max_deg": 60.11276981218704,
+      "slope_mean_deg": 39.60880482307956,
+      "slope_definition": "arctan(norm(gradient DSM height)); cell-centred DEM surface, not structural sliding plane",
+      "evaluation_stratum": "conditional_scenario"
+    }
+  ],
+  "release_rows": 64,
+  "base_release_rows": 32,
+  "parameter_sets": [
+    "q2r3-p0000",
+    "q2r3-p0036",
+    "q2r3-p0072",
+    "q2r3-p0109",
+    "q2r3-p0145",
+    "q2r3-p0182",
+    "q2r3-p0218",
+    "q2r3-p0255"
+  ],
+  "rasterized_parameter_sets": [
+    "q2r3-p0000",
+    "q2r3-p0036"
+  ],
+  "rasters_written": 4,
+  "min_volume_m3": 16476616.480307579,
+  "max_volume_m3": 51755728.59264966,
+  "min_mass_kg": 24930853979.760117,
+  "max_mass_kg": 92354489432.75404,
+  "max_volume_relative_error": 1.4395663628976442e-16,
+  "max_phase_mass_sum_relative_error": 2.500895810542779e-16,
+  "grid_volume_mass_checks": [
+    {
+      "scenario_id": "q2r3-p0000-S-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.135301893544936e-16
+    },
+    {
+      "scenario_id": "q2r3-p0000-S-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 7.450580596923828e-09,
+      "volume_relative_error": 1.4395663628976442e-16,
+      "phase_mass_sum_relative_error": 2.270603787089872e-16
+    },
+    {
+      "scenario_id": "q2r3-p0036-S-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 3.725290298461914e-09,
+      "volume_relative_error": 1.194610594546018e-16,
+      "phase_mass_sum_relative_error": 1.1333886659506543e-16
+    },
+    {
+      "scenario_id": "q2r3-p0036-S-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 3.725290298461914e-09,
+      "volume_relative_error": 1.194610594546018e-16,
+      "phase_mass_sum_relative_error": 1.1333886659506543e-16
+    },
+    {
+      "scenario_id": "q2r3-p0072-S-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 2.500895810542779e-16
+    },
+    {
+      "scenario_id": "q2r3-p0072-S-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 2.500895810542779e-16
+    },
+    {
+      "scenario_id": "q2r3-p0109-S-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.652197868909271e-16
+    },
+    {
+      "scenario_id": "q2r3-p0109-S-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.652197868909271e-16
+    },
+    {
+      "scenario_id": "q2r3-p0145-S-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.4421248799932075e-16
+    },
+    {
+      "scenario_id": "q2r3-p0145-S-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.4421248799932075e-16
+    },
+    {
+      "scenario_id": "q2r3-p0182-S-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5301109495574948e-16
+    },
+    {
+      "scenario_id": "q2r3-p0182-S-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5301109495574948e-16
+    },
+    {
+      "scenario_id": "q2r3-p0218-S-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0218-S-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0255-S-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5377541358335244e-16
+    },
+    {
+      "scenario_id": "q2r3-p0255-S-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5377541358335244e-16
+    },
+    {
+      "scenario_id": "q2r3-p0000-S_T-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.135301893544936e-16
+    },
+    {
+      "scenario_id": "q2r3-p0000-S_T-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 7.450580596923828e-09,
+      "volume_relative_error": 1.4395663628976442e-16,
+      "phase_mass_sum_relative_error": 2.270603787089872e-16
+    },
+    {
+      "scenario_id": "q2r3-p0036-S_T-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 3.725290298461914e-09,
+      "volume_relative_error": 1.194610594546018e-16,
+      "phase_mass_sum_relative_error": 1.1333886659506543e-16
+    },
+    {
+      "scenario_id": "q2r3-p0036-S_T-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 3.725290298461914e-09,
+      "volume_relative_error": 1.194610594546018e-16,
+      "phase_mass_sum_relative_error": 1.1333886659506543e-16
+    },
+    {
+      "scenario_id": "q2r3-p0072-S_T-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 2.500895810542779e-16
+    },
+    {
+      "scenario_id": "q2r3-p0072-S_T-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 2.500895810542779e-16
+    },
+    {
+      "scenario_id": "q2r3-p0109-S_T-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.652197868909271e-16
+    },
+    {
+      "scenario_id": "q2r3-p0109-S_T-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.652197868909271e-16
+    },
+    {
+      "scenario_id": "q2r3-p0145-S_T-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.4421248799932075e-16
+    },
+    {
+      "scenario_id": "q2r3-p0145-S_T-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.4421248799932075e-16
+    },
+    {
+      "scenario_id": "q2r3-p0182-S_T-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5301109495574948e-16
+    },
+    {
+      "scenario_id": "q2r3-p0182-S_T-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5301109495574948e-16
+    },
+    {
+      "scenario_id": "q2r3-p0218-S_T-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0218-S_T-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0255-S_T-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5377541358335244e-16
+    },
+    {
+      "scenario_id": "q2r3-p0255-S_T-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5377541358335244e-16
+    },
+    {
+      "scenario_id": "q2r3-p0000-S_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.135301893544936e-16
+    },
+    {
+      "scenario_id": "q2r3-p0000-S_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 7.450580596923828e-09,
+      "volume_relative_error": 1.4395663628976442e-16,
+      "phase_mass_sum_relative_error": 2.270603787089872e-16
+    },
+    {
+      "scenario_id": "q2r3-p0036-S_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 3.725290298461914e-09,
+      "volume_relative_error": 1.194610594546018e-16,
+      "phase_mass_sum_relative_error": 1.1333886659506543e-16
+    },
+    {
+      "scenario_id": "q2r3-p0036-S_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 3.725290298461914e-09,
+      "volume_relative_error": 1.194610594546018e-16,
+      "phase_mass_sum_relative_error": 1.1333886659506543e-16
+    },
+    {
+      "scenario_id": "q2r3-p0072-S_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 2.500895810542779e-16
+    },
+    {
+      "scenario_id": "q2r3-p0072-S_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 2.500895810542779e-16
+    },
+    {
+      "scenario_id": "q2r3-p0109-S_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.652197868909271e-16
+    },
+    {
+      "scenario_id": "q2r3-p0109-S_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.652197868909271e-16
+    },
+    {
+      "scenario_id": "q2r3-p0145-S_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.4421248799932075e-16
+    },
+    {
+      "scenario_id": "q2r3-p0145-S_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.4421248799932075e-16
+    },
+    {
+      "scenario_id": "q2r3-p0182-S_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5301109495574948e-16
+    },
+    {
+      "scenario_id": "q2r3-p0182-S_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5301109495574948e-16
+    },
+    {
+      "scenario_id": "q2r3-p0218-S_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0218-S_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0255-S_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5377541358335244e-16
+    },
+    {
+      "scenario_id": "q2r3-p0255-S_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5377541358335244e-16
+    },
+    {
+      "scenario_id": "q2r3-p0000-S_T_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.135301893544936e-16
+    },
+    {
+      "scenario_id": "q2r3-p0000-S_T_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 7.450580596923828e-09,
+      "volume_relative_error": 1.4395663628976442e-16,
+      "phase_mass_sum_relative_error": 2.270603787089872e-16
+    },
+    {
+      "scenario_id": "q2r3-p0036-S_T_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 3.725290298461914e-09,
+      "volume_relative_error": 1.194610594546018e-16,
+      "phase_mass_sum_relative_error": 1.1333886659506543e-16
+    },
+    {
+      "scenario_id": "q2r3-p0036-S_T_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 3.725290298461914e-09,
+      "volume_relative_error": 1.194610594546018e-16,
+      "phase_mass_sum_relative_error": 1.1333886659506543e-16
+    },
+    {
+      "scenario_id": "q2r3-p0072-S_T_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 2.500895810542779e-16
+    },
+    {
+      "scenario_id": "q2r3-p0072-S_T_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 2.500895810542779e-16
+    },
+    {
+      "scenario_id": "q2r3-p0109-S_T_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.652197868909271e-16
+    },
+    {
+      "scenario_id": "q2r3-p0109-S_T_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.652197868909271e-16
+    },
+    {
+      "scenario_id": "q2r3-p0145-S_T_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.4421248799932075e-16
+    },
+    {
+      "scenario_id": "q2r3-p0145-S_T_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.4421248799932075e-16
+    },
+    {
+      "scenario_id": "q2r3-p0182-S_T_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5301109495574948e-16
+    },
+    {
+      "scenario_id": "q2r3-p0182-S_T_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5301109495574948e-16
+    },
+    {
+      "scenario_id": "q2r3-p0218-S_T_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0218-S_T_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0255-S_T_H-linear__geomv2_60m",
+      "resolution_m": 60,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5377541358335244e-16
+    },
+    {
+      "scenario_id": "q2r3-p0255-S_T_H-linear__geomv2_120m",
+      "resolution_m": 120,
+      "volume_abs_error_m3": 0.0,
+      "volume_relative_error": 0.0,
+      "phase_mass_sum_relative_error": 1.5377541358335244e-16
+    }
+  ],
+  "two_grid_volume_equality_passed": true,
+  "two_grid_mass_equality_passed": true,
+  "preserved_parent_mechanism_parameters": true,
+  "vertical_datum": "EGM2008 orthometric height",
+  "observation_epoch": "WorldDEM TanDEM-X principal acquisition 2011-2015; edited release 2021, not 2026 event topography",
+  "scientific_adoption": "pending_team_review",
+  "independent_events": 0,
+  "reproduction_command": "track_b/.venv/bin/python track_b/research/q2/round3/scripts/integrate_geometry.py"
+}

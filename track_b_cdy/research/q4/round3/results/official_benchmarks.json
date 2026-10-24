@@ -1,0 +1,229 @@
+{
+  "analysed_utc": "2026-10-24T11:19:08.354911+00:00",
+  "benchmarks": [
+    {
+      "benchmark": "official_Cascadia_exp1",
+      "execution_returncode": 0,
+      "execution_sha256": "aefc72bccf2a4a7b335cc1e072cdeba6aaa0a66d76bc7ed86644d656d1e89ada",
+      "frames": 41,
+      "native_csuccess": 1,
+      "requested_horizon_s": 200,
+      "all_depth_finite": true,
+      "minimum_depth_m": 0.0,
+      "initial_volume_m3": 7957897.625023313,
+      "final_raster_volume_m3": 7865974.803253356,
+      "final_native_active_core_volume_m3": 7865974.803253356,
+      "final_native_edge_store_volume_m3": 0.0,
+      "native_core_plus_edge_volume_residual_fraction": -0.011551144045998885,
+      "native_global_cumulative_max_speed_m_s": 118.3294,
+      "source_scope": "fixed originalCascadia2024bundle numerical parameters plusRev7 GRASSinterface,200s,20m",
+      "local_independent_validation_event": false
+    },
+    {
+      "benchmark": "official_DClaw_gully",
+      "execution_returncode": 0,
+      "execution_sha256": "b070e959c6265b2b028fe3b35cb2b26d326026de6541603b1eb2a15ee7b3bf31",
+      "frames": 21,
+      "requested_horizon_s": 100,
+      "actual_end_s": 100.0,
+      "history": [
+        {
+          "time_s": 0.0,
+          "volume_m3": 40000.0,
+          "total_mass_kg": 82840000.0,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 0,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 5.0,
+          "volume_m3": 39977.96966534339,
+          "total_mass_kg": 82819850.29829976,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 30.97456593916989,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 10.0,
+          "volume_m3": 39918.119219972985,
+          "total_mass_kg": 82739942.59379622,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 34.31561710925491,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 15.0,
+          "volume_m3": 39884.73404280966,
+          "total_mass_kg": 82678970.38720244,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 21.8157537259972,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 20.0,
+          "volume_m3": 39847.05485874665,
+          "total_mass_kg": 82610279.25351034,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 23.781102568136046,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 25.0,
+          "volume_m3": 39801.225554577264,
+          "total_mass_kg": 82527438.28129409,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 26.89943028745219,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 30.0,
+          "volume_m3": 39740.83222605741,
+          "total_mass_kg": 82432630.42750765,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 25.50742508801677,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 35.0,
+          "volume_m3": 39678.83852602596,
+          "total_mass_kg": 82338595.02438511,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 29.33643474676057,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 40.0,
+          "volume_m3": 39620.76852594065,
+          "total_mass_kg": 82254625.47375257,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 31.01236505512434,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 45.0,
+          "volume_m3": 39557.973675774636,
+          "total_mass_kg": 82164520.72964716,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 23.940882029085675,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 50.0,
+          "volume_m3": 39487.93118389836,
+          "total_mass_kg": 82069582.29383057,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 20.333931231847036,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 55.0,
+          "volume_m3": 39432.96094783321,
+          "total_mass_kg": 82010159.61353192,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 13.842333137505532,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 60.0,
+          "volume_m3": 39388.53904244978,
+          "total_mass_kg": 81977870.06276721,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 10.436236658670671,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 65.0,
+          "volume_m3": 39347.01984982083,
+          "total_mass_kg": 81943191.39551538,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 9.483609813385108,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 70.0,
+          "volume_m3": 39301.31114810186,
+          "total_mass_kg": 81923526.53809696,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 9.893150845654668,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 75.0,
+          "volume_m3": 39243.03263978592,
+          "total_mass_kg": 81895326.48393936,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 8.181570258404047,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 80.0,
+          "volume_m3": 39194.85477437481,
+          "total_mass_kg": 81871742.92101964,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 8.821940829298175,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 85.0,
+          "volume_m3": 39152.57332840361,
+          "total_mass_kg": 81846759.9598827,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 8.434786027373756,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 90.0,
+          "volume_m3": 39133.7828061999,
+          "total_mass_kg": 81840142.5196522,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 8.317405497779335,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 95.0,
+          "volume_m3": 39107.524265179134,
+          "total_mass_kg": 81838937.65269409,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 8.563101939581964,
+          "amr_patches": 3
+        },
+        {
+          "time_s": 100.0,
+          "volume_m3": 39081.670432199266,
+          "total_mass_kg": 81835317.80797747,
+          "min_depth_m": 0.0,
+          "finite": true,
+          "max_horizontal_speed_m_s": 8.763468053510387,
+          "amr_patches": 3
+        }
+      ],
+      "all_states_finite": true,
+      "minimum_depth_m": 0.0,
+      "end_mass_change_fraction": -0.012127983969369094,
+      "amr_accounting": "Coarse cellcentres coveredby finerpatches excluded; no doublecountingAMRlevels",
+      "optional_plotting_failure_and_bypass": "original numericalsource unchanged; skippedplotonly after registered compatibilityfailure",
+      "local_independent_validation_event": false
+    }
+  ],
+  "validates_local_event_accuracy": false
+}

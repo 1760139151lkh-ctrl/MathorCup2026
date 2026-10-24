@@ -1,0 +1,69 @@
+{
+  "generated_at_utc": "2026-10-24T04:32:19.319060+00:00",
+  "question": "q3",
+  "passed": true,
+  "checks": [
+    {
+      "name": "workspace_and_git_baseline",
+      "passed": true,
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3",
+        "head": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+        "baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+        "branch": "codex/track-b-q3-r1"
+      }
+    },
+    {
+      "name": "frozen_input_hashes",
+      "passed": true,
+      "evidence": {
+        "file_count": 431,
+        "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+        "preparation_commit": "1a31c6f2c3e11fcc32ac870b7a5896a7ef67f06e"
+      }
+    },
+    {
+      "name": "isolated_environment_and_lock",
+      "passed": true,
+      "evidence": {
+        "python": "3.12.14",
+        "prefix": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/.venv",
+        "package_count": 44,
+        "lock_sha256": "5a780bc65de35a11a1eac4ec9370cad50957dcabb8ebe02cecdbfdb550ad645a",
+        "pip_check": "No broken requirements found."
+      }
+    },
+    {
+      "name": "six_real_formats",
+      "passed": true,
+      "evidence": {
+        "formats_read": [
+          "CSV",
+          "XLSX",
+          "SHP",
+          "GeoTIFF",
+          "NetCDF4",
+          "GRIB2"
+        ]
+      }
+    },
+    {
+      "name": "question_file_ownership",
+      "passed": true,
+      "evidence": {
+        "allowed_directory": "track_b/research/q3/",
+        "changed_paths": [
+          "track_b/research/q3/EVALUATION_PROTOCOL.md",
+          "track_b/research/q3/METHOD_OPTIONS.md",
+          "track_b/research/q3/PROPOSALS.md",
+          "track_b/research/q3/config/replay.json",
+          "track_b/research/q3/environment_setup.log",
+          "track_b/research/q3/scripts/audit_replay.py",
+          "track_b/research/q3/workspace_binding.json",
+          "track_b/research/q3/workspace_verification.json"
+        ]
+      }
+    }
+  ],
+  "scope": "Workspace, frozen inputs, environment and technical I/O only; no scientific model acceptance."
+}

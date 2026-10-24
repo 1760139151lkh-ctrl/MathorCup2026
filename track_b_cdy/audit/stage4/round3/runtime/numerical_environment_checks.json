@@ -1,0 +1,90 @@
+{
+  "scope": "runtime environment check only, not event reconstruction, model comparison, or a study-entry gate",
+  "ravaflow": {
+    "source": "officialCascadia",
+    "parameters": {
+      "cellsize_m": 20,
+      "time_output_s": 1,
+      "end_time_s": 5,
+      "phases": 1,
+      "release_argument": "hrelease"
+    },
+    "nout1_success": 1,
+    "fields": [
+      {
+        "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0000.asc",
+        "valid_cells": 16500,
+        "all_finite": true,
+        "min": 0.0,
+        "max": 100.0,
+        "volume_m3": 7957897.6
+      },
+      {
+        "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0001.asc",
+        "valid_cells": 16500,
+        "all_finite": true,
+        "min": 0.0,
+        "max": 100.403,
+        "volume_m3": 7957622.4
+      },
+      {
+        "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0002.asc",
+        "valid_cells": 16500,
+        "all_finite": true,
+        "min": 0.0,
+        "max": 100.021,
+        "volume_m3": 7956766.0
+      },
+      {
+        "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0003.asc",
+        "valid_cells": 16500,
+        "all_finite": true,
+        "min": 0.0,
+        "max": 97.784,
+        "volume_m3": 7955612.8
+      },
+      {
+        "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0004.asc",
+        "valid_cells": 16500,
+        "all_finite": true,
+        "min": 0.0,
+        "max": 94.083,
+        "volume_m3": 7954220.8
+      },
+      {
+        "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0005.asc",
+        "valid_cells": 16500,
+        "all_finite": true,
+        "min": 0.0,
+        "max": 89.775,
+        "volume_m3": 7952655.199999999
+      }
+    ],
+    "all_passed": true
+  },
+  "dclaw": {
+    "source": "official gully; native topology and grid settings; output time truncated for environment check",
+    "end_time_s": 0.1,
+    "bypassed_plot_entry": "call original setinput.maketopo without broken make_plots",
+    "courant_max": 0.02506,
+    "frames": [
+      {
+        "file": "dclaw_selfcheck_results/fort.q0000",
+        "time_s": 0.0,
+        "state_rows": 2932,
+        "all_finite": true,
+        "flow_depth_min": 0.0,
+        "flow_depth_max": 4.0
+      },
+      {
+        "file": "dclaw_selfcheck_results/fort.q0001",
+        "time_s": 0.1,
+        "state_rows": 2932,
+        "all_finite": true,
+        "flow_depth_min": 0.0,
+        "flow_depth_max": 4.000000003118169
+      }
+    ],
+    "all_passed": true
+  }
+}

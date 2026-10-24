@@ -1,0 +1,74 @@
+{
+  "generated_at_utc": "2026-10-24T07:58:51.546532+00:00",
+  "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+  "inspection": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29 linux/amd64",
+  "files": [
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/RUNTIME_HANDOFF.md",
+      "saved_path": "track_b/audit/stage4/round3/runtime/RUNTIME_HANDOFF.md",
+      "bytes": 5218,
+      "sha256": "1b1cd9ac2f9e7e7ec16f9983b53d584b899773c49e8a42887461c5d8885d0f7c"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/runtime_handoff.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime/runtime_handoff.json",
+      "bytes": 8624,
+      "sha256": "cb4bdbbcbcf82993f5d42c4fae3d1a0962618f38fd083bbbc3da444199aa44c6"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/source_versions.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime/source_versions.json",
+      "bytes": 2012,
+      "sha256": "7d71429b432b5ca4699bf0fbc35ffc9457faedc1ee6396023bbde880143c8d2e"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources_manifest.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime/sources_manifest.json",
+      "bytes": 359775,
+      "sha256": "e79251ec549b04ec9545fc81e4fc82873d61384d0d6afddfef04e466eaafa78c"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/benchmarks_manifest.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime/benchmarks_manifest.json",
+      "bytes": 2380,
+      "sha256": "b58b6d9a14d1404c5dcb36d23b98c0e11d9b1cd811b230bcf0c146b4b840b421"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/runtime_checks.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime/runtime_checks.json",
+      "bytes": 2496,
+      "sha256": "bb23399d8fec43a6b9357678a44b327cf4c91b553ab7838e6dbfa7b54d2e3c52"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/numerical_environment_checks.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime/numerical_environment_checks.json",
+      "bytes": 2587,
+      "sha256": "308694427d5c59b8bcf7907487c7476428057936abe0a319dcdc7ee1109473a4"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/dpkg_packages.txt",
+      "saved_path": "track_b/audit/stage4/round3/runtime/dpkg_packages.txt",
+      "bytes": 13918,
+      "sha256": "204be1dc128c69e85bfed676cec960278f70068e657247f907355c85c6ebbce6"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/final_image_inspect.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime/final_image_inspect.json",
+      "bytes": 2343,
+      "sha256": "a8801acadca59142f284ecf23225b99544f19ffca5f5bab3d604c7e5ad73ac4f"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/runtime_evidence_manifest.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime/runtime_evidence_manifest.json",
+      "bytes": 28192,
+      "sha256": "6f4865a234e7a4826bb28d5e95aa2435537d6838fc39b3c270ca1d59bd517c2d"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/rootfs_validation.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime/rootfs_validation.json",
+      "bytes": 163,
+      "sha256": "3f44b1076c26c21eb0634287b1d7161d1973bd9d9e0e24d91032b287ef31e963"
+    }
+  ],
+  "scope": "Versioned runtime evidence and image existence; numerical environment checks do not replace question-level scientific comparison."
+}

@@ -1,0 +1,7 @@
+relation_id,parameter,figure_fit_value_at_lower,figure_fit_value_at_upper,figure_fit_total_drop,figure_fit_percent_drop,table2_total_drop,table2_percent_drop,table2_per_degree_drop,table_total_minus_figure_fit_drop,discrepancy_status,source
+eq6_lowstress_full,c,641.3,90.05,551.25,85.95820988616873,551.3,86.0,73.5,0.049999999999954525,consistent_with_display_rounding,"Article Table2 PDFpage12 vs Fig7 PDFpage11; arithmetic only,no refit"
+eq6_lowstress_full,mu,2.1,0.525,1.5750000000000002,75.00000000000001,1.58,75.0,0.21,0.004999999999999893,consistent_with_display_rounding,"Article Table2 PDFpage12 vs Fig7 PDFpage11; arithmetic only,no refit"
+fig7_green_lowstress_warm,c,383.4,91.15,292.25,76.22587376108504,257.3,74.1,83.5,-34.94999999999999,warm_lowstress_total_and_rate_columns_inconsistent,"Article Table2 PDFpage12 vs Fig7 PDFpage11; arithmetic only,no refit"
+fig7_green_lowstress_warm,mu,1.8,0.47000000000000003,1.33,73.88888888888889,0.74,58.3,0.38,-0.5900000000000001,warm_lowstress_total_and_rate_columns_inconsistent,"Article Table2 PDFpage12 vs Fig7 PDFpage11; arithmetic only,no refit"
+fig7_orange_highstress_warm,c,679.7,176.4,503.30000000000007,74.04737384140063,503.3,74.1,143.8,-5.684341886080802e-14,consistent_with_display_rounding,"Article Table2 PDFpage12 vs Fig7 PDFpage11; arithmetic only,no refit"
+fig7_orange_highstress_warm,mu,0.5900000000000001,0.24,0.3500000000000001,59.32203389830509,0.35,59.3,0.1,-1.1102230246251565e-16,consistent_with_display_rounding,"Article Table2 PDFpage12 vs Fig7 PDFpage11; arithmetic only,no refit"

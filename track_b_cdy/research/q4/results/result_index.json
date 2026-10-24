@@ -1,0 +1,810 @@
+{
+  "schema_version": 1,
+  "contract_version": "stage4-r1-v1",
+  "generated_at_utc": "2026-10-24T04:42:58.807167+00:00",
+  "question": "q4",
+  "research_question": "Terrain and propagation-model feasibility, not event reconstruction",
+  "artifact_count": 22,
+  "artifacts": [
+    {
+      "path": "HANDOFF.md",
+      "bytes": 6254,
+      "sha256": "b46ece1cc12ec84d24164d35249d07ae2b818339b3edd2d508b857c36090031d",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "METHOD_OPTIONS.md",
+      "bytes": 8599,
+      "sha256": "9031942336a546ed2a2962f0072c9d6cedd54dca5a31ad1237a584649ed030fa",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "candidate"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "PROPOSALS.md",
+      "bytes": 3848,
+      "sha256": "b176c3c3d839bdb8bd3c23509c9ac5792b8a0a8a59219922a785679a37f5e47f",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "candidate"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "RESULTS.md",
+      "bytes": 5157,
+      "sha256": "04fc93c93c803bd017185155c6b0e0d46ac7984e42297f653223dd7f8ecfe30e",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "config/feasibility.json",
+      "bytes": 904,
+      "sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "figures/synthetic_numerics.png",
+      "bytes": 118449,
+      "sha256": "e7bfb0e06ae206e1cba0b486a42caa23ae4d0924b324a672f44b0b11102aa54a",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": null,
+        "physical_phase": "synthetic_scalar_advection",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": null,
+          "coordinate_system": "arbitrary synthetic Cartesian x; no event location"
+        },
+        "variable_semantics": {
+          "scalar_units": "1",
+          "x_units": "m",
+          "time_units": "s",
+          "parameters": "arbitrary synthetic test values"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "scenario",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "figures/terrain_feasibility.png",
+      "bytes": 702109,
+      "sha256": "a67e50fafad33c29cbb547a78ab9670b09372db0b2a03e7ecb2332a82fe8adf3",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "results/execution_notes.json",
+      "bytes": 1227,
+      "sha256": "4f02002cb79ba20a0c1de2bbdaa9367be5420c00a2514f063079ed440573495b",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "results/geometry_evidence.csv",
+      "bytes": 2631,
+      "sha256": "27d30c18a37258c577110f2992077372efb740a0dcc71e5c7c5c1025f7c2e90b",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "candidate"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "results/nearest_minus_bilinear_on_nc_grid.tif",
+      "bytes": 64715,
+      "sha256": "403200338524d29d76ca4b9285343358dc47d580548ad3ef61297710a59cbc19",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "results/parameter_evidence.csv",
+      "bytes": 4028,
+      "sha256": "63c6b227695a7b6d73cec3422aa9d8e76511348b1738a28bc69f6a23c2d18633",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "candidate"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "results/run_summary.json",
+      "bytes": 1495,
+      "sha256": "b29a84873daeb94511bc342bb673980fce8c270bef25927178f5b09546eccbb5",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "results/synthetic_advection_frames.nc",
+      "bytes": 11416,
+      "sha256": "e96138c488a25f447dea40f666abf180a8e14e09946f1ae338ba0e19008fde04",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": null,
+        "physical_phase": "synthetic_scalar_advection",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": null,
+          "coordinate_system": "arbitrary synthetic Cartesian x; no event location"
+        },
+        "variable_semantics": {
+          "scalar_units": "1",
+          "x_units": "m",
+          "time_units": "s",
+          "parameters": "arbitrary synthetic test values"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "scenario",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "results/synthetic_grid_checks.csv",
+      "bytes": 489,
+      "sha256": "04b07edf36c53780eeab97a3fbebea54d3b9e31c210a192559e693b3d44929d8",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": null,
+        "physical_phase": "synthetic_scalar_advection",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": null,
+          "coordinate_system": "arbitrary synthetic Cartesian x; no event location"
+        },
+        "variable_semantics": {
+          "scalar_units": "1",
+          "x_units": "m",
+          "time_units": "s",
+          "parameters": "arbitrary synthetic test values"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "scenario",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "results/synthetic_numerics.json",
+      "bytes": 2416,
+      "sha256": "507c1b9bf3a211ad0949b868b144988b795472930f24000bfe51f57218547fd2",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": null,
+        "physical_phase": "synthetic_scalar_advection",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": null,
+          "coordinate_system": "arbitrary synthetic Cartesian x; no event location"
+        },
+        "variable_semantics": {
+          "scalar_units": "1",
+          "x_units": "m",
+          "time_units": "s",
+          "parameters": "arbitrary synthetic test values"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "scenario",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "results/terrain_feasibility.json",
+      "bytes": 10272,
+      "sha256": "2071b8acc428286a93ee160a2563d48297fd204003ab1aadbae2e6bf1966ea2a",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "results/visual_review.json",
+      "bytes": 1104,
+      "sha256": "2379af78c845758d09b6880c79dd1f99c68544937e6106ef7809d89db28c05f3",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "scripts/refresh_index.py",
+      "bytes": 5169,
+      "sha256": "d60a4dfbebd1ddd7348f83104b7c803da7dded6ea8e4aa1b5cce1ca4b506b579",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "scripts/run_feasibility.py",
+      "bytes": 18196,
+      "sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "local_fact"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "sources/cross_question_updates.json",
+      "bytes": 1282,
+      "sha256": "f2e1e976fe3a50892bacc86d49abd7fbf2175bce18664b5545a720cb37a7042c",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "unverified"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "sources/geometry_reading.json",
+      "bytes": 2926,
+      "sha256": "e49d44f43e55c215f36197fe0ff34de26efd35db0c240f4ba0a8b535d5aee1d8",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "external_source"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    },
+    {
+      "path": "sources/model_sources.json",
+      "bytes": 15055,
+      "sha256": "d75c01aec7bb3a0bb0277181bdff2965c4d39e2e90fac643c54dcdba847c50ac",
+      "context": {
+        "input_version": {
+          "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+          "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+          "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+          "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+        },
+        "event_id": "B20260826_Chhochen",
+        "physical_phase": "propagation_feasibility_only",
+        "time_utc": null,
+        "time_uncertainty": null,
+        "space_object": {
+          "crs": "EPSG:32645",
+          "source_area": null,
+          "channel": null,
+          "target_site": null,
+          "note": "Technical parameter grid only; actual event geometry not verified"
+        },
+        "variable_semantics": {
+          "terrain_unit": "m",
+          "vertical_datum": null,
+          "rule": "No merged/corrected terrain or event release state"
+        },
+        "forecast_reference_time": null,
+        "issue_time": null,
+        "valid_time": null,
+        "available_time": null,
+        "data_role": "exploration",
+        "evidence_status": "external_source"
+      },
+      "semantic_note": "Evidence tables preserve per-row provenance and unknowns; index binding does not approve their claims."
+    }
+  ],
+  "operational_evidence": [
+    "workspace_binding.json",
+    "workspace_verification.json",
+    "environment_setup.log"
+  ],
+  "operational_hash_policy": "Operational files are outside this scientific-artifact hash set; latest verification is read directly.",
+  "null_reasons": {
+    "time_utc": "No actual event arrival forecast or initiation estimate was produced.",
+    "space_object": "Release polygon, target point and traced corridor are unverified.",
+    "available_time": "No historical operational availability asserted."
+  },
+  "source_to_port_continuity_verified": false,
+  "event_reconstruction_performed": false,
+  "independent_event_validation_performed": false,
+  "human_core_model_adoption": "pending",
+  "self_hash_policy": "This index excludes itself to avoid recursive hashes."
+}

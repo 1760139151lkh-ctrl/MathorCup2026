@@ -1,0 +1,376 @@
+{
+  "same_grid_verified": true,
+  "nc_parameter_grid_shape_yx": [
+    138,
+    145
+  ],
+  "nc_positive_parameter_mask_cells": 7152,
+  "nc_positive_parameter_mask_area_m2": 6436800.0,
+  "nc_positive_mask_covered_by_independent_dem": true,
+  "full_nc_grid_covered_by_independent_dem": true,
+  "difference_independent_minus_nc_m": {
+    "positive_parameter_mask": {
+      "count": 7152,
+      "minimum": -80.49267578125,
+      "maximum": 109.373046875,
+      "mean": -30.740674695179234,
+      "median": -31.161865234375,
+      "rmse_against_zero": 33.722353852659296,
+      "quantiles_p05_p25_p75_p95": [
+        -50.28463134765625,
+        -36.6976318359375,
+        -25.9910888671875,
+        -11.513183593750007
+      ]
+    },
+    "full_parameter_rectangle": {
+      "count": 20010,
+      "minimum": -231.8212890625,
+      "maximum": 573.44140625,
+      "mean": -13.532393715251748,
+      "median": -29.091796875,
+      "rmse_against_zero": 74.66015247004867,
+      "quantiles_p05_p25_p75_p95": [
+        -59.27374267578125,
+        -37.1815185546875,
+        -17.013427734375,
+        64.8248657226561
+      ]
+    }
+  },
+  "resampling_nearest_minus_prepared_bilinear_m": {
+    "positive_parameter_mask": {
+      "count": 7152,
+      "minimum": -29.91943359375,
+      "maximum": 33.8291015625,
+      "mean": 0.08450262765223014,
+      "median": 0.030517578125,
+      "rmse_against_zero": 5.388230942361182,
+      "quantiles_p05_p25_p75_p95": [
+        -9.299267578125,
+        -2.17431640625,
+        2.56280517578125,
+        8.977758789062499
+      ]
+    },
+    "full_parameter_rectangle": {
+      "count": 20010,
+      "minimum": -52.4990234375,
+      "maximum": 41.8486328125,
+      "mean": -0.47642955865817094,
+      "median": -0.29296875,
+      "rmse_against_zero": 8.547258872084225,
+      "quantiles_p05_p25_p75_p95": [
+        -14.212890625,
+        -5.2523193359375,
+        4.153076171875,
+        13.652465820312495
+      ]
+    }
+  },
+  "raster_inputs": [
+    {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif",
+      "sha256": "7b9e8e53282b2e91d5302e616840c802eda80a963ce0777ddc6da2b65c6db9af",
+      "crs": "EPSG:4326",
+      "shape_yx": [
+        1148,
+        1816
+      ],
+      "transform_gdal": [
+        85.18975577464204,
+        0.0002777467191455384,
+        0.0,
+        28.564382284579324,
+        0.0,
+        -0.00027774196409497727
+      ],
+      "bounds": [
+        85.18975577464204,
+        28.24553450979829,
+        85.69414381661034,
+        28.564382284579324
+      ],
+      "resolution_xy": [
+        0.0002777467191455384,
+        0.00027774196409497727
+      ],
+      "nodata": -32767.0,
+      "valid_cells": 2084768,
+      "total_cells": 2084768,
+      "values": {
+        "count": 2084768,
+        "minimum": 1620.91015625,
+        "maximum": 7254.47705078125,
+        "mean": 4538.389259184501,
+        "median": 4690.61083984375,
+        "rmse_against_zero": 4647.424709220145,
+        "quantiles_p05_p25_p75_p95": [
+          2795.8769653320314,
+          3805.3219604492188,
+          5320.8087158203125,
+          5940.2677001953125
+        ]
+      },
+      "acquisition_date_verified": false,
+      "vertical_datum_verified": false
+    },
+    {
+      "path": "track_b/data/processed/spatial/dem_utm45_30m.tif",
+      "sha256": "eaf39d044af5580fb12b7b991bdadf4da54294f8f78a818c15fff0f6390c2e95",
+      "crs": "EPSG:32645",
+      "shape_yx": [
+        1199,
+        1663
+      ],
+      "transform_gdal": [
+        322400.8611877846,
+        30.0,
+        0.0,
+        3161062.2250913926,
+        0.0,
+        -30.0
+      ],
+      "bounds": [
+        322400.8611877846,
+        3125092.2250913926,
+        372290.8611877846,
+        3161062.2250913926
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "nodata": -9999.0,
+      "valid_cells": 1940245,
+      "total_cells": 1993937,
+      "values": {
+        "count": 1940245,
+        "minimum": 1620.9776611328125,
+        "maximum": 7253.0966796875,
+        "mean": 4538.075507126527,
+        "median": 4690.16943359375,
+        "rmse_against_zero": 4647.132784958483,
+        "quantiles_p05_p25_p75_p95": [
+          2795.73603515625,
+          3804.77880859375,
+          5320.66259765625,
+          5940.145800781249
+        ]
+      },
+      "acquisition_date_verified": false,
+      "vertical_datum_verified": false
+    },
+    {
+      "path": "track_b/data/processed/spatial/dem_on_nc_grid.tif",
+      "sha256": "dd4204378ba7740f45525994bb8cf158857126a7bb49aee908cc56d0981b1327",
+      "crs": "EPSG:32645",
+      "shape_yx": [
+        138,
+        145
+      ],
+      "transform_gdal": [
+        353442.5,
+        30.0,
+        0.0,
+        3132057.5,
+        0.0,
+        -30.0
+      ],
+      "bounds": [
+        353442.5,
+        3127917.5,
+        357792.5,
+        3132057.5
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "nodata": -9999.0,
+      "valid_cells": 20010,
+      "total_cells": 20010,
+      "values": {
+        "count": 20010,
+        "minimum": 3565.518310546875,
+        "maximum": 6370.39599609375,
+        "mean": 4977.651568051423,
+        "median": 5160.140380859375,
+        "rmse_against_zero": 5019.8071744764,
+        "quantiles_p05_p25_p75_p95": [
+          3758.9894775390626,
+          4493.025634765625,
+          5423.6583251953125,
+          5941.64716796875
+        ]
+      },
+      "acquisition_date_verified": false,
+      "vertical_datum_verified": false
+    },
+    {
+      "path": "track_b/data/processed/spatial/nc_dem_native_grid.tif",
+      "sha256": "51316ce445f89016d79dcbb5baa12e2444e6eef90448d4f46825cd9d77f80d20",
+      "crs": "EPSG:32645",
+      "shape_yx": [
+        138,
+        145
+      ],
+      "transform_gdal": [
+        353442.5,
+        30.0,
+        0.0,
+        3132057.5,
+        0.0,
+        -30.0
+      ],
+      "bounds": [
+        353442.5,
+        3127917.5,
+        357792.5,
+        3132057.5
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "nodata": "nan",
+      "valid_cells": 20010,
+      "total_cells": 20010,
+      "values": {
+        "count": 20010,
+        "minimum": 3551.765869140625,
+        "maximum": 6458.126953125,
+        "mean": 4991.183961766676,
+        "median": 5172.838134765625,
+        "rmse_against_zero": 5032.166431131485,
+        "quantiles_p05_p25_p75_p95": [
+          3786.3599365234377,
+          4507.981201171875,
+          5431.6815185546875,
+          5951.997900390625
+        ]
+      },
+      "acquisition_date_verified": false,
+      "vertical_datum_verified": false
+    },
+    {
+      "path": "track_b/data/processed/spatial/nc_glacier_mask.tif",
+      "sha256": "88f91bb215d00f9773933befb27ba85dba250198e28ded265f5d9f0d20b12732",
+      "crs": "EPSG:32645",
+      "shape_yx": [
+        138,
+        145
+      ],
+      "transform_gdal": [
+        353442.5,
+        30.0,
+        0.0,
+        3132057.5,
+        0.0,
+        -30.0
+      ],
+      "bounds": [
+        353442.5,
+        3127917.5,
+        357792.5,
+        3132057.5
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "nodata": 0.0,
+      "valid_cells": 7152,
+      "total_cells": 20010,
+      "values": {
+        "count": 7152,
+        "minimum": 1.0,
+        "maximum": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "rmse_against_zero": 1.0,
+        "quantiles_p05_p25_p75_p95": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "acquisition_date_verified": false,
+      "vertical_datum_verified": false
+    }
+  ],
+  "netcdf_semantics": {
+    "path": "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+    "sha256": "0a57192a65557f052dbc0bfbca71687ad1d158d4edaa363f26b3d65f337f32c8",
+    "dimensions": {
+      "y": 138,
+      "x": 145
+    },
+    "no_time_dimension": true,
+    "velocity_description": "determined by taking the hypotenuse of vx and vy. The climatology uses a time-intercept of January 1, 2018.",
+    "velocity_units": "meter/year",
+    "mask_description": "Glacier mask derived from the Randolph Glacier Inventory 6.0 (combining RGI60-15.04172, RGI60-15.04173, RGI60-15.04174, and RGI60-15.04175)",
+    "thickness_description": "Ice thickness data from A consensus estimate for the ice thickness distribution of all glaciers on Earth (Farinotti et al., 2019).",
+    "thickness_units": "m",
+    "thickness_on_inventory_mask_m": {
+      "count": 7152,
+      "minimum": 6.0,
+      "maximum": 154.0,
+      "mean": 49.58710850111857,
+      "median": 43.0,
+      "rmse_against_zero": 57.4927033109809,
+      "quantiles_p05_p25_p75_p95": [
+        16.0,
+        27.0,
+        65.0,
+        111.44999999999982
+      ]
+    },
+    "climatological_speed_on_inventory_mask_m_per_year": {
+      "count": 7152,
+      "minimum": 0.07501044124364853,
+      "maximum": 55.828922271728516,
+      "mean": 7.840962957783542,
+      "median": 2.0281386375427246,
+      "rmse_against_zero": 13.543221510964319,
+      "quantiles_p05_p25_p75_p95": [
+        0.34427821785211565,
+        0.8049838989973068,
+        10.178314924240112,
+        33.05958557128906
+      ]
+    },
+    "release_volume_inferred": false
+  },
+  "technical_window_io": {
+    "window_shape": [
+      128,
+      128
+    ],
+    "read_repetitions": 30,
+    "seconds": {
+      "count": 30,
+      "minimum": 0.00014717201702296734,
+      "maximum": 0.007265964988619089,
+      "mean": 0.0004605709264675776,
+      "median": 0.00016350892838090658,
+      "rmse_against_zero": 0.0013493930523918406,
+      "quantiles_p05_p25_p75_p95": [
+        0.00014799066120758654,
+        0.00015172356506809592,
+        0.00029163487488403916,
+        0.0005243970430456097
+      ]
+    },
+    "cache_state": "warm/mixed OS-GDAL cache; not a simulation benchmark"
+  },
+  "terrain_correction_applied": false,
+  "hydrological_conditioning_applied": false,
+  "source_polygon_verified": false,
+  "port_point_verified": false,
+  "channel_centreline_verified": false,
+  "source_to_port_continuity_verified": false,
+  "actual_path_distance_m": null,
+  "interpretation": "Local grid support is verified; event release geometry, complete propagation corridor and vertical datum are not."
+}

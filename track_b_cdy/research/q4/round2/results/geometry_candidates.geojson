@@ -1,0 +1,363 @@
+{
+  "type": "FeatureCollection",
+  "name": "q4-r2-fig1-candidates-v1",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "paper_source_outline",
+      "properties": {
+        "space_id": "paper_source_outline",
+        "object_kind": "source_outline",
+        "version": "q4-r2-fig1-candidates-v1",
+        "event_id": "B20260826_Chhochen",
+        "data_role": "exploration",
+        "evidence_status": "candidate",
+        "geometry_status": "retrospective_reconstruction_candidate",
+        "accepted_event_geometry": false,
+        "source_pdf_page": 6,
+        "source_doi": "10.1007/s11629-026-1482-y",
+        "georeference_review_sha256": "beda557273033ea212d6fcd523661864220f79aee095541db5c48b79b246ee68",
+        "positional_uncertainty_m": null,
+        "phase_time_utc": null,
+        "source_datum_verified": false,
+        "target_definition": null,
+        "actual_failure_area_or_path_distance": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.5193055248128,
+              28.283882394615645
+            ],
+            [
+              85.52100583786192,
+              28.287991498405937
+            ],
+            [
+              85.52199768714058,
+              28.2908253630889
+            ],
+            [
+              85.52383969294381,
+              28.293234148069416
+            ],
+            [
+              85.52724031904208,
+              28.293942614240155
+            ],
+            [
+              85.52993248136988,
+              28.293517534537713
+            ],
+            [
+              85.53049925238626,
+              28.29011689691816
+            ],
+            [
+              85.53021586687807,
+              28.286149486362014
+            ],
+            [
+              85.52766539730436,
+              28.28501594048883
+            ],
+            [
+              85.52511492773067,
+              28.28416578108394
+            ],
+            [
+              85.52270615091106,
+              28.28274884874246
+            ],
+            [
+              85.52043906684554,
+              28.282465462274164
+            ],
+            [
+              85.5193055248128,
+              28.283882394615645
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "paper_port_symbol",
+      "properties": {
+        "space_id": "paper_port_symbol",
+        "object_kind": "target_representative_point",
+        "version": "q4-r2-fig1-candidates-v1",
+        "event_id": "B20260826_Chhochen",
+        "data_role": "exploration",
+        "evidence_status": "candidate",
+        "geometry_status": "retrospective_reconstruction_candidate",
+        "accepted_event_geometry": false,
+        "source_pdf_page": 6,
+        "source_doi": "10.1007/s11629-026-1482-y",
+        "georeference_review_sha256": "beda557273033ea212d6fcd523661864220f79aee095541db5c48b79b246ee68",
+        "positional_uncertainty_m": null,
+        "phase_time_utc": null,
+        "source_datum_verified": false,
+        "target_definition": "paper port cartographic symbol representative point; exact facility/bridge/protection object unknown",
+        "actual_failure_area_or_path_distance": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.37860461999686,
+          28.279348211122905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "paper_junction",
+      "properties": {
+        "space_id": "paper_junction",
+        "object_kind": "junction",
+        "version": "q4-r2-fig1-candidates-v1",
+        "event_id": "B20260826_Chhochen",
+        "data_role": "exploration",
+        "evidence_status": "candidate",
+        "geometry_status": "retrospective_reconstruction_candidate",
+        "accepted_event_geometry": false,
+        "source_pdf_page": 6,
+        "source_doi": "10.1007/s11629-026-1482-y",
+        "georeference_review_sha256": "beda557273033ea212d6fcd523661864220f79aee095541db5c48b79b246ee68",
+        "positional_uncertainty_m": null,
+        "phase_time_utc": null,
+        "source_datum_verified": false,
+        "target_definition": null,
+        "actual_failure_area_or_path_distance": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4848741855678,
+          28.33049946865036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "paper_chhochen_blue_trace",
+      "properties": {
+        "space_id": "paper_chhochen_blue_trace",
+        "object_kind": "channel_candidate",
+        "version": "q4-r2-fig1-candidates-v1",
+        "event_id": "B20260826_Chhochen",
+        "data_role": "exploration",
+        "evidence_status": "candidate",
+        "geometry_status": "retrospective_reconstruction_candidate",
+        "accepted_event_geometry": false,
+        "source_pdf_page": 6,
+        "source_doi": "10.1007/s11629-026-1482-y",
+        "georeference_review_sha256": "beda557273033ea212d6fcd523661864220f79aee095541db5c48b79b246ee68",
+        "positional_uncertainty_m": null,
+        "phase_time_utc": null,
+        "source_datum_verified": false,
+        "target_definition": null,
+        "actual_failure_area_or_path_distance": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.51250427261624,
+            28.28331562167905
+          ],
+          [
+            85.51321273638672,
+            28.2869996457669
+          ],
+          [
+            85.51222088710806,
+            28.29139213602549
+          ],
+          [
+            85.50981211028845,
+            28.294651080410897
+          ],
+          [
+            85.50740333346884,
+            28.299043570669486
+          ],
+          [
+            85.50386101461648,
+            28.302302515054894
+          ],
+          [
+            85.5006020812723,
+            28.30740347148422
+          ],
+          [
+            85.4980516116986,
+            28.310379029401332
+          ],
+          [
+            85.49620960589537,
+            28.31434643995748
+          ],
+          [
+            85.49380082907577,
+            28.31803046404533
+          ],
+          [
+            85.49068358848568,
+            28.32157279489903
+          ],
+          [
+            85.48827481166607,
+            28.324831739284434
+          ],
+          [
+            85.48629111310875,
+            28.327807297201545
+          ],
+          [
+            85.4848741855678,
+            28.33049946865036
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "paper_lende_blue_trace",
+      "properties": {
+        "space_id": "paper_lende_blue_trace",
+        "object_kind": "channel_candidate",
+        "version": "q4-r2-fig1-candidates-v1",
+        "event_id": "B20260826_Chhochen",
+        "data_role": "exploration",
+        "evidence_status": "candidate",
+        "geometry_status": "retrospective_reconstruction_candidate",
+        "accepted_event_geometry": false,
+        "source_pdf_page": 6,
+        "source_doi": "10.1007/s11629-026-1482-y",
+        "georeference_review_sha256": "beda557273033ea212d6fcd523661864220f79aee095541db5c48b79b246ee68",
+        "positional_uncertainty_m": null,
+        "phase_time_utc": null,
+        "source_datum_verified": false,
+        "target_definition": null,
+        "actual_failure_area_or_path_distance": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4848741855678,
+            28.33049946865036
+          ],
+          [
+            85.47934816815811,
+            28.332766560396728
+          ],
+          [
+            85.47368045799433,
+            28.334183492738205
+          ],
+          [
+            85.46730428406008,
+            28.335317038611393
+          ],
+          [
+            85.461211495634,
+            28.335175345377245
+          ],
+          [
+            85.45426855068337,
+            28.33616719801628
+          ],
+          [
+            85.4481757622573,
+            28.335600425079686
+          ],
+          [
+            85.44208297383123,
+            28.335458731845538
+          ],
+          [
+            85.43655695642155,
+            28.333900106269912
+          ],
+          [
+            85.43159771002824,
+            28.331207934821098
+          ],
+          [
+            85.42706354189721,
+            28.33049946865036
+          ],
+          [
+            85.422245988258,
+            28.329932695713765
+          ],
+          [
+            85.41742843461878,
+            28.32936592277717
+          ],
+          [
+            85.41402780852052,
+            28.32681544456251
+          ],
+          [
+            85.41218580271727,
+            28.32313142047466
+          ],
+          [
+            85.41218580271727,
+            28.319022316684364
+          ],
+          [
+            85.41246918822547,
+            28.31491321289407
+          ],
+          [
+            85.41190241720909,
+            28.311512575274516
+          ],
+          [
+            85.4089268693731,
+            28.308253630889112
+          ],
+          [
+            85.40793502009444,
+            28.304144527098817
+          ],
+          [
+            85.40481777950437,
+            28.299326957137783
+          ],
+          [
+            85.39985853311106,
+            28.294651080410897
+          ],
+          [
+            85.39560775048821,
+            28.29011689691816
+          ],
+          [
+            85.38994004032443,
+            28.2869996457669
+          ],
+          [
+            85.38653941422616,
+            28.28402408784979
+          ],
+          [
+            85.38228863160333,
+            28.28147360963513
+          ],
+          [
+            85.37860461999686,
+            28.279348211122905
+          ]
+        ]
+      }
+    }
+  ]
+}

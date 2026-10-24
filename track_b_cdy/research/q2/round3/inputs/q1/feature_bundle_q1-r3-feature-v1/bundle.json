@@ -1,0 +1,127 @@
+{
+  "bundle_version": "q1-r3-feature-v1",
+  "producer_question": "q1",
+  "input_version": {
+    "common_baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+    "experiment_config_sha256": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b",
+    "experiment_protocol_sha256": "6cf85e7c17319f50a05ca957666265fb34dbb58b1cd089391c5fcb86f81b3e24"
+  },
+  "evaluation_stratum": "local_observational",
+  "event_id": "B20260826_Chhochen_case_reference_not_independent_truth",
+  "physical_phase": "background",
+  "data_role": "exploration",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "available_time": null,
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "space_object": {
+    "id": "Gyirong_regional_background",
+    "crs": null,
+    "longitude": 85.29,
+    "latitude": 28.86,
+    "elevation_m": 4140,
+    "coordinate_datum_status": "unknown; metadata provides coordinates but no datum or positional error",
+    "status": "metadata assertion; source-area representativeness unverified"
+  },
+  "model_id": "not_applicable_feature_extraction",
+  "mechanism_id": "not_applicable_statistical_case_anomaly",
+  "experiment_id": "q1-r3-three-route-v1",
+  "scenario_id": "regional_observational_case",
+  "geometry_version": "Gyirong_metadata_unverified_local_equivalence",
+  "parameter_version": "q1-r3-protocol-v1",
+  "variable_semantics": {
+    "driver_configuration": "track_b/research/q1/round3/config/features.json",
+    "timestamp_integration_interval": null,
+    "quality_view": "original_qc_view plus separate unknown_qc_exploration; original 37 QC columns remain QC0 in both"
+  },
+  "files": [
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/config/features.json",
+      "bytes": 14787,
+      "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c",
+      "role": "frozen_driver_definitions",
+      "upstream_path": "track_b/research/q1/round3/config/features.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/scripts/build_features.py",
+      "bytes": 30508,
+      "sha256": "dbea3bca9f519e43b065481b433372d7abdab3e8f789cf1a1804d09589a3aeb0",
+      "role": "offline_feature_builder",
+      "upstream_path": "track_b/research/q1/round3/scripts/build_features.py"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_contract.csv",
+      "bytes": 58398,
+      "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb",
+      "role": "feature_definitions",
+      "upstream_path": "track_b/research/q1/round3/results/feature_contract.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/variable_family_map.csv",
+      "bytes": 12742,
+      "sha256": "0b339b5b813a3cf95673acbb18168589aaaae81fde3d95005824e967f7e22e15",
+      "role": "all_input_variables_selection_and_exclusion",
+      "upstream_path": "track_b/research/q1/round3/results/variable_family_map.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/features.parquet",
+      "bytes": 1435260,
+      "sha256": "7300b94b5f537873a6b4d1ecaf46015fa130e8e28aa9464e098e219f52833079",
+      "role": "wide_features_by_sample",
+      "upstream_path": "track_b/research/q1/round3/results/features.parquet"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/sample_metadata.csv",
+      "bytes": 1188914,
+      "sha256": "06c7b1273240779fcbde4a9777a878124fd9de47d5a4faff190f5118e73625b5",
+      "role": "time_support_process_and_anchor_metadata",
+      "upstream_path": "track_b/research/q1/round3/results/sample_metadata.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_support.csv",
+      "bytes": 11289057,
+      "sha256": "8e8306d6c8bfcb8d3156cbd521dbff001c5e86413ab62bedb6cdcf81db2737b9",
+      "role": "driver_validity_coverage_and_gap_counts",
+      "upstream_path": "track_b/research/q1/round3/results/feature_support.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_extrema.csv",
+      "bytes": 12646116,
+      "sha256": "09ae88b26738bb526ab9bc829c2b8917cf957e13edfa70df985c4ad7b5f8b664",
+      "role": "diagnostic_driver_extrema",
+      "upstream_path": "track_b/research/q1/round3/results/feature_extrema.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_build_validation.json",
+      "bytes": 27873,
+      "sha256": "c19c74937b4052ec9a4b104199d0bde4998af27bda904b5c959b900045800f98",
+      "role": "executed_feature_checks",
+      "upstream_path": "track_b/research/q1/round3/results/feature_build_validation.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/exports/hourly_drivers.parquet",
+      "bytes": 260088,
+      "sha256": "9580f4ab81903e0bbdcea3b274815128b7bfc99a08972a59c933c51a487a059d",
+      "role": "2026_regional_hourly_drivers",
+      "upstream_path": "track_b/research/q1/round3/exports/hourly_drivers.parquet"
+    }
+  ],
+  "limitations": [
+    "Hourly labels do not prove averaging or accumulation intervals",
+    "available_time unknown: cannot establish historical operational eligibility",
+    "Regional station drivers do not constitute measured source-area forcing",
+    "No precipitation accumulation or energy integral was constructed",
+    "No coverage cutoff in this bundle; downstream applies preregistered 0.75/0.50/0.90 thresholds",
+    "Background windows/weather blocks are not independent disaster labels",
+    "Feature extraction does not select a final scientific model or factor ranking",
+    "Existing v1 bytes are immutable; changed outputs require a new bundle version and paths"
+  ],
+  "advisor_review": {
+    "upstream_bundle_sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+    "note": "Accepted as regional-station feature definitions, QC-separated numerical features and support metadata only. No ranking or source-area representation is accepted here. Available time and hourly integration semantics remain unknown; downstream must apply registered coverage thresholds, and precipitation is label statistics rather than an accepted accumulated rainfall input.",
+    "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+  }
+}

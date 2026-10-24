@@ -1,0 +1,241 @@
+{
+  "schema_version": "q4-r3-source-register-v1",
+  "generated_at_utc": "2026-10-24T11:33:33.576869+00:00",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+    "frozen_file_count": 725
+  },
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "bulk_release_propagation_and_target_arrival",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "primary_geometry_version": "q4-r3-spatial-copdem-v1",
+    "position_uncertainty_m": null,
+    "event_truth_accepted": false
+  },
+  "variable_semantics": {
+    "units": "m, m/s, seconds after bulk release, m3, kg; model-specific definitions retained",
+    "forecast_role": "not a forecast of mechanical initiation"
+  },
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "available_time": null,
+  "data_role": "scenario",
+  "evidence_status": "candidate",
+  "evaluation_stratum": "conditional_scenario; local products/external_transfer/numerical_benchmark individually labelled",
+  "initiation_to_release_delay_seconds": null,
+  "human_scientific_adoption": "pending_team_review",
+  "records": [
+    {
+      "path": "track_b/research/q4/round3/sources/advisor_interface_receipts.json",
+      "bytes": 1139,
+      "sha256": "99f6d651f694ddd9f1bb33fc31b05befae1eb772c052fcbcdbbd343be9a8ecb4",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/dclaw_mass_source_audit.json",
+      "bytes": 314794,
+      "sha256": "9d98af6906ca6bc4fc82c3909bbdfe4ba0aff193bfd460392cf73d5b14f4b933",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/model_qualification_evidence_05.json",
+      "bytes": 52044,
+      "sha256": "e80f8060ca73ae8f1331c86673bd94b993f1d504e32417492c909ac746a89bb5",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/official_ascii_georeference_review.json",
+      "bytes": 2578,
+      "sha256": "f8363af6f15283b42644e8f46b18ec4ea0637be1f26749d7b79219038ab02169",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/official_container_context.json",
+      "bytes": 622,
+      "sha256": "d952b069b248d901994a289cc8f89aedf6e54bdb9e6a6838a55e8815e1476567",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/official_csurface_source_evidence.json",
+      "bytes": 4664,
+      "sha256": "21bc29cf34817cdd7c82066549eb41eb492f6d9152ffe27eadbb3179558f7cd7",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/official_dclaw_mass_paths.json",
+      "bytes": 8413,
+      "sha256": "208d546c62f8a4eeec25b2e15c3a842da7d744099724cb8a26072406020d0911",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/official_image.json",
+      "bytes": 405,
+      "sha256": "7b3779ba5f31b5020d27ee4ad7f54c7890d30111af2587f7555dc246d66e916d",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/official_material_closure_supplement.json",
+      "bytes": 994,
+      "sha256": "1824131acd650ae5d5b4b9e05fb96e02eb2d2f30fb1b0cd052dc0951b840aa37",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/official_runtime_resourcefix.md",
+      "bytes": 5594,
+      "sha256": "64e1131bd36b08459d0162c24bd3f081a35bb29dd5679457a7f9311509188d65",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/official_runtime_resourcefix_handoff.json",
+      "bytes": 4752,
+      "sha256": "41b816bdb13d5abf9bd65998b3fae7e738556e731cbf86711bf184f7546c92b7",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/official_source_identity.json",
+      "bytes": 3110,
+      "sha256": "e618723fd94a767333cefd13dc01fa4cdc50ad56e1391f963d3c461ca63994e6",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/optical_role_filter_correction.json",
+      "bytes": 1291,
+      "sha256": "0d7b99bc2f7e43293dfe85a5449da49bf4a35b2e9970532ea62c0719fd82a2a4",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/paper_constraints.json",
+      "bytes": 2859,
+      "sha256": "119c68a65f169cd18370301c6408bbf62cfc824c7c6c474d7d5f36096c0d70bc",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/q2_compact_budget_review_v1.json",
+      "bytes": 11408,
+      "sha256": "bd8aba9310c741517fc91b1eea44910828cdfcd5be95c4bd2a5362a918a757a7",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/runtime_guide_snapshot.md",
+      "bytes": 5218,
+      "sha256": "1b1cd9ac2f9e7e7ec16f9983b53d584b899773c49e8a42887461c5d8885d0f7c",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/runtime_ready_snapshot.json",
+      "bytes": 8624,
+      "sha256": "cb4bdbbcbcf82993f5d42c4fae3d1a0962618f38fd083bbbc3da444199aa44c6",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/runtime_resourcefix_guide_snapshot.md",
+      "bytes": 5594,
+      "sha256": "64e1131bd36b08459d0162c24bd3f081a35bb29dd5679457a7f9311509188d65",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/runtime_resourcefix_snapshot.json",
+      "bytes": 4752,
+      "sha256": "41b816bdb13d5abf9bd65998b3fae7e738556e731cbf86711bf184f7546c92b7",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_acquisition.json",
+      "bytes": 3109,
+      "sha256": "fc51c90c339501e5eb02866990b5681e7fe7255a0d99b5ddb3e59d993f3d0b3c",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_auxiliary_acquisition.json",
+      "bytes": 4478,
+      "sha256": "ec58dcaff39d3c04609cd234c145448ec9d62b31aefd6996dff3020cecc43cf0",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_optical_osm_acquisition.json",
+      "bytes": 4477,
+      "sha256": "7871dae669cf8f2a50c5504136cda5eb8d75b71f163e34b584e2a56a761a4753",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_optical_reads.json",
+      "bytes": 4199,
+      "sha256": "92ed9ff576235ba97ddddc42f461313f272066ec37551c83c8d0df1dd639cd64",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_osm_direct.json",
+      "bytes": 428,
+      "sha256": "08e6f672a19409159cc9661be07715a1ea2911d89c7f8a57136365587b8bfa1e",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_product_documentation.json",
+      "bytes": 1390,
+      "sha256": "54a44f30c69bf45bae1c16e153610bf50aaf6f1b83004bf66325be8708505078",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_radiometry_acquisition.json",
+      "bytes": 1340,
+      "sha256": "be3137a902ca59966192f25cb9daef9707a827abb6895ffa73ff7fe48804f416",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_spectral_reads.json",
+      "bytes": 5280,
+      "sha256": "d9e38ada55203f1c9a8efe80a348bdcf6f207ae0d24c2c13ef997274657c5ceb",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_target_schema_revision.json",
+      "bytes": 1672,
+      "sha256": "702342ef02fa1dbc1b0b79ebc6137b31b15d5429680d33f42c53716f8f245e08",
+      "role": "source_record_or_read_time_receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/startup_workspace_verification.json",
+      "bytes": 1805,
+      "sha256": "1d7f61686c48d89ec86fee5f5326daa73325cb28cb6697f59937fc0d533d4c6f",
+      "role": "source_record_or_read_time_receipt"
+    }
+  ],
+  "subpacket_source_indices": [
+    {
+      "path": "track_b/research/q4/round3/results/spatial_source_index.json",
+      "bytes": 17692,
+      "sha256": "a1096013df0785fb19887cdcd4763388de3be11f8907962ecb2e91c0bc6cc109",
+      "role": "source_or_artifact_subindex"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_supplement_bundle_v2.json",
+      "bytes": 7160,
+      "sha256": "81273f2f7f19ff5e598674542504ed012d96c4db7766224b7299a8351fd027ff",
+      "role": "source_or_artifact_subindex"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/reduced_delivery_index.json",
+      "bytes": 43442,
+      "sha256": "cd82c52cc772ed7702a6f4452f4bfbbe5c9a092bbbeeed46d356d09709a4a7dc",
+      "role": "source_or_artifact_subindex"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_fields.json",
+      "bytes": 94708,
+      "sha256": "b6d793011f2ac5f13c41230869ae27d1897e794c66be4618fa0c4f843d914b03",
+      "role": "source_or_artifact_subindex"
+    }
+  ],
+  "source_metadata_policy": "Canonical URL/product/version/retrieval UTC/actual read scope/bytes/hash and availability are in individually bound records; null is not acceptance.",
+  "scientific_source_limitations": [
+    "No accepted independent local event validation",
+    "Optical47day vegetation-change screen is not event truth",
+    "OSM edit date is not observation/historical availability",
+    "Raw failed/rejected diagnostics retained with explicit status"
+  ],
+  "self_included": false
+}

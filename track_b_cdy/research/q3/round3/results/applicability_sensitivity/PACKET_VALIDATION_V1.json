@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-10-24T09:58:06.992565+00:00",
+  "checks": {
+    "aggregation_checks": true,
+    "explicit_mixture_and_unknown_mass_audit": true,
+    "independent_readonly_boundary_and_full_output_review": true,
+    "standard_five_checks": true,
+    "original_packet_all_hashes_preserved": true,
+    "registered_inputs_or_exact_protocol_snapshot_verified": true,
+    "primary_source_cache_hash_verified": true,
+    "final_figure_actually_opened": true
+  },
+  "passed": true,
+  "aggregation_check_count": 9,
+  "mass_audit_check_count": 4,
+  "standard_workspace_check_count": 5,
+  "input_manifest_sha256": "90e31f97eae5f2d668c71f7401500c0b16ca5eebf09e3509ca5777ab6644a8bb",
+  "output_manifest_sha256": "8814c76aee4d6db85d35c80050d9f4f9798fac1838d927deac440bcd9b4e55d3",
+  "bundle_sha256": "c96e82632b461d913831eec2b736c318ead8a180f950735ccc4aa48eb082c157",
+  "original_research_commit": "bb9258d791a6e9735c28528ff4408c7434c3d149",
+  "physics_rerun": false,
+  "local_truth_events": 0,
+  "empirical_coverage": null
+}

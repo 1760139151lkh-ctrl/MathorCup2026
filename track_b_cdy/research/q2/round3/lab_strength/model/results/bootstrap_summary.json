@@ -1,0 +1,1138 @@
+[
+  {
+    "domain": "low_full",
+    "model": "mc_linear",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        15.61605264800042,
+        -544.4098878701597,
+        121.13765138934835,
+        -398.73222430483435
+      ],
+      [
+        137.99225677540818,
+        -393.5090087810896,
+        330.7880656567461,
+        -104.82520784783411
+      ],
+      [
+        264.68068490687904,
+        -241.9998652848103,
+        536.4003976207025,
+        136.8985284393931
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_full",
+    "model": "mc_linear",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        -6.528585592990193,
+        -532.7132494282828,
+        74.7777904158461,
+        -389.0173118845775
+      ],
+      [
+        150.56261209225408,
+        -380.9214760634454,
+        312.78020900184936,
+        -122.69657012484645
+      ],
+      [
+        281.0113033518126,
+        -235.79715842361992,
+        569.9691417658205,
+        121.30819930952298
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_full",
+    "model": "mc_temperature_quadratic",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        18.66789062545015,
+        -824.9391192222479,
+        -243.75933754888965,
+        -1881.8934484320748,
+        -218.90846643101722,
+        -857.642749804702
+      ],
+      [
+        149.63696516496935,
+        -352.7789561653615,
+        -37.11006960294347,
+        -1140.851338797886,
+        17.443377839069434,
+        -480.04065717125025
+      ],
+      [
+        294.993795319557,
+        162.54134486037717,
+        159.76319231958252,
+        -316.66719273675955,
+        274.6349378783494,
+        -46.86153957165249
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_full",
+    "model": "mc_temperature_quadratic",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        50.928557323006906,
+        -651.4762237013728,
+        -215.1788284789459,
+        -1865.902296722696,
+        -167.95833350353618,
+        -843.219242930202
+      ],
+      [
+        156.22511911799438,
+        -338.5904304515676,
+        -43.43800926564079,
+        -1159.3949468710425,
+        14.753095895654123,
+        -492.1616321535463
+      ],
+      [
+        244.3330580045682,
+        -46.603120945602235,
+        165.64065694569516,
+        -291.79701021158843,
+        197.15597017731193,
+        19.58641196866542
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_full",
+    "model": "mc_stress_quadratic",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        119.31738248515472,
+        -308.75417159779994,
+        -2543.570404275731,
+        -3294.6548039485556,
+        -140.62751545721378,
+        255.64742112852292
+      ],
+      [
+        458.3794611032258,
+        74.71424954161722,
+        -981.9789210500599,
+        -2007.0657741277541,
+        978.5348450772187,
+        1397.1626608550519
+      ],
+      [
+        833.2277756435983,
+        405.48852995757653,
+        417.75047522264816,
+        -564.2483596678529,
+        2164.8735539140384,
+        2440.295370901226
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_full",
+    "model": "mc_stress_quadratic",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        223.67936196681117,
+        -278.101254950124,
+        -2125.4121842061927,
+        -2897.880830290423,
+        107.81803035264578,
+        482.50556904091064
+      ],
+      [
+        453.2377187391952,
+        65.14222353886542,
+        -1009.8083459104021,
+        -1947.6042796945198,
+        983.0613651681915,
+        1365.9664229147334
+      ],
+      [
+        771.5446702152448,
+        363.64402453016373,
+        104.1532094081501,
+        -651.1998909453664,
+        1903.2906693350558,
+        1999.6622490829495
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_full",
+    "model": "mc_stress_hinge_400",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        78.25662511706157,
+        -506.29910268778457,
+        -423.62110504299613,
+        -948.2310475858266,
+        -3488.011738829375,
+        -3300.80165897265
+      ],
+      [
+        251.5715464024026,
+        -296.43241316994124,
+        32.421467690128615,
+        -382.52271991558564,
+        4851.647412798462,
+        4146.307653096155
+      ],
+      [
+        427.2435291737515,
+        -63.36703788512978,
+        438.040629186972,
+        50.68032622795473,
+        11816.450776979686,
+        11198.335787825823
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_full",
+    "model": "mc_stress_hinge_400",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        134.7770977304273,
+        -455.3674683489711,
+        -438.3764047793851,
+        -1102.3895354991357,
+        -2562.03194928422,
+        -3340.004194445122
+      ],
+      [
+        254.6490186273504,
+        -289.2621503381518,
+        19.711215282267723,
+        -376.77711599945883,
+        5128.576430645977,
+        4401.243650267443
+      ],
+      [
+        423.87693744663557,
+        5.510248396786465,
+        342.4431471929805,
+        44.73465017584028,
+        11974.02568384882,
+        11983.997104728684
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_eq6_temperature",
+    "model": "mc_linear",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        68.23980607338436,
+        -505.9772206484559,
+        -4.154916028636789,
+        -622.6379305668094
+      ],
+      [
+        174.4660478998236,
+        -336.1272190470503,
+        167.19105295769873,
+        -371.5683224515509
+      ],
+      [
+        278.36670309496475,
+        -175.42122565203812,
+        329.245792928281,
+        -131.78657779654284
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_eq6_temperature",
+    "model": "mc_linear",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        95.51012164446688,
+        -451.28372281361857,
+        -47.71529481690087,
+        -657.0727437470309
+      ],
+      [
+        175.44753639271516,
+        -326.2276979974845,
+        161.42472855039358,
+        -382.38890828402486
+      ],
+      [
+        275.5449659055658,
+        -195.8734113585397,
+        284.4885013193548,
+        -190.28854976027668
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_eq6_temperature",
+    "model": "mc_temperature_quadratic",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        9.015457864991648,
+        -969.6096865865292,
+        -247.51665554769016,
+        -1964.4277221233008,
+        -387.25716339473854,
+        -992.821734704796
+      ],
+      [
+        142.3616508729997,
+        -405.301792735081,
+        -17.111600806103503,
+        -1030.707367364924,
+        -37.64572761740568,
+        -397.77501900039806
+      ],
+      [
+        282.16687346193635,
+        177.0815452617549,
+        208.98911056906013,
+        -0.06043704942111289,
+        335.65678604948806,
+        243.89613992660585
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_eq6_temperature",
+    "model": "mc_temperature_quadratic",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        60.188069942579816,
+        -590.7096781213917,
+        -159.71955523389485,
+        -1593.119784924493,
+        -152.26115630079786,
+        -732.0111752484845
+      ],
+      [
+        139.74987924526545,
+        -407.81965864162083,
+        -20.206311177559073,
+        -1054.6522106141051,
+        -46.170887112796905,
+        -410.81336184751376
+      ],
+      [
+        218.8444948187448,
+        -252.91557581043548,
+        145.95532653227343,
+        -257.87949435982085,
+        83.1943038512758,
+        110.38031380976307
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_eq6_temperature",
+    "model": "mc_stress_quadratic",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        5.097124822644479,
+        -654.4219226972418,
+        -1456.071181219146,
+        -2785.932355774374,
+        -537.1607984603942,
+        -806.8338140839278
+      ],
+      [
+        288.9848487420235,
+        -164.8269527603764,
+        -306.3716302861322,
+        -1046.0304014647304,
+        367.60161414441245,
+        502.66510609108155
+      ],
+      [
+        581.714318208265,
+        283.8579921573638,
+        853.1768340114947,
+        809.3387729875935,
+        1227.5757638153184,
+        1784.1485515669215
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_eq6_temperature",
+    "model": "mc_stress_quadratic",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        -106.35231310441462,
+        -904.3159182675946,
+        -1463.865036019518,
+        -3031.139029583435,
+        -749.7060039395552,
+        -1703.8532722014795
+      ],
+      [
+        262.9711660611165,
+        -196.42611675194792,
+        -213.4947416531693,
+        -924.7062660478373,
+        264.6665893001456,
+        408.4997220097573
+      ],
+      [
+        607.3023716191123,
+        372.3932074847029,
+        1229.892071310456,
+        1894.9281763765105,
+        1104.5551894533753,
+        1932.1025819672175
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_eq6_temperature",
+    "model": "mc_stress_hinge_400",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        48.28433679464066,
+        -562.6009044792063,
+        -258.75314759058415,
+        -809.1304625982629,
+        -5882.548443578864,
+        -8002.578424029944
+      ],
+      [
+        189.54152085397385,
+        -347.149926960646,
+        131.613735723993,
+        -338.6727133013173,
+        424.99104119482024,
+        -109.56693158893944
+      ],
+      [
+        340.16673947298636,
+        -134.61117621725654,
+        456.4039332334713,
+        94.41012674645884,
+        6435.279491741002,
+        5325.62395349503
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "low_eq6_temperature",
+    "model": "mc_stress_hinge_400",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        6.814813002648084,
+        -551.0869282324328,
+        -272.43607961528096,
+        -935.8427381888451,
+        -7458.9268842489155,
+        -10742.238095171972
+      ],
+      [
+        183.02587969604443,
+        -357.16253613756123,
+        134.82771908563873,
+        -315.1537550821457,
+        363.42820258529696,
+        -658.3239735282496
+      ],
+      [
+        334.2557620449627,
+        -109.26084704190005,
+        522.9782612664262,
+        169.2547031212935,
+        3981.905321092724,
+        5510.888818595505
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_low",
+    "model": "mc_linear",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        50.63883198141542,
+        -725.4528967332012,
+        -205.1367757267651,
+        -1325.6042903992118
+      ],
+      [
+        175.95476090967674,
+        -346.080808321428,
+        18.80630111918761,
+        -705.534814282609
+      ],
+      [
+        293.12308339431945,
+        -19.134460714283662,
+        264.15417970569365,
+        79.58725108585394
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_low",
+    "model": "mc_linear",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        53.56209943392383,
+        -619.5243569101094,
+        -178.0472068113749,
+        -1291.152879526599
+      ],
+      [
+        167.84082014041326,
+        -373.2687730020523,
+        17.961767422963074,
+        -701.0812592217076
+      ],
+      [
+        331.5189637562351,
+        4.042551962327926,
+        217.6481729946472,
+        13.21504144539601
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_low",
+    "model": "mc_temperature_quadratic",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        -219.39034374873654,
+        -2949.19321943948,
+        -37.140825724977375,
+        -1607.7759662538083,
+        -2888.5433154505154,
+        -1501.9258190004896
+      ],
+      [
+        -58.889863338126034,
+        -1766.1265234002146,
+        312.4684026364707,
+        1104.79232932005,
+        -1518.9378702980932,
+        1946.9591250439807
+      ],
+      [
+        131.39749731906954,
+        -295.32276919493177,
+        583.0505240888035,
+        3022.5946650193887,
+        349.2226366977607,
+        4130.219064606559
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_low",
+    "model": "mc_temperature_quadratic",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        -226.8681477375114,
+        -2469.997816985152,
+        -79.19913650107645,
+        -1259.7675766124144,
+        -2296.2345736156044,
+        -1169.199034366579
+      ],
+      [
+        -65.48423386870994,
+        -1801.361460251536,
+        318.0991491643906,
+        1152.9834320812192,
+        -1492.7393270151422,
+        2020.6107980799538
+      ],
+      [
+        135.38057292844363,
+        -437.06220222003094,
+        668.3507343924852,
+        2813.4502422106093,
+        225.83454509127398,
+        3495.55626249614
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_low",
+    "model": "mc_stress_quadratic",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        -305.4980459726325,
+        -1363.9094987419899,
+        -1251.4208541721973,
+        -4573.352571332513,
+        -1523.9869652901848,
+        -3029.529451564364
+      ],
+      [
+        26.087939097445666,
+        -683.0640440345026,
+        614.9535809472586,
+        660.3724211227184,
+        -416.07879298895807,
+        -1051.7263063139403
+      ],
+      [
+        454.6941286604246,
+        539.0048201430369,
+        2038.7406814676635,
+        3431.878789020916,
+        1055.6253597032896,
+        3238.2915827964766
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_low",
+    "model": "mc_stress_quadratic",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        -256.13561124334274,
+        -1594.1290582917295,
+        -852.2202190310875,
+        -2965.978247383982,
+        -1069.1905301899699,
+        -2565.9176317136794
+      ],
+      [
+        32.2938272025818,
+        -662.219801378679,
+        619.8690202933115,
+        466.5140123093847,
+        -435.46944940285607,
+        -977.4470251396428
+      ],
+      [
+        418.53252916688365,
+        371.46123499360755,
+        1522.1572558360185,
+        3281.7963615134117,
+        663.1491987390826,
+        1805.6626373106858
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_low",
+    "model": "mc_stress_hinge_400",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        -49.174965276810006,
+        -887.0316473921458,
+        -75.17686771536667,
+        -954.5924733477747,
+        -9229.566470229602,
+        -13706.897967602616
+      ],
+      [
+        79.33575505345513,
+        -575.081720009661,
+        273.22583022475305,
+        -108.43923403479903,
+        -3463.976834659131,
+        -6239.361699381623
+      ],
+      [
+        209.21105658418173,
+        -224.90842597443373,
+        581.903746220221,
+        603.7397895418235,
+        2668.815799926656,
+        8079.187155642266
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_low",
+    "model": "mc_stress_hinge_400",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 994,
+    "rank_deficient_or_nonfinite_draws": 6,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        -111.92069277414947,
+        -1078.2235916298118,
+        -337.12008235374697,
+        -1369.9143956815483,
+        -7816.777753055544,
+        -13505.022775293257
+      ],
+      [
+        59.365281986228005,
+        -611.3553128370334,
+        311.28790135762927,
+        -61.89459599043918,
+        -3801.2981789132746,
+        -6493.174339214764
+      ],
+      [
+        385.57113424275127,
+        99.00099475860125,
+        574.0476431326322,
+        778.7834580504161,
+        4609.698212300535,
+        8902.322355367543
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_all",
+    "model": "mc_linear",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        78.17690940487164,
+        -804.4934221261872,
+        -12.197522258293656,
+        -371.06478795347545
+      ],
+      [
+        154.95230457306218,
+        -609.8619198677397,
+        58.57212446564925,
+        -180.3174242146792
+      ],
+      [
+        237.87148988347639,
+        -407.77299370446923,
+        130.90575772215232,
+        -5.049380522343627
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_all",
+    "model": "mc_linear",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        33.50016648663239,
+        -891.153615072343,
+        -35.25726958451345,
+        -334.9802198696216
+      ],
+      [
+        152.1022430060548,
+        -604.1912415538993,
+        64.46859123166192,
+        -171.77561634517198
+      ],
+      [
+        285.7047503721408,
+        -342.184914259569,
+        115.83603634951749,
+        -72.09782674927672
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_all",
+    "model": "mc_temperature_quadratic",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        -86.17383406303607,
+        -2167.4675500741887,
+        23.592704145856516,
+        -375.529742630608,
+        -1733.4037098309989,
+        -321.51007645594154
+      ],
+      [
+        32.845910633342896,
+        -1382.012524499039,
+        161.59615042814175,
+        481.329256689054,
+        -822.7386151319592,
+        703.3146797012987
+      ],
+      [
+        147.98621846150272,
+        -503.48880179770833,
+        289.581229520179,
+        1332.500906120604,
+        228.94629223472458,
+        1751.7195854038432
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_all",
+    "model": "mc_temperature_quadratic",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        -89.50301493144276,
+        -2331.6408252494302,
+        -22.440323996232795,
+        -682.7748726905487,
+        -1970.9133537421314,
+        -626.5245948021412
+      ],
+      [
+        30.94677745364335,
+        -1328.7227555146792,
+        168.4670337437688,
+        513.2732607014275,
+        -761.6992858526485,
+        743.1264705356057
+      ],
+      [
+        188.17543284367648,
+        -180.61573444073838,
+        308.46786448143905,
+        1410.9812780979541,
+        610.2803885690098,
+        1870.1893476962875
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_all",
+    "model": "mc_stress_quadratic",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        19.08952866428503,
+        -707.3664983486894,
+        -511.1648865571518,
+        -2886.363769184084,
+        -163.29342147726,
+        -151.57421168603415
+      ],
+      [
+        184.39033991720135,
+        -192.10291112903911,
+        -22.16756416723763,
+        -1288.2967010911907,
+        28.821710620364968,
+        459.65810967358675
+      ],
+      [
+        354.21779704636947,
+        335.35349793274173,
+        453.65509837070834,
+        213.9836405323583,
+        230.56522289510426,
+        1111.1939919960832
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_all",
+    "model": "mc_stress_quadratic",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        32.35331943750694,
+        -649.61762332245,
+        -440.78656826502197,
+        -2739.8235923070415,
+        -136.46704290194586,
+        -150.65070232793408
+      ],
+      [
+        175.10980596558107,
+        -219.38296078025485,
+        -14.685676836836056,
+        -1292.6538930248926,
+        30.156344775076235,
+        467.46615199464117
+      ],
+      [
+        364.80422917147024,
+        311.6224768645515,
+        407.8957385948165,
+        205.47119354642135,
+        195.96058021896863,
+        1046.0579198264481
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_all",
+    "model": "mc_stress_hinge_400",
+    "scheme": "within_cell_independent_tests",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        38.55858498730691,
+        -715.7922819513308,
+        -240.94084061835463,
+        -1584.8258442104802,
+        -331.4489872438871,
+        -329.2967501702471
+      ],
+      [
+        159.58640384349553,
+        -380.2866437009868,
+        38.329270109419205,
+        -635.116760106213,
+        29.7623019281889,
+        749.7233946199747
+      ],
+      [
+        286.70723637146335,
+        9.23107884557222,
+        274.9143424455474,
+        85.77209089594913,
+        489.2251318073288,
+        2257.632687455633
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  },
+  {
+    "domain": "warm_all",
+    "model": "mc_stress_hinge_400",
+    "scheme": "specimen_label_blocks_assumed",
+    "attempted_draws": 1000,
+    "usable_draws": 1000,
+    "rank_deficient_or_nonfinite_draws": 0,
+    "actual_label_count": 8,
+    "physical_UID_known": false,
+    "coefficient_percentiles_2p5_50_97p5_kpa": [
+      [
+        31.958123930990638,
+        -704.3385229639889,
+        -193.85660457467537,
+        -1454.7490863621972,
+        -255.93722176429733,
+        -292.9698065918456
+      ],
+      [
+        147.91338858151676,
+        -406.5948556196631,
+        48.55329591594165,
+        -644.0833164968471,
+        31.974747180609327,
+        777.9811837922069
+      ],
+      [
+        314.2923272213241,
+        5.892712184771434,
+        238.11610401146345,
+        29.868178899221782,
+        361.105111653305,
+        2077.249668630539
+      ]
+    ],
+    "interpretation": "conditional percentile sensitivity; not guaranteed 95% coverage or local event probability"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "registered_utc": "2026-10-24T08:06:21.718009+00:00",
+  "protocol_version": "q4-r3-official-surface-v2",
+  "before_corrected_solver_runs": true,
+  "correction": "native csurface0 for both single andmulti primary; singlecsurface2 quarantined; multiphasecsurface2 retainedseparatechallenge",
+  "equations_and_source_modified": false,
+  "future_new_run_suffix": "__sf0",
+  "stopped_waiting_sweep_host_pids": [
+    93313
+  ],
+  "reason": "source out-of-bounds risk, no result-based model selection"
+}

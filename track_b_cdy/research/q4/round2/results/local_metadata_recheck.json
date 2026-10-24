@@ -1,0 +1,117 @@
+{
+  "purpose": "Offline metadata recheck only; no product identity or terrain epoch inferred",
+  "source_xml_sha256": "80557f3241126bc525a27e30f6f94f55ebc19f98b6676ebd0596606bd531e8be",
+  "xml_date_fields": [
+    {
+      "tag": "CreaDate",
+      "text": "20260826",
+      "interpretation": "metadata/processing timestamp; not accepted as observation date"
+    },
+    {
+      "tag": "CreaTime",
+      "text": "17184300",
+      "interpretation": "metadata/processing timestamp; not accepted as observation date"
+    },
+    {
+      "tag": "SyncDate",
+      "text": "20260826",
+      "interpretation": "metadata/processing timestamp; not accepted as observation date"
+    },
+    {
+      "tag": "SyncTime",
+      "text": "17184300",
+      "interpretation": "metadata/processing timestamp; not accepted as observation date"
+    },
+    {
+      "tag": "ModDate",
+      "text": "20260826",
+      "interpretation": "metadata/processing timestamp; not accepted as observation date"
+    },
+    {
+      "tag": "ModTime",
+      "text": "17184300",
+      "interpretation": "metadata/processing timestamp; not accepted as observation date"
+    },
+    {
+      "tag": "mdDateSt",
+      "text": "20260826",
+      "interpretation": "metadata/processing timestamp; not accepted as observation date"
+    }
+  ],
+  "xml_processes": [
+    {
+      "attributes": {
+        "Date": "20260826",
+        "Time": "171843"
+      },
+      "contains_clip": true,
+      "upstream_filename_present": true
+    }
+  ],
+  "vertical_names_from_xml": [
+    [
+      "VERTCS",
+      "unknown"
+    ],
+    [
+      "VDATUM",
+      "unknown"
+    ]
+  ],
+  "vertical_wkt_encoding_note": "The source WKT is doubly HTML-entity escaped inside XML; decode entities for semantic inspection, source bytes remain unchanged.",
+  "tfw_sha256": "5a3abc5a2ec97ca8f662558305229333c7b6d4a672f34416754622895e05831c",
+  "tfw_six_values": [
+    0.0002777467,
+    0.0,
+    0.0,
+    -0.000277742,
+    85.189894648,
+    28.5642434136
+  ],
+  "aux_xml_sha256": "8f6c82061d45641e5733a5f7d920d3fd10e028203282021de13ad18f3a80b98b",
+  "raster_metadata": {
+    "crs": "EPSG:4326",
+    "transform_gdal": [
+      85.18975577464204,
+      0.0002777467191455384,
+      0.0,
+      28.564382284579324,
+      0.0,
+      -0.00027774196409497727
+    ],
+    "bounds": [
+      85.18975577464204,
+      28.24553450979829,
+      85.69414381661034,
+      28.564382284579324
+    ],
+    "tags": {
+      "AREA_OR_POINT": "Area",
+      "DataType": "Generic"
+    },
+    "tiff_datetime": null,
+    "sha256": "7b9e8e53282b2e91d5302e616840c802eda80a963ce0777ddc6da2b65c6db9af"
+  },
+  "nc_metadata": {
+    "path": "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+    "sha256": "0a57192a65557f052dbc0bfbca71687ad1d158d4edaa363f26b3d65f337f32c8",
+    "dims": {
+      "y": 138,
+      "x": 145
+    },
+    "time_dimension_present": false,
+    "global_attributes": {
+      "title": "Glacier topographic and dynamic drivers",
+      "source": "dem_30m.tif, slope_30m.tif, thickness_30m.tif",
+      "Conventions": "CF-1.8",
+      "velocity_source": "ITS_LIVE v2.1"
+    },
+    "dem_attributes": {
+      "long_name": "digital elevation model",
+      "units": "m"
+    },
+    "velocity_description": "determined by taking the hypotenuse of vx and vy. The climatology uses a time-intercept of January 1, 2018.",
+    "velocity_epoch_not_dem_epoch": true
+  },
+  "outcome": "product/observation_epoch/vertical_datum remain unknown; local processing chain is readable"
+}

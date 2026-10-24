@@ -1,0 +1,150 @@
+{
+  "authorship": "团队自编模型、后处理及论文程序，OpenAI Codex辅助；采用决定由队员审阅。",
+  "rerun_for_paper": "仅绘图、证据复核和LaTeX编译；冻结模型不重跑。",
+  "files": [
+    {
+      "path": "track_b/paper/scripts/q3_evidence.py",
+      "sha256": "e0bc4e0998bb840164507d3496145cbb4752e0b625304ba4050876bc7ce3d0bf",
+      "role": "paper plotting, preview compilation or evidence assembly; no model refit"
+    },
+    {
+      "path": "track_b/paper/scripts/q3_figures.py",
+      "sha256": "1b0c236fc7fd132c838333a96c70b43e1951aa7ad5111513488f58471d624e70",
+      "role": "paper plotting, preview compilation or evidence assembly; no model refit"
+    },
+    {
+      "path": "track_b/paper/scripts/q3_preview.py",
+      "sha256": "d9c0adae0df2133c3864be93b4c35b2e75a490156ece208cb87f65dc0a096b67",
+      "role": "paper plotting, preview compilation or evidence assembly; no model refit"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/analytic_thermal_engine.py",
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607",
+      "bytes": 7560,
+      "owner": "q2 imported frozen copy",
+      "role": "erfc线性因果卷积热提供者",
+      "actually_used_in_frozen_research": true,
+      "rerun_for_paper": false,
+      "authorship": "团队自编，AI辅助；第三方库调用与物理数据另列"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "bytes": 10650,
+      "owner": "q2 imported frozen copy",
+      "role": "结构/损伤/储水与温应力强度关系自编引擎",
+      "actually_used_in_frozen_research": true,
+      "rerun_for_paper": false,
+      "authorship": "团队自编，AI辅助；第三方库调用与物理数据另列"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/postprocess.py",
+      "sha256": "94205d0a172062b5088fc261688e8c68ea3c4939e695cac5f7ee9683b7694ee2",
+      "bytes": 8246,
+      "owner": "q3",
+      "role": "同输入热提供者与同随访天气状态对照",
+      "actually_used_in_frozen_research": true,
+      "rerun_for_paper": false,
+      "authorship": "团队自编，AI辅助；第三方库调用与物理数据另列"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/replay.py",
+      "sha256": "61dfe484844fed5676f3902733ead10416eef89fd34218b1461dd3bcebd816d9",
+      "bytes": 18188,
+      "owner": "q3",
+      "role": "实际解析热与逐issue天气耦合消费端",
+      "actually_used_in_frozen_research": true,
+      "rerun_for_paper": false,
+      "authorship": "团队自编，AI辅助；第三方库调用与物理数据另列"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/acquire_deformation.py",
+      "sha256": "e4d4f2f40e0616e159676f6efa9ab5bcb7d08a8898d9e8ecc42c40019fc9317e",
+      "role": "Primarypublic data acquisition/provenance andcanonical time/label/measurement audit",
+      "origin": "Thisproject selfauthored Python implementation assisted byAI; team adoption review required"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/acquire_weather.py",
+      "sha256": "b451ea7e17d2384dc3812f521260391c3709fc7962de2d1dc5ef7aac7da340d6",
+      "bytes": 20230,
+      "owner": "q3",
+      "role": "GFS实际字段获取、原生累计解析与区域摘要",
+      "actually_used_in_frozen_research": true,
+      "rerun_for_paper": false,
+      "authorship": "团队自编，AI辅助；第三方库调用与物理数据另列"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/applicability_fixed_risk.py",
+      "sha256": "4d99af9d88d1155b58222f93520fdbe4a424a951057913d5d7ffa5eb015e2b28",
+      "bytes": 8471,
+      "owner": "q3",
+      "role": "固定历史风险适用性质量划分",
+      "actually_used_in_frozen_research": true,
+      "rerun_for_paper": false,
+      "authorship": "团队自编，AI辅助；第三方库调用与物理数据另列"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/applicability_sensitivity.py",
+      "sha256": "9c5fa15bc8a514bd90c6a335812b159bf15a91cad80176b6a4e8ccb82abff357",
+      "bytes": 13744,
+      "owner": "q3",
+      "role": "原先验与适用性分组汇总",
+      "actually_used_in_frozen_research": true,
+      "rerun_for_paper": false,
+      "authorship": "团队自编，AI辅助；第三方库调用与物理数据另列"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/common_anchor_comparison.py",
+      "sha256": "32d1d0efa170ff57e347f735f90d780b6d931f75ffa71ccd0e98b1e8b2942083",
+      "role": "self-written common sensor/issue/H B-vs-C opportunity construction and group-paired scoring"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/engine_b.py",
+      "sha256": "84fb535ef46fbdd9e6a1ee8878567e5e158244782b355ec2bfdcd8607db60977",
+      "role": "OLS/SS models, causalvelocity, MonteCarlo mixture, replay/evaluation andStampa challenge",
+      "origin": "Thisproject selfauthored Python implementation assisted byAI; team adoption review required"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/engine_c.py",
+      "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd",
+      "role": "self-written dimensionless causal features, piecewise exponential/RBF likelihood, group-heldout tuning, rate scaling and predictions; 512/1024 run entry",
+      "executed_source_sha256_confirmed": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/final_propagation_v4.py",
+      "sha256": "519feb9c39279fa0f1b77e92e42b15a3ea7231757afb56ef7f2ec269e2777a71",
+      "role": "join/check frozen seven-run conditional target response"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/integrate_results.py",
+      "sha256": "bc6404976b94e5b25678471b3d9cf2a3075e006a6c5fd5206bee8eed171fb9f8",
+      "role": "self-written final integration of already computed paired scores"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/join_propagation.py",
+      "sha256": "b2d0b8885ebe6c9aad0d0561a24486e8d68cf92d6a7c39ef22e5037a2e630a4d",
+      "role": "first conditional propagation join"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/join_propagation_v2.py",
+      "sha256": "87171f5ce437abaa91e688e07194219f5146cbe6e8fbaeed2ae316d4bdf3bc5b",
+      "role": "compact/base parameter handoff"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/join_propagation_v3.py",
+      "sha256": "cf80cd39517fae3ec850d6f711157a8c1ea6f2767b3da2c257e6ef1babae2b4e",
+      "role": "full source-mask join"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/mechanistic_replay.py",
+      "sha256": "4610d63dc9140ae0c61d011bd768f134c617b008a8501b352444ba8c7edbfa75",
+      "bytes": 53738,
+      "owner": "q3",
+      "role": "机械状态更新、首过阈、权重、信息界与导出通用逻辑",
+      "actually_used_in_frozen_research": true,
+      "rerun_for_paper": false,
+      "authorship": "团队自编，AI辅助；第三方库调用与物理数据另列"
+    }
+  ],
+  "third_party_solver_note": "传播求解器归Q4维护；此清单只收Q3映射、核对和后处理，不把第三方求解器列为自编。"
+}

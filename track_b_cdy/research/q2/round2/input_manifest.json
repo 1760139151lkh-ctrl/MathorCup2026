@@ -1,0 +1,219 @@
+{
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+  },
+  "files": [
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_source_register.json",
+      "bytes": 17508,
+      "sha256": "1ff1f5e3a0cb11232f6ce08d6c7e586b6561f65658864766035bfe82fdc199fb",
+      "role": "read_input"
+    },
+    {
+      "path": "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+      "bytes": 362728,
+      "sha256": "0a57192a65557f052dbc0bfbca71687ad1d158d4edaa363f26b3d65f337f32c8",
+      "role": "velocity_chain_local_evidence"
+    },
+    {
+      "path": "track_b/audit/spatial/netcdf.json",
+      "bytes": 18481,
+      "sha256": "505f0e7abd035801ea8820ace6a9d1f3f6fc2eefd9cdf39566f3324f870ad089",
+      "role": "velocity_chain_local_evidence"
+    },
+    {
+      "path": "track_b/audit/spatial/source_documentation.json",
+      "bytes": 34350,
+      "sha256": "b3e7770e812bc172d1ec6b5315338439bb29d607bb88a01366ee03c7731b34c1",
+      "role": "velocity_chain_local_evidence"
+    },
+    {
+      "path": "track_b/data/processed/spatial/source_manifest.json",
+      "bytes": 6984,
+      "sha256": "24de9976bcd0f011ff89617fbd66eb629834b792f76e15f454a2cf4fefac559d",
+      "role": "velocity_chain_local_evidence"
+    },
+    {
+      "path": "track_b/data/processed/spatial/pipeline_report.json",
+      "bytes": 60588,
+      "sha256": "811e11cbda3885f587d0b5cd8c8f55a138c01522c1353982732ac10dc484c65b",
+      "role": "velocity_chain_local_evidence"
+    },
+    {
+      "path": "track_b/scripts/prepare_spatial.py",
+      "bytes": 28934,
+      "sha256": "bd26dd1beef20d7e2c7f9522d5db5f264c25e00541c8bcd0e8019dfd046f4295",
+      "role": "velocity_chain_local_evidence"
+    },
+    {
+      "path": "track_b/research/q2/results/input_check.json",
+      "bytes": 7836,
+      "sha256": "6c4995ce63ee71cc812923c63d81510443f0b3ef1b708e9b5af3f8cbd3bc8e0d",
+      "role": "read_input"
+    },
+    {
+      "path": "track_b/research/q2/HANDOFF.md",
+      "bytes": 6589,
+      "sha256": "5df4464ce6598ab429c92cbac993c4e136759d5fa30f9e1a2eb34ca09fb29c68",
+      "role": "velocity_chain_local_evidence"
+    },
+    {
+      "path": "track_b/research/q2/PROPOSALS.md",
+      "bytes": 4315,
+      "sha256": "41dee7bef8034083b15f2fb25b56c5020fa9de0a0890fc16f7b03eda252f543c",
+      "role": "velocity_chain_local_evidence"
+    },
+    {
+      "path": "track_b/research/q2/round2/TASK.md",
+      "bytes": 6126,
+      "sha256": "40335d3dd463693c02eff85b4c3fdd3f705474335022a8c90edbe985116204ae",
+      "role": "velocity_chain_local_evidence"
+    },
+    {
+      "path": "track_b/config/stage4_round2_contract.json",
+      "bytes": 2240,
+      "sha256": "6ab9af1465561344abd95424a0866d21d4c35b096cd4a0367b9c697ade789313",
+      "role": "read_input"
+    },
+    {
+      "path": "track_b/config/stage4_contract.json",
+      "bytes": 2286,
+      "sha256": "45189e648cd5238b4d064ebde1cc64f3b1388ffc1eb1e93be4db9b5c470ab00d",
+      "role": "velocity_chain_local_evidence"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_itslive_composite.py",
+      "bytes": 138321,
+      "sha256": "a5dae95a8ffb6f6efd3ca913e6791001e6dee109640e3012376e95f56586d3ee",
+      "role": "official_source_snapshot"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_itslive_mosaics_types.py",
+      "bytes": 8393,
+      "sha256": "e7a5a45922e645dd1df04745f4b103e21fd7ea8b2fcacfe10a7ae5e45ca08680",
+      "role": "official_source_snapshot"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_nsidc_v2_userguide.pdf",
+      "bytes": 383248,
+      "sha256": "206c62e5d9d1cc2612b15cd4c0879df0bbd03a980f49b8cb9b80b4bd02349587",
+      "role": "official_source_snapshot"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_s3_README.html",
+      "bytes": 19184,
+      "sha256": "decc808da4b5c77560803d7003c483a14bd2bf2bd0338c1abe446fb2ea5ae556",
+      "role": "official_source_snapshot"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_nsidc_mosaics_v2.py",
+      "bytes": 22772,
+      "sha256": "739d112fecd58cd629d568dce5fdce9e63299ee0ad68b5278825a95c3615712d",
+      "role": "official_source_snapshot"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-04.png",
+      "bytes": 107231,
+      "sha256": "2a68d99b13df70876d958ae65bd30ddb943a2a2386812a12fea3ae7e6c53e8ae",
+      "role": "derived_pdf_page_actually_opened_by_internal_reviewer"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-05.png",
+      "bytes": 102450,
+      "sha256": "c69d3532ced9c551dea46e07761e2b3604b2aea6c631f36d9c6447f704c79b50",
+      "role": "derived_pdf_page_actually_opened_by_internal_reviewer"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-10.png",
+      "bytes": 163672,
+      "sha256": "2d19c4456d46f1de671c03ac0c4af881dddfa0b777d2885135abf9253364dcc6",
+      "role": "derived_pdf_page_actually_opened_by_internal_reviewer"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-11.png",
+      "bytes": 101150,
+      "sha256": "c6a162a4f7dc48d8f641787e263d0b403222edd2ebb434c6636b5e5842106661",
+      "role": "derived_pdf_page_actually_opened_by_internal_reviewer"
+    },
+    {
+      "path": "track_b/research/q2/round2/network_budget.json",
+      "bytes": 3386,
+      "sha256": "5cab64fb5f8d2c4b387d3e6f0489f6254a74b9d6d42f3bcebe266e96c6e894fe",
+      "role": "read_input"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/sar/pre_response.bin",
+      "bytes": 96,
+      "sha256": "08390bc876c5c0683edb3c1fcc1f3b54b640f8cd94521a0ad922ecda7bb95387",
+      "role": "authentication_failure_body_not_pixels"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/sar/post_response.bin",
+      "bytes": 96,
+      "sha256": "fb58dd1030f2bd760f499323e8e64f3031b301c5cdfdf8c34c8cc5399b0fd281",
+      "role": "authentication_failure_body_not_pixels"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/advisor_aoi_review.json",
+      "bytes": 3249,
+      "sha256": "5be13b550bcf9f3f06dae87ac5e6a5cc731bf569af08331da27d46aaf9deda5e",
+      "role": "read_input"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/georeference_controls.csv",
+      "bytes": 1088,
+      "sha256": "6e404e7bf960ed2798cc85a576f9a85c4e7a10aba2cff7d1dc6776bac8a1f4e1",
+      "role": "advisor_distributed_search_geometry_evidence"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/georeference_review.json",
+      "bytes": 3453,
+      "sha256": "beda557273033ea212d6fcd523661864220f79aee095541db5c48b79b246ee68",
+      "role": "advisor_distributed_search_geometry_evidence"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/search_aoi.geojson",
+      "bytes": 1225,
+      "sha256": "14db392ea6d318c2df34152af950b227653fd1f938aed1f4aa9eedf92c29579f",
+      "role": "advisor_distributed_search_geometry_evidence"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/search_aoi_evidence.json",
+      "bytes": 6107,
+      "sha256": "78ff69266903ee77626679b0bba542ec36f1e73e3d39581909543d63ba262d14",
+      "role": "advisor_distributed_search_geometry_evidence"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/pair_access.json",
+      "bytes": 7636,
+      "sha256": "268a4d473aa4dbeccc86ee0ae848f50af3e262c330327b5dfaa7156001ac2688",
+      "role": "read_input"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/aoi_support_check.json",
+      "bytes": 1000,
+      "sha256": "2b0eda98175fc9cd247d12f2589fe45f7c5c82365371f1d557b8083096192a31",
+      "role": "read_input"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/network_guard_checks.json",
+      "bytes": 887,
+      "sha256": "edad618dcb82982e26deeccbb37217f46eeae7810ccda7232bc73874903ef800",
+      "role": "read_input"
+    },
+    {
+      "path": "track_b/data/external/event_remote/scene_inventory.json",
+      "bytes": 1408249,
+      "sha256": "94b3a2c3e266c7fcc4717254db48d417215ee68421b54d84a7cc7d51d9fc92d3",
+      "role": "read_input"
+    },
+    {
+      "path": "track_b/research/q2/results/parameter_evidence.csv",
+      "bytes": 26285,
+      "sha256": "4a6fc9a411e378756d5da8d4dcfeab33c71b57d3de329c3e5ad34e0c93448ee0",
+      "role": "read_input"
+    }
+  ],
+  "scope": "Actual local/official/approved evidence consumed; no self-entry or output manifest. Source/register may reference derived review inputs explicitly."
+}

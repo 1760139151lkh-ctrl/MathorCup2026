@@ -1,0 +1,1002 @@
+{
+  "schema_version": "q2-paper-figures-v1",
+  "base_head": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+  "script": {
+    "path": "track_b/paper/scripts/q2_make_figures.py",
+    "bytes": 17938,
+    "sha256": "9c2ee22d79d5d5a289491266b569e4e882c76b5c2312bf1c0c0c943998fa8e34",
+    "role": "reproducible_publication_plotting_code"
+  },
+  "inputs": [
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "bytes": 1614,
+      "sha256": "add46d7873516e8b91db034308fd46b4eef08f912c9f442ce161b79b3a744921",
+      "role": "mechanism_comparison"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/critical_relations.csv",
+      "bytes": 6626,
+      "sha256": "f2765fbc418e64ffb912dff736db255f2c513cf10dbc9df4a78a0db6ef58f551",
+      "role": "critical_head"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv",
+      "bytes": 26199,
+      "sha256": "cc1df1e87bfb6a8ab0a0fa2086de5a3ebc4d11a39bec37101369c763afd77187",
+      "role": "joint_sensitivity"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/holdout_summary.csv",
+      "bytes": 19571,
+      "sha256": "4e219db8f5657112e1a027469903ea748ba32b87e7a3cebf8c3c1c78096d77e7",
+      "role": "laboratory_cv"
+    }
+  ],
+  "figures": [
+    {
+      "figure_id": "q2-mechanism-comparison",
+      "outputs": [
+        {
+          "path": "track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+          "bytes": 18809,
+          "sha256": "b735a06df83702bdc41bac9795da0b53c43fc384143712a8c6afd235c1984c63",
+          "role": "publication_figure"
+        },
+        {
+          "path": "track_b/paper/figures/q2/q2_mechanism_comparison.png",
+          "bytes": 84800,
+          "sha256": "b951b355248495338353f2220740ffeac4ad39ec34970a02e6d90be7b6aa1520",
+          "role": "300dpi_visual_review"
+        }
+      ],
+      "size_cm": [
+        17,
+        4.5
+      ],
+      "input_keys": [
+        "mechanism_comparison"
+      ],
+      "selection": "All8 rows of final analytic thermal comparison,4 mechanisms x2 policies; no scenario filtering",
+      "plotted_records": [
+        {
+          "mechanism_id": "S",
+          "model_id": "q2r3_S_analytic_v1",
+          "law_policy": "linear_extension",
+          "n_parameter_sets": 256,
+          "interval_crossing_n": 4,
+          "left_censored_n": 31,
+          "never_crossed_n": 221,
+          "missing_n": 0,
+          "median_min_margin": 0.6900801901421822,
+          "p05_min_margin": -0.2302498561112501,
+          "p95_min_margin": 2.77253760291464,
+          "wholly_lab_domain_n": 120,
+          "mean_lab_domain_fraction": 0.46875,
+          "independent_validation_events": 0,
+          "design_fraction_is_probability": false,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "mechanism_id": "S_T",
+          "model_id": "q2r3_S_T_analytic_v1",
+          "law_policy": "linear_extension",
+          "n_parameter_sets": 256,
+          "interval_crossing_n": 28,
+          "left_censored_n": 31,
+          "never_crossed_n": 197,
+          "missing_n": 0,
+          "median_min_margin": 0.4852997674212091,
+          "p05_min_margin": -0.42929198870183,
+          "p95_min_margin": 2.3661394269487395,
+          "wholly_lab_domain_n": 113,
+          "mean_lab_domain_fraction": 0.4535550801819052,
+          "independent_validation_events": 0,
+          "design_fraction_is_probability": false,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "mechanism_id": "S_H",
+          "model_id": "q2r3_S_H_analytic_v1",
+          "law_policy": "linear_extension",
+          "n_parameter_sets": 256,
+          "interval_crossing_n": 6,
+          "left_censored_n": 31,
+          "never_crossed_n": 219,
+          "missing_n": 0,
+          "median_min_margin": 0.662315744180745,
+          "p05_min_margin": -0.2679610747384832,
+          "p95_min_margin": 2.607236962528243,
+          "wholly_lab_domain_n": 118,
+          "mean_lab_domain_fraction": 0.4832268729056965,
+          "independent_validation_events": 0,
+          "design_fraction_is_probability": false,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "mechanism_id": "S_T_H",
+          "model_id": "q2r3_S_T_H_analytic_v1",
+          "law_policy": "linear_extension",
+          "n_parameter_sets": 256,
+          "interval_crossing_n": 31,
+          "left_censored_n": 31,
+          "never_crossed_n": 194,
+          "missing_n": 0,
+          "median_min_margin": 0.4717932586129435,
+          "p05_min_margin": -0.4668268690686569,
+          "p95_min_margin": 2.2425009813957986,
+          "wholly_lab_domain_n": 112,
+          "mean_lab_domain_fraction": 0.4695671523456199,
+          "independent_validation_events": 0,
+          "design_fraction_is_probability": false,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "mechanism_id": "S",
+          "model_id": "q2r3_S_analytic_v1",
+          "law_policy": "thawed_rock_contact",
+          "n_parameter_sets": 256,
+          "interval_crossing_n": 4,
+          "left_censored_n": 31,
+          "never_crossed_n": 221,
+          "missing_n": 0,
+          "median_min_margin": 0.6900801901421822,
+          "p05_min_margin": -0.2302498561112501,
+          "p95_min_margin": 2.77253760291464,
+          "wholly_lab_domain_n": 120,
+          "mean_lab_domain_fraction": 0.46875,
+          "independent_validation_events": 0,
+          "design_fraction_is_probability": false,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "mechanism_id": "S_T",
+          "model_id": "q2r3_S_T_analytic_v1",
+          "law_policy": "thawed_rock_contact",
+          "n_parameter_sets": 256,
+          "interval_crossing_n": 27,
+          "left_censored_n": 31,
+          "never_crossed_n": 198,
+          "missing_n": 0,
+          "median_min_margin": 0.4852997674212091,
+          "p05_min_margin": -0.4294553966605404,
+          "p95_min_margin": 2.3661394269487395,
+          "wholly_lab_domain_n": 113,
+          "mean_lab_domain_fraction": 0.4535550801819052,
+          "independent_validation_events": 0,
+          "design_fraction_is_probability": false,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "mechanism_id": "S_H",
+          "model_id": "q2r3_S_H_analytic_v1",
+          "law_policy": "thawed_rock_contact",
+          "n_parameter_sets": 256,
+          "interval_crossing_n": 6,
+          "left_censored_n": 31,
+          "never_crossed_n": 219,
+          "missing_n": 0,
+          "median_min_margin": 0.662315744180745,
+          "p05_min_margin": -0.2679610747384832,
+          "p95_min_margin": 2.607236962528243,
+          "wholly_lab_domain_n": 118,
+          "mean_lab_domain_fraction": 0.4832268729056965,
+          "independent_validation_events": 0,
+          "design_fraction_is_probability": false,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "mechanism_id": "S_T_H",
+          "model_id": "q2r3_S_T_H_analytic_v1",
+          "law_policy": "thawed_rock_contact",
+          "n_parameter_sets": 256,
+          "interval_crossing_n": 31,
+          "left_censored_n": 31,
+          "never_crossed_n": 194,
+          "missing_n": 0,
+          "median_min_margin": 0.4717932586129435,
+          "p05_min_margin": -0.465743113639625,
+          "p95_min_margin": 2.2425009813957986,
+          "wholly_lab_domain_n": 112,
+          "mean_lab_domain_fraction": 0.4695671523456199,
+          "independent_validation_events": 0,
+          "design_fraction_is_probability": false,
+          "evaluation_stratum": "conditional_scenario"
+        }
+      ],
+      "scientific_layer": "conditional_scenario",
+      "caption_note": "解析热参考；每个机制与策略均有256个共同参数设计点，初始已不稳定31个保留为左删失。误差线为5%–95%设计分位，非事件概率或置信区间。"
+    },
+    {
+      "figure_id": "q2-critical-head-sensitivity",
+      "outputs": [
+        {
+          "path": "track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+          "bytes": 36430,
+          "sha256": "883ca10cd9ef32d91248d72fe2a11fe64124f573b6f4f9b8786600eb02bb6d0d",
+          "role": "publication_figure"
+        },
+        {
+          "path": "track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+          "bytes": 163985,
+          "sha256": "d82a8fcc7e9d2470e58df59062154dfd4276cb60cec867ac78c7ea559ccf66b6",
+          "role": "300dpi_visual_review"
+        }
+      ],
+      "size_cm": [
+        17,
+        5.4
+      ],
+      "input_keys": [
+        "critical_head",
+        "joint_sensitivity"
+      ],
+      "scientific_layer": "conditional_scenario",
+      "selection": "Predeclared8 representative parameter indices;4 registered temperature slices within published thermal range; STH linear-policy8largest absolute existing Spearman correlations",
+      "representative_indices": [
+        0,
+        36,
+        72,
+        109,
+        145,
+        182,
+        218,
+        255
+      ],
+      "critical_records": [
+        {
+          "parameter_set_id": "q2r3-p0000",
+          "temperature_c": -6.0,
+          "normal_kpa": 366.0011723518,
+          "driving_kpa": 356.0144215142,
+          "initial_damage": 0.5312637459,
+          "critical_head_m": 29.4092577748,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 9.3602983283,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0000",
+          "temperature_c": -3.0,
+          "normal_kpa": 366.0011723518,
+          "driving_kpa": 356.0144215142,
+          "initial_damage": 0.5312637459,
+          "critical_head_m": 15.1401419857,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 9.3602983283,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0000",
+          "temperature_c": -1.0,
+          "normal_kpa": 366.0011723518,
+          "driving_kpa": 356.0144215142,
+          "initial_damage": 0.5312637459,
+          "critical_head_m": -9.3260911975,
+          "root_status": "dry_already_critical",
+          "allowed_head_capacity_m": 9.3602983283,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0000",
+          "temperature_c": -0.5,
+          "normal_kpa": 366.0011723518,
+          "driving_kpa": 356.0144215142,
+          "initial_damage": 0.5312637459,
+          "critical_head_m": -21.1467397874,
+          "root_status": "dry_already_critical",
+          "allowed_head_capacity_m": 9.3602983283,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0036",
+          "temperature_c": -6.0,
+          "normal_kpa": 221.464351577,
+          "driving_kpa": 330.1048110443,
+          "initial_damage": 0.293657798,
+          "critical_head_m": null,
+          "root_status": "no_pressure_only_root",
+          "allowed_head_capacity_m": 7.8329456558,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0036",
+          "temperature_c": -3.0,
+          "normal_kpa": 221.464351577,
+          "driving_kpa": 330.1048110443,
+          "initial_damage": 0.293657798,
+          "critical_head_m": 11.3583547071,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 7.8329456558,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0036",
+          "temperature_c": -1.0,
+          "normal_kpa": 221.464351577,
+          "driving_kpa": 330.1048110443,
+          "initial_damage": 0.293657798,
+          "critical_head_m": -8.2143710953,
+          "root_status": "dry_already_critical",
+          "allowed_head_capacity_m": 7.8329456558,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0036",
+          "temperature_c": -0.5,
+          "normal_kpa": 221.464351577,
+          "driving_kpa": 330.1048110443,
+          "initial_damage": 0.293657798,
+          "critical_head_m": -16.9031309158,
+          "root_status": "dry_already_critical",
+          "allowed_head_capacity_m": 7.8329456558,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0072",
+          "temperature_c": -6.0,
+          "normal_kpa": 363.7721107141,
+          "driving_kpa": 320.8190823521,
+          "initial_damage": 0.4270794802,
+          "critical_head_m": 36.8271668572,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 9.8261109471,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0072",
+          "temperature_c": -3.0,
+          "normal_kpa": 363.7721107141,
+          "driving_kpa": 320.8190823521,
+          "initial_damage": 0.4270794802,
+          "critical_head_m": 24.6591009905,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 9.8261109471,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0072",
+          "temperature_c": -1.0,
+          "normal_kpa": 363.7721107141,
+          "driving_kpa": 320.8190823521,
+          "initial_damage": 0.4270794802,
+          "critical_head_m": 3.4933523035,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 9.8261109471,
+          "root_reachable_before_capacity": true,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0072",
+          "temperature_c": -0.5,
+          "normal_kpa": 363.7721107141,
+          "driving_kpa": 320.8190823521,
+          "initial_damage": 0.4270794802,
+          "critical_head_m": -6.8719920679,
+          "root_status": "dry_already_critical",
+          "allowed_head_capacity_m": 9.8261109471,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0109",
+          "temperature_c": -6.0,
+          "normal_kpa": 666.173925483,
+          "driving_kpa": 456.4395536258,
+          "initial_damage": 0.6298683858,
+          "critical_head_m": 53.7068636413,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 18.1187694207,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0109",
+          "temperature_c": -3.0,
+          "normal_kpa": 666.173925483,
+          "driving_kpa": 456.4395536258,
+          "initial_damage": 0.6298683858,
+          "critical_head_m": 40.0674173134,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 18.1187694207,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0109",
+          "temperature_c": -1.0,
+          "normal_kpa": 666.173925483,
+          "driving_kpa": 456.4395536258,
+          "initial_damage": 0.6298683858,
+          "critical_head_m": 19.7043663296,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 18.1187694207,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0109",
+          "temperature_c": -0.5,
+          "normal_kpa": 666.173925483,
+          "driving_kpa": 456.4395536258,
+          "initial_damage": 0.6298683858,
+          "critical_head_m": 11.0124450318,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 18.1187694207,
+          "root_reachable_before_capacity": true,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0145",
+          "temperature_c": -6.0,
+          "normal_kpa": 419.3469784255,
+          "driving_kpa": 243.5129150812,
+          "initial_damage": 0.469459751,
+          "critical_head_m": null,
+          "root_status": "no_pressure_only_root",
+          "allowed_head_capacity_m": 29.1697869867,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0145",
+          "temperature_c": -3.0,
+          "normal_kpa": 419.3469784255,
+          "driving_kpa": 243.5129150812,
+          "initial_damage": 0.469459751,
+          "critical_head_m": 33.4759296344,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 29.1697869867,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0145",
+          "temperature_c": -1.0,
+          "normal_kpa": 419.3469784255,
+          "driving_kpa": 243.5129150812,
+          "initial_damage": 0.469459751,
+          "critical_head_m": 19.1140558394,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 29.1697869867,
+          "root_reachable_before_capacity": true,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0145",
+          "temperature_c": -0.5,
+          "normal_kpa": 419.3469784255,
+          "driving_kpa": 243.5129150812,
+          "initial_damage": 0.469459751,
+          "critical_head_m": 12.9065744262,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 29.1697869867,
+          "root_reachable_before_capacity": true,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0182",
+          "temperature_c": -6.0,
+          "normal_kpa": 133.0827720276,
+          "driving_kpa": 132.1237381362,
+          "initial_damage": 0.2975024237,
+          "critical_head_m": null,
+          "root_status": "no_pressure_only_root",
+          "allowed_head_capacity_m": 13.2992527099,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0182",
+          "temperature_c": -3.0,
+          "normal_kpa": 133.0827720276,
+          "driving_kpa": 132.1237381362,
+          "initial_damage": 0.2975024237,
+          "critical_head_m": null,
+          "root_status": "no_pressure_only_root",
+          "allowed_head_capacity_m": 13.2992527099,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0182",
+          "temperature_c": -1.0,
+          "normal_kpa": 133.0827720276,
+          "driving_kpa": 132.1237381362,
+          "initial_damage": 0.2975024237,
+          "critical_head_m": 7.2120069613,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 13.2992527099,
+          "root_reachable_before_capacity": true,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0182",
+          "temperature_c": -0.5,
+          "normal_kpa": 133.0827720276,
+          "driving_kpa": 132.1237381362,
+          "initial_damage": 0.2975024237,
+          "critical_head_m": 1.0148290872,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 13.2992527099,
+          "root_reachable_before_capacity": true,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0218",
+          "temperature_c": -6.0,
+          "normal_kpa": 647.4402137626,
+          "driving_kpa": 390.8146272642,
+          "initial_damage": 0.0703994723,
+          "critical_head_m": null,
+          "root_status": "no_pressure_only_root",
+          "allowed_head_capacity_m": 12.9431403098,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0218",
+          "temperature_c": -3.0,
+          "normal_kpa": 647.4402137626,
+          "driving_kpa": 390.8146272642,
+          "initial_damage": 0.0703994723,
+          "critical_head_m": 52.6286366251,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 12.9431403098,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0218",
+          "temperature_c": -1.0,
+          "normal_kpa": 647.4402137626,
+          "driving_kpa": 390.8146272642,
+          "initial_damage": 0.0703994723,
+          "critical_head_m": 27.1278815765,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 12.9431403098,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0218",
+          "temperature_c": -0.5,
+          "normal_kpa": 647.4402137626,
+          "driving_kpa": 390.8146272642,
+          "initial_damage": 0.0703994723,
+          "critical_head_m": 15.6968609758,
+          "root_status": "positive_pressure_root",
+          "allowed_head_capacity_m": 12.9431403098,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0255",
+          "temperature_c": -6.0,
+          "normal_kpa": 134.8313944739,
+          "driving_kpa": 229.6211764129,
+          "initial_damage": 0.2073237714,
+          "critical_head_m": null,
+          "root_status": "no_pressure_only_root",
+          "allowed_head_capacity_m": 13.4739963784,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0255",
+          "temperature_c": -3.0,
+          "normal_kpa": 134.8313944739,
+          "driving_kpa": 229.6211764129,
+          "initial_damage": 0.2073237714,
+          "critical_head_m": null,
+          "root_status": "no_pressure_only_root",
+          "allowed_head_capacity_m": 13.4739963784,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0255",
+          "temperature_c": -1.0,
+          "normal_kpa": 134.8313944739,
+          "driving_kpa": 229.6211764129,
+          "initial_damage": 0.2073237714,
+          "critical_head_m": -0.2176945035,
+          "root_status": "dry_already_critical",
+          "allowed_head_capacity_m": 13.4739963784,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        },
+        {
+          "parameter_set_id": "q2r3-p0255",
+          "temperature_c": -0.5,
+          "normal_kpa": 134.8313944739,
+          "driving_kpa": 229.6211764129,
+          "initial_damage": 0.2073237714,
+          "critical_head_m": -7.1936426616,
+          "root_status": "dry_already_critical",
+          "allowed_head_capacity_m": 13.4739963784,
+          "root_reachable_before_capacity": false,
+          "lab_temperature_domain": true,
+          "evaluation_stratum": "conditional_scenario"
+        }
+      ],
+      "sensitivity_records": [
+        {
+          "mechanism_id": "S_T_H",
+          "law_policy": "linear_extension",
+          "parameter": "theta_deg",
+          "spearman_rho": -0.5452213035019454,
+          "standardized_linear_coefficient": -0.452921063134565,
+          "n_joint_design": 256,
+          "evaluation_stratum": "conditional_scenario",
+          "interpretation": "space-filling design association, no empirical/causal posterior"
+        },
+        {
+          "mechanism_id": "S_T_H",
+          "law_policy": "linear_extension",
+          "parameter": "initial_temp_c",
+          "spearman_rho": -0.3903353170061798,
+          "standardized_linear_coefficient": -0.2888422191339684,
+          "n_joint_design": 256,
+          "evaluation_stratum": "conditional_scenario",
+          "interpretation": "space-filling design association, no empirical/causal posterior"
+        },
+        {
+          "mechanism_id": "S_T_H",
+          "law_policy": "linear_extension",
+          "parameter": "initial_damage",
+          "spearman_rho": -0.318179932478828,
+          "standardized_linear_coefficient": -0.2028544214448319,
+          "n_joint_design": 256,
+          "evaluation_stratum": "conditional_scenario",
+          "interpretation": "space-filling design association, no empirical/causal posterior"
+        },
+        {
+          "mechanism_id": "S_T_H",
+          "law_policy": "linear_extension",
+          "parameter": "station_source_offset_c",
+          "spearman_rho": -0.2957849336232547,
+          "standardized_linear_coefficient": -0.3061363257296066,
+          "n_joint_design": 256,
+          "evaluation_stratum": "conditional_scenario",
+          "interpretation": "space-filling design association, no empirical/causal posterior"
+        },
+        {
+          "mechanism_id": "S_T_H",
+          "law_policy": "linear_extension",
+          "parameter": "thickness_normal_m",
+          "spearman_rho": -0.2850423437857633,
+          "standardized_linear_coefficient": -0.3553300464131917,
+          "n_joint_design": 256,
+          "evaluation_stratum": "conditional_scenario",
+          "interpretation": "space-filling design association, no empirical/causal posterior"
+        },
+        {
+          "mechanism_id": "S_T_H",
+          "law_policy": "linear_extension",
+          "parameter": "interface_depth_m",
+          "spearman_rho": 0.2735244048981459,
+          "standardized_linear_coefficient": 0.2295301108576246,
+          "n_joint_design": 256,
+          "evaluation_stratum": "conditional_scenario",
+          "interpretation": "space-filling design association, no empirical/causal posterior"
+        },
+        {
+          "mechanism_id": "S_T_H",
+          "law_policy": "linear_extension",
+          "parameter": "bridge_fraction",
+          "spearman_rho": 0.2200968471046005,
+          "standardized_linear_coefficient": 0.1425983649595988,
+          "n_joint_design": 256,
+          "evaluation_stratum": "conditional_scenario",
+          "interpretation": "space-filling design association, no empirical/causal posterior"
+        },
+        {
+          "mechanism_id": "S_T_H",
+          "law_policy": "linear_extension",
+          "parameter": "rock_volume_fraction",
+          "spearman_rho": -0.2014105058365758,
+          "standardized_linear_coefficient": -0.1715208005968089,
+          "n_joint_design": 256,
+          "evaluation_stratum": "conditional_scenario",
+          "interpretation": "space-filling design association, no empirical/causal posterior"
+        }
+      ],
+      "root_handling": "Negative algebraic roots shown as dry_already_critical, source null roots as no_pressure_only_root, unreachable positive roots retain capacity marker; no root converted to zero",
+      "caption_note": "左图为8个预定代表、给定几何和初始损伤下的条件静力临界水头；＊表示正根超过给定水头容量，灰底为干态已越阈，斜线为无水压单独根。温度范围筛选不代表有效应力、材料和速率均在实验域内。右图为S+T+H线性分支按绝对Spearman相关排序的前8项设计关联，非因果贡献。"
+    },
+    {
+      "figure_id": "q2-lab-grouped-validation",
+      "outputs": [
+        {
+          "path": "track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+          "bytes": 14066,
+          "sha256": "aa33e916a917a17b9c3efc8ede1958ea412a30d913ff23ad147bd755d196eae7",
+          "role": "publication_figure"
+        },
+        {
+          "path": "track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+          "bytes": 64292,
+          "sha256": "4d61c13044ae56547e6c8552238e946412e7f6b18fe875beb526a6c62e771cda",
+          "role": "300dpi_visual_review"
+        }
+      ],
+      "size_cm": [
+        17,
+        4.2
+      ],
+      "input_keys": [
+        "laboratory_cv"
+      ],
+      "scientific_layer": "external_transfer",
+      "selection": "Fixed warm_all domain83tests, row_ols weight, all4candidate model IDs and temperature/normal-stress holdout schemes; group_macro_rmse_kpa, not pooled row RMSE",
+      "model_order": [
+        "mc_linear",
+        "mc_temperature_quadratic",
+        "mc_stress_quadratic",
+        "mc_stress_hinge_400"
+      ],
+      "plotted_records": [
+        {
+          "domain": "warm_all",
+          "model": "mc_linear",
+          "weight": "row_ols",
+          "holdout_scheme": "temperature",
+          "n": 83,
+          "rmse_kpa": 203.161171687247,
+          "mae_kpa": 153.831105745538,
+          "bias_kpa": 1.65258520847871,
+          "cell_macro_rmse_kpa": 200.392446365904,
+          "cell_macro_mae_kpa": 151.42154644824,
+          "max_absolute_error_kpa": 884.42607518055,
+          "folds": 5,
+          "usable_folds": 5,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 198.414076500316,
+          "group_macro_mae_kpa": 150.895396226082
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_linear",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "n": 83,
+          "rmse_kpa": 292.549982933218,
+          "mae_kpa": 210.27429195197,
+          "bias_kpa": 76.9284646207415,
+          "cell_macro_rmse_kpa": 287.319830251607,
+          "cell_macro_mae_kpa": 205.554799223345,
+          "max_absolute_error_kpa": 904.175087765035,
+          "folds": 4,
+          "usable_folds": 4,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 296.339992458579,
+          "group_macro_mae_kpa": 212.578319927697
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_temperature_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "temperature",
+          "n": 83,
+          "rmse_kpa": 237.604814269818,
+          "mae_kpa": 170.728113329154,
+          "bias_kpa": -18.6706675944662,
+          "cell_macro_rmse_kpa": 237.035968812275,
+          "cell_macro_mae_kpa": 170.85942627527,
+          "max_absolute_error_kpa": 1181.20558540253,
+          "folds": 5,
+          "usable_folds": 5,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 236.274013418512,
+          "group_macro_mae_kpa": 171.096524042522
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_temperature_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "n": 83,
+          "rmse_kpa": 286.414985852486,
+          "mae_kpa": 203.165514522564,
+          "bias_kpa": 71.9994862826766,
+          "cell_macro_rmse_kpa": 280.714718455884,
+          "cell_macro_mae_kpa": 195.979840109323,
+          "max_absolute_error_kpa": 951.168176736007,
+          "folds": 4,
+          "usable_folds": 4,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 289.996887722138,
+          "group_macro_mae_kpa": 205.147530717692
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "temperature",
+          "n": 83,
+          "rmse_kpa": 200.363378603322,
+          "mae_kpa": 149.545582987098,
+          "bias_kpa": 1.65573118306973,
+          "cell_macro_rmse_kpa": 199.849666391798,
+          "cell_macro_mae_kpa": 148.742034658692,
+          "max_absolute_error_kpa": 829.398617814887,
+          "folds": 5,
+          "usable_folds": 5,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 196.515418335105,
+          "group_macro_mae_kpa": 147.346505410941
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_quadratic",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "n": 83,
+          "rmse_kpa": 483.29165413148,
+          "mae_kpa": 299.853118340034,
+          "bias_kpa": 66.2024877157028,
+          "cell_macro_rmse_kpa": 479.555149290304,
+          "cell_macro_mae_kpa": 296.257426837939,
+          "max_absolute_error_kpa": 1700.14775079778,
+          "folds": 4,
+          "usable_folds": 4,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 491.610333668525,
+          "group_macro_mae_kpa": 306.806789799735
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_hinge_400",
+          "weight": "row_ols",
+          "holdout_scheme": "temperature",
+          "n": 83,
+          "rmse_kpa": 200.217310856215,
+          "mae_kpa": 149.097434615967,
+          "bias_kpa": 1.13540807145267,
+          "cell_macro_rmse_kpa": 199.949358849127,
+          "cell_macro_mae_kpa": 148.303725149405,
+          "max_absolute_error_kpa": 841.784762071721,
+          "folds": 5,
+          "usable_folds": 5,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 195.945024340668,
+          "group_macro_mae_kpa": 146.554550744574
+        },
+        {
+          "domain": "warm_all",
+          "model": "mc_stress_hinge_400",
+          "weight": "row_ols",
+          "holdout_scheme": "normal_stress",
+          "n": 83,
+          "rmse_kpa": 1029.12393084076,
+          "mae_kpa": 545.112369063698,
+          "bias_kpa": -190.790234840902,
+          "cell_macro_rmse_kpa": 1053.03066763436,
+          "cell_macro_mae_kpa": 566.507011444819,
+          "max_absolute_error_kpa": 3729.97767638082,
+          "folds": 4,
+          "usable_folds": 4,
+          "missing_prediction_count": 0,
+          "group_macro_rmse_kpa": 1047.93387492287,
+          "group_macro_mae_kpa": 561.065272463002
+        }
+      ],
+      "caption_note": "外部暖温层的83次试验，名义温度-4至-0.5°C、应力100–800kPa；各模型均为行等权拟合。显示按留出组等权的宏平均RMSE，名义类用于分组、连续实测值用于拟合。外部实验评价不并入本地区独立事件分母。"
+    }
+  ],
+  "font": {
+    "requested_path": "/Users/maxchen/Library/Fonts/PingFang Regular_0.ttf",
+    "requested_sha256": "26b017dfb34a8aa0059f47eda6f90d7ffd19a24912dc1129abc24867a1385353",
+    "family": "Q2-PingFang-Regular-Static",
+    "resolved_path": "/Users/maxchen/Library/Fonts/PingFang Regular_0.ttf",
+    "resolved_sha256": "26b017dfb34a8aa0059f47eda6f90d7ffd19a24912dc1129abc24867a1385353"
+  },
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:22) [Clang 22.1.3 ]",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3"
+  },
+  "reproduction_command": "track_b/.venv/bin/python track_b/paper/scripts/q2_make_figures.py",
+  "models_reexecuted": 0,
+  "new_scenarios": 0,
+  "source_inputs_unchanged": true,
+  "pdf_checks": [
+    {
+      "figure_id": "q2-mechanism-comparison",
+      "one_page": true,
+      "size_cm": [
+        16.999999999999027,
+        4.499999999999639
+      ],
+      "embedded_fonts": [
+        {
+          "base_font": "/ZDRVNS+PingFangSCRegular",
+          "subtype": "/Type0",
+          "embedded": true
+        }
+      ],
+      "raster_image_objects": []
+    },
+    {
+      "figure_id": "q2-critical-head-sensitivity",
+      "one_page": true,
+      "size_cm": [
+        16.999999999999027,
+        5.399999999998862
+      ],
+      "embedded_fonts": [
+        {
+          "base_font": "/FLOIYZ+DejaVuSans-Oblique",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "base_font": "/DTWANA+PingFangSCRegular",
+          "subtype": "/Type0",
+          "embedded": true
+        }
+      ],
+      "raster_image_objects": []
+    },
+    {
+      "figure_id": "q2-lab-grouped-validation",
+      "one_page": true,
+      "size_cm": [
+        16.999999999999027,
+        4.199999999998722
+      ],
+      "embedded_fonts": [
+        {
+          "base_font": "/CODDCL+PingFangSCRegular",
+          "subtype": "/Type0",
+          "embedded": true
+        }
+      ],
+      "raster_image_objects": []
+    }
+  ],
+  "visual_review_status": "pending_actual_open; see q2_visual_review.json once reviewed"
+}

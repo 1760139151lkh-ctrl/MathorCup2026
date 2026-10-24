@@ -1,0 +1,189 @@
+{
+  "experiment_id": "q3r3-full-mechanistic-weather-replay-v1",
+  "started_at_utc": "2026-10-24T08:09:40.312094Z",
+  "completed_at_utc": "2026-10-24T08:22:35.183558Z",
+  "issue_count": 75,
+  "parameter_design_rows": 2048,
+  "distinct_physical_designs": 256,
+  "weather_tracks_per_issue": 10,
+  "bundle_version": "q2-r3-mechanism-v1",
+  "included_mechanisms": [
+    "S",
+    "S_H",
+    "S_T",
+    "S_T_H"
+  ],
+  "thermal_discretization": {
+    "dz_m": 0.5,
+    "bottom_m": 40.0,
+    "grid_points": 81,
+    "substeps_per_hour": 1
+  },
+  "per_issue_track_runs": 750,
+  "parameter_prediction_rows": 1536000,
+  "ensemble_prediction_rows": 60750,
+  "scenario_range_rows": 20250,
+  "forecast_status_counts": {
+    "rejected_historical_first_availability_unknown": 124803,
+    "already_started_by_retrospective_history": 287970,
+    "no_cross_within_complete_72h": 640255,
+    "point_first_crossing_between_samples": 342,
+    "rejected_no_eligible_acquired_initialization": 299700,
+    "right_censored_or_unknown_future": 182930
+  },
+  "forecast_forcing_track_counts": {
+    "rejected_historical_first_availability_unknown": 75,
+    "complete_72h": 385,
+    "rejected_no_eligible_acquired_initialization": 180,
+    "right_censored_at_original_forcing_end": 50,
+    "right_censored_at_GFS_forecast_tail": 60
+  },
+  "historical_initial_left_censored": 248,
+  "historical_total_first_cross_or_left": 385,
+  "maximum_restart_absolute_error": 0.0,
+  "maximum_S_weather_invariance_error": 0.0,
+  "S_weather_invariance_actually_checked": true,
+  "maximum_step_water_budget_error_m": 1.0842021724855044e-19,
+  "identified_probability_rows": 36369,
+  "nonzero_identified_probability_rows": 4356,
+  "maximum_identified_probability": 0.010050598616407858,
+  "conditional_interval_rows": 4356,
+  "independent_local_observed_validation_events": 0,
+  "empirical_coverage": null,
+  "inputs": [
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/EXPERIMENT_PROTOCOL.md",
+      "bytes": 5797,
+      "sha256": "888b65535ff477f4e6ef07be3dfeea19392209d7903ef58559cb8473ad96626a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/config/experiment_v1.json",
+      "bytes": 4192,
+      "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/mechanism_contract.json",
+      "bytes": 3236,
+      "sha256": "fd47ca5af08c56a5076d07a4707764e07e58089e3030a47cc812facf620923e7"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/parameter_ensemble.csv",
+      "bytes": 1071463,
+      "sha256": "27a77ced72931366be5e19f431cb40218e1f243d77a7fe2671fc6125b0cf98b6"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/forcing_hourly_v1.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/state_trajectories.parquet",
+      "bytes": 3194674,
+      "sha256": "7ce07a43bc3cce5d51d39b4ff86eddd795ca12fb996d0c508f1a4bea6e2bb587"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/scenario_outcomes.csv",
+      "bytes": 722959,
+      "sha256": "dd7be14535d0a782ca5b260375b830ca16b0275817bba6cde1852cd22c2a1737"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/weather/gfs_hourly_summary.csv",
+      "bytes": 161138,
+      "sha256": "68702bfad6afe88fe485552ccd611ba5cdfbef85408ef227aec4a847ff011e6c"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/execution_source/registered_protocol.md",
+      "bytes": 5714,
+      "sha256": "e630184c72b08d87b36644d7a7701287d9e1a822b63957e7415ab4b3c81be4b6"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/execution_source/mechanistic_replay.py.txt",
+      "bytes": 36866,
+      "sha256": "fc88d072765b859888e3ed6141ebfc170dcda78300bc16d855fbb5dea69daa55"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/bundle.json",
+      "bytes": 4504,
+      "sha256": "65758b85d934267e883616eb2a56924e5b52d818e10b6f3eaa08bf934e54ce3a"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/execution_source/metadata_redaction_abf39d2506401aa4caa83663225893c3106679d2c0c13c20a70350c8eaabc6cb.py.txt",
+      "bytes": 44757,
+      "sha256": "abf39d2506401aa4caa83663225893c3106679d2c0c13c20a70350c8eaabc6cb"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/execution_source/metadata_redaction_2a2d0370054c85801ced570e5b743e00927ae5c0c05769587f33d5ddc13c4ddf.py.txt",
+      "bytes": 45373,
+      "sha256": "2a2d0370054c85801ced570e5b743e00927ae5c0c05769587f33d5ddc13c4ddf"
+    }
+  ],
+  "checks": {
+    "all_input_bundle_hashes_verified": true,
+    "full_Q2_history_matches_delivered_outcomes_and_representatives": true,
+    "all_75_ideal_full_state_restarts_match_continuous_history": true,
+    "structural_only_weather_invariance_when_included": true,
+    "water_budget_closure": true,
+    "assumed_forecast_reference_available_before_issue": true,
+    "probability_normalized_when_identified": true,
+    "probability_bounds_valid": true,
+    "probability_lower_not_above_upper": true,
+    "prior_mass_preserved": true,
+    "balanced_uniform_and_equal_mechanism_priors_agree": true,
+    "horizon_probability_bounds_monotone": true,
+    "historical_unknown_track_rejected": true,
+    "no_false_local_truth_or_empirical_coverage": true,
+    "unknown_future_not_reported_as_exact_probability": true,
+    "history_metadata_export_contains_no_future_oracle_onset": true
+  },
+  "passed": true,
+  "limitations": [
+    "All source states and forecasts are conditional Q2 scenarios; local first mechanical initiation truth remains unknown",
+    "Retrospective regional-station history has unknown real availability and assumed hourly precipitation intervals",
+    "Direct GFS-to-regional-station driver replacement retains uncalibrated source offsets and multipliers; no local bias correction",
+    "No verified historical first public weather availability; latency assumptions are not business release facts",
+    "Three priors are analyst sensitivity assumptions, not probabilities implied by the space-filling design",
+    "Q2 rock/ice strength transfer, thermal boundary, damage and reservoir limitations retained",
+    "Exact consumer/Q2 numerical agreement is distinct from heat-equation grid convergence and scientific model adoption",
+    "Conditional 95 percent quantiles describe assumed scenario distributions; empirical coverage denominator is zero",
+    "Short followup and missing future forcing remain unresolved, never imputed as no start"
+  ],
+  "history_metadata_redaction": {
+    "method": "null any first-cross audit time later than issue or left-censored initial pseudo-point; forecast math and ensemble predictions unchanged",
+    "physics_predictions_changed": false,
+    "files": [
+      {
+        "path": "track_b/research/q3/round3/results/mechanistic_replay/parameter_first_passages.parquet",
+        "future_oracle_values_redacted": 0,
+        "left_censored_pseudo_point_values_redacted": 186000,
+        "original_sha256": "46a47c8cb4b611a1340d01aac56bd1eba02a25a9075b5152e3fc40bd9af84340",
+        "sha256": "faeb9e9fecc97377c304a250b2924e3f71b40a719348bf30837910b5b4fe9037",
+        "bytes": 5944892
+      },
+      {
+        "path": "track_b/research/q3/round3/results/mechanistic_replay/history_states_at_issue.parquet",
+        "future_oracle_values_redacted": 0,
+        "left_censored_pseudo_point_values_redacted": 18600,
+        "original_sha256": "2e931a553ea2c6b25f2d6e9774e2f8d08f39fc00a36db5849390e10dac3a6361",
+        "sha256": "520bd77b04df62481a6fe75a409563c3dd04ca38a402685cac2504d116772dea",
+        "bytes": 2125470
+      }
+    ],
+    "source_path": "track_b/research/q3/round3/results/mechanistic_replay/execution_source/metadata_redaction_2a2d0370054c85801ced570e5b743e00927ae5c0c05769587f33d5ddc13c4ddf.py.txt",
+    "source_sha256": "2a2d0370054c85801ced570e5b743e00927ae5c0c05769587f33d5ddc13c4ddf"
+  },
+  "numerical_adequacy": {
+    "addendum_path": "track_b/research/q3/round3/results/mechanistic_replay/numerical_limits_received.json",
+    "addendum_sha256": "95e56e3f8b4c435ad8d7ab381ca0a34c3d07edf8e70f35fe908c6432eae94c68",
+    "full_design_margin_target_met": false,
+    "failed_designs": 10,
+    "designs_compared": 2048,
+    "finite_onset_pairs": 137,
+    "maximum_grid_onset_difference_hours": 18.943778947652135,
+    "is_strict_bound_or_confidence_interval": false
+  }
+}

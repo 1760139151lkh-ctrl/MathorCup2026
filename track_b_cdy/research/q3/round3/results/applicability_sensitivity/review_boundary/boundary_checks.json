@@ -1,0 +1,60 @@
+{
+  "reviewed_at_utc": "2026-10-24T09:56:13.229877+00:00",
+  "scope": "read-only source/output audit; only review_boundary files written; no physics or parent output modified",
+  "artificial_edge_inputs_are_research_data": false,
+  "review_script": {
+    "path": "results/applicability_sensitivity/review_boundary/read_only_boundary_review.py",
+    "bytes": 19879,
+    "sha256": "518aff76ed74a3abff6e571a63dbf9332211cb64d58dade757c497e449aa146f"
+  },
+  "inputs": [
+    {
+      "path": "scripts/applicability_sensitivity.py",
+      "bytes": 13744,
+      "sha256": "9c5fa15bc8a514bd90c6a335812b159bf15a91cad80176b6a4e8ccb82abff357"
+    },
+    {
+      "path": "results/applicability_sensitivity/PROTOCOL.md",
+      "bytes": 3999,
+      "sha256": "23accd9f5368f9877ef6a2e98caa06fde751c7b4b6c25cb59aac6d1c40f71689"
+    },
+    {
+      "path": "results/mechanistic_replay/analytic_erfc/parameter_first_passages.parquet",
+      "bytes": 33794095,
+      "sha256": "fd557599f6fa54ad21bd7a44dd19aa74f5578ce73533db1ad8aeef19de2688d5"
+    },
+    {
+      "path": "results/mechanistic_replay/analytic_erfc/predictions.csv.gz",
+      "bytes": 887395,
+      "sha256": "a3dc1602e9d4ea7c80173286f5e78e5ef6cc15b2e00a0b0fb5d33f5ff3fa122d"
+    }
+  ],
+  "edge_checks": {
+    "complete_nonfailure_p0_no_time_interval": true,
+    "short_followup_unknown_not_noevent": true,
+    "zero_total_weights_all_conditionals_null": true,
+    "empty_risk_all_conditionals_null": true,
+    "outdomain_past_to_state_unknown": true,
+    "mixed_possible_risk_bounds": true,
+    "mixed_partition_mass_closed": true
+  },
+  "domain_granularity": {
+    "rows": 1536000,
+    "maximum_followup_hours": 72,
+    "minimum_positive_factor": 0.0136986301369863,
+    "maximum_integer_count_residual": 7.105427357601002e-15,
+    "conservative_positive_weight_floor": 3.036703349909357e-10,
+    "tolerance": 1e-12,
+    "passed": true,
+    "scope": "frozen binary-state means and original clipped-margin priors only; not arbitrary future weighting"
+  },
+  "status": "boundary_review_only_actual_outputs_not_checked_in_this_run",
+  "limitations": [
+    "All domain-fraction selection is retrospective and uses future scenario states, not an operational eligibility gate.",
+    "Fourth-policy bounds condition on the stated retained in-domain original-history classification; forecast-domain validity alone does not certify all earlier history.",
+    "E/(R+U) and (E+V+U)/(R+U) are coherent possible-risk bounds under those classifications; neither is a local population-risk guarantee.",
+    "No event support does not establish safety; null and unresolved masses must remain visible.",
+    "Only temperature/effective-stress experimental-domain flags are audited, not complete material or slow-creep applicability."
+  ],
+  "passed": true
+}

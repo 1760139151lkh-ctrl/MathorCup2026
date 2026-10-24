@@ -1,0 +1,87 @@
+{
+  "generated_at_utc": "2026-10-24T04:41:27.651645+00:00",
+  "question": "q4",
+  "passed": true,
+  "checks": [
+    {
+      "name": "workspace_and_git_baseline",
+      "passed": true,
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
+        "head": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+        "baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+        "branch": "codex/track-b-q4-r1"
+      }
+    },
+    {
+      "name": "frozen_input_hashes",
+      "passed": true,
+      "evidence": {
+        "file_count": 431,
+        "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+        "preparation_commit": "1a31c6f2c3e11fcc32ac870b7a5896a7ef67f06e"
+      }
+    },
+    {
+      "name": "isolated_environment_and_lock",
+      "passed": true,
+      "evidence": {
+        "python": "3.12.14",
+        "prefix": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv",
+        "package_count": 44,
+        "lock_sha256": "5a780bc65de35a11a1eac4ec9370cad50957dcabb8ebe02cecdbfdb550ad645a",
+        "pip_check": "No broken requirements found."
+      }
+    },
+    {
+      "name": "six_real_formats",
+      "passed": true,
+      "evidence": {
+        "formats_read": [
+          "CSV",
+          "XLSX",
+          "SHP",
+          "GeoTIFF",
+          "NetCDF4",
+          "GRIB2"
+        ]
+      }
+    },
+    {
+      "name": "question_file_ownership",
+      "passed": true,
+      "evidence": {
+        "allowed_directory": "track_b/research/q4/",
+        "changed_paths": [
+          "track_b/research/q4/HANDOFF.md",
+          "track_b/research/q4/METHOD_OPTIONS.md",
+          "track_b/research/q4/PROPOSALS.md",
+          "track_b/research/q4/RESULTS.md",
+          "track_b/research/q4/config/feasibility.json",
+          "track_b/research/q4/environment_setup.log",
+          "track_b/research/q4/figures/synthetic_numerics.png",
+          "track_b/research/q4/figures/terrain_feasibility.png",
+          "track_b/research/q4/results/execution_notes.json",
+          "track_b/research/q4/results/geometry_evidence.csv",
+          "track_b/research/q4/results/nearest_minus_bilinear_on_nc_grid.tif",
+          "track_b/research/q4/results/parameter_evidence.csv",
+          "track_b/research/q4/results/result_index.json",
+          "track_b/research/q4/results/run_summary.json",
+          "track_b/research/q4/results/synthetic_advection_frames.nc",
+          "track_b/research/q4/results/synthetic_grid_checks.csv",
+          "track_b/research/q4/results/synthetic_numerics.json",
+          "track_b/research/q4/results/terrain_feasibility.json",
+          "track_b/research/q4/results/visual_review.json",
+          "track_b/research/q4/scripts/refresh_index.py",
+          "track_b/research/q4/scripts/run_feasibility.py",
+          "track_b/research/q4/sources/cross_question_updates.json",
+          "track_b/research/q4/sources/geometry_reading.json",
+          "track_b/research/q4/sources/model_sources.json",
+          "track_b/research/q4/workspace_binding.json",
+          "track_b/research/q4/workspace_verification.json"
+        ]
+      }
+    }
+  ],
+  "scope": "Workspace, frozen inputs, environment and technical I/O only; no scientific model acceptance."
+}

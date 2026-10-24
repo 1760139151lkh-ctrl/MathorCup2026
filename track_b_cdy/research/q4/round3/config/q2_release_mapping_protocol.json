@@ -1,0 +1,27 @@
+{
+  "version": "q4-r3-q2-release-mapping-protocol-v1",
+  "registered_at_utc": "2026-10-24T07:52:06.748353+00:00",
+  "before_cross_question_propagation": true,
+  "q2_bundle_path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/bundle.json",
+  "q2_bundle_sha256": "ed745576ff706a4d82a560269b0e07804add6fc9bde2b3948cced43932ddf5b5",
+  "selected_scenario_ids": [
+    "q2r3-p0000-S-linear",
+    "q2r3-p0036-S_T-linear",
+    "q2r3-p0072-S_H-linear",
+    "q2r3-p0255-S_T_H-linear"
+  ],
+  "selection": "Four preselected mechanism representatives spanning plan_area10000/40000/100000m² and retaining crossed/never-crossed; no selection by propagation outputs",
+  "geometry_method": "Concentric disk intersected with candidate source polygon, radius root-solved for supplied plan_area; no observed failure geometry claim",
+  "rasterization": "Exact per-cell polygon intersection; h_cell = vertical_thickness*intersection_area/cell_area. No whole925200m² substitution. Preserve target plan_area and grid-integrated volume; report subgrid resolution.",
+  "normal_vertical": "Use Q2 supplied vertical thickness and normal/vertical provenance; do not silently replace structural-plane angle with DSM slope.",
+  "source_geometry_version": "q4-r3-q2-mapped-release-v1",
+  "model_route": "Native r.avaflow single-phase homogeneous equivalent using Q2 bulk density; transported composition passive/not explicitly resolved. Optional reduced comparison remains numerically unqualified.",
+  "fractions": "Q2 volume basis rock/ice/free_water retained with sum1; no spontaneous conversion to ravaflow solid/fines/water labels",
+  "upstream_model_parameter_keys": "Preserve original scenario_id/model_id/mechanism_id/parameter_version as upstream_* fields; Q4 model_id separately",
+  "time_origin": "bulk release; initiation_to_release_delay_seconds=null",
+  "never_crossed": "if_released_propagation=true; cannot interpret as predicted initiation",
+  "target": "unchanged paper100m h>=.1m threshold; additional OSM targets separately",
+  "reference_friction": "Q4 post-release mu=.15,xi1000 scenario, not Q2 intact-joint rock_mu transfer",
+  "simulation_horizon_s": 1800,
+  "density_units": "kg/m3"
+}

@@ -1,0 +1,89 @@
+{
+  "generated_at_utc": "2026-10-24T03:07:44.100698+00:00",
+  "runtimes": [
+    {
+      "requested_executable": "/usr/local/bin/python3",
+      "exit_code": 0,
+      "executable": "/usr/local/opt/python@3.14/bin/python3.14",
+      "python_version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+      "packages": {
+        "numpy": null,
+        "pandas": null,
+        "openpyxl": null,
+        "xarray": null,
+        "scipy": null,
+        "tifffile": null,
+        "h5py": null,
+        "h5netcdf": null,
+        "netCDF4": null,
+        "rasterio": null,
+        "GDAL": null,
+        "shapely": null,
+        "pyproj": null,
+        "fiona": null,
+        "geopandas": null,
+        "pypdf": null,
+        "python-docx": null
+      }
+    },
+    {
+      "requested_executable": "/usr/local/anaconda3/bin/python",
+      "exit_code": 0,
+      "executable": "/usr/local/anaconda3/bin/python",
+      "python_version": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:09:21) [Clang 14.0.6 ]",
+      "packages": {
+        "numpy": "2.1.3",
+        "pandas": "2.2.3",
+        "openpyxl": "3.1.5",
+        "xarray": "2025.4.0",
+        "scipy": "1.15.3",
+        "tifffile": "2025.2.18",
+        "h5py": "3.12.1",
+        "h5netcdf": null,
+        "netCDF4": null,
+        "rasterio": null,
+        "GDAL": null,
+        "shapely": null,
+        "pyproj": null,
+        "fiona": null,
+        "geopandas": null,
+        "pypdf": "6.14.2",
+        "python-docx": "1.2.0"
+      }
+    },
+    {
+      "requested_executable": "/Users/maxchen/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "exit_code": 0,
+      "executable": "/Users/maxchen/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "python_version": "3.12.14 (main, Aug 25 2026, 13:50:22) [Clang 22.1.3 ]",
+      "packages": {
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "openpyxl": "3.1.5",
+        "xarray": null,
+        "scipy": null,
+        "tifffile": null,
+        "h5py": null,
+        "h5netcdf": null,
+        "netCDF4": null,
+        "rasterio": null,
+        "GDAL": null,
+        "shapely": null,
+        "pyproj": null,
+        "fiona": null,
+        "geopandas": null,
+        "pypdf": "6.10.0",
+        "python-docx": "1.2.0"
+      }
+    }
+  ],
+  "scope": "Installed distribution metadata only; successful import and end-to-end GIS operations are separate checks.",
+  "tools": {
+    "gdalinfo": null,
+    "ncdump": null,
+    "textutil": "/usr/bin/textutil",
+    "pdftoppm": "/Users/maxchen/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/pdftoppm",
+    "git": "/usr/local/bin/git"
+  },
+  "installations_performed": false
+}

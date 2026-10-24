@@ -1,0 +1,27 @@
+{
+  "failure_type_code_to_descriptions": {
+    "2.0": [
+      "ice"
+    ],
+    "3.0": [
+      "mixed"
+    ],
+    "1.0": [
+      "rock/ice"
+    ]
+  },
+  "failure_type_counts": {
+    "ice": 37,
+    "mixed": 55,
+    "rock/ice": 49
+  },
+  "all_reported_tests_retained": true,
+  "no_model_fits": true,
+  "no_source_values_overwritten": true,
+  "timing_note": "H-J-K source labels differ; no unverified common origin assumed, no AE lead-time derived",
+  "equation_input_note": "temperature_target and normal_stress_target are group labels, not replacements for actual-at-failure values",
+  "coefficient_note": "14author-derived temperature strata summarize same experiments; do not append as14independent shear tests",
+  "friction_angle_source_note": "100-400block row9 labels friction angle_degree but9numeric cells B9:J9 are blank; 100-800block has no angle row; no atan(mu) imputation written into source-angle column",
+  "figure_label_note": "source filename/headings say Fig.8a/8b; preserved literally; no automatic remapping to published figure numbering",
+  "physical_specimen_note": "No stable physical specimen UID inferred. Eight specimen labels are not proven eight independent rock pairs; 141rows are tests, not141independent specimens."
+}

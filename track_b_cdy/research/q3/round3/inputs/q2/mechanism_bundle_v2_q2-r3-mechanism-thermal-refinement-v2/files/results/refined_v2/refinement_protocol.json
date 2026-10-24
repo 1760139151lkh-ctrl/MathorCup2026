@@ -1,0 +1,24 @@
+{
+  "protocol_version": "q2r3-refinement-v2-preregistered",
+  "same_parameters_and_seed": true,
+  "same_hourly_forcing_and_state_grid": true,
+  "frozen_engine_sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+  "first_main_dz_m": 0.125,
+  "first_reference_dz_m": 0.0625,
+  "conditional_finer_main_dz_m": 0.0625,
+  "conditional_finer_reference_dz_m": 0.03125,
+  "selection_rule": "If any of 8 fixed representatives x4 mechanisms x2 policies has max margin difference >0.02, use 0.0625 m as main and test it against 0.03125 m; report remaining errors without relaxing 0.02 target.",
+  "changing_scope": "thermal spatial grid only; not hourly state step, damage, water, strength branches, parameters or forcing",
+  "representatives": [
+    0,
+    36,
+    72,
+    109,
+    145,
+    182,
+    218,
+    255
+  ],
+  "independent_events": 0,
+  "probabilities_assigned": false
+}

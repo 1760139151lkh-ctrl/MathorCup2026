@@ -1,0 +1,33 @@
+{
+  "actual_review_performed": true,
+  "reviewer": "Q2 parent research agent",
+  "method": "Five final PNGs explicitly opened with tools.view_image after final title/footer layout repair; source PDF pages have separate literature reading audit",
+  "reviewed_at_utc": "2026-10-24T10:26:38.604948+00:00",
+  "files": [
+    {
+      "path": "track_b/research/q2/round3/lab_strength/figures/01_design_support.png",
+      "bytes": 138146,
+      "sha256": "47673303aa1d61ea27750eb0dcdce00aed970b73ec7019bcf532d8c8e2dbbb56"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/figures/02_author_reconstruction.png",
+      "bytes": 199647,
+      "sha256": "76ebf207e784bbeb0f92d0362b62cbcf556d4863ddcdfce52d166948d0997a40"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/figures/03_grouped_validation.png",
+      "bytes": 148204,
+      "sha256": "e57fdd04ed6e361207f5431860f5b757f887e2b44e9545fe845b25028bc37c12"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/figures/04_stress_relations.png",
+      "bytes": 246498,
+      "sha256": "c5178880ab08286167f611dad97b72b328d9fee5b7120434ac72441b399ea1c8"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/figures/05_conditional_uncertainty.png",
+      "bytes": 280324,
+      "sha256": "ce119ed2539d875186848bc55271945cc135031c21c7f3cf83dcf1469857a85d"
+    }
+  ]
+}

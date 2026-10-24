@@ -1,0 +1,95 @@
+{
+  "reviewed_at_utc": "2026-10-24T08:49:00.841185+00:00",
+  "reviewer": "Q2 parent AI; not human scientific adoption",
+  "opened_images": [
+    {
+      "path": "track_b/research/q2/round3/figures/mechanism_competition.png",
+      "bytes": 75997,
+      "sha256": "1e9f7eea36f204974a1e666508ec06bcff3cf9e57011809b13398149206a29d0",
+      "review": "actually opened via view_image; labels/units/legends/version and uncertainty display checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/state_evolution.png",
+      "bytes": 175744,
+      "sha256": "d1a09fcc72a6268baaf3cd7dc5a43b0b2dbd9f7d8e5a659d134cf90a0bd388d0",
+      "review": "actually opened via view_image; labels/units/legends/version and uncertainty display checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/joint_sensitivity.png",
+      "bytes": 163007,
+      "sha256": "cea34ce69f7ad32f8fff019558eebfe5b5877f594f29be256dc3bd7973d045cd",
+      "review": "actually opened via view_image; labels/units/legends/version and uncertainty display checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/mechanism_competition_v2.png",
+      "bytes": 76328,
+      "sha256": "8f29192d280f307f01787fa2e85957f3429ea475e6c95a7bb4efc7a526b9a6fc",
+      "review": "actually opened via view_image; labels/units/legends/version and uncertainty display checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/state_evolution_v2.png",
+      "bytes": 177208,
+      "sha256": "52995d647a302fa97ede656ba780d658a3a4b7360f88a049eb0b194d3e75122b",
+      "review": "actually opened via view_image; labels/units/legends/version and uncertainty display checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/joint_sensitivity_v2.png",
+      "bytes": 162813,
+      "sha256": "a7d290b0ae6dcd16a62fe6c763f1907302a48eabf0e4c7d33bb765bdcf1052c1",
+      "review": "actually opened via view_image; labels/units/legends/version and uncertainty display checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/response_timescales.png",
+      "bytes": 119520,
+      "sha256": "c0a2541171aa963616d8168eadaac967deba29bb6c5c837145aba8f11c9bf43c",
+      "review": "actually opened via view_image; labels/units/legends/version and uncertainty display checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/critical_surface.png",
+      "bytes": 275949,
+      "sha256": "8163dc2c4f6dddf7fcea7effa5c9ee0cce005db85aa4487d89814d4ad88e4ed2",
+      "review": "actually opened via view_image; labels/units/legends/version and uncertainty display checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/sar_evidence_pixels.png",
+      "bytes": 121572,
+      "sha256": "34698205f5442367831fc7f961b12a5026f3c49ff7f2766e9adccc79634b7d4d",
+      "review": "actually opened via view_image; labels/units/legends/version and uncertainty display checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/mechanism_competition_analytic.png",
+      "bytes": 74689,
+      "sha256": "086ccce836527a801464b08f971c96c1f3330b711b517020700fb61629cbcdac",
+      "review": "actually opened via view_image by Q2 parent; numerical version/units/denominators and diagnostic versus empirical labels checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/state_evolution_analytic.png",
+      "bytes": 175749,
+      "sha256": "cbb36cf69a2f6c846125719ff1f2415d8a4099712e851c16d34c36f4f76c17c3",
+      "review": "actually opened via view_image by Q2 parent; numerical version/units/denominators and diagnostic versus empirical labels checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/joint_sensitivity_analytic.png",
+      "bytes": 161576,
+      "sha256": "b2e8d01c564df7b565cfe9f8f8d59ebc1118b9756148b3e3d559763c6ece914f",
+      "review": "actually opened via view_image by Q2 parent; numerical version/units/denominators and diagnostic versus empirical labels checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/figures/analytic_thermal_onset_comparison.png",
+      "bytes": 93668,
+      "sha256": "cafa5b51b1e5038059cf37d5ba27e2ffbd7b8416ac4c4217d4d4da64f9ae1ef6",
+      "review": "actually opened via view_image by Q2 parent; numerical version/units/denominators and diagnostic versus empirical labels checked"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/numerical_comparison.png",
+      "bytes": 167034,
+      "sha256": "d5ba51b03c7ce1d76caaaf8758d58f9e1e23ea41267378873570533b9306b626",
+      "review": "actually opened via view_image by Q2 parent; numerical version/units/denominators and diagnostic versus empirical labels checked"
+    }
+  ],
+  "corrections": [
+    "Marked coarse/fine version explicitly",
+    "Suppressed inactive-variable sample correlations in sensitivity heatmap",
+    "Removed unplotted contact boundary expansion and hatched constitutive stress extrapolation"
+  ]
+}

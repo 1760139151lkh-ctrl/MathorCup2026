@@ -1,0 +1,5 @@
+/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/scripts/plot_applicability.py:13: DtypeWarning: Columns (4) have mixed types. Specify dtype option on import or set low_memory=False.
+  f=pd.read_csv(O/'predictions.csv.gz');p=pd.read_csv(O/'p0149_parameter_audit.csv');stress=p.normal_stress_kpa_independent.iloc[0]
+/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/scripts/plot_applicability.py:40: UserWarning: AutoDateLocator was unable to pick an appropriate interval for this date range. It may be necessary to add an interval value to the AutoDateLocator's intervald dictionary. Defaulting to 12.
+  fig.savefig(O/'applicability_comparison.png',dpi=160);plt.close(fig);print('Figure generated; actual visual review required')
+Figure generated; actual visual review required

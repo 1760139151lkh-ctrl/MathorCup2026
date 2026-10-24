@@ -1,0 +1,84 @@
+{
+  "experiment_id": "q2r3-composition-domain-extension-v1",
+  "new_integrations": 128,
+  "existing_baseline_paths": 64,
+  "baseline_reintegrations": 0,
+  "new_state_rows": 267392,
+  "representative_indices": [
+    0,
+    36,
+    72,
+    109,
+    145,
+    182,
+    218,
+    255
+  ],
+  "rock_volume_fractions": [
+    0.85,
+    0.9
+  ],
+  "density_kg_m3": [
+    2432.55,
+    2521.7
+  ],
+  "dt_hours": 1.0,
+  "dz_m": 0.125,
+  "by_composition": [
+    {
+      "composition_group": "composition085",
+      "n_integrations": 64,
+      "onset_counts": {
+        "never_crossed": 56,
+        "interval_crossing": 8
+      },
+      "onset_category_changed_n": 0,
+      "median_delta_min_margin_evaluation": -0.20532371373971123,
+      "min_delta_min_margin_evaluation": -0.5436539270958555,
+      "max_delta_min_margin_evaluation": -0.054577566924859724,
+      "mean_delta_lab_domain_fraction": -0.25,
+      "mean_new_lab_domain_fraction": 0.375,
+      "wholly_lab_domain_n": 24
+    },
+    {
+      "composition_group": "composition090",
+      "n_integrations": 64,
+      "onset_counts": {
+        "never_crossed": 56,
+        "interval_crossing": 8
+      },
+      "onset_category_changed_n": 0,
+      "median_delta_min_margin_evaluation": -0.21975026640135326,
+      "min_delta_min_margin_evaluation": -0.5752870400773423,
+      "max_delta_min_margin_evaluation": -0.06980010825311757,
+      "mean_delta_lab_domain_fraction": -0.25,
+      "mean_new_lab_domain_fraction": 0.375,
+      "wholly_lab_domain_n": 24
+    }
+  ],
+  "onset_category_changed_total": 0,
+  "max_baseline_state_algebra_margin_error": 1.1102230246251565e-15,
+  "max_new_vs_baseline_interface_temperature_difference_c": 1.7763568394002505e-15,
+  "max_water_balance_residual_m": 5.10702591327572e-15,
+  "all_noncomposition_parameters_pairwise_unchanged": true,
+  "bridge_area_fraction_unchanged": true,
+  "protocol_sha256": "c28bec93ee0e15b291898b9a6b8943f700caedb6ec3b8c6630bbee665d218dd6",
+  "engine_sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+  "independent_events": 0,
+  "probabilities_assigned": false,
+  "event_time_fitting": false,
+  "evaluation_stratum": "conditional_scenario",
+  "comparison_stratum": "numerical_benchmark",
+  "commands": [
+    "track_b/.venv/bin/python track_b/research/q2/round3/scripts/analyze_composition.py --prepare",
+    "track_b/.venv/bin/python track_b/research/q2/round3/scripts/analyze_composition.py --run"
+  ],
+  "limitations": [
+    "retrospective literature candidate composition; exact103.35/90.75 advisor-provided only, no full-paper reread",
+    "bulk source material conditionally homogenized into plane slab; total rock volume is not bridge area",
+    "density-only composition intervention; no automatic thermal/hydraulic/strength composition remapping",
+    "8 fixed paired representatives, not rerun2048; no inferred probabilities or event-time calibration",
+    "increasing density can move effective stress beyond Mamot100-400kPa domain; domain fractions retained"
+  ],
+  "all_consumed_published_inputs_unchanged": true
+}

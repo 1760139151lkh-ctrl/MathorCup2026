@@ -1,0 +1,1642 @@
+{
+  "schema_version": "q2-paper-delivery-v1",
+  "generated_at_utc": "2026-10-24T14:07:18.206367+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "check": "execution_root",
+      "passed": true
+    },
+    {
+      "check": "paper_branch",
+      "passed": true
+    },
+    {
+      "check": "ancestor_eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+      "passed": true
+    },
+    {
+      "check": "ancestor_bbc7b5a2027a81ce358353061a0f305322a2c184",
+      "passed": true
+    },
+    {
+      "check": "only_q2_paper_working_changes",
+      "passed": true
+    },
+    {
+      "check": "research_tree_unchanged",
+      "passed": true
+    },
+    {
+      "check": "cjk_length",
+      "passed": true
+    },
+    {
+      "check": "figure_count",
+      "passed": true
+    },
+    {
+      "check": "table_count",
+      "passed": true
+    },
+    {
+      "check": "equation_count",
+      "passed": true
+    },
+    {
+      "check": "unique_q2_labels",
+      "passed": true
+    },
+    {
+      "check": "q2_citation_prefixes",
+      "passed": true
+    },
+    {
+      "check": "shared_AI_credit",
+      "passed": true
+    },
+    {
+      "check": "section_without_preamble",
+      "passed": true
+    },
+    {
+      "check": "results_led_style",
+      "passed": true
+    },
+    {
+      "check": "claims_22_complete",
+      "passed": true
+    },
+    {
+      "check": "unique_claim_ids",
+      "passed": true
+    },
+    {
+      "check": "claims_anchor_to_section",
+      "passed": true
+    },
+    {
+      "check": "adopted_code_7",
+      "passed": true
+    },
+    {
+      "check": "three_actual_references",
+      "passed": true
+    },
+    {
+      "check": "numeric_122_passed",
+      "passed": true
+    },
+    {
+      "check": "manual_prose_current",
+      "passed": true
+    },
+    {
+      "check": "numeric_script_current",
+      "passed": true
+    },
+    {
+      "check": "numeric_section_current",
+      "passed": true
+    },
+    {
+      "check": "independent_local_events_preserved",
+      "passed": true
+    },
+    {
+      "check": "three_figures_reviewed",
+      "passed": true
+    },
+    {
+      "check": "figure_metadata_current",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/run_experiments.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/run_experiments.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/literature/literature_facts.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/literature/literature_facts.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/config/experiment_v1.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/config/experiment_v1.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/config.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/config.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/config/experiment_v1.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/config/experiment_v1.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/forcing_hourly.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/forcing_hourly.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/EXPERIMENT_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/EXPERIMENT_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/protocol.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/protocol.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/thermal_response_times.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/thermal_response_times.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/analyze_robustness.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/analyze_robustness.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/critical_relations.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/critical_relations.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/scenario_outcomes.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/scenario_outcomes.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/paired_v2_fd0625.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/paired_v2_fd0625.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/identifiability.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/identifiability.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/identifiability_details.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/identifiability_details.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/audit/results/observations.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/audit/results/observations.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/audit/results/coefficient_strata.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/audit/results/coefficient_strata.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/audit/results/schema.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/audit/results/schema.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/run_summary.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/run_summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/run_config.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/run_config.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/fits.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/fits.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/holdout_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/holdout_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/holdout_folds.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/holdout_folds.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/literature/figure6_temperature_screen.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/literature/figure6_temperature_screen.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/literature/literature_facts.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/literature/literature_facts.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/REPORT.md",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/REPORT.md",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/decision_summary.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/decision_summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/bootstrap_coefficient_draws.npz",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/bootstrap_coefficient_draws.npz",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/run_experiments.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/run_experiments.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/run_analytic_thermal.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/run_analytic_thermal.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/analyze_identifiability.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/analyze_identifiability.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/competition.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/competition.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/scenario_outcomes.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/scenario_outcomes.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/config.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/config.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/parameter_ensemble.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/parameter_ensemble.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/paired_v2_fd0625.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/paired_v2_fd0625.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/forcing_hourly.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/forcing_hourly.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/reflection_bounds.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/reflection_bounds.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/critical_relations.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/critical_relations.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/thermal_response_times.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/thermal_response_times.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/state_trajectories.parquet",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/state_trajectories.parquet",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/identifiability.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/identifiability.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/audit/results/observations.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/audit/results/observations.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/fits.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/fits.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/holdout_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/holdout_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/holdout_folds.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/holdout_folds.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/run_summary.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/run_summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/holdout_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/holdout_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/calibration_residuals.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/calibration_residuals.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/coefficients.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/coefficients.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/bootstrap_coefficient_draws.npz",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/bootstrap_coefficient_draws.npz",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/author_results/source_stage2_weight_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/author_results/source_stage2_weight_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/sar_evidence_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/sar_evidence_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/sections/q2.tex",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/sections/q2.tex",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/evidence/q2_references.tex",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/evidence/q2_references.tex",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/evidence/q2_claims.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/evidence/q2_claims.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/run_experiments.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/run_experiments.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/literature/literature_facts.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/literature/literature_facts.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/config/experiment_v1.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/config/experiment_v1.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/EXPERIMENT_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/EXPERIMENT_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/protocol.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/protocol.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/analyze_robustness.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/analyze_robustness.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/identifiability_details.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/identifiability_details.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/audit/results/coefficient_strata.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/audit/results/coefficient_strata.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/audit/results/schema.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/audit/results/schema.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/run_config.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/run_config.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/literature/figure6_temperature_screen.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/literature/figure6_temperature_screen.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/REPORT.md",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/REPORT.md",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/decision_summary.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/decision_summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_mechanism_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_mechanism_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_mechanism_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_mechanism_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/scripts/q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/critical_relations.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/critical_relations.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/model/results/holdout_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/model/results/holdout_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_mechanism_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_mechanism_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_mechanism_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_mechanism_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/sources/strength/mamot2018_article.html",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/sources/strength/mamot2018_article.html",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/sources/strength/thermal_diffusivity2025.html",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/sources/strength/thermal_diffusivity2025.html",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/sources/strength/waterflow2026.html",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/sources/strength/waterflow2026.html",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/docs/19_stage4_round3_review.md",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/docs/19_stage4_round3_review.md",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/sources/strength/mamot2018_article_extracted.txt",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/sources/strength/mamot2018_article_extracted.txt",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/sources/strength/source_register.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/sources/strength/source_register.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/research/q2/round3/lab_strength/literature/literature_input_audit.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/research/q2/round3/lab_strength/literature/literature_input_audit.json",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/evidence/q2_references.tex",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/evidence/q2_references.tex",
+      "passed": true
+    },
+    {
+      "check": "layout_compiled_5_plus_1",
+      "passed": true
+    },
+    {
+      "check": "layout_no_warnings",
+      "passed": true
+    },
+    {
+      "check": "layout_section_current",
+      "passed": true
+    },
+    {
+      "check": "layout_preamble_current",
+      "passed": true
+    },
+    {
+      "check": "layout_preview_preamble_current",
+      "passed": true
+    },
+    {
+      "check": "layout_pdf_current",
+      "passed": true
+    },
+    {
+      "check": "all_six_final_pages_reviewed",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/sections/q2.tex",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/sections/q2.tex",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/preview/q2_preview.pdf",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/preview/q2_preview.pdf",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/preview/q2_page-1.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/preview/q2_page-1.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/preview/q2_page-2.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/preview/q2_page-2.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/preview/q2_page-3.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/preview/q2_page-3.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/preview/q2_page-4.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/preview/q2_page-4.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/preview/q2_page-5.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/preview/q2_page-5.png",
+      "passed": true
+    },
+    {
+      "check": "relative_source_track_b/paper/figures/q2/preview/q2_page-6.png",
+      "passed": true
+    },
+    {
+      "check": "source_hash_track_b/paper/figures/q2/preview/q2_page-6.png",
+      "passed": true
+    },
+    {
+      "check": "handoff_present",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    },
+    {
+      "check": "no_compiler_stdout",
+      "passed": true
+    }
+  ],
+  "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+  "public_font_fix_commit": "bbc7b5a2027a81ce358353061a0f305322a2c184",
+  "head_before_delivery": "bbc7b5a2027a81ce358353061a0f305322a2c184",
+  "section_cjk_characters": 2865,
+  "body_pages": 5,
+  "claims": 22,
+  "independent_numeric_checks": 122,
+  "scientific_figures": 3,
+  "tables": 3,
+  "shared_preamble_read_only_sha256": "6b9adddfc84cb47f16a6f0be21c94344af9cc74b5e6e58d358de4cd876380d3b",
+  "files": [
+    {
+      "path": "track_b/paper/evidence/q2_claims.json",
+      "bytes": 46560,
+      "sha256": "ebe11548e906cf4c7ee0c3e0801ac08476e146a1972aa6088881d0d0c650f954"
+    },
+    {
+      "path": "track_b/paper/evidence/q2_code_files.json",
+      "bytes": 2003,
+      "sha256": "7224f54e4f1fc8f8ffb7e81cc8ab1fdb71661612250735a7545f0133bb57d54c"
+    },
+    {
+      "path": "track_b/paper/evidence/q2_layout_check.json",
+      "bytes": 1377,
+      "sha256": "f3bbc4f2ed1690ec9235969e77d4b243093dc98df49ae0b2336071cfb5c7c5e7"
+    },
+    {
+      "path": "track_b/paper/evidence/q2_layout_visual_review.json",
+      "bytes": 2770,
+      "sha256": "9b71928aedade0b48f4e2f08c0a8b5e9594b7dba4613945795010c8082d78d70"
+    },
+    {
+      "path": "track_b/paper/evidence/q2_numeric_audit.json",
+      "bytes": 50203,
+      "sha256": "bbba1f8223c61f24f3787435f507229778076f49626cf7e87a137e1baf8f0ede"
+    },
+    {
+      "path": "track_b/paper/evidence/q2_reference_audit.json",
+      "bytes": 11055,
+      "sha256": "b8896d0f61c1db2f5c5dbba73ed72a275176fc94588db656a7730bbdc7dfe1b8"
+    },
+    {
+      "path": "track_b/paper/evidence/q2_references.tex",
+      "bytes": 1172,
+      "sha256": "f7e955db25aa677f411d6843415f32508cc28a198624a2638ed2bd8f91383559"
+    },
+    {
+      "path": "track_b/paper/figures/q2/preview/q2_page-1.png",
+      "bytes": 468033,
+      "sha256": "10cdb5412983b9d8733e17de5063eab87ff15219f34364814dc6622110f5f338"
+    },
+    {
+      "path": "track_b/paper/figures/q2/preview/q2_page-2.png",
+      "bytes": 461274,
+      "sha256": "82b4f5bae5d1b204b51d4b881d067a2d3894ba91a6a171db92dd71073d4fd977"
+    },
+    {
+      "path": "track_b/paper/figures/q2/preview/q2_page-3.png",
+      "bytes": 487429,
+      "sha256": "5f01868fda1180ee0d2c1c530d5ba7f20d41154795351be79e059d9037f60243"
+    },
+    {
+      "path": "track_b/paper/figures/q2/preview/q2_page-4.png",
+      "bytes": 488730,
+      "sha256": "cb80db49821aea2437ddacd02ea6c6e0767ddfe668fee9ee1806fe948db639eb"
+    },
+    {
+      "path": "track_b/paper/figures/q2/preview/q2_page-5.png",
+      "bytes": 200257,
+      "sha256": "26cdd6b72bb9c4adfe3ca146a1f6a694705eafce1f3f1071c5533a473f677363"
+    },
+    {
+      "path": "track_b/paper/figures/q2/preview/q2_page-6.png",
+      "bytes": 143440,
+      "sha256": "89201d831a265754a255ee6616d7f1906fb0a9e57c938aed2c5704db81cf9b89"
+    },
+    {
+      "path": "track_b/paper/figures/q2/preview/q2_preview.pdf",
+      "bytes": 220336,
+      "sha256": "bd0aa4f360c1201362419279457f0c65b46bb4506eaf676434074d9dc819b39e"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "bytes": 36430,
+      "sha256": "883ca10cd9ef32d91248d72fe2a11fe64124f573b6f4f9b8786600eb02bb6d0d"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+      "bytes": 163985,
+      "sha256": "d82a8fcc7e9d2470e58df59062154dfd4276cb60cec867ac78c7ea559ccf66b6"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_figure_sources.json",
+      "bytes": 38467,
+      "sha256": "cb18fa6985f86111056219d7454fb1cf9c910f7e51beac4a2d022b3577d97a0f"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "bytes": 14066,
+      "sha256": "aa33e916a917a17b9c3efc8ede1958ea412a30d913ff23ad147bd755d196eae7"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+      "bytes": 64292,
+      "sha256": "4d61c13044ae56547e6c8552238e946412e7f6b18fe875beb526a6c62e771cda"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "bytes": 18809,
+      "sha256": "b735a06df83702bdc41bac9795da0b53c43fc384143712a8c6afd235c1984c63"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_mechanism_comparison.png",
+      "bytes": 84800,
+      "sha256": "b951b355248495338353f2220740ffeac4ad39ec34970a02e6d90be7b6aa1520"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_visual_review.json",
+      "bytes": 4096,
+      "sha256": "cd1e1fffdae27a4038ad53b4a33140697c6c5c36e5d3951f6cafc107cf43acd5"
+    },
+    {
+      "path": "track_b/paper/scripts/q2_compile_preview.py",
+      "bytes": 5392,
+      "sha256": "5edec53e9ed123741a81cf94e8a7a0e9be0b5f1eedf2ac147307e17ba686dd72"
+    },
+    {
+      "path": "track_b/paper/scripts/q2_finalize_paper.py",
+      "bytes": 8049,
+      "sha256": "108e715691c2f5b6a39c572c38d47b010f5c8071eb4a646e391270094dc3ce36"
+    },
+    {
+      "path": "track_b/paper/scripts/q2_make_figures.py",
+      "bytes": 17938,
+      "sha256": "9c2ee22d79d5d5a289491266b569e4e882c76b5c2312bf1c0c0c943998fa8e34"
+    },
+    {
+      "path": "track_b/paper/scripts/q2_prepare_evidence.py",
+      "bytes": 16805,
+      "sha256": "dcf0552fe0cd00aeaaa8ce0c2956a8d1184f5f7b2374c66bbf514d38f38e1902"
+    },
+    {
+      "path": "track_b/paper/scripts/q2_preview.tex",
+      "bytes": 337,
+      "sha256": "b67cfeee651bf6a43665d97cefae6fa7f5a7c881eb025b328e82cea7eb05acd7"
+    },
+    {
+      "path": "track_b/paper/scripts/q2_preview_preamble.tex",
+      "bytes": 2646,
+      "sha256": "34addaf6c0b47690edd31efc2ca1ffb6f0ef1f1bceb8d48097c4ba508298ecdc"
+    },
+    {
+      "path": "track_b/paper/scripts/q2_review_paper.py",
+      "bytes": 29234,
+      "sha256": "a3974a2ce1e767bc9ac11afe5c2d5ec6a6d70923f74ae643ff4aea54f2ecde07"
+    },
+    {
+      "path": "track_b/paper/sections/q2.tex",
+      "bytes": 14816,
+      "sha256": "c6d55c822f99675f33f001839b7a02f732e3581d6ece50b63f74343759e9fed0"
+    }
+  ],
+  "excluded_from_hash_list": [
+    "track_b/paper/evidence/q2_delivery_manifest.json",
+    "track_b/paper/tasks/q2_HANDOFF.md"
+  ],
+  "scope": "Q2 paper only; no research model execution, new calibration, push or shared paper edits"
+}

@@ -1,0 +1,27 @@
+{
+  "reviewed_at_utc": "2026-10-24T08:50:21.353732+00:00",
+  "method": "actual final PNGs opened with view_image and visually inspected",
+  "figures": [
+    {
+      "path": "results/waveform/waveform_bands.png",
+      "sha256": "620125587c25f9014d028d2a521a57ae5703d1ee5e0ea51025f4f97f9edec232",
+      "checks": {
+        "readable_axes_and_title": true,
+        "no_obscured_or_clipped_content": true,
+        "reference_times_not_labeled_truth": true,
+        "raw_counts_and_response_not_removed_semantics_clear": true
+      }
+    },
+    {
+      "path": "results/waveform/waveform_spectra.png",
+      "sha256": "4b25ab2519315db674e6ec7fa941e0ea27a5dceb56b7b433db41b4f30ea60209",
+      "checks": {
+        "readable_axes_and_title": true,
+        "no_obscured_or_clipped_content": true,
+        "reference_times_not_labeled_truth": true,
+        "raw_counts_and_response_not_removed_semantics_clear": true
+      }
+    }
+  ],
+  "passed": true
+}

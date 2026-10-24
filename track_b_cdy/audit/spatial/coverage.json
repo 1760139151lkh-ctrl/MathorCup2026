@@ -1,0 +1,258 @@
+{
+  "dem_bounds_WGS84": [
+    85.18975577464204,
+    28.24553450979829,
+    85.69414381661034,
+    28.564382284579324
+  ],
+  "landcover_bounds_WGS84": [
+    84.45097918618985,
+    28.255429283638605,
+    86.15849687824424,
+    29.32181935741689
+  ],
+  "method": "Full set of vector record envelopes; no exact polygon clipping. Historical CGCS2000 degrees are compared numerically to WGS84 for coarse diagnostics only; no datum transformation performed.",
+  "vectors": [
+    {
+      "path": "03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.shp",
+      "total_geometry_records": 1,
+      "record_envelopes_intersecting_DEM": 1,
+      "record_envelopes_fully_inside_DEM": 0,
+      "record_envelopes_intersecting_landcover": 1,
+      "supplied_representative_points": 1,
+      "supplied_points_inside_DEM_extent": 1,
+      "supplied_points_on_valid_DEM_cell": 1,
+      "supplied_points_on_valid_landcover_2020_cell": 0,
+      "supplied_points_on_valid_landcover_2021_cell": 0,
+      "supplied_points_on_valid_landcover_2022_cell": 0,
+      "supplied_points_on_valid_landcover_2023_cell": 0
+    },
+    {
+      "path": "03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.shp",
+      "total_geometry_records": 3430,
+      "record_envelopes_intersecting_DEM": 212,
+      "record_envelopes_fully_inside_DEM": 174,
+      "record_envelopes_intersecting_landcover": 814,
+      "supplied_representative_points": 3430,
+      "supplied_points_inside_DEM_extent": 197,
+      "supplied_points_on_valid_DEM_cell": 197,
+      "supplied_points_on_valid_landcover_2020_cell": 272,
+      "supplied_points_on_valid_landcover_2021_cell": 271,
+      "supplied_points_on_valid_landcover_2022_cell": 271,
+      "supplied_points_on_valid_landcover_2023_cell": 271
+    },
+    {
+      "path": "03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.shp",
+      "total_geometry_records": 4337,
+      "record_envelopes_intersecting_DEM": 293,
+      "record_envelopes_fully_inside_DEM": 249,
+      "record_envelopes_intersecting_landcover": 1145,
+      "supplied_representative_points": 4337,
+      "supplied_points_inside_DEM_extent": 274,
+      "supplied_points_on_valid_DEM_cell": 274,
+      "supplied_points_on_valid_landcover_2020_cell": 357,
+      "supplied_points_on_valid_landcover_2021_cell": 357,
+      "supplied_points_on_valid_landcover_2022_cell": 357,
+      "supplied_points_on_valid_landcover_2023_cell": 357
+    },
+    {
+      "path": "06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp",
+      "total_geometry_records": 84,
+      "record_envelopes_intersecting_DEM": 23,
+      "record_envelopes_fully_inside_DEM": 17,
+      "record_envelopes_intersecting_landcover": 84,
+      "supplied_representative_points": 84,
+      "supplied_points_inside_DEM_extent": 22,
+      "supplied_points_on_valid_DEM_cell": 22,
+      "supplied_points_on_valid_landcover_2020_cell": 83,
+      "supplied_points_on_valid_landcover_2021_cell": 83,
+      "supplied_points_on_valid_landcover_2022_cell": 83,
+      "supplied_points_on_valid_landcover_2023_cell": 83
+    },
+    {
+      "path": "08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.shp",
+      "total_geometry_records": 1,
+      "record_envelopes_intersecting_DEM": 1,
+      "record_envelopes_fully_inside_DEM": 0,
+      "record_envelopes_intersecting_landcover": 1
+    }
+  ],
+  "netcdf": [
+    {
+      "path": "04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+      "approximate_bounds_WGS84": [
+        85.50526453957602,
+        28.26909761708881,
+        85.5501245723933,
+        28.30693479720224
+      ],
+      "approximate_extent_inside_DEM": true,
+      "note": "UTM inverse series applied to 3x3 edge/interior points for coarse bound check, not final geospatial preprocessing."
+    }
+  ],
+  "netcdf_glacier_mask_reference_crosscheck": {
+    "referenced_RGI6_ids": [
+      "RGI60-15.04172",
+      "RGI60-15.04173",
+      "RGI60-15.04174",
+      "RGI60-15.04175"
+    ],
+    "all_ids_found_in_supplied_RGI6": true,
+    "RGI6_attribute_area_sum_km2": 6.441,
+    "RGI6_attribute_records": [
+      {
+        "_record_index": 1481,
+        "RGIId": "RGI60-15.04172",
+        "GLIMSId": "G085525E28282N",
+        "BgnDate": "20010922",
+        "EndDate": "-9999999",
+        "CenLon": "85.524610836",
+        "CenLat": "28.281893388",
+        "O1Region": "15",
+        "O2Region": "1",
+        "Area": "2.712",
+        "Zmin": "3707",
+        "Zmax": "6028",
+        "Zmed": "5201",
+        "Slope": "26.2",
+        "Aspect": "338",
+        "Lmax": "4481",
+        "Status": "0",
+        "Connect": "0",
+        "Form": "0",
+        "TermType": "0",
+        "Surging": "9",
+        "Linkages": "9",
+        "Name": ""
+      },
+      {
+        "_record_index": 1482,
+        "RGIId": "RGI60-15.04173",
+        "GLIMSId": "G085537E28289N",
+        "BgnDate": "20010922",
+        "EndDate": "-9999999",
+        "CenLon": "85.537311335",
+        "CenLat": "28.288670659",
+        "O1Region": "15",
+        "O2Region": "1",
+        "Area": "3.134",
+        "Zmin": "4233",
+        "Zmax": "5779",
+        "Zmed": "5314",
+        "Slope": "19.6",
+        "Aspect": "280",
+        "Lmax": "3676",
+        "Status": "0",
+        "Connect": "0",
+        "Form": "0",
+        "TermType": "0",
+        "Surging": "9",
+        "Linkages": "9",
+        "Name": ""
+      },
+      {
+        "_record_index": 1483,
+        "RGIId": "RGI60-15.04174",
+        "GLIMSId": "G085537E28299N",
+        "BgnDate": "20010922",
+        "EndDate": "-9999999",
+        "CenLon": "85.537403120",
+        "CenLat": "28.299429850",
+        "O1Region": "15",
+        "O2Region": "1",
+        "Area": "0.281",
+        "Zmin": "5327",
+        "Zmax": "5708",
+        "Zmed": "5573",
+        "Slope": "31.0",
+        "Aspect": "224",
+        "Lmax": "551",
+        "Status": "0",
+        "Connect": "0",
+        "Form": "0",
+        "TermType": "0",
+        "Surging": "9",
+        "Linkages": "9",
+        "Name": ""
+      },
+      {
+        "_record_index": 1484,
+        "RGIId": "RGI60-15.04175",
+        "GLIMSId": "G085531E28302N",
+        "BgnDate": "20010922",
+        "EndDate": "-9999999",
+        "CenLon": "85.530804396",
+        "CenLat": "28.302003951",
+        "O1Region": "15",
+        "O2Region": "1",
+        "Area": "0.314",
+        "Zmin": "5226",
+        "Zmax": "5613",
+        "Zmed": "5433",
+        "Slope": "27.2",
+        "Aspect": "216",
+        "Lmax": "664",
+        "Status": "0",
+        "Connect": "0",
+        "Form": "0",
+        "TermType": "0",
+        "Surging": "9",
+        "Linkages": "9",
+        "Name": ""
+      }
+    ],
+    "NC_positive_mask_nominal_area_km2": 6.4368,
+    "interpretation": "Attribute-ID and nominal-area checks only; not exact polygon-raster intersection or proof of DEM/velocity acquisition date."
+  },
+  "external_station_metadata": {
+    "longitude": 85.29,
+    "latitude": 28.86,
+    "catalog_mirror_url": "https://gwfnet.net/Metadata/Index/T-2026-08-28-p1f3e5qIqTEyibfPAp3smBeA",
+    "original_dataset_url": "https://www.tpdc.ac.cn/zh-hans/data/5b09afd1-d11b-4150-a291-50f0484dddf1",
+    "doi": "10.11888/Atmos.tpdc.303600",
+    "local_CSV_version_hash_matched_to_external_dataset": false,
+    "evidence_note": "External station metadata supplied by the main audit; local CSV alone does not establish station location."
+  },
+  "NC_positive_mask_to_landcover_sampling": {
+    "method": "All positive-mask UTM cell centers transformed with audit-only inverse series, sampled at containing land-cover cell; not exact polygon overlay or formal datum processing.",
+    "results": [
+      {
+        "landcover_path": "05_土地覆盖（2020-2023）/jilong_LUCD_2020.tif",
+        "mask_center_count": 7152,
+        "outside_raster_extent": 0,
+        "valid_class_samples": 0,
+        "sample_code_counts": {
+          "0": 7152
+        }
+      },
+      {
+        "landcover_path": "05_土地覆盖（2020-2023）/jilong_LUCD_2021.tif",
+        "mask_center_count": 7152,
+        "outside_raster_extent": 0,
+        "valid_class_samples": 0,
+        "sample_code_counts": {
+          "0": 7152
+        }
+      },
+      {
+        "landcover_path": "05_土地覆盖（2020-2023）/jilong_LUCD_2022.tif",
+        "mask_center_count": 7152,
+        "outside_raster_extent": 0,
+        "valid_class_samples": 0,
+        "sample_code_counts": {
+          "0": 7152
+        }
+      },
+      {
+        "landcover_path": "05_土地覆盖（2020-2023）/jilong_LUCD_2023.tif",
+        "mask_center_count": 7152,
+        "outside_raster_extent": 0,
+        "valid_class_samples": 0,
+        "sample_code_counts": {
+          "0": 7152
+        }
+      }
+    ]
+  },
+  "diagnostic_figure": "spatial_coverage_diagnostic.png"
+}

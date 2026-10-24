@@ -1,0 +1,49 @@
+{
+  "question": "q2",
+  "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+  "files": [
+    {
+      "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "role": "共同力学、损伤及储排水推进"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607",
+      "role": "因果erfc热核与解析热接口"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/run_experiments.py",
+      "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1",
+      "role": "共同19维参数设计与情景记录"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/run_analytic_thermal.py",
+      "sha256": "8cb54a4a6db606994c18d9e82ab9dce8269e77b1e5445287f9f5d865f3e3e1d6",
+      "role": "全2048解析热竞争与参考配对后处理"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analyze_identifiability.py",
+      "sha256": "13bf5a0542300cf60b7b6f693fdc3189e055d58b9bbdfc1671dbfd72ce2a3569",
+      "role": "局部雅可比与参数补偿基准"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/competition.py",
+      "sha256": "5f93736b630b683ad52ba0c7d9fbca0fe9f50b4f88d0e954579a620506d53292",
+      "role": "完整外部实验本构拟合、分组留出与条件不确定性"
+    },
+    {
+      "path": "track_b/paper/scripts/q2_make_figures.py",
+      "sha256": "9c2ee22d79d5d5a289491266b569e4e882c76b5c2312bf1c0c0c943998fa8e34",
+      "role": "本章节三幅矢量图重绘"
+    }
+  ],
+  "execution_in_paper_phase": "Only paper plotting and verification; historical model programs listed for adopted method provenance, not rerun",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2"
+  },
+  "third_party_solver": null
+}

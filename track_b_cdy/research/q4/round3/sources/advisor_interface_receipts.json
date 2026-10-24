@@ -1,0 +1,19 @@
+{
+  "recorded_at_utc": "2026-10-24T07:45:47.997641+00:00",
+  "source_type": "main_advisor_message_relay; no human scientific adoption",
+  "records": [
+    {
+      "kind": "geometry_adoption_and_delivery",
+      "bundle_path": "exports/geometry_v1/bundle.json",
+      "bundle_sha256": "5a2315f807bac296e5ae9bf877e655499b7a2b40e39df8edd3b0cccbeade853a",
+      "advisor_feedback": "Eight file hashes, DEM actual reading and figure review passed; delivered to Q2/Q3 inputs. Adopted as conditional computational geometry and identified DEM datum/source only. No accepted observed route, failure polygon or protection facility."
+    },
+    {
+      "kind": "runtime_execution_authorization",
+      "container_name": "mathorcup-r3-toolchain-build",
+      "container_id": "ad84a77a0ea9eb7447f61eb2e08756f00665429b7c90f8744a957efd918fd8c7",
+      "advisor_feedback": "Both solvers actually tested; use docker cp/exec isolated /work/q4/ cases now, do not wait image export. Exact code/commands/container ID required; immutable image when available later. No global install or solver source changes."
+    }
+  ],
+  "human_scientific_adoption": false
+}

@@ -1,0 +1,42 @@
+{
+  "reviewed_utc": "2026-10-24T08:21:18.870794+00:00",
+  "source_sha256": "cdb1168d7cf154e3504d199f7bef8d095cbafe74298cb9087874e1d700a1127a",
+  "source_excerpt_1830_1851": "1830: void foutasc ( float **gparam, int *gpx, int *gpy, char *goutmaps, char *gname, int gk, struct ico sico ) { // function for output of ascii raster maps\n1831: \n1832:     FILE *gfascii;\n1833:     char gpath[200];\n1834:     int gi, gx, gy;\n1835:     float gpout;\n1836: \n1837:     sprintf(gpath, \"%s%s.asc\", goutmaps, gname ); // writing name of ascii file to string\n1838:     gfascii=fopen(gpath, \"w\"); // opening ascii file\n1839: \n1840:     fprintf( gfascii, \"ncols %i\\n\", sico.N ); // writing header to ascii file\n1841:     fprintf( gfascii, \"nrows %i\\n\", sico.M );\n1842:     fprintf( gfascii, \"xllcenter %.2f\\n\", sico.BDWEST );\n1843:     fprintf( gfascii, \"yllcenter %.2f\\n\", sico.BDSOUTH );\n1844:     fprintf( gfascii, \"cellsize %.2f\\n\", sico.CSZ );\n1845:     fprintf( gfascii, \"NODATA_value %.3f\\n\", sico.UNDEF );\n1846: \n1847:     gi = 0;\n1848:   \n1849:     for ( gx=0; gx<sico.M; gx++ ) { for ( gy=0; gy<sico.N; gy++ ) {\n1850: \n1851:         if ( gpx[gi] == gx && gpy[gi] == gy ) {",
+  "actual_read": {
+    "input_dem": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/bowlrest/dem.tif",
+    "input_dem_transform": [
+      60.0,
+      0.0,
+      0.0,
+      0.0,
+      -60.0,
+      1800.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "input_dem_bounds": [
+      0.0,
+      0.0,
+      2400.0,
+      1800.0
+    ],
+    "ascii_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0/bowlrest_60_ravaflow_single__sf0_results/bowlrest_60_ravaflow_single__sf0_ascii/bowlrest_60_ravaflow_single__sf0_hflow0000.asc",
+    "ascii_sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e",
+    "ascii_raw_transform": [
+      60.0,
+      0.0,
+      -30.0,
+      0.0,
+      -60.0,
+      1770.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "t0_depth_array_max_difference_m": 0.0
+  },
+  "inference": "xllcenter/yllcenter holds executed west/south bounds, causing header interpretation west/south halfcell shift; cells retain input array indices",
+  "approved_postprocess_rule": "regional runs with identical full DEM andoutput shapes use executed DEM affine forcellcentre target tests; preserve rawASCIIbytes/header andrecord bothtransforms; never apply this blindly tocropped benchmark AOI",
+  "role": "output-coordinate audit, not observed-geography validation"
+}

@@ -1,0 +1,63 @@
+{
+  "reviewed_utc": "2026-10-24T10:44:00.034428+00:00",
+  "scope": "fixed source pathways only; no native rerun or source change",
+  "inferences": [
+    "qfix removes h<=dry_tolerance states and clips m, recomputing hm=h*m",
+    "qfix_cmass explicitly fixes rhoh and recomputes h using clipped m and rho",
+    "src2method2 invokes mass-pressure updates and admissibility projection"
+  ],
+  "not_established": [
+    "no per-step exact flux ledger or total projection mass is emitted by this adapter",
+    "expanded-domain observed mass residual cannot be assigned to one path without instrumentation; no such attribution claimed"
+  ],
+  "sources": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/dclaw-1.0.0/src/2d/dig/digclaw_module.f90",
+      "sha256": "1abbd3a24a47718759fbb0b166d10257cda9b48bc40587576765b3337af1d2dd",
+      "line_ranges": [
+        {
+          "start": 266,
+          "end": 296,
+          "text": "\n   subroutine qfix(h,hu,hv,hm,p,hchi,u,v,m,chi,rho,gz)\n\n      implicit none\n\n      !i/o\n      double precision, intent(in) :: gz\n      double precision, intent(inout) :: h,hu,hv,hm,p,hchi\n      double precision, intent(inout) :: u,v,m,rho,chi\n\n      !Locals\n      double precision :: mmin,mmax,chimin,chimax,pmax,pmin\n      logical :: debug\n\n      debug = .false.\n\n      if (h.le.dry_tolerance) then\n         if (debug.and.h<0.d0) write(*,*) '****WARNING******** QFIX: dry state encountered, h:', h, hm\n         h =  0.d0\n         hu = 0.d0\n         hv = 0.d0\n         hm = 0.d0\n         p  = 0.d0\n         hchi = 0.d0\n         u = 0.d0\n         v = 0.d0\n         m = 0.d0 ! m and chi of dry state should not matter because in\n         chi = 0.d0 ! riemann solver (and elsewhere) the neighbor of a dry\n         ! cell should be used instead. (nowhere should a physically undefined\n         ! variable be used).\n         rho = 0.d0"
+        },
+        {
+          "start": 300,
+          "end": 323,
+          "text": "      u = hu/h\n      v = hv/h\n      m = hm/h\n      chi = hchi/h\n\n      !mlo = 1.d-3\n      if (debug.and.hm<-dry_tolerance) write(*,*) '****WARNING******** QFIX: negative solid h,hm,m:', h, hm, m\n      mmin = 0.0d0\n      mmax = 1.d0\n      m = max(m,mmin)\n      m = min(m,mmax)\n      hm = h*m\n\n      chimin = 0.0d0\n      chimax = 1.d0\n      chi = max(chi,chimin)\n      chi = min(chi,chimax)\n      hchi = h*chi\n\n      rho = rho_s*m + (1.d0-m)*rho_f\n      pmax = rho*gz*h\n      pmin = 0.d0\n      p = max(0.d0,p)\n      p = min(pmax,p)"
+        },
+        {
+          "start": 330,
+          "end": 369,
+          "text": "   !subroutine qfix_cmass\n   !find physically admissible values of h,m,p,rho while holding rhoh,u,v const.\n   ! 'cmass' = constant mass (constant rho*h)\n   !====================================================================\n\n   subroutine qfix_cmass(h,m,p,rho,p_exc,hu,hv,hm,u,v,rhoh,gz)\n\n      implicit none\n\n      !i/o\n      double precision, intent(in) :: gz\n      double precision, intent(in) :: u,v,rhoh\n      double precision, intent(inout) :: h,m,rho,p_exc,p\n      double precision, intent(out):: hu,hv,hm\n      !Locals\n      double precision :: mmin,mmax,p_exc_max,p_exc_min\n\n      mmin = 0.0d0\n      mmax = 1.d0\n      m = max(m,mmin)\n      m = min(m,mmax)\n\n      rho = m*(rho_s - rho_f) + rho_f\n      h = rhoh/rho\n\n      !p_exc = p - rho_f*gz*h\n      p_exc_max = rhoh*gz-rho_f*h*gz\n      p_exc_min = 0.d0-rho_f*h*gz\n      p_exc = max(p_exc_min,p_exc)\n      p_exc = min(p_exc_max,p_exc)\n\n      p = rho_f*gz*h + p_exc\n\n      hu = h*u\n      hv = h*v\n      hm = h*m\n\n      return\n\n   end subroutine qfix_cmass"
+        }
+      ]
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/dclaw-1.0.0/src/2d/dig/src2.f90",
+      "sha256": "a8084a0d502fba5d90c909d7631d68536310bc2f551ec5de8fa4f6c688241446",
+      "line_ranges": [
+        {
+          "start": 97,
+          "end": 118,
+          "text": "         ! 1/30/2024 - Leaving this as is for the moment, this is something to evaluate later.\n         ! DIG: 10/3/24: DLG is eliminating ghost cells from loop.\n\n            ! Get state variable\n            h = q(i_h,i,j)\n            if (h<=dry_tolerance) cycle\n            hu = q(i_hu,i,j)\n            hv = q(i_hv,i,j)\n            hm = q(i_hm,i,j)\n            p =  q(i_pb,i,j)\n            hchi = q(i_hchi,i,j)\n            rhoh = hm*rho_s + (h-hm)*rho_f\n\n            if (hm.lt.0.d0) then\n              !write(*,*) 'SRC2: warning: hm negative, h, hm, rhoh: ',h, hm, rhoh\n              ! This most likely occurs using second order corrections.\n              !stop\n              cycle\n            endif\n\n            !modified gravity: bed-normal weight and acceleration\n            if (bed_normal==1) then"
+        },
+        {
+          "start": 178,
+          "end": 233,
+          "text": "            select case (src2method)\n\n            case(-1)\n            !ignore source integration of m and p\n            !solve shallow water equations with possible friction and passive advection of m\n            !could be used for sediment transport/entrainment with shallow water\n               hu = h*u\n               hv = h*v\n               hm = h*m\n               hchi = h*chi\n            case(0:1)\n               call mp_update_relax_Dclaw4(dt,h,u,v,m,p,chi,rhoh,gz)\n               hu = h*u\n               hv = h*v\n               hm = h*m\n               hchi = h*chi\n            case(2)\n            ! changes only p,m,hm,& h. hrho constant\n            ! takes in general multiple interior timesteps, dtk\n            ! sum(dtk) = dt\n            ! explicit integration for each dt\n               dtremaining = dt\n               itercountmax=100\n               itercount=0\n\n               do while (dtremaining>1.d-99)\n                  call mp_update_FE_4quad(dtremaining,h,u,v,m,p,chi,rhoh,gz,dtk)\n                  dtremaining = dtremaining-dtk\n                  itercount = itercount + 1\n                  if (dtk==0.d0.and.(.not.debug)) exit\n                  if (h<dry_tolerance) exit\n                  if (itercount>=itercountmax) then\n                     exit\n                  endif\n                  if (debug.and.(itercount>50)) then\n                     write(*,*) 'WARNING SRC2: update iteration'\n                     write(*,*) 'itercount,dt,dtremaining:',itercount,dt,dtremaining\n                  endif\n               enddo\n\n               hu = h*u\n               hv = h*v\n               hm = h*m\n               hchi = h*chi\n               call qfix(h,hu,hv,hm,p,hchi,u,v,m,chi,rho,gz)\n\n            end select\n\n            if (h<=dry_tolerance) then\n            ! put state variables back in q.\n               q(i_h,i,j) = h\n               q(i_hu,i,j) = hu\n               q(i_hv,i,j) = hv\n               q(i_hm,i,j) = hm\n               q(i_pb,i,j) = p\n               q(i_hchi,i,j) = hchi"
+        }
+      ]
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/dclaw-1.0.0/src/2d/dig/mp_update.f90",
+      "sha256": "1841d18278fabebcaa5dc6fbed99735d2d28dd66d2e25dc9f649933455f75da1",
+      "line_ranges": [
+        {
+          "start": 122,
+          "end": 150,
+          "text": "          write(*,*) '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'\n       endif\n\n       kp0 = max(kp0,1.d-3) ! shouldn't happen with alphamethod=1 but prevent\n       ! small rounding error\n\n              ! if m == 0 return\n       if (m==0.d0) then\n          ! relax to hydrostatic, call qfix_cmass and return\n          p_exc = p_exc0*exp(-kp0*dtr)\n          call qfix_cmass(h,m,p,rho,p_exc,hu,hv,hm,u,v,rhoh,gz)\n          dtk = dtr\n          return\n       endif\n\n       ! if at critical point dq/dt = 0, return\n       if ((abs(p_exc0/(rho_f*gz*h0))<1.d-12).and.(abs(m-m_eq)<1.d-12)) then\n          dtk = dtr\n          return\n       endif\n\n       ! if vnorm or alphainv are zero, or if only tanpsi is zero (but not\n       ! pe_exc0)-> only pressure relaxes, then return\n       if (c_d0==0.d0) then\n          p_exc = p_exc0*exp(-kp0*dtr)\n          m = m_0*exp(km0*p_exc*dtr)\n          call qfix_cmass(h,m,p,rho,p_exc,hu,hv,hm,u,v,rhoh,gz)\n          dtk = dtr\n          return"
+        }
+      ]
+    }
+  ]
+}

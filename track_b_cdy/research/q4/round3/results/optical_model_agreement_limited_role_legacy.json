@@ -1,0 +1,9 @@
+{
+  "generated_at_utc": "2026-10-24T11:18:00.606199+00:00",
+  "protocol_path": "config/optical_agreement_protocol.json",
+  "protocol_sha256": "e67198696388427d567b9c446a0e564c504fa198946aa8f272a354ea9ca2c144",
+  "models": 29,
+  "rows": 116,
+  "independent_validation_events": 0,
+  "interpretation": "47-day vegetation-change screen is an ambiguous retrospective candidate. Nearest upsampling adds no model resolution. No tuning, probability or event-validation claim."
+}

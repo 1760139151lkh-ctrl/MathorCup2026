@@ -1,0 +1,10 @@
+band,threshold_robust_log_z,candidate_episode_count,first_episode_start_bin_utc,first_confirmation_support_end_utc,status,accepted_mechanical_truth
+low_0.02_0.2Hz,4,3,2026-08-26 02:52:34+00:00,2026-08-26 02:52:39+00:00,station_candidate_only,False
+low_0.02_0.2Hz,6,3,2026-08-26 02:53:06+00:00,2026-08-26 02:53:11+00:00,station_candidate_only,False
+low_0.02_0.2Hz,8,0,,,no_persistent_candidate,False
+mid_0.2_1Hz,4,24,2026-08-26 02:52:31+00:00,2026-08-26 02:52:36+00:00,station_candidate_only,False
+mid_0.2_1Hz,6,6,2026-08-26 02:52:32+00:00,2026-08-26 02:52:37+00:00,station_candidate_only,False
+mid_0.2_1Hz,8,5,2026-08-26 02:52:39+00:00,2026-08-26 02:52:44+00:00,station_candidate_only,False
+high_1_10Hz,4,17,2026-08-26 02:28:00+00:00,2026-08-26 02:28:05+00:00,station_candidate_only,False
+high_1_10Hz,6,7,2026-08-26 02:28:00+00:00,2026-08-26 02:28:05+00:00,station_candidate_only,False
+high_1_10Hz,8,4,2026-08-26 02:30:02+00:00,2026-08-26 02:30:07+00:00,station_candidate_only,False

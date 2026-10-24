@@ -1,0 +1,30 @@
+{
+  "version": "q4-r3-reduced-v1-amendment01",
+  "registered_at_utc": "2026-10-24T07:38:44.501906+00:00",
+  "registered_before_reduced_model_computations": true,
+  "original_protocol_sha256": "ec4caac240dfa667cdd3917da0f0e07946cd780ec481a0a25d883f12eb6df7fc",
+  "parent_amendment": "config/protocol_amendment_01.md",
+  "changes": [
+    {
+      "additional_thickness_m": 136,
+      "mu": 0.15,
+      "xi_m_s2": 1000,
+      "role": "external reconstruction challenge, not source observation",
+      "input_reference": "sources/paper_constraints.json",
+      "volume": "actual 925200m2 source raster area * 136m =125827200m3; not forced to paper 103.35Mm3"
+    },
+    {
+      "source_raster_60m_cells": 257,
+      "source_area_m2": 925200,
+      "grid120_depth_scale": 0.9589552238805971,
+      "reason": "common volume across reference grids"
+    },
+    {
+      "target_utm45n_east_north": [
+        340981.541,
+        3129214.005
+      ],
+      "geometry_version": "q4-r3-spatial-copdem-v1"
+    }
+  ]
+}

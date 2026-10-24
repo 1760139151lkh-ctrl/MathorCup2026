@@ -1,0 +1,27 @@
+{
+  "review": "Independent internal static review plus integrator boundary feedback",
+  "all_findings_addressed": true,
+  "findings": [
+    {
+      "issue": "future forecast initialization or availability before initialization",
+      "resolution": "Reference/issue/availability gate added; three synthetic counterexamples pass"
+    },
+    {
+      "issue": "false-alarm definitions absent",
+      "resolution": "Monitoring exposure, matching and three distinct false-alarm denominators defined; real metrics null"
+    },
+    {
+      "issue": "zero lead not aggregated",
+      "resolution": "zero_lead_events added; zero advance fails effective pre-warning coverage"
+    },
+    {
+      "issue": "alpha config unused",
+      "resolution": "Explicitly preregister alpha=0.05, validate config and pass through score check"
+    },
+    {
+      "issue": "final output hash scope incomplete",
+      "resolution": "Finalizer covers authored documents/scripts/config, source_reading, all results, source snapshots, plot and handoff; excludes mutable dispatch/readiness/logs and itself; every hash re-read"
+    }
+  ],
+  "limitations": "Independent AI static review and mechanical checks do not replace human model decisions."
+}

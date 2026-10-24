@@ -1,0 +1,204 @@
+{
+  "passed": true,
+  "reports": [
+    {
+      "pdf": "build/main/main.pdf",
+      "sha256": "5a202c95ef68d72dd0fb037420fde35a9385b74431182782fe1f8ed7faf2b61f",
+      "fonts": [
+        {
+          "font": "/OFRRIP+SimSun",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/KCGRPF+SimSun",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/CMJPQD+SimSun",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/FKZSJX+TeXGyreTermes-Regular-Identity-H",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/JUUBID+SimSun",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/MEWUUF+SimSun",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/RCBPYY+TeXGyreTermes-Bold-Identity-H",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/AXQVIR+SimSun",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/UGKLFR+CMMI12",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/RURLCO+CMMI8",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/ZICBJW+CMR12",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/PCLEKV+CMSY10",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/VMYOJY+CMSY8",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/OGFUJZ+CMR8",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/FQGJGS+CMEX10",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/GWTTGP+CMMI10",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/KGDPNL+CMR7",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/VFKDVC+CMR10",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/FVFLAT+CMMI7",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/YXCEAX+CMMIB10",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/CBQKKG+CMSY7",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/NFQXNH+TeXGyreHeros-Regular-Identity-H",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/GZQPCB+CMMI9",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/KQMFGZ+CMMI6",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/LFKNOR+MSBM10",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/NGRZPZ+CMR6",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/LMNEVU+CMSY6",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/POFQKG+CMR9",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/EPTRGS+CMSY9",
+          "subtype": "/Type1",
+          "embedded": true
+        },
+        {
+          "font": "/KZRLKR+DejaVuSansMono",
+          "subtype": "/Type0",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true
+    },
+    {
+      "pdf": "build/ai/ai_details.pdf",
+      "sha256": "9c0ee3158d63fac6e65efcb6ffc60357ee99a94183f6fa2a6706425f54d31713",
+      "fonts": [
+        {
+          "font": "/KZUTMM+TeXGyreTermes-Bold-Identity-H",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/QMHHJW+SimSun",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/GKRSLP+SimSun",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/LKBYNU+TeXGyreTermes-Regular-Identity-H",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/YWFDAN+SimSun",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/VMCFSI+DejaVuSansMono",
+          "subtype": "/Type0",
+          "embedded": true
+        },
+        {
+          "font": "/HKQEZY+SimSun",
+          "subtype": "/Type0",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true
+    }
+  ]
+}

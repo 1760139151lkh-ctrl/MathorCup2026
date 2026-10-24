@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "generated_at_utc": "2026-10-24T08:42:56.930732+00:00",
+  "checks": {
+    "executed_source_matches_final_bytes": true,
+    "all_rank_midpoints_and_boundary_credits_recomputed": true,
+    "three_route_three_window_consensus_independently_recomputed": true,
+    "all_stability_valid_denominators_and_frequencies_recomputed": true,
+    "all_training_test_168h_supports_disjoint": true,
+    "all_saved_analogs_meet_support_and_distinct_process_rules": true,
+    "actual_feature_years_not_confused_with_nominal_pool": true,
+    "feature_v1_and_advisor_q3_bundle_hashes_verified": true,
+    "released_v1_and_frozen_baseline_unchanged": true,
+    "independent_numerical_review_binds_current_source": true,
+    "required_reports_and_actual_visual_review_present": true,
+    "event_truth_and_availability_boundaries_preserved": true
+  },
+  "rank_groups_with_ties": 97,
+  "ranking_rows": 2835,
+  "fold_groups": 300,
+  "fold_membership_rows": 91500,
+  "stability_rows": 34650,
+  "feature_support_rows": 672,
+  "family_support_rows": 72,
+  "independent_disaster_training_events": 0,
+  "independent_disaster_validation_events": 0,
+  "scope": "Read-only independent arithmetic and artifact review plus validation.json write; no repeat model fitting or scientific adoption"
+}

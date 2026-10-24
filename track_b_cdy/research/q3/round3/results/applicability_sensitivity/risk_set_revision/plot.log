@@ -1,0 +1,3 @@
+/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/scripts/plot_fixed_risk.py:35: UserWarning: AutoDateLocator was unable to pick an appropriate interval for this date range. It may be necessary to add an interval value to the AutoDateLocator's intervald dictionary. Defaulting to 12.
+  fig.savefig(O/'fixed_risk_comparison.png',dpi=160);plt.close(fig);print('Generated fixed-risk figure; actual review required')
+Generated fixed-risk figure; actual review required

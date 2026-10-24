@@ -1,0 +1,10 @@
+earlier,later,support,grid_cells,delta_vx_median_m_year,delta_vy_median_m_year,delta_v_median_m_year,nominal_vx_error_rss_m_year,nominal_vy_error_rss_m_year,error_rss_is_statistical_test,shared_image_correlation_unknown,interpretation
+pre,straddle,pairwise_valid,372,-3.0,-8.0,1.0,102.97115991317544,62.4759949078667,False,True,"descriptive, spatially correlated pixels; no acceleration significance or causal attribution"
+pre,straddle,three_pair_common_valid,358,-3.0,-8.0,1.0,102.97115991317544,62.4759949078667,False,True,"descriptive, spatially correlated pixels; no acceleration significance or causal attribution"
+pre,straddle,pairwise_raw_flag0_with_fill_conflict,285,-1.0,-10.0,0.0,102.97115991317544,62.4759949078667,False,True,"descriptive, spatially correlated pixels; no acceleration significance or causal attribution"
+straddle,post,pairwise_valid,364,2.0,4.5,1.0,104.51076176181884,66.05891417906513,False,True,"descriptive, spatially correlated pixels; no acceleration significance or causal attribution"
+straddle,post,three_pair_common_valid,358,2.0,4.0,1.0,104.51076176181884,66.05891417906513,False,True,"descriptive, spatially correlated pixels; no acceleration significance or causal attribution"
+straddle,post,pairwise_raw_flag0_with_fill_conflict,283,2.0,3.0,1.0,104.51076176181884,66.05891417906513,False,True,"descriptive, spatially correlated pixels; no acceleration significance or causal attribution"
+pre,post,pairwise_valid,403,0.0,1.0,2.0,102.68368687464873,63.95349828414036,False,True,"descriptive, spatially correlated pixels; no acceleration significance or causal attribution"
+pre,post,three_pair_common_valid,358,0.0,0.5,2.0,102.68368687464873,63.95349828414036,False,True,"descriptive, spatially correlated pixels; no acceleration significance or causal attribution"
+pre,post,pairwise_raw_flag0_with_fill_conflict,318,0.0,0.0,1.0,102.68368687464873,63.95349828414036,False,True,"descriptive, spatially correlated pixels; no acceleration significance or causal attribution"

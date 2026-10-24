@@ -1,0 +1,22 @@
+{
+  "version": "q4-r3-official-parallel-required-v1",
+  "registered_utc": "2026-10-24T09:19:59.012170+00:00",
+  "before_extra_execution": true,
+  "max_total_native_processes": 4,
+  "per_run_unique_lock": "fcntl flock cache/.locks/<run_id>.lock",
+  "legacy_capacity_reservation": "originalsingle/multi/dclaw queueeach reserves1 untildone; existingcomposite reserves1 throughrefandcontrol, includinggaps; extraqueues useonlyremainingcapacity",
+  "case_selection": "onlyalreadyregistered targetapplicable required; excludes7genericnotrun and1genericdiagnostic; no newphysics/horizon",
+  "priority": [
+    "compositeRIwaternodragvm",
+    "boundedentrainment",
+    "single60ref",
+    "singleCFL",
+    "singlemu",
+    "h/xi",
+    "Q2fullmask120",
+    "otherQ2pending"
+  ],
+  "futureadapter_snapshot": true,
+  "priority_amendment_utc": "2026-10-24T09:50:57.913614+00:00",
+  "priority_amendment_source": "parent directs earliest60m/CFL/friction baseline completion, no physicalchange"
+}

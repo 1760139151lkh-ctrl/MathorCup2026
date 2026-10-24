@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-10-24T09:27:58.754350+00:00",
+  "original_protocol_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/official_protocol.json",
+  "original_protocol_sha256": "d321304b67b381e0bc14a862c2e262bdbe86fd89f4b7743807e6ff6dea936e7d",
+  "original_protocol_bytes_unchanged": true,
+  "not_prepared_not_executed_options": [
+    {
+      "textual_option": "DClaw atan(.15) then32deg native default challenge",
+      "status": "not_prepared_not_executed",
+      "actual_registration": "nineDClawregionalcases=8commonvariants plus1extendeddomain, allphi=degreesatan(.15)",
+      "not_evidence_or_result": true,
+      "new_run_required": false
+    }
+  ],
+  "scope": "reconcile protocol prose with actual registeredexecutions, not addnewcases"
+}

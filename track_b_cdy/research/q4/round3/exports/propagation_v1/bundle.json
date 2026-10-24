@@ -1,0 +1,386 @@
+{
+  "bundle_version": "q4-r3-propagation-v1",
+  "producer_question": "q4",
+  "input_version": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+  "status": "frozen_partial_for_q3_review",
+  "partial": true,
+  "provisional_compare_scope": true,
+  "all_routes_completed": false,
+  "generated_at_utc": "2026-10-24T08:54:17.179681+00:00",
+  "selected_run_ids": [
+    "copdem_120_dclaw_loose",
+    "copdem_120_dclaw_nopressure",
+    "copdem_120_dclaw_permeable",
+    "copdem_120_dclaw_ref",
+    "copdem_60_dclaw_ref",
+    "dclaw_ref_extended120"
+  ],
+  "evaluation_stratum": "conditional_scenario",
+  "files": [
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/model_runs.csv",
+      "bytes": 63034,
+      "sha256": "e1dbd5c2b524a162b61e4e7da80f280fda7a8571941736edc1b2c7275107c2d7",
+      "role": "model_runs",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/comparison_metrics.csv",
+      "bytes": 15565,
+      "sha256": "67d70c1d29b3b039020db79bb1d9756dc44cbbb76a63bb7cfcd1f578accd0287",
+      "role": "comparison_metrics",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/target_arrivals.csv",
+      "bytes": 111008,
+      "sha256": "906a0be62ea32f49001a800b961ccd73e2508c20907bcf0902a909c529882fdb",
+      "role": "target_arrivals",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/comparison_summary.json",
+      "bytes": 73613,
+      "sha256": "44e91ca0b28461fd18bc8031c9743549285b0be7a6998b21811ab204dc062d9d",
+      "role": "comparison_summary",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/numerical_validation.json",
+      "bytes": 23009,
+      "sha256": "cc7534b6555efc931205e4e16bf115378f6166a4c76d32c3d139831cbfc3ce81",
+      "role": "numerical_validation",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/fields_index.json",
+      "bytes": 5549,
+      "sha256": "fc97a0a1893fa32618f9f10d4c622ce1b70c2718ee68f8275430b735b2fcbad4",
+      "role": "fields_index",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/copdem_120_dclaw_loose/case.json",
+      "bytes": 1800,
+      "sha256": "1e0900f96c4ae6dfbca0b7575f673e8da926c519004bee697a56dcbaf5b2cb52",
+      "role": "native case",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/copdem_120_dclaw_loose/execution.json",
+      "bytes": 1668,
+      "sha256": "5ef77e32497ec45725317fca48a5fdb0b21f355774999ea585b63a33c7fb2923",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/copdem_120_dclaw_nopressure/case.json",
+      "bytes": 1806,
+      "sha256": "c5c45fed8c02256e0e49e97d654f67b31d9ca69bb3dd7ac302695914e280a82b",
+      "role": "native case",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/copdem_120_dclaw_nopressure/execution.json",
+      "bytes": 1384,
+      "sha256": "ab4d2b26f23f5598261a2bfb5ae8a120e7e747bbabf85527d3dcaa06d71a5ba3",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/copdem_120_dclaw_permeable/case.json",
+      "bytes": 1804,
+      "sha256": "2da43f16b166d238eb9fc27b7228e2b08fa71107179876dca7d914cb18c4e0eb",
+      "role": "native case",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/copdem_120_dclaw_permeable/execution.json",
+      "bytes": 1693,
+      "sha256": "73515aea0c9a27e345ac45c33d02771716b40a383016c8d4247513ac3eb663f1",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/copdem_120_dclaw_ref/case.json",
+      "bytes": 1798,
+      "sha256": "f039f5d79bc7238739b0b397814ac25cda1325a92006e26d1b8ce88be64cd0d9",
+      "role": "native case",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/copdem_120_dclaw_ref/execution.json",
+      "bytes": 1491,
+      "sha256": "b188e8362b790c047881596e721b9c3f52fa67163160d62d953759f50e75ab23",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/copdem_60_dclaw_ref/case.json",
+      "bytes": 1772,
+      "sha256": "107aa9c210a5f60c5bea543e12b724e2c2054251db87c150423b1ced31a0cc6c",
+      "role": "native case",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/copdem_60_dclaw_ref/execution.json",
+      "bytes": 1354,
+      "sha256": "32c16a6b110a492f32871246ad77b62e84b6c1c85ed6c91c9c20e4b34c340c08",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/dclaw_ref_extended120/case.json",
+      "bytes": 2034,
+      "sha256": "4d83681ccc75c8372c479dda21937d0e3cbfdd1cf72df03049347aa0184a3735",
+      "role": "native case",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/dclaw_ref_extended120/execution.json",
+      "bytes": 1363,
+      "sha256": "477f94c4e6a0ea7d0ded73789263d03b24e2664e9e07bf6d0b73ae2c581d1f3c",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/geometry/spatial_targets_v2.csv",
+      "bytes": 1483,
+      "sha256": "6735c7dbb668c97bd73024050cbd0b7d1570bb78382dce005dddd983a276b18d",
+      "role": "target geometry",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/geometry/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "role": "target geometry",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/provenance/integrate_comparison.py",
+      "bytes": 55110,
+      "sha256": "b3ff08d5a45c4dbc3cf298e20009c6199503f1e18ce94c16c6f2330375e630f0",
+      "role": "exact early-package postprocessor source",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v1/input_index.json",
+      "bytes": 19454,
+      "sha256": "0f26ad5a9f1c4ccd3efee98c833d7c3315ee22b89c48efb674094a71c497f2e2",
+      "role": "selected dependency and observer snapshot index",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/dem.tif",
+      "bytes": 39968,
+      "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+      "role": "immutable native input terrain",
+      "read_at_utc": "2026-10-24T08:54:16.923919+00:00",
+      "actual_read_scope": "complete byte stream hashed in 1MiB blocks; no binary arrays loaded by integrator",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/release_15m.tif",
+      "bytes": 676,
+      "sha256": "64efb8011842e3d431e3f9fe75b65d073e9c0af3fc7b5028e886e07e61d7c9a2",
+      "role": "immutable native release thickness",
+      "read_at_utc": "2026-10-24T08:54:16.924716+00:00",
+      "actual_read_scope": "complete byte stream hashed in 1MiB blocks; no binary arrays loaded by integrator",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "copdem_120_dclaw_loose",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/summary_fields_ea72693f3104.npz",
+      "bytes": 850038,
+      "sha256": "fd4fed3a016ad1b178ce853a38451de20486cbf79d69922cb22b66fc83774f8f",
+      "role": "actual_official_process_fields",
+      "case_sha256": "1e0900f96c4ae6dfbca0b7575f673e8da926c519004bee697a56dcbaf5b2cb52",
+      "execution_sha256": "5ef77e32497ec45725317fca48a5fdb0b21f355774999ea585b63a33c7fb2923",
+      "log_sha256": "d3f2ffe748028b69c8f5d923880c814cefe5ef9ed5001cc74025128e4437cd3c",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "solver_build": "official_original",
+      "time_end_seconds": 1800.0,
+      "native_time_evidence": "flushedsummary ornative stdout tsum, neverindex*interval",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/run.log",
+      "bytes": 17390,
+      "sha256": "d3f2ffe748028b69c8f5d923880c814cefe5ef9ed5001cc74025128e4437cd3c",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "copdem_120_dclaw_nopressure",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/summary_fields_ea72693f3104.npz",
+      "bytes": 1045136,
+      "sha256": "36280fb8b3e9606e6e4e034141c26dc9f83407ee394e102831ebee37966e590d",
+      "role": "actual_official_process_fields",
+      "case_sha256": "c5c45fed8c02256e0e49e97d654f67b31d9ca69bb3dd7ac302695914e280a82b",
+      "execution_sha256": "ab4d2b26f23f5598261a2bfb5ae8a120e7e747bbabf85527d3dcaa06d71a5ba3",
+      "log_sha256": "c3e5d078fe8b9dd121373309eec731e160b45e071496dd960c523ffc5e3f0a61",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "solver_build": "official_original",
+      "time_end_seconds": 1800.0,
+      "native_time_evidence": "flushedsummary ornative stdout tsum, neverindex*interval",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/run.log",
+      "bytes": 26738,
+      "sha256": "c3e5d078fe8b9dd121373309eec731e160b45e071496dd960c523ffc5e3f0a61",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "copdem_120_dclaw_permeable",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/summary_fields_ea72693f3104.npz",
+      "bytes": 1119541,
+      "sha256": "f72657aafc91bea8b527ad9b9e04964a9cba74a554d826b589f86152d15558f2",
+      "role": "actual_official_process_fields",
+      "case_sha256": "2da43f16b166d238eb9fc27b7228e2b08fa71107179876dca7d914cb18c4e0eb",
+      "execution_sha256": "73515aea0c9a27e345ac45c33d02771716b40a383016c8d4247513ac3eb663f1",
+      "log_sha256": "73af794dfe195aaf72e23a17bb35a367935389fde28395775bd169e5f5221bd7",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "solver_build": "official_original",
+      "time_end_seconds": 1800.0,
+      "native_time_evidence": "flushedsummary ornative stdout tsum, neverindex*interval",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/run.log",
+      "bytes": 75530,
+      "sha256": "73af794dfe195aaf72e23a17bb35a367935389fde28395775bd169e5f5221bd7",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "copdem_120_dclaw_ref",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/summary_fields_ea72693f3104.npz",
+      "bytes": 1153621,
+      "sha256": "61686c16fefd034959ea7281aaf27f85a44230228e4df3f7d606381a704ce3ad",
+      "role": "actual_official_process_fields",
+      "case_sha256": "f039f5d79bc7238739b0b397814ac25cda1325a92006e26d1b8ce88be64cd0d9",
+      "execution_sha256": "b188e8362b790c047881596e721b9c3f52fa67163160d62d953759f50e75ab23",
+      "log_sha256": "02747a91655bae106c3c10804820ab8d8f3c43b3f59b3d30822e5f71f4dcf70b",
+      "image_id": null,
+      "solver_build": "official_original",
+      "time_end_seconds": 1800.0,
+      "native_time_evidence": "flushedsummary ornative stdout tsum, neverindex*interval",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/run.log",
+      "bytes": 42812,
+      "sha256": "02747a91655bae106c3c10804820ab8d8f3c43b3f59b3d30822e5f71f4dcf70b",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "role": "immutable native input terrain",
+      "read_at_utc": "2026-10-24T08:54:16.987864+00:00",
+      "actual_read_scope": "complete byte stream hashed in 1MiB blocks; no binary arrays loaded by integrator",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/release_15m.tif",
+      "bytes": 1447,
+      "sha256": "5bc9f95ca38aa46f018fa40f804ef063eb7835a65e408d578a6881c8ced61890",
+      "role": "immutable native release thickness",
+      "read_at_utc": "2026-10-24T08:54:16.989025+00:00",
+      "actual_read_scope": "complete byte stream hashed in 1MiB blocks; no binary arrays loaded by integrator",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "copdem_60_dclaw_ref",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/summary_fields_ea72693f3104.npz",
+      "bytes": 2321415,
+      "sha256": "44c3d1e41df997f7bf7a8663486bba3608392660a09c451d0ca5bafb8e3a98c8",
+      "role": "actual_official_process_fields",
+      "case_sha256": "107aa9c210a5f60c5bea543e12b724e2c2054251db87c150423b1ced31a0cc6c",
+      "execution_sha256": "32c16a6b110a492f32871246ad77b62e84b6c1c85ed6c91c9c20e4b34c340c08",
+      "log_sha256": "8d053f4c180bf00cac6c7e31f368d66f0c1473707571830339382a71cc6fc411",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "solver_build": "official_original",
+      "time_end_seconds": 1800.0,
+      "native_time_evidence": "flushedsummary ornative stdout tsum, neverindex*interval",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/run.log",
+      "bytes": 42812,
+      "sha256": "8d053f4c180bf00cac6c7e31f368d66f0c1473707571830339382a71cc6fc411",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/extended120/dem.tif",
+      "bytes": 267673,
+      "sha256": "4cae4537a6a5991938247082731f958c05008cc07a55141cae8e608f50e313b1",
+      "role": "immutable native input terrain",
+      "read_at_utc": "2026-10-24T08:54:16.997391+00:00",
+      "actual_read_scope": "complete byte stream hashed in 1MiB blocks; no binary arrays loaded by integrator",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/extended120/release.tif",
+      "bytes": 2036,
+      "sha256": "640c682dfd9e9004383ca96a783b597198a80311dafc1ed1f54471b698a83eaf",
+      "role": "immutable native release thickness",
+      "read_at_utc": "2026-10-24T08:54:16.998537+00:00",
+      "actual_read_scope": "complete byte stream hashed in 1MiB blocks; no binary arrays loaded by integrator",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "dclaw_ref_extended120",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/summary_fields_ea72693f3104.npz",
+      "bytes": 2478565,
+      "sha256": "2b49815d1ad35e594c1a30ed6eca0fd787de0b73a1fdcb6b198c34414246a07c",
+      "role": "actual_official_process_fields",
+      "case_sha256": "4d83681ccc75c8372c479dda21937d0e3cbfdd1cf72df03049347aa0184a3735",
+      "execution_sha256": "477f94c4e6a0ea7d0ded73789263d03b24e2664e9e07bf6d0b73ae2c581d1f3c",
+      "log_sha256": "7e1a609aea44ee56167d8daca31668be7342b7cc78420faab89aac37504bd21b",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "solver_build": "official_original",
+      "time_end_seconds": 1800.0,
+      "native_time_evidence": "flushedsummary ornative stdout tsum, neverindex*interval",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/run.log",
+      "bytes": 53528,
+      "sha256": "7e1a609aea44ee56167d8daca31668be7342b7cc78420faab89aac37504bd21b",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    }
+  ],
+  "file_list_excludes_self": true,
+  "table_paths": {
+    "model_runs": "track_b/research/q4/round3/exports/propagation_v1/model_runs.csv",
+    "comparison_metrics": "track_b/research/q4/round3/exports/propagation_v1/comparison_metrics.csv",
+    "target_arrivals": "track_b/research/q4/round3/exports/propagation_v1/target_arrivals.csv"
+  },
+  "probability_weights": null,
+  "independent_local_validation_events": 0,
+  "coverage_probability_claimed": false,
+  "time_origin": "bulk_release",
+  "initiation_to_release_delay_seconds": null,
+  "limitations": [
+    "inventory is not number of completed formal experiments; plan_scope and actual attempts separated",
+    "reduced 1D/2D unqualified for thin-flow arrival timing; 1D area is equivalent-width only",
+    "ravaflow scalar terrain-corrected speed differs from horizontal magnitude; sampling/cutoffs retained",
+    "DClaw nodal-to-cell effective terrain/release differ; signed sampled boundary flux is not native conservation verification",
+    "failed-pipeline and early-terminated hits retained as observed_hit only, valid travel time null",
+    "all travel times relative to scenario bulk release; initiation-to-release delay unknown",
+    "Early partial DClaw packet only; all-route and Q2 mapping comparisons remain pending",
+    "Boundary-affected arrivals are conditional diagnostics, excluded from the arrival envelope",
+    "Saved-output target detection was independently re-evaluated against hashed native NPZ times/depth; not solver-step arrival precision",
+    "Five OSM representatives refer to three distinct candidate entities, not five independent validation targets",
+    "copdem_120_dclaw_ref historical build-container image ID is unavailable; base image/container and exact execution/log/fields retained"
+  ],
+  "human_scientific_adoption": "pending_team_review"
+}

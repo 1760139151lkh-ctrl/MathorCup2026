@@ -1,0 +1,87 @@
+{
+  "generated_at_utc": "2026-10-24T03:45:56.103691+00:00",
+  "passed": true,
+  "check_count": 6,
+  "checks": [
+    {
+      "name": "isolated_runtime_and_lock",
+      "passed": true,
+      "evidence": {
+        "python": "3.12.14",
+        "native_libraries": {
+          "rasterio_gdal": "3.12.2",
+          "pyogrio_gdal": "3.12.4",
+          "proj": "9.8.1",
+          "geos": "3.14.1",
+          "eccodes": "2.50.0"
+        }
+      }
+    },
+    {
+      "name": "six_real_input_formats",
+      "passed": true,
+      "evidence": {
+        "actual_input_formats": [
+          "CSV",
+          "XLSX",
+          "SHP",
+          "GeoTIFF",
+          "NetCDF4",
+          "GRIB2"
+        ]
+      }
+    },
+    {
+      "name": "temporal_values_masks_time_and_hashes",
+      "passed": true,
+      "evidence": {
+        "input_hashes": 47,
+        "output_hashes": 26,
+        "cells_independently_compared": 3312792,
+        "unknown_qc_columns": 26,
+        "strict_qc0_cells": 1712112,
+        "component_checks": 18
+      }
+    },
+    {
+      "name": "formal_spatial_readbacks_and_manifest",
+      "passed": true,
+      "evidence": {
+        "input_hashes": 36,
+        "output_hashes": 15,
+        "raster_readbacks": 8,
+        "geopackage_layers": 4,
+        "history_positive_area_overlap": 23,
+        "source_to_port_continuity_verified": false
+      }
+    },
+    {
+      "name": "forecast_complete_messages_and_regional_roundtrip",
+      "passed": true,
+      "evidence": {
+        "complete_grib_messages": 6,
+        "retrieved_grib_bytes": 3943234,
+        "cells_per_variable": 25,
+        "operational_availability_verified": false
+      }
+    },
+    {
+      "name": "remote_provenance_and_worldcover_cross_module_alignment",
+      "passed": true,
+      "evidence": {
+        "saved_file_hashes": 32,
+        "scenes": 41,
+        "accepted_training_events": 0,
+        "worldcover_2021_valid_nc_mask_cells": 7152
+      }
+    }
+  ],
+  "scope": "Technical minimum data loop and offline saved-evidence checks. No hazard model or statistical coverage validation.",
+  "remaining": [
+    "Human-reviewed event labels and controls",
+    "Actual historical forecast publication latency",
+    "Confirmed failure polygon, port target and river corridor",
+    "DEM dates, vertical references and discrepancies",
+    "Hourly interval semantics, no-QC physical checks, and daily temperature preprocessing"
+  ]
+}

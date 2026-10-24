@@ -1,0 +1,23 @@
+{
+  "reviewed_at_utc": "2026-10-24T04:39:59.012070+00:00",
+  "reviewer": "OpenAI Codex primary Q1 agent; actual view_image inspection after final plot run",
+  "human_review": false,
+  "passed": true,
+  "checks": [
+    "labels and axes visible without clipping",
+    "original QC0 and unknown QC visibly separated",
+    "descriptive historical envelope is explicitly not a confidence interval",
+    "source-clock assumption and retrospective limitation visible",
+    "63 variables and four class boundaries visible"
+  ],
+  "files": [
+    {
+      "path": "figures/coverage_by_year.png",
+      "sha256": "ebbee040a40e9020c6f5b159a0e62fe28689c538dff1970506df0f619bf600b6"
+    },
+    {
+      "path": "figures/same_calendar_descriptives.png",
+      "sha256": "0d0e2d1ecf88909509fec14ca5e773c20137a83663f954c43ebc68ee736f5989"
+    }
+  ]
+}

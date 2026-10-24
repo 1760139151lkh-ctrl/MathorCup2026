@@ -1,0 +1,757 @@
+[
+  {
+    "path": "03_冰川及表面高程变化（2000-2020）/文档说明.docx",
+    "paragraphs": [
+      "数据集摘要：",
+      "本数据集以2026年8月26日吉隆口岸冰岩崩源区所在冰川为中心，构建半径200 km区域范围，整理该区域冰川空间分布及2000—2020年冰川表面高程变化数据。",
+      "数据主要包括从Randolph Glacier Inventory 6.0和7.0中提取的区域冰川边界，以及基于Hugonnet等（Accelerated global glacier mass loss in the early twenty-first century）发布的全球冰川高程变化产品筛选获得的2000—2005年、2005—2010年、2010—2015年和2015—2020年四个时期冰川表面高程变化率数据。各时段高程变化数据包括UTM投影下的高程变化率（dhdt_UTM）、地理坐标系下的高程变化率（dhdt_GCS）以及UTM投影下的高程变化率误差（dhdt_err_UTM）。",
+      "本数据集可用于分析吉隆冰岩崩源区冰川长期减薄背景、开展源区与周边冰川变化对比，并为喜马拉雅山区冰川变化、冰岩崩及相关冰冻圈灾害研究提供基础数据支持。"
+    ],
+    "scan": "all word/document.xml paragraphs"
+  },
+  {
+    "path": "06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp.xml",
+    "selected_metadata_elements": [
+      {
+        "tag": "CreaDate",
+        "text": "20260826",
+        "attributes": {}
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 泥石流流域\\Polygons flag 1 VB #",
+        "attributes": {
+          "ToolSource": "d:\\gis\\desktop10.4\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201106",
+          "Time": "161216"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "SpatialJoin 流域_final 拉萨-吉隆段泥石流点_终 C:\\Users\\HP\\Desktop\\面终2.shp JOIN_ONE_TO_ONE KEEP_ALL \"OID_ \"OID_\" true true false 10 Long 0 10 ,First,#,流域_final,OID_,-1,-1;Name \"Name\" true true false 254 Text 0 0 ,First,#,流域_final,Name,-1,-1,拉萨-吉隆段泥石流点_终,name,-1,-1;FolderPath \"FolderPath\" true true false 254 Text 0 0 ,First,#,流域_final,FolderPath,-1,-1;SymbolID \"SymbolID\" true true false 10 Long 0 10 ,First,#,流域_final,SymbolID,-1,-1;AltMode \"AltMode\" true true false 5 Long 0 5 ,First,#,流域_final,AltMode,-1,-1;Base \"Base\" true true false 19 Double 0 0 ,First,#,流域_final,Base,-1,-1;Clamped \"Clamped\" true true false 5 Long 0 5 ,First,#,流域_final,Clamped,-1,-1;Extruded \"Extruded\" true true false 5 Long 0 5 ,First,#,流域_final,Extruded,-1,-1;Snippet \"Snippet\" true true false 254 Text 0 0 ,First,#,流域_final,Snippet,-1,-1;PopupInfo \"PopupInfo\" true true false 254 Text 0 0 ,First,#,流域_final,PopupInfo,-1,-1;Shape_Leng \"Shape_Leng\" true true false 19 Double 0 0 ,First,#,流域_final,Shape_Leng,-1,-1;Shape_Area \"Shape_Area\" true true false 19 Double 0 0 ,First,#,流域_final,Shape_Area,-1,-1;flag \"flag\" true true false 5 Long 0 5 ,First,#,流域_final,flag,-1,-1;x_coord \"x_coord\" true true false 80 Text 0 0 ,First,#,拉萨-吉隆段泥石流点_终,x_coord,-1,-1;y_coord \"y_coord\" true true false 80 Text 0 0 ,First,#,拉萨-吉隆段泥石流点_终,y_coord,-1,-1;height \"height\" true true false 24 Double 15 23 ,First,#,拉萨-吉隆段泥石流点_终,height,-1,-1;河流 \"河流\" true true false 50 Text 0 0 ,First,#,拉萨-吉隆段泥石流点_终,河流,-1,-1;RiveName \"RiveName\" true true false 50 Text 0 0 ,First,#,拉萨-吉隆段泥石流点_终,RiveName,-1,-1;岸别 \"岸别\" true true false 50 Text 0 0 ,First,#,拉萨-吉隆段泥石流点_终,岸别,-1,-1;承灾体 \"承灾体\" true true false 50 Text 0 0 ,First,#,拉萨-吉隆段泥石流点_终,承灾体,-1,-1;课题 \"课题\" true true false 50 Text 0 0 ,First,#,拉萨-吉隆段泥石流点_终,课题,-1,-1;Code \"Code\" true true false 50 Text 0 0 ,First,#,拉萨-吉隆段泥石流点_终,Code,-1,-1\" INTERSECT # #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.5\\ArcToolbox\\Toolboxes\\Analysis Tools.tbx\\SpatialJoin",
+          "Date": "20201106",
+          "Time": "193749"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 承灾体 \"道路、恩巴村\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.5\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201106",
+          "Time": "212904"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 高差 [xxx] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "094412"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 解译Time \"2020/9/25\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "171337"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像type \"Google earth\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "171450"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 Resolution \"1m\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "171547"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 I水系 [河流] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "171710"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 I水系 [河流] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "171740"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 I水系 \"\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "171752"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 I水系 [河流] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "171811"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 I水系 [河流] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "171836"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 II水系 [河流] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "171916"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"左\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172119"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"右\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172129"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"右\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172136"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"右\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172144"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"右\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172205"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"左\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172229"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"左\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172236"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"左\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172249"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"右\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172357"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"右\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172415"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"右\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172531"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"右\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172645"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"右\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172718"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"左\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172728"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 岸别 \"左\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "172740"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 沟口高 [height] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "173240"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 沟口高 [height] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "173300"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 沟口高 [height] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "173325"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 沟口H [height] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "173429"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 沟口heig [height] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "173612"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 沟口H [height] VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "173630"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 解译Time \"2020/6/25\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "183939"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 解译Time \"2020/7/25\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "183955"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像type \"2020/8/25\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "184005"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 有无_Fan \"有\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "193354"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 有无_Fan \"无\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "193404"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 有无_Fan \"有\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "193421"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 有无_Fan \"无\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "193428"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2017/11/11\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "194635"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2015/5/08\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "194708"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2017/10/17\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "194820"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2017/10/10\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "194924"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2010/05/08\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "194954"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2014/12/28\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195029"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2015/05/08\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195051"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2015/05/13\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195131"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2015/05/08\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195235"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2014/11/10\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195322"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2015/06/08\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195347"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2019/04/07\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195419"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2013/01/14\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195440"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2019/06/21\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195515"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2017/10/13\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195548"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2015/04/22\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195624"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2016/04/27\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195700"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2010/11/29\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195739"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2010/11/05\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195802"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2018/05/13\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195823"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2019/06/14\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195856"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2019/10/28\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195915"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2019/11/10\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "195933"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2011/04/18\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "200016"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2016/10/24\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "200049"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2016/10/24\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "200115"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2011/11/10\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "200145"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2010/10/13\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "200221"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2010/10/13\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "200230"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2010/10/13\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "200247"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2010/05/18\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "200322"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2010/10/13\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "200400"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "CalculateField 面终3 影像Time \"2010/10/13\" VB #",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.2\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CalculateField",
+          "Date": "20201110",
+          "Time": "200430"
+        }
+      },
+      {
+        "tag": "Process",
+        "text": "ExportFeatures 面-中尼廊道吉隆泥石流 C:\\Users\\35208\\Desktop\\西藏日喀则市吉隆县泥石流灾害区历史灾点数据\\西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp # NOT_USE_ALIAS \"Name \"Name\" true true false 254 Text 0 0,First,#,面-中尼廊道吉隆泥石流,Name,0,253;flag \"flag\" true true false 10 Long 0 10,First,#,面-中尼廊道吉隆泥石流,flag,-1,-1;x_coord \"x_coord\" true true false 80 Text 0 0,First,#,面-中尼廊道吉隆泥石流,x_coord,0,79;y_coord \"y_coord\" true true false 80 Text 0 0,First,#,面-中尼廊道吉隆泥石流,y_coord,0,79;height \"height\" true true false 19 Double 0 0,First,#,面-中尼廊道吉隆泥石流,height,-1,-1;河流 \"河流\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,河流,0,49;RiveName \"RiveName\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,RiveName,0,49;岸别 \"岸别\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,岸别,0,49;承灾体 \"承灾体\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,承灾体,0,49;课题 \"课题\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,课题,0,49;Code \"Code\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,Code,0,49;Area \"Area\" true true false 19 Double 0 0,First,#,面-中尼廊道吉隆泥石流,Area,-1,-1;DisFrmFlt \"DisFrmFlt\" true true false 19 Double 0 0,First,#,面-中尼廊道吉隆泥石流,DisFrmFlt,-1,-1;沟比降 \"沟比降\" true true false 19 Double 0 0,First,#,面-中尼廊道吉隆泥石流,沟比降,-1,-1;主沟长 \"主沟长\" true true false 19 Double 0 0,First,#,面-中尼廊道吉隆泥石流,主沟长,-1,-1;高差 \"高差\" true true false 19 Double 0 0,First,#,面-中尼廊道吉隆泥石流,高差,-1,-1;规模 \"规模\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,规模,0,49;频率 \"频率\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,频率,0,49;行政区 \"行政区\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,行政区,0,49;解译Time \"解译Time\" true true false 8 Date 0 0,First,#,面-中尼廊道吉隆泥石流,解译Time,-1,-1;影像类 \"影像类\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,影像类,0,49;影像type \"影像type\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,影像type,0,49;Resolution \"Resolution\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,Resolution,0,49;I水系 \"I水系\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,I水系,0,49;II水系 \"II水系\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,II水系,0,49;III水系 \"III水系\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,III水系,0,49;沟口H \"沟口H\" true true false 5 Long 0 5,First,#,面-中尼廊道吉隆泥石流,沟口H,-1,-1;高程Max \"高程Max\" true true false 19 Double 0 0,First,#,面-中尼廊道吉隆泥石流,高程Max,-1,-1;类型 \"类型\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,类型,0,49;扇宽 \"扇宽\" true true false 19 Double 0 0,First,#,面-中尼廊道吉隆泥石流,扇宽,-1,-1;扇长 \"扇长\" true true false 19 Double 0 0,First,#,面-中尼廊道吉隆泥石流,扇长,-1,-1;有无_Fan \"有无_Fan\" true true false 50 Text 0 0,First,#,面-中尼廊道吉隆泥石流,有无_Fan,0,49;影像Time \"影像Time\" true true false 8 Date 0 0,First,#,面-中尼廊道吉隆泥石流,影像Time,-1,-1\" #",
+        "attributes": {
+          "ToolSource": "c:\\program files\\arcgis\\pro\\Resources\\ArcToolbox\\Toolboxes\\Conversion Tools.tbx\\ExportFeatures",
+          "Date": "20260827",
+          "Time": "004633"
+        }
+      },
+      {
+        "tag": "SyncDate",
+        "text": "20260827",
+        "attributes": {}
+      },
+      {
+        "tag": "ModDate",
+        "text": "20260827",
+        "attributes": {}
+      },
+      {
+        "tag": "mdDateSt",
+        "text": "20260827",
+        "attributes": {
+          "Sync": "TRUE"
+        }
+      }
+    ],
+    "scan": "all XML elements; selected process/date elements exported"
+  },
+  {
+    "path": "07_DEM（2026-08-26）/DEM.tif.aux.xml",
+    "selected_metadata_elements": [],
+    "scan": "all XML elements; selected process/date elements exported"
+  },
+  {
+    "path": "07_DEM（2026-08-26）/DEM.tif.xml",
+    "selected_metadata_elements": [
+      {
+        "tag": "CreaDate",
+        "text": "20260826",
+        "attributes": {}
+      },
+      {
+        "tag": "Process",
+        "text": "Clip GeBainiDEM_30M.tif \"85.189755774642 28.2455345097983 85.6941438166103 28.5643822845793\" Y:\\20260826吉隆口岸泥石流\\02基础地理数据\\DEM\\DEM.tif New_Shapefile -3.276700e+04 NONE MAINTAIN_EXTENT",
+        "attributes": {
+          "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.8\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\Clip",
+          "Date": "20260826",
+          "Time": "171843"
+        }
+      },
+      {
+        "tag": "SyncDate",
+        "text": "20260826",
+        "attributes": {}
+      },
+      {
+        "tag": "ModDate",
+        "text": "20260826",
+        "attributes": {}
+      },
+      {
+        "tag": "mdDateSt",
+        "text": "20260826",
+        "attributes": {
+          "Sync": "TRUE"
+        }
+      }
+    ],
+    "scan": "all XML elements; selected process/date elements exported"
+  }
+]

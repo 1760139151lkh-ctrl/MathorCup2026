@@ -1,0 +1,189 @@
+{
+  "generated_at_utc": "2026-10-24T06:09:15.129114+00:00",
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+    "geometry_sha256": "cd68bf0bda80ab1d075fa33dbf0d713307d535e95e0f2494e41ce16b698b113e",
+    "config_sha256": "814f227db61101e6da9a68279e5e6447cf165d7c417f60907d2c794d05241e0e",
+    "script_sha256": "8cb83675c8dfb8a18e283927eed03605d2718b55b1a333a4e90643cd4e32b75c"
+  },
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "retrospective_candidate_corridor",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "crs": "EPSG:32645",
+    "event_geometry_accepted": false
+  },
+  "variable_semantics": {
+    "coverage": "geometric valid-grid support only; corridor widths are diagnostic choices"
+  },
+  "available_time": null,
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "data_role": "exploration",
+  "evidence_status": "candidate",
+  "raster_inputs": [
+    {
+      "name": "independent_projected_DEM",
+      "path": "track_b/data/processed/spatial/dem_utm45_30m.tif",
+      "sha256": "eaf39d044af5580fb12b7b991bdadf4da54294f8f78a818c15fff0f6390c2e95",
+      "valid_pixels": 1940245,
+      "total_pixels": 1993937,
+      "crs": "EPSG:32645",
+      "bounds": [
+        322400.8611877846,
+        3125092.2250913926,
+        372290.8611877846,
+        3161062.2250913926
+      ]
+    },
+    {
+      "name": "NC_DEM_parameter_rectangle",
+      "path": "track_b/data/processed/spatial/nc_dem_native_grid.tif",
+      "sha256": "51316ce445f89016d79dcbb5baa12e2444e6eef90448d4f46825cd9d77f80d20",
+      "valid_pixels": 20010,
+      "total_pixels": 20010,
+      "crs": "EPSG:32645",
+      "bounds": [
+        353442.5,
+        3127917.5,
+        357792.5,
+        3132057.5
+      ]
+    }
+  ],
+  "candidate_objects": [
+    {
+      "space_id": "paper_source_outline",
+      "independent_DEM_fully_covers_candidate": true,
+      "NC_DEM_fully_covers_candidate": true,
+      "candidate_trace_length_m_not_actual_distance": null
+    },
+    {
+      "space_id": "paper_port_symbol",
+      "independent_DEM_fully_covers_candidate": true,
+      "NC_DEM_fully_covers_candidate": false,
+      "candidate_trace_length_m_not_actual_distance": null
+    },
+    {
+      "space_id": "paper_junction",
+      "independent_DEM_fully_covers_candidate": true,
+      "NC_DEM_fully_covers_candidate": false,
+      "candidate_trace_length_m_not_actual_distance": null
+    },
+    {
+      "space_id": "paper_chhochen_blue_trace",
+      "independent_DEM_fully_covers_candidate": true,
+      "NC_DEM_fully_covers_candidate": false,
+      "candidate_trace_length_m_not_actual_distance": 6035.150586990457
+    },
+    {
+      "space_id": "paper_lende_blue_trace",
+      "independent_DEM_fully_covers_candidate": true,
+      "NC_DEM_fully_covers_candidate": false,
+      "candidate_trace_length_m_not_actual_distance": 13984.576436379635
+    }
+  ],
+  "candidate_corridors": [
+    {
+      "raster": "independent_projected_DEM",
+      "corridor_half_width_m": 100,
+      "candidate_corridor_area_m2": 4034653.0727752815,
+      "area_covered_m2": 4034653.0727752815,
+      "area_coverage_fraction": 1.0,
+      "all_corridor_covered_by_valid_footprint": true,
+      "boundary_margin_m_if_fully_covered": 3632.0111975578266,
+      "inside_raster_pixel_centres": 4484,
+      "valid_inside_pixel_centres": 4484,
+      "internal_invalid_inside_pixel_centres": 0,
+      "area_outside_valid_footprint_m2": 0.0,
+      "raw_geos_area_residual_m2": -1.30385160446167e-08,
+      "floating_area_policy": "Use exact full area when covers is true; retain raw GEOS roundoff residual separately."
+    },
+    {
+      "raster": "independent_projected_DEM",
+      "corridor_half_width_m": 250,
+      "candidate_corridor_area_m2": 10201786.437389283,
+      "area_covered_m2": 10201786.437389283,
+      "area_coverage_fraction": 1.0,
+      "all_corridor_covered_by_valid_footprint": true,
+      "boundary_margin_m_if_fully_covered": 3482.0273029969753,
+      "inside_raster_pixel_centres": 11334,
+      "valid_inside_pixel_centres": 11334,
+      "internal_invalid_inside_pixel_centres": 0,
+      "area_outside_valid_footprint_m2": 0.0,
+      "raw_geos_area_residual_m2": 9.313225746154785e-09,
+      "floating_area_policy": "Use exact full area when covers is true; retain raw GEOS roundoff residual separately."
+    },
+    {
+      "raster": "independent_projected_DEM",
+      "corridor_half_width_m": 500,
+      "candidate_corridor_area_m2": 20787418.726288978,
+      "area_covered_m2": 20787418.726288978,
+      "area_coverage_fraction": 1.0,
+      "all_corridor_covered_by_valid_footprint": true,
+      "boundary_margin_m_if_fully_covered": 3232.0574672387256,
+      "inside_raster_pixel_centres": 23096,
+      "valid_inside_pixel_centres": 23096,
+      "internal_invalid_inside_pixel_centres": 0,
+      "area_outside_valid_footprint_m2": 0.0,
+      "raw_geos_area_residual_m2": 2.9802322387695312e-08,
+      "floating_area_policy": "Use exact full area when covers is true; retain raw GEOS roundoff residual separately."
+    },
+    {
+      "raster": "NC_DEM_parameter_rectangle",
+      "corridor_half_width_m": 100,
+      "candidate_corridor_area_m2": 4034653.0727752815,
+      "area_covered_m2": 450549.1113136001,
+      "area_coverage_fraction": 0.11166985195177756,
+      "all_corridor_covered_by_valid_footprint": false,
+      "boundary_margin_m_if_fully_covered": null,
+      "inside_raster_pixel_centres": 502,
+      "valid_inside_pixel_centres": 502,
+      "internal_invalid_inside_pixel_centres": 0,
+      "area_outside_valid_footprint_m2": 3584103.9614616814,
+      "raw_geos_area_residual_m2": 3584103.9614616814,
+      "floating_area_policy": "Use exact full area when covers is true; retain raw GEOS roundoff residual separately."
+    },
+    {
+      "raster": "NC_DEM_parameter_rectangle",
+      "corridor_half_width_m": 250,
+      "candidate_corridor_area_m2": 10201786.437389283,
+      "area_covered_m2": 1186262.534335791,
+      "area_coverage_fraction": 0.11627988309852963,
+      "all_corridor_covered_by_valid_footprint": false,
+      "boundary_margin_m_if_fully_covered": null,
+      "inside_raster_pixel_centres": 1317,
+      "valid_inside_pixel_centres": 1317,
+      "internal_invalid_inside_pixel_centres": 0,
+      "area_outside_valid_footprint_m2": 9015523.903053492,
+      "raw_geos_area_residual_m2": 9015523.903053492,
+      "floating_area_policy": "Use exact full area when covers is true; retain raw GEOS roundoff residual separately."
+    },
+    {
+      "raster": "NC_DEM_parameter_rectangle",
+      "corridor_half_width_m": 500,
+      "candidate_corridor_area_m2": 20787418.726288978,
+      "area_covered_m2": 2538074.500254279,
+      "area_coverage_fraction": 0.12209666499114114,
+      "all_corridor_covered_by_valid_footprint": false,
+      "boundary_margin_m_if_fully_covered": null,
+      "inside_raster_pixel_centres": 2818,
+      "valid_inside_pixel_centres": 2818,
+      "internal_invalid_inside_pixel_centres": 0,
+      "area_outside_valid_footprint_m2": 18249344.2260347,
+      "raw_geos_area_residual_m2": 18249344.2260347,
+      "floating_area_policy": "Use exact full area when covers is true; retain raw GEOS roundoff residual separately."
+    }
+  ],
+  "search_aoi_covers_all_candidate_objects": true,
+  "source_outline_to_blue_river_candidate_gap_m": 647.1267757398565,
+  "source_to_channel_connection_verified": false,
+  "actual_source_to_target_continuity_verified": false,
+  "actual_propagation_distance_m": null,
+  "longitudinal_profile_generated": false,
+  "profile_reason": "River trace is a paper reconstruction candidate, not an independently verified centreline.",
+  "interpretation": "Independent DEM supports these candidate corridors; coverage is not event-geometry, terrain-epoch, datum or dynamics validation."
+}

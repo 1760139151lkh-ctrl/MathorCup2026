@@ -1,0 +1,38 @@
+{
+  "reviewed_utc": "2026-10-24T08:28:04.805762+00:00",
+  "rows": [
+    {
+      "run_id": "copdem_120_single_ref__sf0",
+      "completed_output_times_read": 42,
+      "last_completed_time_read_s": 821.4,
+      "targets": [
+        {
+          "target_id": "paper_port_symbol",
+          "provisional_first_h01_in100m_s": null
+        },
+        {
+          "target_id": "paper_junction",
+          "provisional_first_h01_in100m_s": 441.3
+        }
+      ],
+      "role": "operational_partial_progress_only_not_scientific_export"
+    },
+    {
+      "run_id": "copdem_120_multi_ref__sf0",
+      "completed_output_times_read": 12,
+      "last_completed_time_read_s": 220.2,
+      "targets": [
+        {
+          "target_id": "paper_port_symbol",
+          "provisional_first_h01_in100m_s": null
+        },
+        {
+          "target_id": "paper_junction",
+          "provisional_first_h01_in100m_s": 220.2
+        }
+      ],
+      "role": "operational_partial_progress_only_not_scientific_export"
+    }
+  ],
+  "raw_ascii_header_not_used_for_target_coordinates": true
+}

@@ -1,0 +1,161 @@
+{
+  "version": "q4-r2-fig1-search-v1",
+  "generated_at_utc": "2026-10-24T06:03:39.441474+00:00",
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "retrospective_search_geometry",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "crs": "OGC:CRS84 (GeoJSON longitude,latitude)",
+    "source_datum_assumption": "Printed degree axes interpreted as longitude/latitude; original datum/projection unstated. WGS84/CRS84 adopted for SEARCH ONLY, not verified original datum.",
+    "bbox_west_south_east_north": [
+      85.35717450521027,
+      28.261058229928057,
+      85.54598368048458,
+      28.34920248297248
+    ],
+    "area_m2_in_epsg32645": 175360939.0348353,
+    "positional_uncertainty_m": null,
+    "original_map_accuracy_m": null
+  },
+  "variable_semantics": {
+    "geometry": "search_only; not a release polygon",
+    "pixel_axis": "x right/y down; crop coordinates"
+  },
+  "data_role": "exploration",
+  "evidence_status": "candidate",
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "available_time": null,
+  "retrospective_not_pre_event_information": true,
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+    "config_sha256": "173bab8346d7a5b4872bc860304b407791c200f101e127e607efb250bb11d28f",
+    "script_sha256": "f56a22f3473926797b3f8b340972ad8332fc55de5463571a491b5fd04e6d16eb",
+    "pdf_sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0",
+    "render_crop_sha256": "31c063dc8947e5fd4fd12e7dfb2fffa86b641c785de48751f3b314d52917279d"
+  },
+  "reading_scope": "Actually opened full rendered PDF page6 Fig.1/caption and 300dpi panel-c plus longitude-tick crops; axis labels and three search anchors visually identified.",
+  "source_doi": "10.1007/s11629-026-1482-y",
+  "source_pdf_page": 6,
+  "anchors_assumed_wgs84_lon_lat": {
+    "paper_source_symbol_centre": [
+      85.52525662048475,
+      28.28784980517179
+    ],
+    "paper_chhochen_lende_junction": [
+      85.4848741855678,
+      28.33049946865036
+    ],
+    "paper_gyirong_port_symbol_centre": [
+      85.37860461999686,
+      28.279348211122905
+    ]
+  },
+  "review": {
+    "calibration_model": "separable longitude=a*x+b and latitude=c*y+d; zero rotation/shear assumed, not independently verified",
+    "fit_coefficients": {
+      "longitude": [
+        0.00014169275409458383,
+        85.32972061983423
+      ],
+      "latitude": [
+        -0.00014169323414806536,
+        28.389868933758397
+      ]
+    },
+    "axis_constraints": [
+      {
+        "id": "lon_24",
+        "axis": "longitude",
+        "x": 496.5,
+        "y": 1018.0,
+        "degrees": 85.4,
+        "label": "85 deg 24 min E",
+        "role": "train",
+        "predicted_degrees": 85.4000710722422,
+        "residual_degrees": 7.10722421928267e-05,
+        "residual_equivalent_m": 6.9713420100655314,
+        "other_coordinate_status": "unconstrained; axis tick is not a full 2D ground control point"
+      },
+      {
+        "id": "lon_28",
+        "axis": "longitude",
+        "x": 965.5,
+        "y": 1018.0,
+        "degrees": 85.46666666666667,
+        "label": "85 deg 28 min E",
+        "role": "holdout_then_final_fit",
+        "predicted_degrees": 85.46652497391256,
+        "residual_degrees": -0.00014169275411290982,
+        "residual_equivalent_m": 13.898374650812253,
+        "other_coordinate_status": "unconstrained; axis tick is not a full 2D ground control point"
+      },
+      {
+        "id": "lon_32",
+        "axis": "longitude",
+        "x": 1437.5,
+        "y": 1018.0,
+        "degrees": 85.53333333333333,
+        "label": "85 deg 32 min E",
+        "role": "train",
+        "predicted_degrees": 85.5334039538452,
+        "residual_degrees": 7.06205118632397e-05,
+        "residual_equivalent_m": 6.92703263517165,
+        "other_coordinate_status": "unconstrained; axis tick is not a full 2D ground control point"
+      },
+      {
+        "id": "lat_20",
+        "axis": "latitude",
+        "x": 63.0,
+        "y": 399.0,
+        "degrees": 28.333333333333332,
+        "label": "28 deg 20 min N",
+        "role": "train",
+        "predicted_degrees": 28.333333333333318,
+        "residual_degrees": -1.4210854715202004e-14,
+        "residual_equivalent_m": 2.1194058745074637e-09,
+        "other_coordinate_status": "unconstrained; axis tick is not a full 2D ground control point"
+      },
+      {
+        "id": "lat_16",
+        "axis": "latitude",
+        "x": 63.0,
+        "y": 869.5,
+        "degrees": 28.266666666666666,
+        "label": "28 deg 16 min N",
+        "role": "train",
+        "predicted_degrees": 28.266666666666655,
+        "residual_degrees": -1.0658141036401503e-14,
+        "residual_equivalent_m": 1.413167369744879e-09,
+        "other_coordinate_status": "unconstrained; axis tick is not a full 2D ground control point"
+      }
+    ],
+    "longitude_holdout": {
+      "id": "lon_28",
+      "prediction_degrees": 85.46645412681548,
+      "reference_degrees": 85.46666666666667,
+      "equivalent_error_m": 20.847632601753833,
+      "fit_used_for_holdout": "two endpoint longitude ticks only"
+    },
+    "latitude_holdout": null,
+    "latitude_holdout_reason": "Only two latitude ticks; exact two-point fit has no independent residual degree of freedom.",
+    "cross_axis_rotation_or_shear_verified": false,
+    "five_render_pixel_sensitivity_equivalent_m": {
+      "longitude": 69.49187324560324,
+      "latitude": 78.51526724629024
+    },
+    "sensitivity_is_accuracy_bound": false,
+    "original_map_positional_accuracy_m": null,
+    "source_datum_error_m": null,
+    "feature_identification_error_m": null,
+    "search_padding_m": 2000.0,
+    "padding_is_confidence_bound": false,
+    "outcome": "adoptable_with_explicit_role_search_only; not acceptable as event truth or survey geometry"
+  },
+  "advisor_review_status": "pending",
+  "q2_delivery_status": "not_claimed; advisor reads and distributes",
+  "search_aoi_sha256": "14db392ea6d318c2df34152af950b227653fd1f938aed1f4aa9eedf92c29579f"
+}

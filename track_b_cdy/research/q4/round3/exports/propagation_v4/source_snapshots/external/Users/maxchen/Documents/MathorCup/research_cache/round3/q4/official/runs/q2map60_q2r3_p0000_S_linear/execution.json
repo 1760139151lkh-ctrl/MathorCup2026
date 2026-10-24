@@ -1,0 +1,15 @@
+{
+  "run_id": "q2map60_q2r3_p0000_S_linear",
+  "image_id": null,
+  "container_id": "ad84a77a0ea9eb7447f61eb2e08756f00665429b7c90f8744a957efd918fd8c7",
+  "returncode": -15,
+  "quality_gate": "quarantined_single_phase_surface2_out_of_bounds_risk",
+  "actual_termination_or_classification_utc": "2026-10-24T08:07:10.487505+00:00",
+  "status": "quarantined_configuration",
+  "excluded_from_model_comparison_and_q3": true,
+  "preserve_original_case_and_partial_fields": true,
+  "case_sha256": "2f1ae0e0b17328a42fb72bb7fd75b7c51a312b0b2aa0b110f66f02ea0f0e1458",
+  "log_sha256": "479a9e87dec9a73fc9d8cfff7477baa8701e7e320457960959f44bddbb93b04c",
+  "elapsed_seconds": null,
+  "original_execution_record": null
+}

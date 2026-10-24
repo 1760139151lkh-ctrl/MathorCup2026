@@ -1,0 +1,882 @@
+{
+  "schema_version": "q4-r3-packet-validation-v1",
+  "generated_at_utc": "2026-10-24T10:21:26.224358+00:00",
+  "status": "provisional",
+  "all_artifact_and_interface_checks_passed": true,
+  "checks": [
+    {
+      "name": "baseline_manifest_identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bundle_identity_exports/geometry_bundle.json",
+      "passed": true,
+      "details": "exports/geometry_bundle.json"
+    },
+    {
+      "name": "bundle_members_exports/geometry_bundle.json",
+      "passed": true,
+      "details": {
+        "checked_files": 8,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "no_self_entry_exports/geometry_bundle.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bundle_identity_exports/geometry_v1/bundle.json",
+      "passed": true,
+      "details": "exports/geometry_v1/bundle.json"
+    },
+    {
+      "name": "bundle_members_exports/geometry_v1/bundle.json",
+      "passed": true,
+      "details": {
+        "checked_files": 8,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "no_self_entry_exports/geometry_v1/bundle.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bundle_identity_exports/propagation_v1/bundle.json",
+      "passed": true,
+      "details": "exports/propagation_v1/bundle.json"
+    },
+    {
+      "name": "bundle_members_exports/propagation_v1/bundle.json",
+      "passed": true,
+      "details": {
+        "checked_files": 40,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "no_self_entry_exports/propagation_v1/bundle.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bundle_identity_exports/propagation_handoff_v1.json",
+      "passed": true,
+      "details": "exports/propagation_handoff_v1.json"
+    },
+    {
+      "name": "bundle_members_exports/propagation_handoff_v1.json",
+      "passed": true,
+      "details": {
+        "checked_files": 40,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "no_self_entry_exports/propagation_handoff_v1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bundle_identity_exports/propagation_v2/bundle.json",
+      "passed": true,
+      "details": "exports/propagation_v2/bundle.json"
+    },
+    {
+      "name": "bundle_members_exports/propagation_v2/bundle.json",
+      "passed": true,
+      "details": {
+        "checked_files": 39,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "no_self_entry_exports/propagation_v2/bundle.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bundle_identity_results/spatial_supplement_bundle_v2.json",
+      "passed": true,
+      "details": "results/spatial_supplement_bundle_v2.json"
+    },
+    {
+      "name": "bundle_members_results/spatial_supplement_bundle_v2.json",
+      "passed": true,
+      "details": {
+        "checked_files": 23,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "no_self_entry_results/spatial_supplement_bundle_v2.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bundle_identity_results/reduced_delivery_index.json",
+      "passed": true,
+      "details": "results/reduced_delivery_index.json"
+    },
+    {
+      "name": "bundle_members_results/reduced_delivery_index.json",
+      "passed": true,
+      "details": {
+        "checked_files": 93,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "no_self_entry_results/reduced_delivery_index.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "cached_members_results/reduced_delivery_index.json",
+      "passed": true,
+      "details": {
+        "checked_files": 60,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "cached_members_results/spatial_source_index.json",
+      "passed": true,
+      "details": {
+        "checked_files": 34,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "bundle_identity_inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+      "passed": true,
+      "details": "inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json"
+    },
+    {
+      "name": "bundle_members_inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+      "passed": true,
+      "details": {
+        "checked_files": 3,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "no_self_entry_inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bundle_identity_inputs/q2/release_bundle_q2-r3-release-v1/bundle.json",
+      "passed": true,
+      "details": "inputs/q2/release_bundle_q2-r3-release-v1/bundle.json"
+    },
+    {
+      "name": "bundle_members_inputs/q2/release_bundle_q2-r3-release-v1/bundle.json",
+      "passed": true,
+      "details": {
+        "checked_files": 4,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "no_self_entry_inputs/q2/release_bundle_q2-r3-release-v1/bundle.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bundle_identity_inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json",
+      "passed": true,
+      "details": "inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json"
+    },
+    {
+      "name": "bundle_members_inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json",
+      "passed": true,
+      "details": {
+        "checked_files": 11,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "no_self_entry_inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bundle_identity_inputs/q2/composition_bundle_q2-r3-literature-composition-v1/bundle.json",
+      "passed": true,
+      "details": "inputs/q2/composition_bundle_q2-r3-literature-composition-v1/bundle.json"
+    },
+    {
+      "name": "bundle_members_inputs/q2/composition_bundle_q2-r3-literature-composition-v1/bundle.json",
+      "passed": true,
+      "details": {
+        "checked_files": 11,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "no_self_entry_inputs/q2/composition_bundle_q2-r3-literature-composition-v1/bundle.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "historical_target_schema_alias_exact_bytes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "current_target_schema_exact_bytes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "target_alias_original_columns_and_order_unchanged",
+      "passed": true,
+      "details": "Explicit schema-only alias; original path old hash does NOT pass and is not asserted unchanged."
+    },
+    {
+      "name": "grid_60_finite_shape",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grid_60_source_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grid_120_finite_shape",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grid_120_source_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "computational_geojson_crs84_not_projected_numbers",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_mapping_input_and_geometry_hashes",
+      "passed": true,
+      "details": {
+        "checked_files": 4,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "q2_exact_plan_area_q2r3-p0000-S-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_vertical_thickness_volume_q2r3-p0000-S-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_grid_integrated_volume_q2r3-p0000-S-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_volume_fraction_and_density_q2r3-p0000-S-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_never_crossed_is_if_released_q2r3-p0000-S-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_time_origin_unknown_delay_q2r3-p0000-S-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_release_files_q2r3-p0000-S-linear",
+      "passed": true,
+      "details": {
+        "checked_files": 2,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "q2_exact_plan_area_q2r3-p0036-S_T-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_vertical_thickness_volume_q2r3-p0036-S_T-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_grid_integrated_volume_q2r3-p0036-S_T-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_volume_fraction_and_density_q2r3-p0036-S_T-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_never_crossed_is_if_released_q2r3-p0036-S_T-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_time_origin_unknown_delay_q2r3-p0036-S_T-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_release_files_q2r3-p0036-S_T-linear",
+      "passed": true,
+      "details": {
+        "checked_files": 2,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "q2_exact_plan_area_q2r3-p0072-S_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_vertical_thickness_volume_q2r3-p0072-S_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_grid_integrated_volume_q2r3-p0072-S_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_volume_fraction_and_density_q2r3-p0072-S_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_never_crossed_is_if_released_q2r3-p0072-S_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_time_origin_unknown_delay_q2r3-p0072-S_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_release_files_q2r3-p0072-S_H-linear",
+      "passed": true,
+      "details": {
+        "checked_files": 2,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "q2_exact_plan_area_q2r3-p0255-S_T_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_vertical_thickness_volume_q2r3-p0255-S_T_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_grid_integrated_volume_q2r3-p0255-S_T_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_volume_fraction_and_density_q2r3-p0255-S_T_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_never_crossed_is_if_released_q2r3-p0255-S_T_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_time_origin_unknown_delay_q2r3-p0255-S_T_H-linear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_release_files_q2r3-p0255-S_T_H-linear",
+      "passed": true,
+      "details": {
+        "checked_files": 2,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "extended_domain_files",
+      "passed": true,
+      "details": {
+        "checked_files": 2,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "extension_preserves_core",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_run_identifiers",
+      "passed": true,
+      "details": 157
+    },
+    {
+      "name": "arrival_run_foreign_keys",
+      "passed": true,
+      "details": 844
+    },
+    {
+      "name": "reduced_not_used_for_arrival_envelope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unqualified_or_boundary_affected_not_used_for_arrival_envelope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mechanical_initiation_delay_stays_unknown",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_imputed_probability_weights",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_claimed_event_timing_validation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "missing_or_not_arrived_stays_null",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q2_no_start_rows_remain_conditional",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "quarantined_runs_excluded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "native_process_field_hashes",
+      "passed": true,
+      "details": {
+        "checked_files": 35,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "native_times_from_native_arrays_monotonic",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "native_fields_finite_nonnegative_and_georeferenced",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "integration_read_consistent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "zero_independent_event_validation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_and_applicable_scope_explicit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual_saved_native_controls_not_reconstructed_runner",
+      "passed": true,
+      "details": {
+        "checked_files": 251,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "saved_execution_start_adapter_snapshots",
+      "passed": true,
+      "details": {
+        "checked_files": 19,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "resourcefix_binary_identity_explicit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_audit_dclaw_mass.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_compare_native_sensitivity.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_compare_optical_agreement.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_extend_computational_domain.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_freeze_round3.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_integrate_comparison.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_map_q2_releases.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_analyse.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_benchmark_analyse.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_benchmarks_container.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_bowl_case.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_catalogue.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_composite_cases.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_container.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_control_index.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_corrected_cases.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_entrainment_case.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_extended_case.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_freeze.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_gully_retry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_launch.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_launch_container.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_live_progress.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_monitor.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_parallel_required.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_parser_validate.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_physics_cases.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_prepare.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_q2_cases.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_q2_v2_cases.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_resourcefix_cases.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_resourcefix_compare.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_result_matrix.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_status.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_sweep.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_sweep_v2.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_official_targets.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_plot_composite_phases.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_plot_domain_sensitivity.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_plot_entrainment_residual.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_plot_regional_comparison.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_reduced_benchmarks.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_reduced_region.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_reduced_report.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_reduced_solver.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_reduced_validate.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_replay_reduced.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_spatial_acquire.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_spatial_auxiliary_acquire.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_spatial_build.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_spatial_compare.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_spatial_edge_review.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_spatial_optical_osm.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_spatial_optical_read.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_spatial_osm_read.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_spatial_radiometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_spatial_spectral.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_spatial_validate.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "python_AST_validate_round3.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "startup_five_groups_passed",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "check_count": 154,
+  "scientific_scope": "Integrity, finite outputs and honest interfaces; does not certify physical model correctness or regional accuracy.",
+  "independent_local_event_validation_count": 0,
+  "known_numerical_failures_retained_separately": "results/numerical_validation.json",
+  "regional_accuracy_qualified": false,
+  "human_scientific_adoption": "pending_team_review",
+  "validated_root_bindings": [
+    {
+      "path": "track_b/research/q4/round3/results/comparison_summary.json",
+      "bytes": 175023,
+      "sha256": "3b49b12be165f5c6c51aa1c70701353f5033d9587bab28ce7c3bdbef89dc2c13"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/model_runs.csv",
+      "bytes": 1253410,
+      "sha256": "3cd0b99bf493ae8eb8e6eaf28ec86c4c90c16f280d82ccba19709ef68889451e"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/comparison_metrics.csv",
+      "bytes": 327907,
+      "sha256": "e9bb31571547a4ee712a2d7838ac29c68dad7ed06e7591846181b5b5e1bde531"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/target_arrivals.csv",
+      "bytes": 2032171,
+      "sha256": "948e9b9800ff2a80e0ec6e969fe0c7cce376d8707a9e1bbcee48416845ab40ca"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_fields.json",
+      "bytes": 74035,
+      "sha256": "793686fc0b05d5f2ec0c73457ed3689858b6d39e04892e8132359380d69dd825"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/scientific_acceptance_decision_05.json",
+      "bytes": 2947,
+      "sha256": "1619328370807cbe78be707918993fa83031621e39b469c4408dd689282b3674"
+    }
+  ]
+}

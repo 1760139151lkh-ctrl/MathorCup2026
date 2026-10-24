@@ -1,0 +1,15 @@
+{
+  "round": "round2",
+  "question": "q1",
+  "thread_id": "01a16c20-9e9f-7a93-b025-2e8a46f905d3",
+  "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+  "branch": "codex/track-b-q1-r2",
+  "common_baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+  "manifest": "track_b/audit/stage4/round2/baseline_manifest.json",
+  "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+  "contract": "track_b/config/stage4_round2_contract.json",
+  "previous_branch_retained": "codex/track-b-q1-r1",
+  "allowed_write_directory": "track_b/research/q1/round2/",
+  "environment": "track_b/.venv/bin/python",
+  "worktree_management": "manual_git_worktree_explicit_dispatch_binding"
+}

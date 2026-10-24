@@ -1,0 +1,12 @@
+{
+  "registered_at_utc": "2026-10-24T08:24:58.261581+00:00",
+  "reason": "file-start age derives from outcome-dependent max-trailing180day curated window, not independently observed monitoring deployment age",
+  "new_main_specification": "exclude all record/file-age features; use only two dimensionless velocity-state features",
+  "comparison": "512 nodes same14 held-out groups/fixed anchors; full training-only tuning and cross-fit calibration repeated",
+  "legacy_specification_role": "curation_sensitive_challenge",
+  "legacy_executed_script_snapshot": "track_b/research/q3/round3/sources/survival_engine_c_record_age_aade36485d977136b5ede96e0dd729ef0235756fe6d5cf48435a525c442e9e88.py",
+  "legacy_executed_script_sha256": "aade36485d977136b5ede96e0dd729ef0235756fe6d5cf48435a525c442e9e88",
+  "administrative_views": "not new real nonfailure sites",
+  "source_metadata": "inputs/deformation/metadata_audit.json explicitly max trailing180days retained",
+  "measurement_semantics": "Grabengufer selected inclinometer signal is angular tilt(degree), not metric displacement; empirical dimensionless deformation-state model only"
+}

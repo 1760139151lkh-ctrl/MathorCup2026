@@ -1,0 +1,1126 @@
+{
+  "schema_version": "q1-r3-feature-build-validation-v1",
+  "passed": true,
+  "sample_count": 5526,
+  "feature_count": 112,
+  "driver_count": 24,
+  "historical_samples": 5490,
+  "target_samples": 36,
+  "quality_tracks": [
+    "original_qc_view",
+    "unknown_qc_exploration"
+  ],
+  "known_qc_variable_count": 37,
+  "unknown_qc_variable_count": 26,
+  "all_63_variables_mapped": true,
+  "sample_ids_unique": true,
+  "derived_gradients_require_all_sources": true,
+  "known_qc_values_identical_between_tracks": true,
+  "unknown_drivers_empty_in_original_qc_track": true,
+  "coverage_filter_applied": false,
+  "feature_support_rows": 132624,
+  "nonfinite_features_preserved_as_null": true,
+  "all_float_feature_columns": true,
+  "source_inputs_unchanged": true,
+  "input_sha256": {
+    "track_b/research/q1/round3/config/experiment.json": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b",
+    "track_b/research/q1/round3/EXPERIMENT_PROTOCOL.md": "6cf85e7c17319f50a05ca957666265fb34dbb58b1cd089391c5fcb86f81b3e24",
+    "track_b/research/q1/round3/workspace_binding.json": "9278f80ce2d8f5ae0d611c1af29a95d4a7dcf19f0274103bd6ca6fda0dc879fe",
+    "track_b/config/stage4_round3_contract.json": "3409420a66c0d35911d469708cf91c54e77f55420951c01e45a58470370daac4",
+    "track_b/data/processed/temporal/data_dictionary.json": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0",
+    "track_b/data/processed/temporal/hourly_raw_numeric.parquet": "96fde2bc36b72919859546c3b4dcf8a35f2e4b59da2b08bd322ae28691df5b32",
+    "track_b/data/processed/temporal/hourly_strict_qc0.parquet": "9a2609a696d252abb0548ebcc1f794a5bd3f10a30cdbc305d59bde288f9d4460",
+    "track_b/data/processed/temporal/hourly_mask_is_numeric_present.parquet": "555c4e5f96fe221e750fd0d21d86b74a14b81078f58c036f8f842be1a50a7ecf",
+    "track_b/data/processed/temporal/hourly_time_axis.parquet": "ae95cadabf5158348bd7069f285eafe96ab04c4a691fab5da715ee31ec4921fa",
+    "track_b/research/q1/results/window_descriptives.csv": "2801aae2d6645c549fb2d6fdd13590dfc445df6fc82473dd24f30977169dc7e3"
+  },
+  "anchor_shift_checks": [
+    {
+      "quality_track": "original_qc_view",
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "first_hour_indices": [
+        49498,
+        49499,
+        49500
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    },
+    {
+      "quality_track": "original_qc_view",
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "first_hour_indices": [
+        49450,
+        49451,
+        49452
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    },
+    {
+      "quality_track": "original_qc_view",
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "first_hour_indices": [
+        49354,
+        49355,
+        49356
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    },
+    {
+      "quality_track": "original_qc_view",
+      "anchor_id": "usgs_reference",
+      "window_hours": 24,
+      "first_hour_indices": [
+        49498,
+        49499,
+        49500
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    },
+    {
+      "quality_track": "original_qc_view",
+      "anchor_id": "usgs_reference",
+      "window_hours": 72,
+      "first_hour_indices": [
+        49450,
+        49451,
+        49452
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    },
+    {
+      "quality_track": "original_qc_view",
+      "anchor_id": "usgs_reference",
+      "window_hours": 168,
+      "first_hour_indices": [
+        49354,
+        49355,
+        49356
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "first_hour_indices": [
+        49498,
+        49499,
+        49500
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "first_hour_indices": [
+        49450,
+        49451,
+        49452
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "first_hour_indices": [
+        49354,
+        49355,
+        49356
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "anchor_id": "usgs_reference",
+      "window_hours": 24,
+      "first_hour_indices": [
+        49498,
+        49499,
+        49500
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "anchor_id": "usgs_reference",
+      "window_hours": 72,
+      "first_hour_indices": [
+        49450,
+        49451,
+        49452
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "anchor_id": "usgs_reference",
+      "window_hours": 168,
+      "first_hour_indices": [
+        49354,
+        49355,
+        49356
+      ],
+      "last_hour_indices": [
+        49521,
+        49522,
+        49523
+      ],
+      "changed_by_one_label_each_shift": true
+    }
+  ],
+  "saved_r1_median_checks": [
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Ta_2m",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "RADM__Rsd",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__soilT_0.1m",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "SOIL__VWC_0.1m",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "FLUX__LE",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2021,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2022,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2023,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2024,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2025,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2026,
+      "anchor_id": "problem_1030",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 24,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 72,
+      "matches_saved_r1_median": true
+    },
+    {
+      "variable_id": "MET__Precip",
+      "year": 2026,
+      "anchor_id": "usgs_reference",
+      "window_hours": 168,
+      "matches_saved_r1_median": true
+    }
+  ],
+  "mechanical_checks": [
+    "missing breaks growth",
+    "growth counted in adjacent hour increments",
+    "trend requires at least 6 valid labels",
+    "precip positive fraction denominator is valid labels",
+    "positive-chain denominator is nominal labels"
+  ],
+  "hourly_export_rows": 2712,
+  "hourly_export_first_utc": "2026-06-30T16:00:00+00:00",
+  "hourly_export_last_utc": "2026-08-26T03:00:00+00:00",
+  "rankings_or_event_labels_created": false
+}

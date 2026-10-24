@@ -1,0 +1,14 @@
+[
+  {
+    "reference": "Supplement/data_experiments.xlsx#Sheet1!F135",
+    "kind": "numeric_string_parsed_without_imputation",
+    "raw_value": "200",
+    "observation_id": "mamot2018-test-r135"
+  },
+  {
+    "reference": "Supplement/data_experiments.xlsx#Sheet1!G135",
+    "kind": "numeric_string_parsed_without_imputation",
+    "raw_value": "200.4",
+    "observation_id": "mamot2018-test-r135"
+  }
+]

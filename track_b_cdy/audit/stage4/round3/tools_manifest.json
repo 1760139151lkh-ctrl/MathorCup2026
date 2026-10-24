@@ -1,0 +1,35 @@
+{
+  "round": "round3",
+  "tool_manifest_version": "r3-advisor-tools-v1",
+  "recorded_at_utc": "2026-10-24T09:35:43.575179+00:00",
+  "file_count": 5,
+  "files": [
+    {
+      "path": "track_b/audit/stage4/round3/tools/deliver_bundle.py",
+      "bytes": 6288,
+      "sha256": "d850bf3e6d193e9f87022a54934533d1d5ae2aab657a9be1f35998619af8a19a"
+    },
+    {
+      "path": "track_b/audit/stage4/round3/tools/review_integration.py",
+      "bytes": 17094,
+      "sha256": "1c4b1b673b14a7a474be202fad86e1d907715e7f584bb21b89b6a584b8fb7864"
+    },
+    {
+      "path": "track_b/audit/stage4/round3/tools/test_review_integration.py",
+      "bytes": 5044,
+      "sha256": "4d610a2529ced7ed4e46c5420935a136225cd33a934f100073d7197cc558721e"
+    },
+    {
+      "path": "track_b/audit/stage4/round3/tools/verify_handoffs.py",
+      "bytes": 16648,
+      "sha256": "f4c9c349e08c4db03e524d90dc8536c258eaceee12a8c856035d5a3fa3a192c7"
+    },
+    {
+      "path": "track_b/scripts/stage4_workspace.py",
+      "bytes": 13877,
+      "sha256": "3f9b403a44b948e37972e2bf1cf55a0a621e44bc0c9ec29bf626221e8a01266b"
+    }
+  ],
+  "self_excluded": true,
+  "scope": "Versioned shared workspace guard and advisor delivery/integration tools. Scientific consumer adapters remain bound by each question output manifest. Historical helpers are restored at their historical Git refs."
+}

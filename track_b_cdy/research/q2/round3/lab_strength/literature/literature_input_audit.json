@@ -1,0 +1,430 @@
+{
+  "review_version": "q2-lab-strength-literature-v1",
+  "reviewed_at_utc": "2026-10-24T10:16:27.992235+00:00",
+  "evaluation_stratum": "external_transfer",
+  "local_independent_event_count": 0,
+  "network_requests": 0,
+  "model_runs": 0,
+  "new_scientific_model_fits": 0,
+  "source_reconstruction_probe": "stage1_weight_probe.json;54closed-form source-only checks,not new model adoption",
+  "inputs": [
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "bytes": 8371754,
+      "sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "role": "article_pdf"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.pdf",
+      "bytes": 999636,
+      "sha256": "4efee06535c2673304d5cb325bc03b0d24dec8f9eb86deedbb7cafe566f96bfe",
+      "role": "supplement_pdf_extracted_from_official_zip"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.zip",
+      "bytes": 3397215,
+      "sha256": "5fcd735a88654af1f4c150313ee79afb855a0ae67ed9319a851d8e125fa420a0",
+      "role": "official_supplement_zip"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article_extracted.txt",
+      "bytes": 93596,
+      "sha256": "dd8c2b1e71f3a0fe8937280ead7edba5be2a2c01bfaf7cdab52dcbd3801184e0",
+      "role": "existing_article_text"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement_extracted.txt",
+      "bytes": 10715,
+      "sha256": "3c8c6f6d09ae4316564e6a26e689f3689264395cec4f6f5a7cb416953c6faad1",
+      "role": "existing_supplement_text"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_table_s2_transcribed.csv",
+      "bytes": 450,
+      "sha256": "5abe57f985521885ceb0318110cb41b9d27a954cbe4bb2f179dbb603129054ea",
+      "role": "prior_tableS2_transcription_cross_checked_visually"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/source_register.json",
+      "bytes": 11331,
+      "sha256": "366e6c6852bc445823f0da9dc3662a7f0c26f0814344eef24f8bff1d5e6455ca",
+      "role": "prior_retrieval_metadata_only"
+    }
+  ],
+  "original_retrievals": [
+    {
+      "source_id": "mamot2018_pdf",
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/12/3333/2018/tc-12-3333-2018.pdf",
+      "product_version": "Mamot et al. (2018), final, DOI 10.5194/tc-12-3333-2018",
+      "retrieved_at_utc": "2026-10-24T07:30:23.411875+00:00",
+      "published_at_date": "2018-10-17"
+    },
+    {
+      "source_id": "mamot2018_supplement_zip",
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/12/3333/2018/tc-12-3333-2018-supplement.zip",
+      "product_version": "Mamot et al. (2018) official supplement",
+      "retrieved_at_utc": "2026-10-24T07:32:01.703006+00:00",
+      "published_at_date": "2018-10-17"
+    }
+  ],
+  "actual_text_read_scope": {
+    "article": "Sections2.2-2.4;3.2-3.5;4.1-4.3;4.5;Eq3-6;Fig6-9/11;Tables1-2; extracts of conclusion. Not full bibliography or all21pages read.",
+    "supplement": "All10-page existing extracted text read; relevant FigS1/S2/S5-S8,TableS1/S2 visually checked on6 complete pages.",
+    "zip": "25-member inventory and Supplement PDF hash matched; initial PDF review did not parse XLSX. Later bounded stage1_weight_probe independently read experiments Sheet1 D/E/F/G/L for141rows and coefficient Sheet1 two nominal-stress-domain blocks values/literal headers (Sheet2 parsed empty and unused),verified705rawfields against canonical audit and performed source-only reconstruction;canonical audit unchanged."
+  },
+  "actual_visual_pages": [
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "source_sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "pdf_page_one_based": 5,
+      "printed_page": 3337,
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-05.png",
+      "bytes": 856550,
+      "sha256": "06eab58f4e535bbc795663bafc1ef668a6d7ebe15e707a450270237f5e4be3ff",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "source_sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "pdf_page_one_based": 6,
+      "printed_page": 3338,
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-06.png",
+      "bytes": 1068408,
+      "sha256": "629eff0394408b7c2c7c972452e30da322750d5d26061206f69ed0662262d6c0",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "source_sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "pdf_page_one_based": 7,
+      "printed_page": 3339,
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-07.png",
+      "bytes": 605062,
+      "sha256": "a1cae6a1f46e93532cb8ea29c6803e261b8cafc91d04c11e5e7c9f8bb34d8977",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "source_sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "pdf_page_one_based": 9,
+      "printed_page": 3341,
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-09.png",
+      "bytes": 493219,
+      "sha256": "f73e72f4e1a93c0386b226225fca24d9ffc3138182fdc4274139b9d34e2c2d83",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "source_sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "pdf_page_one_based": 10,
+      "printed_page": 3342,
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-10.png",
+      "bytes": 472072,
+      "sha256": "581a0a25ad209c1592c22c6b828337b66dd946d456a4296bd77bbf1e2c5f55ad",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "source_sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "pdf_page_one_based": 11,
+      "printed_page": 3343,
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-11.png",
+      "bytes": 400155,
+      "sha256": "ecd192b40818d05f598fadcc197339fa648fda846fd86f8cee572ee77cebc0e4",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "source_sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "pdf_page_one_based": 12,
+      "printed_page": 3344,
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-12.png",
+      "bytes": 499886,
+      "sha256": "dba6ecdc8299c615a5e65914a399c3bf139f1114377cced70d4c292be8f4fad1",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "source_sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "pdf_page_one_based": 13,
+      "printed_page": 3345,
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-13.png",
+      "bytes": 613034,
+      "sha256": "de08643b2be4066b863ef57ca174d6c13570a86b46f891a3b8ee43d9992d03d1",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "source_sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "pdf_page_one_based": 14,
+      "printed_page": 3346,
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-14.png",
+      "bytes": 389059,
+      "sha256": "18b39d7b122536a7c91fd31e578e2b9c9a7306c517a7ff17149dcb0ed4e0b20c",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "source_sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "pdf_page_one_based": 16,
+      "printed_page": 3348,
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-16.png",
+      "bytes": 426458,
+      "sha256": "0c7d7a9b6dc6a205b515bfa0c5ef53341d3d383d2235fc12d042ef7c0668bf6d",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.pdf",
+      "source_sha256": "4efee06535c2673304d5cb325bc03b0d24dec8f9eb86deedbb7cafe566f96bfe",
+      "pdf_page_one_based": 3,
+      "printed_page": 3,
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-03.png",
+      "bytes": 172368,
+      "sha256": "d483df9472fb7bbc3698c1d12552a4381403008df99caa08b4a1efd6af6802f2",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.pdf",
+      "source_sha256": "4efee06535c2673304d5cb325bc03b0d24dec8f9eb86deedbb7cafe566f96bfe",
+      "pdf_page_one_based": 4,
+      "printed_page": 4,
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-04.png",
+      "bytes": 54901,
+      "sha256": "86ef003a2419cd35cfa2af0fb3719340af6c9ba48a5163d3efbbd2a285740402",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.pdf",
+      "source_sha256": "4efee06535c2673304d5cb325bc03b0d24dec8f9eb86deedbb7cafe566f96bfe",
+      "pdf_page_one_based": 7,
+      "printed_page": 7,
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-07.png",
+      "bytes": 184224,
+      "sha256": "a3e1b142bfbcdfe7aa2b217f5820ca406f94df17e32dd64d0348622c8ea144fc",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.pdf",
+      "source_sha256": "4efee06535c2673304d5cb325bc03b0d24dec8f9eb86deedbb7cafe566f96bfe",
+      "pdf_page_one_based": 8,
+      "printed_page": 8,
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-08.png",
+      "bytes": 208378,
+      "sha256": "19d369bb91cc0acb0b13f771dc3241b3877c3f839370884e587cd29d1cfcbceb",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.pdf",
+      "source_sha256": "4efee06535c2673304d5cb325bc03b0d24dec8f9eb86deedbb7cafe566f96bfe",
+      "pdf_page_one_based": 9,
+      "printed_page": 9,
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-09.png",
+      "bytes": 591163,
+      "sha256": "7722a12ac219d400bdaee5433ff7c07287f42a34adbdf40cb889d4265ec5137a",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    },
+    {
+      "source_path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.pdf",
+      "source_sha256": "4efee06535c2673304d5cb325bc03b0d24dec8f9eb86deedbb7cafe566f96bfe",
+      "pdf_page_one_based": 10,
+      "printed_page": 10,
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-10.png",
+      "bytes": 206828,
+      "sha256": "481e129ef0b5dffb4eab91e7d1a5cdd8da765e6572050e2722f34a9b990ab1e4",
+      "role": "rendered_page_actually_opened_with_view_image",
+      "inspection": "complete page opened; figure/table/body context and relevant footnotes inspected"
+    }
+  ],
+  "zip_inventory": [
+    {
+      "member": "tc-12-3333-2018-supplement-title-page.pdf",
+      "uncompressed_bytes": 50503,
+      "crc32": "413c4769"
+    },
+    {
+      "member": "Supplement/",
+      "uncompressed_bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp6b_WSK_spec1_Fig. S3.xlsx",
+      "uncompressed_bytes": 12443,
+      "crc32": "9edcc9a5"
+    },
+    {
+      "member": "Supplement/data_frictioncoeff_cohesion_Fig. 8.xlsx",
+      "uncompressed_bytes": 16155,
+      "crc32": "3aabf1c2"
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp3b_WSK_spec3_Fig. S3.xlsx",
+      "uncompressed_bytes": 135102,
+      "crc32": "ff74ff4e"
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp6b_Fig. 4.xlsx",
+      "uncompressed_bytes": 24648,
+      "crc32": "09e1ffcf"
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp2b_WSK_spec3_Fig. S3.xlsx",
+      "uncompressed_bytes": 120261,
+      "crc32": "6c7d2926"
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp5c_WSK_spec1_Fig. 5.xlsx",
+      "uncompressed_bytes": 12605,
+      "crc32": "810804d0"
+    },
+    {
+      "member": "Supplement/data_experiments.xlsx",
+      "uncompressed_bytes": 33239,
+      "crc32": "45118b0a"
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp2b_WSK_spec3_Fig. S3.xlsx",
+      "uncompressed_bytes": 33061,
+      "crc32": "38bd891d"
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp7b_WSK_spec2_Fig. S3.xlsx",
+      "uncompressed_bytes": 25763,
+      "crc32": "1465b25b"
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp7b_WSK_spec2_Fig. S3.xlsx",
+      "uncompressed_bytes": 17086,
+      "crc32": "f08a99f5"
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp6b_WSK_spec1_Fig. S3.xlsx",
+      "uncompressed_bytes": 30853,
+      "crc32": "177ba74b"
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp3b_WSK_spec3_Fig. S3.xlsx",
+      "uncompressed_bytes": 32659,
+      "crc32": "f7c6148a"
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp1b_WSK_spec4_Fig. S3.xlsx",
+      "uncompressed_bytes": 141708,
+      "crc32": "8dc56fbb"
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp5c_WSK_spec4_Fig. 5.xlsx",
+      "uncompressed_bytes": 12568,
+      "crc32": "1c69a791"
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp5c_WSK_spec2_Fig. 5.xlsx",
+      "uncompressed_bytes": 12612,
+      "crc32": "85b6436e"
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp1b_WSK_spec4_Fig. S3.xlsx",
+      "uncompressed_bytes": 35112,
+      "crc32": "5bbdd39c"
+    },
+    {
+      "member": "Supplement/Supplement_Mamot et al.docx",
+      "uncompressed_bytes": 1578658,
+      "crc32": "8767cccb"
+    },
+    {
+      "member": "Supplement/data_acoustic_pdf_Fig. S4.xlsx",
+      "uncompressed_bytes": 10089,
+      "crc32": "d00795cf"
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp5b_WSK_spec2_Fig. S3.xlsx",
+      "uncompressed_bytes": 33374,
+      "crc32": "0c586fe2"
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp5b_WSK_spec2_Fig. S3.xlsx",
+      "uncompressed_bytes": 247429,
+      "crc32": "080cc4f1"
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp6b_Fig. 4.xlsx",
+      "uncompressed_bytes": 42553,
+      "crc32": "1eec5e39"
+    },
+    {
+      "member": "Supplement/Supplement_Mamot et al.pdf",
+      "uncompressed_bytes": 999636,
+      "crc32": "04da3ded"
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp5c_WSK_spec3_Fig. 5.xlsx",
+      "uncompressed_bytes": 12876,
+      "crc32": "a5a73c38"
+    }
+  ],
+  "rendering_commands": [
+    "pdftoppm -f9 -l16 -r150 -png article.pdf literature/article_pages/article",
+    "pdftoppm -f5 -l7 -r150 -png article.pdf literature/article_pages/article",
+    "pdftoppm -f3 -l10 -r150 -png supplement.pdf literature/supplement_pages/supplement"
+  ],
+  "renderer_status": "all3 exit0; supplement renderer emitted fontconfig warning but actual opened page images were legible",
+  "frozen_bundles": [
+    {
+      "path": "track_b/research/q2/round3/exports/analytic_thermal_bundle.json",
+      "bytes": 6267,
+      "sha256": "ff989d23894f9b2d44daf032418583430791ef5b8367d423aa5cb54763767684",
+      "role": "pre_existing_frozen_bundle"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/composition_bundle.json",
+      "bytes": 4034,
+      "sha256": "14f96d7d1e8600154a831dba9921a9efbf70eeacfd71e54b12af78879b762335",
+      "role": "pre_existing_frozen_bundle"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/mechanism_bundle.json",
+      "bytes": 2760,
+      "sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+      "role": "pre_existing_frozen_bundle"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/mechanism_bundle_v2.json",
+      "bytes": 5484,
+      "sha256": "dc53a9f805e96ff32b2c1fd064b0b7b33d90034e7d2c987f42403ae70bfcb093",
+      "role": "pre_existing_frozen_bundle"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/numerical_supplement_bundle.json",
+      "bytes": 2553,
+      "sha256": "151a7c7f822f3970a7dbdc0194b4c1df18548dbb70afca19a5927f49f3206b03",
+      "role": "pre_existing_frozen_bundle"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/release_bundle.json",
+      "bytes": 1801,
+      "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "role": "pre_existing_frozen_bundle"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/release_bundle_v2.json",
+      "bytes": 4354,
+      "sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3",
+      "role": "pre_existing_frozen_bundle"
+    }
+  ]
+}

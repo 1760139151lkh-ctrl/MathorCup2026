@@ -1,0 +1,239 @@
+{
+  "created_at_utc": "2026-10-24T07:56:31.408645+00:00",
+  "protocol": {
+    "path": "track_b/research/q4/round3/config/q2_release_mapping_protocol.json",
+    "bytes": 2203,
+    "sha256": "53fc3e562a49c9eb4c26f751e3ddff70b72e9e5d9a449fbc12b240c4cd14e796",
+    "role": "preregistration"
+  },
+  "upstream_bundle": {
+    "path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/bundle.json",
+    "bytes": 3007,
+    "sha256": "ed745576ff706a4d82a560269b0e07804add6fc9bde2b3948cced43932ddf5b5",
+    "role": "advisor_delivered_q2_bundle"
+  },
+  "source_geometry": {
+    "path": "track_b/research/q4/round3/results/computational_geometries.geojson",
+    "bytes": 89016,
+    "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+    "role": "frozen_candidate_envelope"
+  },
+  "mapped_geometries": {
+    "path": "track_b/research/q4/round3/results/q2_mapped_releases.geojson",
+    "bytes": 108518,
+    "sha256": "ea5439d05e76b173886bab79f02b1088db544ab5534c499e88888e06c35dd387",
+    "role": "mapped_compact_sources"
+  },
+  "releases": [
+    {
+      "scenario_id": "q2r3-p0000-S-linear",
+      "upstream_model_id": "q2r3_S_v1",
+      "mechanism_id": "S",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "geometry_version": "q4-r3-q2-mapped-release-v1",
+      "source_plan_area_m2": 10000.0,
+      "actual_polygon_area_m2": 9999.999999967773,
+      "thickness_normal_m": 40.09887232595751,
+      "thickness_vertical_m": 55.940043874459214,
+      "upstream_release_volume_m3": 559400.4387445921,
+      "grid_integrated_release_volume_m3": 559400.4333615303,
+      "grid_volume_relative_error": -9.622913130424242e-09,
+      "grid_resolution_m": 60.0,
+      "fractional_source_cells": 8,
+      "equivalent_full_source_cells": 2.7777777777777777,
+      "fractional_area_method": "Exact intersection area, mean vertical cell thickness; underresolved small sources explicitly retained",
+      "phase_fraction_basis": "volume",
+      "phase_fractions": {
+        "rock": 0.2139288910181871,
+        "ice": 0.7860711089818129,
+        "free_water": 0
+      },
+      "bulk_density_kg_m3": 1298.4352126854276,
+      "initial_velocity_east_north_m_s": [
+        0,
+        0
+      ],
+      "initial_velocity_crs": "EPSG:32645",
+      "upstream_onset_status": "never_crossed",
+      "if_released_propagation": true,
+      "not_an_initiation_prediction": true,
+      "initiation_to_release_delay_seconds": null,
+      "evaluation_stratum": "conditional_scenario",
+      "data_role": "scenario",
+      "time_utc": null,
+      "time_uncertainty": null,
+      "available_time": null,
+      "source_mapping_assumption": "Circular compact subsource centred on paper candidate centroid, clipped to that polygon, area solved exactly; no observed release geometry claim",
+      "release_raster": {
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/q4-r3-q2-mapped-release-v1/q2r3_p0000_S_linear_release_60m.tif",
+        "bytes": 1417,
+        "sha256": "df57a83dda2844eb8b8cfe2f718b7d4781dc7e255f72fbdbf01b58bd014d94eb",
+        "role": "native_solver_mapped_release"
+      },
+      "release_arrays": {
+        "path": "track_b/research/q4/round3/results/q2_mapped_q2r3_p0000_S_linear_60m.npz",
+        "bytes": 2594,
+        "sha256": "90dda1283b636c4d3dbe8f77aedd57185ffe37e9a71fefe5e61655f80bf38e50",
+        "role": "mapped_release_arrays"
+      }
+    },
+    {
+      "scenario_id": "q2r3-p0036-S_T-linear",
+      "upstream_model_id": "q2r3_ST_v1",
+      "mechanism_id": "S_T",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "geometry_version": "q4-r3-q2-mapped-release-v1",
+      "source_plan_area_m2": 40000.0,
+      "actual_polygon_area_m2": 40000.00000001028,
+      "thickness_normal_m": 18.778111779568693,
+      "thickness_vertical_m": 33.70529521014883,
+      "upstream_release_volume_m3": 1348211.8084059535,
+      "grid_integrated_release_volume_m3": 1348211.813735962,
+      "grid_volume_relative_error": 3.953391018672895e-09,
+      "grid_resolution_m": 60.0,
+      "fractional_source_cells": 16,
+      "equivalent_full_source_cells": 11.11111111111111,
+      "fractional_area_method": "Exact intersection area, mean vertical cell thickness; underresolved small sources explicitly retained",
+      "phase_fraction_basis": "volume",
+      "phase_fractions": {
+        "rock": 0.6963691672287561,
+        "ice": 0.3036308327712439,
+        "free_water": 0
+      },
+      "bulk_density_kg_m3": 2158.626225168872,
+      "initial_velocity_east_north_m_s": [
+        0,
+        0
+      ],
+      "initial_velocity_crs": "EPSG:32645",
+      "upstream_onset_status": "interval_crossing",
+      "if_released_propagation": false,
+      "not_an_initiation_prediction": true,
+      "initiation_to_release_delay_seconds": null,
+      "evaluation_stratum": "conditional_scenario",
+      "data_role": "scenario",
+      "time_utc": null,
+      "time_uncertainty": null,
+      "available_time": null,
+      "source_mapping_assumption": "Circular compact subsource centred on paper candidate centroid, clipped to that polygon, area solved exactly; no observed release geometry claim",
+      "release_raster": {
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/q4-r3-q2-mapped-release-v1/q2r3_p0036_S_T_linear_release_60m.tif",
+        "bytes": 1455,
+        "sha256": "37973f5dc5b60eb96133b314d9b88776913c5004b994cb4bf74db8415e3a19c9",
+        "role": "native_solver_mapped_release"
+      },
+      "release_arrays": {
+        "path": "track_b/research/q4/round3/results/q2_mapped_q2r3_p0036_S_T_linear_60m.npz",
+        "bytes": 2658,
+        "sha256": "143fd03989c83f1b68d14580456ac1b665bcdf1af23de69b4d7a6b359323515b",
+        "role": "mapped_release_arrays"
+      }
+    },
+    {
+      "scenario_id": "q2r3-p0072-S_H-linear",
+      "upstream_model_id": "q2r3_SH_v1",
+      "mechanism_id": "S_H",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "geometry_version": "q4-r3-q2-mapped-release-v1",
+      "source_plan_area_m2": 100000.0,
+      "actual_polygon_area_m2": 100000.00000012197,
+      "thickness_normal_m": 38.24993485585655,
+      "thickness_vertical_m": 51.00006865757883,
+      "upstream_release_volume_m3": 5100006.865757883,
+      "grid_integrated_release_volume_m3": 5100006.872102377,
+      "grid_volume_relative_error": 1.2440168370079953e-09,
+      "grid_resolution_m": 60.0,
+      "fractional_source_cells": 40,
+      "equivalent_full_source_cells": 27.77777777777778,
+      "fractional_area_method": "Exact intersection area, mean vertical cell thickness; underresolved small sources explicitly retained",
+      "phase_fraction_basis": "volume",
+      "phase_fractions": {
+        "rock": 0.21091320134587532,
+        "ice": 0.7890867986541247,
+        "free_water": 0
+      },
+      "bulk_density_kg_m3": 1293.0582379996958,
+      "initial_velocity_east_north_m_s": [
+        0,
+        0
+      ],
+      "initial_velocity_crs": "EPSG:32645",
+      "upstream_onset_status": "never_crossed",
+      "if_released_propagation": true,
+      "not_an_initiation_prediction": true,
+      "initiation_to_release_delay_seconds": null,
+      "evaluation_stratum": "conditional_scenario",
+      "data_role": "scenario",
+      "time_utc": null,
+      "time_uncertainty": null,
+      "available_time": null,
+      "source_mapping_assumption": "Circular compact subsource centred on paper candidate centroid, clipped to that polygon, area solved exactly; no observed release geometry claim",
+      "release_raster": {
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/q4-r3-q2-mapped-release-v1/q2r3_p0072_S_H_linear_release_60m.tif",
+        "bytes": 1530,
+        "sha256": "3e138cd6097579f40b7b17097417aae9f553a6544bca1aa6310c637d3effbd14",
+        "role": "native_solver_mapped_release"
+      },
+      "release_arrays": {
+        "path": "track_b/research/q4/round3/results/q2_mapped_q2r3_p0072_S_H_linear_60m.npz",
+        "bytes": 2818,
+        "sha256": "daa6e1fe6caeafff89cbc385c9b06cfccefa71f408efad175e31d11aa943fc31",
+        "role": "mapped_release_arrays"
+      }
+    },
+    {
+      "scenario_id": "q2r3-p0255-S_T_H-linear",
+      "upstream_model_id": "q2r3_STH_v1",
+      "mechanism_id": "S_T_H",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "geometry_version": "q4-r3-q2-mapped-release-v1",
+      "source_plan_area_m2": 40000.0,
+      "actual_polygon_area_m2": 40000.00000001028,
+      "thickness_normal_m": 15.893267340288295,
+      "thickness_vertical_m": 31.387865745793952,
+      "upstream_release_volume_m3": 1255514.629831758,
+      "grid_integrated_release_volume_m3": 1255514.6186828613,
+      "grid_volume_relative_error": -8.879941740161553e-09,
+      "grid_resolution_m": 60.0,
+      "fractional_source_cells": 16,
+      "equivalent_full_source_cells": 11.11111111111111,
+      "fractional_area_method": "Exact intersection area, mean vertical cell thickness; underresolved small sources explicitly retained",
+      "phase_fraction_basis": "volume",
+      "phase_fractions": {
+        "rock": 0.4438943998841861,
+        "ice": 0.5561056001158139,
+        "free_water": 0
+      },
+      "bulk_density_kg_m3": 1708.4637149935038,
+      "initial_velocity_east_north_m_s": [
+        0,
+        0
+      ],
+      "initial_velocity_crs": "EPSG:32645",
+      "upstream_onset_status": "interval_crossing",
+      "if_released_propagation": false,
+      "not_an_initiation_prediction": true,
+      "initiation_to_release_delay_seconds": null,
+      "evaluation_stratum": "conditional_scenario",
+      "data_role": "scenario",
+      "time_utc": null,
+      "time_uncertainty": null,
+      "available_time": null,
+      "source_mapping_assumption": "Circular compact subsource centred on paper candidate centroid, clipped to that polygon, area solved exactly; no observed release geometry claim",
+      "release_raster": {
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/q4-r3-q2-mapped-release-v1/q2r3_p0255_S_T_H_linear_release_60m.tif",
+        "bytes": 1456,
+        "sha256": "0a720e8a5593339b266922f99a066b36438c64c9fb0efdd7d0beedb1fe82636b",
+        "role": "native_solver_mapped_release"
+      },
+      "release_arrays": {
+        "path": "track_b/research/q4/round3/results/q2_mapped_q2r3_p0255_S_T_H_linear_60m.npz",
+        "bytes": 2653,
+        "sha256": "2a7cde6945a06fc57eeb03fe2ad4518c23a142d97222dd26b295798723e127c0",
+        "role": "mapped_release_arrays"
+      }
+    }
+  ],
+  "no_probability_weights": true,
+  "geometry_truth_accepted": false
+}

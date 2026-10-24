@@ -1,0 +1,62 @@
+{
+  "runs": [
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "20cd36c787490c91eb0e38c04a75a06c9ddf127beecfc2a9d9e19626009ad926",
+      "case_sha256": "db40ffb25b893db3e22c3f0f5d6eacf1aafb648db2e790b76ca8fb1b4991ec8d",
+      "log_sha256": "6bade48fcfb7a7879d165ff24f765e66862994ef534b0ccfc90d5e597b85a94d",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/q2map60_q2r3_p0072_S_H_linear__sf0_results/q2map60_q2r3_p0072_S_H_linear__sf0_files/q2map60_q2r3_p0072_S_H_linear__sf0_paramcomm.txt",
+          "bytes": 5926,
+          "sha256": "fe96c095e82cfbbea23f14f3685a2b67fe460f2a9266ef6ab64fc282c4e383e5",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/run_grass.sh",
+          "bytes": 626,
+          "sha256": "c9adc39b7f547df3168518a8fd80962c2333a576177497f4c4b41b962671cf02",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "0888cf27b2c5cf0787b8c4c6f5735b971d0c08f8aa5876a078834f8e9104bf22",
+      "case_sha256": "2da552fe30dcbb457ffa794e9851a92dac0650316f9e1dd96aa5d7d75423bd02",
+      "log_sha256": "edb49c8d51ef27630fcb1b5891b73d5cd9c700383880c55df502b8727232c98c",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/q2map60_q2r3_p0255_S_T_H_linear__sf0_results/q2map60_q2r3_p0255_S_T_H_linear__sf0_files/q2map60_q2r3_p0255_S_T_H_linear__sf0_paramcomm.txt",
+          "bytes": 5948,
+          "sha256": "417455e5b9d6d236d340112bcebf07311f011de57322ec483476830e16783439",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/run_grass.sh",
+          "bytes": 630,
+          "sha256": "f9a1760fcb446771e349f9a342a4c0ca3611828e71b8f596b52805c3981fe273",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    }
+  ],
+  "source_index_path": "results/official_native_control_index.json",
+  "scope": "selected actual saved generated controls; source_path in manifest maps copied control bytes"
+}

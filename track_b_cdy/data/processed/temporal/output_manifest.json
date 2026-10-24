@@ -1,0 +1,132 @@
+[
+  {
+    "file": "daily_county_raw.parquet",
+    "bytes": 280539,
+    "sha256": "3a56e6e1de64fa146ac0541f882c9a71ea321a3b0b3f3116f4b48ebdae0152a8"
+  },
+  {
+    "file": "daily_processing_counts.csv",
+    "bytes": 2089,
+    "sha256": "b4fe20123e8f4adbf5742921797c026325f9f804d80127847e9eb16ceb59dfad"
+  },
+  {
+    "file": "data_dictionary.json",
+    "bytes": 97865,
+    "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0"
+  },
+  {
+    "file": "hourly_mask_is_finite_numeric.parquet",
+    "bytes": 59638,
+    "sha256": "ce5b23fe07d6906a07fc2ce4ce368a4f93d0ba9db2779e78798f14e62c9fe5fa"
+  },
+  {
+    "file": "hourly_mask_is_missing_sentinel.parquet",
+    "bytes": 42331,
+    "sha256": "c681ac673489d00da8f952cce50411e319953a2e6a5d65ef9cdb9749493d28d3"
+  },
+  {
+    "file": "hourly_mask_is_numeric_present.parquet",
+    "bytes": 61383,
+    "sha256": "555c4e5f96fe221e750fd0d21d86b74a14b81078f58c036f8f842be1a50a7ecf"
+  },
+  {
+    "file": "hourly_mask_is_text_missing.parquet",
+    "bytes": 59604,
+    "sha256": "fa3dc51e7bb198cf41743d0dfdc07f25f4a854f9305f7cfab45388d5fabf7b4e"
+  },
+  {
+    "file": "hourly_mask_qc_0.parquet",
+    "bytes": 53053,
+    "sha256": "2d8554ef0a67d759eafb1245e4bac64730af8f55dcf127e4bf8f0b0f3f46a264"
+  },
+  {
+    "file": "hourly_mask_qc_1.parquet",
+    "bytes": 40739,
+    "sha256": "3d9f2c5af5751797bee0cced18b6c6574aad32d9aaf3fb36390aa4dc94e51361"
+  },
+  {
+    "file": "hourly_mask_qc_2.parquet",
+    "bytes": 49449,
+    "sha256": "d012d6a06941b111c506a06dfb98346ecb88d6066e7cfe710e6f13a23d588dd6"
+  },
+  {
+    "file": "hourly_mask_qc_4.parquet",
+    "bytes": 45360,
+    "sha256": "ad17b3a6a175fa5a9a91e962bfbe43a24446a47cac4e7a751d273e49f152884a"
+  },
+  {
+    "file": "hourly_mask_qc_8.parquet",
+    "bytes": 42287,
+    "sha256": "dfb4effac618e94488a40e80cce3f8c12aa1f70c43e4aa09e311457a5cd5f32e"
+  },
+  {
+    "file": "hourly_mask_qc_9.parquet",
+    "bytes": 40578,
+    "sha256": "190d6dfeca8208f1824ad09e70601471efd721af4ecc155ff6f56489d440d120"
+  },
+  {
+    "file": "hourly_mask_qc_unknown.parquet",
+    "bytes": 40573,
+    "sha256": "37730ac0a4c4f1e26b0c5ed03abc6c7f52384fb87527ede97e8482701f3bd95e"
+  },
+  {
+    "file": "hourly_mask_strict_qc0_accepted.parquet",
+    "bytes": 53053,
+    "sha256": "2d8554ef0a67d759eafb1245e4bac64730af8f55dcf127e4bf8f0b0f3f46a264"
+  },
+  {
+    "file": "hourly_processing_counts.csv",
+    "bytes": 2088,
+    "sha256": "822f5ad275cd86c0befa895ec8f664a4e5f5f4fa98b218c6b91ab09a206f3b8e"
+  },
+  {
+    "file": "hourly_provenance.parquet",
+    "bytes": 724012,
+    "sha256": "14b05dae7255c6d5cd87c520c0d011b0b4d43b7dd4d392d04526a97f84b6da74"
+  },
+  {
+    "file": "hourly_quality_summary.csv",
+    "bytes": 8858,
+    "sha256": "96ab4232ffd0f19bbff3de6e99c713273753d2b04f1fb0afe453adb869bcb643"
+  },
+  {
+    "file": "hourly_raw_numeric.parquet",
+    "bytes": 15685229,
+    "sha256": "96fde2bc36b72919859546c3b4dcf8a35f2e4b59da2b08bd322ae28691df5b32"
+  },
+  {
+    "file": "hourly_raw_qc.parquet",
+    "bytes": 42428,
+    "sha256": "58a0dcc112affae1450265b2d3d0cf05ef404e846c23178fbed49c3454033106"
+  },
+  {
+    "file": "hourly_raw_text_missing.parquet",
+    "bytes": 599662,
+    "sha256": "962990c1c5fa105b4cd3869d945c1d1c9eae624574187f82f7372207229f2ada"
+  },
+  {
+    "file": "hourly_strict_qc0.parquet",
+    "bytes": 6451135,
+    "sha256": "9a2609a696d252abb0548ebcc1f794a5bd3f10a30cdbc305d59bde288f9d4460"
+  },
+  {
+    "file": "hourly_time_axis.parquet",
+    "bytes": 1527460,
+    "sha256": "ae95cadabf5158348bd7069f285eafe96ab04c4a691fab5da715ee31ec4921fa"
+  },
+  {
+    "file": "input_manifest.json",
+    "bytes": 11238,
+    "sha256": "edb1d1d3ed13b5fd687f504774c5164843f2011b5928dd03b48b8a5038c130ce"
+  },
+  {
+    "file": "quality_summary.json",
+    "bytes": 2611,
+    "sha256": "8c55da8bbc4300fc757bc69494bf24a2b258a54f99e238cc79135b77ae1aecd3"
+  },
+  {
+    "file": "verification.json",
+    "bytes": 3234,
+    "sha256": "58ce37a51f13f5dfa9363ed24d71af6c663f2c3cbebdf7d9588ea82749c524ff"
+  }
+]

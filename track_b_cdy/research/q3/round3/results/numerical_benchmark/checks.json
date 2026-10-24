@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-10-24T08:20:25.493394+00:00",
+  "evaluation_stratum": "numerical_benchmark",
+  "independent_observed_events": 0,
+  "passed": true,
+  "checks": {
+    "linear_root_2_5h": true,
+    "left_censored_not_exact": true,
+    "missing_gap_not_interpolated": true,
+    "missing_whole_time_row_not_fake_no_start": true,
+    "never_cross_retained": true,
+    "pre_left_censor_detection_remains_unknown": true,
+    "leading_gap_not_shrunk_to_first_positive": true,
+    "no_start_half_mass_retained": true,
+    "horizon_monotone_and_analytic": true,
+    "short_followup_not_fake_no_start": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Local execution recovery record; final successful run is separately bound by model_run_validation.json",
+  "failed_or_interrupted_attempts": [
+    {"session_id": 82711, "outcome": "terminated deliberately before changing C matching support safeguard; no final ranking files written", "reason": "independent code review identified a missing matching-data guard", "exit_signal": "TERM"},
+    {"session_id": 14303, "command": "track_b/.venv/bin/python -u track_b/research/q1/round3/scripts/run_models.py", "exit_code": 139, "captured_python_traceback": null, "output_was_empty": true, "diagnosis": "native-process failure; exact library or call not conclusively located; not evidence of a numerical result", "source_sha256": "e5f7b33ba15d0427505dc112153fc9c25c3033591b5e836e809dadd1cd1d94ed"},
+    {"session_id": 35385, "outcome": "isolated import diagnostic succeeded", "exit_code": 0, "actual_imports": ["numpy 2.5.4", "pandas 2.3.3", "scipy.stats.kendalltau"], "environment_changed": false},
+    {"session_id": 45059, "command": "track_b/.venv/bin/python -X faulthandler -u track_b/research/q1/round3/scripts/run_models.py", "outcome": "progressed through real model variants; terminated before source optimization and full restart", "exit_signal": "TERM", "retained_progress_log": "model_preoptimization.log", "source_sha256": "e5f7b33ba15d0427505dc112153fc9c25c3033591b5e836e809dadd1cd1d94ed"}
+  ],
+  "final_attempt": {"session_id": 1511, "command": "track_b/.venv/bin/python -X faulthandler -u track_b/research/q1/round3/scripts/run_models.py", "source_sha256": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2", "completion_evidence": "results/model_run_validation.json and model_run.log"},
+  "dependency_changes": "none; existing exact 44-package environment retained",
+  "source_change_policy": "production process stopped before any change; final source fixed before final process starts"
+}

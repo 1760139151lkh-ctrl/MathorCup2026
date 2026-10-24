@@ -1,0 +1,50 @@
+{
+  "date_user_local": "2026-10-24",
+  "reader": "Q2 research window and internal evidence reviewer; not human acceptance",
+  "source_kind": "original research, mixed retrospective/event methods",
+  "local_pdf_current_round": "JMS pypdf read attempted but stalled before text output; stopped, no pages claimed newly read. Existing stage3 reading record is separate.",
+  "records": [
+    {
+      "source_id": "jms_abstract",
+      "url": "https://jms.imde.ac.cn/en/article/doi/10.1007/s11629-026-1482-y",
+      "reading_scope": "Full abstract only; method/parameter derivations not read this round",
+      "retrieved_at_utc": "2026-10-24T04:31:13.324630+00:00",
+      "http_status": 200,
+      "final_url": "https://jms.imde.ac.cn/en/article/doi/10.1007/s11629-026-1482-y",
+      "content_type": "text/html;charset=UTF-8",
+      "raw_snapshot_saved": true,
+      "path": "track_b/research/q2/sources/jms_abstract.html",
+      "bytes": 209068,
+      "sha256": "6cf316f8d40fee7d48ab40f9a62699a867cf632ef5ca17bcfe56a5df7ca04b41"
+    },
+    {
+      "source_id": "yin_abstract",
+      "url": "https://zgdzzhyfzxb.com/article/doi/10.16031/j.cghc.202610008?viewType=HTML",
+      "reading_scope": "Full Chinese and English abstract; dynamic full text not read",
+      "retrieved_at_utc": "2026-10-24T04:31:14.020753+00:00",
+      "http_status": 200,
+      "final_url": "https://zgdzzhyfzxb.com/article/doi/10.16031/j.cghc.202610008?viewType=HTML",
+      "content_type": "text/html;charset=UTF-8",
+      "raw_snapshot_saved": true,
+      "path": "track_b/research/q2/sources/yin_abstract.html",
+      "bytes": 309894,
+      "sha256": "7e7312b13c0c7acd39d68810fdbe78863ea8c836837d38aaac34a5f5879da56c"
+    },
+    {
+      "source_id": "hock1999",
+      "url": "https://www.cambridge.org/core/journals/journal-of-glaciology/article/distributed-temperatureindex-ice-and-snowmelt-model-including-potential-direct-solar-radiation/2013F2D6B911401D67EA84728AF93629",
+      "reading_scope": "Official HTML sections 3.1-4, 5.3 and conclusion via web tool/internal reviewer; not whole article validation",
+      "retrieved_at_utc": "2026-10-24T04:31:19.994668+00:00",
+      "raw_snapshot_saved": false,
+      "error": "ValueError: Response exceeds 1 MiB bound"
+    },
+    {
+      "source_id": "berti2012",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012JF002367",
+      "reading_scope": "Official HTML abstract, introduction, 2.1-2.4 via web tool/internal reviewer; no local threshold transferred",
+      "retrieved_at_utc": "2026-10-24T04:31:24.201792+00:00",
+      "raw_snapshot_saved": false,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ]
+}

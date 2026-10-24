@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "750_tracks_and_60750_new_fixed_risk_rows": true,
+    "five_named_policies_303750_rows": true,
+    "original_history_risk_mass_unchanged": true,
+    "original_already_started_mass_unchanged": true,
+    "no_already_started_mass_transferred": true,
+    "fixed_risk_four_way_mass_preserved": true,
+    "mixture_unknown_matches_explicit_category_transfers": true,
+    "positive_unknown_never_precise_probability": true,
+    "old_diagnostic_preserved_under_separate_name": true,
+    "zero_event_support_no_conditional_interval": true
+  },
+  "passed": true
+}

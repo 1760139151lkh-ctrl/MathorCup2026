@@ -1,0 +1,1164 @@
+{
+  "reviewed_at_utc": "2026-10-24T11:33:53.030766+00:00",
+  "stage": "final_consumer_and_inputs",
+  "passed": true,
+  "checks": {
+    "pinned_consumer_and_producer": true,
+    "48_unique_role_paths": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/model_runs.csv": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/comparison_metrics.csv": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/target_arrivals.csv": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/comparison_summary.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/numerical_validation.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/fields_index.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/case.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/execution.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/run.log": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_controls/q2map60_q2r3_p0072_S_H_linear__sf0_paramcomm.txt": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_controls/run_grass.sh": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/adapter_executed.py": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/postprocessing/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_internal_summary.txt": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/q2map60_q2r3_p0072_S_H_linear__sf0_nout1.txt": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/case.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/execution.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/run.log": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_controls/q2map60_q2r3_p0255_S_T_H_linear__sf0_paramcomm.txt": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_controls/run_grass.sh": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/adapter_executed.py": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_internal_summary.txt": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/q2map60_q2r3_p0255_S_T_H_linear__sf0_nout1.txt": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/bundle.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/upstream_bundle.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/release_states.csv": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/compact_registration/official_cases_q2mapped_v2.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/scientific_acceptance_decision_05.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/model_qualification_evidence_05.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/DCLAW_MASS_AUDIT.md": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/dclaw_mass_audit.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/official_cfl_control_crosscheck.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/reduced_numerical_validation.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_amendment_06.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_cpu_receipt_07.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_cpu_tail_receipts_08.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/native_controls_index.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/geometry/spatial_targets_v2.csv": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/geometry/computational_geometries.geojson": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/integrate_comparison.py": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/input_index.json": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0072-S_H-linear/release.tif": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/run.log": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0255-S_T_H-linear/release.tif": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz": true,
+    "role_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/run.log": true,
+    "original_compact_table_byte_binding": true,
+    "Q2_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/parameter_ensemble.csv": true,
+    "Q2_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/scenario_outcomes.csv": true,
+    "Q2_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv": true,
+    "Q2_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/mechanism_contract.json": true,
+    "Q2_hash:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/scenario_outcomes.csv": true,
+    "compact_original_parameters_same_frozen_design": true,
+    "2_runs14_pairs7_representatives": true,
+    "no_statistical_weights_no_independent_events": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:explicit_exact_analytic_replacement": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:20_physical_parameters_and_mechanical_identity": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:compact_mapping_not_fullmask_alias": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:normal_vertical_area_volume_preserved": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:H_does_not_invent_released_free_water": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:actual_TIFFF_case_and_parent_volume": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:native_grid_finite_clock_and_t0": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:native_support_loss_explicit_rounding_only": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:native_internal_budget_reproduced_without_qualification": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:unknown_lag_preserved": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:never_cross_only_if_released": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:target:paper_port_symbol": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:target:paper_junction": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:target:osm_way_1443180803": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:target:osm_way_1552746552": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:target:osm_way_1552746559": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:target:osm_way_1552746560": true,
+    "q2map60_q2r3_p0072_S_H_linear__sf0:target:osm_way_1553369440": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:explicit_exact_analytic_replacement": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:20_physical_parameters_and_mechanical_identity": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:compact_mapping_not_fullmask_alias": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:normal_vertical_area_volume_preserved": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:H_does_not_invent_released_free_water": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:actual_TIFFF_case_and_parent_volume": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:native_grid_finite_clock_and_t0": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:native_support_loss_explicit_rounding_only": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:native_internal_budget_reproduced_without_qualification": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:unknown_lag_preserved": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:global_July1_not_window_initiation": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:target:paper_port_symbol": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:target:paper_junction": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:target:osm_way_1443180803": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:target:osm_way_1552746552": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:target:osm_way_1552746559": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:target:osm_way_1552746560": true,
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0:target:osm_way_1553369440": true,
+    "consumer_2cases14pairs40parameter_fields": true,
+    "consumer_no_weights_events_or_2048_ensemble": true,
+    "consumer_no_accepted_arrival_or_predictive_probability": true,
+    "consumer_all14_null_lag_absolute_qualified_probability": true,
+    "consumer_all14_gates_false": true,
+    "consumer_exact_lineage:q2map60_q2r3_p0072_S_H_linear__sf0": true,
+    "consumer_original_and_analytic_clocks:q2map60_q2r3_p0072_S_H_linear__sf0": true,
+    "consumer_actual_and_parent_volume:q2map60_q2r3_p0072_S_H_linear__sf0": true,
+    "consumer_source_native_support_and_loss_explicit:q2map60_q2r3_p0072_S_H_linear__sf0": true,
+    "consumer_separate_budget_representations:q2map60_q2r3_p0072_S_H_linear__sf0": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0072_S_H_linear__sf0:paper_port_symbol": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0072_S_H_linear__sf0:paper_junction": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0072_S_H_linear__sf0:osm_way_1443180803": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0072_S_H_linear__sf0:osm_way_1552746552": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0072_S_H_linear__sf0:osm_way_1552746559": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0072_S_H_linear__sf0:osm_way_1552746560": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0072_S_H_linear__sf0:osm_way_1553369440": true,
+    "consumer_exact_lineage:q2map60_q2r3_p0255_S_T_H_linear__sf0": true,
+    "consumer_original_and_analytic_clocks:q2map60_q2r3_p0255_S_T_H_linear__sf0": true,
+    "consumer_actual_and_parent_volume:q2map60_q2r3_p0255_S_T_H_linear__sf0": true,
+    "consumer_source_native_support_and_loss_explicit:q2map60_q2r3_p0255_S_T_H_linear__sf0": true,
+    "consumer_separate_budget_representations:q2map60_q2r3_p0255_S_T_H_linear__sf0": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0255_S_T_H_linear__sf0:paper_port_symbol": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0255_S_T_H_linear__sf0:paper_junction": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0255_S_T_H_linear__sf0:osm_way_1443180803": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0255_S_T_H_linear__sf0:osm_way_1552746552": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0255_S_T_H_linear__sf0:osm_way_1552746559": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0255_S_T_H_linear__sf0:osm_way_1552746560": true,
+    "consumer_row_global_vs_evaluation:q2map60_q2r3_p0255_S_T_H_linear__sf0:osm_way_1553369440": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0072_S_H_linear__sf0:paper_port_symbol": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0072_S_H_linear__sf0:paper_junction": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0072_S_H_linear__sf0:osm_way_1443180803": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0072_S_H_linear__sf0:osm_way_1552746552": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0072_S_H_linear__sf0:osm_way_1552746559": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0072_S_H_linear__sf0:osm_way_1552746560": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0072_S_H_linear__sf0:osm_way_1553369440": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0255_S_T_H_linear__sf0:paper_port_symbol": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0255_S_T_H_linear__sf0:paper_junction": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0255_S_T_H_linear__sf0:osm_way_1443180803": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0255_S_T_H_linear__sf0:osm_way_1552746552": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0255_S_T_H_linear__sf0:osm_way_1552746559": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0255_S_T_H_linear__sf0:osm_way_1552746560": true,
+    "consumer_independent_target_and_raster_distance:q2map60_q2r3_p0255_S_T_H_linear__sf0:osm_way_1553369440": true,
+    "consumer_SH7_never_if_released": true,
+    "consumer_STH7_leftcensored_not_new_window_start": true,
+    "consumer_2junction_hits12_saved_nonhits": true,
+    "consumer_final328_QA_no_upgrade": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0072-S_H-linear/release.tif": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0255-S_T_H-linear/release.tif": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/run.log": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/run.log": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/bundle.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/mechanism_contract.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/scenario_outcomes.csv": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/bundle.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/parameter_ensemble.csv": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/scenario_outcomes.csv": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/bundle.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/comparison_metrics.csv": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/comparison_summary.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/fields_index.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/geometry/computational_geometries.geojson": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/geometry/spatial_targets_v2.csv": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/input_index.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/model_runs.csv": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/native_controls_index.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/numerical_validation.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/compact_registration/official_cases_q2mapped_v2.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/integrate_comparison.py": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/postprocessing/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/adapter_executed.py": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/case.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/execution.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_controls/q2map60_q2r3_p0072_S_H_linear__sf0_paramcomm.txt": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_controls/run_grass.sh": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_internal_summary.txt": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/q2map60_q2r3_p0072_S_H_linear__sf0_nout1.txt": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/run.log": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/adapter_executed.py": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/case.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/execution.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_controls/q2map60_q2r3_p0255_S_T_H_linear__sf0_paramcomm.txt": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_controls/run_grass.sh": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_internal_summary.txt": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/q2map60_q2r3_p0255_S_T_H_linear__sf0_nout1.txt": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/run.log": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_amendment_06.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_cpu_receipt_07.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_cpu_tail_receipts_08.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/bundle.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/release_states.csv": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/upstream_bundle.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/DCLAW_MASS_AUDIT.md": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/dclaw_mass_audit.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/model_qualification_evidence_05.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/official_cfl_control_crosscheck.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/reduced_numerical_validation.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/scientific_acceptance_decision_05.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/target_arrivals.csv": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/upstream_bundle.json": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/upstream_q2/release_states.csv": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/PROTOCOL.md": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/engine_a/analytic_erfc/first_passages.csv": true,
+    "consumer_index_binding:input_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/scripts/join_compact_delta_v1.py": true,
+    "consumer_index_unique_no_self:input_index.json": true,
+    "consumer_validation_binds_index:input_index.json": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/PROTOCOL.md": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/RESULTS.md": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/adapter_schema.json": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/conditional_arrivals.csv": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/conditional_footprints.png": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/depth_footprint_diagnostics.csv": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/figure_review.json": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/input_index.json": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/lineage_audit.csv": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/onset_scope_audit.csv": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/physical_parameter_audit.csv": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/rejected_pairings.csv": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/release_mapping_audit.csv": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/saved_field_target_checks.csv": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/status.json": true,
+    "consumer_index_binding:output_index.json:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/results/arrival/compact_delta_v1/summary.json": true,
+    "consumer_index_unique_no_self:output_index.json": true,
+    "consumer_validation_binds_index:output_index.json": true,
+    "consumer_index_excludes_review_and_validation": true,
+    "consumer_actual_figure_QA_binding": true,
+    "old_fullmask_summary_and_review_unchanged": true
+  },
+  "inputs": [
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/bundle.json",
+      "bytes": 42665,
+      "sha256": "044a9a08ce09e8b2b5470a6a4351942fb08054e52e9728e2bb4d51a2295841ac",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "pinned delta consumer packet"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/upstream_bundle.json",
+      "bytes": 34716,
+      "sha256": "28c67deb49d694e992c005365cf19c73d1db31a89126f64dbe8b6973adba61cb",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "pinned producer packet snapshot"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/model_runs.csv",
+      "bytes": 43724,
+      "sha256": "1cc521a4c048e5137b6abcad9d5a63403ba60c42768a2cd194b6dfa2057dadd0",
+      "roles": [
+        "2 delta native runs",
+        "consumer indexed object input_index.json",
+        "model_runs"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/comparison_metrics.csv",
+      "bytes": 15003,
+      "sha256": "35e792934ceafa81802ecb0a3023cd9f89f64e3a4c40a0a4737dce90a33e6424",
+      "roles": [
+        "comparison_metrics",
+        "consumer indexed object input_index.json",
+        "separate native and ASCII budget diagnostics"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/target_arrivals.csv",
+      "bytes": 81971,
+      "sha256": "6653ff590c440bd87ee2d44c6b1d615a152c7c575825277898edda17d7d7835c",
+      "roles": [
+        "14 native target records",
+        "consumer indexed object input_index.json",
+        "target_arrivals"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/comparison_summary.json",
+      "bytes": 53079,
+      "sha256": "69f4794e264f94e3a42407f24e3d7e752fccf307a2b8bea25db9741bd9c837d4",
+      "roles": [
+        "comparison_summary",
+        "consumer indexed object input_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/numerical_validation.json",
+      "bytes": 18596,
+      "sha256": "4ed11d9b8581748d7d915aa8518eb128e86ee2cb66eeae1758c186a24b7dfac8",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "numerical_validation"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/fields_index.json",
+      "bytes": 4255,
+      "sha256": "f59602b485c394e55f1253591995fb03b5999d4b28b946ff6fa7da97b1d97fbd",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "fields_index"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/case.json",
+      "bytes": 2722,
+      "sha256": "db40ffb25b893db3e22c3f0f5d6eacf1aafb648db2e790b76ca8fb1b4991ec8d",
+      "roles": [
+        "actual case q2map60_q2r3_p0072_S_H_linear__sf0",
+        "consumer indexed object input_index.json",
+        "native case"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/execution.json",
+      "bytes": 1887,
+      "sha256": "20cd36c787490c91eb0e38c04a75a06c9ddf127beecfc2a9d9e19626009ad926",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "native execution record"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/run.log",
+      "bytes": 173701,
+      "sha256": "6bade48fcfb7a7879d165ff24f765e66862994ef534b0ccfc90d5e597b85a94d",
+      "roles": [
+        "actual native execution log snapshot",
+        "consumer indexed object input_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_controls/q2map60_q2r3_p0072_S_H_linear__sf0_paramcomm.txt",
+      "bytes": 5926,
+      "sha256": "fe96c095e82cfbbea23f14f3685a2b67fe460f2a9266ef6ab64fc282c4e383e5",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "native_control_text"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_controls/run_grass.sh",
+      "bytes": 626,
+      "sha256": "c9adc39b7f547df3168518a8fd80962c2333a576177497f4c4b41b962671cf02",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "native_control_text"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/adapter_executed.py",
+      "bytes": 5174,
+      "sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "saved actual executed adapter; contemporaneous hash retained"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/postprocessing/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "bytes": 30931,
+      "sha256": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+      "roles": [
+        "actual parser source snapshot bound to selected process fields",
+        "consumer indexed object input_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_internal_summary.txt",
+      "bytes": 5520,
+      "sha256": "1859f3880e44c76a9c7bfed9c05385ebc3bde76e4f00d813a96d7d34888235c1",
+      "roles": [
+        "actual native internal unscaled volume summary",
+        "consumer indexed object input_index.json",
+        "native internal initial/final volume q2map60_q2r3_p0072_S_H_linear__sf0"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/q2map60_q2r3_p0072_S_H_linear__sf0_nout1.txt",
+      "bytes": 180,
+      "sha256": "59db71c36795ba10f3b17d77a0e4f41486af70cfffa2a93f09bb66e43fb441e8",
+      "roles": [
+        "actual native nout success/source/edge accounting output",
+        "consumer indexed object input_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/case.json",
+      "bytes": 2738,
+      "sha256": "2da552fe30dcbb457ffa794e9851a92dac0650316f9e1dd96aa5d7d75423bd02",
+      "roles": [
+        "actual case q2map60_q2r3_p0255_S_T_H_linear__sf0",
+        "consumer indexed object input_index.json",
+        "native case"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/execution.json",
+      "bytes": 1901,
+      "sha256": "0888cf27b2c5cf0787b8c4c6f5735b971d0c08f8aa5876a078834f8e9104bf22",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "native execution record"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/run.log",
+      "bytes": 195363,
+      "sha256": "edb49c8d51ef27630fcb1b5891b73d5cd9c700383880c55df502b8727232c98c",
+      "roles": [
+        "actual native execution log snapshot",
+        "consumer indexed object input_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_controls/q2map60_q2r3_p0255_S_T_H_linear__sf0_paramcomm.txt",
+      "bytes": 5948,
+      "sha256": "417455e5b9d6d236d340112bcebf07311f011de57322ec483476830e16783439",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "native_control_text"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_controls/run_grass.sh",
+      "bytes": 630,
+      "sha256": "f9a1760fcb446771e349f9a342a4c0ca3611828e71b8f596b52805c3981fe273",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "native_control_text"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/adapter_executed.py",
+      "bytes": 5174,
+      "sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "saved actual executed adapter; contemporaneous hash retained"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_internal_summary.txt",
+      "bytes": 5381,
+      "sha256": "42122779afc2a0ada3ca2fe00d4cfaa930f35775f91d51427bc6a7bcd95b7e6c",
+      "roles": [
+        "actual native internal unscaled volume summary",
+        "consumer indexed object input_index.json",
+        "native internal initial/final volume q2map60_q2r3_p0255_S_T_H_linear__sf0"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/q2map60_q2r3_p0255_S_T_H_linear__sf0_nout1.txt",
+      "bytes": 178,
+      "sha256": "84ee085ae73c44ec48994a2a2b08a70ba3597b48a41ae216eacd5e8d4266edf0",
+      "roles": [
+        "actual native nout success/source/edge accounting output",
+        "consumer indexed object input_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/bundle.json",
+      "bytes": 3007,
+      "sha256": "ed745576ff706a4d82a560269b0e07804add6fc9bde2b3948cced43932ddf5b5",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "delivered Q2 compact source lineage"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/upstream_bundle.json",
+      "bytes": 1801,
+      "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "delivered Q2 compact source lineage",
+        "original compact release manifest"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/release_states.csv",
+      "bytes": 22691,
+      "sha256": "23278ea66f3141ad75634dbe8512d678bc46ab5a715c61228cf48ecba85ffad4",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "delivered Q2 compact source lineage",
+        "original compact Q2 release states"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/compact_registration/official_cases_q2mapped_v2.json",
+      "bytes": 863,
+      "sha256": "8c21d0fbb3a2928dfa11ef2a81aadca9630ea3baa7efcece0e45a38999bfcc97",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "original compact Q2 native case registration"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/scientific_acceptance_decision_05.json",
+      "bytes": 2947,
+      "sha256": "1619328370807cbe78be707918993fa83031621e39b469c4408dd689282b3674",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "scientific acceptance and qualification evidence"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/model_qualification_evidence_05.json",
+      "bytes": 52044,
+      "sha256": "e80f8060ca73ae8f1331c86673bd94b993f1d504e32417492c909ac746a89bb5",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "scientific acceptance and qualification evidence"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/DCLAW_MASS_AUDIT.md",
+      "bytes": 8473,
+      "sha256": "f2eece67243bdfb6d0cbdcb8d951baab4e7767487b14272872414eba7aed6816",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "scientific acceptance and qualification evidence"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/dclaw_mass_audit.json",
+      "bytes": 276746,
+      "sha256": "4aed4ff3e28e68e2fafb6baae16c5d37afbdcf1c5346d1bf3a18248adc570b04",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "scientific acceptance and qualification evidence"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/official_cfl_control_crosscheck.json",
+      "bytes": 1510,
+      "sha256": "feaa0b91845f377b4d715d04ff1ae0d4ae36f9c5f539fef667aa44390c8659b9",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "scientific acceptance and qualification evidence"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/reduced_numerical_validation.json",
+      "bytes": 15571,
+      "sha256": "1f3c0cefa507689dff03aff2de489dae7ae1a715d2d127f4f7953e281805ee46",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "scientific acceptance and qualification evidence"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_amendment_06.json",
+      "bytes": 1865,
+      "sha256": "ff9233eeb461bc6315d8228c4b27720029970a2dcecf52e6ece85ca5470d3155",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "scheduling/resource context; no controlled performance benchmark"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_cpu_receipt_07.json",
+      "bytes": 6095,
+      "sha256": "c1309131f5a1ccfcf615514bfa2e5707cb7c7664046191927e1e438c96f7dd31",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "scheduling/resource context; no controlled performance benchmark"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_cpu_tail_receipts_08.json",
+      "bytes": 8217,
+      "sha256": "17624c27bebe6e8650ebb5a1301ee65620bf8271ab72d5cc173fd0b1e4b6fa8b",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "scheduling/resource context; no controlled performance benchmark"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/native_controls_index.json",
+      "bytes": 4090,
+      "sha256": "c3fcadd6370a1c3a76f0aca40ed33e27b14471379bc7eaf25414b0fdece279d2",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "selected actual native controls provenance index"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/geometry/spatial_targets_v2.csv",
+      "bytes": 1483,
+      "sha256": "6735c7dbb668c97bd73024050cbd0b7d1570bb78382dce005dddd983a276b18d",
+      "roles": [
+        "5 OSM representatives",
+        "consumer indexed object input_index.json",
+        "target geometry"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/geometry/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "paper candidate geometry, not exact compact source",
+        "target geometry"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/integrate_comparison.py",
+      "bytes": 133549,
+      "sha256": "37ad5cd084ecf48602e6911ca6ff5c68b6488b05908d725271c7ae7ddabe47cd",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "exact early-package postprocessor source"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/input_index.json",
+      "bytes": 29945,
+      "sha256": "e15d9e080bda75c9609be90453bd2b66d69c6c6031fe7d70391895653b6d499d",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "selected dependency and observer snapshot index"
+      ]
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "immutable native input terrain"
+      ]
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0072-S_H-linear/release.tif",
+      "bytes": 1530,
+      "sha256": "3e138cd6097579f40b7b17097417aae9f553a6544bca1aa6310c637d3effbd14",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "immutable native release thickness"
+      ]
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "bytes": 1701056,
+      "sha256": "700a584257efeda004119179d37781710096f809e217cfc7a3bdfa512a2cd643",
+      "roles": [
+        "actual_official_process_fields",
+        "consumer indexed object input_index.json"
+      ]
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/run.log",
+      "bytes": 173701,
+      "sha256": "6bade48fcfb7a7879d165ff24f765e66862994ef534b0ccfc90d5e597b85a94d",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "immutable native execution log"
+      ]
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0255-S_T_H-linear/release.tif",
+      "bytes": 1456,
+      "sha256": "0a720e8a5593339b266922f99a066b36438c64c9fb0efdd7d0beedb1fe82636b",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "immutable native release thickness"
+      ]
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "bytes": 1177115,
+      "sha256": "0d15d37bc6bf0f7429739ad1ccf3baa8f824eb49c9d839fd9b75bf3f2f42d20d",
+      "roles": [
+        "actual_official_process_fields",
+        "consumer indexed object input_index.json"
+      ]
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/run.log",
+      "bytes": 195363,
+      "sha256": "edb49c8d51ef27630fcb1b5891b73d5cd9c700383880c55df502b8727232c98c",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "immutable native execution log"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/bundle.json",
+      "bytes": 4504,
+      "sha256": "65758b85d934267e883616eb2a56924e5b52d818e10b6f3eaa08bf934e54ce3a",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "frozen Q3-imported mechanism manifest"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/parameter_ensemble.csv",
+      "bytes": 1071463,
+      "sha256": "27a77ced72931366be5e19f431cb40218e1f243d77a7fe2671fc6125b0cf98b6",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "frozen original/analytic parameters, outcomes or contract",
+        "original physical parameters"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/scenario_outcomes.csv",
+      "bytes": 722959,
+      "sha256": "dd7be14535d0a782ca5b260375b830ca16b0275817bba6cde1852cd22c2a1737",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "frozen original/analytic parameters, outcomes or contract",
+        "original global and evaluation statuses"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/bundle.json",
+      "bytes": 10386,
+      "sha256": "05e8b885198a3011e316472f562ba92480788cb04c6ab9bebfb3e04dbd3660ca",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "frozen Q3-imported mechanism manifest"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv",
+      "bytes": 1171832,
+      "sha256": "8393874e341789316d2862435f8498ed8c9e01c4e3f674dc2b46d9bcadce6203",
+      "roles": [
+        "analytic physical parameters",
+        "consumer indexed object input_index.json",
+        "frozen original/analytic parameters, outcomes or contract"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/mechanism_contract.json",
+      "bytes": 4149,
+      "sha256": "44d3966717bdddc04e31ff8e4089bb8a7321a6a33e850371e3cb4c15cd4d1e4d",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "explicit analytic model replacement contract",
+        "frozen original/analytic parameters, outcomes or contract"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/scenario_outcomes.csv",
+      "bytes": 909276,
+      "sha256": "847143dc8ad8c495ea6e7747fbbcdb187ef465b9c7879fecb4717135372dc30c",
+      "roles": [
+        "analytic global and evaluation statuses",
+        "consumer indexed object input_index.json",
+        "frozen original/analytic parameters, outcomes or contract"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_a/analytic_erfc/first_passages.csv",
+      "bytes": 754435,
+      "sha256": "e647edfaa08ab507e57a601b20ddc892f3f0c046074954dfc85994fbaf322dc3",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "frozen analytic global first passages"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/join_compact_delta_v1.py",
+      "bytes": 48995,
+      "sha256": "58d86bbbbd47d8a884c3647410f8470696cb6ce5b67809246ca9f1bd2e5a5b38",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "manually reviewed consumer source; not executed by this audit"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/summary.json",
+      "bytes": 1722,
+      "sha256": "3cf5b715caea56c798340b6a6e9323ad85e5835b8dc0f39a6b4c816fecdca677",
+      "roles": [
+        "consumer final summary",
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/validation.json",
+      "bytes": 55633,
+      "sha256": "58f27c6f57042aa4e3762e9d5431a2afb9f2940cac6cfd05f42f74b250c3914e",
+      "roles": [
+        "consumer final QA, not scientific qualification"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/conditional_arrivals.csv",
+      "bytes": 19498,
+      "sha256": "af84e04843dae847e8c9d6d34496e8d486ae8bd4203ffc49cb700be04438a355",
+      "roles": [
+        "14 final conditional diagnostic target rows",
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/release_mapping_audit.csv",
+      "bytes": 2911,
+      "sha256": "b857a8a612ad03ac25e01df7ee8a26261ac6063a0622fe514c14db8afd78ab24",
+      "roles": [
+        "2 final compact mapping/initialization audits",
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/saved_field_target_checks.csv",
+      "bytes": 3159,
+      "sha256": "728cbc75c8ae4b52910b854d6276eb57051a6315e4309157be5208393d222d1f",
+      "roles": [
+        "14 final saved-field target checks",
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/lineage_audit.csv",
+      "bytes": 1179,
+      "sha256": "9a2dca11d6989278b6c42eca4bf0005e811b73b697c87cbe0c98636692c38e54",
+      "roles": [
+        "2 explicit SH/STH analytic model replacements",
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/onset_scope_audit.csv",
+      "bytes": 1377,
+      "sha256": "3876b0f9e5644f483f85a2cd53f1ee30b310de33412300860532c61bb27b0985",
+      "roles": [
+        "consumer indexed object output_index.json",
+        "global and evaluation-clock roles separately audited"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/physical_parameter_audit.csv",
+      "bytes": 4899,
+      "sha256": "31a52cb9aec0ff9f88c8dbe142f42a2efbeb1454553d500a3192f37950fdc651",
+      "roles": [
+        "40 exact shared physical parameter checks",
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/input_index.json",
+      "bytes": 21762,
+      "sha256": "164a218506453d78ce7707f91e99780a0d7f16f3fed3b73c8cc0a76f7aaf83f9",
+      "roles": [
+        "consumer canonical index input_index.json",
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/upstream_q2/release_states.csv",
+      "bytes": 22691,
+      "sha256": "23278ea66f3141ad75634dbe8512d678bc46ab5a715c61228cf48ecba85ffad4",
+      "roles": [
+        "consumer indexed object input_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/PROTOCOL.md",
+      "bytes": 5541,
+      "sha256": "dfead99bacadb9e94839c44451d07085811ee001d37bf092ffcb5d8e24562041",
+      "roles": [
+        "consumer indexed object input_index.json",
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/output_index.json",
+      "bytes": 4304,
+      "sha256": "dadb1c30cb31760116002f3e7a71aacec410922c7819363d814ed75178d70519",
+      "roles": [
+        "consumer canonical index output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/RESULTS.md",
+      "bytes": 5026,
+      "sha256": "ede1b924e07443087ede404597f9656a8897bc7d11e6de264be4ad1882c267e9",
+      "roles": [
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/adapter_schema.json",
+      "bytes": 1337,
+      "sha256": "5205b6a9f7a0994c51725dc06969fa31fb607d288de3e49188105515ea30bd38",
+      "roles": [
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/conditional_footprints.png",
+      "bytes": 147714,
+      "sha256": "5a6f6d09517cd22d135b0ecbf14515ffbefe72a949c408f74d23ebe858bd0787",
+      "roles": [
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/depth_footprint_diagnostics.csv",
+      "bytes": 4519,
+      "sha256": "f0ae3f1e5f39decbb79b17b8c6749f5a2e9433bfe50e0d8fbd7582676e6eb481",
+      "roles": [
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/figure_review.json",
+      "bytes": 1508,
+      "sha256": "088ac510f68a8af9f5d59567305e5e1b706ed031597b89a256d1874e820c5a69",
+      "roles": [
+        "actual consumer visual inspection binding",
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/rejected_pairings.csv",
+      "bytes": 25,
+      "sha256": "f635b63432d0fe49bc36f22f9d6ad55337e8fde0d774519af2939c83c245d7d9",
+      "roles": [
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/status.json",
+      "bytes": 1722,
+      "sha256": "3cf5b715caea56c798340b6a6e9323ad85e5835b8dc0f39a6b4c816fecdca677",
+      "roles": [
+        "consumer indexed object output_index.json"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/summary.json",
+      "bytes": 1540,
+      "sha256": "3b162f359018664a154e1ded01d38ad01c2365cd11362261d32c2c4d60b99cd1",
+      "roles": [
+        "previous fullmask-v3 summary unchanged"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/review/final_review.json",
+      "bytes": 104887,
+      "sha256": "c5f3b467c0008477f5630e2351f8d3666e753f42cf773b31600ac73e6c636d39",
+      "roles": [
+        "previous fullmask-v3 final review unchanged"
+      ]
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/review/audit_compact_delta_v1.py",
+      "bytes": 22402,
+      "sha256": "26af0d2bf71571ffb52886f7488b00f69856045cc7ae05e1d28b79ce16843383",
+      "roles": [
+        "executed independent compact-delta review source"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "base_scenario_id": "q2r3-p0072-S_H-linear",
+      "original_model_id": "q2r3_SH_v1",
+      "analytic_model_id": "q2r3_S_H_analytic_v1",
+      "original_evaluation_status": "never_crossed",
+      "analytic_evaluation_status": "never_crossed",
+      "analytic_global_status": "no_cross_observed_complete",
+      "old_global_point_utc": "",
+      "analytic_global_point_utc": "",
+      "source_area_m2": 100000.0,
+      "source_vertical_thickness_m": 51.00006865757883,
+      "source_normal_thickness_m": 38.24993485585655,
+      "Q2_parent_volume_m3": 5100006.865757883,
+      "actual_TIFF_volume_m3": 5100006.872102377,
+      "native_saved_t0_volume_m3": 5099997.600245476,
+      "supplied_support_cells": 40,
+      "native_saved_support_cells": 39,
+      "lost_support_cells": 1,
+      "lost_support_depths_m": [
+        7.402807386824861e-05
+      ],
+      "lost_TIFF_volume_m3": 0.266501065925695,
+      "max_initial_depth_difference_m": 0.00049591064453125,
+      "native_internal_t0_volume_m3": 5100006.5,
+      "native_internal_budget_relative_residual": 0.11665465524406682,
+      "ascii_budget_relative_residual": 0.1163845256857194
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "base_scenario_id": "q2r3-p0255-S_T_H-linear",
+      "original_model_id": "q2r3_STH_v1",
+      "analytic_model_id": "q2r3_S_T_H_analytic_v1",
+      "original_evaluation_status": "left_censored_already_unstable",
+      "analytic_evaluation_status": "left_censored_already_unstable",
+      "analytic_global_status": "point_crossing_linear_between_samples",
+      "old_global_point_utc": "2026-07-01 11:19:16.802118373+00:00",
+      "analytic_global_point_utc": "2026-07-01T11:01:09.649776747+00:00",
+      "source_area_m2": 40000.0,
+      "source_vertical_thickness_m": 31.387865745793952,
+      "source_normal_thickness_m": 15.893267340288295,
+      "Q2_parent_volume_m3": 1255514.629831758,
+      "actual_TIFF_volume_m3": 1255514.6186828613,
+      "native_saved_t0_volume_m3": 1255521.607875824,
+      "supplied_support_cells": 16,
+      "native_saved_support_cells": 16,
+      "lost_support_cells": 0,
+      "lost_support_depths_m": [],
+      "lost_TIFF_volume_m3": 0.0,
+      "max_initial_depth_difference_m": 0.0004730224609375,
+      "native_internal_t0_volume_m3": 1255514.6,
+      "native_internal_budget_relative_residual": 0.1240281873265352,
+      "ascii_budget_relative_residual": 0.1228968046580173
+    }
+  ],
+  "native_target_rechecks": [
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "target_id": "paper_port_symbol",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 8,
+      "support_distance_m": 14232.232829869621
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "target_id": "paper_junction",
+      "lower_seconds": 801.1,
+      "upper_seconds": 820.6,
+      "buffer_cells": 9,
+      "support_distance_m": 5876.663104573573
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "target_id": "osm_way_1443180803",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 9,
+      "support_distance_m": 14289.370018121632
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "target_id": "osm_way_1552746552",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 9,
+      "support_distance_m": 14279.034023124488
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "target_id": "osm_way_1552746559",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 9,
+      "support_distance_m": 14289.369168299683
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "target_id": "osm_way_1552746560",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 9,
+      "support_distance_m": 14279.031572814478
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "target_id": "osm_way_1553369440",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 8,
+      "support_distance_m": 14346.07842267968
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "target_id": "paper_port_symbol",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 8,
+      "support_distance_m": 14294.928676866615
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "target_id": "paper_junction",
+      "lower_seconds": 1400.1,
+      "upper_seconds": 1420.5,
+      "buffer_cells": 9,
+      "support_distance_m": 5961.104918691326
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "target_id": "osm_way_1443180803",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 9,
+      "support_distance_m": 14352.354313393926
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "target_id": "osm_way_1552746552",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 9,
+      "support_distance_m": 14341.973107659085
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "target_id": "osm_way_1552746559",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 9,
+      "support_distance_m": 14352.353500091296
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "target_id": "osm_way_1552746560",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 9,
+      "support_distance_m": 14341.970643111405
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "target_id": "osm_way_1553369440",
+      "lower_seconds": null,
+      "upper_seconds": null,
+      "buffer_cells": 8,
+      "support_distance_m": 14408.521114267187
+    }
+  ],
+  "consumer_review": {
+    "source_sha256": "58d86bbbbd47d8a884c3647410f8470696cb6ce5b67809246ca9f1bd2e5a5b38",
+    "QA_checks": 328,
+    "index_counts": {
+      "input_index.json": 61,
+      "output_index.json": 16
+    },
+    "source_review": {
+      "exact_declared_SH_STH_replacements": true,
+      "compact_parent_not_fullmask": true,
+      "global_vs_evaluation_clocks_separate": true,
+      "unknown_lag_and_unqualified_gates": true,
+      "source_vs_native_support_loss_explicit": true,
+      "actual_supplied_raster_support_distance": true,
+      "writes_only_new_delta_output": true,
+      "no_physics_solver_call": true
+    },
+    "note": "Manual source review and independent input/native/target/table/index rechecks; software QA is not predictive qualification."
+  },
+  "scope": "New compact_delta_v1/review only; frozen Q3 imports and exact48-role approved cache; no other active trees and no physics",
+  "limitations": [
+    "Global earlier onset and evaluation-left-censoring must remain distinct.",
+    "Compact exact vector polygon/mapping table not delivered; distances refer to actual supplied raster cell support.",
+    "ASCII initial support rounding is recorded, not a physical qualification.",
+    "No new absolute arrivals, probabilities, qualified delays, observed initiation truths or independent validation events."
+  ]
+}

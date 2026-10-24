@@ -1,0 +1,37 @@
+{
+  "registered_at_utc": "2026-10-24T10:03:03.828808+00:00",
+  "physics_rerun": false,
+  "inputs": [
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/parameter_first_passages.parquet",
+      "bytes": 33794095,
+      "sha256": "fd557599f6fa54ad21bd7a44dd19aa74f5578ce73533db1ad8aeef19de2688d5"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/predictions.csv.gz",
+      "bytes": 3752720,
+      "sha256": "7f285cfcfc9a86e5b0237fe3392c3361ddb87807815c671e55cb4969770a4a83"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/conservative_mass_transfers.csv.gz",
+      "bytes": 41196,
+      "sha256": "feca3abe58768d4218903819805e8af708d55509e5f20fd923e57fd521cacc0f"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/PROTOCOL.md",
+      "bytes": 1562,
+      "sha256": "1fa12c11dc2e4efa899698c85c39a9b72a7d71685c98fc0cd2a2cac995b09b11"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/applicability_fixed_risk.py",
+      "bytes": 8471,
+      "sha256": "4d99af9d88d1155b58222f93520fdbe4a424a951057913d5d7ffa5eb015e2b28"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/applicability_sensitivity.py",
+      "bytes": 13744,
+      "sha256": "9c5fa15bc8a514bd90c6a335812b159bf15a91cad80176b6a4e8ccb82abff357"
+    }
+  ],
+  "primary_risk_set": "original_conditional_history"
+}

@@ -1,0 +1,44 @@
+{
+  "bundle_version": "q3-r3-event-v1-local",
+  "producer_question": "q3",
+  "created_at_utc": "2026-10-24T07:30:35.346225+00:00",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "evaluation_stratum": "local_observational",
+  "files": [
+    {
+      "path": "track_b/research/q1/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/event_group_registry.csv",
+      "bytes": 1820,
+      "sha256": "c2109a17be0d0c92a4d35c4257c320af04e8e16e0e649c247e7abf2caa3f8741",
+      "role": "event_group_registry",
+      "upstream_path": "track_b/research/q3/round3/exports/event_v1/event_group_registry.csv"
+    },
+    {
+      "path": "track_b/research/q1/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/forecast_availability.csv",
+      "bytes": 2911,
+      "sha256": "f4627f1edabe316c986916cb599f49945de63cdc3a27b270ef5745c6196c99e6",
+      "role": "forecast_availability",
+      "upstream_path": "track_b/research/q3/round3/exports/event_v1/forecast_availability.csv"
+    },
+    {
+      "path": "track_b/research/q1/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/label_mapping.csv",
+      "bytes": 7392,
+      "sha256": "3c920a97038f5f75227d040a3783a13bd91d6aac9c5f181ab885194bb55b4df6",
+      "role": "label_mapping",
+      "upstream_path": "track_b/research/q3/round3/exports/event_v1/label_mapping.csv"
+    }
+  ],
+  "limitations": [
+    "Local exact first mechanical initiation remains unaccepted; independent accepted local training/validation=0",
+    "Later us7000tc90 is a different subevent; causal relation and statistical independence unverified",
+    "Historical GFS first availability unknown; latency values are assumptions only",
+    "External real deformation and exposure acquisition is ongoing; later update will have a new version and paths"
+  ],
+  "advisor_review": {
+    "upstream_bundle_sha256": "075b149214b5c9a8827af45af221ee6ee6b6428090e6d9337afb1943698d2faf",
+    "note": "Accepted as inherited local stage/label/availability constraints only. No new accepted first-initiation truth, independent training event, real-time availability or coverage validation. Same chain remains grouped; literature arrival/onset values are candidate reconstruction constraints and not independent validation.",
+    "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+  }
+}

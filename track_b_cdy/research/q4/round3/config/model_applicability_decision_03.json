@@ -1,0 +1,66 @@
+{
+  "version": "q4-r3-material-applicability-decision03",
+  "registered_at_utc": "2026-10-24T09:15:30.740579+00:00",
+  "basis": "Advisor directs focus on applicable solid mixture, composite rock-ice+water, pore-pressure, Q2 release and necessary numerical comparisons. Generic intermediate-density phase cannot represent pure ice. Decisions use closure/material applicability and measured workload, not matching unaccepted target timing.",
+  "prior_registered_scientific_case_count": 36,
+  "retain_all_prior_registration_bytes": true,
+  "prior_scope_review": {
+    "path": "track_b/research/q4/round3/results/official_applicability_review.json",
+    "sha256": "ad7c92d94ba665f7d46c167dd6934bd6571d6276f73de97848ac5b340d654dfc"
+  },
+  "target_required_case_count_after_substitution": 29,
+  "registered_case_count_including_all_retained_and_replacement": 37,
+  "applicability_classes": {
+    "target_applicable_required": {
+      "prior_cases": "All prior single10+DClaw9+Q2single7+composite2",
+      "prior_count": 28,
+      "new_replacement_count": 1
+    },
+    "generic_material_proxy_diagnostic_only": {
+      "run_ids": [
+        "copdem_120_multi_ref__sf0"
+      ],
+      "count": 1,
+      "action": "Complete already-running1800s as generic three-material numerical/process diagnostic; not pure rock-ice-water or target-material main candidate"
+    },
+    "target_material_proxy_inapplicable_not_run": {
+      "run_ids": [
+        "copdem_120_multi_dry__sf0",
+        "copdem_120_multi_wet__sf0",
+        "copdem_120_multi_nodrag__sf0",
+        "copdem_60_multi_ref__sf0",
+        "copdem_60_multi_dry__sf0",
+        "copdem_60_multi_wet__sf0",
+        "copdem_60_multi_nodrag__sf0"
+      ],
+      "count": 7,
+      "execution_status": "not_run_material_applicability_exclusion",
+      "mathematical_implementation_invalid_claim": false,
+      "action": "Do not launch. Preserve case/config registration and explicit exclusion; not numerical failure and not completed."
+    }
+  },
+  "replacement": {
+    "new_run_id": "composite_RI_water_nodragvm_120__sf0",
+    "reference_run_id": "composite_RI_water_120__sf0",
+    "replaces_intended_question": "isolate registered drag and virtual-mass contribution under an applicable composite-solid+water mapping",
+    "only_changed_parameters": {
+      "drag": "-1,3,1,0.1,1,1",
+      "virtualmass": "1,0,0"
+    },
+    "label": "drag_and_virtual_mass_ablation",
+    "other_coupling_remains": "buoyancy/pressure/shared terrain and other native terms unchanged; do not call all interactions disabled",
+    "same_source_terrain_resolution_volume_mass_initial_state_and_horizon": true,
+    "end_seconds": 1800,
+    "selection_registered_before_new_run": true,
+    "not_a_new_competitive_route": true
+  },
+  "workload_evidence": {
+    "generic120ref": "3898wallseconds for840simseconds; naive fullhorizon8352s, only rough linear extrapolation",
+    "composite120ref": "2432wallseconds for680.4simseconds; naive6433s fullhorizon, only rough linear extrapolation",
+    "q2_first_compact": "1192wallseconds for1300.5simseconds; naive1649s fullhorizon",
+    "generic60": "not measured; 4x cells and about2x steps suggests~8x work, not an ETA"
+  },
+  "scheduler": "Use per-run locks for future launches, fill free local slots with already-registered required cases, no duplicate run_id or physics/horizon changes",
+  "probability_weights": null,
+  "human_scientific_adoption": "pending_team_review"
+}

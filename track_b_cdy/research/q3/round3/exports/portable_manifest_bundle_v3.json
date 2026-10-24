@@ -1,0 +1,39 @@
+{
+  "bundle_version": "q3-r3-portable-manifest-v3-metadata-only",
+  "producer_question": "q3",
+  "created_at_utc": "2026-10-24T10:28:26.458263+00:00",
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/results/followup_v3/input_manifest.json",
+      "bytes": 16792,
+      "sha256": "2d7c4e228ddf05caa09b2856817629b1651da928f9e93cc265407aa2bdfaaedf",
+      "role": "portable_input_manifest"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/followup_v3/normalization_report.json",
+      "bytes": 6621,
+      "sha256": "7cfd39d9d27ff72789642383a03b2fcb6a3dfb6ba4792e20865a478dcf24b9c5",
+      "role": "normalization_and_frozen_byte_audit"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/followup_v3/README.md",
+      "bytes": 2146,
+      "sha256": "14984b487ae41c0a9eb04a07e8ad967343a3c7baf211f95aed71d42d7ed450b5",
+      "role": "scope_and_verification"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/portable_manifest_v3.py",
+      "bytes": 8003,
+      "sha256": "bf6de62ecaa475c3c96d41cb862c7481fff0666063720904695cff0c4f375b7f",
+      "role": "portable_metadata_verifier"
+    }
+  ],
+  "metadata_only": true,
+  "normalizes_input_manifest_sha256": "91d1dc933de07b435a625c4177252229785f3e58f5949c481301fdd5949816df",
+  "preserved_v2_research_bundle_sha256": "b134d88deadd2f2a5f92e954881dc3c38349a787ae41348e2245b7026fbdbb96",
+  "scientific_results_changed": false,
+  "physics_rerun": false,
+  "qualified_arrival_rows": 0,
+  "arrival_probability_rows": 0,
+  "empirical_coverage": null
+}

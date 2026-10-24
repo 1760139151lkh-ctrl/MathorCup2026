@@ -1,0 +1,63 @@
+{
+  "models": [
+    "mc_linear",
+    "mc_temperature_quadratic",
+    "mc_stress_quadratic",
+    "mc_stress_hinge_400"
+  ],
+  "fixed_reference": "author_eq6",
+  "basis": "t=T_degC/5, s=sigma_kPa/400; tau_kPa",
+  "models_and_terms": {
+    "mc_linear": [
+      "1",
+      "t",
+      "s",
+      "t*s"
+    ],
+    "mc_temperature_quadratic": [
+      "1",
+      "t",
+      "s",
+      "t*s",
+      "t^2",
+      "t^2*s"
+    ],
+    "mc_stress_quadratic": [
+      "1",
+      "t",
+      "s",
+      "t*s",
+      "s^2",
+      "t*s^2"
+    ],
+    "mc_stress_hinge_400": [
+      "1",
+      "t",
+      "s",
+      "t*s",
+      "max(s-1,0)",
+      "t*max(s-1,0)"
+    ]
+  },
+  "subset_and_holdout_groups": "nominal experimental classes; measured continuous predictors",
+  "design": "four predeclared domains, two weights, complete temperature/stress/specimen-label holdouts",
+  "fit": "weighted least squares, rcond1e-12; no penalty/model selection/clipping",
+  "bootstrap_repetitions": 1000,
+  "seed": 26082418,
+  "bootstrap": [
+    "within_cell_independent_tests",
+    "specimen_label_blocks_assumed"
+  ],
+  "fixed_reference_cv": "Not included in CV rankings: original article reused these data",
+  "independent_local_events": 0,
+  "protocol_sha256": "7376b1ab0b6e3dc5b66e88988893aec8ee3d987efbbcff923682705cdf645767",
+  "protocol_amendment_sha256": "c3af146064b910c5cc78b3264b0ac692d1c2f00454732618ebf48a327ef97cd7",
+  "data_sha256": "7b0601f0b5c9aff60e79d2730ef21ac42c168f61b54984cd36d2b8175f58b600",
+  "code_sha256": "5f93736b630b683ad52ba0c7d9fbca0fe9f50b4f88d0e954579a620506d53292",
+  "environment": {
+    "python": "3.12.14",
+    "executable": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/.venv/bin/python",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3"
+  }
+}

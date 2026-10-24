@@ -1,0 +1,100 @@
+{
+  "generated_at_utc": "2026-10-24T04:41:33.726253+00:00",
+  "question": "q1",
+  "passed": true,
+  "checks": [
+    {
+      "name": "workspace_and_git_baseline",
+      "passed": true,
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+        "head": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+        "baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+        "branch": "codex/track-b-q1-r1"
+      }
+    },
+    {
+      "name": "frozen_input_hashes",
+      "passed": true,
+      "evidence": {
+        "file_count": 431,
+        "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+        "preparation_commit": "1a31c6f2c3e11fcc32ac870b7a5896a7ef67f06e"
+      }
+    },
+    {
+      "name": "isolated_environment_and_lock",
+      "passed": true,
+      "evidence": {
+        "python": "3.12.14",
+        "prefix": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1/track_b/.venv",
+        "package_count": 44,
+        "lock_sha256": "5a780bc65de35a11a1eac4ec9370cad50957dcabb8ebe02cecdbfdb550ad645a",
+        "pip_check": "No broken requirements found."
+      }
+    },
+    {
+      "name": "six_real_formats",
+      "passed": true,
+      "evidence": {
+        "formats_read": [
+          "CSV",
+          "XLSX",
+          "SHP",
+          "GeoTIFF",
+          "NetCDF4",
+          "GRIB2"
+        ]
+      }
+    },
+    {
+      "name": "question_file_ownership",
+      "passed": true,
+      "evidence": {
+        "allowed_directory": "track_b/research/q1/",
+        "changed_paths": [
+          "track_b/research/q1/FINDINGS.md",
+          "track_b/research/q1/HANDOFF.md",
+          "track_b/research/q1/METHOD_OPTIONS.md",
+          "track_b/research/q1/PROPOSALS.md",
+          "track_b/research/q1/config/round1.json",
+          "track_b/research/q1/environment_setup.log",
+          "track_b/research/q1/figures/coverage_by_year.png",
+          "track_b/research/q1/figures/same_calendar_descriptives.png",
+          "track_b/research/q1/figures/visual_review.json",
+          "track_b/research/q1/remote_comparison_run.log",
+          "track_b/research/q1/results/candidate_definition_consistency.csv",
+          "track_b/research/q1/results/candidate_feature_coverage.csv",
+          "track_b/research/q1/results/constant_run_candidates.csv",
+          "track_b/research/q1/results/context.json",
+          "track_b/research/q1/results/coverage_by_year.csv",
+          "track_b/research/q1/results/diagnostic_summary.json",
+          "track_b/research/q1/results/diagnostics_unknown_qc.csv",
+          "track_b/research/q1/results/historical_envelope_counts.csv",
+          "track_b/research/q1/results/independent_review.json",
+          "track_b/research/q1/results/input_check.json",
+          "track_b/research/q1/results/jump_candidates.csv",
+          "track_b/research/q1/results/output_manifest.json",
+          "track_b/research/q1/results/quality_accounting.csv",
+          "track_b/research/q1/results/remote_flux_candidate_qc_tokens.csv",
+          "track_b/research/q1/results/remote_flux_column_comparison.csv",
+          "track_b/research/q1/results/remote_flux_comparison.json",
+          "track_b/research/q1/results/variable_semantics.csv",
+          "track_b/research/q1/results/window_descriptives.csv",
+          "track_b/research/q1/round1_run.log",
+          "track_b/research/q1/scripts/compare_remote_flux.py",
+          "track_b/research/q1/scripts/finalize_output_manifest.py",
+          "track_b/research/q1/scripts/round1_diagnostics.py",
+          "track_b/research/q1/sources/READING.md",
+          "track_b/research/q1/sources/access_log.json",
+          "track_b/research/q1/sources/tpdc_dataset.html",
+          "track_b/research/q1/sources/waternet_flux_2026.csv",
+          "track_b/research/q1/sources/waternet_metadata.html",
+          "track_b/research/q1/workspace_binding.json",
+          "track_b/research/q1/workspace_verification.json"
+        ]
+      }
+    }
+  ],
+  "scope": "Workspace, frozen inputs, environment and technical I/O only; no scientific model acceptance."
+}

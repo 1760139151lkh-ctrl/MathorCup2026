@@ -1,0 +1,14 @@
+{
+  "question": "q3",
+  "thread_id": "01a16c21-4a06-7653-be46-2f2ffcc0ff2c",
+  "title": "赛道B · Q3 预报与不确定性",
+  "chat_associated_cwd": "/Users/maxchen/Documents/MathorCup",
+  "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3",
+  "git_branch": "codex/track-b-q3-r1",
+  "starting_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+  "worktree_management": "manual_git_worktree_explicit_dispatch_binding",
+  "status": "environment_preparing",
+  "parent_thread_id": "01a16bc9-3c57-76a2-996d-eb801a26f735",
+  "baseline_manifest": "track_b/audit/stage4/baseline_manifest.json",
+  "contract_version": "stage4-r1-v1"
+}

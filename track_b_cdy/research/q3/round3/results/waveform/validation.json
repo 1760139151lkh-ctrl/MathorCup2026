@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "geocsv_header_samplecount",
+      "passed": true
+    },
+    {
+      "test": "requested_exact_UTC_endpoints",
+      "passed": true
+    },
+    {
+      "test": "uniform50Hz_no_sample_gaps_overlap",
+      "passed": true
+    },
+    {
+      "test": "station_response_sample_rate_matches",
+      "passed": true
+    },
+    {
+      "test": "miniseed_record_sample_counts_match",
+      "passed": true
+    },
+    {
+      "test": "all_STEIM2_X0_Xn_endpoints_match_official_GeoCSV",
+      "passed": true
+    },
+    {
+      "test": "one_requested_NSLC_only",
+      "passed": true
+    },
+    {
+      "test": "one_second_complete_bins_only",
+      "passed": true
+    },
+    {
+      "test": "all_raw_and_features_finite",
+      "passed": true
+    },
+    {
+      "test": "no_mechanical_truth_auto_adopted",
+      "passed": true
+    }
+  ],
+  "raw_sample_count": 150001,
+  "sample_rate_hz": 50.0,
+  "raw_start_utc": "2026-08-26 02:20:00+00:00",
+  "raw_end_utc": "2026-08-26 03:10:00+00:00",
+  "actual_sample_gaps_or_overlap": 0,
+  "miniseed_record_count": 568,
+  "miniseed_payload_decode_scope": "fixed header+1000/1001+STEIM2 integration X0/Xn; interior samples supplied by officialGeoCSV, not independently unpacked",
+  "quality_indicators": [
+    "D"
+  ],
+  "timing_quality_reported_values": [
+    100
+  ],
+  "data_quality_flags_values": [
+    0
+  ],
+  "ADC_raw_min": -124475,
+  "ADC_raw_max": -28402,
+  "independent_clock_accuracy_seconds": null,
+  "event_label_added_count": 0,
+  "mechanical_truth_timestamp_accepted": false,
+  "protocol_sha256": "a7c18ed933020f620a80ffc4dbe28e8cc7f03cfc3590cfb7526ae677b66ed1c7",
+  "waveform_sha256": "086221d6a6f1987d0b46cee19234e514671a8f1a76df69fef98123af87623736",
+  "GeoCSV_sha256": "5060a87f117305cd157f77401b4221d207d8f55f3ae2b78c5b7890882604ba36",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2"
+  },
+  "original_environment_changed": false,
+  "feature_support_end_not_available_time": true,
+  "sensor_historical_first_available_time": null,
+  "baseline_parameter_estimation_complete_support_end": "2026-08-26T02:28:00Z",
+  "candidate_evaluation_starts_after_baseline": true
+}

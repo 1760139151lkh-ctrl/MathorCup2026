@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openstreetmap.org/api/0.6/map?bbox=85.35,28.25,85.55,28.36",
+  "retrieved_at_utc": "2026-10-24T07:40:57.299467+00:00",
+  "status": 200,
+  "bytes": 7089549,
+  "sha256": "903e813b392dcaf7fe310a5aa09ee8f891858282ed241ffb9229408fec002484",
+  "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/osm_map_direct.osm",
+  "actual_read_scope": "complete API response",
+  "excerpt": null
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "script_version": "stage3-e03-v1",
+  "script_sha256": "652f582e2a8804f72c53a4fe0e24b3a6358b858b5c1556bcb68541cd5238b023",
+  "config_sha256": "0ac6e5f9f8d82d23f801fada55e604dc61260d1a1be6438b8600d359c3b4f8f2",
+  "config_path": "track_b/config/temporal_policy.json",
+  "generated_at_utc": "2026-10-24T03:39:33.269542+00:00",
+  "date_user_local": "2026-10-23",
+  "runtime": {
+    "executable": "/Users/maxchen/Documents/MathorCup/MathorCup2026/track_b/.venv/bin/python",
+    "python": "3.12.14",
+    "pandas": "2.3.3",
+    "numpy": "2.5.4",
+    "pyarrow": "26.0.0",
+    "openpyxl": "3.1.5"
+  },
+  "input_files_hashed": 47,
+  "hourly": {
+    "rows_full_time_grid": 52584,
+    "measurement_columns": 63,
+    "raw_qc_columns": 37,
+    "first_time_source": "2021-01-01T00:00:00",
+    "last_time_source": "2026-12-31T23:00:00",
+    "total_measurement_cells": 3312792,
+    "numeric_present_cells": 2769457,
+    "missing_sentinel_cells": 222341,
+    "text_missing_cells": 320994,
+    "text_missing_tokens": {
+      "NaN": 315345,
+      "NAN": 5649
+    },
+    "strict_qc0_cells": 1712112,
+    "qc_unknown_cells": 1367184,
+    "physical_rejections": 0,
+    "imputed_cells": 0,
+    "resampled_rows": 0,
+    "dropped_rows": 0,
+    "unit_conversions": 0,
+    "source_files": 24
+  },
+  "daily": {
+    "source_workbook_sheets": 21,
+    "rows": 7519,
+    "county_columns": 5,
+    "numeric_cells": 37595,
+    "first_source_date_label": "2005-01-01",
+    "last_source_date_label": "2025-08-02",
+    "candidate_sentinel_occurrences": 0,
+    "unit_conversions": 0,
+    "imputed_cells": 0,
+    "timezone_assigned": false,
+    "joined_to_hourly_station": false
+  },
+  "verification_passed": true,
+  "verification_check_count": 18,
+  "ai_assistance": {
+    "tool": "Codex",
+    "provider": "OpenAI",
+    "date_user_local": "2026-10-23",
+    "model_version": "not exposed to script; team must supplement final disclosure",
+    "human_review": "required before adoption in submission"
+  },
+  "limitations": [
+    "UTC+8 is a metadata-mirror assumption; local-file equivalence not verified",
+    "hourly timestamp integration interval and precipitation accumulation boundary unknown",
+    "QC0 does not prove physical plausibility or source-region representativeness",
+    "Precip and FLUX lack QC and are excluded from strict view",
+    "daily unit/day boundary/timezone/spatial aggregation unknown; raw-only county table",
+    "available_time unknown; no operational forecast eligibility established",
+    "no imputation, resampling, cropping, physical filtering, unit conversion or model fitting"
+  ]
+}

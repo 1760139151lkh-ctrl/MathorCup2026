@@ -1,0 +1,6 @@
+{
+  "execution_registration_path": "input_registration.json",
+  "executed_protocol_sha256": "080706ce65a85932bcf2a2e98b5b86cf124dfb6b9ba792f5ad74f87c57f2b254",
+  "snapshot_path": "track_b/research/q3/round3/results/applicability_sensitivity/execution_protocol_080706ce65a85932bcf2a2e98b5b86cf124dfb6b9ba792f5ad74f87c57f2b254.md",
+  "changes_after_registration": "Primary-source terminology distinction and fourth-policy history wording clarified after aggregation began; weight rules unchanged; original execution protocol preserved byte-for-byte"
+}

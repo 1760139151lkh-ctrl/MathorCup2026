@@ -1,0 +1,67 @@
+{
+  "version": "q4-r3-native-bounded-entrainment-v1",
+  "registered_utc": "2026-10-24T09:28:47.141244+00:00",
+  "before_execution": true,
+  "historical_registered_case_count": 38,
+  "target_applicable_required_count": 30,
+  "diagnostic_only_count": 1,
+  "material_excluded_not_run_count": 7,
+  "covers_decision03_counts_without_modifying_it": true,
+  "reference_run_id": "copdem_120_single_ref__sf0",
+  "new_run_id": "copdem_120_single_entrain1m_P1buf250__sf0",
+  "scenario_source": "analystdefined bounded sensitivity, not measured erodiblethickness or calibratedtargettime; independentpreregisteredP1path, notnative2Dwetfootprint",
+  "path_file": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/spatial_paths.csv",
+  "path_sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e",
+  "path_id": "P1",
+  "buffer_metres": 250,
+  "bed_max_thickness_m": 1,
+  "mask_rules": [
+    "cellcentrewithinP1buffer250m",
+    "excludeinitialsourceh>0",
+    "excludeouter3cellrings"
+  ],
+  "max_available_bed_volume_m3": 9547200.0,
+  "bed_density_kg_m3": 2105,
+  "centrainment": 1,
+  "entrainment": "-7,0",
+  "cstopping": 0,
+  "fixed_source_sha256": "cdb1168d7cf154e3504d199f7bef8d095cbafe74298cb9087874e1d700a1127a",
+  "source_excerpts": [
+    {
+      "line_start": 7205,
+      "line_end": 7215,
+      "text": "7205:                     if ( sico.ENTRAINMENT == 1 && hflow > sico.HFLOWMIN && hentrmaxx > 0 ) { // first model\n7206: \n7207:                         mom = aw[i][0] * sflow.RHO1 * pow( pow( vflowx1, 2 ) + pow( vflowy1, 2 ), 0.5 ); // flow momenta\n7208:                         if ( sico.MODEL == 7 ) mom += aw[i][3] * sflow.RHO2 * pow( pow( vflowx2, 2 ) + pow( vflowy2, 2 ), 0.5 );\n7209:                         if ( sico.MODEL == 7 ) mom += aw[i][6] * sflow.RHO3 * pow( pow( vflowx3, 2 ) + pow( vflowy3, 2 ), 0.5 );\n7210: \n7211:                         if ( sflow.CENTR > 0 ) betav = ffmax(0, tan( wbetaxy * cos( alpha - alphav ))); // movement-following slope\n7212:                         else betav = 1;\n7213:               \n7214:                         qentr = tlength * pow( 10, -fabs( sflow.CENTR )) * mom * betav; // entrainment rate\n7215:                         momfact = 0; // mobility generator"
+    },
+    {
+      "line_start": 7241,
+      "line_end": 7251,
+      "text": "7241:                     if ( qentr != 0 ) {\n7242:  \n7243:                         if ( qentr > 0 ) qentr1 = ffmin( phentrmax[i], alphab1 * qentr ); // constraining entrainment rate\n7244:                         else qentr1 = ffmax( -aw[i][0], alpha1 * qentr );\n7245:                         phentrmax[i] -= ffmax( 0, qentr1 ); // updating entrainable height\n7246:                         \n7247:                         momaddsx = momfact * vflowx1 * qentr1; // contribution of entrainment to momentum\n7248:                         momaddsy = momfact * vflowy1 * qentr1;\n7249: \n7250:                         aw[i][0] = aw[i][0] + qentr1; // updating flow depths and momenta (mixture or PHASE 1)\n7251:                         aw[i][1] = aw[i][1] + momaddsx;"
+    },
+    {
+      "line_start": 7280,
+      "line_end": 7285,
+      "text": "7280:                             aw[i][7] = aw[i][7] + momaddfx;\n7281:                             aw[i][8] = aw[i][8] + momaddfy;\n7282:                             awt[i][12] = awt[i][12] - qentr3;\n7283: \n7284:                         } else awt[i][4] = awt[i][4] - qentr1; // updating basal topography\n7285:                     }"
+    },
+    {
+      "line_start": 8663,
+      "line_end": 8670,
+      "text": "8663: \n8664:     sprintf(path, \"%s%snout%d.txt\", outfiles, prefix, xint); // file of number of time steps, control for success, and volumes\n8665:     f_nout=fopen(path, \"w\");\n8666:     fprintf(f_nout, \n8667:         \"%i\\n%i\\n%i\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%.4f\\n%i\\n%i\\n%i\\n%i\\n%i\\n%.0f\\n%0f\\n%0f\\n%.0f\\n%0f\\n%0f\\n\", \n8668:         nout-1, csuccess, ctrl_basechange, hflow_maxmax, tflow_maxmax1, tflow_maxmax2, tflow_maxmax3, tflow_maxmax, pflow_maxmax1, pflow_maxmax2, pflow_maxmax3, pflow_maxmax, \n8669:         vflow_maxmax1, vflow_maxmax2, vflow_maxmax3, vflow_maxmax, basechange_max, basechange_min, ctrl_release, sico.IMPACTAREA, sico.HDEPOSIT, hydnin, hydnout, \n8670:         vol_entr, vol_entr2, vol_entr3, vol_edge, vol_edge2, vol_edge3 );"
+    }
+  ],
+  "implemented_rate": "delta_h=dt*10^(-abs(CENTR))*rho*h*horizontal_speed*betav, capremainingbed; CENTRnegative ->betav1; notkineticenergy",
+  "coefficient_units": "m2/kg inferredfromimplementationdimensions, notofficialmeasuredparameter",
+  "native_entrained_signed_volume": "nout1 zeroindexed23:26 equalsintegralbasechange, negativeerosion; Madded=-rho*VE",
+  "source_adjusted_budget": "Mactivecore+Medgestore-Minitial-Madded; entrainmentgrowthnotmasserror",
+  "same_as_reference": [
+    "DEM",
+    "releasevolume",
+    "density",
+    "mu.15",
+    "xi1000",
+    "csurface0",
+    "initialvelocity0",
+    "1800shorizon",
+    "20snominaloutput"
+  ],
+  "stationary_residual_definition": "finite finalstate h>=.1m and maximum horizontal speed among wetphases<.1m/s; notpermanentdeposit"
+}

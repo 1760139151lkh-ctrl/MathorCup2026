@@ -1,0 +1,15 @@
+{
+  "physical_groups": 1,
+  "selected_sensor": "Block4a",
+  "same_chain_sensor_not_independent": "Base",
+  "daily_rows": 725,
+  "finite_block4a_rows": 725,
+  "first_date": "2020-12-03",
+  "last_date": "2022-11-27",
+  "relative_span_hours": 17376.0,
+  "source_csv_sha256": "c11d1589f6ffe7971577844481792837bb58826fd2fc33d04a483e222c774ba5",
+  "catastrophic_failure_not_within_record": "article documents collapse in July2023, after November2022 record end",
+  "first_mechanical_initiation": "already moving; label not supplied; external collapse phase only",
+  "data_licence": "repository MIT software licence does not independently establish third_party_measurement_data_licence",
+  "weather_columns": "retained only in raw cache; not survival predictors; soil_moisture and infiltration are HBV-model outputs"
+}

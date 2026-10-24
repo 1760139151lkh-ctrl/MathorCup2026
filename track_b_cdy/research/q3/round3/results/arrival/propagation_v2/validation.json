@@ -1,0 +1,1559 @@
+{
+  "generated_at_utc": "2026-10-24T10:11:54.103496+00:00",
+  "passed": true,
+  "adapter_pass_is_predictive_qualification": false,
+  "check_count": 387,
+  "checks": [
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/model_runs.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/model_runs.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/comparison_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/comparison_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/target_arrivals.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/target_arrivals.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/comparison_summary.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/comparison_summary.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/numerical_validation.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/numerical_validation.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/fields_index.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/fields_index.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_controls/q2map60_q2r3_p0000_S_linear__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_controls/q2map60_q2r3_p0000_S_linear__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/q2map60_q2r3_p0000_S_linear__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/q2map60_q2r3_p0000_S_linear__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_controls/q2map60_q2r3_p0036_S_T_linear__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_controls/q2map60_q2r3_p0036_S_T_linear__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/q2map60_q2r3_p0036_S_T_linear__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/q2map60_q2r3_p0036_S_T_linear__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/quality/q2_compact_quality_review_04.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/quality/q2_compact_quality_review_04.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/quality/q2_compact_budget_review_v1.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/quality/q2_compact_budget_review_v1.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/upstream_q2/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/upstream_q2/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/upstream_q2/upstream_bundle.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/upstream_q2/upstream_bundle.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/upstream_q2/release_states.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/upstream_q2/release_states.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/native_controls_index.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/native_controls_index.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/geometry/spatial_targets_v2.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/geometry/spatial_targets_v2.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/geometry/computational_geometries.geojson",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/geometry/computational_geometries.geojson",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/integrate_comparison.py",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/integrate_comparison.py",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/input_index.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/input_index.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0000-S-linear/release.tif",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0000-S-linear/release.tif",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/summary_fields_v4_phase_depth_stationary_0ca9bb21bbc8.npz",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/summary_fields_v4_phase_depth_stationary_0ca9bb21bbc8.npz",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0036-S_T-linear/release.tif",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0036-S_T-linear/release.tif",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/summary_fields_v4_phase_depth_stationary_0ca9bb21bbc8.npz",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/summary_fields_v4_phase_depth_stationary_0ca9bb21bbc8.npz",
+      "passed": true
+    },
+    {
+      "name": "delivered_path_scope:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "exact_delivered_file_count",
+      "passed": true
+    },
+    {
+      "name": "unique_role:model_runs",
+      "passed": true
+    },
+    {
+      "name": "unique_role:model_runs",
+      "passed": true
+    },
+    {
+      "name": "unique_role:target_arrivals",
+      "passed": true
+    },
+    {
+      "name": "unique_role:comparison_metrics",
+      "passed": true
+    },
+    {
+      "name": "compact_original_release_hash_from_upstream",
+      "passed": true
+    },
+    {
+      "name": "compact_received_and_original_bundle_agree",
+      "passed": true
+    },
+    {
+      "name": "only_two_registered_runs",
+      "passed": true
+    },
+    {
+      "name": "14_rows_7_representative_targets",
+      "passed": true
+    },
+    {
+      "name": "existing_import_hash:track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/parameter_ensemble.csv",
+      "passed": true
+    },
+    {
+      "name": "existing_import_hash:track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv",
+      "passed": true
+    },
+    {
+      "name": "existing_import_hash:track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/mechanism_contract.json",
+      "passed": true
+    },
+    {
+      "name": "same_original_parameter_ensemble_as_compact_release",
+      "passed": true
+    },
+    {
+      "name": "analytic_contract_allows_release_join",
+      "passed": true
+    },
+    {
+      "name": "paper_lonlat_to_metric_matches_executed_case:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "registered_model_replacement:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "contract_model_replacement:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "bundle_lineage_matches_model_run:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "explicit_original_release_lineage:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "mechanism_geometry_preserved_across_model_replacement:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "same_nonphysical_design_identity:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:theta_deg",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:thickness_normal_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:rock_volume_fraction",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:bridge_fraction",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:bridge_cohesion_kpa",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:rock_mu",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:initial_temp_c",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:diffusivity_m2_s",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:interface_depth_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:station_source_offset_c",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:storativity",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:drainage_hours",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:connected_depth_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:rain_multiplier",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:melt_mm_deg_day",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:damage_rate_h_inv",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:damage_exponent",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:initial_damage",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:drainage_damage_coupling",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0000_S_linear__sf0:density_kg_m3",
+      "passed": true
+    },
+    {
+      "name": "release_area_thickness_volume_and_density:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "material_volume_composition_not_solver_phase:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "initial_zero_velocity:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "original_onset_kept_in_propagation_record:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "never_cross_is_only_if_released:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "unknown_release_lag_preserved:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "quality_does_not_upgrade:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "release_array_is_explicitly_approved:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "release_crs_and_affine:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "raster_integrated_release_volume:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "underresolution_support_cells_match:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "field_provenance_binding:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "saved_depth_time_grid:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_native_end_time:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "saved_footprint_reproduces_delivered_area:q2map60_q2r3_p0000_S_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_port_symbol:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_port_symbol:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_port_symbol:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_port_symbol:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_port_symbol:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_port_symbol:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_port_symbol:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0000_S_linear__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0000_S_linear__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0000_S_linear__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0000_S_linear__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_junction:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_junction:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_junction:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_junction:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_junction:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_junction:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:paper_junction:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0000_S_linear__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0000_S_linear__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0000_S_linear__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0000_S_linear__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1443180803:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1443180803:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1443180803:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1443180803:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1443180803:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1443180803:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1443180803:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746552:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746552:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746552:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746552:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746552:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746552:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746552:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746559:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746559:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746559:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746559:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746559:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746559:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746559:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746560:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746560:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746560:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746560:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746560:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746560:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746560:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1553369440:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1553369440:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1553369440:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1553369440:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1553369440:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1553369440:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1553369440:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0000_S_linear__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "paper_lonlat_to_metric_matches_executed_case:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "registered_model_replacement:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "contract_model_replacement:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "bundle_lineage_matches_model_run:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "explicit_original_release_lineage:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "mechanism_geometry_preserved_across_model_replacement:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "same_nonphysical_design_identity:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:theta_deg",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:thickness_normal_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:rock_volume_fraction",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:bridge_fraction",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:bridge_cohesion_kpa",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:rock_mu",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:initial_temp_c",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:diffusivity_m2_s",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:interface_depth_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:station_source_offset_c",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:storativity",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:drainage_hours",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:connected_depth_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:rain_multiplier",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:melt_mm_deg_day",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:damage_rate_h_inv",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:damage_exponent",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:initial_damage",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:drainage_damage_coupling",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2map60_q2r3_p0036_S_T_linear__sf0:density_kg_m3",
+      "passed": true
+    },
+    {
+      "name": "release_area_thickness_volume_and_density:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "material_volume_composition_not_solver_phase:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "initial_zero_velocity:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "original_onset_kept_in_propagation_record:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "never_cross_is_only_if_released:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "unknown_release_lag_preserved:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "quality_does_not_upgrade:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "release_array_is_explicitly_approved:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "release_crs_and_affine:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "raster_integrated_release_volume:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "underresolution_support_cells_match:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "field_provenance_binding:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "saved_depth_time_grid:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_native_end_time:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "saved_footprint_reproduces_delivered_area:q2map60_q2r3_p0036_S_T_linear__sf0",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_port_symbol:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_port_symbol:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_port_symbol:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_port_symbol:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_port_symbol:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_port_symbol:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_port_symbol:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0036_S_T_linear__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0036_S_T_linear__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0036_S_T_linear__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0036_S_T_linear__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_junction:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_junction:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_junction:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_junction:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_junction:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_junction:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:paper_junction:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0036_S_T_linear__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0036_S_T_linear__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0036_S_T_linear__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0036_S_T_linear__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1443180803:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1443180803:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1443180803:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1443180803:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1443180803:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1443180803:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1443180803:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746552:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746552:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746552:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746552:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746552:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746552:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746552:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746559:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746559:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746559:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746559:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746559:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746559:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746559:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746560:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746560:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746560:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746560:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746560:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746560:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746560:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1553369440:scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1553369440:base_scenario_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1553369440:upstream_model_id",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1553369440:upstream_parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1553369440:geometry_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1553369440:release_mapping_version",
+      "passed": true
+    },
+    {
+      "name": "target_exact_lineage:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1553369440:parameter_version",
+      "passed": true
+    },
+    {
+      "name": "target_unknown_lag:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "target_quality_exclusion_retained:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "target_explicit_geometry:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "independent_actual_field_arrival:q2map60_q2r3_p0036_S_T_linear__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "all_targets_retained_without_rejection",
+      "passed": true
+    },
+    {
+      "name": "one_pair_per_run_target",
+      "passed": true
+    },
+    {
+      "name": "no_probability_or_absolute_arrival_created",
+      "passed": true
+    },
+    {
+      "name": "all_excluded_from_qualified_arrival_envelope",
+      "passed": true
+    },
+    {
+      "name": "p0000_no_start_retained",
+      "passed": true
+    },
+    {
+      "name": "p0036_actual_analytic_crossing_used",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/model_runs.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/comparison_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/target_arrivals.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/comparison_summary.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/numerical_validation.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/fields_index.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_controls/q2map60_q2r3_p0000_S_linear__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/q2map60_q2r3_p0000_S_linear__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_controls/q2map60_q2r3_p0036_S_T_linear__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/q2map60_q2r3_p0036_S_T_linear__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/quality/q2_compact_quality_review_04.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/quality/q2_compact_budget_review_v1.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/upstream_q2/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/upstream_q2/upstream_bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/upstream_q2/release_states.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/native_controls_index.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/geometry/spatial_targets_v2.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/geometry/computational_geometries.geojson",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/provenance/integrate_comparison.py",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/files/exports/propagation_v2/input_index.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0000-S-linear/release.tif",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/summary_fields_v4_phase_depth_stationary_0ca9bb21bbc8.npz",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0036-S_T-linear/release.tif",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/summary_fields_v4_phase_depth_stationary_0ca9bb21bbc8.npz",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/parameter_ensemble.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/mechanism_contract.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/results/engine_a/analytic_erfc/first_passages.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_states_geometry_v2.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/scripts/join_propagation.py",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/results/arrival/propagation_v2/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/scripts/join_propagation_v2.py",
+      "passed": true
+    },
+    {
+      "name": "external_visual_review_matches_figure",
+      "passed": true
+    }
+  ],
+  "input_index_sha256": "b2913c1d761f8f220db3e47910ebd7197fa50f50ed7e96f37b90038b7794b007",
+  "output_index_sha256": "596909b3ba91c9e43db118117ecc39a0eb5415991a986ae4536a698adc5a7fd0",
+  "figure_visual_qa": "passed_external_visual_inspection"
+}

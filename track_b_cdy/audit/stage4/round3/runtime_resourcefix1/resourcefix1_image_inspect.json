@@ -1,0 +1,69 @@
+[
+    {
+        "Id": "sha256:3d8d8b4a31a520f64c52c2e8d3e23684181222c40ffd246f2d9e25d5cd511bce",
+        "RepoTags": [
+            "mathorcup-r3-solvers:r3-resourcefix1-20261024"
+        ],
+        "RepoDigests": [
+            "mathorcup-r3-solvers@sha256:3d8d8b4a31a520f64c52c2e8d3e23684181222c40ffd246f2d9e25d5cd511bce"
+        ],
+        "Parent": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+        "Comment": "",
+        "Created": "2026-10-24T08:39:14.270533085Z",
+        "DockerVersion": "",
+        "Author": "",
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 635552809,
+        "GraphDriver": {
+            "Data": null,
+            "Name": "overlayfs"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:10f9108f6cebf96e05cadfab3c188071f3c6d084abe680fd0bc9f61c268e854d",
+                "sha256:4195708a1c566b447ecf14bd4ac5eb77dfb67d124c42c7fb08afef7c3ec6f78b",
+                "sha256:fa213786221680901b925b4e26bd1ddbc473bf590050a2200d6c2bd594fcc8c6"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2026-10-24T08:39:16.25261154Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:3d8d8b4a31a520f64c52c2e8d3e23684181222c40ffd246f2d9e25d5cd511bce",
+            "size": 969
+        },
+        "Config": {
+            "Cmd": [
+                "bash"
+            ],
+            "Entrypoint": null,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GRASS_ADDON_BASE=/opt/grass-addons",
+                "CLAW=/opt/clawpack",
+                "PYTHONPATH=/opt/clawpack",
+                "CLAW_PYTHON=python3",
+                "FC=gfortran",
+                "OMP_NUM_THREADS=3",
+                "MPLBACKEND=Agg"
+            ],
+            "Labels": {
+                "desktop.docker.io/ports.scheme": "v2",
+                "org.mathorcup.clawpack": "5.11.0",
+                "org.mathorcup.dclaw": "1.0.0",
+                "org.mathorcup.ravaflow": "4.0-revision7-resourcefix1",
+                "org.mathorcup.ravaflow.physics_source_changes": "none",
+                "org.mathorcup.ravaflow.resourcefix": "Segment_open_close_45_cleanup_calls",
+                "org.mathorcup.round": "round3",
+                "org.opencontainers.image.version": "22.04"
+            },
+            "OnBuild": null,
+            "User": "",
+            "Volumes": null,
+            "WorkingDir": "/work"
+        }
+    }
+]

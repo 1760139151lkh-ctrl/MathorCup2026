@@ -1,0 +1,16 @@
+{
+  "actual_gate_rows": 33,
+  "actual_gate_counts": {
+    "unknown": 27,
+    "exclude": 6
+  },
+  "actual_eligible_rows": 0,
+  "delay_scenario_rows": 72,
+  "scenario_gate_counts": {
+    "include": 54,
+    "exclude": 18
+  },
+  "real_coverage": null,
+  "accepted_independent_validation_events": 0,
+  "scope": "Input eligibility demonstration only. No warning, probability or interval was generated."
+}

@@ -1,0 +1,24 @@
+{
+  "compile_success": true,
+  "xelatex": "/Users/maxchen/.local/texlive/texlive/2026/bin/universal-darwin/xelatex",
+  "passes": 2,
+  "body_pages": 5,
+  "preview_total_pages_including_local_references": 6,
+  "cjk_character_count": 2865,
+  "warnings": [],
+  "section_sha256": "c6d55c822f99675f33f001839b7a02f732e3581d6ece50b63f74343759e9fed0",
+  "preamble_sha256": "6b9adddfc84cb47f16a6f0be21c94344af9cc74b5e6e58d358de4cd876380d3b",
+  "preview_preamble_sha256": "34addaf6c0b47690edd31efc2ca1ffb6f0ef1f1bceb8d48097c4ba508298ecdc",
+  "preview_sha256": "bd0aa4f360c1201362419279457f0c65b46bb4506eaf676434074d9dc819b39e",
+  "scope": "Q2 section-only layout proof using original shared preamble; same Latin font families resolved by installed TeX OTF/TTF filenames; integrated pagination controlled by advisor",
+  "preview_font_resolution": "Use shared font settings; apply equivalent installed-file aliases only if old family-name settings are present. No font installation or shared preamble edits",
+  "font_aliases_applied": [],
+  "rendered_pages": [
+    "track_b/paper/figures/q2/preview/q2_page-1.png",
+    "track_b/paper/figures/q2/preview/q2_page-2.png",
+    "track_b/paper/figures/q2/preview/q2_page-3.png",
+    "track_b/paper/figures/q2/preview/q2_page-4.png",
+    "track_b/paper/figures/q2/preview/q2_page-5.png",
+    "track_b/paper/figures/q2/preview/q2_page-6.png"
+  ]
+}

@@ -1,0 +1,6 @@
+target_id,target_kind,x_m,y_m,longitude,latitude,distance_to_paper_point_m,centroid_to_paper_point_m,osm_version,osm_last_edit_time_utc,position_uncertainty_m,data_role,geometry_version,observed_time_utc
+osm_way_1443180803,former_resuo_bridge_centerline_candidate,340927.83455239376,3129139.008594241,85.37806745,28.278665,74.75725386000808,92.2429350509582,13,2026-09-02T18:24:39Z,,conditional_scenario,q4-r3-osm-objects-v2,
+osm_way_1552746552,temporary_bridge_centerline_candidate,340937.6036759768,3129150.896430109,85.3781654,28.278773449999996,61.60527455375691,76.89674565669195,8,2026-09-02T18:24:39Z,,conditional_scenario,q4-r3-osm-objects-v2,
+osm_way_1552746559,former_resuo_bridge_structure_candidate,340927.8358523344,3129138.999450755,85.37806746651907,28.278664914191385,68.79498905470366,92.24961230935517,5,2026-09-02T18:24:39Z,,conditional_scenario,q4-r3-osm-objects-v2,
+osm_way_1552746560,temporary_bridge_structure_candidate,340937.6059504162,3129150.900129278,85.37816542114457,28.27877348733369,58.784016436677945,76.89241023266365,7,2026-09-02T18:24:39Z,,conditional_scenario,q4-r3-osm-objects-v2,
+osm_way_1553369440,china_immigration_facility_candidate,340865.16173050966,3129272.2166810916,85.37741041344702,28.27985938821656,118.83500109440918,130.12589082504505,2,2026-08-29T21:47:37Z,,conditional_scenario,q4-r3-osm-objects-v2,

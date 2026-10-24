@@ -1,0 +1,13 @@
+{
+  "reviewed_at_utc": "2026-10-24T09:56:21.631007+00:00",
+  "reviewer": "Q3 root Codex, actual final pixels opened with view_image",
+  "figures": [
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/applicability_comparison.png",
+      "sha256": "76bc4bead18afd172a177ece7415cc2a2d5af41703af9044f83e80188a1878f6",
+      "bytes": 132077,
+      "actually_opened": true,
+      "result": "Readable three-panel comparison; date ticks repaired; fitted criterion vs full tests distinguished; selected-design zero and conservative unknown bounds shown separately"
+    }
+  ]
+}

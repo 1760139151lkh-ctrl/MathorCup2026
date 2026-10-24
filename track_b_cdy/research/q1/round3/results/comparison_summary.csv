@@ -1,0 +1,7 @@
+quality_track,model_id,three_window_top5,leave_year_mean_jaccard,leave_process_mean_jaccard,leave_process_min_jaccard,anchor_shift_min_jaccard,predefined_sensitivity_min_jaccard,bootstrap_min_valid_draws,bootstrap_max_valid_draws,bootstrap_requested,independent_accepted_events,context_ref
+original_qc_view,A_marginal_ecdf,土壤水分、空气热状态、短波辐射、土壤热通量、空气湿状态,0.8222222222222222,0.838447971781305,0.4285714285714285,0.6666666666666666,0.6666666666666666,89,89,100,0,results/model_context.json
+original_qc_view,B_shrunk_conditional,土壤热状态、空气湿状态、空气热状态、平均风场、土壤水分,0.7904761904761904,0.9340388007054674,0.4285714285714285,0.6666666666666666,0.4285714285714285,44,44,100,0,results/model_context.json
+original_qc_view,C_other_family_analog,土壤水分、平均风场、空气湿状态、土壤热状态、空气热状态,0.7107142857142856,0.8668871252204585,0.4285714285714285,0.625,0.25,89,89,100,0,results/model_context.json
+unknown_qc_exploration,A_marginal_ecdf,土壤水分、空气热状态、短波辐射、空气湿状态、土壤热通量、湍流热交换,0.7777777777777776,0.9100529100529101,0.4285714285714285,0.6666666666666666,0.6666666666666666,61,89,100,0,results/model_context.json
+unknown_qc_exploration,B_shrunk_conditional,空气湿状态、土壤热状态、空气热状态、平均风场、土壤热通量,0.6698412698412698,0.8821869488536155,0.4285714285714285,0.6666666666666666,0.4285714285714285,10,44,100,0,results/model_context.json
+unknown_qc_exploration,C_other_family_analog,土壤水分、空气湿状态、平均风场、土壤热状态、湍流热交换,0.6341269841269842,0.8094650205761317,0.375,0.5,0.4285714285714285,61,89,100,0,results/model_context.json

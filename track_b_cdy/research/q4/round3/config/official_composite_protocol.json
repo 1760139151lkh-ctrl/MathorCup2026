@@ -1,0 +1,55 @@
+{
+  "version": "q4-r3-official-composite-water-v1",
+  "registered_utc": "2026-10-24T08:33:28.644456+00:00",
+  "before_execution": true,
+  "fixed_source_sha256": "cdb1168d7cf154e3504d199f7bef8d095cbafe74298cb9087874e1d700a1127a",
+  "source_excerpts": [
+    {
+      "range": "(706, 763)",
+      "text": "706: float *fdrag ( float ghflow, float ghflow2, float ghflow3, struct ico sico, struct flow sflow ) { // function for drag coefficient in mixture\n707: \n708:     float *gcdrag, gh, galpha[3], galphac[3], ggamma[3], gf, gg, gp, gsp;\n709:     gcdrag = (float*) calloc( 3, sizeof(float));\n710: \n711:     if ( sico.MODEL == 7 && sico.LAYERS == 0 && sflow.DRAG_k >= 0 ) {\n712: \n713:         gh = ghflow + ghflow2 + ghflow3;\n714:         if ( gh > sico.HFLOWMIN ) {\n715: \n716:             if ( ghflow > sico.HFLOWMIN ) galpha[0] = ghflow / gh; else galpha[0] = 0;\n717:             if ( ghflow2 > sico.HFLOWMIN ) galpha[1] = ghflow2 / gh; else galpha[1] = 0;\n718:             if ( ghflow3 > sico.HFLOWMIN ) galpha[2] = ghflow3 / gh; else galpha[2] = 0;\n719: \n720:         } else { galpha[0] = 0; galpha[1] = 0; galpha[2] = 0; }\n721: \n722:         if ( galpha[0] > 0 && galpha[2] > 0 ) ggamma[0] = sflow.RHO3 / sflow.RHO1; else ggamma[0] = 0;\n723:         if ( galpha[0] > 0 && galpha[1] > 0 ) ggamma[1] = sflow.RHO2 / sflow.RHO1; else ggamma[1] = 0;\n724:         if ( galpha[1] > 0 && galpha[2] > 0 ) ggamma[2] = sflow.RHO3 / sflow.RHO2; else ggamma[2] = 0;\n725: \n726:         galphac[0] = galpha[0] * galpha[2];\n727:         galphac[1] = galpha[0] * galpha[1];\n728:         galphac[2] = galpha[1] * galpha[2];\n729: \n730:         if ( galpha[0] > 0 && galpha[2] > 0 ) {\n731: \n732:             gf = ggamma[0] / 180 * pow( galpha[2] / galpha[0], 3 ) * sflow.DRAG_rep;\n733:             gg = pow( galpha[2], sflow.DRAG_m - 1 );\n734:             gp = pow( galpha[0], sflow.DRAG_n );\n735:             gsp = ( gp / galpha[0] + ( 1 - gp ) / galpha[2] ) * sflow.DRAG_k;\n736:             gcdrag[0] = pow( 1, sflow.DRAG_je )\n737:                 * galphac[0] * ( 1 - ggamma[0] ) * sico.GRAVITY / pow( sflow.DRAG_vterm * ( gp * gf + ( 1 - gp ) * gg ) + gsp, sflow.DRAG_je );\n738: \n739:         } else gcdrag[0] = 0;\n740: \n741:         if ( galpha[0] > 0 && galpha[1] > 0 ) {\n742: \n743:             gf = ggamma[0] / 180 * pow( galpha[1] / galpha[0], 3 ) * sflow.DRAG_rep;\n744:             gg = pow( galpha[1], sflow.DRAG_m - 1 );\n745:             gp = pow( galpha[0], sflow.DRAG_n );\n746:             gsp = ( gp / galpha[0] + ( 1 - gp ) / galpha[1] ) * sflow.DRAG_k;\n747:             gcdrag[1] = pow( 1, sflow.DRAG_je )\n748:                 * galphac[1] * ( 1 - ggamma[1] ) * sico.GRAVITY / pow( sflow.DRAG_vterm * ( gp * gf + ( 1 - gp ) * gg ) + gsp, sflow.DRAG_je );\n749: \n750:         } else gcdrag[1] = 0;\n751: \n752:         if ( galpha[1] > 0 && galpha[2] > 0 ) {\n753: \n754:             gf = ggamma[1] / 180 * pow( galpha[2] / galpha[1], 3 ) * sflow.DRAG_rep;\n755:             gg = pow( galpha[2], sflow.DRAG_m - 1 );\n756:             gp = pow( galpha[1], sflow.DRAG_n );\n757:             gsp = ( gp / galpha[1] + ( 1 - gp ) / galpha[2] ) * sflow.DRAG_k;\n758:             gcdrag[2] = pow( 1, sflow.DRAG_je )\n759:                 * galphac[2] * ( 1 - ggamma[2] ) * sico.GRAVITY / pow( sflow.DRAG_vterm * ( gp * gf + ( 1 - gp ) * gg ) + gsp, sflow.DRAG_je );\n760: \n761:         } else gcdrag[2] = 0;\n762: \n763:     } else { gcdrag[0] = 0; gcdrag[1] = 0; gcdrag[2] = 0; }"
+    },
+    {
+      "range": "(790, 804)",
+      "text": "790:             if ( ghflow > sico.HFLOWMIN ) galpha[0] = ghflow / gh; else galpha[0] = 0; // phase fractions\n791:             if ( ghflow2 > sico.HFLOWMIN ) galpha[1] = ghflow2 / gh; else galpha[1] = 0;\n792:             if ( ghflow3 > sico.HFLOWMIN ) galpha[2] = ghflow3 / gh; else galpha[2] = 0;\n793: \n794:         } else { galpha[0] = 0; galpha[1] = 0; galpha[2] = 0; }\n795: \n796:         if ( galpha[0] > 0 && galpha[2] > 0 && sflow.PHI[2] == 0 ) ggamma[0] = sflow.RHO3 / sflow.RHO1; else ggamma[0] = 0; // density ratios\n797:         if ( galpha[0] > 0 && galpha[1] > 0 && sflow.PHI[1] == 0 ) ggamma[1] = sflow.RHO2 / sflow.RHO1; else ggamma[1] = 0;\n798:         if ( galpha[1] > 0 && galpha[2] > 0 && sflow.PHI[2] == 0 ) ggamma[2] = sflow.RHO3 / sflow.RHO2; else ggamma[2] = 0;\n799: \n800:         if ( galpha[0] > 0 && galpha[2] > 0 && sflow.PHI[2] == 0 ) ggamma2[0] = sflow.RHO3 / sflow.RHO1; else ggamma2[0] = 1;\n801:         if ( galpha[0] > 0 && galpha[1] > 0 && sflow.PHI[1] == 0 ) ggamma2[1] = sflow.RHO2 / sflow.RHO1; else ggamma2[1] = 1;\n802:         if ( galpha[1] > 0 && galpha[2] > 0 && sflow.PHI[2] == 0 ) ggamma2[2] = sflow.RHO3 / sflow.RHO2; else ggamma2[2] = 1;\n803: \n804:         ggze[0] = gtestx[0] * ( 1 - ggamma[0] ); // gz in x direction, PHASE 1"
+    },
+    {
+      "range": "(1160, 1168)",
+      "text": "1160:     gghx2 *= cos( gbetaxy ); gghy2 *= cos( gbetaxy );\n1161: \n1162:     if ( galpha[0] > 0 && galpha[2] > 0 ) ggamma0 = sflow.RHO3 / sflow.RHO1; else ggamma0 = 1;\n1163:     if ( galpha[0] > 0 && galpha[1] > 0 ) ggamma1 = sflow.RHO2 / sflow.RHO1; else ggamma1 = 1;\n1164:     if ( galpha[1] > 0 && galpha[2] > 0 ) ggamma2 = sflow.RHO3 / sflow.RHO2; else ggamma2 = 1;\n1165: \n1166:     if ( galpha[0] > 0 && galpha[2] > 0 && sflow.PHI[2] == 0 ) ggamma3 = sflow.RHO3 / sflow.RHO1; else ggamma3 = 0;\n1167:     if ( galpha[1] > 0 && galpha[2] > 0 && sflow.PHI[2] == 0 ) ggamma4 = sflow.RHO3 / sflow.RHO2; else ggamma4 = 0;\n1168:     ggamma5 = 1;"
+    },
+    {
+      "range": "(1200, 1269)",
+      "text": "1200: \n1201:         for ( gl = 0; gl < sico.PMAX; gl++ ) {\n1202: \n1203:             if ( galpha[gl] > 0 ) { \n1204: \n1205:                 if ( fabs( sflow.CDEFORM[gl] ) < 1 ) gctrl_deform = 1; else gctrl_deform = 0;\n1206: \n1207: \n1208:                 // Hydraulic pressure coefficients\n1209: \n1210:                 if ( gctrl_deform == 1 ) {\n1211:                 \n1212:                     if ( sflow.CDEFORM[gl] >= 0 ) {\n1213:                 \n1214:                         gfact_slidex = fmin(9999, fmax(0, 1 - (( 1 - sflow.CDEFORM[gl] ) * ( 1 - gzfrag )) * sflow.GZMIN * 0.95 / ( ggz[gl] ) + sflow.FRAGSML * gzfrag ));\n1215:                         gfact_slidey = fmin(9999, fmax(0, 1 - (( 1 - sflow.CDEFORM[gl] ) * ( 1 - gzfrag )) * sflow.GZMIN * 0.95 / ( ggz[gl+4] ) + sflow.FRAGSML * gzfrag ));\n1216:                         \n1217:                     } else {\n1218: \n1219:                         gfact_slidex = fmin(9999, fmax(0, 1 - ( 1 + sflow.CDEFORM[gl] ) * ( 1 - gzfrag ) + sflow.FRAGSML * gzfrag ));\n1220:                         gfact_slidey = fmin(9999, fmax(0, 1 - ( 1 + sflow.CDEFORM[gl] ) * ( 1 - gzfrag ) + sflow.FRAGSML * gzfrag ));\n1221:                     }\n1222:                     \n1223:                 } else { \n1224:                 \n1225:                     gfact_slidey = 1;\n1226:                     gfact_slidex = 1; // factors for deformation control and fragmentation (x)\n1227:                 }\n1228:         \n1229:                 if ( sflow.DELTA[gl] > 0 ) gpbetax = gfact_slidex * gkx[gl] * ggz[gl] * gghxx[gl] /  cos( gbetaxy ); \n1230:                 else gpbetax = ggz[gl] * gghxx[gl] /  cos( gbetaxy );\n1231: \n1232: \n1233:                 if ( sflow.DELTA[gl] > 0 ) gpbetay = gfact_slidey * gky[gl] * ggz[gl+4] * gghyy[gl] /  cos( gbetaxy ); \n1234:                 else gpbetay = ggz[gl+4] * gghyy[gl] /  cos( gbetaxy );\n1235: \n1236: \n1237:                // Effective basal pressures\n1238:                \n1239:                if ( sico.LAYERS == 0 ) {\n1240: \n1241:                     if ( gl == 0 ) {\n1242: \n1243:                         gpx = ggamma3 * glocz[gl] * gghxx[gl];\n1244:                         gpy = ggamma3 * glocz[gl] * gghyy[gl];\n1245: \n1246:                     } else if ( gl == 1 ) {\n1247: \n1248:                         gpx = -0.5 * ggamma4 * glocz[gl] * ghnorm / galpha[gl] * ggalphax[gl];\n1249:                         gpy = -0.5 * ggamma4 * glocz[gl] * ghnorm / galpha[gl] * ggalphay[gl];\n1250:                 \n1251:                     } else {\n1252: \n1253:                         gpx = -0.5 * ggamma5 * glocz[gl] * ghnorm / galpha[gl] * ggalphax[gl];\n1254:                         gpy = -0.5 * ggamma5 * glocz[gl] * ghnorm / galpha[gl] * ggalphay[gl];\n1255:                     }\n1256:                     \n1257:                 } else {\n1258: \n1259:                     gpx = 0;\n1260:                     gpy = 0;\n1261:                 }\n1262:                     \n1263:                 if ( gcslide == 1 && sflow.DELTA[gl] > 0 ) gslidefractb = fmin(1, fmax(0, pow(fdiv( gtslide - gtsum, gtslide, 0 ), sflow.SLIDEEXP[gl] ))) * sflow.SLIDEDEF[gl];\n1264:                 else gslidefractb = 0; // factor for global gravity components\n1265: \n1266:                 gcompx[gl] = galpha[gl] * ( gangx[gl] * gslidefractb + glocx[gl] * ( 1 - gslidefractb ) - gpbetax - gpx );\n1267:                 gcompy[gl] = galpha[gl] * ( gangy[gl] * gslidefractb + glocy[gl] * ( 1 - gslidefractb ) - gpbetay - gpy );\n1268:                 \n1269:             } else {"
+    }
+  ],
+  "rejected_canonical_pure_RWI": {
+    "densities_kg_m3": [
+      2700,
+      917,
+      1000
+    ],
+    "rho_water_over_ice": 1.0905125408942202,
+    "one_minus_gamma_ice_water": -0.09051254089422023,
+    "reason": "Default native pairdrag coefficient contains(1-rho3/rho2), negative withP2ice/P3water; no unjustified negative-drag run. ReorderingP2water/P3ice doesnot preserve native PHI3-based fluidbuoyancy closure."
+  },
+  "adopted_challenge": "P1 frictional rock-ice composite with volume-weighted density, P2empty, P3water. No pureice independentvelocity,no melting,no strength change",
+  "composite_total_volume_fractions": {
+    "rock": 0.6,
+    "ice": 0.1,
+    "water": 0.3
+  },
+  "rho_composite_kg_m3": 2445.2857142857147,
+  "matched_control": "sameP1volume.7 andwater.3, P1allrockdensity2700",
+  "held_common": [
+    "DEM120m",
+    "sourcevolume13.878Mm3",
+    "sourceh15scaled",
+    "mu.15",
+    "xi1000",
+    "initialspeed0",
+    "couplingdefault",
+    "csurface0"
+  ],
+  "not_held_common": "Totalmass differs atfixedV becausecomponentdensity changes; not a fixedmass isolatediceeffect",
+  "phase_density_parser": "per-case densities_kg_m3 required; nohardcodedproxy mass",
+  "end_seconds": 1800
+}

@@ -1,0 +1,478 @@
+{
+  "experiment_id": "q3r3-full-mechanistic-weather-replay-analytic-erfc-v1",
+  "started_at_utc": "2026-10-24T08:56:57.000790Z",
+  "completed_at_utc": "2026-10-24T09:01:37.951667Z",
+  "issue_count": 75,
+  "parameter_design_rows": 2048,
+  "distinct_physical_designs": 256,
+  "weather_tracks_per_issue": 10,
+  "history_time_origin_utc": "2026-06-01T00:00:00Z",
+  "bundle_version": "q2-r3-analytic-erfc-thermal-v1",
+  "included_mechanisms": [
+    "S",
+    "S_H",
+    "S_T",
+    "S_T_H"
+  ],
+  "per_issue_track_runs": 750,
+  "parameter_prediction_rows": 1536000,
+  "ensemble_prediction_rows": 60750,
+  "scenario_range_rows": 20250,
+  "unique_full_ensemble_physics_computations": 300,
+  "reused_identical_input_tracks": 450,
+  "forecast_status_counts": {
+    "rejected_historical_first_availability_unknown": 124803,
+    "already_started_by_retrospective_history": 287970,
+    "no_cross_within_complete_72h": 640255,
+    "point_first_crossing_between_samples": 342,
+    "rejected_no_eligible_acquired_initialization": 299700,
+    "right_censored_or_unknown_future": 182930
+  },
+  "forecast_forcing_track_counts": {
+    "rejected_historical_first_availability_unknown": 75,
+    "complete_72h": 385,
+    "rejected_no_eligible_acquired_initialization": 180,
+    "right_censored_at_original_forcing_end": 50,
+    "right_censored_at_GFS_forecast_tail": 60
+  },
+  "historical_initial_left_censored": 248,
+  "historical_total_first_cross_or_left": 385,
+  "maximum_restart_absolute_error": 3.3306690738754696e-14,
+  "maximum_S_weather_invariance_error": 0.0,
+  "S_weather_invariance_actually_checked": true,
+  "maximum_step_water_budget_error_m": 1.0842021724855044e-19,
+  "identified_probability_rows": 36369,
+  "nonzero_identified_probability_rows": 4356,
+  "maximum_identified_probability": 0.010050598616407858,
+  "conditional_interval_rows": 4356,
+  "independent_local_observed_validation_events": 0,
+  "empirical_coverage": null,
+  "inputs": [
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/protocol.json",
+      "bytes": 1304,
+      "sha256": "1b775e7a942d9cbb0709d4a45f914fa3bba88e76229a466858911d2791bf53fd"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/config.json",
+      "bytes": 4478,
+      "sha256": "539c6e857d5d07e2cab7a70346ec02d2aad13eb47ee546df17f797850446177d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/forcing_hourly.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/numerical_benchmarks.json",
+      "bytes": 3328,
+      "sha256": "309fbe00d9afdb948f3b08b6253210bf52cba6378d089bf4e38bfe9aa0f8141a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/finite_mirror_fd_cases.csv",
+      "bytes": 993,
+      "sha256": "909a5b18af508fecda3129d4f23d414bab0ca02d5d6c4a9fd10326bbae11f502"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/reflection_bounds.csv",
+      "bytes": 34816,
+      "sha256": "961f6fea14872b3d0c7cfa43f03f687a7b14750182eb94d5d04af53161b7a5c2"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/scenario_outcomes.csv",
+      "bytes": 909276,
+      "sha256": "847143dc8ad8c495ea6e7747fbbcdb187ef465b9c7879fecb4717135372dc30c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv",
+      "bytes": 1171832,
+      "sha256": "8393874e341789316d2862435f8498ed8c9e01c4e3f674dc2b46d9bcadce6203"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/state_trajectories.parquet",
+      "bytes": 3188841,
+      "sha256": "6592967eafdbdde9cce6c0547943abf7d15190c8ce9aac70f085b969ccf6e1bb"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/model_comparison.csv",
+      "bytes": 1614,
+      "sha256": "add46d7873516e8b91db034308fd46b4eef08f912c9f442ce161b79b3a744921"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/paired_v2_fd0625.csv",
+      "bytes": 576099,
+      "sha256": "a9a620bd0566603b22205c30babe8cbb5736585f6a845bd01576431b9830aac9"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/diagnostic_traces.csv",
+      "bytes": 1818058,
+      "sha256": "2f8fefb7599d2b42a2a17a7f7f0b531b29fa6cbed9509ffbf5b4f8e29791b9f5"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/joint_sensitivity.csv",
+      "bytes": 26199,
+      "sha256": "cc1df1e87bfb6a8ab0a0fa2086de5a3ebc4d11a39bec37101369c763afd77187"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/interaction.csv",
+      "bytes": 8384,
+      "sha256": "308494ed4c083c8759d97181124f282c83ee4183470f875c3220fda6bca921c1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/mechanism_contract.json",
+      "bytes": 4149,
+      "sha256": "44d3966717bdddc04e31ff8e4089bb8a7321a6a33e850371e3cb4c15cd4d1e4d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/summary.json",
+      "bytes": 3610,
+      "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/analytic_thermal_engine.py",
+      "bytes": 7560,
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/run_analytic_thermal.py",
+      "bytes": 34185,
+      "sha256": "8cb54a4a6db606994c18d9e82ab9dce8269e77b1e5445287f9f5d865f3e3e1d6"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/run_experiments.py",
+      "bytes": 21983,
+      "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/ANALYTIC_THERMAL.md",
+      "bytes": 4168,
+      "sha256": "0902aface2105015fb278a2590593d010cedfd9e2d025e34813b1025a182877a"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/execution_source/analytic_replay_61dfe484844fed5676f3902733ead10416eef89fd34218b1461dd3bcebd816d9.py.txt",
+      "bytes": 18188,
+      "sha256": "61dfe484844fed5676f3902733ead10416eef89fd34218b1461dd3bcebd816d9"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/execution_source/frozen_fd_helpers_4610d63dc9140ae0c61d011bd768f134c617b008a8501b352444ba8c7edbfa75.py.txt",
+      "bytes": 53738,
+      "sha256": "4610d63dc9140ae0c61d011bd768f134c617b008a8501b352444ba8c7edbfa75"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/execution_source/registered_protocol_c90f7ef471acdc6a6c80911a31b2297a3c6da00aa78d1188aa544fa75e40ed16.md",
+      "bytes": 3821,
+      "sha256": "c90f7ef471acdc6a6c80911a31b2297a3c6da00aa78d1188aa544fa75e40ed16"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/bundle.json",
+      "bytes": 10386,
+      "sha256": "05e8b885198a3011e316472f562ba92480788cb04c6ab9bebfb3e04dbd3660ca"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/delivery_index.json",
+      "bytes": 12494,
+      "sha256": "404bba4b1a429d16ac154fd73549fe2e69aff05fd5be6bc54c89a0030e69a4a7"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/weather/gfs_hourly_summary.csv",
+      "bytes": 161138,
+      "sha256": "68702bfad6afe88fe485552ccd611ba5cdfbef85408ef227aec4a847ff011e6c"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/predictions.csv.gz",
+      "bytes": 894213,
+      "sha256": "0d167923b81c336f351ed93c8a9c57ca015b062883f7e231495686ee6bfcbd3f"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/execution_source/postprocess_94205d0a172062b5088fc261688e8c68ea3c4939e695cac5f7ee9683b7694ee2.py.txt",
+      "bytes": 8246,
+      "sha256": "94205d0a172062b5088fc261688e8c68ea3c4939e695cac5f7ee9683b7694ee2"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/execution_source/reproduce_58ce30bad154cb694fc524d0a567513bc2eae315f4eff76a0974d23b4a8a1ef8.py.txt",
+      "bytes": 2326,
+      "sha256": "58ce30bad154cb694fc524d0a567513bc2eae315f4eff76a0974d23b4a8a1ef8"
+    }
+  ],
+  "checks": {
+    "all_input_bundle_hashes_verified": true,
+    "full_Q2_history_matches_delivered_outcomes_and_representatives": true,
+    "all_75_ideal_full_state_restarts_match_continuous_history": true,
+    "structural_only_weather_invariance_when_included": true,
+    "water_budget_closure": true,
+    "assumed_forecast_reference_available_before_issue": true,
+    "probability_normalized_when_identified": true,
+    "probability_bounds_valid": true,
+    "probability_lower_not_above_upper": true,
+    "prior_mass_preserved": true,
+    "balanced_uniform_and_equal_mechanism_priors_agree": true,
+    "horizon_probability_bounds_monotone": true,
+    "historical_unknown_track_rejected": true,
+    "no_false_local_truth_or_empirical_coverage": true,
+    "unknown_future_not_reported_as_exact_probability": true,
+    "causal_decomposition_matches_actual_provider": true,
+    "future_boundary_perturbation_has_no_past_effect_beyond_roundoff": true,
+    "prior_FD_delivery_index_and_every_bound_file_unchanged": true,
+    "full_2048_same_physical_parameter_values": true,
+    "full_2048_same_base_id_and_metadata": true,
+    "same_history_forcing_values": true,
+    "all_1536000_rows_exact_weather_base_scenario_pairing": true,
+    "nonthermal_S_and_SH_branches_unchanged": true
+  },
+  "passed": true,
+  "limitations": [
+    "All source states and forecasts are conditional Q2 scenarios; local first mechanical initiation truth remains unknown",
+    "Retrospective regional-station history has unknown real availability and assumed hourly precipitation intervals",
+    "Direct GFS-to-regional-station driver replacement retains uncalibrated source offsets and multipliers; no local bias correction",
+    "No verified historical first public weather availability; latency assumptions are not business release facts",
+    "Three priors are analyst sensitivity assumptions, not probabilities implied by the space-filling design",
+    "Q2 rock/ice strength transfer, thermal boundary, damage and reservoir limitations retained",
+    "Exact consumer/Q2 numerical agreement is distinct from heat-equation grid convergence and scientific model adoption",
+    "Conditional 95 percent quantiles describe assumed scenario distributions; empirical coverage denominator is zero",
+    "Short followup and missing future forcing remain unresolved, never imputed as no start",
+    "Analytic thermal is a numerical reference only for the registered linear half-space model, not an exact coupled system or measured source state",
+    "Prior FD differences are retained; the Q2 historical fine-FD comparison is not a bound or confidence interval for future forecasts"
+  ],
+  "analytic_causality_validation": {
+    "checks": {
+      "causal_decomposition_matches_actual_provider": true,
+      "future_boundary_perturbation_has_no_past_effect_beyond_roundoff": true,
+      "prior_FD_delivery_index_and_every_bound_file_unchanged": true
+    },
+    "passed": true,
+    "direct_provider_comparisons": [
+      {
+        "history_intervals": 1992,
+        "future_intervals": 72,
+        "direct_provider_maximum_absolute_error_c": 2.708944180085382e-14,
+        "issue_state_roundoff_c": 1.865174681370263e-14,
+        "concatenated_boundary_sha256": "229da2bbdae0670365995aa03a322584636fd545196043658f2526019613b578"
+      },
+      {
+        "history_intervals": 2029,
+        "future_intervals": 59,
+        "direct_provider_maximum_absolute_error_c": 3.597122599785507e-14,
+        "issue_state_roundoff_c": 2.930988785010413e-14,
+        "concatenated_boundary_sha256": "265c46fdfdd19ad71ef1c5e54afc509d3c40eb6f863cd2c82bb38065ff63abe9"
+      },
+      {
+        "history_intervals": 2029,
+        "future_intervals": 72,
+        "direct_provider_maximum_absolute_error_c": 3.241851231905457e-14,
+        "issue_state_roundoff_c": 2.930988785010413e-14,
+        "concatenated_boundary_sha256": "80b1836bc054487975808c2f53725e0f0463eef8f4ecc1463937fdbaab83387a"
+      },
+      {
+        "history_intervals": 2029,
+        "future_intervals": 72,
+        "direct_provider_maximum_absolute_error_c": 2.3092638912203256e-14,
+        "issue_state_roundoff_c": 2.930988785010413e-14,
+        "concatenated_boundary_sha256": "805946f8d7125b9ef31a58ef693cc6eaf6abf2a496c1deef19cc41db157398b5"
+      },
+      {
+        "history_intervals": 2066,
+        "future_intervals": 22,
+        "direct_provider_maximum_absolute_error_c": 3.2862601528904634e-14,
+        "issue_state_roundoff_c": 2.842170943040401e-14,
+        "concatenated_boundary_sha256": "265c46fdfdd19ad71ef1c5e54afc509d3c40eb6f863cd2c82bb38065ff63abe9"
+      },
+      {
+        "history_intervals": 2066,
+        "future_intervals": 72,
+        "direct_provider_maximum_absolute_error_c": 2.5757174171303632e-14,
+        "issue_state_roundoff_c": 2.842170943040401e-14,
+        "concatenated_boundary_sha256": "7604a92ba48ae4bad861ae7394dc3308301a8c8d03b6a1daf2f77dc9a36a6d9a"
+      },
+      {
+        "history_intervals": 2066,
+        "future_intervals": 64,
+        "direct_provider_maximum_absolute_error_c": 3.197442310920451e-14,
+        "issue_state_roundoff_c": 2.842170943040401e-14,
+        "concatenated_boundary_sha256": "0c285b34e4f7cca1fd74bc0f2889a91ab3741c7752d1eddfc8fcf38ed5626937"
+      },
+      {
+        "history_intervals": 2066,
+        "future_intervals": 72,
+        "direct_provider_maximum_absolute_error_c": 2.220446049250313e-14,
+        "issue_state_roundoff_c": 2.842170943040401e-14,
+        "concatenated_boundary_sha256": "fd2df1c1e4f6b9e882683220a14c85e49c0f2b98f26f9d28e285764c1e030a51"
+      },
+      {
+        "history_intervals": 2066,
+        "future_intervals": 64,
+        "direct_provider_maximum_absolute_error_c": 3.68594044175552e-14,
+        "issue_state_roundoff_c": 2.842170943040401e-14,
+        "concatenated_boundary_sha256": "d20083cfb6b075dfa2d115b28be67e0695f71f7c1e66eb8beb2bcc0ea6012f2b"
+      }
+    ],
+    "future_perturbation_maximum_preperturbation_temperature_error_c": 2.4868995751603507e-14,
+    "method": "actual delivered erfc kernel and padded linear convolution; past-only plus future-jump decomposition; water/damage warm state retained",
+    "thermal_memory": "full boundary increments from 2026-06-01; interface temperature alone is not a Markov restart state",
+    "thermal_dt_hours": 1.0,
+    "independent_observed_events": 0
+  },
+  "thermal_provider": {
+    "solver_id": "analytic_halfspace_erfc_linear_causal_fft_v1",
+    "spatial_grid": null,
+    "state_dt_hours": 1.0,
+    "history_memory": "full causal boundary increments",
+    "finite_bottom_comparator_m": 40.0,
+    "scope": "linear constant diffusivity half-space with hourly step boundary; mechanical/water/damage still hourly discrete"
+  },
+  "paired_thermal_provider_comparison": {
+    "status": "matched_same_full_2048_universe",
+    "old_input_path": "track_b/research/q3/round3/results/mechanistic_replay/v2/predictions.csv.gz",
+    "old_input_sha256": "0d167923b81c336f351ed93c8a9c57ca015b062883f7e231495686ee6bfcbd3f",
+    "new_bundle_version": "q2-r3-analytic-erfc-thermal-v1",
+    "matched_rows": 60750,
+    "unmatched_rows": 0,
+    "identified_probability_pairs": 36369,
+    "maximum_absolute_probability_difference": 5.499290927509469e-07,
+    "changed_probability_rows_above_1e_12": 484,
+    "conditional_median_pairs": 4356,
+    "maximum_absolute_conditional_median_difference_hours": 7.105427357601002e-15,
+    "interpretation": "same issue/mechanism/law/space/latency/prior/horizon; model IDs versioned and paired by mechanism; no empirical accuracy or coverage claim"
+  },
+  "actual_command": "track_b/.venv/bin/python track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/replay.py",
+  "event_support_diagnostics": {
+    "diagnostic_rows": 20250,
+    "resolved_parameter_event_rows_read": 342,
+    "distinct_support_parameter_ids": [
+      "q2r3-p0149"
+    ],
+    "status_counts": {
+      "no_resolved_event_support": 18756,
+      "degenerate_discrete_support_not_empirical_uncertainty": 1494
+    },
+    "nominal_conditional_interval_rows_uniform_prior": 1452,
+    "nominal_intervals_with_one_physical_design": 1452,
+    "maximum_conditional_interval_width_hours": 0.0,
+    "event_counts_match_prediction_rows": true,
+    "independent_observed_events": 0,
+    "explanation": "ESS aggregates duplicated law/model scenario weights by physical parameter_set_id or time point. One design/point is discrete degeneracy, not precise empirical uncertainty; equal-mechanism equals uniform here only because delivered design is balanced.",
+    "inputs": [
+      {
+        "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/parameter_first_passages.parquet",
+        "sha256": "fd557599f6fa54ad21bd7a44dd19aa74f5578ce73533db1ad8aeef19de2688d5",
+        "bytes": 33794095
+      },
+      {
+        "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/predictions.csv.gz",
+        "sha256": "a3dc1602e9d4ea7c80173286f5e78e5ef6cc15b2e00a0b0fb5d33f5ff3fa122d",
+        "bytes": 887395
+      }
+    ],
+    "output": {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/event_support_diagnostics.csv",
+      "sha256": "42f79cc305b148607e1d3542495203fccff3841891c5cf2fcab5b4fe81160a01",
+      "bytes": 3527323
+    }
+  },
+  "lineage_and_parameter_validation": {
+    "checks": {
+      "full_2048_same_physical_parameter_values": true,
+      "full_2048_same_base_id_and_metadata": true,
+      "same_history_forcing_values": true,
+      "all_1536000_rows_exact_weather_base_scenario_pairing": true,
+      "nonthermal_S_and_SH_branches_unchanged": true
+    },
+    "passed": true,
+    "parameter_rows": 2048,
+    "paired_forecast_rows": 1536000,
+    "physical_parameter_maximum_absolute_differences": {
+      "theta_deg": 0.0,
+      "thickness_normal_m": 0.0,
+      "rock_volume_fraction": 0.0,
+      "bridge_fraction": 0.0,
+      "bridge_cohesion_kpa": 0.0,
+      "rock_mu": 0.0,
+      "initial_temp_c": 0.0,
+      "diffusivity_m2_s": 0.0,
+      "interface_depth_m": 0.0,
+      "station_source_offset_c": 0.0,
+      "storativity": 0.0,
+      "drainage_hours": 0.0,
+      "connected_depth_m": 0.0,
+      "rain_multiplier": 0.0,
+      "melt_mm_deg_day": 0.0,
+      "damage_rate_h_inv": 0.0,
+      "damage_exponent": 0.0,
+      "initial_damage": 0.0,
+      "drainage_damage_coupling": 0.0,
+      "density_kg_m3": 0.0
+    },
+    "metadata_identity": {
+      "parameter_set_id": true,
+      "mechanism_id": true,
+      "law_policy": true,
+      "geometry_version": true,
+      "parameter_version": true
+    },
+    "input_bundles": [
+      {
+        "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/bundle.json",
+        "sha256": "12eb0b329acede54face734b145cf33a8bfc5d329f6231b5a110c52ddec618c9"
+      },
+      {
+        "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/bundle.json",
+        "sha256": "05e8b885198a3011e316472f562ba92480788cb04c6ab9bebfb3e04dbd3660ca"
+      }
+    ],
+    "forecast_parameter_comparison": [
+      {
+        "mechanism_id": "S",
+        "rows": 384000,
+        "changed_crossing_status": 0,
+        "changed_point_nullness": 0,
+        "maximum_point_time_difference_hours": 0.0,
+        "maximum_initial_margin_difference": 0.0,
+        "maximum_final_margin_difference": 0.0,
+        "maximum_thermal_change_difference_c": 0.0,
+        "maximum_pressure_difference_kpa": 0.0
+      },
+      {
+        "mechanism_id": "S_H",
+        "rows": 384000,
+        "changed_crossing_status": 0,
+        "changed_point_nullness": 0,
+        "maximum_point_time_difference_hours": 0.0,
+        "maximum_initial_margin_difference": 0.0,
+        "maximum_final_margin_difference": 0.0,
+        "maximum_thermal_change_difference_c": 0.0,
+        "maximum_pressure_difference_kpa": 0.0
+      },
+      {
+        "mechanism_id": "S_T",
+        "rows": 384000,
+        "changed_crossing_status": 0,
+        "changed_point_nullness": 0,
+        "maximum_point_time_difference_hours": 0.0,
+        "maximum_initial_margin_difference": 0.06532020379228343,
+        "maximum_final_margin_difference": 0.06532020379228343,
+        "maximum_thermal_change_difference_c": 0.09102270806643986,
+        "maximum_pressure_difference_kpa": 0.0
+      },
+      {
+        "mechanism_id": "S_T_H",
+        "rows": 384000,
+        "changed_crossing_status": 0,
+        "changed_point_nullness": 0,
+        "maximum_point_time_difference_hours": 0.0,
+        "maximum_initial_margin_difference": 0.06531394320044856,
+        "maximum_final_margin_difference": 0.06531394320044856,
+        "maximum_thermal_change_difference_c": 0.09102270806643986,
+        "maximum_pressure_difference_kpa": 0.0015220847132342286
+      }
+    ],
+    "equal_followup_weather_state_contrast_rows": 96,
+    "interpretation": "Thermal-provider sensitivity under identical physical designs and source forcing. GFS vs ideal endpoint contrasts require equal followup. Nonzero state changes can coexist with unchanged rare discrete first-cross events; no empirical weather-skill claim.",
+    "audit_source_sha256": "94205d0a172062b5088fc261688e8c68ea3c4939e695cac5f7ee9683b7694ee2"
+  },
+  "actual_postprocess_command": "track_b/.venv/bin/python track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/postprocess.py",
+  "result_interpretation_document": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/RESULTS.md"
+}

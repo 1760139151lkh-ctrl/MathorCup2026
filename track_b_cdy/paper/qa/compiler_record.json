@@ -1,0 +1,13 @@
+{
+  "delivery_compiler": "Local XeLaTeX / latexmk",
+  "main_log": "build/main/main.log",
+  "ai_log": "build/ai/ai_details.log",
+  "local_builds_passed": true,
+  "app_compiler": {
+    "attempted": true,
+    "status": "compile-failed",
+    "message": "Compilation timed out",
+    "observed_phase": "Initial Tectonic format and hyphenation resource downloads"
+  },
+  "delivery_uses": "Locally compiled PDFs with page, evidence, visual and font checks."
+}

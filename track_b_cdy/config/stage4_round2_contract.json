@@ -1,0 +1,38 @@
+{
+  "contract_version": "stage4-r2-v1",
+  "round": "round2",
+  "date_user_local": "2026-10-24",
+  "inherits_field_definitions": "track_b/config/stage4_contract.json",
+  "primary_prediction_object": "first_mechanical_initiation_at_source",
+  "primary_object_selection_status": "user_confirmed_research_object_only; no exact truth timestamp accepted",
+  "other_time_objects": ["problem_statement_reference", "catalogue_proxy", "propagation_phase", "arrival_at_defined_target"],
+  "question_ids": ["q1", "q2", "q3", "q4"],
+  "ownership": "only track_b/research/<assigned_question>/round2/",
+  "round1_policy": "all existing question packets and original baseline manifest immutable; preserve source branches",
+  "evidence_outcomes": ["adoptable_with_explicit_role", "excluded_with_reason", "unknown_with_evidence_and_next_action"],
+  "unknown_policy": "no implicit QC acceptance, precise event truth, historical availability or verified geometry",
+  "network_bounds": {
+    "sar_pair": {
+      "platform": "sentinel-1d",
+      "relative_orbit": 121,
+      "orbit_state": "descending",
+      "pre_time_utc": "2026-08-19T00:10:36.889384+00:00",
+      "post_time_utc": "2026-08-31T00:10:37.647071+00:00",
+      "preferred_polarization": "VV",
+      "max_transferred_bytes_combined": 134217728,
+      "whole_scene_download_allowed": false,
+      "co_registration_or_visibility_accepted": false
+    },
+    "event_query": "USGS us7000tc90 only; no expansion of historical catalogue",
+    "forecast_query": "2026-08-25T18:00:00Z f009 historical availability evidence only; no new global GRIB downloads",
+    "credentials_or_registration": "record requirement or failure; no account creation, payment or contacting others"
+  },
+  "aoi_handoff": {
+    "producer": "q4",
+    "consumer": "q2",
+    "purpose": "search_only_not_release_or_failure_geometry",
+    "required": ["geometry", "crs_and_datum_assumptions", "source_reference", "positional_uncertainty_or_unknown", "version_and_sha256", "main_advisor_review"]
+  },
+  "final_core_model_selection": "not part of this round; human scientific adoption pending",
+  "entry_and_exit": "latest task, common baseline and frozen inputs verified; result may be adoptable, excluded or unknown with evidence"
+}

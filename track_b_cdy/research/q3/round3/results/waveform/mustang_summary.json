@@ -1,0 +1,33 @@
+{
+  "rows_for_KKN_BHZ_M": [
+    {
+      "metric": "Max Gap Metric",
+      "value": "0.000",
+      "target": "NK.KKN..BHZ.M",
+      "start": "2026/08/26 00:00:00",
+      "end": "2026/08/26 23:59:59",
+      "lddate": "2026/08/28 04:15:44"
+    },
+    {
+      "metric": "Num Gaps Metric",
+      "value": "0",
+      "target": "NK.KKN..BHZ.M",
+      "start": "2026/08/26 00:00:00",
+      "end": "2026/08/26 23:59:59",
+      "lddate": "2026/08/28 04:15:44"
+    },
+    {
+      "metric": "Percent Availability Metric",
+      "value": "100.000",
+      "target": "NK.KKN..BHZ.M",
+      "start": "2026/08/26 00:00:00",
+      "end": "2026/08/26 23:59:59",
+      "lddate": "2026/08/28 04:15:44"
+    }
+  ],
+  "note": "dailyMUSTANG quality.M metric target vs submitted miniSEED D indicator kept distinct; current data actualsample clock audited separately",
+  "parent_retrieval_sha256": "0ceba70914831549d62742de5b7fa158701b157aa26e93bc3fae04f622d10bdb",
+  "this_retrieval_sha256": "fcde167862323febf7c31cfdffa755e287e2527b43db6b9be11711adf4cf6aa2",
+  "identity_to_parent_bytes": false,
+  "difference_cause": "not independently compared; do not assert same version solely by equal bytes"
+}

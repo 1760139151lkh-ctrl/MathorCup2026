@@ -1,0 +1,9 @@
+[
+  {
+    "claim_id": "common-ai-tool-attribution",
+    "path": "track_b/AI_USAGE.md",
+    "before_sha256": "152307f39ae2b1aca12dec37ab4243dc2f99a5390f35fb19593e3fa4bdacaeca",
+    "after_sha256": "b20a9b8820dceddfddfd228cf3903a1662e9c48d965e6977c6012e29cfcfa43f",
+    "reason": "Append actual paper production and delivery record to active AI log; historical scientific source files unchanged."
+  }
+]

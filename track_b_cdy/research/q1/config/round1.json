@@ -1,0 +1,34 @@
+{
+  "experiment_version": "q1-r1-diagnostics-v1",
+  "frozen_before_numeric_experiment": true,
+  "scope": "Retrospective quality/coverage and descriptive comparison only; no hazard association estimation, feature ranking, significance, QC replacement or forecast.",
+  "event_id": "B20260826_Chhochen",
+  "baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+  "source_clock_timezone_assumption": "Asia/Shanghai",
+  "anchors": [
+    {"id": "problem_1030", "evidence_id": "problem_1030", "physical_phase": "problem_statement_background_time_unspecified_stage", "source_time": "2026-08-26T10:30:00+08:00", "time_uncertainty": null},
+    {"id": "usgs_reference", "evidence_id": "usgs_current_reviewed_origin", "physical_phase": "catalogue_seismic_reference_not_mechanical_initiation_proof", "source_time": "2026-08-26T10:52:10+08:00", "time_uncertainty": {"seconds": 7.9, "level_percent": 90, "meaning": "USGS catalogue proxy uncertainty, not a 95% forecast interval"}}
+  ],
+  "reference_years": [2021, 2022, 2023, 2024, 2025],
+  "target_year": 2026,
+  "label_windows_hours": [24, 72, 168],
+  "window_rule": "[anchor minus configured hours, anchor); compare the same month/day/clock in each historical year. Hour labels only; integration-window endpoints and historical availability remain unverified.",
+  "plot_anchor": "problem_1030",
+  "plot_window_hours": 168,
+  "plot_variables": ["MET__Ta_2m", "RADM__Rsd", "SOIL__soilT_0.1m", "SOIL__VWC_0.1m", "FLUX__LE", "MET__Precip"],
+  "strict_view": "finite, not 9999.9, original paired QC=0; only variables with QC",
+  "unknown_qc_view": "finite and not 9999.9; diagnostics_unknown_qc, never accepted_qc0",
+  "candidate_constant_run_lengths_hours": [6, 24],
+  "candidate_jump_quantile": 0.995,
+  "jump_rule_status": "exploratory distribution flag, estimated over available full-series differences solely to locate records for review; never used to select event contrasts, filter data, or claim QC",
+  "candidate_features": [
+    {"id": "air_temperature_gradient_20m_2m", "variables": ["MET__Ta_20m", "MET__Ta_2m"], "formula": "(Ta20-Ta2)/(20-2)", "candidate_unit": "degC m-1", "redundancy_group": "air_temperature_profile", "limitation": "Header heights only; no boundary-layer stability inference without reference/instrument evidence"},
+    {"id": "wind_speed_shear_20m_2m", "variables": ["MET__WS_20m", "MET__WS_2m"], "formula": "(WS20-WS2)/(20-2)", "candidate_unit": "s-1", "redundancy_group": "wind_profile", "limitation": "Header heights and speed labels only; vector conventions remain unknown"},
+    {"id": "wind_direction_circular_pair", "variables": ["MET__WD_10m"], "formula": "sin(pi*WD/180), cos(pi*WD/180)", "candidate_unit": "dimensionless", "redundancy_group": "wind_direction", "limitation": "Do not average degree labels linearly or infer vector orientation without direction convention"},
+    {"id": "radiation_four_component_candidate", "variables": ["RADM__Rsd", "RADM__Rsu", "RADM__Rld", "RADM__Rlu"], "formula": "Rsd-Rsu+Rld-Rlu", "candidate_unit": "W m-2", "redundancy_group": "radiation", "limitation": "Availability only; sign/orientation/averaging conventions must be verified before calling this net radiation"},
+    {"id": "soil_temperature_gradient_02m_01m", "variables": ["SOIL__soilT_0.2m", "SOIL__soilT_0.1m"], "formula": "(T02-T01)/(0.2-0.1)", "candidate_unit": "degC m-1", "redundancy_group": "soil_temperature_profile", "limitation": "Depths from header; not source-area ice or water state"},
+    {"id": "soil_water_profile_pair", "variables": ["SOIL__VWC_0.1m", "SOIL__VWC_0.2m"], "formula": "VWC01, VWC02; retain both as a correlated physical family", "candidate_unit": "m3 m-3", "redundancy_group": "soil_water_profile", "limitation": "Soil calibration, frozen-soil response and footprint unverified"},
+    {"id": "turbulent_energy_flux_pair", "variables": ["FLUX__H", "FLUX__LE"], "formula": "H, LE; no closure ratio in this round", "candidate_unit": "W m-2", "redundancy_group": "turbulent_flux", "limitation": "Unknown QC/sign/processing/height; diagnostic presence only"},
+    {"id": "precipitation_candidate", "variables": ["MET__Precip"], "formula": "raw label values; defer 24/72/168h accumulation until interval convention verified", "candidate_unit": "mm per unverified reporting interval", "redundancy_group": "precipitation", "limitation": "Unknown QC and integration window; no zero filling or accumulated-rain claim"}
+  ]
+}

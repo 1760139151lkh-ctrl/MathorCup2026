@@ -1,0 +1,8 @@
+{
+  "protocol_version": "q3-r3-pre-v1",
+  "registered_at_utc": "2026-10-24T07:31:34.313210+00:00",
+  "protocol_sha256": "f292f8011f75be4234a3ef15cbb917f6e305dfdfdcaf349988db9a8bd35a5447",
+  "status": "before_model_fit_or_compute; acquisition only so far",
+  "seed": 20261024,
+  "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52"
+}

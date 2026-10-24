@@ -1,0 +1,200 @@
+
+--- PDF page 1 ---
+1 
+ 
+Supplement of 
+A t emperature- and stress- controlled failure criterion for ice -filled 
+permafrost rock joints 
+Philipp Mamot1, Samuel Weber2, Tanja Schröder2, Michael Krautblatter2 
+1Chair of Landslide Research, Technical University of Munich, 80333 Munich, Germany 5 
+2Department of Geography, University of Zurich, 8057 Zurich, Switzerland 
+Correspondence to: Philipp Mamot (philipp.mamot@tum.de) 
+ 
+The supplementary material gives additional information to: 
+(i) potential error sources, i.e. variations in the ice layer thickness of the samples and the shear rate during the tests 10 
+(Fig. S1), 
+(ii) the decreased area of contact between the upper and the lower rock cylinder developing due to shear deformation 
+and considered for the calculation of the peak shear stress (Fig. S2), 
+(iii) the specific number of performed tests per stress-temperature condition (Table S1), 
+(iv) the character of time series for shear stress, shear deformation and AE activity at various temperatures (Fig. S3), 15 
+(v) the results of AE monitoring (Fig. S4), 
+(vi) the results of shear stress at failure as a function of temperature (Fig. S5), 
+(vii) the cohesion and coefficient of friction as a function of temperature (Fig. S6), 
+(viii) the characteristics of the various failure types (Fig. S7), 
+(ix) the relationship between failure type and normal stress level (Fig. S8) and 20 
+(x) the statistical dispersion measures of the measured peak shear stress values around the calculated failure criterion 
+(Table S2). 
+ 
+Following data (as *.xlsx files) is provided in the zipped folder “Suppl. material”: 
+• data_acoustic_pdf_Fig. S4 25 
+• data_experiments 
+• data_frictioncoeff_cohesion_Fig. 8 
+• data_timeseries_acoustic_exp1b_spec4_Fig. S3 
+• data_timeseries_acoustic_exp2b_spec3_Fig. S3 
+• data_timeseries_acoustic_exp3b_spec3_Fig. S3 30 
+--- PDF page 2 ---
+2 
+ 
+• data_timeseries_acoustic_exp5b_spec2_Fig. S3 
+• data_timeseries_acoustic_exp5c_spec1_Fig. 5 
+• data_timeseries_acoustic_exp5c_spec2_Fig. 5 
+• data_timeseries_acoustic_exp5c_spec3_Fig. 5 
+• data_timeseries_acoustic_exp5c_spec4_Fig. 5 35 
+• data_timeseries_acoustic_exp6b_Fig. 4 
+• data_timeseries_acoustic_exp6b_spec1_Fig. S3 
+• data_timeseries_acoustic_exp7b_spec2_Fig. S3 
+• data_ timeseries_shearmachine_exp1b_spec4_Fig. S3 
+• data_ timeseries_shearmachine_exp2b_spec3_Fig. S3 40 
+• data_ timeseries_shearmachine_exp3b_spec3_Fig. S3 
+• data_ timeseries_shearmachine_exp5b_spec2_Fig. S3 
+• data_timeseries_shearmachine_exp6b_Fig. 4 
+• data_ timeseries_shearmachine_exp6b_spec1_Fig. S3 
+• data_ timeseries_shearmachine_exp7b_spec2_Fig. S3 45 
+• the Supplement text (as *.pdf file) including figures and tables 
+  
+--- PDF page 3 ---
+3 
+ 
+ 
+ 
+Figure S1: Typical variations in (a) ice layer thickness and (b) shear rate at certain temperatures, both plotted against shear stress 50 
+at failure and for normal stress levels of 100, 200, 400 and 800 kPa. 
+ 
+Variations in the shear rate (0.3–1.0 mm/min) and in the ice layer´s thickness (1.5–4 mm) were kept low and have no influence 
+on the shear stress at failure (Fig. S1). This is valid for all tested stress and temperature conditions. 
+ 55 
+ 
+Figure S2 : Schematic visualis ation of decreasing area of contact Acontact between upper and lower rock cylinder during shear 
+experiments. 
+ 
+Normal and shear load as well as normal and shear deformation were recorded during the shear tests and used to calculate 60 
+normal stress and shear stress considering the changing area of contact Acontact which is schematically shown in Fig. S2. 
+  
+
+--- PDF page 4 ---
+4 
+ 
+ 
+Table S1: Number of experiments per temperature and normal stress condition. 
+Normal stress class [kPa] Temperature level [°C] -10 -8 -6 -5 -4 -3 -2 -1 -0.5 
+100 5 5 5 6 5 5 4 4 4 
+200 4 4 4 6 5 5 6 5 1 
+400 5 4 5 5 4 3 5 4 3 
+800 - - - - 4 5 3 4 4 
+ 65 
+The number of experiments for each test condition (characterised by a specific temperature and normal stress level) ranged 
+between 1 and 6 (Table S1). The total number of tests was 141.  
+ 
+--- PDF page 5 ---
+5 
+ 
+ 
+Figure S3: Typical curves of shear stress, shear deformation and acoustic activity for tests applying a normal stress of 200 kPa and 70 
+various temperatures. All stages of the shearing process (Fig. 4) are depicted including the first part of stage V (post-failure). 
+ 
+Figure S3 displays a selection of representative time series of shear stress, shear deformation and AE activity. Failure is clearly 
+detectable at all presented temperature levels by the peaks in shear stress and their following strong decrease. Furthermore, an 
+increase in cumulative AE hits can be observed just before rupture, pointing to growing microcracks that coalesce and lead to 75 
+progressive damage. In most of the experiments, the shear deformation reaches one of its maxim a at failure. The character of 
+the presented curves corresponds to the demonstrated stages in Fig. 4. 
+ 
+
+--- PDF page 6 ---
+6 
+ 
+ 
+Figure S4 : Probability distribution of the event energy for different conditions (temperature and stress level). The p ower-law 80 
+function is marked with a dashed black line and its exponent b is given with an error estimation. 
+ 
+The probability density functions (PDFs) of event energy show a power-law behavior spanning 3–5 orders of magnitudes (Fig. 
+S4). The exponent b ranges between 1.6 and 1.9 for the different condit ions, but it does not show a relation  to temperature or 
+normal load. 85 
+ 
+
+--- PDF page 7 ---
+7 
+ 
+ 
+Figure S5: Shear stress at failure as a function of temperature for normal stress levels of 100, 200, 400 and 800 kPa.  
+ 
+At all tested normal stress levels (100, 200, 400 and 800 kPa) the shear stress at failure decreases with increasing temperature 90 
+(Fig. S5). The calculated total decrease at stresses 100–400 kPa ranges between 63.5 and 78.1 % and refers to a warming from 
+-10 to -0.5 °C. The maximum decrease at 800 kPa measures 60.1 % and refers to temperatures from -4 to -0.5 °C. The measured 
+normal stress means and errors of the tests assigned to a certain normal stress class differ little from the respective class values 
+(maximum 28 ± 16 kPa). 
+ 95 
+
+--- PDF page 8 ---
+8 
+ 
+ 
+Figure S6: Cohesion and coefficient of friction of ice-filled rock joints as a function of temperature for all tested temperature levels. 
+The crosses display the means and standard deviations of rock temperature and cohesion or friction for the different test 
+temperature classes. (a) Tests a t normal stresses 100 –400 kPa and temperatures -10 to -0.5  °C (blue crosses). (b) Tests at normal 
+stresses 100–800 kPa and temperatures -4 to - 0.5 °C (orange crosses). The dashed lines represent the linear regression functions, 100 
+which were inversely weighted with the squared standard errors. The green regression lines in (a) refer to a temperature range from 
+-4 to -0.5 °C. 
+ 
+Figure S6 displays the development of formulas for a temperature -dependent cohesion and friction at all tested temperatures. 
+The values of the regression lines correspond roughly to the ones taken for the Mohr -Coulomb failure criterion , which only 105 
+considers temperature levels with a statistical significance level of p ≤ 5  % (see Sect. 3.3; Fig. 6). In Fig. S6, R²-values range 
+between 0.61–0.92 for the cohesion and between 0.12–0.40 for the coefficient of friction. P -values measure 0–12 % for the 
+cohesion and 7–57 % for the coefficient of friction. The ranges depend on the included stress levels and the temperature range 
+tested. The uncertainties presented are higher than the errors of the functions used for the failure criterion (Fig. 7). This justifies 
+the exclusion of tests at certain temperature levels for the development of a robust model.  110 
+ 
+  
+
+--- PDF page 9 ---
+9 
+ 
+ 
+ 
+Figure S7: (a) Sheared sandwich sample with f racture along the rock-ice contact. (b) Shear plane after testing with the composite 115 
+failure type. 
+ 
+Three different types of failure could be identified:  
+(i) Fracture along the rock-ice interface, where the entire ice infill sticks to the upper rock cylinder (Fig. S7a) 
+(ii) Fracture within the ice layer 120 
+(iii) A composite fracture type of (i) and (ii), where the ice layer broke transversely and was separated so that the rear portion 
+remains at the lower cylinder and the front part sticks to the upper one (Fig. S7b). 
+ 
+ 
+Figure S8: Proportions and absolute numbers of failure types for normal stresses 100–800 kPa and temperatures from -10 to -0.5 °C. 125 
+ 
+
+--- PDF page 10 ---
+10 
+ 
+A relationship between failure type and normal stress could not be identified for stress levels 100–400 kPa (Fig. S8). However, 
+at normal stresses of 800 kPa fracturing in the ice did not occur whereas fracturing of rock-ice contacts dominated with 75 %. 
+This overrepresentation of failures along the rock-ice interface may be caused due to the absence of tests at temperatures below 
+-4 °C, where much higher proportions of failures in the ice were observed for tests at ≤ 400 kPa (Fig. 8). 130 
+ 
+Table S2: Statistical dispersion  measures of the measured peak shear stress values around the new derived failure criterion  (Fig. 
+10). Errors calculated for normal stresses 100 –400 kPa refer to the valid stress range of the failure criterion. Validation data (V) 
+correspond to temperatures not utilised for the elaboration of the failure criterion. CV = Coefficient of variation. MAD = Mean 
+absolute deviation. 135 
+Mean temperature [°C] 
+σ = 100-400 kPa Used for  
+model development [C] 
+Used as validation data for 
+error measurement [V] 
+MAD [kPa] CV [%] 
+-0.5 ± 0.1 40.0 19.9 x  
+-1.1 ± 0.2 97.5 43.5  x 
+-2.2 ± 0.2 99.3 24.6 x  
+-3.1 ± 0.2 137.8 30.5  x 
+-4.2 ± 0.2 145.7 19.8 x  
+-4.9 ± 0.2 136.4 17.9 x  
+-6.1 ± 0.2 206.6 24.6  x 
+-8.0 ± 0.1 110.4 8.8 x  
+-10.0 ± 0.4 252.3 15.0  x 
+ 
+Statistical dispersion measures of the measured peak shear stress values around the failure criterion (Fig. 9) are shown in Table 
+S2. Best accordance is achieved for t he shear stress means used for model calibration (correspond to significant temperature 
+levels with p-values ≤ 5 %). The mean absolute deviation (MAD) and coefficient of variation (CV) range between 40–146 kPa 
+and 8.8–24.6 % respectively. The experiments at temperatures - 1, -3, -6 and -10 °C (with p -values > 5  %), which had been 140 
+excluded from the elaboration of the failure criterion, were used for validation. Their shear stress means show higher deviations 
+from the failure criterion, i.e. the MAD and the CV range from 98 to 252 kPa and from 15 to 43.5 % respectively.  
+ 

@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-24T08:03:26.765781+00:00",
+  "scope": "spatial packet only; does not test model solvers or establish event truth",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "v1_bundle_original_bytes",
+      "passed": true,
+      "details": "64cd8369ce79d599890d4ed726a87833b63f64472c4dbea54408e39e79a40561"
+    },
+    {
+      "name": "v1_bound_file_q4-r3-spatial-copdem-v1_dem_60m.tif",
+      "passed": true,
+      "details": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif"
+    },
+    {
+      "name": "v1_bound_file_spatial_inputs_60m.npz",
+      "passed": true,
+      "details": "track_b/research/q4/round3/results/spatial_inputs_60m.npz"
+    },
+    {
+      "name": "v1_bound_file_q4-r3-spatial-copdem-v1_dem_120m.tif",
+      "passed": true,
+      "details": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_120m.tif"
+    },
+    {
+      "name": "v1_bound_file_spatial_inputs_120m.npz",
+      "passed": true,
+      "details": "track_b/research/q4/round3/results/spatial_inputs_120m.npz"
+    },
+    {
+      "name": "v1_bound_file_computational_geometries.geojson",
+      "passed": true,
+      "details": "track_b/research/q4/round3/results/computational_geometries.geojson"
+    },
+    {
+      "name": "v1_bound_file_spatial_paths.csv",
+      "passed": true,
+      "details": "track_b/research/q4/round3/results/spatial_paths.csv"
+    },
+    {
+      "name": "v1_bound_file_terrain_bundle.json",
+      "passed": true,
+      "details": "track_b/research/q4/round3/results/terrain_bundle.json"
+    },
+    {
+      "name": "v1_bound_file_spatial_terrain_paths.png",
+      "passed": true,
+      "details": "track_b/research/q4/round3/figures/spatial_terrain_paths.png"
+    },
+    {
+      "name": "grid_60",
+      "passed": true,
+      "details": {
+        "shape": [
+          154,
+          300
+        ],
+        "source_cells": 257
+      }
+    },
+    {
+      "name": "grid_120",
+      "passed": true,
+      "details": {
+        "shape": [
+          77,
+          150
+        ],
+        "source_cells": 67
+      }
+    },
+    {
+      "name": "geometry_valid_computational_geometries.geojson",
+      "passed": true,
+      "details": {
+        "feature_count": 8,
+        "invalid": []
+      }
+    },
+    {
+      "name": "geometry_valid_spatial_edge_connectors_v2.geojson",
+      "passed": true,
+      "details": {
+        "feature_count": 3,
+        "invalid": []
+      }
+    },
+    {
+      "name": "geometry_valid_spatial_osm_objects_v2.geojson",
+      "passed": true,
+      "details": {
+        "feature_count": 184,
+        "invalid": []
+      }
+    },
+    {
+      "name": "geometry_valid_spatial_spectral_change_candidates.geojson",
+      "passed": true,
+      "details": {
+        "feature_count": 94,
+        "invalid": []
+      }
+    },
+    {
+      "name": "local_connectors_no_silent_uphill",
+      "passed": true,
+      "details": [
+        709.7056274847714,
+        794.5584412271571,
+        939.4112549695428
+      ]
+    },
+    {
+      "name": "three_scene_SCL_denominators",
+      "passed": true,
+      "details": {
+        "scene_count": 3,
+        "source_dark2": [
+          0.7591713422529133,
+          0.5274061286145878,
+          0.09192921881743633
+        ]
+      }
+    },
+    {
+      "name": "same_product_conversion_nonfloor",
+      "passed": true,
+      "details": {
+        "windows": 4,
+        "pixels_per_window": 10000
+      }
+    },
+    {
+      "name": "spectral_mask_frozen_hash",
+      "passed": true,
+      "details": "b350e6022beadd7f0bbecd53f29415b3d15fbc756cd90a33d595509ed9b0562b"
+    },
+    {
+      "name": "spectral_mask_schema_and_subset",
+      "passed": true,
+      "details": {
+        "shape": [
+          924,
+          1800
+        ],
+        "valid_pair_pixels": 798691,
+        "candidate_change_pixels": 62244,
+        "candidate_ge9_pixels": 61416
+      }
+    },
+    {
+      "name": "failed_conversion_explicitly_rejected",
+      "passed": true,
+      "details": "REJECTED_RADIOMETRIC_CONVERSION"
+    },
+    {
+      "name": "python_AST_spatial_optical_osm.py",
+      "passed": true,
+      "details": "parsed, no __pycache__ written"
+    },
+    {
+      "name": "python_AST_spatial_spectral.py",
+      "passed": true,
+      "details": "parsed, no __pycache__ written"
+    },
+    {
+      "name": "python_AST_spatial_optical_read.py",
+      "passed": true,
+      "details": "parsed, no __pycache__ written"
+    },
+    {
+      "name": "python_AST_spatial_compare.py",
+      "passed": true,
+      "details": "parsed, no __pycache__ written"
+    },
+    {
+      "name": "python_AST_spatial_validate.py",
+      "passed": true,
+      "details": "parsed, no __pycache__ written"
+    },
+    {
+      "name": "python_AST_spatial_build.py",
+      "passed": true,
+      "details": "parsed, no __pycache__ written"
+    },
+    {
+      "name": "python_AST_spatial_osm_read.py",
+      "passed": true,
+      "details": "parsed, no __pycache__ written"
+    },
+    {
+      "name": "python_AST_spatial_edge_review.py",
+      "passed": true,
+      "details": "parsed, no __pycache__ written"
+    },
+    {
+      "name": "python_AST_spatial_radiometry.py",
+      "passed": true,
+      "details": "parsed, no __pycache__ written"
+    },
+    {
+      "name": "python_AST_spatial_auxiliary_acquire.py",
+      "passed": true,
+      "details": "parsed, no __pycache__ written"
+    },
+    {
+      "name": "python_AST_spatial_acquire.py",
+      "passed": true,
+      "details": "parsed, no __pycache__ written"
+    },
+    {
+      "name": "viewed_figure_hashes",
+      "passed": true,
+      "details": 7
+    }
+  ]
+}

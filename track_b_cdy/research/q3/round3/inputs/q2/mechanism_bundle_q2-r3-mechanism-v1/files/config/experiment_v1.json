@@ -1,0 +1,147 @@
+{
+  "experiment_id": "q2r3-competing-mechanisms-v1",
+  "parameter_version": "q2r3-design-v1",
+  "seed": 260826,
+  "n_parameter_sets": 256,
+  "models": [
+    "S",
+    "S_T",
+    "S_H",
+    "S_T_H"
+  ],
+  "policies": [
+    "linear_extension",
+    "thawed_rock_contact"
+  ],
+  "start_utc": "2026-06-01T00:00:00Z",
+  "end_utc": "2026-08-27T00:00:00Z",
+  "evaluation_start_utc": "2026-08-19T00:00:00Z",
+  "dt_hours": 1.0,
+  "dz_m": 0.5,
+  "thermal_bottom_m": 40.0,
+  "ranges": {
+    "theta_deg": {
+      "min": 30,
+      "max": 60,
+      "scale": "linear",
+      "source": "conditional structural plane; not NC surface slope"
+    },
+    "thickness_normal_m": {
+      "min": 10,
+      "max": 60,
+      "scale": "linear",
+      "source": "conditional; NC inventory 6..154 m is background only"
+    },
+    "rock_volume_fraction": {
+      "min": 0.2,
+      "max": 0.8,
+      "scale": "linear",
+      "source": "conditional two-solid mixture; not measured"
+    },
+    "bridge_fraction": {
+      "min": 0.0,
+      "max": 0.25,
+      "scale": "linear",
+      "source": "conditional load-bearing area fraction"
+    },
+    "bridge_cohesion_kpa": {
+      "min": 300,
+      "max": 3000,
+      "scale": "log",
+      "source": "conditional rock-bridge effective cohesion, not measured"
+    },
+    "rock_mu": {
+      "min": 0.45,
+      "max": 0.85,
+      "scale": "linear",
+      "source": "conditional friction coefficient"
+    },
+    "initial_temp_c": {
+      "min": -6,
+      "max": -0.8,
+      "scale": "linear",
+      "source": "conditional initial joint temperature; within lab thermal domain"
+    },
+    "diffusivity_m2_s": {
+      "min": 9e-07,
+      "max": 2.1e-06,
+      "scale": "linear",
+      "source": "external_transfer Weber2025 median +/- MAD endpoints; design interval not statistical CI"
+    },
+    "interface_depth_m": {
+      "min": 0.5,
+      "max": 20,
+      "scale": "log",
+      "source": "conditional depth of thermal path, distinct from slab thickness"
+    },
+    "station_source_offset_c": {
+      "min": -18,
+      "max": -6,
+      "scale": "linear",
+      "source": "conditional combined elevation/exposure/surface transfer offset"
+    },
+    "storativity": {
+      "min": 0.002,
+      "max": 0.08,
+      "scale": "log",
+      "source": "conditional water-equivalent storage/head ratio"
+    },
+    "drainage_hours": {
+      "min": 3,
+      "max": 240,
+      "scale": "log",
+      "source": "conditional reservoir time constant; not fixed by external flow lag"
+    },
+    "connected_depth_m": {
+      "min": 2,
+      "max": 40,
+      "scale": "log",
+      "source": "conditional maximum connected water head"
+    },
+    "rain_multiplier": {
+      "min": 0.25,
+      "max": 3,
+      "scale": "log",
+      "source": "conditional station-to-source and effective infiltration multiplier"
+    },
+    "melt_mm_deg_day": {
+      "min": 0.5,
+      "max": 6,
+      "scale": "linear",
+      "source": "conditional degree-day coefficient; not an energy balance"
+    },
+    "damage_rate_h_inv": {
+      "min": 1e-07,
+      "max": 0.0002,
+      "scale": "log",
+      "source": "phenomenological design range; not calibrated ice rheology"
+    },
+    "damage_exponent": {
+      "min": 2,
+      "max": 6,
+      "scale": "linear",
+      "source": "phenomenological stress-ratio power"
+    },
+    "initial_damage": {
+      "min": 0.05,
+      "max": 0.7,
+      "scale": "linear",
+      "source": "conditional cohesion loss fraction"
+    },
+    "drainage_damage_coupling": {
+      "min": 0,
+      "max": 3,
+      "scale": "linear",
+      "source": "conditional damage-enhanced drainage exp(-k*D)"
+    }
+  },
+  "initial_water_storage_m": 0,
+  "design_is_probability_prior": false,
+  "weights": null,
+  "independent_events": 0,
+  "information_available_time": null,
+  "forecast_input_mode": "ideal_weather",
+  "evaluation_stratum": "conditional_scenario",
+  "crossing_rule": "first sampled nonpositive margin after stable finite initial value; linear interpolation within bracket; initial nonpositive left censored",
+  "source_mapping": "Tsource=Tstation+offset; surface=min(Tsource,0); rain as assumed mm/h times multiplier times linear -1..+1 C liquid partition; melt positive source-air degree day"
+}

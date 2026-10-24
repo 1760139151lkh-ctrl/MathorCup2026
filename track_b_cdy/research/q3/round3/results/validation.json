@@ -1,0 +1,213 @@
+{
+  "generated_at_utc": "2026-10-24T09:14:08.553657+00:00",
+  "passed": true,
+  "validation_scope": "Technical provenance, input gates, numerical implementation, grouping and reproducibility; scientific adoption remains pending",
+  "checks": {
+    "results/interface_adoption.json": true,
+    "results/numerical_benchmark/checks.json": true,
+    "results/weather/validation.json": true,
+    "results/weather_replay/summary.json": true,
+    "results/engine_a/run_summary.json": true,
+    "results/engine_a/v2/run_summary.json": true,
+    "results/engine_a/analytic_erfc/run_summary.json": true,
+    "results/engine_a/version_comparison.json": true,
+    "results/engine_b/validation.json": true,
+    "results/engine_c/final_packet_validation.json": true,
+    "results/common_anchors_no_age/validation.json": true,
+    "results/common_anchors_record_age_challenge/validation.json": true,
+    "results/integration_summary.json": true,
+    "results/waveform/validation.json": true,
+    "results/workspace_entry_verification.json": true,
+    "results/workspace_exit_verification.json": true,
+    "results/mechanistic_replay/analytic_erfc/validation.json": true,
+    "results/mechanistic_replay/v2/validation.json": true,
+    "results/mechanistic_replay/validation.json": true,
+    "results/mechanistic_replay/analytic_erfc/postprocess_audit.json": true,
+    "results/mechanistic_replay/postprocess_audit.json": true,
+    "results/mechanistic_replay/v2/postprocess_audit.json": true,
+    "results/arrival/propagation_v1/status.json": true,
+    "results/engine_c/administrative_censor_0.5/validation_checks.json": true,
+    "results/engine_c/administrative_censor_0.75/validation_checks.json": true,
+    "results/engine_c/no_record_age/nodes_1024/validation_checks.json": true,
+    "results/engine_c/no_record_age/validation_checks.json": true,
+    "results/engine_c/nodes_1024/validation_checks.json": true,
+    "results/engine_c/record_age_anchor_reference/validation_checks.json": true,
+    "results/engine_c/validation_checks.json": true,
+    "final_figure_bytes_actually_reviewed": true,
+    "source_and_cache_declared_hashes_verified": true,
+    "common_252_rows_14_physical_cases": true,
+    "C_primary_no_record_age": true
+  },
+  "validation_inputs": [
+    {
+      "path": "track_b/research/q3/round3/results/interface_adoption.json",
+      "bytes": 9425,
+      "sha256": "bd81f9d1bf143f0a8d15db3ae6b566a58effb855f005f3d659a9c919e2f2b822"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/numerical_benchmark/checks.json",
+      "bytes": 616,
+      "sha256": "0b7a1ce83cdf9a1e28fcf862baab014ff27467921ec2d28262e3ebac1b02f611"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/weather/validation.json",
+      "bytes": 601,
+      "sha256": "84face4e83db98380b2585c94bd97c08cce2a2030c4d762bb6e327752bc996b4"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/weather_replay/summary.json",
+      "bytes": 850,
+      "sha256": "e41fa3ff5d02e7839af5630e7485d1f220226173949f67ba87d918bc81f9d363"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_a/run_summary.json",
+      "bytes": 3321,
+      "sha256": "e6c017e8bcde6d63468a2d047232468f47d68103076765f35e599228947ad022"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_a/v2/run_summary.json",
+      "bytes": 6073,
+      "sha256": "34542e564ac9337eac7240578aa6ec2c9991228d2f5dc65f8ecf8ca61eff38be"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_a/analytic_erfc/run_summary.json",
+      "bytes": 7191,
+      "sha256": "c8d762c4f976c18c0e480d23a65d556a421fe229d80d476831a8d5974b9716a9"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_a/version_comparison.json",
+      "bytes": 1465,
+      "sha256": "3c3c6886a182afd6d06eca0e07385ca248c8c3b3b92f4ae7a9792e7c39dc77dc"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_b/validation.json",
+      "bytes": 14394,
+      "sha256": "51f1e3aa9adbae89fe375be153c32f28b28281d8d58c629485c57a5bf70b5d9a"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/final_packet_validation.json",
+      "bytes": 3694,
+      "sha256": "3eb8160f5d85b31740352f08647bb3b104e5dc18bb4873f9ca9aef0f53673216"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/common_anchors_no_age/validation.json",
+      "bytes": 718,
+      "sha256": "ee6b7ee756ad2d4f824c1e89b520e7d13d222bad633464932ef5ec7848258416"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/common_anchors_record_age_challenge/validation.json",
+      "bytes": 732,
+      "sha256": "662ef8612d7c18c85ca19415047a01569b52dae1324018bed19ce38ba7531311"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/integration_summary.json",
+      "bytes": 4240,
+      "sha256": "8b15c727022f4ae20b9498330441ad39e99734a71a103b125e9a61314e50b099"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform/validation.json",
+      "bytes": 2204,
+      "sha256": "ca07158678b8ad303f350f422b5b81771f7ebd87b95a5b79c48b741bc67de8fa"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/workspace_entry_verification.json",
+      "bytes": 1805,
+      "sha256": "e4bfc6cad7f3d1018ae52ef850cce69b1cfb6ba27de3c5f43d1b2b82afc8917e"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/workspace_exit_verification.json",
+      "bytes": 54095,
+      "sha256": "4541e01549116c2e16f5006087df918a32d01746a4cbaad3a625b2a3211e851f"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/validation.json",
+      "bytes": 9878,
+      "sha256": "1894eeb0404cf8cb7d2e1e1788dbb5196f6776ba099c350a1cbf51d7ab896713"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/validation.json",
+      "bytes": 3250,
+      "sha256": "d3b04b0aa319d7abc534bfb0ee38e21e80aeb7e0eef82281ea7efb9d0e8c18cd"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/validation.json",
+      "bytes": 3241,
+      "sha256": "086da9348bddeb3a7e8d6586a8e8ae846a09e942680824d58e4cade1554cafd9"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/postprocess_audit.json",
+      "bytes": 1018,
+      "sha256": "88d57ac49baba87c49fd2772573438900650929ae459c0a8ca0450f065c6fefb"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/postprocess_audit.json",
+      "bytes": 1004,
+      "sha256": "2194eae68f041a2498b5419d7e28d9313ce8d8bbd6ab4a0deb3cb55513178687"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/postprocess_audit.json",
+      "bytes": 1007,
+      "sha256": "96d90ab90274afc918e7d19b5931fbad2686f491cc615ee54231a3db2c603ec3"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v1/status.json",
+      "bytes": 911,
+      "sha256": "44296e2d0cd7262742bea7faba2683df7a944e42ea92f5840f4e2606a6da4b51"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/administrative_censor_0.5/validation_checks.json",
+      "bytes": 446,
+      "sha256": "c345d28b9a406f04855bed8a9e40c476d2c4996457197996d2ce269f256484cf"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/administrative_censor_0.75/validation_checks.json",
+      "bytes": 446,
+      "sha256": "c345d28b9a406f04855bed8a9e40c476d2c4996457197996d2ce269f256484cf"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/validation_checks.json",
+      "bytes": 446,
+      "sha256": "c345d28b9a406f04855bed8a9e40c476d2c4996457197996d2ce269f256484cf"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/validation_checks.json",
+      "bytes": 446,
+      "sha256": "c345d28b9a406f04855bed8a9e40c476d2c4996457197996d2ce269f256484cf"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/nodes_1024/validation_checks.json",
+      "bytes": 446,
+      "sha256": "c345d28b9a406f04855bed8a9e40c476d2c4996457197996d2ce269f256484cf"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/record_age_anchor_reference/validation_checks.json",
+      "bytes": 446,
+      "sha256": "c345d28b9a406f04855bed8a9e40c476d2c4996457197996d2ce269f256484cf"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/validation_checks.json",
+      "bytes": 446,
+      "sha256": "c345d28b9a406f04855bed8a9e40c476d2c4996457197996d2ce269f256484cf"
+    }
+  ],
+  "manifest_sha256": {
+    "input_manifest.json": "d75a50dff1e7e9a62bd75cdded747bf4df1a0924b1fe46c1c76d088303fc1c54",
+    "cache_manifest.json": "ee1411d8e4e849a8dca17cba36c60eb2c2bf5cbfdfc201dccd609af463b9d102",
+    "source_register.json": "cd22cf064815b748fe8cc91ccb47ef48f2134c871779069b27522869c1b2c887",
+    "output_manifest.json": "be979b3449118d8332ca7ff07c52c8c503889650246be8c97ac4d2f8565ee5b9"
+  },
+  "local_independent_first_mechanical_truth_events": 0,
+  "local_empirical_coverage": null,
+  "external_main_groups": {
+    "failures": 13,
+    "right_censored": 1
+  },
+  "unresolved_scientific_limits": [
+    "No historical first availability certification",
+    "External terminal collapse differs from local first mechanical initiation",
+    "Source curation and case selection limit prospective transfer",
+    "FD full design has10/2048 margin-target failures; grid differences are not probabilistic bounds",
+    "Discrete A event support is one physical design; zero-width CI is not precise truth",
+    "Mechanical-to-bulk-release lag unknown; no absolute arrival inferred"
+  ]
+}

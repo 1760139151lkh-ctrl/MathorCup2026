@@ -1,0 +1,35 @@
+{
+  "run_id": "bowlrest_60_ravaflow_single__sf1__resourcefix",
+  "scenario_id": "numerical_bowlrest",
+  "model": "ravaflow_single",
+  "terrain_id": "analytic_bowl",
+  "resolution_m": 60,
+  "dem": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/bowlrest/dem.tif",
+  "dem_sha256": "984caeb66d8c81f15fbe9b1fbe59d85bf6c2e5406ae4c68d0e66dc0e83951937",
+  "release": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/bowlrest/release.tif",
+  "release_sha256": "2ea41ac80cc4380e40bc6cb8ad8c62eaef4e8f08aca915792b23bc31f6fa8ced",
+  "release_thickness_m": null,
+  "release_grid_volume_m3": 3929472.033405304,
+  "bulk_density_kg_m3": 1000,
+  "mu_basal": 0,
+  "xi": 1000,
+  "phase_volume_fractions": [
+    1
+  ],
+  "initial_velocity_east_north_m_s": [
+    0,
+    0
+  ],
+  "initiation_to_release_delay_seconds": null,
+  "end_seconds": 100,
+  "output_interval_seconds": 20,
+  "targets": [],
+  "extras": {
+    "internal_friction_degrees": 0
+  },
+  "evidence_role": "numerical_benchmark",
+  "csurface": 1,
+  "official_protocol_version": "q4-r3-official-v2",
+  "resourcefix_parent_run_id": "bowlrest_60_ravaflow_single__sf1",
+  "solver_build": "explicit_resourcefix_build"
+}

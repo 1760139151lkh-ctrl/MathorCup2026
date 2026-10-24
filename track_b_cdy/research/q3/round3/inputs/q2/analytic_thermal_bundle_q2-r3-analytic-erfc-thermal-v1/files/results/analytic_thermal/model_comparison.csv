@@ -1,0 +1,9 @@
+mechanism_id,model_id,law_policy,n_parameter_sets,interval_crossing_n,left_censored_n,never_crossed_n,missing_n,median_min_margin,p05_min_margin,p95_min_margin,wholly_lab_domain_n,mean_lab_domain_fraction,independent_validation_events,design_fraction_is_probability,evaluation_stratum
+S,q2r3_S_analytic_v1,linear_extension,256,4,31,221,0,0.6900801901421822,-0.2302498561112501,2.77253760291464,120,0.46875,0,False,conditional_scenario
+S_T,q2r3_S_T_analytic_v1,linear_extension,256,28,31,197,0,0.48529976742120917,-0.42929198870183005,2.3661394269487395,113,0.4535550801819052,0,False,conditional_scenario
+S_H,q2r3_S_H_analytic_v1,linear_extension,256,6,31,219,0,0.662315744180745,-0.26796107473848324,2.607236962528243,118,0.4832268729056965,0,False,conditional_scenario
+S_T_H,q2r3_S_T_H_analytic_v1,linear_extension,256,31,31,194,0,0.4717932586129435,-0.4668268690686569,2.2425009813957986,112,0.46956715234561996,0,False,conditional_scenario
+S,q2r3_S_analytic_v1,thawed_rock_contact,256,4,31,221,0,0.6900801901421822,-0.2302498561112501,2.77253760291464,120,0.46875,0,False,conditional_scenario
+S_T,q2r3_S_T_analytic_v1,thawed_rock_contact,256,27,31,198,0,0.48529976742120917,-0.42945539666054044,2.3661394269487395,113,0.4535550801819052,0,False,conditional_scenario
+S_H,q2r3_S_H_analytic_v1,thawed_rock_contact,256,6,31,219,0,0.662315744180745,-0.26796107473848324,2.607236962528243,118,0.4832268729056965,0,False,conditional_scenario
+S_T_H,q2r3_S_T_H_analytic_v1,thawed_rock_contact,256,31,31,194,0,0.4717932586129435,-0.465743113639625,2.2425009813957986,112,0.46956715234561996,0,False,conditional_scenario

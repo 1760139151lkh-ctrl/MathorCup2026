@@ -1,0 +1,20 @@
+{
+  "reviewed_at_utc": "2026-10-24T08:22:52.713229+00:00",
+  "reviewer": "Codex worker B",
+  "figures": [
+    {
+      "path": "track_b/research/q3/round3/results/engine_b/rolling_comparison.png",
+      "bytes": 359612,
+      "sha256": "ac8e9ead6d13b379364166be51bf5c6ae5d6795dc151fff08c48d8eee631dbc9",
+      "actual_opened": true,
+      "review": "visually inspected final pixels; readable axes/legend/title; full168h forecast-offset range, thirteen primary groups and explicit NA; no full scientific adoption claimed"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_b/event_probabilities.png",
+      "bytes": 83990,
+      "sha256": "e2906b0f5f26daefce9e3e02a10f31190b7f093b49849ea0a369f837d39d3b18",
+      "actual_opened": true,
+      "review": "visually inspected final pixels; readable axes/legend/title; full168h forecast-offset range, thirteen primary groups and explicit NA; no full scientific adoption claimed"
+    }
+  ]
+}

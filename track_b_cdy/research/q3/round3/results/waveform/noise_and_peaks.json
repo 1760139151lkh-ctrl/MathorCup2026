@@ -1,0 +1,47 @@
+{
+  "baseline_center_counts": -75431.0,
+  "bands": [
+    {
+      "band": "low_0.02_0.2Hz",
+      "baseline_start_utc": "2026-08-26T02:22:00Z",
+      "baseline_end_exclusive_utc": "2026-08-26T02:28:00Z",
+      "baseline_rms_median_counts": 41.165938230332564,
+      "baseline_log_rms_median": 3.7176073381321606,
+      "baseline_log_rms_scaled_MAD": 0.8297198838819839,
+      "max_rms_counts": 28558.939209754924,
+      "max_rms_support_end_utc": "2026-08-26 02:53:13+00:00",
+      "max_robust_log_z": 7.884730813618178,
+      "causal_filter": true,
+      "filter_group_delay_seconds": null,
+      "units": "counts; relative band-limited amplitude, not calibrated physicalenergy"
+    },
+    {
+      "band": "mid_0.2_1Hz",
+      "baseline_start_utc": "2026-08-26T02:22:00Z",
+      "baseline_end_exclusive_utc": "2026-08-26T02:28:00Z",
+      "baseline_rms_median_counts": 29.19339064156615,
+      "baseline_log_rms_median": 3.373933140423305,
+      "baseline_log_rms_scaled_MAD": 0.5352427276791272,
+      "max_rms_counts": 15245.366192853198,
+      "max_rms_support_end_utc": "2026-08-26 02:53:28+00:00",
+      "max_robust_log_z": 11.692074297521186,
+      "causal_filter": true,
+      "filter_group_delay_seconds": null,
+      "units": "counts; relative band-limited amplitude, not calibrated physicalenergy"
+    },
+    {
+      "band": "high_1_10Hz",
+      "baseline_start_utc": "2026-08-26T02:22:00Z",
+      "baseline_end_exclusive_utc": "2026-08-26T02:28:00Z",
+      "baseline_rms_median_counts": 16.7504901048745,
+      "baseline_log_rms_median": 2.81842751769414,
+      "baseline_log_rms_scaled_MAD": 0.20672006759449052,
+      "max_rms_counts": 8760.870685114789,
+      "max_rms_support_end_utc": "2026-08-26 02:53:07+00:00",
+      "max_robust_log_z": 30.28067437968411,
+      "causal_filter": true,
+      "filter_group_delay_seconds": null,
+      "units": "counts; relative band-limited amplitude, not calibrated physicalenergy"
+    }
+  ]
+}

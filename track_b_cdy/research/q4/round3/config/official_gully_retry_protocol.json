@@ -1,0 +1,7 @@
+{
+  "registered_utc": "2026-10-24T08:26:34.078131+00:00",
+  "before_solver_retry": true,
+  "failure": "setinput.py numericalfiles generated, then optionalpylabcolormaps collision raises AttributeError; solver not started",
+  "fix": "import unmodified officialsetinput, callmaketopo only, then officialsetrun.write andsame officialxdclaw; numericalparameters unchanged",
+  "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29"
+}

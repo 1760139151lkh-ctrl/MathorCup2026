@@ -1,0 +1,387 @@
+[
+  {
+    "claim_id": "common-hourly-structure",
+    "statement": "四类小时资料共24份年度CSV，63测量字段和37个原质量标记，每类时间轴52584小时。",
+    "value": {
+      "files": 24,
+      "measurement_fields": 63,
+      "qc_fields": 37,
+      "hourly_grid_per_class": 52584,
+      "by_class": {
+        "MET": {
+          "measurement_fields": 22,
+          "qc_fields": 21
+        },
+        "RADM": {
+          "measurement_fields": 4,
+          "qc_fields": 4
+        },
+        "SOIL": {
+          "measurement_fields": 12,
+          "qc_fields": 12
+        },
+        "FLUX": {
+          "measurement_fields": 25,
+          "qc_fields": 0
+        }
+      }
+    },
+    "unit": "files / fields / h",
+    "source_files": [
+      {
+        "path": "track_b/audit/temporal/summary.json",
+        "sha256": "1ed345048cabe71dc3607735cfdce22da42bb0043351483f2af2532615e8a3d5"
+      },
+      {
+        "path": "track_b/audit/temporal/hourly_files.csv",
+        "sha256": "31e1eaae031f18f38928fdc14998a8e793e3929088738b3dbd643609ec83d16d"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "记录结构；时间轴与单变量有效观测数分开。",
+    "paper_anchor": "tab:common-data"
+  },
+  {
+    "claim_id": "common-hourly-value-boundary",
+    "statement": "四类资料至少一个测量字段有数值的边界为2021-04-23 11:00至2026-08-27 08:00。",
+    "value": {
+      "first": "2021-04-23 11:00:00",
+      "last": "2026-08-27 08:00:00",
+      "clock": "source labels"
+    },
+    "unit": "source-local labels",
+    "source_files": [
+      {
+        "path": "track_b/audit/temporal/summary.json",
+        "sha256": "1ed345048cabe71dc3607735cfdce22da42bb0043351483f2af2532615e8a3d5"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "数值有效指有限且不为9999.9，非每变量完整覆盖或QC接受。",
+    "paper_anchor": "sec:data"
+  },
+  {
+    "claim_id": "common-station-metadata",
+    "statement": "区域站元数据位置28.86°N、85.29°E、海拔4140m，小时标签声明UTC+8。",
+    "value": {
+      "latitude_deg": 28.86,
+      "longitude_deg": 85.29,
+      "elevation_m": 4140,
+      "declared_timezone": "UTC+8",
+      "meteorological_heights_m": [
+        1,
+        2,
+        4,
+        10,
+        20
+      ],
+      "soil_depths_m": [
+        0.1,
+        0.2,
+        0.4,
+        0.8,
+        1.6
+      ]
+    },
+    "unit": "deg / m",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/source_register.json",
+        "sha256": "d6dfdb19d3f16adc318f6e541031d0822235c8887d882b9772ed48537ef23826"
+      },
+      {
+        "path": "track_b/research/q1/round3/evidence/waternet_target.html",
+        "sha256": "614a83a76f7d46bfdb94c56f2c4dfb3814060d2f696ffeb5c733357b6e58b7ed"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "同名发布者镜像元数据；该位置用于区域背景，时间转换采用声明约定。",
+    "paper_anchor": "sec:data"
+  },
+  {
+    "claim_id": "common-quality-view",
+    "statement": "MET/RADM/SOIL主轨接受原QC=0；FLUX与降水采用质量标记未随附的探索轨，原始哨兵为9999.9。",
+    "value": {
+      "primary_original_qc": 0,
+      "sentinel": 9999.9,
+      "unknown_original_qc_variables": 26
+    },
+    "unit": "quality policy",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/HANDOFF.md",
+        "sha256": "7904104977cd9dfabbe5f41f333d8b33b8771cc207da9fa6723213e769fe7b11"
+      },
+      {
+        "path": "track_b/audit/temporal/summary.json",
+        "sha256": "1ed345048cabe71dc3607735cfdce22da42bb0043351483f2af2532615e8a3d5"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "保留未知质量属性，含符号变量不使用统一正值过滤。",
+    "paper_anchor": "eq:common-qc"
+  },
+  {
+    "claim_id": "common-background-window",
+    "statement": "背景选择2021—2025年目标日历日前后30日，目标窗口24、72、168小时；±1小时真正改变样本集合。",
+    "value": {
+      "background_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "calendar_halfwidth_days": 30,
+      "windows_h": [
+        24,
+        72,
+        168
+      ],
+      "reference_shifts_h": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "unit": "year / day / h",
+    "source_files": [
+      {
+        "path": "track_b/research/q1/round3/HANDOFF.md",
+        "sha256": "7904104977cd9dfabbe5f41f333d8b33b8771cc207da9fa6723213e769fe7b11"
+      }
+    ],
+    "model_id": "q1-r3-three-route-factor-families",
+    "scenario_id": null,
+    "scope": "年度—过程层级等权；重叠训练/评价窗口按实际时间支持隔离。",
+    "paper_anchor": "sec:data"
+  },
+  {
+    "claim_id": "common-gfs-selected-sequences",
+    "statement": "GFS选取2026-08-23/24/25的18UTC，温度f000—f096、累计水当量f001—f096，每起报193字段，合计579。",
+    "value": {
+      "cycles": [
+        "2026082318",
+        "2026082418",
+        "2026082518"
+      ],
+      "temperature_fields_per_cycle": 97,
+      "precipitation_fields_per_cycle": 96,
+      "selected_fields": 579,
+      "grid_cells": 25,
+      "grid_records": 7275,
+      "summary_records": 582
+    },
+    "unit": "fields / grid records",
+    "source_files": [
+      {
+        "path": "track_b/research/q3/round3/results/weather/summary.json",
+        "sha256": "553732d0740185dc3aac1adefdd766bf3f02d24bf27e25d96fbc33367957c619"
+      },
+      {
+        "path": "track_b/research/q3/round3/WEATHER_EVIDENCE.md",
+        "sha256": "f1f6a841b1ea1e06b93f0fde52d34541966455711bc7f84d479ded60673401c5"
+      },
+      {
+        "path": "track_b/research/q3/round3/inputs/weather/docs/sources.json",
+        "sha256": "59f3044ad5225c3431aca1187ab634aac1555c0946c75ea833b2770d75156817"
+      }
+    ],
+    "model_id": "q3-weather-v1",
+    "scenario_id": null,
+    "scope": "原生0.25°区域格点；f000降水为空区间；历史首次公开时间与获取时间分开，假设延迟与理想输入分别评价。",
+    "paper_anchor": "tab:common-data"
+  },
+  {
+    "claim_id": "common-copdem-product",
+    "statement": "独立获取Copernicus DSM GLO-30的2021 COG发布版本，主体采集2011—2015年，水平WGS84-G1150，垂直EGM2008。",
+    "value": {
+      "product": "Copernicus_DSM_COG_10_N28_00_E085_00_DEM.tif",
+      "bytes": 38402839,
+      "sha256": "1590255a0ae7e8c1f49b277e287032a18a2e32c8e13c4c3298ed458f851cd3c7",
+      "release": 2021,
+      "primary_acquisition_years": [
+        2011,
+        2015
+      ],
+      "vertical_datum": "EGM2008",
+      "horizontal_reference": "WGS84-G1150",
+      "analysis_cell_m": [
+        60,
+        120
+      ]
+    },
+    "unit": "year / m",
+    "source_files": [
+      {
+        "path": "track_b/research/q4/round3/sources/spatial_product_documentation.json",
+        "sha256": "54a44f30c69bf45bae1c16e153610bf50aaf6f1b83004bf66325be8708505078"
+      },
+      {
+        "path": "track_b/research/q4/round3/sources/spatial_acquisition.json",
+        "sha256": "fc51c90c339501e5eb02866990b5681e7fe7255a0d99b5ddb3e59d993f3d0b3c"
+      },
+      {
+        "path": "track_b/research/q4/round3/spatial_report.md",
+        "sha256": "8c34c04d1aa51fe04e5597ccfc4989f49622cbe34611df7da904fb027a8276c4"
+      }
+    ],
+    "model_id": "q4-r3-spatial-source-v1",
+    "scenario_id": null,
+    "scope": "编辑DSM产品定义；产品总体精度规格与区域实际误差分开。",
+    "paper_anchor": "sec:data"
+  },
+  {
+    "claim_id": "common-space-time-interface",
+    "statement": "跨问区分机械启动、整体释放及目标响应，使用UTM45N米制空间对象。",
+    "value": {
+      "mechanical_time": "t_m",
+      "bulk_release_time": "t_r",
+      "target_arrival_time": "t_a,j",
+      "relationship": "t_a,j = t_m + Delta_mr + tau_j",
+      "crs": "EPSG:32645",
+      "target_buffer_m": 100,
+      "target_depth_threshold_m": 0.1
+    },
+    "unit": "UTC / s / m",
+    "source_files": [
+      {
+        "path": "track_b/docs/19_stage4_round3_review.md",
+        "sha256": "e51db6d006b5471b34ab86f5fd5a802930e5abeeebd171fe002db3b6d5a531bc"
+      },
+      {
+        "path": "track_b/research/q4/round3/HANDOFF.md",
+        "sha256": "b03543c3f34fd00ed0c723e071e7f1bb68423848bceec56f0ab041cc041d600d"
+      },
+      {
+        "path": "track_b/research/q3/round3/FINAL_PROPAGATION_HANDOFF.md",
+        "sha256": "e502397c9b31a0081fb742103dcc5254ecf9ca01e94411afe9c546adaff94baf"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "机械到整体释放滞后和给定释放后的相对传播时延分别保存；响应括号采用实际存帧时刻。",
+    "paper_anchor": "eq:common-clock"
+  },
+  {
+    "claim_id": "common-research-integrity-checks",
+    "statement": "第三轮23项整仓检查、20次交付40项核对通过。",
+    "value": {
+      "integration_checks": 23,
+      "delivery_count": 20,
+      "handoff_checks": 40,
+      "integration_passed": true,
+      "handoff_passed": true
+    },
+    "unit": "checks / deliveries",
+    "source_files": [
+      {
+        "path": "track_b/audit/stage4/round3/integration_checks.json",
+        "sha256": "8742feff9a8af526c9f909e0a7d90d9a5abd5d31c1a262d54936d513d3cd6a36"
+      },
+      {
+        "path": "track_b/audit/stage4/round3/handoff_checks.json",
+        "sha256": "002e6018535e16cc39f980eb5ce5d1512be6207e3955e2e4924a8f11bd68cbe1"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "文件、版本、隔离与交付核对，非观测事件分母或人类审查人数。",
+    "paper_anchor": "AI工具使用详情说明:技术与科学复核"
+  },
+  {
+    "claim_id": "common-user-review-and-paper-authorization",
+    "statement": "用户已评审第三轮成果并批准成果导向LaTeX完整初稿。",
+    "value": {
+      "user_review_completed": true,
+      "paper_authorized": true,
+      "research_baseline_commit": "0dfab57",
+      "human_actions": [
+        "赛道与角色选择",
+        "阶段流程与四窗并行选择",
+        "完整本地研究范围批准",
+        "第三轮评审完成",
+        "成果导向文字调整",
+        "完整论文计划批准"
+      ]
+    },
+    "unit": null,
+    "source_files": [
+      {
+        "path": "track_b/paper/adoption_record.json",
+        "sha256": "2744ebfa44da3ab88fae9e17e8a613ffef4f0235d0e959e11e720ba98e5378ff"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "记录实际人工选择与写作方向；不将AI复核反推为逐公式/逐行人工改写。",
+    "paper_anchor": "AI工具使用详情说明:采用内容与人工调整记录"
+  },
+  {
+    "claim_id": "common-ai-tool-attribution",
+    "statement": "本项目使用OpenAI Codex辅助模型、程序、求解、资料、图表与论文，当前论文会话系统身份为GPT-6系列。",
+    "value": {
+      "tool": "OpenAI Codex",
+      "developer": "OpenAI",
+      "current_paper_session_identity": "GPT-6 family",
+      "exact_snapshot": null,
+      "snapshot_status": "not exposed by session interface",
+      "recorded_usage_dates": [
+        "2026-10-23",
+        "2026-10-24"
+      ]
+    },
+    "unit": null,
+    "source_files": [
+      {
+        "path": "track_b/AI_USAGE.md",
+        "sha256": "b20a9b8820dceddfddfd228cf3903a1662e9c48d965e6977c6012e29cfcfa43f"
+      },
+      {
+        "path": "track_b/paper/adoption_record.json",
+        "sha256": "2744ebfa44da3ab88fae9e17e8a613ffef4f0235d0e959e11e720ba98e5378ff"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "当前系列身份由会话系统信息给出，历史任务不反推精确型号；工具用途参考官方OpenAI Code generation页面，已于2026-10-24实际打开。",
+    "paper_anchor": "AI工具使用声明"
+  },
+  {
+    "claim_id": "common-competition-formats",
+    "statement": "论文第一页题目摘要关键词，第二页目录，正文从页码1、页脚居中、无页眉；AI详情包括工具、用途、关键交互、采纳和人工修改。",
+    "value": {
+      "main_text_max_pages": 30,
+      "front_page": "title/abstract/keywords",
+      "second_page": "contents",
+      "main_page_start": 1,
+      "header": false,
+      "identity_information": false,
+      "ai_details_required_fields": [
+        "tool/version",
+        "purposes/stages",
+        "key prompts and replies",
+        "adoption and human changes"
+      ]
+    },
+    "unit": null,
+    "source_files": [
+      {
+        "path": "01_比赛规范/2026年MathorCup数学应用挑战赛—大数据挑战赛论文格式及提交规范.pdf",
+        "sha256": "75beb9a6acbe000bce28b9ded9acfd3cf385a05c32901932e50b3ea851597e41"
+      },
+      {
+        "path": "01_比赛规范/MathorCup数学应用挑战赛人工智能工具使用规定（试行）.pdf",
+        "sha256": "34be7fabb7a6df6b800bfb9cf1944c056246a89d1675efe1d860d1ddf8c71e83"
+      }
+    ],
+    "model_id": null,
+    "scenario_id": null,
+    "scope": "两份规范PDF全页文本已读取；论文身份与本机路径采用匿名写法，不改技术任务。",
+    "paper_anchor": "AI工具使用详情说明"
+  }
+]

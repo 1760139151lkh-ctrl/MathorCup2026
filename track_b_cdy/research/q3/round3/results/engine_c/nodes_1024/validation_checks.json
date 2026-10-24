@@ -1,0 +1,12 @@
+{
+  "future_information_cutoff_rejected": true,
+  "physical_groups_disjoint_per_outer_fold": true,
+  "at_most_one_event_per_physical_group": true,
+  "risk_intervals_positive": true,
+  "no_event_after_risk_end": true,
+  "no_synthetic_rows_added": true,
+  "all_sources_real_observations_or_labels": true,
+  "probability_normalization_and_bounds": true,
+  "conformal_guarantee_claimed": false,
+  "rolling_issues_independent_sample_claimed": false
+}

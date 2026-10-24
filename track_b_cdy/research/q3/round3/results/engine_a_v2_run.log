@@ -1,0 +1,1 @@
+{"first_passages": 2048, "predictions": 3375, "checks": {"probability_normalized": true, "nonnegative_no_start_preserved": true, "no_false_local_coverage": true, "historical_certification_not_inferred": true, "left_censor_is_not_precise_first_sample": true}}

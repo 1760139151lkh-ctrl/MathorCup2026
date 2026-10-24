@@ -1,0 +1,38 @@
+{
+  "benchmark": "cascadia",
+  "container_id": "ad84a77a0ea9eb7447f61eb2e08756f00665429b7c90f8744a957efd918fd8c7",
+  "base_image_id": "sha256:0e0a0fc6d18feda9db1590da249ac93e8d5abfea8f4c3c0c849ce512b5ef8982",
+  "published_solver_image_id": null,
+  "started_utc": "2026-10-24T07:48:22.028002+00:00",
+  "elapsed_seconds": 945.4316239356995,
+  "returncode": 0,
+  "command": [
+    "docker",
+    "exec",
+    "-e",
+    "CLAW=/opt/clawpack",
+    "-e",
+    "PYTHONPATH=/opt/clawpack",
+    "-e",
+    "GRASS_ADDON_BASE=/opt/grass-addons",
+    "-e",
+    "OMP_NUM_THREADS=2",
+    "-e",
+    "MPLBACKEND=Agg",
+    "-w",
+    "/work/q4/official/benchmarks/cascadia",
+    "mathorcup-r3-toolchain-build",
+    "bash",
+    "-lc",
+    "set -e; mkdir -p /work/q4/official/benchmarks/cascadia; cd /work/q4/official/benchmarks/cascadia; cat > run.sh <<'BASH'\nset -e\nr.in.gdal --overwrite -o input=DATA/ca_elev.tif output=ca_elev\nr.in.gdal --overwrite -o input=DATA/ca_avalanche.tif output=ca_avalanche\ng.region -s raster=ca_elev\nr.avaflow.40G -ae prefix=cascadia cellsize=20 aoicoords=4400,2200,1000,4000 phases=1 elevation=ca_elev hrelease=ca_avalanche density=2800 friction=35,15,-1000 cohesion=3.0 time=5,200\nBASH\ngrass --tmp-location XY --exec bash run.sh"
+  ],
+  "copy_command": [
+    "docker",
+    "cp",
+    "mathorcup-r3-toolchain-build:/work/q4/official/benchmarks/cascadia/.",
+    "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/benchmarks/cascadia"
+  ],
+  "copy_returncode": 0,
+  "log_sha256": "6f859b468bc24b5b952739d994a84adfb03130e04117c8d5491e09dada9ce18a",
+  "role": "external_numerical_benchmark_not_local_event_validation"
+}

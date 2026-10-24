@@ -1,0 +1,78 @@
+[
+  {
+    "canonical_url": "https://catalogue.theia.data-terra.org/meta/f238a562-8741-4aee-9eaf-1443faa22cad",
+    "retrieved_at_utc": "2026-10-24T07:33:22.683959+00:00",
+    "product_version": "catalogue revised2026-01-08",
+    "data_role": "external_exposure_audit_only",
+    "available_time_or_unknown": null,
+    "status": 200,
+    "final_url": "https://catalogue.theia.data-terra.org/meta/f238a562-8741-4aee-9eaf-1443faa22cad",
+    "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/sources/survival_villerville_catalogue.html",
+    "bytes": 33298,
+    "sha256": "26b773b5c984c1e0c95c0f9f6ac9c8a1f8df2dcae2bb0cc2316ade04f802ff19",
+    "actual_read_scope": "Catalogue metadata: dataset scope, units, time coverage, velocity preprocessing, file links and licence; no CSV payload retrieved"
+  },
+  {
+    "canonical_url": "https://www.easydata.earth/back/public-api/v1/metadata/datasets/f238a562-8741-4aee-9eaf-1443faa22cad/files/README_Villerville_Dataset.txt",
+    "retrieved_at_utc": "2026-10-24T07:33:25.740273+00:00",
+    "product_version": "catalogue revised2026-01-08",
+    "data_role": "external_exposure_audit_only",
+    "available_time_or_unknown": null,
+    "status": "failed",
+    "error": "<HTTPError 401: ''>",
+    "actual_read_scope": "request failure only",
+    "entry_closed_after_authentication_failure": true,
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "canonical_url": "https://www.easydata.earth/back/public-api/v1/metadata/datasets/f238a562-8741-4aee-9eaf-1443faa22cad/files/vel_Villerville_1.csv",
+    "retrieved_at_utc": "2026-10-24T07:33:28.106535+00:00",
+    "product_version": "catalogue revised2026-01-08",
+    "data_role": "external_exposure_audit_only",
+    "available_time_or_unknown": null,
+    "status": "failed",
+    "error": "<HTTPError 401: ''>",
+    "actual_read_scope": "request failure only",
+    "entry_closed_after_authentication_failure": true,
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "canonical_url": "https://www.easydata.earth/back/public-api/v1/metadata/datasets/f238a562-8741-4aee-9eaf-1443faa22cad/files/README_Villerville_Dataset.txt",
+    "product_version": "2026-01-08 catalogue release",
+    "retrieved_at_utc": "2026-10-24T07:39:48.642325+00:00",
+    "actual_read_scope": "README rendered lines0-57: slow-moving landslide velocities, table columns, date span, cm/day units and missing values. No event or catastrophe-free follow-up labels found.",
+    "retrieval_channel": "web.run indexed text, not direct raw HTTP snapshot",
+    "artifact_role": "analyst_reading_notes_not_original_source_snapshot",
+    "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/sources/survival_villerville_readme_web_notes.json",
+    "bytes": 1118,
+    "sha256": "d1adf8d6acff231217e922fa43a1ebc5d1c560c47c759ee5078ec49bea553f3d",
+    "data_role": "excluded_negative_exposure_candidate",
+    "available_time_or_unknown": null
+  },
+  {
+    "canonical_url": "https://raw.githubusercontent.com/Ci2Lab/MWCD/b323540dfd51a55949973dffd0ba11c113b94fc8/data/stampa.csv",
+    "product_version": "b323540dfd51a55949973dffd0ba11c113b94fc8",
+    "retrieved_at_utc": "2026-10-24T07:41:22.293375+00:00",
+    "data_role": "external_catastrophic_failure_censor_exposure",
+    "available_time_or_unknown": null,
+    "status": 200,
+    "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/survival/stampa_csv_c11d1589f6ff.csv",
+    "bytes": 83327,
+    "sha256": "c11d1589f6ffe7971577844481792837bb58826fd2fc33d04a483e222c774ba5",
+    "actual_read_scope": "CSV all rows/date column/block4a and base schema; article relevant Stampa monitoring and eventual catastrophic collapse passage"
+  },
+  {
+    "canonical_url": "https://www.nature.com/articles/s41598-026-48268-x",
+    "product_version": "Scientific Reports16:18935,2026",
+    "retrieved_at_utc": "2026-10-24T07:41:24.930914+00:00",
+    "data_role": "external_catastrophic_failure_censor_exposure",
+    "available_time_or_unknown": null,
+    "status": 200,
+    "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/sources/survival_stampa_article.html",
+    "bytes": 402711,
+    "sha256": "a2d9b89cb336f66372c6e733383446d97e502b37f228918f71e5433efa4c070d",
+    "actual_read_scope": "CSV all rows/date column/block4a and base schema; article relevant Stampa monitoring and eventual catastrophic collapse passage"
+  }
+]

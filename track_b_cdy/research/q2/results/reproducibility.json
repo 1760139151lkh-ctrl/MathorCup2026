@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-10-24T04:36:50.006400+00:00",
+  "command": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/.venv/bin/python track_b/research/q2/scripts/diagnose_inputs.py",
+  "exit_code": 0,
+  "stdout": "{\"passed\": true, \"parameter_rows\": 26, \"scene_rows\": 41, \"window_rows\": 24, \"compatible_s1_pairs\": 3, \"approved_labels\": 0}",
+  "stderr": "",
+  "same_version_replay": true,
+  "script_sha256": "0d4dcac13d2e6d318d19ace95ae0b686e0b296b8c0751eed945d956a3a0bd878",
+  "checks": [
+    {
+      "name": "deterministic_table_and_input_manifest_bytes",
+      "passed": true,
+      "sha256": {
+        "results/nc_parameter_support.csv": "cfbe29dbf4131af73d3956180aa9544027ad05eb28e48d2899c234f8bbdef678",
+        "results/parameter_evidence.csv": "4a6fc9a411e378756d5da8d4dcfeab33c71b57d3de329c3e5ad34e0c93448ee0",
+        "results/remote_feasibility.csv": "fdd418e8a8ba773fd76e9d5ddabf3852dafb01b19153ed545a02bdd30b2f775b",
+        "results/window_support.csv": "4cbf3313a8cbcebc0ebca34ea7575b3f1d27daed42c2fbf026433545e3f812a0",
+        "results/s1_pair_screen.json": "7310ba03cf9d56dca2452ab5ec026920c01183a0942fa067b301d8cdc430337e",
+        "results/input_manifest.json": "927ad01371f6ce79db3ab1cdceddf5d30bdd0f97525e42faab232b639636ee38"
+      }
+    },
+    {
+      "name": "scientific_summary_identical_except_execution_timestamp",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

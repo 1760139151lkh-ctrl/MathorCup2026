@@ -1,0 +1,2422 @@
+{
+  "schema_version": "q4-paper-readonly-numeric-review-v1",
+  "created_utc": "2026-10-24T13:48:00.245387+00:00",
+  "paper_common_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+  "research_readonly": true,
+  "new_model_runs": 0,
+  "new_solver_or_integrator_runs": 0,
+  "array_read_scope": "existing native NPZ only; direct actual-time, threshold, frame and affine-area inspection; no model recomputation",
+  "native_field_index": {
+    "path": "track_b/research/q4/round3/results/official_fields.json",
+    "sha256": "b6d793011f2ac5f13c41230869ae27d1897e794c66be4618fa0c4f843d914b03"
+  },
+  "array_sources": [
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "2d3ffbb57ddec47179c56d8ea6e5a540dfc857019dabd7b28ce7584f02769fe1",
+      "bytes": 1566998,
+      "bound_by_repo_index": "track_b/research/q4/round3/results/official_fields.json"
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "243bdbee9dd186995f2323e71c48c10bb461ab67199cdf33e1e97d60ab3f025c",
+      "bytes": 3092369,
+      "bound_by_repo_index": "track_b/research/q4/round3/results/official_fields.json"
+    },
+    {
+      "run_id": "dclaw_ref_extended120",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "ede42f97b79145f94b0eacb00908d49dc1f72f91d6255e9d58d6d30a3148bd7f",
+      "bytes": 4008319,
+      "bound_by_repo_index": "track_b/research/q4/round3/results/official_fields.json"
+    },
+    {
+      "run_id": "composite_RI_water_120__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_120__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "20ce900fc6f01c5e822dd11437d32b476da3fa25567b2d14ceb02d5f641f128b",
+      "bytes": 2079959,
+      "bound_by_repo_index": "track_b/research/q4/round3/results/official_fields.json"
+    },
+    {
+      "run_id": "composite_RI_water_nodragvm_120__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_nodragvm_120__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "7480659b74d8f2a1e3c22cd99dedd5f52ef56763d80d6170e3ce24ad2fceca42",
+      "bytes": 1825333,
+      "bound_by_repo_index": "track_b/research/q4/round3/results/official_fields.json"
+    },
+    {
+      "run_id": "composite_rock_water_120__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_rock_water_120__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "952008afdb2e78042fa92d995f29b2ccc60e3f47c11cea5442799ac647c73749",
+      "bytes": 2086771,
+      "bound_by_repo_index": "track_b/research/q4/round3/results/official_fields.json"
+    },
+    {
+      "run_id": "copdem_120_single_ref__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_ref__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "80cb48f5093a1c963f62a58ea5e0cd3b805f83d9261efc2abcbb636140dce0fb",
+      "bytes": 1316959,
+      "bound_by_repo_index": "track_b/research/q4/round3/results/official_fields.json"
+    },
+    {
+      "run_id": "copdem_120_single_cfl025__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_cfl025__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "bf13f28120ef77c6852e6ca22e2703bf53a43d11ff8198f34bd38ad46af9ca72",
+      "bytes": 1251795,
+      "bound_by_repo_index": "track_b/research/q4/round3/results/official_fields.json"
+    },
+    {
+      "run_id": "copdem_60_single_ref__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_single_ref__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "a4b6c9b7d636131325f9cb4e87d5b662ed56d2e5bf2ef0c495fe68ad93f7c264",
+      "bytes": 2289886,
+      "bound_by_repo_index": "track_b/research/q4/round3/results/official_fields.json"
+    }
+  ],
+  "definitions": {
+    "requested_time_window_seconds": [
+      0,
+      1800
+    ],
+    "footprint": "cumulative max of native saved total depth>=0.1m, affine planar area",
+    "wet_horizontal_speed": "horizontal_speed_frames masked by total h>=0.1m; native multiphase uses phase-max, DClaw mixture velocity",
+    "process_frame_selection": "nearest actual saved native output; final overshoot labelled explicitly",
+    "qualitative_model_comparison": "different release volumes/state closures retained, not a controlled pure-framework intervention"
+  },
+  "runs": {
+    "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0": {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "model_id": "ravaflow_single",
+      "scenario_id": "q2r3-p0036-S_T-linear__geomv2_120m",
+      "release_grid_volume_m3": 31184139.128429696,
+      "actual_end_seconds": 1800.5,
+      "last_saved_within_requested_1800_seconds": 1780.8,
+      "requested_horizon_seconds": 1800.0,
+      "cell_area_m2": 14400.0,
+      "within_requested_horizon": {
+        "maximum_saved_depth_m": 61.61600112915039,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 74.06562042236328,
+        "cumulative_saved_footprint_hge0p1_m2": 23011200.0
+      },
+      "through_actual_end": {
+        "maximum_saved_depth_m": 61.61600112915039,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 74.06562042236328,
+        "cumulative_saved_footprint_hge0p1_m2": 23054400.0
+      },
+      "native_saved_initial_volume_m3": 31184264.24560547,
+      "native_saved_final_volume_m3": 31060353.584267758,
+      "native_saved_initial_mass_kg": 67315170613.159966,
+      "native_saved_final_mass_kg": 67047693810.018364,
+      "total_domain_mass_change_fraction": -0.003973499594596697,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 260.1,
+          "arrival_bracket_lower_seconds": 240.6,
+          "arrival_bracket_upper_seconds": 260.1,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ],
+      "arrays_sha256": "2d3ffbb57ddec47179c56d8ea6e5a540dfc857019dabd7b28ce7584f02769fe1",
+      "ascii_source_adjusted_budget_residual_fraction": -0.003973499594596741,
+      "native_internal_source_adjusted_budget_residual_fraction": -0.003883772359221106,
+      "stage_frames": [
+        {
+          "requested_display_seconds": 0,
+          "actual_saved_seconds": 0.0,
+          "maximum_depth_m": 32.321998596191406,
+          "maximum_horizontal_speed_hge0p1_m_s": 0.0,
+          "instant_wet_area_hge0p1_m2": 964800.0,
+          "cumulative_saved_footprint_hge0p1_m2": 964800.0,
+          "volume_m3_float64_depth_integral": 31184264.24560547
+        },
+        {
+          "requested_display_seconds": 60,
+          "actual_saved_seconds": 61.7,
+          "maximum_depth_m": 56.16699981689453,
+          "maximum_horizontal_speed_hge0p1_m_s": 43.19390869140625,
+          "instant_wet_area_hge0p1_m2": 7300800.0,
+          "cumulative_saved_footprint_hge0p1_m2": 7732800.0,
+          "volume_m3_float64_depth_integral": 31190385.770163685
+        },
+        {
+          "requested_display_seconds": 180,
+          "actual_saved_seconds": 180.6,
+          "maximum_depth_m": 40.33700180053711,
+          "maximum_horizontal_speed_hge0p1_m_s": 47.95302963256836,
+          "instant_wet_area_hge0p1_m2": 7257600.0,
+          "cumulative_saved_footprint_hge0p1_m2": 10382400.0,
+          "volume_m3_float64_depth_integral": 31357353.512568958
+        },
+        {
+          "requested_display_seconds": 600,
+          "actual_saved_seconds": 600.2,
+          "maximum_depth_m": 22.73900032043457,
+          "maximum_horizontal_speed_hge0p1_m_s": 29.2747745513916,
+          "instant_wet_area_hge0p1_m2": 10440000.0,
+          "cumulative_saved_footprint_hge0p1_m2": 15897600.0,
+          "volume_m3_float64_depth_integral": 31415832.142447494
+        },
+        {
+          "requested_display_seconds": 1800,
+          "actual_saved_seconds": 1800.5,
+          "maximum_depth_m": 28.365999221801758,
+          "maximum_horizontal_speed_hge0p1_m_s": 30.25446891784668,
+          "instant_wet_area_hge0p1_m2": 13305600.0,
+          "cumulative_saved_footprint_hge0p1_m2": 23054400.0,
+          "volume_m3_float64_depth_integral": 31060353.584267758
+        }
+      ],
+      "native_saved_times_seconds": [
+        0.0,
+        20.8,
+        41.0,
+        61.7,
+        80.0,
+        100.2,
+        122.1,
+        140.6,
+        160.0,
+        180.6,
+        201.1,
+        220.9,
+        240.6,
+        260.1,
+        280.1,
+        301.6,
+        320.9,
+        340.1,
+        361.0,
+        380.7,
+        401.1,
+        420.5,
+        441.5,
+        461.1,
+        480.3,
+        500.8,
+        520.1,
+        540.4,
+        561.6,
+        580.9,
+        600.2,
+        621.4,
+        640.4,
+        660.2,
+        680.5,
+        701.3,
+        720.2,
+        740.4,
+        760.4,
+        781.6,
+        801.3,
+        821.5,
+        841.0,
+        860.5,
+        881.2,
+        901.9,
+        920.0,
+        941.4,
+        960.9,
+        981.6,
+        1000.1,
+        1021.8,
+        1040.2,
+        1061.5,
+        1081.3,
+        1100.8,
+        1120.5,
+        1140.8,
+        1160.2,
+        1181.3,
+        1201.2,
+        1220.3,
+        1240.3,
+        1261.3,
+        1281.1,
+        1300.7,
+        1320.3,
+        1340.0,
+        1360.5,
+        1380.4,
+        1401.3,
+        1420.7,
+        1441.0,
+        1462.1,
+        1480.6,
+        1500.7,
+        1520.1,
+        1541.6,
+        1561.0,
+        1581.1,
+        1601.0,
+        1620.4,
+        1640.3,
+        1660.5,
+        1680.8,
+        1700.7,
+        1720.9,
+        1741.0,
+        1761.1,
+        1780.8,
+        1800.5
+      ],
+      "all_saved_frame_diagnostics": [
+        {
+          "actual_seconds": 0.0,
+          "hmax_m": 32.321998596191406,
+          "vmax_horizontal_hge0p1_m_s": 0.0,
+          "instant_wet_area_m2": 964800.0
+        },
+        {
+          "actual_seconds": 20.8,
+          "hmax_m": 42.6870002746582,
+          "vmax_horizontal_hge0p1_m_s": 65.08291625976562,
+          "instant_wet_area_m2": 4550400.0
+        },
+        {
+          "actual_seconds": 41.0,
+          "hmax_m": 61.61600112915039,
+          "vmax_horizontal_hge0p1_m_s": 52.848270416259766,
+          "instant_wet_area_m2": 6580800.0
+        },
+        {
+          "actual_seconds": 61.7,
+          "hmax_m": 56.16699981689453,
+          "vmax_horizontal_hge0p1_m_s": 43.19390869140625,
+          "instant_wet_area_m2": 7300800.0
+        },
+        {
+          "actual_seconds": 80.0,
+          "hmax_m": 59.12799835205078,
+          "vmax_horizontal_hge0p1_m_s": 47.54531478881836,
+          "instant_wet_area_m2": 6998400.0
+        },
+        {
+          "actual_seconds": 100.2,
+          "hmax_m": 47.50199890136719,
+          "vmax_horizontal_hge0p1_m_s": 65.11894989013672,
+          "instant_wet_area_m2": 6782400.0
+        },
+        {
+          "actual_seconds": 122.1,
+          "hmax_m": 45.34000015258789,
+          "vmax_horizontal_hge0p1_m_s": 60.81272888183594,
+          "instant_wet_area_m2": 7041600.0
+        },
+        {
+          "actual_seconds": 140.6,
+          "hmax_m": 44.89899826049805,
+          "vmax_horizontal_hge0p1_m_s": 48.505157470703125,
+          "instant_wet_area_m2": 6955200.0
+        },
+        {
+          "actual_seconds": 160.0,
+          "hmax_m": 43.2869987487793,
+          "vmax_horizontal_hge0p1_m_s": 37.093074798583984,
+          "instant_wet_area_m2": 7214400.0
+        },
+        {
+          "actual_seconds": 180.6,
+          "hmax_m": 40.33700180053711,
+          "vmax_horizontal_hge0p1_m_s": 47.95302963256836,
+          "instant_wet_area_m2": 7257600.0
+        },
+        {
+          "actual_seconds": 201.1,
+          "hmax_m": 45.14699935913086,
+          "vmax_horizontal_hge0p1_m_s": 45.103660583496094,
+          "instant_wet_area_m2": 7012800.0
+        },
+        {
+          "actual_seconds": 220.9,
+          "hmax_m": 46.566001892089844,
+          "vmax_horizontal_hge0p1_m_s": 74.06562042236328,
+          "instant_wet_area_m2": 6681600.0
+        },
+        {
+          "actual_seconds": 240.6,
+          "hmax_m": 37.7130012512207,
+          "vmax_horizontal_hge0p1_m_s": 45.67734909057617,
+          "instant_wet_area_m2": 7545600.0
+        },
+        {
+          "actual_seconds": 260.1,
+          "hmax_m": 42.69599914550781,
+          "vmax_horizontal_hge0p1_m_s": 33.52578353881836,
+          "instant_wet_area_m2": 7300800.0
+        },
+        {
+          "actual_seconds": 280.1,
+          "hmax_m": 37.02899932861328,
+          "vmax_horizontal_hge0p1_m_s": 30.315025329589844,
+          "instant_wet_area_m2": 7732800.0
+        },
+        {
+          "actual_seconds": 301.6,
+          "hmax_m": 34.65800094604492,
+          "vmax_horizontal_hge0p1_m_s": 31.537372589111328,
+          "instant_wet_area_m2": 8193600.0
+        },
+        {
+          "actual_seconds": 320.9,
+          "hmax_m": 34.46699905395508,
+          "vmax_horizontal_hge0p1_m_s": 31.38232421875,
+          "instant_wet_area_m2": 8481600.0
+        },
+        {
+          "actual_seconds": 340.1,
+          "hmax_m": 34.31999969482422,
+          "vmax_horizontal_hge0p1_m_s": 27.521760940551758,
+          "instant_wet_area_m2": 8524800.0
+        },
+        {
+          "actual_seconds": 361.0,
+          "hmax_m": 35.57699966430664,
+          "vmax_horizontal_hge0p1_m_s": 30.838516235351562,
+          "instant_wet_area_m2": 8424000.0
+        },
+        {
+          "actual_seconds": 380.7,
+          "hmax_m": 36.354000091552734,
+          "vmax_horizontal_hge0p1_m_s": 37.23942947387695,
+          "instant_wet_area_m2": 8496000.0
+        },
+        {
+          "actual_seconds": 401.1,
+          "hmax_m": 30.507999420166016,
+          "vmax_horizontal_hge0p1_m_s": 28.22761344909668,
+          "instant_wet_area_m2": 8524800.0
+        },
+        {
+          "actual_seconds": 420.5,
+          "hmax_m": 28.117000579833984,
+          "vmax_horizontal_hge0p1_m_s": 27.426162719726562,
+          "instant_wet_area_m2": 8870400.0
+        },
+        {
+          "actual_seconds": 441.5,
+          "hmax_m": 30.042999267578125,
+          "vmax_horizontal_hge0p1_m_s": 33.19972610473633,
+          "instant_wet_area_m2": 8942400.0
+        },
+        {
+          "actual_seconds": 461.1,
+          "hmax_m": 27.788999557495117,
+          "vmax_horizontal_hge0p1_m_s": 28.751365661621094,
+          "instant_wet_area_m2": 8956800.0
+        },
+        {
+          "actual_seconds": 480.3,
+          "hmax_m": 29.944000244140625,
+          "vmax_horizontal_hge0p1_m_s": 33.369937896728516,
+          "instant_wet_area_m2": 8740800.0
+        },
+        {
+          "actual_seconds": 500.8,
+          "hmax_m": 28.64900016784668,
+          "vmax_horizontal_hge0p1_m_s": 29.169164657592773,
+          "instant_wet_area_m2": 8956800.0
+        },
+        {
+          "actual_seconds": 520.1,
+          "hmax_m": 22.475000381469727,
+          "vmax_horizontal_hge0p1_m_s": 23.942861557006836,
+          "instant_wet_area_m2": 9374400.0
+        },
+        {
+          "actual_seconds": 540.4,
+          "hmax_m": 22.514999389648438,
+          "vmax_horizontal_hge0p1_m_s": 23.607927322387695,
+          "instant_wet_area_m2": 9288000.0
+        },
+        {
+          "actual_seconds": 561.6,
+          "hmax_m": 24.676000595092773,
+          "vmax_horizontal_hge0p1_m_s": 31.560401916503906,
+          "instant_wet_area_m2": 9849600.0
+        },
+        {
+          "actual_seconds": 580.9,
+          "hmax_m": 23.451000213623047,
+          "vmax_horizontal_hge0p1_m_s": 27.85968017578125,
+          "instant_wet_area_m2": 9979200.0
+        },
+        {
+          "actual_seconds": 600.2,
+          "hmax_m": 22.73900032043457,
+          "vmax_horizontal_hge0p1_m_s": 29.2747745513916,
+          "instant_wet_area_m2": 10440000.0
+        },
+        {
+          "actual_seconds": 621.4,
+          "hmax_m": 26.25,
+          "vmax_horizontal_hge0p1_m_s": 27.586435317993164,
+          "instant_wet_area_m2": 10036800.0
+        },
+        {
+          "actual_seconds": 640.4,
+          "hmax_m": 27.63800048828125,
+          "vmax_horizontal_hge0p1_m_s": 35.64023971557617,
+          "instant_wet_area_m2": 9662400.0
+        },
+        {
+          "actual_seconds": 660.2,
+          "hmax_m": 21.8439998626709,
+          "vmax_horizontal_hge0p1_m_s": 25.16368293762207,
+          "instant_wet_area_m2": 10800000.0
+        },
+        {
+          "actual_seconds": 680.5,
+          "hmax_m": 20.645000457763672,
+          "vmax_horizontal_hge0p1_m_s": 19.674409866333008,
+          "instant_wet_area_m2": 10598400.0
+        },
+        {
+          "actual_seconds": 701.3,
+          "hmax_m": 25.267000198364258,
+          "vmax_horizontal_hge0p1_m_s": 26.212247848510742,
+          "instant_wet_area_m2": 10742400.0
+        },
+        {
+          "actual_seconds": 720.2,
+          "hmax_m": 23.910999298095703,
+          "vmax_horizontal_hge0p1_m_s": 21.584190368652344,
+          "instant_wet_area_m2": 10180800.0
+        },
+        {
+          "actual_seconds": 740.4,
+          "hmax_m": 22.677000045776367,
+          "vmax_horizontal_hge0p1_m_s": 25.222545623779297,
+          "instant_wet_area_m2": 11001600.0
+        },
+        {
+          "actual_seconds": 760.4,
+          "hmax_m": 22.486000061035156,
+          "vmax_horizontal_hge0p1_m_s": 26.827388763427734,
+          "instant_wet_area_m2": 11361600.0
+        },
+        {
+          "actual_seconds": 781.6,
+          "hmax_m": 23.733999252319336,
+          "vmax_horizontal_hge0p1_m_s": 26.735422134399414,
+          "instant_wet_area_m2": 10728000.0
+        },
+        {
+          "actual_seconds": 801.3,
+          "hmax_m": 22.25,
+          "vmax_horizontal_hge0p1_m_s": 27.075353622436523,
+          "instant_wet_area_m2": 11304000.0
+        },
+        {
+          "actual_seconds": 821.5,
+          "hmax_m": 20.621999740600586,
+          "vmax_horizontal_hge0p1_m_s": 23.722267150878906,
+          "instant_wet_area_m2": 11275200.0
+        },
+        {
+          "actual_seconds": 841.0,
+          "hmax_m": 24.20199966430664,
+          "vmax_horizontal_hge0p1_m_s": 43.786170959472656,
+          "instant_wet_area_m2": 10396800.0
+        },
+        {
+          "actual_seconds": 860.5,
+          "hmax_m": 17.76799964904785,
+          "vmax_horizontal_hge0p1_m_s": 39.01058578491211,
+          "instant_wet_area_m2": 12009600.0
+        },
+        {
+          "actual_seconds": 881.2,
+          "hmax_m": 19.179000854492188,
+          "vmax_horizontal_hge0p1_m_s": 26.138893127441406,
+          "instant_wet_area_m2": 11865600.0
+        },
+        {
+          "actual_seconds": 901.9,
+          "hmax_m": 22.0,
+          "vmax_horizontal_hge0p1_m_s": 37.3651237487793,
+          "instant_wet_area_m2": 11246400.0
+        },
+        {
+          "actual_seconds": 920.0,
+          "hmax_m": 22.70599937438965,
+          "vmax_horizontal_hge0p1_m_s": 48.00346755981445,
+          "instant_wet_area_m2": 11217600.0
+        },
+        {
+          "actual_seconds": 941.4,
+          "hmax_m": 20.082000732421875,
+          "vmax_horizontal_hge0p1_m_s": 28.236143112182617,
+          "instant_wet_area_m2": 12441600.0
+        },
+        {
+          "actual_seconds": 960.9,
+          "hmax_m": 22.30699920654297,
+          "vmax_horizontal_hge0p1_m_s": 42.795082092285156,
+          "instant_wet_area_m2": 11750400.0
+        },
+        {
+          "actual_seconds": 981.6,
+          "hmax_m": 20.274999618530273,
+          "vmax_horizontal_hge0p1_m_s": 48.04854965209961,
+          "instant_wet_area_m2": 11908800.0
+        },
+        {
+          "actual_seconds": 1000.1,
+          "hmax_m": 25.073999404907227,
+          "vmax_horizontal_hge0p1_m_s": 46.27091979980469,
+          "instant_wet_area_m2": 11275200.0
+        },
+        {
+          "actual_seconds": 1021.8,
+          "hmax_m": 25.08799934387207,
+          "vmax_horizontal_hge0p1_m_s": 43.891258239746094,
+          "instant_wet_area_m2": 11836800.0
+        },
+        {
+          "actual_seconds": 1040.2,
+          "hmax_m": 23.982999801635742,
+          "vmax_horizontal_hge0p1_m_s": 42.236812591552734,
+          "instant_wet_area_m2": 11865600.0
+        },
+        {
+          "actual_seconds": 1061.5,
+          "hmax_m": 25.562000274658203,
+          "vmax_horizontal_hge0p1_m_s": 32.06538772583008,
+          "instant_wet_area_m2": 12916800.0
+        },
+        {
+          "actual_seconds": 1081.3,
+          "hmax_m": 19.385000228881836,
+          "vmax_horizontal_hge0p1_m_s": 27.107851028442383,
+          "instant_wet_area_m2": 13363200.0
+        },
+        {
+          "actual_seconds": 1100.8,
+          "hmax_m": 23.71299934387207,
+          "vmax_horizontal_hge0p1_m_s": 28.301536560058594,
+          "instant_wet_area_m2": 12873600.0
+        },
+        {
+          "actual_seconds": 1120.5,
+          "hmax_m": 21.375,
+          "vmax_horizontal_hge0p1_m_s": 41.11273956298828,
+          "instant_wet_area_m2": 12297600.0
+        },
+        {
+          "actual_seconds": 1140.8,
+          "hmax_m": 22.433000564575195,
+          "vmax_horizontal_hge0p1_m_s": 50.26582717895508,
+          "instant_wet_area_m2": 12182400.0
+        },
+        {
+          "actual_seconds": 1160.2,
+          "hmax_m": 21.60099983215332,
+          "vmax_horizontal_hge0p1_m_s": 29.838058471679688,
+          "instant_wet_area_m2": 13564800.0
+        },
+        {
+          "actual_seconds": 1181.3,
+          "hmax_m": 22.53700065612793,
+          "vmax_horizontal_hge0p1_m_s": 42.19769287109375,
+          "instant_wet_area_m2": 12873600.0
+        },
+        {
+          "actual_seconds": 1201.2,
+          "hmax_m": 21.601999282836914,
+          "vmax_horizontal_hge0p1_m_s": 31.827293395996094,
+          "instant_wet_area_m2": 12412800.0
+        },
+        {
+          "actual_seconds": 1220.3,
+          "hmax_m": 22.253999710083008,
+          "vmax_horizontal_hge0p1_m_s": 25.98330307006836,
+          "instant_wet_area_m2": 12110400.0
+        },
+        {
+          "actual_seconds": 1240.3,
+          "hmax_m": 17.341999053955078,
+          "vmax_horizontal_hge0p1_m_s": 25.00383949279785,
+          "instant_wet_area_m2": 13219200.0
+        },
+        {
+          "actual_seconds": 1261.3,
+          "hmax_m": 24.016000747680664,
+          "vmax_horizontal_hge0p1_m_s": 26.05023193359375,
+          "instant_wet_area_m2": 12283200.0
+        },
+        {
+          "actual_seconds": 1281.1,
+          "hmax_m": 26.128000259399414,
+          "vmax_horizontal_hge0p1_m_s": 27.474628448486328,
+          "instant_wet_area_m2": 12182400.0
+        },
+        {
+          "actual_seconds": 1300.7,
+          "hmax_m": 19.68400001525879,
+          "vmax_horizontal_hge0p1_m_s": 29.406667709350586,
+          "instant_wet_area_m2": 14097600.0
+        },
+        {
+          "actual_seconds": 1320.3,
+          "hmax_m": 25.076000213623047,
+          "vmax_horizontal_hge0p1_m_s": 26.803760528564453,
+          "instant_wet_area_m2": 12931200.0
+        },
+        {
+          "actual_seconds": 1340.0,
+          "hmax_m": 27.854999542236328,
+          "vmax_horizontal_hge0p1_m_s": 28.237363815307617,
+          "instant_wet_area_m2": 12456000.0
+        },
+        {
+          "actual_seconds": 1360.5,
+          "hmax_m": 26.40399932861328,
+          "vmax_horizontal_hge0p1_m_s": 26.507123947143555,
+          "instant_wet_area_m2": 12873600.0
+        },
+        {
+          "actual_seconds": 1380.4,
+          "hmax_m": 24.851999282836914,
+          "vmax_horizontal_hge0p1_m_s": 27.9476261138916,
+          "instant_wet_area_m2": 12873600.0
+        },
+        {
+          "actual_seconds": 1401.3,
+          "hmax_m": 25.46500015258789,
+          "vmax_horizontal_hge0p1_m_s": 30.757505416870117,
+          "instant_wet_area_m2": 13190400.0
+        },
+        {
+          "actual_seconds": 1420.7,
+          "hmax_m": 23.770999908447266,
+          "vmax_horizontal_hge0p1_m_s": 26.496963500976562,
+          "instant_wet_area_m2": 13176000.0
+        },
+        {
+          "actual_seconds": 1441.0,
+          "hmax_m": 21.934999465942383,
+          "vmax_horizontal_hge0p1_m_s": 30.13582992553711,
+          "instant_wet_area_m2": 14212800.0
+        },
+        {
+          "actual_seconds": 1462.1,
+          "hmax_m": 29.489999771118164,
+          "vmax_horizontal_hge0p1_m_s": 32.67766189575195,
+          "instant_wet_area_m2": 13435200.0
+        },
+        {
+          "actual_seconds": 1480.6,
+          "hmax_m": 25.44499969482422,
+          "vmax_horizontal_hge0p1_m_s": 25.346384048461914,
+          "instant_wet_area_m2": 13060800.0
+        },
+        {
+          "actual_seconds": 1500.7,
+          "hmax_m": 25.73900032043457,
+          "vmax_horizontal_hge0p1_m_s": 26.83821678161621,
+          "instant_wet_area_m2": 13089600.0
+        },
+        {
+          "actual_seconds": 1520.1,
+          "hmax_m": 24.301000595092773,
+          "vmax_horizontal_hge0p1_m_s": 25.015987396240234,
+          "instant_wet_area_m2": 13233600.0
+        },
+        {
+          "actual_seconds": 1541.6,
+          "hmax_m": 26.906999588012695,
+          "vmax_horizontal_hge0p1_m_s": 32.61956787109375,
+          "instant_wet_area_m2": 13392000.0
+        },
+        {
+          "actual_seconds": 1561.0,
+          "hmax_m": 27.139999389648438,
+          "vmax_horizontal_hge0p1_m_s": 28.416584014892578,
+          "instant_wet_area_m2": 13017600.0
+        },
+        {
+          "actual_seconds": 1581.1,
+          "hmax_m": 27.025999069213867,
+          "vmax_horizontal_hge0p1_m_s": 31.8560733795166,
+          "instant_wet_area_m2": 13507200.0
+        },
+        {
+          "actual_seconds": 1601.0,
+          "hmax_m": 27.66200065612793,
+          "vmax_horizontal_hge0p1_m_s": 30.604591369628906,
+          "instant_wet_area_m2": 13161600.0
+        },
+        {
+          "actual_seconds": 1620.4,
+          "hmax_m": 23.388999938964844,
+          "vmax_horizontal_hge0p1_m_s": 23.62158966064453,
+          "instant_wet_area_m2": 13406400.0
+        },
+        {
+          "actual_seconds": 1640.3,
+          "hmax_m": 26.976999282836914,
+          "vmax_horizontal_hge0p1_m_s": 29.827613830566406,
+          "instant_wet_area_m2": 13147200.0
+        },
+        {
+          "actual_seconds": 1660.5,
+          "hmax_m": 21.763999938964844,
+          "vmax_horizontal_hge0p1_m_s": 27.799171447753906,
+          "instant_wet_area_m2": 14212800.0
+        },
+        {
+          "actual_seconds": 1680.8,
+          "hmax_m": 27.108999252319336,
+          "vmax_horizontal_hge0p1_m_s": 29.005260467529297,
+          "instant_wet_area_m2": 13536000.0
+        },
+        {
+          "actual_seconds": 1700.7,
+          "hmax_m": 26.958999633789062,
+          "vmax_horizontal_hge0p1_m_s": 29.891477584838867,
+          "instant_wet_area_m2": 13622400.0
+        },
+        {
+          "actual_seconds": 1720.9,
+          "hmax_m": 27.645000457763672,
+          "vmax_horizontal_hge0p1_m_s": 27.799480438232422,
+          "instant_wet_area_m2": 13550400.0
+        },
+        {
+          "actual_seconds": 1741.0,
+          "hmax_m": 27.64900016784668,
+          "vmax_horizontal_hge0p1_m_s": 30.51288604736328,
+          "instant_wet_area_m2": 13708800.0
+        },
+        {
+          "actual_seconds": 1761.1,
+          "hmax_m": 28.163000106811523,
+          "vmax_horizontal_hge0p1_m_s": 33.342987060546875,
+          "instant_wet_area_m2": 13766400.0
+        },
+        {
+          "actual_seconds": 1780.8,
+          "hmax_m": 29.402999877929688,
+          "vmax_horizontal_hge0p1_m_s": 29.39069366455078,
+          "instant_wet_area_m2": 13305600.0
+        },
+        {
+          "actual_seconds": 1800.5,
+          "hmax_m": 28.365999221801758,
+          "vmax_horizontal_hge0p1_m_s": 30.25446891784668,
+          "instant_wet_area_m2": 13305600.0
+        }
+      ]
+    },
+    "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0": {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "model_id": "ravaflow_single",
+      "scenario_id": "q2r3-p0036-S_T-linear__geomv2_60m",
+      "release_grid_volume_m3": 31184139.128429696,
+      "actual_end_seconds": 1801.2,
+      "last_saved_within_requested_1800_seconds": 1780.2,
+      "requested_horizon_seconds": 1800.0,
+      "cell_area_m2": 3600.0,
+      "within_requested_horizon": {
+        "maximum_saved_depth_m": 80.90599822998047,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 67.43730163574219,
+        "cumulative_saved_footprint_hge0p1_m2": 12160800.0
+      },
+      "through_actual_end": {
+        "maximum_saved_depth_m": 80.90599822998047,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 67.43730163574219,
+        "cumulative_saved_footprint_hge0p1_m2": 12182400.0
+      },
+      "native_saved_initial_volume_m3": 31183867.694091797,
+      "native_saved_final_volume_m3": 31702514.389881212,
+      "native_saved_initial_mass_kg": 67314314606.66292,
+      "native_saved_final_mass_kg": 68433878965.79113,
+      "total_domain_mass_change_fraction": 0.01663189123546971,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 240.7,
+          "arrival_bracket_lower_seconds": 221.0,
+          "arrival_bracket_upper_seconds": 240.7,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ],
+      "arrays_sha256": "243bdbee9dd186995f2323e71c48c10bb461ab67199cdf33e1e97d60ab3f025c",
+      "ascii_source_adjusted_budget_residual_fraction": 0.016631891235469775,
+      "native_internal_source_adjusted_budget_residual_fraction": 0.01665052496706515
+    },
+    "dclaw_ref_extended120": {
+      "run_id": "dclaw_ref_extended120",
+      "model_id": "dclaw",
+      "scenario_id": "conditional_h15_mu0.15_xiNone__extended_domain",
+      "release_grid_volume_m3": 13877999.546813965,
+      "actual_end_seconds": 1800.0,
+      "last_saved_within_requested_1800_seconds": 1800.0,
+      "requested_horizon_seconds": 1800.0,
+      "cell_area_m2": 14400.0,
+      "within_requested_horizon": {
+        "maximum_saved_depth_m": 60.8991584777832,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 180.49435424804688,
+        "cumulative_saved_footprint_hge0p1_m2": 83390400.0
+      },
+      "through_actual_end": {
+        "maximum_saved_depth_m": 60.8991584777832,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 180.49435424804688,
+        "cumulative_saved_footprint_hge0p1_m2": 83390400.0
+      },
+      "native_saved_initial_volume_m3": 13877999.654400002,
+      "native_saved_final_volume_m3": 13155890.631263299,
+      "native_saved_initial_mass_kg": 28741337284.2624,
+      "native_saved_final_mass_kg": 27549341435.45974,
+      "total_domain_mass_change_fraction": -0.04147322154892741,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 180.0,
+          "arrival_bracket_lower_seconds": 160.0,
+          "arrival_bracket_upper_seconds": 180.0,
+          "evaluation_end_time_seconds": 1800.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 60.0,
+          "arrival_bracket_lower_seconds": 40.0,
+          "arrival_bracket_upper_seconds": 60.0,
+          "evaluation_end_time_seconds": 1800.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 180.0,
+          "arrival_bracket_lower_seconds": 160.0,
+          "arrival_bracket_upper_seconds": 180.0,
+          "evaluation_end_time_seconds": 1800.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 180.0,
+          "arrival_bracket_lower_seconds": 160.0,
+          "arrival_bracket_upper_seconds": 180.0,
+          "evaluation_end_time_seconds": 1800.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 180.0,
+          "arrival_bracket_lower_seconds": 160.0,
+          "arrival_bracket_upper_seconds": 180.0,
+          "evaluation_end_time_seconds": 1800.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 180.0,
+          "arrival_bracket_lower_seconds": 160.0,
+          "arrival_bracket_upper_seconds": 180.0,
+          "evaluation_end_time_seconds": 1800.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 180.0,
+          "arrival_bracket_lower_seconds": 160.0,
+          "arrival_bracket_upper_seconds": 180.0,
+          "evaluation_end_time_seconds": 1800.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ],
+      "arrays_sha256": "ede42f97b79145f94b0eacb00908d49dc1f72f91d6255e9d58d6d30a3148bd7f",
+      "ascii_source_adjusted_budget_residual_fraction": null,
+      "native_internal_source_adjusted_budget_residual_fraction": null,
+      "pressure_display": {
+        "requested_seconds": 180.0,
+        "actual_seconds": 180.0,
+        "units_in_array": "Pa",
+        "display_units": "kPa",
+        "conversion_divisor": 1000.0,
+        "wet_max_pressure_Pa": 528450.25,
+        "wet_min_pressure_Pa": 0.045207347720861435
+      }
+    },
+    "composite_RI_water_120__sf0": {
+      "run_id": "composite_RI_water_120__sf0",
+      "model_id": "ravaflow_multi",
+      "scenario_id": "composite_RI_water_120__sf0",
+      "release_grid_volume_m3": 13877999.546813965,
+      "actual_end_seconds": 1800.4,
+      "last_saved_within_requested_1800_seconds": 1780.5,
+      "requested_horizon_seconds": 1800.0,
+      "cell_area_m2": 14400.0,
+      "within_requested_horizon": {
+        "maximum_saved_depth_m": 22.0049991607666,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 66.08177185058594,
+        "cumulative_saved_footprint_hge0p1_m2": 29390400.0
+      },
+      "through_actual_end": {
+        "maximum_saved_depth_m": 22.0049991607666,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 66.08177185058594,
+        "cumulative_saved_footprint_hge0p1_m2": 29520000.0
+      },
+      "native_saved_initial_volume_m3": 13877683.030700684,
+      "native_saved_final_volume_m3": 12401798.402196541,
+      "native_saved_initial_mass_kg": 27918014806.957138,
+      "native_saved_final_mass_kg": 25031976207.51594,
+      "total_domain_mass_change_fraction": -0.10337549497688492,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 220.4,
+          "arrival_bracket_lower_seconds": 200.0,
+          "arrival_bracket_upper_seconds": 220.4,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ],
+      "arrays_sha256": "20ce900fc6f01c5e822dd11437d32b476da3fa25567b2d14ceb02d5f641f128b",
+      "ascii_source_adjusted_budget_residual_fraction": -0.10337549497688492,
+      "native_internal_source_adjusted_budget_residual_fraction": -0.10300990222972382,
+      "phase_display": {
+        "requested_seconds": 180.0,
+        "actual_seconds": 180.5,
+        "definition": "native phase3 water depth divided by sum of all three phase depths; display where total native h>=0.1m",
+        "water_fraction_wet_min": 0.2694300522135134,
+        "water_fraction_wet_max": 0.35779816890021743,
+        "empty_phase2_max_abs_depth_m": 0.0,
+        "initial_phase_volume_fractions": [
+          0.7,
+          0,
+          0.3
+        ],
+        "densities_kg_m3": [
+          2445.2857142857147,
+          1850,
+          1000
+        ]
+      }
+    },
+    "composite_RI_water_nodragvm_120__sf0": {
+      "run_id": "composite_RI_water_nodragvm_120__sf0",
+      "model_id": "ravaflow_multi",
+      "scenario_id": "composite_RI_water_nodragvm_120__sf0",
+      "release_grid_volume_m3": 13877999.546813965,
+      "actual_end_seconds": 1800.4,
+      "last_saved_within_requested_1800_seconds": 1780.1,
+      "requested_horizon_seconds": 1800.0,
+      "cell_area_m2": 14400.0,
+      "within_requested_horizon": {
+        "maximum_saved_depth_m": 30.545000076293945,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 74.53914642333984,
+        "cumulative_saved_footprint_hge0p1_m2": 25185600.0
+      },
+      "through_actual_end": {
+        "maximum_saved_depth_m": 30.545000076293945,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 74.53914642333984,
+        "cumulative_saved_footprint_hge0p1_m2": 25300800.0
+      },
+      "native_saved_initial_volume_m3": 13877683.030700684,
+      "native_saved_final_volume_m3": 13574044.795973226,
+      "native_saved_initial_mass_kg": 27918014806.957138,
+      "native_saved_final_mass_kg": 27350083137.308846,
+      "total_domain_mass_change_fraction": -0.020342838614254344,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 200.4,
+          "arrival_bracket_lower_seconds": 181.1,
+          "arrival_bracket_upper_seconds": 200.4,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ],
+      "arrays_sha256": "7480659b74d8f2a1e3c22cd99dedd5f52ef56763d80d6170e3ce24ad2fceca42",
+      "ascii_source_adjusted_budget_residual_fraction": -0.020342838614254358,
+      "native_internal_source_adjusted_budget_residual_fraction": -0.01984103247669177,
+      "phase_display": {
+        "requested_seconds": 180.0,
+        "actual_seconds": 181.1,
+        "definition": "native phase3 water depth divided by sum of all three phase depths; display where total native h>=0.1m",
+        "water_fraction_wet_min": 0.06358626475080655,
+        "water_fraction_wet_max": 0.5866666596024125,
+        "empty_phase2_max_abs_depth_m": 0.0,
+        "initial_phase_volume_fractions": [
+          0.7,
+          0,
+          0.3
+        ],
+        "densities_kg_m3": [
+          2445.2857142857147,
+          1850,
+          1000
+        ]
+      }
+    },
+    "composite_rock_water_120__sf0": {
+      "run_id": "composite_rock_water_120__sf0",
+      "model_id": "ravaflow_multi",
+      "scenario_id": "composite_rock_water_120__sf0",
+      "release_grid_volume_m3": 13877999.546813965,
+      "actual_end_seconds": 1800.4,
+      "last_saved_within_requested_1800_seconds": 1780.1,
+      "requested_horizon_seconds": 1800.0,
+      "cell_area_m2": 14400.0,
+      "within_requested_horizon": {
+        "maximum_saved_depth_m": 21.94700050354004,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 65.11050415039062,
+        "cumulative_saved_footprint_hge0p1_m2": 30196800.0
+      },
+      "through_actual_end": {
+        "maximum_saved_depth_m": 21.94700050354004,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 65.11050415039062,
+        "cumulative_saved_footprint_hge0p1_m2": 30268800.0
+      },
+      "native_saved_initial_volume_m3": 13877683.030700684,
+      "native_saved_final_volume_m3": 12001752.021887898,
+      "native_saved_initial_mass_kg": 30392454931.18286,
+      "native_saved_final_mass_kg": 26384651983.776894,
+      "total_domain_mass_change_fraction": -0.1318683520788554,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 240.2,
+          "arrival_bracket_lower_seconds": 220.1,
+          "arrival_bracket_upper_seconds": 240.2,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ],
+      "arrays_sha256": "952008afdb2e78042fa92d995f29b2ccc60e3f47c11cea5442799ac647c73749",
+      "ascii_source_adjusted_budget_residual_fraction": -0.13186835207885544,
+      "native_internal_source_adjusted_budget_residual_fraction": -0.13145469042122393,
+      "phase_display": {
+        "requested_seconds": 180.0,
+        "actual_seconds": 180.2,
+        "definition": "native phase3 water depth divided by sum of all three phase depths; display where total native h>=0.1m",
+        "water_fraction_wet_min": 0.22727272663132053,
+        "water_fraction_wet_max": 0.31428572239519004,
+        "empty_phase2_max_abs_depth_m": 0.0,
+        "initial_phase_volume_fractions": [
+          0.7,
+          0,
+          0.3
+        ],
+        "densities_kg_m3": [
+          2700,
+          1850,
+          1000
+        ]
+      }
+    },
+    "copdem_120_single_ref__sf0": {
+      "run_id": "copdem_120_single_ref__sf0",
+      "model_id": "ravaflow_single",
+      "scenario_id": "conditional_h15_mu0.15_xi1000",
+      "release_grid_volume_m3": 13877999.546813965,
+      "actual_end_seconds": 1801.2,
+      "last_saved_within_requested_1800_seconds": 1780.1,
+      "requested_horizon_seconds": 1800.0,
+      "cell_area_m2": 14400.0,
+      "within_requested_horizon": {
+        "maximum_saved_depth_m": 38.297000885009766,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 92.39439392089844,
+        "cumulative_saved_footprint_hge0p1_m2": 19670400.0
+      },
+      "through_actual_end": {
+        "maximum_saved_depth_m": 38.297000885009766,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 92.39439392089844,
+        "cumulative_saved_footprint_hge0p1_m2": 19728000.0
+      },
+      "native_saved_initial_volume_m3": 13877683.030700684,
+      "native_saved_final_volume_m3": 13733265.614680387,
+      "native_saved_initial_mass_kg": 29212522779.62494,
+      "native_saved_final_mass_kg": 28908524118.902214,
+      "total_domain_mass_change_fraction": -0.010406450104157305,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 441.3,
+          "arrival_bracket_lower_seconds": 420.9,
+          "arrival_bracket_upper_seconds": 441.3,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ],
+      "arrays_sha256": "80cb48f5093a1c963f62a58ea5e0cd3b805f83d9261efc2abcbb636140dce0fb",
+      "ascii_source_adjusted_budget_residual_fraction": -0.010406450104157281,
+      "native_internal_source_adjusted_budget_residual_fraction": -0.010262722407863845
+    },
+    "copdem_120_single_cfl025__sf0": {
+      "run_id": "copdem_120_single_cfl025__sf0",
+      "model_id": "ravaflow_single",
+      "scenario_id": "conditional_h15_mu0.15_xi1000",
+      "release_grid_volume_m3": 13877999.546813965,
+      "actual_end_seconds": 1800.9,
+      "last_saved_within_requested_1800_seconds": 1780.4,
+      "requested_horizon_seconds": 1800.0,
+      "cell_area_m2": 14400.0,
+      "within_requested_horizon": {
+        "maximum_saved_depth_m": 35.04999923706055,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 53.25605392456055,
+        "cumulative_saved_footprint_hge0p1_m2": 19296000.0
+      },
+      "through_actual_end": {
+        "maximum_saved_depth_m": 35.04999923706055,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 53.25605392456055,
+        "cumulative_saved_footprint_hge0p1_m2": 19339200.0
+      },
+      "native_saved_initial_volume_m3": 13877683.030700684,
+      "native_saved_final_volume_m3": 13660732.838147879,
+      "native_saved_initial_mass_kg": 29212522779.62494,
+      "native_saved_final_mass_kg": 28755842624.301285,
+      "total_domain_mass_change_fraction": -0.01563302693056612,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 480.7,
+          "arrival_bracket_lower_seconds": 461.0,
+          "arrival_bracket_upper_seconds": 480.7,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ],
+      "arrays_sha256": "bf13f28120ef77c6852e6ca22e2703bf53a43d11ff8198f34bd38ad46af9ca72",
+      "ascii_source_adjusted_budget_residual_fraction": -0.015633026930566164,
+      "native_internal_source_adjusted_budget_residual_fraction": -0.01551240042328884
+    },
+    "copdem_60_single_ref__sf0": {
+      "run_id": "copdem_60_single_ref__sf0",
+      "model_id": "ravaflow_single",
+      "scenario_id": "conditional_h15_mu0.15_xi1000",
+      "release_grid_volume_m3": 13878000.0,
+      "actual_end_seconds": 1801.4,
+      "last_saved_within_requested_1800_seconds": 1780.5,
+      "requested_horizon_seconds": 1800.0,
+      "cell_area_m2": 3600.0,
+      "within_requested_horizon": {
+        "maximum_saved_depth_m": 55.362998962402344,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 59.596336364746094,
+        "cumulative_saved_footprint_hge0p1_m2": 9172800.0
+      },
+      "through_actual_end": {
+        "maximum_saved_depth_m": 55.362998962402344,
+        "maximum_saved_horizontal_speed_hge0p1_m_s": 59.596336364746094,
+        "cumulative_saved_footprint_hge0p1_m2": 9201600.0
+      },
+      "native_saved_initial_volume_m3": 13878000.0,
+      "native_saved_final_volume_m3": 15473397.581169102,
+      "native_saved_initial_mass_kg": 29213190000.0,
+      "native_saved_final_mass_kg": 32571501908.360962,
+      "total_domain_mass_change_fraction": 0.11495875350692475,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 560.8,
+          "arrival_bracket_lower_seconds": 540.1,
+          "arrival_bracket_upper_seconds": 560.8,
+          "evaluation_end_time_seconds": 1801.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.4,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ],
+      "arrays_sha256": "a4b6c9b7d636131325f9cb4e87d5b662ed56d2e5bf2ef0c495fe68ad93f7c264",
+      "ascii_source_adjusted_budget_residual_fraction": 0.11495875350692485,
+      "native_internal_source_adjusted_budget_residual_fraction": 0.11505728491137052
+    }
+  },
+  "q2_mapped_runs": [
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "scenario_id": "q2r3-p0000-S-linear__geomv2_60m",
+      "base_scenario_id": "q2r3-p0000-S-linear",
+      "upstream_model_id": "q2r3_S_v1",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "release_mapping_version": "q2-r3-release-v2-spatial-copdem-v1",
+      "upstream_onset_status": "never_crossed",
+      "if_released_propagation": true,
+      "release_grid_volume_m3": 51755728.59264966,
+      "bulk_density_kg_m3": 1298.4352126854276,
+      "free_water_volume_fraction": 0,
+      "release_material_volume_fractions": {
+        "free_water": 0,
+        "ice": 0.7860711089818129,
+        "rock": 0.2139288910181871
+      },
+      "ascii_budget_residual_fraction": 0.009472096474490144,
+      "native_internal_budget_residual_fraction": 0.009477836756583218,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 180.2,
+          "arrival_bracket_lower_seconds": 161.1,
+          "arrival_bracket_upper_seconds": 180.2,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ]
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "scenario_id": "q2r3-p0036-S_T-linear__geomv2_120m",
+      "base_scenario_id": "q2r3-p0036-S_T-linear",
+      "upstream_model_id": "q2r3_ST_v1",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "release_mapping_version": "q2-r3-release-v2-spatial-copdem-v1",
+      "upstream_onset_status": "interval_crossing",
+      "if_released_propagation": false,
+      "release_grid_volume_m3": 31184139.128429696,
+      "bulk_density_kg_m3": 2158.626225168872,
+      "free_water_volume_fraction": 0,
+      "release_material_volume_fractions": {
+        "free_water": 0,
+        "ice": 0.3036308327712439,
+        "rock": 0.6963691672287561
+      },
+      "ascii_budget_residual_fraction": -0.003973499594596741,
+      "native_internal_budget_residual_fraction": -0.003883772359221106,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 260.1,
+          "arrival_bracket_lower_seconds": 240.6,
+          "arrival_bracket_upper_seconds": 260.1,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.5,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ]
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "scenario_id": "q2r3-p0036-S_T-linear__geomv2_60m",
+      "base_scenario_id": "q2r3-p0036-S_T-linear",
+      "upstream_model_id": "q2r3_ST_v1",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "release_mapping_version": "q2-r3-release-v2-spatial-copdem-v1",
+      "upstream_onset_status": "interval_crossing",
+      "if_released_propagation": false,
+      "release_grid_volume_m3": 31184139.128429696,
+      "bulk_density_kg_m3": 2158.626225168872,
+      "free_water_volume_fraction": 0,
+      "release_material_volume_fractions": {
+        "free_water": 0,
+        "ice": 0.3036308327712439,
+        "rock": 0.6963691672287561
+      },
+      "ascii_budget_residual_fraction": 0.016631891235469775,
+      "native_internal_budget_residual_fraction": 0.01665052496706515,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 240.7,
+          "arrival_bracket_lower_seconds": 221.0,
+          "arrival_bracket_upper_seconds": 240.7,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.2,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ]
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear__sf0",
+      "scenario_id": "q2r3-p0000-S-linear",
+      "base_scenario_id": "q2r3-p0000-S-linear",
+      "upstream_model_id": "q2r3_S_v1",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "release_mapping_version": "q4-r3-q2-mapped-release-v1",
+      "upstream_onset_status": "never_crossed",
+      "if_released_propagation": true,
+      "release_grid_volume_m3": 559400.4333615303,
+      "bulk_density_kg_m3": 1298.4352126854276,
+      "free_water_volume_fraction": 0,
+      "release_material_volume_fractions": {
+        "free_water": 0,
+        "ice": 0.7860711089818129,
+        "rock": 0.2139288910181871
+      },
+      "ascii_budget_residual_fraction": 0.21153363221025298,
+      "native_internal_budget_residual_fraction": 0.2137291719394257,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.1,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.1,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.1,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.1,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.1,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.1,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.1,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ]
+    },
+    {
+      "run_id": "q2map60_q2r3_p0036_S_T_linear__sf0",
+      "scenario_id": "q2r3-p0036-S_T-linear",
+      "base_scenario_id": "q2r3-p0036-S_T-linear",
+      "upstream_model_id": "q2r3_ST_v1",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "release_mapping_version": "q4-r3-q2-mapped-release-v1",
+      "upstream_onset_status": "interval_crossing",
+      "if_released_propagation": false,
+      "release_grid_volume_m3": 1348211.813735962,
+      "bulk_density_kg_m3": 2158.626225168872,
+      "free_water_volume_fraction": 0,
+      "release_material_volume_fractions": {
+        "free_water": 0,
+        "ice": 0.3036308327712439,
+        "rock": 0.6963691672287561
+      },
+      "ascii_budget_residual_fraction": 0.1261301505592862,
+      "native_internal_budget_residual_fraction": 0.12716325431953648,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.7,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 1380.1,
+          "arrival_bracket_lower_seconds": 1360.5,
+          "arrival_bracket_upper_seconds": 1380.1,
+          "evaluation_end_time_seconds": 1801.7,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.7,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.7,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.7,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.7,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1801.7,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ]
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "scenario_id": "q2r3-p0072-S_H-linear",
+      "base_scenario_id": "q2r3-p0072-S_H-linear",
+      "upstream_model_id": "q2r3_SH_v1",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "release_mapping_version": "q4-r3-q2-mapped-release-v1",
+      "upstream_onset_status": "never_crossed",
+      "if_released_propagation": true,
+      "release_grid_volume_m3": 5100006.872102377,
+      "bulk_density_kg_m3": 1293.0582379996958,
+      "free_water_volume_fraction": 0,
+      "release_material_volume_fractions": {
+        "free_water": 0,
+        "ice": 0.7890867986541247,
+        "rock": 0.21091320134587532
+      },
+      "ascii_budget_residual_fraction": 0.1163845256857194,
+      "native_internal_budget_residual_fraction": 0.11665465524406685,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 820.6,
+          "arrival_bracket_lower_seconds": 801.1,
+          "arrival_bracket_upper_seconds": 820.6,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1800.9,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ]
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "scenario_id": "q2r3-p0255-S_T_H-linear",
+      "base_scenario_id": "q2r3-p0255-S_T_H-linear",
+      "upstream_model_id": "q2r3_STH_v1",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "release_mapping_version": "q4-r3-q2-mapped-release-v1",
+      "upstream_onset_status": "interval_crossing",
+      "if_released_propagation": false,
+      "release_grid_volume_m3": 1255514.6186828613,
+      "bulk_density_kg_m3": 1708.4637149935038,
+      "free_water_volume_fraction": 0,
+      "release_material_volume_fractions": {
+        "free_water": 0,
+        "ice": 0.5561056001158139,
+        "rock": 0.4438943998841861
+      },
+      "ascii_budget_residual_fraction": 0.1228968046580173,
+      "native_internal_budget_residual_fraction": 0.12402818732653524,
+      "target_responses": [
+        {
+          "target_id": "paper_port_symbol",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1802.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "paper_junction",
+          "arrival_status": "arrived",
+          "travel_time_seconds": 1420.5,
+          "arrival_bracket_lower_seconds": 1400.1,
+          "arrival_bracket_upper_seconds": 1420.5,
+          "evaluation_end_time_seconds": 1802.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1443180803",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1802.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746552",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1802.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746559",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1802.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1552746560",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1802.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        },
+        {
+          "target_id": "osm_way_1553369440",
+          "arrival_status": "not_arrived_by_horizon",
+          "travel_time_seconds": null,
+          "arrival_bracket_lower_seconds": null,
+          "arrival_bracket_upper_seconds": null,
+          "evaluation_end_time_seconds": 1802.0,
+          "requested_horizon_seconds": 1800.0,
+          "domain_affected_before_arrival": false
+        }
+      ]
+    }
+  ],
+  "source_files": [
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v4/bundle.json",
+      "sha256": "9ae2ac6e93d6972b351f76fd1a441b5d6a670f7ffb842426bc1feeecc326fbf0"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/model_runs.csv",
+      "sha256": "b9de45782efbf3d6864cefbdb1419f1c1fffe2abea507baa19b1201d408d4426"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/comparison_metrics.csv",
+      "sha256": "3afac40a566a32c1bf6cbaa56dab4c85d1a3d430e866d079646452321f56b1f2"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/target_arrivals.csv",
+      "sha256": "bdffab7ac731534250e5965793848cc4cffc310454720ce7651cc6067a4265e4"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_fields.json",
+      "sha256": "b6d793011f2ac5f13c41230869ae27d1897e794c66be4618fa0c4f843d914b03"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/domain_sensitivity_comparison.json",
+      "sha256": "abccd80e7a88d2c8e95a2e575edc1d4cb8bf00ebb86f1aed7d730f1f3229c563"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/composite_phase_comparison.json",
+      "sha256": "e91d3d78fc9c092324ca2b637ef8b17c59abee2699a6ea2fbc3143bb2b95323c"
+    }
+  ],
+  "pending_root_outputs": [
+    "track_b/paper/scripts/q4_plot_results.py",
+    "track_b/paper/figures/q4/process_fullmask_st120.pdf",
+    "track_b/paper/figures/q4/model_comparison.pdf"
+  ]
+}

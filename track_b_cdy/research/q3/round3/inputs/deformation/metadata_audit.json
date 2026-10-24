@@ -1,0 +1,270 @@
+{
+  "sources": [
+    {
+      "file": "m1688868/data_repository/data/Agoyama.csv",
+      "sha256": "e467867fbf7d40683bf1c77710e20dfc76f87fde1eb28d5c2f251c5a9f25c7cc",
+      "metadata_lines_1_7": [
+        "name of site: Agoyama",
+        "\"data source: Daily values have been extracted from figure 4 in Hayashi, S. & Yamamori, T. Forecast of time-to-slope failure by the a-tr method. Landslides 28 (2), 1-8 (1991), https://doi.org/10.3313/jls1964.28.2_1 using the software Engauge Digitizer (Mitchell, M., Muftakhidinov, B. & Winchen, T. et al., \"\"Engauge Digitizer Software.\"\", webpage: http://markummitchell.github.io/engauge-digitizer, last accessed: September 29, 2022, latest release: https://doi.org/10.5281/zenodo.3941227).\"",
+        "monitoring technique: unknown",
+        "data resolution: 1 d",
+        "approximate failed volume: unknown",
+        "time of failure: 1972-12-02",
+        "data including units below"
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Arvigo.csv",
+      "sha256": "18785771d32f34f8f33e4f4149634861592fcf1aeaa6c2da0dd4480a755bf829",
+      "metadata_lines_1_7": [
+        "name of site: Arvigo",
+        "data source: Original raw data have been made available by Ruedi Krähenbühl and Floriano Beffa who measured the data.",
+        "monitoring technique: telejointmeter",
+        "data resolution: 1 h",
+        "approximate failed volume: 200,000 m³",
+        "time of failure: 2007-05-28 20:00",
+        "data below. Displacement unit: mm"
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Galterengraben.csv",
+      "sha256": "28a8636c45e9b335e0afbb533060a7089a861449c3dc702e6d7720dd25cf6584",
+      "metadata_lines_1_7": [
+        "name of site: Galterengraben",
+        "data source: Original raw data have been made available by Geopraevent AG (Lorenz Meier) and the Tafers municipality /canton Fribourg.",
+        "monitoring technique: telejointmeter",
+        "data resolution: 15 min",
+        "approximate failed volume: 250,000 m³",
+        "time of failure: 2016-04-24 22:15",
+        "data below. Displacement unit: mm"
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Grabengufer_gnss.csv",
+      "sha256": "864bb84bd4ebbff81ea9a440fc909761acd02e5690199cd631c510b76a496ede",
+      "metadata_lines_1_7": [
+        "name of site: Grabengufer",
+        "data source: Original raw data are taken from Beutel, J. et al. Kinematic observations of the mountain cryosphere using in-situ GNSS instruments: in review (Earth Syst. Sci. Data Discuss. [preprint], 2021). The GNSS post processing to solve to position data has been made by Jan Beutel.",
+        "monitoring technique: GNSS",
+        "data resolution: 1 h",
+        "approximate failed volume: 500 m³",
+        "time of failure: 2020-05-17 01:16",
+        "data below. Position (north, east and height) in m"
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Grabengufer_inclinometer.csv",
+      "sha256": "058b569feb4cc8fc31f9a39780af1b68d420c69f4f932e4d4f69b951901d985a",
+      "metadata_lines_1_7": [
+        "name of site: Grabengufer",
+        "data source: Original raw data are taken from Beutel, J. et al. Kinematic observations of the mountain cryosphere using in-situ GNSS instruments: in review (Earth Syst. Sci. Data Discuss. [preprint], 2021). The post processing to extract inclinometer data has been made by Jan Beutel.",
+        "monitoring technique: inclinometer",
+        "data resolution: 2 min",
+        "approximate failed volume: 500 m³",
+        "time of failure: 2020-05-17 01:16",
+        "data below. Tilt (north and west) in degree"
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Hogarth.csv",
+      "sha256": "12ab82e3a463cfc7a8955fd3fdb5728425f8ed23ce9e53281dda625290f23a00",
+      "metadata_lines_1_7": [
+        "name of site: Hogarth",
+        "\"data source: Daily values have been extracted from figure 8 in Brawner, C. O. & Stacey, P. F. in Hogarth pit slope failure, Ontario, Canada (ed.Voight, B.) Rockslides and Avalanches, 2 - Engineering Sites, Vol. 14 of Developments in Geotechnical Engineering 691-707 (Elsevier, 1979). using the software Engauge Digitizer (Mitchell, M., Muftakhidinov, B. & Winchen, T. et al., \"\"Engauge Digitizer Software.\"\", webpage: http://markummitchell.github.io/engauge-digitizer, last accessed: September 29, 2022, latest release: https://doi.org/10.5281/zenodo.3941227).\"",
+        "monitoring technique: extensometer",
+        "data resolution: 1 d",
+        "approximate failed volume: 200,000 m³",
+        "time of failure: 1975-06-23",
+        "data below. Displacement unit: feet"
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Kagemori.csv",
+      "sha256": "5f2761940867077f954a92a71514f3ed85f21613bb5dabab2f19ce92e2457e7a",
+      "metadata_lines_1_7": [
+        "name of site: Kagemori",
+        "\"data source: Daily values have been extracted from figure 7a-e in Yamaguchi, U. & Shimotani, T. A case study of slope failure in a limestone quarry. International Journal of Rock Mechanics and Mining Sciences & Geomechanics Abstracts 23 (1), 95-104 (1986). https://doi.org/10.1016/0148-9062(86)91670-0. using the software Engauge Digitizer (Mitchell, M., Muftakhidinov, B. & Winchen, T. et al., \"\"Engauge Digitizer Software.\"\", webpage: http://markummitchell.github.io/engauge-digitizer, last accessed: September 29, 2022, latest release: https://doi.org/10.5281/zenodo.3941227).\"",
+        "monitoring technique: measuring tape",
+        "data resolution: 1 d",
+        "approximate failed volume: 300,000-400,000 m³",
+        "time of failure: 1973-09-20",
+        "data below. Displacement unit: mm"
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/La_Saxe.csv",
+      "sha256": "70517c2394b0c2bc9e50dd9887db4b147b7f27bf57652caf5c376b6f37b785ca",
+      "metadata_lines_1_7": [
+        "name of site: La Saxe",
+        "data source: Original raw data have been made available by the Aosta Valley Regional Office via Andrea Manconi and belong to the published articles Manconi, A. & Giordan, D. Landslide early warning based on failure forecast models: the example of the Mt. de La Saxe rockslide, northern Italy. Natural Hazards and Earth System Sciences 15 (7), 1639-1644 (2015). https://doi.org/10.5194/nhess-15-1639-2015. and Manconi, A. & Giordan, D. Landslide failure forecast in near-real-time. Geomatics, Natural Hazards and Risk 7 (2), 639-648 (2016). https://doi.org/10.1080/19475705.2014.942388.",
+        "monitoring technique: total station with reflectors",
+        "data resolution: 1 h",
+        "approximate failed volume: 500-1000 m³",
+        "time of failure: 2013-04-21 23:00",
+        "data below of targets B4, B6 and T8 below"
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Nevis-Bluff.csv",
+      "sha256": "ff0f80a9213e1f2fee3911df5d6ee101db86037463bb7809f38cbec3a5f1ea5b",
+      "metadata_lines_1_7": [
+        "name of site: Nevis Bluff",
+        "\"data source: Daily values have been extracted from figure 5 in Brown, I., Hittinger, M. & Goodman, R. Finite element study of the Nevis Bluff (New Zealand) rock slope failure. Rock Mechanics and Rock Engineering 12 (3-4), 231-245 (1980). https://doi.org/10.1007/BF01251027 using the software Engauge Digitizer (Mitchell, M., Muftakhidinov, B. & Winchen, T. et al., \"\"Engauge Digitizer Software.\"\", webpage: http://markummitchell.github.io/engauge-digitizer, last accessed: September 29, 2022, latest release: https://doi.org/10.5281/zenodo.3941227).\"",
+        "monitoring technique: survey markers",
+        "data resolution: 1 d",
+        "approximate failed volume: 32000 m³",
+        "time of failure: 1975-06-14",
+        "data below. Displacement unit: m"
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Ohto.csv",
+      "sha256": "aba240a39f244b1b2e22f401ee01f45694d079c585d3c336ca732d60ca535c20",
+      "metadata_lines_1_7": [
+        "name of site: Ohto",
+        "\"data source: Daily values have been extracted from figure 5 in Suwa, H., Mizuno, T. & Ishii, T. Prediction of a landslide and analysis of slide motion with reference to the 2004 Ohto slide in Nara, Japan. Geomorphology 124 (3-4), 157-163 (2010). https://doi.org/10.1016/j.geomorph.2010.05.003 using the software Engauge Digitizer (Mitchell, M., Muftakhidinov, B. & Winchen, T. et al., \"\"Engauge Digitizer Software.\"\", webpage: http://markummitchell.github.io/engauge-digitizer, last accessed: September 29, 2022, latest release: https://doi.org/10.5281/zenodo.3941227).\"",
+        "monitoring technique: extensometer",
+        "data resolution: 1 d",
+        "approximate failed volume: 200,000 m³",
+        "time of failure: 2004-08-10",
+        "data including unit below."
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Preonzo_extensometers.csv",
+      "sha256": "5d1ee01162b4f5a2b103962455d66e7d5e7aa39af6097add2c8b8de9b66b6f07",
+      "metadata_lines_1_7": [
+        "name of site: Preonzo",
+        "data source: Original raw data have been made available by the Dipartimento del Territorio/ Sezione Forestale Ticino (CH).",
+        "monitoring technique: extensometer",
+        "data resolution: 1 h",
+        "approximate failed volume: 210,000 m³",
+        "time of failure: 2012-05-15 02:45",
+        "data including unit below."
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Preonzo_reflectors.csv",
+      "sha256": "528104cf2ac0fd3368f863064e1a7130f5de25c801d0ebdeb90b015e2ac054fa",
+      "metadata_lines_1_7": [
+        "name of site: Preonzo",
+        "data source: Original raw data have been made available by the Dipartimento del Territorio/ Sezione Forestale Ticino (CH).",
+        "monitoring technique: total station with reflectors",
+        "data resolution: 20 min",
+        "approximate failed volume: 210,000 m³",
+        "time of failure: 2012-05-15 02:45",
+        "data including unit below."
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Ryan_Call_slope2.csv",
+      "sha256": "e67b9f8199b89da3525d8562fd44c1053130d1f7d7b572eca4bdec4217adf2b6",
+      "metadata_lines_1_7": [
+        "name of site: Ryan and Call slope 2",
+        "\"data source: Daily values have been extracted from figure 2 in Ryan, T. M. & Call, R. D. in Applications of rock mass monitoring for stability assessment of pit slope failure (eds Tillerson, J. R. & Wawersik) Rock mechanics 221-229 (Balkema, Rotterdam, 1992). using the software Engauge Digitizer (Mitchell, M., Muftakhidinov, B. & Winchen, T. et al., \"\"Engauge Digitizer Software.\"\", webpage: http://markummitchell.github.io/engauge-digitizer, last accessed: September 29, 2022, latest release: https://doi.org/10.5281/zenodo.3941227).\"",
+        "monitoring technique: EDM prisms",
+        "data resolution: 1 d",
+        "approximate failed volume: unknown",
+        "time of failure: 1990-07-26",
+        "data including unit below."
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Vaiont.csv",
+      "sha256": "f6a7fc8ecae1267c29550c03e11d583bb11f2c419f5e6e8be525647d8a46f8a4",
+      "metadata_lines_1_7": [
+        "name of site: Vaiont",
+        "\"data source: Daily values have been extracted from figure 4 in Nonveiller, E. The Vajont reservoir slope failure. Engineering Geology 24 (1-4), 493-512 (1987). https://doi.org/10.1016/0013-7952(87)90081-0. using the software Engauge Digitizer (Mitchell, M., Muftakhidinov, B. & Winchen, T. et al., \"\"Engauge Digitizer Software.\"\", webpage: http://markummitchell.github.io/engauge-digitizer, last accessed: September 29, 2022, latest release: https://doi.org/10.5281/zenodo.3941227).\"",
+        "monitoring technique: geodetic bench marks",
+        "data resolution: 1 d",
+        "approximate failed volume: 270-300 Mm³",
+        "time of failure: 1963-02-01",
+        "data including unit below."
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Veslemannen.csv",
+      "sha256": "3948beb9639a52ffd13737ff15ebbe06a9daf5aad63623e34a373e4cea0a130d",
+      "metadata_lines_1_7": [
+        "name of site: Veslemannen",
+        "data source: Original raw data can be downloaded from supplementary material ESM6 from Kristensen, L. et al. Movements, failure and climatic control of the Veslemannen rockslide, Western Norway. Landslides (2021). https://doi.org/10.1007/s10346-020-01609-x.",
+        "monitoring technique: GB InSAR",
+        "data resolution: 1-6 h",
+        "approximate failed volume: 54,000 m³",
+        "time of failure: 2019-09-05 19:00",
+        "data download link below."
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Weissmiess_camera.csv",
+      "sha256": "daa9f2fc4fdcbcab762f73ef3d2616342a95b81f07b12b84ed7c02f6b5e27a84",
+      "metadata_lines_1_7": [
+        "name of site: Weissmiess",
+        "data source: Original raw data have been made available by Geopraevent AG (Lorenz Meier) by courtesy of the Saas-Grund municipality (Bruno Ruppen).",
+        "monitoring technique: deformation camera",
+        "data resolution: 1 d",
+        "approximate failed volume: 200,000-300,000 m³",
+        "time of failure: 2017-09-10 06:00",
+        "data below. Velocity (!) unit: mPixel/24h (not displacement)"
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    },
+    {
+      "file": "m1688868/data_repository/data/Weissmiess_radar.csv",
+      "sha256": "7b3558c4b1bcf829d5f63f67576396b9cb767ce1cfa9e1125431a53e2cedbe8b",
+      "metadata_lines_1_7": [
+        "name of site: Weissmiess",
+        "data source: Original raw data have been made available by Geopraevent AG (Lorenz Meier) by courtesy of the Saas-Grund municipality (Bruno Ruppen).",
+        "monitoring technique: interferometric radar",
+        "data resolution: 1 h",
+        "approximate failed volume: 200,000-300,000 m³",
+        "time of failure: 2017-09-10 06:00",
+        "data below. Velocity (!) unit: mm/24h (not displacement)"
+      ],
+      "read_scope": "full CSV; one preregistered channel used; pre-label only; max trailing 180 days retained"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "m1688868/data_repository/data/Grabengufer_gnss.csv",
+      "reason": "header metres inconsistent with latitude/longitude-looking e,n values; inclino chosen instead"
+    },
+    {
+      "file": "m1688868/data_repository/data/Preonzo_reflectors.csv",
+      "reason": "same Preonzo physical event; extensometer chosen a priori"
+    },
+    {
+      "file": "m1688868/data_repository/data/Vaiont.csv",
+      "reason": "failure header 1963-02-01 conflicts with series until 1963-10-08; not silently corrected"
+    },
+    {
+      "file": "m1688868/data_repository/data/Veslemannen.csv",
+      "reason": "linked ESM6 acquired separately; see supplemental record"
+    },
+    {
+      "file": "m1688868/data_repository/data/Weissmiess_camera.csv",
+      "reason": "velocity mPixel/day; radar velocity chosen instead"
+    }
+  ],
+  "selection": "fixed named channels recorded in code; not performance selected; multi-sensor Brienz grouped; original archives retained",
+  "external_failure_phase": "published terminal/main catastrophic collapse, not first onset of any slow mechanical motion",
+  "timestamp_policy": "naive source clocks retained; only explicit UTC columns receive UTC, label-clock equivalence remains curator assumption; no fabricated UTC epoch",
+  "label_resolution": "minute brackets are display precision only, unknown physical/proxy bias separate; day labels entire source day",
+  "post_failure_rule": "strict before label lower; raw later measurements retained only in archive",
+  "max_trailing_days": 180
+}

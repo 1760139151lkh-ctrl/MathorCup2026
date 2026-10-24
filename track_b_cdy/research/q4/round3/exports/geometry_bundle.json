@@ -1,0 +1,163 @@
+{
+  "bundle_version": "q4-r3-spatial-copdem-v1",
+  "producer_question": "q4",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "evaluation_stratum": "conditional_scenario",
+  "files": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "role": "primary_dem_60m"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_inputs_60m.npz",
+      "bytes": 241460,
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915",
+      "role": "model_arrays_60m"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_120m.tif",
+      "bytes": 39968,
+      "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+      "role": "primary_dem_120m"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_inputs_120m.npz",
+      "bytes": 55797,
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+      "role": "model_arrays_120m"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "role": "computational_geometry_candidates"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_paths.csv",
+      "bytes": 101231,
+      "sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e",
+      "role": "paths_60m_csv"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/terrain_bundle.json",
+      "bytes": 4745,
+      "sha256": "c7ce3a11c0dd5637f39bcb1fad81f3dbf08238045c825b41f80d00f14422ca0e",
+      "role": "terrain_bundle"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_terrain_paths.png",
+      "bytes": 370168,
+      "sha256": "0de4a3e0cfa492e58ce8b35ac66e4e1f54b4f48ef4c5454d0da4f0ea678dac1d",
+      "role": "terrain_path_figure"
+    }
+  ],
+  "limitations": [
+    "original paper datum and positional accuracy",
+    "actual failure polygon",
+    "actual bridge/facility identity at paper point",
+    "statistical independence of supplied DEM from Copernicus",
+    "DEM route is not observed event trajectory; no bridge/facility equivalence accepted",
+    "No release thickness or initial speed inferred from NC; caller must supply scenarios"
+  ],
+  "source_centroid_utm": [
+    355385.80866987875,
+    3130026.4076751275
+  ],
+  "target_paper_utm": [
+    340981.5408349674,
+    3129214.004555992
+  ],
+  "grids": {
+    "60": {
+      "shape": [
+        154,
+        300
+      ],
+      "resolution_m": 60,
+      "crs": "EPSG:32645",
+      "affine": [
+        60.0,
+        0.0,
+        339480.0,
+        0.0,
+        -60.0,
+        3136920.0
+      ],
+      "bounds": [
+        339480.0,
+        3127680.0,
+        357480.0,
+        3136920.0
+      ],
+      "valid_cells": 46200,
+      "source_cells": 257,
+      "source_raster_area_m2": 925200,
+      "source_centroid_utm": [
+        355385.80866987875,
+        3130026.4076751275
+      ],
+      "source_rc": [
+        114,
+        265
+      ],
+      "target_paper_utm": [
+        340981.5408349674,
+        3129214.004555992
+      ],
+      "target_rc": [
+        128,
+        25
+      ],
+      "dem_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif",
+      "arrays_path": "track_b/research/q4/round3/results/spatial_inputs_60m.npz"
+    },
+    "120": {
+      "shape": [
+        77,
+        150
+      ],
+      "resolution_m": 120,
+      "crs": "EPSG:32645",
+      "affine": [
+        120.0,
+        0.0,
+        339480.0,
+        0.0,
+        -120.0,
+        3136920.0
+      ],
+      "bounds": [
+        339480.0,
+        3127680.0,
+        357480.0,
+        3136920.0
+      ],
+      "valid_cells": 11550,
+      "source_cells": 67,
+      "source_raster_area_m2": 964800,
+      "source_centroid_utm": [
+        355385.80866987875,
+        3130026.4076751275
+      ],
+      "source_rc": [
+        57,
+        132
+      ],
+      "target_paper_utm": [
+        340981.5408349674,
+        3129214.004555992
+      ],
+      "target_rc": [
+        64,
+        12
+      ],
+      "dem_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_120m.tif",
+      "arrays_path": "track_b/research/q4/round3/results/spatial_inputs_120m.npz"
+    }
+  }
+}

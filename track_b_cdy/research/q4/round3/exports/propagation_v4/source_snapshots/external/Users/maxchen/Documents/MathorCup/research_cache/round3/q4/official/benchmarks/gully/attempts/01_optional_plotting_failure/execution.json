@@ -1,0 +1,38 @@
+{
+  "benchmark": "gully",
+  "container_id": "ad84a77a0ea9eb7447f61eb2e08756f00665429b7c90f8744a957efd918fd8c7",
+  "base_image_id": "sha256:0e0a0fc6d18feda9db1590da249ac93e8d5abfea8f4c3c0c849ce512b5ef8982",
+  "published_solver_image_id": null,
+  "started_utc": "2026-10-24T08:04:07.751735+00:00",
+  "elapsed_seconds": 9.45299506187439,
+  "returncode": 1,
+  "command": [
+    "docker",
+    "exec",
+    "-e",
+    "CLAW=/opt/clawpack",
+    "-e",
+    "PYTHONPATH=/opt/clawpack",
+    "-e",
+    "GRASS_ADDON_BASE=/opt/grass-addons",
+    "-e",
+    "OMP_NUM_THREADS=2",
+    "-e",
+    "MPLBACKEND=Agg",
+    "-w",
+    "/work/q4/official/benchmarks/gully",
+    "mathorcup-r3-toolchain-build",
+    "bash",
+    "-lc",
+    "set -e; mkdir -p /work/q4/official/benchmarks/gully; cd /work/q4/official/benchmarks/gully; cp /opt/clawpack/dclaw/examples/gully/{setrun.py,setinput.py,xdclaw} .; python3 setinput.py; python3 setrun.py; ./xdclaw"
+  ],
+  "copy_command": [
+    "docker",
+    "cp",
+    "mathorcup-r3-toolchain-build:/work/q4/official/benchmarks/gully/.",
+    "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/benchmarks/gully"
+  ],
+  "copy_returncode": 0,
+  "log_sha256": "ae566f10fe5cf74b0832744c3aaa61f51bbb100e5374ddf4fc034a185a71401c",
+  "role": "external_numerical_benchmark_not_local_event_validation"
+}

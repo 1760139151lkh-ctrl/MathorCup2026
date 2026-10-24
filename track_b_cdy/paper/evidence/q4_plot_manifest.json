@@ -1,0 +1,158 @@
+{
+  "schema_version": "q4-paper-plot-manifest-v1",
+  "command": "track_b/.venv/bin/python track_b/paper/scripts/q4_plot_results.py",
+  "source_files": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "2d3ffbb57ddec47179c56d8ea6e5a540dfc857019dabd7b28ce7584f02769fe1",
+      "bytes": 1566998,
+      "role": "frozen native saved process fields",
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "bound_by_repo_index": {
+        "path": "track_b/research/q4/round3/results/official_fields.json",
+        "sha256": "b6d793011f2ac5f13c41230869ae27d1897e794c66be4618fa0c4f843d914b03",
+        "bytes": 94708,
+        "role": "native field index"
+      }
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "243bdbee9dd186995f2323e71c48c10bb461ab67199cdf33e1e97d60ab3f025c",
+      "bytes": 3092369,
+      "role": "frozen native saved process fields",
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "bound_by_repo_index": {
+        "path": "track_b/research/q4/round3/results/official_fields.json",
+        "sha256": "b6d793011f2ac5f13c41230869ae27d1897e794c66be4618fa0c4f843d914b03",
+        "bytes": 94708,
+        "role": "native field index"
+      }
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "ede42f97b79145f94b0eacb00908d49dc1f72f91d6255e9d58d6d30a3148bd7f",
+      "bytes": 4008319,
+      "role": "frozen native saved process fields",
+      "run_id": "dclaw_ref_extended120",
+      "bound_by_repo_index": {
+        "path": "track_b/research/q4/round3/results/official_fields.json",
+        "sha256": "b6d793011f2ac5f13c41230869ae27d1897e794c66be4618fa0c4f843d914b03",
+        "bytes": 94708,
+        "role": "native field index"
+      }
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_120__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "sha256": "20ce900fc6f01c5e822dd11437d32b476da3fa25567b2d14ceb02d5f641f128b",
+      "bytes": 2079959,
+      "role": "frozen native saved process fields",
+      "run_id": "composite_RI_water_120__sf0",
+      "bound_by_repo_index": {
+        "path": "track_b/research/q4/round3/results/official_fields.json",
+        "sha256": "b6d793011f2ac5f13c41230869ae27d1897e794c66be4618fa0c4f843d914b03",
+        "bytes": 94708,
+        "role": "native field index"
+      }
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_inputs_120m.npz",
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+      "bytes": 55797,
+      "role": "registered common terrain grid"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/computational_geometries.geojson",
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "bytes": 89016,
+      "role": "candidate target geometry"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "track_b/paper/figures/q4/process_fullmask_st120.pdf",
+      "sha256": "b3c71659377eaffded804050ab01a0f4dbf808bb732d8e0de7997109f9b3109c",
+      "bytes": 129416,
+      "role": "paper figure PDF"
+    },
+    {
+      "path": "track_b/paper/figures/q4/process_fullmask_st120.png",
+      "sha256": "ce6eba5eaae53fb2466646f6648d8916090b3b1c6cef93f2d27a476f69b412ae",
+      "bytes": 194443,
+      "role": "300dpi visual review image"
+    },
+    {
+      "path": "track_b/paper/figures/q4/model_comparison.pdf",
+      "sha256": "4dbac02aeed059e11b14cccf7723bc69148ea0605abdef4332e1799a7f94053e",
+      "bytes": 161574,
+      "role": "paper figure PDF"
+    },
+    {
+      "path": "track_b/paper/figures/q4/model_comparison.png",
+      "sha256": "bdf27d7f23957e15670ea5846457cd0c1ba6e88d7c612ccf323183199bf80302",
+      "bytes": 274282,
+      "role": "300dpi visual review image"
+    }
+  ],
+  "main_process_frames": [
+    {
+      "requested_time_s": 0,
+      "actual_time_s": 0.0,
+      "max_saved_depth_m": 32.321998596191406,
+      "wet_planar_area_km2": 0.9648
+    },
+    {
+      "requested_time_s": 180,
+      "actual_time_s": 180.6,
+      "max_saved_depth_m": 40.33700180053711,
+      "wet_planar_area_km2": 7.2576
+    },
+    {
+      "requested_time_s": 600,
+      "actual_time_s": 600.2,
+      "max_saved_depth_m": 22.73900032043457,
+      "wet_planar_area_km2": 10.44
+    },
+    {
+      "requested_time_s": 1800,
+      "actual_time_s": 1800.5,
+      "max_saved_depth_m": 28.365999221801758,
+      "wet_planar_area_km2": 13.3056
+    }
+  ],
+  "comparison_panels": [
+    {
+      "panel": "（a）ST 全源面：120 m",
+      "field": "max saved total depth for actual times <=1800s",
+      "last_selected_time_s": 1780.8,
+      "threshold_footprint_km2": 23.0112
+    },
+    {
+      "panel": "（b）ST 全源面：60 m",
+      "field": "max saved total depth for actual times <=1800s",
+      "last_selected_time_s": 1780.2,
+      "threshold_footprint_km2": 12.1608
+    }
+  ],
+  "target_markers_utm_km": {
+    "J": [
+      351.47641323709604,
+      3134.7464349620095
+    ],
+    "P": [
+      340.9815408349674,
+      3129.214004555992
+    ]
+  },
+  "font_file": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+  "comparison_horizon_seconds": 1800,
+  "scope": "Frozen conditional flow fields. ST panels use V31.184139Mm3; pressure/composite panels use distinct baseline V13.878Mm3. Geographic panel limits show common core; expanded pressure run solved larger domain.",
+  "threshold_depth_m": 0.1,
+  "target_buffer_radius_m": 100,
+  "pressure_color_scale": "SymLogNorm: linear0-1kPa, logarithmic1-600kPa",
+  "pressure_actual_time_s": 180.0,
+  "water_fraction_actual_time_s": 180.5,
+  "time_origin": "given bulk release",
+  "initiation_to_release_delay_seconds": null,
+  "independent_local_event_validation_count": 0,
+  "physical_model_runs_added": 0
+}

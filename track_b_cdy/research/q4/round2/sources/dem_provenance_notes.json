@@ -1,0 +1,505 @@
+{
+  "schema_version": "q4-r2-dem-provenance-v1",
+  "generated_at_utc": "2026-10-24T06:07:16.854267+00:00",
+  "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
+  "environment": {
+    "interpreter": "track_b/.venv/bin/python",
+    "python": "3.12.14",
+    "installed_packages": false
+  },
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+    "frozen_items": 565,
+    "binding_ref": "binding"
+  },
+  "scope": "Metadata/source trace only; no DEM comparison/synthetic experiment rerun; geometry-specific coverage remains parent task",
+  "semantics": {
+    "event_id": "B20260826_Chhochen",
+    "physical_phase": "background_terrain_provenance",
+    "time_utc": null,
+    "time_uncertainty": "Terrain acquisition/composite epoch unknown; XML processing clock has no timezone",
+    "space_object": {
+      "independent_dem_horizontal_crs": "EPSG:4326",
+      "nc_horizontal_crs": "EPSG:32645",
+      "event_geometry": "not accepted by this metadata subtask"
+    },
+    "variable_semantics": {
+      "variable": "elevation",
+      "units": "m",
+      "vertical_datum": "unknown for both",
+      "qc_policy": "metadata traceability; no correction/conditioning"
+    },
+    "available_time": null,
+    "forecast_reference_time": null,
+    "issue_time": null,
+    "valid_time": null,
+    "data_role": "exploration",
+    "evidence_status": "mixed local-chain-adoptable/product-epoch-datum-unknown",
+    "human_scientific_adoption": "pending"
+  },
+  "sources": {
+    "independent_dem": {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif",
+      "bytes": 8437119,
+      "sha256": "7b9e8e53282b2e91d5302e616840c802eda80a963ce0777ddc6da2b65c6db9af",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "All raster metadata/tags, CRS, units and namespaces; no DEM pixel reread/differencing",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "xml": {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif.xml",
+      "bytes": 5786,
+      "sha256": "80557f3241126bc525a27e30f6f94f55ebc19f98b6676ebd0596606bd531e8be",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete XML",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "aux": {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif.aux.xml",
+      "bytes": 2326,
+      "sha256": "8f6c82061d45641e5733a5f7d920d3fd10e028203282021de13ad18f3a80b98b",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete XML",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "tfw": {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tfw",
+      "bytes": 81,
+      "sha256": "5a3abc5a2ec97ca8f662558305229333c7b6d4a672f34416754622895e05831c",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "All six lines",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "nc": {
+      "path": "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+      "bytes": 362728,
+      "sha256": "0a57192a65557f052dbc0bfbca71687ad1d158d4edaa363f26b3d65f337f32c8",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "All global and variable attributes/dimensions; no numerical DEM comparison",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "audit_docs": {
+      "path": "track_b/audit/spatial/source_documentation.json",
+      "bytes": 34350,
+      "sha256": "b3e7770e812bc172d1ec6b5315338439bb29d607bb88a01366ee03c7731b34c1",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "DEM entries fully; source inventory scanned for terrain/NC documentation",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "audit_nc": {
+      "path": "track_b/audit/spatial/netcdf.json",
+      "bytes": 18481,
+      "sha256": "505f0e7abd035801ea8820ace6a9d1f3f6fc2eefd9cdf39566f3324f870ad089",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete NC audit entry",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "input_manifest": {
+      "path": "track_b/data/processed/spatial/source_manifest.json",
+      "bytes": 6984,
+      "sha256": "24de9976bcd0f011ff89617fbd66eb629834b792f76e15f454a2cf4fefac559d",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete source manifest",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "operations": {
+      "path": "track_b/data/processed/spatial/coordinate_operations.json",
+      "bytes": 10935,
+      "sha256": "dac32a3ff87d59d4a6e80585e42de2af846c6dbb05dbf56e41c457e7344e36fa",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "EPSG:4326 to 32645 operation and no-vertical-transform interpretation",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "prepare": {
+      "path": "track_b/scripts/prepare_spatial.py",
+      "bytes": 28934,
+      "sha256": "bd26dd1beef20d7e2c7f9522d5db5f264c25e00541c8bcd0e8019dfd046f4295",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Lines 205-231 and 272-327",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "policy": {
+      "path": "track_b/config/spatial_policy.json",
+      "bytes": 3432,
+      "sha256": "7bf25e43d64cdb72184282ca97fd2a8bd7c56e916ff7a219474d9dc455c180c7",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "DEM and NC sampling/vertical-datum policy",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "round1": {
+      "path": "track_b/research/q4/results/terrain_feasibility.json",
+      "bytes": 10272,
+      "sha256": "2071b8acc428286a93ee160a2563d48297fd204003ab1aadbae2e6bf1966ea2a",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete; pre-existing statistics reused without recomputation",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "dem_utm": {
+      "path": "track_b/data/processed/spatial/dem_utm45_30m.tif",
+      "bytes": 6623907,
+      "sha256": "eaf39d044af5580fb12b7b991bdadf4da54294f8f78a818c15fff0f6390c2e95",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Dataset/band tags, CRS and units",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "dem_nc_grid": {
+      "path": "track_b/data/processed/spatial/dem_on_nc_grid.tif",
+      "bytes": 68003,
+      "sha256": "dd4204378ba7740f45525994bb8cf158857126a7bb49aee908cc56d0981b1327",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Dataset/band tags, CRS and units",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "nc_export": {
+      "path": "track_b/data/processed/spatial/nc_dem_native_grid.tif",
+      "bytes": 67745,
+      "sha256": "51316ce445f89016d79dcbb5baa12e2444e6eef90448d4f46825cd9d77f80d20",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Dataset/band tags, CRS and units",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "paper": {
+      "path": "track_b/data/external/event_remote/jms_2026_uncorrected_proof.pdf",
+      "bytes": 924233,
+      "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "pypdf all-35-page keyword scan; full relevant PDF pages 7,8,17,31 read as extracted text; no new visual review/model validation",
+      "url": "https://jms.imde.ac.cn/en/article/pdf/preview/10.1007/s11629-026-1482-y.pdf",
+      "http_status": 200,
+      "version": "DOI 10.1007/s11629-026-1482-y; saved Uncorrected proof",
+      "metric_scope": "Original existing HTTP-log retrieval; current subtask rehashed local bytes, no redownload",
+      "retrieved_at_utc": "2026-10-24T03:42:04.722039+00:00",
+      "response_headers": {
+        "Content-Type": "application/pdf",
+        "Content-Length": "924233",
+        "Date": "Sat, 24 Oct 2026 11:23:40 GMT"
+      }
+    },
+    "http_log": {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/http_requests.json",
+      "bytes": 19178,
+      "sha256": "9a97fb331dfe398e70566f0229513bf27a915d46da9bd90bbf084bb6ff214ddc",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "JMS PDF/article request entries",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "prior_paper_reading": {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/paper_reading.json",
+      "bytes": 2154,
+      "sha256": "bd449fcdb0d4866eac16588c4be9eec8e10cd596049c9f10694a1949c7b025df",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete version/retrieval record; prior visual review not claimed as this subtask visual inspection",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "binding": {
+      "path": "track_b/research/q4/round2/workspace_binding.json",
+      "bytes": 734,
+      "sha256": "d4a48bb44ff15216f5b31ebba69977a6157a5e3ef1721084e5dde13782d7f30f",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete authoritative round2 binding",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "workspace_check": {
+      "path": "track_b/research/q4/round2/workspace_verification.json",
+      "bytes": 1805,
+      "sha256": "83feeee7732e784c4f614ea908bbf687280599cb0a12c9be91089026b346fb4b",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete existing five-check passed report; not rerun/replaced by this subtask",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    }
+  },
+  "local_metadata": {
+    "independent_dem": {
+      "upstream_named_file": "GeBainiDEM_30M.tif",
+      "lineage_text": "Clip GeBainiDEM_30M.tif \"85.189755774642 28.2455345097983 85.6941438166103 28.5643822845793\" Y:\\20260826吉隆口岸泥石流\\02基础地理数据\\DEM\\DEM.tif New_Shapefile -3.276700e+04 NONE MAINTAIN_EXTENT",
+      "process_attributes": {
+        "ToolSource": "c:\\program files (x86)\\arcgis\\desktop10.8\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\Clip",
+        "Date": "20260826",
+        "Time": "171843"
+      },
+      "date_fields": {
+        "CreaDate": "20260826",
+        "CreaTime": "17184300",
+        "SyncDate": "20260826",
+        "SyncTime": "17184300",
+        "ModDate": "20260826",
+        "ModTime": "17184300",
+        "mdDateSt": "20260826"
+      },
+      "directory_date_token": "2026-08-26",
+      "processing_clock_without_timezone": "2026-08-26T17:18:43",
+      "processing_time_utc": null,
+      "acquisition_time_utc": null,
+      "composite_interval_utc": null,
+      "vertical_wkt_evidence": "VERTCS[unknown], VDATUM[unknown], Vertical_Shift=0, Direction=1, UNIT=Meter",
+      "geotiff": {
+        "dataset_tags": {
+          "AREA_OR_POINT": "Area",
+          "DataType": "Generic"
+        },
+        "band_tags": {
+          "RepresentationType": "ATHEMATIC",
+          "STATISTICS_COVARIANCES": "1001579.840416191",
+          "STATISTICS_MAXIMUM": "7254.4770507813",
+          "STATISTICS_MEAN": "4538.3892591848",
+          "STATISTICS_MINIMUM": "1620.91015625",
+          "STATISTICS_SKIPFACTORX": "1",
+          "STATISTICS_SKIPFACTORY": "1",
+          "STATISTICS_STDDEV": "1000.7896084673"
+        },
+        "namespace_tags": {
+          "IMAGE_STRUCTURE": {
+            "COMPRESSION": "LZW",
+            "INTERLEAVE": "BAND"
+          },
+          "Esri": {
+            "PyramidResamplingType": "NEAREST"
+          },
+          "DERIVED_SUBDATASETS": {
+            "DERIVED_SUBDATASET_1_NAME": "DERIVED_SUBDATASET:LOGAMPLITUDE:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/04_B赛道/07_DEM（2026-08-26）/DEM.tif",
+            "DERIVED_SUBDATASET_1_DESC": "log10 of amplitude of input bands from /Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/04_B赛道/07_DEM（2026-08-26）/DEM.tif"
+          }
+        },
+        "crs": "EPSG:4326",
+        "units": [
+          "metre"
+        ]
+      },
+      "tfw_lines": [
+        "0.0002777467",
+        "0.0000000000",
+        "0.0000000000",
+        "-0.0002777420",
+        "85.1898946480",
+        "28.5642434136"
+      ],
+      "tfw_scope": "Affine x/y spacing/rotation/pixel centre only; no product/epoch/vertical reference",
+      "aux_scope": "Generic type plus histogram/statistics only; no product/sensor/epoch"
+    },
+    "nc": {
+      "global_attributes": {
+        "Conventions": "CF-1.8",
+        "title": "Glacier topographic and dynamic drivers",
+        "source": "dem_30m.tif, slope_30m.tif, thickness_30m.tif",
+        "velocity_source": "ITS_LIVE v2.1",
+        "velocity_resampling": "bilinear to the 30 m reference grid",
+        "ice_thickness_source": "https://www.research-collection.ethz.ch/entities/researchdata/23bc92d0-aa11-48b8-b6ca-69c5dcf0de6b",
+        "author": "zhaohongyu (zhaohongyu@swpu.edu.cn); zhang tong (tzhang@bnu.edu.cn)"
+      },
+      "dimensions": {
+        "y": 138,
+        "x": 145
+      },
+      "dem_attributes": {
+        "_FillValue": null,
+        "long_name": "digital elevation model",
+        "units": "m",
+        "grid_mapping": "spatial_ref"
+      },
+      "spatial_ref_attributes": {
+        "spatial_ref": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+        "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+        "GeoTransform": "353442.5 30.0 0.0 3132057.5 0.0 -30.0"
+      },
+      "no_time_dimension": true,
+      "global_time_date_history_keys": [],
+      "all_variable_attribute_scan": "dem has no date/epoch/source-product/vertical-datum fields; time descriptions occur on velocity variables only"
+    }
+  },
+  "bounded_external_trace": {
+    "new_dem_downloads": 0,
+    "authors_contacted": false,
+    "new_source_bodies_saved": 0,
+    "original_paper": {
+      "source_ref": "paper",
+      "read_pages": [
+        7,
+        8,
+        17,
+        31
+      ],
+      "supported_summary": "The reconstruction reports Copernicus 30 m and HMA 8 m elevation data; Copernicus supplies path/profile information and topographic sections. The data declaration offers datasets on request.",
+      "bridge_to_local_filenames": null,
+      "local_product_identity_adopted": false,
+      "limitation": "No filename, product-version, tile or checksum link to either supplied DEM. The paper does not establish their epoch/datum."
+    },
+    "searches": [
+      {
+        "logged_at_utc": "2026-10-24T06:07:16.854267+00:00",
+        "queries": [
+          "\"GeBainiDEM_30M\"",
+          "\"Glacier topographic and dynamic drivers\" \"Langtang\"",
+          "\"Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal\" DEM"
+        ],
+        "result": "No official source record linked to exact local inputs; unrelated results not adopted",
+        "http_status": null,
+        "bytes": null,
+        "sha256": null
+      },
+      {
+        "logged_at_utc": "2026-10-24T06:07:16.854267+00:00",
+        "queries": [
+          "\"GeBainiDEM_30M.tif\"",
+          "\"Glacier topographic and dynamic drivers\" \"dem_30m.tif\""
+        ],
+        "result": "Empty search results; not evidence that no original product exists",
+        "http_status": null,
+        "bytes": null,
+        "sha256": null
+      }
+    ],
+    "search_transport_null_reason": "web search exposes no raw HTTP body/status/byte hash; no search result adopted as technical evidence",
+    "stop_reason": "Provenance ends at unqualified upstream filenames. Generic product documentation would not identify these exact files; bounded trace ends with explicit unknowns."
+  },
+  "outcomes": {
+    "adoptable_with_explicit_role": [
+      "Independent DEM recorded Clip input name, processing clock, horizontal CRS and metre units",
+      "NC supplied grid/units and input filenames; project local coordinate-sort/export and bilinear derivatives",
+      "Independent DEM provisional regional/candidate-corridor background diagnostics after geometry-specific coverage review",
+      "NC terrain within-grid parameter consistency/descriptive checks"
+    ],
+    "excluded_with_reason": [
+      "Directory/Clip metadata date as observation date: dates processing an existing upstream raster",
+      "Horizontal WGS84/UTM45 as vertical datum: independent VDATUM unknown; NC no vertical reference",
+      "Velocity 2014-2024/2018-01-01 or thickness/inventory dates transferred to DEM: variable-specific semantics",
+      "Paper product names assigned to local rasters: missing identity bridge",
+      "Inter-DEM difference used as event deformation or uniform correction: unknown products/epochs/datum/error",
+      "Full source-to-port coverage accepted from provenance alone: separate geometry-bound coverage required"
+    ],
+    "unknown_with_evidence_and_next_action": [
+      {
+        "item": "Both DEM product/sensor/version/tile IDs",
+        "basis": "Only GeBainiDEM_30M.tif and dem_30m.tif are named",
+        "next_action": "Inspect original upstream raster sidecars and delivery manifest if supplied later"
+      },
+      {
+        "item": "Acquisition/composite epoch and pre/post-event status",
+        "basis": "No terrain temporal metadata; Clip date is processing",
+        "next_action": "Require tile-specific original acquisition/composite metadata"
+      },
+      {
+        "item": "Vertical reference and accuracy",
+        "basis": "Independent VDATUM explicitly unknown; NC has only horizontal WKT and units",
+        "next_action": "Require product specification tied to exact file plus local vertical transformation records"
+      },
+      {
+        "item": "Upstream mosaicking/resampling/void filling/conditioning",
+        "basis": "History starts at Clip or generic filenames",
+        "next_action": "Require original production log; retain separate products"
+      },
+      {
+        "item": "Historical availability of these supplied derivatives",
+        "basis": "Processing/publication dates are not historical delivery records",
+        "next_action": "Require archived dated exact-version delivery record"
+      }
+    ]
+  },
+  "round1_reused_not_recomputed": {
+    "source_ref": "round1",
+    "positive_mask_cells": 7152,
+    "difference_independent_minus_nc_m": {
+      "count": 7152,
+      "minimum": -80.49267578125,
+      "maximum": 109.373046875,
+      "mean": -30.740674695179234,
+      "median": -31.161865234375,
+      "rmse_against_zero": 33.722353852659296,
+      "quantiles_p05_p25_p75_p95": [
+        -50.28463134765625,
+        -36.6976318359375,
+        -25.9910888671875,
+        -11.513183593750007
+      ]
+    },
+    "nearest_minus_bilinear_rmse_m": 5.388230942361182,
+    "meaning": "Product difference/resampling sensitivity only; not geodetic error bound, deformation or correction"
+  },
+  "local_processing_lineage": {
+    "independent_utm": "DEM.tif -> prepare_spatial.py bilinear horizontal EPSG:32645 target 30 m -> dem_utm45_30m.tif",
+    "independent_on_nc": "DEM.tif -> bilinear horizontal reprojection directly to supplied NC grid -> dem_on_nc_grid.tif",
+    "nc_export": "NC dem -> x increasing/y decreasing coordinate-sort -> GeoTIFF export without resampling -> nc_dem_native_grid.tif",
+    "vertical_transform": "None in project script/tags; upstream operations unknown"
+  },
+  "not_performed": [
+    "new corridor coverage",
+    "DEM comparison rerun",
+    "synthetic trial rerun",
+    "DEM download",
+    "mosaic/adjustment",
+    "vertical shift/geoid conversion",
+    "sink filling/channel burning",
+    "formal terrain choice",
+    "release volume/physical calibration"
+  ],
+  "validation_and_execution": {
+    "read_only_operations": [
+      "Complete XML/.aux/.tfw parsing",
+      "NC attribute/dimension reading via xarray h5netcdf",
+      "GeoTIFF tags/units/namespaces via rasterio",
+      "Selected preparation script/policy/transform reading",
+      "Saved original-PDF relevant page text extraction via pypdf",
+      "Bounded exact-filename web search"
+    ],
+    "workspace_verification": "Existing five-check passed startup report read; authoritative per-question binding used. Public registry placeholder null is not treated as missing authorization.",
+    "serialization_repair": "First attempted JSON serialization refused a nonfinite NC _FillValue before any file was written. Retry maps nonfinite metadata scalars to null and explicitly labels this representation."
+  },
+  "null_policy": "JSON null means unknown/not applicable as explicitly described. NC nonfinite _FillValue is serialized null, not proof of a terrain observation missing value."
+}

@@ -1,0 +1,117 @@
+{
+  "prepared_utc": "2026-10-24T07:47:04.554029+00:00",
+  "source_dem": {
+    "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif",
+    "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f"
+  },
+  "geometry": {
+    "path": "track_b/research/q4/round3/results/computational_geometries.geojson",
+    "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c"
+  },
+  "cases": [
+    {
+      "run_id": "copdem_120_single_ref",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_ref/case.json"
+    },
+    {
+      "run_id": "copdem_120_multi_ref",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_multi_ref/case.json"
+    },
+    {
+      "run_id": "copdem_120_multi_dry",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_multi_dry/case.json"
+    },
+    {
+      "run_id": "copdem_120_multi_wet",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_multi_wet/case.json"
+    },
+    {
+      "run_id": "copdem_120_multi_nodrag",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_multi_nodrag/case.json"
+    },
+    {
+      "run_id": "copdem_120_dclaw_ref",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/case.json"
+    },
+    {
+      "run_id": "copdem_120_dclaw_nopressure",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/case.json"
+    },
+    {
+      "run_id": "copdem_120_dclaw_loose",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/case.json"
+    },
+    {
+      "run_id": "copdem_120_dclaw_permeable",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/case.json"
+    },
+    {
+      "run_id": "copdem_120_single_h136",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h136/case.json"
+    },
+    {
+      "run_id": "copdem_120_single_h5",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h5/case.json"
+    },
+    {
+      "run_id": "copdem_120_single_h30",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h30/case.json"
+    },
+    {
+      "run_id": "copdem_120_single_mu0p08",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_mu0p08/case.json"
+    },
+    {
+      "run_id": "copdem_120_single_mu0p25",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_mu0p25/case.json"
+    },
+    {
+      "run_id": "copdem_120_single_xi500",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_xi500/case.json"
+    },
+    {
+      "run_id": "copdem_120_single_xi2000",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_xi2000/case.json"
+    },
+    {
+      "run_id": "copdem_120_single_cfl025",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_cfl025/case.json"
+    },
+    {
+      "run_id": "copdem_60_single_ref",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_single_ref/case.json"
+    },
+    {
+      "run_id": "copdem_60_multi_ref",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_multi_ref/case.json"
+    },
+    {
+      "run_id": "copdem_60_multi_dry",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_multi_dry/case.json"
+    },
+    {
+      "run_id": "copdem_60_multi_wet",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_multi_wet/case.json"
+    },
+    {
+      "run_id": "copdem_60_multi_nodrag",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_multi_nodrag/case.json"
+    },
+    {
+      "run_id": "copdem_60_dclaw_ref",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/case.json"
+    },
+    {
+      "run_id": "copdem_60_dclaw_nopressure",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/case.json"
+    },
+    {
+      "run_id": "copdem_60_dclaw_loose",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/case.json"
+    },
+    {
+      "run_id": "copdem_60_dclaw_permeable",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/case.json"
+    }
+  ]
+}

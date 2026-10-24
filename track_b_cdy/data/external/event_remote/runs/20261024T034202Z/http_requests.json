@@ -1,0 +1,384 @@
+[
+  {
+    "name": "usgs_event.json",
+    "requested_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tbwb&format=geojson",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:02.865986+00:00",
+    "max_bytes": 3000000,
+    "http_status": 200,
+    "final_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tbwb&format=geojson",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Last-Modified": "Sat, 24 Oct 2026 03:42:03 GMT",
+      "Date": "Sat, 24 Oct 2026 03:42:03 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 16261,
+    "sha256": "01933b8af6a2cd0cf792ed488927034378c10c9ce4ca718ec48c9839b8f378bc",
+    "body_path": "runs/20261024T034202Z/raw/usgs_event.json"
+  },
+  {
+    "name": "usgs_origin_quakeml.xml",
+    "requested_url": "https://earthquake.usgs.gov/product/origin/us7000tbwb/us/1792791413040/quakeml.xml",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:04.051032+00:00",
+    "max_bytes": 100000,
+    "http_status": 200,
+    "final_url": "https://earthquake.usgs.gov/product/origin/us7000tbwb/us/1792791413040/quakeml.xml",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "application/xml",
+      "Content-Length": "980",
+      "Last-Modified": "Fri, 23 Oct 2026 21:37:03 GMT",
+      "ETag": "\"78aa0c8b8d87557f5cb83987d4fa37c6-gzip\"",
+      "Date": "Sat, 24 Oct 2026 03:38:16 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 3612,
+    "sha256": "d4e3b96594474387c114b3af23a61f854b64d5b7a53abcf912efdd57a1a832a9",
+    "body_path": "runs/20261024T034202Z/raw/usgs_origin_quakeml.xml"
+  },
+  {
+    "name": "jms_article.html",
+    "requested_url": "https://jms.imde.ac.cn/article/doi/10.1007/s11629-026-1482-y",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:04.259702+00:00",
+    "max_bytes": 1000000,
+    "http_status": 200,
+    "final_url": "https://jms.imde.ac.cn/article/doi/10.1007/s11629-026-1482-y",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "text/html;charset=UTF-8",
+      "Date": "Sat, 24 Oct 2026 11:23:39 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 209068,
+    "sha256": "6cf316f8d40fee7d48ab40f9a62699a867cf632ef5ca17bcfe56a5df7ca04b41",
+    "body_path": "runs/20261024T034202Z/raw/jms_article.html"
+  },
+  {
+    "name": "jms_uncorrected_proof.pdf",
+    "requested_url": "https://jms.imde.ac.cn/en/article/pdf/preview/10.1007/s11629-026-1482-y.pdf",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:04.722039+00:00",
+    "max_bytes": 2000000,
+    "http_status": 200,
+    "final_url": "https://jms.imde.ac.cn/en/article/pdf/preview/10.1007/s11629-026-1482-y.pdf",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "application/pdf",
+      "Content-Length": "924233",
+      "Date": "Sat, 24 Oct 2026 11:23:40 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 924233,
+    "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0",
+    "body_path": "runs/20261024T034202Z/raw/jms_uncorrected_proof.pdf"
+  },
+  {
+    "name": "chinese_primary_article.html",
+    "requested_url": "https://zgdzzhyfzxb.com/article/doi/10.16031/j.cghc.202610008?viewType=HTML",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:05.587089+00:00",
+    "max_bytes": 1000000,
+    "http_status": 200,
+    "final_url": "https://zgdzzhyfzxb.com/article/doi/10.16031/j.cghc.202610008?viewType=HTML",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "text/html;charset=UTF-8",
+      "Date": "Sat, 24 Oct 2026 03:41:44 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 309894,
+    "sha256": "7e7312b13c0c7acd39d68810fdbe78863ea8c836837d38aaac34a5f5879da56c",
+    "body_path": "runs/20261024T034202Z/raw/chinese_primary_article.html"
+  },
+  {
+    "name": "CDSE_Sentinel2_L2A.json",
+    "requested_url": "https://stac.dataspace.copernicus.eu/v1/search?collections=sentinel-2-l2a&bbox=85.5053%2C28.2691%2C85.5501%2C28.3069&datetime=2026-08-01T00%3A00%3A00Z%2F2026-09-11T00%3A00%3A00Z&limit=100",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:06.076085+00:00",
+    "max_bytes": 3000000,
+    "http_status": 200,
+    "final_url": "https://stac.dataspace.copernicus.eu/v1/search?collections=sentinel-2-l2a&bbox=85.5053%2C28.2691%2C85.5501%2C28.3069&datetime=2026-08-01T00%3A00%3A00Z%2F2026-09-11T00%3A00%3A00Z&limit=100",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "application/geo+json",
+      "Content-Length": "147655",
+      "Date": "Sat, 24 Oct 2026 03:42:11 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 1497676,
+    "sha256": "6c4d20bc00b5e427a2cd135aadb35e02854812e3b7f92124d3a825411ff5d861",
+    "body_path": "runs/20261024T034202Z/raw/CDSE_Sentinel2_L2A.json"
+  },
+  {
+    "name": "CDSE_Sentinel1_GRD.json",
+    "requested_url": "https://stac.dataspace.copernicus.eu/v1/search?collections=sentinel-1-grd&bbox=85.5053%2C28.2691%2C85.5501%2C28.3069&datetime=2026-08-01T00%3A00%3A00Z%2F2026-09-11T00%3A00%3A00Z&limit=100",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:14.376645+00:00",
+    "max_bytes": 3000000,
+    "http_status": 200,
+    "final_url": "https://stac.dataspace.copernicus.eu/v1/search?collections=sentinel-1-grd&bbox=85.5053%2C28.2691%2C85.5501%2C28.3069&datetime=2026-08-01T00%3A00%3A00Z%2F2026-09-11T00%3A00%3A00Z&limit=100",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "application/geo+json",
+      "Content-Length": "11414",
+      "Date": "Sat, 24 Oct 2026 03:42:14 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 167066,
+    "sha256": "7a8296f16b78b73b2ed0d0598a6844b6f6f0a51414a4a5ebe4c32b4509fc37fc",
+    "body_path": "runs/20261024T034202Z/raw/CDSE_Sentinel1_GRD.json"
+  },
+  {
+    "name": "USGS_Landsat_C2_L2_SR.json",
+    "requested_url": "https://landsatlook.usgs.gov/stac-server/search?collections=landsat-c2l2-sr&bbox=85.5053%2C28.2691%2C85.5501%2C28.3069&datetime=2026-08-01T00%3A00%3A00Z%2F2026-09-11T00%3A00%3A00Z&limit=100",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:15.640187+00:00",
+    "max_bytes": 3000000,
+    "http_status": 200,
+    "final_url": "https://landsatlook.usgs.gov/stac-server/search?collections=landsat-c2l2-sr&bbox=85.5053%2C28.2691%2C85.5501%2C28.3069&datetime=2026-08-01T00%3A00%3A00Z%2F2026-09-11T00%3A00%3A00Z&limit=100",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "application/geo+json; charset=utf-8",
+      "Content-Length": "20139",
+      "ETag": "W/\"3a3c2-P3SfkPBfzA+7r+Slf0yij/DmikM\"",
+      "Date": "Sat, 24 Oct 2026 03:42:15 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 238530,
+    "sha256": "80b14ff015fffbc2d162b30bc57858cab0de26f0e1ffe38bede1ce74af234254",
+    "body_path": "runs/20261024T034202Z/raw/USGS_Landsat_C2_L2_SR.json"
+  },
+  {
+    "name": "USGS_Landsat_C2_L2_SR_page_02.json",
+    "requested_url": "https://landsatlook.usgs.gov/stac-server/search?datetime=2026-08-01T00%3A00%3A00Z%2F2026-09-11T00%3A00%3A00Z&collections=landsat-c2l2-sr&bbox=85.5053%2C28.2691%2C85.5501%2C28.3069&limit=100&next=2026-08-02T04%3A47%3A34.569376Z%2CLC08_L2SP_141040_20260802_20260811_02_T2_SR%2Clandsat-c2l2-sr",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:16.438777+00:00",
+    "max_bytes": 3000000,
+    "http_status": 200,
+    "final_url": "https://landsatlook.usgs.gov/stac-server/search?datetime=2026-08-01T00%3A00%3A00Z%2F2026-09-11T00%3A00%3A00Z&collections=landsat-c2l2-sr&bbox=85.5053%2C28.2691%2C85.5501%2C28.3069&limit=100&next=2026-08-02T04%3A47%3A34.569376Z%2CLC08_L2SP_141040_20260802_20260811_02_T2_SR%2Clandsat-c2l2-sr",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "application/geo+json; charset=utf-8",
+      "Content-Length": "181",
+      "ETag": "W/\"b5-qj5JLb/7LV4NnQzhhzyceQQe3GE\"",
+      "Date": "Sat, 24 Oct 2026 03:42:16 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 181,
+    "sha256": "879d19d03b51be8a14c32e4ff712072ff07b51d9eef6a21e1d495f30a6621c23",
+    "body_path": "runs/20261024T034202Z/raw/USGS_Landsat_C2_L2_SR_page_02.json"
+  },
+  {
+    "name": "cdse_anonymous_asset_probe.bin",
+    "requested_url": "https://download.dataspace.copernicus.eu/odata/v1/Products(a7144f04-93ac-40a9-be0c-386db16f9765)/Nodes(S2B_MSIL2A_20260824T044659_N0512_R076_T45RUM_20260824T083447.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45RUM_A049437_20260824T045006)/Nodes(IMG_DATA)/Nodes(R10m)/Nodes(T45RUM_20260824T044659_B04_10m.jp2)/$value",
+    "request_headers": {
+      "Range": "bytes=0-1023"
+    },
+    "retrieved_at_utc": "2026-10-24T03:42:16.776413+00:00",
+    "max_bytes": 2048,
+    "http_status": 401,
+    "final_url": "https://download.dataspace.copernicus.eu/odata/v1/Products(a7144f04-93ac-40a9-be0c-386db16f9765)/Nodes(S2B_MSIL2A_20260824T044659_N0512_R076_T45RUM_20260824T083447.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45RUM_A049437_20260824T045006)/Nodes(IMG_DATA)/Nodes(R10m)/Nodes(T45RUM_20260824T044659_B04_10m.jp2)/$value",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "96",
+      "Date": "Sat, 24 Oct 2026 03:42:21 GMT"
+    },
+    "successful_status": false,
+    "saved_bytes": 96,
+    "sha256": "b2f4dc82a250ea228e905eb40cc7302ca89d827cf194b46f4efcaa362cc144c0",
+    "body_path": "runs/20261024T034202Z/raw/cdse_anonymous_asset_probe.bin"
+  },
+  {
+    "name": "landsat_anonymous_thumbnail_probe.bin",
+    "requested_url": "https://landsatlook.usgs.gov/data/collection02/level-2/standard/oli-tirs/2026/141/040/LC09_L2SP_141040_20260826_20260827_02_T1/LC09_L2SP_141040_20260826_20260827_02_T1_thumb_small.jpeg",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:21.643864+00:00",
+    "max_bytes": 100000,
+    "http_status": 200,
+    "final_url": "https://ers.cr.usgs.gov/login?redirectUrl=https://ers.cr.usgs.gov/?redirect_url%3Dhttps%253A%252F%252Flandsatlook.usgs.gov%252Fdata%252Fcollection02%252Flevel-2%252Fstandard%252Foli-tirs%252F2026%252F141%252F040%252FLC09_L2SP_141040_20260826_20260827_02_T1%252FLC09_L2SP_141040_20260826_20260827_02_T1_thumb_small.jpeg",
+    "redirects": [
+      {
+        "status": 302,
+        "url": "https://landsatlook.usgs.gov/data/collection02/level-2/standard/oli-tirs/2026/141/040/LC09_L2SP_141040_20260826_20260827_02_T1/LC09_L2SP_141040_20260826_20260827_02_T1_thumb_small.jpeg"
+      },
+      {
+        "status": 302,
+        "url": "https://ers.cr.usgs.gov/?redirect_url=https%3A%2F%2Flandsatlook.usgs.gov%2Fdata%2Fcollection02%2Flevel-2%2Fstandard%2Foli-tirs%2F2026%2F141%2F040%2FLC09_L2SP_141040_20260826_20260827_02_T1%2FLC09_L2SP_141040_20260826_20260827_02_T1_thumb_small.jpeg"
+      }
+    ],
+    "response_headers": {
+      "Content-Type": "text/html; charset=UTF-8",
+      "Content-Length": "35532",
+      "Last-Modified": "Fri, 23 Oct 2026 05:57:07 GMT",
+      "Date": "Sat, 24 Oct 2026 03:42:22 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 35532,
+    "sha256": "af285cc289242e0fe2ecc677286f51e9fc218136c55809dd0fb7c5127956bd93",
+    "body_path": "runs/20261024T034202Z/raw/landsat_anonymous_thumbnail_probe.bin"
+  },
+  {
+    "name": "nasa_COOLR_Reports_Points.json",
+    "requested_url": "https://gis.earthdata.nasa.gov/portal/rest/services/Landslides/COOLR_Reports_Points/FeatureServer/0/query?where=1%3D1&geometry=85.0%2C27.8%2C86.0%2C28.8&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&f=json&resultRecordCount=200",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:23.461469+00:00",
+    "max_bytes": 2000000,
+    "http_status": 200,
+    "final_url": "https://gis.earthdata.nasa.gov/portal/rest/services/Landslides/COOLR_Reports_Points/FeatureServer/0/query?where=1%3D1&geometry=85.0%2C27.8%2C86.0%2C28.8&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&f=json&resultRecordCount=200",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "application/json;charset=UTF-8",
+      "ETag": "\"207de958300fac7f8d42ec55aa39d6509a4e7837f14536172450697b6750ad55\"",
+      "Date": "Sat, 24 Oct 2026 03:42:26 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 71679,
+    "sha256": "207de958300fac7f8d42ec55aa39d6509a4e7837f14536172450697b6750ad55",
+    "body_path": "runs/20261024T034202Z/raw/nasa_COOLR_Reports_Points.json"
+  },
+  {
+    "name": "nasa_COOLR_Reports_Polygons.json",
+    "requested_url": "https://gis.earthdata.nasa.gov/portal/rest/services/Landslides/COOLR_Reports_Polygons/FeatureServer/0/query?where=1%3D1&geometry=85.0%2C27.8%2C86.0%2C28.8&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&f=json&resultRecordCount=200",
+    "request_headers": {},
+    "retrieved_at_utc": "2026-10-24T03:42:27.489396+00:00",
+    "max_bytes": 2000000,
+    "http_status": 200,
+    "final_url": "https://gis.earthdata.nasa.gov/portal/rest/services/Landslides/COOLR_Reports_Polygons/FeatureServer/0/query?where=1%3D1&geometry=85.0%2C27.8%2C86.0%2C28.8&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&f=json&resultRecordCount=200",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "application/json;charset=UTF-8",
+      "Content-Length": "1767",
+      "ETag": "\"9bab6b1fbf0186018d0b308f921d7e683f4141da41fa5d803977aa7ea75d63ba\"",
+      "Date": "Sat, 24 Oct 2026 03:42:27 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 5828,
+    "sha256": "9bab6b1fbf0186018d0b308f921d7e683f4141da41fa5d803977aa7ea75d63ba",
+    "body_path": "runs/20261024T034202Z/raw/nasa_COOLR_Reports_Polygons.json"
+  },
+  {
+    "name": "worldcover_tiff_header.bin",
+    "requested_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+    "request_headers": {
+      "Range": "bytes=0-65535"
+    },
+    "retrieved_at_utc": "2026-10-24T03:42:28.226431+00:00",
+    "max_bytes": 65536,
+    "http_status": 206,
+    "final_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "binary/octet-stream",
+      "Content-Length": "65536",
+      "Content-Range": "bytes 0-65535/104225123",
+      "Last-Modified": "Wed, 26 Oct 2022 12:44:31 GMT",
+      "ETag": "\"2fc1bebafb313302624ba67497976a52-13\"",
+      "Date": "Sat, 24 Oct 2026 03:42:29 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 65536,
+    "sha256": "22d250f8faeaf9755ac0cd26d4fa912bc7db65206adffd678964d639a5ce7831",
+    "body_path": "runs/20261024T034202Z/raw/worldcover_tiff_header.bin"
+  },
+  {
+    "name": "worldcover_block_0701.bin",
+    "requested_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+    "request_headers": {
+      "Range": "bytes=73777101-73853966"
+    },
+    "retrieved_at_utc": "2026-10-24T03:42:29.635438+00:00",
+    "max_bytes": 76866,
+    "http_status": 206,
+    "final_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "binary/octet-stream",
+      "Content-Length": "76866",
+      "Content-Range": "bytes 73777101-73853966/104225123",
+      "Last-Modified": "Wed, 26 Oct 2022 12:44:31 GMT",
+      "ETag": "\"2fc1bebafb313302624ba67497976a52-13\"",
+      "Date": "Sat, 24 Oct 2026 03:42:30 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 76866,
+    "sha256": "825db192f909e3086316c1543f70b519f83cee06d5bdc074e3b1b76bb99201a4",
+    "body_path": "runs/20261024T034202Z/raw/worldcover_block_0701.bin"
+  },
+  {
+    "name": "worldcover_block_0702.bin",
+    "requested_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+    "request_headers": {
+      "Range": "bytes=73853975-73931996"
+    },
+    "retrieved_at_utc": "2026-10-24T03:42:30.204837+00:00",
+    "max_bytes": 78022,
+    "http_status": 206,
+    "final_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "binary/octet-stream",
+      "Content-Length": "78022",
+      "Content-Range": "bytes 73853975-73931996/104225123",
+      "Last-Modified": "Wed, 26 Oct 2022 12:44:31 GMT",
+      "ETag": "\"2fc1bebafb313302624ba67497976a52-13\"",
+      "Date": "Sat, 24 Oct 2026 03:42:30 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 78022,
+    "sha256": "ab34844ef9049172d9953e3cca5d398f27e96210475914c33f0a7c9db72559df",
+    "body_path": "runs/20261024T034202Z/raw/worldcover_block_0702.bin"
+  },
+  {
+    "name": "worldcover_block_0737.bin",
+    "requested_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+    "request_headers": {
+      "Range": "bytes=75488213-75559837"
+    },
+    "retrieved_at_utc": "2026-10-24T03:42:30.496138+00:00",
+    "max_bytes": 71625,
+    "http_status": 206,
+    "final_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "binary/octet-stream",
+      "Content-Length": "71625",
+      "Content-Range": "bytes 75488213-75559837/104225123",
+      "Last-Modified": "Wed, 26 Oct 2022 12:44:31 GMT",
+      "ETag": "\"2fc1bebafb313302624ba67497976a52-13\"",
+      "Date": "Sat, 24 Oct 2026 03:42:31 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 71625,
+    "sha256": "9bed36be0e8b1e1a75bef64f75131ce151ae7b2a4115248b823ac1f9fba12295",
+    "body_path": "runs/20261024T034202Z/raw/worldcover_block_0737.bin"
+  },
+  {
+    "name": "worldcover_block_0738.bin",
+    "requested_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+    "request_headers": {
+      "Range": "bytes=75559846-75626341"
+    },
+    "retrieved_at_utc": "2026-10-24T03:42:30.791888+00:00",
+    "max_bytes": 66496,
+    "http_status": 206,
+    "final_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+    "redirects": [],
+    "response_headers": {
+      "Content-Type": "binary/octet-stream",
+      "Content-Length": "66496",
+      "Content-Range": "bytes 75559846-75626341/104225123",
+      "Last-Modified": "Wed, 26 Oct 2022 12:44:31 GMT",
+      "ETag": "\"2fc1bebafb313302624ba67497976a52-13\"",
+      "Date": "Sat, 24 Oct 2026 03:42:31 GMT"
+    },
+    "successful_status": true,
+    "saved_bytes": 66496,
+    "sha256": "5e9be55db2f3ba5a46275eb61fe3f13bf8f0d04e7ed1aeadb628c41e3dccf288",
+    "body_path": "runs/20261024T034202Z/raw/worldcover_block_0738.bin"
+  }
+]

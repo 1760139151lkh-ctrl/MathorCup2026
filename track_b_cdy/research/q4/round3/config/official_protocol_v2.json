@@ -1,0 +1,179 @@
+{
+  "protocol_version": "q4-r3-official-v2",
+  "registered_utc": "2026-10-24T08:08:19.568266+00:00",
+  "registered_before_solver_runs": true,
+  "common_protocol": "q4-r3-protocol-v1",
+  "source_register": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/source_versions.json",
+      "bytes": 2012,
+      "sha256": "7d71429b432b5ca4699bf0fbc35ffc9457faedc1ee6396023bbde880143c8d2e",
+      "read_scope": "source parameters/theory/default run entry and licensing inspected"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/r.avaflow.40G/r.avaflow/r.avaflow.40G.py",
+      "bytes": 100486,
+      "sha256": "d062d4c62092e9cb026cd55869505e16db2aea463c603ec997740ff1beb682ec",
+      "read_scope": "source parameters/theory/default run entry and licensing inspected"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/r.avaflow.40G/r.avaflow.main/main.c",
+      "bytes": 735566,
+      "sha256": "cdb1168d7cf154e3504d199f7bef8d095cbafe74298cb9087874e1d700a1127a",
+      "read_scope": "source parameters/theory/default run entry and licensing inspected"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/r.avaflow.40G/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "read_scope": "source parameters/theory/default run entry and licensing inspected"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/dclaw-1.0.0/docs/src/theory.md",
+      "bytes": 12420,
+      "sha256": "7b43ccecf9dc051033e3c87673215fb9049edf9ff631ba436d577cf7e18d05f8",
+      "read_scope": "source parameters/theory/default run entry and licensing inspected"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/dclaw-1.0.0/examples/gully/setrun.py",
+      "bytes": 22367,
+      "sha256": "96a49f3afe45ceb1f973aff94a36b9c06d6da0d30117b7c17f684dc6914e492f",
+      "read_scope": "source parameters/theory/default run entry and licensing inspected"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/dclaw-1.0.0/LICENSE.md",
+      "bytes": 1495,
+      "sha256": "3befe33b9753b5e707397c323ddaf4d194be7ce18980b835f2751f7330d59aa0",
+      "read_scope": "source parameters/theory/default run entry and licensing inspected"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/benchmarks/ca.avaflow.start.sh",
+      "bytes": 5651,
+      "sha256": "c3e2ef3afd3c89cce37f072924f4e30dc460b3ce32f942140f76b0afeb5b0379",
+      "read_scope": "source parameters/theory/default run entry and licensing inspected"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/ravaflow_direct.html",
+      "bytes": 331190,
+      "sha256": "326853734fa4e7b6ff438067aafd444d4206ec684733160cac8ec8e7dff951e3",
+      "read_scope": "source parameters/theory/default run entry and licensing inspected"
+    }
+  ],
+  "execution": "Published immutable local Docker image only; no shared-runtime modifications",
+  "input_role": "conditional regional scenarios; no observed event reconstruction",
+  "units": {
+    "crs": "EPSG:32645",
+    "velocity": "east,north m/s",
+    "phase_fractions": "volume fractions summing to 1",
+    "time_origin": "onset of sizeable release",
+    "initiation_to_release_delay_seconds": null
+  },
+  "models": {
+    "ravaflow_single": {
+      "implementation": "r.avaflow 4.0G Rev7 phases=1",
+      "density": 2105,
+      "internal_friction_degrees": 35,
+      "basal_friction_degrees": "atan(mu), mu=.15(.08,.25)",
+      "turbulent_friction": "negative additional friction parameter=-xi, xi1000(500,2000)",
+      "viscosity_log10": -7,
+      "entrainment": "off for controlled baseline"
+    },
+    "ravaflow_multi": {
+      "implementation": "same source phases=3 clayers=0 cmelt=0",
+      "components": "P1 dense frictional material, P2 intermediate-density frictional proxy, P3 water; not explicit ice melting",
+      "densities_kg_m3": [
+        2700,
+        1850,
+        1000
+      ],
+      "reference_volume_fractions": [
+        0.6,
+        0.1,
+        0.3
+      ],
+      "composition_ablation_volume_fractions": [
+        [
+          0.8,
+          0.1,
+          0.1
+        ],
+        [
+          0.4,
+          0.1,
+          0.5
+        ]
+      ],
+      "coupling_ablation": "drag first parameter=-1 disables fdrag; virtualmass=1,0,0 gives n0*(l+alpha**n)-1 = 0 in official fvirtualmass; all coefficients zero",
+      "entrainment": "off in comparable baseline",
+      "phase_transformation": "0,0,0"
+    },
+    "dclaw": {
+      "implementation": "D-Claw1.0.0 official xdclaw via gully default setrun overrides, 7 conserved/state quantities",
+      "state": "h,hu,hv,hm,p_b,hchi,delta_b",
+      "initial_solid_volume_fraction": [
+        0.55,
+        0.63
+      ],
+      "initial_pore_pressure": "hydrostatic reference vs zero pressure ablation, pinit type0/-1",
+      "friction_degrees": "atan(.15) base comparison then32 native default challenge",
+      "rho_s": 2700,
+      "rho_f": 1000,
+      "kref_m2": [
+        1e-10,
+        1e-08
+      ],
+      "mu_porefluid_Pas": 0.005,
+      "note": "DClaw pore-fluid viscosity parameter mu differs from dimensionless basal friction mu; xi unsupported and NA"
+    }
+  },
+  "grids_m": [
+    120,
+    60
+  ],
+  "release_thickness_m": [
+    5,
+    15,
+    30
+  ],
+  "initial_velocity_m_s": [
+    0,
+    0
+  ],
+  "end_time_seconds": 1800,
+  "output_interval_seconds": 20,
+  "targets": "supplied point buffers100m; h>=0.1m at first saved output",
+  "arrival_statuses": [
+    "arrival",
+    "never_arrival",
+    "out_of_domain",
+    "numerical_failure",
+    "missing"
+  ],
+  "numerical_checks": [
+    "finite/nonnegative depth",
+    "initial volume integral exact=sum(h)*dx*dy",
+    "volume and solid/fluid mass histories",
+    "open-boundary diagnostics distinguish outflow from conservation residual",
+    "120/60m comparison on matched volume release",
+    "CFL/time-step sensitivity",
+    "official Cascadia and DClaw gully examples as external numerical benchmarks, not local independent event validation"
+  ],
+  "no_support": "No local independently verified pre/post propagation observations yet; all parameters conditional and externally transferred, no probability weights or95%interval.",
+  "pre_run_amendment": {
+    "utc": "2026-10-24T07:36:07.628392+00:00",
+    "common_source_grid": "60m binary257cells925200m\u00b2;120m binary67cells964800m\u00b2 thickness scales925200/964800",
+    "fractional_source_used": false,
+    "thick_release_challenge_m": 136,
+    "thick_release_role": "external reconstructed mean thickness applied to candidate source grid; not forcing reported103.35Mm\u00b3 volume",
+    "virtualmass_off": "1,0,0 exact coefficient zero in official fvirtualmass",
+    "required_ravaflow_success_check": "nout1.txt csucc second field plus summary/log; process exit0 insufficient"
+  },
+  "registered_before_corrected_solver_runs": true,
+  "supersedes_primary_ravaflow_configuration_only": "q4-r3-official-v1; DClaw unchanged",
+  "surface_control": 0,
+  "official_default_surface_control": 0,
+  "case_run_suffix": "__sf0",
+  "single_surface2": "quarantined due documented out-of-bounds risk; not comparison or Q3",
+  "multiphase_surface2": "retained as separate configuration challenge, not common primary",
+  "source_evidence_sha256": "21bc29cf34817cdd7c82066549eb41eb492f6d9152ffe27eadbb3179558f7cd7"
+}

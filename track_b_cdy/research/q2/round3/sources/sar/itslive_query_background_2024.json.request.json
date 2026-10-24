@@ -1,0 +1,28 @@
+{
+  "requested_url": "https://nsidc.org/apps/itslive-search/velocities/urls/",
+  "params": {
+    "bbox": "85.50,28.27,85.54,28.31",
+    "start": "2024-07-01",
+    "end": "2024-10-01",
+    "percent_valid_pixels": 1,
+    "min_interval": 6,
+    "max_interval": 48,
+    "version": 2
+  },
+  "retrieved_at_utc": "2026-10-24T07:30:56.569918+00:00",
+  "method": "GET",
+  "authentication": "anonymous; trust_env=False",
+  "scope": "explicit response body, not HTTP/TLS overhead",
+  "byte_cap": 20971520,
+  "effective_url": "https://nsidc.org/apps/itslive-search/velocities/urls/?bbox=85.50%2C28.27%2C85.54%2C28.31&start=2024-07-01&end=2024-10-01&percent_valid_pixels=1&min_interval=6&max_interval=48&version=2",
+  "http_status": 404,
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": null,
+  "etag": null,
+  "completed_at_utc": "2026-10-24T07:30:58.585341+00:00",
+  "bytes_consumed": 64766,
+  "sha256": "3741cfa3abf2e44787bc0dc6769c093bc3938a26b415185d728af1bd847df388",
+  "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/sources/sar/itslive_query_background_2024.json",
+  "available_time": null,
+  "available_time_note": "Retrieval and Last-Modified do not establish historical publication availability."
+}

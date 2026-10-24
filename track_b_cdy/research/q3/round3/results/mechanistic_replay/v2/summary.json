@@ -1,0 +1,257 @@
+{
+  "experiment_id": "q3r3-full-mechanistic-weather-replay-thermal-v2",
+  "started_at_utc": "2026-10-24T08:23:45.373465Z",
+  "completed_at_utc": "2026-10-24T08:34:09.780193Z",
+  "issue_count": 75,
+  "parameter_design_rows": 2048,
+  "distinct_physical_designs": 256,
+  "weather_tracks_per_issue": 10,
+  "history_time_origin_utc": "2026-06-01T00:00:00Z",
+  "bundle_version": "q2-r3-mechanism-thermal-refinement-v2",
+  "included_mechanisms": [
+    "S",
+    "S_H",
+    "S_T",
+    "S_T_H"
+  ],
+  "thermal_discretization": {
+    "dz_m": 0.125,
+    "bottom_m": 40.0,
+    "grid_points": 321,
+    "substeps_per_hour": 2
+  },
+  "per_issue_track_runs": 750,
+  "parameter_prediction_rows": 1536000,
+  "ensemble_prediction_rows": 60750,
+  "scenario_range_rows": 20250,
+  "unique_full_ensemble_physics_computations": 300,
+  "reused_identical_input_tracks": 450,
+  "forecast_status_counts": {
+    "rejected_historical_first_availability_unknown": 124803,
+    "already_started_by_retrospective_history": 287970,
+    "no_cross_within_complete_72h": 640255,
+    "point_first_crossing_between_samples": 342,
+    "rejected_no_eligible_acquired_initialization": 299700,
+    "right_censored_or_unknown_future": 182930
+  },
+  "forecast_forcing_track_counts": {
+    "rejected_historical_first_availability_unknown": 75,
+    "complete_72h": 385,
+    "rejected_no_eligible_acquired_initialization": 180,
+    "right_censored_at_original_forcing_end": 50,
+    "right_censored_at_GFS_forecast_tail": 60
+  },
+  "historical_initial_left_censored": 248,
+  "historical_total_first_cross_or_left": 385,
+  "maximum_restart_absolute_error": 0.0,
+  "maximum_S_weather_invariance_error": 0.0,
+  "S_weather_invariance_actually_checked": true,
+  "maximum_step_water_budget_error_m": 1.0842021724855044e-19,
+  "identified_probability_rows": 36369,
+  "nonzero_identified_probability_rows": 4356,
+  "maximum_identified_probability": 0.010050598616407858,
+  "conditional_interval_rows": 4356,
+  "independent_local_observed_validation_events": 0,
+  "empirical_coverage": null,
+  "paired_grid_version_comparison": {
+    "status": "matched_same_universe",
+    "old_input_path": "track_b/research/q3/round3/results/mechanistic_replay/predictions.csv.gz",
+    "old_input_sha256": "2c1bc843f0c01183dd7290688771b33fb981593b10b40bd6395e2e481606dd1a",
+    "old_model_universe": [
+      "S",
+      "S_H",
+      "S_T",
+      "S_T_H"
+    ],
+    "new_model_universe": [
+      "S",
+      "S_H",
+      "S_T",
+      "S_T_H"
+    ],
+    "new_bundle_version": "q2-r3-mechanism-thermal-refinement-v2",
+    "matched_rows": 60750,
+    "unmatched_rows": 0,
+    "identified_probability_pairs": 36369,
+    "maximum_absolute_probability_difference": 6.438952517094816e-06,
+    "conditional_median_pairs": 4356,
+    "maximum_absolute_conditional_median_difference_hours": 7.105427357601002e-15,
+    "interpretation": "same issue/mechanism/law/space/latency/prior/horizon; risk-set changes and fragile-prior reweighting are retained, no winner ranking"
+  },
+  "inputs": [
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_protocol.json",
+      "bytes": 895,
+      "sha256": "21e72fbe8d79980a626e390958469305ee4e8f84b9cdd744f2d2e4c4756be006"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/config.json",
+      "bytes": 4642,
+      "sha256": "210616d1e1adb94e57cdb3ef415cb40808ae4a05f7a0fdd81f3b5dddfd24d5ac"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/forcing_hourly_v2.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/parameter_ensemble.csv",
+      "bytes": 1169784,
+      "sha256": "a8a8f091a7cb0abf1847db784c83d9e4b73f42896c126468b100026f1ea35293"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/state_trajectories.parquet",
+      "bytes": 3188047,
+      "sha256": "8f69e562bda819a348ec0e7dc000d79af7885015f4770a5ebbe5c6ec01a7b081"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/scenario_outcomes.csv",
+      "bytes": 837472,
+      "sha256": "2338e53291c2225f1e172cc85145d6cc047d6c40599b49051f51fe790b5f6edd"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/model_comparison.csv",
+      "bytes": 1688,
+      "sha256": "5a54fb20bced14d387daaa6acd34f364bef776e919bddc513ebc9b89c7f703a6"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/mechanism_contract.json",
+      "bytes": 3907,
+      "sha256": "afca7a8fd0684808e4bab67cdad073e80aedc189bc0fae234047e9ecfaa5e5ff"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/paired_v1_v2.csv",
+      "bytes": 1065426,
+      "sha256": "c3a2d4a971cf98b355ec6a69800ec0d56abeea96a2f7caeb250214aa2ca1e0f1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/joint_sensitivity.csv",
+      "bytes": 30015,
+      "sha256": "38a97ed39c79cab5964a1b31cf18b753fb6fc40f86b73a2f9b4cabbd499fe4de"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/interaction.csv",
+      "bytes": 13784,
+      "sha256": "8681e19e24fa0ee3569720f4032df9d288f07d7cfa6dfe9071cf0d8f9e36b456"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_125_vs_0625.csv",
+      "bytes": 10885,
+      "sha256": "a45f8707ea1afcd91521187e223c1e27332d055fbdd3689ea9d1ec99b02f591d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_summary.json",
+      "bytes": 4746,
+      "sha256": "091ce1777f5deaa4ff76341ebe435ec9a713e73d3dd901b6b48a6aff08dc7a79"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/run_experiments.py",
+      "bytes": 21983,
+      "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/run_refined_v2.py",
+      "bytes": 28213,
+      "sha256": "100ece09e9348a81d3344964a6d9603347b388b5f5dc01beea707542e808e616"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/NUMERICAL_REFINEMENT.md",
+      "bytes": 3098,
+      "sha256": "0c147f8f7cc52d6135ce7dee87fc12304f5f3c633123c13f960f464d84658b9f"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/weather/gfs_hourly_summary.csv",
+      "bytes": 161138,
+      "sha256": "68702bfad6afe88fe485552ccd611ba5cdfbef85408ef227aec4a847ff011e6c"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/execution_source/registered_protocol_4fcf4d354e88b901f54c3ad4842eea68379648637fe39e374f250a9199270a55.md",
+      "bytes": 7876,
+      "sha256": "4fcf4d354e88b901f54c3ad4842eea68379648637fe39e374f250a9199270a55"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/execution_source/mechanistic_replay_abf39d2506401aa4caa83663225893c3106679d2c0c13c20a70350c8eaabc6cb.py.txt",
+      "bytes": 44757,
+      "sha256": "abf39d2506401aa4caa83663225893c3106679d2c0c13c20a70350c8eaabc6cb"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/bundle.json",
+      "bytes": 9041,
+      "sha256": "12eb0b329acede54face734b145cf33a8bfc5d329f6231b5a110c52ddec618c9"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/execution_source/metadata_redaction_b6346d63b76ce4b758993b6caeff0cd947a7be6fc3483b6939584cfe09c0eebc.py.txt",
+      "bytes": 50687,
+      "sha256": "b6346d63b76ce4b758993b6caeff0cd947a7be6fc3483b6939584cfe09c0eebc"
+    }
+  ],
+  "checks": {
+    "all_input_bundle_hashes_verified": true,
+    "full_Q2_history_matches_delivered_outcomes_and_representatives": true,
+    "all_75_ideal_full_state_restarts_match_continuous_history": true,
+    "structural_only_weather_invariance_when_included": true,
+    "water_budget_closure": true,
+    "assumed_forecast_reference_available_before_issue": true,
+    "probability_normalized_when_identified": true,
+    "probability_bounds_valid": true,
+    "probability_lower_not_above_upper": true,
+    "prior_mass_preserved": true,
+    "balanced_uniform_and_equal_mechanism_priors_agree": true,
+    "horizon_probability_bounds_monotone": true,
+    "historical_unknown_track_rejected": true,
+    "no_false_local_truth_or_empirical_coverage": true,
+    "unknown_future_not_reported_as_exact_probability": true,
+    "history_metadata_export_contains_no_future_oracle_onset": true
+  },
+  "passed": true,
+  "limitations": [
+    "All source states and forecasts are conditional Q2 scenarios; local first mechanical initiation truth remains unknown",
+    "Retrospective regional-station history has unknown real availability and assumed hourly precipitation intervals",
+    "Direct GFS-to-regional-station driver replacement retains uncalibrated source offsets and multipliers; no local bias correction",
+    "No verified historical first public weather availability; latency assumptions are not business release facts",
+    "Three priors are analyst sensitivity assumptions, not probabilities implied by the space-filling design",
+    "Q2 rock/ice strength transfer, thermal boundary, damage and reservoir limitations retained",
+    "Exact consumer/Q2 numerical agreement is distinct from heat-equation grid convergence and scientific model adoption",
+    "Conditional 95 percent quantiles describe assumed scenario distributions; empirical coverage denominator is zero",
+    "Short followup and missing future forcing remain unresolved, never imputed as no start"
+  ],
+  "history_metadata_redaction": {
+    "method": "null any first-cross audit time later than issue or left-censored initial pseudo-point; forecast math and ensemble predictions unchanged",
+    "physics_predictions_changed": false,
+    "files": [
+      {
+        "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/parameter_first_passages.parquet",
+        "future_oracle_values_redacted": 0,
+        "left_censored_pseudo_point_values_redacted": 186000,
+        "original_sha256": "cb66d7970ea990878f9ca84c974331f11c272aac79cef0621cea5ae92f50175b",
+        "sha256": "e02be7bc28cee7ab1226ffda765206bf3b14f7edef2a080801063aecbd3f3c2f",
+        "bytes": 6275946
+      },
+      {
+        "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/history_states_at_issue.parquet",
+        "future_oracle_values_redacted": 0,
+        "left_censored_pseudo_point_values_redacted": 18600,
+        "original_sha256": "06b6838d5aca713f631d703ed543f887c22c04845d93bc3c630ac39aec0df0d7",
+        "sha256": "74dce2651959aba073604985b5440322eb3726bf7eb4732f8a18476700f13dee",
+        "bytes": 2165504
+      }
+    ],
+    "source_path": "track_b/research/q3/round3/results/mechanistic_replay/v2/execution_source/metadata_redaction_b6346d63b76ce4b758993b6caeff0cd947a7be6fc3483b6939584cfe09c0eebc.py.txt",
+    "source_sha256": "b6346d63b76ce4b758993b6caeff0cd947a7be6fc3483b6939584cfe09c0eebc"
+  },
+  "numerical_adequacy": {
+    "addendum_path": "track_b/research/q3/round3/results/mechanistic_replay/numerical_limits_received.json",
+    "addendum_sha256": "95e56e3f8b4c435ad8d7ab381ca0a34c3d07edf8e70f35fe908c6432eae94c68",
+    "full_design_margin_target_met": false,
+    "failed_designs": 10,
+    "designs_compared": 2048,
+    "finite_onset_pairs": 137,
+    "maximum_grid_onset_difference_hours": 18.943778947652135,
+    "is_strict_bound_or_confidence_interval": false
+  }
+}

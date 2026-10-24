@@ -1,0 +1,94 @@
+{
+  "generated_at_utc": "2026-10-24T06:19:57.333127+00:00",
+  "question": "q1",
+  "passed": true,
+  "checks": [
+    {
+      "name": "workspace_and_git_baseline",
+      "passed": true,
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+        "head": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "branch": "codex/track-b-q1-r2"
+      }
+    },
+    {
+      "name": "frozen_input_hashes",
+      "passed": true,
+      "evidence": {
+        "file_count": 565,
+        "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+        "preparation_commit": "85e66c94a054780d476324cdcdfc02d406b703d7"
+      }
+    },
+    {
+      "name": "isolated_environment_and_lock",
+      "passed": true,
+      "evidence": {
+        "python": "3.12.14",
+        "prefix": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1/track_b/.venv",
+        "package_count": 44,
+        "lock_sha256": "5a780bc65de35a11a1eac4ec9370cad50957dcabb8ebe02cecdbfdb550ad645a",
+        "pip_check": "No broken requirements found."
+      }
+    },
+    {
+      "name": "six_real_formats",
+      "passed": true,
+      "evidence": {
+        "formats_read": [
+          "CSV",
+          "XLSX",
+          "SHP",
+          "GeoTIFF",
+          "NetCDF4",
+          "GRIB2"
+        ]
+      }
+    },
+    {
+      "name": "question_file_ownership",
+      "passed": true,
+      "evidence": {
+        "allowed_directory": "track_b/research/q1/round2/",
+        "changed_paths": [
+          "track_b/research/q1/round2/BACKGROUND_DRAFT.md",
+          "track_b/research/q1/round2/HANDOFF.md",
+          "track_b/research/q1/round2/ROUTE_UPDATE.md",
+          "track_b/research/q1/round2/SEMANTICS_REVIEW.md",
+          "track_b/research/q1/round2/config/analysis.json",
+          "track_b/research/q1/round2/figures/equal_year_background.png",
+          "track_b/research/q1/round2/figures/visual_review.json",
+          "track_b/research/q1/round2/input_manifest.json",
+          "track_b/research/q1/round2/output_manifest.json",
+          "track_b/research/q1/round2/results/affected_features.csv",
+          "track_b/research/q1/round2/results/analysis_checks.json",
+          "track_b/research/q1/round2/results/anchor_equivalence.json",
+          "track_b/research/q1/round2/results/background_equal_year.csv",
+          "track_b/research/q1/round2/results/background_missing_years.csv",
+          "track_b/research/q1/round2/results/background_year_values.csv",
+          "track_b/research/q1/round2/results/constant_segment_boundary_excerpt.csv",
+          "track_b/research/q1/round2/results/constant_segment_trace.json",
+          "track_b/research/q1/round2/results/context.json",
+          "track_b/research/q1/round2/results/independent_review.json",
+          "track_b/research/q1/round2/results/representative_background.csv",
+          "track_b/research/q1/round2/results/semantic_adoption.csv",
+          "track_b/research/q1/round2/results/source_register.json",
+          "track_b/research/q1/round2/results/target_year_values.csv",
+          "track_b/research/q1/round2/run.log",
+          "track_b/research/q1/round2/scripts/capture_sources.py",
+          "track_b/research/q1/round2/scripts/finalize_packet.py",
+          "track_b/research/q1/round2/scripts/run_round2.py",
+          "track_b/research/q1/round2/sources/aas_doi_response.html",
+          "track_b/research/q1/round2/sources/capture_log.json",
+          "track_b/research/q1/round2/sources/essd_2026_article.html",
+          "track_b/research/q1/round2/workspace_binding.json",
+          "track_b/research/q1/round2/workspace_verification.json"
+        ]
+      }
+    }
+  ],
+  "scope": "Workspace, frozen inputs, environment and technical I/O only; no scientific model acceptance.",
+  "round": "round2"
+}

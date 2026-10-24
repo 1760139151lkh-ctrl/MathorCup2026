@@ -1,0 +1,25 @@
+{
+  "experiment_id": "q4-r1-terrain-and-synthetic-io-v1",
+  "event_id": "B20260826_Chhochen",
+  "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+  "terrain_comparison": {
+    "sign": "independent_DEM_minus_NC_DEM",
+    "units": "m",
+    "correction_applied": false,
+    "hydrological_conditioning_applied": false,
+    "nearest_resampling_role": "diagnostic sensitivity only; not a replacement terrain"
+  },
+  "synthetic": {
+    "role": "scenario",
+    "equation": "q_t + c q_x = 0; periodic; passive dimensionless scalar, not debris flow",
+    "domain_length_m": 3000.0,
+    "cells": [100, 200, 400],
+    "speed_m_per_s": 1.0,
+    "duration_s": 300.0,
+    "initial_centre_m": 900.0,
+    "initial_sigma_m": 120.0,
+    "courant_target": 0.5,
+    "exact_shift_courant": 1.0,
+    "all_parameter_values": "arbitrary synthetic test values, not event measurements or recommendations"
+  }
+}

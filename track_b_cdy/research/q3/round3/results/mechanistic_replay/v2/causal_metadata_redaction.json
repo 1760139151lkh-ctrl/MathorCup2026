@@ -1,0 +1,24 @@
+{
+  "method": "null any first-cross audit time later than issue or left-censored initial pseudo-point; forecast math and ensemble predictions unchanged",
+  "physics_predictions_changed": false,
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/parameter_first_passages.parquet",
+      "future_oracle_values_redacted": 0,
+      "left_censored_pseudo_point_values_redacted": 186000,
+      "original_sha256": "cb66d7970ea990878f9ca84c974331f11c272aac79cef0621cea5ae92f50175b",
+      "sha256": "e02be7bc28cee7ab1226ffda765206bf3b14f7edef2a080801063aecbd3f3c2f",
+      "bytes": 6275946
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/history_states_at_issue.parquet",
+      "future_oracle_values_redacted": 0,
+      "left_censored_pseudo_point_values_redacted": 18600,
+      "original_sha256": "06b6838d5aca713f631d703ed543f887c22c04845d93bc3c630ac39aec0df0d7",
+      "sha256": "74dce2651959aba073604985b5440322eb3726bf7eb4732f8a18476700f13dee",
+      "bytes": 2165504
+    }
+  ],
+  "source_path": "track_b/research/q3/round3/results/mechanistic_replay/v2/execution_source/metadata_redaction_b6346d63b76ce4b758993b6caeff0cd947a7be6fc3483b6939584cfe09c0eebc.py.txt",
+  "source_sha256": "b6346d63b76ce4b758993b6caeff0cd947a7be6fc3483b6939584cfe09c0eebc"
+}

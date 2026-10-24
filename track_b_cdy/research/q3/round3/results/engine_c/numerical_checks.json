@@ -1,0 +1,9 @@
+{
+  "evaluation_stratum": "numerical_benchmark",
+  "actual_source_site": "Agoyama__cm",
+  "prefix_index": 20,
+  "future_observations_perturbed": 27,
+  "causal_features_unchanged_exactly": true,
+  "new_independent_events_added": 0,
+  "source_role": "real observations used only for software information-cutoff check"
+}

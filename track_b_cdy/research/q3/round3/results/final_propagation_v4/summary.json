@@ -1,0 +1,45 @@
+{
+  "generated_at_utc": "2026-10-24T11:38:14.392281+00:00",
+  "mapped_runs": 7,
+  "mechanical_designs": 4,
+  "run_target_records": 49,
+  "mechanisms": [
+    "S",
+    "S_T",
+    "S_H",
+    "S_T_H"
+  ],
+  "source_tables": [
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/conditional_arrivals.csv",
+      "bytes": 13094,
+      "sha256": "6c95c5ce1c71f4554dafe75ba48a387f7e8375bf12979f4bddf8a7602f798028",
+      "join_source": "compact_v2",
+      "source_rows": 14
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/conditional_arrivals.csv",
+      "bytes": 24268,
+      "sha256": "ac3a8ed308bedd9c3e2dd14f19dc2843c3d6022a3bff1b1913fa0c4290c8c1ee",
+      "join_source": "fullmask_v3",
+      "source_rows": 21
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/conditional_arrivals.csv",
+      "bytes": 19498,
+      "sha256": "af84e04843dae847e8c9d6d34496e8d486ae8bd4203ffc49cb700be04438a355",
+      "join_source": "compact_delta_v1",
+      "source_rows": 14
+    }
+  ],
+  "independent_local_validation_events": 0,
+  "probability_weights": null,
+  "qualified_arrival_rows": 0,
+  "absolute_arrival_rows": 0,
+  "arrival_probability_rows": 0,
+  "selected_cases_are_2048_weighted_ensemble": false,
+  "initiation_to_release_lag": "unknown",
+  "empirical_coverage": null,
+  "scientific_adoption": "pending_team_review",
+  "physical_solver_rerun": false
+}

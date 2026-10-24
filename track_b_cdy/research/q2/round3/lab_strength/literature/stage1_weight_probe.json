@@ -1,0 +1,270 @@
+{
+  "probe_version": "source-stage1-closedform-v1",
+  "evaluation_stratum": "external_source_reconstruction",
+  "formula": "mu=sum(w*(sigma-sigma_bar)*(tau-tau_bar))/sum(w*(sigma-sigma_bar)^2);c=tau_bar-mu*sigma_bar",
+  "raw_zip_sha256": "5fcd735a88654af1f4c150313ee79afb855a0ae67ed9319a851d8e125fa420a0",
+  "raw_workbook_member_sha256": "ed9517ae4889192bd1a3278c68b4414c391126dbe9e3133336923795fbbbb20b",
+  "coefficient_workbook_member_sha256": "34ec81f6adb579cd16e8b39a1934d5b786a633f96f12d2a05f65ed7b2fc1a165",
+  "canonical_observations_sha256": "7b0601f0b5c9aff60e79d2730ef21ac42c168f61b54984cd36d2b8175f58b600",
+  "canonical_summaries_sha256": "32739872d3b82ae79dc1bfaca0eaa114a43c3edc28dfc42f12cd0f62e8ceb1fe",
+  "raw_value_checks": 705,
+  "max_canonical_vs_original_numeric_delta": 2.2737367544323206e-13,
+  "actual_read_scope": "Original experiments Sheet1 numericD/E/F/G/L for141rows plus relevant headers; coefficient Sheet1 two nominal-stress-domain blocks,14summary columns and literalerrorheaders; Sheet2 parsed empty and unused; no workbook changes.",
+  "original_header_examples": {
+    "D1": "temperature class_degree",
+    "E1": "temperature at failure_degree",
+    "F1": "normal stress class_kPa",
+    "G1": "normal stress at failure_kPa",
+    "L1": "peak shear stress_kPa"
+  },
+  "coefficient_original_header_examples": {
+    "A5": "mean of temperature class_degree",
+    "A6": "temperature_degree_error",
+    "A7": "coefficient of friction_µ",
+    "A8": "coefficient of friction_µ_error",
+    "A12": "mean of temperature class_degree",
+    "A13": "temperature_degree_error",
+    "A14": "cohesion_kPa",
+    "A15": "cohesion_kPa_error"
+  },
+  "candidate_summary": [
+    {
+      "method": "individual_tests_ols",
+      "computed": 14,
+      "unavailable": 0,
+      "matching_author_coefficient_layers": 12,
+      "max_abs_cohesion_delta_kpa": 2.0534962666665137,
+      "max_abs_mu_delta": 0.0022809379538329677
+    },
+    {
+      "method": "stress_cell_means_ols",
+      "computed": 14,
+      "unavailable": 0,
+      "matching_author_coefficient_layers": 0,
+      "max_abs_cohesion_delta_kpa": 53.4699325604592,
+      "max_abs_mu_delta": 0.22945363935161578
+    },
+    {
+      "method": "stress_cell_means_inverse_sigma_variance_wls",
+      "computed": 12,
+      "unavailable": 2,
+      "matching_author_coefficient_layers": 0,
+      "max_abs_cohesion_delta_kpa": 150.34136796775897,
+      "max_abs_mu_delta": 0.9842607238005221
+    }
+  ],
+  "source_axis_weight_probe": [
+    {
+      "block": "nominal_100_400",
+      "selected_layers": [
+        -8,
+        -5,
+        -4,
+        -2,
+        -0.5
+      ],
+      "response": "c",
+      "temperature_axis": "nominal",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 55.68463914907444,
+      "slope": -73.19673081742738,
+      "intercept_ols_se": 22.440330480618936,
+      "slope_ols_se": 9.614166505669335,
+      "n_points": 5
+    },
+    {
+      "block": "nominal_100_400",
+      "selected_layers": [
+        -8,
+        -5,
+        -4,
+        -2,
+        -0.5
+      ],
+      "response": "c",
+      "temperature_axis": "measured_mean",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 53.302151164430526,
+      "slope": -73.48645704906039,
+      "intercept_ols_se": 20.549334016275395,
+      "slope_ols_se": 8.742034995916931,
+      "n_points": 5
+    },
+    {
+      "block": "nominal_100_400",
+      "selected_layers": [
+        -8,
+        -5,
+        -4,
+        -2,
+        -0.5
+      ],
+      "response": "mu",
+      "temperature_axis": "nominal",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 0.4292965265400116,
+      "slope": -0.2087509370885334,
+      "intercept_ols_se": 0.15339083748628454,
+      "slope_ols_se": 0.06619421540589007,
+      "n_points": 5
+    },
+    {
+      "block": "nominal_100_400",
+      "selected_layers": [
+        -8,
+        -5,
+        -4,
+        -2,
+        -0.5
+      ],
+      "response": "mu",
+      "temperature_axis": "measured_mean",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 0.42097372882608813,
+      "slope": -0.2104712260308724,
+      "intercept_ols_se": 0.14947646425793865,
+      "slope_ols_se": 0.06399172376567393,
+      "n_points": 5
+    },
+    {
+      "block": "nominal_100_400",
+      "selected_layers": [
+        -4,
+        -2,
+        -0.5
+      ],
+      "response": "c",
+      "temperature_axis": "nominal",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 49.42855601457558,
+      "slope": -83.52348550634723,
+      "intercept_ols_se": 39.11456261395434,
+      "slope_ols_se": 32.9262196498644,
+      "n_points": 3
+    },
+    {
+      "block": "nominal_100_400",
+      "selected_layers": [
+        -4,
+        -2,
+        -0.5
+      ],
+      "response": "c",
+      "temperature_axis": "measured_mean",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 49.76733087583959,
+      "slope": -79.81312730607986,
+      "intercept_ols_se": 35.77049165173133,
+      "slope_ols_se": 28.671880431197504,
+      "n_points": 3
+    },
+    {
+      "block": "nominal_100_400",
+      "selected_layers": [
+        -4,
+        -2,
+        -0.5
+      ],
+      "response": "mu",
+      "temperature_axis": "nominal",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 0.2769415904802252,
+      "slope": -0.4060907259626731,
+      "intercept_ols_se": 0.07024304066311132,
+      "slope_ols_se": 0.057832195165456624,
+      "n_points": 3
+    },
+    {
+      "block": "nominal_100_400",
+      "selected_layers": [
+        -4,
+        -2,
+        -0.5
+      ],
+      "response": "mu",
+      "temperature_axis": "measured_mean",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 0.2839298527232763,
+      "slope": -0.3818353442450262,
+      "intercept_ols_se": 0.08469185755805703,
+      "slope_ols_se": 0.06638353092664004,
+      "n_points": 3
+    },
+    {
+      "block": "nominal_100_800",
+      "selected_layers": [
+        -4,
+        -2,
+        -1,
+        -0.5
+      ],
+      "response": "c",
+      "temperature_axis": "nominal",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 111.17273861287185,
+      "slope": -147.39601636680516,
+      "intercept_ols_se": 65.4915970851979,
+      "slope_ols_se": 49.52283731545292,
+      "n_points": 4
+    },
+    {
+      "block": "nominal_100_800",
+      "selected_layers": [
+        -4,
+        -2,
+        -1,
+        -0.5
+      ],
+      "response": "c",
+      "temperature_axis": "measured_mean",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 104.41059897747778,
+      "slope": -143.8010243768867,
+      "intercept_ols_se": 59.479183781832454,
+      "slope_ols_se": 42.366211184802744,
+      "n_points": 4
+    },
+    {
+      "block": "nominal_100_800",
+      "selected_layers": [
+        -4,
+        -2,
+        -1,
+        -0.5
+      ],
+      "response": "mu",
+      "temperature_axis": "nominal",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 0.19027025558311872,
+      "slope": -0.10542228041725081,
+      "intercept_ols_se": 0.01566606546060379,
+      "slope_ols_se": 0.01258434258543209,
+      "n_points": 4
+    },
+    {
+      "block": "nominal_100_800",
+      "selected_layers": [
+        -4,
+        -2,
+        -1,
+        -0.5
+      ],
+      "response": "mu",
+      "temperature_axis": "measured_mean",
+      "weight": "inverse_literal_response_error_squared;not_assuming_header_semantics",
+      "intercept": 0.1895511022698506,
+      "slope": -0.09955143477056258,
+      "intercept_ols_se": 0.02020857440924294,
+      "slope_ols_se": 0.01531505826627919,
+      "n_points": 4
+    }
+  ],
+  "interpretation": "Individual-testOLS reproduces12of14 coefficientlayers including reportederrornumbers;this is numerical evidence of algorithm/SE correspondence,not a sourceheader redefinition. Both-.5Clayers remain unreproduced. No rows removed or filled.",
+  "scope": "42stage1 reconstructions and12source-summary axis/weight checks;no new competition/model selection or local event fitting",
+  "source_error_type_preserved": "literal_error_untyped;OLSstandarderrors explicitly computed separately",
+  "local_stress_used_for_tuning": false,
+  "local_event_time_used_for_tuning": false,
+  "source_rows_deleted": 0,
+  "independent_local_events": 0,
+  "canonical_audit_modified": false
+}

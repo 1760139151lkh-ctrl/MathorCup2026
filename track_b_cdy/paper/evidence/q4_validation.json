@@ -1,0 +1,160 @@
+{
+  "schema_version": "q4-paper-validation-v1",
+  "validated_at_utc": "2026-10-24T14:07:45.941693+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "all_labels_and_cites_q4_namespace",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unique_labels_and_citation_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_and_only_five_actual_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "section_uses_shared_macros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requested_chinese_text_density",
+      "passed": true,
+      "detail": 2601
+    },
+    {
+      "name": "two_figures_three_tables_three_equations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_placeholders_or_repeated_audit_phrases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "claim_schema_unique_ids_and_actual_anchors",
+      "passed": true,
+      "detail": 25
+    },
+    {
+      "name": "claim_sources_repo_relative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_claim_source_bytes_match",
+      "passed": true,
+      "detail": 47
+    },
+    {
+      "name": "self_authored_code_and_plot_hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native_arrays_readonly_byte_bindings",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "name": "figure_files_hash_bindings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual_process_times_and_areas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "seven_runs_four_designs_49_targets_zero_free_water",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "representative_table_transcription",
+      "passed": true,
+      "detail": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "relative_release_unknown_and_zero_local_event_meanings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "xelatex_no_overflow_or_unresolved_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "final_actual_visual_review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preview_body_and_reference_density",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only_owned_paper_files_changed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "python_sources_parse",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "check_count": 22,
+  "chinese_character_count": 2601,
+  "physical_model_runs_added": 0,
+  "human_scientific_scope": "Paper transcriptions and artifacts checked against frozen study; original relative release/scenario meaning retained.",
+  "file_bindings": [
+    {
+      "path": "track_b/paper/sections/q4.tex",
+      "sha256": "49092a4f32788919141481e5fca0fbc377c498f0e11476833db1686a1d44f965"
+    },
+    {
+      "path": "track_b/paper/evidence/q4_claims.json",
+      "sha256": "b70080ddf3f0c1dd40438a919bfeca205a2fcc1396812af6a794b99a54ffc208"
+    },
+    {
+      "path": "track_b/paper/evidence/q4_code_files.json",
+      "sha256": "4a35707c2466bb7b0042f2774f67036bcbc3efc183352a6aa0555fcf6881adae"
+    },
+    {
+      "path": "track_b/paper/evidence/q4_references.tex",
+      "sha256": "d0a38d9e4aa35284d392e27c46596ee8c2475ff0b0daf9f0b759a577bcc6a125"
+    },
+    {
+      "path": "track_b/paper/evidence/q4_plot_manifest.json",
+      "sha256": "245274d34b38963ca6c6e855d12a0d09aff95c104d801315c61f0e32de9d64e3"
+    },
+    {
+      "path": "track_b/paper/evidence/q4_visual_review.json",
+      "sha256": "876d7af53dc11d9b03507bb82ced794d387bda733307c05370cc74c02cdbd3d0"
+    },
+    {
+      "path": "track_b/paper/tasks/q4_HANDOFF.md",
+      "sha256": "76d077e96ceb88c674b45267e6038dd780768a07dc4297d41817c600da0e5215"
+    },
+    {
+      "path": "track_b/paper/scripts/q4_validate_paper.py",
+      "sha256": "7f0d0661f488d7165a778e66de76c4cdbf89509dcc7129fcd55d79cf50c3d714"
+    }
+  ]
+}

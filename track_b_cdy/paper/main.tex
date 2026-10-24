@@ -1,0 +1,37 @@
+% !TeX program = xelatex
+% AI-assisted: OpenAI Codex, 2026-10-24. Contributions are recorded in AI_DISCLOSURE.md.
+\documentclass[UTF8,a4paper,zihao=-4,fontset=none]{ctexart}
+\input{preamble}
+\begin{document}
+\hypersetup{pageanchor=false}
+\input{sections/frontmatter}
+\clearpage
+\pagenumbering{gobble}
+\tableofcontents
+\clearpage
+\hypersetup{pageanchor=true}
+\pagenumbering{arabic}
+\input{sections/introduction}
+\input{sections/data}
+\FloatBarrier
+\input{sections/q1}
+\FloatBarrier
+\input{sections/q2}
+\FloatBarrier
+\input{sections/q3}
+\FloatBarrier
+\input{sections/q4}
+\FloatBarrier
+\input{sections/discussion}
+\FloatBarrier
+\input{sections/conclusion}
+\FloatBarrier
+\input{references}
+\input{sections/ai_statement}
+\label{LastMainPage}
+\clearpage
+\appendix
+\linespread{1.05}\selectfont
+\input{appendices/supplement}
+\input{appendices/programs}
+\end{document}

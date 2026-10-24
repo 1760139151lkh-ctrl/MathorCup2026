@@ -1,0 +1,34 @@
+{
+  "contract_version": "stage4-r1-v1",
+  "date_user_local": "2026-10-24",
+  "null_semantics": "unverified or unavailable; never silently infer eligibility",
+  "question_ids": ["q1", "q2", "q3", "q4"],
+  "handoff_required": ["research_question", "input_versions_and_hashes", "evidence", "method_comparison", "experiment_commands", "outputs", "verification", "limitations", "cross_question_requests"],
+  "shared_record_fields": {
+    "input_version": "baseline commit and manifest SHA256; newer approved evidence separately versioned",
+    "event_id": "independent event group, not one event per source/window",
+    "physical_phase": "retain source meaning; initiation, propagation and arrival are distinct",
+    "time_utc": "timezone-aware UTC, nullable",
+    "time_uncertainty": "value/range, unit, confidence meaning and source; nullable",
+    "space_object": "geometry or source reference, CRS, resolution and positional uncertainty; nullable",
+    "variable_semantics": "units, QC status, accumulation window and transformations; nullable",
+    "forecast_reference_time": "initialization timestamp; nullable",
+    "issue_time": "decision/publication timestamp for replay; nullable",
+    "valid_time": "target-valid timestamp; nullable",
+    "available_time": "when information was actually usable, evidence or explicit delay scenario; nullable",
+    "data_role": "exploration, calibration, validation, or scenario; explicitly assigned",
+    "evidence_status": "local_fact, external_source, inference, candidate, or unverified"
+  },
+  "ownership": {
+    "workers": "only track_b/research/<assigned_question>/",
+    "integrator": ["shared inputs", "scripts/config/lock", "event ledger", "STATUS/DECISIONS/AI_USAGE", "workspace registry", "approved cross-question contracts"],
+    "gap_leads": {"q1": "variable semantics and quality", "q2": "mechanism and remote evidence", "q3": "event labels and historical forecast availability", "q4": "geometry and terrain"}
+  },
+  "baseline_scientific_state": {
+    "accepted_independent_training_or_coverage_events": 0,
+    "failure_polygon_verified": false,
+    "source_to_target_continuity_verified": false,
+    "historical_forecast_availability_verified": false,
+    "final_model_or_top5_or_threshold_or_95pct_coverage_verified": false
+  }
+}

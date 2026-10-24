@@ -1,0 +1,11 @@
+{
+  "protocol_version": "q4-r3-protocol-v1",
+  "registered_at_utc": "2026-10-24T07:29:49.387320+00:00",
+  "registered_before_round3_propagation_computation": true,
+  "path": "track_b/research/q4/round3/EXPERIMENT_PROTOCOL.md",
+  "sha256": "b7a27331822055da9643f6c0c5072a425ca2b20180b773f60780f4eca2cbbc48",
+  "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+  "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+  "primary_time_origin": "relative to supplied release; not initiation truth",
+  "human_scientific_adoption": "pending_team_review"
+}

@@ -1,0 +1,86 @@
+{
+  "generated_at_utc": "2026-10-24T09:10:08.229087+00:00",
+  "prediction_projection_rows": 20502,
+  "A_weather_rows": 20250,
+  "matched_B_C_rows": 252,
+  "primary_A_version": "analytic_erfc_linear_thermal_reference; water_damage_hourly_discrete",
+  "primary_C_summary": {
+    "status": "completed",
+    "seed": 20261024,
+    "real_physical_groups": 14,
+    "observed_failure_groups": 13,
+    "right_censored_groups": 1,
+    "administrative_censor_fraction": null,
+    "numerical_grid_max_nodes": 512,
+    "anchors_only": true,
+    "feature_specification": "no_record_age_main",
+    "executed_source_sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd",
+    "evaluation_stratum": "external_transfer",
+    "censored_groups_are_new_real_nonfailure_sites": false,
+    "monitored_model_exposure_hours": 56526.19055554218,
+    "guaranteed_survival_exposure_hours": 56381.84055555558,
+    "interval_label_width_hours": 144.34999998659893,
+    "risk_intervals": 3878,
+    "raw_prediction_rows": 1608,
+    "model_branches": 4,
+    "future_cutoff_or_probability_violations": [],
+    "inputs": [
+      {
+        "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/deformation/observations.csv",
+        "bytes": 17528504,
+        "sha256": "355cfb1c8f44ef9048be8df4fdaaa5396019e0a4e0260665a1c5bb7acc662c3b"
+      },
+      {
+        "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/deformation/site_registry.csv",
+        "bytes": 9080,
+        "sha256": "3414206069197b945d8286d404ff98d17988b00fb16945cef11966d346c80303"
+      },
+      {
+        "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/EXPERIMENT_PROTOCOL.md",
+        "bytes": 5913,
+        "sha256": "f292f8011f75be4234a3ef15cbb917f6e305dfdfdcaf349988db9a8bd35a5447"
+      },
+      {
+        "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/scripts/engine_c.py",
+        "bytes": 51265,
+        "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+      },
+      {
+        "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/survival/stampa_observations.csv",
+        "bytes": 109020,
+        "sha256": "8e10eeca979ef1838d238e202503e621914cd546e7d84678bc54887fcf9565fa"
+      },
+      {
+        "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/inputs/survival/stampa_site_registry.csv",
+        "bytes": 630,
+        "sha256": "d7c9d8cdb551d8bfdda4bd179c6f86f01f94765f3168c002c238206ed0b4358c"
+      }
+    ],
+    "utc": "source UTC absent retained native relative clocks",
+    "limitations": [
+      "Case-selection conditional probability, not operational population risk",
+      "Rolling rows are dependent; physical group count is the independent denominator",
+      "Frozen-covariate finite-horizon model; no measured main-region initiation truth",
+      "Model-internal conditional 95% interval is not a validated 95% coverage guarantee",
+      "Crossfit scale calibration has no independent calibration-set guarantee",
+      "Censor KM assumes transferable independent censoring; actual assumption unverified",
+      "For interval event labels IPCW censor KM uses upper endpoint as event-removal bound; report score bounds alongside it",
+      "Sensor preprocessing may have used retrospective smoothing in original data",
+      "No event label or verified censor follow-up means excluded from likelihood"
+    ]
+  },
+  "local_first_mechanical_truth_accepted": false,
+  "local_empirical_coverage": null,
+  "full_raw_predictions": "See per-engine prediction_cache.json or predictions.csv.gz; root projection keeps primary prior and fixed common anchors, not all raw repeated rows",
+  "evaluation_tables_compared_without_pooling_strata": true,
+  "checks": {
+    "probability_normalization": true,
+    "no_local_truth_coverage_inferred": true,
+    "primary_C_has_no_record_age": true,
+    "frozen_event_v1_retained": true,
+    "shared_contract_columns_present": true,
+    "data_roles_explicit": true,
+    "all_engine_validations_loaded": true
+  },
+  "passed": true
+}

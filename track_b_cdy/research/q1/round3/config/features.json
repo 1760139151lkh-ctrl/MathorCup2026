@@ -1,0 +1,482 @@
+{
+  "schema_version": "q1-r3-features-v1",
+  "input_version": {
+    "common_baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+    "experiment_config_sha256": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b",
+    "experiment_protocol_sha256": "6cf85e7c17319f50a05ca957666265fb34dbb58b1cd089391c5fcb86f81b3e24"
+  },
+  "feature_id_pattern": "<driver_id>__<statistic>",
+  "quality_tracks": [
+    "original_qc_view",
+    "unknown_qc_exploration"
+  ],
+  "drivers": [
+    {
+      "driver_id": "air_temperature_2m",
+      "family_id": "air_thermal",
+      "source_variables": [
+        "MET__Ta_2m"
+      ],
+      "operation": "identity",
+      "unit": "degC",
+      "formula": "Ta_2m",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "air_temperature_gradient",
+      "family_id": "air_thermal",
+      "source_variables": [
+        "MET__Ta_20m",
+        "MET__Ta_2m"
+      ],
+      "operation": "difference18",
+      "unit": "degC m-1",
+      "formula": "(Ta_20m - Ta_2m)/18 m; nominal measurement heights",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "relative_humidity_2m",
+      "family_id": "air_moisture",
+      "source_variables": [
+        "MET__RH_2m"
+      ],
+      "operation": "identity",
+      "unit": "%",
+      "formula": "RH_2m",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "relative_humidity_gradient",
+      "family_id": "air_moisture",
+      "source_variables": [
+        "MET__RH_20m",
+        "MET__RH_2m"
+      ],
+      "operation": "difference18",
+      "unit": "percentage_point m-1",
+      "formula": "(RH_20m - RH_2m)/18 m; nominal measurement heights",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "wind_speed_10m",
+      "family_id": "mean_wind",
+      "source_variables": [
+        "MET__WS_10m"
+      ],
+      "operation": "identity",
+      "unit": "m s-1",
+      "formula": "WS_10m",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "wind_speed_gradient",
+      "family_id": "mean_wind",
+      "source_variables": [
+        "MET__WS_20m",
+        "MET__WS_2m"
+      ],
+      "operation": "difference18",
+      "unit": "s-1",
+      "formula": "(WS_20m - WS_2m)/18 m; not friction velocity",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "wind_direction_sin_10m",
+      "family_id": "mean_wind",
+      "source_variables": [
+        "MET__WD_10m"
+      ],
+      "operation": "sin_degrees",
+      "unit": "1",
+      "formula": "sin(WD_10m*pi/180); not a vector-mean direction",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median"
+      ]
+    },
+    {
+      "driver_id": "wind_direction_cos_10m",
+      "family_id": "mean_wind",
+      "source_variables": [
+        "MET__WD_10m"
+      ],
+      "operation": "cos_degrees",
+      "unit": "1",
+      "formula": "cos(WD_10m*pi/180); not a vector-mean direction",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median"
+      ]
+    },
+    {
+      "driver_id": "air_pressure",
+      "family_id": "air_pressure",
+      "source_variables": [
+        "MET__Pressure"
+      ],
+      "operation": "identity",
+      "unit": "hPa",
+      "formula": "Pressure",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "shortwave_down",
+      "family_id": "shortwave",
+      "source_variables": [
+        "RADM__Rsd"
+      ],
+      "operation": "identity",
+      "unit": "W m-2",
+      "formula": "Rsd",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "shortwave_difference",
+      "family_id": "shortwave",
+      "source_variables": [
+        "RADM__Rsd",
+        "RADM__Rsu"
+      ],
+      "operation": "difference",
+      "unit": "W m-2",
+      "formula": "Rsd - Rsu; instrument sign convention remains unverified",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "longwave_down",
+      "family_id": "longwave",
+      "source_variables": [
+        "RADM__Rld"
+      ],
+      "operation": "identity",
+      "unit": "W m-2",
+      "formula": "Rld",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "longwave_difference",
+      "family_id": "longwave",
+      "source_variables": [
+        "RADM__Rld",
+        "RADM__Rlu"
+      ],
+      "operation": "difference",
+      "unit": "W m-2",
+      "formula": "Rld - Rlu; instrument sign convention remains unverified",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "soil_temperature_0p1m",
+      "family_id": "soil_thermal",
+      "source_variables": [
+        "SOIL__soilT_0.1m"
+      ],
+      "operation": "identity",
+      "unit": "degC",
+      "formula": "soilT_0.1m",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "soil_temperature_gradient",
+      "family_id": "soil_thermal",
+      "source_variables": [
+        "SOIL__soilT_0.1m",
+        "SOIL__soilT_0.8m"
+      ],
+      "operation": "difference0p7",
+      "unit": "degC m-1",
+      "formula": "(soilT_0.1m - soilT_0.8m)/0.7 m; shallow-minus-deep nominal gradient",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "soil_vwc_0p1m",
+      "family_id": "soil_moisture",
+      "source_variables": [
+        "SOIL__VWC_0.1m"
+      ],
+      "operation": "identity",
+      "unit": "m3 m-3",
+      "formula": "VWC_0.1m",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "soil_vwc_gradient",
+      "family_id": "soil_moisture",
+      "source_variables": [
+        "SOIL__VWC_0.1m",
+        "SOIL__VWC_0.8m"
+      ],
+      "operation": "difference0p7",
+      "unit": "m3 m-4",
+      "formula": "(VWC_0.1m - VWC_0.8m)/0.7 m; shallow-minus-deep nominal gradient",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "soil_heat_flux_0p1m",
+      "family_id": "soil_heat_flux",
+      "source_variables": [
+        "SOIL__G_0.1m"
+      ],
+      "operation": "identity",
+      "unit": "W m-2",
+      "formula": "G_0.1m; sign convention remains unverified",
+      "quality_requirement": "all source values finite, numeric-present and original QC=0 at same hour",
+      "availability_track": "both_tracks_original_qc0",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "vapour_pressure_deficit",
+      "family_id": "air_moisture",
+      "source_variables": [
+        "FLUX__VPD"
+      ],
+      "operation": "identity",
+      "unit": "hPa",
+      "formula": "VPD; unknown FLUX QC, processing and averaging interval",
+      "quality_requirement": "numeric_present for supplied no-QC variables; unknown never promoted to QC0",
+      "availability_track": "unknown_qc_exploration_only",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "precipitation_label",
+      "family_id": "precipitation",
+      "source_variables": [
+        "MET__Precip"
+      ],
+      "operation": "identity",
+      "unit": "mm (label value; integration period unknown)",
+      "formula": "Precip label; not cumulative rainfall",
+      "quality_requirement": "numeric_present for supplied no-QC variables; unknown never promoted to QC0",
+      "availability_track": "unknown_qc_exploration_only",
+      "statistics": [
+        "median",
+        "p95",
+        "max",
+        "positive_fraction",
+        "longest_positive_fraction"
+      ]
+    },
+    {
+      "driver_id": "latent_heat_flux",
+      "family_id": "turbulent_heat",
+      "source_variables": [
+        "FLUX__LE"
+      ],
+      "operation": "identity",
+      "unit": "W m-2",
+      "formula": "LE; unknown QC/sign/processing; not integrated energy",
+      "quality_requirement": "numeric_present for supplied no-QC variables; unknown never promoted to QC0",
+      "availability_track": "unknown_qc_exploration_only",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "sensible_heat_flux",
+      "family_id": "turbulent_heat",
+      "source_variables": [
+        "FLUX__H"
+      ],
+      "operation": "identity",
+      "unit": "W m-2",
+      "formula": "H; unknown QC/sign/processing; not integrated energy",
+      "quality_requirement": "numeric_present for supplied no-QC variables; unknown never promoted to QC0",
+      "availability_track": "unknown_qc_exploration_only",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "friction_velocity",
+      "family_id": "turbulent_mechanics",
+      "source_variables": [
+        "FLUX__USTAR"
+      ],
+      "operation": "identity",
+      "unit": "m s-1",
+      "formula": "USTAR; unknown QC/processing",
+      "quality_requirement": "numeric_present for supplied no-QC variables; unknown never promoted to QC0",
+      "availability_track": "unknown_qc_exploration_only",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    },
+    {
+      "driver_id": "turbulent_kinetic_energy",
+      "family_id": "turbulent_mechanics",
+      "source_variables": [
+        "FLUX__TKE"
+      ],
+      "operation": "identity",
+      "unit": "m2 s-2",
+      "formula": "TKE; unknown QC/processing",
+      "quality_requirement": "numeric_present for supplied no-QC variables; unknown never promoted to QC0",
+      "availability_track": "unknown_qc_exploration_only",
+      "statistics": [
+        "median",
+        "p05",
+        "p95",
+        "trend_per24h",
+        "longest_increase_fraction"
+      ]
+    }
+  ],
+  "minimum_valid_for_distribution_or_persistence": 2,
+  "minimum_valid_for_trend": 6,
+  "coverage_filter_applied": false,
+  "positive_run_definition": "adjacent accepted positive labels; missing breaks; chain label count / nominal window labels",
+  "increase_run_definition": "adjacent +1h accepted pairs with positive difference; maximum consecutive increment hours / nominal window labels",
+  "time_support": "[anchor-window, anchor) on source hourly labels; timestamp integration semantics unverified",
+  "export_time_support_source_clock": [
+    "2026-07-01T00:00:00+08:00",
+    "2026-08-26T11:30:00+08:00"
+  ],
+  "v1_immutability": "Existing bytes must match on rerun; changes require a new version and fresh export path"
+}

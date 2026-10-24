@@ -1,0 +1,41 @@
+{
+  "generated_at_utc": "2026-10-24T04:34:18.641194+00:00",
+  "experiment_id": "q4-r1-terrain-and-synthetic-io-v1",
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "propagation_feasibility_only",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "crs": "EPSG:32645",
+    "parameter_mask_is_event_source": false,
+    "source_area": null,
+    "channel": null,
+    "target_site": null
+  },
+  "variable_semantics": {
+    "terrain": "m, unverified vertical datum; no correction",
+    "synthetic_tracer": "dimensionless"
+  },
+  "available_time": null,
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "data_role": "exploration",
+  "evidence_status": "local_fact",
+  "input_version": {
+    "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+    "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+    "config_sha256": "f2179ab85d5831920370db024cc8516f121ebffdd4e19c1fb50db4d1a0e7fe2c",
+    "script_sha256": "e784055603691121eacf82b6d54cc4c81ee9eaf8dd4dc07cbc3ef86ee40721e7"
+  },
+  "technical_checks": {
+    "same_grid": true,
+    "nc_mask_has_independent_dem_support": true,
+    "resampling_diagnostic_geotiff_roundtrip": true,
+    "synthetic_conservation_positivity_refinement_and_netcdf": true
+  },
+  "source_to_port_continuity_verified": false,
+  "event_reconstruction_performed": false,
+  "synthetic_cases_are_independent_events": false,
+  "human_core_model_selection": "pending"
+}

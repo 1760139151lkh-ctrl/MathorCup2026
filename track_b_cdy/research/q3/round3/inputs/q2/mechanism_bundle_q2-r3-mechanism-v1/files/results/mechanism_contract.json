@@ -1,0 +1,84 @@
+{
+  "contract_version": "q2r3-mechanism-contract-v1",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "model_ids": {
+    "S": "q2r3_S_v1",
+    "S_T": "q2r3_ST_v1",
+    "S_H": "q2r3_SH_v1",
+    "S_T_H": "q2r3_STH_v1"
+  },
+  "parameter_version": "q2r3-design-v1",
+  "evaluation_stratum": "conditional_scenario",
+  "data_role": "scenario",
+  "forecast_input_mode": "ideal_weather",
+  "time_origin_utc": "2026-06-01T00:00:00Z",
+  "time_step_hours": 1,
+  "forcing_interval": "forcing[i] drives [time[i],time[i+1]); state[0] specified initial condition",
+  "real_available_time": null,
+  "margin_definition": "(resisting_shear_kPa-driving_shear_kPa)/driving_shear_kPa; positive stable",
+  "positive_is_stable": true,
+  "onset_status_values": [
+    "left_censored_already_unstable",
+    "interval_crossing",
+    "never_crossed",
+    "missing",
+    "missing_before_possible_crossing"
+  ],
+  "onset_rule": "first sampled nonpositive margin after stable finite initial value; linear interpolation within bracket; initial nonpositive left censored",
+  "no_probability_prior": true,
+  "grid_weights": null,
+  "engine_entry": "scripts/mechanism_engine.py: simulate(air_c,precip_mm_h,parameters,mechanism,policy,dt_hours,dz_m)",
+  "state_columns": {
+    "interface_temp_c": "degC",
+    "damage": "dimensionless cohesion-loss fraction",
+    "storage_m": "water-equivalent m",
+    "pressure_kpa": "kPa",
+    "failure_margin": "dimensionless"
+  },
+  "equations": [
+    "sigma_n=rho*g*h_normal*cos(theta)/1000 kPa; tau=rho*g*h_normal*sin(theta)/1000 kPa",
+    "R=(1-D)*(fb*cb+(1-fb)*cj(T))+max(sigma_n-u,0)*(fb*mub+(1-fb)*muj(T))",
+    "cj=53.3-73.5*T kPa; muj=.42-.21*T; external_transfer ice-filled limestone fast-shear law",
+    "dT/dt=alpha*Tzz; Tsurface=min(Tstation+offset,0); no-flux at40m",
+    "dW/dt=I-W/tau_d; head=W/Sy; u=g*head kPa; capacity=min(connected_depth,.98*sigma_n/g)",
+    "Dnext=1-(1-D)*exp(-A*min(tau/max(R,1e-6),10)^n*dt); cap D .999999",
+    "tau_d=drainage_hours*exp(-drainage_damage_coupling*D)"
+  ],
+  "applicability": {
+    "Mamot2018": {
+      "temperature_c": [
+        -8,
+        -0.5
+      ],
+      "effective_normal_kpa": [
+        100,
+        400
+      ],
+      "material": "ice-filled limestone joint",
+      "strain_rate_s_inv": "mean (4.8+/-1.4)e-3; not slow creep"
+    },
+    "conditional_extensions": [
+      "effective-stress substitution",
+      "area mixing",
+      "damage law",
+      "temperature/rain transfer",
+      "melt proxy",
+      "thaw branch mu=.6"
+    ]
+  },
+  "refutation": [
+    "deep joint temperature unchanged contradicts rapid conductive weakning at that depth",
+    "measured head below conditional critical relation challenges pressure trigger",
+    "geometry/material mismatch rejects assigned slab/strength transfer"
+  ],
+  "limitations": [
+    "not event-calibrated; independent events=0",
+    "linear_extension outside lab range explicitly flagged",
+    "thaw branch uncalibrated",
+    "post-crossing continuation diagnostic only",
+    "representatives are 8 fixed design indices; all 2048 outcomes retain no-start and censoring"
+  ]
+}

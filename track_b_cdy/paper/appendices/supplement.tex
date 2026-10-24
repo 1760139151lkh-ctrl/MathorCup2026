@@ -1,0 +1,27 @@
+\section{补充结果、软件与复跑说明}\label{app:supplement}
+\subsection{材料组织与结果索引}
+本论文工程的\texttt{evidence/claim\_index.json}登记正文论断、源文件哈希和图表锚点。原始研究表格保留在各问\texttt{round3/results/}，论文图及其绘图脚本位于论文工程\texttt{figures/}和\texttt{scripts/}。每个模型、机制、情景和几何版本沿用原标识，程序附录对应论文实际采用的自编计算与后处理代码。
+
+\subsection{软件、版本与命令}
+资料处理采用Python 3.12、NumPy、pandas、SciPy、matplotlib及按用途锁定的统计/地理环境；原共享环境含44个锁定包。传播计算采用本地Linux容器中的r.avaflow 4.0 Revision 7、D-Claw 1.0.0及Clawpack 5.11.0。r.avaflow资源收尾派生修复只涉及45处资源清理调用，有效共同配置的70项ASCII输出逐字一致，物理方程沿用固定源码。原版与派生镜像、每run实际源码/构建及配置快照分别登记。
+
+论文的复跑从已有结果开始，依次执行证据/来源核对、论文绘图、参考文献排序、程序附录构建和XeLaTeX编译。完整命令在工程\texttt{README.md}。历史模型的重放命令见各问\texttt{REPRODUCE.md}，其输入版本和缓存索引与论文证据表关联。
+
+\begin{table}[htbp]\centering\small
+\caption{研究与论文重放入口。命令在仓库根执行，各路径指向相应版本的说明。}
+\begin{tabularx}{\linewidth}{p{2.3cm}Y}
+\toprule
+模块 & 入口\\\midrule
+Q1因素识别 & \texttt{track\_b/research/q1/round3/REPRODUCE.md}\\
+Q2机制及实验 & \texttt{track\_b/research/q2/round3/REPRODUCE.md}\\
+Q3时间预测 & \texttt{track\_b/research/q3/round3/REPRODUCE.md}\\
+Q4传播模型 & \texttt{track\_b/research/q4/round3/REPRODUCE.md}\\
+论文集成 & \texttt{track\_b/paper/README.md}\\\bottomrule
+\end{tabularx}\end{table}
+
+\subsection{数据与模型配置的层级}
+气象排序同时保留主质量轨与探索质量轨；结构水热计算以共同256参数设计、四机制及两强度政策组织；时间预测将历史信息、假设延迟和理想天气输入分别登记；传播给出几何、释放体积、组分、密度、摩阻、孔压、格网、时间步及目标定义。详细参数表、分组评价和每次运行字段由证据索引链接原表，供逐项核对。
+
+\input{appendices/parameter_tables}
+
+地形派生成果使用Copernicus WorldDEM-30（DLR e.V. 2010—2014、Airbus Defence and Space GmbH 2014—2018，由欧盟与ESA通过COPERNICUS提供）；光学图件包含经修改的Copernicus Sentinel 2026数据。对象与河网资料署名为OpenStreetMap contributors，依ODbL登记。

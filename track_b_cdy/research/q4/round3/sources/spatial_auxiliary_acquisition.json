@@ -1,0 +1,87 @@
+{
+  "version": "q4-r3-spatial-aux-v1",
+  "records": [
+    {
+      "url": "https://registry.opendata.aws/copernicus-dem/",
+      "method": "GET",
+      "request_json": null,
+      "cache_reuse": true,
+      "read_at_utc": "2026-10-24T07:59:47.564009+00:00",
+      "retrieved_at_utc": "2026-10-24T07:36:02.145056+00:00",
+      "retrieval_time_basis": "original cache write completion mtime, original HTTP receipts retained in dedicated source logs",
+      "status": null,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/copdem_registry.html",
+      "bytes": 10002,
+      "sha256": "04b2d63198acecd854a2a04100feb63d71aeecd83773c692b7f5093a0a4defca",
+      "actual_read_scope": "complete cached response; product definition / original object attributes / same-product C1 metadata / provider offset guidance selected"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+      "method": "GET",
+      "request_json": null,
+      "cache_reuse": true,
+      "read_at_utc": "2026-10-24T07:59:47.567503+00:00",
+      "retrieved_at_utc": "2026-10-24T07:36:05.306446+00:00",
+      "retrieval_time_basis": "original cache write completion mtime, original HTTP receipts retained in dedicated source logs",
+      "status": null,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/copdem_cdse_description.html",
+      "bytes": 114252,
+      "sha256": "7beef5b37afc9ce183afa499fa7656c3f14fa2ec72104e4aa0f7662b5bb26494",
+      "actual_read_scope": "complete cached response; product definition / original object attributes / same-product C1 metadata / provider offset guidance selected"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=85.35,28.25,85.55,28.36",
+      "method": "GET",
+      "request_json": null,
+      "cache_reuse": true,
+      "read_at_utc": "2026-10-24T07:59:47.568782+00:00",
+      "retrieved_at_utc": "2026-10-24T07:41:02.059656+00:00",
+      "retrieval_time_basis": "original cache write completion mtime, original HTTP receipts retained in dedicated source logs",
+      "status": null,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/osm_map_direct.osm",
+      "bytes": 7089549,
+      "sha256": "903e813b392dcaf7fe310a5aa09ee8f891858282ed241ffb9229408fec002484",
+      "actual_read_scope": "complete cached response; product definition / original object attributes / same-product C1 metadata / provider offset guidance selected"
+    },
+    {
+      "url": "https://earth-search.aws.element84.com/v1/search",
+      "method": "POST",
+      "request_json": {
+        "collections": [
+          "sentinel-2-c1-l2a"
+        ],
+        "bbox": [
+          85.35,
+          28.25,
+          85.55,
+          28.36
+        ],
+        "datetime": "2026-08-01T00:00:00Z/2026-09-30T23:59:59Z",
+        "limit": 100
+      },
+      "cache_reuse": true,
+      "read_at_utc": "2026-10-24T07:59:47.624433+00:00",
+      "retrieved_at_utc": "2026-10-24T07:50:42.688371+00:00",
+      "retrieval_time_basis": "original cache write completion mtime, original HTTP receipts retained in dedicated source logs",
+      "status": null,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/sentinel2_c1_search.json",
+      "bytes": 549478,
+      "sha256": "b7431b15374a17c45fdb69556bbcfe57e4d2de84275cf0b1bd4c730bdbeed5c4",
+      "actual_read_scope": "complete cached response; product definition / original object attributes / same-product C1 metadata / provider offset guidance selected"
+    },
+    {
+      "url": "https://api.github.com/repos/Element84/earth-search/issues/41/comments",
+      "method": "GET",
+      "request_json": null,
+      "cache_reuse": true,
+      "read_at_utc": "2026-10-24T07:59:47.642260+00:00",
+      "retrieved_at_utc": "2026-10-24T07:50:44.462344+00:00",
+      "retrieval_time_basis": "original cache write completion mtime, original HTTP receipts retained in dedicated source logs",
+      "status": null,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/earthsearch_issue41_comments.json",
+      "bytes": 2748,
+      "sha256": "5ba5825fa7a2f633e5b54f421b48f206b9aca33c9d7dfa1c532b4771b6fc13fc",
+      "actual_read_scope": "complete cached response; product definition / original object attributes / same-product C1 metadata / provider offset guidance selected"
+    }
+  ]
+}

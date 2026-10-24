@@ -1,0 +1,14 @@
+{
+  "rows": 2089,
+  "first_utc": "2026-06-01 00:00:00+00:00",
+  "last_utc": "2026-08-27 00:00:00+00:00",
+  "temperature_missing": 0,
+  "precip_missing": 0,
+  "precip_label_sum_mm_under_hourly_assumption": 159.8,
+  "no_interpolation": true,
+  "operational_availability": null,
+  "station_timezone_assumption": "UTC+8 as inherited, local equivalence still unknown",
+  "source_space": "Gyirong regional station; source temperature/rain are conditional transfers",
+  "used_as": "conditional_scenario ideal_weather retrospective forcing, not validated source observation",
+  "excluded_long_gap": "2026-08-27T01:00Z onward not filled or treated as zero"
+}

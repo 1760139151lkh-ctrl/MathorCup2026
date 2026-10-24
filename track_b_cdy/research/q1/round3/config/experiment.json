@@ -1,0 +1,108 @@
+{
+  "version": "q1-r3-protocol-v1",
+  "registered_at_utc": "2026-10-24T07:32:40.701673+00:00",
+  "common_baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+  "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+  "source_timezone": "Asia/Shanghai",
+  "target_year": 2026,
+  "background_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "center_date": "08-26",
+  "anchor_sources": [
+    {
+      "anchor_id": "problem_1030",
+      "source_time": "2026-08-26T10:30:00+08:00"
+    },
+    {
+      "anchor_id": "usgs_reference",
+      "source_time": "2026-08-26T10:52:10+08:00"
+    }
+  ],
+  "anchor_shifts_hours": [
+    -1,
+    0,
+    1
+  ],
+  "windows_hours": [
+    24,
+    72,
+    168
+  ],
+  "day_offsets_inclusive": [
+    -30,
+    30
+  ],
+  "coverage_primary": 0.75,
+  "coverage_sensitivity": [
+    0.5,
+    0.9
+  ],
+  "process_block_days_primary": 7,
+  "process_block_days_sensitivity": [
+    3,
+    14
+  ],
+  "seasonal_range_days_primary": 30,
+  "seasonal_range_days_sensitivity": [
+    15
+  ],
+  "covariance_shrinkage_primary": 0.5,
+  "covariance_shrinkage_sensitivity": [
+    0.1,
+    0.9
+  ],
+  "analog_processes_per_year_primary": 2,
+  "analog_processes_per_year_sensitivity": [
+    1,
+    3
+  ],
+  "minimum_background_years": 3,
+  "covariance_feature_observed_fraction": 0.8,
+  "seed": 20261024,
+  "bootstrap_replicates": 100,
+  "quality_tracks": [
+    "original_qc_view",
+    "unknown_qc_exploration"
+  ],
+  "primary_track": "original_qc_view",
+  "primary_anchor": "problem_1030",
+  "primary_shift_hours": 0,
+  "recommendation": "mean of three route fractional family ranks, then mean across three fixed windows; no extra vote for duplicate anchor; report sensitivity and bootstrap inclusion; scientific adoption pending",
+  "ranking_stats": [
+    "median",
+    "p05",
+    "p95",
+    "trend_per24h",
+    "longest_increase_fraction"
+  ],
+  "diagnostic_stats": [
+    "min",
+    "max"
+  ],
+  "precip_stats": [
+    "median",
+    "p95",
+    "max",
+    "positive_fraction",
+    "longest_positive_fraction"
+  ],
+  "model_ids": [
+    "A_marginal_ecdf",
+    "B_shrunk_conditional",
+    "C_other_family_analog"
+  ],
+  "mechanism_id": "not_applicable_statistical_case_anomaly",
+  "experiment_id": "q1-r3-three-route-v1",
+  "scenario_id": "regional_observational_case",
+  "geometry_version": "Gyirong_metadata_unverified_local_equivalence",
+  "parameter_version": "q1-r3-protocol-v1",
+  "evaluation_stratum": "local_observational",
+  "data_role": "exploration",
+  "available_time": null,
+  "event_id": "B20260826_Chhochen_case_reference_not_independent_truth"
+}

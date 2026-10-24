@@ -1,0 +1,200 @@
+{
+  "state": {
+    "reference_utc": "2026-08-26T02:30:00+00:00",
+    "n_vwc": 168,
+    "vwc_first": 0.164703,
+    "vwc_last": 0.0827526,
+    "representative_driver_ids": [
+      "air_temperature_2m",
+      "relative_humidity_2m",
+      "wind_speed_10m",
+      "soil_temperature_0p1m",
+      "soil_vwc_0p1m",
+      "soil_heat_flux_0p1m",
+      "shortwave_down"
+    ],
+    "windows_hours": [
+      24,
+      72,
+      168
+    ],
+    "median_percentiles": [
+      [
+        0.8825396825396825,
+        0.8666666666666667,
+        0.6777777777777778
+      ],
+      [
+        0.3466666666666667,
+        0.3917460317460317,
+        0.7587301587301587
+      ],
+      [
+        0.3568253968253967,
+        0.3006349206349205,
+        0.2622222222222221
+      ],
+      [
+        0.5212698412698411,
+        0.3714285714285714,
+        0.1955555555555555
+      ],
+      [
+        0.587936507936508,
+        0.6844444444444444,
+        0.8222222222222222
+      ],
+      [
+        0.7707936507936509,
+        0.6958730158730158,
+        0.5307936507936507
+      ],
+      [
+        0.8374603174603175,
+        0.8497354497354498,
+        0.7746031746031746
+      ]
+    ]
+  },
+  "stability": {
+    "family_ids": [
+      "soil_moisture",
+      "air_moisture",
+      "soil_thermal",
+      "air_thermal",
+      "mean_wind",
+      "soil_heat_flux",
+      "shortwave",
+      "longwave",
+      "air_pressure"
+    ],
+    "models": [
+      "A_marginal_ecdf",
+      "B_shrunk_conditional",
+      "C_other_family_analog"
+    ],
+    "frequency_mean_over_three_windows": [
+      [
+        0.8801498127340824,
+        0.6363636363636364,
+        0.8370786516853932
+      ],
+      [
+        0.6104868913857678,
+        0.8333333333333334,
+        0.7047440699126092
+      ],
+      [
+        0.7322097378277154,
+        0.8863636363636364,
+        0.6320224719101124
+      ],
+      [
+        0.8670411985018727,
+        0.8484848484848485,
+        0.6044319600499376
+      ],
+      [
+        0.14981273408239695,
+        0.6287878787878788,
+        0.6727840199750313
+      ],
+      [
+        0.6460674157303371,
+        0.5151515151515151,
+        0.5491885143570537
+      ],
+      [
+        0.7621722846441948,
+        0.1818181818181818,
+        0.3185393258426967
+      ],
+      [
+        0.35205992509363293,
+        0.2272727272727272,
+        0.3694132334581772
+      ],
+      [
+        0.0,
+        0.2424242424242424,
+        0.31179775280898875
+      ]
+    ],
+    "valid_bootstrap_draws_per_window": {
+      "A_marginal_ecdf": [
+        89
+      ],
+      "B_shrunk_conditional": [
+        44
+      ],
+      "C_other_family_analog": [
+        89
+      ]
+    },
+    "requested_draws_per_window": 100,
+    "sensitivity_categories": [
+      "参考时刻 ±1 h",
+      "过程块 3 / 14 d",
+      "季节范围 ±15 d",
+      "支持率 50% / 90%",
+      "收缩系数 0.1 / 0.9",
+      "每年类比数 1 / 3"
+    ],
+    "jaccard_mean_over_three_windows_and_listed_variants": [
+      [
+        0.7222222222222222,
+        0.8888888888888888,
+        0.8898809523809524
+      ],
+      [
+        0.8055555555555555,
+        0.9444444444444443,
+        0.8253968253968255
+      ],
+      [
+        0.6666666666666666,
+        0.8095238095238094,
+        0.6468253968253969
+      ],
+      [
+        0.9444444444444443,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.7936507936507936,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        0.7787698412698413
+      ]
+    ]
+  },
+  "font": "/Users/maxchen/Library/Fonts/PingFang Regular_0.ttf",
+  "fit_performed": false,
+  "source_files": [
+    {
+      "path": "track_b/research/q1/round3/exports/hourly_drivers.parquet",
+      "sha256": "9580f4ab81903e0bbdcea3b274815128b7bfc99a08972a59c933c51a487a059d"
+    },
+    {
+      "path": "track_b/research/q1/round3/results/factor_directions.csv",
+      "sha256": "3bac727ac99df13eb3f52d40684d8da28d6290149f6a4bb83f2ae81a6d7f853a"
+    },
+    {
+      "path": "track_b/research/q1/round3/results/ranking_stability.csv",
+      "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+    },
+    {
+      "path": "track_b/research/q1/round3/results/recommended_factors.csv",
+      "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+    },
+    {
+      "path": "track_b/research/q1/round3/results/sensitivity_metrics.csv",
+      "sha256": "d5b5eece0a3fec2994c95041cfab7a69a1a92ccad00ec380cd83f56d62f0a4ba"
+    }
+  ]
+}

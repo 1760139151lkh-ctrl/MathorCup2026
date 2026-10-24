@@ -1,0 +1,15 @@
+{
+  "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m",
+  "image_id": null,
+  "container_id": null,
+  "returncode": -15,
+  "quality_gate": "quarantined_single_phase_surface2_out_of_bounds_risk",
+  "actual_termination_or_classification_utc": "2026-10-24T08:07:10.487505+00:00",
+  "status": "quarantined_configuration",
+  "excluded_from_model_comparison_and_q3": true,
+  "preserve_original_case_and_partial_fields": true,
+  "case_sha256": "907b2393cb384bd656c5c21bd4bc58827b2e931b9e2bcaf099752dcb8e4fde7e",
+  "log_sha256": "024b25503a2aab5277a585c7f8b27ca4d09534979f9ff1389d922e74756785ed",
+  "elapsed_seconds": null,
+  "original_execution_record": null
+}

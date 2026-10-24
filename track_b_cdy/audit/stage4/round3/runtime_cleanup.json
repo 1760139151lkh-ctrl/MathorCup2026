@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-10-24T11:43:52.541230+00:00",
+  "action": "stop_idle_build_container_only",
+  "container": "mathorcup-r3-toolchain-build",
+  "research_runs_all_closed": true,
+  "container_files_retained": true,
+  "images_and_research_caches_retained": true,
+  "user_containers_untouched": true
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "canonical_url_or_product_id": "https://registry.opendata.aws/noaa-gfs-bdp-pds/",
+    "product_version": "current_document_snapshot",
+    "retrieved_at_utc": "2026-10-24T07:37:17.713898+00:00",
+    "actual_read_scope": "dataset provider NOAA, AWS bucket and archive scope",
+    "bytes": 15964,
+    "sha256": "e9f32d3e91a3a84f790b9af8c6bee1631ac2cf1c67346e4b7b2f374db49524f5",
+    "path": "track_b/research/q3/round3/inputs/weather/docs/aws_gfs_registry.html",
+    "data_role": "product_semantics_reference",
+    "available_time": null
+  },
+  {
+    "canonical_url_or_product_id": "https://www.nco.ncep.noaa.gov/pmb/products/gfs/nomads/",
+    "product_version": "current_document_snapshot",
+    "retrieved_at_utc": "2026-10-24T07:37:20.874050+00:00",
+    "actual_read_scope": "0.25 degree GRIB filename convention and 00/06/12/18 UTC cycles",
+    "bytes": 18033,
+    "sha256": "3a0b838938b071b57cf2d6c03c8e98d2023bad90107e2bec312b572a82856480",
+    "path": "track_b/research/q3/round3/inputs/weather/docs/noaa_gfs_products.html",
+    "data_role": "product_semantics_reference",
+    "available_time": null
+  },
+  {
+    "canonical_url_or_product_id": "https://www.nco.ncep.noaa.gov/pmb/products/gfs/gfs.t00z.pgrb2.0p25.f003.shtml",
+    "product_version": "current_document_snapshot",
+    "retrieved_at_utc": "2026-10-24T07:37:25.153662+00:00",
+    "actual_read_scope": "TMP 2m, APCP surface, cumulative intervals and water equivalent units",
+    "bytes": 226763,
+    "sha256": "20c08183c3387a8ca4558b9503c3d2528ad15b848f05985261ffb75efd85e7ea",
+    "path": "track_b/research/q3/round3/inputs/weather/docs/noaa_gfs_inventory.html",
+    "data_role": "product_semantics_reference",
+    "available_time": null
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "bundle_version": "q2-r3-mechanism-thermal-refinement-v2",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "evaluation_stratum": "numerical_benchmark",
+  "engine_sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+  "v1_bundle_sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+  "v1_files": [
+    {
+      "path": "track_b/research/q2/round3/EXPERIMENT_PROTOCOL.md",
+      "bytes": 5797,
+      "sha256": "888b65535ff477f4e6ef07be3dfeea19392209d7903ef58559cb8473ad96626a",
+      "role": "EXPERIMENT_PROTOCOL.md"
+    },
+    {
+      "path": "track_b/research/q2/round3/config/experiment_v1.json",
+      "bytes": 4192,
+      "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a",
+      "role": "config/experiment_v1.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "role": "scripts/mechanism_engine.py"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/mechanism_contract.json",
+      "bytes": 3236,
+      "sha256": "fd47ca5af08c56a5076d07a4707764e07e58089e3030a47cc812facf620923e7",
+      "role": "results/mechanism_contract.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/parameter_ensemble.csv",
+      "bytes": 1071463,
+      "sha256": "27a77ced72931366be5e19f431cb40218e1f243d77a7fe2671fc6125b0cf98b6",
+      "role": "results/parameter_ensemble.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/forcing_hourly_v1.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+      "role": "results/forcing_hourly_v1.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/state_trajectories.parquet",
+      "bytes": 3194674,
+      "sha256": "7ce07a43bc3cce5d51d39b4ff86eddd795ca12fb996d0c508f1a4bea6e2bb587",
+      "role": "results/state_trajectories.parquet"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/scenario_outcomes.csv",
+      "bytes": 722959,
+      "sha256": "dd7be14535d0a782ca5b260375b830ca16b0275817bba6cde1852cd22c2a1737",
+      "role": "results/scenario_outcomes.csv"
+    }
+  ],
+  "release_geometry_v2_reference": {
+    "path": "track_b/research/q2/round3/exports/release_bundle_v2.json",
+    "bytes": 4354,
+    "sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3",
+    "role": "release_geometry_v2"
+  },
+  "first_refinement": {
+    "n_comparisons": 64,
+    "main_dz_m": 0.125,
+    "reference_dz_m": 0.0625,
+    "max_abs_margin_difference": 0.010273414630431077,
+    "max_final_abs_margin_difference": 0.004112103816531487,
+    "max_abs_interface_temp_difference_c": 0.025891977884406003,
+    "linear_max_abs_margin_difference": 0.010273414630431077,
+    "thaw_max_abs_margin_difference": 0.010273414630431077,
+    "strength_branch_mismatch_hours": 0,
+    "categories_equal_n": 64,
+    "all_categories_equal": true,
+    "target_margin_difference": 0.02,
+    "target_met_all_cases": true,
+    "target_met_linear_cases": true
+  },
+  "final_refinement": {
+    "n_comparisons": 64,
+    "main_dz_m": 0.125,
+    "reference_dz_m": 0.0625,
+    "max_abs_margin_difference": 0.010273414630431077,
+    "max_final_abs_margin_difference": 0.004112103816531487,
+    "max_abs_interface_temp_difference_c": 0.025891977884406003,
+    "linear_max_abs_margin_difference": 0.010273414630431077,
+    "thaw_max_abs_margin_difference": 0.010273414630431077,
+    "strength_branch_mismatch_hours": 0,
+    "categories_equal_n": 64,
+    "all_categories_equal": true,
+    "target_margin_difference": 0.02,
+    "target_met_all_cases": true,
+    "target_met_linear_cases": true
+  },
+  "chosen_main_dz_m": 0.125,
+  "chosen_reference_dz_m": 0.0625,
+  "full_parameter_sets": 256,
+  "scenario_outcomes": 2048,
+  "representative_state_rows": 133696,
+  "time_origin_utc": "2026-06-01T00:00:00+00:00",
+  "state_dt_hours": 1.0,
+  "information_cutoff": "forcing[i] drives interval i..i+1; state0 specified initial state; real available_time remains unknown",
+  "v1_v2_category_changed_n": 0,
+  "v1_v2_max_abs_final_margin_delta": 0.1366027682545996,
+  "v1_v2_max_abs_evaluation_min_margin_delta": 0.028388806424828772,
+  "v1_v2_max_abs_onset_hours_delta": 46.819037348855716,
+  "max_water_budget_error_m": 1.4654943925052066e-14,
+  "independent_events": 0,
+  "probabilities_assigned": false,
+  "runtime_stack": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3"
+  },
+  "scientific_adoption": "pending_team_review"
+}

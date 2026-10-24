@@ -1,0 +1,15 @@
+{
+  "generated_from": [
+    {
+      "path": "track_b/research/q2/round3/config/experiment_v1.json",
+      "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "sha256": "add46d7873516e8b91db034308fd46b4eef08f912c9f442ce161b79b3a744921"
+    }
+  ],
+  "parameter_rows": 19,
+  "mechanism_rows": 8,
+  "all_classification_counts_per_row_256": true
+}

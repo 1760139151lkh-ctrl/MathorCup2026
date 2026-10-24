@@ -1,0 +1,163 @@
+{
+  "schema_version": "q1-r3-evidence-v1",
+  "round": "round3",
+  "producer_question": "q1",
+  "data_role": "exploration",
+  "generated_at_utc": "2026-10-24T07:32:33.003231+00:00",
+  "input_version": {
+    "common_baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "records": [
+    {
+      "source_id": "target_tpdc",
+      "canonical_url_or_product_id": "https://data.tpdc.ac.cn/zh-hans/data/5b09afd1-d11b-4150-a291-50f0484dddf1",
+      "retrieved_at_utc": "2026-10-24T07:28:41.343150+00:00",
+      "maximum_bytes": 3000000,
+      "data_role": "exploration",
+      "available_time": null,
+      "available_time_status": "historical availability of exact fetched bytes unknown",
+      "http_status": 200,
+      "final_url": "https://data.tpdc.ac.cn/zh-hans/data/5b09afd1-d11b-4150-a291-50f0484dddf1",
+      "content_type": "text/html",
+      "response_date": "Sat, 24 Oct 2026 07:28:40 GMT",
+      "response_last_modified": "Thu, 22 Oct 2026 02:55:11 GMT",
+      "response_etag": "\"6ad97b0f-787\"",
+      "path": "evidence/tpdc_target.html",
+      "bytes": 1927,
+      "sha256": "0b3a9cbfb55ccdda119b57c4b39bf470dcaa710f01de2d5492328c59296dba37",
+      "fetch_success": true,
+      "product_version": null,
+      "product_version_status": "target processing version unknown; HTTP Last-Modified belongs to front-end shell",
+      "actual_read_scope": "Entire 1927-byte frontend HTML inspected; no target dataset body obtained; web tool direct opening also failed.",
+      "evidence_status": "frontend_shell_only",
+      "adoption_status": "reject_as_dataset_body_or_processing_provenance",
+      "supports": [
+        "Target publication entry point and failure to acquire detailed body"
+      ],
+      "cannot_support": [
+        "FLUX QC 1-9 mapping",
+        "hour-label support interval",
+        "software/correction-chain version",
+        "sensor height"
+      ],
+      "hash_checked": true
+    },
+    {
+      "source_id": "waternet_target",
+      "canonical_url_or_product_id": "https://gwfnet.net/Metadata/Index/T-2026-08-28-p1f3e5qIqTEyibfPAp3smBeA",
+      "retrieved_at_utc": "2026-10-24T07:28:41.537538+00:00",
+      "maximum_bytes": 3000000,
+      "data_role": "exploration",
+      "available_time": null,
+      "available_time_status": "historical availability of exact fetched bytes unknown",
+      "http_status": 200,
+      "final_url": "https://gwfnet.net/Metadata/Index/T-2026-08-28-p1f3e5qIqTEyibfPAp3smBeA",
+      "content_type": "text/html; charset=utf-8",
+      "response_date": "Sat, 24 Oct 2026 07:28:42 GMT",
+      "response_last_modified": null,
+      "response_etag": null,
+      "path": "evidence/waternet_target.html",
+      "bytes": 231356,
+      "sha256": "614a83a76f7d46bfdb94c56f2c4dfb3814060d2f696ffeb5c733357b6e58b7ed",
+      "fetch_success": true,
+      "product_version": "WaterNet Version 2026-09-12; metadata record Dataset 1.3",
+      "product_version_status": "visible webpage/record labels, not established measurement processing version",
+      "actual_read_scope": "Full rendered record text read: abstract (Chinese and English), spatial description, time/QC/missing declarations, citations, download links and footer. No new CSV or archive downloaded.",
+      "evidence_status": "same_title_publisher_mirror_metadata",
+      "adoption_status": "metadata_declaration_with_unverified_local_version_equivalence",
+      "supports": [
+        "Regional station at 28.86N 85.29E, altitude 4140 m, approximate straight-line distance to port 65 km",
+        "meteorological heights 1/2/4/10/20 m and soil depths 0.1/0.2/0.4/0.8/1.6 m",
+        "UTC+8 and hourly resolution declarations",
+        "regional background and explicit local-trigger representativeness limitations"
+      ],
+      "cannot_support": [
+        "datum or location/elevation uncertainty",
+        "station-to-failure-source distance",
+        "FLUX sensor height/footprint",
+        "full remote FLUX 1-9 code dictionary",
+        "start/end/center convention",
+        "local correction-chain provenance",
+        "historical operational availability"
+      ],
+      "hash_checked": true
+    },
+    {
+      "source_id": "related_essd",
+      "canonical_url_or_product_id": "https://essd.copernicus.org/articles/18/1147/2026/",
+      "retrieved_at_utc": "2026-10-24T07:28:44.611338+00:00",
+      "maximum_bytes": 3000000,
+      "data_role": "exploration",
+      "available_time": null,
+      "available_time_status": "historical availability of exact fetched bytes unknown",
+      "http_status": 200,
+      "final_url": "https://essd.copernicus.org/articles/18/1147/2026/",
+      "content_type": "text/html",
+      "response_date": "Sat, 24 Oct 2026 07:28:45 GMT",
+      "response_last_modified": null,
+      "response_etag": null,
+      "path": "evidence/related_essd.html",
+      "bytes": 360458,
+      "sha256": "055be0ab376812a4123a027633770527cd8a81a030e19a35d602f06d3d618261",
+      "fetch_success": true,
+      "product_version": "ESSD 18, 1147-1164, published 2026-02-10; DOI 10.5194/essd-18-1147-2026",
+      "product_version_status": "version of cited paper, not target data processing version",
+      "actual_read_scope": "Abstract, sections 2.1/2.2/4 and targeted station/processing paragraphs; Table 1 caption only, not table XLSX or supplement; no claim of full-article review.",
+      "evidence_status": "related_primary_paper_different_data_DOI",
+      "adoption_status": "related_method_context_only",
+      "supports": [
+        "Related regional network and processing discussion explicitly belongs to paper data DOI 302428"
+      ],
+      "cannot_support": [
+        "Proven mapping to target DOI 303600 or local CSV",
+        "transfer of QC codes, sensor height, parameters or software version",
+        "cause of amb_e_sat constant segment"
+      ],
+      "hash_checked": true
+    },
+    {
+      "source_id": "ledoitwolf_official",
+      "canonical_url_or_product_id": "https://scikit-learn.org/stable/modules/generated/sklearn.covariance.LedoitWolf.html",
+      "retrieved_at_utc": "2026-10-24T07:28:47.801665+00:00",
+      "maximum_bytes": 3000000,
+      "data_role": "exploration",
+      "available_time": null,
+      "available_time_status": "historical availability of exact fetched bytes unknown",
+      "http_status": 200,
+      "final_url": "https://scikit-learn.org/stable/modules/generated/sklearn.covariance.LedoitWolf.html",
+      "content_type": "text/html; charset=utf-8",
+      "response_date": "Sat, 24 Oct 2026 07:28:48 GMT",
+      "response_last_modified": "Fri, 23 Oct 2026 13:54:51 GMT",
+      "response_etag": "\"6adb672b-22cb4\"",
+      "path": "evidence/ledoitwolf_official.html",
+      "bytes": 142516,
+      "sha256": "4bcc7e02bf8e21e2038830bc46cbb8e81ffe83e386afe597ccd66df5409242f9",
+      "fetch_success": true,
+      "product_version": "scikit-learn 1.9.1 documentation (stable page at retrieval)",
+      "product_version_status": "documentation snapshot; no inference about experiment-installed version",
+      "actual_read_scope": "Title/version, estimator parameters/attributes, Notes covariance formula, cited reference, fit and Mahalanobis documentation; no linked full research paper or examples executed.",
+      "evidence_status": "official_method_documentation",
+      "adoption_status": "method_formula_only_pending_actual_implementation",
+      "supports": [
+        "LedoitWolf shrinkage form and centering behavior"
+      ],
+      "cannot_support": [
+        "that study implemented automatic Ledoit-Wolf coefficient",
+        "sampling independence or weather-process validity",
+        "causal interpretation of conditional ranking",
+        "independent event validation"
+      ],
+      "hash_checked": true
+    }
+  ],
+  "total_saved_response_bytes": 736257,
+  "scope": "Four bounded public HTML responses; no new meteorological CSV, archive, registration or contact",
+  "self_entry_excluded": true,
+  "inherited_round2_evidence": "Frozen round2 SEMANTICS_REVIEW and source_register remain unchanged; old evidence cited without pretending it was fetched anew.",
+  "limitations": [
+    "Target QC/correction/hour-boundary provenance remains unknown",
+    "Regional station is not a verified source-area forcing",
+    "HTTP success does not establish semantic usability or historical availability"
+  ]
+}

@@ -1,0 +1,13 @@
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+qa/pages/
+qa/contact_sheets/
+__pycache__/
+build/
+.DS_Store

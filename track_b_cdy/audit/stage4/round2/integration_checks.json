@@ -1,0 +1,155 @@
+{
+  "generated_at_utc": "2026-10-24T06:31:51.297954+00:00",
+  "round": "round2",
+  "passed": true,
+  "checks": [
+    {
+      "name": "frozen_preparation_inputs",
+      "passed": true,
+      "evidence": {
+        "file_count": 565,
+        "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+        "preparation_commit": "85e66c94a054780d476324cdcdfc02d406b703d7"
+      }
+    },
+    {
+      "name": "round1_packets_and_original_manifest_preserved",
+      "passed": true,
+      "evidence": {
+        "protected_files_per_checkout": 130,
+        "checkouts": 5,
+        "all_unchanged": true
+      }
+    },
+    {
+      "name": "q1_source_scope_and_integrated_artifacts",
+      "passed": true,
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+        "source_commit": "79f652a5b15a59250d63d4a3bb69fc1b469f20c5",
+        "integration_commit": "41e998db8132f7cb6c9bc8deef70b85de97928b5",
+        "changed_paths_verified_in_main": 32,
+        "clean": true,
+        "five_exit_checks_passed": true,
+        "manifests": {
+          "input_manifest.json": {
+            "path": "track_b/research/q1/round2/input_manifest.json",
+            "file_count": 22,
+            "sha256": "fd0bcc929c0a60688e41547b26ee5b8990cfbd33f760c23518b758b75bdb5d49",
+            "all_entries_match": true
+          },
+          "output_manifest.json": {
+            "path": "track_b/research/q1/round2/output_manifest.json",
+            "file_count": 29,
+            "sha256": "12b4ba8ccd44f3d4d2129e220bdd9d837f83396746e3648031ae3202e9eeb37c",
+            "all_entries_match": true
+          }
+        }
+      }
+    },
+    {
+      "name": "q2_source_scope_and_integrated_artifacts",
+      "passed": true,
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2",
+        "source_commit": "9024b21a1c67607a826007e9e987223364d4834a",
+        "integration_commit": "b9f52322203d0838d698d5d8e4eb05ca74b29886",
+        "changed_paths_verified_in_main": 40,
+        "clean": true,
+        "five_exit_checks_passed": true,
+        "manifests": {
+          "input_manifest.json": {
+            "path": "track_b/research/q2/round2/input_manifest.json",
+            "file_count": 35,
+            "sha256": "d199fb3c1b04b2e5b4792fcd8f14aa8f13fb45d07c91031abf371200b3f3c644",
+            "all_entries_match": true
+          },
+          "output_manifest.json": {
+            "path": "track_b/research/q2/round2/output_manifest.json",
+            "file_count": 39,
+            "sha256": "799ffdd087699a4889ae668b98504a6987b4eb6c4d38987c2160303da5edcc25",
+            "all_entries_match": true
+          }
+        }
+      }
+    },
+    {
+      "name": "q3_source_scope_and_integrated_artifacts",
+      "passed": true,
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3",
+        "source_commit": "539df84bec574a27e3288c3dc944a87e692d7f4c",
+        "integration_commit": "74ba93a8168049881f51bc548323af2cc5f0aca6",
+        "changed_paths_verified_in_main": 35,
+        "clean": true,
+        "five_exit_checks_passed": true,
+        "manifests": {
+          "input_manifest.json": {
+            "path": "track_b/research/q3/round2/results/input_manifest.json",
+            "file_count": 28,
+            "sha256": "b634b06ab3fba523ef91fc97915830c6f7ae122df330f2e09766d261e0717791",
+            "all_entries_match": true
+          },
+          "output_manifest.json": {
+            "path": "track_b/research/q3/round2/results/output_manifest.json",
+            "file_count": 31,
+            "sha256": "5300d5538bd99b7396cfaf31e23db8dd7bd6bd0f77038dd485db30839f87ae99",
+            "all_entries_match": true
+          }
+        }
+      }
+    },
+    {
+      "name": "q4_source_scope_and_integrated_artifacts",
+      "passed": true,
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
+        "source_commit": "de826005cdd8dd86d43cc99fea7cf8a16ca4c763",
+        "integration_commit": "61975f417da9fe7943532afcf97dabd72707437f",
+        "changed_paths_verified_in_main": 48,
+        "clean": true,
+        "five_exit_checks_passed": true,
+        "manifests": {
+          "input_manifest.json": {
+            "path": "track_b/research/q4/round2/results/input_manifest.json",
+            "file_count": 37,
+            "sha256": "e2e07b224fce8a4085832f4c5fef709af426ed34ffb2ac205af107e9ba156afe",
+            "all_entries_match": true
+          },
+          "output_manifest.json": {
+            "path": "track_b/research/q4/round2/results/output_manifest.json",
+            "file_count": 48,
+            "sha256": "4a1b02aaff087ed6c78b5439b3ffba8cb710c4d40e5cf056cc752a197e9b3e7e",
+            "all_entries_match": true
+          }
+        }
+      }
+    },
+    {
+      "name": "cross_question_geometry_and_time_interfaces",
+      "passed": true,
+      "evidence": {
+        "aoi_identical_to_approved_delivery": true,
+        "mechanical_truth_and_causal_independence_not_auto_accepted": true,
+        "forecast_first_availability_and_real_coverage_null": true,
+        "sar_budget_evidence_sha256": "5cab64fb5f8d2c4b387d3e6f0489f6254a74b9d6d42f3bcebe266e96c6e894fe",
+        "sar_response_body_bytes": 192,
+        "sar_limit_bytes": 134217728,
+        "sar_authentication_failures": 2,
+        "sar_pixels_obtained": false
+      }
+    },
+    {
+      "name": "review_and_handoff_links",
+      "passed": true,
+      "evidence": {
+        "documents": 12,
+        "local_links": 124,
+        "all_targets_exist": true
+      }
+    }
+  ],
+  "review_script_sha256": "f15f0a11b6c0cf84724f79b313468cc2e878af5e40c511b8da203a766734c923",
+  "scope": "Input immutability, source ownership, copied artifacts and interfaces; not scientific model acceptance.",
+  "human_scientific_adoption": "pending"
+}

@@ -1,0 +1,3 @@
+/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/scripts/build_external_bundle.py:45: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  a=pd.concat([a,pd.DataFrame(new)],ignore_index=True)
+{"bundle": "track_b/research/q3/round3/exports/event_bundle_v2_external.json", "sha256": "359f1e9868a1a63125296fd43e37ea22928815396a76d529669f8332baa8bbde", "external_groups": 15, "files": 9}

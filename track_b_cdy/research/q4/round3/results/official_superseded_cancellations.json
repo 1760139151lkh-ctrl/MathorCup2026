@@ -1,0 +1,46 @@
+{
+  "records": [
+    {
+      "registered_amendment_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/execution_budget_amendment_02.json",
+      "cancelled_utc": "2026-10-24T09:04:52.335191+00:00",
+      "run_id": "copdem_120_multi_ref",
+      "status": "cancelled_superseded_compute_priority",
+      "not_formal_numerical_failure": true,
+      "reason": "parentapproved discontinue supersededcsurface2 configurationchallenge toprioritize36registered sf0/Q2cases at1800s",
+      "shared_container_id": "ad84a77a0ea9eb7447f61eb2e08756f00665429b7c90f8744a957efd918fd8c7",
+      "host_pids_stopped_then_killed": [
+        88981,
+        89003
+      ],
+      "native_pids_term": [
+        8890,
+        8850
+      ],
+      "native_stop_command": [
+        "docker",
+        "exec",
+        "mathorcup-r3-toolchain-build",
+        "kill",
+        "-TERM",
+        "8890",
+        "8850"
+      ],
+      "native_stop_returncode": 0,
+      "native_stop_stderr": "",
+      "partial_snapshot": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/cancelled_runs/copdem_120_multi_ref__sf2_retry_20261024T090438Z",
+      "partial_copy_command": [
+        "docker",
+        "cp",
+        "mathorcup-r3-toolchain-build:/work/q4/official/runs/copdem_120_multi_ref/.",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/cancelled_runs/copdem_120_multi_ref__sf2_retry_20261024T090438Z"
+      ],
+      "partial_copy_returncode": 0,
+      "partial_copy_stderr": "",
+      "prior_attempt_execution_sha256": "640c0d331f4a000faadfb8f8aa47966307d2d17dc96f24a92975074c33f5b31a",
+      "old_execution_unchanged": true,
+      "retry_log_sha256_at_cancellation": "e7314264e03a9f8d3d59da1afefd9a9551e4ff4af96709a7b934e9787403fe99",
+      "retry_log_bytes": 200191,
+      "shared_container_stopped": false
+    }
+  ]
+}

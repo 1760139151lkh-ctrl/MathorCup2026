@@ -1,0 +1,6 @@
+{
+  "stage1_records_including_unavailable": 42,
+  "source_comparisons": 40,
+  "stage2_fits": 84,
+  "raw_pipeline_records": 88
+}

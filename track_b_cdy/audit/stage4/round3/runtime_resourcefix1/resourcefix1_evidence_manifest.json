@@ -1,0 +1,3175 @@
+{
+  "version": "ravaflow4r7-resourcefix1",
+  "created_utc": "2026-10-24T08:46:28.983785+00:00",
+  "root": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan",
+  "self_excluded": true,
+  "artifact_count": 633,
+  "total_bytes": 10390349,
+  "files": [
+    {
+      "path": "derived/RUNTIME_RESOURCE_FIX.md",
+      "bytes": 5594,
+      "sha256": "64e1131bd36b08459d0162c24bd3f081a35bb29dd5679457a7f9311509188d65"
+    },
+    {
+      "path": "derived/asan_exit_status.txt",
+      "bytes": 59,
+      "sha256": "949c40abc9f53d431f085a418aa59822f976f3f6a0bffa273a027ec147b1dacf"
+    },
+    {
+      "path": "derived/build_asan.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "derived/build_asan.py",
+      "bytes": 423,
+      "sha256": "b97e15c284d28a577f8bee682bd5a902f133322d89891005bb11e38828703385"
+    },
+    {
+      "path": "derived/build_release.log",
+      "bytes": 1488,
+      "sha256": "68c0997bd2c46a9a5a3600ddb505a8fabf91a4c37c91c09a518053ce298a3a78"
+    },
+    {
+      "path": "derived/change_manifest.json",
+      "bytes": 850,
+      "sha256": "fd3422d4cc433b61af5739b01e1e52981fcc6e99a7db96554cdfb59bc64faea7"
+    },
+    {
+      "path": "derived/check_valid_cs0.sh",
+      "bytes": 316,
+      "sha256": "28e1e2d18a5e6376d8326f174fd7476c9bfb226dd66de41713a75ef75a3c8420"
+    },
+    {
+      "path": "derived/image_selfcheck.log",
+      "bytes": 719,
+      "sha256": "f339c27c4d8a2243613360e489b85a1ac7eba2e113e699d4603cb10d46d92dd0"
+    },
+    {
+      "path": "derived/physical_output_comparison_asan.json",
+      "bytes": 520,
+      "sha256": "d1558680c43046a820d35d65f4032751001a21d966f0b47a755f08581a32694e"
+    },
+    {
+      "path": "derived/physical_output_comparison_production.json",
+      "bytes": 5358,
+      "sha256": "fa830e9545ebcd68fb6198236cb8bb1be16ee21776a8664b690bf6de8fd8494d"
+    },
+    {
+      "path": "derived/readonly_addon_selfcheck.log",
+      "bytes": 98,
+      "sha256": "758137dad07f4e56e3d670bbae0b217afd561388f9e7e2e52ffaf28a109215e0"
+    },
+    {
+      "path": "derived/release_addon/addons_paths.json",
+      "bytes": 941746,
+      "sha256": "c15770f92c06ca3bab91876608712b047d67669ca6d44591003270371635ec97"
+    },
+    {
+      "path": "derived/release_addon/bin/r.avaflow.main",
+      "bytes": 1687656,
+      "sha256": "45ace2befd657d31232a73e1f5eabc174dd68c5962f6353385594fc70499bc1c"
+    },
+    {
+      "path": "derived/release_addon/docs/html/r.avaflow.40G.html",
+      "bytes": 16640,
+      "sha256": "ad571de148c6d65bf9018d32c4a008735bfa40a0e3658ceccc1802f214857221"
+    },
+    {
+      "path": "derived/release_addon/docs/html/r.avaflow.background.html",
+      "bytes": 3369,
+      "sha256": "16682fe4783af84f3d9a50851d6234ba03082f53e42a248b21b455f3885ac708"
+    },
+    {
+      "path": "derived/release_addon/docs/html/r.avaflow.main.html",
+      "bytes": 2783,
+      "sha256": "a5475e568ebd0eb10121467ee6451c5daad6b5bb8d41929780c467d7a9787c46"
+    },
+    {
+      "path": "derived/release_addon/docs/html/r.avaflow.mult.html",
+      "bytes": 2712,
+      "sha256": "73a6633826d708ef754e1dade59357e4018e6a6cd958715fd30840694bb838d2"
+    },
+    {
+      "path": "derived/release_addon/docs/html/r.avaflow.paraview.html",
+      "bytes": 4677,
+      "sha256": "59532f3159a2813119b80abdb0bc9c19b720fec9a7c174ea836fda7a2ad32f18"
+    },
+    {
+      "path": "derived/release_addon/docs/html/r.lakefill.html",
+      "bytes": 3367,
+      "sha256": "34509239c2a68ce00f2d3a5b88afff1c0444e28b12bf625c96ccd3f9c2907419"
+    },
+    {
+      "path": "derived/release_addon/docs/html/r.scarp.html",
+      "bytes": 3615,
+      "sha256": "852fb0933d16aef62342277d84e667f6b594ee3c79cba98020410ef79f34ea18"
+    },
+    {
+      "path": "derived/release_addon/docs/man/man1/r.avaflow.40G.1",
+      "bytes": 13711,
+      "sha256": "fe189342b77439d79f72e264a819fd29db96d79eef53fa54a455ed956e55b9f4"
+    },
+    {
+      "path": "derived/release_addon/docs/man/man1/r.avaflow.background.1",
+      "bytes": 1602,
+      "sha256": "43d3f75296d384e821582ac8e435958efb45117703a613ecf19fc998d68a2bab"
+    },
+    {
+      "path": "derived/release_addon/docs/man/man1/r.avaflow.main.1",
+      "bytes": 1213,
+      "sha256": "3e7ba357b13a799b3312c423c769f72c30fa6135193b68e525a2290050039441"
+    },
+    {
+      "path": "derived/release_addon/docs/man/man1/r.avaflow.mult.1",
+      "bytes": 1149,
+      "sha256": "064a957db611771eb5b17bfea124c73da9e0f4e6d7996f05b875f1a6c21fc32c"
+    },
+    {
+      "path": "derived/release_addon/docs/man/man1/r.avaflow.paraview.1",
+      "bytes": 2845,
+      "sha256": "2d83340bc3ec806181f565aac98388930b762536e86bbbc82fb8744a3bfd0c03"
+    },
+    {
+      "path": "derived/release_addon/docs/man/man1/r.lakefill.1",
+      "bytes": 1738,
+      "sha256": "2fe9f3ddc1aadae34b1811d55274d5341cf81fdb83b07ee0dd0af713805c43ef"
+    },
+    {
+      "path": "derived/release_addon/docs/man/man1/r.scarp.1",
+      "bytes": 1957,
+      "sha256": "6bb3bd1da8bd561985a9d10acab6c35f5251515a7a2e6cdf3b76ce706675f15c"
+    },
+    {
+      "path": "derived/release_addon/extensions.xml",
+      "bytes": 2428,
+      "sha256": "bf4acaa0647e9ac1d57573639a5efb7ae4d8cc8fe6bc0b182181f65b6b581851"
+    },
+    {
+      "path": "derived/release_addon/modules.xml",
+      "bytes": 1828,
+      "sha256": "e5543f256179e76927cea576bd6759838c420b024a89aa927aa5a95cdf91a864"
+    },
+    {
+      "path": "derived/release_addon/scripts/r.avaflow.40G",
+      "bytes": 100486,
+      "sha256": "d062d4c62092e9cb026cd55869505e16db2aea463c603ec997740ff1beb682ec"
+    },
+    {
+      "path": "derived/release_addon/scripts/r.avaflow.background",
+      "bytes": 6517,
+      "sha256": "50bd4ea8f304475777e77d216be8325be081f9a87bf91c4e216c366c5384ea7b"
+    },
+    {
+      "path": "derived/release_addon/scripts/r.avaflow.mult",
+      "bytes": 2367,
+      "sha256": "aadb7aed7a6742b432d287e701f47e793c525fdb2cc1b02036956928def1cf2b"
+    },
+    {
+      "path": "derived/release_addon/scripts/r.avaflow.paraview",
+      "bytes": 22023,
+      "sha256": "e45ff2807a199e8f3b61b85bb0d7662175175aa08e398bd42d47e01153b97151"
+    },
+    {
+      "path": "derived/release_addon/scripts/r.lakefill",
+      "bytes": 5221,
+      "sha256": "0c03c48c898636b55bdbac5e192fbc807e2bb9f8ac4951c09e3ea685024d7308"
+    },
+    {
+      "path": "derived/release_addon/scripts/r.scarp",
+      "bytes": 4839,
+      "sha256": "2e49b886c7e944bc0563447570e596c3a8cb2cc302e8a177729847ec9c6101d6"
+    },
+    {
+      "path": "derived/release_exit_status.txt",
+      "bytes": 89,
+      "sha256": "5f542a3b0cf3bb1ae3922c4eb531a44307d82c78b9a988eb36e65247c5f9176e"
+    },
+    {
+      "path": "derived/resource_ownership_check.json",
+      "bytes": 1271,
+      "sha256": "29c7f01a8c847b7f4d4b6e33e2aad4cc6cc68312712c076efc5e0e368c35ec4e"
+    },
+    {
+      "path": "derived/resourcefix1_addon_manifest.json",
+      "bytes": 4149,
+      "sha256": "6702a2bf4e7e6d4514b209ec465f98861cb632ac16bad4b1f1475a8683f09bef"
+    },
+    {
+      "path": "derived/resourcefix1_image_inspect.json",
+      "bytes": 2604,
+      "sha256": "a7734f74b16dfbf683e8e1898e1f397bf8ffc65973a3eb1bb240d07b90994237"
+    },
+    {
+      "path": "derived/runtime_resourcefix_handoff.json",
+      "bytes": 4752,
+      "sha256": "41b816bdb13d5abf9bd65998b3fae7e738556e731cbf86711bf184f7546c92b7"
+    },
+    {
+      "path": "derived/segment_close.patch",
+      "bytes": 5905,
+      "sha256": "f9da53231d43cb741d51e65293f895d7347b38c76993beb8d37d3b159759d177"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/Makefile",
+      "bytes": 247,
+      "sha256": "83927d639dcab184d53ce1deae07ec4992126cf7422f3a05a37afdebd360616c"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/README.md",
+      "bytes": 95,
+      "sha256": "aff981a9bed83217d4da5003e57dd52a32ccfb2fdfab282c702925b059f98fd8"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/grass.install.sh",
+      "bytes": 2062,
+      "sha256": "d1eabe83907d3160723ae72ffd731c374da3a8072688e578ffc3b3c862d5d8ca"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/install.packages.R",
+      "bytes": 147,
+      "sha256": "ec75bbbfe39df8b647b0e6bcc05c67df6d5b98b517b87010320e24b724d01249"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow/Makefile",
+      "bytes": 111,
+      "sha256": "28436f137f568838f064f436930d2f598bf9f6ab210cafc5136f529969c39b44"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow/r.avaflow.40G.html",
+      "bytes": 283,
+      "sha256": "184a5bd5dfc5aa8cc66b589daff51de5bb9df140ab466b7c65adab7de5cf4a27"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow/r.avaflow.40G.py",
+      "bytes": 100486,
+      "sha256": "d062d4c62092e9cb026cd55869505e16db2aea463c603ec997740ff1beb682ec"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.background/Makefile",
+      "bytes": 118,
+      "sha256": "7c9cbb34b1f8819d44a061513112ec4afa50125cbbc02b2003b2c5e32c9faf1c"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.background/r.avaflow.background.html",
+      "bytes": 283,
+      "sha256": "184a5bd5dfc5aa8cc66b589daff51de5bb9df140ab466b7c65adab7de5cf4a27"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.background/r.avaflow.background.py",
+      "bytes": 6517,
+      "sha256": "50bd4ea8f304475777e77d216be8325be081f9a87bf91c4e216c366c5384ea7b"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.main/Makefile",
+      "bytes": 253,
+      "sha256": "ee7b0d3ba052421516f987d17f9b3845456cd53fa3d67360592abbcbe0c12e05"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.main/main.c",
+      "bytes": 735476,
+      "sha256": "5cd245c8aadc8f1869cb091a0eefc49e3f3241cec4a8266bd117a432d0f1b975"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.main/r.avaflow.main.html",
+      "bytes": 283,
+      "sha256": "184a5bd5dfc5aa8cc66b589daff51de5bb9df140ab466b7c65adab7de5cf4a27"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.mult/Makefile",
+      "bytes": 112,
+      "sha256": "ed314b2e5ce3862b2f3e0805d0e2b3cc025d7a262042483aaa2478b4b83c2bb4"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.mult/r.avaflow.mult.html",
+      "bytes": 283,
+      "sha256": "184a5bd5dfc5aa8cc66b589daff51de5bb9df140ab466b7c65adab7de5cf4a27"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.mult/r.avaflow.mult.py",
+      "bytes": 2367,
+      "sha256": "aadb7aed7a6742b432d287e701f47e793c525fdb2cc1b02036956928def1cf2b"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.paraview/Makefile",
+      "bytes": 116,
+      "sha256": "3fadc18086c1650f5797159eb3ff7316e2449077a382415c8e53becc0618b1bb"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.paraview/r.avaflow.paraview.html",
+      "bytes": 283,
+      "sha256": "184a5bd5dfc5aa8cc66b589daff51de5bb9df140ab466b7c65adab7de5cf4a27"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.avaflow.paraview/r.avaflow.paraview.py",
+      "bytes": 22023,
+      "sha256": "e45ff2807a199e8f3b61b85bb0d7662175175aa08e398bd42d47e01153b97151"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.lakefill/Makefile",
+      "bytes": 108,
+      "sha256": "9478ab68d2d1ce26ca436efebdacc768f73211a7e2210b5a8d930e1d5e54dcf7"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.lakefill/r.lakefill.html",
+      "bytes": 283,
+      "sha256": "184a5bd5dfc5aa8cc66b589daff51de5bb9df140ab466b7c65adab7de5cf4a27"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.lakefill/r.lakefill.py",
+      "bytes": 5221,
+      "sha256": "0c03c48c898636b55bdbac5e192fbc807e2bb9f8ac4951c09e3ea685024d7308"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.scarp/Makefile",
+      "bytes": 105,
+      "sha256": "12285e767696dc49533a15116db99537d6de4813acc1a1da15c59f5a184e1e3a"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.scarp/r.scarp.html",
+      "bytes": 283,
+      "sha256": "184a5bd5dfc5aa8cc66b589daff51de5bb9df140ab466b7c65adab7de5cf4a27"
+    },
+    {
+      "path": "derived/source_package/r.avaflow.40G/r.scarp/r.scarp.py",
+      "bytes": 4839,
+      "sha256": "2e49b886c7e944bc0563447570e596c3a8cb2cc302e8a177729847ec9c6101d6"
+    },
+    {
+      "path": "derived/source_package_diff.json",
+      "bytes": 82,
+      "sha256": "6d12f52d559b6906595e4726dab731b7284b75670f868e999529b40ded56ae3e"
+    },
+    {
+      "path": "derived/summarize_valid_cs0.py",
+      "bytes": 2562,
+      "sha256": "1c165ae242d903976c8ed4d0eb46b45e518cf0586e417bfa85da039ad40aa3e5"
+    },
+    {
+      "path": "derived/valid_cs0_exit_status.txt",
+      "bytes": 73,
+      "sha256": "3fba6c43cb6b9fbf6fd3f4993878f688a9cce6dd370ed1909c2beeeb4ea1d56a"
+    },
+    {
+      "path": "derived/valid_cs0_regression.json",
+      "bytes": 64212,
+      "sha256": "bd0433584a870308f949170b50f20d4abd03df284e207dc85927f197bfda4c75"
+    },
+    {
+      "path": "grid_cache_conditions.json",
+      "bytes": 571,
+      "sha256": "8d8bb5c30f9813bd620ceeec2c33e0937c10b7e61b9194389a528cb88fccc4b7"
+    },
+    {
+      "path": "origin.json",
+      "bytes": 355,
+      "sha256": "964fe1bf4c9dae47f31bd42561fd2bb5bcf2db55aa34748e7bb9d9abc5541ef2"
+    },
+    {
+      "path": "reference_sources/grass787_close.c",
+      "bytes": 1004,
+      "sha256": "7ecde42229a8368e0d14c14a0095e09ceefcb2a45dae5f3c8f136cc06cf09907"
+    },
+    {
+      "path": "reference_sources/grass787_open.c",
+      "bytes": 3047,
+      "sha256": "f54c9d954c94b897c6f32384f01951d01f4298a7d9b0982505ee317d62cb01e6"
+    },
+    {
+      "path": "reference_sources/grass787_release.c",
+      "bytes": 1074,
+      "sha256": "f0f42931d02295e5e702d8cfd7ab7163522bc8c3fa5368b8109bf16787ffd918"
+    },
+    {
+      "path": "reference_sources/provenance.json",
+      "bytes": 852,
+      "sha256": "543ae01ab722749b490fadeae379bfe8940a4ab1af26c6aeae39586c20843711"
+    },
+    {
+      "path": "run.log",
+      "bytes": 4172,
+      "sha256": "d2c54c9f783a704555d62fa797dafd610fabbee232e7f33f0f8a47bd8586fc90"
+    },
+    {
+      "path": "segment_close.log",
+      "bytes": 281,
+      "sha256": "367ad7c98d64074a35a804b714eda903f39e82ad6b9da49ded1553795f764631"
+    },
+    {
+      "path": "segment_probe.c",
+      "bytes": 448,
+      "sha256": "ce2dc91d7ac9770293086f50d100e1c6c732c38b9408346b8f476ea2896d243e"
+    },
+    {
+      "path": "segment_release.log",
+      "bytes": 1152,
+      "sha256": "db485ddd24ea9adc4519d7d602b42fb17f2ec97bdf49503b31cbe45d1d2b149b"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_(null).asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev_mod.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0001.asc",
+      "bytes": 7316,
+      "sha256": "6916f8aa09539fb060b6281efdbeb95bc8b7d238c5544e9176db6201b2f0d5af"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0002.asc",
+      "bytes": 7316,
+      "sha256": "d20495b235e21da55351bcd6cfadfc0a9f40bd4ae05491816737bfead52b010a"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0003.asc",
+      "bytes": 7325,
+      "sha256": "f8c8670b378191c2ac2db223e5ff5538b831a477f0c04f37840b6d84791dfb24"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0004.asc",
+      "bytes": 7325,
+      "sha256": "df0896fd69e745a5e7ceb650ebbe684cc5c28bb82c7ef9d15b774425a216237a"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0005.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_dep.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_fin.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0001.asc",
+      "bytes": 7316,
+      "sha256": "4702115dc1eb3baef3520a742ccd292060126910e259009a38f1caa585253c6f"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0002.asc",
+      "bytes": 7316,
+      "sha256": "e1f83ff993ff24b9873bcc99b283ede4d2545f932d35c0a2e564c626ce38d00d"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0003.asc",
+      "bytes": 7325,
+      "sha256": "6a1ecdcef1960819c3b4193882432566eb4ac6997f3b6574ec1312366c33b762"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0004.asc",
+      "bytes": 7330,
+      "sha256": "32a1fbcd52139270bc01491dbeebf9a1f69d247177fe57898ccb8e30fc60bba0"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0005.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0000.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0001.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0002.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0003.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0004.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0005.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0001.asc",
+      "bytes": 7883,
+      "sha256": "60c3d2aa564fe1766dbaa8f10eb3cc0ad460e2019426898d24372f4a0643cd41"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0002.asc",
+      "bytes": 7816,
+      "sha256": "469102f7b070e71075080469e02b8cec7a407e9f9c084e97c49797ba7bbc7edc"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0003.asc",
+      "bytes": 7805,
+      "sha256": "4dc69aa8dde1410faa59bbc262b7d510b426696b30f8045121b89315ef04d7a3"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0004.asc",
+      "bytes": 7785,
+      "sha256": "a91e812edd21c3129395997bd2fa143f89f9198ea69c218e177e71aa390f32c3"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0005.asc",
+      "bytes": 7694,
+      "sha256": "7290cddf719202b9764685b9fad9a16332ef2657d58e410a3e570ea77138558b"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow_max.asc",
+      "bytes": 8043,
+      "sha256": "2cecd15fc8375eb9d4790523efda2539f4d168814da1f7aa5158a8350b21a3bb"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1front.asc",
+      "bytes": 11048,
+      "sha256": "3f769d0304afcf98d41523e2794804381152d217d86c0eb297cbca547cf76bb6"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3front.asc",
+      "bytes": 11048,
+      "sha256": "03b109a0ed5392dd6c91af3e296bd84e0f3b4f58ad4d94078b83454e70611b18"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0001.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0002.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0003.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0004.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0005.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0001.asc",
+      "bytes": 7868,
+      "sha256": "0442c9cb0fbcf271ace146d9daa957cdd3d676fba0d517045687bf1d0f680b40"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0002.asc",
+      "bytes": 7904,
+      "sha256": "02f88cd51fb5a1dfddd363bb8f20f190f0c10e1aa3d3dff2cbfd5a59cfda74f7"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0003.asc",
+      "bytes": 7863,
+      "sha256": "51fb8bafeea0c314297300925d53c7a603d17d12c8fad642d8dd1a057346a7db"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0004.asc",
+      "bytes": 7807,
+      "sha256": "6efde4693c37f622341e5970506d314400a8ef0ac8604d93a4267cbfbef8bf86"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0005.asc",
+      "bytes": 7740,
+      "sha256": "fc9949705842caa61143ff75b34b2fce123288582dfb4e10e16b189538c46c32"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow_max.asc",
+      "bytes": 8119,
+      "sha256": "c33d50ab387357799ebdcb5403f5e3d3e5ab594593de20b3569dbce5fa1e8e53"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_treach.asc",
+      "bytes": 11981,
+      "sha256": "ddc62d5ae106fa0a195f8c0175f39653f1a968097bafae190a54fa6320577bbd"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0001.asc",
+      "bytes": 7316,
+      "sha256": "281a438c7cfab7d24f08207f0375698f37329ef9796dc56cd2a5b55430c1df02"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0002.asc",
+      "bytes": 7316,
+      "sha256": "5a96c09a3bdc7450ee17f1b0497f282444b508d3475334d6f37e6329519faef8"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0003.asc",
+      "bytes": 7316,
+      "sha256": "99ef6e138ea761f1e33ffc1eef0f6523daee2a3fe2c6f7e96768a1797ee26cff"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0004.asc",
+      "bytes": 7316,
+      "sha256": "3703c6c05a3a711b4ffd92f5ab60ade1a3cdcb9e5d2d0db5956d232ae1036db1"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0005.asc",
+      "bytes": 7316,
+      "sha256": "9ae06acc8862e2a4d36ced33dd9f1ebb36162d52dfae7774d33c6e68aa0f3a14"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow_max.asc",
+      "bytes": 7316,
+      "sha256": "bffcca629316e13f7cf5f3ddad07962c260a005223aa95c1cdcfe14f08d96aec"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0001.asc",
+      "bytes": 7459,
+      "sha256": "0faab19cc9d4f2ca7f5f0af476fd8ed83c167bc0caf5267a66a67040b39bd23f"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0002.asc",
+      "bytes": 7448,
+      "sha256": "62c1afb179442f2ac2f76e2801e101cd97b33875e3f86dc0b17562e126c91666"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0003.asc",
+      "bytes": 7446,
+      "sha256": "30f25860881b41a5e56aa9a25c26abc16e07c1f09f2da72e8fcf8d091ff68d8c"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0004.asc",
+      "bytes": 7461,
+      "sha256": "f450505fb9411346e429ef1af50f7cde5c0fcf4af2d278f0d1371a39fd784434"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0005.asc",
+      "bytes": 7590,
+      "sha256": "5b54535daa3647bf701062f51ad71837a53c117b404afefe10c9f3b8054f154e"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0001.asc",
+      "bytes": 7376,
+      "sha256": "e4f83a6bda8d95bbf53e3cbe81e1a1fca8c9342c36cc1f022d4346ddc99d271c"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0002.asc",
+      "bytes": 7363,
+      "sha256": "107fb2e541b97b7110a2d9914e131fb230db61ec084266787a5187e40f10f920"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0003.asc",
+      "bytes": 7342,
+      "sha256": "df00ac0215b6502209056247179cf82ca92b1c5398838a2924292d45ed53972f"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0004.asc",
+      "bytes": 7351,
+      "sha256": "4aceb15eeba098630696fbdbf943d1b4d33e8d98eab3bfc7a79f197a4e6290bc"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0005.asc",
+      "bytes": 7455,
+      "sha256": "a2534b6085e5ffeda5f54a853d5ea8d5a3087a1ef35069fafb33274a05bf1ecc"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vfront.asc",
+      "bytes": 11075,
+      "sha256": "c5473475b25f766112649fc8383f7cc398fec2f606936f22e173cbf9fd222ce9"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vhmax.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_directions1.txt",
+      "bytes": 56926,
+      "sha256": "41125c5992a22d1a623b357ea55645c354878e74f071a208e7cb4079b08a57dd"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_nout1.txt",
+      "bytes": 169,
+      "sha256": "a3aa21b5b80365dfc67042c7e5fb5a0101c363b8a9fa9d37c677d16a5897e129"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_paramcomm.txt",
+      "bytes": 5847,
+      "sha256": "4921053ee968aa5a97647dc7b4a459a21fefcb7b52eaa18e5b2263b3aaf5fbe3"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_summary.txt",
+      "bytes": 413,
+      "sha256": "1f0dafde41a6bf88fbc789fef7d3fe4ea18b435da4b975a925608023b23043ce"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_time.txt",
+      "bytes": 18,
+      "sha256": "a1736ed06759f406b3e63fa36faf6c74a8308967fb8cf04ef6c4f9d92cb3a0cf"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_volumes.txt",
+      "bytes": 175,
+      "sha256": "35ff831e2dbd40e4ef280b7d9727928fb40f9e0c8a81d6a097411cdfa1c990ff"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.R",
+      "bytes": 55515,
+      "sha256": "f8f065e9e2cfe4197f8e07b167c5a6020090761c749c7f6312d1432760474b03"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.cmd",
+      "bytes": 134,
+      "sha256": "4964050ff7ca0e6ee0dc77beda8ef159ef363eb454cf9afb0ed9fc859ea5b71f"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/blimport.py",
+      "bytes": 15015,
+      "sha256": "522928bb1c18a088e6ef1190695a0b9e5e43257542f4122f7718aa6477c66a05"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0000.csv",
+      "bytes": 63540,
+      "sha256": "7612b1b342d7c905804a3543d8fc3878fe13cdbff8450bd682bf72ae4bc5acfa"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0001.csv",
+      "bytes": 63540,
+      "sha256": "c4a144cdcc50a855c1c5cf875b6de446acb83e470b43cd1b5becc3da47c0c81c"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0002.csv",
+      "bytes": 63540,
+      "sha256": "5cfce1313537ba22f6dd51ee37dad2f8a137f75acd493fd4438fca515912b913"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0003.csv",
+      "bytes": 63540,
+      "sha256": "6c2d8d1e971a67bf387bf493d4890ba8c8d92402803a23a49fd9ee3a2c3c015e"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0004.csv",
+      "bytes": 63540,
+      "sha256": "739d3f73e16f0a2d93136ba705e205a43d5b7323d7df91262524b4b15873776c"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0005.csv",
+      "bytes": 63540,
+      "sha256": "61db26a8814733fc2ffbe0f9333d551785b794b033ad9dbc886676d57edfa7d0"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.cmd",
+      "bytes": 77,
+      "sha256": "e7727126cf700017693581c1d045aabfbb5b476ac47b33e103b544d4150504a7"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.py",
+      "bytes": 1412,
+      "sha256": "46b00b198c254fec1a12b986d82d1641c50fed05093b2ad591110116533edc37"
+    },
+    {
+      "path": "valid_cs0_cases/image1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/unimport.py",
+      "bytes": 4321,
+      "sha256": "2ce32cbfcad2b18d7b96cf63a4eaabbd35fe576638287beb23d9ca44e5067b3c"
+    },
+    {
+      "path": "valid_cs0_cases/image1/run.log",
+      "bytes": 4056,
+      "sha256": "bec0cf72c6fd52ce9e9b635a319845c0184812afc92ecea1af27f886321c4971"
+    },
+    {
+      "path": "valid_cs0_cases/image1/run_grass.sh",
+      "bytes": 549,
+      "sha256": "06475a3cce4517f06426f8a479aacafa69c3e4209b4f166eb127b55196700646"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_(null).asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0001.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0002.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0003.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0004.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0005.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange_fin.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev_mod.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0001.asc",
+      "bytes": 7316,
+      "sha256": "6916f8aa09539fb060b6281efdbeb95bc8b7d238c5544e9176db6201b2f0d5af"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0002.asc",
+      "bytes": 7316,
+      "sha256": "d20495b235e21da55351bcd6cfadfc0a9f40bd4ae05491816737bfead52b010a"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0003.asc",
+      "bytes": 7325,
+      "sha256": "f8c8670b378191c2ac2db223e5ff5538b831a477f0c04f37840b6d84791dfb24"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0004.asc",
+      "bytes": 7325,
+      "sha256": "df0896fd69e745a5e7ceb650ebbe684cc5c28bb82c7ef9d15b774425a216237a"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0005.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_dep.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_fin.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0001.asc",
+      "bytes": 7316,
+      "sha256": "4702115dc1eb3baef3520a742ccd292060126910e259009a38f1caa585253c6f"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0002.asc",
+      "bytes": 7316,
+      "sha256": "e1f83ff993ff24b9873bcc99b283ede4d2545f932d35c0a2e564c626ce38d00d"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0003.asc",
+      "bytes": 7325,
+      "sha256": "6a1ecdcef1960819c3b4193882432566eb4ac6997f3b6574ec1312366c33b762"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0004.asc",
+      "bytes": 7330,
+      "sha256": "32a1fbcd52139270bc01491dbeebf9a1f69d247177fe57898ccb8e30fc60bba0"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0005.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0000.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0001.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0002.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0003.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0004.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0005.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0001.asc",
+      "bytes": 7883,
+      "sha256": "60c3d2aa564fe1766dbaa8f10eb3cc0ad460e2019426898d24372f4a0643cd41"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0002.asc",
+      "bytes": 7816,
+      "sha256": "469102f7b070e71075080469e02b8cec7a407e9f9c084e97c49797ba7bbc7edc"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0003.asc",
+      "bytes": 7805,
+      "sha256": "4dc69aa8dde1410faa59bbc262b7d510b426696b30f8045121b89315ef04d7a3"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0004.asc",
+      "bytes": 7785,
+      "sha256": "a91e812edd21c3129395997bd2fa143f89f9198ea69c218e177e71aa390f32c3"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0005.asc",
+      "bytes": 7694,
+      "sha256": "7290cddf719202b9764685b9fad9a16332ef2657d58e410a3e570ea77138558b"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow_max.asc",
+      "bytes": 8043,
+      "sha256": "2cecd15fc8375eb9d4790523efda2539f4d168814da1f7aa5158a8350b21a3bb"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1front.asc",
+      "bytes": 11048,
+      "sha256": "3f769d0304afcf98d41523e2794804381152d217d86c0eb297cbca547cf76bb6"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3front.asc",
+      "bytes": 11048,
+      "sha256": "03b109a0ed5392dd6c91af3e296bd84e0f3b4f58ad4d94078b83454e70611b18"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0001.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0002.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0003.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0004.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0005.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0001.asc",
+      "bytes": 7868,
+      "sha256": "0442c9cb0fbcf271ace146d9daa957cdd3d676fba0d517045687bf1d0f680b40"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0002.asc",
+      "bytes": 7904,
+      "sha256": "02f88cd51fb5a1dfddd363bb8f20f190f0c10e1aa3d3dff2cbfd5a59cfda74f7"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0003.asc",
+      "bytes": 7863,
+      "sha256": "51fb8bafeea0c314297300925d53c7a603d17d12c8fad642d8dd1a057346a7db"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0004.asc",
+      "bytes": 7807,
+      "sha256": "6efde4693c37f622341e5970506d314400a8ef0ac8604d93a4267cbfbef8bf86"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0005.asc",
+      "bytes": 7740,
+      "sha256": "fc9949705842caa61143ff75b34b2fce123288582dfb4e10e16b189538c46c32"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow_max.asc",
+      "bytes": 8119,
+      "sha256": "c33d50ab387357799ebdcb5403f5e3d3e5ab594593de20b3569dbce5fa1e8e53"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_treach.asc",
+      "bytes": 11981,
+      "sha256": "ddc62d5ae106fa0a195f8c0175f39653f1a968097bafae190a54fa6320577bbd"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0001.asc",
+      "bytes": 7316,
+      "sha256": "281a438c7cfab7d24f08207f0375698f37329ef9796dc56cd2a5b55430c1df02"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0002.asc",
+      "bytes": 7316,
+      "sha256": "5a96c09a3bdc7450ee17f1b0497f282444b508d3475334d6f37e6329519faef8"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0003.asc",
+      "bytes": 7316,
+      "sha256": "99ef6e138ea761f1e33ffc1eef0f6523daee2a3fe2c6f7e96768a1797ee26cff"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0004.asc",
+      "bytes": 7316,
+      "sha256": "3703c6c05a3a711b4ffd92f5ab60ade1a3cdcb9e5d2d0db5956d232ae1036db1"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0005.asc",
+      "bytes": 7316,
+      "sha256": "9ae06acc8862e2a4d36ced33dd9f1ebb36162d52dfae7774d33c6e68aa0f3a14"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow_max.asc",
+      "bytes": 7316,
+      "sha256": "bffcca629316e13f7cf5f3ddad07962c260a005223aa95c1cdcfe14f08d96aec"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0001.asc",
+      "bytes": 7459,
+      "sha256": "0faab19cc9d4f2ca7f5f0af476fd8ed83c167bc0caf5267a66a67040b39bd23f"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0002.asc",
+      "bytes": 7448,
+      "sha256": "62c1afb179442f2ac2f76e2801e101cd97b33875e3f86dc0b17562e126c91666"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0003.asc",
+      "bytes": 7446,
+      "sha256": "30f25860881b41a5e56aa9a25c26abc16e07c1f09f2da72e8fcf8d091ff68d8c"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0004.asc",
+      "bytes": 7461,
+      "sha256": "f450505fb9411346e429ef1af50f7cde5c0fcf4af2d278f0d1371a39fd784434"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0005.asc",
+      "bytes": 7590,
+      "sha256": "5b54535daa3647bf701062f51ad71837a53c117b404afefe10c9f3b8054f154e"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0001.asc",
+      "bytes": 7376,
+      "sha256": "e4f83a6bda8d95bbf53e3cbe81e1a1fca8c9342c36cc1f022d4346ddc99d271c"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0002.asc",
+      "bytes": 7363,
+      "sha256": "107fb2e541b97b7110a2d9914e131fb230db61ec084266787a5187e40f10f920"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0003.asc",
+      "bytes": 7342,
+      "sha256": "df00ac0215b6502209056247179cf82ca92b1c5398838a2924292d45ed53972f"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0004.asc",
+      "bytes": 7351,
+      "sha256": "4aceb15eeba098630696fbdbf943d1b4d33e8d98eab3bfc7a79f197a4e6290bc"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0005.asc",
+      "bytes": 7455,
+      "sha256": "a2534b6085e5ffeda5f54a853d5ea8d5a3087a1ef35069fafb33274a05bf1ecc"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vfront.asc",
+      "bytes": 11075,
+      "sha256": "c5473475b25f766112649fc8383f7cc398fec2f606936f22e173cbf9fd222ce9"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vhmax.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_directions1.txt",
+      "bytes": 53248,
+      "sha256": "0fdd0f9d430a108ddd94a5e78183055639d6c4d88649910fad2581558e4133a5"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_nout1.txt",
+      "bytes": 169,
+      "sha256": "a3aa21b5b80365dfc67042c7e5fb5a0101c363b8a9fa9d37c677d16a5897e129"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_paramcomm.txt",
+      "bytes": 5847,
+      "sha256": "4921053ee968aa5a97647dc7b4a459a21fefcb7b52eaa18e5b2263b3aaf5fbe3"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_summary.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_volumes.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.R",
+      "bytes": 55515,
+      "sha256": "f8f065e9e2cfe4197f8e07b167c5a6020090761c749c7f6312d1432760474b03"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.cmd",
+      "bytes": 134,
+      "sha256": "4964050ff7ca0e6ee0dc77beda8ef159ef363eb454cf9afb0ed9fc859ea5b71f"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/blimport.py",
+      "bytes": 15015,
+      "sha256": "522928bb1c18a088e6ef1190695a0b9e5e43257542f4122f7718aa6477c66a05"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0000.csv",
+      "bytes": 63540,
+      "sha256": "7612b1b342d7c905804a3543d8fc3878fe13cdbff8450bd682bf72ae4bc5acfa"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0001.csv",
+      "bytes": 63540,
+      "sha256": "c4a144cdcc50a855c1c5cf875b6de446acb83e470b43cd1b5becc3da47c0c81c"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0002.csv",
+      "bytes": 63540,
+      "sha256": "5cfce1313537ba22f6dd51ee37dad2f8a137f75acd493fd4438fca515912b913"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0003.csv",
+      "bytes": 63540,
+      "sha256": "6c2d8d1e971a67bf387bf493d4890ba8c8d92402803a23a49fd9ee3a2c3c015e"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0004.csv",
+      "bytes": 63540,
+      "sha256": "739d3f73e16f0a2d93136ba705e205a43d5b7323d7df91262524b4b15873776c"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0005.csv",
+      "bytes": 63540,
+      "sha256": "61db26a8814733fc2ffbe0f9333d551785b794b033ad9dbc886676d57edfa7d0"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.cmd",
+      "bytes": 77,
+      "sha256": "e7727126cf700017693581c1d045aabfbb5b476ac47b33e103b544d4150504a7"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.py",
+      "bytes": 1412,
+      "sha256": "46b00b198c254fec1a12b986d82d1641c50fed05093b2ad591110116533edc37"
+    },
+    {
+      "path": "valid_cs0_cases/original1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/unimport.py",
+      "bytes": 4321,
+      "sha256": "2ce32cbfcad2b18d7b96cf63a4eaabbd35fe576638287beb23d9ca44e5067b3c"
+    },
+    {
+      "path": "valid_cs0_cases/original1/run.log",
+      "bytes": 4542,
+      "sha256": "85c7e1b7dc933b9e32a9ac8b80fd4d0b79971558f0dc7ef95411c1dae42fcd38"
+    },
+    {
+      "path": "valid_cs0_cases/original1/run_grass.sh",
+      "bytes": 552,
+      "sha256": "d1a5134c5ba73bd1c69d005dc068a4b5b284739b91d6f755f93bbf53897c696f"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_(null).asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0001.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0002.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0003.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0004.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange0005.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_basechange_fin.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev_mod.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0001.asc",
+      "bytes": 7316,
+      "sha256": "6916f8aa09539fb060b6281efdbeb95bc8b7d238c5544e9176db6201b2f0d5af"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0002.asc",
+      "bytes": 7316,
+      "sha256": "d20495b235e21da55351bcd6cfadfc0a9f40bd4ae05491816737bfead52b010a"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0003.asc",
+      "bytes": 7325,
+      "sha256": "f8c8670b378191c2ac2db223e5ff5538b831a477f0c04f37840b6d84791dfb24"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0004.asc",
+      "bytes": 7325,
+      "sha256": "df0896fd69e745a5e7ceb650ebbe684cc5c28bb82c7ef9d15b774425a216237a"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0005.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_dep.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_fin.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0001.asc",
+      "bytes": 7316,
+      "sha256": "4702115dc1eb3baef3520a742ccd292060126910e259009a38f1caa585253c6f"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0002.asc",
+      "bytes": 7316,
+      "sha256": "e1f83ff993ff24b9873bcc99b283ede4d2545f932d35c0a2e564c626ce38d00d"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0003.asc",
+      "bytes": 7325,
+      "sha256": "6a1ecdcef1960819c3b4193882432566eb4ac6997f3b6574ec1312366c33b762"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0004.asc",
+      "bytes": 7330,
+      "sha256": "32a1fbcd52139270bc01491dbeebf9a1f69d247177fe57898ccb8e30fc60bba0"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0005.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0000.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0001.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0002.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0003.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0004.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0005.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0001.asc",
+      "bytes": 7883,
+      "sha256": "60c3d2aa564fe1766dbaa8f10eb3cc0ad460e2019426898d24372f4a0643cd41"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0002.asc",
+      "bytes": 7816,
+      "sha256": "469102f7b070e71075080469e02b8cec7a407e9f9c084e97c49797ba7bbc7edc"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0003.asc",
+      "bytes": 7805,
+      "sha256": "4dc69aa8dde1410faa59bbc262b7d510b426696b30f8045121b89315ef04d7a3"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0004.asc",
+      "bytes": 7785,
+      "sha256": "a91e812edd21c3129395997bd2fa143f89f9198ea69c218e177e71aa390f32c3"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0005.asc",
+      "bytes": 7694,
+      "sha256": "7290cddf719202b9764685b9fad9a16332ef2657d58e410a3e570ea77138558b"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow_max.asc",
+      "bytes": 8043,
+      "sha256": "2cecd15fc8375eb9d4790523efda2539f4d168814da1f7aa5158a8350b21a3bb"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1front.asc",
+      "bytes": 11048,
+      "sha256": "3f769d0304afcf98d41523e2794804381152d217d86c0eb297cbca547cf76bb6"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3front.asc",
+      "bytes": 11048,
+      "sha256": "03b109a0ed5392dd6c91af3e296bd84e0f3b4f58ad4d94078b83454e70611b18"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0001.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0002.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0003.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0004.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0005.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0001.asc",
+      "bytes": 7868,
+      "sha256": "0442c9cb0fbcf271ace146d9daa957cdd3d676fba0d517045687bf1d0f680b40"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0002.asc",
+      "bytes": 7904,
+      "sha256": "02f88cd51fb5a1dfddd363bb8f20f190f0c10e1aa3d3dff2cbfd5a59cfda74f7"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0003.asc",
+      "bytes": 7863,
+      "sha256": "51fb8bafeea0c314297300925d53c7a603d17d12c8fad642d8dd1a057346a7db"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0004.asc",
+      "bytes": 7807,
+      "sha256": "6efde4693c37f622341e5970506d314400a8ef0ac8604d93a4267cbfbef8bf86"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0005.asc",
+      "bytes": 7740,
+      "sha256": "fc9949705842caa61143ff75b34b2fce123288582dfb4e10e16b189538c46c32"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow_max.asc",
+      "bytes": 8119,
+      "sha256": "c33d50ab387357799ebdcb5403f5e3d3e5ab594593de20b3569dbce5fa1e8e53"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_treach.asc",
+      "bytes": 11981,
+      "sha256": "ddc62d5ae106fa0a195f8c0175f39653f1a968097bafae190a54fa6320577bbd"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0001.asc",
+      "bytes": 7316,
+      "sha256": "281a438c7cfab7d24f08207f0375698f37329ef9796dc56cd2a5b55430c1df02"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0002.asc",
+      "bytes": 7316,
+      "sha256": "5a96c09a3bdc7450ee17f1b0497f282444b508d3475334d6f37e6329519faef8"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0003.asc",
+      "bytes": 7316,
+      "sha256": "99ef6e138ea761f1e33ffc1eef0f6523daee2a3fe2c6f7e96768a1797ee26cff"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0004.asc",
+      "bytes": 7316,
+      "sha256": "3703c6c05a3a711b4ffd92f5ab60ade1a3cdcb9e5d2d0db5956d232ae1036db1"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0005.asc",
+      "bytes": 7316,
+      "sha256": "9ae06acc8862e2a4d36ced33dd9f1ebb36162d52dfae7774d33c6e68aa0f3a14"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow_max.asc",
+      "bytes": 7316,
+      "sha256": "bffcca629316e13f7cf5f3ddad07962c260a005223aa95c1cdcfe14f08d96aec"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0001.asc",
+      "bytes": 7459,
+      "sha256": "0faab19cc9d4f2ca7f5f0af476fd8ed83c167bc0caf5267a66a67040b39bd23f"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0002.asc",
+      "bytes": 7448,
+      "sha256": "62c1afb179442f2ac2f76e2801e101cd97b33875e3f86dc0b17562e126c91666"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0003.asc",
+      "bytes": 7446,
+      "sha256": "30f25860881b41a5e56aa9a25c26abc16e07c1f09f2da72e8fcf8d091ff68d8c"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0004.asc",
+      "bytes": 7461,
+      "sha256": "f450505fb9411346e429ef1af50f7cde5c0fcf4af2d278f0d1371a39fd784434"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0005.asc",
+      "bytes": 7590,
+      "sha256": "5b54535daa3647bf701062f51ad71837a53c117b404afefe10c9f3b8054f154e"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0001.asc",
+      "bytes": 7376,
+      "sha256": "e4f83a6bda8d95bbf53e3cbe81e1a1fca8c9342c36cc1f022d4346ddc99d271c"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0002.asc",
+      "bytes": 7363,
+      "sha256": "107fb2e541b97b7110a2d9914e131fb230db61ec084266787a5187e40f10f920"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0003.asc",
+      "bytes": 7342,
+      "sha256": "df00ac0215b6502209056247179cf82ca92b1c5398838a2924292d45ed53972f"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0004.asc",
+      "bytes": 7351,
+      "sha256": "4aceb15eeba098630696fbdbf943d1b4d33e8d98eab3bfc7a79f197a4e6290bc"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0005.asc",
+      "bytes": 7455,
+      "sha256": "a2534b6085e5ffeda5f54a853d5ea8d5a3087a1ef35069fafb33274a05bf1ecc"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vfront.asc",
+      "bytes": 11075,
+      "sha256": "c5473475b25f766112649fc8383f7cc398fec2f606936f22e173cbf9fd222ce9"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vhmax.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_directions1.txt",
+      "bytes": 53248,
+      "sha256": "0fdd0f9d430a108ddd94a5e78183055639d6c4d88649910fad2581558e4133a5"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_nout1.txt",
+      "bytes": 169,
+      "sha256": "a3aa21b5b80365dfc67042c7e5fb5a0101c363b8a9fa9d37c677d16a5897e129"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_paramcomm.txt",
+      "bytes": 5847,
+      "sha256": "4921053ee968aa5a97647dc7b4a459a21fefcb7b52eaa18e5b2263b3aaf5fbe3"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_summary.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_volumes.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.R",
+      "bytes": 55515,
+      "sha256": "f8f065e9e2cfe4197f8e07b167c5a6020090761c749c7f6312d1432760474b03"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.cmd",
+      "bytes": 134,
+      "sha256": "4964050ff7ca0e6ee0dc77beda8ef159ef363eb454cf9afb0ed9fc859ea5b71f"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/blimport.py",
+      "bytes": 15015,
+      "sha256": "522928bb1c18a088e6ef1190695a0b9e5e43257542f4122f7718aa6477c66a05"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0000.csv",
+      "bytes": 63540,
+      "sha256": "7612b1b342d7c905804a3543d8fc3878fe13cdbff8450bd682bf72ae4bc5acfa"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0001.csv",
+      "bytes": 63540,
+      "sha256": "c4a144cdcc50a855c1c5cf875b6de446acb83e470b43cd1b5becc3da47c0c81c"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0002.csv",
+      "bytes": 63540,
+      "sha256": "5cfce1313537ba22f6dd51ee37dad2f8a137f75acd493fd4438fca515912b913"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0003.csv",
+      "bytes": 63540,
+      "sha256": "6c2d8d1e971a67bf387bf493d4890ba8c8d92402803a23a49fd9ee3a2c3c015e"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0004.csv",
+      "bytes": 63540,
+      "sha256": "739d3f73e16f0a2d93136ba705e205a43d5b7323d7df91262524b4b15873776c"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0005.csv",
+      "bytes": 63540,
+      "sha256": "61db26a8814733fc2ffbe0f9333d551785b794b033ad9dbc886676d57edfa7d0"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.cmd",
+      "bytes": 77,
+      "sha256": "e7727126cf700017693581c1d045aabfbb5b476ac47b33e103b544d4150504a7"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.py",
+      "bytes": 1412,
+      "sha256": "46b00b198c254fec1a12b986d82d1641c50fed05093b2ad591110116533edc37"
+    },
+    {
+      "path": "valid_cs0_cases/original2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/unimport.py",
+      "bytes": 4321,
+      "sha256": "2ce32cbfcad2b18d7b96cf63a4eaabbd35fe576638287beb23d9ca44e5067b3c"
+    },
+    {
+      "path": "valid_cs0_cases/original2/run.log",
+      "bytes": 4542,
+      "sha256": "e0fe84905ab2d26b8ea4855f77e0367434ca1807431ef485fecff0df1472b5f8"
+    },
+    {
+      "path": "valid_cs0_cases/original2/run_grass.sh",
+      "bytes": 552,
+      "sha256": "e9df344ef10d0c17a7d6bb5a5b92c87667b19f19884c2bc03d9ce3582bb2b5b0"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_(null).asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev_mod.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0001.asc",
+      "bytes": 7316,
+      "sha256": "6916f8aa09539fb060b6281efdbeb95bc8b7d238c5544e9176db6201b2f0d5af"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0002.asc",
+      "bytes": 7316,
+      "sha256": "d20495b235e21da55351bcd6cfadfc0a9f40bd4ae05491816737bfead52b010a"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0003.asc",
+      "bytes": 7325,
+      "sha256": "f8c8670b378191c2ac2db223e5ff5538b831a477f0c04f37840b6d84791dfb24"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0004.asc",
+      "bytes": 7325,
+      "sha256": "df0896fd69e745a5e7ceb650ebbe684cc5c28bb82c7ef9d15b774425a216237a"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0005.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_dep.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_fin.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0001.asc",
+      "bytes": 7316,
+      "sha256": "4702115dc1eb3baef3520a742ccd292060126910e259009a38f1caa585253c6f"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0002.asc",
+      "bytes": 7316,
+      "sha256": "e1f83ff993ff24b9873bcc99b283ede4d2545f932d35c0a2e564c626ce38d00d"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0003.asc",
+      "bytes": 7325,
+      "sha256": "6a1ecdcef1960819c3b4193882432566eb4ac6997f3b6574ec1312366c33b762"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0004.asc",
+      "bytes": 7330,
+      "sha256": "32a1fbcd52139270bc01491dbeebf9a1f69d247177fe57898ccb8e30fc60bba0"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0005.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0000.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0001.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0002.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0003.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0004.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0005.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0001.asc",
+      "bytes": 7883,
+      "sha256": "60c3d2aa564fe1766dbaa8f10eb3cc0ad460e2019426898d24372f4a0643cd41"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0002.asc",
+      "bytes": 7816,
+      "sha256": "469102f7b070e71075080469e02b8cec7a407e9f9c084e97c49797ba7bbc7edc"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0003.asc",
+      "bytes": 7805,
+      "sha256": "4dc69aa8dde1410faa59bbc262b7d510b426696b30f8045121b89315ef04d7a3"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0004.asc",
+      "bytes": 7785,
+      "sha256": "a91e812edd21c3129395997bd2fa143f89f9198ea69c218e177e71aa390f32c3"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0005.asc",
+      "bytes": 7694,
+      "sha256": "7290cddf719202b9764685b9fad9a16332ef2657d58e410a3e570ea77138558b"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow_max.asc",
+      "bytes": 8043,
+      "sha256": "2cecd15fc8375eb9d4790523efda2539f4d168814da1f7aa5158a8350b21a3bb"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1front.asc",
+      "bytes": 11048,
+      "sha256": "3f769d0304afcf98d41523e2794804381152d217d86c0eb297cbca547cf76bb6"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3front.asc",
+      "bytes": 11048,
+      "sha256": "03b109a0ed5392dd6c91af3e296bd84e0f3b4f58ad4d94078b83454e70611b18"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0001.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0002.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0003.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0004.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0005.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0001.asc",
+      "bytes": 7868,
+      "sha256": "0442c9cb0fbcf271ace146d9daa957cdd3d676fba0d517045687bf1d0f680b40"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0002.asc",
+      "bytes": 7904,
+      "sha256": "02f88cd51fb5a1dfddd363bb8f20f190f0c10e1aa3d3dff2cbfd5a59cfda74f7"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0003.asc",
+      "bytes": 7863,
+      "sha256": "51fb8bafeea0c314297300925d53c7a603d17d12c8fad642d8dd1a057346a7db"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0004.asc",
+      "bytes": 7807,
+      "sha256": "6efde4693c37f622341e5970506d314400a8ef0ac8604d93a4267cbfbef8bf86"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0005.asc",
+      "bytes": 7740,
+      "sha256": "fc9949705842caa61143ff75b34b2fce123288582dfb4e10e16b189538c46c32"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow_max.asc",
+      "bytes": 8119,
+      "sha256": "c33d50ab387357799ebdcb5403f5e3d3e5ab594593de20b3569dbce5fa1e8e53"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_treach.asc",
+      "bytes": 11981,
+      "sha256": "ddc62d5ae106fa0a195f8c0175f39653f1a968097bafae190a54fa6320577bbd"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0001.asc",
+      "bytes": 7316,
+      "sha256": "281a438c7cfab7d24f08207f0375698f37329ef9796dc56cd2a5b55430c1df02"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0002.asc",
+      "bytes": 7316,
+      "sha256": "5a96c09a3bdc7450ee17f1b0497f282444b508d3475334d6f37e6329519faef8"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0003.asc",
+      "bytes": 7316,
+      "sha256": "99ef6e138ea761f1e33ffc1eef0f6523daee2a3fe2c6f7e96768a1797ee26cff"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0004.asc",
+      "bytes": 7316,
+      "sha256": "3703c6c05a3a711b4ffd92f5ab60ade1a3cdcb9e5d2d0db5956d232ae1036db1"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0005.asc",
+      "bytes": 7316,
+      "sha256": "9ae06acc8862e2a4d36ced33dd9f1ebb36162d52dfae7774d33c6e68aa0f3a14"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow_max.asc",
+      "bytes": 7316,
+      "sha256": "bffcca629316e13f7cf5f3ddad07962c260a005223aa95c1cdcfe14f08d96aec"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0001.asc",
+      "bytes": 7459,
+      "sha256": "0faab19cc9d4f2ca7f5f0af476fd8ed83c167bc0caf5267a66a67040b39bd23f"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0002.asc",
+      "bytes": 7448,
+      "sha256": "62c1afb179442f2ac2f76e2801e101cd97b33875e3f86dc0b17562e126c91666"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0003.asc",
+      "bytes": 7446,
+      "sha256": "30f25860881b41a5e56aa9a25c26abc16e07c1f09f2da72e8fcf8d091ff68d8c"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0004.asc",
+      "bytes": 7461,
+      "sha256": "f450505fb9411346e429ef1af50f7cde5c0fcf4af2d278f0d1371a39fd784434"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0005.asc",
+      "bytes": 7590,
+      "sha256": "5b54535daa3647bf701062f51ad71837a53c117b404afefe10c9f3b8054f154e"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0001.asc",
+      "bytes": 7376,
+      "sha256": "e4f83a6bda8d95bbf53e3cbe81e1a1fca8c9342c36cc1f022d4346ddc99d271c"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0002.asc",
+      "bytes": 7363,
+      "sha256": "107fb2e541b97b7110a2d9914e131fb230db61ec084266787a5187e40f10f920"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0003.asc",
+      "bytes": 7342,
+      "sha256": "df00ac0215b6502209056247179cf82ca92b1c5398838a2924292d45ed53972f"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0004.asc",
+      "bytes": 7351,
+      "sha256": "4aceb15eeba098630696fbdbf943d1b4d33e8d98eab3bfc7a79f197a4e6290bc"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0005.asc",
+      "bytes": 7455,
+      "sha256": "a2534b6085e5ffeda5f54a853d5ea8d5a3087a1ef35069fafb33274a05bf1ecc"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vfront.asc",
+      "bytes": 11075,
+      "sha256": "c5473475b25f766112649fc8383f7cc398fec2f606936f22e173cbf9fd222ce9"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vhmax.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_directions1.txt",
+      "bytes": 56926,
+      "sha256": "41125c5992a22d1a623b357ea55645c354878e74f071a208e7cb4079b08a57dd"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_nout1.txt",
+      "bytes": 169,
+      "sha256": "a3aa21b5b80365dfc67042c7e5fb5a0101c363b8a9fa9d37c677d16a5897e129"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_paramcomm.txt",
+      "bytes": 5847,
+      "sha256": "4921053ee968aa5a97647dc7b4a459a21fefcb7b52eaa18e5b2263b3aaf5fbe3"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_summary.txt",
+      "bytes": 413,
+      "sha256": "1f0dafde41a6bf88fbc789fef7d3fe4ea18b435da4b975a925608023b23043ce"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_time.txt",
+      "bytes": 18,
+      "sha256": "d1130eb2e3ac84152d391a1595e72c0dbd02890936513c7f8b2a1d6250563106"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_volumes.txt",
+      "bytes": 175,
+      "sha256": "35ff831e2dbd40e4ef280b7d9727928fb40f9e0c8a81d6a097411cdfa1c990ff"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.R",
+      "bytes": 55515,
+      "sha256": "f8f065e9e2cfe4197f8e07b167c5a6020090761c749c7f6312d1432760474b03"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.cmd",
+      "bytes": 134,
+      "sha256": "4964050ff7ca0e6ee0dc77beda8ef159ef363eb454cf9afb0ed9fc859ea5b71f"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/blimport.py",
+      "bytes": 15015,
+      "sha256": "522928bb1c18a088e6ef1190695a0b9e5e43257542f4122f7718aa6477c66a05"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0000.csv",
+      "bytes": 63540,
+      "sha256": "7612b1b342d7c905804a3543d8fc3878fe13cdbff8450bd682bf72ae4bc5acfa"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0001.csv",
+      "bytes": 63540,
+      "sha256": "c4a144cdcc50a855c1c5cf875b6de446acb83e470b43cd1b5becc3da47c0c81c"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0002.csv",
+      "bytes": 63540,
+      "sha256": "5cfce1313537ba22f6dd51ee37dad2f8a137f75acd493fd4438fca515912b913"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0003.csv",
+      "bytes": 63540,
+      "sha256": "6c2d8d1e971a67bf387bf493d4890ba8c8d92402803a23a49fd9ee3a2c3c015e"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0004.csv",
+      "bytes": 63540,
+      "sha256": "739d3f73e16f0a2d93136ba705e205a43d5b7323d7df91262524b4b15873776c"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0005.csv",
+      "bytes": 63540,
+      "sha256": "61db26a8814733fc2ffbe0f9333d551785b794b033ad9dbc886676d57edfa7d0"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.cmd",
+      "bytes": 77,
+      "sha256": "e7727126cf700017693581c1d045aabfbb5b476ac47b33e103b544d4150504a7"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.py",
+      "bytes": 1412,
+      "sha256": "46b00b198c254fec1a12b986d82d1641c50fed05093b2ad591110116533edc37"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/unimport.py",
+      "bytes": 4321,
+      "sha256": "2ce32cbfcad2b18d7b96cf63a4eaabbd35fe576638287beb23d9ca44e5067b3c"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/run.log",
+      "bytes": 4060,
+      "sha256": "976908e45c4ebfe90109f681fb4c5ae05b788d5f007f17503c9c02715c3f2c76"
+    },
+    {
+      "path": "valid_cs0_cases/patched1/run_grass.sh",
+      "bytes": 608,
+      "sha256": "7f6af8b336740bf5f21f2fab3c03c9fbad23debc1f881d6ad5651816b930535d"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_(null).asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev_mod.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0001.asc",
+      "bytes": 7316,
+      "sha256": "6916f8aa09539fb060b6281efdbeb95bc8b7d238c5544e9176db6201b2f0d5af"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0002.asc",
+      "bytes": 7316,
+      "sha256": "d20495b235e21da55351bcd6cfadfc0a9f40bd4ae05491816737bfead52b010a"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0003.asc",
+      "bytes": 7325,
+      "sha256": "f8c8670b378191c2ac2db223e5ff5538b831a477f0c04f37840b6d84791dfb24"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0004.asc",
+      "bytes": 7325,
+      "sha256": "df0896fd69e745a5e7ceb650ebbe684cc5c28bb82c7ef9d15b774425a216237a"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0005.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_dep.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_fin.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0001.asc",
+      "bytes": 7316,
+      "sha256": "4702115dc1eb3baef3520a742ccd292060126910e259009a38f1caa585253c6f"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0002.asc",
+      "bytes": 7316,
+      "sha256": "e1f83ff993ff24b9873bcc99b283ede4d2545f932d35c0a2e564c626ce38d00d"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0003.asc",
+      "bytes": 7325,
+      "sha256": "6a1ecdcef1960819c3b4193882432566eb4ac6997f3b6574ec1312366c33b762"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0004.asc",
+      "bytes": 7330,
+      "sha256": "32a1fbcd52139270bc01491dbeebf9a1f69d247177fe57898ccb8e30fc60bba0"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0005.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0000.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0001.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0002.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0003.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0004.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0005.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0001.asc",
+      "bytes": 7883,
+      "sha256": "60c3d2aa564fe1766dbaa8f10eb3cc0ad460e2019426898d24372f4a0643cd41"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0002.asc",
+      "bytes": 7816,
+      "sha256": "469102f7b070e71075080469e02b8cec7a407e9f9c084e97c49797ba7bbc7edc"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0003.asc",
+      "bytes": 7805,
+      "sha256": "4dc69aa8dde1410faa59bbc262b7d510b426696b30f8045121b89315ef04d7a3"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0004.asc",
+      "bytes": 7785,
+      "sha256": "a91e812edd21c3129395997bd2fa143f89f9198ea69c218e177e71aa390f32c3"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0005.asc",
+      "bytes": 7694,
+      "sha256": "7290cddf719202b9764685b9fad9a16332ef2657d58e410a3e570ea77138558b"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow_max.asc",
+      "bytes": 8043,
+      "sha256": "2cecd15fc8375eb9d4790523efda2539f4d168814da1f7aa5158a8350b21a3bb"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1front.asc",
+      "bytes": 11048,
+      "sha256": "3f769d0304afcf98d41523e2794804381152d217d86c0eb297cbca547cf76bb6"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3front.asc",
+      "bytes": 11048,
+      "sha256": "03b109a0ed5392dd6c91af3e296bd84e0f3b4f58ad4d94078b83454e70611b18"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0001.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0002.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0003.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0004.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0005.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0001.asc",
+      "bytes": 7868,
+      "sha256": "0442c9cb0fbcf271ace146d9daa957cdd3d676fba0d517045687bf1d0f680b40"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0002.asc",
+      "bytes": 7904,
+      "sha256": "02f88cd51fb5a1dfddd363bb8f20f190f0c10e1aa3d3dff2cbfd5a59cfda74f7"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0003.asc",
+      "bytes": 7863,
+      "sha256": "51fb8bafeea0c314297300925d53c7a603d17d12c8fad642d8dd1a057346a7db"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0004.asc",
+      "bytes": 7807,
+      "sha256": "6efde4693c37f622341e5970506d314400a8ef0ac8604d93a4267cbfbef8bf86"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0005.asc",
+      "bytes": 7740,
+      "sha256": "fc9949705842caa61143ff75b34b2fce123288582dfb4e10e16b189538c46c32"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow_max.asc",
+      "bytes": 8119,
+      "sha256": "c33d50ab387357799ebdcb5403f5e3d3e5ab594593de20b3569dbce5fa1e8e53"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_treach.asc",
+      "bytes": 11981,
+      "sha256": "ddc62d5ae106fa0a195f8c0175f39653f1a968097bafae190a54fa6320577bbd"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0001.asc",
+      "bytes": 7316,
+      "sha256": "281a438c7cfab7d24f08207f0375698f37329ef9796dc56cd2a5b55430c1df02"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0002.asc",
+      "bytes": 7316,
+      "sha256": "5a96c09a3bdc7450ee17f1b0497f282444b508d3475334d6f37e6329519faef8"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0003.asc",
+      "bytes": 7316,
+      "sha256": "99ef6e138ea761f1e33ffc1eef0f6523daee2a3fe2c6f7e96768a1797ee26cff"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0004.asc",
+      "bytes": 7316,
+      "sha256": "3703c6c05a3a711b4ffd92f5ab60ade1a3cdcb9e5d2d0db5956d232ae1036db1"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0005.asc",
+      "bytes": 7316,
+      "sha256": "9ae06acc8862e2a4d36ced33dd9f1ebb36162d52dfae7774d33c6e68aa0f3a14"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow_max.asc",
+      "bytes": 7316,
+      "sha256": "bffcca629316e13f7cf5f3ddad07962c260a005223aa95c1cdcfe14f08d96aec"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0001.asc",
+      "bytes": 7459,
+      "sha256": "0faab19cc9d4f2ca7f5f0af476fd8ed83c167bc0caf5267a66a67040b39bd23f"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0002.asc",
+      "bytes": 7448,
+      "sha256": "62c1afb179442f2ac2f76e2801e101cd97b33875e3f86dc0b17562e126c91666"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0003.asc",
+      "bytes": 7446,
+      "sha256": "30f25860881b41a5e56aa9a25c26abc16e07c1f09f2da72e8fcf8d091ff68d8c"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0004.asc",
+      "bytes": 7461,
+      "sha256": "f450505fb9411346e429ef1af50f7cde5c0fcf4af2d278f0d1371a39fd784434"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0005.asc",
+      "bytes": 7590,
+      "sha256": "5b54535daa3647bf701062f51ad71837a53c117b404afefe10c9f3b8054f154e"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0001.asc",
+      "bytes": 7376,
+      "sha256": "e4f83a6bda8d95bbf53e3cbe81e1a1fca8c9342c36cc1f022d4346ddc99d271c"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0002.asc",
+      "bytes": 7363,
+      "sha256": "107fb2e541b97b7110a2d9914e131fb230db61ec084266787a5187e40f10f920"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0003.asc",
+      "bytes": 7342,
+      "sha256": "df00ac0215b6502209056247179cf82ca92b1c5398838a2924292d45ed53972f"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0004.asc",
+      "bytes": 7351,
+      "sha256": "4aceb15eeba098630696fbdbf943d1b4d33e8d98eab3bfc7a79f197a4e6290bc"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0005.asc",
+      "bytes": 7455,
+      "sha256": "a2534b6085e5ffeda5f54a853d5ea8d5a3087a1ef35069fafb33274a05bf1ecc"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vfront.asc",
+      "bytes": 11075,
+      "sha256": "c5473475b25f766112649fc8383f7cc398fec2f606936f22e173cbf9fd222ce9"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vhmax.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_directions1.txt",
+      "bytes": 56926,
+      "sha256": "41125c5992a22d1a623b357ea55645c354878e74f071a208e7cb4079b08a57dd"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_nout1.txt",
+      "bytes": 169,
+      "sha256": "a3aa21b5b80365dfc67042c7e5fb5a0101c363b8a9fa9d37c677d16a5897e129"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_paramcomm.txt",
+      "bytes": 5847,
+      "sha256": "4921053ee968aa5a97647dc7b4a459a21fefcb7b52eaa18e5b2263b3aaf5fbe3"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_summary.txt",
+      "bytes": 413,
+      "sha256": "1f0dafde41a6bf88fbc789fef7d3fe4ea18b435da4b975a925608023b23043ce"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_time.txt",
+      "bytes": 18,
+      "sha256": "e3f8b326a071c0de96826e80d4d7a631e9956ad0b62cca3f41e8a1abe5e301bf"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_volumes.txt",
+      "bytes": 175,
+      "sha256": "35ff831e2dbd40e4ef280b7d9727928fb40f9e0c8a81d6a097411cdfa1c990ff"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.R",
+      "bytes": 55515,
+      "sha256": "f8f065e9e2cfe4197f8e07b167c5a6020090761c749c7f6312d1432760474b03"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.cmd",
+      "bytes": 134,
+      "sha256": "4964050ff7ca0e6ee0dc77beda8ef159ef363eb454cf9afb0ed9fc859ea5b71f"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/blimport.py",
+      "bytes": 15015,
+      "sha256": "522928bb1c18a088e6ef1190695a0b9e5e43257542f4122f7718aa6477c66a05"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0000.csv",
+      "bytes": 63540,
+      "sha256": "7612b1b342d7c905804a3543d8fc3878fe13cdbff8450bd682bf72ae4bc5acfa"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0001.csv",
+      "bytes": 63540,
+      "sha256": "c4a144cdcc50a855c1c5cf875b6de446acb83e470b43cd1b5becc3da47c0c81c"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0002.csv",
+      "bytes": 63540,
+      "sha256": "5cfce1313537ba22f6dd51ee37dad2f8a137f75acd493fd4438fca515912b913"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0003.csv",
+      "bytes": 63540,
+      "sha256": "6c2d8d1e971a67bf387bf493d4890ba8c8d92402803a23a49fd9ee3a2c3c015e"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0004.csv",
+      "bytes": 63540,
+      "sha256": "739d3f73e16f0a2d93136ba705e205a43d5b7323d7df91262524b4b15873776c"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0005.csv",
+      "bytes": 63540,
+      "sha256": "61db26a8814733fc2ffbe0f9333d551785b794b033ad9dbc886676d57edfa7d0"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.cmd",
+      "bytes": 77,
+      "sha256": "e7727126cf700017693581c1d045aabfbb5b476ac47b33e103b544d4150504a7"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.py",
+      "bytes": 1412,
+      "sha256": "46b00b198c254fec1a12b986d82d1641c50fed05093b2ad591110116533edc37"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/unimport.py",
+      "bytes": 4321,
+      "sha256": "2ce32cbfcad2b18d7b96cf63a4eaabbd35fe576638287beb23d9ca44e5067b3c"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/run.log",
+      "bytes": 4060,
+      "sha256": "0eabd8c74f20242f9632cc7636ac47ba1bc6ed9e089256d2fc36ebe069e8f866"
+    },
+    {
+      "path": "valid_cs0_cases/patched2/run_grass.sh",
+      "bytes": 608,
+      "sha256": "175fa39b8547b7ebecbf3515e1420038d64260b7a749df0869c40a0ef229fe7b"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_(null).asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_elev_mod.asc",
+      "bytes": 9716,
+      "sha256": "f0e202be2685a99d1bb0997ca2116c6da7b25afa329d9633f01a58b287201d78"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0001.asc",
+      "bytes": 7316,
+      "sha256": "6916f8aa09539fb060b6281efdbeb95bc8b7d238c5544e9176db6201b2f0d5af"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0002.asc",
+      "bytes": 7316,
+      "sha256": "d20495b235e21da55351bcd6cfadfc0a9f40bd4ae05491816737bfead52b010a"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0003.asc",
+      "bytes": 7325,
+      "sha256": "f8c8670b378191c2ac2db223e5ff5538b831a477f0c04f37840b6d84791dfb24"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0004.asc",
+      "bytes": 7325,
+      "sha256": "df0896fd69e745a5e7ceb650ebbe684cc5c28bb82c7ef9d15b774425a216237a"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow0005.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_dep.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_fin.asc",
+      "bytes": 7316,
+      "sha256": "a49d8b8117ff321f9119151518e104724efea803c26be3a1d9a0e4b5b4ef2560"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0000.asc",
+      "bytes": 7316,
+      "sha256": "25b762bf5a116441e331a77d4bf0a037a9f8bca73923dd8658229d916769eb0e"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0001.asc",
+      "bytes": 7316,
+      "sha256": "4702115dc1eb3baef3520a742ccd292060126910e259009a38f1caa585253c6f"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0002.asc",
+      "bytes": 7316,
+      "sha256": "e1f83ff993ff24b9873bcc99b283ede4d2545f932d35c0a2e564c626ce38d00d"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0003.asc",
+      "bytes": 7325,
+      "sha256": "6a1ecdcef1960819c3b4193882432566eb4ac6997f3b6574ec1312366c33b762"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0004.asc",
+      "bytes": 7330,
+      "sha256": "32a1fbcd52139270bc01491dbeebf9a1f69d247177fe57898ccb8e30fc60bba0"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hflow_max0005.asc",
+      "bytes": 7330,
+      "sha256": "50ae183700274a95add3356388ce11215c713c97f5bbd1f99a5cebc7d39cf64c"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0000.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0001.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0002.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0003.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0004.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_hillshade0005.asc",
+      "bytes": 4916,
+      "sha256": "1459f1c92aa2915be2d87886bd52dc0d5afc26cae3be5ab0d2d254aa79bf07cf"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0001.asc",
+      "bytes": 7883,
+      "sha256": "60c3d2aa564fe1766dbaa8f10eb3cc0ad460e2019426898d24372f4a0643cd41"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0002.asc",
+      "bytes": 7816,
+      "sha256": "469102f7b070e71075080469e02b8cec7a407e9f9c084e97c49797ba7bbc7edc"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0003.asc",
+      "bytes": 7805,
+      "sha256": "4dc69aa8dde1410faa59bbc262b7d510b426696b30f8045121b89315ef04d7a3"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0004.asc",
+      "bytes": 7785,
+      "sha256": "a91e812edd21c3129395997bd2fa143f89f9198ea69c218e177e71aa390f32c3"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow0005.asc",
+      "bytes": 7694,
+      "sha256": "7290cddf719202b9764685b9fad9a16332ef2657d58e410a3e570ea77138558b"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_pflow_max.asc",
+      "bytes": 8043,
+      "sha256": "2cecd15fc8375eb9d4790523efda2539f4d168814da1f7aa5158a8350b21a3bb"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1front.asc",
+      "bytes": 11048,
+      "sha256": "3f769d0304afcf98d41523e2794804381152d217d86c0eb297cbca547cf76bb6"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r1max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3front.asc",
+      "bytes": 11048,
+      "sha256": "03b109a0ed5392dd6c91af3e296bd84e0f3b4f58ad4d94078b83454e70611b18"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_r3max.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0001.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0002.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0003.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0004.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_temperature0005.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0001.asc",
+      "bytes": 7868,
+      "sha256": "0442c9cb0fbcf271ace146d9daa957cdd3d676fba0d517045687bf1d0f680b40"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0002.asc",
+      "bytes": 7904,
+      "sha256": "02f88cd51fb5a1dfddd363bb8f20f190f0c10e1aa3d3dff2cbfd5a59cfda74f7"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0003.asc",
+      "bytes": 7863,
+      "sha256": "51fb8bafeea0c314297300925d53c7a603d17d12c8fad642d8dd1a057346a7db"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0004.asc",
+      "bytes": 7807,
+      "sha256": "6efde4693c37f622341e5970506d314400a8ef0ac8604d93a4267cbfbef8bf86"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow0005.asc",
+      "bytes": 7740,
+      "sha256": "fc9949705842caa61143ff75b34b2fce123288582dfb4e10e16b189538c46c32"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_tflow_max.asc",
+      "bytes": 8119,
+      "sha256": "c33d50ab387357799ebdcb5403f5e3d3e5ab594593de20b3569dbce5fa1e8e53"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_treach.asc",
+      "bytes": 11981,
+      "sha256": "ddc62d5ae106fa0a195f8c0175f39653f1a968097bafae190a54fa6320577bbd"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0001.asc",
+      "bytes": 7316,
+      "sha256": "281a438c7cfab7d24f08207f0375698f37329ef9796dc56cd2a5b55430c1df02"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0002.asc",
+      "bytes": 7316,
+      "sha256": "5a96c09a3bdc7450ee17f1b0497f282444b508d3475334d6f37e6329519faef8"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0003.asc",
+      "bytes": 7316,
+      "sha256": "99ef6e138ea761f1e33ffc1eef0f6523daee2a3fe2c6f7e96768a1797ee26cff"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0004.asc",
+      "bytes": 7316,
+      "sha256": "3703c6c05a3a711b4ffd92f5ab60ade1a3cdcb9e5d2d0db5956d232ae1036db1"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow0005.asc",
+      "bytes": 7316,
+      "sha256": "9ae06acc8862e2a4d36ced33dd9f1ebb36162d52dfae7774d33c6e68aa0f3a14"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflow_max.asc",
+      "bytes": 7316,
+      "sha256": "bffcca629316e13f7cf5f3ddad07962c260a005223aa95c1cdcfe14f08d96aec"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0001.asc",
+      "bytes": 7459,
+      "sha256": "0faab19cc9d4f2ca7f5f0af476fd8ed83c167bc0caf5267a66a67040b39bd23f"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0002.asc",
+      "bytes": 7448,
+      "sha256": "62c1afb179442f2ac2f76e2801e101cd97b33875e3f86dc0b17562e126c91666"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0003.asc",
+      "bytes": 7446,
+      "sha256": "30f25860881b41a5e56aa9a25c26abc16e07c1f09f2da72e8fcf8d091ff68d8c"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0004.asc",
+      "bytes": 7461,
+      "sha256": "f450505fb9411346e429ef1af50f7cde5c0fcf4af2d278f0d1371a39fd784434"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowx0005.asc",
+      "bytes": 7590,
+      "sha256": "5b54535daa3647bf701062f51ad71837a53c117b404afefe10c9f3b8054f154e"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0000.asc",
+      "bytes": 7316,
+      "sha256": "fc32c38ea2b4b0d9839e5c09b788c5fd91025fd9849c45a8ae56ab79af575d42"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0001.asc",
+      "bytes": 7376,
+      "sha256": "e4f83a6bda8d95bbf53e3cbe81e1a1fca8c9342c36cc1f022d4346ddc99d271c"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0002.asc",
+      "bytes": 7363,
+      "sha256": "107fb2e541b97b7110a2d9914e131fb230db61ec084266787a5187e40f10f920"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0003.asc",
+      "bytes": 7342,
+      "sha256": "df00ac0215b6502209056247179cf82ca92b1c5398838a2924292d45ed53972f"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0004.asc",
+      "bytes": 7351,
+      "sha256": "4aceb15eeba098630696fbdbf943d1b4d33e8d98eab3bfc7a79f197a4e6290bc"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vflowy0005.asc",
+      "bytes": 7455,
+      "sha256": "a2534b6085e5ffeda5f54a853d5ea8d5a3087a1ef35069fafb33274a05bf1ecc"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vfront.asc",
+      "bytes": 11075,
+      "sha256": "c5473475b25f766112649fc8383f7cc398fec2f606936f22e173cbf9fd222ce9"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_ascii/bowlrest_60_ravaflow_single_vhmax.asc",
+      "bytes": 12116,
+      "sha256": "3e613b3a7d8688995fa7619fba32765c0ee208f30e9393c372c7fe0cdc07a24a"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_directions1.txt",
+      "bytes": 56926,
+      "sha256": "41125c5992a22d1a623b357ea55645c354878e74f071a208e7cb4079b08a57dd"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_nout1.txt",
+      "bytes": 169,
+      "sha256": "a3aa21b5b80365dfc67042c7e5fb5a0101c363b8a9fa9d37c677d16a5897e129"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_paramcomm.txt",
+      "bytes": 5847,
+      "sha256": "4921053ee968aa5a97647dc7b4a459a21fefcb7b52eaa18e5b2263b3aaf5fbe3"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_summary.txt",
+      "bytes": 413,
+      "sha256": "1f0dafde41a6bf88fbc789fef7d3fe4ea18b435da4b975a925608023b23043ce"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_time.txt",
+      "bytes": 18,
+      "sha256": "28654c11f60072e9b9fafd2517dca45042ab7bc6fdb574a7c4ea684fde1cf079"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_volumes.txt",
+      "bytes": 175,
+      "sha256": "35ff831e2dbd40e4ef280b7d9727928fb40f9e0c8a81d6a097411cdfa1c990ff"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.R",
+      "bytes": 55515,
+      "sha256": "f8f065e9e2cfe4197f8e07b167c5a6020090761c749c7f6312d1432760474b03"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_plots/r.avaflow.map.cmd",
+      "bytes": 134,
+      "sha256": "4964050ff7ca0e6ee0dc77beda8ef159ef363eb454cf9afb0ed9fc859ea5b71f"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/blimport.py",
+      "bytes": 15015,
+      "sha256": "522928bb1c18a088e6ef1190695a0b9e5e43257542f4122f7718aa6477c66a05"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0000.csv",
+      "bytes": 63540,
+      "sha256": "7612b1b342d7c905804a3543d8fc3878fe13cdbff8450bd682bf72ae4bc5acfa"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0001.csv",
+      "bytes": 63540,
+      "sha256": "c4a144cdcc50a855c1c5cf875b6de446acb83e470b43cd1b5becc3da47c0c81c"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0002.csv",
+      "bytes": 63540,
+      "sha256": "5cfce1313537ba22f6dd51ee37dad2f8a137f75acd493fd4438fca515912b913"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0003.csv",
+      "bytes": 63540,
+      "sha256": "6c2d8d1e971a67bf387bf493d4890ba8c8d92402803a23a49fd9ee3a2c3c015e"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0004.csv",
+      "bytes": 63540,
+      "sha256": "739d3f73e16f0a2d93136ba705e205a43d5b7323d7df91262524b4b15873776c"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/data/pv0005.csv",
+      "bytes": 63540,
+      "sha256": "61db26a8814733fc2ffbe0f9333d551785b794b033ad9dbc886676d57edfa7d0"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.cmd",
+      "bytes": 77,
+      "sha256": "e7727126cf700017693581c1d045aabfbb5b476ac47b33e103b544d4150504a7"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/pvimport.py",
+      "bytes": 1412,
+      "sha256": "46b00b198c254fec1a12b986d82d1641c50fed05093b2ad591110116533edc37"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_vr/unimport.py",
+      "bytes": 4321,
+      "sha256": "2ce32cbfcad2b18d7b96cf63a4eaabbd35fe576638287beb23d9ca44e5067b3c"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/run.log",
+      "bytes": 4074,
+      "sha256": "30fa9a02cbecf9c5e9b910dcf8a63f54aa9f48a833f31a6f307e393c12e62275"
+    },
+    {
+      "path": "valid_cs0_cases/readonly_addon1/run_grass.sh",
+      "bytes": 558,
+      "sha256": "f838875ed95d4a49e3d15d8cac1a13b5e96cc8a594c26f2b2701673648efbf58"
+    }
+  ]
+}

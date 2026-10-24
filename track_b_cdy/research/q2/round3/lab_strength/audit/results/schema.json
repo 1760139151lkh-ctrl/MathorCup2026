@@ -1,0 +1,134 @@
+{
+  "schema_version": "mamot2018-lab-audit-v1",
+  "no_models_fitted": true,
+  "observations": {
+    "file": "observations.csv",
+    "rows": 141,
+    "one_row": "one reported shear test, not a proven independent physical specimen",
+    "raw_column_map": {
+      "experiment_id": {
+        "column": "A",
+        "unit": "identifier"
+      },
+      "specimen_label": {
+        "column": "B",
+        "unit": "identifier"
+      },
+      "ice_layer_thickness_mm": {
+        "column": "C",
+        "unit": "mm"
+      },
+      "temperature_target_c": {
+        "column": "D",
+        "unit": "degC"
+      },
+      "temperature_at_failure_c": {
+        "column": "E",
+        "unit": "degC"
+      },
+      "normal_stress_target_kpa": {
+        "column": "F",
+        "unit": "kPa"
+      },
+      "normal_stress_at_failure_kpa": {
+        "column": "G",
+        "unit": "kPa"
+      },
+      "deformation_start_s": {
+        "column": "H",
+        "unit": "s"
+      },
+      "shear_start_to_end_s": {
+        "column": "I",
+        "unit": "s"
+      },
+      "rupture_time_s": {
+        "column": "J",
+        "unit": "s"
+      },
+      "AE_onset_s": {
+        "column": "K",
+        "unit": "s"
+      },
+      "peak_shear_kpa": {
+        "column": "L",
+        "unit": "kPa"
+      },
+      "failure_type_code": {
+        "column": "M",
+        "unit": "code"
+      },
+      "failure_type_description": {
+        "column": "N",
+        "unit": "category"
+      },
+      "shear_rate_mm_min": {
+        "column": "O",
+        "unit": "mm/min"
+      },
+      "shear_deformation_mm": {
+        "column": "P",
+        "unit": "mm"
+      }
+    },
+    "nominal_membership": "Use temperature_target_c and normal_stress_target_kpa; never filter stress classes by measured normal_stress_at_failure_kpa",
+    "missingness_policy": "all source rows retained; missing or unparseable numeric values remain null and issue records; no zero fill",
+    "numeric_strings": "F135 and G135 source strings parse exactly to200 and200.4; source raw/type/cell retained",
+    "grouping": {
+      "reported_tests": 141,
+      "experiment_conditions": 32,
+      "specimen_label_counts": {
+        "spec1": 27,
+        "spec2": 29,
+        "spec3": 27,
+        "spec4": 24,
+        "spec5": 19,
+        "spec6": 10,
+        "spec7": 4,
+        "spec8": 1
+      },
+      "physical_specimen_uid": "not provided; do not infer unique independent specimen count",
+      "specimen_cluster_caution": "spec labels recur across conditions; cluster as sensitivity assumption only until physical rock-pair mapping is established"
+    }
+  },
+  "coefficient_strata": {
+    "file": "coefficient_strata.csv",
+    "rows": 14,
+    "role": "author-derived summaries, not additional141 observations",
+    "blocks": {
+      "nominal_100_400": 9,
+      "nominal_100_800": 5
+    }
+  },
+  "group_counts": {
+    "nominal_low_stress": 121,
+    "nominal_warm": 83,
+    "nominal_warm_low": 63
+  },
+  "input_record": {
+    "source_zip": {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.zip",
+      "bytes": 3397215,
+      "sha256": "5fcd735a88654af1f4c150313ee79afb855a0ae67ed9319a851d8e125fa420a0"
+    },
+    "workbook_members": [
+      {
+        "member": "Supplement/data_experiments.xlsx",
+        "bytes": 33239,
+        "sha256": "ed9517ae4889192bd1a3278c68b4414c391126dbe9e3133336923795fbbbb20b",
+        "crc32": "45118b0a"
+      },
+      {
+        "member": "Supplement/data_frictioncoeff_cohesion_Fig. 8.xlsx",
+        "bytes": 16155,
+        "sha256": "34ec81f6adb579cd16e8b39a1934d5b786a633f96f12d2a05f65ed7b2fc1a165",
+        "crc32": "3aabf1c2"
+      }
+    ]
+  },
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:22) [Clang 22.1.3 ]",
+    "openpyxl": "3.1.5"
+  },
+  "command": "track_b/.venv/bin/python track_b/research/q2/round3/lab_strength/audit/scripts/extract_canonical.py"
+}

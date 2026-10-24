@@ -1,0 +1,31 @@
+{
+  "generated_at_utc": "2026-10-24T04:50:35.065456+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "snapshot_accepts_committed_content",
+      "passed": true
+    },
+    {
+      "name": "snapshot_rejects_live_content_different_from_preparation_commit",
+      "passed": true
+    },
+    {
+      "name": "verification_rejects_frozen_input_drift",
+      "passed": true
+    },
+    {
+      "name": "later_snapshot_excludes_previous_manifest_and_mutable_stage4_records",
+      "passed": true
+    },
+    {
+      "name": "ownership_accepts_assigned_question_output",
+      "passed": true
+    },
+    {
+      "name": "ownership_rejects_other_question_output",
+      "passed": true
+    }
+  ],
+  "scope": "Disposable git fixture: freeze/version consistency, later snapshot self-exclusion, cross-question responsibility. No production inputs or current baseline manifest modified."
+}

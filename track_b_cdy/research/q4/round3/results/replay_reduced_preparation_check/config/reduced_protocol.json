@@ -1,0 +1,117 @@
+{
+  "version": "q4-r3-reduced-v1",
+  "registered_at_utc": "2026-10-24T07:32:36.445288+00:00",
+  "registered_before_reduced_model_computations": true,
+  "parent_protocol": "q4-r3-protocol-v1",
+  "evaluation_strata": {
+    "synthetic": "numerical_benchmark",
+    "regional": "conditional_scenario"
+  },
+  "equations": {
+    "one_dimensional": "d_t h+d_s(hu)=0; d_t(hu)+d_s(hu^2+g*h^2/2)=-g*h*d_s z - h*[mu*g*cos(theta)+g*u*abs(u)/(xi*h)] along horizontal path station, constant effective width chosen to match raster source volume; no entrainment",
+    "two_dimensional": "Cartesian graph shallow-water d_t h+div(h u)=0; d_t(h u)+div(h u tensor u+g*h^2/2 I)=-g*h*grad(z)-h*[mu*g*cos(theta)+g*|u|^2/(xi*h)]*u/|u|; hydrostatic pressure factor 1, no curvature/active-passive stress, homogeneous bulk material"
+  },
+  "numerics": {
+    "spatial": "first-order finite volume, local Rusanov flux, Audusse hydrostatic reconstruction and side-specific bed pressure corrections",
+    "time": "forward Euler conservative transport plus implicit scalar Coulomb/Voellmy contraction",
+    "cfl": 0.35,
+    "cfl_sensitivity": 0.175,
+    "dry_velocity_cutoff_m": 1e-09,
+    "mass_depth_clipping": "negative roundoff only, measured volume correction; negative depth below -1e-8 fails",
+    "target_depth_m": 0.1,
+    "target_buffer_m": 100,
+    "output_interval_seconds": 30,
+    "duration_seconds": 1800,
+    "boundary": "zero-gradient transmissive ghost cells; numerical signed boundary flux explicitly booked; inflow tracked separately, not hidden",
+    "solver_identity": "independent research implementation; neither RAMMS nor r.avaflow nor D-Claw",
+    "steep_topography_limit": "hydrostatic reconstruction may suppress downslope acceleration when bed steps exceed flow depth; measure steep-cell ratio and perform incline/grid checks; no claim of full avalanche physics"
+  },
+  "regional_scenarios": {
+    "reference": {
+      "thickness_m": 15,
+      "mu": 0.15,
+      "xi_m_s2": 1000
+    },
+    "thickness_m": [
+      5,
+      15,
+      30
+    ],
+    "mu": [
+      0.08,
+      0.15,
+      0.25
+    ],
+    "xi_m_s2": [
+      500,
+      1000,
+      2000
+    ],
+    "design": "one-factor-at-a-time around reference, plus path ensemble for 1D and 120m/CFL-half references; not a probability sample",
+    "resolution_m": [
+      60,
+      120
+    ],
+    "density_kg_m3": 2000,
+    "density_role": "explicit illustrative homogeneous bulk density; does not affect these volume/momentum equations; not measured",
+    "initial_velocity": {
+      "east_m_s": 0,
+      "north_m_s": 0,
+      "crs": "EPSG:32645"
+    },
+    "time_origin": "seconds after scenario bulk release",
+    "initiation_to_release_delay_seconds": null,
+    "release_volume": "sum(thickness raster)*cell area; 120m raster normalized to same 60m reference release area-volume where source raster differs"
+  },
+  "required_outputs": [
+    "initial/final/outflow/inflow/clipping volume account",
+    "nonnegative and finite state",
+    "maxdepth/maxspeed/finaldepth/snapshots",
+    "target first sampled step h>=0.1; saved interval brackets arrival",
+    "one-dimensional transport volume and path profiles",
+    "horizon-limited not_reached/out_of_domain/numerical_failure/missing status"
+  ],
+  "benchmarks": [
+    "closed-wall lake at rest over smooth bed with wet/dry edge",
+    "flat dry-bed dam break against Ritter rarefaction, grid refinement",
+    "2D radial release dry-front positivity/closed mass symmetry",
+    "outflow volume accounting",
+    "uniform inclined layer grid dependence and Voellmy terminal velocity comparison",
+    "CFL step sensitivity"
+  ],
+  "scope_limits": [
+    "no local calibration or independent event validation",
+    "no existing river water, ice melting, phase separation, pore pressure, erosion or substrate entrainment",
+    "static versus deposited unresolved: final h is residual material, stationary only if speeds meet threshold",
+    "cell-centre buffered targets miss subgrid facilities; 1D uses its own path-buffer cell intersection"
+  ],
+  "sources": [
+    {
+      "url": "https://perso.math.u-pem.fr/bouchut.francois/publications/hydroproj_published.pdf",
+      "retrieved_at_utc": "2026-10-24T07:32:29.818483+00:00",
+      "actual_read_scope": "complete downloaded byte stream; supporting equation metadata, not parameter calibration",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "bytes": null,
+      "sha256": null,
+      "http_status": null
+    },
+    {
+      "url": "https://ramms.ch/ramms-avalanche/friction-parameters/",
+      "retrieved_at_utc": "2026-10-24T07:32:31.337109+00:00",
+      "actual_read_scope": "complete downloaded byte stream; supporting equation metadata, not parameter calibration",
+      "http_status": 200,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/ramms_friction.html",
+      "bytes": 344799,
+      "sha256": "062405fe7312994a79699aa1c4bc2e935d2e7784c4d6e26d7299e03a222033a0"
+    },
+    {
+      "url": "https://arxiv.org/abs/1206.4986",
+      "retrieved_at_utc": "2026-10-24T07:32:34.382180+00:00",
+      "actual_read_scope": "complete downloaded byte stream; supporting equation metadata, not parameter calibration",
+      "http_status": 200,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/hydrostatic_limitation.html",
+      "bytes": 42172,
+      "sha256": "db174d0cfda76eb18fa89d1ad8858c3af82e981cfa9b74055034683eb2b53d24"
+    }
+  ]
+}

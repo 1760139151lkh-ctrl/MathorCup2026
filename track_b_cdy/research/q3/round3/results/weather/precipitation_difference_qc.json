@@ -1,0 +1,5 @@
+{
+  "negative_difference_cells": 0,
+  "negative_values": [],
+  "rule": "negative raw values preserved, usable increments missing; no silent clipping or overlapping sum"
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-24T08:57:09.383494+00:00",
+  "evidence": {
+    "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2",
+    "source_commit": "a4a034eb3a93ae93d9ffb3852a0d7e13eabd2231",
+    "integration_commit": "36f7fd8a59c36cb2f380af2a12aa1e7ed2d036a0",
+    "changed_paths_verified_in_main": 221,
+    "clean": true,
+    "five_exit_checks_passed": true,
+    "manifests": {
+      "input_manifest.json": {
+        "path": "track_b/research/q2/round3/input_manifest.json",
+        "file_count": 60,
+        "referenced_bytes": 126343406,
+        "sha256": "0bc88f7359cb3cd58d4dabe69fa0038320822965fd02a48db2f96460dbd53cb7",
+        "all_entries_match": true
+      },
+      "output_manifest.json": {
+        "path": "track_b/research/q2/round3/output_manifest.json",
+        "file_count": 220,
+        "referenced_bytes": 77925432,
+        "sha256": "1ad183731b3fe46a554c98a8282af94aeb668526e3256c3c28c4c429592cb097",
+        "all_entries_match": true
+      }
+    }
+  },
+  "scientific_review": "Paired S/ST/SH/STH, 2048 analytic outcomes verified, all censoring retained, only conditional mechanisms and registered thermal numerical reference adopted."
+}

@@ -1,0 +1,20 @@
+{
+  "requested_url": "https://its-live.jpl.nasa.gov/itslive-web/index.xml",
+  "params": null,
+  "retrieved_at_utc": "2026-10-24T07:31:54.848092+00:00",
+  "method": "GET",
+  "authentication": "anonymous; trust_env=False",
+  "scope": "explicit response body, not HTTP/TLS overhead",
+  "byte_cap": 20971520,
+  "effective_url": "https://its-live.jpl.nasa.gov/itslive-web/index.xml",
+  "http_status": 200,
+  "content_type": "text/html",
+  "last_modified": "Wed, 22 Apr 2026 17:51:04 GMT",
+  "etag": "\"4ee0e8d3cddec06241f171f3156d6061\"",
+  "completed_at_utc": "2026-10-24T07:31:56.679504+00:00",
+  "bytes_consumed": 41768,
+  "sha256": "e93020908f28ec81bc35e92cdbf92dc0b96830b825d4629d99c9d2805424f263",
+  "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/sources/sar/itslive_official_index.html",
+  "available_time": null,
+  "available_time_note": "Retrieval and Last-Modified do not establish historical publication availability."
+}

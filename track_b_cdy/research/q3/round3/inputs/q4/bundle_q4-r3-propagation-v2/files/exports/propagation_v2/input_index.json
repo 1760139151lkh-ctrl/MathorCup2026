@@ -1,0 +1,411 @@
+{
+  "files": [
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/model_runs.csv",
+      "bytes": 42342,
+      "sha256": "8132a1709210b6bd34a647f6fab4f2ee8470120f6f74be88d86ee9e7932b903f",
+      "role": "model_runs",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/comparison_metrics.csv",
+      "bytes": 12293,
+      "sha256": "83235218a3fbcb3d613d8f84b263e9923155527a2f242bec4382275317dbfbce",
+      "role": "comparison_metrics",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/target_arrivals.csv",
+      "bytes": 78357,
+      "sha256": "175e4dbbae5f2009410bd0e39ffc3ec57f41745f4f1f5d78c9f5a097d4d60553",
+      "role": "target_arrivals",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/comparison_summary.json",
+      "bytes": 52426,
+      "sha256": "2948cd2387ece9ea63a603a0b623b0847a44ce0db2720ec1f7296edd27271400",
+      "role": "comparison_summary",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/numerical_validation.json",
+      "bytes": 15642,
+      "sha256": "250e8ca3627b9e2d7d1a77776fdc606d7bdb7d5a251849babde4baa466e47ac2",
+      "role": "numerical_validation",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/fields_index.json",
+      "bytes": 4246,
+      "sha256": "f96b144f8bac465022c20d2837fd08aae4425697eb586f348adc14f5f8283d44",
+      "role": "fields_index",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/case.json",
+      "bytes": 2710,
+      "sha256": "1bbfcb97cd49fd65caf46f8220b24e3478ee81005970eedfdcdf3a69dbfde992",
+      "role": "native case",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/execution.json",
+      "bytes": 1729,
+      "sha256": "0eddb0daa73f26ca6d831e2f7d43b425462cede1a064cf05e09c3b0d8cae824f",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/run.log",
+      "bytes": 165928,
+      "sha256": "17b89b57f26aae9ae7a2fcb3a3533db0fbe26db01f46e596a6c3e349826a25af",
+      "role": "actual native execution log snapshot",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/run.log"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_controls/q2map60_q2r3_p0000_S_linear__sf0_paramcomm.txt",
+      "bytes": 5904,
+      "sha256": "eef5ce2b9899a61c20327d9eb64d4f3eac0d724fab5a25d62a8dbc33b7149620",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/q2map60_q2r3_p0000_S_linear__sf0_results/q2map60_q2r3_p0000_S_linear__sf0_files/q2map60_q2r3_p0000_S_linear__sf0_paramcomm.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_controls/run_grass.sh",
+      "bytes": 622,
+      "sha256": "9f999e5a587bf2c404d703f6ecd4a311f4ecd01a4d7779d351dfac2d6037e5b7",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/run_grass.sh"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/adapter_executed.py",
+      "bytes": 4859,
+      "sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "role": "saved actual executed adapter; contemporaneous hash retained",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/adapter_executed.py"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/native_internal_summary.txt",
+      "bytes": 5308,
+      "sha256": "16101c9ba2a61f402044c828a0bcfd8c96b56fbc8fc09db3debbe797487e4240",
+      "role": "actual native internal unscaled volume summary",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/q2map60_q2r3_p0000_S_linear__sf0_results/q2map60_q2r3_p0000_S_linear__sf0_files/q2map60_q2r3_p0000_S_linear__sf0_summary.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0000_S_linear__sf0/q2map60_q2r3_p0000_S_linear__sf0_nout1.txt",
+      "bytes": 177,
+      "sha256": "80a3cca5e9bb549ce5f534f3b7e37da9c636740ede42c4d42d1dae226fb3f261",
+      "role": "actual native nout success/source/edge accounting output",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/q2map60_q2r3_p0000_S_linear__sf0_results/q2map60_q2r3_p0000_S_linear__sf0_files/q2map60_q2r3_p0000_S_linear__sf0_nout1.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/case.json",
+      "bytes": 2724,
+      "sha256": "ecebcdf7e9efa8335f4d834bafb29275ea6686a08d3139c05b5c2eaf0e6290c2",
+      "role": "native case",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/execution.json",
+      "bytes": 1887,
+      "sha256": "d5100369e7ba2e50b6c42d91ef7765ef81007b22a6a9342dff0a3af70ad0cc25",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/run.log",
+      "bytes": 192887,
+      "sha256": "b48edd7113cd6a1187d92b4bd1e275d6f957c20d24e21253f51e33c5ed03e66c",
+      "role": "actual native execution log snapshot",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/run.log"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_controls/q2map60_q2r3_p0036_S_T_linear__sf0_paramcomm.txt",
+      "bytes": 5926,
+      "sha256": "0c2fddc2b4e457351a8fa7bfb213b846dda9dd56bf0fb81012ef5556bdb24697",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/q2map60_q2r3_p0036_S_T_linear__sf0_results/q2map60_q2r3_p0036_S_T_linear__sf0_files/q2map60_q2r3_p0036_S_T_linear__sf0_paramcomm.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_controls/run_grass.sh",
+      "bytes": 625,
+      "sha256": "75a8507ff1d887b55ddb6e368bf6e7e3073774a367d888a9b38f84ff5d28fc9f",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/run_grass.sh"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/adapter_executed.py",
+      "bytes": 4859,
+      "sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "role": "saved actual executed adapter; contemporaneous hash retained",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/adapter_executed.py"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/native_internal_summary.txt",
+      "bytes": 5374,
+      "sha256": "daba39f77f4fd575e419d6e1ac5e35b52674110e315cc3aca1a5e0338b0254e8",
+      "role": "actual native internal unscaled volume summary",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/q2map60_q2r3_p0036_S_T_linear__sf0_results/q2map60_q2r3_p0036_S_T_linear__sf0_files/q2map60_q2r3_p0036_S_T_linear__sf0_summary.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/q2map60_q2r3_p0036_S_T_linear__sf0/q2map60_q2r3_p0036_S_T_linear__sf0_nout1.txt",
+      "bytes": 178,
+      "sha256": "028c6bab0f785aa1bbc973e3736098bb493378fdb04a6a1c88c9b8f3dc7af2a2",
+      "role": "actual native nout success/source/edge accounting output",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/q2map60_q2r3_p0036_S_T_linear__sf0_results/q2map60_q2r3_p0036_S_T_linear__sf0_files/q2map60_q2r3_p0036_S_T_linear__sf0_nout1.txt"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/quality/q2_compact_quality_review_04.json",
+      "bytes": 1374,
+      "sha256": "7df7b72d13733a77368c19a95172499284103f9643837c2607212c67d234e59d",
+      "role": "compact source quality review/evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/q2_compact_quality_review_04.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/quality/q2_compact_budget_review_v1.json",
+      "bytes": 11408,
+      "sha256": "bd8aba9310c741517fc91b1eea44910828cdfcd5be95c4bd2a5362a918a757a7",
+      "role": "compact source quality review/evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/sources/q2_compact_budget_review_v1.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/upstream_q2/bundle.json",
+      "bytes": 3007,
+      "sha256": "ed745576ff706a4d82a560269b0e07804add6fc9bde2b3948cced43932ddf5b5",
+      "role": "delivered Q2 compact source lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/bundle.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/upstream_q2/upstream_bundle.json",
+      "bytes": 1801,
+      "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "role": "delivered Q2 compact source lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/upstream_bundle.json"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/upstream_q2/release_states.csv",
+      "bytes": 22691,
+      "sha256": "23278ea66f3141ad75634dbe8512d678bc46ab5a715c61228cf48ecba85ffad4",
+      "role": "delivered Q2 compact source lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/files/results/release_states.csv"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/native_controls_index.json",
+      "bytes": 4062,
+      "sha256": "1bcd58fe1d47ad36767a909f29de240820c8256378cacd60d1e1c16215dd05e3",
+      "role": "selected actual native controls provenance index",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/geometry/spatial_targets_v2.csv",
+      "bytes": 1483,
+      "sha256": "6735c7dbb668c97bd73024050cbd0b7d1570bb78382dce005dddd983a276b18d",
+      "role": "target geometry",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/geometry/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "role": "target geometry",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "track_b/research/q4/round3/exports/propagation_v2/provenance/integrate_comparison.py",
+      "bytes": 100246,
+      "sha256": "d6cf50aa3a9e4ff92f42dcd166d798597ca800fc896082f37d080b25fd8af807",
+      "role": "exact early-package postprocessor source",
+      "storage": "copied_versioned_metadata"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "role": "immutable native input terrain",
+      "read_at_utc": "2026-10-24T09:52:10.912333+00:00",
+      "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0000-S-linear/release.tif",
+      "bytes": 1417,
+      "sha256": "df57a83dda2844eb8b8cfe2f718b7d4781dc7e255f72fbdbf01b58bd014d94eb",
+      "role": "immutable native release thickness",
+      "read_at_utc": "2026-10-24T09:52:10.913078+00:00",
+      "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/summary_fields_v4_phase_depth_stationary_0ca9bb21bbc8.npz",
+      "bytes": 862523,
+      "sha256": "8851f4e372b05ab6797c73244a7046f5ac7852cec56f276e97419d007d6a8316",
+      "role": "actual_official_process_fields",
+      "case_sha256": "1bbfcb97cd49fd65caf46f8220b24e3478ee81005970eedfdcdf3a69dbfde992",
+      "execution_sha256": "0eddb0daa73f26ca6d831e2f7d43b425462cede1a064cf05e09c3b0d8cae824f",
+      "log_sha256": "17b89b57f26aae9ae7a2fcb3a3533db0fbe26db01f46e596a6c3e349826a25af",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "time_end_seconds": 1800.1,
+      "native_time_evidence": "flushed summary or native stdout tsum; no frame index time inference",
+      "parser_sha256_at_start": "0ca9bb21bbc84be3b4144aba44e9c45481654ec344ed0b0716927bd6f8429fff",
+      "parser_source_snapshot_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_0ca9bb21bbc84be3b4144aba44e9c45481654ec344ed0b0716927bd6f8429fff.py",
+      "fields_schema": "v4_phase_depth_stationary",
+      "solver_build": "official_original",
+      "actual_binary_sha256": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+      "actual_binary_path": "/opt/grass-addons/bin/r.avaflow.main",
+      "binary_identity_evidence": "sha256sum_in_this_execution_log",
+      "execution_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "container_id": null,
+      "readonly_addon_mount": null,
+      "official_source_archive_preserved": true,
+      "executed_solver_source_modified": false,
+      "source_modification_scope": "official fixed native source",
+      "physical_equations_modified": false,
+      "applicability_decision": "required",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/run.log",
+      "bytes": 165928,
+      "sha256": "17b89b57f26aae9ae7a2fcb3a3533db0fbe26db01f46e596a6c3e349826a25af",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0036-S_T-linear/release.tif",
+      "bytes": 1455,
+      "sha256": "37973f5dc5b60eb96133b314d9b88776913c5004b994cb4bf74db8415e3a19c9",
+      "role": "immutable native release thickness",
+      "read_at_utc": "2026-10-24T09:52:10.920345+00:00",
+      "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0036_S_T_linear__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/summary_fields_v4_phase_depth_stationary_0ca9bb21bbc8.npz",
+      "bytes": 1202445,
+      "sha256": "5c29491e7ec9256e5bee5d07eb77e04ac41d7a304736df39430d9a257477a41f",
+      "role": "actual_official_process_fields",
+      "case_sha256": "ecebcdf7e9efa8335f4d834bafb29275ea6686a08d3139c05b5c2eaf0e6290c2",
+      "execution_sha256": "d5100369e7ba2e50b6c42d91ef7765ef81007b22a6a9342dff0a3af70ad0cc25",
+      "log_sha256": "b48edd7113cd6a1187d92b4bd1e275d6f957c20d24e21253f51e33c5ed03e66c",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "time_end_seconds": 1801.7,
+      "native_time_evidence": "flushed summary or native stdout tsum; no frame index time inference",
+      "parser_sha256_at_start": "0ca9bb21bbc84be3b4144aba44e9c45481654ec344ed0b0716927bd6f8429fff",
+      "parser_source_snapshot_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_0ca9bb21bbc84be3b4144aba44e9c45481654ec344ed0b0716927bd6f8429fff.py",
+      "fields_schema": "v4_phase_depth_stationary",
+      "solver_build": "official_original",
+      "actual_binary_sha256": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+      "actual_binary_path": "/opt/grass-addons/bin/r.avaflow.main",
+      "binary_identity_evidence": "sha256sum_in_this_execution_log",
+      "execution_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "container_id": null,
+      "readonly_addon_mount": null,
+      "official_source_archive_preserved": true,
+      "executed_solver_source_modified": false,
+      "source_modification_scope": "official fixed native source",
+      "physical_equations_modified": false,
+      "applicability_decision": "required",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/run.log",
+      "bytes": 192887,
+      "sha256": "b48edd7113cd6a1187d92b4bd1e275d6f957c20d24e21253f51e33c5ed03e66c",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    }
+  ],
+  "all_entries_have_path_bytes_sha256_role": true,
+  "file_list_excludes_self": true,
+  "source_observer_snapshot_hashes": [
+    {
+      "path": "track_b/research/q4/round3/results/official_superseded_cancellations.json",
+      "bytes": 1880,
+      "sha256": "be7e09569d99d0af4a1391ef9a8ea44bd9a8e9b57e272f105be79413dc4c4a41",
+      "role": "independent stopped-retry cancellation receipts",
+      "read_at_utc": "2026-10-24T09:52:09.310258+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_runs.csv",
+      "bytes": 37854,
+      "sha256": "cce331f8da5cebfbe53c3e90622ee61c42a7720046744beda261a14a8d4c819c",
+      "role": "official parsed run snapshot",
+      "read_at_utc": "2026-10-24T09:52:09.328193+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_metrics.csv",
+      "bytes": 39869,
+      "sha256": "39efb24581236a9c4b8f97f3a1eb7c725e68805e5d6a6812cb1c6fc74b6c4973",
+      "role": "official parsed metric snapshot",
+      "read_at_utc": "2026-10-24T09:52:09.329238+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_validation.json",
+      "bytes": 158550,
+      "sha256": "22910f5cf225f7fe306b36ff6a8c3edd1c6795beb0e03bdb7598be6ccd2a44c0",
+      "role": "official numerical evidence snapshot",
+      "read_at_utc": "2026-10-24T09:52:09.330853+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_fields.json",
+      "bytes": 57419,
+      "sha256": "ce514081fa43f2ea2ad4fe8bc4f56475ff0802fefdfe6485ea9d23337d4b88fe",
+      "role": "official process field index",
+      "read_at_utc": "2026-10-24T09:52:09.333134+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_arrivals.csv",
+      "bytes": 33309,
+      "sha256": "52804bc41dc176a0f2489f7beba65d1f38650a3be4747ab81abd28db0cfaf45e",
+      "role": "official primary target snapshot",
+      "read_at_utc": "2026-10-24T09:52:09.333829+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_histories.csv",
+      "bytes": 1595914,
+      "sha256": "4487a03cca55978f7436e4d6c88973a81f5ea0e777483f655c3789233842fbc1",
+      "role": "official saved-time mass/volume history",
+      "read_at_utc": "2026-10-24T09:52:09.337558+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_target_arrivals_v2.csv",
+      "bytes": 54281,
+      "sha256": "413aabc0413ebd09cf47eae718caa05f8c97080ba42e91076fc063ad3c597342",
+      "role": "official OSM target snapshot",
+      "read_at_utc": "2026-10-24T09:52:09.374433+00:00"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/official_native_control_index.json",
+      "bytes": 129377,
+      "sha256": "ce5472648b4ef837ea2354c3b146526f58a77c218e7f510fbf28c9911c10f002",
+      "role": "acquired actual native input/control provenance index",
+      "read_at_utc": "2026-10-24T09:52:10.228628+00:00"
+    }
+  ],
+  "dependency_scope": "copied selected-run metadata; immutable byte-hash-bound external native fields, logs and initial rasters",
+  "rolling_root_input_index_at_export": {
+    "path": "results/comparison_input_index.json",
+    "sha256": "a3a3a870dad75aab8950ac264f611509d9668233914f6faa0609a92caafa3419"
+  }
+}
