@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-10-24T10:51:12.683477+00:00",
+  "manifest_version": "r3-advisor-tools-v1",
+  "manifest_sha256": "51a91b7b81995b93ff993fb6b01615a861ea50d4f20e78ea538e0772caa17965",
+  "files": [
+    {
+      "path": "track_b/audit/stage4/round3/tools/deliver_bundle.py",
+      "unchanged": true
+    },
+    {
+      "path": "track_b/audit/stage4/round3/tools/review_integration.py",
+      "unchanged": true
+    },
+    {
+      "path": "track_b/audit/stage4/round3/tools/test_review_integration.py",
+      "unchanged": true
+    },
+    {
+      "path": "track_b/audit/stage4/round3/tools/verify_handoffs.py",
+      "unchanged": true
+    },
+    {
+      "path": "track_b/scripts/stage4_workspace.py",
+      "unchanged": true
+    }
+  ],
+  "passed": true
+}
