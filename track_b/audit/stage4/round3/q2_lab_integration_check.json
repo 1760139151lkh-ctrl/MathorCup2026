@@ -1,0 +1,39 @@
+{
+  "generated_utc": "2026-10-24T10:30:56.778699+00:00",
+  "source_commit": "604ce1be4d0f09cd9d18f3c1556993ddf066981d",
+  "integration_commit": "02a58df00119265e6e29b3d977fa834f93a393f3",
+  "scope": "external laboratory evidence increment, no local constitutive law replacement",
+  "manifests": [
+    {
+      "path": "track_b/research/q2/round3/lab_strength/input_manifest.json",
+      "file_count": 9,
+      "referenced_bytes": 13135532,
+      "sha256": "a80473ca4dc64d225ced155d6879dc6e21fbca12ca693e1a6dafddc70bfeb012",
+      "all_entries_match": true
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/output_manifest.json",
+      "file_count": 113,
+      "referenced_bytes": 18175548,
+      "sha256": "2aff235fed1259846aeea86f6784c48e93174508c4bf51d4989d865fca7f9275",
+      "all_entries_match": true
+    },
+    {
+      "path": "track_b/research/q2/round3/input_manifest.json",
+      "file_count": 60,
+      "referenced_bytes": 126343406,
+      "sha256": "0bc88f7359cb3cd58d4dabe69fa0038320822965fd02a48db2f96460dbd53cb7",
+      "all_entries_match": true
+    },
+    {
+      "path": "track_b/research/q2/round3/output_manifest.json",
+      "file_count": 220,
+      "referenced_bytes": 77925432,
+      "sha256": "1ad183731b3fe46a554c98a8282af94aeb668526e3256c3c28c4c429592cb097",
+      "all_entries_match": true
+    }
+  ],
+  "all_increment_files_source_main_equal": 116,
+  "bundle_sha256": "f1d73d4fd2a041af23741848343577fcdd650020626248d772a27506a33b0d16",
+  "passed": true
+}

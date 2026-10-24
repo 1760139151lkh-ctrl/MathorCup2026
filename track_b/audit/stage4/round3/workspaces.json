@@ -43,7 +43,7 @@
       "previous_source_commit": "9024b21a1c67607a826007e9e987223364d4834a",
       "git_branch": "codex/track-b-q2-r3",
       "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
-      "status": "core_integrated_external_lab_strength_addendum_running",
+      "status": "core_and_external_lab_integrated",
       "dispatch_sent": true,
       "dispatch_at_utc": "2026-10-24T07:27:07.549931+00:00",
       "startup_verification": {
@@ -53,10 +53,14 @@
       "accepted_cache_roots": [
         "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial"
       ],
-      "source_commit": "a4a034eb3a93ae93d9ffb3852a0d7e13eabd2231",
-      "integration_commit": "36f7fd8a59c36cb2f380af2a12aa1e7ed2d036a0",
+      "source_commit": "604ce1be4d0f09cd9d18f3c1556993ddf066981d",
+      "integration_commit": "02a58df00119265e6e29b3d977fa834f93a393f3",
       "output_files_verified": 220,
-      "final_output_manifest_sha256": "1ad183731b3fe46a554c98a8282af94aeb668526e3256c3c28c4c429592cb097"
+      "final_output_manifest_sha256": "1ad183731b3fe46a554c98a8282af94aeb668526e3256c3c28c4c429592cb097",
+      "increment_manifests": [
+        "track_b/research/q2/round3/lab_strength/input_manifest.json",
+        "track_b/research/q2/round3/lab_strength/output_manifest.json"
+      ]
     },
     {
       "question": "q3",
