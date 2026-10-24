@@ -1,0 +1,7 @@
+[
+  "track_b/research/q1/round3/scripts/build_features.py",
+  "track_b/research/q1/round3/scripts/run_models.py",
+  "track_b/research/q1/round3/scripts/summarize_results.py",
+  "track_b/paper/scripts/q1_figures.py",
+  "track_b/paper/scripts/q1_evidence.py"
+]

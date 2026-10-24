@@ -1,0 +1,223 @@
+{
+  "review_version": "q1-paper-numeric-v1",
+  "passed": true,
+  "execution": "Actually read frozen data, reconstructed displayed summaries and transcribed TeX tables; no research model fit, plot render, network call or other-question read.",
+  "script": "track_b/paper/scripts/q1_evidence.py",
+  "script_sha256": "219fb7118b02591288a8c9cb96f4c8ceb886746419b1743e21a1f84a3b516131",
+  "paper_section_sha256": "d6c4f2ed618b63e7da0792c2b550902aec67ff5019f90bbfa395d9f2a9c9115c",
+  "figure_values_sha256": "69691b561f54118b7c6036c884955c08637c7fbed2321a75273ef750596b72bc",
+  "manifest_snapshots": {
+    "track_b/research/q1/round3/results/input_manifest.json": {
+      "bytes": 7528,
+      "sha256": "7cfcbd7b9d899932d073e3abc7c23bfd624780fbac6316003dc5247c5b2740ad",
+      "file_count": 37
+    },
+    "track_b/research/q1/round3/output_manifest.json": {
+      "bytes": 13826,
+      "sha256": "f9066518e7466d3cfd5cda1b249fe27402ca8c245f27f4933c88a67bc083daab",
+      "file_count": 79
+    }
+  },
+  "source_snapshots": {
+    "track_b/paper/sections/q1.tex": {
+      "bytes": 10893,
+      "sha256": "d6c4f2ed618b63e7da0792c2b550902aec67ff5019f90bbfa395d9f2a9c9115c"
+    },
+    "track_b/paper/figures/q1/q1_figure_values.json": {
+      "bytes": 4448,
+      "sha256": "69691b561f54118b7c6036c884955c08637c7fbed2321a75273ef750596b72bc"
+    },
+    "track_b/research/q1/round3/exports/hourly_drivers.parquet": {
+      "bytes": 260088,
+      "sha256": "9580f4ab81903e0bbdcea3b274815128b7bfc99a08972a59c933c51a487a059d"
+    },
+    "track_b/research/q1/round3/results/factor_directions.csv": {
+      "bytes": 23804,
+      "sha256": "3bac727ac99df13eb3f52d40684d8da28d6290149f6a4bb83f2ae81a6d7f853a"
+    },
+    "track_b/research/q1/round3/results/ranking_stability.csv": {
+      "bytes": 197720,
+      "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+    },
+    "track_b/research/q1/round3/results/recommended_factors.csv": {
+      "bytes": 10206,
+      "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+    },
+    "track_b/research/q1/round3/results/sensitivity_metrics.csv": {
+      "bytes": 63319,
+      "sha256": "d5b5eece0a3fec2994c95041cfab7a69a1a92ccad00ec380cd83f56d62f0a4ba"
+    },
+    "track_b/research/q1/round3/results/feature_contract.csv": {
+      "bytes": 58398,
+      "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb"
+    },
+    "track_b/research/q1/round3/results/variable_family_map.csv": {
+      "bytes": 12742,
+      "sha256": "0b339b5b813a3cf95673acbb18168589aaaae81fde3d95005824e967f7e22e15"
+    },
+    "track_b/research/q1/round3/results/sample_metadata.csv": {
+      "bytes": 1188914,
+      "sha256": "06c7b1273240779fcbde4a9777a878124fd9de47d5a4faff190f5118e73625b5"
+    },
+    "track_b/research/q1/round3/results/top5_three_routes.csv": {
+      "bytes": 19105,
+      "sha256": "6efb36a12cf6d5ab8d5a8c64b3ce9e4a14fca13566b698f9b49fba2d1c4d9e4b"
+    },
+    "track_b/research/q1/round3/results/fold_metrics.csv": {
+      "bytes": 317095,
+      "sha256": "28d03cb9960c7f9a7bd185f2039c4cccaa318a116930a17d2195511afb3d3627"
+    },
+    "track_b/research/q1/round3/results/fold_membership.csv": {
+      "bytes": 38967045,
+      "sha256": "6eca6719e1afd8a1620723607157d1b93659ac319edbb7b236c5220c8b69c175"
+    },
+    "track_b/research/q1/round3/results/case_state_evidence.csv": {
+      "bytes": 5207,
+      "sha256": "b141bf2f370730aaf6fc9e54fb1f0d96a2484c71ad2ebbd8bf072c8cf2c9f29a"
+    },
+    "track_b/research/q1/round3/results/effective_family_support.csv": {
+      "bytes": 6260,
+      "sha256": "84994c64217aba95a19f7094f086117172eb218d7162ee3ded001b7d019eef15"
+    },
+    "track_b/research/q1/round3/results/bootstrap_draw_specification.json": {
+      "bytes": 81124,
+      "sha256": "3b4c9908afdef96620d60d878542db9604adfa86750b716ca3a78bc2c97a728a"
+    },
+    "track_b/research/q1/round3/results/covariance_diagnostics.json": {
+      "bytes": 420634,
+      "sha256": "3fcafd61bc4eab724038671ae9b9c79e0ce136b64fac8cfef095393a4f35f5b5"
+    },
+    "track_b/research/q1/round3/config/experiment.json": {
+      "bytes": 2624,
+      "sha256": "88fff67c57ffb710c14bcd1d2e45a8480193f128a2711d62c0a6f9dcbc48f09b"
+    },
+    "track_b/research/q1/round3/config/features.json": {
+      "bytes": 14787,
+      "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+    },
+    "track_b/config/temporal_policy.json": {
+      "bytes": 2970,
+      "sha256": "0ac6e5f9f8d82d23f801fada55e604dc61260d1a1be6438b8600d359c3b4f8f2"
+    },
+    "track_b/data/processed/temporal/data_dictionary.json": {
+      "bytes": 97865,
+      "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0"
+    },
+    "track_b/research/q1/round3/evidence/waternet_target.html": {
+      "bytes": 231356,
+      "sha256": "614a83a76f7d46bfdb94c56f2c4dfb3814060d2f696ffeb5c733357b6e58b7ed"
+    },
+    "track_b/research/q1/round3/results/feature_build_validation.json": {
+      "bytes": 27873,
+      "sha256": "c19c74937b4052ec9a4b104199d0bde4998af27bda904b5c959b900045800f98"
+    },
+    "track_b/research/q1/round3/scripts/run_models.py": {
+      "bytes": 30321,
+      "sha256": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2"
+    },
+    "track_b/research/q1/round3/scripts/build_features.py": {
+      "bytes": 30508,
+      "sha256": "dbea3bca9f519e43b065481b433372d7abdab3e8f789cf1a1804d09589a3aeb0"
+    },
+    "track_b/paper/scripts/q1_figures.py": {
+      "bytes": 7912,
+      "sha256": "274a8ec170821f08dc2ae815b3f5cff5075b1a2418ce005c8c25fe29ad65d55d"
+    },
+    "track_b/paper/figures/q1/q1_state.pdf": {
+      "bytes": 27070,
+      "sha256": "a33efd89e3199ef8172437b6d9690081c8812183be996654bec2343355cf6b6d"
+    },
+    "track_b/paper/figures/q1/q1_stability.pdf": {
+      "bytes": 28137,
+      "sha256": "c38059a4a36bbf9a72d8236f04e7ab7759ba690bd0b2b369298f74cc0388124b"
+    },
+    "track_b/research/q1/round3/results/rankings.csv": {
+      "bytes": 991101,
+      "sha256": "f7b79c33e5cb671f6c35531721ee2037e2858de552d54c41f03925961c0dd53a"
+    },
+    "track_b/research/q1/round3/scripts/summarize_results.py": {
+      "bytes": 22561,
+      "sha256": "be13ac1f5bdfaf595e76faff3f116e65b06dc75757608db637307b182f705769"
+    },
+    "track_b/paper/scripts/q1_evidence.py": {
+      "bytes": 34211,
+      "sha256": "219fb7118b02591288a8c9cb96f4c8ceb886746419b1743e21a1f84a3b516131"
+    }
+  },
+  "checks": {
+    "manifest_path_within_repository": 116,
+    "frozen_manifest_file_hash": 116,
+    "overlapping_manifest_entries_agree": 20,
+    "claim_source_bound_to_frozen_manifest": 123,
+    "figure_source_hash": 5,
+    "figure_redraw_not_model_fit": 1,
+    "feature_table_totals": 1,
+    "all_raw_variables_mapped": 1,
+    "reference_clock_conversion": 1,
+    "background_305_45": 1,
+    "sample_bank_5526": 1,
+    "300_evaluation_folds_reuse_50_group_templates": 1,
+    "same_50_templates_in_six_track_window_combinations": 1,
+    "fold_membership_rows": 1,
+    "fold_partition_305": 1,
+    "actual_168h_fold_supports_disjoint": 300,
+    "tex_table_found": 2,
+    "tex_feature_table_transcription": 5,
+    "tex_rank_transcription": 9,
+    "tex_consensus_frequency_three_decimal_transcription": 9,
+    "bootstrap_89_44_denominators": 1,
+    "bootstrap_distinct_year_histogram": 1,
+    "representative_windows": 7,
+    "state_figure168_values": 1,
+    "state_figure_endpoints": 1,
+    "state_figure_complete_percentile_matrix": 1,
+    "stability_figure_complete_frequency_matrix": 1,
+    "sensitivity_category_order": 1,
+    "stability_figure_complete_sensitivity_matrix": 1,
+    "unknown_same_top5_first_two_exchange": 1,
+    "unknown_primary_consensus_null": 1,
+    "unknown_B_all_three_windows_two_turbulent_families_null": 1,
+    "unique_claim_ids": 1,
+    "mandatory_claim_fields": 35,
+    "source_unchanged_during_registration": 31
+  },
+  "check_count": 800,
+  "claims_count": 35,
+  "table_transcription": {
+    "q1-tab-features": "All4 category rows and total counts match frozen dictionary/schema",
+    "q1-tab-ranks": "All9 family rows,27 route ranks and18 rounded consensus/frequency values match frozen CSVs"
+  },
+  "figure_reconstruction": {
+    "q1-fig-state": "168 complete hourly points, exact endpoints and21 background percentile cells",
+    "q1-fig-stability": "27 route-specific frequency cells and18 Jaccard cells; all aggregation record counts retained"
+  },
+  "fold_support_checks": {
+    "distinct_evaluation_folds": 300,
+    "group_templates": 50,
+    "membership_records": 91500,
+    "overlap_violations": 0
+  },
+  "output_files": [
+    {
+      "path": "track_b/paper/evidence/q1_claims.json",
+      "bytes": 109691,
+      "sha256": "bf984260d35a217f14735487e9c2d09c0f45b738e117bf4a144431821353de53"
+    },
+    {
+      "path": "track_b/paper/evidence/q1_code_files.json",
+      "bytes": 259,
+      "sha256": "960967a23c7aaf894bb8192724e5103cbf9ee86b3ccd59e40dfbef6d5cff85cb"
+    }
+  ],
+  "boundaries": [
+    "ECDF positions, normalized ranks and conditional bootstrap frequencies are different quantities; none is a hazard probability or p-value.",
+    "A/C use driver-then-family medians; B uses a conditional block distance and upper out-of-year ECDF, not the A/C two-sided transformation.",
+    "300 evaluation folds reuse50 grouping templates; overlapping backgrounds and repeated windows are not independent disasters.",
+    "44 valid consensus draws per window are conditional on supported sampled years; window means do not create132 independent draws.",
+    "The0.1m soil-water median may be high in background rank while its168h temporal slope is negative.",
+    "Regional station coordinates/UTC+8 are metadata assertions; original datum, source representativeness and true operational availability remain unspecified.",
+    "Unknown-QC increments remain separate; empty B/calibration/consensus scores are not zeros.",
+    "Figure verification covers source numbers/aggregation and artifact hashes; visual layout/LaTeX compilation belongs to the separate QA workflow.",
+    "QA wrapper, shared preamble, references and volatile preview metadata were not bound as model evidence."
+  ]
+}

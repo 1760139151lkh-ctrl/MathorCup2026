@@ -1,0 +1,151 @@
+{
+  "schema_version": "q1-paper-reference-review-v1",
+  "checked_at_utc": "2026-10-24T13:48:46.266364+00:00",
+  "user_local_date": "2026-10-24",
+  "review_scope": "Only Q1 references and this review; historical packets read-only; no full model rerun or global bibliography edits.",
+  "reference_file": {
+    "path": "track_b/paper/evidence/q1_references.tex",
+    "bytes": 1468,
+    "sha256": "fdbdf59cd5b2620ec77cd60e24e36dd705ee6214412c124211ab47541d6fd157"
+  },
+  "records": [
+    {
+      "bibitem_key": "q1-data",
+      "bibliographic_type": "dataset citation with explicitly identified WaterNet metadata mirror",
+      "authors": [
+        "马耀明",
+        "马伟强",
+        "谢志鹏",
+        "王宾宾",
+        "陈学龙",
+        "韩存博"
+      ],
+      "title": "西藏吉隆高寒山区地气相互作用逐小时综合观测数据集（2021–2026）",
+      "mirror_record_title": "Hourly Integrated Land–Atmosphere Interaction Observation Dataset for the High-Altitude Mountainous Region of Gyirong, Tibet (2021–2026)",
+      "year": 2026,
+      "publisher": "国家青藏高原科学数据中心",
+      "doi": "10.11888/Atmos.tpdc.303600",
+      "url": "https://gwfnet.net/Metadata/Index/T-2026-08-28-p1f3e5qIqTEyibfPAp3smBeA",
+      "checked_at_utc": "2026-10-24T13:48:46.266364+00:00",
+      "actual_read_scope": "Reopened rendered metadata body, Chinese/English abstract, original dataset citation paragraph and creators list; existing saved HTML inspected. No authenticated TPDC data body or new CSV acquired.",
+      "local_snapshot": {
+        "path": "track_b/research/q1/round3/evidence/waternet_target.html",
+        "bytes": 231356,
+        "sha256": "614a83a76f7d46bfdb94c56f2c4dfb3814060d2f696ffeb5c733357b6e58b7ed"
+      },
+      "live_response_saved": false,
+      "version": "WaterNet Version 2026-09-12; metadata record Dataset 1.3; neither identifies local processing version",
+      "evidence_for": [
+        "dataset authors/title/citation DOI as supplied in the metadata citation paragraph",
+        "regional-station and timezone/vertical-level declarations",
+        "regional background interpretation and its source-area scale limitation"
+      ],
+      "provides_direct_algorithm_basis": false,
+      "limitations": [
+        "Dataset DOI in the page header is misspelled 10.1888; reference follows the explicit citation paragraph 10.11888, while retaining the mismatch in this review.",
+        "Citing the mirror is not a claim of complete official TPDC body review or local-file processing equivalence.",
+        "Does not identify FLUX QC 1–9 meanings, averaging boundaries or the source-area meteorological field."
+      ],
+      "suggested_citation_role": "Data source and regional observation scope."
+    },
+    {
+      "bibitem_key": "q1-shrinkage",
+      "bibliographic_type": "original journal research article",
+      "authors": [
+        "Olivier Ledoit",
+        "Michael Wolf"
+      ],
+      "title": "A well-conditioned estimator for large-dimensional covariance matrices",
+      "year": 2004,
+      "journal": "Journal of Multivariate Analysis",
+      "volume": "88",
+      "issue": "2",
+      "pages": "365–411",
+      "doi": "10.1016/S0047-259X(03)00096-4",
+      "url": "https://doi.org/10.1016/S0047-259X(03)00096-4",
+      "author_copy_url": "https://www.ledoit.net/Well-conditioned2004.pdf",
+      "checked_at_utc": "2026-10-24T13:48:46.266364+00:00",
+      "actual_read_scope": "Author/title/year/volume/issue/pages/DOI and abstract checked in primary-publisher search-index text; author-copy first-page search-index metadata cross-check. Direct full PDF/body not obtained. Existing scikit-learn official LedoitWolf Notes/parameter documentation also inspected as supporting method context.",
+      "full_text_read": false,
+      "supporting_official_documentation": {
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.covariance.LedoitWolf.html",
+        "version": "1.9.1 documentation snapshot",
+        "actual_read_scope": "Title, parameters, Notes shrinkage formula and bibliography, using previously saved official HTML",
+        "local_snapshot": {
+          "path": "track_b/research/q1/round3/evidence/ledoitwolf_official.html",
+          "bytes": 142516,
+          "sha256": "4bcc7e02bf8e21e2038830bc46cbb8e81ffe83e386afe597ccd66df5409242f9"
+        }
+      },
+      "access_checks": [
+        {
+          "url": "https://www.ledoit.net/Well-conditioned2004.pdf",
+          "web_open_result": "timeout",
+          "urllib_check_utc": "2026-10-24T13:44:59.832131+00:00",
+          "urllib_result": "TLS certificate verification failed; no response bytes retained"
+        },
+        {
+          "url": "https://doi.org/10.1016/S0047-259X(03)00096-4",
+          "web_open_result": "403 Forbidden; primary indexed metadata and abstract available"
+        }
+      ],
+      "provides_direct_algorithm_basis": false,
+      "provides_conceptual_method_basis": true,
+      "implementation_relation": "Q1 uses a preregistered fixed alpha=0.5 identity-target covariance (sensitivities 0.1/0.9). It does not estimate the automatic Ledoit–Wolf shrinkage coefficient or claim the original asymptotic optimality theorem. Official LedoitWolf Notes use a mu*I target; exact equivalence to Q1 I is not asserted.",
+      "suggested_citation_role": "General identity-target linear-shrinkage motivation only; present Q1 formula and fixed coefficient as its own registered design."
+    },
+    {
+      "bibitem_key": "q1-analog",
+      "bibliographic_type": "original journal research article",
+      "authors": [
+        "Edward N. Lorenz"
+      ],
+      "title": "Atmospheric predictability as revealed by naturally occurring analogues",
+      "year": 1969,
+      "journal": "Journal of the Atmospheric Sciences",
+      "volume": "26",
+      "issue": "4",
+      "pages": "636–646",
+      "doi": "10.1175/1520-0469(1969)26<636:APARBN>2.0.CO;2",
+      "url": "https://doi.org/10.1175/1520-0469(1969)26<636:APARBN>2.0.CO;2",
+      "publisher_url": "https://journals.ametsoc.org/view/journals/atsc/26/4/1520-0469_1969_26_636_aparbn_2_0_co_2.xml",
+      "institutional_copy_url": "https://wind.mit.edu/~emanuel/Lorenz/EdLorenz/Atmos_analogues_69.pdf",
+      "checked_at_utc": "2026-10-24T13:48:46.266364+00:00",
+      "actual_read_scope": "Primary AMS publisher indexed bibliographic metadata and abstract, plus indexed introduction excerpt defining natural analogues and excluding states resembling only because they are close in time. Full paper not obtained; no results or equation-by-equation reconstruction claimed.",
+      "full_text_read": false,
+      "access_checks": [
+        {
+          "url": "https://journals.ametsoc.org/view/journals/atsc/26/4/1520-0469_1969_26_636_aparbn_2_0_co_2.xml",
+          "web_open_result": "403 Forbidden; primary publisher indexed text available"
+        },
+        {
+          "url": "https://wind.mit.edu/~emanuel/Lorenz/EdLorenz/Atmos_analogues_69.pdf",
+          "web_open_result": "timeout",
+          "urllib_check_utc": "2026-10-24T13:45:02.323168+00:00",
+          "urllib_result": "read timeout; no response bytes retained"
+        }
+      ],
+      "provides_direct_algorithm_basis": false,
+      "provides_conceptual_method_basis": true,
+      "implementation_relation": "Q1 adapts the general natural-analogue idea to preregistered local-station feature matching. Excluding the evaluated factor family, year/process quotas, 80% outside-family support and ECDF factor scores are Q1-specific design choices, not attributed to Lorenz.",
+      "suggested_citation_role": "Optional conceptual background for natural analogues; omit if the final chapter states its matching construction entirely as a local design. Do not cite as a replicated Lorenz forecasting algorithm."
+    }
+  ],
+  "validation": {
+    "three_unique_q1_prefixed_keys": true,
+    "bibitem_keys": [
+      "q1-data",
+      "q1-shrinkage",
+      "q1-analog"
+    ],
+    "standalone_preamble_not_added": true,
+    "bibliography_environment_not_added": true,
+    "tex_compile_performed": false,
+    "tex_compile_scope": "Fragment integration and document compilation belong to main advisor."
+  },
+  "limitations": [
+    "Paper full-text access failures are explicit; search-index metadata/abstract inspection is not full-text reading.",
+    "Only the two delegated paper evidence files were written; original snapshots and prior source registers were not altered.",
+    "Primary-paper and official-documentation sources only; no third-party summary used for bibliographic or method claims."
+  ]
+}
