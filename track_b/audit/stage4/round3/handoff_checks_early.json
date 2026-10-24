@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-10-24T09:07:36.805034+00:00",
+  "generated_at_utc": "2026-10-24T09:59:24.904315+00:00",
   "round": "round3",
   "integrated": false,
   "status": "passed",
   "passed": true,
-  "delivery_count": 17,
+  "delivery_count": 18,
   "checks": [
     {
       "delivery_index": 0,
@@ -294,11 +294,28 @@
         "referenced_bytes": 10174196,
         "original_upstream_bytes_preserved": true
       }
+    },
+    {
+      "delivery_index": 17,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q4",
+        "consumer": "q3",
+        "bundle_version": "q4-r3-propagation-v2",
+        "upstream_path": "track_b/research/q4/round3/exports/propagation_v2/bundle.json",
+        "upstream_bundle_sha256": "2a54e77d811faa8d949f92a2e45788751122517b6e91839ca8742cda20ea88a4",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v2/bundle.json",
+        "delivered_bundle_sha256": "9fec7f2083ab43f81b19da2c1cca3cef9b2ad0b5db36441495162412d1e8dda4",
+        "files": 39,
+        "referenced_bytes": 3450527,
+        "original_upstream_bytes_preserved": true
+      }
     }
   ],
   "tool_version": "1.0.0",
   "tool_sha256": "f4c9c349e08c4db03e524d90dc8536c258eaceee12a8c856035d5a3fa3a192c7",
-  "ledger_sha256": "7f77ab085c17d28460b6da08afed4b53dd30477031a5cdb684bcbaa2e67f656e",
-  "workspace_registry_sha256": "bf128f6d22c4aa9b891a30ec31e873dc04cd47140c0ec4c9f668616b7c6f3667",
+  "ledger_sha256": "7d224009d77c7ef16e7bab4309b4c16afae01ba176e66423a888d9ad7b3b66d7",
+  "workspace_registry_sha256": "ce6f1b4d70924407d7cb2a04df7b87850e02d9a0c2ce20cd933b55fd70efee78",
   "scope": "Versioned bundle bytes, baseline, file mapping and hashes only; review_note is not machine-validated scientific adoption."
 }
