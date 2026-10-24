@@ -106,13 +106,23 @@
       "previous_source_commit": "de826005cdd8dd86d43cc99fea7cf8a16ca4c763",
       "git_branch": "codex/track-b-q4-r3",
       "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
-      "status": "research_running",
+      "status": "integrated_packet_pending_final_audit",
       "dispatch_sent": true,
       "dispatch_at_utc": "2026-10-24T07:27:07.552954+00:00",
       "startup_verification": {
         "passed": true,
         "sha256": "1d7f61686c48d89ec86fee5f5326daa73325cb28cb6697f59937fc0d533d4c6f"
-      }
+      },
+      "source_commit": "02193169de59c2dc2559988e495147883edab83a",
+      "integration_commit": "5df5889efe82ed2bdb6c61e7454aa08889bfbb06",
+      "input_manifest_path": "track_b/research/q4/round3/results/input_manifest.json",
+      "output_manifest_path": "track_b/research/q4/round3/results/output_manifest.json",
+      "output_files_verified": 1164,
+      "final_output_manifest_sha256": "1c23720315c4cf40898d30ad2c6d0fe9d0549fc5e8fdaf9d460780cb69afac82",
+      "cache_manifest_path": "track_b/research/q4/round3/results/cache_manifest.json",
+      "cache_manifest_sha256": "99f7e8c2b01761b23a7e103b940e02d763fa3be5a611649f4b732c693b8a94e7",
+      "cache_files_verified": 33934,
+      "cache_bytes": 8847957733
     }
   ],
   "cache_root": "/Users/maxchen/Documents/MathorCup/research_cache/round3",
