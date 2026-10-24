@@ -1,6 +1,6 @@
 # 当前状态
 
-更新：2026-10-24（America/New_York）。主参谋分支：`codex/track-b-stage1-2`。阶段4四窗已建立，独立环境5组技术检查均通过，首轮研究运行中。
+更新：2026-10-24（America/New_York）。主参谋分支：`codex/track-b-stage1-2`。阶段4四窗首轮已完成并集成，联合技术审查通过；正式科学路线待队员确认。
 
 ## 目标与已有授权
 
@@ -8,7 +8,8 @@
 
 ## 当前可用结果
 
-- 阶段4：准备提交`1a31c6f`，四窗共同起点`1d64f91`；431个冻结输入与原提交blob/SHA256一致；任务书引用路径全部存在，5项隔离/冻结守卫试验通过。
+- **阶段4当前入口：** [首轮联合审查](docs/15_stage4_round1_review.md)。四问已交付方法比较、可复跑诊断/小实验、图表和交接，112项稳定产物逐项验哈希；各问分支工作区干净，保留四窗供后续继续。
+- 阶段4：准备提交`1a31c6f`，四窗共同起点`1d64f91`；431个冻结输入与原提交blob/SHA256一致；任务书引用路径全部存在，6项隔离/冻结/后续快照守卫试验通过。
 - 四个继承历史的可见聊天已收到Q1—Q4任务；实际研究目录为父目录`worktrees/track-b-q1`至`track-b-q4`，各自分支和venv。原生worktree分叉初始化失败，改为显式路径绑定，非应用托管worktree；逐窗验收结果以登记为准。
 - 四窗均通过共同起点、431冻结输入、独立venv/44包精确锁、六真实格式和本问文件责任检查。首次原生库加载因macOS安全扫描较慢，未重装或修改安全设置；各窗已获环境就绪通知。
 - 独立Python3.12环境`track_b/.venv/`及44发行包版本锁已建立；pip check和CSV/XLSX/SHP/GeoTIFF/NetCDF4/GRIB2真实读取通过。
@@ -21,7 +22,7 @@
 
 ## 当前入口
 
-0. [阶段4工作流](docs/14_stage4_workflow.md)、[四窗实际登记](audit/stage4/workspaces.json)、各问[任务入口](research/AGENTS.md)
+0. [阶段4首轮审查与下一步](docs/15_stage4_round1_review.md)、[工作流](docs/14_stage4_workflow.md)、[四窗实际登记](audit/stage4/workspaces.json)、[集成检查](audit/stage4/integration_checks.json)
 1. [阶段3交接与四问基线工作包](docs/13_stage3_handoff.md)
 2. [时序管线](docs/09_temporal_pipeline.md)、[空间管线](docs/10_spatial_pipeline.md)
 3. [事件与遥感](docs/11_event_remote_evidence.md)、[环境与预报](docs/12_environment_forecast.md)
@@ -36,9 +37,10 @@
 - 数据语义：小时UTC+8仍为外部元数据假设，累计时段和无QC字段质量需核实；日温度单位/日界/聚合未知。
 - 预报与影像：真实历史发布时间未知；2026影像只有场景元数据和访问失败证据，尚无AOI像元可见性/变化解译。
 - 科学结果：尚无最终TOP5、临界阈值、预报覆盖率、灾害仿真或论文结论；E06基线方案已具体化，待队员独立审视与实施核心研究。
+- 首轮新增：FLUX长常值段、远端版本/QC差异、NC速度模长一致性问题均已定位并交接，未自动删值/迁移标记/重算替代。Q3时间一致性门禁已修复并独立复核。
 
 ## 下一动作
 
-落实[四窗首轮](docs/14_stage4_workflow.md)：统一起点与输入哈希，分配Q1—Q4任务，核对各自环境/真实I/O/文件责任，收集方案论证和小实验后开展联合审查。Q2/Q3统计推断与Q4事件校准仍分别受上述证据条件限制。
+队员阅读[首轮审查第4—5节](docs/15_stage4_round1_review.md)，确认正式分析对象/路线；主参谋据此派发下一轮。优先资料闭环为Q3独立标签/真实时效与Q4源区—目标—河道/地形证据；Q1/Q2同步追溯质量、参数定义和少量必要影像。四窗目前按约定停在联合审查点，未自行推进正式拟合或事件求解。
 
 重建与复跑命令见[README](README.md)。原始资料保持原样；阶段1—3已本地commit，阶段4持续本地提交和集成，未push。决定和AI辅助记录分别见[DECISIONS](DECISIONS.md)、[AI_USAGE](AI_USAGE.md)。

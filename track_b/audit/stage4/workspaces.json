@@ -5,7 +5,7 @@
   "repository": "/Users/maxchen/Documents/MathorCup/MathorCup2026",
   "preparation_commit": "1a31c6f2c3e11fcc32ac870b7a5896a7ef67f06e",
   "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
-  "stage": "first_round_research_running",
+  "stage": "first_round_complete_reviewed_and_integrated",
   "native_worktree_fork_attempt": {
     "client_thread_id": "client-new-thread:09891828-2f73-46e6-89fb-f3a0d136d98c",
     "status": "failed_no_child_created",
@@ -22,14 +22,19 @@
       "git_branch": "codex/track-b-q1-r1",
       "starting_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
       "worktree_management": "manual_git_worktree_explicit_dispatch_binding",
-      "status": "first_round_research_running",
+      "status": "first_round_reviewed_and_integrated",
       "dispatch_sent": true,
       "initial_verification": {
         "passed": true,
         "check_count": 5,
         "report": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1/track_b/research/q1/workspace_verification.json",
         "generated_at_utc": "2026-10-24T04:31:27.009786+00:00"
-      }
+      },
+      "source_commit": "dc79b98daa9ce36176dcb706a6c51a23413c3f8a",
+      "integration_commit": "6c9f0a21f859aa4d4a91935ac33d7dab4633e925",
+      "output_files_verified": 34,
+      "final_worktree_clean": true,
+      "final_output_manifest_sha256": "6e27e6936b1a28d02f2efbc2cdf76dd86146b2ba08c85bf42abea8a4dc7c7f88"
     },
     {
       "question": "q2",
@@ -40,14 +45,19 @@
       "git_branch": "codex/track-b-q2-r1",
       "starting_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
       "worktree_management": "manual_git_worktree_explicit_dispatch_binding",
-      "status": "first_round_research_running",
+      "status": "first_round_reviewed_and_integrated",
       "dispatch_sent": true,
       "initial_verification": {
         "passed": true,
         "check_count": 5,
         "report": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/workspace_verification.json",
         "generated_at_utc": "2026-10-24T04:31:08.736284+00:00"
-      }
+      },
+      "source_commit": "563739f16eb3256d0858800a35a64c7399ebd12b",
+      "integration_commit": "462ee27f0bce0f4bd19543763d6b3c061bb8fcb3",
+      "output_files_verified": 25,
+      "final_worktree_clean": true,
+      "final_output_manifest_sha256": "74ef797a1d26789d30ae5a44677de8a8e663c91a4fd7fa8fdef7df83448bdd7d"
     },
     {
       "question": "q3",
@@ -58,14 +68,19 @@
       "git_branch": "codex/track-b-q3-r1",
       "starting_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
       "worktree_management": "manual_git_worktree_explicit_dispatch_binding",
-      "status": "first_round_research_running",
+      "status": "first_round_reviewed_and_integrated",
       "dispatch_sent": true,
       "initial_verification": {
         "passed": true,
         "check_count": 5,
         "report": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/workspace_verification.json",
         "generated_at_utc": "2026-10-24T04:31:28.027637+00:00"
-      }
+      },
+      "source_commit": "afd014240c74b2713ac15511de1c948c86cde8da",
+      "integration_commit": "7d3eea974825e32e2d91e5d638f4457c1f43db9b",
+      "output_files_verified": 31,
+      "final_worktree_clean": true,
+      "final_output_manifest_sha256": "4b52249460686b53a1b966dbd090fb0ad1a7b1799c3d4f9e4a1a6f71ffdb59fe"
     },
     {
       "question": "q4",
@@ -76,15 +91,23 @@
       "git_branch": "codex/track-b-q4-r1",
       "starting_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
       "worktree_management": "manual_git_worktree_explicit_dispatch_binding",
-      "status": "first_round_research_running",
+      "status": "first_round_reviewed_and_integrated",
       "dispatch_sent": true,
       "initial_verification": {
         "passed": true,
         "check_count": 5,
         "report": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/workspace_verification.json",
         "generated_at_utc": "2026-10-24T04:31:26.226575+00:00"
-      }
+      },
+      "source_commit": "23adc6a52fd1ce5d2a2c12fdb7e06460f6521611",
+      "integration_commit": "64e5227317ad7a884f85b0462a7703fa0afef434",
+      "output_files_verified": 22,
+      "final_worktree_clean": true,
+      "final_output_manifest_sha256": "7150f9a27bfe24ed2ac318715c2aa3f18faf346147dfe77ba0c03520b3ea19a1"
     }
   ],
-  "parent_title": "赛道B · 主参谋与集成"
+  "parent_title": "赛道B · 主参谋与集成",
+  "review_report": "track_b/docs/15_stage4_round1_review.md",
+  "technical_acceptance": "passed",
+  "human_scientific_adoption": "pending"
 }

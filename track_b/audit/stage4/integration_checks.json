@@ -1,0 +1,85 @@
+{
+  "generated_at_utc": "2026-10-24T04:49:20.917441+00:00",
+  "passed": true,
+  "scope": "Main-workspace post-integration input immutability, delivered artifact byte/hash checks, per-question source ownership, committed clean source worktrees, local document links. Experiments were executed in the four registered worktrees, not re-executed in main.",
+  "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+  "frozen_inputs": {
+    "file_count": 431,
+    "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+    "preparation_commit": "1a31c6f2c3e11fcc32ac870b7a5896a7ef67f06e"
+  },
+  "packets": [
+    {
+      "question": "q1",
+      "source_commit": "dc79b98daa9ce36176dcb706a6c51a23413c3f8a",
+      "integration_commit": "6c9f0a21f859aa4d4a91935ac33d7dab4633e925",
+      "output_manifest": "track_b/research/q1/results/output_manifest.json",
+      "manifest_sha256": "6e27e6936b1a28d02f2efbc2cdf76dd86146b2ba08c85bf42abea8a4dc7c7f88",
+      "verified_output_files": 34,
+      "frozen_inputs_unchanged": true,
+      "only_assigned_question_changed": true,
+      "source_worktree_clean": true,
+      "final_workspace_checks_passed": true
+    },
+    {
+      "question": "q2",
+      "source_commit": "563739f16eb3256d0858800a35a64c7399ebd12b",
+      "integration_commit": "462ee27f0bce0f4bd19543763d6b3c061bb8fcb3",
+      "output_manifest": "track_b/research/q2/results/output_manifest.json",
+      "manifest_sha256": "74ef797a1d26789d30ae5a44677de8a8e663c91a4fd7fa8fdef7df83448bdd7d",
+      "verified_output_files": 25,
+      "frozen_inputs_unchanged": true,
+      "only_assigned_question_changed": true,
+      "source_worktree_clean": true,
+      "final_workspace_checks_passed": true
+    },
+    {
+      "question": "q3",
+      "source_commit": "afd014240c74b2713ac15511de1c948c86cde8da",
+      "integration_commit": "7d3eea974825e32e2d91e5d638f4457c1f43db9b",
+      "output_manifest": "track_b/research/q3/results/output_manifest.json",
+      "manifest_sha256": "4b52249460686b53a1b966dbd090fb0ad1a7b1799c3d4f9e4a1a6f71ffdb59fe",
+      "verified_output_files": 31,
+      "frozen_inputs_unchanged": true,
+      "only_assigned_question_changed": true,
+      "source_worktree_clean": true,
+      "final_workspace_checks_passed": true
+    },
+    {
+      "question": "q4",
+      "source_commit": "23adc6a52fd1ce5d2a2c12fdb7e06460f6521611",
+      "integration_commit": "64e5227317ad7a884f85b0462a7703fa0afef434",
+      "output_manifest": "track_b/research/q4/results/result_index.json",
+      "manifest_sha256": "7150f9a27bfe24ed2ac318715c2aa3f18faf346147dfe77ba0c03520b3ea19a1",
+      "verified_output_files": 22,
+      "frozen_inputs_unchanged": true,
+      "only_assigned_question_changed": true,
+      "source_worktree_clean": true,
+      "final_workspace_checks_passed": true
+    }
+  ],
+  "stable_artifact_hash_checks": 112,
+  "local_document_links_checked": 71,
+  "independent_reviews": {
+    "q1": "34 outputs + two figures and QC transfer boundary checked",
+    "q2": "input hashes, 41 scenes, 26 parameter rows and NC readback checked",
+    "q3": "31 outputs + five extra pure-function boundary probes; temporal consistency fix confirmed; 20 synthetic checks stay separate",
+    "q4": "22 outputs + figures, DEM and synthetic NetCDF independent readback checked"
+  },
+  "scientific_status": {
+    "independent_training_or_coverage_events_accepted": 0,
+    "formal_core_models_selected": false,
+    "final_top5_or_critical_thresholds_or_real_95pct_coverage_claimed": false,
+    "event_reconstruction_performed": false,
+    "human_scientific_adoption": "pending"
+  },
+  "guard_checks": {
+    "passed": true,
+    "count": 6,
+    "report": "track_b/audit/stage4/guard_checks.json",
+    "sha256": "19bfe722f72091dc5bfd03367030446c22e470e38a514e57aa1d18f63618154a",
+    "scope": "Includes future snapshot self-exclusion; current baseline manifest preserved."
+  },
+  "integration_helper_sha256": "bd89ed83caf28d52c73d44e8bd58f4efa696c18fc23e6ce4f9fb1881093fe401",
+  "syntax_compilation_passed": true
+}

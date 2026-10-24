@@ -47,6 +47,10 @@ def snapshot(preparation_commit):
             continue
         metadata, name = entry.split('\t', 1)
         mode, kind, object_id = metadata.split()
+        # A later preparation commit may already contain the previous manifest.
+        # Orchestration records remain mutable and must never freeze themselves.
+        if name.startswith('track_b/audit/stage4/'):
+            continue
         if name.startswith(prefixes) or name.startswith(('track_b/scripts/', 'track_b/config/')) or name in ('track_b/requirements.in', 'track_b/requirements-lock.txt'):
             path = ROOT / name
             if kind != 'blob' or path.is_symlink() or not path.is_file():

@@ -2,7 +2,7 @@
 
 目标：围绕“泥石流灾害预报及防灾策略”组织可追溯研究。原始资料位于[`04_B赛道`](../04_B赛道/)，本目录保存审计、任务口径、调研与后续派生成果。
 
-当前主参谋窗口已完成阶段1—3的数据准备与技术验证，正在落实阶段4四问分窗探索。阶段状态和未解决事项以[`STATUS.md`](STATUS.md)为准；尚无已验证的四问最终模型或结论。
+当前已完成阶段1—3准备和阶段4四问首轮并行探索，成果已本地集成。先读[首轮联合审查与下一步](docs/15_stage4_round1_review.md)；阶段状态以[`STATUS.md`](STATUS.md)为准，尚无已验证的四问最终模型或结论。
 
 阶段4先读：[四问并行工作流](docs/14_stage4_workflow.md)、[研究窗约定](research/AGENTS.md)。各窗任务为[Q1](research/q1/TASK.md)、[Q2](research/q2/TASK.md)、[Q3](research/q3/TASK.md)、[Q4](research/q4/TASK.md)；聊天与worktree登记见[audit/stage4/workspaces.json](audit/stage4/workspaces.json)。
 

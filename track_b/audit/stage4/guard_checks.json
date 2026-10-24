@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-24T04:15:33.884295+00:00",
+  "generated_at_utc": "2026-10-24T04:50:35.065456+00:00",
   "passed": true,
   "checks": [
     {
@@ -15,6 +15,10 @@
       "passed": true
     },
     {
+      "name": "later_snapshot_excludes_previous_manifest_and_mutable_stage4_records",
+      "passed": true
+    },
+    {
       "name": "ownership_accepts_assigned_question_output",
       "passed": true
     },
@@ -23,5 +27,5 @@
       "passed": true
     }
   ],
-  "scope": "Disposable git fixture: freeze/version consistency and cross-question file responsibility. No production inputs modified."
+  "scope": "Disposable git fixture: freeze/version consistency, later snapshot self-exclusion, cross-question responsibility. No production inputs or current baseline manifest modified."
 }
