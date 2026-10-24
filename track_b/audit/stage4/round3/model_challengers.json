@@ -21,6 +21,28 @@
       "technical_review": "passed_full2048_and_independent_kernel_review",
       "result": "137 finite onset pairs, max analytic-vs-fineFD0.34708h, analytic-vs-v2 19.07238h, all categories unchanged",
       "export": "track_b/research/q2/round3/exports/analytic_thermal_bundle.json"
+    },
+    {
+      "id": "q3-strength-experiment-domain-sensitivity",
+      "owner": "q3",
+      "registered_at_utc": "2026-10-24T09:41:36.884830+00:00",
+      "registration_role": "posthoc_applicability_diagnostic_not_pre_registered_prediction",
+      "reason": "All nonzero prospective event support comes from p0149-S, whose Q2 strength-domain fraction is0.",
+      "normal_stress_kpa": 820.5869390667067,
+      "Mamot_numeric_stress_domain_kpa": [
+        100,
+        400
+      ],
+      "new_explanation": "Whether forecast nonzero probability depends entirely on constitutive extrapolation outside the borrowed experiment numeric domain.",
+      "comparison": "Reuse complete frozen Q3 parameter forecasts and all original priors/quality tracks; no physical re-fit or new training events.",
+      "tests": [
+        "crossing-row strength-domain fraction and actual T/effective-stress support",
+        "support counts and complete follow-up before exact probability",
+        "preserve censoring/unknown mass and disclose subset conditioning",
+        "no local-material certification or operational availability inference",
+        "no zero-event safety conclusion"
+      ],
+      "scientific_adoption": "pending_review"
     }
   ]
 }
