@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-24T09:23:35.393036+00:00",
+  "evidence": {
+    "path": "track_b/research/q3/round3/results/cache_manifest.json",
+    "file_count": 900,
+    "referenced_bytes": 972354039,
+    "sha256": "ee1411d8e4e849a8dca17cba36c60eb2c2bf5cbfdfc201dccd609af463b9d102",
+    "all_entries_match": true
+  }
+}

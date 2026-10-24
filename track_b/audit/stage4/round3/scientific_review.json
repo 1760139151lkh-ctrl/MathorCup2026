@@ -1,7 +1,7 @@
 {
   "round": "round3",
-  "updated_utc": "2026-10-24T09:05:21.650648+00:00",
-  "status": "ongoing_q3_q4",
+  "updated_utc": "2026-10-24T09:24:33.773368+00:00",
+  "status": "q1_q2_q3_core_integrated_q4_and_coupling_pending",
   "reviewer": "main advisor and independent AI read-only reviewers; not human scientific adoption",
   "q1": {
     "status": "integrated",
@@ -48,7 +48,24 @@
     "fixed24h_lead72h_B_full_label_coverage": {
       "IV": "3/13",
       "SS": "6/13"
-    }
+    },
+    "core_commit": "bb9258d791a6e9735c28528ff4408c7434c3d149",
+    "analytic_weather_review": {
+      "parameter_rows_read": 1536000,
+      "delivery_files_verified": 31,
+      "future_history_leaks": 0,
+      "left_censor_false_finite_times": 0,
+      "risk_set_invalid_initial_margin": 0,
+      "paired_comparable_gfs_ideal_probabilities": 17280,
+      "max_probability_difference": 0.0,
+      "nonzero_support_physical_designs": 1,
+      "same72h_state_contrasts": 96,
+      "max_temperature_difference_c": 2.789541674,
+      "max_margin_difference": 1.079560387,
+      "max_pressure_difference_kpa": 40.869149905
+    },
+    "cache_manifest_verified_files": 900,
+    "cache_manifest_verified_bytes": 972354039
   },
   "q4_partial_propagation_review": {
     "status": "context_only_not_numeric_validation",
@@ -67,6 +84,7 @@
     "mass_scope": "density-weighted rho(m)h from native fort.b and NPZ, not only h volume; no sampled boundary flux; cannot attribute entire deficit to dilatancy or qfix without a step budget",
     "all_parent_q2_mappings_absent": true,
     "absolute_mechanical_arrival_adopted": false,
-    "remaining": "full mapped cases, final comparison and numerical qualification pending"
+    "remaining": "full mapped cases, final comparison and numerical qualification pending",
+    "parser_and_build_followups": "Code now removes frame-index time fallback, marks missing native times; per-run source/build/binary identity explicit. Final output review still pending."
   }
 }

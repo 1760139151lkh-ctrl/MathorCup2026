@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-24T09:22:28.541116+00:00",
+  "evidence": {
+    "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3",
+    "source_commit": "bb9258d791a6e9735c28528ff4408c7434c3d149",
+    "integration_commit": "15eec61aad14de43c06963771642f1e6b624aedf",
+    "changed_paths_verified_in_main": 512,
+    "clean": true,
+    "five_exit_checks_passed": true,
+    "manifests": {
+      "input_manifest.json": {
+        "path": "track_b/research/q3/round3/results/input_manifest.json",
+        "file_count": 180,
+        "referenced_bytes": 88108631,
+        "sha256": "d75a50dff1e7e9a62bd75cdded747bf4df1a0924b1fe46c1c76d088303fc1c54",
+        "all_entries_match": true
+      },
+      "output_manifest.json": {
+        "path": "track_b/research/q3/round3/results/output_manifest.json",
+        "file_count": 511,
+        "referenced_bytes": 244388673,
+        "sha256": "be979b3449118d8332ca7ff07c52c8c503889650246be8c97ac4d2f8565ee5b9",
+        "all_entries_match": true
+      }
+    }
+  },
+  "scope": "Core Q3 A/B/C, analytic weather and partial propagation context; final mapped coupling explicitly pending."
+}
