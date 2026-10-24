@@ -1,0 +1,133 @@
+{
+  "bundle_version": "q3-r3-strength-applicability-v1",
+  "producer_question": "q3",
+  "created_at_utc": "2026-10-24T09:58:06.992565+00:00",
+  "input_version": {
+    "research_commit": "bb9258d791a6e9735c28528ff4408c7434c3d149",
+    "original_research_bundle_sha256": "fec1e69d761c04fea4c67e5379ce2b518b5e22aa301b253d01828987eef03019"
+  },
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/predictions.csv.gz",
+      "bytes": 3752720,
+      "sha256": "7f285cfcfc9a86e5b0237fe3392c3361ddb87807815c671e55cb4969770a4a83",
+      "role": "all_four_policy_distributions"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/crossing_support_audit.csv",
+      "bytes": 155552,
+      "sha256": "488c3c03fd2c7fc82bcbc12b965d5c2a2e717213b35d3015972089c9243ac498",
+      "role": "all_342_actual_crossings"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/parameter_weight_audit.parquet",
+      "bytes": 10731892,
+      "sha256": "049f51d25342db254b0c3650a4ea139ca9374a47f7c1a54feba7ca154f29520b",
+      "role": "all_1536000_original_rows_and_weights"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/comparison_summary.csv",
+      "bytes": 3956,
+      "sha256": "9b3c432febe8551435f6973dea54aeaa5d1c18d0222baf510263f9484cc0bf00",
+      "role": "policy_prior_horizon_summary"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/mixture_mechanism_masses.csv.gz",
+      "bytes": 285229,
+      "sha256": "e3e6e596fb3b3094dd77a14510cdca4fe92874323bcb733b894125bc8fe0d314",
+      "role": "original_and_new_mixture_mechanism_masses"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/conservative_mass_transfers.csv.gz",
+      "bytes": 41196,
+      "sha256": "feca3abe58768d4218903819805e8af708d55509e5f20fd923e57fd521cacc0f",
+      "role": "event_no_start_past_unknown_transfers"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/p0149_parameter_audit.csv",
+      "bytes": 5154,
+      "sha256": "97413d847d9c51e1adccc7aefd095e2b9190608f77aaf6a71b0fac1aca0de637",
+      "role": "independent_stress_calculation"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/summary.json",
+      "bytes": 2437,
+      "sha256": "d8c667627a34a2d483b06c95eb0afe72dca8c7e4225dd2527404c8b148ef882f",
+      "role": "aggregation_findings"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/RESULTS.md",
+      "bytes": 7144,
+      "sha256": "68685d8a5ac320e2bd4e68b59259ba2ae79f05287308cb22d27a97ac35962c6f",
+      "role": "interpretation_and_reproduction"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/PROTOCOL.md",
+      "bytes": 3999,
+      "sha256": "23accd9f5368f9877ef6a2e98caa06fde751c7b4b6c25cb59aac6d1c40f71689",
+      "role": "posthoc_design_and_amendments"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/source_register.json",
+      "bytes": 1021,
+      "sha256": "d2334fc3b2a4cec2c8f7b209d702e3a59cc514b466ef977b7cbf7406c4202d86",
+      "role": "primary_literature_read_scope"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/INPUT_MANIFEST.json",
+      "bytes": 3161,
+      "sha256": "90e31f97eae5f2d668c71f7401500c0b16ca5eebf09e3509ca5777ab6644a8bb",
+      "role": "actual_increment_inputs"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/validation.json",
+      "bytes": 625,
+      "sha256": "a885c4344dbceec36b818cc1b65fcc7b8db9dc63de5507150ab388e6fb8f5095",
+      "role": "distribution_implementation_checks"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/mass_audit_validation.json",
+      "bytes": 369,
+      "sha256": "0baf83452edb5f59840c8ca82bbff9469ee11706110862754727fbd7905fc7c4",
+      "role": "mixture_mass_checks"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/workspace_verification.json",
+      "bytes": 58398,
+      "sha256": "cdbee31edc33d7a23ec2a5b5fde72110d232120beed1b9b7dd10ec359377dbf1",
+      "role": "increment_five_checks"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/review_boundary/final_readonly_audit.json",
+      "bytes": 8572,
+      "sha256": "295890c9eac30af04037be616a47a0b5c09817d5dc75a9f0150f49b1fcb6c406",
+      "role": "independent_full_distribution_and_mass_review"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/review_boundary/REVIEW.md",
+      "bytes": 4864,
+      "sha256": "0372b3c2f013139211d635cce6567ace1ac9bfc77964c42824b8529c661834d5",
+      "role": "independent_review_interpretation"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/figure_review.json",
+      "bytes": 600,
+      "sha256": "1a2b65760f3350738808ed5341ef056a4a52ab3c4496e224a3c9c127ec6ebcf5",
+      "role": "actual_visual_review"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/applicability_comparison.png",
+      "bytes": 132077,
+      "sha256": "76bc4bead18afd172a177ece7415cc2a2d5af41703af9044f83e80188a1878f6",
+      "role": "applicability_and_conservative_bound_figure"
+    }
+  ],
+  "interpretation_update": "Original nonzero future-onset support entirely relies on fitted-strength-law extrapolation; original computations retained",
+  "limitations": [
+    "Posthoc numerical applicability sensitivity, not a certified local-material or operational filter",
+    "In-domain renormalized zero start mass is not physical safety; out-of-domain mass is separately retained as unknown",
+    "Criterion applicability100–400kPa differs from full experiment stress range100–800kPa",
+    "Future observed-domain fraction includes post-cross continuation; historical material validity not fully established",
+    "No physics re-integration, local truth or empirical95 validation added"
+  ]
+}

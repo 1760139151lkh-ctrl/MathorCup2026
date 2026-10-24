@@ -1,0 +1,324 @@
+{
+  "review_id": "q3r3-analytic-applicability-readonly-v1",
+  "generated_at_utc": "2026-10-24T09:43:58.031620Z",
+  "review_scope": "Read frozen exports/source and independent scalar stress/units arithmetic only; no simulate/thermal/forecast/weight functions executed",
+  "inputs": [
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/bundle.json",
+      "bytes": 10386,
+      "sha256": "05e8b885198a3011e316472f562ba92480788cb04c6ab9bebfb3e04dbd3660ca"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/delivery_index.json",
+      "bytes": 7818,
+      "sha256": "ede475a5a18d78c56503d7154aa092b69b37345db9b6380cf1ce161c219e16e1"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/parameter_first_passages.parquet",
+      "bytes": 33794095,
+      "sha256": "fd557599f6fa54ad21bd7a44dd19aa74f5578ce73533db1ad8aeef19de2688d5"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv",
+      "bytes": 1171832,
+      "sha256": "8393874e341789316d2862435f8498ed8c9e01c4e3f674dc2b46d9bcadce6203"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/scenario_outcomes.csv",
+      "bytes": 909276,
+      "sha256": "847143dc8ad8c495ea6e7747fbbcdb187ef465b9c7879fecb4717135372dc30c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/mechanism_contract.json",
+      "bytes": 4149,
+      "sha256": "44d3966717bdddc04e31ff8e4089bb8a7321a6a33e850371e3cb4c15cd4d1e4d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/run_analytic_thermal.py",
+      "bytes": 34185,
+      "sha256": "8cb54a4a6db606994c18d9e82ab9dce8269e77b1e5445287f9f5d865f3e3e1d6"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/mechanistic_replay.py",
+      "bytes": 53738,
+      "sha256": "4610d63dc9140ae0c61d011bd768f134c617b008a8501b352444ba8c7edbfa75"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/replay.py",
+      "bytes": 18188,
+      "sha256": "61dfe484844fed5676f3902733ead10416eef89fd34218b1461dd3bcebd816d9"
+    }
+  ],
+  "review_source_sha256": "ba0eb8b50cb6f2b5ba8bcff06137e4a47e462dde41271306977df96fcc1ee697",
+  "source_locations": {
+    "normal_stress": "mechanism_engine.py:15-20",
+    "applicability_mask": "mechanism_engine.py:38-47",
+    "Q2_full_history_fraction": "run_analytic_thermal.py:208",
+    "Q3_forecast_fraction": "mechanistic_replay.py:245-266",
+    "Q3_ensemble_fraction": "mechanistic_replay.py:300",
+    "density_mixture": "run_experiments.py:91"
+  },
+  "total_parameter_rows": 1536000,
+  "crossing_rows": 342,
+  "crossing_issue_count": 39,
+  "first_crossing_issue_utc": "2026-08-23T00:00:00Z",
+  "last_crossing_issue_utc": "2026-08-24T14:00:00Z",
+  "crossing_law_counts": {
+    "linear_extension": 171,
+    "thawed_rock_contact": 171
+  },
+  "crossing_weather_mode_counts": {
+    "assumed_latency": 264,
+    "ideal_weather": 78
+  },
+  "crossing_domain_fraction_unique": [
+    0.0
+  ],
+  "crossing_breakdown": [
+    {
+      "mechanism_id": "S",
+      "law_policy": "linear_extension",
+      "forecast_input_mode": "assumed_latency",
+      "rows": 132,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 0.0
+    },
+    {
+      "mechanism_id": "S",
+      "law_policy": "linear_extension",
+      "forecast_input_mode": "ideal_weather",
+      "rows": 39,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 0.0
+    },
+    {
+      "mechanism_id": "S",
+      "law_policy": "thawed_rock_contact",
+      "forecast_input_mode": "assumed_latency",
+      "rows": 132,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 0.0
+    },
+    {
+      "mechanism_id": "S",
+      "law_policy": "thawed_rock_contact",
+      "forecast_input_mode": "ideal_weather",
+      "rows": 39,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 0.0
+    }
+  ],
+  "p0149_physical_parameters": {
+    "theta_deg": 51.80316455641235,
+    "thickness_normal_m": 59.59384155043815,
+    "density_kg_m3": 2269.9135522491783,
+    "rock_volume_fraction": 0.7587849423719453,
+    "initial_temp_c": -3.26902638936412,
+    "connected_depth_m": 13.38534876160178,
+    "interface_depth_m": 2.782879601674987,
+    "bridge_fraction": 0.2362247712077073,
+    "damage_rate_h_inv": 4.5552215001962665e-06,
+    "initial_damage": 0.4432313159577994
+  },
+  "scalar_formula_check": {
+    "density_mixture_917_2700_kg_m3": 2269.9135522491783,
+    "normal_stress_kpa": 820.306718246536,
+    "driving_shear_kpa": 1042.5423767122813,
+    "initial_temperature_in_registered_domain": true,
+    "water_capacity_pressure_upper_bound_kpa": 131.2654304329621,
+    "effective_stress_lower_bound_all_p0149_mechanisms_kpa": 689.041287813574,
+    "stress_domain_upper_kpa": 400.0,
+    "domain_failure_reason": "stress_outside; constant S temperature is within interval"
+  },
+  "p0149_all_weather_trajectories": [
+    {
+      "mechanism_id": "S",
+      "law_policy": "linear_extension",
+      "rows": 750,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 0.0
+    },
+    {
+      "mechanism_id": "S",
+      "law_policy": "thawed_rock_contact",
+      "rows": 750,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 0.0
+    },
+    {
+      "mechanism_id": "S_H",
+      "law_policy": "linear_extension",
+      "rows": 750,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 2.162084179060602
+    },
+    {
+      "mechanism_id": "S_H",
+      "law_policy": "thawed_rock_contact",
+      "rows": 750,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 2.162084179060602
+    },
+    {
+      "mechanism_id": "S_T",
+      "law_policy": "linear_extension",
+      "rows": 750,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 0.0
+    },
+    {
+      "mechanism_id": "S_T",
+      "law_policy": "thawed_rock_contact",
+      "rows": 750,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 0.0
+    },
+    {
+      "mechanism_id": "S_T_H",
+      "law_policy": "linear_extension",
+      "rows": 750,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 2.157900464793472
+    },
+    {
+      "mechanism_id": "S_T_H",
+      "law_policy": "thawed_rock_contact",
+      "rows": 750,
+      "minimum_domain_fraction": 0.0,
+      "maximum_domain_fraction": 0.0,
+      "maximum_pressure_kpa": 2.157900464793472
+    }
+  ],
+  "p0149_Q2_full_history_outcomes": [
+    {
+      "scenario_id": "q2r3-p0149-S-linear__analytic_erfc_v1",
+      "mechanism_id": "S",
+      "law_policy": "linear_extension",
+      "strength_domain_fraction": 0.0,
+      "onset_status": "interval_crossing",
+      "onset_elapsed_hours": 2030.8444897172164,
+      "peak_pressure_kpa": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0149-S_T-linear__analytic_erfc_v1",
+      "mechanism_id": "S_T",
+      "law_policy": "linear_extension",
+      "strength_domain_fraction": 0.0,
+      "onset_status": "interval_crossing",
+      "onset_elapsed_hours": 293.94626762857104,
+      "peak_pressure_kpa": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0149-S_H-linear__analytic_erfc_v1",
+      "mechanism_id": "S_H",
+      "law_policy": "linear_extension",
+      "strength_domain_fraction": 0.0,
+      "onset_status": "interval_crossing",
+      "onset_elapsed_hours": 417.98140534737655,
+      "peak_pressure_kpa": 2.8187432748283268
+    },
+    {
+      "scenario_id": "q2r3-p0149-S_T_H-linear__analytic_erfc_v1",
+      "mechanism_id": "S_T_H",
+      "law_policy": "linear_extension",
+      "strength_domain_fraction": 0.0,
+      "onset_status": "interval_crossing",
+      "onset_elapsed_hours": 289.372401273954,
+      "peak_pressure_kpa": 2.818484326804569
+    },
+    {
+      "scenario_id": "q2r3-p0149-S-thaw__analytic_erfc_v1",
+      "mechanism_id": "S",
+      "law_policy": "thawed_rock_contact",
+      "strength_domain_fraction": 0.0,
+      "onset_status": "interval_crossing",
+      "onset_elapsed_hours": 2030.8444897172164,
+      "peak_pressure_kpa": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0149-S_T-thaw__analytic_erfc_v1",
+      "mechanism_id": "S_T",
+      "law_policy": "thawed_rock_contact",
+      "strength_domain_fraction": 0.0,
+      "onset_status": "interval_crossing",
+      "onset_elapsed_hours": 293.94626762857104,
+      "peak_pressure_kpa": 0.0
+    },
+    {
+      "scenario_id": "q2r3-p0149-S_H-thaw__analytic_erfc_v1",
+      "mechanism_id": "S_H",
+      "law_policy": "thawed_rock_contact",
+      "strength_domain_fraction": 0.0,
+      "onset_status": "interval_crossing",
+      "onset_elapsed_hours": 417.98140534737655,
+      "peak_pressure_kpa": 2.8187432748283268
+    },
+    {
+      "scenario_id": "q2r3-p0149-S_T_H-thaw__analytic_erfc_v1",
+      "mechanism_id": "S_T_H",
+      "law_policy": "thawed_rock_contact",
+      "strength_domain_fraction": 0.0,
+      "onset_status": "interval_crossing",
+      "onset_elapsed_hours": 289.372401273954,
+      "peak_pressure_kpa": 2.818484326804569
+    }
+  ],
+  "registered_applicability": {
+    "Mamot2018": {
+      "temperature_c": [
+        -8,
+        -0.5
+      ],
+      "effective_normal_kpa": [
+        100,
+        400
+      ],
+      "material": "ice-filled limestone joint",
+      "strain_rate_s_inv": "mean (4.8+/-1.4)e-3; not slow creep"
+    },
+    "conditional_extensions": [
+      "effective-stress substitution",
+      "area mixing",
+      "damage law",
+      "temperature/rain transfer",
+      "melt proxy",
+      "thaw branch mu=.6"
+    ]
+  },
+  "field_semantics": {
+    "Q2_strength_domain_fraction": "Mean Boolean over all 2089 Jun1-Aug27 source-state samples, not only Aug19 evaluation window; includes post-cross counterfactual continuation",
+    "Q3_strength_domain_fraction_observed": "Mean Boolean over L+1 issue..issue+L sampled states, where L is actual followup 0..72; includes issue, endpoint, and any post-cross continuation",
+    "sample_domain": "-8 <= model interface temperature <= -0.5 C AND 100 <= sigma_n - model pore_pressure <= 400 kPa; effective stress not clipped for this check",
+    "mechanics": "S/S_H freeze interface temperature at initial value; S/S_T force pore pressure=0; S_T/S_T_H use analytic temperature; H branches use scenario reservoir pressure",
+    "policies": "Same applicability mask for both laws; thawed_rock_contact above -0.5 C remains outside the Mamot mask; at p0149-S both laws are algebraically identical",
+    "interpretation": "Not a crossing-time flag, publication availability, experimental validation score, or probability; partial fraction does not identify which samples were in-domain"
+  },
+  "checks": {
+    "frozen_analytic_index_valid": true,
+    "input_bytes_unchanged": true,
+    "all_342_crossing_rows_present": true,
+    "all_crossing_domain_fractions_exact_zero": true,
+    "crossing_domain_fractions_nonmissing": true,
+    "only_p0149_S_supplies_crossing_rows": true,
+    "all_crossing_pressures_exact_zero": true,
+    "every_p0149_branch_never_reaches_registered_stress_domain_even_at_capacity": true
+  },
+  "passed": true,
+  "independent_observed_validation_events": 0
+}

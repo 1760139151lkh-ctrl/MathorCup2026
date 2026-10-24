@@ -1,0 +1,52 @@
+{
+  "generated_at_utc": "2026-10-24T09:51:27.933823+00:00",
+  "physics_rerun": false,
+  "prediction_rows": 243000,
+  "parameter_rows": 1536000,
+  "original_distribution_rows_verified": 60750,
+  "original_maximum_numeric_difference": {
+    "probability_start_within_horizon": 9.80118763926896e-17,
+    "probability_no_start_within_horizon": 1.1102230246251565e-16,
+    "probability_start_lower": 9.80118763926896e-17,
+    "probability_start_upper": 2.220446049250313e-16,
+    "conditional_lower_hours": 7.105427357601002e-15,
+    "conditional_median_hours": 7.105427357601002e-15,
+    "conditional_upper_hours": 7.105427357601002e-15,
+    "already_started_prior_mass": 3.885780586188048e-16,
+    "at_risk_prior_mass": 3.3306690738754696e-16,
+    "event_prior_mass": 9.974659986866641e-17,
+    "no_start_prior_mass": 3.3306690738754696e-16,
+    "unresolved_future_prior_mass": 3.3306690738754696e-16
+  },
+  "original_null_patterns_identical": {
+    "probability_start_within_horizon": true,
+    "probability_no_start_within_horizon": true,
+    "probability_start_lower": true,
+    "probability_start_upper": true,
+    "conditional_lower_hours": true,
+    "conditional_median_hours": true,
+    "conditional_upper_hours": true,
+    "already_started_prior_mass": true,
+    "at_risk_prior_mass": true,
+    "event_prior_mass": true,
+    "no_start_prior_mass": true,
+    "unresolved_future_prior_mass": true
+  },
+  "crossing_rows": 342,
+  "crossing_unique_physical_designs": 1,
+  "crossing_domain_fraction_all_zero": true,
+  "p0149_normal_stress_kpa": 820.306718246536,
+  "checks": {
+    "full_750_tracks_1536000_rows": true,
+    "all_342_crossing_rows_have_zero_observed_domain_fraction": true,
+    "all_crossings_same_single_S_parameter_design": true,
+    "original_60750_distributions_reproduced": true,
+    "strict_and_fraction_zero_positive_weight_events": true,
+    "unknown_positive_weight_never_exact_probability": true,
+    "empty_positive_risk_has_null_probability": true,
+    "zero_event_support_has_no_conditional_time_interval": true,
+    "no_historical_availability_or_local_validation_inferred": true
+  },
+  "passed": true,
+  "interpretation": "Current nonzero finite-design future-onset mass is wholly supported by trajectories outside implemented shear-law experiment domain. Retrospective reweighting removes that support; no safety, calibrated probability, material certification or operational eligibility is established."
+}

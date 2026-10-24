@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "full_750_tracks_1536000_rows": true,
+    "all_342_crossing_rows_have_zero_observed_domain_fraction": true,
+    "all_crossings_same_single_S_parameter_design": true,
+    "original_60750_distributions_reproduced": true,
+    "strict_and_fraction_zero_positive_weight_events": true,
+    "unknown_positive_weight_never_exact_probability": true,
+    "empty_positive_risk_has_null_probability": true,
+    "zero_event_support_has_no_conditional_time_interval": true,
+    "no_historical_availability_or_local_validation_inferred": true
+  },
+  "passed": true,
+  "local_truth_events": 0,
+  "physics_rerun": false
+}

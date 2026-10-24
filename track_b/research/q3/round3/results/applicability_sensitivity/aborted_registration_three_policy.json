@@ -1,0 +1,53 @@
+{
+  "registered_at_utc": "2026-10-24T09:45:01.693460+00:00",
+  "base_research_commit": "bb9258d791a6e9735c28528ff4408c7434c3d149",
+  "analysis_is_posthoc": true,
+  "physics_rerun": false,
+  "inputs": [
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/parameter_first_passages.parquet",
+      "bytes": 33794095,
+      "sha256": "fd557599f6fa54ad21bd7a44dd19aa74f5578ce73533db1ad8aeef19de2688d5"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/predictions.csv.gz",
+      "bytes": 887395,
+      "sha256": "a3dc1602e9d4ea7c80173286f5e78e5ef6cc15b2e00a0b0fb5d33f5ff3fa122d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv",
+      "bytes": 1171832,
+      "sha256": "8393874e341789316d2862435f8498ed8c9e01c4e3f674dc2b46d9bcadce6203"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/scenario_outcomes.csv",
+      "bytes": 909276,
+      "sha256": "847143dc8ad8c495ea6e7747fbbcdb187ef465b9c7879fecb4717135372dc30c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/PROTOCOL.md",
+      "bytes": 2440,
+      "sha256": "f5f39f9660501024ede1374c6b5bdec5281bcb5d8ea8278519d80ad6526211ba"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/applicability_sensitivity.py",
+      "bytes": 13057,
+      "sha256": "c2d7ee174878a67646c084ccde73b9646cc39cc79d10f41311883402a5d3bdd5"
+    }
+  ],
+  "policies": [
+    "original_design",
+    "all_observed_states_in_experiment_domain",
+    "observed_domain_fraction_weight"
+  ],
+  "original_assumed_priors": [
+    "uniform_design_assumption",
+    "equal_mechanism_then_design_assumption",
+    "fragile_issue_initial_margin_assumption"
+  ]
+}

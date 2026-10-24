@@ -1,0 +1,197 @@
+{
+  "reviewed_at_utc": "2026-10-24T09:56:49.448989+00:00",
+  "scope": "read-only source/output audit; only review_boundary files written; no physics or parent output modified",
+  "artificial_edge_inputs_are_research_data": false,
+  "review_script": {
+    "path": "results/applicability_sensitivity/review_boundary/read_only_boundary_review.py",
+    "bytes": 19879,
+    "sha256": "518aff76ed74a3abff6e571a63dbf9332211cb64d58dade757c497e449aa146f"
+  },
+  "inputs": [
+    {
+      "path": "scripts/applicability_sensitivity.py",
+      "bytes": 13744,
+      "sha256": "9c5fa15bc8a514bd90c6a335812b159bf15a91cad80176b6a4e8ccb82abff357"
+    },
+    {
+      "path": "results/applicability_sensitivity/PROTOCOL.md",
+      "bytes": 3999,
+      "sha256": "23accd9f5368f9877ef6a2e98caa06fde751c7b4b6c25cb59aac6d1c40f71689"
+    },
+    {
+      "path": "results/mechanistic_replay/analytic_erfc/parameter_first_passages.parquet",
+      "bytes": 33794095,
+      "sha256": "fd557599f6fa54ad21bd7a44dd19aa74f5578ce73533db1ad8aeef19de2688d5"
+    },
+    {
+      "path": "results/mechanistic_replay/analytic_erfc/predictions.csv.gz",
+      "bytes": 887395,
+      "sha256": "a3dc1602e9d4ea7c80173286f5e78e5ef6cc15b2e00a0b0fb5d33f5ff3fa122d"
+    },
+    {
+      "path": "results/applicability_sensitivity/predictions.csv.gz",
+      "bytes": 3752720,
+      "sha256": "7f285cfcfc9a86e5b0237fe3392c3361ddb87807815c671e55cb4969770a4a83"
+    },
+    {
+      "path": "results/applicability_sensitivity/summary.json",
+      "bytes": 2437,
+      "sha256": "d8c667627a34a2d483b06c95eb0afe72dca8c7e4225dd2527404c8b148ef882f"
+    },
+    {
+      "path": "results/applicability_sensitivity/mixture_mechanism_masses.csv.gz",
+      "bytes": 285229,
+      "sha256": "e3e6e596fb3b3094dd77a14510cdca4fe92874323bcb733b894125bc8fe0d314"
+    },
+    {
+      "path": "results/applicability_sensitivity/conservative_mass_transfers.csv.gz",
+      "bytes": 41196,
+      "sha256": "feca3abe58768d4218903819805e8af708d55509e5f20fd923e57fd521cacc0f"
+    },
+    {
+      "path": "results/applicability_sensitivity/input_registration.json",
+      "bytes": 2228,
+      "sha256": "1723acef71726d8e6d371acd8923011807dba221646c897a7ace4d002d4bc05f"
+    },
+    {
+      "path": "results/applicability_sensitivity/protocol_snapshot_binding.json",
+      "bytes": 550,
+      "sha256": "1f15784bb8d5721552b5f1f0372e75acc44dcfcb41f9229e7eb5a67502218a94"
+    },
+    {
+      "path": "scripts/applicability_mass_audit.py",
+      "bytes": 4930,
+      "sha256": "c97da8d3b2e0d0f2588bf5f4d3d8ed2f235551d636e3ffee7a304b3a247691e3"
+    }
+  ],
+  "edge_checks": {
+    "complete_nonfailure_p0_no_time_interval": true,
+    "short_followup_unknown_not_noevent": true,
+    "zero_total_weights_all_conditionals_null": true,
+    "empty_risk_all_conditionals_null": true,
+    "outdomain_past_to_state_unknown": true,
+    "mixed_possible_risk_bounds": true,
+    "mixed_partition_mass_closed": true
+  },
+  "domain_granularity": {
+    "rows": 1536000,
+    "maximum_followup_hours": 72,
+    "minimum_positive_factor": 0.0136986301369863,
+    "maximum_integer_count_residual": 7.105427357601002e-15,
+    "conservative_positive_weight_floor": 3.036703349909357e-10,
+    "tolerance": 1e-12,
+    "passed": true,
+    "scope": "frozen binary-state means and original clipped-margin priors only; not arbitrary future weighting"
+  },
+  "complete_actual_output_review": {
+    "checks": {
+      "four_policies_243000_rows": true,
+      "every_policy_60750": true,
+      "original_all_keys_and_15_numeric_fields_reproduced": true,
+      "past_risk_mass_partition": true,
+      "event_no_unknown_partition": true,
+      "all_empty_risk_conditionals_null": true,
+      "all_zero_total_conditionals_null": true,
+      "any_actual_positive_unknown_never_exact": true,
+      "zero_event_support_all_time_quantiles_null": true,
+      "no_validation_or_operational_claim_added": true,
+      "fourth_original_weights_unchanged": true,
+      "fourth_risk_reincludes_exact_outdomain_past": true,
+      "fourth_transferred_classes_are_nonnegative": true,
+      "fourth_unknown_mass_contains_all_transfers": true,
+      "fourth_possible_risk_bounds_formula": true,
+      "bounds_in_unit_interval_ordered": true,
+      "complementary_no_event_bounds": true
+    },
+    "original_null_patterns_equal": {
+      "probability_start_within_horizon": true,
+      "probability_no_start_within_horizon": true,
+      "probability_start_lower": true,
+      "probability_start_upper": true,
+      "probability_no_start_lower": true,
+      "probability_no_start_upper": true,
+      "conditional_lower_hours": true,
+      "conditional_median_hours": true,
+      "conditional_upper_hours": true,
+      "conditional_interval_level": true,
+      "already_started_prior_mass": true,
+      "at_risk_prior_mass": true,
+      "event_prior_mass": true,
+      "no_start_prior_mass": true,
+      "unresolved_future_prior_mass": true
+    },
+    "original_maximum_absolute_differences": {
+      "probability_start_within_horizon": 0.0,
+      "probability_no_start_within_horizon": 0.0,
+      "probability_start_lower": 0.0,
+      "probability_start_upper": 2.220446049250313e-16,
+      "probability_no_start_lower": 3.3306690738754696e-16,
+      "probability_no_start_upper": 0.0,
+      "conditional_lower_hours": 0.0,
+      "conditional_median_hours": 0.0,
+      "conditional_upper_hours": 0.0,
+      "conditional_interval_level": 0.0,
+      "already_started_prior_mass": 3.885780586188048e-16,
+      "at_risk_prior_mass": 3.3306690738754696e-16,
+      "event_prior_mass": 0.0,
+      "no_start_prior_mass": 3.3306690738754696e-16,
+      "unresolved_future_prior_mass": 3.3306690738754696e-16
+    },
+    "actual_prediction_rows": 243000,
+    "actual_empty_risk_rows": 0,
+    "actual_zero_total_rows": 0,
+    "actual_positive_unknown_rows": 133893,
+    "passed": true
+  },
+  "explicit_mechanism_and_transfer_tables": {
+    "checks": {
+      "36000_mechanism_rows_9000_mixture_groups": true,
+      "four_distinct_mechanisms_every_mixture_group": true,
+      "original_mechanism_mass_sum_one": true,
+      "new_mechanism_mass_sum_one_or_zero": true,
+      "new_possible_risk_mass_matches_main": true,
+      "original_outdomain_mass_matches_main": true,
+      "retained_mass_matches_main": true,
+      "original_risk_mass_matches_original_main": true,
+      "6750_transfer_rows_all_matched": true,
+      "conservative_unknown_mass_matches_main": true,
+      "conservative_known_event_mass_matches_main": true,
+      "conservative_known_no_start_mass_matches_main": true,
+      "conservative_known_past_mass_matches_main": true,
+      "original_event_mass_matches_original": true,
+      "original_no_start_mass_matches_original": true,
+      "original_future_unknown_mass_matches_original": true,
+      "original_already_started_mass_matches_original": true,
+      "unknown_transfer_no_loss_or_double_count": true,
+      "event_no_past_transfer_equal_class_losses": true
+    },
+    "passed": true,
+    "mixture_mechanism_rows": 36000,
+    "mixture_groups": 9000,
+    "mass_transfer_rows": 6750,
+    "scope": "independent table-to-main-mass reconciliation plus source reading; no physics rerun"
+  },
+  "protocol_version_binding": {
+    "checks": {
+      "execution_protocol_snapshot_matches_bound_hash": true,
+      "registration_protocol_matches_bound_execution": true,
+      "reviewed_main_source_matches_executed_source": true
+    },
+    "passed": true,
+    "snapshot": {
+      "path": "results/applicability_sensitivity/execution_protocol_080706ce65a85932bcf2a2e98b5b86cf124dfb6b9ba792f5ad74f87c57f2b254.md",
+      "bytes": 3154,
+      "sha256": "080706ce65a85932bcf2a2e98b5b86cf124dfb6b9ba792f5ad74f87c57f2b254"
+    },
+    "note": "Current explanation is a later revision; executed protocol snapshot and original registration are separately retained."
+  },
+  "status": "complete_actual_output_review",
+  "limitations": [
+    "All domain-fraction selection is retrospective and uses future scenario states, not an operational eligibility gate.",
+    "Fourth-policy bounds condition on the stated retained in-domain original-history classification; forecast-domain validity alone does not certify all earlier history.",
+    "E/(R+U) and (E+V+U)/(R+U) are coherent possible-risk bounds under those classifications; neither is a local population-risk guarantee.",
+    "No event support does not establish safety; null and unresolved masses must remain visible.",
+    "Only temperature/effective-stress experimental-domain flags are audited, not complete material or slow-creep applicability."
+  ],
+  "passed": true
+}
