@@ -1,0 +1,129 @@
+{
+  "version": "ravaflow4r7-resourcefix1",
+  "created_utc": "2026-10-24T08:42:22.262567+00:00",
+  "root": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/release_addon",
+  "immutable_after_publication": true,
+  "file_count": 24,
+  "files": [
+    {
+      "path": "addons_paths.json",
+      "bytes": 941746,
+      "sha256": "c15770f92c06ca3bab91876608712b047d67669ca6d44591003270371635ec97"
+    },
+    {
+      "path": "bin/r.avaflow.main",
+      "bytes": 1687656,
+      "sha256": "45ace2befd657d31232a73e1f5eabc174dd68c5962f6353385594fc70499bc1c"
+    },
+    {
+      "path": "docs/html/r.avaflow.40G.html",
+      "bytes": 16640,
+      "sha256": "ad571de148c6d65bf9018d32c4a008735bfa40a0e3658ceccc1802f214857221"
+    },
+    {
+      "path": "docs/html/r.avaflow.background.html",
+      "bytes": 3369,
+      "sha256": "16682fe4783af84f3d9a50851d6234ba03082f53e42a248b21b455f3885ac708"
+    },
+    {
+      "path": "docs/html/r.avaflow.main.html",
+      "bytes": 2783,
+      "sha256": "a5475e568ebd0eb10121467ee6451c5daad6b5bb8d41929780c467d7a9787c46"
+    },
+    {
+      "path": "docs/html/r.avaflow.mult.html",
+      "bytes": 2712,
+      "sha256": "73a6633826d708ef754e1dade59357e4018e6a6cd958715fd30840694bb838d2"
+    },
+    {
+      "path": "docs/html/r.avaflow.paraview.html",
+      "bytes": 4677,
+      "sha256": "59532f3159a2813119b80abdb0bc9c19b720fec9a7c174ea836fda7a2ad32f18"
+    },
+    {
+      "path": "docs/html/r.lakefill.html",
+      "bytes": 3367,
+      "sha256": "34509239c2a68ce00f2d3a5b88afff1c0444e28b12bf625c96ccd3f9c2907419"
+    },
+    {
+      "path": "docs/html/r.scarp.html",
+      "bytes": 3615,
+      "sha256": "852fb0933d16aef62342277d84e667f6b594ee3c79cba98020410ef79f34ea18"
+    },
+    {
+      "path": "docs/man/man1/r.avaflow.40G.1",
+      "bytes": 13711,
+      "sha256": "fe189342b77439d79f72e264a819fd29db96d79eef53fa54a455ed956e55b9f4"
+    },
+    {
+      "path": "docs/man/man1/r.avaflow.background.1",
+      "bytes": 1602,
+      "sha256": "43d3f75296d384e821582ac8e435958efb45117703a613ecf19fc998d68a2bab"
+    },
+    {
+      "path": "docs/man/man1/r.avaflow.main.1",
+      "bytes": 1213,
+      "sha256": "3e7ba357b13a799b3312c423c769f72c30fa6135193b68e525a2290050039441"
+    },
+    {
+      "path": "docs/man/man1/r.avaflow.mult.1",
+      "bytes": 1149,
+      "sha256": "064a957db611771eb5b17bfea124c73da9e0f4e6d7996f05b875f1a6c21fc32c"
+    },
+    {
+      "path": "docs/man/man1/r.avaflow.paraview.1",
+      "bytes": 2845,
+      "sha256": "2d83340bc3ec806181f565aac98388930b762536e86bbbc82fb8744a3bfd0c03"
+    },
+    {
+      "path": "docs/man/man1/r.lakefill.1",
+      "bytes": 1738,
+      "sha256": "2fe9f3ddc1aadae34b1811d55274d5341cf81fdb83b07ee0dd0af713805c43ef"
+    },
+    {
+      "path": "docs/man/man1/r.scarp.1",
+      "bytes": 1957,
+      "sha256": "6bb3bd1da8bd561985a9d10acab6c35f5251515a7a2e6cdf3b76ce706675f15c"
+    },
+    {
+      "path": "extensions.xml",
+      "bytes": 2428,
+      "sha256": "bf4acaa0647e9ac1d57573639a5efb7ae4d8cc8fe6bc0b182181f65b6b581851"
+    },
+    {
+      "path": "modules.xml",
+      "bytes": 1828,
+      "sha256": "e5543f256179e76927cea576bd6759838c420b024a89aa927aa5a95cdf91a864"
+    },
+    {
+      "path": "scripts/r.avaflow.40G",
+      "bytes": 100486,
+      "sha256": "d062d4c62092e9cb026cd55869505e16db2aea463c603ec997740ff1beb682ec"
+    },
+    {
+      "path": "scripts/r.avaflow.background",
+      "bytes": 6517,
+      "sha256": "50bd4ea8f304475777e77d216be8325be081f9a87bf91c4e216c366c5384ea7b"
+    },
+    {
+      "path": "scripts/r.avaflow.mult",
+      "bytes": 2367,
+      "sha256": "aadb7aed7a6742b432d287e701f47e793c525fdb2cc1b02036956928def1cf2b"
+    },
+    {
+      "path": "scripts/r.avaflow.paraview",
+      "bytes": 22023,
+      "sha256": "e45ff2807a199e8f3b61b85bb0d7662175175aa08e398bd42d47e01153b97151"
+    },
+    {
+      "path": "scripts/r.lakefill",
+      "bytes": 5221,
+      "sha256": "0c03c48c898636b55bdbac5e192fbc807e2bb9f8ac4951c09e3ea685024d7308"
+    },
+    {
+      "path": "scripts/r.scarp",
+      "bytes": 4839,
+      "sha256": "2e49b886c7e944bc0563447570e596c3a8cb2cc302e8a177729847ec9c6101d6"
+    }
+  ]
+}

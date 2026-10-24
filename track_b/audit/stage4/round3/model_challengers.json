@@ -17,7 +17,10 @@
         "state/crossing hourly and no-start/left-censor categories retained"
       ],
       "outputs": "independent analytic engine, complete outcomes, parameter/base-scenario map, export bundle; no old bytes overwritten",
-      "scientific_adoption": "pending_review"
+      "scientific_adoption": "pending_review",
+      "technical_review": "passed_full2048_and_independent_kernel_review",
+      "result": "137 finite onset pairs, max analytic-vs-fineFD0.34708h, analytic-vs-v2 19.07238h, all categories unchanged",
+      "export": "track_b/research/q2/round3/exports/analytic_thermal_bundle.json"
     }
   ]
 }

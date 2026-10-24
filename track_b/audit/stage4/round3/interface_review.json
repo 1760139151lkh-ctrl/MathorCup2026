@@ -48,7 +48,7 @@
     "first_passage gap detection must check missing timestamp rows, not only finite values",
     "discover/read Q2 state_trajectories.parquet, not CSV only"
   ],
-  "actual_review_updated_at_utc": "2026-10-24T08:13:14.102480+00:00",
+  "actual_review_updated_at_utc": "2026-10-24T08:52:29.251043+00:00",
   "q4_code_review": {
     "reviewed": [
       "official_prepare.py",
@@ -72,5 +72,19 @@
   "supplementary_evidence_requests": [
     "Q2 first-passage convergence for largest v1-v2 timing differences",
     "Q2 published candidate ice fraction10-15percent versus initial design20-80percent ice; retain original and add paired domain sensitivity"
-  ]
+  ],
+  "analytic_thermal_review": {
+    "upstream_sha256": "ff989d23894f9b2d44daf032418583430791ef5b8367d423aa5cb54763767684",
+    "files_verified": 21,
+    "scenario_outcomes": 2048,
+    "finite_onset_pairs": 137,
+    "left_censored": 248,
+    "never_crossed": 1663,
+    "representative_state_rows": 133696,
+    "independent_direct_fft_max_abs_error_c": 4.440892098500626e-16,
+    "max_analytic_fd0625_onset_difference_h": 0.34707951714221963,
+    "max_analytic_v2_onset_difference_h": 19.07238048020787,
+    "category_changes": 0,
+    "scope": "Numerical reference under registered linear conduction boundary, not exact full coupling or scientific validation; new onset version joins unchanged release through base_scenario_id."
+  }
 }

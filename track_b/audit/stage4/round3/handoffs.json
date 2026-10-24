@@ -1063,7 +1063,166 @@
         }
       ],
       "review_note": "Accepted as paired parameter-domain sensitivity: literature-candidate rock fractions0.85/0.90 on8 fixed representatives,128 integrations. Bulk density intervention only; bridge area fraction and all other paired parameters unchanged. Categories unchanged while finite crossing times shift substantially; not event calibration, probability prior, new release mapping or observed material composition. Existing release bundles not altered."
+    },
+    {
+      "producer": "q2",
+      "consumer": "q3",
+      "bundle_version": "q2-r3-analytic-erfc-thermal-v1",
+      "upstream_path": "track_b/research/q2/round3/exports/analytic_thermal_bundle.json",
+      "upstream_bundle_sha256": "ff989d23894f9b2d44daf032418583430791ef5b8367d423aa5cb54763767684",
+      "delivered_bundle_path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/bundle.json",
+      "delivered_bundle_sha256": "05e8b885198a3011e316472f562ba92480788cb04c6ab9bebfb3e04dbd3660ca",
+      "files": [
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/protocol.json",
+          "bytes": 1304,
+          "sha256": "1b775e7a942d9cbb0709d4a45f914fa3bba88e76229a466858911d2791bf53fd",
+          "role": "protocol.json",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/protocol.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/config.json",
+          "bytes": 4478,
+          "sha256": "539c6e857d5d07e2cab7a70346ec02d2aad13eb47ee546df17f797850446177d",
+          "role": "config.json",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/config.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/forcing_hourly.csv",
+          "bytes": 278218,
+          "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+          "role": "forcing_hourly.csv",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/forcing_hourly.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/numerical_benchmarks.json",
+          "bytes": 3328,
+          "sha256": "309fbe00d9afdb948f3b08b6253210bf52cba6378d089bf4e38bfe9aa0f8141a",
+          "role": "numerical_benchmarks.json",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/numerical_benchmarks.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/finite_mirror_fd_cases.csv",
+          "bytes": 993,
+          "sha256": "909a5b18af508fecda3129d4f23d414bab0ca02d5d6c4a9fd10326bbae11f502",
+          "role": "finite_mirror_fd_cases.csv",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/finite_mirror_fd_cases.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/reflection_bounds.csv",
+          "bytes": 34816,
+          "sha256": "961f6fea14872b3d0c7cfa43f03f687a7b14750182eb94d5d04af53161b7a5c2",
+          "role": "reflection_bounds.csv",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/reflection_bounds.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/scenario_outcomes.csv",
+          "bytes": 909276,
+          "sha256": "847143dc8ad8c495ea6e7747fbbcdb187ef465b9c7879fecb4717135372dc30c",
+          "role": "scenario_outcomes.csv",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/scenario_outcomes.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv",
+          "bytes": 1171832,
+          "sha256": "8393874e341789316d2862435f8498ed8c9e01c4e3f674dc2b46d9bcadce6203",
+          "role": "parameter_ensemble.csv",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/parameter_ensemble.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/state_trajectories.parquet",
+          "bytes": 3188841,
+          "sha256": "6592967eafdbdde9cce6c0547943abf7d15190c8ce9aac70f085b969ccf6e1bb",
+          "role": "state_trajectories.parquet",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/state_trajectories.parquet"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/model_comparison.csv",
+          "bytes": 1614,
+          "sha256": "add46d7873516e8b91db034308fd46b4eef08f912c9f442ce161b79b3a744921",
+          "role": "model_comparison.csv",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/paired_v2_fd0625.csv",
+          "bytes": 576099,
+          "sha256": "a9a620bd0566603b22205c30babe8cbb5736585f6a845bd01576431b9830aac9",
+          "role": "paired_v2_fd0625.csv",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/paired_v2_fd0625.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/diagnostic_traces.csv",
+          "bytes": 1818058,
+          "sha256": "2f8fefb7599d2b42a2a17a7f7f0b531b29fa6cbed9509ffbf5b4f8e29791b9f5",
+          "role": "diagnostic_traces.csv",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/diagnostic_traces.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/joint_sensitivity.csv",
+          "bytes": 26199,
+          "sha256": "cc1df1e87bfb6a8ab0a0fa2086de5a3ebc4d11a39bec37101369c763afd77187",
+          "role": "joint_sensitivity.csv",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/interaction.csv",
+          "bytes": 8384,
+          "sha256": "308494ed4c083c8759d97181124f282c83ee4183470f875c3220fda6bca921c1",
+          "role": "interaction.csv",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/interaction.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/mechanism_contract.json",
+          "bytes": 4149,
+          "sha256": "44d3966717bdddc04e31ff8e4089bb8a7321a6a33e850371e3cb4c15cd4d1e4d",
+          "role": "mechanism_contract.json",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/mechanism_contract.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/summary.json",
+          "bytes": 3610,
+          "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080",
+          "role": "summary.json",
+          "upstream_path": "track_b/research/q2/round3/results/analytic_thermal/summary.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/analytic_thermal_engine.py",
+          "bytes": 7560,
+          "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607",
+          "role": "callable_analytic_thermal_wrapper",
+          "upstream_path": "track_b/research/q2/round3/scripts/analytic_thermal_engine.py"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/run_analytic_thermal.py",
+          "bytes": 34185,
+          "sha256": "8cb54a4a6db606994c18d9e82ab9dce8269e77b1e5445287f9f5d865f3e3e1d6",
+          "role": "analytic_reproduction_script",
+          "upstream_path": "track_b/research/q2/round3/scripts/run_analytic_thermal.py"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+          "bytes": 10650,
+          "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+          "role": "frozen_mechanical_engine",
+          "upstream_path": "track_b/research/q2/round3/scripts/mechanism_engine.py"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/run_experiments.py",
+          "bytes": 21983,
+          "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1",
+          "role": "frozen_parameter_design_source",
+          "upstream_path": "track_b/research/q2/round3/scripts/run_experiments.py"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/ANALYTIC_THERMAL.md",
+          "bytes": 4168,
+          "sha256": "0902aface2105015fb278a2590593d010cedfd9e2d025e34813b1025a182877a",
+          "role": "methods_results_limits",
+          "upstream_path": "track_b/research/q2/round3/ANALYTIC_THERMAL.md"
+        }
+      ],
+      "review_note": "Accept as numerical thermal reference within the registered linear hourly-step boundary only; 2048 outcomes preserve all censoring/base IDs and 137 finite pairs. Max onset difference vs fine FD 0.34708 h, vs v2 19.07238 h. Not an exact coupled solution, observed initiation label, calibrated probability, or validation event. Keep all previous versions and report strength-branch/time-discretization limitations."
     }
   ],
-  "updated_at_utc": "2026-10-24T08:33:16.017082+00:00"
+  "updated_at_utc": "2026-10-24T08:48:32.607093+00:00"
 }

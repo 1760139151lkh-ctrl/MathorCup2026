@@ -102,6 +102,13 @@
     "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
     "image_tag": "mathorcup-r3-solvers:r3-rev7-dclaw1-20261024",
     "evidence": "track_b/audit/stage4/round3/runtime/advisor_snapshot.json",
-    "cache_root": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime"
+    "cache_root": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime",
+    "derived_resource_fix": {
+      "status": "ready",
+      "image_id": "sha256:3d8d8b4a31a520f64c52c2e8d3e23684181222c40ffd246f2d9e25d5cd511bce",
+      "image_tag": "mathorcup-r3-solvers:r3-resourcefix1-20261024",
+      "evidence": "track_b/audit/stage4/round3/runtime_resourcefix1/advisor_snapshot.json",
+      "scope": "45 final Segment cleanup calls only; all original equations unchanged; csurface=0 common70 ASCII byte identical"
+    }
   }
 }

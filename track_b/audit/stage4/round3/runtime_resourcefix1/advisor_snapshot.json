@@ -1,0 +1,75 @@
+{
+  "generated_at_utc": "2026-10-24T08:49:47.291154+00:00",
+  "image_id": "sha256:3d8d8b4a31a520f64c52c2e8d3e23684181222c40ffd246f2d9e25d5cd511bce",
+  "inspection": "sha256:3d8d8b4a31a520f64c52c2e8d3e23684181222c40ffd246f2d9e25d5cd511bce linux/amd64",
+  "verified_cache_artifacts": 633,
+  "files": [
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/runtime_resourcefix_handoff.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime_resourcefix1/runtime_resourcefix_handoff.json",
+      "bytes": 4752,
+      "sha256": "41b816bdb13d5abf9bd65998b3fae7e738556e731cbf86711bf184f7546c92b7"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/RUNTIME_RESOURCE_FIX.md",
+      "saved_path": "track_b/audit/stage4/round3/runtime_resourcefix1/RUNTIME_RESOURCE_FIX.md",
+      "bytes": 5594,
+      "sha256": "64e1131bd36b08459d0162c24bd3f081a35bb29dd5679457a7f9311509188d65"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/resourcefix1_addon_manifest.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime_resourcefix1/resourcefix1_addon_manifest.json",
+      "bytes": 4149,
+      "sha256": "6702a2bf4e7e6d4514b209ec465f98861cb632ac16bad4b1f1475a8683f09bef"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/resourcefix1_evidence_manifest.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime_resourcefix1/resourcefix1_evidence_manifest.json",
+      "bytes": 162189,
+      "sha256": "3ca98a84257aa06ce1e7e82cac0e30856ac782525fbd66d401d10de313b987d9"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/resourcefix1_image_inspect.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime_resourcefix1/resourcefix1_image_inspect.json",
+      "bytes": 2604,
+      "sha256": "a7734f74b16dfbf683e8e1898e1f397bf8ffc65973a3eb1bb240d07b90994237"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/valid_cs0_regression.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime_resourcefix1/valid_cs0_regression.json",
+      "bytes": 64212,
+      "sha256": "bd0433584a870308f949170b50f20d4abd03df284e207dc85927f197bfda4c75"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/resource_ownership_check.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime_resourcefix1/resource_ownership_check.json",
+      "bytes": 1271,
+      "sha256": "29c7f01a8c847b7f4d4b6e33e2aad4cc6cc68312712c076efc5e0e368c35ec4e"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/segment_close.patch",
+      "saved_path": "track_b/audit/stage4/round3/runtime_resourcefix1/segment_close.patch",
+      "bytes": 5905,
+      "sha256": "f9da53231d43cb741d51e65293f895d7347b38c76993beb8d37d3b159759d177"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/change_manifest.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime_resourcefix1/change_manifest.json",
+      "bytes": 850,
+      "sha256": "fd3422d4cc433b61af5739b01e1e52981fcc6e99a7db96554cdfb59bc64faea7"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/physical_output_comparison_asan.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime_resourcefix1/physical_output_comparison_asan.json",
+      "bytes": 520,
+      "sha256": "d1558680c43046a820d35d65f4032751001a21d966f0b47a755f08581a32694e"
+    },
+    {
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/physical_output_comparison_production.json",
+      "saved_path": "track_b/audit/stage4/round3/runtime_resourcefix1/physical_output_comparison_production.json",
+      "bytes": 5358,
+      "sha256": "fa830e9545ebcd68fb6198236cb8bb1be16ee21776a8664b690bf6de8fd8494d"
+    }
+  ],
+  "scope": "Independent byte/hash verification and published resource-only regression; no scientific validation claim."
+}

@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-24T08:20:31.331928+00:00",
+  "patch": "Segment_open cleanup paired with Segment_close; 45 call sites in final cleanup only",
+  "original_sha256": "cdb1168d7cf154e3504d199f7bef8d095cbafe74298cb9087874e1d700a1127a",
+  "derived_sha256": "5cd245c8aadc8f1869cb091a0eefc49e3f3241cec4a8266bd117a432d0f1b975",
+  "replacement_count": 45,
+  "no_other_source_bytes_changed": true,
+  "physical_equations_changed": false,
+  "independent_static_review": "45 unique opened handles and identical cleanup conditions; no later use or other manual free/close of internals",
+  "microtest_sources": [
+    "https://raw.githubusercontent.com/OSGeo/grass/7.8.7/lib/segment/open.c",
+    "https://raw.githubusercontent.com/OSGeo/grass/7.8.7/lib/segment/release.c",
+    "https://raw.githubusercontent.com/OSGeo/grass/7.8.7/lib/segment/close.c"
+  ]
+}

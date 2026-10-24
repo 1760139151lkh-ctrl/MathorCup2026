@@ -1,0 +1,94 @@
+--- original/r.avaflow.main/main.c
++++ derived/r.avaflow.main/main.c
+@@ -12480,49 +12480,49 @@
+     #ifdef WITHGRASS
+ 
+ 
+-        Segment_release(&seg_elev); // releasing segment data (if GRASS is used)
+-        if ( sico.RELM == 1 ) Segment_release(&seg_hrelease);
+-        if ( sico.RELV == 1 ) { Segment_release(&seg_vinx); Segment_release(&seg_viny); }
+-        if ( sico.ENTR == 1 ) Segment_release(&seg_hentrmax);
+-        if ( sico.MODEL == 7 && sico.RELM2 == 1 ) Segment_release(&seg_hrelease2);
+-        if ( sico.MODEL == 7 && sico.RELM3 == 1 ) Segment_release(&seg_hrelease3);
+-        if ( sico.MODEL == 7 && sico.RELV2 == 1 ) { Segment_release(&seg_vinx2); Segment_release(&seg_viny2); }
+-        if ( sico.MODEL == 7 && sico.RELV3 == 1 ) { Segment_release(&seg_vinx3); Segment_release(&seg_viny3); }
+-        if ( sico.MODEL == 7 && sico.ENTR2 == 1 ) Segment_release(&seg_hentrmax2);
+-        if ( sico.MODEL == 7 && sico.ENTR3 == 1 ) Segment_release(&seg_hentrmax3);
+-        if ( sico.ZONES == 1 ) Segment_release(&seg_zones);
+-        if ( sico.CENTR == 1 ) Segment_release(&seg_centr);
+-        if ( sico.PHI == 1 ) Segment_release(&seg_phi);
+-        if ( sico.PHI2 == 1 ) Segment_release(&seg_phi2);
+-        if ( sico.PHI3 == 1 ) Segment_release(&seg_phi3);
+-        if ( sico.DELTA == 1 ) Segment_release(&seg_delta);
+-        if ( sico.DELTA2 == 1 ) Segment_release(&seg_delta2);
+-        if ( sico.DELTA3 == 1 ) Segment_release(&seg_delta3);
+-        if ( sico.ADDFRI == 1 ) Segment_release(&seg_addfri);
+-        if ( sico.ADDFRI2 == 1 ) Segment_release(&seg_addfri2);
+-        if ( sico.ADDFRI3 == 1 ) Segment_release(&seg_addfri3);
+-        if ( sico.COHESION == 1 ) Segment_release(&seg_cohesion);
+-        if ( sico.COHESION2 == 1 ) Segment_release(&seg_cohesion2);
+-        if ( sico.COHESION3 == 1 ) Segment_release(&seg_cohesion3);
+-        if ( sico.NY == 1 ) Segment_release(&seg_ny);
+-        if ( sico.NY2 == 1 ) Segment_release(&seg_ny2);
+-        if ( sico.NY3 == 1 ) Segment_release(&seg_ny3);
+-        if ( sico.CDEFORM == 1 ) Segment_release(&seg_cdeform);
+-        if ( sico.AMBDRAG == 1 ) Segment_release(&seg_ambdrag);
+-        if ( sico.TRANS12 == 1 ) Segment_release(&seg_trans12);
+-        if ( sico.TRANS13 == 1 ) Segment_release(&seg_trans13);
+-        if ( sico.TRANS23 == 1 ) Segment_release(&seg_trans23);
+-        if ( sico.ZFRAG == 1 ) Segment_release(&seg_zfrag);
+-        if ( sico.TRELEASE == 1 ) Segment_release(&seg_trelease);
+-        if ( sico.TRELSTOP == 1 ) Segment_release(&seg_trelstop);
+-        if ( sico.STOPTIME == 1 ) Segment_release(&seg_stoptime);
+-        if ( sico.TSLIDE == 1 ) Segment_release(&seg_tslide);
+-        if ( sico.IMPACTAREA == 1 ) Segment_release(&seg_impactarea);
+-        if ( sico.HDEPOSIT == 1 ) Segment_release(&seg_hdeposit);
++        Segment_close(&seg_elev); // releasing segment data (if GRASS is used)
++        if ( sico.RELM == 1 ) Segment_close(&seg_hrelease);
++        if ( sico.RELV == 1 ) { Segment_close(&seg_vinx); Segment_close(&seg_viny); }
++        if ( sico.ENTR == 1 ) Segment_close(&seg_hentrmax);
++        if ( sico.MODEL == 7 && sico.RELM2 == 1 ) Segment_close(&seg_hrelease2);
++        if ( sico.MODEL == 7 && sico.RELM3 == 1 ) Segment_close(&seg_hrelease3);
++        if ( sico.MODEL == 7 && sico.RELV2 == 1 ) { Segment_close(&seg_vinx2); Segment_close(&seg_viny2); }
++        if ( sico.MODEL == 7 && sico.RELV3 == 1 ) { Segment_close(&seg_vinx3); Segment_close(&seg_viny3); }
++        if ( sico.MODEL == 7 && sico.ENTR2 == 1 ) Segment_close(&seg_hentrmax2);
++        if ( sico.MODEL == 7 && sico.ENTR3 == 1 ) Segment_close(&seg_hentrmax3);
++        if ( sico.ZONES == 1 ) Segment_close(&seg_zones);
++        if ( sico.CENTR == 1 ) Segment_close(&seg_centr);
++        if ( sico.PHI == 1 ) Segment_close(&seg_phi);
++        if ( sico.PHI2 == 1 ) Segment_close(&seg_phi2);
++        if ( sico.PHI3 == 1 ) Segment_close(&seg_phi3);
++        if ( sico.DELTA == 1 ) Segment_close(&seg_delta);
++        if ( sico.DELTA2 == 1 ) Segment_close(&seg_delta2);
++        if ( sico.DELTA3 == 1 ) Segment_close(&seg_delta3);
++        if ( sico.ADDFRI == 1 ) Segment_close(&seg_addfri);
++        if ( sico.ADDFRI2 == 1 ) Segment_close(&seg_addfri2);
++        if ( sico.ADDFRI3 == 1 ) Segment_close(&seg_addfri3);
++        if ( sico.COHESION == 1 ) Segment_close(&seg_cohesion);
++        if ( sico.COHESION2 == 1 ) Segment_close(&seg_cohesion2);
++        if ( sico.COHESION3 == 1 ) Segment_close(&seg_cohesion3);
++        if ( sico.NY == 1 ) Segment_close(&seg_ny);
++        if ( sico.NY2 == 1 ) Segment_close(&seg_ny2);
++        if ( sico.NY3 == 1 ) Segment_close(&seg_ny3);
++        if ( sico.CDEFORM == 1 ) Segment_close(&seg_cdeform);
++        if ( sico.AMBDRAG == 1 ) Segment_close(&seg_ambdrag);
++        if ( sico.TRANS12 == 1 ) Segment_close(&seg_trans12);
++        if ( sico.TRANS13 == 1 ) Segment_close(&seg_trans13);
++        if ( sico.TRANS23 == 1 ) Segment_close(&seg_trans23);
++        if ( sico.ZFRAG == 1 ) Segment_close(&seg_zfrag);
++        if ( sico.TRELEASE == 1 ) Segment_close(&seg_trelease);
++        if ( sico.TRELSTOP == 1 ) Segment_close(&seg_trelstop);
++        if ( sico.STOPTIME == 1 ) Segment_close(&seg_stoptime);
++        if ( sico.TSLIDE == 1 ) Segment_close(&seg_tslide);
++        if ( sico.IMPACTAREA == 1 ) Segment_close(&seg_impactarea);
++        if ( sico.HDEPOSIT == 1 ) Segment_close(&seg_hdeposit);
+         if ( sico.PBG == 1 ) { 
+-            Segment_release(&seg_pbg1);
+-            Segment_release(&seg_pbg2);
+-            Segment_release(&seg_pbg3);
++            Segment_close(&seg_pbg1);
++            Segment_close(&seg_pbg2);
++            Segment_close(&seg_pbg3);
+         }
+                 
+         free( v ); free_dmatrix3(outv, sico.M, sico.N); // freeing memory
