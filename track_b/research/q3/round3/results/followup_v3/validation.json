@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-10-24T10:28:26.458263+00:00",
+  "checks": {
+    "source_v2_manifest_hash_pinned": true,
+    "all_62_rows_kept_in_original_order": true,
+    "exactly_11_owned_repo_paths_normalized": true,
+    "all_other_row_fields_unchanged": true,
+    "duplicate_rows_retained": true,
+    "all_62_target_hashes_and_sizes_verified": true,
+    "only_7_exact_approved_cache_paths_remain_absolute": true,
+    "frozen_v1_v2_manifests_and_exports_unchanged": true
+  },
+  "passed": true,
+  "input_manifest_sha256": "2d7c4e228ddf05caa09b2856817629b1651da928f9e93cc265407aa2bdfaaedf",
+  "normalization_report_sha256": "7cfd39d9d27ff72789642383a03b2fcb6a3dfb6ba4792e20865a478dcf24b9c5",
+  "bundle_sha256": "ba386da5d5ec7bf7f17b3f91b37edddb772fb4105d6d706911fe6924d789f158",
+  "metadata_only": true
+}

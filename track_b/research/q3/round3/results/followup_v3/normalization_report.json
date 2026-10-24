@@ -1,0 +1,152 @@
+{
+  "generated_at_utc": "2026-10-24T10:28:26.458263+00:00",
+  "metadata_only": true,
+  "source_manifest": {
+    "path": "track_b/research/q3/round3/results/followup_v2/input_manifest.json",
+    "bytes": 16831,
+    "sha256": "91d1dc933de07b435a625c4177252229785f3e58f5949c481301fdd5949816df"
+  },
+  "normalized_row_count": 62,
+  "changed_path_row_count": 11,
+  "relative_path_rows": 55,
+  "approved_absolute_cache_rows": 7,
+  "path_changes": [
+    {
+      "source_row_index_0based": 45,
+      "normalized_path": "track_b/research/q3/round3/scripts/applicability_fixed_risk.py",
+      "bytes": 8471,
+      "sha256": "4d99af9d88d1155b58222f93520fdbe4a424a951057913d5d7ffa5eb015e2b28",
+      "operation": "strip exact producer repository prefix"
+    },
+    {
+      "source_row_index_0based": 46,
+      "normalized_path": "track_b/research/q3/round3/scripts/applicability_sensitivity.py",
+      "bytes": 13744,
+      "sha256": "9c5fa15bc8a514bd90c6a335812b159bf15a91cad80176b6a4e8ccb82abff357",
+      "operation": "strip exact producer repository prefix"
+    },
+    {
+      "source_row_index_0based": 47,
+      "normalized_path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/PROTOCOL.md",
+      "bytes": 1562,
+      "sha256": "1fa12c11dc2e4efa899698c85c39a9b72a7d71685c98fc0cd2a2cac995b09b11",
+      "operation": "strip exact producer repository prefix"
+    },
+    {
+      "source_row_index_0based": 48,
+      "normalized_path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/input_registration.json",
+      "bytes": 1468,
+      "sha256": "c5cd3f86ba4ae83d5d24624c0362825b0cd94297de6d6ac3ea72ef94c310cd52",
+      "operation": "strip exact producer repository prefix"
+    },
+    {
+      "source_row_index_0based": 49,
+      "normalized_path": "track_b/research/q3/round3/results/applicability_sensitivity/predictions.csv.gz",
+      "bytes": 3752720,
+      "sha256": "7f285cfcfc9a86e5b0237fe3392c3361ddb87807815c671e55cb4969770a4a83",
+      "operation": "strip exact producer repository prefix"
+    },
+    {
+      "source_row_index_0based": 50,
+      "normalized_path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/fixed_history_risk_predictions.csv.gz",
+      "bytes": 1259262,
+      "sha256": "6359858efbf548db96cab4221fd9e147e47c35686fadf7bf5ebba7490ff0af80",
+      "operation": "strip exact producer repository prefix"
+    },
+    {
+      "source_row_index_0based": 51,
+      "normalized_path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/five_policy_predictions.csv.gz",
+      "bytes": 5000638,
+      "sha256": "297b7456a38ee32b3f41ca39d763deee637706b8b56d2f9265ab8500fdc238a2",
+      "operation": "strip exact producer repository prefix"
+    },
+    {
+      "source_row_index_0based": 52,
+      "normalized_path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/fixed_and_revoked_history_mass_comparison.csv.gz",
+      "bytes": 45230,
+      "sha256": "14d15219c84b114b37ecda38198c4aabef52efe3610b78bb06f97ce2eb3882ef",
+      "operation": "strip exact producer repository prefix"
+    },
+    {
+      "source_row_index_0based": 53,
+      "normalized_path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/summary.json",
+      "bytes": 1092,
+      "sha256": "59eab2d414523676dbe06e9375c6e86f083403b3f05cb050f24d094bd2da9eed",
+      "operation": "strip exact producer repository prefix"
+    },
+    {
+      "source_row_index_0based": 54,
+      "normalized_path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/aggregation_validation.json",
+      "bytes": 573,
+      "sha256": "072827fc42928341e58106c3bfaf8dabd673bae8c281241022c1fab8d55938a3",
+      "operation": "strip exact producer repository prefix"
+    },
+    {
+      "source_row_index_0based": 55,
+      "normalized_path": "track_b/research/q3/round3/results/applicability_sensitivity/review_boundary/final_readonly_audit.json",
+      "bytes": 8572,
+      "sha256": "295890c9eac30af04037be616a47a0b5c09817d5dc75a9f0150f49b1fcb6c406",
+      "operation": "strip exact producer repository prefix"
+    }
+  ],
+  "row_order_and_duplicates_preserved": true,
+  "normalization_scope": "Repository path representation only; no science or payload byte changes",
+  "frozen_v1_v2_records": [
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/INPUT_MANIFEST.json",
+      "bytes": 3161,
+      "sha256": "90e31f97eae5f2d668c71f7401500c0b16ca5eebf09e3509ca5777ab6644a8bb"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/OUTPUT_MANIFEST.json",
+      "bytes": 9879,
+      "sha256": "8814c76aee4d6db85d35c80050d9f4f9798fac1838d927deac440bcd9b4e55d3"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/followup_v2/input_manifest.json",
+      "bytes": 16831,
+      "sha256": "91d1dc933de07b435a625c4177252229785f3e58f5949c481301fdd5949816df"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/followup_v2/output_manifest.json",
+      "bytes": 20056,
+      "sha256": "300e93c840fda449ef541b50aeac45c949288d880312c3fe201e64d7ef890837"
+    },
+    {
+      "path": "track_b/research/q3/round3/exports/applicability_bundle_v1.json",
+      "bytes": 6151,
+      "sha256": "c96e82632b461d913831eec2b736c318ead8a180f950735ccc4aa48eb082c157"
+    },
+    {
+      "path": "track_b/research/q3/round3/exports/applicability_bundle_v2.json",
+      "bytes": 5667,
+      "sha256": "ac45bb5b437ccaab983f2bb95322aff69a4c0bb5dd1f1d122245f248c3120738"
+    },
+    {
+      "path": "track_b/research/q3/round3/exports/propagation_join_bundle_v2.json",
+      "bytes": 5417,
+      "sha256": "851e79c8655a4eeabc22a31e820326115ba4330ef9c755b0de233a71b1ae70eb"
+    },
+    {
+      "path": "track_b/research/q3/round3/exports/r3_followup_bundle_v2.json",
+      "bytes": 1254,
+      "sha256": "b134d88deadd2f2a5f92e954881dc3c38349a787ae41348e2245b7026fbdbb96"
+    },
+    {
+      "path": "track_b/research/q3/round3/exports/research_bundle.json",
+      "bytes": 4954,
+      "sha256": "fec1e69d761c04fea4c67e5379ce2b518b5e22aa301b253d01828987eef03019"
+    }
+  ],
+  "checks": {
+    "source_v2_manifest_hash_pinned": true,
+    "all_62_rows_kept_in_original_order": true,
+    "exactly_11_owned_repo_paths_normalized": true,
+    "all_other_row_fields_unchanged": true,
+    "duplicate_rows_retained": true,
+    "all_62_target_hashes_and_sizes_verified": true,
+    "only_7_exact_approved_cache_paths_remain_absolute": true,
+    "frozen_v1_v2_manifests_and_exports_unchanged": true
+  },
+  "passed": true
+}
