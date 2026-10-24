@@ -96,5 +96,12 @@
   "compute": "local_only_full_research",
   "human_scientific_adoption": "pending",
   "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
-  "baseline_manifest_file_count": 725
+  "baseline_manifest_file_count": 725,
+  "runtime": {
+    "status": "ready",
+    "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+    "image_tag": "mathorcup-r3-solvers:r3-rev7-dclaw1-20261024",
+    "evidence": "track_b/audit/stage4/round3/runtime/advisor_snapshot.json",
+    "cache_root": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime"
+  }
 }

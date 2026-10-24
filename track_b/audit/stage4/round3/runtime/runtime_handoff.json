@@ -1,0 +1,212 @@
+{
+  "updated_utc": "2026-10-24T07:56:27.565256+00:00",
+  "status": "ready",
+  "cache_root": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime",
+  "container_name": "mathorcup-r3-toolchain-build",
+  "container_id": "ad84a77a0ea9eb7447f61eb2e08756f00665429b7c90f8744a957efd918fd8c7",
+  "image_tag": "mathorcup-r3-solvers:r3-rev7-dclaw1-20261024",
+  "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+  "remote_server_used": false,
+  "platform": "linux/amd64",
+  "base_image": "ubuntu:22.04",
+  "base_digest": "sha256:0e0a0fc6d18feda9db1590da249ac93e8d5abfea8f4c3c0c849ce512b5ef8982",
+  "binary_sha256": {
+    "ravaflow_main": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+    "dclaw_gully": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9"
+  },
+  "static_rootfs": {
+    "tar_bytes": 1908715520,
+    "members": 57048,
+    "required_paths_present": true,
+    "sha256": "01fd94948f48d1fe166df1b1e23f4bfc454f3175cf56cec67f9b61c95f238dfe"
+  },
+  "runtime_checks": {
+    "checked_utc": "2026-10-24T07:33:25.563651+00:00",
+    "all_passed": true,
+    "checks": [
+      {
+        "check": "os_version",
+        "returncode": 0,
+        "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/os_version.txt",
+        "stdout_sha256": "594d5ddd35aedb47f00d9c34d140017907a5b9f93c975aba125fc924daac5c07"
+      },
+      {
+        "check": "grass_version",
+        "returncode": 0,
+        "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/grass_version.txt",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "check": "gfortran_version",
+        "returncode": 0,
+        "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/gfortran_version.txt",
+        "stdout_sha256": "a475e81c41e3e808aafe42a1ea29f6c38a4535d7bcb6e53c1e7770a1d0be2a3f"
+      },
+      {
+        "check": "gdal_version",
+        "returncode": 0,
+        "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/gdal_version.txt",
+        "stdout_sha256": "fc4e457108ab1e7ee038fd7ee8a004b15267531098a781c5960709490faa1a3d"
+      },
+      {
+        "check": "python_imports",
+        "returncode": 0,
+        "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/python_imports.txt",
+        "stdout_sha256": "fc442e982a6a3ffc478b7306115a07b398100dadd7646e47eee26c96bd820511"
+      },
+      {
+        "check": "ravaflow_interface",
+        "returncode": 0,
+        "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/ravaflow_interface.xml",
+        "stdout_sha256": "1eb9efade6de5108a68a4b88718f9c019c7709f4bfcfeb8b06d6573dbb9f13af",
+        "parameters": 94
+      },
+      {
+        "check": "binaries",
+        "returncode": 0,
+        "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/binaries.txt",
+        "stdout_sha256": "b94fc000f54c1930da8ca5b514d38c9e82f6321b28d1ee8a4199bedade2f95e0"
+      },
+      {
+        "check": "r_imports",
+        "returncode": 0,
+        "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/r_imports.txt",
+        "stdout_sha256": "706747fae933a7c9ee5ce9fc8174156f90616d4603d50d76f593dd73089d8ebd"
+      },
+      {
+        "check": "dpkg_packages",
+        "returncode": 0,
+        "stdout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/dpkg_packages.txt",
+        "stdout_sha256": "204be1dc128c69e85bfed676cec960278f70068e657247f907355c85c6ebbce6"
+      }
+    ]
+  },
+  "numerical_environment_checks": {
+    "scope": "runtime environment check only, not event reconstruction, model comparison, or a study-entry gate",
+    "ravaflow": {
+      "source": "officialCascadia",
+      "parameters": {
+        "cellsize_m": 20,
+        "time_output_s": 1,
+        "end_time_s": 5,
+        "phases": 1,
+        "release_argument": "hrelease"
+      },
+      "nout1_success": 1,
+      "fields": [
+        {
+          "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0000.asc",
+          "valid_cells": 16500,
+          "all_finite": true,
+          "min": 0.0,
+          "max": 100.0,
+          "volume_m3": 7957897.6
+        },
+        {
+          "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0001.asc",
+          "valid_cells": 16500,
+          "all_finite": true,
+          "min": 0.0,
+          "max": 100.403,
+          "volume_m3": 7957622.4
+        },
+        {
+          "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0002.asc",
+          "valid_cells": 16500,
+          "all_finite": true,
+          "min": 0.0,
+          "max": 100.021,
+          "volume_m3": 7956766.0
+        },
+        {
+          "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0003.asc",
+          "valid_cells": 16500,
+          "all_finite": true,
+          "min": 0.0,
+          "max": 97.784,
+          "volume_m3": 7955612.8
+        },
+        {
+          "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0004.asc",
+          "valid_cells": 16500,
+          "all_finite": true,
+          "min": 0.0,
+          "max": 94.083,
+          "volume_m3": 7954220.8
+        },
+        {
+          "file": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0005.asc",
+          "valid_cells": 16500,
+          "all_finite": true,
+          "min": 0.0,
+          "max": 89.775,
+          "volume_m3": 7952655.199999999
+        }
+      ],
+      "all_passed": true
+    },
+    "dclaw": {
+      "source": "official gully; native topology and grid settings; output time truncated for environment check",
+      "end_time_s": 0.1,
+      "bypassed_plot_entry": "call original setinput.maketopo without broken make_plots",
+      "courant_max": 0.02506,
+      "frames": [
+        {
+          "file": "dclaw_selfcheck_results/fort.q0000",
+          "time_s": 0.0,
+          "state_rows": 2932,
+          "all_finite": true,
+          "flow_depth_min": 0.0,
+          "flow_depth_max": 4.0
+        },
+        {
+          "file": "dclaw_selfcheck_results/fort.q0001",
+          "time_s": 0.1,
+          "state_rows": 2932,
+          "all_finite": true,
+          "flow_depth_min": 0.0,
+          "flow_depth_max": 4.000000003118169
+        }
+      ],
+      "all_passed": true
+    }
+  },
+  "guide": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/RUNTIME_HANDOFF.md",
+  "source_versions": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/source_versions.json",
+  "notes": [
+    "Original Docker commit eventually produced this two-layer image after the client had been cancelled; final image history and RootFS layers establish the committed Ubuntu base plus installed tools.",
+    "Pin image ID or unique r3-rev7-dclaw1-20261024 tag. Original 20261024 tag was also used by cancelled fallback imports and is not the recommended pin.",
+    "Native export and redundant import clients cancelled; validated static rootfs tar/gzip preserved as local recovery material.",
+    "Original image stored failed/partial selfcheck input files. D-Claw check regenerates original inputs before execution, exactly as normal case setup requires.",
+    "No source solver physics was modified; only wrapper invocation and plotting bypass were used.",
+    "Environment checks establish execution and I/O only; full scientific comparison belongs to Q4."
+  ],
+  "image_repo_digests": [
+    "mathorcup-r3-solvers@sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29"
+  ],
+  "image_published_to_remote_registry": false,
+  "image_created": "2026-10-24T07:43:01.094172531Z",
+  "image_size_reported_bytes": 634872299,
+  "image_rootfs_layers": [
+    "sha256:10f9108f6cebf96e05cadfab3c188071f3c6d084abe680fd0bc9f61c268e854d",
+    "sha256:4195708a1c566b447ecf14bd4ac5eb77dfb67d124c42c7fb08afef7c3ec6f78b"
+  ],
+  "image_package_list_matches_verified_container": true,
+  "image_selfchecks": {
+    "ravaflow": {
+      "log": "image_selfcheck_ravaflow.log",
+      "completed_successfully": true
+    },
+    "dclaw": {
+      "log": "image_selfcheck_dclaw_fresh.log",
+      "completed_to_time_s": 0.1,
+      "maximum_courant": 0.02506,
+      "binary_hashes_match": true
+    }
+  },
+  "static_rootfs_gzip": {
+    "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/runtime_static_rootfs.tar.gz",
+    "bytes": 683721874,
+    "sha256": "0cf26107de396f15c61938abb04903277e8a41e30bfa1a429891df753b10312f"
+  }
+}

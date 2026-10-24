@@ -1,0 +1,74 @@
+{
+  "files": [
+    {
+      "path": "benchmarks/ca.avaflow.start.sh",
+      "bytes": 5651,
+      "sha256": "c3e2ef3afd3c89cce37f072924f4e30dc460b3ce32f942140f76b0afeb5b0379"
+    },
+    {
+      "path": "benchmarks/DATA/ca_ortho.tif",
+      "bytes": 4475049,
+      "sha256": "a143de277a969f87657fdc511e58ecbefa5e763481214a7830861ad7cafc9c55"
+    },
+    {
+      "path": "benchmarks/DATA/ca_landslide.tif",
+      "bytes": 5967394,
+      "sha256": "73fd9b7819081d8fa756e6d6f0ab2441fc4554bb3ce0d5e8cbe702a04601fd05"
+    },
+    {
+      "path": "benchmarks/DATA/ca_progressiveflow.tif",
+      "bytes": 5964794,
+      "sha256": "be86e2be2251eddf5d377aaa71c7e0fd0ae58c9d51509f10309faeb7750fd15d"
+    },
+    {
+      "path": "benchmarks/DATA/ca_rockglacier.tif",
+      "bytes": 72290,
+      "sha256": "3bd1b095581782010d46271aaced5309f32f083a9e96d6462949932d2732f61d"
+    },
+    {
+      "path": "benchmarks/DATA/ca_avalanche.tif",
+      "bytes": 80270,
+      "sha256": "77d077301a6277d903b8b9796d1e08e60c4d824e77204cf710017968457cfcfb"
+    },
+    {
+      "path": "benchmarks/DATA/ca_hydrograph3.txt",
+      "bytes": 49,
+      "sha256": "0e900ef3126bdcbe730811058c78aa9abef54a98be3fb5fee826d364c9899528"
+    },
+    {
+      "path": "benchmarks/DATA/ca_hydrograph5.txt",
+      "bytes": 56,
+      "sha256": "764313675ecc50150eb28effa859639086f47adc4f89d6254c22dd9c790d35a3"
+    },
+    {
+      "path": "benchmarks/DATA/ca_viscousflow.tif",
+      "bytes": 5964794,
+      "sha256": "418ee663a43bf61e7aebf32c3ba70d118907758128ebcc0fe61cb8743974e80f"
+    },
+    {
+      "path": "benchmarks/DATA/ca_impactarea.tif",
+      "bytes": 25298,
+      "sha256": "2fb87618cfea54e6da55a1c76838eb8ee83fe2ff4cccc16fff258e263802377f"
+    },
+    {
+      "path": "benchmarks/DATA/ca_frictiograph.txt",
+      "bytes": 126,
+      "sha256": "c6abb1ea6b6805d15095f596f3879e90a5614c395cb01bd74eec20d48abfc1db"
+    },
+    {
+      "path": "benchmarks/DATA/ca_moraine.tif",
+      "bytes": 5967394,
+      "sha256": "f099b075dc2bcb7db0c2304907d67ac20a0b57ebed8f15a758e03a395f39ca00"
+    },
+    {
+      "path": "benchmarks/DATA/ca_debrisflow.tif",
+      "bytes": 55892,
+      "sha256": "65ed56688e3359bef22b9d9bb9401d3dcbd42b7b75ae49a4754e0f3fdd04b704"
+    },
+    {
+      "path": "benchmarks/DATA/ca_elev.tif",
+      "bytes": 5967394,
+      "sha256": "a219e147ed3c49c0b27ab6c02507a78a3d3d1ba5599bb9ecdffb08bd1d1deb89"
+    }
+  ]
+}

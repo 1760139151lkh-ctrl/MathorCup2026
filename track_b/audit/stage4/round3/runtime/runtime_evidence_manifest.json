@@ -1,0 +1,804 @@
+{
+  "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+  "artifact_files": [
+    {
+      "path": "Dockerfile.base",
+      "bytes": 636,
+      "sha256": "e8a6f1b642ec6ab7d5342022183433f0ef69a0e6038daeb275c9b7c79e988414"
+    },
+    {
+      "path": "RUNTIME_HANDOFF.md",
+      "bytes": 5218,
+      "sha256": "1b1cd9ac2f9e7e7ec16f9983b53d584b899773c49e8a42887461c5d8885d0f7c"
+    },
+    {
+      "path": "apt_download_manifest.json",
+      "bytes": 182033,
+      "sha256": "3d8b146db441c675a1aa7357f773f3f19613cf9263948d0f33449443703f21ba"
+    },
+    {
+      "path": "apt_uris.txt",
+      "bytes": 75095,
+      "sha256": "6bf343cb929775ca29e72424de004e779e7442e29b73d0bb5710b1b22bab5b16"
+    },
+    {
+      "path": "benchmarks_manifest.json",
+      "bytes": 2380,
+      "sha256": "b58b6d9a14d1404c5dcb36d23b98c0e11d9b1cd811b230bcf0c146b4b840b421"
+    },
+    {
+      "path": "binaries.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "binaries.txt",
+      "bytes": 910,
+      "sha256": "b94fc000f54c1930da8ca5b514d38c9e82f6321b28d1ee8a4199bedade2f95e0"
+    },
+    {
+      "path": "build_base.log",
+      "bytes": 386,
+      "sha256": "22a4ebd63c5f6245cc1328e190a92244ead6bb8a23c00b26474525f788583a5d"
+    },
+    {
+      "path": "build_base_local.log",
+      "bytes": 499,
+      "sha256": "4ea938365f76e571c586763493006d381f64efd2f0ea4a884e09c72baae5cdcc"
+    },
+    {
+      "path": "build_dclaw.log",
+      "bytes": 1737,
+      "sha256": "63d65ecca163179019cda856bb90c1e88bd00feac9c0c3afc3d421afa353fe5f"
+    },
+    {
+      "path": "build_dclaw_python3.log",
+      "bytes": 89516,
+      "sha256": "ec3c58ca699a604f666c4ea6619c558fdbec3665e62527c0efdf60821a0062d1"
+    },
+    {
+      "path": "build_ravaflow.log",
+      "bytes": 593,
+      "sha256": "ec314083bc491a6b44cde77c312d0f1261da98999328dca536271a3601db125b"
+    },
+    {
+      "path": "build_ravaflow_with_svn.log",
+      "bytes": 1306,
+      "sha256": "6e9853fceff75dcc362c425b47c0f109c66fffd5527659ae004807fdb450100a"
+    },
+    {
+      "path": "clawpack_submodules.log",
+      "bytes": 2011,
+      "sha256": "80bb34543af3146d80547a5b9a5eca96549ca8413fd6aa5194d20961e6065184"
+    },
+    {
+      "path": "dclaw_selfcheck_results/Makefile",
+      "bytes": 2323,
+      "sha256": "7e3a3353ebbee3cd75f487b7c9e77796f1cdc66ea8b0efa83a53d2b0c9883cc7"
+    },
+    {
+      "path": "dclaw_selfcheck_results/__pycache__/setinput.cpython-310.pyc",
+      "bytes": 3223,
+      "sha256": "03fee9d4367d72ad07d166d612c62ed51c501e811aa410d03f0f9236372c08c2"
+    },
+    {
+      "path": "dclaw_selfcheck_results/__pycache__/setrun.cpython-310.pyc",
+      "bytes": 6510,
+      "sha256": "abb81c6252432ca5c54ff45374486ee4d19590b16c546fb58acd7d7c4f6bd3cd"
+    },
+    {
+      "path": "dclaw_selfcheck_results/amr.data",
+      "bytes": 1484,
+      "sha256": "2acc169cd659c796c2a500f8a30c4aac2bcefc08d378b9950390f67cf616b9bf"
+    },
+    {
+      "path": "dclaw_selfcheck_results/auxinit_dclaw.data",
+      "bytes": 345,
+      "sha256": "a2c895983a1488fb089c55d32e5858c3108e6285fc5d81bb951389be6b5efd30"
+    },
+    {
+      "path": "dclaw_selfcheck_results/basal_topo.png",
+      "bytes": 34068,
+      "sha256": "13ed22aee3b38ac1b84f26f5212a27d8cd713bbfb326a0db25279be0c48c35ba"
+    },
+    {
+      "path": "dclaw_selfcheck_results/basal_topo.tt3",
+      "bytes": 1239801,
+      "sha256": "6c5e138c911d3bead26ff4b34dce5d636c41dadfdc91bce75e1a557dea697c07"
+    },
+    {
+      "path": "dclaw_selfcheck_results/claw.data",
+      "bytes": 1916,
+      "sha256": "ec35da1aa04bafea9c3789a4e3d4e4f92517bdc78dfa838bdbcf32a8603594f2"
+    },
+    {
+      "path": "dclaw_selfcheck_results/dclaw.data",
+      "bytes": 2848,
+      "sha256": "562acbe0af0e425e9f2c1454c17feb8c5d518c6dd8bc86b699cc8b75e7745aa1"
+    },
+    {
+      "path": "dclaw_selfcheck_results/dtopo.data",
+      "bytes": 378,
+      "sha256": "64a58c86d51f680340ec7152ad5d56dbff35a7bfce8a20692d1bc07c646dcdf3"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fgmax_grids.data",
+      "bytes": 377,
+      "sha256": "692e51d50f65c25d2e2c0021c7db7505ccabb4048559c5f3e7d2d5fe64f7729e"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fgout_grids.data",
+      "bytes": 332,
+      "sha256": "534922e09aebd55119087c90688f4a852c4478828a975a26c2ddd8b8e42bccb1"
+    },
+    {
+      "path": "dclaw_selfcheck_results/flagregions.data",
+      "bytes": 331,
+      "sha256": "520be24022e5bc2fef06c7d7081d36bf729ceb79cb7e0378dcbf819cebdeca2b"
+    },
+    {
+      "path": "dclaw_selfcheck_results/flowgrades.data",
+      "bytes": 422,
+      "sha256": "e0bf80bcde49595e269e51fc2421db4cf790abc0bb3c04bda4ad2fce94224485"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.105",
+      "bytes": 159,
+      "sha256": "0e9c39ec0329d43b04b02446cb62d397acddefec66742f1b18fe6e18c7189594"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.106",
+      "bytes": 568,
+      "sha256": "4f2335bd0f49d1fd5032b21a96debe25e0514f96c4e6b705c7cbdbed0fe2c82d"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.107",
+      "bytes": 135,
+      "sha256": "319c86f9bba1f366b73100a189162257a300daf8a55a9642b189c8d7c1f9a10d"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.amr",
+      "bytes": 5869,
+      "sha256": "33e45947fb91b84703c72b446298ef576c69ca20f16bde0481cd8acf3c5aac96"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.dclaw",
+      "bytes": 1084,
+      "sha256": "017f017579d9eac214ee9062aef7843f5bc37abe96f4d24ee7927181970e2ad5"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.debug",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.geo",
+      "bytes": 1717,
+      "sha256": "b4ee2523009c1bdca5729b7a315a606b6664bee63986cdac0c9bfc83b73d3524"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.nplot",
+      "bytes": 26,
+      "sha256": "45e38af309c976a030c7d65de9dab51026ceab336c418f1b58495fb06a8d3ae6"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.parameters",
+      "bytes": 709,
+      "sha256": "0b6fa2d1baa277f8167f332f6d3bc244ac01c71eac7ddd595781e87019e18baa"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.pinit",
+      "bytes": 100,
+      "sha256": "cd30c53a200213606cb24eb548365820bbe42fae7471b8377e8ccb1d54d11955"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.q0000",
+      "bytes": 613913,
+      "sha256": "cf9c977de5b6eeb49341dfc5269a908211b7cb36ef55b2bdf65a7630908fab59"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.q0001",
+      "bytes": 613913,
+      "sha256": "450a8860c526c9a758002d474cfee8a16e781e2026415eefe2047493525af5a9"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.t0000",
+      "bytes": 203,
+      "sha256": "20c8f67959563a0c87e5f30d5dc4f0b392acec26e693f752188ad79dd1003e21"
+    },
+    {
+      "path": "dclaw_selfcheck_results/fort.t0001",
+      "bytes": 203,
+      "sha256": "f45b6fff2db1201a63505da93ede90ea9461d0e3d555c61b1b22b160bbcadca0"
+    },
+    {
+      "path": "dclaw_selfcheck_results/gauges.data",
+      "bytes": 517,
+      "sha256": "595d3bb123444c5b99086c5844294c625b6e4b4fb200090020f51a37a7402ef7"
+    },
+    {
+      "path": "dclaw_selfcheck_results/geoclaw.data",
+      "bytes": 1185,
+      "sha256": "dfa772e80ca56afe7a72dde383dba40e2843f21bb721b27cac2820b7a37b6738"
+    },
+    {
+      "path": "dclaw_selfcheck_results/pinit_dclaw.data",
+      "bytes": 440,
+      "sha256": "99b456332cf9f0b62b30b07f5056a4b69a96edb5f443aeca29ec43e0bb9dcf48"
+    },
+    {
+      "path": "dclaw_selfcheck_results/qinit_dclaw.data",
+      "bytes": 397,
+      "sha256": "67f62003577a5650be9f7e65d7dedfbccfd4898fc0bd44d0c480e9cd1a8904a9"
+    },
+    {
+      "path": "dclaw_selfcheck_results/refinement.data",
+      "bytes": 550,
+      "sha256": "afa0336ef00df4b1a8e0f7de55ff0a4f774271bfc7d213dc6fd8062cfe50aa64"
+    },
+    {
+      "path": "dclaw_selfcheck_results/regions.data",
+      "bytes": 469,
+      "sha256": "669cfc2ea1cd5d69642a6c2fd692eddfe3b05a9f059b0a90cb6e2113ede16b03"
+    },
+    {
+      "path": "dclaw_selfcheck_results/setinput.py",
+      "bytes": 4132,
+      "sha256": "47f9e7a7b333a05396df2553584eb49a05695612d48f102b90015ea9c9e7d7d2"
+    },
+    {
+      "path": "dclaw_selfcheck_results/setplot.py",
+      "bytes": 6571,
+      "sha256": "0cd9900075b9d21120bf273ae5a9f6d0dfae2489833cee0d5e816a129dd50393"
+    },
+    {
+      "path": "dclaw_selfcheck_results/setplot_amr.py",
+      "bytes": 7249,
+      "sha256": "33265e366c2dfcbf253a427acd99ecb716d2ca5496a3fbc0b632c4a185b6c63a"
+    },
+    {
+      "path": "dclaw_selfcheck_results/setrun.py",
+      "bytes": 22367,
+      "sha256": "96a49f3afe45ceb1f973aff94a36b9c06d6da0d30117b7c17f684dc6914e492f"
+    },
+    {
+      "path": "dclaw_selfcheck_results/surface_topo.png",
+      "bytes": 35046,
+      "sha256": "1a733fca78db3492c6197baf20ea97ab23d4df3370d97b594ee4cb4e120e9590"
+    },
+    {
+      "path": "dclaw_selfcheck_results/surface_topo.tt3",
+      "bytes": 1239801,
+      "sha256": "01940bfba1959f0b977a075bc88c2e93e6ec3418a77290dc0ca90d5bd92340b2"
+    },
+    {
+      "path": "dclaw_selfcheck_results/thickness.tt3",
+      "bytes": 1239801,
+      "sha256": "571e4437a1f68aed1ec1546114ae9797e04034d49e16b6d06368828be07a0512"
+    },
+    {
+      "path": "dclaw_selfcheck_results/timing.csv",
+      "bytes": 943,
+      "sha256": "a375de708d56a3cd112d71f8f34c4212e39a1c099f8d0ffd8b116ff24a40490a"
+    },
+    {
+      "path": "dclaw_selfcheck_results/timing.txt",
+      "bytes": 1223,
+      "sha256": "051aa609942f1505575c72d932a5496af70819fd5e3f7eb3eacef469d7b8a037"
+    },
+    {
+      "path": "dclaw_selfcheck_results/topo.data",
+      "bytes": 557,
+      "sha256": "0cfa53fe82fcd543903f655f08d99f4acc8a7cb0270e27071857657390ddac15"
+    },
+    {
+      "path": "dclaw_selfcheck_results/xdclaw",
+      "bytes": 1190832,
+      "sha256": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9"
+    },
+    {
+      "path": "dpkg_packages.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dpkg_packages.txt",
+      "bytes": 13918,
+      "sha256": "204be1dc128c69e85bfed676cec960278f70068e657247f907355c85c6ebbce6"
+    },
+    {
+      "path": "final_image_history.txt",
+      "bytes": 1421,
+      "sha256": "f38283f4bdb20d5319d0086afd4cede927b040e33596f6910e916a243cef6df4"
+    },
+    {
+      "path": "final_image_inspect.json",
+      "bytes": 2343,
+      "sha256": "a8801acadca59142f284ecf23225b99544f19ffca5f5bab3d604c7e5ad73ac4f"
+    },
+    {
+      "path": "finish_runtime.sh",
+      "bytes": 1199,
+      "sha256": "e1df92468149ecef200b6d0bb5570e0e80aaafe98154c89dca8ecff5834409c1"
+    },
+    {
+      "path": "gdal_version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "gdal_version.txt",
+      "bytes": 32,
+      "sha256": "fc4e457108ab1e7ee038fd7ee8a004b15267531098a781c5960709490faa1a3d"
+    },
+    {
+      "path": "gfortran_version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "gfortran_version.txt",
+      "bytes": 254,
+      "sha256": "a475e81c41e3e808aafe42a1ea29f6c38a4535d7bcb6e53c1e7770a1d0be2a3f"
+    },
+    {
+      "path": "grass_version.stderr.txt",
+      "bytes": 572,
+      "sha256": "1cd2f8122f22849eb80d6a8f645194c5b44849ca992670713cfacfa4fc2905ca"
+    },
+    {
+      "path": "grass_version.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "image_commit.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "image_dpkg_packages.txt",
+      "bytes": 13918,
+      "sha256": "204be1dc128c69e85bfed676cec960278f70068e657247f907355c85c6ebbce6"
+    },
+    {
+      "path": "image_import.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "image_import_attempt_note.txt",
+      "bytes": 184,
+      "sha256": "fe5367801265ae9a0d7711698b5d0782688cb330e72b69abf913d0778de936bf"
+    },
+    {
+      "path": "image_import_final.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "image_import_final.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "image_selfcheck_dclaw.log",
+      "bytes": 46,
+      "sha256": "3bd9d7b930836a4f306dc80f18aebe53cfb7785055f244c46633c0d4ad9c306d"
+    },
+    {
+      "path": "image_selfcheck_dclaw_fresh.log",
+      "bytes": 4294,
+      "sha256": "f117112a4841723aee01de619c110f2bd557fee3e32c73b2cabb387c7ad23c70"
+    },
+    {
+      "path": "image_selfcheck_ravaflow.log",
+      "bytes": 3891,
+      "sha256": "34fd5d88cc125079193d98a7b826e2a8b687ff4a45569397bf074a93faa4eba8"
+    },
+    {
+      "path": "install_packages.log",
+      "bytes": 22507,
+      "sha256": "5662e7e456dda18d09bb01cdc550e66f4ef256495fcd42d5e32fc7ff4a44ee27"
+    },
+    {
+      "path": "install_packages_cached.log",
+      "bytes": 116591,
+      "sha256": "a916caf3ed54bdef68f3e08941dd71771a7a04f22d69dce8d64f45a2c72e7cf2"
+    },
+    {
+      "path": "install_subversion.log",
+      "bytes": 3386,
+      "sha256": "ab783e7ddac57f1e4e29a377567f4da09c87084163973051fbf22249c6b00218"
+    },
+    {
+      "path": "numerical_environment_checks.json",
+      "bytes": 2587,
+      "sha256": "308694427d5c59b8bcf7907487c7476428057936abe0a319dcdc7ee1109473a4"
+    },
+    {
+      "path": "os_version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "os_version.txt",
+      "bytes": 386,
+      "sha256": "594d5ddd35aedb47f00d9c34d140017907a5b9f93c975aba125fc924daac5c07"
+    },
+    {
+      "path": "python_imports.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "python_imports.txt",
+      "bytes": 164,
+      "sha256": "fc442e982a6a3ffc478b7306115a07b398100dadd7646e47eee26c96bd820511"
+    },
+    {
+      "path": "r_imports.stderr.txt",
+      "bytes": 42,
+      "sha256": "4312f1f15b1d22e003434f9680fd3d9b78533deafe93bcf5a8eb6cd3c6f81847"
+    },
+    {
+      "path": "r_imports.txt",
+      "bytes": 35,
+      "sha256": "706747fae933a7c9ee5ce9fc8174156f90616d4603d50d76f593dd73089d8ebd"
+    },
+    {
+      "path": "ravaflow_direct.html",
+      "bytes": 331190,
+      "sha256": "326853734fa4e7b6ff438067aafd444d4206ec684733160cac8ec8e7dff951e3"
+    },
+    {
+      "path": "ravaflow_home.html",
+      "bytes": 69777,
+      "sha256": "68c4ea3b0992fcce4e78677e6f2ba7436cc1872c9af26fd3a65584bd32682fc4"
+    },
+    {
+      "path": "ravaflow_interface.stderr.txt",
+      "bytes": 245,
+      "sha256": "95ba459f7f3ce906b07651c3678d0dd3d88fd3f2acc22b965e7538f11a2fcf6b"
+    },
+    {
+      "path": "ravaflow_interface.xml",
+      "bytes": 19885,
+      "sha256": "1eb9efade6de5108a68a4b88718f9c019c7709f4bfcfeb8b06d6573dbb9f13af"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_elev.asc",
+      "bytes": 148703,
+      "sha256": "713c0a991a4addb2bba2bcc524f9ed3969a817d47a0a70d6ad1907bcd9b9e3d8"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_elev_mod.asc",
+      "bytes": 148703,
+      "sha256": "713c0a991a4addb2bba2bcc524f9ed3969a817d47a0a70d6ad1907bcd9b9e3d8"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0000.asc",
+      "bytes": 99580,
+      "sha256": "4139f76ade36e837fbe5b2850751e6cf2da8d5221e4d68e2e898da0ccb0aba1d"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0001.asc",
+      "bytes": 99540,
+      "sha256": "dd8ae1cbf177a1fe0802d007a85a6619c106803f4bd2f62eec60bf1d99c5d1f0"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0002.asc",
+      "bytes": 99555,
+      "sha256": "5e7b750e5a4b2fad464b8e15d3fb8d228684a148c144d7f4b34b0dfb2f2e98cc"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0003.asc",
+      "bytes": 99574,
+      "sha256": "fb656152c7d2e2601e464c0d08ec676d3995f42cb5ad8988b465ee7bb1e04d69"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0004.asc",
+      "bytes": 99600,
+      "sha256": "cbbb9a0cac55934350a915491564b68b194eeec057f7f85708216fae89150c1c"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow0005.asc",
+      "bytes": 99621,
+      "sha256": "0fd56b83ed54f4eb8a393590ed3a14a0714149adf7f89caab79ab2d446bc47b0"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow_dep.asc",
+      "bytes": 99621,
+      "sha256": "0fd56b83ed54f4eb8a393590ed3a14a0714149adf7f89caab79ab2d446bc47b0"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow_fin.asc",
+      "bytes": 99621,
+      "sha256": "0fd56b83ed54f4eb8a393590ed3a14a0714149adf7f89caab79ab2d446bc47b0"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow_max.asc",
+      "bytes": 99720,
+      "sha256": "1e1144517822fac81ecd167eeca9daf6bedf64b5861a940fa15f997c02d86430"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow_max0000.asc",
+      "bytes": 99580,
+      "sha256": "4139f76ade36e837fbe5b2850751e6cf2da8d5221e4d68e2e898da0ccb0aba1d"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow_max0001.asc",
+      "bytes": 99602,
+      "sha256": "d0589e2f47d2b679d520ec0d89decc9cee17129e748e970606f7923bbaeed5d2"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow_max0002.asc",
+      "bytes": 99624,
+      "sha256": "392354a33452faa03dd87d4a83b49aa8069b29e49f74955b6bcbe408b7adc67d"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow_max0003.asc",
+      "bytes": 99653,
+      "sha256": "ca19575c7a84f9586240d919f36db7d4a0567101b7995074ca9ac08763d4f76d"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow_max0004.asc",
+      "bytes": 99689,
+      "sha256": "dcc7870a37edadce1ede5d21c0b099993028470736f69e66e3481fb933e048c3"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hflow_max0005.asc",
+      "bytes": 99720,
+      "sha256": "1e1144517822fac81ecd167eeca9daf6bedf64b5861a940fa15f997c02d86430"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hillshade0000.asc",
+      "bytes": 57525,
+      "sha256": "ad5b635b7eddeb82d27ac1bd80223d47d1093d0b4cd4a0bc41042f7dfbf79564"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hillshade0001.asc",
+      "bytes": 57525,
+      "sha256": "ad5b635b7eddeb82d27ac1bd80223d47d1093d0b4cd4a0bc41042f7dfbf79564"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hillshade0002.asc",
+      "bytes": 57525,
+      "sha256": "ad5b635b7eddeb82d27ac1bd80223d47d1093d0b4cd4a0bc41042f7dfbf79564"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hillshade0003.asc",
+      "bytes": 57525,
+      "sha256": "ad5b635b7eddeb82d27ac1bd80223d47d1093d0b4cd4a0bc41042f7dfbf79564"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hillshade0004.asc",
+      "bytes": 57525,
+      "sha256": "ad5b635b7eddeb82d27ac1bd80223d47d1093d0b4cd4a0bc41042f7dfbf79564"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_hillshade0005.asc",
+      "bytes": 57525,
+      "sha256": "ad5b635b7eddeb82d27ac1bd80223d47d1093d0b4cd4a0bc41042f7dfbf79564"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_temperature0000.asc",
+      "bytes": 99204,
+      "sha256": "cbf53681c5adf24a2e8afd9af98b5b8f0e99952a04c7cbac6dccaed4c58ef90c"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_temperature0001.asc",
+      "bytes": 99204,
+      "sha256": "cbf53681c5adf24a2e8afd9af98b5b8f0e99952a04c7cbac6dccaed4c58ef90c"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_temperature0002.asc",
+      "bytes": 99204,
+      "sha256": "cbf53681c5adf24a2e8afd9af98b5b8f0e99952a04c7cbac6dccaed4c58ef90c"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_temperature0003.asc",
+      "bytes": 99204,
+      "sha256": "cbf53681c5adf24a2e8afd9af98b5b8f0e99952a04c7cbac6dccaed4c58ef90c"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_temperature0004.asc",
+      "bytes": 99204,
+      "sha256": "cbf53681c5adf24a2e8afd9af98b5b8f0e99952a04c7cbac6dccaed4c58ef90c"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_temperature0005.asc",
+      "bytes": 99204,
+      "sha256": "cbf53681c5adf24a2e8afd9af98b5b8f0e99952a04c7cbac6dccaed4c58ef90c"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_treach.asc",
+      "bytes": 178234,
+      "sha256": "c77f6187655fbf9f9266e42a94ae3be7046369a303f344d108316b9aaf77413d"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_vfront.asc",
+      "bytes": 162465,
+      "sha256": "57336a50fef7308e1da80350c4daeb58b6eed877463eb020f6a9ec99f47fe871"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_ascii/runtime_env_vhmax.asc",
+      "bytes": 165204,
+      "sha256": "4a03d879daa0bc06b6dee0d5c001e224d674863f58e0d460f588faecc59d9d7d"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_files/runtime_env_directions1.txt",
+      "bytes": 76847,
+      "sha256": "00a671f2bd06b6d2d8c65b52f7ad1aee5dec288fe9f033d38c7883ba5f4b21e6"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_files/runtime_env_nout1.txt",
+      "bytes": 178,
+      "sha256": "5997fddd0f25bb78f7e567f6edf64a1944b42076527ed62b40a785396fb74a74"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_files/runtime_env_paramcomm.txt",
+      "bytes": 5678,
+      "sha256": "96dbad24db2d0f77d705132974c1df4930e5b2be94bc4bb214e73566421b9985"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_files/runtime_env_summary.txt",
+      "bytes": 419,
+      "sha256": "604507fdb852c1d57a210f92d59e0fdca6f7d3c4db85103b7f0680f2da97857d"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_files/runtime_env_time.txt",
+      "bytes": 18,
+      "sha256": "ab016ed952ade4c918303ea3d6b0c468474dca83e2047316ad0ff1bef7637008"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_files/runtime_env_volumes.txt",
+      "bytes": 169,
+      "sha256": "3ef7eb394402fab712518500340ef3b4a9b9f8d9394c762764c436a8756da452"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_plots/r.avaflow.map.R",
+      "bytes": 55511,
+      "sha256": "c3c14e7e05bfdd04f9fe791bddc9bd2503b98bd64419d66a7c414d4671a47b77"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_plots/r.avaflow.map.cmd",
+      "bytes": 102,
+      "sha256": "7ebc1fe914a3f682e3c69b9bd2ca585374b07a1ff23c49589ebcb20e27abf541"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_vr/blimport.py",
+      "bytes": 15007,
+      "sha256": "4df1160577cd51811d5894230a25b9df77a0e3a6078f890c994e24a6ee25d944"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_vr/data/pv0000.csv",
+      "bytes": 947517,
+      "sha256": "c7b16169cb91fbe15d9a99e5b8052eb4a04e08244aaeac76eb2db6e8b7d50182"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_vr/data/pv0001.csv",
+      "bytes": 947387,
+      "sha256": "5ca12af430ab911649a1799565b412ae7f58fb84b1209a25d8ae5b24640776a4"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_vr/data/pv0002.csv",
+      "bytes": 947351,
+      "sha256": "11a18691b681af04936cc0b6f0230d4ca73fa7d2611eed04f792aeca5b1c08fa"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_vr/data/pv0003.csv",
+      "bytes": 947319,
+      "sha256": "dd1406b7389a4c06b0c6892a08fdc38c9d9160f7911e9c118a988fc2a813954e"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_vr/data/pv0004.csv",
+      "bytes": 947300,
+      "sha256": "c2574ed3b1531b8a56e2630b3ebc9dd2f6a5ed74aedc5c2ad99d9096f5c38b03"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_vr/data/pv0005.csv",
+      "bytes": 947283,
+      "sha256": "a6fb02231ee19aa6739af47f7f8e798aac8255caa1b6e0c3f3981a1e80be7027"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_vr/pvimport.cmd",
+      "bytes": 77,
+      "sha256": "e7727126cf700017693581c1d045aabfbb5b476ac47b33e103b544d4150504a7"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_vr/pvimport.py",
+      "bytes": 1412,
+      "sha256": "46b00b198c254fec1a12b986d82d1641c50fed05093b2ad591110116533edc37"
+    },
+    {
+      "path": "ravaflow_selfcheck_results/runtime_env_vr/unimport.py",
+      "bytes": 4321,
+      "sha256": "2ce32cbfcad2b18d7b96cf63a4eaabbd35fe576638287beb23d9ca44e5067b3c"
+    },
+    {
+      "path": "rootfs_tar.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs_validation.json",
+      "bytes": 163,
+      "sha256": "3f44b1076c26c21eb0634287b1d7161d1973bd9d9e0e24d91032b287ef31e963"
+    },
+    {
+      "path": "runtime_checks.json",
+      "bytes": 2496,
+      "sha256": "bb23399d8fec43a6b9357678a44b327cf4c91b553ab7838e6dbfa7b54d2e3c52"
+    },
+    {
+      "path": "runtime_handoff.json",
+      "bytes": 8624,
+      "sha256": "cb4bdbbcbcf82993f5d42c4fae3d1a0962618f38fd083bbbc3da444199aa44c6"
+    },
+    {
+      "path": "runtime_rootfs.tar",
+      "bytes": 1639547104,
+      "sha256": "63956fc6ebf57191d6e7264e8fe1f7f8bb2b875e9e0ce7aeaa0ba4ec3fb4da5f"
+    },
+    {
+      "path": "selfcheck_dclaw.log",
+      "bytes": 473,
+      "sha256": "51edd8d65c20b5283739a3617182f709abc8b4ff7126d21bb9dfebe61ae6b727"
+    },
+    {
+      "path": "selfcheck_dclaw_v2.log",
+      "bytes": 112,
+      "sha256": "98aec996cbe9dec73278553a9d9e5c4dbcc0da46f3c1a59fbe94a32f0e5bd782"
+    },
+    {
+      "path": "selfcheck_dclaw_v3.log",
+      "bytes": 3880,
+      "sha256": "98ee8f8b2db5f8ff592f67440f5defeb28c4fad6eb4921fc9eee484266cf56cc"
+    },
+    {
+      "path": "selfcheck_ravaflow.log",
+      "bytes": 2519,
+      "sha256": "307d05d36b52327fb439f7ac01f1fd0abebb32108e419f63fac6d2e14f4c3873"
+    },
+    {
+      "path": "selfcheck_ravaflow.sh",
+      "bytes": 407,
+      "sha256": "7fac398432f944987fc6b00386a5f3c10ccbeba5d521b609cfc03567afdf3c5e"
+    },
+    {
+      "path": "selfcheck_ravaflow_v2.log",
+      "bytes": 3891,
+      "sha256": "60a67af64228d9b4f98afc8d29efaef8ab4b160c9728b541d5fa2d3bba57e860"
+    },
+    {
+      "path": "source_file_manifest.json",
+      "bytes": 359495,
+      "sha256": "814026bde99ba8d860b35f5d98cd2f036bfcd1ddb2ee339f4fa2af4b4b071ea1"
+    },
+    {
+      "path": "source_versions.json",
+      "bytes": 2012,
+      "sha256": "7d71429b432b5ca4699bf0fbc35ffc9457faedc1ee6396023bbde880143c8d2e"
+    },
+    {
+      "path": "sources_manifest.json",
+      "bytes": 359775,
+      "sha256": "e79251ec549b04ec9545fc81e4fc82873d61384d0d6afddfef04e466eaafa78c"
+    },
+    {
+      "path": "ubuntu22_image_inspect.json",
+      "bytes": 901,
+      "sha256": "8c80a08039d9e5b7fd974d26b637a4562b6e11ebc13f6c741e63ecc4ec013ca2"
+    },
+    {
+      "path": "verify_runtime.py",
+      "bytes": 2180,
+      "sha256": "0be90df9cee34f83fe8c2218bc25a9525a3c7030c3ab85182436cfced76d9076"
+    }
+  ],
+  "large_archive_hashes": "runtime_handoff.json",
+  "source_file_hashes": "sources_manifest.json",
+  "official_benchmark_hashes": "benchmarks_manifest.json",
+  "apt_cache_hashes": "apt_download_manifest.json"
+}

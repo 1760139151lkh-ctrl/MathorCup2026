@@ -1,0 +1,42 @@
+{
+  "retrieved_utc": "2026-10-24T07:23:58.338193+00:00",
+  "ravaflow": {
+    "source_url": "https://www.landslidemodels.org/r.avaflow/software/r.avaflow.40G.zip",
+    "version": "4.0 Revision7",
+    "release": "20250902",
+    "archive_sha256": "8301b4804f45e228633aa823caba4a3387a47f8bd143cf5569fdc5a9f95ad3a7",
+    "licensing": "LICENSE contains GPLv3; source header states GNU GPL >=v2",
+    "read_scope": [
+      "direct.php requirements, installation and parameters sections",
+      "main.c header",
+      "Makefiles",
+      "LICENSE"
+    ]
+  },
+  "dclaw": {
+    "source_url": "https://github.com/geoflows/dclaw.git",
+    "tag": "1.0.0",
+    "commit": "7d48663bbed916372ba18732627c52043afb109f",
+    "license": "BSD-3-Clause",
+    "read_scope": [
+      "docs/src/installation.md",
+      "README.md",
+      "LICENSE.md",
+      "examples/gully/Makefile",
+      "src/2d/dig/Makefile.dclaw"
+    ]
+  },
+  "clawpack": {
+    "source_url": "https://github.com/clawpack/clawpack.git",
+    "tag": "v5.11.0",
+    "commit": "285b7de9837702276213b7deb040495adc60c4cc",
+    "submodules": "2d9d07640bcd03890997a7fc250b76ef50321f1d amrclaw (2d9d076)\n-5f178e4c8eb59d6f16f3d21c654b89033bd9be92 classic\n 1ee5f67859fab5a71cebdb5f015a0c9d148a74b2 clawutil (1ee5f67)\n 3303883f46572c58130d161986b8a87a57ca7816 geoclaw (3303883)\n-a16a60959b4aa714384fd94a704d8af79c8278c2 pyclaw\n fea00b286c7a9ce64466587ad00c88a1cbcb3b26 riemann (fea00b2)\n 1fc821c546bcac630fec12cf9edef92e01316f4d visclaw (1fc821c)",
+    "selection_reason": "Fixed 2025 release close to D-Claw1.0.0; compatibility to be checked by compilation and imports"
+  },
+  "cascadia": {
+    "source_url": "https://www.landslidemodels.org/r.avaflow/data/Cascadia_r.avaflow40G.zip",
+    "archive_sha256": "564a9920c3036431915eaa5136f57c5bb720e7b980bc7a2de32998e855d78a9e",
+    "bytes": 4845673,
+    "note": "Official downloadable training bundle timestamp2024; source main code Rev7 is2025. Version compatibility must be checked; original bundle remains unmodified."
+  }
+}
