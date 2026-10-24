@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# AI-assisted: OpenAI Codex / GPT-6 family, OpenAI, 2026-10-24.
+# Contributions and model identity are recorded in AI_DISCLOSURE.md.
 """Copy adopted original programs and build a portable complete-source appendix."""
 from __future__ import annotations
 
@@ -40,21 +42,62 @@ def normalize_entry(value) -> dict:
     return {**value, "path": value.get("path", value.get("repo_path", value.get("file", value.get("source_path"))))}
 
 
+def software_label(record: dict) -> str:
+    """Human-readable identity only; full metadata remains in the JSON index."""
+    parts = [escape(record.get("name", "第三方软件"))]
+    for key, label in (("version", "版本"), ("release", "发布")):
+        if isinstance(record.get(key), (str, int, float)):
+            parts.append(label + " " + escape(record[key]))
+    commit = record.get("commit", record.get("revision"))
+    if isinstance(commit, str) and commit:
+        parts.append("提交 " + r"\texttt{" + escape(commit[:12]) + "}")
+    return "，".join(parts)
+
+
+def third_party_item(record: dict) -> str:
+    text = r"\item " + software_label(record)
+    dependency = record.get("numerical_dependency")
+    if isinstance(dependency, dict):
+        text += "；数值依赖：" + software_label(dependency)
+    dependencies = record.get("dependencies", [])
+    if isinstance(dependencies, dict):
+        dependencies = [{"name": name, **value} if isinstance(value, dict)
+                        else {"name": name, "version": value} for name, value in dependencies.items()]
+    if isinstance(dependencies, list):
+        labels = [software_label(value) for value in dependencies if isinstance(value, dict)]
+        if labels:
+            text += "；配套依赖：" + "；".join(labels)
+    url = record.get("source_url", record.get("url"))
+    if isinstance(url, str) and url:
+        text += "。源码：" + r"\url{" + url + "}"
+    return text + "。\n"
+
+
 def entries(path: Path) -> tuple[list, list]:
     data = json.loads(path.read_text(encoding="utf-8"))
     if isinstance(data, list):
         return data, []
     if not isinstance(data, dict):
         raise ValueError(f"{path.name}: expected list or object")
-    original = []
-    for key in ("code_files", "files", "programs", "self_authored"):
-        if isinstance(data.get(key), list):
+    original = None
+    accepted_keys = ("code_files", "files", "programs", "self_authored", "self_authored_files")
+    for key in accepted_keys:
+        if key in data:
+            if not isinstance(data[key], list):
+                raise ValueError(f"{path.name}: {key} must be a list")
             original = data[key]
             break
+    if original is None:
+        if data:
+            raise ValueError(f"{path.name}: unrecognized self-authored program list; expected one of {', '.join(accepted_keys)}")
+        original = []
     third_party = data.get("third_party", data.get("third_party_solvers", []))
     if isinstance(third_party, dict):
         third_party = [{"name": k, **v} if isinstance(v, dict) else {"name": k, "version": v}
                        for k, v in third_party.items()]
+    derivative = data.get("third_party_derivative_build")
+    if isinstance(derivative, dict):
+        third_party.append(derivative)
     return original, third_party
 
 
@@ -93,7 +136,7 @@ def build(paper: Path, repo: Path) -> tuple[str, dict]:
                           "display_path": "code_print/" + name, "display_sha256": digest(display),
                           "path_anonymization_count": substitutions,
                           "sha256": actual, "bytes": len(data), "lines": len(data.splitlines()),
-                          "chapters": [chapter], "title": entry.get("title", entry.get("description", source.name))}
+                          "chapters": [chapter], "title": entry.get("title", entry.get("description", entry.get("role", source.name)))}
                 seen[name] = record
                 records.append(record)
         except (ValueError, OSError, TypeError, UnicodeError) as exc:
@@ -102,6 +145,8 @@ def build(paper: Path, repo: Path) -> tuple[str, dict]:
         issues.append("no q1–q4 code lists found")
     report = {"schema_version": 1, "passed": not issues, "sources": [str(p.relative_to(paper)) for p in listings],
               "program_count": len(records), "source_lines": sum(r["lines"] for r in records),
+              "chapter_program_counts": {chapter: sum(chapter in r["chapters"] for r in records)
+                                         for chapter in sorted({p.name.split('_')[0] for p in listings})},
               "programs": records, "third_party": third_party, "issues": issues,
               "copy_policy": "Full UTF-8 original sources copied byte-for-byte; third-party solvers indexed by declared version/configuration only.",
               "display_copy_policy": "Only /Users/[A-Za-z0-9_.-]+ path prefixes are replaced with <LOCAL_HOME>; equations, parameters and program logic are otherwise unchanged. Original portable copies preserve exact source bytes."}
@@ -117,9 +162,9 @@ def build(paper: Path, repo: Path) -> tuple[str, dict]:
     if third_party:
         chunks.extend([r"\subsection*{第三方框架版本索引}" + "\n", r"\begin{itemize}" + "\n"])
         for record in third_party:
-            text = "; ".join(f"{k}: {v}" for k, v in record.items() if k != "chapter")
-            chunks.append(r"\item " + escape(f"{record.get('chapter', '')} — {text}") + "\n")
+            chunks.append(third_party_item(record))
         chunks.append(r"\end{itemize}" + "\n")
+        chunks.append("完整版本元数据、源记录路径与哈希见配套工程的" + r"\nolinkurl{evidence/program_manifest.json}" + "。\n")
     for i, record in enumerate(records, 1):
         chunks.append(r"\clearpage" + "\n")
         chunks.append(r"\subsection*{" + f"程序{i}：" + escape(record["title"]) + "}\n")

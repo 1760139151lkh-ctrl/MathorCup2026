@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# AI-assisted: OpenAI Codex / GPT-6 family, OpenAI, 2026-10-24.
+# Contributions and model identity are recorded in AI_DISCLOSURE.md.
 """Parser/integrity fixtures use temporary directories, never scientific data."""
 import hashlib
 import json
@@ -6,6 +8,8 @@ from pathlib import Path
 import tempfile
 import unittest
 import subprocess
+from unittest.mock import patch
+import re
 
 import build_evidence as evidence
 import build_program_appendix as programs
@@ -109,6 +113,59 @@ class PaperToolsTest(unittest.TestCase):
         self.assertEqual(verify_paper.last_main_page(aux), 29)
         aux.write_text(r"\newlabel{Other}{{1}{2}}", encoding="utf-8")
         self.assertIsNone(verify_paper.last_main_page(aux))
+
+    def test_q4_self_authored_alias_full_generated_appendix(self):
+        source = self.write("research/q4.py", 'root="/Users/fixture/data"\nprint(1)\n')
+        self.write("track_b/paper/evidence/q4_code_files.json", {"self_authored_files": [
+            {"path": "research/q4.py", "role": "传播场绘图"}]})
+        run = subprocess.run([str(Path(__import__('sys').executable)), "-B", str(Path(programs.__file__)),
+                              "--paper", str(self.paper), "--repo", str(self.repo)],
+                             text=True, capture_output=True, check=False)
+        self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
+        text = (self.paper / "appendices/programs.tex").read_text(encoding="utf-8")
+        manifest = json.loads((self.paper / "evidence/program_manifest.json").read_text(encoding="utf-8"))
+        self.assertEqual(manifest["chapter_program_counts"], {"q4": 1})
+        self.assertEqual(manifest["programs"][0]["title"], "传播场绘图")
+        self.assertIn(r"\texttt{code/}", text)
+        self.assertNotIn(r"\\texttt", text)
+        self.assertIn("1 & 传播场绘图 & 2\\\\\n", text)
+        self.assertIn("\\noindent 来源：\\nolinkurl{research/q4.py}\\\\\n", text)
+        self.assertIn("\\VerbatimInput[", text)
+        self.assertEqual((self.paper / "code/research/q4.py").read_bytes(), source.read_bytes())
+        self.assertNotIn("/Users/fixture", (self.paper / "code_print/research/q4.py").read_text())
+
+    def test_unrecognized_nonempty_code_list_fails_explicitly(self):
+        self.write("track_b/paper/evidence/q4_code_files.json", {"unexpected_program_key": ["research/q4.py"]})
+        _, report = programs.build(self.paper, self.repo)
+        self.assertFalse(report["passed"])
+        self.assertTrue(any("unrecognized self-authored" in issue for issue in report["issues"]))
+
+    def test_anonymous_pdf_check_derives_actual_username(self):
+        with patch.object(verify_paper.Path, "home", return_value=Path("/Users/fixture.researcher")):
+            patterns = verify_paper.identity_patterns()
+        self.assertIsNotNone(re.search(patterns["local_username"], "FIXTURE.RESEARCHER"))
+        self.assertIsNone(re.search(patterns["local_username"], "fixtureXresearcher"))
+        self.assertIsNotNone(re.search(patterns["local_user_path"], "/Users/another-person/data"))
+
+    def test_third_party_index_uses_human_identity_and_keeps_full_json(self):
+        self.write("track_b/paper/evidence/q4_code_files.json", {"self_authored_files": [], "third_party_solvers": [{
+            "name": "D-Claw", "version": "1.0.0", "commit": "7d48663bbed916372ba18732627c52043afb109f",
+            "source_url": "https://github.com/geoflows/dclaw.git", "archive_sha256": "a" * 64,
+            "is_self_authored": False, "full_source_in_self_authored_appendix": False,
+            "source_files": [{"path": "research/source_versions.json", "sha256": "b" * 64}],
+            "numerical_dependency": {"name": "Clawpack", "version": "v5.11.0", "commit": "285b7de9837702276213b7deb040495adc60c4cc"}}]})
+        text, report = programs.build(self.paper, self.repo)
+        self.assertTrue(report["passed"])
+        self.assertIn("D-Claw，版本 1.0.0", text)
+        self.assertIn(r"\texttt{7d48663bbed9}", text)
+        self.assertIn("Clawpack，版本 v5.11.0", text)
+        self.assertIn(r"\url{https://github.com/geoflows/dclaw.git}", text)
+        self.assertIn(r"\nolinkurl{evidence/program_manifest.json}", text)
+        self.assertNotIn("False", text)
+        self.assertNotIn("a" * 64, text)
+        self.assertNotIn("source\\_files", text)
+        self.assertEqual(report["third_party"][0]["archive_sha256"], "a" * 64)
+        self.assertFalse(report["third_party"][0]["is_self_authored"])
 
     def test_history_protects_research_but_allows_paper_changes(self):
         def git(*args):

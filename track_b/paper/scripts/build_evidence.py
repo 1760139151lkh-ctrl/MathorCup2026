@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# AI-assisted: OpenAI Codex / GPT-6 family, OpenAI, 2026-10-24.
+# Contributions and model identity are recorded in AI_DISCLOSURE.md.
 """Merge chapter evidence and verify immutable repository source hashes.
 
 No model is run.  Explicit ``checks`` permit JSON-pointer or CSV-cell numerical

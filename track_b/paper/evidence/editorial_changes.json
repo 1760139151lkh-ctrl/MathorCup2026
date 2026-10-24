@@ -1,0 +1,36 @@
+[
+  {
+    "file": "track_b/paper/sections/q1.tex",
+    "before_sha256": "d6c4f2ed618b63e7da0792c2b550902aec67ff5019f90bbfa395d9f2a9c9115c",
+    "after_sha256": "902b7982230a6c52c3a9e9d70ede8655c5abbf7b997b17284813ac7478962997",
+    "change": "Bibliographic key consolidation only",
+    "from": "q1-data",
+    "to": "common-waternet",
+    "numerical_or_model_change": false
+  },
+  {
+    "file": "track_b/paper/sections/q3.tex",
+    "before_sha256": "e13ba8acc3c0617dbbe3e16567e6508877a848ea9d770852fe683ebc7fb56e4f",
+    "after_sha256": "3754a54e3589ab4a96b3686fef3b59859b8203103bc59acff7a2ce21ff018d79",
+    "change": "Bibliographic key consolidation only",
+    "from": "q3-mamot2018",
+    "to": "q2-mamot2018",
+    "numerical_or_model_change": false
+  },
+  {
+    "file": "track_b/paper/sections/q3.tex",
+    "before_sha256": "3754a54e3589ab4a96b3686fef3b59859b8203103bc59acff7a2ce21ff018d79",
+    "after_sha256": "6c3ff5d4c0a63990f15c17cf4bda6bcfce1c72c71856358725f4ed526509a337",
+    "change": "Results-led narrative and scope definitions; numerical values and model equations preserved",
+    "replacements": 5,
+    "numerical_or_model_change": false
+  },
+  {
+    "file": "track_b/paper/sections/q4.tex",
+    "before_sha256": "49092a4f32788919141481e5fca0fbc377c498f0e11476833db1686a1d44f965",
+    "after_sha256": "ef8690f3d741922143ac462547dceeebf847a26d357b9035521f9002746279e7",
+    "change": "Results-led narrative and scope definitions; numerical values and model equations preserved",
+    "replacements": 2,
+    "numerical_or_model_change": false
+  }
+]

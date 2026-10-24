@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# AI-assisted: OpenAI Codex / GPT-6 family, OpenAI, 2026-10-24.
+# Contributions and model identity are recorded in AI_DISCLOSURE.md.
 """Build a bibliography in actual first-citation order from chapter bibitems."""
 from __future__ import annotations
 

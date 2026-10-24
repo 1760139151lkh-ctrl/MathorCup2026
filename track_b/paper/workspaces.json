@@ -7,28 +7,48 @@
       "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
       "branch": "codex/track-b-q1-paper",
       "previous_source_commit": "8583b8164154abc0fa7a3f89f9f38efc780c5f3a",
-      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2"
+      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+      "source_commit": "bf53b59289177854e538794c8f7bbd062d41a2b4",
+      "integration_commit": "7b676258039a4d0047f53cea14f10c6168135ec9",
+      "status": "integrated_chapter",
+      "files": 18
     },
     {
       "question": "q2",
       "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2",
       "branch": "codex/track-b-q2-paper",
       "previous_source_commit": "604ce1be4d0f09cd9d18f3c1556993ddf066981d",
-      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2"
+      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+      "source_commit": "c1206716dc0c4ac5778ab3d905b598d718b46e7b",
+      "integration_commit": "9fbe001eaf82b94f68a3dfcf56c7dbd183356905",
+      "status": "integrated_chapter",
+      "files": 32
     },
     {
       "question": "q3",
       "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3",
       "branch": "codex/track-b-q3-paper",
       "previous_source_commit": "f629a332844f07ff0be3275b74f24d7018fbdcac",
-      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2"
+      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+      "source_commit": "ca248e92593f83c65ecc23b15a2196fabb04d560",
+      "integration_commit": "694e52d624d833e965eb69d2a36729cb7e125bc6",
+      "status": "integrated_chapter",
+      "files": 19
     },
     {
       "question": "q4",
       "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
       "branch": "codex/track-b-q4-paper",
       "previous_source_commit": "6d0562965727f32cb5ab6ae0f665c00b958eb109",
-      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2"
+      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+      "source_commit": "b0b5d6df711633d478e53fb5b6557d9293a71cf8",
+      "integration_commit": "04d16cc656dc888c250a622526f41443fc1ef821",
+      "status": "integrated_chapter",
+      "files": 26
     }
-  ]
+  ],
+  "phase_status": "complete_draft_delivered",
+  "next_action": "team_review_and_revision",
+  "paper_check": "qa/paper_check.json",
+  "visual_review": "qa/visual_review.json"
 }

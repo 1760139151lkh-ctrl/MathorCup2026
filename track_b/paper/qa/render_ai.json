@@ -1,0 +1,12 @@
+{
+  "pdf": "build/ai/ai_details.pdf",
+  "sha256": "9c0ee3158d63fac6e65efcb6ffc60357ee99a94183f6fa2a6706425f54d31713",
+  "dpi": 110,
+  "first_page": 1,
+  "last_page_requested": null,
+  "page_images": 5,
+  "contact_sheets": [
+    "qa/contact_sheets/ai-001.jpg"
+  ],
+  "review_status": "rendered_for_visual_inspection"
+}

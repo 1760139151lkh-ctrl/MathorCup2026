@@ -2,13 +2,13 @@
 
 本文件只作用于`track_b/`。仓库总说明见根目录README；原始资料保持原样，派生处理另存。
 
-## 当前：完整论文撰写
+## 当前：完整初稿已交付，集中阅稿与修改
 
-用户已完成第三轮评审，并批准实施成果导向的LaTeX完整初稿计划。优先读`paper/WRITING_GUIDE.md`、`paper/AGENTS.md`和`paper/adoption_record.json`。当前可直接撰写、绘图、编译和集成；旧轮“等待联合评审”的停点已完成。论文用方法、结果、解释及适用条件陈述贡献；历史研究契约/底稿按原完成时点保留。
+用户已完成第三轮评审，并批准实施成果导向的LaTeX完整初稿计划。优先读`paper/WRITING_GUIDE.md`、`paper/AGENTS.md`和`paper/adoption_record.json`。完整初稿与AI说明位于`paper/output/`，可直接据队员意见修改、绘图、编译和集成；旧轮“等待联合评审”的停点已完成。论文用方法、结果、解释及适用条件陈述贡献；历史研究契约/底稿按原完成时点保留。
 
 ## 恢复顺序
 
-当前用户已批准实施阶段4第三轮完整模型研究。优先读`docs/18_stage4_round3_workflow.md`、本问`round3/TASK.md`/`HANDOFF.md`与最新派单绑定。第三轮覆盖旧轮“只方案/不模型/不安装/单对128MiB”等轮次限制；下方历史记录仅按所属轮解释。
+第三轮研究恢复时读`docs/18_stage4_round3_workflow.md`、本问`round3/TASK.md`/`HANDOFF.md`与最新派单绑定。第三轮覆盖旧轮“只方案/不模型/不安装/单对128MiB”等轮次限制；下方历史记录仅按所属轮解释。
 
 1. 读`STATUS.md`确认当前目标、已有授权和下一动作。
 2. 读`docs/01_task_matrix.md`与`docs/02_definitions_validation.md`恢复四问口径。

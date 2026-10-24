@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# AI-assisted: OpenAI Codex / GPT-6 family, OpenAI, 2026-10-24.
+# Contributions and model identity are recorded in AI_DISCLOSURE.md.
 """Read-only source/PDF QA; writes only reports beneath paper/qa."""
 from __future__ import annotations
 
@@ -19,6 +21,14 @@ HISTORY_BASE = "eecf07db7873b3c2c63275fa0b419867d8bdd3b2"
 PROTECTED_ROOTS = ["00_资料索引.txt", "01_比赛规范", "02_提交模板", "03_A赛道", "04_B赛道", "DeepSeek_A",
                    "track_b/research", "track_b/data", "track_b/audit", "track_b/config", "track_b/scripts",
                    "track_b/requirements-lock.txt", "track_b/requirements.in"]
+
+
+def identity_patterns() -> dict[str, str]:
+    """Derive the actual local username without printing it in program source."""
+    return {"email": r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}",
+            "local_user_path": r"/Users/[A-Za-z0-9_.-]+(?:/|\b)",
+            "local_username": r"(?i)" + re.escape(Path.home().name),
+            "identity_field": r"(?:参赛队号|参赛队员|指导教师|作者姓名|所属学校)\s*[:：]\s*\S+"}
 
 
 def history_integrity(repo: Path, baseline: str) -> dict:
@@ -114,10 +124,7 @@ def check_pdf(pdf: Path, aux: Path) -> dict:
             footer.append({"body_page": i, "footer_token_present": ok})
         add("body_footer_page_numbers", len(footer) == body_count and all(r["footer_token_present"] for r in footer), footer)
         identifiers = []
-        patterns = {"email": r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}",
-                    "local_user_path": r"/Users/[A-Za-z0-9_.-]+(?:/|\b)",
-                    "local_username": r"(?i)maxchen",
-                    "identity_field": r"(?:参赛队号|参赛队员|指导教师|作者姓名|所属学校)\s*[:：]\s*\S+"}
+        patterns = identity_patterns()
         for number, text in enumerate(pages, 1):
             for name, pattern in patterns.items():
                 for match in re.finditer(pattern, text):

@@ -1,0 +1,78 @@
+{
+  "format_version": 1,
+  "title": "基于多源数据与结构水热耦合的吉隆泥石流触发及传播研究",
+  "status": "complete_chinese_latex_first_draft",
+  "local_delivery": true,
+  "research_baseline_commit": "0dfab57",
+  "paper_common_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+  "frontmatter_pages": 2,
+  "body_including_references_and_declaration_pages": 27,
+  "appendix_pages": 320,
+  "self_authored_source_path_entries": 58,
+  "source_lines": 12815,
+  "references": 22,
+  "claim_count": 128,
+  "unique_source_files": 222,
+  "deliverables": [
+    {
+      "kind": "paper_pdf",
+      "path": "output/赛道B论文初稿.pdf",
+      "bytes": 1736804,
+      "sha256": "5a202c95ef68d72dd0fb037420fde35a9385b74431182782fe1f8ed7faf2b61f",
+      "physical_pages": 349
+    },
+    {
+      "kind": "ai_disclosure_pdf",
+      "path": "output/AI工具使用详情说明.pdf",
+      "bytes": 129570,
+      "sha256": "9c0ee3158d63fac6e65efcb6ffc60357ee99a94183f6fa2a6706425f54d31713",
+      "physical_pages": 5
+    },
+    {
+      "kind": "editable_latex_source",
+      "path": "output/赛道B_LaTeX工程.zip",
+      "bytes": 2959783,
+      "sha256": "e1871108cc568ee7cb71a4b3667c440dd2d2d43a06e12874b24472f3f153142e"
+    }
+  ],
+  "source_manifest": {
+    "path": "evidence/source_manifest.json",
+    "sha256": "62539702756d5aef70c336b8971211b297e2b4e484463856e2e5910ddc7580dc"
+  },
+  "checks": {
+    "paper_check": {
+      "path": "qa/paper_check.json",
+      "passed": true
+    },
+    "evidence_check": {
+      "path": "qa/evidence_check.json",
+      "passed": true
+    },
+    "visual_review": {
+      "path": "qa/visual_review.json",
+      "passed": true
+    },
+    "scientific_review": {
+      "path": "qa/scientific_review.json",
+      "passed": true
+    },
+    "font_embedding_check": {
+      "path": "qa/font_embedding_check.json",
+      "passed": true
+    },
+    "layout_and_navigation_check": {
+      "path": "qa/layout_and_navigation_check.json",
+      "passed": true
+    },
+    "source_package_check": {
+      "path": "qa/source_package_check.json",
+      "passed": true
+    },
+    "portable_build_check": {
+      "path": "qa/portable_build_check.json",
+      "passed": true
+    }
+  },
+  "retained": "Original research packages, four paper branches/worktrees, locked environments and caches.",
+  "review_next": "Team review and consolidated revisions to this draft."
+}

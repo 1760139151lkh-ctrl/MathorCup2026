@@ -1,0 +1,14 @@
+{
+  "pdf": "build/main/main.pdf",
+  "sha256": "5a202c95ef68d72dd0fb037420fde35a9385b74431182782fe1f8ed7faf2b61f",
+  "dpi": 110,
+  "first_page": 1,
+  "last_page_requested": 29,
+  "page_images": 29,
+  "contact_sheets": [
+    "qa/contact_sheets/main_body-001.jpg",
+    "qa/contact_sheets/main_body-002.jpg",
+    "qa/contact_sheets/main_body-003.jpg"
+  ],
+  "review_status": "rendered_for_visual_inspection"
+}

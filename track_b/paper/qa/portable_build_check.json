@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "test": "Unzip the delivered source archive into a fresh temporary directory and run the two documented latexmk commands, then compare text on every page.",
+  "research_cache_used": false,
+  "build_logs_saved": "Temporary source-check directory; terminal exit codes 0 for main and AI.",
+  "reports": [
+    {
+      "source_pdf": "build/main/main.pdf",
+      "reference_sha256": "5a202c95ef68d72dd0fb037420fde35a9385b74431182782fe1f8ed7faf2b61f",
+      "rebuilt_sha256": "2c96d0d099835d955a36ed9fa75fd8333d2ffd2b597f2fa00314fa8b56f87c42",
+      "source_pages": 349,
+      "rebuilt_pages": 349,
+      "text_difference_pages": [],
+      "layout_or_reference_issues": [],
+      "passed": true
+    },
+    {
+      "source_pdf": "build/ai/ai_details.pdf",
+      "reference_sha256": "9c0ee3158d63fac6e65efcb6ffc60357ee99a94183f6fa2a6706425f54d31713",
+      "rebuilt_sha256": "b21757ffe3ed4a024405b7d7c1c1543aefc2657cd0ec59c4ad456cc50cb286ce",
+      "source_pages": 5,
+      "rebuilt_pages": 5,
+      "text_difference_pages": [],
+      "layout_or_reference_issues": [],
+      "passed": true
+    }
+  ]
+}

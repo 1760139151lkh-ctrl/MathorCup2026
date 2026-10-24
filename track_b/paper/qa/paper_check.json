@@ -1,0 +1,751 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "check_count": 15,
+  "passed_count": 15,
+  "checks": [
+    {
+      "name": "main_tex_exists",
+      "passed": true,
+      "detail": "main.tex"
+    },
+    {
+      "name": "all_tex_inputs_exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all_figures_exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "unique_labels",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all_label_references_resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all_citations_resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "bibliography_first_citation_order",
+      "passed": true,
+      "detail": {
+        "citations": [
+          "common-waternet",
+          "common-copdem",
+          "common-gfs",
+          "q1-shrinkage",
+          "q1-analog",
+          "q2-mamot2018",
+          "q2-weber2025",
+          "q2-benasher2026",
+          "q3-leinauer2023",
+          "q3-loewdata2024",
+          "q3-schild2026",
+          "q3-noaa-gfs-products",
+          "q3-fukuzono1985",
+          "q3-kalman1960",
+          "q3-friedman1982",
+          "q3-angelopoulos2021",
+          "q4-dem",
+          "q4-ravaflow",
+          "q4-multiphase",
+          "q4-dclaw",
+          "q4-dclaw-code",
+          "common-openai"
+        ],
+        "bibliography": [
+          "common-waternet",
+          "common-copdem",
+          "common-gfs",
+          "q1-shrinkage",
+          "q1-analog",
+          "q2-mamot2018",
+          "q2-weber2025",
+          "q2-benasher2026",
+          "q3-leinauer2023",
+          "q3-loewdata2024",
+          "q3-schild2026",
+          "q3-noaa-gfs-products",
+          "q3-fukuzono1985",
+          "q3-kalman1960",
+          "q3-friedman1982",
+          "q3-angelopoulos2021",
+          "q4-dem",
+          "q4-ravaflow",
+          "q4-multiphase",
+          "q4-dclaw",
+          "q4-dclaw-code",
+          "common-openai"
+        ]
+      }
+    },
+    {
+      "name": "positive_results_source_wording",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "source_evidence_hashes",
+      "passed": true,
+      "detail": {
+        "claim_count": 128,
+        "source_count": 222,
+        "issues": [],
+        "chapters_pending": []
+      }
+    },
+    {
+      "name": "four_chapter_evidence",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "historical_research_integrity",
+      "passed": true,
+      "detail": {
+        "baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+        "protected_roots": [
+          "00_资料索引.txt",
+          "01_比赛规范",
+          "02_提交模板",
+          "03_A赛道",
+          "04_B赛道",
+          "DeepSeek_A",
+          "track_b/research",
+          "track_b/data",
+          "track_b/audit",
+          "track_b/config",
+          "track_b/scripts",
+          "track_b/requirements-lock.txt",
+          "track_b/requirements.in"
+        ],
+        "changed_protected_paths": [],
+        "untracked_protected_paths": [],
+        "branches": [
+          {
+            "branch": "codex/track-b-q1-r3",
+            "expected_source_commit": "8583b8164154abc0fa7a3f89f9f38efc780c5f3a",
+            "actual_commit": "8583b8164154abc0fa7a3f89f9f38efc780c5f3a",
+            "passed": true
+          },
+          {
+            "branch": "codex/track-b-q2-r3",
+            "expected_source_commit": "604ce1be4d0f09cd9d18f3c1556993ddf066981d",
+            "actual_commit": "604ce1be4d0f09cd9d18f3c1556993ddf066981d",
+            "passed": true
+          },
+          {
+            "branch": "codex/track-b-q3-r3",
+            "expected_source_commit": "f629a332844f07ff0be3275b74f24d7018fbdcac",
+            "actual_commit": "f629a332844f07ff0be3275b74f24d7018fbdcac",
+            "passed": true
+          },
+          {
+            "branch": "codex/track-b-q4-r3",
+            "expected_source_commit": "6d0562965727f32cb5ab6ae0f665c00b958eb109",
+            "actual_commit": "6d0562965727f32cb5ab6ae0f665c00b958eb109",
+            "passed": true
+          }
+        ],
+        "issues": [],
+        "passed": true
+      }
+    },
+    {
+      "name": "portable_original_program_hashes",
+      "passed": true,
+      "detail": [
+        {
+          "path": "code/track_b/research/q1/round3/scripts/build_features.py",
+          "display_path": "code_print/track_b/research/q1/round3/scripts/build_features.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q1/round3/scripts/run_models.py",
+          "display_path": "code_print/track_b/research/q1/round3/scripts/run_models.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q1/round3/scripts/summarize_results.py",
+          "display_path": "code_print/track_b/research/q1/round3/scripts/summarize_results.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/q1_figures.py",
+          "display_path": "code_print/track_b/paper/scripts/q1_figures.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/q1_evidence.py",
+          "display_path": "code_print/track_b/paper/scripts/q1_evidence.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q2/round3/scripts/mechanism_engine.py",
+          "display_path": "code_print/track_b/research/q2/round3/scripts/mechanism_engine.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+          "display_path": "code_print/track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q2/round3/scripts/run_experiments.py",
+          "display_path": "code_print/track_b/research/q2/round3/scripts/run_experiments.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q2/round3/scripts/run_analytic_thermal.py",
+          "display_path": "code_print/track_b/research/q2/round3/scripts/run_analytic_thermal.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q2/round3/scripts/analyze_identifiability.py",
+          "display_path": "code_print/track_b/research/q2/round3/scripts/analyze_identifiability.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q2/round3/lab_strength/model/competition.py",
+          "display_path": "code_print/track_b/research/q2/round3/lab_strength/model/competition.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/q2_make_figures.py",
+          "display_path": "code_print/track_b/paper/scripts/q2_make_figures.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/q3_evidence.py",
+          "display_path": "code_print/track_b/paper/scripts/q3_evidence.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/q3_figures.py",
+          "display_path": "code_print/track_b/paper/scripts/q3_figures.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/q3_preview.py",
+          "display_path": "code_print/track_b/paper/scripts/q3_preview.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/analytic_thermal_engine.py",
+          "display_path": "code_print/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/analytic_thermal_engine.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+          "display_path": "code_print/track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/postprocess.py",
+          "display_path": "code_print/track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/postprocess.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/replay.py",
+          "display_path": "code_print/track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/replay.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/acquire_deformation.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/acquire_deformation.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/acquire_weather.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/acquire_weather.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/applicability_fixed_risk.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/applicability_fixed_risk.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/applicability_sensitivity.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/applicability_sensitivity.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/common_anchor_comparison.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/common_anchor_comparison.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/engine_b.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/engine_b.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/engine_c.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/engine_c.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/final_propagation_v4.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/final_propagation_v4.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/integrate_results.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/integrate_results.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/join_propagation.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/join_propagation.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/join_propagation_v2.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/join_propagation_v2.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/join_propagation_v3.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/join_propagation_v3.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q3/round3/scripts/mechanistic_replay.py",
+          "display_path": "code_print/track_b/research/q3/round3/scripts/mechanistic_replay.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/reduced_solver.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/reduced_solver.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/reduced_region.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/reduced_region.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/reduced_benchmarks.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/reduced_benchmarks.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/reduced_validate.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/reduced_validate.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/spatial_build.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/spatial_build.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/map_q2_releases.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/map_q2_releases.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/official_q2_v2_cases.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/official_q2_v2_cases.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/extend_computational_domain.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/extend_computational_domain.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/official_composite_cases.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/official_composite_cases.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/official_entrainment_case.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/official_entrainment_case.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/official_container.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/official_container.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/official_launch_container.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/official_launch_container.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/official_analyse.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/official_analyse.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/official_targets.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/official_targets.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/integrate_comparison.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/integrate_comparison.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/audit_dclaw_mass.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/audit_dclaw_mass.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/compare_native_sensitivity.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/compare_native_sensitivity.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/research/q4/round3/scripts/official_result_matrix.py",
+          "display_path": "code_print/track_b/research/q4/round3/scripts/official_result_matrix.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/q4_plot_results.py",
+          "display_path": "code_print/track_b/paper/scripts/q4_plot_results.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/build_evidence.py",
+          "display_path": "code_print/track_b/paper/scripts/build_evidence.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/build_references.py",
+          "display_path": "code_print/track_b/paper/scripts/build_references.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/build_program_appendix.py",
+          "display_path": "code_print/track_b/paper/scripts/build_program_appendix.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/build_supplement_tables.py",
+          "display_path": "code_print/track_b/paper/scripts/build_supplement_tables.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/verify_paper.py",
+          "display_path": "code_print/track_b/paper/scripts/verify_paper.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/render_qa.py",
+          "display_path": "code_print/track_b/paper/scripts/render_qa.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        },
+        {
+          "path": "code/track_b/paper/scripts/build_paper.py",
+          "display_path": "code_print/track_b/paper/scripts/build_paper.py",
+          "original_passed": true,
+          "display_passed": true,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "resolved_latex_references",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no_overfull_boxes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "pdf_content_checks",
+      "passed": true,
+      "detail": {
+        "path": "main.pdf",
+        "exists": true,
+        "last_main_page": 27,
+        "checks": [
+          {
+            "name": "body_page_limit",
+            "passed": true,
+            "detail": {
+              "LastMainPage": 27,
+              "limit": 30
+            }
+          },
+          {
+            "name": "first_page_abstract_keywords",
+            "passed": true,
+            "detail": "abstract and keywords on physical page 1"
+          },
+          {
+            "name": "second_page_contents",
+            "passed": true,
+            "detail": "contents on physical page 2"
+          },
+          {
+            "name": "anonymous_pdf_author",
+            "passed": true,
+            "detail": {
+              "Author": ""
+            }
+          },
+          {
+            "name": "body_footer_page_numbers",
+            "passed": true,
+            "detail": [
+              {
+                "body_page": 1,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 2,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 3,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 4,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 5,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 6,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 7,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 8,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 9,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 10,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 11,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 12,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 13,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 14,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 15,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 16,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 17,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 18,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 19,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 20,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 21,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 22,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 23,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 24,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 25,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 26,
+                "footer_token_present": true
+              },
+              {
+                "body_page": 27,
+                "footer_token_present": true
+              }
+            ]
+          },
+          {
+            "name": "anonymous_entire_pdf",
+            "passed": true,
+            "detail": []
+          },
+          {
+            "name": "positive_results_wording",
+            "passed": true,
+            "detail": []
+          }
+        ],
+        "issues": [],
+        "page_count": 349,
+        "sha256": "5a202c95ef68d72dd0fb037420fde35a9385b74431182782fe1f8ed7faf2b61f"
+      }
+    }
+  ],
+  "issues": [],
+  "visual_review": "Automatic checks complement page-by-page rendered inspection; mathematical applicability is reviewed through chapter evidence and handoffs."
+}

@@ -20,10 +20,10 @@ track_b/.venv/bin/python -B -m unittest discover -s track_b/paper/scripts -p 'te
 - `evidence/qN_claims.json` 及可选的 `common_claims.json`、`public_claims.json` 为列表或 `{"claims":[...]}`。仅以上明确文件名进入合并，不通配扫描 `claim_index.json`。每项保留章节声明，并以 `claim_id` 唯一标识。`source_files` 为 `{"path":"仓库相对路径","sha256":"64位哈希"}` 的列表；也接受明确的 `repo_path`／`file` 字段别名。合并后的 `claim_index.json` 不包含自身作为来源。
 - `checks` 可选，用于逐项数值检查。JSON 示例：`{"source_path":"...json","json_pointer":"/summary/count","expected":13}`；CSV 示例：`{"source_path":"...csv","where":{"model":"A"},"column":"score","expected":0.5,"rtol":1e-8,"atol":1e-12}`。CSV条件必须选中唯一行；必要时明确 `row`。仅核对来源哈希的条目使用 `source_hash_verified_author_value_mapping` 状态，避免将来源核验等同于逐值复算。
 - `evidence/qN_references.tex` 与 `common_references.tex` 包含 `\bibitem{key}`。脚本按 `main.tex` 递归展开 `\input` 后的首次引用顺序生成 `references.tex`；重复且冲突的key及缺失引用使构建失败。同key同内容去重并记录。
-- `evidence/qN_code_files.json` 为仓库相对路径列表，或 `{"code_files":[{"path":"...","title":"程序用途","sha256":"可选的预期哈希"}],"third_party":[{"name":"框架","version":"固定版本","configuration":"配置索引"}]}`。自编代码按原字节复制到 `code/原仓库路径`，源码、哈希及行数进入 `evidence/program_manifest.json`；第三方框架仅登记版本。显示副本位于 `code_print/原仓库路径`，只用 `<LOCAL_HOME>` 替换 `/Users/<用户名>` 路径前缀，另记显示SHA和替换次数。`appendices/programs.tex` 通过论文根目录下的 `code_print/` 相对路径全文导入显示副本，长行折行且保留行号。`verify_paper.py` 同时核对原副本和显示副本，并对整份PDF（包括附录）扫描本机身份路径。
+- `evidence/qN_code_files.json` 为仓库相对路径列表，或 `{"code_files":[{"path":"...","title":"程序用途","sha256":"可选的预期哈希"}],"third_party":[{"name":"框架","version":"固定版本","configuration":"配置索引"}]}`。自编列表别名接受 `files`、`programs`、`self_authored`、`self_authored_files`，条目用途接受 `title`、`description`、`role`；非空对象若无可识别列表将明确报错。报告按章节列出采用程序数，便于核查完整交付。自编代码按原字节复制到 `code/原仓库路径`，源码、哈希及行数进入 `evidence/program_manifest.json`；第三方框架仅登记版本。显示副本位于 `code_print/原仓库路径`，只用 `<LOCAL_HOME>` 替换 `/Users/<用户名>` 路径前缀，另记显示SHA和替换次数。`appendices/programs.tex` 通过论文根目录下的 `code_print/` 相对路径全文导入显示副本，长行折行且保留行号。`verify_paper.py` 同时核对原副本和显示副本，并对整份PDF（包括附录）扫描本机身份路径。
 
 源文件已删除或哈希有变动时，不自动更新原声明哈希。修订应由相应章节作者核对来源，再明确更新章节证据记录。程序清单缩减后，旧的未引用副本不再进入清单和附录；脚本不自动删除文件。
 
 ## 技术测试
 
-八项临时fixture检查来源篡改、JSON数值、公共证据显式纳入且不重新导入生成索引、CSV唯一选择、真实引用顺序、冲突引用、完整源码和路径越界、正文页码标签解析，以及研究冻结/论文可写边界。fixture在系统临时目录创建并清除，不进入论文证据。
+十二项临时fixture检查来源篡改、JSON数值、公共证据显式纳入且不重新导入生成索引、CSV唯一选择、真实引用顺序、冲突引用、完整源码和路径越界、正文页码标签解析、研究冻结/论文可写边界、Q4别名完整附录输出、未知代码清单明确报错、动态本机用户名匿名检测，以及第三方版本索引的人可读排版和完整JSON保留。第三方索引仅打印软件/依赖名称、版本、发布或短提交号及可折行URL；完整字段与SHA留在程序JSON索引。fixture在系统临时目录创建并清除，不进入论文证据。

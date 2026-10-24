@@ -1,0 +1,23 @@
+{
+  "paper_pages": 349,
+  "body_pages": 27,
+  "body_page_one_destination_physical_zero_based": 2,
+  "body_page_one_destination_correct": true,
+  "fonts_and_lines": {
+    "main": {
+      "missing_glyph_lines": 0,
+      "overfull_boxes": 0
+    },
+    "ai_details": {
+      "missing_glyph_lines": 0,
+      "overfull_boxes": 0
+    }
+  },
+  "ai_pages": 5,
+  "ai_author_empty": true,
+  "ai_anonymous": true,
+  "duplicate_page_destination_warnings": 0,
+  "passed": true,
+  "pdf_sha256": "5a202c95ef68d72dd0fb037420fde35a9385b74431182782fe1f8ed7faf2b61f",
+  "ai_pdf_sha256": "9c0ee3158d63fac6e65efcb6ffc60357ee99a94183f6fa2a6706425f54d31713"
+}

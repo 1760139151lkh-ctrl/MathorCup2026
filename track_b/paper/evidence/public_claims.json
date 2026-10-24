@@ -253,6 +253,37 @@
           "expected": 34
         }
       ]
+    },
+    {
+      "claim_id": "public-supplement-design",
+      "statement": "参数附表19行、最终解析热机制分类8行，各行类别合计256个设计点",
+      "value": {
+        "parameters": 19,
+        "mechanism_policy_rows": 8,
+        "per_row": 256
+      },
+      "unit": "count",
+      "source_files": [
+        {
+          "path": "track_b/research/q2/round3/config/experiment_v1.json",
+          "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a"
+        },
+        {
+          "path": "track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+          "sha256": "add46d7873516e8b91db034308fd46b4eef08f912c9f442ce161b79b3a744921"
+        }
+      ],
+      "model_id": "q2-analytic-erfc",
+      "scenario_id": "four-mechanisms-two-policies",
+      "scope": "Conditional parameter design and sampled-state outcomes",
+      "paper_anchor": "tab:app-parameters",
+      "checks": [
+        {
+          "source_path": "track_b/research/q2/round3/config/experiment_v1.json",
+          "json_pointer": "/n_parameter_sets",
+          "expected": 256
+        }
+      ]
     }
   ],
   "review_note": "Q1 counts independently counted with csv.DictReader; JSON value checks explicit; other major overview numbers also indexed in q1-q4 claims."
