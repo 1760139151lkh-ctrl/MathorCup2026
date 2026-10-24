@@ -1,0 +1,52 @@
+{
+  "reviewed_by": "Codex visual inspection of actual rasterized PDF pages",
+  "preview_pdf": {
+    "path": "track_b/paper/figures/q3/q3_section_preview.pdf",
+    "sha256": "878af84afe63bdccf01eea7769ad3b4bbc05d7b67e02f6e8fdb6a28e14d9c6eb"
+  },
+  "render_command": "pdftoppm -scale-to 1400 -png track_b/paper/figures/q3/q3_section_preview.pdf track_b/paper/figures/q3/.qa/review",
+  "pages_reviewed": [
+    {
+      "path": "track_b/paper/figures/q3/.qa/review-1.png",
+      "sha256": "64fd89255787c74004ed690706522dc71d77b4132a579032f247d4b1cd759d85"
+    },
+    {
+      "path": "track_b/paper/figures/q3/.qa/review-2.png",
+      "sha256": "1154a50d0d9d9486bf8632544bb5c26a70c7df2fbcad36bf93d6504914b8d419"
+    },
+    {
+      "path": "track_b/paper/figures/q3/.qa/review-3.png",
+      "sha256": "176bd2bf524a773c95edcf425db4c6f0beda2b47cb055c561b5c0f07637f77c4"
+    },
+    {
+      "path": "track_b/paper/figures/q3/.qa/review-4.png",
+      "sha256": "26c181b83235e2030250c84ae11be2db1f7896d401f37eb707f4a46e572b8226"
+    },
+    {
+      "path": "track_b/paper/figures/q3/.qa/review-5.png",
+      "sha256": "39b68eaf1b38a912e9db5a5d4101710f167ab7943064b6e7aca57f95fb008a4a"
+    },
+    {
+      "path": "track_b/paper/figures/q3/.qa/review-6.png",
+      "sha256": "d66a97c472a4c0862988473fd0c58565f51b0cbaa289731c4e67a96d40dd4b2f"
+    }
+  ],
+  "checks": {
+    "readable_Chinese_labels": true,
+    "equations_complete_and_not_clipped": true,
+    "tables_clear_and_with_correct_denominators": true,
+    "figure_labels_no_clipping_or_overlap": true,
+    "references_and_AI_statement_visible": true,
+    "five_body_pages_plus_one_reference_page": true
+  },
+  "scientific_corrections_integrated": [
+    "fixed risk normalization and weather information roles",
+    "squared differences inside median noise estimate",
+    "source-clock conversion before interval coverage",
+    "fair-score selection and abstention denominators",
+    "separate first-correct versus first-any warning leads",
+    "conformal rank feasibility distinct from actual score calibration",
+    "unknown initiation-to-release lag preserved"
+  ],
+  "note": "PNG images are disposable ignored QA outputs; final PDFs and evidence are committed."
+}

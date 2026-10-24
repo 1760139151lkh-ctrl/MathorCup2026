@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "claims": 22,
+  "hashed_source_and_code_files": 105,
+  "body_han_characters": 3107,
+  "section_body_pages": 5,
+  "preview_references_on_separate_page": true,
+  "figures": 2,
+  "tables": 3,
+  "numbered_equations": 9,
+  "cited_references": 9,
+  "labels": [
+    "q3:sec",
+    "q3:sec:design",
+    "q3:eq:interval",
+    "q3:sec:models",
+    "q3:eq:firstpass",
+    "q3:eq:bounds",
+    "q3:eq:deformation",
+    "q3:eq:features",
+    "q3:eq:hazard",
+    "q3:eq:likelihood",
+    "q3:eq:hazardquantile",
+    "q3:sec:results",
+    "q3:tab:brier",
+    "q3:fig:information",
+    "q3:tab:coverage",
+    "q3:tab:lead",
+    "q3:sec:arrival",
+    "q3:eq:arrival",
+    "q3:fig:release"
+  ],
+  "tex_errors_overfull_missing_glyphs_undefined_citations": 0,
+  "source_hashes_checked": true,
+  "no_model_refit": true,
+  "compile_inputs": [
+    {
+      "path": "track_b/paper/preamble.tex",
+      "sha256": "6b9adddfc84cb47f16a6f0be21c94344af9cc74b5e6e58d358de4cd876380d3b"
+    },
+    {
+      "path": "track_b/paper/sections/q3.tex",
+      "sha256": "e13ba8acc3c0617dbbe3e16567e6508877a848ea9d770852fe683ebc7fb56e4f"
+    },
+    {
+      "path": "track_b/paper/evidence/q3_references.tex",
+      "sha256": "92a91af2783a8ebaeb76f58659a07e90db56d8fdb12e812e090a7e3c09833a73"
+    }
+  ],
+  "compiled_artifacts": [
+    {
+      "path": "track_b/paper/figures/q3/q3_information_scores.pdf",
+      "sha256": "49b1c632dd2edda0fb7ca0bc9b3b7596103c368bf7fc2bb6e8bb23df6a0f793f"
+    },
+    {
+      "path": "track_b/paper/figures/q3/q3_release_response.pdf",
+      "sha256": "abe497a72dedb6f78724378b1f57ca076570de63d24389671c890ea2332d5e74"
+    },
+    {
+      "path": "track_b/paper/figures/q3/q3_section_preview.pdf",
+      "sha256": "878af84afe63bdccf01eea7769ad3b4bbc05d7b67e02f6e8fdb6a28e14d9c6eb"
+    }
+  ],
+  "scope": "仅Q3论文层静态核对；不增加独立事件样本，不替代模型科学评价。"
+}
