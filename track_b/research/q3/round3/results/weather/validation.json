@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "expected_grid_rows": true,
+    "expected_summary_rows": true,
+    "unique_time_grid_keys": true,
+    "complete_leads_intervals_and_precipitation_telescope": true,
+    "finite_plausible_temperature": true,
+    "nonnegative_cumulative_precipitation": true,
+    "f000_interval_and_increment_missing": true,
+    "unknown_historical_availability_preserved": true
+  },
+  "passed": true,
+  "grid_point_cycle_series_count": 75,
+  "independent_disaster_events_evaluated": 0,
+  "source_metadata_assertions": "variable/level/reference/valid/interval/units/T-APCP_ETag checked on decoding"
+}

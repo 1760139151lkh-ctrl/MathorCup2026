@@ -1,0 +1,9 @@
+{
+  "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/survival/engine_c_predictions_8409bc646e6f08aecbcd36072b190a9c0b98f067120aaf42f0b2ebfc79a5c9cc.csv.gz",
+  "bytes": 112938255,
+  "sha256": "8409bc646e6f08aecbcd36072b190a9c0b98f067120aaf42f0b2ebfc79a5c9cc",
+  "role": "all_raw_C_predictions_gzip_CSV_no_rows_dropped",
+  "rows": 1879008,
+  "max_nodes": 512,
+  "anchors_only": false
+}

@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-10-24T08:44:27.276979+00:00",
+  "protocol_sha256": "1d41911bead70686c4bca3354d24d750d4fe2298a2f51204efc2ebdae6dc4dfc",
+  "C_input_path": "results/engine_c/record_age_anchor_reference/anchor_predictions.csv",
+  "C_input_sha256": "53873a18bed53e8a09d9a5f3472dfa2fb467e06e20dafcbdaf0c644b91156b12",
+  "B_code_sha256": "84fb535ef46fbdd9e6a1ee8878567e5e158244782b355ec2bfdcd8607db60977",
+  "rows": 252,
+  "physical_groups": 14,
+  "checks": {
+    "same_anchors": true,
+    "no_future_input": true,
+    "probability_mass_normalized": true,
+    "unique_model_group_horizon": true
+  },
+  "passed": true,
+  "interpretation": "Exactly matched external terminal-collapse anchors; no local first-motion coverage"
+}

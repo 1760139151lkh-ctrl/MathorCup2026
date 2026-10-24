@@ -1,0 +1,14 @@
+{
+  "status": "matched_same_full_2048_universe",
+  "old_input_path": "track_b/research/q3/round3/results/mechanistic_replay/v2/predictions.csv.gz",
+  "old_input_sha256": "0d167923b81c336f351ed93c8a9c57ca015b062883f7e231495686ee6bfcbd3f",
+  "new_bundle_version": "q2-r3-analytic-erfc-thermal-v1",
+  "matched_rows": 60750,
+  "unmatched_rows": 0,
+  "identified_probability_pairs": 36369,
+  "maximum_absolute_probability_difference": 5.499290927509469e-07,
+  "changed_probability_rows_above_1e_12": 484,
+  "conditional_median_pairs": 4356,
+  "maximum_absolute_conditional_median_difference_hours": 7.105427357601002e-15,
+  "interpretation": "same issue/mechanism/law/space/latency/prior/horizon; model IDs versioned and paired by mechanism; no empirical accuracy or coverage claim"
+}

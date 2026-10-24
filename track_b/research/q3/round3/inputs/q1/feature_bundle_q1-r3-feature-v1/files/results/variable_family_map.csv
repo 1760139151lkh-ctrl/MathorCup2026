@@ -1,0 +1,64 @@
+variable_id,family_ids,driver_ids,ranking_enabled,selection_status,reason,raw_unit_label,supplied_qc_column,quality_status
+MET__WS_1m,"[""mean_wind""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,m/s,QC_WS_1m,original_qc0_required
+MET__WS_2m,"[""mean_wind""]","[""wind_speed_gradient""]",True,included,pre-registered primary measurement or paired nominal gradient,m/s,QC_WS_2m,original_qc0_required
+MET__WS_4m,"[""mean_wind""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,m/s,QC_WS_4m,original_qc0_required
+MET__WS_10m,"[""mean_wind""]","[""wind_speed_10m""]",True,included,pre-registered primary measurement or paired nominal gradient,m/s,QC_WS_10m,original_qc0_required
+MET__WS_20m,"[""mean_wind""]","[""wind_speed_gradient""]",True,included,pre-registered primary measurement or paired nominal gradient,m/s,QC_WS_20m,original_qc0_required
+MET__WD_1m,"[""mean_wind""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,degree,QC_WD_1m,original_qc0_required
+MET__WD_2m,"[""mean_wind""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,degree,QC_WD_2m,original_qc0_required
+MET__WD_4m,"[""mean_wind""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,degree,QC_WD_4m,original_qc0_required
+MET__WD_10m,"[""mean_wind""]","[""wind_direction_sin_10m"", ""wind_direction_cos_10m""]",True,included,pre-registered primary measurement or paired nominal gradient,degree,QC_WD_10m,original_qc0_required
+MET__WD_20m,"[""mean_wind""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,degree,QC_WD_20m,original_qc0_required
+MET__Ta_1m,"[""air_thermal""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,degree C,QC_Ta_1m,original_qc0_required
+MET__Ta_2m,"[""air_thermal""]","[""air_temperature_2m"", ""air_temperature_gradient""]",True,included,pre-registered primary measurement or paired nominal gradient,degree C,QC_Ta_2m,original_qc0_required
+MET__Ta_4m,"[""air_thermal""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,degree C,QC_Ta_4m,original_qc0_required
+MET__Ta_10m,"[""air_thermal""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,degree C,QC_Ta_10m,original_qc0_required
+MET__Ta_20m,"[""air_thermal""]","[""air_temperature_gradient""]",True,included,pre-registered primary measurement or paired nominal gradient,degree C,QC_Ta_20m,original_qc0_required
+MET__RH_1m,"[""air_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,%,QC_RH_1m,original_qc0_required
+MET__RH_2m,"[""air_moisture""]","[""relative_humidity_2m"", ""relative_humidity_gradient""]",True,included,pre-registered primary measurement or paired nominal gradient,%,QC_RH_2m,original_qc0_required
+MET__RH_4m,"[""air_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,%,QC_RH_4m,original_qc0_required
+MET__RH_10m,"[""air_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,%,QC_RH_10m,original_qc0_required
+MET__RH_20m,"[""air_moisture""]","[""relative_humidity_gradient""]",True,included,pre-registered primary measurement or paired nominal gradient,%,QC_RH_20m,original_qc0_required
+MET__Pressure,"[""air_pressure""]","[""air_pressure""]",True,included,pre-registered primary measurement or paired nominal gradient,hPa,QC_Pressure,original_qc0_required
+MET__Precip,"[""precipitation""]","[""precipitation_label""]",True,included,pre-registered primary measurement or paired nominal gradient,mm,,unknown_qc_not_promoted
+RADM__Rsd,"[""shortwave""]","[""shortwave_down"", ""shortwave_difference""]",True,included,pre-registered primary measurement or paired nominal gradient,W/m2,QC_Rsd,original_qc0_required
+RADM__Rsu,"[""shortwave""]","[""shortwave_difference""]",True,included,pre-registered primary measurement or paired nominal gradient,W/m2,QC_rsu,original_qc0_required
+RADM__Rld,"[""longwave""]","[""longwave_down"", ""longwave_difference""]",True,included,pre-registered primary measurement or paired nominal gradient,W/m2,QC_rld,original_qc0_required
+RADM__Rlu,"[""longwave""]","[""longwave_difference""]",True,included,pre-registered primary measurement or paired nominal gradient,W/m2,QC_rlu,original_qc0_required
+SOIL__soilT_0.1m,"[""soil_thermal""]","[""soil_temperature_0p1m"", ""soil_temperature_gradient""]",True,included,pre-registered primary measurement or paired nominal gradient,degree C,QC_soilT_0.1m,original_qc0_required
+SOIL__soilT_0.2m,"[""soil_thermal""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,degree C,QC_soilT_0.2m,original_qc0_required
+SOIL__soilT_0.4m,"[""soil_thermal""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,degree C,QC_soilT_0.4m,original_qc0_required
+SOIL__soilT_0.8m,"[""soil_thermal""]","[""soil_temperature_gradient""]",True,included,pre-registered primary measurement or paired nominal gradient,degree C,QC_soilT_0.8m,original_qc0_required
+SOIL__soilT_1.6m,"[""soil_thermal""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,degree C,QC_soilT_1.6m,original_qc0_required
+SOIL__VWC_0.1m,"[""soil_moisture""]","[""soil_vwc_0p1m"", ""soil_vwc_gradient""]",True,included,pre-registered primary measurement or paired nominal gradient,m3/m3,QC_VWC_0.1m,original_qc0_required
+SOIL__VWC_0.2m,"[""soil_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,m3/m3,QC_VWC_0.2m,original_qc0_required
+SOIL__VWC_0.4m,"[""soil_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,m3/m3,QC_VWC_0.4m,original_qc0_required
+SOIL__VWC_0.8m,"[""soil_moisture""]","[""soil_vwc_gradient""]",True,included,pre-registered primary measurement or paired nominal gradient,m3/m3,QC_VWC_0.8m,original_qc0_required
+SOIL__VWC_1.6m,"[""soil_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,m3/m3,QC_VWC_1.6m,original_qc0_required
+SOIL__G_0.1m,"[""soil_heat_flux""]","[""soil_heat_flux_0p1m""]",True,included,pre-registered primary measurement or paired nominal gradient,W/m2,QC_G_0.1m,original_qc0_required
+SOIL__G_0.2m,"[""soil_heat_flux""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,W/m2,QC_G_0.2m,original_qc0_required
+FLUX__Ux,"[""mean_wind""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,m/s,,unknown_qc_not_promoted
+FLUX__Uy,"[""mean_wind""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,m/s,,unknown_qc_not_promoted
+FLUX__Uz,"[""mean_wind""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,m/s,,unknown_qc_not_promoted
+FLUX__T_SONIC,"[""air_thermal""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,deg C,,unknown_qc_not_promoted
+FLUX__amb_e,"[""air_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,kPa,,unknown_qc_not_promoted
+FLUX__amb_e_sat,"[""air_moisture""]",[],False,excluded_from_ranking_preserved_raw,diagnostic only: 4317-label constant segment and processing origin unresolved,kPa,,unknown_qc_not_promoted
+FLUX__e,"[""air_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,kPa,,unknown_qc_not_promoted
+FLUX__e_sat,"[""air_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,kPa,,unknown_qc_not_promoted
+FLUX__e_probe,"[""air_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,kPa,,unknown_qc_not_promoted
+FLUX__e_sat_probe,"[""air_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,kPa,,unknown_qc_not_promoted
+FLUX__H2O_probe,"[""air_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,g/m3,,unknown_qc_not_promoted
+FLUX__PA,"[""air_pressure""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,kPa,,unknown_qc_not_promoted
+FLUX__VPD,"[""air_moisture""]","[""vapour_pressure_deficit""]",True,included,pre-registered primary measurement or paired nominal gradient,hPa,,unknown_qc_not_promoted
+FLUX__H2O_density,"[""air_moisture""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,g/m3,,unknown_qc_not_promoted
+FLUX__FC_mass,"[""excluded_diagnostic""]",[],False,excluded_from_ranking_preserved_raw,diagnostic only: species and raw unit interpretation unresolved,mg/m2*s,,unknown_qc_not_promoted
+FLUX__LE,"[""turbulent_heat""]","[""latent_heat_flux""]",True,included,pre-registered primary measurement or paired nominal gradient,W/m2,,unknown_qc_not_promoted
+FLUX__H,"[""turbulent_heat""]","[""sensible_heat_flux""]",True,included,pre-registered primary measurement or paired nominal gradient,W/m2,,unknown_qc_not_promoted
+FLUX__TAU,"[""turbulent_mechanics""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,kg/m*s2,,unknown_qc_not_promoted
+FLUX__USTAR,"[""turbulent_mechanics""]","[""friction_velocity""]",True,included,pre-registered primary measurement or paired nominal gradient,m/s,,unknown_qc_not_promoted
+FLUX__TSTAR,"[""turbulent_heat""]",[],False,excluded_from_ranking_preserved_raw,not pre-registered; redundant height/depth/component or ambiguous derived quantity; raw input retained,deg C,,unknown_qc_not_promoted
+FLUX__TKE,"[""turbulent_mechanics""]","[""turbulent_kinetic_energy""]",True,included,pre-registered primary measurement or paired nominal gradient,m2/s2,,unknown_qc_not_promoted
+FLUX__FETCH_MAX,"[""excluded_diagnostic""]",[],False,excluded_from_ranking_preserved_raw,diagnostic footprint/representativeness; not an independent physical trigger factor,m,,unknown_qc_not_promoted
+FLUX__FETCH_90,"[""excluded_diagnostic""]",[],False,excluded_from_ranking_preserved_raw,diagnostic footprint/representativeness; not an independent physical trigger factor,m,,unknown_qc_not_promoted
+FLUX__FETCH_55,"[""excluded_diagnostic""]",[],False,excluded_from_ranking_preserved_raw,diagnostic footprint/representativeness; not an independent physical trigger factor,m,,unknown_qc_not_promoted
+FLUX__FETCH_40,"[""excluded_diagnostic""]",[],False,excluded_from_ranking_preserved_raw,diagnostic footprint/representativeness; not an independent physical trigger factor,m,,unknown_qc_not_promoted

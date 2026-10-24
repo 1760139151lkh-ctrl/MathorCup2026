@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "exported_parameter_rows_complete": true,
+    "no_future_history_oracle_time_exported": true,
+    "no_precise_historical_time_assigned_to_initial_left_censor": true,
+    "past_started_scenarios_have_no_future_first_cross": true,
+    "at_risk_initial_state_stable": true,
+    "future_crossing_inside_actual_followup": true,
+    "recorded_runtime_input_hashes_retained": true
+  },
+  "passed": true,
+  "counts": {
+    "rows": 1536000,
+    "future_history_time_violations": 0,
+    "left_censored_exact_pseudo_time_violations": 0,
+    "already_started_future_point_violations": 0,
+    "at_risk_nonpositive_initial_margin": 0,
+    "crossing_outside_followup": 0
+  },
+  "file_path": "track_b/research/q3/round3/results/mechanistic_replay/parameter_first_passages.parquet",
+  "file_sha256": "faeb9e9fecc97377c304a250b2924e3f71b40a719348bf30837910b5b4fe9037",
+  "independent_observed_events": 0,
+  "executed_source_sha256": "4610d63dc9140ae0c61d011bd768f134c617b008a8501b352444ba8c7edbfa75"
+}

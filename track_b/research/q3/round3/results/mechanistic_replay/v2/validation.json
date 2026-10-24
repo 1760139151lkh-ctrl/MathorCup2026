@@ -1,0 +1,70 @@
+{
+  "checks": {
+    "all_input_bundle_hashes_verified": true,
+    "full_Q2_history_matches_delivered_outcomes_and_representatives": true,
+    "all_75_ideal_full_state_restarts_match_continuous_history": true,
+    "structural_only_weather_invariance_when_included": true,
+    "water_budget_closure": true,
+    "assumed_forecast_reference_available_before_issue": true,
+    "probability_normalized_when_identified": true,
+    "probability_bounds_valid": true,
+    "probability_lower_not_above_upper": true,
+    "prior_mass_preserved": true,
+    "balanced_uniform_and_equal_mechanism_priors_agree": true,
+    "horizon_probability_bounds_monotone": true,
+    "historical_unknown_track_rejected": true,
+    "no_false_local_truth_or_empirical_coverage": true,
+    "unknown_future_not_reported_as_exact_probability": true,
+    "history_metadata_export_contains_no_future_oracle_onset": true
+  },
+  "passed": true,
+  "history_validation": {
+    "full_design_rows": 2048,
+    "status_match": true,
+    "maximum_absolute_differences": {
+      "final_margin": 9.33975119465913e-14,
+      "minimum_margin": 9.245382237565991e-14,
+      "final_damage": 1.9551027463649007e-13,
+      "peak_pressure": 3.893774191965349e-12,
+      "final_interface_temperature": 1.7763568394002505e-15,
+      "onset_elapsed_hours": 2.9956481739645824e-10
+    },
+    "representative_rows": 133696,
+    "representative_scenarios": 64,
+    "representative_maximum_absolute_differences": {
+      "failure_margin": 5.551115123125783e-15,
+      "damage": 3.6637359812630166e-15,
+      "storage_m": 1.1102230246251565e-16,
+      "interface_temp_c": 1.7763568394002505e-15,
+      "pressure_kpa": 4.742872761198669e-13
+    },
+    "passed": true
+  },
+  "maximum_restart_absolute_error": 0.0,
+  "maximum_water_budget_error_m": 1.0842021724855044e-19,
+  "independent_observed_events": 0,
+  "history_metadata_redaction": {
+    "method": "null any first-cross audit time later than issue or left-censored initial pseudo-point; forecast math and ensemble predictions unchanged",
+    "physics_predictions_changed": false,
+    "files": [
+      {
+        "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/parameter_first_passages.parquet",
+        "future_oracle_values_redacted": 0,
+        "left_censored_pseudo_point_values_redacted": 186000,
+        "original_sha256": "cb66d7970ea990878f9ca84c974331f11c272aac79cef0621cea5ae92f50175b",
+        "sha256": "e02be7bc28cee7ab1226ffda765206bf3b14f7edef2a080801063aecbd3f3c2f",
+        "bytes": 6275946
+      },
+      {
+        "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/history_states_at_issue.parquet",
+        "future_oracle_values_redacted": 0,
+        "left_censored_pseudo_point_values_redacted": 18600,
+        "original_sha256": "06b6838d5aca713f631d703ed543f887c22c04845d93bc3c630ac39aec0df0d7",
+        "sha256": "74dce2651959aba073604985b5440322eb3726bf7eb4732f8a18476700f13dee",
+        "bytes": 2165504
+      }
+    ],
+    "source_path": "track_b/research/q3/round3/results/mechanistic_replay/v2/execution_source/metadata_redaction_b6346d63b76ce4b758993b6caeff0cd947a7be6fc3483b6939584cfe09c0eebc.py.txt",
+    "source_sha256": "b6346d63b76ce4b758993b6caeff0cd947a7be6fc3483b6939584cfe09c0eebc"
+  }
+}

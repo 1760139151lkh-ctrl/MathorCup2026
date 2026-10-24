@@ -1,0 +1,30 @@
+{
+  "status": "executed",
+  "physical_sites": 1,
+  "observed_failure_events": 0,
+  "verified_right_censored_sites": 1,
+  "calendar_monitoring_days": 725,
+  "exposure_duration_hours": 17376.0,
+  "source": "C-owned stable Stampa packet, official author MWCD data and primary article; sources/survival_stampa_article.html + results/survival_sources.json",
+  "data_inputs": [
+    {
+      "path": "inputs/survival/stampa_observations.csv",
+      "sha256": "8e10eeca979ef1838d238e202503e621914cd546e7d84678bc54887fcf9565fa",
+      "bytes": 109020
+    },
+    {
+      "path": "inputs/survival/stampa_site_registry.csv",
+      "sha256": "d7c9d8cdb551d8bfdda4bd179c6f86f01f94765f3168c002c238206ed0b4358c",
+      "bytes": 630
+    }
+  ],
+  "full_prediction_cache": {
+    "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/outputs/engine_b_stampa_f6a8d796918968b1840c900ad07440b1ba06e395c4c32df03222c1466b5e0585.csv.gz",
+    "sha256": "f6a8d796918968b1840c900ad07440b1ba06e395c4c32df03222c1466b5e0585",
+    "bytes": 316246,
+    "rows": 8610,
+    "uncompressed_csv_sha256": "0cf6b885eb770ad4dad1341a5d7fdce2fdeb6380e2224b6e4e26aa6276a84b88"
+  },
+  "unit_note": "unknown source displacement unit; time-to-zero scale invariant; no physical speed threshold claimed",
+  "censoring_rule": "binarynegative only if full future horizon ends within verified followup; after-followup outcome unknown"
+}

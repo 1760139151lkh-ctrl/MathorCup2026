@@ -1,0 +1,910 @@
+{
+  "generated_at_utc": "2026-10-24T09:14:08.553657+00:00",
+  "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+  "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/COMMON_ANCHOR_PROTOCOL.md",
+      "bytes": 1943,
+      "sha256": "1d41911bead70686c4bca3354d24d750d4fe2298a2f51204efc2ebdae6dc4dfc"
+    },
+    {
+      "path": "track_b/research/q3/round3/EXPERIMENT_AMENDMENT_CENSOR.md",
+      "bytes": 833,
+      "sha256": "e32a5da8c5e63b463b48426df3743b54766937cd012974dab2e870e9448a37f4"
+    },
+    {
+      "path": "track_b/research/q3/round3/EXPERIMENT_PROTOCOL.md",
+      "bytes": 5913,
+      "sha256": "f292f8011f75be4234a3ef15cbb917f6e305dfdfdcaf349988db9a8bd35a5447"
+    },
+    {
+      "path": "track_b/research/q3/round3/MECHANISTIC_REPLAY.md",
+      "bytes": 11549,
+      "sha256": "590909e64d4062bb3c8fcc125cc03393c840eb5c6842463b47d5cb1039e508b4"
+    },
+    {
+      "path": "track_b/research/q3/round3/config/censor_amendment_registration.json",
+      "bytes": 360,
+      "sha256": "f2b2b1c7537e184585e3eea5b7e613c39433bfba19d4d6cc74adb4c96dd1969f"
+    },
+    {
+      "path": "track_b/research/q3/round3/config/protocol_registration.json",
+      "bytes": 342,
+      "sha256": "2b46e29e1eef041ecbc86a85ee10cbc16366c34ad8915798b59fc5cf1fb95390"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/engine_b_domain_amendment.json",
+      "bytes": 1003,
+      "sha256": "a933cd83920c1f840596fac44fdce012ffc4dcab7d0f4e6183817ce4e1becd66"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/engine_b_preregistered.md",
+      "bytes": 3827,
+      "sha256": "6f363848de2c0c10dbd8a7484343a63e827061041ff8d954a414c62c009b4f4f"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/metadata_audit.json",
+      "bytes": 17440,
+      "sha256": "ea0a6991efa4c9c30be38855da10e46a95d2809a25b6198daa64a03961a172ed"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/observations.csv",
+      "bytes": 17528504,
+      "sha256": "355cfb1c8f44ef9048be8df4fdaaa5396019e0a4e0260665a1c5bb7acc662c3b"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/publisher_checksum_verification.json",
+      "bytes": 4299,
+      "sha256": "a9ff4fc315d2a278d6d908b531ada3e345e739cb8a02624d843c15edaa3487c9"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/site_registry.csv",
+      "bytes": 9080,
+      "sha256": "3414206069197b945d8286d404ff98d17988b00fb16945cef11966d346c80303"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/bundle.json",
+      "bytes": 6728,
+      "sha256": "edd817989c3bdb5b21953e31d2a2ebcc7c637eedb414a1c86495e02210d3eaa9"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/config/features.json",
+      "bytes": 14787,
+      "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/exports/hourly_drivers.parquet",
+      "bytes": 260088,
+      "sha256": "9580f4ab81903e0bbdcea3b274815128b7bfc99a08972a59c933c51a487a059d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_build_validation.json",
+      "bytes": 27873,
+      "sha256": "c19c74937b4052ec9a4b104199d0bde4998af27bda904b5c959b900045800f98"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_contract.csv",
+      "bytes": 58398,
+      "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_extrema.csv",
+      "bytes": 12646116,
+      "sha256": "09ae88b26738bb526ab9bc829c2b8917cf957e13edfa70df985c4ad7b5f8b664"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_support.csv",
+      "bytes": 11289057,
+      "sha256": "8e8306d6c8bfcb8d3156cbd521dbff001c5e86413ab62bedb6cdcf81db2737b9"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/features.parquet",
+      "bytes": 1435260,
+      "sha256": "7300b94b5f537873a6b4d1ecaf46015fa130e8e28aa9464e098e219f52833079"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/sample_metadata.csv",
+      "bytes": 1188914,
+      "sha256": "06c7b1273240779fcbde4a9777a878124fd9de47d5a4faff190f5118e73625b5"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/variable_family_map.csv",
+      "bytes": 12742,
+      "sha256": "0b339b5b813a3cf95673acbb18168589aaaae81fde3d95005824e967f7e22e15"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/scripts/build_features.py",
+      "bytes": 30508,
+      "sha256": "dbea3bca9f519e43b065481b433372d7abdab3e8f789cf1a1804d09589a3aeb0"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/upstream_bundle.json",
+      "bytes": 4827,
+      "sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/bundle.json",
+      "bytes": 10386,
+      "sha256": "05e8b885198a3011e316472f562ba92480788cb04c6ab9bebfb3e04dbd3660ca"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/ANALYTIC_THERMAL.md",
+      "bytes": 4168,
+      "sha256": "0902aface2105015fb278a2590593d010cedfd9e2d025e34813b1025a182877a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/config.json",
+      "bytes": 4478,
+      "sha256": "539c6e857d5d07e2cab7a70346ec02d2aad13eb47ee546df17f797850446177d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/diagnostic_traces.csv",
+      "bytes": 1818058,
+      "sha256": "2f8fefb7599d2b42a2a17a7f7f0b531b29fa6cbed9509ffbf5b4f8e29791b9f5"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/finite_mirror_fd_cases.csv",
+      "bytes": 993,
+      "sha256": "909a5b18af508fecda3129d4f23d414bab0ca02d5d6c4a9fd10326bbae11f502"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/forcing_hourly.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/interaction.csv",
+      "bytes": 8384,
+      "sha256": "308494ed4c083c8759d97181124f282c83ee4183470f875c3220fda6bca921c1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/joint_sensitivity.csv",
+      "bytes": 26199,
+      "sha256": "cc1df1e87bfb6a8ab0a0fa2086de5a3ebc4d11a39bec37101369c763afd77187"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/mechanism_contract.json",
+      "bytes": 4149,
+      "sha256": "44d3966717bdddc04e31ff8e4089bb8a7321a6a33e850371e3cb4c15cd4d1e4d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/model_comparison.csv",
+      "bytes": 1614,
+      "sha256": "add46d7873516e8b91db034308fd46b4eef08f912c9f442ce161b79b3a744921"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/numerical_benchmarks.json",
+      "bytes": 3328,
+      "sha256": "309fbe00d9afdb948f3b08b6253210bf52cba6378d089bf4e38bfe9aa0f8141a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/paired_v2_fd0625.csv",
+      "bytes": 576099,
+      "sha256": "a9a620bd0566603b22205c30babe8cbb5736585f6a845bd01576431b9830aac9"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv",
+      "bytes": 1171832,
+      "sha256": "8393874e341789316d2862435f8498ed8c9e01c4e3f674dc2b46d9bcadce6203"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/protocol.json",
+      "bytes": 1304,
+      "sha256": "1b775e7a942d9cbb0709d4a45f914fa3bba88e76229a466858911d2791bf53fd"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/reflection_bounds.csv",
+      "bytes": 34816,
+      "sha256": "961f6fea14872b3d0c7cfa43f03f687a7b14750182eb94d5d04af53161b7a5c2"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/scenario_outcomes.csv",
+      "bytes": 909276,
+      "sha256": "847143dc8ad8c495ea6e7747fbbcdb187ef465b9c7879fecb4717135372dc30c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/state_trajectories.parquet",
+      "bytes": 3188841,
+      "sha256": "6592967eafdbdde9cce6c0547943abf7d15190c8ce9aac70f085b969ccf6e1bb"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/summary.json",
+      "bytes": 3610,
+      "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/analytic_thermal_engine.py",
+      "bytes": 7560,
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/run_analytic_thermal.py",
+      "bytes": 34185,
+      "sha256": "8cb54a4a6db606994c18d9e82ab9dce8269e77b1e5445287f9f5d865f3e3e1d6"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/scripts/run_experiments.py",
+      "bytes": 21983,
+      "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/upstream_bundle.json",
+      "bytes": 6267,
+      "sha256": "ff989d23894f9b2d44daf032418583430791ef5b8367d423aa5cb54763767684"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/bundle.json",
+      "bytes": 6572,
+      "sha256": "0837c492726e78b2fd7b945e64731ee989ce141ec4cb817c3a0abff8cb12fdf9"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/COMPOSITION_SENSITIVITY.md",
+      "bytes": 2976,
+      "sha256": "8ed109ce17d130b0a2edb905b0d9079a152aae3a59283c9e865613d07164314c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/baseline_outcomes_64.csv",
+      "bytes": 46130,
+      "sha256": "26decc1c8cfe3f16a90602a8d3d194f2f7056ee001bd7bb3f7086021566a45a3"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/comparison_by_mechanism.csv",
+      "bytes": 2823,
+      "sha256": "d52046abb36f0a155e06ae5524e540570eb306e24a0849a117e4d9365f76d286"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/output_index.json",
+      "bytes": 2464,
+      "sha256": "e3e1fb5730aa6e769e4182335adb1cf53fb6c197ffd0150290f54f818cd4a229"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/paired_changes_128.csv",
+      "bytes": 149920,
+      "sha256": "63c1689a787f4ef55803e8a5c097d32d4f5100af6ff5259ba02b4d0fce2b2d4a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/parameter_ensemble_128.csv",
+      "bytes": 80892,
+      "sha256": "f5efa93e7ce69dc11e4dc6ddeb77b8c2e92dbb7f40dc66ec5f86350d50d02c2d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/protocol.json",
+      "bytes": 8844,
+      "sha256": "c28bec93ee0e15b291898b9a6b8943f700caedb6ec3b8c6630bbee665d218dd6"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/scenario_outcomes_128.csv",
+      "bytes": 93350,
+      "sha256": "7049de22947c497e527a3d0913a2bcdb80da3594c1010821da33674ed8c4ee59"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/state_trajectories_128.parquet",
+      "bytes": 7241929,
+      "sha256": "dfcc46be9b3a97b4cce51b3e425d3afb4d45536c4e845e47a7c5ce2be46e893e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/results/composition_sensitivity/summary.json",
+      "bytes": 3061,
+      "sha256": "a154eccd5349024fc1a994b34140ad83c32baab64c590036701e5f1697c8d1a5"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/files/scripts/analyze_composition.py",
+      "bytes": 29369,
+      "sha256": "801bd11ce305a6c3d679bd795b94c76994a384f32634d241bfb831e160823699"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/composition_bundle_q2-r3-literature-composition-v1/upstream_bundle.json",
+      "bytes": 4034,
+      "sha256": "14f96d7d1e8600154a831dba9921a9efbf70eeacfd71e54b12af78879b762335"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/bundle.json",
+      "bytes": 4504,
+      "sha256": "65758b85d934267e883616eb2a56924e5b52d818e10b6f3eaa08bf934e54ce3a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/EXPERIMENT_PROTOCOL.md",
+      "bytes": 5797,
+      "sha256": "888b65535ff477f4e6ef07be3dfeea19392209d7903ef58559cb8473ad96626a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/config/experiment_v1.json",
+      "bytes": 4192,
+      "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/forcing_hourly_v1.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/mechanism_contract.json",
+      "bytes": 3236,
+      "sha256": "fd47ca5af08c56a5076d07a4707764e07e58089e3030a47cc812facf620923e7"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/parameter_ensemble.csv",
+      "bytes": 1071463,
+      "sha256": "27a77ced72931366be5e19f431cb40218e1f243d77a7fe2671fc6125b0cf98b6"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/scenario_outcomes.csv",
+      "bytes": 722959,
+      "sha256": "dd7be14535d0a782ca5b260375b830ca16b0275817bba6cde1852cd22c2a1737"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/state_trajectories.parquet",
+      "bytes": 3194674,
+      "sha256": "7ce07a43bc3cce5d51d39b4ff86eddd795ca12fb996d0c508f1a4bea6e2bb587"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/upstream_bundle.json",
+      "bytes": 2760,
+      "sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/bundle.json",
+      "bytes": 9041,
+      "sha256": "12eb0b329acede54face734b145cf33a8bfc5d329f6231b5a110c52ddec618c9"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/NUMERICAL_REFINEMENT.md",
+      "bytes": 3098,
+      "sha256": "0c147f8f7cc52d6135ce7dee87fc12304f5f3c633123c13f960f464d84658b9f"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/config.json",
+      "bytes": 4642,
+      "sha256": "210616d1e1adb94e57cdb3ef415cb40808ae4a05f7a0fdd81f3b5dddfd24d5ac"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/forcing_hourly_v2.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/interaction.csv",
+      "bytes": 13784,
+      "sha256": "8681e19e24fa0ee3569720f4032df9d288f07d7cfa6dfe9071cf0d8f9e36b456"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/joint_sensitivity.csv",
+      "bytes": 30015,
+      "sha256": "38a97ed39c79cab5964a1b31cf18b753fb6fc40f86b73a2f9b4cabbd499fe4de"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/mechanism_contract.json",
+      "bytes": 3907,
+      "sha256": "afca7a8fd0684808e4bab67cdad073e80aedc189bc0fae234047e9ecfaa5e5ff"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/model_comparison.csv",
+      "bytes": 1688,
+      "sha256": "5a54fb20bced14d387daaa6acd34f364bef776e919bddc513ebc9b89c7f703a6"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/paired_v1_v2.csv",
+      "bytes": 1065426,
+      "sha256": "c3a2d4a971cf98b355ec6a69800ec0d56abeea96a2f7caeb250214aa2ca1e0f1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/parameter_ensemble.csv",
+      "bytes": 1169784,
+      "sha256": "a8a8f091a7cb0abf1847db784c83d9e4b73f42896c126468b100026f1ea35293"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_125_vs_0625.csv",
+      "bytes": 10885,
+      "sha256": "a45f8707ea1afcd91521187e223c1e27332d055fbdd3689ea9d1ec99b02f591d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_protocol.json",
+      "bytes": 895,
+      "sha256": "21e72fbe8d79980a626e390958469305ee4e8f84b9cdd744f2d2e4c4756be006"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_summary.json",
+      "bytes": 4746,
+      "sha256": "091ce1777f5deaa4ff76341ebe435ec9a713e73d3dd901b6b48a6aff08dc7a79"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/scenario_outcomes.csv",
+      "bytes": 837472,
+      "sha256": "2338e53291c2225f1e172cc85145d6cc047d6c40599b49051f51fe790b5f6edd"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/state_trajectories.parquet",
+      "bytes": 3188047,
+      "sha256": "8f69e562bda819a348ec0e7dc000d79af7885015f4770a5ebbe5c6ec01a7b081"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/run_experiments.py",
+      "bytes": 21983,
+      "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/run_refined_v2.py",
+      "bytes": 28213,
+      "sha256": "100ece09e9348a81d3344964a6d9603347b388b5f5dc01beea707542e808e616"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/upstream_bundle.json",
+      "bytes": 5484,
+      "sha256": "dc53a9f805e96ff32b2c1fd064b0b7b33d90034e7d2c987f42403ae70bfcb093"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/bundle.json",
+      "bytes": 4373,
+      "sha256": "8ad708b3867ac35421ac1e3aa035969c52136e5bed1c845b190e9223fcad1b5b"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/NUMERICAL_LIMITS.md",
+      "bytes": 2906,
+      "sha256": "8ef2e2c0c49ff24ea662dc6e28f3d7633ed5989f77ae4e7ad427d2349e561b83"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/full_reference_check.py",
+      "bytes": 9289,
+      "sha256": "78e2ca0511cf5ce0c26e27f7383aac6c3910f402d7858534c47f4df945b983e3"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/full_reference_checks.csv",
+      "bytes": 524365,
+      "sha256": "1344f30d8e9fdffbd7db5051cb1d58bdb97d9a8ba202fe6b072aa5ecfe072623"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/full_reference_summary.json",
+      "bytes": 7931,
+      "sha256": "56798acafd21718b89bc7fd5743baf876cb6710c6322a2fd5280a667c3b32786"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/top5_onset_reference_checks.csv",
+      "bytes": 28311,
+      "sha256": "cd4cf56d6c34971fb0721cb9f021922492fcb35c72d2c75ad7d86d3e2dae789b"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/top5_onset_reference_summary.json",
+      "bytes": 3235,
+      "sha256": "fc963bcffc9d14f248440902139d6a8271116ca0cecb742ef7aac0f452a4910b"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/top5_reference_extract.py",
+      "bytes": 7395,
+      "sha256": "b161423dda2857f6e11b4ecec0cbbf3609a7b27d4beea61313de2d29ae037114"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/upstream_bundle.json",
+      "bytes": 2553,
+      "sha256": "151a7c7f822f3970a7dbdc0194b4c1df18548dbb70afca19a5927f49f3206b03"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json",
+      "bytes": 7040,
+      "sha256": "0b273b1b5eb7d65b9b9ab9731c9dceeef73f1c5f396fc743c97a7fdd206dc4f9"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/GEOMETRY_INTEGRATION.md",
+      "bytes": 3361,
+      "sha256": "a626bf6ebfffe007fbf7e1e26335a2d1d7ad2e26b83e5beae3ed78f3f8cbdb63"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_120m.npz",
+      "bytes": 55797,
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_60m.npz",
+      "bytes": 241460,
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/geometry_integration_summary.json",
+      "bytes": 24501,
+      "sha256": "22edf0eb580488df01ae98b2f263e8230abc38b4674c7e9a5390193cf6aaea9b"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/geometry_integration_terrain.csv",
+      "bytes": 912,
+      "sha256": "a974b276a7a46994d72a660b85e4e9de617f68c35e4f32188459785ae4665b29"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_states_geometry_v2.csv",
+      "bytes": 121276,
+      "sha256": "c40aa56cfd5075ab73b84d97abbea17dc932343f776ff87eb25a868a9f47d575"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0000_120m_v2.tif",
+      "bytes": 1941,
+      "sha256": "f0a21b0b435d76f67ee2289e5c4e6e5a60b18f7d238744019b162956a2ef2f00"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0000_60m_v2.tif",
+      "bytes": 3794,
+      "sha256": "9be5c69fcb388182a843058deec9cce1026692bb4b5d30454f84a86872dd39d7"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0036_120m_v2.tif",
+      "bytes": 1931,
+      "sha256": "081ef7c3fd20c26b87ed717e67c283f3f7c2e39810cd329e3ee24283d57e0275"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0036_60m_v2.tif",
+      "bytes": 3792,
+      "sha256": "ec3a73e460db37b67d33eb1f3f2f4490fd8265e72747a1ac861522f6f8871827"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/scripts/integrate_geometry.py",
+      "bytes": 22904,
+      "sha256": "3c5f087013e52a932275548ed735f51dba738a5446b13630e2b2723edd5849e3"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/upstream_bundle.json",
+      "bytes": 4354,
+      "sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/bundle.json",
+      "bytes": 7712,
+      "sha256": "b6c02508acbe7bf131a0414ef7a90cafef2c5580597e2bc3b6f990e6892c4955"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/figures/spatial_terrain_paths.png",
+      "bytes": 370168,
+      "sha256": "0de4a3e0cfa492e58ce8b35ac66e4e1f54b4f48ef4c5454d0da4f0ea678dac1d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_120m.npz",
+      "bytes": 55797,
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_60m.npz",
+      "bytes": 241460,
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_paths.csv",
+      "bytes": 101231,
+      "sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/terrain_bundle.json",
+      "bytes": 4745,
+      "sha256": "c7ce3a11c0dd5637f39bcb1fad81f3dbf08238045c825b41f80d00f14422ca0e"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/upstream_bundle.json",
+      "bytes": 5950,
+      "sha256": "5a2315f807bac296e5ae9bf877e655499b7a2b40e39df8edd3b0cccbeade853a"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/bundle.json",
+      "bytes": 25151,
+      "sha256": "ca2687f43fbca865fea8556435c9765ccc429fed4bf3f05dd5df8f79deb2fda0"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/comparison_metrics.csv",
+      "bytes": 15565,
+      "sha256": "67d70c1d29b3b039020db79bb1d9756dc44cbbb76a63bb7cfcd1f578accd0287"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/comparison_summary.json",
+      "bytes": 73613,
+      "sha256": "44e91ca0b28461fd18bc8031c9743549285b0be7a6998b21811ab204dc062d9d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/fields_index.json",
+      "bytes": 5549,
+      "sha256": "fc97a0a1893fa32618f9f10d4c622ce1b70c2718ee68f8275430b735b2fcbad4"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/geometry/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/geometry/spatial_targets_v2.csv",
+      "bytes": 1483,
+      "sha256": "6735c7dbb668c97bd73024050cbd0b7d1570bb78382dce005dddd983a276b18d"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/input_index.json",
+      "bytes": 19454,
+      "sha256": "0f26ad5a9f1c4ccd3efee98c833d7c3315ee22b89c48efb674094a71c497f2e2"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/model_runs.csv",
+      "bytes": 63034,
+      "sha256": "e1dbd5c2b524a162b61e4e7da80f280fda7a8571941736edc1b2c7275107c2d7"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/numerical_validation.json",
+      "bytes": 23009,
+      "sha256": "cc7534b6555efc931205e4e16bf115378f6166a4c76d32c3d139831cbfc3ce81"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/copdem_120_dclaw_loose/case.json",
+      "bytes": 1800,
+      "sha256": "1e0900f96c4ae6dfbca0b7575f673e8da926c519004bee697a56dcbaf5b2cb52"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/copdem_120_dclaw_loose/execution.json",
+      "bytes": 1668,
+      "sha256": "5ef77e32497ec45725317fca48a5fdb0b21f355774999ea585b63a33c7fb2923"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/copdem_120_dclaw_nopressure/case.json",
+      "bytes": 1806,
+      "sha256": "c5c45fed8c02256e0e49e97d654f67b31d9ca69bb3dd7ac302695914e280a82b"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/copdem_120_dclaw_nopressure/execution.json",
+      "bytes": 1384,
+      "sha256": "ab4d2b26f23f5598261a2bfb5ae8a120e7e747bbabf85527d3dcaa06d71a5ba3"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/copdem_120_dclaw_permeable/case.json",
+      "bytes": 1804,
+      "sha256": "2da43f16b166d238eb9fc27b7228e2b08fa71107179876dca7d914cb18c4e0eb"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/copdem_120_dclaw_permeable/execution.json",
+      "bytes": 1693,
+      "sha256": "73515aea0c9a27e345ac45c33d02771716b40a383016c8d4247513ac3eb663f1"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/copdem_120_dclaw_ref/case.json",
+      "bytes": 1798,
+      "sha256": "f039f5d79bc7238739b0b397814ac25cda1325a92006e26d1b8ce88be64cd0d9"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/copdem_120_dclaw_ref/execution.json",
+      "bytes": 1491,
+      "sha256": "b188e8362b790c047881596e721b9c3f52fa67163160d62d953759f50e75ab23"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/copdem_60_dclaw_ref/case.json",
+      "bytes": 1772,
+      "sha256": "107aa9c210a5f60c5bea543e12b724e2c2054251db87c150423b1ced31a0cc6c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/copdem_60_dclaw_ref/execution.json",
+      "bytes": 1354,
+      "sha256": "32c16a6b110a492f32871246ad77b62e84b6c1c85ed6c91c9c20e4b34c340c08"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/dclaw_ref_extended120/case.json",
+      "bytes": 2034,
+      "sha256": "4d83681ccc75c8372c479dda21937d0e3cbfdd1cf72df03049347aa0184a3735"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/dclaw_ref_extended120/execution.json",
+      "bytes": 1363,
+      "sha256": "477f94c4e6a0ea7d0ded73789263d03b24e2664e9e07bf6d0b73ae2c581d1f3c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/provenance/integrate_comparison.py",
+      "bytes": 55110,
+      "sha256": "b3ff08d5a45c4dbc3cf298e20009c6199503f1e18ce94c16c6f2330375e630f0"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/files/exports/propagation_v1/target_arrivals.csv",
+      "bytes": 111008,
+      "sha256": "906a0be62ea32f49001a800b961ccd73e2508c20907bcf0902a909c529882fdb"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/upstream_bundle.json",
+      "bytes": 20236,
+      "sha256": "ef63555c5decb383a66eeb01ef48a7cfe1c1a29ec52cd435a9ed55a801ba2c16"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/survival/stampa_observations.csv",
+      "bytes": 109020,
+      "sha256": "8e10eeca979ef1838d238e202503e621914cd546e7d84678bc54887fcf9565fa"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/survival/stampa_site_registry.csv",
+      "bytes": 630,
+      "sha256": "d7c9d8cdb551d8bfdda4bd179c6f86f01f94765f3168c002c238206ed0b4358c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/waveform/protocol.json",
+      "bytes": 1864,
+      "sha256": "a7c18ed933020f620a80ffc4dbe28e8cc7f03cfc3590cfb7526ae677b66ed1c7"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/weather/docs/aws_gfs_registry.html",
+      "bytes": 15964,
+      "sha256": "e9f32d3e91a3a84f790b9af8c6bee1631ac2cf1c67346e4b7b2f374db49524f5"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/weather/docs/noaa_gfs_inventory.html",
+      "bytes": 226763,
+      "sha256": "20c08183c3387a8ca4558b9503c3d2528ad15b848f05985261ffb75efd85e7ea"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/weather/docs/noaa_gfs_products.html",
+      "bytes": 18033,
+      "sha256": "3a0b838938b071b57cf2d6c03c8e98d2023bad90107e2bec312b572a82856480"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/weather/docs/sources.json",
+      "bytes": 1718,
+      "sha256": "59f3044ad5225c3431aca1187ab634aac1555c0946c75ea833b2770d75156817"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/weather/gfs_hourly_source_grid.csv",
+      "bytes": 1948537,
+      "sha256": "fec0f6cbcb01d8c4cbef1d55e962334a6d300d7520383b41f8eca9c88cb65929"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/weather/gfs_hourly_summary.csv",
+      "bytes": 161138,
+      "sha256": "68702bfad6afe88fe485552ccd611ba5cdfbef85408ef227aec4a847ff011e6c"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/weather/local_weather_case.csv",
+      "bytes": 51523,
+      "sha256": "864181a3abfab2af05cbcc029c8a749221ad80d0d9b6b373b506d3e31ab7d81f"
+    },
+    {
+      "path": "track_b/research/q3/round3/sources/survival_engine_c_record_age_aade36485d977136b5ede96e0dd729ef0235756fe6d5cf48435a525c442e9e88.py",
+      "bytes": 48783,
+      "sha256": "aade36485d977136b5ede96e0dd729ef0235756fe6d5cf48435a525c442e9e88"
+    },
+    {
+      "path": "track_b/research/q3/round3/sources/survival_stampa_article.html",
+      "bytes": 402711,
+      "sha256": "a2d9b89cb336f66372c6e733383446d97e502b37f228918f71e5433efa4c070d"
+    },
+    {
+      "path": "track_b/research/q3/round3/sources/survival_villerville_catalogue.html",
+      "bytes": 33298,
+      "sha256": "26b773b5c984c1e0c95c0f9f6ac9c8a1f8df2dcae2bb0cc2316ade04f802ff19"
+    },
+    {
+      "path": "track_b/research/q3/round3/sources/survival_villerville_readme_web_notes.json",
+      "bytes": 1118,
+      "sha256": "d1adf8d6acff231217e922fa43a1ebc5d1c560c47c759ee5078ec49bea553f3d"
+    },
+    {
+      "path": "track_b/research/q3/round3/sources/us7000tbwb_phase_1792791413040.request.json",
+      "bytes": 2051,
+      "sha256": "c250e57224d7f2580df581f33192976fb4f8d46967dc325f2c8cc2bfa8f7370c"
+    },
+    {
+      "path": "track_b/research/q3/round3/sources/us7000tbwb_phase_1792791413040.xml",
+      "bytes": 167890,
+      "sha256": "52bfe7ea30753a245e1ac1afdbfd8c6668207b506abe67ad221f1ce716fe4e7f"
+    },
+    {
+      "path": "track_b/audit/stage4/round3/baseline_manifest.json",
+      "bytes": 194493,
+      "sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/dem.tif",
+      "bytes": 39968,
+      "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/release_15m.tif",
+      "bytes": 676,
+      "sha256": "64efb8011842e3d431e3f9fe75b65d073e9c0af3fc7b5028e886e07e61d7c9a2"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/summary_fields_ea72693f3104.npz",
+      "bytes": 850038,
+      "sha256": "fd4fed3a016ad1b178ce853a38451de20486cbf79d69922cb22b66fc83774f8f"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/run.log",
+      "bytes": 17390,
+      "sha256": "d3f2ffe748028b69c8f5d923880c814cefe5ef9ed5001cc74025128e4437cd3c"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/summary_fields_ea72693f3104.npz",
+      "bytes": 1045136,
+      "sha256": "36280fb8b3e9606e6e4e034141c26dc9f83407ee394e102831ebee37966e590d"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/run.log",
+      "bytes": 26738,
+      "sha256": "c3e5d078fe8b9dd121373309eec731e160b45e071496dd960c523ffc5e3f0a61"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/summary_fields_ea72693f3104.npz",
+      "bytes": 1119541,
+      "sha256": "f72657aafc91bea8b527ad9b9e04964a9cba74a554d826b589f86152d15558f2"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/run.log",
+      "bytes": 75530,
+      "sha256": "73af794dfe195aaf72e23a17bb35a367935389fde28395775bd169e5f5221bd7"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/summary_fields_ea72693f3104.npz",
+      "bytes": 1153621,
+      "sha256": "61686c16fefd034959ea7281aaf27f85a44230228e4df3f7d606381a704ce3ad"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/run.log",
+      "bytes": 42812,
+      "sha256": "02747a91655bae106c3c10804820ab8d8f3c43b3f59b3d30822e5f71f4dcf70b"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/release_15m.tif",
+      "bytes": 1447,
+      "sha256": "5bc9f95ca38aa46f018fa40f804ef063eb7835a65e408d578a6881c8ced61890"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/summary_fields_ea72693f3104.npz",
+      "bytes": 2321415,
+      "sha256": "44c3d1e41df997f7bf7a8663486bba3608392660a09c451d0ca5bafb8e3a98c8"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/run.log",
+      "bytes": 42812,
+      "sha256": "8d053f4c180bf00cac6c7e31f368d66f0c1473707571830339382a71cc6fc411"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/extended120/dem.tif",
+      "bytes": 267673,
+      "sha256": "4cae4537a6a5991938247082731f958c05008cc07a55141cae8e608f50e313b1"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/extended120/release.tif",
+      "bytes": 2036,
+      "sha256": "640c682dfd9e9004383ca96a783b597198a80311dafc1ed1f54471b698a83eaf"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/summary_fields_ea72693f3104.npz",
+      "bytes": 2478565,
+      "sha256": "2b49815d1ad35e594c1a30ed6eca0fd787de0b73a1fdcb6b198c34414246a07c"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/run.log",
+      "bytes": 53528,
+      "sha256": "7e1a609aea44ee56167d8daca31668be7342b7cc78420faab89aac37504bd21b"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_120m.tif",
+      "bytes": 39968,
+      "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf"
+    }
+  ],
+  "cache_manifest_sha256": "ee1411d8e4e849a8dca17cba36c60eb2c2bf5cbfdfc201dccd609af463b9d102",
+  "shared_cache_scope": "Only exact absolute files named in advisor-approved bundle roles; read-only hash verification, no copying or active upstream tree traversal",
+  "note": "Delivered role paths only; upstream_path metadata is never an executable input. Scientific input versions remain separate."
+}

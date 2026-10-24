@@ -1,0 +1,3876 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:anssevent="http://anss.org/xmlns/event/0.1" xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:tensor="http://anss.org/xmlns/tensor/0.1">
+
+  <eventParameters xmlns="http://quakeml.org/xmlns/bed/1.2" publicID="quakeml:us.anss.org/eventparameters/7000tbwb/1792791415">
+    <comment>
+      <text>HYDRA - US</text>
+    </comment>
+    <event catalog:dataid="us7000tbwb" catalog:datasource="us" catalog:eventid="7000tbwb" catalog:eventsource="us" publicID="quakeml:us.anss.org/event/7000tbwb">
+      <description>
+        <text>As of October 4, 2026, at least 1,455 people killed, 9,287 injured and 5,285 missing; 8,317 houses destroyed and extensive damage to bridge, road and power infrastructure in Nepal, including 109 bridges, 69 km of roads and 13 hydropower projects. At least 43 people killed and 519 missing, 27 buildings destroyed and communication, power and road access disrupted in Gyirong, China. The landslide location was obtained from satellite imagery.
+</text>
+        <type>felt report</type>
+      </description>
+      <description>
+        <text>Central, Nepal</text>
+        <type>Flinn-Engdahl region</type>
+      </description>
+      <description>
+        <text>55.4 km (34.4 miles) NW of Kodari, Bagmati Province, Nepal (pop. 1600)
+65.9 km (41.0 miles) NNE of Kathmandu, Bagmati Province, Nepal (pop. 1442271)
+66.6 km (41.4 miles) N of Madhyapur Thimi, Bagmati Province, Nepal (pop. 119955)
+68.8 km (42.7 miles) NNE of Patan, Bagmati Province, Nepal (pop. 299283)
+151.7 km (94.3 miles) E of Pokhara, Province 4, Nepal (pop. 200000)
+</text>
+        <type>nearest cities</type>
+      </description>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_aak_bhz_00/mb">
+        <genericAmplitude>
+          <value>6.15e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.1000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:55:57.45Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530132</pickID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="II" stationCode="AAK"/>
+        <scalingTime>
+          <value>2026-08-26T02:56:31.25Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/qz_akst_hhz_00/mb">
+        <genericAmplitude>
+          <value>1.855e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.7400</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:57:18.24Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530153</pickID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="QZ" stationCode="AKST"/>
+        <scalingTime>
+          <value>2026-08-26T02:58:03.22Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/tu_andn_hhz_--/mb">
+        <genericAmplitude>
+          <value>1.71e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>106.07</end>
+          <reference>2026-08-26T02:59:53.21Z</reference>
+        </timeWindow>
+        <waveformID channelCode="HHZ" locationCode="--" networkCode="TU" stationCode="ANDN"/>
+        <scalingTime>
+          <value>2026-08-26T03:00:56.15Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/kr_ark_hhz_00/mb">
+        <genericAmplitude>
+          <value>8.55e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.8600</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:56:01.57Z</reference>
+        </timeWindow>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="KR" stationCode="ARK"/>
+        <scalingTime>
+          <value>2026-08-26T02:57:03.3Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/kr_arls_hhz_00/mb">
+        <genericAmplitude>
+          <value>5.45e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.8000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:55:52.98Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530130</pickID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="KR" stationCode="ARLS"/>
+        <scalingTime>
+          <value>2026-08-26T02:56:49.48Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/kr_arsb_hhz_00/mb">
+        <genericAmplitude>
+          <value>7.7e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.1600</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:55:48.72Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530131</pickID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="KR" stationCode="ARSB"/>
+        <scalingTime>
+          <value>2026-08-26T02:56:50.61Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ge_balj_bhz_--/mb">
+        <genericAmplitude>
+          <value>4.265e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.8000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>116.86</end>
+          <reference>2026-08-26T02:59:54.05Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530174</pickID>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="BALJ"/>
+        <scalingTime>
+          <value>2026-08-26T03:00:49.7Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_bork_bhz_10/mb">
+        <genericAmplitude>
+          <value>2.65e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.1000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:57:38.95Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530164</pickID>
+        <waveformID channelCode="BHZ" locationCode="10" networkCode="II" stationCode="BORK"/>
+        <scalingTime>
+          <value>2026-08-26T02:58:34.175Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/iu_chto_bhz_10/mb">
+        <genericAmplitude>
+          <value>1.695e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.8500</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:55:40.11Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530123</pickID>
+        <waveformID channelCode="BHZ" locationCode="10" networkCode="IU" stationCode="CHTO"/>
+        <scalingTime>
+          <value>2026-08-26T02:56:32.235Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/kr_chvk_hhz_00/mb">
+        <genericAmplitude>
+          <value>8.7e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.1400</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:55:58.24Z</reference>
+        </timeWindow>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="KR" stationCode="CHVK"/>
+        <scalingTime>
+          <value>2026-08-26T02:56:59.68Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/im_cm31_bhz_--/mb">
+        <genericAmplitude>
+          <value>2.115e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.0500</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:55:41.75Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="IM" stationCode="CM31"/>
+        <scalingTime>
+          <value>2026-08-26T02:56:39.45Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/tm_crai_hhz_00/mb">
+        <genericAmplitude>
+          <value>1.085e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.5400</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:55:48.92Z</reference>
+        </timeWindow>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="TM" stationCode="CRAI"/>
+        <scalingTime>
+          <value>2026-08-26T02:56:35.63Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ko_dare_hhz_--/mb">
+        <genericAmplitude>
+          <value>3.9e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.9800</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>112.97</end>
+          <reference>2026-08-26T02:59:36.29Z</reference>
+        </timeWindow>
+        <waveformID channelCode="HHZ" locationCode="--" networkCode="KO" stationCode="DARE"/>
+        <scalingTime>
+          <value>2026-08-26T03:00:49.39Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/im_fines_hhz_f0/mb">
+        <genericAmplitude>
+          <value>2.61e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.9400</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>124.43</end>
+          <reference>2026-08-26T03:01:05.62Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530179</pickID>
+        <waveformID channelCode="HHZ" locationCode="F0" networkCode="IM" stationCode="FINES"/>
+        <scalingTime>
+          <value>2026-08-26T03:01:37.03Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ak_j19k_bhz_--/mb">
+        <genericAmplitude>
+          <value>2.135e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.9600</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>171.17</end>
+          <reference>2026-08-26T03:04:00.83Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="AK" stationCode="J19K"/>
+        <scalingTime>
+          <value>2026-08-26T03:06:16.21Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_jzax_bhz_00/mb">
+        <genericAmplitude>
+          <value>7.4e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:56:19.58Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="II" stationCode="JZAX"/>
+        <scalingTime>
+          <value>2026-08-26T02:57:16.03Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ge_kbu_bhz_--/mb">
+        <genericAmplitude>
+          <value>8.925e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.5000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:55:29.47Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530122</pickID>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="KBU"/>
+        <scalingTime>
+          <value>2026-08-26T02:55:59.47Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/qk_khwl_hhz_--/mb">
+        <genericAmplitude>
+          <value>1.13e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.8800</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>92.42</end>
+          <reference>2026-08-26T02:58:58.82Z</reference>
+        </timeWindow>
+        <waveformID channelCode="HHZ" locationCode="--" networkCode="QK" stationCode="KHWL"/>
+        <scalingTime>
+          <value>2026-08-26T02:59:47.73Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/iu_kiev_bhz_10/mb">
+        <genericAmplitude>
+          <value>4.3e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.0500</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>126.41</end>
+          <reference>2026-08-26T03:00:32.01Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="10" networkCode="IU" stationCode="KIEV"/>
+        <scalingTime>
+          <value>2026-08-26T03:01:39.435Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_kurk_bhz_00/mb">
+        <genericAmplitude>
+          <value>1.355e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.1500</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:57:02.91Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="II" stationCode="KURK"/>
+        <scalingTime>
+          <value>2026-08-26T02:57:58.51Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ge_lhmi_bhz_--/mb">
+        <genericAmplitude>
+          <value>9.905e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:57:22.73Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530154</pickID>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="LHMI"/>
+        <scalingTime>
+          <value>2026-08-26T02:58:03.93Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/im_lzab_bhz_--/mb">
+        <genericAmplitude>
+          <value>1.285e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:56:04.47Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="IM" stationCode="LZAB"/>
+        <scalingTime>
+          <value>2026-08-26T02:57:06.845Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/iu_makz_bhz_00/mb">
+        <genericAmplitude>
+          <value>8.95e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.3000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:56:18.25Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="IU" stationCode="MAKZ"/>
+        <scalingTime>
+          <value>2026-08-26T02:57:16.575Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ge_malk_bhz_--/mb">
+        <genericAmplitude>
+          <value>4.405e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.3000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:56:37.73Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="MALK"/>
+        <scalingTime>
+          <value>2026-08-26T02:57:28.93Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/im_nc303_bhz_--/mb">
+        <genericAmplitude>
+          <value>8.05e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.2500</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>139.87</end>
+          <reference>2026-08-26T03:01:53.18Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="IM" stationCode="NC303"/>
+        <scalingTime>
+          <value>2026-08-26T03:03:01.18Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ak_nea2_bhz_--/mb">
+        <genericAmplitude>
+          <value>1.255e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.2800</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>192.15</end>
+          <reference>2026-08-26T03:03:54.91Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530187</pickID>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="AK" stationCode="NEA2"/>
+        <scalingTime>
+          <value>2026-08-26T03:04:21.51Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ge_pabe_bhz_--/mb">
+        <genericAmplitude>
+          <value>9.5e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.7000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>127.53</end>
+          <reference>2026-08-26T03:01:04.01Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="PABE"/>
+        <scalingTime>
+          <value>2026-08-26T03:01:51.86Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/tm_pano_hhz_00/mb">
+        <genericAmplitude>
+          <value>6.5e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.9600</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:56:43.59Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530146</pickID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="TM" stationCode="PANO"/>
+        <scalingTime>
+          <value>2026-08-26T02:57:23.18Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/tm_prac_hhz_00/mb">
+        <genericAmplitude>
+          <value>7.51e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.5000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:56:43.55Z</reference>
+        </timeWindow>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="TM" stationCode="PRAC"/>
+        <scalingTime>
+          <value>2026-08-26T02:57:30.52Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ic_qiz_hhz_10/mb">
+        <genericAmplitude>
+          <value>1.823e-07</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>2.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:57:12.79Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530148</pickID>
+        <waveformID channelCode="HHZ" locationCode="10" networkCode="IC" stationCode="QIZ"/>
+        <scalingTime>
+          <value>2026-08-26T02:57:49.77Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/go_shnk_hhz_00/mb">
+        <genericAmplitude>
+          <value>7.85e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.8600</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>87.00</end>
+          <reference>2026-08-26T02:58:57.83Z</reference>
+        </timeWindow>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="GO" stationCode="SHNK"/>
+        <scalingTime>
+          <value>2026-08-26T02:59:44.96Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/im_sonm_shz_f0/mb">
+        <genericAmplitude>
+          <value>9.8e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:57:32.6Z</reference>
+        </timeWindow>
+        <waveformID channelCode="SHZ" locationCode="F0" networkCode="IM" stationCode="SONM"/>
+        <scalingTime>
+          <value>2026-08-26T02:58:33.54Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/tm_srdt_hhz_00/mb">
+        <genericAmplitude>
+          <value>1.1245e-07</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.9400</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:56:19.35Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530139</pickID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="TM" stationCode="SRDT"/>
+        <scalingTime>
+          <value>2026-08-26T02:57:12.94Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ko_svrc_hhz_--/mb">
+        <genericAmplitude>
+          <value>3.9e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.0400</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>98.56</end>
+          <reference>2026-08-26T02:59:35.47Z</reference>
+        </timeWindow>
+        <waveformID channelCode="HHZ" locationCode="--" networkCode="KO" stationCode="SVRC"/>
+        <scalingTime>
+          <value>2026-08-26T03:00:23.35Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ge_tirr_bhz_--/mb">
+        <genericAmplitude>
+          <value>5.36e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.5000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>124.33</end>
+          <reference>2026-08-26T03:00:36.33Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="TIRR"/>
+        <scalingTime>
+          <value>2026-08-26T03:01:26.88Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/kr_trks_hhz_00/mb">
+        <genericAmplitude>
+          <value>6.9e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.6400</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:56:03.89Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530135</pickID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="KR" stationCode="TRKS"/>
+        <scalingTime>
+          <value>2026-08-26T02:56:58.41Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/iu_uln_bhz_10/mb">
+        <genericAmplitude>
+          <value>8.15e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.0500</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:57:28.76Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530160</pickID>
+        <waveformID channelCode="BHZ" locationCode="10" networkCode="IU" stationCode="ULN"/>
+        <scalingTime>
+          <value>2026-08-26T02:58:22.56Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_uoss_bhz_00/mb">
+        <genericAmplitude>
+          <value>4.06e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.5000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:57:35.57Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530163</pickID>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="II" stationCode="UOSS"/>
+        <scalingTime>
+          <value>2026-08-26T02:58:32.745Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/im_zaa0b_bhz_--/mb">
+        <genericAmplitude>
+          <value>7.15e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.9000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:57:31.29Z</reference>
+        </timeWindow>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="IM" stationCode="ZAA0B"/>
+        <scalingTime>
+          <value>2026-08-26T02:58:23.79Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/qz_zhts_hhz_00/mb">
+        <genericAmplitude>
+          <value>9e-08</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>1.1600</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:56:19.74Z</reference>
+        </timeWindow>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="QZ" stationCode="ZHTS"/>
+        <scalingTime>
+          <value>2026-08-26T02:57:22.91Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/qz_zsn_hhz_00/mb">
+        <genericAmplitude>
+          <value>8.95e-09</value>
+        </genericAmplitude>
+        <type>AMB</type>
+        <unit>m</unit>
+        <period>
+          <value>0.3000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>65.00</end>
+          <reference>2026-08-26T02:56:22.35Z</reference>
+        </timeWindow>
+        <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530143</pickID>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="QZ" stationCode="ZSN"/>
+        <scalingTime>
+          <value>2026-08-26T02:56:42.88Z</value>
+        </scalingTime>
+        <magnitudeHint>mb</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_aak_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00366905</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>19.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>606.51</end>
+          <reference>2026-08-26T02:57:42.5126Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="II" stationCode="AAK"/>
+        <scalingTime>
+          <value>2026-08-26T03:03:36.5126Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_bork_lhz_10/ms_vx">
+        <genericAmplitude>
+          <value>0.00154485</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>22.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>892.50</end>
+          <reference>2026-08-26T03:02:28.4967Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="10" networkCode="II" stationCode="BORK"/>
+        <scalingTime>
+          <value>2026-08-26T03:10:39.4967Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/iu_chto_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00355128</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>19.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>567.77</end>
+          <reference>2026-08-26T02:57:03.7734Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="IU" stationCode="CHTO"/>
+        <scalingTime>
+          <value>2026-08-26T03:04:08.7734Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ab_dskn_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00112792</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>19.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1096.55</end>
+          <reference>2026-08-26T03:05:52.5508Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="AB" stationCode="DSKN"/>
+        <scalingTime>
+          <value>2026-08-26T03:16:18.5508Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ab_hasn_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00743302</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>19.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1024.37</end>
+          <reference>2026-08-26T03:04:40.3704Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="AB" stationCode="HASN"/>
+        <scalingTime>
+          <value>2026-08-26T03:17:40.3704Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ic_hia_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00418149</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>20.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1068.46</end>
+          <reference>2026-08-26T03:05:24.4624Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="IC" stationCode="HIA"/>
+        <scalingTime>
+          <value>2026-08-26T03:14:38.4624Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_jzax_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00901301</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>19.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>660.40</end>
+          <reference>2026-08-26T02:58:36.3998Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="II" stationCode="JZAX"/>
+        <scalingTime>
+          <value>2026-08-26T03:04:48.3998Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ge_kbu_lhz_--/ms_vx">
+        <genericAmplitude>
+          <value>0.00409676</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>19.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>562.49</end>
+          <reference>2026-08-26T02:56:58.4861Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="--" networkCode="GE" stationCode="KBU"/>
+        <scalingTime>
+          <value>2026-08-26T03:02:54.4861Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ic_kmi_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00325115</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>20.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>573.90</end>
+          <reference>2026-08-26T02:57:09.9012Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="IC" stationCode="KMI"/>
+        <scalingTime>
+          <value>2026-08-26T03:03:29.9012Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/tw_kmnb_lhz_--/ms_vx">
+        <genericAmplitude>
+          <value>0.00462987</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>18.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>961.42</end>
+          <reference>2026-08-26T03:03:37.4194Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="--" networkCode="TW" stationCode="KMNB"/>
+        <scalingTime>
+          <value>2026-08-26T03:12:10.4194Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/my_kum_lhz_--/ms_vx">
+        <genericAmplitude>
+          <value>0.00169726</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>18.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>888.08</end>
+          <reference>2026-08-26T03:02:24.0803Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="--" networkCode="MY" stationCode="KUM"/>
+        <scalingTime>
+          <value>2026-08-26T03:14:51.0803Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_kurk_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00736928</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>19.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>776.68</end>
+          <reference>2026-08-26T03:00:32.6789Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="II" stationCode="KURK"/>
+        <scalingTime>
+          <value>2026-08-26T03:07:54.6789Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/iu_makz_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00516213</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>19.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>657.10</end>
+          <reference>2026-08-26T02:58:33.0964Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="IU" stationCode="MAKZ"/>
+        <scalingTime>
+          <value>2026-08-26T03:05:17.0964Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ge_malk_lhz_--/ms_vx">
+        <genericAmplitude>
+          <value>0.00496103</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>22.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>702.23</end>
+          <reference>2026-08-26T02:59:18.2343Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="--" networkCode="GE" stationCode="MALK"/>
+        <scalingTime>
+          <value>2026-08-26T03:05:03.2343Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/tw_nacb_lhz_--/ms_vx">
+        <genericAmplitude>
+          <value>0.00786437</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>18.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1042.11</end>
+          <reference>2026-08-26T03:04:58.1132Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="--" networkCode="TW" stationCode="NACB"/>
+        <scalingTime>
+          <value>2026-08-26T03:13:57.1132Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_nil_lhz_10/ms_vx">
+        <genericAmplitude>
+          <value>0.0107357</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>18.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>464.98</end>
+          <reference>2026-08-26T02:55:20.9809Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="10" networkCode="II" stationCode="NIL"/>
+        <scalingTime>
+          <value>2026-08-26T03:00:32.9809Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_palk_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00405022</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>23.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>731.68</end>
+          <reference>2026-08-26T02:59:47.6766Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="II" stationCode="PALK"/>
+        <scalingTime>
+          <value>2026-08-26T03:05:33.6766Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ic_qiz_lhz_10/ms_vx">
+        <genericAmplitude>
+          <value>0.00161088</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>18.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>806.51</end>
+          <reference>2026-08-26T03:01:02.513Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="10" networkCode="IC" stationCode="QIZ"/>
+        <scalingTime>
+          <value>2026-08-26T03:10:34.513Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/my_sbm_lhz_--/ms_vx">
+        <genericAmplitude>
+          <value>0.000986929</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>21.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1143.15</end>
+          <reference>2026-08-26T03:06:39.1525Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="--" networkCode="MY" stationCode="SBM"/>
+        <scalingTime>
+          <value>2026-08-26T03:17:17.1525Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/go_shnk_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00122158</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>22.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1112.77</end>
+          <reference>2026-08-26T03:06:08.7681Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="GO" stationCode="SHNK"/>
+        <scalingTime>
+          <value>2026-08-26T03:16:10.7681Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ic_sse_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00420001</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>17.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1000.05</end>
+          <reference>2026-08-26T03:04:16.0501Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="IC" stationCode="SSE"/>
+        <scalingTime>
+          <value>2026-08-26T03:12:37.0501Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/tw_sslb_lhz_--/ms_vx">
+        <genericAmplitude>
+          <value>0.00367799</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>18.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1029.24</end>
+          <reference>2026-08-26T03:04:45.2433Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="--" networkCode="TW" stationCode="SSLB"/>
+        <scalingTime>
+          <value>2026-08-26T03:13:43.2433Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/iu_tato_lhz_10/ms_vx">
+        <genericAmplitude>
+          <value>0.00494519</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>18.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1034.17</end>
+          <reference>2026-08-26T03:04:50.1671Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="10" networkCode="IU" stationCode="TATO"/>
+        <scalingTime>
+          <value>2026-08-26T03:13:37.1671Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/tw_tpub_lhz_--/ms_vx">
+        <genericAmplitude>
+          <value>0.00263191</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>19.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1025.02</end>
+          <reference>2026-08-26T03:04:41.0207Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="--" networkCode="TW" stationCode="TPUB"/>
+        <scalingTime>
+          <value>2026-08-26T03:13:32.0207Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/iu_uln_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00378792</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>18.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>852.28</end>
+          <reference>2026-08-26T03:01:48.2773Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="IU" stationCode="ULN"/>
+        <scalingTime>
+          <value>2026-08-26T03:09:10.2773Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ii_uoss_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00169214</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>24.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>870.78</end>
+          <reference>2026-08-26T03:02:06.7762Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="II" stationCode="UOSS"/>
+        <scalingTime>
+          <value>2026-08-26T03:10:42.7762Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/ic_xan_lhz_00/ms_vx">
+        <genericAmplitude>
+          <value>0.00572935</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>22.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>715.89</end>
+          <reference>2026-08-26T02:59:31.8925Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="00" networkCode="IC" stationCode="XAN"/>
+        <scalingTime>
+          <value>2026-08-26T03:06:27.8925Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/tw_yhnb_lhz_--/ms_vx">
+        <genericAmplitude>
+          <value>0.00551019</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>18.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1033.25</end>
+          <reference>2026-08-26T03:04:49.2473Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="--" networkCode="TW" stationCode="YHNB"/>
+        <scalingTime>
+          <value>2026-08-26T03:13:42.2473Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <amplitude publicID="quakeml:us.anss.org/amp/tw_yulb_lhz_--/ms_vx">
+        <genericAmplitude>
+          <value>0.00401067</value>
+        </genericAmplitude>
+        <type>A</type>
+        <unit>m</unit>
+        <period>
+          <value>19.0000</value>
+        </period>
+        <timeWindow>
+          <begin>0.00</begin>
+          <end>1040.68</end>
+          <reference>2026-08-26T03:04:56.6797Z</reference>
+        </timeWindow>
+        <waveformID channelCode="LHZ" locationCode="--" networkCode="TW" stationCode="YULB"/>
+        <scalingTime>
+          <value>2026-08-26T03:14:00.6797Z</value>
+        </scalingTime>
+        <magnitudeHint>Ms_VX</magnitudeHint>
+        <evaluationMode>automatic</evaluationMode>
+      </amplitude>
+      <magnitude catalog:dataid="us_7000tbwb_mb" catalog:datasource="us" publicID="quakeml:us.anss.org/magnitude/7000tbwb/mb">
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_aak_bhz_00/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/qz_akst_hhz_00/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/tu_andn_hhz_--/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/kr_ark_hhz_00/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/kr_arls_hhz_00/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/kr_arsb_hhz_00/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ge_balj_bhz_--/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_bork_bhz_10/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/iu_chto_bhz_10/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/kr_chvk_hhz_00/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/im_cm31_bhz_--/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/tm_crai_hhz_00/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ko_dare_hhz_--/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/im_fines_hhz_f0/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ak_j19k_bhz_--/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_jzax_bhz_00/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ge_kbu_bhz_--/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/qk_khwl_hhz_--/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/iu_kiev_bhz_10/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_kurk_bhz_00/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ge_lhmi_bhz_--/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/im_lzab_bhz_--/mb</stationMagnitudeID>
+          <weight>0.75</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/iu_makz_bhz_00/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ge_malk_bhz_--/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/im_nc303_bhz_--/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ak_nea2_bhz_--/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ge_pabe_bhz_--/mb</stationMagnitudeID>
+          <weight>0.75</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/tm_pano_hhz_00/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/tm_prac_hhz_00/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ic_qiz_hhz_10/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/go_shnk_hhz_00/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/im_sonm_shz_f0/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/tm_srdt_hhz_00/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ko_svrc_hhz_--/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ge_tirr_bhz_--/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/kr_trks_hhz_00/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/iu_uln_bhz_10/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_uoss_bhz_00/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/im_zaa0b_bhz_--/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/qz_zhts_hhz_00/mb</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/qz_zsn_hhz_00/mb</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <mag>
+          <value>4.5</value>
+          <uncertainty>0.085</uncertainty>
+          <confidenceLevel>90</confidenceLevel>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <methodID>smi:us.anss.org/metadata/methodid/magnitude/mb/1.0</methodID>
+        <stationCount>41</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>confirmed</evaluationStatus>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-25T22:45:10Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <magnitude catalog:dataid="us_7000tbwb_ms_vx" catalog:datasource="us" publicID="quakeml:us.anss.org/magnitude/7000tbwb/ms_vx">
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_aak_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_bork_lhz_10/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/iu_chto_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ab_dskn_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ab_hasn_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ic_hia_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_jzax_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ge_kbu_lhz_--/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ic_kmi_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/tw_kmnb_lhz_--/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/my_kum_lhz_--/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_kurk_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/iu_makz_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ge_malk_lhz_--/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/tw_nacb_lhz_--/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_nil_lhz_10/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_palk_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ic_qiz_lhz_10/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/my_sbm_lhz_--/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/go_shnk_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>0.75</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ic_sse_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/tw_sslb_lhz_--/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/iu_tato_lhz_10/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/tw_tpub_lhz_--/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/iu_uln_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ii_uoss_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/ic_xan_lhz_00/ms_vx</stationMagnitudeID>
+          <weight>0.75</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/tw_yhnb_lhz_--/ms_vx</stationMagnitudeID>
+          <weight>0.00</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>quakeml:us.anss.org/stationmagnitude/tw_yulb_lhz_--/ms_vx</stationMagnitudeID>
+          <weight>1.00</weight>
+        </stationMagnitudeContribution>
+        <mag>
+          <value>5.2</value>
+          <uncertainty>0.085</uncertainty>
+          <confidenceLevel>90</confidenceLevel>
+        </mag>
+        <type>Ms_VX</type>
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <methodID>smi:us.anss.org/metadata/methodid/magnitude/Ms_VX/1.0</methodID>
+        <stationCount>29</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>confirmed</evaluationStatus>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-25T22:45:10Z</creationTime>
+        </creationInfo>
+      </magnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_aak_bhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>3.65</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_aak_bhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/qz_akst_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.90</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/qz_akst_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/tu_andn_hhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.73</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/tu_andn_hhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/kr_ark_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>3.90</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/kr_ark_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/kr_arls_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>3.73</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/kr_arls_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/kr_arsb_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>3.72</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/kr_arsb_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ge_balj_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.87</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ge_balj_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_bork_bhz_10/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>3.90</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_bork_bhz_10/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/iu_chto_bhz_10/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.40</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/iu_chto_bhz_10/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/kr_chvk_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>3.78</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/kr_chvk_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/im_cm31_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.31</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/im_cm31_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/tm_crai_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.31</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/tm_crai_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ko_dare_hhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.10</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ko_dare_hhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/im_fines_hhz_f0/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.83</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/im_fines_hhz_f0/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ak_j19k_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.94</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ak_j19k_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_jzax_bhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>3.85</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_jzax_bhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ge_kbu_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.43</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ge_kbu_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/qk_khwl_hhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.71</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/qk_khwl_hhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/iu_kiev_bhz_10/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.51</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/iu_kiev_bhz_10/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_kurk_bhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.37</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_kurk_bhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ge_lhmi_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.50</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ge_lhmi_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/im_lzab_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.01</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/im_lzab_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/iu_makz_bhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>3.81</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/iu_makz_bhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ge_malk_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.63</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ge_malk_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/im_nc303_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.61</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/im_nc303_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ak_nea2_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.88</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ak_nea2_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ge_pabe_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.83</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ge_pabe_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/tm_pano_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.62</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/tm_pano_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/tm_prac_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.80</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/tm_prac_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ic_qiz_hhz_10/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.37</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ic_qiz_hhz_10/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/go_shnk_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.56</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/go_shnk_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/im_sonm_shz_f0/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.49</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/im_sonm_shz_f0/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/tm_srdt_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.74</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/tm_srdt_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ko_svrc_hhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>3.97</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ko_svrc_hhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ge_tirr_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.45</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ge_tirr_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/kr_trks_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>3.93</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/kr_trks_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/iu_uln_bhz_10/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.39</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/iu_uln_bhz_10/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_uoss_bhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.93</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_uoss_bhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/im_zaa0b_bhz_--/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.40</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/im_zaa0b_bhz_--/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/qz_zhts_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.87</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/qz_zhts_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/qz_zsn_hhz_00/mb">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.49</value>
+        </mag>
+        <type>mb</type>
+        <amplitudeID>quakeml:us.anss.org/amp/qz_zsn_hhz_00/mb</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_aak_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.02</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_aak_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_bork_lhz_10/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.97</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_bork_lhz_10/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/iu_chto_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.97</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/iu_chto_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ab_dskn_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.87</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ab_dskn_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ab_hasn_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.65</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ab_hasn_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ic_hia_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.45</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ic_hia_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_jzax_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.47</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_jzax_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ge_kbu_lhz_--/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.02</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ge_kbu_lhz_--/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ic_kmi_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.97</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ic_kmi_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/tw_kmnb_lhz_--/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.38</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/tw_kmnb_lhz_--/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/my_kum_lhz_--/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.89</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/my_kum_lhz_--/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_kurk_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.48</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_kurk_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/iu_makz_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.22</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/iu_makz_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ge_malk_lhz_--/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.33</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ge_malk_lhz_--/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/tw_nacb_lhz_--/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.66</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/tw_nacb_lhz_--/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_nil_lhz_10/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.28</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_nil_lhz_10/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_palk_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.30</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_palk_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ic_qiz_lhz_10/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.81</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ic_qiz_lhz_10/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/my_sbm_lhz_--/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.89</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/my_sbm_lhz_--/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/go_shnk_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>4.99</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/go_shnk_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ic_sse_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.33</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ic_sse_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/tw_sslb_lhz_--/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.32</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/tw_sslb_lhz_--/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/iu_tato_lhz_10/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.45</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/iu_tato_lhz_10/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/tw_tpub_lhz_--/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.20</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/tw_tpub_lhz_--/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/iu_uln_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.22</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/iu_uln_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ii_uoss_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.05</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ii_uoss_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/ic_xan_lhz_00/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.41</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/ic_xan_lhz_00/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/tw_yhnb_lhz_--/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.50</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/tw_yhnb_lhz_--/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <stationMagnitude publicID="quakeml:us.anss.org/stationmagnitude/tw_yulb_lhz_--/ms_vx">
+        <originID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</originID>
+        <mag>
+          <value>5.39</value>
+        </mag>
+        <type>Ms_VX</type>
+        <amplitudeID>quakeml:us.anss.org/amp/tw_yulb_lhz_--/ms_vx</amplitudeID>
+      </stationMagnitude>
+      <origin catalog:dataid="us_locationdisp_20260826153622_28_86" catalog:datasource="us" catalog:eventid="locationdisp_20260826153622_28_86" publicID="quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86">
+        <originUncertainty>
+          <horizontalUncertainty>13390</horizontalUncertainty>
+          <minHorizontalUncertainty>-0</minHorizontalUncertainty>
+          <maxHorizontalUncertainty>-0</maxHorizontalUncertainty>
+          <azimuthMaxHorizontalUncertainty>131</azimuthMaxHorizontalUncertainty>
+          <confidenceEllipsoid>
+            <semiMajorAxisLength>23856</semiMajorAxisLength>
+            <semiMinorAxisLength>2951</semiMinorAxisLength>
+            <semiIntermediateAxisLength>17359</semiIntermediateAxisLength>
+            <majorAxisPlunge>0</majorAxisPlunge>
+            <majorAxisAzimuth>221</majorAxisAzimuth>
+            <majorAxisRotation>88</majorAxisRotation>
+          </confidenceEllipsoid>
+          <preferredDescription>confidence ellipsoid</preferredDescription>
+          <confidenceLevel>90</confidenceLevel>
+        </originUncertainty>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007425471">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007425471</pickID>
+          <phase>P</phase>
+          <azimuth>315.967</azimuth>
+          <distance>14.7836</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-08-26T03:28:36Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a8619_bpid-7007428543">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a8619_bpid-7007428543</pickID>
+          <phase>Lg</phase>
+          <azimuth>300.06</azimuth>
+          <distance>11.7962</distance>
+          <timeResidual>-52.62</timeResidual>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-08-26T15:12:04Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530119">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530119</pickID>
+          <phase>Pn</phase>
+          <azimuth>300.06</azimuth>
+          <distance>11.7962</distance>
+          <timeResidual>7.33</timeResidual>
+          <timeWeight>0.7400</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:27:31Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530121">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530121</pickID>
+          <phase>P</phase>
+          <azimuth>125.372</azimuth>
+          <distance>14.4571</distance>
+          <timeResidual>10.84</timeResidual>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:27:42Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530123">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530123</pickID>
+          <phase>P</phase>
+          <azimuth>124.529</azimuth>
+          <distance>15.4879</distance>
+          <timeResidual>5.57</timeResidual>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:28:26Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530129">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530129</pickID>
+          <phase>P</phase>
+          <azimuth>320.505</azimuth>
+          <distance>16.1703</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:02Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530134">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530134</pickID>
+          <phase>P</phase>
+          <azimuth>324.187</azimuth>
+          <distance>17.4269</distance>
+          <timeResidual>5.57</timeResidual>
+          <timeWeight>0.5900</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:27Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530137">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530137</pickID>
+          <phase>P</phase>
+          <azimuth>352.408</azimuth>
+          <distance>18.7125</distance>
+          <timeResidual>8.20</timeResidual>
+          <timeWeight>0.6100</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:43Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530127">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530127</pickID>
+          <phase>P</phase>
+          <azimuth>125.537</azimuth>
+          <distance>15.7165</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:28:53Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530136">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530136</pickID>
+          <phase>P</phase>
+          <azimuth>353.063</azimuth>
+          <distance>18.6634</distance>
+          <timeResidual>8.21</timeResidual>
+          <timeWeight>0.6100</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:32Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530126">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530126</pickID>
+          <phase>P</phase>
+          <azimuth>117.337</azimuth>
+          <distance>15.7286</distance>
+          <timeResidual>11.72</timeResidual>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:28:48Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530131">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530131</pickID>
+          <phase>P</phase>
+          <azimuth>325.033</azimuth>
+          <distance>16.5813</distance>
+          <timeResidual>2.06</timeResidual>
+          <timeWeight>0.5800</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:14Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530140">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530140</pickID>
+          <phase>P</phase>
+          <azimuth>313.384</azimuth>
+          <distance>18.828</distance>
+          <timeResidual>8.20</timeResidual>
+          <timeWeight>0.6200</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:51Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530147">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530147</pickID>
+          <phase>P</phase>
+          <azimuth>348.745</azimuth>
+          <distance>23.0176</distance>
+          <timeResidual>6.44</timeResidual>
+          <timeWeight>0.7100</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:30:15Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530159">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530159</pickID>
+          <phase>P</phase>
+          <azimuth>359.05</azimuth>
+          <distance>25.6591</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:31:01Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530158">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530158</pickID>
+          <phase>P</phase>
+          <azimuth>359.05</azimuth>
+          <distance>25.6591</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:30:59Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530157">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530157</pickID>
+          <phase>P</phase>
+          <azimuth>34.0614</azimuth>
+          <distance>25.3879</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:30:57Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530169">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530169</pickID>
+          <phase>P</phase>
+          <azimuth>304.321</azimuth>
+          <distance>35.1049</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:31:31Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530170">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530170</pickID>
+          <phase>P</phase>
+          <azimuth>293.562</azimuth>
+          <distance>35.6307</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:31:33Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530177">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530177</pickID>
+          <phase>P</phase>
+          <azimuth>314.201</azimuth>
+          <distance>47.5518</distance>
+          <timeResidual>4.89</timeResidual>
+          <timeWeight>1.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:32:08Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530180">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530180</pickID>
+          <phase>P</phase>
+          <azimuth>320.074</azimuth>
+          <distance>51.2022</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:32:21Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530179">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530179</pickID>
+          <phase>P</phase>
+          <azimuth>327.855</azimuth>
+          <distance>51.0442</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:32:16Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530171">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530171</pickID>
+          <phase>P</phase>
+          <azimuth>296.998</azimuth>
+          <distance>39.5503</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:31:40Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530173">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530173</pickID>
+          <phase>P</phase>
+          <azimuth>295.823</azimuth>
+          <distance>41.8998</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:31:52Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530128">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530128</pickID>
+          <phase>P</phase>
+          <azimuth>343.64</azimuth>
+          <distance>15.7928</distance>
+          <timeResidual>11.72</timeResidual>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:28:57Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530125">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530125</pickID>
+          <phase>P</phase>
+          <azimuth>125.537</azimuth>
+          <distance>15.7165</distance>
+          <timeResidual>4.69</timeResidual>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:28:37Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530130">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530130</pickID>
+          <phase>P</phase>
+          <azimuth>328.992</azimuth>
+          <distance>16.3299</distance>
+          <timeResidual>9.08</timeResidual>
+          <timeWeight>0.5700</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:11Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530133">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530133</pickID>
+          <phase>P</phase>
+          <azimuth>58.9466</azimuth>
+          <distance>17.1872</distance>
+          <timeResidual>10.84</timeResidual>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:19Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530135">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530135</pickID>
+          <phase>P</phase>
+          <azimuth>322.064</azimuth>
+          <distance>17.6321</distance>
+          <timeResidual>5.57</timeResidual>
+          <timeWeight>0.5900</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:30Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530141">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530141</pickID>
+          <phase>P</phase>
+          <azimuth>315.872</azimuth>
+          <distance>18.8469</distance>
+          <timeResidual>8.20</timeResidual>
+          <timeWeight>0.6200</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:53Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530143">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530143</pickID>
+          <phase>P</phase>
+          <azimuth>358.659</azimuth>
+          <distance>19.1665</distance>
+          <timeResidual>7.32</timeResidual>
+          <timeWeight>0.6200</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:30:02Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530142">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530142</pickID>
+          <phase>P</phase>
+          <azimuth>324.643</azimuth>
+          <distance>19.1264</distance>
+          <timeResidual>6.45</timeResidual>
+          <timeWeight>0.6200</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:58Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530144">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530144</pickID>
+          <phase>P</phase>
+          <azimuth>194.299</azimuth>
+          <distance>20.3184</distance>
+          <timeResidual>9.96</timeResidual>
+          <timeWeight>0.6500</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:30:05Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530181">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530181</pickID>
+          <phase>P</phase>
+          <azimuth>326.739</azimuth>
+          <distance>58.0661</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:32:25Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530182">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530182</pickID>
+          <phase>PcP</phase>
+          <azimuth>129.67</azimuth>
+          <distance>67.175</distance>
+          <timeResidual>-5.74</timeResidual>
+          <timeWeight>0.2300</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:32:29Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530183">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530183</pickID>
+          <phase>PcP</phase>
+          <azimuth>286.206</azimuth>
+          <distance>71.1544</distance>
+          <timeResidual>0.45</timeResidual>
+          <timeWeight>0.2000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:32:48Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530184">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530184</pickID>
+          <phase>P</phase>
+          <azimuth>23.4049</azimuth>
+          <distance>76.3957</distance>
+          <timeResidual>19.89</timeResidual>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:32:52Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530185">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530185</pickID>
+          <phase>PcP</phase>
+          <azimuth>17.6562</azimuth>
+          <distance>77.5125</distance>
+          <timeResidual>0.07</timeResidual>
+          <timeWeight>0.1900</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:33:01Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530120">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530120</pickID>
+          <phase>Pn</phase>
+          <azimuth>127.406</azimuth>
+          <distance>11.0629</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:27:33Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530132">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530132</pickID>
+          <phase>P</phase>
+          <azimuth>330.954</azimuth>
+          <distance>16.8906</distance>
+          <timeResidual>7.32</timeResidual>
+          <timeWeight>0.5800</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:17Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530145">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530145</pickID>
+          <phase>P</phase>
+          <azimuth>136.822</azimuth>
+          <distance>20.6112</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:30:09Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530160">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530160</pickID>
+          <phase>P</phase>
+          <azimuth>34.7009</azimuth>
+          <distance>25.7362</distance>
+          <timeResidual>6.44</timeResidual>
+          <timeWeight>0.7900</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:31:05Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530172">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530172</pickID>
+          <phase>P</phase>
+          <azimuth>297.291</azimuth>
+          <distance>40.9816</distance>
+          <timeResidual>1.49</timeResidual>
+          <timeWeight>0.9300</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:31:48Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530178">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530178</pickID>
+          <phase>P</phase>
+          <azimuth>305.721</azimuth>
+          <distance>47.7827</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:32:12Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530122">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530122</pickID>
+          <phase>Pn</phase>
+          <azimuth>298.077</azimuth>
+          <distance>15.3035</distance>
+          <timeResidual>1.88</timeResidual>
+          <timeWeight>0.6000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:28:24Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530139">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530139</pickID>
+          <phase>P</phase>
+          <azimuth>134.735</azimuth>
+          <distance>18.7175</distance>
+          <timeResidual>9.09</timeResidual>
+          <timeWeight>0.6100</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:29:49Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530146">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530146</pickID>
+          <phase>P</phase>
+          <azimuth>118.13</azimuth>
+          <distance>20.7756</distance>
+          <timeWeight>0.0000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:30:11Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530148">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530148</pickID>
+          <phase>P</phase>
+          <azimuth>107.153</azimuth>
+          <distance>24.0718</distance>
+          <timeResidual>5.57</timeResidual>
+          <timeWeight>0.7400</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:30:21Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530153">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530153</pickID>
+          <phase>P</phase>
+          <azimuth>320.304</azimuth>
+          <distance>24.9875</distance>
+          <timeResidual>2.93</timeResidual>
+          <timeWeight>0.7600</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:30:53Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530154">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530154</pickID>
+          <phase>P</phase>
+          <azimuth>152.555</azimuth>
+          <distance>25.3588</distance>
+          <timeResidual>3.81</timeResidual>
+          <timeWeight>0.7700</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:30:55Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530163">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530163</pickID>
+          <phase>P</phase>
+          <azimuth>269.611</azimuth>
+          <distance>26.3859</distance>
+          <timeResidual>7.33</timeResidual>
+          <timeWeight>0.8100</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:31:09Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530164">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530164</pickID>
+          <phase>P</phase>
+          <azimuth>339.734</azimuth>
+          <distance>27.1871</distance>
+          <timeResidual>3.81</timeResidual>
+          <timeWeight>0.8200</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:31:17Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530174">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530174</pickID>
+          <phase>P</phase>
+          <azimuth>287.812</azimuth>
+          <distance>42.9794</distance>
+          <timeResidual>2.93</timeResidual>
+          <timeWeight>0.9500</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:31:58Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="quakeml:us.anss.org/arrival/7000tbwb/us_a6058_bpid-7007530187">
+          <pickID>quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530187</pickID>
+          <phase>P</phase>
+          <azimuth>21.0496</azimuth>
+          <distance>78.1958</distance>
+          <timeResidual>3.87</timeResidual>
+          <timeWeight>1.1000</timeWeight>
+          <creationInfo>
+            <agencyID>us</agencyID>
+            <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+            <author>manual</author>
+            <creationTime>2026-09-15T21:33:12Z</creationTime>
+          </creationInfo>
+        </arrival>
+        <time>
+          <value>2026-08-26T02:52:10Z</value>
+          <uncertainty>7.90</uncertainty>
+          <confidenceLevel>90.00</confidenceLevel>
+        </time>
+        <longitude>
+          <value>85.5150</value>
+          <uncertainty>0.1372</uncertainty>
+          <confidenceLevel>90.00</confidenceLevel>
+        </longitude>
+        <latitude>
+          <value>28.2710</value>
+          <uncertainty>0.1260</uncertainty>
+          <confidenceLevel>90.00</confidenceLevel>
+        </latitude>
+        <depth>
+          <value>0</value>
+          <uncertainty>1955</uncertainty>
+          <confidenceLevel>90.00</confidenceLevel>
+        </depth>
+        <quality>
+          <associatedPhaseCount>54</associatedPhaseCount>
+          <usedPhaseCount>0</usedPhaseCount>
+          <associatedStationCount>53</associatedStationCount>
+          <usedStationCount>0</usedStationCount>
+          <standardError>3.90</standardError>
+        </quality>
+        <type>hypocenter</type>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>confirmed</evaluationStatus>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-25T22:45:04Z</creationTime>
+          <version>0</version>
+        </creationInfo>
+      </origin>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007425471">
+        <time>
+          <value>2026-08-26T02:56:14.06Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="TJ" stationCode="SAREZ"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-08-26T03:28:36Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a8619_bpid-7007428543">
+        <time>
+          <value>2026-08-26T02:57:43.16Z</value>
+        </time>
+        <waveformID channelCode="BH1" locationCode="10" networkCode="II" stationCode="NIL"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-08-26T15:12:04Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530119">
+        <time>
+          <value>2026-08-26T02:55:06.88Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="10" networkCode="II" stationCode="NIL"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:27:31Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530121">
+        <time>
+          <value>2026-08-26T02:55:53.89Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="TM" stationCode="MHIT"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:27:42Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530123">
+        <time>
+          <value>2026-08-26T02:56:00.11Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="10" networkCode="IU" stationCode="CHTO"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:28:26Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530129">
+        <time>
+          <value>2026-08-26T02:56:18.24Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="KR" stationCode="CHVK"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:02Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530134">
+        <time>
+          <value>2026-08-26T02:56:21.57Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="KR" stationCode="ARK"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:27Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530137">
+        <time>
+          <value>2026-08-26T02:56:38.25Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="IU" stationCode="MAKZ"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:43Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530127">
+        <time>
+          <value>2026-08-26T02:56:14.93Z</value>
+        </time>
+        <waveformID channelCode="SHZ" locationCode="F0" networkCode="IM" stationCode="CMAR"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:28:53Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530136">
+        <time>
+          <value>2026-08-26T02:56:37.72Z</value>
+        </time>
+        <waveformID channelCode="SHZ" locationCode="F0" networkCode="IM" stationCode="MKAR"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:32Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530126">
+        <time>
+          <value>2026-08-26T02:56:08.92Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="TM" stationCode="CRAI"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:28:48Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530131">
+        <time>
+          <value>2026-08-26T02:56:08.72Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="KR" stationCode="ARSB"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:14Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530140">
+        <time>
+          <value>2026-08-26T02:56:39.58Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="II" stationCode="JZAX"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:51Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530147">
+        <time>
+          <value>2026-08-26T02:57:22.91Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="II" stationCode="KURK"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:30:15Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530159">
+        <time>
+          <value>2026-08-26T02:57:51.29Z</value>
+        </time>
+        <waveformID channelCode="SHZ" locationCode="F0" networkCode="IM" stationCode="ZALV"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:31:01Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530158">
+        <time>
+          <value>2026-08-26T02:57:51.29Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="IM" stationCode="ZAA0B"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:30:59Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530157">
+        <time>
+          <value>2026-08-26T02:57:52.6Z</value>
+        </time>
+        <waveformID channelCode="SHZ" locationCode="F0" networkCode="IM" stationCode="SONM"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:30:57Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530169">
+        <time>
+          <value>2026-08-26T02:59:17.83Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="GO" stationCode="SHNK"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:31:31Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530170">
+        <time>
+          <value>2026-08-26T02:59:18.82Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="--" networkCode="QK" stationCode="KHWL"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:31:33Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530177">
+        <time>
+          <value>2026-08-26T03:00:52.01Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="10" networkCode="IU" stationCode="KIEV"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:32:08Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530180">
+        <time>
+          <value>2026-08-26T03:01:24.01Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="PABE"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:32:21Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530179">
+        <time>
+          <value>2026-08-26T03:01:25.62Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="F0" networkCode="IM" stationCode="FINES"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:32:16Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530171">
+        <time>
+          <value>2026-08-26T02:59:55.47Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="--" networkCode="KO" stationCode="SVRC"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:31:40Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530173">
+        <time>
+          <value>2026-08-26T03:00:13.21Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="--" networkCode="TU" stationCode="ANDN"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:31:52Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530128">
+        <time>
+          <value>2026-08-26T02:56:09.62Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="KZ" stationCode="PDGK"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:28:57Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530125">
+        <time>
+          <value>2026-08-26T02:56:01.75Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="IM" stationCode="CM31"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:28:37Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530130">
+        <time>
+          <value>2026-08-26T02:56:12.98Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="KR" stationCode="ARLS"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:11Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530133">
+        <time>
+          <value>2026-08-26T02:56:24.47Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="IM" stationCode="LZAB"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:19Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530135">
+        <time>
+          <value>2026-08-26T02:56:23.89Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="KR" stationCode="TRKS"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:30Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530141">
+        <time>
+          <value>2026-08-26T02:56:39.74Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="QZ" stationCode="ZHTS"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:53Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530143">
+        <time>
+          <value>2026-08-26T02:56:42.35Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="QZ" stationCode="ZSN"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:30:02Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530142">
+        <time>
+          <value>2026-08-26T02:56:41.07Z</value>
+        </time>
+        <waveformID channelCode="SHZ" locationCode="F0" networkCode="IM" stationCode="KKAR"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:58Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530144">
+        <time>
+          <value>2026-08-26T02:56:57.73Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="MALK"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:30:05Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530181">
+        <time>
+          <value>2026-08-26T03:02:13.18Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="IM" stationCode="NC303"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:32:25Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530182">
+        <time>
+          <value>2026-08-26T03:03:28.42Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="AU" stationCode="WB10"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:32:29Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530183">
+        <time>
+          <value>2026-08-26T03:03:51.7Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="G" stationCode="TAM"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:32:48Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530184">
+        <time>
+          <value>2026-08-26T03:04:20.83Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="AK" stationCode="J19K"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:32:52Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530185">
+        <time>
+          <value>2026-08-26T03:04:17.66Z</value>
+        </time>
+        <waveformID channelCode="SHZ" locationCode="F0" networkCode="IM" stationCode="BMAR"/>
+        <onset>questionable</onset>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:33:01Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530120">
+        <time>
+          <value>2026-08-26T02:55:02.98Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="--" networkCode="MM" stationCode="NGU"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:27:33Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530132">
+        <time>
+          <value>2026-08-26T02:56:17.45Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="II" stationCode="AAK"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:17Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530145">
+        <time>
+          <value>2026-08-26T02:57:03.55Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="TM" stationCode="PRAC"/>
+        <onset>questionable</onset>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:30:09Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530160">
+        <time>
+          <value>2026-08-26T02:57:48.76Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="10" networkCode="IU" stationCode="ULN"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:31:05Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530172">
+        <time>
+          <value>2026-08-26T02:59:56.29Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="--" networkCode="KO" stationCode="DARE"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:31:48Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530178">
+        <time>
+          <value>2026-08-26T03:00:56.33Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="TIRR"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:32:12Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530122">
+        <time>
+          <value>2026-08-26T02:55:49.47Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="KBU"/>
+        <phaseHint>Pn</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:28:24Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530139">
+        <time>
+          <value>2026-08-26T02:56:39.35Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="TM" stationCode="SRDT"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:29:49Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530146">
+        <time>
+          <value>2026-08-26T02:57:03.59Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="TM" stationCode="PANO"/>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:30:11Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530148">
+        <time>
+          <value>2026-08-26T02:57:32.79Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="10" networkCode="IC" stationCode="QIZ"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:30:21Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530153">
+        <time>
+          <value>2026-08-26T02:57:38.24Z</value>
+        </time>
+        <waveformID channelCode="HHZ" locationCode="00" networkCode="QZ" stationCode="AKST"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:30:53Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530154">
+        <time>
+          <value>2026-08-26T02:57:42.73Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="LHMI"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:30:55Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530163">
+        <time>
+          <value>2026-08-26T02:57:55.57Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="00" networkCode="II" stationCode="UOSS"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:31:09Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530164">
+        <time>
+          <value>2026-08-26T02:57:58.95Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="10" networkCode="II" stationCode="BORK"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:31:17Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530174">
+        <time>
+          <value>2026-08-26T03:00:14.05Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="GE" stationCode="BALJ"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:31:58Z</creationTime>
+        </creationInfo>
+      </pick>
+      <pick publicID="quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530187">
+        <time>
+          <value>2026-08-26T03:04:14.91Z</value>
+        </time>
+        <waveformID channelCode="BHZ" locationCode="--" networkCode="AK" stationCode="NEA2"/>
+        <phaseHint>P</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+          <creationTime>2026-09-15T21:33:12Z</creationTime>
+        </creationInfo>
+      </pick>
+      <preferredOriginID>quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86</preferredOriginID>
+      <preferredMagnitudeID>quakeml:us.anss.org/magnitude/7000tbwb/ms_vx</preferredMagnitudeID>
+      <type>landslide</type>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+        <creationTime>2026-10-23T21:33:46Z</creationTime>
+      </creationInfo>
+    </event>
+    <creationInfo>
+      <agencyID>us</agencyID>
+      <agencyURI>smi:anss.org/metadata/agencyid/us</agencyURI>
+      <creationTime>2026-10-23T21:36:53.04Z</creationTime>
+    </creationInfo>
+  </eventParameters>
+
+</q:quakeml>

@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-10-24T08:07:23.883697+00:00",
+  "reason": "implementation domain audit, not heldout parameter selection",
+  "sampling": "joint Gaussian fit/filter estimation distribution conditional on positive current inverse velocity; fixed4096candidate normaldraws accept first512 positive states",
+  "inconsistent_mean": "nonpositive fitted current inverse velocity => abstain, no claim actual already-started phase",
+  "no_start_mass": "nonnegative inversevelocity trend or positive future zero beyondH; no roots dropped from512conditional draws",
+  "opportunity_accounting": "all13main groups fixed anchors retained including stale/notyetmonitored; 30d hourlygrid throughlabel lower retains missing after sensorloss",
+  "new_control": "C-stable Stampa one rightcensored site, native725daily samples and hourlylast30d; outcome beyondfollowup unknown; no absoluteunit threshold",
+  "parameters_unchanged": "windows8/16/32, processq/R0.001/0.01/0.1 h^-3, primary16/0.01, seed20261024"
+}

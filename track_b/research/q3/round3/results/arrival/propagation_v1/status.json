@@ -1,0 +1,22 @@
+{
+  "generated_at_utc": "2026-10-24T09:04:28.612373+00:00",
+  "status": "strict_delivered_role_pairing_executed",
+  "bundle_version": "q4-r3-propagation-v1-metadata-handoff",
+  "bundle_sha256": "ca2687f43fbca865fea8556435c9765ccc429fed4bf3f05dd5df8f79deb2fda0",
+  "delivered_files_verified": 40,
+  "target_rows": 42,
+  "unique_pairs": 0,
+  "rejected_pairs": 42,
+  "absolute_interval_pairs": 0,
+  "checks": {
+    "every_target_retained_as_pair_or_rejection": true,
+    "no_absolute_point_arrival_inferred": true
+  },
+  "limitations": [
+    "Bulk release is a different physical origin from first mechanical initiation; lag not assumed zero",
+    "No approximate scenario string matching or Cartesian sampling",
+    "Saved-output first hit is an interval bracket, not exact arrival",
+    "Q4 partial envelope flag does not certify numerical accuracy, probability or event-time validation"
+  ],
+  "passed": true
+}

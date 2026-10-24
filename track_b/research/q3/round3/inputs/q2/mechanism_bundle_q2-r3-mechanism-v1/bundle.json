@@ -1,0 +1,79 @@
+{
+  "bundle_version": "q2-r3-mechanism-v1",
+  "producer_question": "q2",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "evaluation_stratum": "conditional_scenario",
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/EXPERIMENT_PROTOCOL.md",
+      "bytes": 5797,
+      "sha256": "888b65535ff477f4e6ef07be3dfeea19392209d7903ef58559cb8473ad96626a",
+      "role": "EXPERIMENT_PROTOCOL.md",
+      "upstream_path": "track_b/research/q2/round3/EXPERIMENT_PROTOCOL.md"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/config/experiment_v1.json",
+      "bytes": 4192,
+      "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a",
+      "role": "config/experiment_v1.json",
+      "upstream_path": "track_b/research/q2/round3/config/experiment_v1.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "role": "scripts/mechanism_engine.py",
+      "upstream_path": "track_b/research/q2/round3/scripts/mechanism_engine.py"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/mechanism_contract.json",
+      "bytes": 3236,
+      "sha256": "fd47ca5af08c56a5076d07a4707764e07e58089e3030a47cc812facf620923e7",
+      "role": "results/mechanism_contract.json",
+      "upstream_path": "track_b/research/q2/round3/results/mechanism_contract.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/parameter_ensemble.csv",
+      "bytes": 1071463,
+      "sha256": "27a77ced72931366be5e19f431cb40218e1f243d77a7fe2671fc6125b0cf98b6",
+      "role": "results/parameter_ensemble.csv",
+      "upstream_path": "track_b/research/q2/round3/results/parameter_ensemble.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/forcing_hourly_v1.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+      "role": "results/forcing_hourly_v1.csv",
+      "upstream_path": "track_b/research/q2/round3/results/forcing_hourly_v1.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/state_trajectories.parquet",
+      "bytes": 3194674,
+      "sha256": "7ce07a43bc3cce5d51d39b4ff86eddd795ca12fb996d0c508f1a4bea6e2bb587",
+      "role": "results/state_trajectories.parquet",
+      "upstream_path": "track_b/research/q2/round3/results/state_trajectories.parquet"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/scenario_outcomes.csv",
+      "bytes": 722959,
+      "sha256": "dd7be14535d0a782ca5b260375b830ca16b0275817bba6cde1852cd22c2a1737",
+      "role": "results/scenario_outcomes.csv",
+      "upstream_path": "track_b/research/q2/round3/results/scenario_outcomes.csv"
+    }
+  ],
+  "limitations": [
+    "All source mechanism and release states conditional scenarios, not local measurements or calibrated event probability.",
+    "No probability weights. First-row unstable left-censored, never-crossed and missing retained.",
+    "Real weather availability unknown; ideal_weather retrospective forcing.",
+    "Mamot strength transferred beyond original material/stress/rate/temperature domain where marked.",
+    "Initiation is separate from propagation arrival. Human scientific adoption pending."
+  ],
+  "advisor_review": {
+    "upstream_bundle_sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+    "note": "Accepted for conditional mechanism coupling and ideal-weather first-passage research only. 256 parameter design points are not probability priors, 8 representative trajectories per mechanism/policy are not independent observed events. Lab domain flags and explicit extrapolation/thaw branches retained; left censoring/never-cross/missing retained. No local event calibration, operational weather eligibility or empirical coverage accepted.",
+    "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+  }
+}

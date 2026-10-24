@@ -1,0 +1,2046 @@
+[
+  {
+    "fold_id": "C_LOSO_Agoyama",
+    "held_group": "Agoyama",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.810501864588415
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 10.563288707128596
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 10.037348064710493
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0019143577063423592,
+      4.440892098500617e-15,
+      7.721264512352898
+    ],
+    "scale": [
+      1.1761614524027715,
+      1.0406856941982812,
+      1.1202632221619933
+    ],
+    "coefficients": [
+      -8.61825040798177,
+      0.21147101923621123,
+      0.0037475915310168635,
+      0.03436227600726364
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 5.151898890836646,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 1056.0,
+    "rate_calibration_scale": 0.607122012040481,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 19.86328548739379,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Agoyama",
+    "held_group": "Agoyama",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 12.416149763522201
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 8.783939764148213
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.316862174664724
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0019143577063423592,
+      4.440892098500617e-15,
+      7.721264512352898
+    ],
+    "scale": [
+      1.1761614524027715,
+      1.0406856941982812,
+      1.1202632221619933
+    ],
+    "coefficients": [
+      -8.262502658086941,
+      0.16782343871735278,
+      0.28820147971413834,
+      -0.44118684087514337,
+      -1.0176056038589216,
+      -1.2395635948906245,
+      -1.110890070115856,
+      -1.395907014258493,
+      -0.2975413398573898,
+      0.3813939704887947,
+      0.16157394493310248,
+      2.205157891194455,
+      0.9929384538293423,
+      -0.09453474852227273
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 3.4860478326109083,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 1056.0,
+    "rate_calibration_scale": 0.5213470379887782,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 23.309352635631768,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Arvigo",
+    "held_group": "Arvigo",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.091694910755374
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 9.909163716669223
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.45679657417986
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0023923750609270936,
+      6.692174898668899e-05,
+      7.723561980853701
+    ],
+    "scale": [
+      1.1865436496803374,
+      1.054534595134466,
+      1.132789680604601
+    ],
+    "coefficients": [
+      -8.584681313687177,
+      0.18090717112150656,
+      0.02613912372390442,
+      0.011603618885503824
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 12.334491471794438,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 1667.50833333,
+    "rate_calibration_scale": 0.6190526522020785,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 19.480699933671996,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Arvigo",
+    "held_group": "Arvigo",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 11.726217496585592
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 8.264625310022215
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 8.743889439563102
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0023923750609270936,
+      6.692174898668899e-05,
+      7.723561980853701
+    ],
+    "scale": [
+      1.1865436496803374,
+      1.054534595134466,
+      1.132789680604601
+    ],
+    "coefficients": [
+      -8.12562652269865,
+      0.1435165717509766,
+      0.28226488288856577,
+      -0.4411015064618089,
+      -1.0413539756923949,
+      -1.2223226637579,
+      -1.050713975820807,
+      -1.4466064098324265,
+      -0.40800100824152186,
+      0.35212178145779605,
+      0.3305419757863077,
+      2.0972628288761683,
+      0.9494081045896011,
+      -0.09270347431626558
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 10.269359392387464,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 1667.50833333,
+    "rate_calibration_scale": 0.518887015266397,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 23.430396107462833,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Brienz_Insel",
+    "held_group": "Brienz_Insel",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.48108901226363
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 10.285461402116201
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.77041489547901
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0011969029625969506,
+      -0.00799929855736618,
+      7.685702104258437
+    ],
+    "scale": [
+      1.7804315428294402,
+      1.495053730498046,
+      1.1246803856401728
+    ],
+    "coefficients": [
+      -8.477483912602064,
+      0.12778334269854055,
+      0.0133607267445142,
+      -0.031537209084114344
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "step_converged",
+    "heldout_survival_nll_raw": 10.578196629049705,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 3969.68333333,
+    "rate_calibration_scale": 0.5884670616760174,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 20.499074563502706,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Brienz_Insel",
+    "held_group": "Brienz_Insel",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.31984671982844
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 8.371336398807063
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.113730971917096
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0011969029625969506,
+      -0.00799929855736618,
+      7.685702104258437
+    ],
+    "scale": [
+      1.7804315428294402,
+      1.495053730498046,
+      1.1246803856401728
+    ],
+    "coefficients": [
+      -7.957070340947814,
+      0.07689514646858991,
+      0.37614604460613843,
+      -0.47633503554089246,
+      -1.3263676475462316,
+      -1.1722269176059075,
+      -0.9918131540157541,
+      -1.647982353829155,
+      -0.08015202099689324,
+      0.32854138702285274,
+      0.94981774353911,
+      1.8512837619940266,
+      0.8647897013286363,
+      -0.12249294229547403
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 7.658260021063988,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 3969.68333333,
+    "rate_calibration_scale": 0.5594212427687296,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 21.752108054109705,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Galterengraben",
+    "held_group": "Galterengraben",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 160210.91011177274
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 66774.62390403857
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 321.07830311737774
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.012334117674854192,
+      -0.07200096662756125,
+      7.721528144585216
+    ],
+    "scale": [
+      1.3206100775102332,
+      1.2283516100780112,
+      1.1494045168264009
+    ],
+    "coefficients": [
+      -8.530374274841257,
+      0.22305380451979961,
+      0.015622094684970946,
+      -0.023356441145855923
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 13.889896348409561,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4318.75833333,
+    "rate_calibration_scale": 0.0030893822177073997,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 4071.377739994865,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Galterengraben",
+    "held_group": "Galterengraben",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 85719671227.37694
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 255183954.44149166
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 5314833.359982867
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.012334117674854192,
+      -0.07200096662756125,
+      7.721528144585216
+    ],
+    "scale": [
+      1.3206100775102332,
+      1.2283516100780112,
+      1.1494045168264009
+    ],
+    "coefficients": [
+      -8.282533192591398,
+      0.26525517114004765,
+      0.32318826617736585,
+      -0.049120478039916184,
+      -0.2861135370600178,
+      -0.29682774460867095,
+      -0.12104594722027213,
+      -0.29134810794042454,
+      -0.09377738007943734,
+      0.09427287584231415,
+      0.15612133614023085,
+      0.3792257681136305,
+      0.12140614684898934,
+      -0.09517170810776218
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "step_converged",
+    "heldout_survival_nll_raw": 12.595340527689835,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4318.75833333,
+    "rate_calibration_scale": 0.002478752176714009,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 69092738.43894896,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Grabengufer",
+    "held_group": "Grabengufer",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.341192036673231
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 10.16644964466181
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.699810874803772
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.06964861728933923,
+      0.0016604520063743286,
+      7.780094101489448
+    ],
+    "scale": [
+      1.0071977732183757,
+      0.6591684489157984,
+      1.1594281032106961
+    ],
+    "coefficients": [
+      -8.637643422743931,
+      0.18233922102663497,
+      0.08636149103255343,
+      0.003560184218945877
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 12.727730228080457,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 3283.1058333344436,
+    "rate_calibration_scale": 0.5175009901197245,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 23.33735861314235,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Grabengufer",
+    "held_group": "Grabengufer",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 9.904823603817096
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 8.901261955931586
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.162549406143173
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.06964861728933923,
+      0.0016604520063743286,
+      7.780094101489448
+    ],
+    "scale": [
+      1.0071977732183757,
+      0.6591684489157984,
+      1.1594281032106961
+    ],
+    "coefficients": [
+      -7.759515801984405,
+      0.1136619835615512,
+      0.3286600796036908,
+      -0.39619094873776634,
+      -0.9557710244732944,
+      -1.0024936258677015,
+      -0.9437439116499662,
+      -1.318066359990133,
+      -0.7786528347482818,
+      0.4402541112428887,
+      -0.0392120221106983,
+      1.5502120073783883,
+      0.8097503038415147,
+      -0.0812564544333616
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "step_converged",
+    "heldout_survival_nll_raw": 10.638981974272093,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 3283.1058333344436,
+    "rate_calibration_scale": 0.4600859012690271,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 26.356319040783628,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Hogarth",
+    "held_group": "Hogarth",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.598703742897925
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 10.445287340492468
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 10.013608702149385
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0023923750609270936,
+      5.551115123125767e-15,
+      7.715763433610421
+    ],
+    "scale": [
+      1.157832602642574,
+      1.0326059749646794,
+      1.1405558259697717
+    ],
+    "coefficients": [
+      -8.562653457421629,
+      0.2067745847884787,
+      0.006700451571221716,
+      -0.008758215058652576
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 5.808349939391085,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4224.0,
+    "rate_calibration_scale": 0.5930059906538083,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 20.34061690893368,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Hogarth",
+    "held_group": "Hogarth",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 42.44597243066274
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 9.219346724248876
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.298748230582044
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0023923750609270936,
+      5.551115123125767e-15,
+      7.715763433610421
+    ],
+    "scale": [
+      1.157832602642574,
+      1.0326059749646794,
+      1.1405558259697717
+    ],
+    "coefficients": [
+      -8.051161558672542,
+      0.13645843058541432,
+      0.26652032499233264,
+      -0.45250630261758706,
+      -1.1707844781182535,
+      -1.3335600753647001,
+      -1.163309874887936,
+      -1.7205743323737002,
+      -0.3486929753076613,
+      0.5524448412515339,
+      0.22686318755012908,
+      2.407946032808942,
+      1.1320636061755809,
+      -0.09190303645220631
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 6.580885627614359,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4224.0,
+    "rate_calibration_scale": 0.37324539601842566,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 32.57556971189345,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Kagemori",
+    "held_group": "Kagemori",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.592382381207292
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 10.445759726865353
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 10.020886499396685
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0019143577063423592,
+      3.5527136788004946e-15,
+      7.714620949816149
+    ],
+    "scale": [
+      1.1757970005085596,
+      1.0396596842297576,
+      1.1382351331236453
+    ],
+    "coefficients": [
+      -8.574002094913551,
+      0.20983053173166208,
+      0.007465178539645939,
+      -0.012890468790966475
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 5.963430692843226,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4224.0,
+    "rate_calibration_scale": 0.5885819923517445,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 20.49514747325,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Kagemori",
+    "held_group": "Kagemori",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.835927725648427
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 8.656942389191837
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.273616679721076
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0019143577063423592,
+      3.5527136788004946e-15,
+      7.714620949816149
+    ],
+    "scale": [
+      1.1757970005085596,
+      1.0396596842297576,
+      1.1382351331236453
+    ],
+    "coefficients": [
+      -8.033954889644598,
+      0.15264667104697005,
+      0.2742349715203806,
+      -0.43836799081298156,
+      -0.9488946825215249,
+      -1.296456696370234,
+      -0.9267247792494453,
+      -1.372459671695561,
+      -0.47519400838692943,
+      0.4116120572124527,
+      -0.061795520041795456,
+      2.290301187790699,
+      0.8253311345761999,
+      -0.09194061718781918
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 4.413810935534664,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4224.0,
+    "rate_calibration_scale": 0.5317300130521402,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 22.875164508568226,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_La_Saxe",
+    "held_group": "La_Saxe",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 81088.21532309924
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 33560.432512794076
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 163.25605124721162
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0004789331079513487,
+      -0.028987485401333078,
+      7.722400793308022
+    ],
+    "scale": [
+      1.0208337733893496,
+      1.0399495340324596,
+      1.1542532297552333
+    ],
+    "coefficients": [
+      -8.677278305625668,
+      0.44946873069114424,
+      -0.03355282371672504,
+      -0.00318484449743554
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 20.558129628667544,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4314.88472222111,
+    "rate_calibration_scale": 0.006169345436585251,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 2027.6093055709998,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_La_Saxe",
+    "held_group": "La_Saxe",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 42871814458.01053
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 165502447.91532424
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 2670614.9706608006
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0004789331079513487,
+      -0.028987485401333078,
+      7.722400793308022
+    ],
+    "scale": [
+      1.0208337733893496,
+      1.0399495340324596,
+      1.1542532297552333
+    ],
+    "coefficients": [
+      -8.333290966136062,
+      0.4485623006136914,
+      0.40451802299959616,
+      -0.02775732028957063,
+      -0.2785952446990494,
+      -0.30508876023488696,
+      -0.12122312266026526,
+      -0.3676153009070162,
+      -0.12659744341091544,
+      0.08502090672618694,
+      -0.013654093823637985,
+      0.4033251078509662,
+      0.11765906642853388,
+      -0.10531032245063567
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 19.757069342986842,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4314.88472222111,
+    "rate_calibration_scale": 0.002478752176714009,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 34717907.91596778,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Nevis_Bluff",
+    "held_group": "Nevis_Bluff",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.593141482040153
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 10.443177688691177
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 10.017146497585808
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0019143577063423592,
+      0.0,
+      7.716015266642587
+    ],
+    "scale": [
+      1.215523523664403,
+      1.1023717034447564,
+      1.1414232540999176
+    ],
+    "coefficients": [
+      -8.568209347743428,
+      0.21367377969321275,
+      -0.0004343277369269044,
+      -0.010462107732986267
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 6.105523453330221,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4224.0,
+    "rate_calibration_scale": 0.5897153600657051,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 20.455490804325514,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Nevis_Bluff",
+    "held_group": "Nevis_Bluff",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 11.146768037792869
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 8.539640242268439
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.239591020649431
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0019143577063423592,
+      0.0,
+      7.716015266642587
+    ],
+    "scale": [
+      1.215523523664403,
+      1.1023717034447564,
+      1.1414232540999176
+    ],
+    "coefficients": [
+      -8.003168931861474,
+      0.1505981769936932,
+      0.27355238004219207,
+      -0.43619004234300784,
+      -1.0443503874524072,
+      -1.3111876014868966,
+      -0.9730546905954183,
+      -1.5425047751085474,
+      -0.3686809081948196,
+      0.3713612686511252,
+      0.05517086747311678,
+      2.3120258965602902,
+      0.8421770297255972,
+      -0.09420654356695209
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 5.358766712557992,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4224.0,
+    "rate_calibration_scale": 0.5360035274341691,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 22.714605594348395,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Ohto",
+    "held_group": "Ohto",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.636978096378012
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 10.46927188717098
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 10.026966523621459
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0023923750609270936,
+      2.1571633368438264e-12,
+      7.727277604657502
+    ],
+    "scale": [
+      1.1923134656043581,
+      1.0541795159877763,
+      1.130809145251697
+    ],
+    "coefficients": [
+      -8.584896387725843,
+      0.19615526265551242,
+      0.007462368316354262,
+      0.005236500754568309
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 5.197008229129468,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 2040.0,
+    "rate_calibration_scale": 0.6118216643841967,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 19.709083854198006,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Ohto",
+    "held_group": "Ohto",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 12.551672167395735
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 8.750307393365008
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.304118443131951
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0023923750609270936,
+      2.1571633368438264e-12,
+      7.727277604657502
+    ],
+    "scale": [
+      1.1923134656043581,
+      1.0541795159877763,
+      1.130809145251697
+    ],
+    "coefficients": [
+      -8.246525647131918,
+      0.15771506217795717,
+      0.2826999868708154,
+      -0.4474832719520982,
+      -1.0284572034790493,
+      -1.2521393836483348,
+      -1.005754118809815,
+      -1.4423086333725523,
+      -0.3420754509933988,
+      0.3749319972481327,
+      0.26851275277380454,
+      2.2553036581706194,
+      0.9127674148061798,
+      -0.09399144780729289
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 3.537668149090093,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 2040.0,
+    "rate_calibration_scale": 0.52229870834003,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 23.27033154947894,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Preonzo",
+    "held_group": "Preonzo",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.277416582265955
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 10.082737992201277
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.570052679039929
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.005264344291767336,
+      0.0004789331079513487,
+      7.709306339463096
+    ],
+    "scale": [
+      1.364878582863826,
+      1.0475437248505552,
+      1.1363426654334283
+    ],
+    "coefficients": [
+      -8.522311427914023,
+      0.15354284381058633,
+      0.040241992474423595,
+      -0.023019762372253543
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 13.195259162743852,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4314.25833333,
+    "rate_calibration_scale": 0.5666907538056095,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 21.294325551021142,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Preonzo",
+    "held_group": "Preonzo",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 9.996125484534705
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 8.287356118207107
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 8.886967745076054
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.005264344291767336,
+      0.0004789331079513487,
+      7.709306339463096
+    ],
+    "scale": [
+      1.364878582863826,
+      1.0475437248505552,
+      1.1363426654334283
+    ],
+    "coefficients": [
+      -7.996400299610111,
+      0.11472999801773752,
+      0.28240941050098145,
+      -0.46441086985905233,
+      -1.0797333158800413,
+      -1.2252415336139966,
+      -0.9487206513106535,
+      -1.4526200262873223,
+      -0.4173031219034405,
+      0.4229647610165772,
+      0.3043434444221372,
+      2.1197711715428267,
+      0.8328780825160543,
+      -0.09265268117791217
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 10.489691836700818,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 4314.25833333,
+    "rate_calibration_scale": 0.5272576011831469,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 23.06924787748142,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Ryan_and_Call_slope_2",
+    "held_group": "Ryan_and_Call_slope_2",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.657011020368156
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 10.475818076811013
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 10.022477895356415
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0023923750609270936,
+      1.1313172620923945e-12,
+      7.723932815015056
+    ],
+    "scale": [
+      1.1764263204334253,
+      1.0541158726032722,
+      1.1254595795848683
+    ],
+    "coefficients": [
+      -8.606901436981678,
+      0.20909144374078747,
+      0.006437461438638939,
+      0.016996695573940852
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 5.269400862362412,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 1584.0,
+    "rate_calibration_scale": 0.6093110328474058,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 19.79145176511527,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Ryan_and_Call_slope_2",
+    "held_group": "Ryan_and_Call_slope_2",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Stampa_rocksection4a",
+      "Weissmiess"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 11.959855295660308
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 8.755591821203582
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.31022943545365
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0023923750609270936,
+      1.1313172620923945e-12,
+      7.723932815015056
+    ],
+    "scale": [
+      1.1764263204334253,
+      1.0541158726032722,
+      1.1254595795848683
+    ],
+    "coefficients": [
+      -8.145735173041071,
+      0.15915395241875616,
+      0.27739574257790894,
+      -0.4366132315130377,
+      -1.0597168418552627,
+      -1.249222561292282,
+      -0.9746671639519006,
+      -1.4742756571126332,
+      -0.3238494851222465,
+      0.3595342289305243,
+      0.19948092729291603,
+      2.1993916274790917,
+      0.9024730964560219,
+      -0.09274017009809817
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 3.5253673189869987,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 1584.0,
+    "rate_calibration_scale": 0.5235049479851038,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 23.21362813879793,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Stampa_rocksection4a",
+    "held_group": "Stampa_rocksection4a",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Weissmiess"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 10.39529665324076
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 10.21392335156502
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.972543655001374
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.008999239319507529,
+      0.0007183136730362134,
+      7.6182516438763965
+    ],
+    "scale": [
+      1.1296719536318678,
+      0.9424206755340627,
+      1.124532499073326
+    ],
+    "coefficients": [
+      -8.134062052007563,
+      0.15341410363338148,
+      0.0015343200226206333,
+      0.2603016419985656
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "step_converged",
+    "heldout_survival_nll_raw": 6.225195192450923,
+    "training_failure_groups": 13,
+    "test_failure_groups": 0,
+    "test_exposure_hours": 17256.0,
+    "rate_calibration_scale": 0.6653645322013069,
+    "calibration_counts": {
+      "events": 13.0,
+      "expected_events_before_scaling": 19.62938018859876,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Stampa_rocksection4a",
+    "held_group": "Stampa_rocksection4a",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Weissmiess"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 17.459277368313195
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 8.75461137549948
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.282225621212175
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.008999239319507529,
+      0.0007183136730362134,
+      7.6182516438763965
+    ],
+    "scale": [
+      1.1296719536318678,
+      0.9424206755340627,
+      1.124532499073326
+    ],
+    "coefficients": [
+      -6.585822369671258,
+      0.10317558846787792,
+      0.24673011070078488,
+      0.06896118289158132,
+      -0.8832145116051168,
+      -1.266216535113859,
+      -1.261945487350949,
+      -1.2731701102873778,
+      -0.6373453803514064,
+      -0.5775404586708008,
+      -0.04505337087496812,
+      2.1799099233326147,
+      0.6024573618288549,
+      -0.08522570445563979
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 7.061308982880012,
+    "training_failure_groups": 13,
+    "test_failure_groups": 0,
+    "test_exposure_hours": 17256.0,
+    "rate_calibration_scale": 0.5920964258902051,
+    "calibration_counts": {
+      "events": 13.0,
+      "expected_events_before_scaling": 22.376962454502543,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Weissmiess",
+    "held_group": "Weissmiess",
+    "model_id": "linear_dynamic_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a"
+    ],
+    "selected_penalty": 10.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 14.92326892208409
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 11.228476117832203
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 9.508472604341346
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0023923750609270936,
+      5.551115123125767e-15,
+      7.71997823870293
+    ],
+    "scale": [
+      1.1875070902130282,
+      1.0452731800208577,
+      1.1229402134176123
+    ],
+    "coefficients": [
+      -8.678042143218702,
+      0.23387682229029583,
+      0.004689617422450651,
+      0.17870654892077933
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 13.199167705043724,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 49.991666666629996,
+    "rate_calibration_scale": 0.5623483104442316,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 21.460352806135575,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  },
+  {
+    "fold_id": "C_LOSO_Weissmiess",
+    "held_group": "Weissmiess",
+    "model_id": "nonlinear_rbf_hazard",
+    "training_groups": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Stampa_rocksection4a"
+    ],
+    "selected_penalty": 1.0,
+    "tuning": [
+      {
+        "penalty": 0.1,
+        "mean_inner_group_nll": 13.675796990432028
+      },
+      {
+        "penalty": 1.0,
+        "mean_inner_group_nll": 8.48730389860315
+      },
+      {
+        "penalty": 10.0,
+        "mean_inner_group_nll": 8.693489548394806
+      }
+    ],
+    "tuning_status": "inner_leave_one_physical_group_out",
+    "center": [
+      0.0023923750609270936,
+      5.551115123125767e-15,
+      7.71997823870293
+    ],
+    "scale": [
+      1.1875070902130282,
+      1.0452731800208577,
+      1.1229402134176123
+    ],
+    "coefficients": [
+      -8.729574505808925,
+      0.17634426010228096,
+      0.2844263349808704,
+      0.21188280599589152,
+      -0.9636431987504682,
+      -1.298820139820213,
+      -0.2785770843952763,
+      -1.5180014656499616,
+      -0.4871356796784423,
+      0.7740259640908715,
+      -0.08167598242556277,
+      2.2454785188837088,
+      0.8309665549088536,
+      -0.09595586190626987
+    ],
+    "optimizer_success": true,
+    "optimizer_message": "gradient_converged",
+    "heldout_survival_nll_raw": 13.60864490157238,
+    "training_failure_groups": 12,
+    "test_failure_groups": 1,
+    "test_exposure_hours": 49.991666666629996,
+    "rate_calibration_scale": 0.39584300174327464,
+    "calibration_counts": {
+      "events": 12.0,
+      "expected_events_before_scaling": 30.76209296084287,
+      "optimizer_success": true
+    },
+    "calibration_status": "training_side_crossfit_likelihood_rate_scale_no_independent_coverage_guarantee",
+    "conformal_calibration_groups_upper_bound": 13,
+    "conformal_95_rank": 14,
+    "conformal_95_status": "unbounded_insufficient_groups"
+  }
+]

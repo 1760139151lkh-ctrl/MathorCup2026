@@ -1,0 +1,123 @@
+{
+  "bundle_version": "q3-r3-research-v1",
+  "producer_question": "q3",
+  "created_at_utc": "2026-10-24T09:14:08.553657+00:00",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/results/predictions.csv",
+      "bytes": 41341886,
+      "sha256": "4d5a932d1df6f70fea6de9ee97ebbfd3ae1f2c69451e534d33880983fc06e850",
+      "role": "primary_prediction_projection"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/evaluation.csv",
+      "bytes": 54576,
+      "sha256": "1e040349f9c9bd3544d4b811bab2c0c1378228608041fb0bb653676dfd864a4b",
+      "role": "stratified_external_evaluation"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/paired_model_comparison.csv",
+      "bytes": 12862,
+      "sha256": "51d7f7541867a61ee43b1a47d699a4825cf45dfd7bbe60808ab2d7ce034796f7",
+      "role": "exact_matched_probability_opportunities"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/fold_membership.csv",
+      "bytes": 53937,
+      "sha256": "b75a2df470c1f0c4866cbbfe93be5752a267e796964b5b7830fc89604d7cee82",
+      "role": "physical_group_folds"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/interval_comparison.csv",
+      "bytes": 13454,
+      "sha256": "218e5477414f2002bb50770e0636dd3416247402dca5ae4bb0be4c48a08dc719",
+      "role": "model_conditional_intervals_and_conformal_support_audit"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/prior_sensitivity.csv",
+      "bytes": 22874374,
+      "sha256": "3cb42331dd1acfe35553a96f89f5f9f9da9086ecfbce362cfe20ba49e124b664",
+      "role": "explicit_assumption_sensitivity"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/raw_prediction_index.json",
+      "bytes": 11111,
+      "sha256": "ffec00dbad5d1f0b354f937959bdacc71de8ea38532e8614afd860a932e064a6",
+      "role": "all_engine_raw_prediction_indices"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/input_manifest.json",
+      "bytes": 46857,
+      "sha256": "d75a50dff1e7e9a62bd75cdded747bf4df1a0924b1fe46c1c76d088303fc1c54",
+      "role": "inputs_and_approved_shared_cache"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/cache_manifest.json",
+      "bytes": 218012,
+      "sha256": "ee1411d8e4e849a8dca17cba36c60eb2c2bf5cbfdfc201dccd609af463b9d102",
+      "role": "q3_cache_byte_objects"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/source_register.json",
+      "bytes": 1433212,
+      "sha256": "cd22cf064815b748fe8cc91ccb47ef48f2134c871779069b27522869c1b2c887",
+      "role": "source_reads_and_failed_requests"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/figure_review.json",
+      "bytes": 4528,
+      "sha256": "8a3f9893a69aa61d63770e17214efd9599502d1e4fe0c6b5a3bfbda51a1bb4be",
+      "role": "actual_final_figure_review"
+    },
+    {
+      "path": "track_b/research/q3/round3/MODEL_COMPARISON.md",
+      "bytes": 10961,
+      "sha256": "75cfe00fcaafd6b77becb4b52bbacc8033ee17e7765602baf5cd67c66c4857ec",
+      "role": "competition_results_and_recommendation"
+    },
+    {
+      "path": "track_b/research/q3/round3/EVIDENCE_REVIEW.md",
+      "bytes": 10101,
+      "sha256": "292609777ce97afbed8a66d82a004d9b0e262e04fadb067ac5109cccfd74308c",
+      "role": "evidence_and_transfer_limits"
+    },
+    {
+      "path": "track_b/research/q3/round3/PAPER_OUTLINE.md",
+      "bytes": 4540,
+      "sha256": "12406bb227a0cfde75c2414c2247feb9b42304e4ff055a0dd58f3ffd0a034de2",
+      "role": "paper_methods_results_discussion"
+    },
+    {
+      "path": "track_b/research/q3/round3/REQUIREMENTS_MAP.md",
+      "bytes": 2317,
+      "sha256": "7e53a22220aac37f958bb6f6e8e342890845d54e4ab59ecbe0538dcce9c8d378",
+      "role": "question_requirement_result_limits"
+    },
+    {
+      "path": "track_b/research/q3/round3/REPRODUCE.md",
+      "bytes": 8525,
+      "sha256": "5f740daf083e6d7a1457a292e8339bb7f7bcd74015302c8ee2e573038a87aeae",
+      "role": "actual_reproduction_commands"
+    },
+    {
+      "path": "track_b/research/q3/round3/HANDOFF.md",
+      "bytes": 7391,
+      "sha256": "ca827c50e7b081e8a02ecdfbeb905f1bf4152d279aa511f8d904b5e6fb2b90c5",
+      "role": "scope_and_next_interface"
+    }
+  ],
+  "primary_A": "analytic_erfc_linear_thermal_reference",
+  "primary_C": "no_record_age_main",
+  "local_first_mechanical_truth_accepted": false,
+  "local_coverage": null,
+  "limitations": [
+    "Stratified conditional scenarios and external terminal-collapse benchmarks, not a validated local95 forecast",
+    "Raw complete prediction caches remain separate and exactly hash-bound",
+    "Q4 generic v1 lacks Q2 mapping; mapped later versions require an explicit adapter",
+    "Final technical validation and output manifest are bound separately by the containing Git commit to avoid a hash cycle"
+  ]
+}

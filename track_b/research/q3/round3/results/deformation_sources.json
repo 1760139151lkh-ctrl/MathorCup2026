@@ -1,0 +1,193 @@
+{
+  "sources": [
+    {
+      "canonical_url_or_product_id": "https://dataserv.ub.tum.de/public.php/dav/files/m1688868/?accept=zip",
+      "product_version": "PFTF real archive DOI10.14459/2023mp1688868",
+      "retrieved_at_utc": "2026-10-24T07:38:48.629208+00:00",
+      "actual_read_scope": "all17data-file metadata and publisher checksums; selected 12 channels; raw whole archive",
+      "bytes": 33088209,
+      "sha256": "86c43a6f235e3f5846acb7b870f184499689804cac89fadfb20569664af0976e",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/PFTF_real_collection.zip",
+      "license": "CC-BY4.0 curator collection",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": null,
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/PFTF_real_collection.zip.request.json"
+    },
+    {
+      "canonical_url_or_product_id": "https://research-collection.ethz.ch/server/api/core/bitstreams/af4072e8-e0a4-4446-bedf-f90aad4c8783/content",
+      "product_version": "Loew2024 DOI10.3929/ethz-b-000670494",
+      "retrieved_at_utc": "2026-10-24T07:36:26.920327+00:00",
+      "actual_read_scope": "Ark1 A,CH,CV values and header; full worksheet stream, selected2023period",
+      "bytes": 31240329,
+      "sha256": "1811ab655e80df57b42c0a286d9b7b4afb8d379a982897fba9f862ac1713cd80",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/brienz_tps.xlsx",
+      "license": "CC-BY-NC4.0 ETH item",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": null,
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/brienz_tps.xlsx.request.json"
+    },
+    {
+      "canonical_url_or_product_id": "https://research-collection.ethz.ch/server/api/core/bitstreams/fb26c12d-b285-4288-ab55-07c153954101/content",
+      "product_version": "Loew2024 DOI10.3929/ethz-b-000670494",
+      "retrieved_at_utc": "2026-10-24T07:35:11.704825+00:00",
+      "actual_read_scope": "full README,2pages textual",
+      "bytes": 76039,
+      "sha256": "4e8192b1781bdc17998a310fd213f31e382454e0c2ac22ab6ebfe9e2c1d26a46",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/brienz_readme.pdf",
+      "license": "CC-BY-NC4.0 ETH item",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": null,
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/brienz_readme.pdf.request.json"
+    },
+    {
+      "canonical_url_or_product_id": "https://research-collection.ethz.ch/server/api/core/items/71f80c84-731a-4486-a529-47f3ef0b37dd",
+      "product_version": "Loew2024 DOI10.3929/ethz-b-000670494",
+      "retrieved_at_utc": "2026-10-24T07:35:10.119168+00:00",
+      "actual_read_scope": "full metadata and license",
+      "bytes": 14024,
+      "sha256": "f87f84d11b9aab6338f41be0d5f9a464a02399496c83ee346876a7acfde2f964",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/eth_item.json",
+      "license": "CC-BY-NC4.0 ETH item",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": null,
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/eth_item.json.request.json"
+    },
+    {
+      "canonical_url_or_product_id": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10346-020-01609-x/MediaObjects/10346_2020_1609_MOESM6_ESM.txt",
+      "product_version": "Kristensen2021 ESM6",
+      "retrieved_at_utc": "2026-10-24T07:41:56.390346+00:00",
+      "actual_read_scope": "Time/Pts_01 series; whole text",
+      "bytes": 2312628,
+      "sha256": "4c937d04163bc212fe033cfe7105ce0a16bee4b6ddf064a041e1f02362ac3fd3",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/Veslemannen_ESM6.txt",
+      "license": "journal CC-BY4.0 article; ESM source attributed",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": null,
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/Veslemannen_ESM6.request.json"
+    },
+    {
+      "canonical_url_or_product_id": "https://gitlab.com/inverse-velocity/PFTF/-/blob/63a83e2da5c7a9c37382eef68be1b44963cd0af3/README.md",
+      "product_version": "63a83e2da5c7a9c37382eef68be1b44963cd0af3",
+      "retrieved_at_utc": "2026-10-24T07:30:10.102672+00:00",
+      "retrieval_clock_note": "filesystem receipt metadata, not historical release availability",
+      "actual_read_scope": "full README methods/instructions/demo/license claim read",
+      "bytes": 15572,
+      "sha256": "2ec6028b94b9aae791ecb657438769f7419832d0f3b20caf42a4d55c873168f7",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/PFTF_63a83e2/README.md",
+      "data_role": "method_review_only",
+      "available_time_or_unknown": null
+    },
+    {
+      "canonical_url_or_product_id": "https://gitlab.com/inverse-velocity/PFTF/-/blob/63a83e2da5c7a9c37382eef68be1b44963cd0af3/LICENSE",
+      "product_version": "63a83e2da5c7a9c37382eef68be1b44963cd0af3",
+      "retrieved_at_utc": "2026-10-24T07:30:10.102392+00:00",
+      "retrieval_clock_note": "filesystem receipt metadata, not historical release availability",
+      "actual_read_scope": "license title and first25lines inspected; full bytes hashed; not full legal-text analysis",
+      "bytes": 34457,
+      "sha256": "288e5091588fab89d91e69d6b9809fcba14392c074f2bacf290f8e94eaccd19e",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/PFTF_63a83e2/LICENSE",
+      "data_role": "method_review_only",
+      "available_time_or_unknown": null
+    },
+    {
+      "canonical_url_or_product_id": "https://gitlab.com/inverse-velocity/PFTF/-/blob/63a83e2da5c7a9c37382eef68be1b44963cd0af3/displ_data.Rda",
+      "product_version": "63a83e2da5c7a9c37382eef68be1b44963cd0af3",
+      "retrieved_at_utc": "2026-10-24T07:30:10.143738+00:00",
+      "retrieval_clock_note": "filesystem receipt metadata, not historical release availability",
+      "actual_read_scope": "full bytes hashed only; demo identified as artificial from README; not decoded or fitted",
+      "bytes": 15906,
+      "sha256": "db86c3e6dbba96cd6908aad7ca855dd05fac2538e35020b3400d4128fcf1c357",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/PFTF_63a83e2/displ_data.Rda",
+      "data_role": "method_review_only",
+      "available_time_or_unknown": null
+    },
+    {
+      "canonical_url_or_product_id": "https://mediatum.ub.tum.de/1688868",
+      "product_version": "retrieved2026-10-24",
+      "retrieved_at_utc": "2026-10-24T07:33:12.242687+00:00",
+      "retrieval_clock_note": "filesystem write/receipt time from this acquisition; no historical availability inference",
+      "actual_read_scope": "full landing; data download link and CC-BY4.0 license inspected",
+      "bytes": 34352,
+      "sha256": "38d0a75fe5646ff4ec6a9eb8139582d34e490b365ff5174274bdd0bdee57d18b",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/data_landing.html",
+      "data_role": "source_and_license_audit",
+      "available_time_or_unknown": null
+    },
+    {
+      "canonical_url_or_product_id": "https://api.datacite.org/dois/10.14459/2023mp1688868",
+      "product_version": "retrieved2026-10-24",
+      "retrieved_at_utc": "2026-10-24T07:31:27.658977+00:00",
+      "retrieval_clock_note": "filesystem write/receipt time from this acquisition; no historical availability inference",
+      "actual_read_scope": "full metadata, DOI title/description/canonicalURL",
+      "bytes": 6408,
+      "sha256": "d4613f8ebbe834b6ef1feb92e5e2a5ec33abb41f96c5e90661fe7c0d9b4cc924",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/datacite.json",
+      "data_role": "source_and_license_audit",
+      "available_time_or_unknown": null
+    },
+    {
+      "canonical_url_or_product_id": "https://research-collection.ethz.ch/server/api/core/bundles/60d7e8a5-8251-492e-81e5-f3f8a38f9442/bitstreams",
+      "product_version": "retrieved2026-10-24",
+      "retrieved_at_utc": "2026-10-24T07:34:30.107676+00:00",
+      "retrieval_clock_note": "filesystem write/receipt time from this acquisition; no historical availability inference",
+      "actual_read_scope": "full original-bundle list, only TPS and README fetched",
+      "bytes": 26904,
+      "sha256": "310b3c1f4d81756811509c7fdbb9ad1393654a7d59c66a5cecb0c014d47ada67",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/eth_bitstreams.json",
+      "data_role": "source_and_license_audit",
+      "available_time_or_unknown": null
+    },
+    {
+      "canonical_url_or_product_id": "https://dataserv.ub.tum.de/index.php/s/m1688868",
+      "product_version": "retrieved2026-10-24",
+      "retrieved_at_utc": "2026-10-24T07:36:48.892640+00:00",
+      "retrieval_clock_note": "filesystem write/receipt time from this acquisition; no historical availability inference",
+      "actual_read_scope": "public-share metadata and advertised public ZIP link read",
+      "bytes": 25412,
+      "sha256": "b29414efbdd3a94f367de4654406c4626c1284ae678fc4c812ba01a035877ace",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/tum_download_landing.html",
+      "data_role": "source_and_license_audit",
+      "available_time_or_unknown": null
+    },
+    {
+      "canonical_url_or_product_id": "https://doi.org/10.1007/s10346-024-02380-z",
+      "product_version": "publisher HTML retrieved2026-10-24",
+      "retrieved_at_utc": "2026-10-24T08:20:22.915540+00:00",
+      "actual_read_scope": "Methods monitoring, June15 failure phase; largest main-collapse23:26–23:41local; lastTPS23:00 does not define failure",
+      "bytes": 423033,
+      "sha256": "5a05916fbecad70e211f2a9fba439fdd148a2351dea59be6901062f8511b3f8a",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/brienz_primary_article.html",
+      "data_role": "external_label_and_measurement_evidence",
+      "available_time_or_unknown": null,
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/brienz_primary_article.html.request.json"
+    },
+    {
+      "canonical_url_or_product_id": "https://doi.org/10.1007/s10346-020-01609-x",
+      "product_version": "publisher HTML retrieved2026-10-24",
+      "retrieved_at_utc": "2026-10-24T08:20:22.892629+00:00",
+      "actual_read_scope": "GBInSAR methods, LOS precision/phase wrapping; final failure20:58local; curator19:00clock alignment unresolved",
+      "bytes": 440033,
+      "sha256": "da8b74c3407308fee6ae2db9c68e7c02e1b3e00e4f2df1e7525718e9b9fa7a82",
+      "cache_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/veslemannen_primary_article.html",
+      "data_role": "external_label_and_measurement_evidence",
+      "available_time_or_unknown": null,
+      "request_log": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q3/deformation/veslemannen_primary_article.html.request.json"
+    }
+  ],
+  "acquisition_failures": [
+    {
+      "url": "https://mediatum.ub.tum.de/1688868",
+      "status": "several timeout attempts; unbounded initial DOI request eventually successful; switched official dataserv link"
+    },
+    {
+      "url": "https://www.research-collection.ethz.ch/server/api/core/items/71f80c84-731a-4486-a529-47f3ef0b37dd/bundles",
+      "status": "HTTP429; lawful non-www official host succeeded"
+    }
+  ],
+  "PFTF_demo": "artificial Rda explicitly excluded from empirical denominator",
+  "PFTF_license_conflict": "README GPL3-or-later; LICENSE AGPL3 text, no upstream code copied/executed",
+  "historical_availability": "retrieval now does not establish original real-time sensor data availability",
+  "group_count": 14,
+  "sensor_count": 15,
+  "observation_count": 128911
+}

@@ -1,0 +1,1213 @@
+{
+  "source": {
+    "canonical_url_or_product_id": "https://earthquake.usgs.gov/product/phase-data/us7000tbwb/us/1792791413040/quakeml.xml",
+    "product_version": "phase-data/us7000tbwb/us/1792791413040",
+    "request_started_at_utc": "2026-10-24T08:21:25.990985+00:00",
+    "retrieved_at_utc": "2026-10-24T08:21:29.007773+00:00",
+    "response_headers": {
+      "Content-Type": "application/xml",
+      "Content-Length": "167890",
+      "Connection": "close",
+      "Date": "Sat, 24 Oct 2026 07:22:15 GMT",
+      "X-XSS-Protection": "1; mode=block",
+      "Server": "nginx",
+      "Last-Modified": "Fri, 23 Oct 2026 21:37:05 GMT",
+      "ETag": "\"5558acbda4e954509009eec955161b2c\"",
+      "x-amz-server-side-encryption": "AES256",
+      "x-amz-meta-sha256": "Ur/n6jB1OiReGsGv2/2MZmgge1BqvmetIh8c5xb+Tn8=",
+      "x-amz-meta-modified": "2026-10-23T21:36:53.000Z",
+      "x-amz-version-id": "wuJHonjAiQBFl_J3f9sj5pzIvPKCVOQ9",
+      "Accept-Ranges": "bytes",
+      "Cache-Control": "max-age=315360000",
+      "Expires": "Tue, 21 Oct 2036 07:22:15 GMT",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Methods": "GET, OPTIONS",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Max-Age": "86400",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-Content-Type-Options": "nosniff",
+      "Vary": "Accept-Encoding",
+      "X-Cache": "Hit from cloudfront",
+      "Via": "1.1 02953992e043cdd9273bab020f4030a0.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop": "IAD55-P5",
+      "X-Amz-Cf-Id": "eLAKWd8PYJqxCIHdaoBCQtzlpfVQuNuboADdZVt2qi8ZlyFFjKm69A==",
+      "Age": "3552"
+    },
+    "http_status": 200,
+    "actual_read_scope": "all QuakeML origin, pick and arrival metadata; no raw seismic waveform",
+    "data_role": "retrospective_label_evidence",
+    "available_time": null,
+    "cache_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/sources/us7000tbwb_phase_1792791413040.xml",
+    "bytes": 167890,
+    "sha256": "52bfe7ea30753a245e1ac1afdbfd8c6668207b506abe67ad221f1ce716fe4e7f"
+  },
+  "origins": [
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "time_utc": "2026-08-26T02:52:10Z",
+      "time_uncertainty_seconds": "7.90",
+      "confidence_level": "90.00",
+      "method_id": null,
+      "earth_model_id": null,
+      "evaluation_mode": "manual",
+      "evaluation_status": "confirmed"
+    }
+  ],
+  "picks": [
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007425471",
+      "time_utc": "2026-08-26T02:56:14.06Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "TJ",
+        "stationCode": "SAREZ"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a8619_bpid-7007428543",
+      "time_utc": "2026-08-26T02:57:43.16Z",
+      "waveform_id": {
+        "channelCode": "BH1",
+        "locationCode": "10",
+        "networkCode": "II",
+        "stationCode": "NIL"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530119",
+      "time_utc": "2026-08-26T02:55:06.88Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "10",
+        "networkCode": "II",
+        "stationCode": "NIL"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530121",
+      "time_utc": "2026-08-26T02:55:53.89Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "TM",
+        "stationCode": "MHIT"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530123",
+      "time_utc": "2026-08-26T02:56:00.11Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "10",
+        "networkCode": "IU",
+        "stationCode": "CHTO"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530129",
+      "time_utc": "2026-08-26T02:56:18.24Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "KR",
+        "stationCode": "CHVK"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530134",
+      "time_utc": "2026-08-26T02:56:21.57Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "KR",
+        "stationCode": "ARK"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530137",
+      "time_utc": "2026-08-26T02:56:38.25Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "00",
+        "networkCode": "IU",
+        "stationCode": "MAKZ"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530127",
+      "time_utc": "2026-08-26T02:56:14.93Z",
+      "waveform_id": {
+        "channelCode": "SHZ",
+        "locationCode": "F0",
+        "networkCode": "IM",
+        "stationCode": "CMAR"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530136",
+      "time_utc": "2026-08-26T02:56:37.72Z",
+      "waveform_id": {
+        "channelCode": "SHZ",
+        "locationCode": "F0",
+        "networkCode": "IM",
+        "stationCode": "MKAR"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530126",
+      "time_utc": "2026-08-26T02:56:08.92Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "TM",
+        "stationCode": "CRAI"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530131",
+      "time_utc": "2026-08-26T02:56:08.72Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "KR",
+        "stationCode": "ARSB"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530140",
+      "time_utc": "2026-08-26T02:56:39.58Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "00",
+        "networkCode": "II",
+        "stationCode": "JZAX"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530147",
+      "time_utc": "2026-08-26T02:57:22.91Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "00",
+        "networkCode": "II",
+        "stationCode": "KURK"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530159",
+      "time_utc": "2026-08-26T02:57:51.29Z",
+      "waveform_id": {
+        "channelCode": "SHZ",
+        "locationCode": "F0",
+        "networkCode": "IM",
+        "stationCode": "ZALV"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530158",
+      "time_utc": "2026-08-26T02:57:51.29Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "IM",
+        "stationCode": "ZAA0B"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530157",
+      "time_utc": "2026-08-26T02:57:52.6Z",
+      "waveform_id": {
+        "channelCode": "SHZ",
+        "locationCode": "F0",
+        "networkCode": "IM",
+        "stationCode": "SONM"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530169",
+      "time_utc": "2026-08-26T02:59:17.83Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "GO",
+        "stationCode": "SHNK"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530170",
+      "time_utc": "2026-08-26T02:59:18.82Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "--",
+        "networkCode": "QK",
+        "stationCode": "KHWL"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530177",
+      "time_utc": "2026-08-26T03:00:52.01Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "10",
+        "networkCode": "IU",
+        "stationCode": "KIEV"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530180",
+      "time_utc": "2026-08-26T03:01:24.01Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "GE",
+        "stationCode": "PABE"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530179",
+      "time_utc": "2026-08-26T03:01:25.62Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "F0",
+        "networkCode": "IM",
+        "stationCode": "FINES"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530171",
+      "time_utc": "2026-08-26T02:59:55.47Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "--",
+        "networkCode": "KO",
+        "stationCode": "SVRC"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530173",
+      "time_utc": "2026-08-26T03:00:13.21Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "--",
+        "networkCode": "TU",
+        "stationCode": "ANDN"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530128",
+      "time_utc": "2026-08-26T02:56:09.62Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "KZ",
+        "stationCode": "PDGK"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530125",
+      "time_utc": "2026-08-26T02:56:01.75Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "IM",
+        "stationCode": "CM31"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530130",
+      "time_utc": "2026-08-26T02:56:12.98Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "KR",
+        "stationCode": "ARLS"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530133",
+      "time_utc": "2026-08-26T02:56:24.47Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "IM",
+        "stationCode": "LZAB"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530135",
+      "time_utc": "2026-08-26T02:56:23.89Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "KR",
+        "stationCode": "TRKS"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530141",
+      "time_utc": "2026-08-26T02:56:39.74Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "QZ",
+        "stationCode": "ZHTS"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530143",
+      "time_utc": "2026-08-26T02:56:42.35Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "QZ",
+        "stationCode": "ZSN"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530142",
+      "time_utc": "2026-08-26T02:56:41.07Z",
+      "waveform_id": {
+        "channelCode": "SHZ",
+        "locationCode": "F0",
+        "networkCode": "IM",
+        "stationCode": "KKAR"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530144",
+      "time_utc": "2026-08-26T02:56:57.73Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "GE",
+        "stationCode": "MALK"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530181",
+      "time_utc": "2026-08-26T03:02:13.18Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "IM",
+        "stationCode": "NC303"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530182",
+      "time_utc": "2026-08-26T03:03:28.42Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "AU",
+        "stationCode": "WB10"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530183",
+      "time_utc": "2026-08-26T03:03:51.7Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "00",
+        "networkCode": "G",
+        "stationCode": "TAM"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530184",
+      "time_utc": "2026-08-26T03:04:20.83Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "AK",
+        "stationCode": "J19K"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530185",
+      "time_utc": "2026-08-26T03:04:17.66Z",
+      "waveform_id": {
+        "channelCode": "SHZ",
+        "locationCode": "F0",
+        "networkCode": "IM",
+        "stationCode": "BMAR"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530120",
+      "time_utc": "2026-08-26T02:55:02.98Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "--",
+        "networkCode": "MM",
+        "stationCode": "NGU"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530132",
+      "time_utc": "2026-08-26T02:56:17.45Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "00",
+        "networkCode": "II",
+        "stationCode": "AAK"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530145",
+      "time_utc": "2026-08-26T02:57:03.55Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "TM",
+        "stationCode": "PRAC"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530160",
+      "time_utc": "2026-08-26T02:57:48.76Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "10",
+        "networkCode": "IU",
+        "stationCode": "ULN"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530172",
+      "time_utc": "2026-08-26T02:59:56.29Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "--",
+        "networkCode": "KO",
+        "stationCode": "DARE"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530178",
+      "time_utc": "2026-08-26T03:00:56.33Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "GE",
+        "stationCode": "TIRR"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530122",
+      "time_utc": "2026-08-26T02:55:49.47Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "GE",
+        "stationCode": "KBU"
+      },
+      "phase_hint": "Pn",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530139",
+      "time_utc": "2026-08-26T02:56:39.35Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "TM",
+        "stationCode": "SRDT"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530146",
+      "time_utc": "2026-08-26T02:57:03.59Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "TM",
+        "stationCode": "PANO"
+      },
+      "phase_hint": null,
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530148",
+      "time_utc": "2026-08-26T02:57:32.79Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "10",
+        "networkCode": "IC",
+        "stationCode": "QIZ"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530153",
+      "time_utc": "2026-08-26T02:57:38.24Z",
+      "waveform_id": {
+        "channelCode": "HHZ",
+        "locationCode": "00",
+        "networkCode": "QZ",
+        "stationCode": "AKST"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530154",
+      "time_utc": "2026-08-26T02:57:42.73Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "GE",
+        "stationCode": "LHMI"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530163",
+      "time_utc": "2026-08-26T02:57:55.57Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "00",
+        "networkCode": "II",
+        "stationCode": "UOSS"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530164",
+      "time_utc": "2026-08-26T02:57:58.95Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "10",
+        "networkCode": "II",
+        "stationCode": "BORK"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530174",
+      "time_utc": "2026-08-26T03:00:14.05Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "GE",
+        "stationCode": "BALJ"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    },
+    {
+      "pick_id": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530187",
+      "time_utc": "2026-08-26T03:04:14.91Z",
+      "waveform_id": {
+        "channelCode": "BHZ",
+        "locationCode": "--",
+        "networkCode": "AK",
+        "stationCode": "NEA2"
+      },
+      "phase_hint": "P",
+      "evaluation_mode": "manual"
+    }
+  ],
+  "arrivals": [
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007425471",
+      "phase": "P",
+      "distance": "14.7836",
+      "azimuth": "315.967",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a8619_bpid-7007428543",
+      "phase": "Lg",
+      "distance": "11.7962",
+      "azimuth": "300.06",
+      "timeResidual": "-52.62",
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530119",
+      "phase": "Pn",
+      "distance": "11.7962",
+      "azimuth": "300.06",
+      "timeResidual": "7.33",
+      "timeWeight": "0.7400"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530121",
+      "phase": "P",
+      "distance": "14.4571",
+      "azimuth": "125.372",
+      "timeResidual": "10.84",
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530123",
+      "phase": "P",
+      "distance": "15.4879",
+      "azimuth": "124.529",
+      "timeResidual": "5.57",
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530129",
+      "phase": "P",
+      "distance": "16.1703",
+      "azimuth": "320.505",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530134",
+      "phase": "P",
+      "distance": "17.4269",
+      "azimuth": "324.187",
+      "timeResidual": "5.57",
+      "timeWeight": "0.5900"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530137",
+      "phase": "P",
+      "distance": "18.7125",
+      "azimuth": "352.408",
+      "timeResidual": "8.20",
+      "timeWeight": "0.6100"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530127",
+      "phase": "P",
+      "distance": "15.7165",
+      "azimuth": "125.537",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530136",
+      "phase": "P",
+      "distance": "18.6634",
+      "azimuth": "353.063",
+      "timeResidual": "8.21",
+      "timeWeight": "0.6100"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530126",
+      "phase": "P",
+      "distance": "15.7286",
+      "azimuth": "117.337",
+      "timeResidual": "11.72",
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530131",
+      "phase": "P",
+      "distance": "16.5813",
+      "azimuth": "325.033",
+      "timeResidual": "2.06",
+      "timeWeight": "0.5800"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530140",
+      "phase": "P",
+      "distance": "18.828",
+      "azimuth": "313.384",
+      "timeResidual": "8.20",
+      "timeWeight": "0.6200"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530147",
+      "phase": "P",
+      "distance": "23.0176",
+      "azimuth": "348.745",
+      "timeResidual": "6.44",
+      "timeWeight": "0.7100"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530159",
+      "phase": "P",
+      "distance": "25.6591",
+      "azimuth": "359.05",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530158",
+      "phase": "P",
+      "distance": "25.6591",
+      "azimuth": "359.05",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530157",
+      "phase": "P",
+      "distance": "25.3879",
+      "azimuth": "34.0614",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530169",
+      "phase": "P",
+      "distance": "35.1049",
+      "azimuth": "304.321",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530170",
+      "phase": "P",
+      "distance": "35.6307",
+      "azimuth": "293.562",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530177",
+      "phase": "P",
+      "distance": "47.5518",
+      "azimuth": "314.201",
+      "timeResidual": "4.89",
+      "timeWeight": "1.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530180",
+      "phase": "P",
+      "distance": "51.2022",
+      "azimuth": "320.074",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530179",
+      "phase": "P",
+      "distance": "51.0442",
+      "azimuth": "327.855",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530171",
+      "phase": "P",
+      "distance": "39.5503",
+      "azimuth": "296.998",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530173",
+      "phase": "P",
+      "distance": "41.8998",
+      "azimuth": "295.823",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530128",
+      "phase": "P",
+      "distance": "15.7928",
+      "azimuth": "343.64",
+      "timeResidual": "11.72",
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530125",
+      "phase": "P",
+      "distance": "15.7165",
+      "azimuth": "125.537",
+      "timeResidual": "4.69",
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530130",
+      "phase": "P",
+      "distance": "16.3299",
+      "azimuth": "328.992",
+      "timeResidual": "9.08",
+      "timeWeight": "0.5700"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530133",
+      "phase": "P",
+      "distance": "17.1872",
+      "azimuth": "58.9466",
+      "timeResidual": "10.84",
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530135",
+      "phase": "P",
+      "distance": "17.6321",
+      "azimuth": "322.064",
+      "timeResidual": "5.57",
+      "timeWeight": "0.5900"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530141",
+      "phase": "P",
+      "distance": "18.8469",
+      "azimuth": "315.872",
+      "timeResidual": "8.20",
+      "timeWeight": "0.6200"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530143",
+      "phase": "P",
+      "distance": "19.1665",
+      "azimuth": "358.659",
+      "timeResidual": "7.32",
+      "timeWeight": "0.6200"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530142",
+      "phase": "P",
+      "distance": "19.1264",
+      "azimuth": "324.643",
+      "timeResidual": "6.45",
+      "timeWeight": "0.6200"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530144",
+      "phase": "P",
+      "distance": "20.3184",
+      "azimuth": "194.299",
+      "timeResidual": "9.96",
+      "timeWeight": "0.6500"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530181",
+      "phase": "P",
+      "distance": "58.0661",
+      "azimuth": "326.739",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530182",
+      "phase": "PcP",
+      "distance": "67.175",
+      "azimuth": "129.67",
+      "timeResidual": "-5.74",
+      "timeWeight": "0.2300"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530183",
+      "phase": "PcP",
+      "distance": "71.1544",
+      "azimuth": "286.206",
+      "timeResidual": "0.45",
+      "timeWeight": "0.2000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530184",
+      "phase": "P",
+      "distance": "76.3957",
+      "azimuth": "23.4049",
+      "timeResidual": "19.89",
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530185",
+      "phase": "PcP",
+      "distance": "77.5125",
+      "azimuth": "17.6562",
+      "timeResidual": "0.07",
+      "timeWeight": "0.1900"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530120",
+      "phase": "Pn",
+      "distance": "11.0629",
+      "azimuth": "127.406",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530132",
+      "phase": "P",
+      "distance": "16.8906",
+      "azimuth": "330.954",
+      "timeResidual": "7.32",
+      "timeWeight": "0.5800"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530145",
+      "phase": "P",
+      "distance": "20.6112",
+      "azimuth": "136.822",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530160",
+      "phase": "P",
+      "distance": "25.7362",
+      "azimuth": "34.7009",
+      "timeResidual": "6.44",
+      "timeWeight": "0.7900"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530172",
+      "phase": "P",
+      "distance": "40.9816",
+      "azimuth": "297.291",
+      "timeResidual": "1.49",
+      "timeWeight": "0.9300"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530178",
+      "phase": "P",
+      "distance": "47.7827",
+      "azimuth": "305.721",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530122",
+      "phase": "Pn",
+      "distance": "15.3035",
+      "azimuth": "298.077",
+      "timeResidual": "1.88",
+      "timeWeight": "0.6000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530139",
+      "phase": "P",
+      "distance": "18.7175",
+      "azimuth": "134.735",
+      "timeResidual": "9.09",
+      "timeWeight": "0.6100"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530146",
+      "phase": "P",
+      "distance": "20.7756",
+      "azimuth": "118.13",
+      "timeResidual": null,
+      "timeWeight": "0.0000"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530148",
+      "phase": "P",
+      "distance": "24.0718",
+      "azimuth": "107.153",
+      "timeResidual": "5.57",
+      "timeWeight": "0.7400"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530153",
+      "phase": "P",
+      "distance": "24.9875",
+      "azimuth": "320.304",
+      "timeResidual": "2.93",
+      "timeWeight": "0.7600"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530154",
+      "phase": "P",
+      "distance": "25.3588",
+      "azimuth": "152.555",
+      "timeResidual": "3.81",
+      "timeWeight": "0.7700"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530163",
+      "phase": "P",
+      "distance": "26.3859",
+      "azimuth": "269.611",
+      "timeResidual": "7.33",
+      "timeWeight": "0.8100"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530164",
+      "phase": "P",
+      "distance": "27.1871",
+      "azimuth": "339.734",
+      "timeResidual": "3.81",
+      "timeWeight": "0.8200"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530174",
+      "phase": "P",
+      "distance": "42.9794",
+      "azimuth": "287.812",
+      "timeResidual": "2.93",
+      "timeWeight": "0.9500"
+    },
+    {
+      "origin_id": "quakeml:us.anss.org/origin/locationdisp_20260826153622_28_86",
+      "pickID": "quakeml:us.anss.org/pick/7000tbwb/us_a6058_bpid-7007530187",
+      "phase": "P",
+      "distance": "78.1958",
+      "azimuth": "21.0496",
+      "timeResidual": "3.87",
+      "timeWeight": "1.1000"
+    }
+  ],
+  "counts": {
+    "origins": 1,
+    "picks": 54,
+    "arrivals": 54
+  },
+  "source_event": "us7000tbwb",
+  "physical_phase": "catalogue_seismic_reference_proxy",
+  "mechanical_first_onset_truth": null,
+  "nearest_pick_distance_degrees": 11.0629,
+  "manual_pick_count": 54,
+  "nearby_KKN_or_EVN_used": false,
+  "server_declared_sha256_matches": true,
+  "independent_events_added": 0,
+  "limitations": [
+    "Pick timestamps are station observations; travel-time origin inversion is a catalogue proxy",
+    "Quoted origin error is conditional on the catalogue model, not the unmeasured mechanical-onset proxy bias",
+    "No waveform signal, clock calibration or emission-to-first-motion mapping reviewed here; no new primary truth accepted"
+  ]
+}

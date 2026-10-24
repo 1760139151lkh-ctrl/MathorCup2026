@@ -1,0 +1,38 @@
+{
+  "generated_at_utc": "2026-10-24T08:57:23.696532+00:00",
+  "comparisons": [
+    {
+      "version_one": "FD_0.5m",
+      "version_two": "FD_0.125m",
+      "paired_scenarios": 2048,
+      "classification_agreement_count": 2048,
+      "finite_onset_pairs": 137,
+      "maximum_absolute_onset_difference_hours": 46.81903734885583,
+      "interpretation": "Observed numerical differences under same conditional parameters; neither rigorous error bound nor probability interval"
+    },
+    {
+      "version_one": "FD_0.5m",
+      "version_two": "analytic_erfc",
+      "paired_scenarios": 2048,
+      "classification_agreement_count": 2048,
+      "finite_onset_pairs": 137,
+      "maximum_absolute_onset_difference_hours": 47.59165380740195,
+      "interpretation": "Observed numerical differences under same conditional parameters; neither rigorous error bound nor probability interval"
+    },
+    {
+      "version_one": "FD_0.125m",
+      "version_two": "analytic_erfc",
+      "paired_scenarios": 2048,
+      "classification_agreement_count": 2048,
+      "finite_onset_pairs": 137,
+      "maximum_absolute_onset_difference_hours": 19.072380480207777,
+      "interpretation": "Observed numerical differences under same conditional parameters; neither rigorous error bound nor probability interval"
+    }
+  ],
+  "checks": {
+    "all_versions_same_2048_unique_base_scenarios": true,
+    "all_categories_retained": true
+  },
+  "local_truth_events": 0,
+  "passed": true
+}

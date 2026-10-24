@@ -1,0 +1,25 @@
+{
+  "status": "matched_same_universe",
+  "old_input_path": "track_b/research/q3/round3/results/mechanistic_replay/predictions.csv.gz",
+  "old_input_sha256": "2c1bc843f0c01183dd7290688771b33fb981593b10b40bd6395e2e481606dd1a",
+  "old_model_universe": [
+    "S",
+    "S_H",
+    "S_T",
+    "S_T_H"
+  ],
+  "new_model_universe": [
+    "S",
+    "S_H",
+    "S_T",
+    "S_T_H"
+  ],
+  "new_bundle_version": "q2-r3-mechanism-thermal-refinement-v2",
+  "matched_rows": 60750,
+  "unmatched_rows": 0,
+  "identified_probability_pairs": 36369,
+  "maximum_absolute_probability_difference": 6.438952517094816e-06,
+  "conditional_median_pairs": 4356,
+  "maximum_absolute_conditional_median_difference_hours": 7.105427357601002e-15,
+  "interpretation": "same issue/mechanism/law/space/latency/prior/horizon; risk-set changes and fragile-prior reweighting are retained, no winner ranking"
+}

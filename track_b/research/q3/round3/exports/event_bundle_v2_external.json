@@ -1,0 +1,77 @@
+{
+  "bundle_version": "q3-r3-event-v2-external",
+  "producer_question": "q3",
+  "created_at_utc": "2026-10-24T08:00:08.465433+00:00",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "evaluation_stratum": "external_transfer",
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/exports/event_v2/event_group_registry.csv",
+      "bytes": 13541,
+      "sha256": "58565228476f5d881b8df52d01b7d2d7dc32afa44764b69f0e015c435ba1c5fe",
+      "role": "event_group_registry"
+    },
+    {
+      "path": "track_b/research/q3/round3/exports/event_v2/forecast_availability.csv",
+      "bytes": 118924,
+      "sha256": "421ad0692d0c722b5b6018c7addac268a28261efdd98e00ca5f4ed8c15b20644",
+      "role": "forecast_availability"
+    },
+    {
+      "path": "track_b/research/q3/round3/exports/event_v2/label_mapping.csv",
+      "bytes": 14888,
+      "sha256": "eaf7b754d24c04152243ff0f2f6db4f329357b373215f93b7ae4a5aa0dcbe4bb",
+      "role": "label_mapping"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/observations.csv",
+      "bytes": 17528504,
+      "sha256": "355cfb1c8f44ef9048be8df4fdaaa5396019e0a4e0260665a1c5bb7acc662c3b",
+      "role": "observations"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/site_registry.csv",
+      "bytes": 9080,
+      "sha256": "3414206069197b945d8286d404ff98d17988b00fb16945cef11966d346c80303",
+      "role": "site_registry"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/metadata_audit.json",
+      "bytes": 17440,
+      "sha256": "ea0a6991efa4c9c30be38855da10e46a95d2809a25b6198daa64a03961a172ed",
+      "role": "metadata_audit"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/publisher_checksum_verification.json",
+      "bytes": 4299,
+      "sha256": "a9ff4fc315d2a278d6d908b531ada3e345e739cb8a02624d843c15edaa3487c9",
+      "role": "publisher_checksum_verification"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/survival/stampa_site_registry.csv",
+      "bytes": 630,
+      "sha256": "d7c9d8cdb551d8bfdda4bd179c6f86f01f94765f3168c002c238206ed0b4358c",
+      "role": "stampa_site_registry"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/survival/stampa_observations.csv",
+      "bytes": 109020,
+      "sha256": "8e10eeca979ef1838d238e202503e621914cd546e7d84678bc54887fcf9565fa",
+      "role": "stampa_observations"
+    }
+  ],
+  "local_accepted_training_events": 0,
+  "local_accepted_validation_events": 0,
+  "external_physical_groups": 15,
+  "limitations": [
+    "External terminal-collapse labels do not establish local first-mechanical-initiation truth or transportability",
+    "Veslemannen clock-alignment-sensitive record excluded from main external evaluation; Vaiont conflicting label excluded from canonical",
+    "Multiple sensors stay within their physical event/site group; monitored stable exposure is not general-population sampling",
+    "Source-native naive clocks stay relative; label resolution intervals are not measured physical-onset error distributions",
+    "All historical GFS available_time remain unknown; assumptions are separate replay modes",
+    "Original event v1 bundle and three frozen files preserved byte-for-byte"
+  ]
+}

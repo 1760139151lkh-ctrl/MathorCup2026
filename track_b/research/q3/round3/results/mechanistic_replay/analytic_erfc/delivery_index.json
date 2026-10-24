@@ -1,0 +1,163 @@
+{
+  "experiment_id": "q3r3-full-mechanistic-weather-replay-analytic-erfc-v1",
+  "generated_at_utc": "2026-10-24T09:06:00.901883Z",
+  "upstream_bundle_sha256": "05e8b885198a3011e316472f562ba92480788cb04c6ab9bebfb3e04dbd3660ca",
+  "prior_FD_delivery_index_sha256": "404bba4b1a429d16ac154fd73549fe2e69aff05fd5be6bc54c89a0030e69a4a7",
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/ANALYTIC_REPLAY.md",
+      "bytes": 3821,
+      "sha256": "c90f7ef471acdc6a6c80911a31b2297a3c6da00aa78d1188aa544fa75e40ed16"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/RESULTS.md",
+      "bytes": 4292,
+      "sha256": "c2f2131d158302ce6b3379a15e8a73f85d0cee70636516b5e3b9a8fe41145156"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/analytic_causality_validation.json",
+      "bytes": 3493,
+      "sha256": "fc3ac2e9f293e3f84a87c14f467b0684254e532b050c26183c152bb343eb5763"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/equal_followup_weather_state_contrasts.csv",
+      "bytes": 9806,
+      "sha256": "c4656e4c8c2922bbd481832db6d9861e591c5d23cb17086604248ceab9e53440"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/event_support_diagnostics.csv",
+      "bytes": 3527323,
+      "sha256": "42f79cc305b148607e1d3542495203fccff3841891c5cf2fcab5b4fe81160a01"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/event_support_summary.json",
+      "bytes": 1501,
+      "sha256": "2640e19ad04889197e3b745b16a2f96ab6d4064222fd6d30e167f7f241b92090"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/execution_source/analytic_replay_61dfe484844fed5676f3902733ead10416eef89fd34218b1461dd3bcebd816d9.py.txt",
+      "bytes": 18188,
+      "sha256": "61dfe484844fed5676f3902733ead10416eef89fd34218b1461dd3bcebd816d9"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/execution_source/frozen_fd_helpers_4610d63dc9140ae0c61d011bd768f134c617b008a8501b352444ba8c7edbfa75.py.txt",
+      "bytes": 53738,
+      "sha256": "4610d63dc9140ae0c61d011bd768f134c617b008a8501b352444ba8c7edbfa75"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/execution_source/postprocess_94205d0a172062b5088fc261688e8c68ea3c4939e695cac5f7ee9683b7694ee2.py.txt",
+      "bytes": 8246,
+      "sha256": "94205d0a172062b5088fc261688e8c68ea3c4939e695cac5f7ee9683b7694ee2"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/execution_source/registered_protocol_c90f7ef471acdc6a6c80911a31b2297a3c6da00aa78d1188aa544fa75e40ed16.md",
+      "bytes": 3821,
+      "sha256": "c90f7ef471acdc6a6c80911a31b2297a3c6da00aa78d1188aa544fa75e40ed16"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/execution_source/reproduce_58ce30bad154cb694fc524d0a567513bc2eae315f4eff76a0974d23b4a8a1ef8.py.txt",
+      "bytes": 2326,
+      "sha256": "58ce30bad154cb694fc524d0a567513bc2eae315f4eff76a0974d23b4a8a1ef8"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/history_equivalence.json",
+      "bytes": 733,
+      "sha256": "1fae06293595d58b3c76982dc7f96f71b35e728bdb5262164ab64d77e98c828f"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/history_states_at_issue.parquet",
+      "bytes": 2149161,
+      "sha256": "2db523d6b4d9061f01badd587d2697d85d3cd5ad02ea716b941ceab9c9ead886"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/lineage_and_parameter_validation.json",
+      "bytes": 3700,
+      "sha256": "78ff8cfb598450fd3a7ef67949fe782cc5777d28bd1d268eb2b4f50a5ac6f25f"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/matched_weather_contrasts.csv.gz",
+      "bytes": 723837,
+      "sha256": "d59ad2c5b0cafe500328c421fe72a46a50c0ec19d4e95a60a7286c4c695f6495"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/model_weather_comparison.csv",
+      "bytes": 142303,
+      "sha256": "faa4a73f20cacc31793bbf38df96cfb05e749c8a3336aa8063ad5a99790f9df3"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/paired_v2_analytic_parameter_summary.csv",
+      "bytes": 489,
+      "sha256": "5b8ceba3b10ab6f5411d588484bbbe9ebb542889eef9e173433f5b34bf1a71b3"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/paired_v2_analytic_summary.csv",
+      "bytes": 2772,
+      "sha256": "d69291266ac348f7aed105cf60795f507b7b399766b8b2c304a94e1386adc0b4"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/paired_v2_analytic_weather_predictions.csv.gz",
+      "bytes": 690087,
+      "sha256": "518e9d33646b286b2a0e2ae59cfb20108cc78b24a5bc60b9644708af0c983cae"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/parameter_first_passages.parquet",
+      "bytes": 33794095,
+      "sha256": "fd557599f6fa54ad21bd7a44dd19aa74f5578ce73533db1ad8aeef19de2688d5"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/postprocess.py",
+      "bytes": 8246,
+      "sha256": "94205d0a172062b5088fc261688e8c68ea3c4939e695cac5f7ee9683b7694ee2"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/postprocess_audit.json",
+      "bytes": 1018,
+      "sha256": "88d57ac49baba87c49fd2772573438900650929ae459c0a8ca0450f065c6fefb"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/predictions.csv.gz",
+      "bytes": 887395,
+      "sha256": "a3dc1602e9d4ea7c80173286f5e78e5ef6cc15b2e00a0b0fb5d33f5ff3fa122d"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/prior_sensitivity.csv.gz",
+      "bytes": 77152,
+      "sha256": "38b93fa3e94b6d6128b9c26fe471c92c4f82685a13336c5b785a731a7352f720"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/replay.py",
+      "bytes": 18188,
+      "sha256": "61dfe484844fed5676f3902733ead10416eef89fd34218b1461dd3bcebd816d9"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/reproduce.py",
+      "bytes": 2326,
+      "sha256": "58ce30bad154cb694fc524d0a567513bc2eae315f4eff76a0974d23b4a8a1ef8"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/run_log.csv",
+      "bytes": 466255,
+      "sha256": "e93d8a3648bf6ae18177f76f918ee5975af19adda3264dfd704bd853a79b7a06"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/scenario_ranges.csv.gz",
+      "bytes": 129834,
+      "sha256": "fd60542c9f08a05cb3e80e5ab4d9ffb63257e298e18900c99268350e4a156f94"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/summary.json",
+      "bytes": 23574,
+      "sha256": "8fd6a7dd15840c5f194f80cc9296491121a674656e3cbbd64fcc8b5e66e8bead"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/validation.json",
+      "bytes": 9878,
+      "sha256": "1894eeb0404cf8cb7d2e1e1788dbb5196f6776ba099c350a1cbf51d7ab896713"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/analytic_erfc/version_comparison.json",
+      "bytes": 780,
+      "sha256": "364236654c63553707a2638a75764390ca1baf65b80b16c225020665a5c09e00"
+    }
+  ]
+}

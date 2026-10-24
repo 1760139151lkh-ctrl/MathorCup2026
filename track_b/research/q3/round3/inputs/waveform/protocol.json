@@ -1,0 +1,21 @@
+{
+  "protocol_version": "KKN-forensic-window-v1",
+  "registered_at_utc": "2026-10-24T08:28:40.824205+00:00",
+  "target": "NK.KKN..BHZ",
+  "requested_start_utc": "2026-08-26T02:20:00Z",
+  "requested_end_utc": "2026-08-26T03:10:00Z",
+  "data_selection": "one public station/channel and fixed historic window; prefer actualMiniSEED, officialGeoCSV accepted independent sample payload",
+  "reference_times_only_not_truth": {
+    "problem_reference": "2026-08-26T02:30:00Z",
+    "USGS_us7000tbwb_proxy_origin": "2026-08-26T02:52:10Z",
+    "JMS_mechanical_reconstruction": "2026-08-26T02:51:50Z"
+  },
+  "QC": "parseUTC/sampleperiod/recordflags and actualsamplegaps; no filling; compareStationXML/MUSTANG; retrieval does not prove historicalavailability",
+  "representation": "rawcounts and relativewithinchannel energy; fullresponse correction only if parsedresponse and justified; sensitivity-only scaling not fullresponse",
+  "processing": "baselinecenter using02:22–02:28UTC samplemedian; 4thorder causalButterworthSOS .02–.2/.2–1/1–10Hz bands ifsamplingallows; first120sfiltertransient notusedbaseline; causal1sRMS; nozero-phaseonset inference",
+  "baseline_assumption": "02:22–02:28 chosen beforeviewingwaveform, not independently confirmed quiet/preinitiation",
+  "candidate_detection": "after02:28; log1sRMS zscoreusingbaseline median/MAD1.4826, thresholds4/6/8 each require5consecutive1s, candidateepisodes; no thresholdchosenbylabelalignment",
+  "features": "1sRMS/envelopes and fixedwindow robustnoise, peaks, candidateepisodes, UTCclock and timeerrorsseparate",
+  "adoption": "stationelevatedenergy candidates and sourcephase linkage unknown; no acceptedmechanicalfirstinitiation timestamp or independent event added automatically",
+  "compute": "local original44pkg unless isolatedlockeddecoder needed; no remote compute; no modifyingBfunctions"
+}

@@ -1,0 +1,19 @@
+{
+  "station_id": "NK.KKN..BHZ",
+  "data_role": "retrospective_station_signal_phase_proxy",
+  "candidate_episode_count": 69,
+  "independent_disaster_event_count_from_episodes": null,
+  "source_phase_linkage": "unknown",
+  "accepted_local_first_mechanical_truth_count": 0,
+  "accepted_source_initiation_UTC": null,
+  "historical_first_available_time": null,
+  "clock_error_seconds": null,
+  "propagation_travel_time_seconds": null,
+  "causal_filter_group_delay_seconds": null,
+  "minimum_persistence_bins": 5,
+  "feature_time_semantics": "1s sample_support_end; no historicalavailability claim",
+  "baseline_selection": "fixed before viewing, not independently verified quiet",
+  "reference_line_times_are_ground_truth": false,
+  "all_threshold_combinations_retained": true,
+  "full_STEIM2_interior_independently_decoded": false
+}

@@ -1,0 +1,96 @@
+{
+  "benchmark_version": "analytic-erfc-engineering-v1",
+  "all_passed": true,
+  "step_erfc_max_abs_error_c": 8.881784197001252e-16,
+  "arbitrary_direct_vs_fft_max_abs_error_c": 1.7763568394002505e-15,
+  "future_perturbation_prefix_max_abs_error_c": 8.881784197001252e-16,
+  "surface_left_limit_max_abs_error_c": 1.7763568394002505e-15,
+  "causal_tolerance_c": 1e-11,
+  "future_change_first_input_index": 30,
+  "invariant_state_indices_inclusive": [
+    0,
+    30
+  ],
+  "zero_padding_rule": "nfft=next_power_of_two_at_least(2nt-1)",
+  "finite_mirror_fd_case_matrix": [
+    {
+      "bottom_m": 2.0,
+      "interface_depth_m": 1.0,
+      "alpha_m2_s": 2e-06,
+      "duration_hours": 168,
+      "fd_dt_hours": 1.0,
+      "fd_dz_m": 0.125,
+      "finite_mirror_final_temperature_c": -2.7091478898542563,
+      "fd_final_temperature_c": -2.707347728777363,
+      "abs_fd_minus_mirror_c": 0.0018001610768934029,
+      "finite_minus_semi_kernel": 0.05244391087339491,
+      "evaluation_stratum": "numerical_benchmark"
+    },
+    {
+      "bottom_m": 2.0,
+      "interface_depth_m": 1.0,
+      "alpha_m2_s": 2e-06,
+      "duration_hours": 168,
+      "fd_dt_hours": 0.25,
+      "fd_dz_m": 0.03125,
+      "finite_mirror_final_temperature_c": -2.7091478898542563,
+      "fd_final_temperature_c": -2.7089786480123554,
+      "abs_fd_minus_mirror_c": 0.00016924184190081348,
+      "finite_minus_semi_kernel": 0.05244391087339491,
+      "evaluation_stratum": "numerical_benchmark"
+    },
+    {
+      "bottom_m": 4.0,
+      "interface_depth_m": 3.0,
+      "alpha_m2_s": 2e-06,
+      "duration_hours": 240,
+      "fd_dt_hours": 1.0,
+      "fd_dz_m": 0.125,
+      "finite_mirror_final_temperature_c": -4.545049830252139,
+      "fd_final_temperature_c": -4.544465399143085,
+      "abs_fd_minus_mirror_c": 0.000584431109054151,
+      "finite_minus_semi_kernel": 0.007154372862077685,
+      "evaluation_stratum": "numerical_benchmark"
+    },
+    {
+      "bottom_m": 4.0,
+      "interface_depth_m": 3.0,
+      "alpha_m2_s": 2e-06,
+      "duration_hours": 240,
+      "fd_dt_hours": 0.25,
+      "fd_dz_m": 0.03125,
+      "finite_mirror_final_temperature_c": -4.545049830252139,
+      "fd_final_temperature_c": -4.545017434421581,
+      "abs_fd_minus_mirror_c": 3.239583055769657e-05,
+      "finite_minus_semi_kernel": 0.007154372862077685,
+      "evaluation_stratum": "numerical_benchmark"
+    },
+    {
+      "bottom_m": 40.0,
+      "interface_depth_m": 20.0,
+      "alpha_m2_s": 2.1e-06,
+      "duration_hours": 2088,
+      "fd_dt_hours": 1.0,
+      "fd_dz_m": 0.125,
+      "finite_mirror_final_temperature_c": -4.998513747171175,
+      "fd_final_temperature_c": -4.998514730350882,
+      "abs_fd_minus_mirror_c": 9.831797074255633e-07,
+      "finite_minus_semi_kernel": 1.2833330404282015e-26,
+      "evaluation_stratum": "numerical_benchmark"
+    },
+    {
+      "bottom_m": 40.0,
+      "interface_depth_m": 20.0,
+      "alpha_m2_s": 2.1e-06,
+      "duration_hours": 2088,
+      "fd_dt_hours": 0.25,
+      "fd_dz_m": 0.03125,
+      "finite_mirror_final_temperature_c": -4.998513747171175,
+      "fd_final_temperature_c": -4.998514027243059,
+      "abs_fd_minus_mirror_c": 2.80071883906885e-07,
+      "finite_minus_semi_kernel": 1.2833330404282015e-26,
+      "evaluation_stratum": "numerical_benchmark"
+    }
+  ],
+  "independent_observed_events": 0
+}

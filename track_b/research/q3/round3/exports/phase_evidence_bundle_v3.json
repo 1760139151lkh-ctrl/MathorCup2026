@@ -1,0 +1,100 @@
+{
+  "bundle_version": "q3-r3-phase-evidence-v3",
+  "producer_question": "q3",
+  "created_at_utc": "2026-10-24T08:51:27.647985+00:00",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/WAVEFORM_EVIDENCE.md",
+      "bytes": 8933,
+      "sha256": "8208cd953be7d7d805a5819ff30a08258ecbfb6c93b9c3810c794478cce6fcc0",
+      "role": "waveform_methods_results_limits"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/waveform/protocol.json",
+      "bytes": 1864,
+      "sha256": "a7c18ed933020f620a80ffc4dbe28e8cc7f03cfc3590cfb7526ae677b66ed1c7",
+      "role": "waveform_registered_protocol"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform_sources.json",
+      "bytes": 5906,
+      "sha256": "cf2f49a9aac51dcd94cb01ae5f6d84de9842e9bc6e544d8c1c65acb7e40891e7",
+      "role": "waveform_source_products"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform/phase_review.json",
+      "bytes": 830,
+      "sha256": "1853dd73c584c163db08398d18b1eae28b29740960fffca16a6a225761f106e6",
+      "role": "station_phase_evidence_only"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform/threshold_summary.csv",
+      "bytes": 983,
+      "sha256": "5d1cd6174eba5069ef542561abc734dbf832b59a1b241e0cefe7aeb71456bd77",
+      "role": "all_nine_band_threshold_combinations"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform/candidate_episodes.csv",
+      "bytes": 19936,
+      "sha256": "a27d2ffcfb71c81b8f2ede5268776901b1987e54369a9eab5ed6a7607f5c9175",
+      "role": "all_candidate_episodes_not_independent_events"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform/validation.json",
+      "bytes": 2204,
+      "sha256": "ca07158678b8ad303f350f422b5b81771f7ebd87b95a5b79c48b741bc67de8fa",
+      "role": "waveform_qc"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform/station_inventory.json",
+      "bytes": 1368,
+      "sha256": "86e20f61d7a008058b7411b0e3547856a317bd8dba4b564b0c22a229ac42d165",
+      "role": "station_channel_response_metadata"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform/mustang_summary.json",
+      "bytes": 1174,
+      "sha256": "226bc8432edffd16a45da5ef6d43c3637c678ea60d976d9d0b223570b68cc2b0",
+      "role": "daily_quality_metric_not_first_availability"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform/waveform_bands.png",
+      "bytes": 352838,
+      "sha256": "620125587c25f9014d028d2a521a57ae5703d1ee5e0ea51025f4f97f9edec232",
+      "role": "station_signal_figure"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform/waveform_spectra.png",
+      "bytes": 126657,
+      "sha256": "4b25ab2519315db674e6ec7fa941e0ea27a5dceb56b7b433db41b4f30ea60209",
+      "role": "retrospective_spectrum_figure"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/phase_evidence/phase_review.json",
+      "bytes": 38768,
+      "sha256": "1f1f3a27d3f109c61df40f2166c8223635fcb602a1da0b8d2977e93f4e6f3a5f",
+      "role": "USGS_fixed_origin_pick_arrival_review"
+    },
+    {
+      "path": "track_b/research/q3/round3/sources/us7000tbwb_phase_1792791413040.xml",
+      "bytes": 167890,
+      "sha256": "52bfe7ea30753a245e1ac1afdbfd8c6668207b506abe67ad221f1ce716fe4e7f",
+      "role": "USGS_raw_quakeml"
+    }
+  ],
+  "evaluation_stratum": "retrospective_phase_evidence",
+  "approved_first_mechanical_truth": false,
+  "independent_truth_events_added": 0,
+  "limitations": [
+    "Single station candidate signals are arrivals and phase proxies, not source first mechanical motion",
+    "All nine threshold/frequency combinations retained, including early high-frequency candidates",
+    "Station/source clock, propagation, radiation phase, response and causal filter delays do not define an accepted onset interval",
+    "Product acquisition and MUSTANG metric update time are not historical first availability",
+    "USGS90% origin uncertainty is conditional on catalogue model, not mechanical-phase proxy bias",
+    "Original event v1 and external event v2 are immutable; this bundle proposes evidence only"
+  ]
+}

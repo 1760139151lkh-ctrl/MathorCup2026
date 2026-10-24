@@ -1,0 +1,13 @@
+issue_grid,model_id,horizon_hours,publications,probability_predictions,known_negative_opportunities,probability_scored_negative_opportunities,brier,mean_p_start,false_alarm_count_p_ge_half
+hourly_last30d,B_IV,24,721,721,697,697,0.02288202644,0.06019471654,20
+hourly_last30d,B_IV,48,721,721,673,673,0.0805134086,0.1207740985,90
+hourly_last30d,B_IV,72,721,721,649,649,0.1393971377,0.1679850035,122
+hourly_last30d,B_SS,24,721,721,697,697,0.03739745306,0.1530074333,0
+hourly_last30d,B_SS,48,721,721,673,673,0.06859012734,0.2183328277,0
+hourly_last30d,B_SS,72,721,721,649,649,0.08968154602,0.2563903216,0
+native_full_censored_exposure,B_IV,24,714,647,713,646,0.00225112608,0.02267979617,0
+native_full_censored_exposure,B_IV,48,714,647,712,645,0.008652171054,0.04540185471,4
+native_full_censored_exposure,B_IV,72,714,647,711,644,0.01718585684,0.06639719378,8
+native_full_censored_exposure,B_SS,24,714,707,713,706,0.1399955317,0.2615474717,96
+native_full_censored_exposure,B_SS,48,714,707,712,705,0.1777226441,0.3254204606,130
+native_full_censored_exposure,B_SS,72,714,707,711,704,0.1977941285,0.3586484486,148

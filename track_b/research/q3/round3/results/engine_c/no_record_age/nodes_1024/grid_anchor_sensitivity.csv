@@ -1,0 +1,13 @@
+model_id,horizon_hours,brier_512,conditional_coverage_512,conditional_overlap_512,brier_1024,conditional_coverage_1024,conditional_overlap_1024,brier_1024_minus_512,conditional_coverage_1024_minus_512,conditional_overlap_1024_minus_512
+linear_dynamic_hazard_no_record_age_crossfit_calibrated,24.0,1.059707090098812e-05,,,1.0435603755547531e-05,,,-1.614671454405882e-07,,
+linear_dynamic_hazard_no_record_age_crossfit_calibrated,48.0,0.5891368614177626,0.0,1.0,0.5892162673419433,0.0,1.0,7.940592418076431e-05,0.0,0.0
+linear_dynamic_hazard_no_record_age_crossfit_calibrated,72.0,0.5844684918922306,0.0,1.0,0.5845996771964618,0.0,1.0,0.00013118530423117392,0.0,0.0
+linear_dynamic_hazard_no_record_age_raw,24.0,2.721800180104954e-05,,,2.7383458185941785e-05,,,1.6545638489224557e-07,,
+linear_dynamic_hazard_no_record_age_raw,48.0,0.583941999604034,0.0,1.0,0.58381223482135,0.0,1.0,-0.00012976478268400538,0.0,0.0
+linear_dynamic_hazard_no_record_age_raw,72.0,0.5770919800739942,0.0,1.0,0.5769341094890048,0.0,1.0,-0.00015787058498939466,0.0,0.0
+nonlinear_rbf_hazard_no_record_age_crossfit_calibrated,24.0,0.0035114387357764,,,0.0032544097884956,,,-0.00025702894728079967,,
+nonlinear_rbf_hazard_no_record_age_crossfit_calibrated,48.0,0.419151448785434,0.0,1.0,0.4215141459180567,0.0,1.0,0.0023626971326227153,0.0,0.0
+nonlinear_rbf_hazard_no_record_age_crossfit_calibrated,72.0,0.3577359966301413,0.0,1.0,0.3595634467408238,0.0,1.0,0.001827450110682527,0.0,0.0
+nonlinear_rbf_hazard_no_record_age_raw,24.0,0.0059075561272728,,,0.0054806431491772,,,-0.00042691297809559995,,
+nonlinear_rbf_hazard_no_record_age_raw,48.0,0.3739165073216102,0.0,1.0,0.376875950404712,0.0,1.0,0.0029594430831018093,0.0,0.0
+nonlinear_rbf_hazard_no_record_age_raw,72.0,0.3077598726518518,0.0,1.0,0.3099070680233926,0.0,1.0,0.0021471953715407888,0.0,0.0

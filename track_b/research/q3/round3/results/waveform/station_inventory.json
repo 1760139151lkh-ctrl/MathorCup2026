@@ -1,0 +1,39 @@
+{
+  "station_id": "NK.KKN..BHZ",
+  "channel_attributes": {
+    "code": "BHZ",
+    "locationCode": "",
+    "startDate": "2016-05-22T00:00:00.0000",
+    "restrictedStatus": "open"
+  },
+  "station_attributes": {
+    "code": "KKN",
+    "startDate": "2016-05-22T00:00:00.0000",
+    "restrictedStatus": "open",
+    "{http://www.fdsn.org/xml/station/1/iris}alternateNetworkCodes": "_REALTIME,.UNRESTRICTED"
+  },
+  "network_attributes": {
+    "code": "NK",
+    "startDate": "1978-01-01T00:00:00.0000",
+    "restrictedStatus": "open"
+  },
+  "latitude": 27.8,
+  "longitude": 85.279,
+  "elevation_m": 2042.0,
+  "depth_m": 0.0,
+  "azimuth_degrees": 0.0,
+  "dip_degrees": -90.0,
+  "sample_rate_hz": 50.0,
+  "sensor": "Guralp CMG 3T",
+  "instrument_sensitivity": 636672000.0,
+  "sensitivity_frequency_hz": 0.05,
+  "input_units": "m/s",
+  "output_units": "counts",
+  "response_stage_count": 15,
+  "response_removed": false,
+  "signal_units_used": "rawcounts; no sensitivity-only scaling misrepresented as full response correction",
+  "absolute_UTC_accuracy_seconds": null,
+  "absolute_UTC_accuracy_reason": "archive stamps and reported timing quality; no independent clock calibration in this packet",
+  "distance_to_advisor_candidate_source_km": 58.38,
+  "distance_provenance": "trusted main-advisor channel/source check, not recomputed geometry; not a verified radiation origin"
+}

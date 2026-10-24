@@ -1,0 +1,89 @@
+{
+  "reviewed_at_utc": "2026-10-24T08:59:23.348639+00:00",
+  "reviewer": "Q3 root Codex; actual view_image returned final pixels",
+  "figures": [
+    {
+      "path": "track_b/research/q3/round3/figures/weather_forecast_trajectories.png",
+      "sha256": "fa40f774077bc44da22023adf6a8c534f635215c921928cb0dab25dd622abe79",
+      "bytes": 180341,
+      "actually_opened": true,
+      "review_result": "readable; legends do not cover comparison points after repair; empirical and conditional roles distinguished"
+    },
+    {
+      "path": "track_b/research/q3/round3/figures/mechanism_first_passage_status.png",
+      "sha256": "bbd081da49e45a3d9ebc49e200ddd3e2cf0e17537031d147bf225a5180ffdb4e",
+      "bytes": 43527,
+      "actually_opened": true,
+      "review_result": "readable; legends do not cover comparison points after repair; empirical and conditional roles distinguished"
+    },
+    {
+      "path": "track_b/research/q3/round3/figures/paired_external_scores.png",
+      "sha256": "e2759b4e6ac8d5a2b61b9434b5007d42aff2d547287f7ac5d071b10b8986db5f",
+      "bytes": 79312,
+      "actually_opened": true,
+      "review_result": "readable; legends do not cover comparison points after repair; empirical and conditional roles distinguished"
+    },
+    {
+      "path": "track_b/research/q3/round3/figures/interval_coverage_bounds.png",
+      "sha256": "ef11e85883a29f45e7c87e221ea3abea23afc7f465ff5618be1f06ae284e6848",
+      "bytes": 75594,
+      "actually_opened": true,
+      "review_result": "readable; legends do not cover comparison points after repair; empirical and conditional roles distinguished"
+    },
+    {
+      "path": "track_b/research/q3/round3/figures/first_passage_numerical_comparison.png",
+      "sha256": "258a9319f67567eaba5a60bf4c45d060e7d584c746a8448b186ce2b002cf339d",
+      "bytes": 43781,
+      "actually_opened": true,
+      "review_result": "readable; legends do not cover comparison points after repair; empirical and conditional roles distinguished"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_b/rolling_comparison.png",
+      "sha256": "ac8e9ead6d13b379364166be51bf5c6ae5d6795dc151fff08c48d8eee631dbc9",
+      "bytes": 359612,
+      "actually_opened": true,
+      "review_result": "readable; legends do not cover comparison points after repair; empirical and conditional roles distinguished"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_b/event_probabilities.png",
+      "sha256": "e2906b0f5f26daefce9e3e02a10f31190b7f093b49849ea0a369f837d39d3b18",
+      "bytes": 83990,
+      "actually_opened": true,
+      "review_result": "readable; legends do not cover comparison points after repair; empirical and conditional roles distinguished"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/comparison.png",
+      "sha256": "4c80ba390f7c1c1d5ec8cd5806c1549101075fd3c92a737cd7f4e449345b70ce",
+      "bytes": 111673,
+      "actually_opened": true,
+      "review_result": "readable; legends do not cover comparison points after repair; empirical and conditional roles distinguished"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform/waveform_bands.png",
+      "sha256": "620125587c25f9014d028d2a521a57ae5703d1ee5e0ea51025f4f97f9edec232",
+      "bytes": 352838,
+      "actually_opened": true,
+      "review_result": "readable; legends do not cover comparison points after repair; empirical and conditional roles distinguished"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/waveform/waveform_spectra.png",
+      "sha256": "4b25ab2519315db674e6ec7fa941e0ea27a5dceb56b7b433db41b4f30ea60209",
+      "bytes": 126657,
+      "actually_opened": true,
+      "review_result": "readable; legends do not cover comparison points after repair; empirical and conditional roles distinguished"
+    },
+    {
+      "path": "track_b/research/q3/round3/figures/weather_state_contrasts.png",
+      "sha256": "49b4a4e3e060f3b3afa4d63728f879e0fc50b08efe49cea05c057334a5043288",
+      "bytes": 99356,
+      "actually_opened": true,
+      "review_result": "Three mechanism panels readable; all96 matched summaries shown, medians explicit; conditional state differences not empirical events",
+      "reviewed_at_utc": "2026-10-24T09:14:06.627046+00:00"
+    }
+  ],
+  "supplemental_worker_reviews": [
+    "results/engine_c/figure_review.json",
+    "results/waveform/figure_review.json"
+  ],
+  "scope": "Legibility, labels, legends and explicit uncertainty/phase boundaries; scientific adoption pending"
+}

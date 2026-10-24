@@ -1,0 +1,273 @@
+{
+  "bundle_version": "q3r3-mechanistic-replay-fd-v2-delivery-v1",
+  "producer_question": "q3",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "q2_v1_bundle_sha256": "65758b85d934267e883616eb2a56924e5b52d818e10b6f3eaa08bf934e54ce3a",
+    "q2_v2_bundle_sha256": "12eb0b329acede54face734b145cf33a8bfc5d329f6231b5a110c52ddec618c9",
+    "weather_summary_sha256": "68702bfad6afe88fe485552ccd611ba5cdfbef85408ef227aec4a847ff011e6c"
+  },
+  "evaluation_stratum": "conditional_scenario",
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/scripts/mechanistic_replay.py",
+      "bytes": 53738,
+      "sha256": "4610d63dc9140ae0c61d011bd768f134c617b008a8501b352444ba8c7edbfa75",
+      "role": "reproduction_code_or_methods"
+    },
+    {
+      "path": "track_b/research/q3/round3/MECHANISTIC_REPLAY.md",
+      "bytes": 11549,
+      "sha256": "590909e64d4062bb3c8fcc125cc03393c840eb5c6842463b47d5cb1039e508b4",
+      "role": "reproduction_code_or_methods"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/causal_metadata_redaction.json",
+      "bytes": 1317,
+      "sha256": "e78d479572eeb3b7cf859fb64754543058eb3cb463f66df65cee59ee75f50db4",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/event_support_diagnostics.csv",
+      "bytes": 3347323,
+      "sha256": "a51599b82e0737027ba51623e01623878acbf58bea5d072152969be837a3f81a",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/event_support_summary.json",
+      "bytes": 1458,
+      "sha256": "b8c064d5120f612f85c554e0b26ff5135d1b28a2ae973c4dab8046d42ada9caf",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/execution_source/mechanistic_replay.py.txt",
+      "bytes": 36866,
+      "sha256": "fc88d072765b859888e3ed6141ebfc170dcda78300bc16d855fbb5dea69daa55",
+      "role": "executed_source_or_registration"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/execution_source/metadata_redaction_2a2d0370054c85801ced570e5b743e00927ae5c0c05769587f33d5ddc13c4ddf.py.txt",
+      "bytes": 45373,
+      "sha256": "2a2d0370054c85801ced570e5b743e00927ae5c0c05769587f33d5ddc13c4ddf",
+      "role": "executed_source_or_registration"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/execution_source/metadata_redaction_abf39d2506401aa4caa83663225893c3106679d2c0c13c20a70350c8eaabc6cb.py.txt",
+      "bytes": 44757,
+      "sha256": "abf39d2506401aa4caa83663225893c3106679d2c0c13c20a70350c8eaabc6cb",
+      "role": "executed_source_or_registration"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/execution_source/registered_protocol.md",
+      "bytes": 5714,
+      "sha256": "e630184c72b08d87b36644d7a7701287d9e1a822b63957e7415ab4b3c81be4b6",
+      "role": "executed_source_or_registration"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/history_equivalence.json",
+      "bytes": 735,
+      "sha256": "c38cbd13b62e794ce63b8f43bc7e2aeca1c1e9be484ae7495ac909d6eda1200c",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/history_states_at_issue.parquet",
+      "bytes": 2125470,
+      "sha256": "520bd77b04df62481a6fe75a409563c3dd04ca38a402685cac2504d116772dea",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/matched_weather_contrasts.csv.gz",
+      "bytes": 670149,
+      "sha256": "fadadbf08ff0f0831ca11dca88afac02a9d127f885776b8aa9c72174f3f1210e",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/model_weather_comparison.csv",
+      "bytes": 135156,
+      "sha256": "46f09e768dc86a1de935336c7af2cfe8979469d0b2515a61b238befcf53f45f9",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/numerical_limits_received.json",
+      "bytes": 4080,
+      "sha256": "95e56e3f8b4c435ad8d7ab381ca0a34c3d07edf8e70f35fe908c6432eae94c68",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/parameter_first_passages.parquet",
+      "bytes": 5944892,
+      "sha256": "faeb9e9fecc97377c304a250b2924e3f71b40a719348bf30837910b5b4fe9037",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/postprocess_audit.json",
+      "bytes": 1004,
+      "sha256": "2194eae68f041a2498b5419d7e28d9313ce8d8bbd6ab4a0deb3cb55513178687",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/predictions.csv.gz",
+      "bytes": 822412,
+      "sha256": "2c1bc843f0c01183dd7290688771b33fb981593b10b40bd6395e2e481606dd1a",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/prior_sensitivity.csv.gz",
+      "bytes": 72668,
+      "sha256": "df9898dda72f33ff370a76a17e0dc69d4dd0544141e9c837442464f786dc1206",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/run_log.csv",
+      "bytes": 390882,
+      "sha256": "8baa237265b6b459818e7389fbc75ae4975ccde7674b7d979b96e06d928e3d13",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/scenario_ranges.csv.gz",
+      "bytes": 121452,
+      "sha256": "a26f394c5e6bf11d4b3bcc25a92e6cba4f710a70c602b99fde12cbf8b8e0526f",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/summary.json",
+      "bytes": 9142,
+      "sha256": "2f1a7abd402cbaf320fcb27c1aa5e98393917768a23782522fb68fb52804ed55",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/causal_metadata_redaction.json",
+      "bytes": 1326,
+      "sha256": "d91ca6dc205c69f6703bb2cec5c8b07781f80c4dfb5bf3e84b657a0d035dfb44",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/event_support_diagnostics.csv",
+      "bytes": 3581323,
+      "sha256": "642f3a6f762cfb871bdbdbbb0fd0a9c1777a8cff5078437a47fe5fb9c227fd84",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/event_support_summary.json",
+      "bytes": 1467,
+      "sha256": "825e2a3f74ebb8d175911153508ec762052ab2d9cf98987ace1dbf52a010991d",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/execution_source/mechanistic_replay_abf39d2506401aa4caa83663225893c3106679d2c0c13c20a70350c8eaabc6cb.py.txt",
+      "bytes": 44757,
+      "sha256": "abf39d2506401aa4caa83663225893c3106679d2c0c13c20a70350c8eaabc6cb",
+      "role": "executed_source_or_registration"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/execution_source/metadata_redaction_b6346d63b76ce4b758993b6caeff0cd947a7be6fc3483b6939584cfe09c0eebc.py.txt",
+      "bytes": 50687,
+      "sha256": "b6346d63b76ce4b758993b6caeff0cd947a7be6fc3483b6939584cfe09c0eebc",
+      "role": "executed_source_or_registration"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/execution_source/registered_protocol_4fcf4d354e88b901f54c3ad4842eea68379648637fe39e374f250a9199270a55.md",
+      "bytes": 7876,
+      "sha256": "4fcf4d354e88b901f54c3ad4842eea68379648637fe39e374f250a9199270a55",
+      "role": "executed_source_or_registration"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/history_equivalence.json",
+      "bytes": 735,
+      "sha256": "71ae0af0b9bb96488dfbc10645f33994003050c3a15c4d898c037d984b8ff676",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/history_states_at_issue.parquet",
+      "bytes": 2165504,
+      "sha256": "74dce2651959aba073604985b5440322eb3726bf7eb4732f8a18476700f13dee",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/matched_weather_contrasts.csv.gz",
+      "bytes": 729781,
+      "sha256": "598bb0d548970b7273aa5f5571ad45d5bac4d867a8d6c4cf1ddad744652515ba",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/model_weather_comparison.csv",
+      "bytes": 144453,
+      "sha256": "7c00bffc15b24c53fea53d354013b58892da9d3c8f98f3256f46d0c8ae256c25",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/paired_v1_v2_weather_predictions.csv.gz",
+      "bytes": 426394,
+      "sha256": "da8920d04c75c2383861aff3804921175728edfb55dc018d2c43a2a95085703b",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/parameter_first_passages.parquet",
+      "bytes": 6275946,
+      "sha256": "e02be7bc28cee7ab1226ffda765206bf3b14f7edef2a080801063aecbd3f3c2f",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/postprocess_audit.json",
+      "bytes": 1007,
+      "sha256": "96d90ab90274afc918e7d19b5931fbad2686f491cc615ee54231a3db2c603ec3",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/predictions.csv.gz",
+      "bytes": 894213,
+      "sha256": "0d167923b81c336f351ed93c8a9c57ca015b062883f7e231495686ee6bfcbd3f",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/prior_sensitivity.csv.gz",
+      "bytes": 78283,
+      "sha256": "a02da2271b9438757c5dfae34d230818885775f9eea62ada2a7dfb1e57ce12d9",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/run_log.csv",
+      "bytes": 472255,
+      "sha256": "63af55ea41bb2c78c495ee9d3558f53d13e5117fad6d2e562c206daa67d05e84",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/scenario_ranges.csv.gz",
+      "bytes": 133049,
+      "sha256": "cd07b80fa8a972f87a66425ed9e6cbd850387f1f7471de897aae7eedd2047a21",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/summary.json",
+      "bytes": 12841,
+      "sha256": "532274245f30aca06d605f5db3448b270b9f4d4a0d6f22ed5f6ec090d09c9e90",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/validation.json",
+      "bytes": 3250,
+      "sha256": "d3b04b0aa319d7abc534bfb0ee38e21e80aeb7e0eef82281ea7efb9d0e8c18cd",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/v2/version_comparison.json",
+      "bytes": 869,
+      "sha256": "8906b6d7997978b94220fd2e26f6463eb65eb34e0b4a1c0e0e71d8e31e16441b",
+      "role": "FD_replay_component_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/mechanistic_replay/validation.json",
+      "bytes": 3241,
+      "sha256": "086da9348bddeb3a7e8d6586a8e8ae846a09e942680824d58e4cade1554cafd9",
+      "role": "FD_replay_component_result"
+    }
+  ],
+  "limitations": [
+    "Independent local observed validation events=0; no empirical coverage.",
+    "Only structural physical design p0149 supplies nonzero event mass; zero-width conditional discrete quantiles are not empirical precision.",
+    "Historical availability unknown; future GFS latency assumed, historical state retrospective.",
+    "FD125 vs0625 full2048 target fails10; max finite onset difference18.943779h is neither strict error bound nor confidence interval.",
+    "v1/v2 retained as FD comparisons; analytic Q2 provider not yet received or executed."
+  ],
+  "self_entry_excluded": true
+}

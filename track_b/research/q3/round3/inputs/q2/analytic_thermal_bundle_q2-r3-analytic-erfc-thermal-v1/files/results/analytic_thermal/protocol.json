@@ -1,0 +1,39 @@
+{
+  "experiment_id": "q2r3-analytic-thermal-challenger-v1",
+  "parameter_points": 256,
+  "mechanism_groups": [
+    "S",
+    "S_T",
+    "S_H",
+    "S_T_H"
+  ],
+  "law_policies": [
+    "linear_extension",
+    "thawed_rock_contact"
+  ],
+  "outcomes_expected": 2048,
+  "fixed_representatives": [
+    0,
+    36,
+    72,
+    109,
+    145,
+    182,
+    218,
+    255
+  ],
+  "boundary": "B[i]=min(air[i]+offset,0) on [i,i+1); state0=Tinit; positive source depths0.5..20m",
+  "increments": "dB0=B0-Tinit; dBj=Bj-Bj-1; K0=0, Kk=erfc(z/(2sqrt(alpha*k*3600)))",
+  "convolution": "linear causal via rfft/irfft with nfft>=2nt-1, keep firstnt outputs",
+  "mechanical_engine_sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+  "state_dt_hours": 1.0,
+  "comparisons": [
+    "v2(0.125m) all2048 summaries and onset",
+    "full0.0625m FD all2048 trajectories and onset",
+    "direct analytical/causal and finite-mirror benchmarks"
+  ],
+  "no_model_or_parameter_tuning_to_event_time": true,
+  "design_is_probability_prior": false,
+  "independent_observed_events": 0,
+  "registration_scope": "Protocol saved before full256 analytical/FD computation. Implementation-only finite mirror/FD cases were preflighted before this file; they are engineering checks, not independent scientific validation."
+}

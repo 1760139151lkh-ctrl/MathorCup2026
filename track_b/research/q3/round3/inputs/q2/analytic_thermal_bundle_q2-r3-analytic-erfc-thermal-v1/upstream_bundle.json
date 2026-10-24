@@ -1,0 +1,145 @@
+{
+  "bundle_version": "q2-r3-analytic-erfc-thermal-v1",
+  "producer_question": "q2",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "evaluation_stratum": "conditional_scenario",
+  "files": [
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/protocol.json",
+      "bytes": 1304,
+      "sha256": "1b775e7a942d9cbb0709d4a45f914fa3bba88e76229a466858911d2791bf53fd",
+      "role": "protocol.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/config.json",
+      "bytes": 4478,
+      "sha256": "539c6e857d5d07e2cab7a70346ec02d2aad13eb47ee546df17f797850446177d",
+      "role": "config.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/forcing_hourly.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+      "role": "forcing_hourly.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/numerical_benchmarks.json",
+      "bytes": 3328,
+      "sha256": "309fbe00d9afdb948f3b08b6253210bf52cba6378d089bf4e38bfe9aa0f8141a",
+      "role": "numerical_benchmarks.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/finite_mirror_fd_cases.csv",
+      "bytes": 993,
+      "sha256": "909a5b18af508fecda3129d4f23d414bab0ca02d5d6c4a9fd10326bbae11f502",
+      "role": "finite_mirror_fd_cases.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/reflection_bounds.csv",
+      "bytes": 34816,
+      "sha256": "961f6fea14872b3d0c7cfa43f03f687a7b14750182eb94d5d04af53161b7a5c2",
+      "role": "reflection_bounds.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/scenario_outcomes.csv",
+      "bytes": 909276,
+      "sha256": "847143dc8ad8c495ea6e7747fbbcdb187ef465b9c7879fecb4717135372dc30c",
+      "role": "scenario_outcomes.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/parameter_ensemble.csv",
+      "bytes": 1171832,
+      "sha256": "8393874e341789316d2862435f8498ed8c9e01c4e3f674dc2b46d9bcadce6203",
+      "role": "parameter_ensemble.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/state_trajectories.parquet",
+      "bytes": 3188841,
+      "sha256": "6592967eafdbdde9cce6c0547943abf7d15190c8ce9aac70f085b969ccf6e1bb",
+      "role": "state_trajectories.parquet"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "bytes": 1614,
+      "sha256": "add46d7873516e8b91db034308fd46b4eef08f912c9f442ce161b79b3a744921",
+      "role": "model_comparison.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/paired_v2_fd0625.csv",
+      "bytes": 576099,
+      "sha256": "a9a620bd0566603b22205c30babe8cbb5736585f6a845bd01576431b9830aac9",
+      "role": "paired_v2_fd0625.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/diagnostic_traces.csv",
+      "bytes": 1818058,
+      "sha256": "2f8fefb7599d2b42a2a17a7f7f0b531b29fa6cbed9509ffbf5b4f8e29791b9f5",
+      "role": "diagnostic_traces.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv",
+      "bytes": 26199,
+      "sha256": "cc1df1e87bfb6a8ab0a0fa2086de5a3ebc4d11a39bec37101369c763afd77187",
+      "role": "joint_sensitivity.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/interaction.csv",
+      "bytes": 8384,
+      "sha256": "308494ed4c083c8759d97181124f282c83ee4183470f875c3220fda6bca921c1",
+      "role": "interaction.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/mechanism_contract.json",
+      "bytes": 4149,
+      "sha256": "44d3966717bdddc04e31ff8e4089bb8a7321a6a33e850371e3cb4c15cd4d1e4d",
+      "role": "mechanism_contract.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "bytes": 3610,
+      "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080",
+      "role": "summary.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "bytes": 7560,
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607",
+      "role": "callable_analytic_thermal_wrapper"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/run_analytic_thermal.py",
+      "bytes": 34185,
+      "sha256": "8cb54a4a6db606994c18d9e82ab9dce8269e77b1e5445287f9f5d865f3e3e1d6",
+      "role": "analytic_reproduction_script"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "role": "frozen_mechanical_engine"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/run_experiments.py",
+      "bytes": 21983,
+      "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1",
+      "role": "frozen_parameter_design_source"
+    },
+    {
+      "path": "track_b/research/q2/round3/ANALYTIC_THERMAL.md",
+      "bytes": 4168,
+      "sha256": "0902aface2105015fb278a2590593d010cedfd9e2d025e34813b1025a182877a",
+      "role": "methods_results_limits"
+    }
+  ],
+  "limitations": [
+    "All source models conditional; no local event calibration, probabilities or verified initiation time.",
+    "Analytical solution is for linear half-space thermal conduction with the specified hourly step boundary only.",
+    "Finite40m Neumann replacement bounded by actual boundary total variation; thermal advection, enthalpy/melting and unmeasured boundary physics remain excluded.",
+    "Hourly water/damage/strength coupling retains time-discretization uncertainty; analytic thermal does not solve the whole coupled system exactly.",
+    "Initial instability is left-censored; no-start/missing retained. base_scenario_id maps prior mechanism/release versions without rewriting them.",
+    "Mamot transfer/thaw policy/source geometry remain scientific assumptions requiring team review."
+  ]
+}

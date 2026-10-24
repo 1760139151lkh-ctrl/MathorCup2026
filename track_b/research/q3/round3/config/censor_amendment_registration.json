@@ -1,0 +1,11 @@
+{
+  "registered_at_utc": "2026-10-24T07:37:07.983458+00:00",
+  "path": "track_b/research/q3/round3/EXPERIMENT_AMENDMENT_CENSOR.md",
+  "sha256": "e32a5da8c5e63b463b48426df3743b54766937cd012974dab2e870e9448a37f4",
+  "before_engine_c_compute": true,
+  "administrative_followup_fractions": [
+    0.5,
+    0.75
+  ],
+  "evaluation_stratum": "conditional_scenario"
+}

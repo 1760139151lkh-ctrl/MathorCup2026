@@ -1,0 +1,5 @@
+mechanism_id,rows,changed_crossing_status,changed_point_nullness,maximum_point_time_difference_hours,maximum_initial_margin_difference,maximum_final_margin_difference,maximum_thermal_change_difference_c,maximum_pressure_difference_kpa
+S,384000,0,0,0.0,0.0,0.0,0.0,0.0
+S_H,384000,0,0,0.0,0.0,0.0,0.0,0.0
+S_T,384000,0,0,0.0,0.06532020379228343,0.06532020379228343,0.09102270806643986,0.0
+S_T_H,384000,0,0,0.0,0.06531394320044856,0.06531394320044856,0.09102270806643986,0.0015220847132342286
