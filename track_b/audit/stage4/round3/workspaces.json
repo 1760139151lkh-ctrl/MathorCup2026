@@ -84,15 +84,15 @@
         "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial",
         "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official"
       ],
-      "source_commit": "eb3dc6b2ff4c67d8968b3fabce2aaddb15a9edb3",
-      "integration_commit": "980258d04780dfc2dee1c675ccdd8d8c5c7ded22",
+      "source_commit": "0d5326d6e3428df4d714d8101c41c7c925eca0ef",
+      "integration_commit": "036b0dc5031e45c9110b2ef577002b43801289e8",
       "output_files_verified": 511,
       "final_output_manifest_sha256": "be979b3449118d8332ca7ff07c52c8c503889650246be8c97ac4d2f8565ee5b9",
       "increment_manifests": [
         "track_b/research/q3/round3/results/applicability_sensitivity/INPUT_MANIFEST.json",
         "track_b/research/q3/round3/results/applicability_sensitivity/OUTPUT_MANIFEST.json",
-        "track_b/research/q3/round3/results/followup_v2/input_manifest.json",
-        "track_b/research/q3/round3/results/followup_v2/output_manifest.json"
+        "track_b/research/q3/round3/results/followup_v2/output_manifest.json",
+        "track_b/research/q3/round3/results/followup_v3/input_manifest.json"
       ]
     },
     {

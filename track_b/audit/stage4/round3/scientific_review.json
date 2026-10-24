@@ -1,6 +1,6 @@
 {
   "round": "round3",
-  "updated_utc": "2026-10-24T10:26:17.873778+00:00",
+  "updated_utc": "2026-10-24T10:33:04.516624+00:00",
   "status": "q1_q2_q3_core_integrated_q4_and_coupling_pending",
   "reviewer": "main advisor and independent AI read-only reviewers; not human scientific adoption",
   "q1": {
@@ -33,7 +33,37 @@
       "constitutive branch discontinuity",
       "material/rate/geometry/boundary transfer",
       "local identifiability and no validation events"
-    ]
+    ],
+    "lab_strength_addendum": {
+      "status": "independently_reviewed_and_integrated",
+      "source_commit": "604ce1be4d0f09cd9d18f3c1556993ddf066981d",
+      "integration_commit": "02a58df00119265e6e29b3d977fa834f93a393f3",
+      "experiments": 141,
+      "derived_summary_rows_separate": 14,
+      "physical_specimen_uid_known": false,
+      "raw_T_stress_strength_cells_verified": 705,
+      "candidate_fits": 32,
+      "group_holdout_folds": 576,
+      "bootstrap_attempts": 32000,
+      "bootstrap_usable": 31994,
+      "increment_output_files_verified": 113,
+      "increment_all_files_source_main_equal": 116,
+      "original_core_outputs_unchanged": 220,
+      "original_bundles_unchanged": 7,
+      "nominal800_class_records": 20,
+      "nominal800_actual_normal_stress_kpa": [
+        808.8865,
+        868.6325
+      ],
+      "adoption": "external warm high-stress constitutive challenger retained; no automatic local engine or probability replacement",
+      "limitations": [
+        "nominal versus area-corrected measured stress differ",
+        "spec1–spec8 labels do not prove8 independent rock pairs",
+        "published Eq6 score descriptive; author screened two-stage pipeline not independent CV",
+        "field effective-stress, material and strain-rate transfer unvalidated",
+        "complex stress polynomials and hinge unstable in held-out800 class"
+      ]
+    }
   },
   "q3_preliminary": {
     "a_gap_test": "missing-hour trajectory returns unknown, P(no-start)=null, event mass bounds[0,1]",
@@ -79,7 +109,7 @@
         400
       ],
       "reason": "effective stress exceeds law domain, T within domain; two policies identical here",
-      "diagnostic_status": "independent_increment_review_passed_pending_source_integration",
+      "diagnostic_status": "independently_reviewed_increment_integrated",
       "policies": 5,
       "rows": 303750,
       "fixed_history_rows": 60750,

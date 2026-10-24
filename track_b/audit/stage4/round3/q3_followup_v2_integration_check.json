@@ -1,0 +1,41 @@
+{
+  "generated_utc": "2026-10-24T10:32:21.841743+00:00",
+  "source_commit": "0d5326d6e3428df4d714d8101c41c7c925eca0ef",
+  "integration_commit": "036b0dc5031e45c9110b2ef577002b43801289e8",
+  "scope": "domain and mapped-v2 scientific increment plus portable metadata; no physical rerun",
+  "manifests": [
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/INPUT_MANIFEST.json",
+      "file_count": 12,
+      "referenced_bytes": 37241205,
+      "sha256": "90e31f97eae5f2d668c71f7401500c0b16ca5eebf09e3509ca5777ab6644a8bb",
+      "all_entries_match": true
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/OUTPUT_MANIFEST.json",
+      "file_count": 44,
+      "referenced_bytes": 16465202,
+      "sha256": "8814c76aee4d6db85d35c80050d9f4f9798fac1838d927deac440bcd9b4e55d3",
+      "all_entries_match": true
+    },
+    {
+      "path": "track_b/research/q3/round3/results/followup_v2/output_manifest.json",
+      "file_count": 82,
+      "referenced_bytes": 7867404,
+      "sha256": "300e93c840fda449ef541b50aeac45c949288d880312c3fe201e64d7ef890837",
+      "all_entries_match": true
+    }
+  ],
+  "canonical_input_check": {
+    "path": "track_b/audit/stage4/round3/q3_followup_canonical_inputs.json",
+    "file_count": 58,
+    "referenced_bytes": 47438551,
+    "sha256": "42c72948e188529fc19edc42375b58c1524fa4faa6bfef0055e3073e8b2b8919",
+    "all_entries_match": true
+  },
+  "producer_v3_references_verified": 62,
+  "identical_repeated_references": 4,
+  "receipt_payload_files_verified": 130,
+  "old_exports_unchanged": 10,
+  "passed": true
+}
