@@ -1,10 +1,12 @@
 # 当前状态
 
-更新：2026-10-24（America/New_York）。主参谋分支：`codex/track-b-stage1-2`。阶段4四窗首轮已完成并集成，联合技术审查通过；正式科学路线待队员确认。
+更新：2026-10-24（America/New_York）。主参谋分支：`codex/track-b-stage1-2`。阶段4首轮完成，用户已确认实施第二轮有界补证与背景分析，当前在准备共同基线和轮次隔离。
 
 ## 目标与已有授权
 
 用户选择赛道B，指定本窗口为主参谋。阶段1—3已交付；用户已要求实施阶段4完整计划：四个可见分支聊天、独立worktree、首轮方案论证与小实验、主参谋统一派发/读取/交接。先保存本地共同基线，不推送，不按具体日历排程。
+
+第二轮明确授权：复用四窗/工作树/环境，建立r2分支，只写各问round2目录；补证与描述性背景并行；Q3以源区首次机械启动为研究主对象，具体真值仍待核验；Q4先交搜索AOI，经主参谋审查分发Q2；只查指定事件/预报与一组SAR，不扩扫、不推送。
 
 ## 当前可用结果
 
@@ -22,6 +24,7 @@
 
 ## 当前入口
 
+R2. [第二轮工作流](docs/16_stage4_round2_workflow.md)、[本轮工作窗](audit/stage4/round2/workspaces.json)；首轮资料保持历史版本。
 0. [阶段4首轮审查与下一步](docs/15_stage4_round1_review.md)、[工作流](docs/14_stage4_workflow.md)、[四窗实际登记](audit/stage4/workspaces.json)、[集成检查](audit/stage4/integration_checks.json)
 1. [阶段3交接与四问基线工作包](docs/13_stage3_handoff.md)
 2. [时序管线](docs/09_temporal_pipeline.md)、[空间管线](docs/10_spatial_pipeline.md)
@@ -41,6 +44,6 @@
 
 ## 下一动作
 
-队员阅读[首轮审查第4—5节](docs/15_stage4_round1_review.md)，确认正式分析对象/路线；主参谋据此派发下一轮。优先资料闭环为Q3独立标签/真实时效与Q4源区—目标—河道/地形证据；Q1/Q2同步追溯质量、参数定义和少量必要影像。四窗目前按约定停在联合审查点，未自行推进正式拟合或事件求解。
+实施[第二轮](docs/16_stage4_round2_workflow.md)：发布新共同基线及轮次化验证，复用四窗派发任务；优先交接Q4搜索AOI给Q2，再集中复核各问证据、背景分析和更新路线。正式核心模型仍不在本轮确定或求解。
 
 重建与复跑命令见[README](README.md)。原始资料保持原样；阶段1—3已本地commit，阶段4持续本地提交和集成，未push。决定和AI辅助记录分别见[DECISIONS](DECISIONS.md)、[AI_USAGE](AI_USAGE.md)。

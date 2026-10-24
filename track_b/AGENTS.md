@@ -6,7 +6,7 @@
 
 1. 读`STATUS.md`确认当前目标、已有授权和下一动作。
 2. 读`docs/01_task_matrix.md`与`docs/02_definitions_validation.md`恢复四问口径。
-3. 阶段4先读`docs/14_stage4_workflow.md`及所分配`research/qN/TASK.md`；阶段3技术状态见`docs/13_stage3_handoff.md`。
+3. 阶段4第二轮先读`docs/16_stage4_round2_workflow.md`及所分配`research/qN/round2/TASK.md`；首轮状态见`docs/15_stage4_round1_review.md`，阶段3技术状态见`docs/13_stage3_handoff.md`。
 4. 用实际分支、文件、脚本运行结果核对文档，不以历史聊天替代当前证据。
 
 ## 证据与协作
@@ -21,6 +21,7 @@
 - 截至阶段3，数据审计、正式预处理和最小外部样本通路已技术验证；尚无经验证模型、TOP5、临界阈值或95%覆盖率。
 - 阶段4已获用户实施授权：四个可见分支聊天、独立worktree、先方案论证与小实验，由主参谋统一派发/读取/交接。本轮本地提交，不推送；研究窗仅写`research/qN/`，公共修订交主参谋集成。
 - 首轮到联合审查点即交付，不擅自推进正式核心模型。先后运行`stage4_workspace.py verify`验证冻结输入与本问文件责任，不运行会重写公共审计的阶段3脚本。
+- 用户已要求实施第二轮：有界补证与背景分析，Q3主对象是源区首次机械启动但具体时刻仍待证实；现有四窗/环境复用，新分支`codex/track-b-qN-r2`，仅写本问`round2/`，验证必须加`--round round2`。首轮研究包和原冻结清单不可改；本轮契约见`config/stage4_round2_contract.json`。
 
 ## 运行与验证
 

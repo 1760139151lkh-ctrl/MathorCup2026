@@ -16,6 +16,31 @@ from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = ROOT / 'track_b/audit/stage4/baseline_manifest.json'
+ROUNDS = ('round1', 'round2')
+QUESTIONS = ('q1', 'q2', 'q3', 'q4')
+
+
+def manifest_path(round_name='round1'):
+    if round_name not in ROUNDS:
+        raise ValueError(f'Unsupported research round: {round_name}')
+    if round_name == 'round1':
+        return MANIFEST
+    return ROOT / 'track_b/audit/stage4/round2/baseline_manifest.json'
+
+
+def question_directory(question, round_name='round1'):
+    manifest_path(round_name)
+    if question not in QUESTIONS:
+        raise ValueError(f'Unsupported question: {question}')
+    path = ROOT / 'track_b/research' / question
+    return path / 'round2' if round_name == 'round2' else path
+
+
+def safe_path(path):
+    """Reject symlink redirects, including a report filename redirected elsewhere."""
+    if not path.is_relative_to(ROOT) or path.resolve() != path:
+        raise ValueError(f'Path escapes its assigned location or uses a symlink: {path}')
+    return path
 
 
 def git(*args):
@@ -35,55 +60,87 @@ def save(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
-def snapshot(preparation_commit):
+def committed_entries(commit):
+    entries = subprocess.check_output(['git', '-C', str(ROOT), 'ls-tree', '-rz', commit]).decode().split('\0')
+    result = {}
+    for entry in entries:
+        if entry:
+            metadata, name = entry.split('\t', 1)
+            mode, kind, object_id = metadata.split()
+            result[name] = (kind, object_id)
+    return result
+
+
+def fingerprint(path, object_format):
+    safe_path(path)
+    if path.is_symlink() or not path.is_file():
+        raise ValueError(f'Frozen input must be a regular committed file: {path}')
+    size = path.stat().st_size
+    content_hash = hashlib.sha256()
+    git_hash = hashlib.new(object_format)
+    git_hash.update(f'blob {size}\0'.encode())
+    with path.open('rb') as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b''):
+            content_hash.update(block)
+            git_hash.update(block)
+    return {'bytes': size, 'sha256': content_hash.hexdigest(), 'git_blob': git_hash.hexdigest()}
+
+
+def snapshot(preparation_commit, round_name='round1'):
+    destination = safe_path(manifest_path(round_name))
     commit = git('rev-parse', preparation_commit)
     object_format = git('rev-parse', '--show-object-format')
     prefixes = ('04_B赛道/', '01_比赛规范/', '02_提交模板/',
                 'track_b/data/', 'track_b/audit/')
     files = []
-    entries = subprocess.check_output(['git', '-C', str(ROOT), 'ls-tree', '-rz', commit]).decode().split('\0')
-    for entry in sorted(entries):
-        if not entry:
-            continue
-        metadata, name = entry.split('\t', 1)
-        mode, kind, object_id = metadata.split()
+    for name, (kind, object_id) in sorted(committed_entries(commit).items()):
         # A later preparation commit may already contain the previous manifest.
         # Orchestration records remain mutable and must never freeze themselves.
         if name.startswith('track_b/audit/stage4/'):
             continue
-        if name.startswith(prefixes) or name.startswith(('track_b/scripts/', 'track_b/config/')) or name in ('track_b/requirements.in', 'track_b/requirements-lock.txt'):
+        research_input = round_name == 'round2' and name.startswith('track_b/research/')
+        if research_input and (any(name.startswith(f'track_b/research/{q}/round2/') for q in QUESTIONS)
+                               or any(part in ('__pycache__', '.cache', '.pytest_cache') for part in Path(name).parts)):
+            continue
+        if research_input or name.startswith(prefixes) or name.startswith(('track_b/scripts/', 'track_b/config/')) or name in ('track_b/requirements.in', 'track_b/requirements-lock.txt'):
             path = ROOT / name
-            if kind != 'blob' or path.is_symlink() or not path.is_file():
+            if kind != 'blob':
                 raise ValueError(f'Frozen input must be a regular committed file: {name}')
-            size = path.stat().st_size
-            content_hash = hashlib.sha256()
-            git_hash = hashlib.new(object_format)
-            git_hash.update(f'blob {size}\0'.encode())
-            with path.open('rb') as stream:
-                for block in iter(lambda: stream.read(1024 * 1024), b''):
-                    content_hash.update(block)
-                    git_hash.update(block)
-            if git_hash.hexdigest() != object_id:
+            item = fingerprint(path, object_format)
+            if item['git_blob'] != object_id:
                 raise ValueError(f'Working file differs from preparation commit: {name}')
-            files.append({'path': name, 'bytes': size, 'sha256': content_hash.hexdigest(), 'git_blob': object_id})
+            files.append({'path': name, **item})
     value = {'schema_version': 1, 'generated_at_utc': datetime.now(timezone.utc).isoformat(),
-             'preparation_commit': commit, 'contract_version': 'stage4-r1-v1',
-             'scope': 'Original B/rules/templates plus preparation-commit shared data/audits/scripts/config/lock; no question outputs or self-reference.',
+             'preparation_commit': commit, 'contract_version': f'stage4-r{ROUNDS.index(round_name) + 1}-v1',
+             'scope': ('Original B/rules/templates plus preparation-commit shared data/audits/scripts/config/lock; no question outputs or self-reference.'
+                       if round_name == 'round1' else
+                       'Original B/rules/templates and shared preparation inputs, plus committed round-1 research inputs; excludes stage4 orchestration, round-2 question outputs and caches.'),
              'file_count': len(files), 'files': files}
-    save(MANIFEST, value)
-    print(json.dumps({'manifest': str(MANIFEST), 'files': len(files), 'preparation_commit': commit}))
+    save(safe_path(destination), value)
+    print(json.dumps({'manifest': str(destination), 'files': len(files), 'preparation_commit': commit}))
 
 
-def input_integrity():
-    value = json.loads(MANIFEST.read_text(encoding='utf-8'))
+def input_integrity(round_name='round1'):
+    manifest = safe_path(manifest_path(round_name))
+    value = json.loads(manifest.read_text(encoding='utf-8'))
+    if value['contract_version'] != f'stage4-r{ROUNDS.index(round_name) + 1}-v1':
+        raise ValueError('Manifest contract version does not match research round')
+    entries = committed_entries(value['preparation_commit'])
+    object_format = git('rev-parse', '--show-object-format')
     errors = []
     for entry in value['files']:
         path = ROOT / entry['path']
-        if not path.is_file() or path.stat().st_size != entry['bytes'] or sha256(path) != entry['sha256']:
+        try:
+            actual = fingerprint(path, object_format)
+            matches = (all(actual[field] == entry[field] for field in ('bytes', 'sha256', 'git_blob'))
+                       and entries.get(entry['path']) == ('blob', entry['git_blob']))
+        except (OSError, ValueError):
+            matches = False
+        if not matches:
             errors.append(entry['path'])
     if errors:
         raise ValueError(f'Frozen input mismatch: {errors[:12]}')
-    return {'file_count': len(value['files']), 'manifest_sha256': sha256(MANIFEST),
+    return {'file_count': len(value['files']), 'manifest_sha256': sha256(manifest),
             'preparation_commit': value['preparation_commit']}
 
 
@@ -133,19 +190,33 @@ def formats():
     return {'formats_read': ['CSV', 'XLSX', 'SHP', 'GeoTIFF', 'NetCDF4', 'GRIB2']}
 
 
-def responsibility(question, base):
-    allowed = f'track_b/research/{question}/'
-    committed = subprocess.check_output(['git', '-C', str(ROOT), 'diff', '--name-only', '-z', base, 'HEAD']).decode().split('\0')
-    unstaged = subprocess.check_output(['git', '-C', str(ROOT), 'diff', '--name-only', '-z', 'HEAD']).decode().split('\0')
+def responsibility(question, base, round_name='round1'):
+    directory = safe_path(question_directory(question, round_name))
+    allowed = directory.relative_to(ROOT).as_posix() + '/'
+    committed = subprocess.check_output(['git', '-C', str(ROOT), 'diff', '--no-renames', '--name-only', '-z', base, 'HEAD']).decode().split('\0')
+    unstaged = subprocess.check_output(['git', '-C', str(ROOT), 'diff', '--no-renames', '--name-only', '-z', 'HEAD']).decode().split('\0')
     untracked = subprocess.check_output(['git', '-C', str(ROOT), 'ls-files', '--others', '--exclude-standard', '-z']).decode().split('\0')
     changes = sorted({name for name in committed + unstaged + untracked if name})
     disallowed = [name for name in changes if not name.startswith(allowed)]
     if disallowed:
         raise ValueError(f'Changes outside assigned folder: {disallowed[:12]}')
+    for name in changes:
+        safe_path(ROOT / name)
     return {'allowed_directory': allowed, 'changed_paths': changes}
 
 
 def verify(args):
+    round_name = getattr(args, 'round', 'round1')
+    try:
+        out = safe_path(question_directory(args.question, round_name) / 'workspace_verification.json')
+        if ROOT != Path(args.expected_root).resolve():
+            raise ValueError(f'Workspace root mismatch: {ROOT}')
+    except (ValueError, OSError, RuntimeError) as exc:
+        # An identity/path failure must not create files in the wrong workspace.
+        print(json.dumps({'passed': False, 'report': None, 'checks': [
+            {'name': 'safe_report_destination', 'passed': False,
+             'error': f'{type(exc).__name__}: {exc}'}]}, ensure_ascii=False))
+        return 1
     checks = []
     def check(name, operation):
         try:
@@ -162,15 +233,16 @@ def verify(args):
         return {'root': str(ROOT), 'head': git('rev-parse', 'HEAD'), 'baseline_commit': base,
                 'branch': git('rev-parse', '--abbrev-ref', 'HEAD')}
     check('workspace_and_git_baseline', identity)
-    check('frozen_input_hashes', input_integrity)
+    check('frozen_input_hashes', lambda: input_integrity(round_name))
     check('isolated_environment_and_lock', environment)
     check('six_real_formats', formats)
-    check('question_file_ownership', lambda: responsibility(args.question, args.expected_base))
+    check('question_file_ownership', lambda: responsibility(args.question, args.expected_base, round_name))
     result = {'generated_at_utc': datetime.now(timezone.utc).isoformat(), 'question': args.question,
               'passed': all(c['passed'] for c in checks), 'checks': checks,
               'scope': 'Workspace, frozen inputs, environment and technical I/O only; no scientific model acceptance.'}
-    out = ROOT / f'track_b/research/{args.question}/workspace_verification.json'
-    save(out, result)
+    if round_name == 'round2':
+        result['round'] = round_name
+    save(safe_path(out), result)
     print(json.dumps({'passed': result['passed'], 'report': str(out), 'checks': [dict(name=c['name'], passed=c['passed'], **({'error': c['error']} if 'error' in c else {})) for c in checks]}, ensure_ascii=False))
     return 0 if result['passed'] else 1
 
@@ -180,14 +252,16 @@ def main():
     commands = parser.add_subparsers(dest='command', required=True)
     snap = commands.add_parser('snapshot')
     snap.add_argument('--preparation-commit', required=True)
+    snap.add_argument('--round', choices=ROUNDS, default='round1')
     run = commands.add_parser('verify')
-    run.add_argument('--question', choices=('q1', 'q2', 'q3', 'q4'), required=True)
+    run.add_argument('--question', choices=QUESTIONS, required=True)
+    run.add_argument('--round', choices=ROUNDS, default='round1')
     run.add_argument('--expected-root', required=True)
     run.add_argument('--expected-base', required=True)
     run.add_argument('--pristine', action='store_true', help='Require HEAD to equal the common starting commit')
     args = parser.parse_args()
     if args.command == 'snapshot':
-        snapshot(args.preparation_commit)
+        snapshot(args.preparation_commit, args.round)
         return 0
     return verify(args)
 

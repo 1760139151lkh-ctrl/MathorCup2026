@@ -4,6 +4,8 @@
 
 当前已完成阶段1—3准备和阶段4四问首轮并行探索，成果已本地集成。先读[首轮联合审查与下一步](docs/15_stage4_round1_review.md)；阶段状态以[`STATUS.md`](STATUS.md)为准，尚无已验证的四问最终模型或结论。
 
+当前正在执行[第二轮：有界补证与背景分析](docs/16_stage4_round2_workflow.md)。沿用四窗/环境，r2分支与round2目录隔离；首轮成果不改。
+
 阶段4先读：[四问并行工作流](docs/14_stage4_workflow.md)、[研究窗约定](research/AGENTS.md)。各窗任务为[Q1](research/q1/TASK.md)、[Q2](research/q2/TASK.md)、[Q3](research/q3/TASK.md)、[Q4](research/q4/TASK.md)；聊天与worktree登记见[audit/stage4/workspaces.json](audit/stage4/workspaces.json)。
 
 阶段3先读：[技术交接与四问基线工作包](docs/13_stage3_handoff.md)。

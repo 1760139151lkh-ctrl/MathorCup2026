@@ -2,6 +2,12 @@
 
 本文件作用于 `track_b/research/`，继承 `track_b/AGENTS.md`。当前已授权四问分窗、独立 worktree、首轮方案论证及数据诊断／可行性技术试验；队员仍独立完成核心建模、算法设计、求解与最终科学判断。
 
+## 第二轮当前派单（优先于下方首轮快照）
+
+用户已确认实施有界补证与背景分析，研究目标/范围见`track_b/docs/16_stage4_round2_workflow.md`和`track_b/config/stage4_round2_contract.json`。各窗恢复本问`round2/TASK.md`及`round2/HANDOFF.md`，只写本问`round2/`；原有首轮文件、报告、清单保持不变。当前基线/分支/目录以最新派单与本轮绑定文件为准，不能从首轮绑定推断。
+
+使用原工作树自己的venv，不重建/安装；运行标准检查时加`--round round2`。公共清单改用`audit/stage4/round2/baseline_manifest.json`，机器字段继承原契约，本轮主预测对象为源区首次机械启动（非已接受精确真值）。Q4先交search_only AOI，主参谋审核并哈希绑定后交Q2。补证得可采用/排除/未知及依据均可结束，不无限扩扫、不自动升级质量/标签/几何。本轮到第二轮联合审查点停止。
+
 ## 恢复与基线
 
 1. 阅读 `track_b/STATUS.md`、`track_b/docs/13_stage3_handoff.md`。
