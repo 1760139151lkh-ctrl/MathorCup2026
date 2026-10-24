@@ -1,0 +1,83 @@
+{
+  "schema_version": "q4-paper-visual-review-v1",
+  "reviewed_at_utc": "2026-10-24T14:07:45.224510+00:00",
+  "status": "final_actual_image_review",
+  "body_page_count": 4,
+  "references_preview_page_count": 1,
+  "preview_pdf": {
+    "path": "track_b/paper/figures/q4/preview/q4_preview.pdf",
+    "sha256": "35f8f4ce0fd372e5b4d302e777feb3bb01828d073b252f5633ab98b3a39925b0",
+    "bytes": 433899
+  },
+  "shared_preamble": {
+    "path": "track_b/paper/preamble.tex",
+    "sha256": "6b9adddfc84cb47f16a6f0be21c94344af9cc74b5e6e58d358de4cd876380d3b",
+    "bytes": 2572
+  },
+  "pages": [
+    {
+      "path": "track_b/paper/figures/q4/preview/q4_page-1.png",
+      "sha256": "d957067775c0f93c8d60d65eb843b7256f42aa4788410b52422343461858eec3",
+      "bytes": 503277,
+      "page": 1,
+      "actual_opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "track_b/paper/figures/q4/preview/q4_page-2.png",
+      "sha256": "647c96c270cb40de4c1fe64e62c5aae8ca5d706dfa0922685ea4e03048d2d839",
+      "bytes": 507314,
+      "page": 2,
+      "actual_opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "track_b/paper/figures/q4/preview/q4_page-3.png",
+      "sha256": "772da92a52d630899790421f420594992c7ec0d6ed7bd475b8d087e0fda63ffe",
+      "bytes": 586404,
+      "page": 3,
+      "actual_opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "track_b/paper/figures/q4/preview/q4_page-4.png",
+      "sha256": "eac6a1c3ada4774aba821b9e2d6e3beff72f998bc82155a3683cc6621888a5d1",
+      "bytes": 611976,
+      "page": 4,
+      "actual_opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "track_b/paper/figures/q4/preview/q4_page-5.png",
+      "sha256": "02ea3b2171e3521f18f88d2355e7638650f735b55a2f4097daa9d67ecdf7732b",
+      "bytes": 165694,
+      "page": 5,
+      "actual_opened": true,
+      "status": "pass"
+    }
+  ],
+  "figure_reviews": [
+    {
+      "path": "track_b/paper/figures/q4/process_fullmask_st120.pdf",
+      "sha256": "b3c71659377eaffded804050ab01a0f4dbf808bb732d8e0de7997109f9b3109c",
+      "bytes": 129416,
+      "actually_reviewed_in_preview_page": 2,
+      "status": "pass"
+    },
+    {
+      "path": "track_b/paper/figures/q4/model_comparison.pdf",
+      "sha256": "4dbac02aeed059e11b14cccf7723bc69148ea0605abdef4332e1799a7f94053e",
+      "bytes": 161574,
+      "actually_reviewed_in_preview_page": 3,
+      "status": "pass"
+    }
+  ],
+  "notes": [
+    "Five final rendered pages were actually opened. Chinese glyphs, equations, tables, units, captions and page numbers readable; no clipping or overlap.",
+    "Figure1 placed beside process definition; Figure2 beside model comparison. Whole actual-frame display and formal <=1800s cumulative metrics distinguished.",
+    "Preview bibliography has three non-fatal underfull paragraph messages; no overfull box or unresolved reference/citation.",
+    "Plot font Arial Unicode MS uses TrueType embedding; final renderer emitted no font-type warning.",
+    "Advisor exact-value review applied: all-rock overlap0.3s and drag/VM-off overlap0.4s named explicitly; 15m release depth distinguished from120m grid. Only rendered page4 changed and was reopened; other four page-image hashes stayed identical."
+  ],
+  "new_physical_model_runs": 0
+}

@@ -1,0 +1,268 @@
+{
+  "schema_version": "q4-paper-code-catalogue-v1",
+  "paper_common_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+  "self_authored_files": [
+    {
+      "path": "track_b/research/q4/round3/scripts/reduced_solver.py",
+      "sha256": "0cb0eb23bb4c752fb6688c4dc721d660b5288de0537ac1e6854fce56614af054",
+      "category": "self_authored_model",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "self-authored reduced solver and experiment driver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/reduced_region.py",
+      "sha256": "37dd019f086240de32300749d29cc426fc32dd2c3c2fa231275aab12686b5e77",
+      "category": "reduced_experiment_and_numerical_validation_driver",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "experiment driver or numerical verification of the single independent reduced solver; not an additional physical model"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/reduced_benchmarks.py",
+      "sha256": "58c77910c029b60619ffe53000f2bab9c91afd0994c45ef77298f8e0c6b6076a",
+      "category": "reduced_experiment_and_numerical_validation_driver",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "experiment driver or numerical verification of the single independent reduced solver; not an additional physical model"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/reduced_validate.py",
+      "sha256": "52b7c745d0174646b1b4dee9715aacf3a2c5ea105c6bb1b84503d6f6d41281e4",
+      "category": "reduced_experiment_and_numerical_validation_driver",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "experiment driver or numerical verification of the single independent reduced solver; not an additional physical model"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/spatial_build.py",
+      "sha256": "f8ff904d1d9818c81ae8a9f07dd24e9b075bd2411e7ba773fd1b31a54b349c01",
+      "category": "input_geometry_and_scenarios",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/map_q2_releases.py",
+      "sha256": "55bccbfbeaaf12633e0da851041f382ea5b58791984d6df8432cbcb1bfc2e64e",
+      "category": "input_geometry_and_scenarios",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/official_q2_v2_cases.py",
+      "sha256": "0b8593db9610bb4aabcf3590396876fef21ff773c056001ae7ff5b38f7658821",
+      "category": "input_geometry_and_scenarios",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/extend_computational_domain.py",
+      "sha256": "d93074dc940ab3008751787f7ba0978aca7b84e52a9ddfb9e11caa56e6e4cc3f",
+      "category": "input_geometry_and_scenarios",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/official_composite_cases.py",
+      "sha256": "f8dacb4d99542bfa29a80181c66cabe521ea407a391ff71828fe703a799b27ff",
+      "category": "input_geometry_and_scenarios",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/official_entrainment_case.py",
+      "sha256": "110482d57e8641fc266a793f2c2cc2b54a23d5a44c4ccf526477706ab5c3af88",
+      "category": "input_geometry_and_scenarios",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/official_container.py",
+      "sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "category": "native_solver_adapter_not_native_physics",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/official_launch_container.py",
+      "sha256": "c501f6e594eb503b4f3af0de962fa628869b30c5fb913cbf271e3d42110e42a9",
+      "category": "native_solver_adapter_not_native_physics",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/official_analyse.py",
+      "sha256": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+      "category": "postprocessing_and_numerical_checks",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/official_targets.py",
+      "sha256": "c54aada40316dd3eedca552ce6048f59749475c958b9466df32ecaa53a6e3311",
+      "category": "postprocessing_and_numerical_checks",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/integrate_comparison.py",
+      "sha256": "e7e475ffbaf4fc6216cf4c1ce7a50abcf5c069408507d5ed7ebd45cba9b98eeb",
+      "category": "postprocessing_and_numerical_checks",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/audit_dclaw_mass.py",
+      "sha256": "4cfcc891bded122944557d7e0b337a78b2435af4e909246e685c8af03e1bcc9c",
+      "category": "postprocessing_and_numerical_checks",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/compare_native_sensitivity.py",
+      "sha256": "2b4c22e67317c4f40c8f9ed921e58f2d016b1ccdf84528efb580cb859c803367",
+      "category": "postprocessing_and_numerical_checks",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/official_result_matrix.py",
+      "sha256": "3d3c567a8bf86ab4f3191253f12016ed11cc57a4fd58772c2dd617e6fa6055d7",
+      "category": "postprocessing_and_numerical_checks",
+      "authorship": "project implementation with AI assistance; underlying scientific methods and third-party solver identity are separately credited",
+      "is_third_party_solver_source": false,
+      "appendix_role": "project input/interface/postprocessing program; not the third-party PDE solver"
+    },
+    {
+      "path": "track_b/paper/scripts/q4_plot_results.py",
+      "sha256": "e27b7003ab9b797f1edca548517bab3f622b0e7af355c5d511d5828372741c27",
+      "category": "paper_plotting",
+      "authorship": "Q4 paper replotting with OpenAI Codex assistance; reads frozen native arrays",
+      "is_third_party_solver_source": false,
+      "appendix_role": "paper figure source"
+    }
+  ],
+  "self_authored_repo_paths": [
+    "track_b/research/q4/round3/scripts/reduced_solver.py",
+    "track_b/research/q4/round3/scripts/reduced_region.py",
+    "track_b/research/q4/round3/scripts/reduced_benchmarks.py",
+    "track_b/research/q4/round3/scripts/reduced_validate.py",
+    "track_b/research/q4/round3/scripts/spatial_build.py",
+    "track_b/research/q4/round3/scripts/map_q2_releases.py",
+    "track_b/research/q4/round3/scripts/official_q2_v2_cases.py",
+    "track_b/research/q4/round3/scripts/extend_computational_domain.py",
+    "track_b/research/q4/round3/scripts/official_composite_cases.py",
+    "track_b/research/q4/round3/scripts/official_entrainment_case.py",
+    "track_b/research/q4/round3/scripts/official_container.py",
+    "track_b/research/q4/round3/scripts/official_launch_container.py",
+    "track_b/research/q4/round3/scripts/official_analyse.py",
+    "track_b/research/q4/round3/scripts/official_targets.py",
+    "track_b/research/q4/round3/scripts/integrate_comparison.py",
+    "track_b/research/q4/round3/scripts/audit_dclaw_mass.py",
+    "track_b/research/q4/round3/scripts/compare_native_sensitivity.py",
+    "track_b/research/q4/round3/scripts/official_result_matrix.py",
+    "track_b/paper/scripts/q4_plot_results.py"
+  ],
+  "paper_plotting_files": [
+    {
+      "path": "track_b/paper/scripts/q4_plot_results.py",
+      "sha256": "e27b7003ab9b797f1edca548517bab3f622b0e7af355c5d511d5828372741c27",
+      "category": "paper_plotting",
+      "status": "complete",
+      "is_third_party_solver_source": false
+    }
+  ],
+  "third_party_solvers": [
+    {
+      "name": "r.avaflow",
+      "version": "4.0 Revision7",
+      "release": "20250902",
+      "source_url": "https://www.landslidemodels.org/r.avaflow/software/r.avaflow.40G.zip",
+      "archive_sha256": "8301b4804f45e228633aa823caba4a3387a47f8bd143cf5569fdc5a9f95ad3a7",
+      "is_self_authored": false,
+      "full_source_in_self_authored_appendix": false,
+      "source_files": [
+        {
+          "path": "track_b/audit/stage4/round3/runtime/source_versions.json",
+          "sha256": "7d71429b432b5ca4699bf0fbc35ffc9457faedc1ee6396023bbde880143c8d2e"
+        },
+        {
+          "path": "track_b/audit/stage4/round3/runtime/advisor_snapshot.json",
+          "sha256": "53eb1e6c851d5971a9375c4204c25ee31fc7549760b0ea9a25c7e94055c36ea9"
+        }
+      ]
+    },
+    {
+      "name": "D-Claw",
+      "version": "1.0.0",
+      "commit": "7d48663bbed916372ba18732627c52043afb109f",
+      "source_url": "https://github.com/geoflows/dclaw.git",
+      "is_self_authored": false,
+      "full_source_in_self_authored_appendix": false,
+      "numerical_dependency": {
+        "name": "Clawpack",
+        "version": "v5.11.0",
+        "commit": "285b7de9837702276213b7deb040495adc60c4cc"
+      },
+      "source_files": [
+        {
+          "path": "track_b/audit/stage4/round3/runtime/source_versions.json",
+          "sha256": "7d71429b432b5ca4699bf0fbc35ffc9457faedc1ee6396023bbde880143c8d2e"
+        }
+      ]
+    }
+  ],
+  "third_party_derivative_build": {
+    "name": "ravaflow resourcefix1",
+    "scope": "45 final resource cleanup calls replaced; physical equations unchanged; small-grid numerical workflows only, separate build identity",
+    "is_a_new_self_authored_physical_model": false,
+    "full_source_in_self_authored_appendix": false,
+    "source_files": [
+      {
+        "path": "track_b/audit/stage4/round3/runtime_resourcefix1/advisor_snapshot.json",
+        "sha256": "8ad3f32908910bcdaefc8787a1b9728d97fd3d76a8eca4e42295f5eb157fc616"
+      }
+    ]
+  },
+  "scope": "List is project-authored model/input/interface/postprocessing code adopted or cited in Q4, not an authorship claim over ravaflow, D-Claw, Clawpack or their full native source trees. Final paper plotting files are added by root after completion.",
+  "paper_auxiliary_files": [
+    {
+      "path": "track_b/paper/scripts/q4_compile_preview.sh",
+      "role": "section preview compilation using shared class and preamble"
+    },
+    {
+      "path": "track_b/paper/scripts/q4_preview.tex",
+      "role": "preview wrapper only; not a new paper preamble"
+    }
+  ],
+  "paper_quality_control_files": [
+    {
+      "path": "track_b/paper/scripts/q4_validate_paper.py",
+      "sha256": "7f0d0661f488d7165a778e66de76c4cdbf89509dcc7129fcd55d79cf50c3d714",
+      "role": "paper evidence and transcription verification"
+    },
+    {
+      "path": "track_b/paper/scripts/q4_compile_preview.sh",
+      "sha256": "b655b86b472b9f17d9b77fdc5bdb219986ad658550debd075c66b5798dead4f8",
+      "role": "preview build helper"
+    },
+    {
+      "path": "track_b/paper/scripts/q4_preview.tex",
+      "sha256": "dd3f20de169a1cdffd7c397da4c93990d697270747e5d8f7dc5e337c1f796499",
+      "role": "preview wrapper reusing shared preamble"
+    }
+  ]
+}
