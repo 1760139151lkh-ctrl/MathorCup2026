@@ -1,6 +1,6 @@
 # Q2 触发评估：首轮任务书
 
-状态：**任务已定义，研究与小实验待执行。** 本文件不是已确认触发机制、临界条件或评估模型。工作流见 `track_b/docs/14_stage4_workflow.md`；共同基线与哈希由主参谋在 `track_b/audit/stage4/baseline_manifest.json` 发布。
+状态：**首轮方案论证、证据核查与有界小实验已完成，待联合审查。** 实际执行、诊断限制和成果入口见本目录 `HANDOFF.md`。本文件不是已确认触发机制、临界条件或评估模型。工作流见 `track_b/docs/14_stage4_workflow.md`；共同基线与哈希由主参谋在 `track_b/audit/stage4/baseline_manifest.json` 发布。
 
 ## 1. 目的与本轮终点
 

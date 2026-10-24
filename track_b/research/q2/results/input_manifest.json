@@ -1,0 +1,97 @@
+{
+  "input_version": {
+    "baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+    "baseline_manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+    "diagnostic_config_sha256": "564572d86b30a0dd112e8a9e343c7112bf6894c147c3ea28164b6ca0f1ef9dd0"
+  },
+  "files": [
+    {
+      "path": "track_b/data/processed/spatial/source_manifest.json",
+      "bytes": 6984,
+      "sha256": "24de9976bcd0f011ff89617fbd66eb629834b792f76e15f454a2cf4fefac559d"
+    },
+    {
+      "path": "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+      "bytes": 362728,
+      "sha256": "0a57192a65557f052dbc0bfbca71687ad1d158d4edaa363f26b3d65f337f32c8"
+    },
+    {
+      "path": "track_b/data/processed/spatial/nc_glacier_mask.tif",
+      "bytes": 1925,
+      "sha256": "88f91bb215d00f9773933befb27ba85dba250198e28ded265f5d9f0d20b12732"
+    },
+    {
+      "path": "track_b/data/processed/spatial/nc_dem_native_grid.tif",
+      "bytes": 67745,
+      "sha256": "51316ce445f89016d79dcbb5baa12e2444e6eef90448d4f46825cd9d77f80d20"
+    },
+    {
+      "path": "track_b/data/processed/spatial/dem_on_nc_grid.tif",
+      "bytes": 68003,
+      "sha256": "dd4204378ba7740f45525994bb8cf158857126a7bb49aee908cc56d0981b1327"
+    },
+    {
+      "path": "track_b/data/external/event_remote/worldcover_2021_v200_test_aoi.tif",
+      "bytes": 20662,
+      "sha256": "77b7f73e68f9f0940c322610de343d6748360120616b5de67554e40277ea40e4"
+    },
+    {
+      "path": "track_b/data/external/event_remote/scene_inventory.json",
+      "bytes": 1408249,
+      "sha256": "94b3a2c3e266c7fcc4717254db48d417215ee68421b54d84a7cc7d51d9fc92d3"
+    },
+    {
+      "path": "track_b/data/external/event_remote/asset_access_tests.json",
+      "bytes": 966,
+      "sha256": "ec91cf328c69ed0f538c3949c67a96d8028d7073aee3b424ac740468e00ad066"
+    },
+    {
+      "path": "track_b/data/processed/temporal/data_dictionary.json",
+      "bytes": 97865,
+      "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_raw_numeric.parquet",
+      "bytes": 15685229,
+      "sha256": "96fde2bc36b72919859546c3b4dcf8a35f2e4b59da2b08bd322ae28691df5b32"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_strict_qc0.parquet",
+      "bytes": 6451135,
+      "sha256": "9a2609a696d252abb0548ebcc1f794a5bd3f10a30cdbc305d59bde288f9d4460"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_time_axis.parquet",
+      "bytes": 1527460,
+      "sha256": "ae95cadabf5158348bd7069f285eafe96ab04c4a691fab5da715ee31ec4921fa"
+    },
+    {
+      "path": "track_b/config/temporal_policy.json",
+      "bytes": 2970,
+      "sha256": "0ac6e5f9f8d82d23f801fada55e604dc61260d1a1be6438b8600d359c3b4f8f2"
+    },
+    {
+      "path": "track_b/data/processed/forecast_sample/summary.json",
+      "bytes": 7870,
+      "sha256": "073a9f13f4ed11b32ddad23a86f8fc072ea2fe0d1e170514334d3bf363b1d81c"
+    },
+    {
+      "path": "track_b/data/processed/forecast_sample/gfs_2026082518_f009_aoi.nc",
+      "bytes": 28380,
+      "sha256": "da53c0217ee1c3f74b31ffcbfafaa000483e4f209572b2105cd6fda2661441e8"
+    },
+    {
+      "path": "track_b/data/external/event_remote/event_evidence_ledger.json",
+      "bytes": 14194,
+      "sha256": "7027df1460fbbdc536c626ceb4cd2b715626cf2ecac6e9bca1717a817970956a"
+    }
+  ],
+  "config": {
+    "path": "track_b/research/q2/config/diagnostic.json",
+    "sha256": "564572d86b30a0dd112e8a9e343c7112bf6894c147c3ea28164b6ca0f1ef9dd0"
+  },
+  "script": {
+    "path": "track_b/research/q2/scripts/diagnose_inputs.py",
+    "sha256": "0d4dcac13d2e6d318d19ace95ae0b686e0b296b8c0751eed945d956a3a0bd878"
+  }
+}

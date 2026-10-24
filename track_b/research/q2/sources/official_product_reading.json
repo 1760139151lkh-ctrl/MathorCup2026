@@ -1,0 +1,48 @@
+{
+  "date_user_local": "2026-10-24",
+  "policy": "Read official sections listed; HTML snapshots are documentation, not satellite data. No login, credentials or new 2026 imagery obtained.",
+  "records": [
+    {
+      "source_id": "worldcover_data_access",
+      "url": "https://esa-worldcover.org/en/data-access",
+      "retrieved_at_utc": "2026-10-24T04:25:13.970377+00:00",
+      "reading_scope": "USAGE/WorldCover products and annual composites; citation/license sections; no validation report read",
+      "kind": "official_product_documentation",
+      "http_status": 200,
+      "final_url": "https://esa-worldcover.org/en/data-access",
+      "content_type": "text/html; charset=UTF-8",
+      "saved_path": "track_b/research/q2/sources/worldcover_data_access.html",
+      "bytes": 49887,
+      "sha256": "71dccb4c949d489a903865f97ff3bddab75dbefad7f1c277acd1ba94967ed0e8",
+      "retrieval_succeeded": true
+    },
+    {
+      "source_id": "sentinel1_product_types",
+      "url": "https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel1.html",
+      "retrieved_at_utc": "2026-10-24T04:25:16.895085+00:00",
+      "reading_scope": "Level-1 GRD and SLC overview sections only",
+      "kind": "official_product_documentation",
+      "http_status": 200,
+      "final_url": "https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel1.html",
+      "content_type": "text/html",
+      "saved_path": "track_b/research/q2/sources/sentinel1_product_types.html",
+      "bytes": 243401,
+      "sha256": "634fa6efe68e58f56664e0fa01b3df46a95892e7c775e3facbe1361a0df00b4d",
+      "retrieval_succeeded": true
+    },
+    {
+      "source_id": "sentinel1_grd_processing",
+      "url": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S1GRD.html",
+      "retrieved_at_utc": "2026-10-24T04:25:20.117932+00:00",
+      "reading_scope": "Processing Chain and Processing Options; no actual SAR pixels processed",
+      "kind": "official_product_documentation",
+      "http_status": 200,
+      "final_url": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S1GRD.html",
+      "content_type": "text/html",
+      "saved_path": "track_b/research/q2/sources/sentinel1_grd_processing.html",
+      "bytes": 214223,
+      "sha256": "d952e9cf0c5440d4eab043b8f8ed6f9d9c6f447c8c01352f3bd30490e8257a2e",
+      "retrieval_succeeded": true
+    }
+  ]
+}
