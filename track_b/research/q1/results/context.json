@@ -1,0 +1,34 @@
+{
+  "input_version": {
+    "baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+    "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97"
+  },
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "regional_background_descriptive_diagnostic",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "id": "Gyirong_regional_background",
+    "crs": "EPSG:4326",
+    "latitude": 28.86,
+    "longitude": 85.29,
+    "status": "same-title external metadata assertion; not a source-area measurement"
+  },
+  "variable_semantics": {
+    "source": "data_dictionary.json",
+    "units": "original labels; no common input conversion",
+    "qc": "original QC0 or separately named diagnostics_unknown_qc",
+    "reporting_interval": null
+  },
+  "available_time": null,
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "data_role": "exploration",
+  "evidence_status": "local_fact",
+  "limitations": [
+    "Hourly timestamp convention and historical availability unverified",
+    "No accepted independent training/coverage events; no hazard association or ranking",
+    "Background year/hour samples are not independent disaster events"
+  ]
+}

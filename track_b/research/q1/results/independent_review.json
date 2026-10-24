@@ -1,0 +1,29 @@
+{
+  "reviewer": "q1_semantics_review independent AI subagent",
+  "human_review": false,
+  "scope": "Actual read-only independent execution against original Parquet and local/remote CSV; not source quality certification or visual review",
+  "passed": true,
+  "verified_counts": {
+    "numeric_present": 2769457,
+    "original_qc0": 1712112,
+    "sentinel": 222341,
+    "null": 320994,
+    "precipitation_zero": 45396,
+    "precipitation_present": 46762
+  },
+  "verified_findings": [
+    "63-column accounting and strict mask equal independently recomputed original QC0 intersection",
+    "24/72/168h anchor sets equal",
+    "25 remote shared columns differ in presence; local-only 578..586 per variable, remote-only 0",
+    "Maximum joint numeric difference 4.428e-8; cause unverified",
+    "FC_QC/LE_QC/H_QC/TAU_QC tokens 1..9 and NaN, no0; cannot inherit MET definitions"
+  ],
+  "reviewed_file_sha256": {
+    "diagnostic_summary.json": "58a4400095e8b42ece90ed84a09a4be84d438de7a47a2c4f63addc3edbff4a0a",
+    "quality_accounting.csv": "01ca328e6fb002c48bdc243adc4312e1726663dcec714c8944d037acbbe9e42e",
+    "diagnostics_unknown_qc.csv": "af6ac8c3d32eb7e5952ccc0bb7c4f15cdbfa2a20620ce01889fef91090f1d15f",
+    "remote_flux_column_comparison.csv": "0f82cf466a8b5f6679eaa85493e6204645222e91db80aac132756ce10e75ce09",
+    "remote_flux_candidate_qc_tokens.csv": "c9070ed218f8377bd839156cf97e2641b2ef670758a091ff117b0198238013d3"
+  },
+  "command_archival_status": "Agent execution and exit0 reported in delegated review; exact temporary code not separately archived. Primary scripts and frozen inputs remain rerunnable."
+}

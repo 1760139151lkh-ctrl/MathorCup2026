@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://data.tpdc.ac.cn/zh-hans/data/5b09afd1-d11b-4150-a291-50f0484dddf1",
+    "retrieved_at_utc": "2026-10-24T04:26:09.631623+00:00",
+    "maximum_bytes": 2000000,
+    "file": "tpdc_dataset.html",
+    "http_status": 200,
+    "final_url": "https://data.tpdc.ac.cn/zh-hans/data/5b09afd1-d11b-4150-a291-50f0484dddf1",
+    "content_type": "text/html",
+    "bytes": 1927,
+    "sha256": "0b3a9cbfb55ccdda119b57c4b39bf470dcaa710f01de2d5492328c59296dba37",
+    "fetch_success": true
+  },
+  {
+    "url": "https://gwfnet.net/Metadata/Index/T-2026-08-28-p1f3e5qIqTEyibfPAp3smBeA",
+    "retrieved_at_utc": "2026-10-24T04:26:09.891461+00:00",
+    "maximum_bytes": 2000000,
+    "file": "waternet_metadata.html",
+    "http_status": 200,
+    "final_url": "https://gwfnet.net/Metadata/Index/T-2026-08-28-p1f3e5qIqTEyibfPAp3smBeA",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 231361,
+    "sha256": "cbcb4dd9f8cbb257d8a90ba1cc0821c2744e9719a794c198889787ea9839abb0",
+    "fetch_success": true
+  },
+  {
+    "url": "https://waternet.ca/fileserver/T-2026-08-28-p1f3e5qIqTEyibfPAp3smBeA/QC_FLUX_JILO_2026_hourly.csv",
+    "retrieved_at_utc": "2026-10-24T04:26:13.213271+00:00",
+    "maximum_bytes": 3000000,
+    "file": "waternet_flux_2026.csv",
+    "http_status": 200,
+    "final_url": "https://waternet.ca/fileserver/T-2026-08-28-p1f3e5qIqTEyibfPAp3smBeA/QC_FLUX_JILO_2026_hourly.csv",
+    "content_type": "text/csv",
+    "bytes": 2228464,
+    "sha256": "f2497ab03d3898c5e0a5fd879e8acf9a56a00e0afafb4b677d86e39bc6b3c4f0",
+    "fetch_success": true,
+    "local_file": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2026.csv",
+    "local_sha256": "9422c99a38ecac4c7ad3a7f416e047400aa87f70012da5fcb76fb99c8aa72791",
+    "byte_identical_to_local": false,
+    "first_line": "Timestamp,Ux,Uy,Uz,T_SONIC,amb_e,amb_e_sat,e,e_sat,e_probe,e_sat_probe,H2O_probe,PA,VPD,H2O_density,CO2_sig_strgth_Min,H2O_sig_strgth_Min,FC_mass,FC_QC,LE,LE_QC,H,H_QC,NETRAD,G,SG,Bowen_ratio,TAU,TAU_QC,USTAR,TSTAR,TKE,FETCH_MAX,FETCH_90,FETCH_55,FETCH_40,FP_EQUATION,"
+  }
+]

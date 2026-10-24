@@ -1,0 +1,189 @@
+{
+  "packet_version": "q1-r1-v1",
+  "context_ref": "context.json",
+  "scope": "All stable Q1 task/docs/code/config/results/figures and bounded source evidence; not only first-script outputs.",
+  "excluded_exact_paths": [
+    "environment_setup.log",
+    "remote_comparison_run.log",
+    "results/output_manifest.json",
+    "round1_run.log",
+    "workspace_binding.json",
+    "workspace_verification.json"
+  ],
+  "excluded_directory_names": [
+    "__pycache__"
+  ],
+  "exclusion_reason": "Self-reference or advisor/runtime verification and logs that may change independently; checked separately at handoff.",
+  "files": [
+    {
+      "path": "FINDINGS.md",
+      "bytes": 4160,
+      "sha256": "a38aebaccfbcd4c4f946ab1a3a2cea606994bb1d680e0e1d2f6c9e68a0bb5851"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 7855,
+      "sha256": "688c4e54ab159d2e9f68d0a1442b56a37dc2f2e6e9c4305d62a2b754d02f39fa"
+    },
+    {
+      "path": "METHOD_OPTIONS.md",
+      "bytes": 5428,
+      "sha256": "40fb4f17d60b97badf6d988de5783aac22c055d129635999c9c09ab5b757b770"
+    },
+    {
+      "path": "PROPOSALS.md",
+      "bytes": 3539,
+      "sha256": "1f25ec91522f063cd477803d8e0581c19daa56cec27b61c145cbecb8a904033d"
+    },
+    {
+      "path": "TASK.md",
+      "bytes": 8627,
+      "sha256": "7dd21b02394d2616b63a0f5bd6c8f05a748901156390261e88536057840e8c58"
+    },
+    {
+      "path": "config/round1.json",
+      "bytes": 4427,
+      "sha256": "ad55134caa1d343a58ddc987e1880f89168367d4c730f39fe1ef37d75a8535f2"
+    },
+    {
+      "path": "figures/coverage_by_year.png",
+      "bytes": 181286,
+      "sha256": "ebbee040a40e9020c6f5b159a0e62fe28689c538dff1970506df0f619bf600b6"
+    },
+    {
+      "path": "figures/same_calendar_descriptives.png",
+      "bytes": 667197,
+      "sha256": "0d0e2d1ecf88909509fec14ca5e773c20137a83663f954c43ebc68ee736f5989"
+    },
+    {
+      "path": "figures/visual_review.json",
+      "bytes": 832,
+      "sha256": "86cdf563a917ed2fd41a2c7ffd2a88ee57e2d7ce4bd27975abdc078bcea87781"
+    },
+    {
+      "path": "results/candidate_definition_consistency.csv",
+      "bytes": 1123,
+      "sha256": "82a130736e2b32acef721ae3aefcbf5e0c30e439124a8ee5516607e94f8d3e13"
+    },
+    {
+      "path": "results/candidate_feature_coverage.csv",
+      "bytes": 78513,
+      "sha256": "6a39b028c00528a8cd85fa75e3074160fe0d9fc8461227cfaf6526fb91ff7a01"
+    },
+    {
+      "path": "results/constant_run_candidates.csv",
+      "bytes": 112591,
+      "sha256": "72207d81dbe748963af67c43e1f21388f40748e8260b0092436c73462404f3a7"
+    },
+    {
+      "path": "results/context.json",
+      "bytes": 1217,
+      "sha256": "7af418eb4ae6ce832fedd8923d687129c8f671b021ba086767a9b2009f7b5175"
+    },
+    {
+      "path": "results/coverage_by_year.csv",
+      "bytes": 29661,
+      "sha256": "e0fbbda9521b1cd58d47ddb012e22e73560b7745ec0c828bba8c82342de4d03a"
+    },
+    {
+      "path": "results/diagnostic_summary.json",
+      "bytes": 2973,
+      "sha256": "58a4400095e8b42ece90ed84a09a4be84d438de7a47a2c4f63addc3edbff4a0a"
+    },
+    {
+      "path": "results/diagnostics_unknown_qc.csv",
+      "bytes": 5051,
+      "sha256": "af6ac8c3d32eb7e5952ccc0bb7c4f15cdbfa2a20620ce01889fef91090f1d15f"
+    },
+    {
+      "path": "results/historical_envelope_counts.csv",
+      "bytes": 56503,
+      "sha256": "e3e386035f455b46f0d7e87b265269aca3a0fcfe0a9d3633727395ce655982a2"
+    },
+    {
+      "path": "results/independent_review.json",
+      "bytes": 1617,
+      "sha256": "94cea04c63198f41d98ad3e8dc1fcb009e3701e5f78c43e4a570335ae69830ed"
+    },
+    {
+      "path": "results/input_check.json",
+      "bytes": 4382,
+      "sha256": "90228bd15f80f379255988598c6a0f79a35f23ad43559676f5b3d8f4f325d360"
+    },
+    {
+      "path": "results/jump_candidates.csv",
+      "bytes": 1173501,
+      "sha256": "c411497902ff6fcd41a1d6ce971eb1ab6ddc803817d522559d0e39373c005ce1"
+    },
+    {
+      "path": "results/quality_accounting.csv",
+      "bytes": 3569,
+      "sha256": "01ca328e6fb002c48bdc243adc4312e1726663dcec714c8944d037acbbe9e42e"
+    },
+    {
+      "path": "results/remote_flux_candidate_qc_tokens.csv",
+      "bytes": 4062,
+      "sha256": "c9070ed218f8377bd839156cf97e2641b2ef670758a091ff117b0198238013d3"
+    },
+    {
+      "path": "results/remote_flux_column_comparison.csv",
+      "bytes": 3793,
+      "sha256": "0f82cf466a8b5f6679eaa85493e6204645222e91db80aac132756ce10e75ce09"
+    },
+    {
+      "path": "results/remote_flux_comparison.json",
+      "bytes": 2107,
+      "sha256": "4c97ae2797e4f7831f309c6c197d40e5e18e6e53beafed80d31f0723dd6faf5f"
+    },
+    {
+      "path": "results/variable_semantics.csv",
+      "bytes": 37217,
+      "sha256": "68b08a08139b34fc816f54082d781feaa6b656fd50527a45311aabb102def153"
+    },
+    {
+      "path": "results/window_descriptives.csv",
+      "bytes": 610663,
+      "sha256": "2801aae2d6645c549fb2d6fdd13590dfc445df6fc82473dd24f30977169dc7e3"
+    },
+    {
+      "path": "scripts/compare_remote_flux.py",
+      "bytes": 7515,
+      "sha256": "b959f7212479eeaeecd73a2c6b0edf0bdda0435a11947e46f6e0772304e45d65"
+    },
+    {
+      "path": "scripts/finalize_output_manifest.py",
+      "bytes": 2381,
+      "sha256": "6b6e209bf15eda3a19f384a627da4b0322dcb3f6fdc9dd84dcac9748f4c8bc38"
+    },
+    {
+      "path": "scripts/round1_diagnostics.py",
+      "bytes": 24033,
+      "sha256": "0855af087163e88f2cdc0f21825dd681dba5725f60ee7b98c129a48fbd394fa4"
+    },
+    {
+      "path": "sources/READING.md",
+      "bytes": 2073,
+      "sha256": "c3e39ff5ff570e7c9f219aad0d819adc9ffe9c512f906e4c7cd5048c8c3724f0"
+    },
+    {
+      "path": "sources/access_log.json",
+      "bytes": 2080,
+      "sha256": "2ad7a8f5ed6ffcb9c89dd5d747a89217dcd7779bdb211bd5a016d33d765e785f"
+    },
+    {
+      "path": "sources/tpdc_dataset.html",
+      "bytes": 1927,
+      "sha256": "0b3a9cbfb55ccdda119b57c4b39bf470dcaa710f01de2d5492328c59296dba37"
+    },
+    {
+      "path": "sources/waternet_flux_2026.csv",
+      "bytes": 2228464,
+      "sha256": "f2497ab03d3898c5e0a5fd879e8acf9a56a00e0afafb4b677d86e39bc6b3c4f0"
+    },
+    {
+      "path": "sources/waternet_metadata.html",
+      "bytes": 231361,
+      "sha256": "cbcb4dd9f8cbb257d8a90ba1cc0821c2744e9719a794c198889787ea9839abb0"
+    }
+  ]
+}

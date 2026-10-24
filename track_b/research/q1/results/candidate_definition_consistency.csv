@@ -1,0 +1,5 @@
+candidate_id,formula_for_definition_review_only,joint_labels,median_residual_original_response_unit,median_absolute_residual,residual_q05,residual_q95,no_correlation_or_hazard_association_estimated,interpretation
+pressure_label_relation,PA(kPa) versus 0.1*Pressure(hPa),41070,0.6568799999999939,0.6568799999999939,0.6107944999999997,0.7178454999999931,True,header-based consistency clue; processing/height definitions unverified; no QC accepted
+vpd_ambient_candidate,VPD(hPa) versus 10*(amb_e_sat-amb_e),35927,0.730378,0.7356740000000004,-0.15403730000000104,1.5834625999999996,True,header-based consistency clue; processing/height definitions unverified; no QC accepted
+vpd_e_candidate,VPD(hPa) versus 10*(e_sat-e),35929,0.0,9.999999999177334e-07,-4.9999999980343546e-06,4.999999994481641e-06,True,header-based consistency clue; processing/height definitions unverified; no QC accepted
+vpd_probe_candidate,VPD(hPa) versus 10*(e_sat_probe-e_probe),35923,2.1671050000000003,2.1759850000000007,0.5473086000000008,4.6228120000000015,True,header-based consistency clue; processing/height definitions unverified; no QC accepted

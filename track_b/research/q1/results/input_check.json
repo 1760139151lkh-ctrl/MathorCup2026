@@ -1,0 +1,90 @@
+{
+  "context_ref": "context.json",
+  "files": [
+    {
+      "path": "track_b/data/processed/temporal/data_dictionary.json",
+      "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_time_axis.parquet",
+      "sha256": "ae95cadabf5158348bd7069f285eafe96ab04c4a691fab5da715ee31ec4921fa",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_raw_numeric.parquet",
+      "sha256": "96fde2bc36b72919859546c3b4dcf8a35f2e4b59da2b08bd322ae28691df5b32",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_strict_qc0.parquet",
+      "sha256": "9a2609a696d252abb0548ebcc1f794a5bd3f10a30cdbc305d59bde288f9d4460",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_raw_qc.parquet",
+      "sha256": "58a0dcc112affae1450265b2d3d0cf05ef404e846c23178fbed49c3454033106",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_qc_unknown.parquet",
+      "sha256": "37730ac0a4c4f1e26b0c5ed03abc6c7f52384fb87527ede97e8482701f3bd95e",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_is_numeric_present.parquet",
+      "sha256": "555c4e5f96fe221e750fd0d21d86b74a14b81078f58c036f8f842be1a50a7ecf",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_mask_strict_qc0_accepted.parquet",
+      "sha256": "2d8554ef0a67d759eafb1245e4bac64730af8f55dcf127e4bf8f0b0f3f46a264",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_provenance.parquet",
+      "sha256": "14b05dae7255c6d5cd87c520c0d011b0b4d43b7dd4d392d04526a97f84b6da74",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    },
+    {
+      "path": "track_b/config/temporal_policy.json",
+      "sha256": "0ac6e5f9f8d82d23f801fada55e604dc61260d1a1be6438b8600d359c3b4f8f2",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    },
+    {
+      "path": "track_b/data/external/event_remote/event_evidence_ledger.json",
+      "sha256": "7027df1460fbbdc536c626ceb4cd2b715626cf2ecac6e9bca1717a817970956a",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    },
+    {
+      "path": "track_b/audit/stage4/baseline_manifest.json",
+      "sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97",
+      "technical_available": true,
+      "semantics": "partial; see variable_semantics.csv and existing policies",
+      "supports": "Q1 first-round descriptive/quality diagnostics only"
+    }
+  ],
+  "before_after_equal": true
+}
