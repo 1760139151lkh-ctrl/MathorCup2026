@@ -1,0 +1,227 @@
+{
+  "version": "q2r3-lab-strength-independent-review-v1",
+  "generated_at_utc": "2026-10-24T10:17:52.574361+00:00",
+  "outcome": "pass",
+  "checks": [
+    {
+      "check": "all141_canonical_rows_times16_fields_match_independent_source_XML",
+      "passed": true,
+      "max_numeric_abs_error": 0.0
+    },
+    {
+      "check": "source_observation_id_unique_and_ordered",
+      "passed": true
+    },
+    {
+      "check": "all14_derived_coefficient_strata_match_XML_cells",
+      "passed": true,
+      "source_numeric_fields_checked": 126
+    },
+    {
+      "check": "canonical_all_external_laboratory_no_local_event_count",
+      "passed": true
+    },
+    {
+      "check": "fit_input_and_protocol_hashes_match",
+      "passed": true
+    },
+    {
+      "check": "all_predeclared_models_and_domains_retained",
+      "passed": true
+    },
+    {
+      "check": "all_OLS_and_cell_equal_calibration_predictions_recomputed",
+      "passed": true,
+      "max_abs_error_kpa": 1.5006662579253316e-11,
+      "predictions_checked": 3366,
+      "fit_groups": 36
+    },
+    {
+      "check": "all_HC3_and_label_CR1_covariance_matrices_recomputed",
+      "passed": true,
+      "max_matrix_relative_error": 2.5885834661879107e-12,
+      "matrix_n": 64,
+      "basis_transform": "parentX=ownX*diag(1,.2,2.5,.5,...); parentCov=ownCov/(scale_i*scale_j)"
+    },
+    {
+      "check": "fixed_published_author_reference_excluded_from_CV",
+      "passed": true
+    },
+    {
+      "check": "every_group_holdout_refit_uses_disjoint_class_or_label_sets",
+      "passed": true,
+      "fold_n": 576,
+      "prediction_n": 8796,
+      "rank_deficient_no_prediction_n": 6
+    },
+    {
+      "check": "all_group_holdout_predictions_and_metrics_recomputed",
+      "passed": true,
+      "max_abs_prediction_error_kpa": 2.9831426218152046e-10,
+      "max_abs_metric_error_kpa": 1.1141310096718371e-10,
+      "all_exported_predictions_accounted": true
+    },
+    {
+      "check": "equal_group_RMSE_is_root_mean_fold_MSE",
+      "passed": true,
+      "max_abs_error_kpa": 5.525180313270539e-11,
+      "meaning": "sqrt(mean(fold_RMSE**2)), not arithmetic mean of fold RMSE; both are different valid summaries and this one must be named explicitly"
+    },
+    {
+      "check": "all_32000_bootstrap_draws_and_failed_draw_accounting_recomputed",
+      "passed": true,
+      "attempts": 32000,
+      "failed_rank_or_nonfinite": 6,
+      "max_coefficient_array_relative_error": 1.0342474969757995e-11,
+      "scope": "Same declared RNG stream; independent source XML, alternate basis, explicit cluster row duplication rather than parent multiplicity weights."
+    },
+    {
+      "check": "all_conditional_bootstrap_parameter_percentiles_recomputed",
+      "passed": true,
+      "max_relative_error": 2.4321249272848695e-14,
+      "statistical_limit": "Percentile sensitivity under either conditionally independent-test or assumed-label-block resampling. No coverage certification or local-event probability."
+    },
+    {
+      "check": "final_config_binds_actual_model_code_bytes",
+      "passed": true
+    },
+    {
+      "check": "strict_original_continuous_domain_counts_match_raw_values",
+      "passed": true,
+      "mismatches": [],
+      "counts": [
+        {
+          "domain": "low_full",
+          "n": 121,
+          "strict_actual_outside_n": 54,
+          "explicit_temperature_tolerance_0p1c_outside_n": 51
+        },
+        {
+          "domain": "low_eq6_temperature",
+          "n": 107,
+          "strict_actual_outside_n": 40,
+          "explicit_temperature_tolerance_0p1c_outside_n": 37
+        },
+        {
+          "domain": "warm_low",
+          "n": 63,
+          "strict_actual_outside_n": 24,
+          "explicit_temperature_tolerance_0p1c_outside_n": 22
+        },
+        {
+          "domain": "warm_all",
+          "n": 83,
+          "strict_actual_outside_n": 44,
+          "explicit_temperature_tolerance_0p1c_outside_n": 42
+        }
+      ]
+    },
+    {
+      "check": "explicit_point1c_temperature_tolerance_diagnostic_separately_named_and_recomputed",
+      "passed": true,
+      "mismatches": [],
+      "scope": "Temperature sensitivity only; normal stress domain remains100..400kPa; never changes fit/class membership."
+    }
+  ],
+  "independent_source_parser": "stdlib ZIP/XML, no openpyxl or canonical/model code imported",
+  "model_calculation_reference": "Different T/sigma basis and independent least-squares/covariance/explicit bootstrap loops; no parent function calls.",
+  "code_review_scope": "Full competition.py read; fixed source DATA is canonical external laboratory only. No event/model-outcome/time-target data read. Author Eq6 reuse excluded from CV.",
+  "mathematical_and_statistical_limits": [
+    "Seven prepared rock-pairs stated by manuscript but eight source labels including single spec8; physical UID map unresolved. Label blocks are a conservative correlation sensitivity, not proof of eight independent physical specimens.",
+    "HC3 assumes working row independence; labelCR1/label bootstrap assume cross-condition repeated labels are meaningful correlation blocks. Small clusters and singletons limit uncertainty interpretation.",
+    "No independent local landslide events; fitting and held-out internal laboratory tests cannot validate local causality/forecast coverage.",
+    "Class-based subset membership and continuous measured predictor domain separated. High-stress extrapolation flagged even when jitter yields full algebraic rank."
+  ],
+  "findings_resolved": [
+    {
+      "issue": "Parent initial domain diagnostic silently widened temperature interval to[-8.1,-.4].",
+      "resolution": "Reported before final publication; parent repairs strict[-8,-.5] count and separately labels any explicit tolerance sensitivity. Fit/cross-validation memberships and fitted predictions unaffected."
+    }
+  ],
+  "independent_local_events": 0,
+  "data_role": "external_lab_internal_numerical_review",
+  "bindings": [
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.zip",
+      "bytes": 3397215,
+      "sha256": "5fcd735a88654af1f4c150313ee79afb855a0ae67ed9319a851d8e125fa420a0"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article_extracted.txt",
+      "bytes": 93596,
+      "sha256": "dd8c2b1e71f3a0fe8937280ead7edba5be2a2c01bfaf7cdab52dcbd3801184e0"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/observations.csv",
+      "bytes": 577837,
+      "sha256": "7b0601f0b5c9aff60e79d2730ef21ac42c168f61b54984cd36d2b8175f58b600"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/PROTOCOL.md",
+      "bytes": 5520,
+      "sha256": "7376b1ab0b6e3dc5b66e88988893aec8ee3d987efbbcff923682705cdf645767"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/PROTOCOL_AMENDMENT.md",
+      "bytes": 2007,
+      "sha256": "c3af146064b910c5cc78b3264b0ac692d1c2f00454732618ebf48a327ef97cd7"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/competition.py",
+      "bytes": 21680,
+      "sha256": "5f93736b630b683ad52ba0c7d9fbca0fe9f50b4f88d0e954579a620506d53292"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/run_config.json",
+      "bytes": 1765,
+      "sha256": "91064a45f2b05dab0e79131394ede660634d6cebc3e29342737d5723a28f4e52"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/run_summary.json",
+      "bytes": 615,
+      "sha256": "3376cd75b5c8cde3c420857284beba541cc273fc06a35fe96dc89d06d2b7fb99"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/fits.csv",
+      "bytes": 12631,
+      "sha256": "21c6c9c99fc2d4cf1b7a9e5e213e58726229dfd4059f77a707c19454e8474050"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/calibration_residuals.csv",
+      "bytes": 476771,
+      "sha256": "ec0e538d48db84929cacd63a76779d5ca0965fd3c70269918e494cc2ed864fec"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/covariances.json",
+      "bytes": 76919,
+      "sha256": "7d8e17e60f3067d61684debc78017902514ae0e36ba72b1b21e60913a6566bac"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/holdout_folds.csv",
+      "bytes": 256405,
+      "sha256": "d8e62b4e98a5c4e08f098ce934b343f52297f9be95559b45727b2c40e1b115f8"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/holdout_predictions.csv",
+      "bytes": 1896826,
+      "sha256": "53f92ea677dbc4a32273b2c62fac3e201cd62ae66e6aa5f2099a0ffb88a859e4"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/bootstrap_summary.json",
+      "bytes": 30681,
+      "sha256": "5eaa2a6d7e22a63a8cd8cd25e883a9e02b3432397c6d64063c367fe01e2ce81f"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/bootstrap_coefficient_draws.npz",
+      "bytes": 1264129,
+      "sha256": "906dd62c57558349a49231fe78938dca1937118af246e3e29a377eeba56ab5e6"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/domains.json",
+      "bytes": 3081,
+      "sha256": "5eeead8b9d72e6ad65dcac3f5066ae23b0d2330771446aa8e0f53d4095cf4a3a"
+    }
+  ],
+  "command": "track_b/.venv/bin/python track_b/research/q2/round3/lab_strength/independent_review/review_lab_strength.py --review",
+  "writes": "own independent_review directory only"
+}

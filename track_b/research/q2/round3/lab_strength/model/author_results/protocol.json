@@ -1,0 +1,57 @@
+{
+  "input_observations_sha256": "7b0601f0b5c9aff60e79d2730ef21ac42c168f61b54984cd36d2b8175f58b600",
+  "input_author_derived_summary_sha256": "32739872d3b82ae79dc1bfaca0eaa114a43c3edc28dfc42f12cd0f62e8ceb1fe",
+  "code_sha256": "259375e158e7d6202c6abbefb1f0da7f7d68389e5ab811138899716ad8f7945b",
+  "first_stage_candidates": [
+    "individual_tests_ols",
+    "stress_cell_means_ols",
+    "stress_cell_means_inverse_sigma_variance_wls"
+  ],
+  "author_screen_by_source_figure": {
+    "nominal_100_400": [
+      -8.0,
+      -5.0,
+      -4.0,
+      -2.0,
+      -0.5
+    ],
+    "nominal_100_800": [
+      -4.0,
+      -2.0,
+      -1.0,
+      -0.5
+    ]
+  },
+  "stage2_variance_ambiguity_preserved": true,
+  "no_singleton_variance_filled": true,
+  "axis_sensitivity": "Both stored measured temperature means and nominal class coordinates are reported for source reconciliation only; fixed competition uses measured predictors",
+  "fit_role": "external_source_reproduction_not_independent_validation",
+  "independent_local_events": 0,
+  "source_fig7_values": {
+    "low_eq6_c_intercept_slope": [
+      53.3,
+      -73.5
+    ],
+    "low_eq6_mu_intercept_slope": [
+      0.42,
+      -0.21
+    ],
+    "warm_low_c_intercept_slope": [
+      49.4,
+      -83.5
+    ],
+    "warm_low_mu_intercept_slope": [
+      0.28,
+      -0.38
+    ],
+    "warm_all_c_intercept_slope": [
+      104.5,
+      -143.8
+    ],
+    "warm_all_mu_intercept_slope": [
+      0.19,
+      -0.1
+    ]
+  },
+  "table2_internal_consistency": "Warm low-stress total/end-point reduction columns match Eq4/5 endpoints, per-degree slopes and R2/p match green warm fit; do not merge into one relation"
+}

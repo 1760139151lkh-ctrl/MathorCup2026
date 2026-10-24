@@ -1,0 +1,175 @@
+{
+  "output_files": [
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/EVIDENCE_REVIEW.md",
+      "bytes": 4940,
+      "sha256": "0dbb2d63f14cdd22c06a6b0c2b3f2c9980d90c32b935be3a384415e12e5d0cf9",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/STAGE1_WEIGHT_NOTE.md",
+      "bytes": 1848,
+      "sha256": "5ba30f698a9f999206d2b1276b15ffdc5649c6910fd186414cb5c0511375d648",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-05.png",
+      "bytes": 856550,
+      "sha256": "06eab58f4e535bbc795663bafc1ef668a6d7ebe15e707a450270237f5e4be3ff",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-06.png",
+      "bytes": 1068408,
+      "sha256": "629eff0394408b7c2c7c972452e30da322750d5d26061206f69ed0662262d6c0",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-07.png",
+      "bytes": 605062,
+      "sha256": "a1cae6a1f46e93532cb8ea29c6803e261b8cafc91d04c11e5e7c9f8bb34d8977",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-09.png",
+      "bytes": 493219,
+      "sha256": "f73e72f4e1a93c0386b226225fca24d9ffc3138182fdc4274139b9d34e2c2d83",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-10.png",
+      "bytes": 472072,
+      "sha256": "581a0a25ad209c1592c22c6b828337b66dd946d456a4296bd77bbf1e2c5f55ad",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-11.png",
+      "bytes": 400155,
+      "sha256": "ecd192b40818d05f598fadcc197339fa648fda846fd86f8cee572ee77cebc0e4",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-12.png",
+      "bytes": 499886,
+      "sha256": "dba6ecdc8299c615a5e65914a399c3bf139f1114377cced70d4c292be8f4fad1",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-13.png",
+      "bytes": 613034,
+      "sha256": "de08643b2be4066b863ef57ca174d6c13570a86b46f891a3b8ee43d9992d03d1",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-14.png",
+      "bytes": 389059,
+      "sha256": "18b39d7b122536a7c91fd31e578e2b9c9a7306c517a7ff17149dcb0ed4e0b20c",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/article_pages/article-16.png",
+      "bytes": 426458,
+      "sha256": "0c7d7a9b6dc6a205b515bfa0c5ef53341d3d383d2235fc12d042ef7c0668bf6d",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/build_literature_review.py",
+      "bytes": 26575,
+      "sha256": "8205248b6610ed4059ebace1f119b10c9b05d293c948b7ccafd8b4c1e171b59d",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/figure6_temperature_screen.csv",
+      "bytes": 1752,
+      "sha256": "11c3078d5f3a1a56f28c400a8525878d3ea126a3990919a42d7a1ad6975155c9",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/literature_facts.json",
+      "bytes": 9480,
+      "sha256": "3d8451dbe1b1a678db46e2189a7097406653ae2d5254598630fe018847cb301b",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/literature_input_audit.json",
+      "bytes": 19573,
+      "sha256": "39c2b8ad074cad71465b1a78f6a80e63216b8a157a1b8ec5591b593c422d352e",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/published_relations.csv",
+      "bytes": 1426,
+      "sha256": "d03461d3bce78bb628f149f30417b8498dcb8d30f70fb5effecfa419f341cc09",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/published_table_s1_design.csv",
+      "bytes": 1672,
+      "sha256": "6179020cbeec2cba7de1a3cc44166f4b894510e2ab164d8bcedd2b85d7868720",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/stage1_weight_probe.csv",
+      "bytes": 14049,
+      "sha256": "2148e97c1aebb502807c2c189ba12e46f8aba32e5dea59c51594b29389dd0153",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/stage1_weight_probe.json",
+      "bytes": 8783,
+      "sha256": "e9ea0f6e14e3bda51e81b755e9a487c9d89e333350de7a469762ebc41bd78db1",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/stage1_weight_probe.py",
+      "bytes": 9007,
+      "sha256": "665c2bf5ddac5b8211414d7b7cec6073354a15ffe785667d87b1c6af1ed21032",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-03.png",
+      "bytes": 172368,
+      "sha256": "d483df9472fb7bbc3698c1d12552a4381403008df99caa08b4a1efd6af6802f2",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-04.png",
+      "bytes": 54901,
+      "sha256": "86ef003a2419cd35cfa2af0fb3719340af6c9ba48a5163d3efbbd2a285740402",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-07.png",
+      "bytes": 184224,
+      "sha256": "a3e1b142bfbcdfe7aa2b217f5820ca406f94df17e32dd64d0348622c8ea144fc",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-08.png",
+      "bytes": 208378,
+      "sha256": "19d369bb91cc0acb0b13f771dc3241b3877c3f839370884e587cd29d1cfcbceb",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-09.png",
+      "bytes": 591163,
+      "sha256": "7722a12ac219d400bdaee5433ff7c07287f42a34adbdf40cb889d4265ec5137a",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/supplement_pages/supplement-10.png",
+      "bytes": 206828,
+      "sha256": "481e129ef0b5dffb4eab91e7d1a5cdd8da765e6572050e2722f34a9b990ab1e4",
+      "role": "literature_review_output"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/table2_consistency.csv",
+      "bytes": 1561,
+      "sha256": "5c6a254a8678ca50eccf7b3575e272c9e3532a4b2d17d37caaae7181a7606327",
+      "role": "literature_review_output"
+    }
+  ],
+  "self_entry_excluded": true,
+  "frozen_bundles_unchanged": true,
+  "write_scope": "track_b/research/q2/round3/lab_strength/literature"
+}

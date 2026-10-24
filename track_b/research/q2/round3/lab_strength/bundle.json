@@ -1,0 +1,142 @@
+{
+  "version": "q2-r3-lab-strength-evidence-v1",
+  "producer_question": "q2",
+  "event_id": null,
+  "event_id_null_reason": "External laboratory test series, not additional local disaster chains",
+  "physical_phase": "external_laboratory_peak_shear_failure",
+  "time_utc": null,
+  "time_uncertainty": {
+    "status": "not_a_local_event_clock",
+    "test_durations": "source seconds retained; no conversion to local onset"
+  },
+  "space_object": {
+    "id": "external_Wetterstein_limestone_rock_ice_laboratory",
+    "crs": null,
+    "reason": "laboratory specimens, not mapped local source geometry"
+  },
+  "variable_semantics": {
+    "temperature": "measured rock temperature at failure °C",
+    "sigma": "area-corrected laboratory normal stress kPa",
+    "tau": "peak shear stress kPa",
+    "grouping": "nominal classes; actual columns used for fitting",
+    "qc_policy": "all141 rows; no deletion or imputation; 14 summaries not double counted"
+  },
+  "available_time": null,
+  "available_time_note": "Article public2018-10-17; cached2026 acquisition exists; no historical operational availability claim",
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "data_role": "exploration",
+  "laboratory_roles": [
+    "calibration",
+    "group_holdout_evaluation",
+    "source_reproduction"
+  ],
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+    "increment_base_commit": "a4a034eb3a93ae93d9ffb3852a0d7e13eabd2231"
+  },
+  "evidence_status": "external_laboratory_not_locally_validated",
+  "independent_local_events": 0,
+  "models_or_probabilities_updated": false,
+  "entrypoints": [
+    "REPORT.md",
+    "REPRODUCE.md",
+    "audit/results/audit_report.json",
+    "model/results/decision_summary.json",
+    "independent_review/REVIEW.md"
+  ],
+  "important_limits": [
+    "unknown physical specimen UID and eight recurring labels",
+    "published Eq6 same-table reference is descriptive",
+    "selected warm source relations use different temperature layers",
+    "no automatic effective-stress transfer",
+    "conditional mean intervals not event probabilities or verified95percent coverage"
+  ],
+  "bundle_version": "q2-r3-lab-strength-v1",
+  "release_role": "evidence_increment_no_existing_model_replacement",
+  "files": [
+    {
+      "path": "track_b/research/q2/round3/lab_strength/input_manifest.json",
+      "bytes": 5522,
+      "sha256": "a80473ca4dc64d225ced155d6879dc6e21fbca12ca693e1a6dafddc70bfeb012",
+      "role": "input_manifest.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/output_manifest.json",
+      "bytes": 29822,
+      "sha256": "2aff235fed1259846aeea86f6784c48e93174508c4bf51d4989d865fca7f9275",
+      "role": "output_manifest.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/result_index.json",
+      "bytes": 2265,
+      "sha256": "69778937e072de0e7a5880bf4920baa166bc802479b78c8c97eb62efe931c9e9",
+      "role": "result_index.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/validation.json",
+      "bytes": 11293,
+      "sha256": "f06a7426ed7f4c5d90c0b96a1adbb6ca32264c4d6bc20b6ecad2ef70f9671ac9",
+      "role": "validation.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/REPORT.md",
+      "bytes": 11135,
+      "sha256": "557cd7ec79212c9f8f9b1c406db35ef89759ec204512a172652b11e0911079bd",
+      "role": "REPORT.md"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/REPRODUCE.md",
+      "bytes": 2876,
+      "sha256": "97bbeb93dc9540b6b573596ec8ce4ec720bc59e4056c98f81b44d23dc6ac391d",
+      "role": "REPRODUCE.md"
+    }
+  ],
+  "member_resolution": "output_manifest lists all remaining lab_strength payload files by repository-relative paths; no self entry",
+  "earlier_seven_bundles_unchanged": [
+    {
+      "path": "track_b/research/q2/round3/exports/mechanism_bundle.json",
+      "bytes": 2760,
+      "sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+      "role": "earlier_core_bundle_read_only"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/release_bundle.json",
+      "bytes": 1801,
+      "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "role": "earlier_core_bundle_read_only"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/release_bundle_v2.json",
+      "bytes": 4354,
+      "sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3",
+      "role": "earlier_core_bundle_read_only"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/mechanism_bundle_v2.json",
+      "bytes": 5484,
+      "sha256": "dc53a9f805e96ff32b2c1fd064b0b7b33d90034e7d2c987f42403ae70bfcb093",
+      "role": "earlier_core_bundle_read_only"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/numerical_supplement_bundle.json",
+      "bytes": 2553,
+      "sha256": "151a7c7f822f3970a7dbdc0194b4c1df18548dbb70afca19a5927f49f3206b03",
+      "role": "earlier_core_bundle_read_only"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/composition_bundle.json",
+      "bytes": 4034,
+      "sha256": "14f96d7d1e8600154a831dba9921a9efbf70eeacfd71e54b12af78879b762335",
+      "role": "earlier_core_bundle_read_only"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/analytic_thermal_bundle.json",
+      "bytes": 6267,
+      "sha256": "ff989d23894f9b2d44daf032418583430791ef5b8367d423aa5cb54763767684",
+      "role": "earlier_core_bundle_read_only"
+    }
+  ]
+}

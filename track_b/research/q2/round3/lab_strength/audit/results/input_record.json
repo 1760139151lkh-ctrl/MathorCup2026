@@ -1,0 +1,42 @@
+{
+  "source_zip_path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.zip",
+  "source_zip_bytes": 3397215,
+  "source_zip_sha256": "5fcd735a88654af1f4c150313ee79afb855a0ae67ed9319a851d8e125fa420a0",
+  "canonical_url_or_product_id": "https://tc.copernicus.org/articles/12/3333/2018/tc-12-3333-2018-supplement.zip",
+  "product_version": "Mamot et al.2018 official supplementary ZIP; two specified workbook members only",
+  "retrieval_status": "reused existing frozen local source; no new network retrieval",
+  "retrieved_at_utc": null,
+  "retrieval_time_note": "original acquisition remains in earlier strength source register; no new acquisition timestamp invented",
+  "actual_read_scope": "all sheets, every declared worksheet coordinate and XML part in two specified XLSX; no other ZIP workbook opened",
+  "workbook_members": [
+    {
+      "member": "Supplement/data_experiments.xlsx",
+      "bytes": 33239,
+      "sha256": "ed9517ae4889192bd1a3278c68b4414c391126dbe9e3133336923795fbbbb20b",
+      "crc32": "45118b0a"
+    },
+    {
+      "member": "Supplement/data_frictioncoeff_cohesion_Fig. 8.xlsx",
+      "bytes": 16155,
+      "sha256": "34ec81f6adb579cd16e8b39a1934d5b786a633f96f12d2a05f65ed7b2fc1a165",
+      "crc32": "3aabf1c2"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/scripts/audit_workbooks.py",
+      "bytes": 25338,
+      "sha256": "11dc4084451b2590c3009292df806a7d49d838a59eada428c865c9fb6bb323b6"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/scripts/extract_canonical.py",
+      "bytes": 12709,
+      "sha256": "cb94c2daee7b3d50995208756085430bf74a1327beb95949ae348967e41515a3"
+    }
+  ],
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:22) [Clang 22.1.3 ]",
+    "openpyxl": "3.1.5",
+    "reader_modes": "openpyxl formula and data_only views; stdlib zip/XML authoritative raw cell inventory"
+  }
+}

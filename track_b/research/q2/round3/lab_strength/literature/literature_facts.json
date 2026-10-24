@@ -1,0 +1,266 @@
+{
+  "facts_version": "q2-lab-literature-facts-v1",
+  "evaluation_stratum": "external_transfer",
+  "publication": "Mamot et al2018,The Cryosphere12:3333-3353,DOI10.5194/tc-12-3333-2018",
+  "experiment": {
+    "total_trials": 141,
+    "physical_rock_pairs": 7,
+    "independent_material_pairs_not_equal_to_trial_count": true,
+    "nominal_stress_classes_kpa": [
+      100,
+      200,
+      400,
+      800
+    ],
+    "nominal_temperature_levels_c": [
+      -10,
+      -8,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      -0.5
+    ],
+    "table_s1_trials_by_stress": {
+      "100": 43,
+      "200": 40,
+      "400": 38,
+      "800": 20
+    },
+    "observed_condition_cells": 32,
+    "replicates_per_condition_min": 1,
+    "replicates_per_condition_max": 6,
+    "single_replicate_condition": "nominal200kPa,-0.5C",
+    "highstress800_trials": 20,
+    "highstress800_temperature_scope_c": [
+      -4,
+      -0.5
+    ],
+    "highstress_cold_tests_present": false,
+    "material": "Triassic dolomised fine-grained Wetterstein limestone,porosity approx4.4pct;tap-water ice",
+    "cylinder_diameter_mm": [
+      148,
+      1
+    ],
+    "cylinder_height_mm": [
+      82,
+      3
+    ],
+    "nominal_ice_thickness_mm": [
+      3,
+      1
+    ],
+    "supplement_ice_thickness_range_mm": [
+      1.5,
+      4
+    ],
+    "grit_roughness_amplitude_mm": 0.185,
+    "saturation_hours_min": 72,
+    "freezing_hours_min": 14,
+    "freezing_temperature_c": -14,
+    "reported_mean_shear_speed_mm_min": [
+      0.7,
+      0.1
+    ],
+    "supplement_shear_speed_range_mm_min": [
+      0.3,
+      1.0
+    ],
+    "reported_mean_strain_rate_s_inv": [
+      0.0048,
+      0.0014
+    ],
+    "reported_minimum_strain_rate_s_inv": 0.00158,
+    "nominal_min_speed_over_max_thickness_s_inv": 0.00125,
+    "min_rate_arithmetic_status": "printed1.58e-3 differs from rounded0.005/4=1.25e-3;do not overwrite source,prefer actual trial values",
+    "actual_measured_stress_class_mean_and_sd_kpa": {
+      "100": [
+        106,
+        8
+      ],
+      "200": [
+        210,
+        8
+      ],
+      "400": [
+        419,
+        22
+      ],
+      "800": [
+        828,
+        16
+      ]
+    },
+    "stress_semantics": "applied actual normal and shear stresses corrected for changing contact area;group inclusion uses nominal classes;no controlled pore-pressure validation"
+  },
+  "derivation": {
+    "equation": "tau_kpa=c(T)+mu(T)*sigma_lab_kpa",
+    "cohesion": "tau-axis intercept at sigma0",
+    "friction": "slope,mu=tan(phi),not phi degrees",
+    "stage1": "per-temperature peak tau vs actual sigma,Fig6;five selected lowstress temperature classes based on slope p<=0.05",
+    "lowstress_temperature_classes_kept": [
+      -8,
+      -5,
+      -4,
+      -2,
+      -0.5
+    ],
+    "lowstress_temperature_classes_heldout": [
+      -10,
+      -6,
+      -3,
+      -1
+    ],
+    "lowstress_kept_trials_from_table_s1": 67,
+    "lowstress_heldout_trials_from_table_s1": 54,
+    "warm_lowstress_selected_temperature_classes": [
+      -4,
+      -2,
+      -0.5
+    ],
+    "warm_lowstress_selected_trial_count": 37,
+    "warm_highstress_selected_temperature_classes": [
+      -4,
+      -2,
+      -1,
+      -0.5
+    ],
+    "warm_highstress_selected_trial_count": 65,
+    "weighting_ambiguity": "Sect2.4 says predictor inverse variance;Fig7 caption says inverse squared standard errors;do not silently identify without checking coefficient workbook",
+    "author_validation": "temperature-layer holdout plus800 lab extrapolation;not independent local hazards or probability coverage",
+    "eq6_reported_scope": "nominal100-400kPa,-8..-0.5C;actual stresses depart from classes;rapid brittle limestone-ice joint tests"
+  },
+  "publication_inconsistencies": [
+    {
+      "id": "table2_warm_lowstress",
+      "status": "confirmed_visual_and_arithmetic",
+      "claim": "lowstress warm totals257.3kPa/.74 and74.1pct/58.3pct match broad Eq4/5 endpoints,while per-degree83.5/.38 andR2/p match green warm fit;do not combine columns into a fit",
+      "author_intent": "unknown;matching broad endpoints is arithmetic inference,not an author correction"
+    },
+    {
+      "id": "failure_figure_stress_counts",
+      "status": "confirmed_display_discrepancy",
+      "table_s1_counts": [
+        43,
+        40,
+        38,
+        20
+      ],
+      "supplement_figS8_display_counts": [
+        43,
+        41,
+        37,
+        20
+      ],
+      "stress_classes_kpa": [
+        100,
+        200,
+        400,
+        800
+      ],
+      "resolution": "canonical worksheet audit required;do not reassign a trial from display alone"
+    },
+    {
+      "id": "failure_figure_temperature_counts",
+      "status": "confirmed_display_discrepancy",
+      "nominal_minus5C_table_s1_count": 17,
+      "figure8_display_count": 16,
+      "figure8_all_display_count": 140,
+      "resolution": "canonical worksheet audit required;do not infer excluded test or missing failure class"
+    },
+    {
+      "id": "rounding_and_minrate",
+      "status": "minor_reporting_difference",
+      "note": "Eq6 c slopeSE8.8,Fig7 8.7,Fig9 8.75;minimumstrainrate arithmetic mismatch also retained"
+    },
+    {
+      "id": "warm_green_cohesion_temperature_axis",
+      "status": "independent_numeric_reconstruction",
+      "nominal_temperature_inverse_response_error_squared_fit": [
+        49.42855601457558,
+        -83.52348550634723
+      ],
+      "measured_mean_temperature_same_weight_fit": [
+        49.76733087583959,
+        -79.81312730607986
+      ],
+      "interpretation": "nominalT reproduces printed49.4-83.5T whereas actualmeanT doesnot;thisdoesnot proveuniqueauthorcode;see stage1_weight_probe.json"
+    }
+  ],
+  "failure_physics": {
+    "all800_samples_failed_by_fracturing": true,
+    "creep_transition_observed_here": false,
+    "observed_modes": [
+      "ice_internal",
+      "rock_ice_interface",
+      "composite"
+    ],
+    "near_minus0p5_only_interface_in_this_sample": true,
+    "highstress800_interface_fraction": 0.75,
+    "highstress800_pure_ice_fraction": 0,
+    "mechanism_identification_limit": "800 lacks coldtests;temperature/stress/failure-mode mix confounded. Enhanced pressure melting is author hypothesis,not directly demonstrated liquid pressure or a400kPa switch.",
+    "why800_not_merged_into_eq6": [
+      "onlywarmrange,-4..-0.5;lowstresscoverswholetemperaturedesign",
+      "higher-stress lower-than-linear peak strengths flatten slope/raise intercept",
+      "selectedtemperatureclasses anddegreesoffreedom change;distinct physical extrapolation question"
+    ],
+    "no_above_minus0p5_tests": true,
+    "rock_to_rock_transition_not_calibrated": true,
+    "local_material_transfer": "author assumes broad rock similarity but also calls for additional rocktype/roughness/rate tests;not locally validated"
+  },
+  "proposed_fitting_design": [
+    {
+      "id": "D0",
+      "role": "immutable_external_baseline",
+      "form": "publishedEq6;no refit",
+      "domain": "nominal100-400,-8..-0.5C"
+    },
+    {
+      "id": "D1",
+      "role": "transparent_reproduction_and_sensitivity",
+      "form": "two-stage per-T MC then c(T),mu(T);report authorselected vs all121lowstress;OLS/WLS explicit",
+      "validation": "temperatures held out;all screening repeated inside training if evaluating own prediction"
+    },
+    {
+      "id": "D2",
+      "role": "new_pooled_comparator",
+      "form": "tau=beta0+betaT*T+betaS*sigma+betaTS*T*sigma,all matched-range rawtrials;physical positivity andjointcovariance",
+      "validation": "leave-temperature/condition/pair blocks where IDs permit;no randomrow-only claims"
+    },
+    {
+      "id": "D3",
+      "role": "warm_highstress_challenger",
+      "form": "common5warmT unfiltered paired comparison of<=400 vs800;optional fixed400hinge(T) with declaredidentifiability limits",
+      "validation": "800 holdout directionalbias/MAD/RMSE andtemperaturegroups;400..800 breakpointnotestimatedfromonly800addedstress"
+    }
+  ],
+  "falsification_conditions": [
+    "Iflowstressfit systematically overpredicts800 under matched warmtemperature andactualsigma,do not extend singleMC slope without a challenger;thisalone doesnot identifycreep/melting.",
+    "If800deficits vanish after using actualsigma,units,temperaturematching,pair/cellblocking,highstressmechanismclaimweakens.",
+    "Ifrawresiduals trackstrainrate,icethickness,roughness/pair identity orfailuremode,stress/temperature-only fit lacks sufficiency.",
+    "Ifheldout-T errors orcoefficients are unstable/negative/physicallyinadmissible,do not call broaderparametricfit validated.",
+    "No800colddata,no>800data,noT>-.5data andnoslowratecreep tests:corresponding extrapolations remain falsifiable unknowns."
+  ],
+  "source_reconstruction_addendum": {
+    "file": "stage1_weight_probe.json",
+    "role": "independent source-only check,no new model choice",
+    "stage1_candidates": 3,
+    "stage1_records_including_unavailable": 42,
+    "stage2_axis_checks": 12,
+    "individual_ols_matches_12_of_14": true,
+    "both_minus0p5_layers_unreproduced": true,
+    "source_error_header_remains_untyped": true,
+    "numeric_correspondence_to_ols_se_not_header_definition": true
+  },
+  "boundaries": {
+    "local_stress_used_for_tuning": false,
+    "local_time_used_for_tuning": false,
+    "model_modified": false,
+    "canonical_raw_audit_owned_by_other_strength_agent": true,
+    "statistical_prior_created": false,
+    "local_independent_events": 0,
+    "human_scientific_adoption": "pending_team_review"
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "version": "q2r3-lab-strength-independent-raw-v1",
+  "generated_at_utc": "2026-10-24T10:17:35.519094+00:00",
+  "archive_path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.zip",
+  "archive_sha256": "5fcd735a88654af1f4c150313ee79afb855a0ae67ed9319a851d8e125fa420a0",
+  "member_inventory": [
+    {
+      "member": "tc-12-3333-2018-supplement-title-page.pdf",
+      "bytes": 50503,
+      "crc32": 1094469481,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/",
+      "bytes": 0,
+      "crc32": 0,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp6b_WSK_spec1_Fig. S3.xlsx",
+      "bytes": 12443,
+      "crc32": 2665269669,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_frictioncoeff_cohesion_Fig. 8.xlsx",
+      "bytes": 16155,
+      "crc32": 984347074,
+      "actual_data_read": true
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp3b_WSK_spec3_Fig. S3.xlsx",
+      "bytes": 135102,
+      "crc32": 4285857614,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp6b_Fig. 4.xlsx",
+      "bytes": 24648,
+      "crc32": 165806031,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp2b_WSK_spec3_Fig. S3.xlsx",
+      "bytes": 120261,
+      "crc32": 1820141862,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp5c_WSK_spec1_Fig. 5.xlsx",
+      "bytes": 12605,
+      "crc32": 2164786384,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_experiments.xlsx",
+      "bytes": 33239,
+      "crc32": 1158777610,
+      "actual_data_read": true
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp2b_WSK_spec3_Fig. S3.xlsx",
+      "bytes": 33061,
+      "crc32": 951945501,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp7b_WSK_spec2_Fig. S3.xlsx",
+      "bytes": 25763,
+      "crc32": 342209115,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp7b_WSK_spec2_Fig. S3.xlsx",
+      "bytes": 17086,
+      "crc32": 4035615221,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp6b_WSK_spec1_Fig. S3.xlsx",
+      "bytes": 30853,
+      "crc32": 393979723,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp3b_WSK_spec3_Fig. S3.xlsx",
+      "bytes": 32659,
+      "crc32": 4156953738,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp1b_WSK_spec4_Fig. S3.xlsx",
+      "bytes": 141708,
+      "crc32": 2378526651,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp5c_WSK_spec4_Fig. 5.xlsx",
+      "bytes": 12568,
+      "crc32": 476686225,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp5c_WSK_spec2_Fig. 5.xlsx",
+      "bytes": 12612,
+      "crc32": 2243314542,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp1b_WSK_spec4_Fig. S3.xlsx",
+      "bytes": 35112,
+      "crc32": 1539167132,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/Supplement_Mamot et al.docx",
+      "bytes": 1578658,
+      "crc32": 2271726795,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_acoustic_pdf_Fig. S4.xlsx",
+      "bytes": 10089,
+      "crc32": 3490158031,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp5b_WSK_spec2_Fig. S3.xlsx",
+      "bytes": 33374,
+      "crc32": 207122402,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp5b_WSK_spec2_Fig. S3.xlsx",
+      "bytes": 247429,
+      "crc32": 135054577,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_shearmachine_exp6b_Fig. 4.xlsx",
+      "bytes": 42553,
+      "crc32": 518807097,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/Supplement_Mamot et al.pdf",
+      "bytes": 999636,
+      "crc32": 81411565,
+      "actual_data_read": false
+    },
+    {
+      "member": "Supplement/data_timeseries_acoustic_exp5c_WSK_spec3_Fig. 5.xlsx",
+      "bytes": 12876,
+      "crc32": 2779200568,
+      "actual_data_read": false
+    }
+  ],
+  "actual_read_scope": [
+    "Supplement/data_experiments.xlsx",
+    "Supplement/data_frictioncoeff_cohesion_Fig. 8.xlsx"
+  ],
+  "workbooks": [
+    {
+      "member": "Supplement/data_experiments.xlsx",
+      "bytes": 33239,
+      "sha256": "ed9517ae4889192bd1a3278c68b4414c391126dbe9e3133336923795fbbbb20b",
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "state": "visible",
+          "dimension": "A1:P142",
+          "nonempty_cells": 2272,
+          "nonempty_rows": 142,
+          "formula_count": 0
+        },
+        {
+          "name": "Sheet2",
+          "state": "visible",
+          "dimension": "A1",
+          "nonempty_cells": 0,
+          "nonempty_rows": 0,
+          "formula_count": 0
+        },
+        {
+          "name": "Sheet3",
+          "state": "visible",
+          "dimension": "A1",
+          "nonempty_cells": 0,
+          "nonempty_rows": 0,
+          "formula_count": 0
+        }
+      ]
+    },
+    {
+      "member": "Supplement/data_frictioncoeff_cohesion_Fig. 8.xlsx",
+      "bytes": 16155,
+      "sha256": "34ec81f6adb579cd16e8b39a1934d5b786a633f96f12d2a05f65ed7b2fc1a165",
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "state": "visible",
+          "dimension": "A1:BF31",
+          "nonempty_cells": 151,
+          "nonempty_rows": 25,
+          "formula_count": 0
+        },
+        {
+          "name": "Sheet2",
+          "state": "visible",
+          "dimension": "A1",
+          "nonempty_cells": 0,
+          "nonempty_rows": 0,
+          "formula_count": 0
+        },
+        {
+          "name": "Sheet3",
+          "state": "visible",
+          "dimension": "A1",
+          "nonempty_cells": 0,
+          "nonempty_rows": 0,
+          "formula_count": 0
+        }
+      ]
+    }
+  ],
+  "headers": {
+    "A": "experiment",
+    "B": "specimen",
+    "C": "ice layer thickness_mm",
+    "D": "temperature class_degree",
+    "E": "temperature at failure_degree",
+    "F": "normal stress class_kPa",
+    "G": "normal stress at failure_kPa",
+    "H": "time_start deformation_sec",
+    "I": "time_from shear start to end_sec",
+    "J": "time until rupture_sec",
+    "K": "time_onset increase AE hits_sec",
+    "L": "peak shear stress_kPa",
+    "M": "failure type_code number",
+    "N": "failure type_description",
+    "O": "shear rate_from shear start_mm/min",
+    "P": "shear deformation_mm"
+  },
+  "numeric_text_coercions": [
+    {
+      "cell": "F135",
+      "raw_value": "200",
+      "numeric_value": 200.0
+    },
+    {
+      "cell": "G135",
+      "raw_value": "200.4",
+      "numeric_value": 200.4
+    }
+  ],
+  "observation_n": 141,
+  "unique_experiment_specimen_ids": 141,
+  "specimen_label_counts": {
+    "spec1": 27,
+    "spec2": 29,
+    "spec3": 27,
+    "spec4": 24,
+    "spec5": 19,
+    "spec6": 10,
+    "spec7": 4,
+    "spec8": 1
+  },
+  "design_cell_counts": [
+    {
+      "temperature_class_c": -10.0,
+      "stress_class_kpa": 100.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -10.0,
+      "stress_class_kpa": 200.0,
+      "n": 4
+    },
+    {
+      "temperature_class_c": -10.0,
+      "stress_class_kpa": 400.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -8.0,
+      "stress_class_kpa": 100.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -8.0,
+      "stress_class_kpa": 200.0,
+      "n": 4
+    },
+    {
+      "temperature_class_c": -8.0,
+      "stress_class_kpa": 400.0,
+      "n": 4
+    },
+    {
+      "temperature_class_c": -6.0,
+      "stress_class_kpa": 100.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -6.0,
+      "stress_class_kpa": 200.0,
+      "n": 4
+    },
+    {
+      "temperature_class_c": -6.0,
+      "stress_class_kpa": 400.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -5.0,
+      "stress_class_kpa": 100.0,
+      "n": 6
+    },
+    {
+      "temperature_class_c": -5.0,
+      "stress_class_kpa": 200.0,
+      "n": 6
+    },
+    {
+      "temperature_class_c": -5.0,
+      "stress_class_kpa": 400.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -4.0,
+      "stress_class_kpa": 100.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -4.0,
+      "stress_class_kpa": 200.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -4.0,
+      "stress_class_kpa": 400.0,
+      "n": 4
+    },
+    {
+      "temperature_class_c": -4.0,
+      "stress_class_kpa": 800.0,
+      "n": 4
+    },
+    {
+      "temperature_class_c": -3.0,
+      "stress_class_kpa": 100.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -3.0,
+      "stress_class_kpa": 200.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -3.0,
+      "stress_class_kpa": 400.0,
+      "n": 3
+    },
+    {
+      "temperature_class_c": -3.0,
+      "stress_class_kpa": 800.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -2.0,
+      "stress_class_kpa": 100.0,
+      "n": 4
+    },
+    {
+      "temperature_class_c": -2.0,
+      "stress_class_kpa": 200.0,
+      "n": 6
+    },
+    {
+      "temperature_class_c": -2.0,
+      "stress_class_kpa": 400.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -2.0,
+      "stress_class_kpa": 800.0,
+      "n": 3
+    },
+    {
+      "temperature_class_c": -1.0,
+      "stress_class_kpa": 100.0,
+      "n": 4
+    },
+    {
+      "temperature_class_c": -1.0,
+      "stress_class_kpa": 200.0,
+      "n": 5
+    },
+    {
+      "temperature_class_c": -1.0,
+      "stress_class_kpa": 400.0,
+      "n": 4
+    },
+    {
+      "temperature_class_c": -1.0,
+      "stress_class_kpa": 800.0,
+      "n": 4
+    },
+    {
+      "temperature_class_c": -0.5,
+      "stress_class_kpa": 100.0,
+      "n": 4
+    },
+    {
+      "temperature_class_c": -0.5,
+      "stress_class_kpa": 200.0,
+      "n": 1
+    },
+    {
+      "temperature_class_c": -0.5,
+      "stress_class_kpa": 400.0,
+      "n": 3
+    },
+    {
+      "temperature_class_c": -0.5,
+      "stress_class_kpa": 800.0,
+      "n": 4
+    }
+  ],
+  "subset_counts": {
+    "lowfull": 121,
+    "eqdomain": 107,
+    "warmlow": 63,
+    "warmall": 83
+  },
+  "actual_sigma_range_in_400_class_kpa": [
+    391.3795274792277,
+    525.2866837253875
+  ],
+  "actual_temperature_range_in_minus0p5_class_c": [
+    -0.6,
+    -0.3
+  ],
+  "actual_stress_le400_would_exclude_400_target_n": 34,
+  "outcome_material": "Laboratory ice-filled limestone-joint peak shear; external transfer only. Figure8 is derived from same tests; not extra observations.",
+  "grouping_recommendation": {
+    "primary_grouped_evaluation": [
+      "temperature class",
+      "normal stress class"
+    ],
+    "correlation_sensitivity": "Treat specimen label across experiment cells as a possibly reused physical-pair cluster, conservatively, with leave-label-out and cluster-resample sensitivity. Manuscript2.3 retains specimen-pair arrangement and orientation, but explicit label-to-physical-pair map unavailable; not proof of8 independent physical specimens.",
+    "cluster_count": 8,
+    "uncertainty_limit": "Only8 label clusters; small-cluster bootstrap quantiles do not establish95% coverage, and row-level covariance/stratified bootstrap omit possible pair dependence."
+  },
+  "exclusions": [
+    "Do not pool Figure8 derived coefficients with141 raw specimens as extra training points.",
+    "Do not subset stress-class400 using actual sigma<=400.",
+    "Do not use floating measured temperature as a grouping ID; all nominal-class repeats stay in held-out group.",
+    "No local event/time/scenario targets used for fitting/model selection.",
+    "Failure type, rupture time and AE onset are post-failure responses: diagnostic strata only, not predictor features."
+  ],
+  "independent_local_events": 0,
+  "data_role": "external_lab_source_audit"
+}

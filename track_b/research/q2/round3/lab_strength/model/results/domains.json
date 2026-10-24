@@ -1,0 +1,146 @@
+[
+  {
+    "domain": "low_full",
+    "n": 121,
+    "temperature_classes": [
+      -10.0,
+      -8.0,
+      -6.0,
+      -5.0,
+      -4.0,
+      -3.0,
+      -2.0,
+      -1.0,
+      -0.5
+    ],
+    "stress_classes": [
+      100.0,
+      200.0,
+      400.0
+    ],
+    "specimen_labels": [
+      "spec1",
+      "spec2",
+      "spec3",
+      "spec4",
+      "spec5",
+      "spec6",
+      "spec7",
+      "spec8"
+    ],
+    "measured_temperature_min_c": -10.47,
+    "measured_temperature_max_c": -0.4,
+    "measured_normal_stress_min_kpa": 87.02857104927466,
+    "measured_normal_stress_max_kpa": 525.2866837253875,
+    "actual_outside_original_eq6_strict_continuous_domain": 54,
+    "actual_outside_eq6_with_explicit_temperature_tolerance_0p1c": 51,
+    "single_test_cells": 1,
+    "test_cells": 27
+  },
+  {
+    "domain": "low_eq6_temperature",
+    "n": 107,
+    "temperature_classes": [
+      -8.0,
+      -6.0,
+      -5.0,
+      -4.0,
+      -3.0,
+      -2.0,
+      -1.0,
+      -0.5
+    ],
+    "stress_classes": [
+      100.0,
+      200.0,
+      400.0
+    ],
+    "specimen_labels": [
+      "spec1",
+      "spec2",
+      "spec3",
+      "spec4",
+      "spec5",
+      "spec6",
+      "spec7",
+      "spec8"
+    ],
+    "measured_temperature_min_c": -8.25,
+    "measured_temperature_max_c": -0.4,
+    "measured_normal_stress_min_kpa": 95.07776457941166,
+    "measured_normal_stress_max_kpa": 525.2866837253875,
+    "actual_outside_original_eq6_strict_continuous_domain": 40,
+    "actual_outside_eq6_with_explicit_temperature_tolerance_0p1c": 37,
+    "single_test_cells": 1,
+    "test_cells": 24
+  },
+  {
+    "domain": "warm_low",
+    "n": 63,
+    "temperature_classes": [
+      -4.0,
+      -3.0,
+      -2.0,
+      -1.0,
+      -0.5
+    ],
+    "stress_classes": [
+      100.0,
+      200.0,
+      400.0
+    ],
+    "specimen_labels": [
+      "spec1",
+      "spec2",
+      "spec3",
+      "spec4",
+      "spec5",
+      "spec6",
+      "spec7",
+      "spec8"
+    ],
+    "measured_temperature_min_c": -4.6,
+    "measured_temperature_max_c": -0.4,
+    "measured_normal_stress_min_kpa": 96.91439279538784,
+    "measured_normal_stress_max_kpa": 525.2866837253875,
+    "actual_outside_original_eq6_strict_continuous_domain": 24,
+    "actual_outside_eq6_with_explicit_temperature_tolerance_0p1c": 22,
+    "single_test_cells": 1,
+    "test_cells": 15
+  },
+  {
+    "domain": "warm_all",
+    "n": 83,
+    "temperature_classes": [
+      -4.0,
+      -3.0,
+      -2.0,
+      -1.0,
+      -0.5
+    ],
+    "stress_classes": [
+      100.0,
+      200.0,
+      400.0,
+      800.0
+    ],
+    "specimen_labels": [
+      "spec1",
+      "spec2",
+      "spec3",
+      "spec4",
+      "spec5",
+      "spec6",
+      "spec7",
+      "spec8"
+    ],
+    "measured_temperature_min_c": -4.6,
+    "measured_temperature_max_c": -0.3,
+    "measured_normal_stress_min_kpa": 96.91439279538784,
+    "measured_normal_stress_max_kpa": 868.6324664032768,
+    "actual_outside_original_eq6_strict_continuous_domain": 44,
+    "actual_outside_eq6_with_explicit_temperature_tolerance_0p1c": 42,
+    "single_test_cells": 1,
+    "test_cells": 20
+  }
+]

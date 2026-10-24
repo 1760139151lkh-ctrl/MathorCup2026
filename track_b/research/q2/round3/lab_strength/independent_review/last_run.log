@@ -1,0 +1,40 @@
+{
+  "source_n": 141,
+  "subsets": {
+    "lowfull": 121,
+    "eqdomain": 107,
+    "warmlow": 63,
+    "warmall": 83
+  },
+  "specimen_labels": {
+    "spec1": 27,
+    "spec2": 29,
+    "spec3": 27,
+    "spec4": 24,
+    "spec5": 19,
+    "spec6": 10,
+    "spec7": 4,
+    "spec8": 1
+  },
+  "numeric_text": [
+    {
+      "cell": "F135",
+      "raw_value": "200",
+      "numeric_value": 200.0
+    },
+    {
+      "cell": "G135",
+      "raw_value": "200.4",
+      "numeric_value": 200.4
+    }
+  ],
+  "wrong_stress_filter_excluded": 34
+}
+{
+  "checks": 17,
+  "max_fit_error_kpa": 1.5006662579253316e-11,
+  "max_cv_error_kpa": 2.9831426218152046e-10,
+  "bootstrap_attempts": 32000,
+  "bootstrap_failed": 6,
+  "max_bootstrap_relative_error": 1.0342474969757995e-11
+}
