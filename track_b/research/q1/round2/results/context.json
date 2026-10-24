@@ -1,0 +1,35 @@
+{
+  "input_version": {
+    "common_baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "round2_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+    "round1_window_table_sha256": "2801aae2d6645c549fb2d6fdd13590dfc445df6fc82473dd24f30977169dc7e3"
+  },
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "background",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "id": "Gyirong_regional_background",
+    "crs": "EPSG:4326",
+    "longitude": 85.29,
+    "latitude": 28.86,
+    "status": "same-title metadata assertion; not a verified source-area local observation"
+  },
+  "variable_semantics": {
+    "units": "original header labels",
+    "quality_view": "original_qc0 and diagnostics_unknown_qc kept separate",
+    "reporting_interval": null
+  },
+  "available_time": null,
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "data_role": "exploration",
+  "evidence_status": "local_fact",
+  "limitations": [
+    "Reference clocks are not new accepted event truths",
+    "Annual medians, not hourly samples, receive equal weight",
+    "Background years are not confirmed no-event labels",
+    "Raw degree-median arithmetic is not a circular mean"
+  ]
+}

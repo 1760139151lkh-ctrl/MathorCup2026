@@ -1,0 +1,115 @@
+{
+  "scope": "Direct inputs only; excludes itself and output_manifest.json; R1 immutable inputs plus saved R2 evidence/config.",
+  "files": [
+    {
+      "path": "track_b/research/q1/round2/config/analysis.json",
+      "bytes": 2617,
+      "sha256": "a4e481d06a62c79689f02832ae0f496971db1f619163358b150ab8dea4c4dbad"
+    },
+    {
+      "path": "track_b/audit/stage4/round2/baseline_manifest.json",
+      "bytes": 153919,
+      "sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+    },
+    {
+      "path": "track_b/config/stage4_round2_contract.json",
+      "bytes": 2240,
+      "sha256": "6ab9af1465561344abd95424a0866d21d4c35b096cd4a0367b9c697ade789313"
+    },
+    {
+      "path": "track_b/audit/stage4/round2/round1_preservation.json",
+      "bytes": 23794,
+      "sha256": "48503d599d29438747b27681b528937f07011256ca3c1b2c28465aa5b7b02649"
+    },
+    {
+      "path": "track_b/research/q1/results/window_descriptives.csv",
+      "bytes": 610663,
+      "sha256": "2801aae2d6645c549fb2d6fdd13590dfc445df6fc82473dd24f30977169dc7e3"
+    },
+    {
+      "path": "track_b/research/q1/results/constant_run_candidates.csv",
+      "bytes": 112591,
+      "sha256": "72207d81dbe748963af67c43e1f21388f40748e8260b0092436c73462404f3a7"
+    },
+    {
+      "path": "track_b/research/q1/results/variable_semantics.csv",
+      "bytes": 37217,
+      "sha256": "68b08a08139b34fc816f54082d781feaa6b656fd50527a45311aabb102def153"
+    },
+    {
+      "path": "track_b/research/q1/results/remote_flux_comparison.json",
+      "bytes": 2107,
+      "sha256": "4c97ae2797e4f7831f309c6c197d40e5e18e6e53beafed80d31f0723dd6faf5f"
+    },
+    {
+      "path": "track_b/research/q1/results/remote_flux_column_comparison.csv",
+      "bytes": 3793,
+      "sha256": "0f82cf466a8b5f6679eaa85493e6204645222e91db80aac132756ce10e75ce09"
+    },
+    {
+      "path": "track_b/research/q1/results/remote_flux_candidate_qc_tokens.csv",
+      "bytes": 4062,
+      "sha256": "c9070ed218f8377bd839156cf97e2641b2ef670758a091ff117b0198238013d3"
+    },
+    {
+      "path": "track_b/research/q1/config/round1.json",
+      "bytes": 4427,
+      "sha256": "ad55134caa1d343a58ddc987e1880f89168367d4c730f39fe1ef37d75a8535f2"
+    },
+    {
+      "path": "track_b/research/q1/sources/waternet_metadata.html",
+      "bytes": 231361,
+      "sha256": "cbcb4dd9f8cbb257d8a90ba1cc0821c2744e9719a794c198889787ea9839abb0"
+    },
+    {
+      "path": "track_b/research/q1/sources/access_log.json",
+      "bytes": 2080,
+      "sha256": "2ad7a8f5ed6ffcb9c89dd5d747a89217dcd7779bdb211bd5a016d33d765e785f"
+    },
+    {
+      "path": "track_b/research/q1/sources/waternet_flux_2026.csv",
+      "bytes": 2228464,
+      "sha256": "f2497ab03d3898c5e0a5fd879e8acf9a56a00e0afafb4b677d86e39bc6b3c4f0"
+    },
+    {
+      "path": "track_b/data/processed/temporal/data_dictionary.json",
+      "bytes": 97865,
+      "sha256": "759e8fb18f8bdfe4866cf1599325828d59248979e1ba1443a46add6543adfbc0"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_raw_numeric.parquet",
+      "bytes": 15685229,
+      "sha256": "96fde2bc36b72919859546c3b4dcf8a35f2e4b59da2b08bd322ae28691df5b32"
+    },
+    {
+      "path": "track_b/data/processed/temporal/hourly_time_axis.parquet",
+      "bytes": 1527460,
+      "sha256": "ae95cadabf5158348bd7069f285eafe96ab04c4a691fab5da715ee31ec4921fa"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2022.csv",
+      "bytes": 1704763,
+      "sha256": "d5913e0ed45e78fa5440646fb8451becbce5ebc2a7754a206ba79a7fa27bfedf"
+    },
+    {
+      "path": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2023.csv",
+      "bytes": 2106293,
+      "sha256": "1dd38328dab47873af92dbae8d8ecf5745ac9683d78a961fc8b41db39aba7102"
+    },
+    {
+      "path": "track_b/research/q1/round2/sources/aas_doi_response.html",
+      "bytes": 10614,
+      "sha256": "83e2fe649bf6bb307447d9fd263fa60bfe9e07fe51c97d5ec743910d9b7803e7"
+    },
+    {
+      "path": "track_b/research/q1/round2/sources/capture_log.json",
+      "bytes": 1520,
+      "sha256": "3485c00a38b66d4c2fbefc1decdda58d9882fba6d17777f0566fe2871c05a67f"
+    },
+    {
+      "path": "track_b/research/q1/round2/sources/essd_2026_article.html",
+      "bytes": 360458,
+      "sha256": "055be0ab376812a4123a027633770527cd8a81a030e19a35d602f06d3d618261"
+    }
+  ]
+}

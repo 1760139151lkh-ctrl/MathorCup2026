@@ -1,0 +1,13 @@
+claim_id,claim,outcome,evidence_refs,basis_and_role_boundary,next_action,physical_phase,data_role,available_time
+A01,同名元数据声明1h分辨率和UTC+8,adoptable_with_explicit_role,S01,可继续作为明确记录的元数据解释假设，不能证明本地24文件同版或积分边界,沿用假设并展示限制，不修订公共规则,background,exploration,
+A02,WaterNet Version2026-09-12和Dataset1.3可确定本地处理版本,excluded_with_reason,S01,页面可见标记没有连接到本地处理/订正版本，不能直接作处理版本证据,需要目标数据处理记录；本轮结束,background,exploration,
+A03,远端FLUX四QC列1—9的目标专用含义,unknown_with_evidence_and_next_action,S01;S03,实际词法1—9/NaN但通用集合0/1/2/4/8/9不提供对应字典,保持unknown；须目标处理手册与版本映射,background,exploration,
+A04,可将通用MET码套到远端FLUX并移植QC0,excluded_with_reason,S01;S03,编码集合及本地/远端缺测数值不一致，无对应链,不迁移、不创造接受标签,background,exploration,
+A05,小时标签是平均起点/终点/中心及降水累计窗,unknown_with_evidence_and_next_action,S01;S02;S05,只见1h分辨率/统一格式，未取得目标积分/标签说明,背景只按保存标签窗；累计和业务时效继续待证,background,exploration,
+A06,相关ESSD论文证明目标303600的具体EddyPro/REddyProc处理,excluded_with_reason,S04,论文方法可读但绑定DOI302428和不同观测期，未连接目标版本；排除直接证明，并非证明本地未用该方法,仅登记相关流程线索，不移植算法/QC,background,exploration,
+A07,目标FLUX软件/订正链/版本已确认,unknown_with_evidence_and_next_action,S01;S02;S04;S05,目标详情未得正文，相关链未建立，AAS404不是正文证据,保留unknown，有处理记录再继续,background,exploration,
+A08,4317标签常值是阶段3标准化引入,excluded_with_reason,local_constant_trace,原附件逐标签与保存处理切片完全一致，常值在附件中已存在,排除此步引入；保留原值,background,exploration,
+A09,常值确实存在于指定原附件段及处理副本,adoptable_with_explicit_role,local_constant_trace,4317连续标签均为1.776582，12行最小边界摘录可回指原CSV,采用为局部数据事实，不视为真实大气稳定,background,exploration,
+A10,常值的仪器故障/填值/预处理成因或真实环境原因,unknown_with_evidence_and_next_action,local_constant_trace;S01;S04,没有原始高频观测或目标处理日志；相关论文流程不能给出该段成因,不删值/补QC/解释真实状态；由队员预设质量敏感性,background,exploration,
+A11,年度median等权背景可作区域站描述,adoptable_with_explicit_role,R1_window_table;R2_background_checks,固定表上每有效年权重1，缺年不补零，2026单列，原QC0/unknown分列,可继续四类背景草稿，非事件关联,background,exploration,
+A12,风向原角度median等权可解释物理平均风向,excluded_with_reason,R1_window_table;R2_background_checks,环变量的原角度标量汇总仅保留算术轨迹,不作平均风向解释；后续另定环向协议,background,exploration,

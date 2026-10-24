@@ -1,0 +1,35 @@
+{
+  "analysis_version": "q1-r2-equal-year-v1",
+  "common_baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+  "round2_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+  "round1_window_table": "track_b/research/q1/results/window_descriptives.csv",
+  "round1_window_table_sha256": "2801aae2d6645c549fb2d6fdd13590dfc445df6fc82473dd24f30977169dc7e3",
+  "group_keys": ["anchor_id", "window_hours", "variable_id", "quality_view"],
+  "background_years": [2021, 2022, 2023, 2024, 2025],
+  "target_year": 2026,
+  "window_hours": [24, 72, 168],
+  "valid_annual_value_rule": "finite original annual-window median AND descriptive_view_count > 0; no added coverage exclusion",
+  "background_weight_rule": "1 for each valid annual median; 0 for missing annual median; never weight by hour count or fill missing years with zero",
+  "background_outputs": ["mean_of_valid_annual_medians", "median_of_valid_annual_medians", "minimum_of_valid_annual_medians", "maximum_of_valid_annual_medians", "valid_year_count", "valid_years", "per_year_input_row_and_weight"],
+  "target_rule": "2026 values and counts separate; no ranking, tests, event truth or causality",
+  "wind_direction_rule": "Raw annual degree medians may be reproduced arithmetically but are excluded from physical mean-direction interpretation; no circular-mean recalculation this round",
+  "plot_anchor": "problem_1030",
+  "representative_variables": ["MET__Ta_2m", "RADM__Rsd", "SOIL__soilT_0.1m", "SOIL__VWC_0.1m", "FLUX__LE", "MET__Precip"],
+  "constant_segment": {
+    "variable_id": "FLUX__amb_e_sat",
+    "raw_column": "amb_e_sat(kPa)",
+    "start_source_clock": "2022-07-17T21:00:00",
+    "end_source_clock_inclusive": "2023-01-13T17:00:00",
+    "hour_labels": 4317,
+    "expected_raw_value": 1.776582,
+    "processed_start_hour_index": 13509,
+    "processed_end_hour_index_inclusive": 17825,
+    "raw_ranges": [
+      {"file": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2022.csv", "first_row_1based": 4751, "last_row_1based": 8761},
+      {"file": "04_B赛道/01_逐小时地气观测（2021-2026）/FLUX_Gyirong_2023.csv", "first_row_1based": 2, "last_row_1based": 307}
+    ],
+    "boundary_neighbor_labels_each_side": 2,
+    "rule": "Verify this one segment and minimal neighbors against competition attachment and saved pipeline values; do not infer sensor/processing/fill origin or create quality flags"
+  },
+  "machine_context": {"physical_phase": "background", "data_role": "exploration", "available_time": null, "forecast_reference_time": null, "issue_time": null, "valid_time": null}
+}

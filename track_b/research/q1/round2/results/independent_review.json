@@ -1,0 +1,27 @@
+{
+  "reviewer": "q1_r2_background_review independent AI agent",
+  "human_review": false,
+  "passed": true,
+  "scope": "Actual read-only stdlib CSV/statistics independent verification; no R1 hourly window recomputation or visual inspection",
+  "checks": [
+    "all378 equal-year groups independently recomputed",
+    "1890 annual values and378 target rows, weights/year lists/missingness/physical CSV row references match",
+    "144 missing-year groups all omit only2022",
+    "six representative series match independently computed values",
+    "12 boundary rows match raw timestamp and three original lexical columns",
+    "processed index13509..17825 has4317 continuous labels equal1.776582"
+  ],
+  "reviewed_file_sha256": {
+    "results/background_year_values.csv": "3ff5754a459ae1bfddb64d85593abe08a8887159a97cd54a75d8249a1ed169bb",
+    "results/background_equal_year.csv": "60a0bef21420b0f653101dfa354e531ebdd6d7a7b71ef9725ed070fc451b32f1",
+    "results/target_year_values.csv": "48c1b73da55637bcb5aa73753bff72c4b53b6035eeebe192e4a9432edcac3b5b",
+    "results/constant_segment_trace.json": "0f08da91d2689d0ab069112f8b745c43d61f2b39942a0270872648cc991020de",
+    "results/constant_segment_boundary_excerpt.csv": "57d397c1f3af6a9c7f884561bea95133592bcb175c8c569581736d02aca52da8",
+    "scripts/run_round2.py": "8206d544836eaa463c195cb3fecabb0b4e7f9c9a988df92d9d3ece940c3f3b81"
+  },
+  "exact_temporary_verifier_code_archived": false,
+  "limitations": [
+    "does not certify original instrument/processing/QC semantics",
+    "does not provide human scientific adoption"
+  ]
+}

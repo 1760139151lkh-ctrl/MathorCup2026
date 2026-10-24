@@ -1,0 +1,14 @@
+[
+  {
+    "anchor_id": "problem_1030",
+    "rows": 1134,
+    "same_values_and_counts_as_first_anchor": true,
+    "limitation": "Same saved whole-hour samples are not independent timing-sensitivity evidence"
+  },
+  {
+    "anchor_id": "usgs_reference",
+    "rows": 1134,
+    "same_values_and_counts_as_first_anchor": true,
+    "limitation": "Same saved whole-hour samples are not independent timing-sensitivity evidence"
+  }
+]
