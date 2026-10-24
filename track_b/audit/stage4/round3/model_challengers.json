@@ -1,0 +1,23 @@
+{
+  "round": "round3",
+  "registered_at_utc": "2026-10-24T08:28:41.279129+00:00",
+  "challengers": [
+    {
+      "id": "q2-analytic-thermal-kernel",
+      "owner": "q2",
+      "reason": "Full2048 thermal spatial-reference comparison shows up to18.9438h first-crossing shift despite identical onset categories; representative subset understates extremes.",
+      "new_explanation": "Whether finite-difference thermal error near the criterion changes the first crossing forcing episode.",
+      "physics": "Same constant-alpha1D conduction, initial and surface-boundary scenarios; half-space superposition is a numerical challenger, not a new causal mechanism.",
+      "comparison": "Same256 paired parameter points, four mechanisms and two strength policies; retain FD v1/v2 and all outcomes.",
+      "tests": [
+        "causal step response and arbitrary boundary superposition",
+        "40m finite-bottom versus half-space applicability bound",
+        "temperature and crossing comparison with existing FD reference",
+        "no circular convolution or future input",
+        "state/crossing hourly and no-start/left-censor categories retained"
+      ],
+      "outputs": "independent analytic engine, complete outcomes, parameter/base-scenario map, export bundle; no old bytes overwritten",
+      "scientific_adoption": "pending_review"
+    }
+  ]
+}

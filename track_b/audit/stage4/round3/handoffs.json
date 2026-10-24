@@ -824,7 +824,68 @@
         }
       ],
       "review_note": "Accepted as thermally refined conditional mechanism branch (dz0.125m; representative reference0.0625m), retaining v1. All2048 outcomes preserve onset category; v1-v2 onset times differ by up to46.819h, so timing conclusions must use/refine the new branch and report numerical sensitivity.64 representative comparisons have max margin error0.01027, not an all-parameter convergence theorem. Join release v2 through base_scenario_id and documented model mapping; no new observed event/operational eligibility/probability prior accepted."
+    },
+    {
+      "producer": "q2",
+      "consumer": "q3",
+      "bundle_version": "q2-r3-numerical-limits-v1",
+      "upstream_path": "track_b/research/q2/round3/exports/numerical_supplement_bundle.json",
+      "upstream_bundle_sha256": "151a7c7f822f3970a7dbdc0194b4c1df18548dbb70afca19a5927f49f3206b03",
+      "delivered_bundle_path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/bundle.json",
+      "delivered_bundle_sha256": "8ad708b3867ac35421ac1e3aa035969c52136e5bed1c845b190e9223fcad1b5b",
+      "files": [
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/NUMERICAL_LIMITS.md",
+          "bytes": 2906,
+          "sha256": "8ef2e2c0c49ff24ea662dc6e28f3d7633ed5989f77ae4e7ad427d2349e561b83",
+          "role": "NUMERICAL_LIMITS.md",
+          "upstream_path": "track_b/research/q2/round3/NUMERICAL_LIMITS.md"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/full_reference_summary.json",
+          "bytes": 7931,
+          "sha256": "56798acafd21718b89bc7fd5743baf876cb6710c6322a2fd5280a667c3b32786",
+          "role": "results/refined_v2/full_reference_summary.json",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/full_reference_summary.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/full_reference_checks.csv",
+          "bytes": 524365,
+          "sha256": "1344f30d8e9fdffbd7db5051cb1d58bdb97d9a8ba202fe6b072aa5ecfe072623",
+          "role": "results/refined_v2/full_reference_checks.csv",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/full_reference_checks.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/full_reference_check.py",
+          "bytes": 9289,
+          "sha256": "78e2ca0511cf5ce0c26e27f7383aac6c3910f402d7858534c47f4df945b983e3",
+          "role": "results/refined_v2/full_reference_check.py",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/full_reference_check.py"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/top5_onset_reference_summary.json",
+          "bytes": 3235,
+          "sha256": "fc963bcffc9d14f248440902139d6a8271116ca0cecb742ef7aac0f452a4910b",
+          "role": "results/refined_v2/top5_onset_reference_summary.json",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/top5_onset_reference_summary.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/top5_onset_reference_checks.csv",
+          "bytes": 28311,
+          "sha256": "cd4cf56d6c34971fb0721cb9f021922492fcb35c72d2c75ad7d86d3e2dae789b",
+          "role": "results/refined_v2/top5_onset_reference_checks.csv",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/top5_onset_reference_checks.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/numerical_supplement_bundle_q2-r3-numerical-limits-v1/files/results/refined_v2/top5_reference_extract.py",
+          "bytes": 7395,
+          "sha256": "b161423dda2857f6e11b4ecec0cbbf3609a7b27d4beea61313de2d29ae037114",
+          "role": "results/refined_v2/top5_reference_extract.py",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/top5_reference_extract.py"
+        }
+      ],
+      "review_note": "Required numerical limits accompanying mechanism v2. Full2048 paired cases retain all categories but10 fail margin0.02 target; max first-crossing difference18.9438h among137 finite pairs. Representative64-case convergence cannot be generalized. Cross-grid differences are neither rigorous error bounds nor probabilities; do not present model-internal narrow intervals as precise initiation forecasts without this sensitivity."
     }
   ],
-  "updated_at_utc": "2026-10-24T08:07:39.890155+00:00"
+  "updated_at_utc": "2026-10-24T08:27:48.525154+00:00"
 }
