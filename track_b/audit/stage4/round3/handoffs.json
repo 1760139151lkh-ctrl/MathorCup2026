@@ -693,7 +693,138 @@
         }
       ],
       "review_note": "Accepted as additional full-Q4-candidate-mask release mapping, distinct from v1 small-area release assumptions. 64 rows retain base_scenario_id, 60/120m grids conserve the same volume, four provided TIFFs independently read and integrated. Full-mask volume16.48-51.76Mm3 is conditional, not observed; no pressure-storage-to-free-water conversion, no-start/left-censored parents retained. Preserve release mapping and base-state linkage; do not silently substitute into v1 preregistered geometry experiments."
+    },
+    {
+      "producer": "q2",
+      "consumer": "q3",
+      "bundle_version": "q2-r3-mechanism-thermal-refinement-v2",
+      "upstream_path": "track_b/research/q2/round3/exports/mechanism_bundle_v2.json",
+      "upstream_bundle_sha256": "dc53a9f805e96ff32b2c1fd064b0b7b33d90034e7d2c987f42403ae70bfcb093",
+      "delivered_bundle_path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/bundle.json",
+      "delivered_bundle_sha256": "12eb0b329acede54face734b145cf33a8bfc5d329f6231b5a110c52ddec618c9",
+      "files": [
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_protocol.json",
+          "bytes": 895,
+          "sha256": "21e72fbe8d79980a626e390958469305ee4e8f84b9cdd744f2d2e4c4756be006",
+          "role": "refinement_protocol.json",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/refinement_protocol.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/config.json",
+          "bytes": 4642,
+          "sha256": "210616d1e1adb94e57cdb3ef415cb40808ae4a05f7a0fdd81f3b5dddfd24d5ac",
+          "role": "config.json",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/config.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/forcing_hourly_v2.csv",
+          "bytes": 278218,
+          "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+          "role": "forcing_hourly_v2.csv",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/forcing_hourly_v2.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/parameter_ensemble.csv",
+          "bytes": 1169784,
+          "sha256": "a8a8f091a7cb0abf1847db784c83d9e4b73f42896c126468b100026f1ea35293",
+          "role": "parameter_ensemble.csv",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/parameter_ensemble.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/state_trajectories.parquet",
+          "bytes": 3188047,
+          "sha256": "8f69e562bda819a348ec0e7dc000d79af7885015f4770a5ebbe5c6ec01a7b081",
+          "role": "state_trajectories.parquet",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/state_trajectories.parquet"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/scenario_outcomes.csv",
+          "bytes": 837472,
+          "sha256": "2338e53291c2225f1e172cc85145d6cc047d6c40599b49051f51fe790b5f6edd",
+          "role": "scenario_outcomes.csv",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/scenario_outcomes.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/model_comparison.csv",
+          "bytes": 1688,
+          "sha256": "5a54fb20bced14d387daaa6acd34f364bef776e919bddc513ebc9b89c7f703a6",
+          "role": "model_comparison.csv",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/model_comparison.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/mechanism_contract.json",
+          "bytes": 3907,
+          "sha256": "afca7a8fd0684808e4bab67cdad073e80aedc189bc0fae234047e9ecfaa5e5ff",
+          "role": "mechanism_contract.json",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/mechanism_contract.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/paired_v1_v2.csv",
+          "bytes": 1065426,
+          "sha256": "c3a2d4a971cf98b355ec6a69800ec0d56abeea96a2f7caeb250214aa2ca1e0f1",
+          "role": "paired_v1_v2.csv",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/paired_v1_v2.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/joint_sensitivity.csv",
+          "bytes": 30015,
+          "sha256": "38a97ed39c79cab5964a1b31cf18b753fb6fc40f86b73a2f9b4cabbd499fe4de",
+          "role": "joint_sensitivity.csv",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/joint_sensitivity.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/interaction.csv",
+          "bytes": 13784,
+          "sha256": "8681e19e24fa0ee3569720f4032df9d288f07d7cfa6dfe9071cf0d8f9e36b456",
+          "role": "interaction.csv",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/interaction.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_125_vs_0625.csv",
+          "bytes": 10885,
+          "sha256": "a45f8707ea1afcd91521187e223c1e27332d055fbdd3689ea9d1ec99b02f591d",
+          "role": "refinement_125_vs_0625.csv",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/refinement_125_vs_0625.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/results/refined_v2/refinement_summary.json",
+          "bytes": 4746,
+          "sha256": "091ce1777f5deaa4ff76341ebe435ec9a713e73d3dd901b6b48a6aff08dc7a79",
+          "role": "refinement_summary.json",
+          "upstream_path": "track_b/research/q2/round3/results/refined_v2/refinement_summary.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/mechanism_engine.py",
+          "bytes": 10650,
+          "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+          "role": "frozen_local_mechanism_engine",
+          "upstream_path": "track_b/research/q2/round3/scripts/mechanism_engine.py"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/run_experiments.py",
+          "bytes": 21983,
+          "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1",
+          "role": "parent_parameter_design_source",
+          "upstream_path": "track_b/research/q2/round3/scripts/run_experiments.py"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/scripts/run_refined_v2.py",
+          "bytes": 28213,
+          "sha256": "100ece09e9348a81d3344964a6d9603347b388b5f5dc01beea707542e808e616",
+          "role": "refined_v2_reproduction_script",
+          "upstream_path": "track_b/research/q2/round3/scripts/run_refined_v2.py"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_v2_q2-r3-mechanism-thermal-refinement-v2/files/NUMERICAL_REFINEMENT.md",
+          "bytes": 3098,
+          "sha256": "0c147f8f7cc52d6135ce7dee87fc12304f5f3c633123c13f960f464d84658b9f",
+          "role": "numerical_refinement_methods_limits",
+          "upstream_path": "track_b/research/q2/round3/NUMERICAL_REFINEMENT.md"
+        }
+      ],
+      "review_note": "Accepted as thermally refined conditional mechanism branch (dz0.125m; representative reference0.0625m), retaining v1. All2048 outcomes preserve onset category; v1-v2 onset times differ by up to46.819h, so timing conclusions must use/refine the new branch and report numerical sensitivity.64 representative comparisons have max margin error0.01027, not an all-parameter convergence theorem. Join release v2 through base_scenario_id and documented model mapping; no new observed event/operational eligibility/probability prior accepted."
     }
   ],
-  "updated_at_utc": "2026-10-24T07:58:51.218855+00:00"
+  "updated_at_utc": "2026-10-24T08:07:39.890155+00:00"
 }

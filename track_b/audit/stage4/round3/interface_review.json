@@ -48,5 +48,29 @@
     "first_passage gap detection must check missing timestamp rows, not only finite values",
     "discover/read Q2 state_trajectories.parquet, not CSV only"
   ],
-  "actual_review_updated_at_utc": "2026-10-24T07:50:05.055413+00:00"
+  "actual_review_updated_at_utc": "2026-10-24T08:13:14.102480+00:00",
+  "q4_code_review": {
+    "reviewed": [
+      "official_prepare.py",
+      "official_container.py",
+      "official_analyse.py",
+      "Q2 release mapping",
+      "fixed Rev7/D-Claw output and initialization source"
+    ],
+    "confirmed": [
+      "DClaw binary64 layout, ghost removal, north-south flip, velocities and Pa pore pressure",
+      "Q2 CRS84 to UTM transformation and exact intersection-volume mapping"
+    ],
+    "issues_delivered": [
+      "Replace frame_index*20 fallback with native output time; preserve unknown if no evidence",
+      "Retain native-crash/partial-run status even after earlier target hit",
+      "DClaw initial normalized L1 thickness difference13.899percent and support67 to111 cells; distinguish shared input/volume from native initial field",
+      "Native edge store vs extrapolation vs FV zero-gradient boundaries; compare before boundary interaction and avoid attributing all difference to extra physics"
+    ],
+    "research_status": "ongoing; issues do not terminate whole routes"
+  },
+  "supplementary_evidence_requests": [
+    "Q2 first-passage convergence for largest v1-v2 timing differences",
+    "Q2 published candidate ice fraction10-15percent versus initial design20-80percent ice; retain original and add paired domain sensitivity"
+  ]
 }
