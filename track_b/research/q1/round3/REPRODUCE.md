@@ -38,7 +38,7 @@ track_b/.venv/bin/python track_b/research/q1/round3/scripts/finalize_packet.py
 track_b/.venv/bin/python track_b/research/q1/round3/scripts/finalize_packet.py --verify-only
 ```
 
-清单不包含自身；稳定产物清单排除可变工作区绑定/收尾报告、运行日志与pycache，精确范围见清单字段。早交feature_bundle保持版本、文件大小和哈希，包含自身的输出清单只作为最终包入口，不循环相互引用。
+清单不包含自身；稳定产物清单排除可变工作区绑定/收尾报告、运行日志与pycache，精确范围见清单字段。早交feature_bundle保持版本、文件大小和哈希，输出清单仅作为最终包入口，不包含自身。
 
 ## 联网获取命令（复现时使用新版本目录）
 
