@@ -1,0 +1,54 @@
+{
+  "generated_at_utc": "2026-10-24T03:50:54.707567+00:00",
+  "scope": "B track + rules + templates",
+  "indexed_count": 270,
+  "b_count": 266,
+  "status_counts": {
+    "match": 270
+  },
+  "b_bytes": 438979510,
+  "b_groups": {
+    "00_赛题": 1,
+    "01_逐小时地气观测（2021-2026）": 24,
+    "02_逐日平均气温（2005-2025）": 23,
+    "03_冰川及表面高程变化（2000-2020）": 190,
+    "04_冰川地形、冰厚及表面速度": 1,
+    "05_土地覆盖（2020-2023）": 4,
+    "06_历史灾点": 11,
+    "07_DEM（2026-08-26）": 5,
+    "08_第七次人口普查": 7
+  },
+  "b_extensions": {
+    ".pdf": 1,
+    ".csv": 24,
+    ".xlsx": 21,
+    ".jpg": 1,
+    ".doc": 1,
+    ".cpg": 4,
+    ".dbf": 5,
+    ".prj": 5,
+    ".sbn": 5,
+    ".sbx": 5,
+    ".shp": 5,
+    ".shx": 5,
+    ".tif": 173,
+    ".docx": 1,
+    ".nc": 1,
+    ".lock": 4,
+    ".xml": 3,
+    ".tfw": 1,
+    ".ovr": 1
+  },
+  "b_zero_byte_files": [
+    "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp.CZN.26552.33604.sr.lock",
+    "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp.CZN.29700.33604.sr.lock",
+    "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp.CZN.30008.33604.sr.lock",
+    "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp.CZN.4308.33604.sr.lock"
+  ],
+  "unindexed_b_files": [],
+  "missing_b_files": [],
+  "limitations": [
+    "Hashes are compared with the existing repository index, not a provider-signed manifest.",
+    "File-header and content semantics are covered by the separate temporal/spatial audits."
+  ]
+}

@@ -1,0 +1,898 @@
+[
+  {
+    "tile": "N27E086",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N27E086",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N27E086",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2010-01-01_2015-01-01_dhdt5_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2010-01-01_2015-01-01_dhdt5_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N27E086",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E086_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N27E087",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N27E087",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N27E087",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N27E087",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N27E087_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E084",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E084",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E084",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E084",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E084_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E085",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E085",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E085",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E085",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E085_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E086",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E086",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E086",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E086",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E086_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E087",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E087",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E087",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N28E087",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N28E087_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E084",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E084",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E084",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E084",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E084_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E085",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E085",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E085",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E085",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E085_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E086",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E086",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E086",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E086",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E086_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E087",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E087",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E087",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N29E087",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N29E087_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E084",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E084",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E084",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E084",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E084_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E085",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E085",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E085",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E085",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E085_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E086",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E086",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E086",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E086",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E086_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E087",
+    "period_start": "2000-01-01",
+    "period_end": "2005-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2000-01-01_2005-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2000-01-01_2005-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E087",
+    "period_start": "2005-01-01",
+    "period_end": "2010-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2005-01-01_2010-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2005-01-01_2010-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E087",
+    "period_start": "2010-01-01",
+    "period_end": "2015-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2010-01-01_2015-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2010-01-01_2015-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  },
+  {
+    "tile": "N30E087",
+    "period_start": "2015-01-01",
+    "period_end": "2020-01-01",
+    "variant_counts": {
+      "dhdt_UTM": 1,
+      "dhdt_GCS": 1,
+      "error_UTM": 1
+    },
+    "paths": [
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2015-01-01_2020-01-01_dhdt_UTM45_UTM45_GCS.tif",
+      "03_冰川及表面高程变化（2000-2020）/N30E087_2015-01-01_2020-01-01_dhdt_err.tif"
+    ],
+    "interpretation": "GCS and UTM are reprojection variants of the same signal; error is uncertainty, not an extra observation"
+  }
+]

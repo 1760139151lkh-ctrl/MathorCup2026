@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "stage3_preprocessing_candidate_not_final_model_domain",
+  "work_crs": "EPSG:32645",
+  "work_crs_reason": "Local metre-based WGS84 / UTM zone 45N candidate for the supplied Nepal-border source grid and DEM; not a final area-of-use decision for all regional 200 km data.",
+  "axis_order": "always_xy=True; geographic input/output is longitude,latitude",
+  "datum_operation": "Use pyproj TransformerGroup and record selected operation, accuracy and ballpark flag. Unknown accuracy/ballpark is permitted only for exploratory coverage; no survey-grade positional claim.",
+  "geometry": {
+    "planar_analysis": "Force geometry copies to 2D; source Z values remain unchanged in originals and have no verified vertical semantics.",
+    "invalid_geometry": "Use make_valid on derived copies only and record counts; no source edits.",
+    "geographic_edge_densification_max_degrees": 0.000277746719,
+    "intersection": "Shapely projected planar geometry intersection after source-edge densification; area in square metres. Raster valid coverage separately measured from native pixel masks."
+  },
+  "dem": {
+    "output_grid_metres": 30,
+    "resampling": "bilinear",
+    "output_nodata": -9999.0,
+    "vertical_units": "m as source metadata",
+    "vertical_datum": "unknown; no vertical datum transformation performed",
+    "native_acquisition_date": null,
+    "warning": "30 m target sampling does not imply improved native spatial resolution, verified event-time terrain or a hydrologically corrected DEM."
+  },
+  "netcdf": {
+    "engine": "h5netcdf",
+    "decode_cf": true,
+    "mask_and_scale": true,
+    "decode_coords": "all",
+    "positive_mask": "finite(glacier_mask) and glacier_mask > 0",
+    "geotiff_orientation": "x increasing and y decreasing; reverse arrays with coordinates when necessary",
+    "continuous_resampling": "bilinear",
+    "categorical_resampling": "nearest",
+    "warning": "NC glacier mask is a source-parameter grid reference, not an independently confirmed 2026 failure polygon."
+  },
+  "landcover": {
+    "resampling": "nearest",
+    "nodata": 0,
+    "classes": "Retain numeric codes; names and product legend unverified",
+    "sample_support": "All positive NC glacier-mask cell centres transformed with formal pyproj; corresponding native raster cell is sampled. Also warp a nearest-neighbour NC-grid sample."
+  },
+  "corridor": {
+    "target_port_point": null,
+    "validated_river_centreline": null,
+    "result": "Source-grid local validity can be measured. Source-to-port channel continuity remains unverified until both endpoints and channel path have traceable evidence."
+  },
+  "human_review_required": [
+    "Confirm true event source polygon and port protection-point coordinates with traceable evidence.",
+    "Supply independently supported river centreline or DEM-derived network validated against imagery, then test buffered whole-path coverage.",
+    "Confirm DEM product, date, vertical datum and error before physical slope, routing or volume interpretation.",
+    "Assess CGCS2000 datum-operation accuracy requirement; ballpark transformation is not a precision geodetic result.",
+    "Confirm land-cover legend and obtain source-region valid categories before using class codes as features."
+  ],
+  "ai_assistance": "OpenAI Codex prepared this preprocessing policy and script; team members must review adoption and modifications in AI_USAGE.md."
+}

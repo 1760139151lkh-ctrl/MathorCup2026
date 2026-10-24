@@ -1,0 +1,263 @@
+{
+  "generated_at_utc": "2026-10-24T03:35:19.926910+00:00",
+  "success": true,
+  "source_url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20260825/18/atmos/gfs.t18z.pgrb2.0p25.f009",
+  "index_sha256": "1084fb07c3ec70234a763de9c43ede3b23b8f27447866fc7b34283d8f2559081",
+  "forecast_reference_time_utc": "2026-08-25T18:00:00+00:00",
+  "valid_time_utc": "2026-08-26T03:00:00+00:00",
+  "actual_operational_available_time": null,
+  "bbox_west_south_east_north": [
+    85.0,
+    28.0,
+    86.0,
+    29.0
+  ],
+  "messages": [
+    {
+      "label": "temperature_2m",
+      "index_line": "581:423354063:d=2026082518:TMP:2 m above ground:9 hour fcst:",
+      "raw_file": "temperature_2m.grib2",
+      "sha256": "36c0bab95887d7c0395bd2d2e5cf59ff5323e7bbaa1fa9b5b8e6f86bf104bba2",
+      "bytes": 511028,
+      "grib": {
+        "edition": 2,
+        "shortName": "2t",
+        "name": "2 metre temperature",
+        "units": "K",
+        "paramId": 167,
+        "typeOfLevel": "heightAboveGround",
+        "level": 2,
+        "dataDate": 20260825,
+        "dataTime": 1800,
+        "validityDate": 20260826,
+        "validityTime": 300,
+        "stepType": "instant",
+        "startStep": 9,
+        "endStep": 9,
+        "stepUnits": 1,
+        "Ni": 1440,
+        "Nj": 721,
+        "numberOfDataPoints": 1038240
+      },
+      "global_decoded_shape": [
+        721,
+        1440
+      ],
+      "aoi_shape": [
+        5,
+        5
+      ],
+      "aoi_min": 276.83392333984375,
+      "aoi_max": 295.1339416503906,
+      "accumulation_start_utc": null,
+      "accumulation_end_utc": null
+    },
+    {
+      "label": "relative_humidity_2m",
+      "index_line": "584:425625586:d=2026082518:RH:2 m above ground:9 hour fcst:",
+      "raw_file": "relative_humidity_2m.grib2",
+      "sha256": "61e4997e0a3c918a349889082662e02170c7cbf4165d0b21d868dfb52a638381",
+      "bytes": 794008,
+      "grib": {
+        "edition": 2,
+        "shortName": "2r",
+        "name": "2 metre relative humidity",
+        "units": "%",
+        "paramId": 260242,
+        "typeOfLevel": "heightAboveGround",
+        "level": 2,
+        "dataDate": 20260825,
+        "dataTime": 1800,
+        "validityDate": 20260826,
+        "validityTime": 300,
+        "stepType": "instant",
+        "startStep": 9,
+        "endStep": 9,
+        "stepUnits": 1,
+        "Ni": 1440,
+        "Nj": 721,
+        "numberOfDataPoints": 1038240
+      },
+      "global_decoded_shape": [
+        721,
+        1440
+      ],
+      "aoi_shape": [
+        5,
+        5
+      ],
+      "aoi_min": 59.900001525878906,
+      "aoi_max": 99.9000015258789,
+      "accumulation_start_utc": null,
+      "accumulation_end_utc": null
+    },
+    {
+      "label": "wind_u_10m",
+      "index_line": "588:427974461:d=2026082518:UGRD:10 m above ground:9 hour fcst:",
+      "raw_file": "wind_u_10m.grib2",
+      "sha256": "fb8634f1144503501a895148032a7da2af3f55fe20d42ea10b139f6510a5ad3f",
+      "bytes": 973065,
+      "grib": {
+        "edition": 2,
+        "shortName": "10u",
+        "name": "10 metre U wind component",
+        "units": "m s**-1",
+        "paramId": 165,
+        "typeOfLevel": "heightAboveGround",
+        "level": 10,
+        "dataDate": 20260825,
+        "dataTime": 1800,
+        "validityDate": 20260826,
+        "validityTime": 300,
+        "stepType": "instant",
+        "startStep": 9,
+        "endStep": 9,
+        "stepUnits": 1,
+        "Ni": 1440,
+        "Nj": 721,
+        "numberOfDataPoints": 1038240
+      },
+      "global_decoded_shape": [
+        721,
+        1440
+      ],
+      "aoi_shape": [
+        5,
+        5
+      ],
+      "aoi_min": -0.24560546875,
+      "aoi_max": 2.0943944454193115,
+      "accumulation_start_utc": null,
+      "accumulation_end_utc": null
+    },
+    {
+      "label": "wind_v_10m",
+      "index_line": "589:428947526:d=2026082518:VGRD:10 m above ground:9 hour fcst:",
+      "raw_file": "wind_v_10m.grib2",
+      "sha256": "0873171f768a5abf707ff8a08f370dc824ac35ed9e1c4659a743d648c41e605e",
+      "bytes": 950674,
+      "grib": {
+        "edition": 2,
+        "shortName": "10v",
+        "name": "10 metre V wind component",
+        "units": "m s**-1",
+        "paramId": 166,
+        "typeOfLevel": "heightAboveGround",
+        "level": 10,
+        "dataDate": 20260825,
+        "dataTime": 1800,
+        "validityDate": 20260826,
+        "validityTime": 300,
+        "stepType": "instant",
+        "startStep": 9,
+        "endStep": 9,
+        "stepUnits": 1,
+        "Ni": 1440,
+        "Nj": 721,
+        "numberOfDataPoints": 1038240
+      },
+      "global_decoded_shape": [
+        721,
+        1440
+      ],
+      "aoi_shape": [
+        5,
+        5
+      ],
+      "aoi_min": -0.6713793873786926,
+      "aoi_max": 2.8086206912994385,
+      "accumulation_start_utc": null,
+      "accumulation_end_utc": null
+    },
+    {
+      "label": "precip_accum_6_9h",
+      "index_line": "596:433104739:d=2026082518:APCP:surface:6-9 hour acc fcst:",
+      "raw_file": "precip_accum_6_9h.grib2",
+      "sha256": "034612a951b34d1681ba75d5fd32426dee9ec00faf9456fd2a3a64c9f7eed536",
+      "bytes": 309231,
+      "grib": {
+        "edition": 2,
+        "shortName": "tp",
+        "name": "Total Precipitation",
+        "units": "kg m**-2",
+        "paramId": 228228,
+        "typeOfLevel": "surface",
+        "level": 0,
+        "dataDate": 20260825,
+        "dataTime": 1800,
+        "validityDate": 20260826,
+        "validityTime": 300,
+        "stepType": "accum",
+        "startStep": 6,
+        "endStep": 9,
+        "stepUnits": 1,
+        "Ni": 1440,
+        "Nj": 721,
+        "numberOfDataPoints": 1038240
+      },
+      "global_decoded_shape": [
+        721,
+        1440
+      ],
+      "aoi_shape": [
+        5,
+        5
+      ],
+      "aoi_min": 0.0,
+      "aoi_max": 2.5625,
+      "accumulation_start_utc": "2026-08-26T00:00:00+00:00",
+      "accumulation_end_utc": "2026-08-26T03:00:00+00:00"
+    },
+    {
+      "label": "precip_accum_0_9h",
+      "index_line": "597:433413970:d=2026082518:APCP:surface:0-9 hour acc fcst:",
+      "raw_file": "precip_accum_0_9h.grib2",
+      "sha256": "342d34c3d44c28df5cf08ac60874029b37bda6c58d08ed9cb864c98381589991",
+      "bytes": 405228,
+      "grib": {
+        "edition": 2,
+        "shortName": "tp",
+        "name": "Total Precipitation",
+        "units": "kg m**-2",
+        "paramId": 228228,
+        "typeOfLevel": "surface",
+        "level": 0,
+        "dataDate": 20260825,
+        "dataTime": 1800,
+        "validityDate": 20260826,
+        "validityTime": 300,
+        "stepType": "accum",
+        "startStep": 0,
+        "endStep": 9,
+        "stepUnits": 1,
+        "Ni": 1440,
+        "Nj": 721,
+        "numberOfDataPoints": 1038240
+      },
+      "global_decoded_shape": [
+        721,
+        1440
+      ],
+      "aoi_shape": [
+        5,
+        5
+      ],
+      "aoi_min": 0.0,
+      "aoi_max": 6.0625,
+      "accumulation_start_utc": "2026-08-25T18:00:00+00:00",
+      "accumulation_end_utc": "2026-08-26T03:00:00+00:00"
+    }
+  ],
+  "cached_grib_bytes": 3943234,
+  "network_grib_bytes_this_run": 3943234,
+  "netcdf_file": "track_b/data/processed/forecast_sample/gfs_2026082518_f009_aoi.nc",
+  "netcdf_sha256": "da53c0217ee1c3f74b31ffcbfafaa000483e4f209572b2105cd6fda2661441e8",
+  "netcdf_roundtrip_equal": true,
+  "limitations": [
+    "Six complete global-variable GRIB messages were retrieved, then cropped locally; no full model file was downloaded.",
+    "A 0.25-degree grid does not resolve the approximately 4-km glacier grid or local valley weather.",
+    "A forecast valid time later than the event is allowed; it is input availability at issue time that must be established.",
+    "Actual business publication time is unknown; this is not evidence of an operationally successful disaster warning.",
+    "No disaster model, feature selection, thresholds, or prediction-interval calibration is performed."
+  ]
+}

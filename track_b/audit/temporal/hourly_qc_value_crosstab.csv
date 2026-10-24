@@ -1,0 +1,971 @@
+﻿file,kind,year,variable,qc_column,qc_raw_value,numeric_state,count
+MET_Gyirong_2021.csv,MET,2021,WS_1m(m/s),QC_WS_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_1m(m/s),QC_WS_1m,0,present_non_sentinel,5908
+MET_Gyirong_2021.csv,MET,2021,WS_1m(m/s),QC_WS_1m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_1m(m/s),QC_WS_1m,2,present_non_sentinel,31
+MET_Gyirong_2021.csv,MET,2021,WS_1m(m/s),QC_WS_1m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_1m(m/s),QC_WS_1m,4,present_non_sentinel,45
+MET_Gyirong_2021.csv,MET,2021,WS_1m(m/s),QC_WS_1m,8,missing_or_unusable_numeric,2776
+MET_Gyirong_2021.csv,MET,2021,WS_1m(m/s),QC_WS_1m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,WS_2m(m/s),QC_WS_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_2m(m/s),QC_WS_2m,0,present_non_sentinel,5910
+MET_Gyirong_2021.csv,MET,2021,WS_2m(m/s),QC_WS_2m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_2m(m/s),QC_WS_2m,2,present_non_sentinel,29
+MET_Gyirong_2021.csv,MET,2021,WS_2m(m/s),QC_WS_2m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_2m(m/s),QC_WS_2m,4,present_non_sentinel,45
+MET_Gyirong_2021.csv,MET,2021,WS_2m(m/s),QC_WS_2m,8,missing_or_unusable_numeric,2776
+MET_Gyirong_2021.csv,MET,2021,WS_2m(m/s),QC_WS_2m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,WS_4m(m/s),QC_WS_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_4m(m/s),QC_WS_4m,0,present_non_sentinel,5936
+MET_Gyirong_2021.csv,MET,2021,WS_4m(m/s),QC_WS_4m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_4m(m/s),QC_WS_4m,2,present_non_sentinel,27
+MET_Gyirong_2021.csv,MET,2021,WS_4m(m/s),QC_WS_4m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_4m(m/s),QC_WS_4m,4,present_non_sentinel,21
+MET_Gyirong_2021.csv,MET,2021,WS_4m(m/s),QC_WS_4m,8,missing_or_unusable_numeric,2776
+MET_Gyirong_2021.csv,MET,2021,WS_4m(m/s),QC_WS_4m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,WS_10m(m/s),QC_WS_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_10m(m/s),QC_WS_10m,0,present_non_sentinel,5920
+MET_Gyirong_2021.csv,MET,2021,WS_10m(m/s),QC_WS_10m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_10m(m/s),QC_WS_10m,2,present_non_sentinel,35
+MET_Gyirong_2021.csv,MET,2021,WS_10m(m/s),QC_WS_10m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_10m(m/s),QC_WS_10m,4,present_non_sentinel,29
+MET_Gyirong_2021.csv,MET,2021,WS_10m(m/s),QC_WS_10m,8,missing_or_unusable_numeric,2776
+MET_Gyirong_2021.csv,MET,2021,WS_10m(m/s),QC_WS_10m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,WS_20m(m/s),QC_WS_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_20m(m/s),QC_WS_20m,0,present_non_sentinel,5941
+MET_Gyirong_2021.csv,MET,2021,WS_20m(m/s),QC_WS_20m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_20m(m/s),QC_WS_20m,2,present_non_sentinel,23
+MET_Gyirong_2021.csv,MET,2021,WS_20m(m/s),QC_WS_20m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WS_20m(m/s),QC_WS_20m,4,present_non_sentinel,20
+MET_Gyirong_2021.csv,MET,2021,WS_20m(m/s),QC_WS_20m,8,missing_or_unusable_numeric,2776
+MET_Gyirong_2021.csv,MET,2021,WS_20m(m/s),QC_WS_20m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,WD_1m(degree),QC_WD_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_1m(degree),QC_WD_1m,0,present_non_sentinel,5908
+MET_Gyirong_2021.csv,MET,2021,WD_1m(degree),QC_WD_1m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_1m(degree),QC_WD_1m,2,present_non_sentinel,69
+MET_Gyirong_2021.csv,MET,2021,WD_1m(degree),QC_WD_1m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_1m(degree),QC_WD_1m,4,present_non_sentinel,9
+MET_Gyirong_2021.csv,MET,2021,WD_1m(degree),QC_WD_1m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,WD_1m(degree),QC_WD_1m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,WD_2m(degree),QC_WD_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_2m(degree),QC_WD_2m,0,present_non_sentinel,5915
+MET_Gyirong_2021.csv,MET,2021,WD_2m(degree),QC_WD_2m,1,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_2m(degree),QC_WD_2m,1,present_non_sentinel,1
+MET_Gyirong_2021.csv,MET,2021,WD_2m(degree),QC_WD_2m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_2m(degree),QC_WD_2m,2,present_non_sentinel,67
+MET_Gyirong_2021.csv,MET,2021,WD_2m(degree),QC_WD_2m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_2m(degree),QC_WD_2m,4,present_non_sentinel,3
+MET_Gyirong_2021.csv,MET,2021,WD_2m(degree),QC_WD_2m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,WD_2m(degree),QC_WD_2m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,WD_4m(degree),QC_WD_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_4m(degree),QC_WD_4m,0,present_non_sentinel,5843
+MET_Gyirong_2021.csv,MET,2021,WD_4m(degree),QC_WD_4m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_4m(degree),QC_WD_4m,2,present_non_sentinel,130
+MET_Gyirong_2021.csv,MET,2021,WD_4m(degree),QC_WD_4m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_4m(degree),QC_WD_4m,4,present_non_sentinel,13
+MET_Gyirong_2021.csv,MET,2021,WD_4m(degree),QC_WD_4m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,WD_4m(degree),QC_WD_4m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,WD_10m(degree),QC_WD_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_10m(degree),QC_WD_10m,0,present_non_sentinel,5825
+MET_Gyirong_2021.csv,MET,2021,WD_10m(degree),QC_WD_10m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_10m(degree),QC_WD_10m,2,present_non_sentinel,152
+MET_Gyirong_2021.csv,MET,2021,WD_10m(degree),QC_WD_10m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_10m(degree),QC_WD_10m,4,present_non_sentinel,9
+MET_Gyirong_2021.csv,MET,2021,WD_10m(degree),QC_WD_10m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,WD_10m(degree),QC_WD_10m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,WD_20m(degree),QC_WD_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_20m(degree),QC_WD_20m,0,present_non_sentinel,5936
+MET_Gyirong_2021.csv,MET,2021,WD_20m(degree),QC_WD_20m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_20m(degree),QC_WD_20m,2,present_non_sentinel,46
+MET_Gyirong_2021.csv,MET,2021,WD_20m(degree),QC_WD_20m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,WD_20m(degree),QC_WD_20m,4,present_non_sentinel,4
+MET_Gyirong_2021.csv,MET,2021,WD_20m(degree),QC_WD_20m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,WD_20m(degree),QC_WD_20m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,Ta_1m(degree C),QC_Ta_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,Ta_1m(degree C),QC_Ta_1m,0,present_non_sentinel,5985
+MET_Gyirong_2021.csv,MET,2021,Ta_1m(degree C),QC_Ta_1m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,Ta_1m(degree C),QC_Ta_1m,4,present_non_sentinel,1
+MET_Gyirong_2021.csv,MET,2021,Ta_1m(degree C),QC_Ta_1m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,Ta_1m(degree C),QC_Ta_1m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,Ta_2m(degree C),QC_Ta_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,Ta_2m(degree C),QC_Ta_2m,0,present_non_sentinel,5985
+MET_Gyirong_2021.csv,MET,2021,Ta_2m(degree C),QC_Ta_2m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,Ta_2m(degree C),QC_Ta_2m,4,present_non_sentinel,1
+MET_Gyirong_2021.csv,MET,2021,Ta_2m(degree C),QC_Ta_2m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,Ta_2m(degree C),QC_Ta_2m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,Ta_4m(degree C),QC_Ta_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,Ta_4m(degree C),QC_Ta_4m,0,present_non_sentinel,5985
+MET_Gyirong_2021.csv,MET,2021,Ta_4m(degree C),QC_Ta_4m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,Ta_4m(degree C),QC_Ta_4m,4,present_non_sentinel,1
+MET_Gyirong_2021.csv,MET,2021,Ta_4m(degree C),QC_Ta_4m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,Ta_4m(degree C),QC_Ta_4m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,Ta_10m(degree C),QC_Ta_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,Ta_10m(degree C),QC_Ta_10m,0,present_non_sentinel,5986
+MET_Gyirong_2021.csv,MET,2021,Ta_10m(degree C),QC_Ta_10m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,Ta_10m(degree C),QC_Ta_10m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,Ta_20m(degree C),QC_Ta_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,Ta_20m(degree C),QC_Ta_20m,0,present_non_sentinel,5986
+MET_Gyirong_2021.csv,MET,2021,Ta_20m(degree C),QC_Ta_20m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,Ta_20m(degree C),QC_Ta_20m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,RH_1m(%),QC_RH_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,RH_1m(%),QC_RH_1m,0,present_non_sentinel,5986
+MET_Gyirong_2021.csv,MET,2021,RH_1m(%),QC_RH_1m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,RH_1m(%),QC_RH_1m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,RH_2m(%),QC_RH_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,RH_2m(%),QC_RH_2m,0,present_non_sentinel,5986
+MET_Gyirong_2021.csv,MET,2021,RH_2m(%),QC_RH_2m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,RH_2m(%),QC_RH_2m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,RH_4m(%),QC_RH_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,RH_4m(%),QC_RH_4m,0,present_non_sentinel,5986
+MET_Gyirong_2021.csv,MET,2021,RH_4m(%),QC_RH_4m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,RH_4m(%),QC_RH_4m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,RH_10m(%),QC_RH_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,RH_10m(%),QC_RH_10m,0,present_non_sentinel,5986
+MET_Gyirong_2021.csv,MET,2021,RH_10m(%),QC_RH_10m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,RH_10m(%),QC_RH_10m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,RH_20m(%),QC_RH_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,RH_20m(%),QC_RH_20m,0,present_non_sentinel,5980
+MET_Gyirong_2021.csv,MET,2021,RH_20m(%),QC_RH_20m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,RH_20m(%),QC_RH_20m,2,present_non_sentinel,6
+MET_Gyirong_2021.csv,MET,2021,RH_20m(%),QC_RH_20m,8,missing_or_unusable_numeric,2774
+MET_Gyirong_2021.csv,MET,2021,RH_20m(%),QC_RH_20m,8,present_non_sentinel,0
+MET_Gyirong_2021.csv,MET,2021,Pressure(hPa),QC_Pressure,0,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,Pressure(hPa),QC_Pressure,0,present_non_sentinel,5726
+MET_Gyirong_2021.csv,MET,2021,Pressure(hPa),QC_Pressure,2,missing_or_unusable_numeric,0
+MET_Gyirong_2021.csv,MET,2021,Pressure(hPa),QC_Pressure,2,present_non_sentinel,229
+MET_Gyirong_2021.csv,MET,2021,Pressure(hPa),QC_Pressure,8,missing_or_unusable_numeric,2805
+MET_Gyirong_2021.csv,MET,2021,Pressure(hPa),QC_Pressure,8,present_non_sentinel,0
+MET_Gyirong_2022.csv,MET,2022,WS_1m(m/s),QC_WS_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_1m(m/s),QC_WS_1m,0,present_non_sentinel,8578
+MET_Gyirong_2022.csv,MET,2022,WS_1m(m/s),QC_WS_1m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_1m(m/s),QC_WS_1m,2,present_non_sentinel,67
+MET_Gyirong_2022.csv,MET,2022,WS_1m(m/s),QC_WS_1m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_1m(m/s),QC_WS_1m,4,present_non_sentinel,94
+MET_Gyirong_2022.csv,MET,2022,WS_1m(m/s),QC_WS_1m,8,missing_or_unusable_numeric,21
+MET_Gyirong_2022.csv,MET,2022,WS_1m(m/s),QC_WS_1m,8,present_non_sentinel,0
+MET_Gyirong_2022.csv,MET,2022,WS_2m(m/s),QC_WS_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_2m(m/s),QC_WS_2m,0,present_non_sentinel,8613
+MET_Gyirong_2022.csv,MET,2022,WS_2m(m/s),QC_WS_2m,1,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_2m(m/s),QC_WS_2m,1,present_non_sentinel,1
+MET_Gyirong_2022.csv,MET,2022,WS_2m(m/s),QC_WS_2m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_2m(m/s),QC_WS_2m,2,present_non_sentinel,44
+MET_Gyirong_2022.csv,MET,2022,WS_2m(m/s),QC_WS_2m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_2m(m/s),QC_WS_2m,4,present_non_sentinel,81
+MET_Gyirong_2022.csv,MET,2022,WS_2m(m/s),QC_WS_2m,8,missing_or_unusable_numeric,21
+MET_Gyirong_2022.csv,MET,2022,WS_2m(m/s),QC_WS_2m,8,present_non_sentinel,0
+MET_Gyirong_2022.csv,MET,2022,WS_4m(m/s),QC_WS_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_4m(m/s),QC_WS_4m,0,present_non_sentinel,8676
+MET_Gyirong_2022.csv,MET,2022,WS_4m(m/s),QC_WS_4m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_4m(m/s),QC_WS_4m,2,present_non_sentinel,22
+MET_Gyirong_2022.csv,MET,2022,WS_4m(m/s),QC_WS_4m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_4m(m/s),QC_WS_4m,4,present_non_sentinel,41
+MET_Gyirong_2022.csv,MET,2022,WS_4m(m/s),QC_WS_4m,8,missing_or_unusable_numeric,21
+MET_Gyirong_2022.csv,MET,2022,WS_4m(m/s),QC_WS_4m,8,present_non_sentinel,0
+MET_Gyirong_2022.csv,MET,2022,WS_10m(m/s),QC_WS_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_10m(m/s),QC_WS_10m,0,present_non_sentinel,8639
+MET_Gyirong_2022.csv,MET,2022,WS_10m(m/s),QC_WS_10m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_10m(m/s),QC_WS_10m,2,present_non_sentinel,44
+MET_Gyirong_2022.csv,MET,2022,WS_10m(m/s),QC_WS_10m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_10m(m/s),QC_WS_10m,4,present_non_sentinel,55
+MET_Gyirong_2022.csv,MET,2022,WS_10m(m/s),QC_WS_10m,8,missing_or_unusable_numeric,22
+MET_Gyirong_2022.csv,MET,2022,WS_10m(m/s),QC_WS_10m,8,present_non_sentinel,0
+MET_Gyirong_2022.csv,MET,2022,WS_20m(m/s),QC_WS_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_20m(m/s),QC_WS_20m,0,present_non_sentinel,8663
+MET_Gyirong_2022.csv,MET,2022,WS_20m(m/s),QC_WS_20m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_20m(m/s),QC_WS_20m,2,present_non_sentinel,32
+MET_Gyirong_2022.csv,MET,2022,WS_20m(m/s),QC_WS_20m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,WS_20m(m/s),QC_WS_20m,4,present_non_sentinel,43
+MET_Gyirong_2022.csv,MET,2022,WS_20m(m/s),QC_WS_20m,8,missing_or_unusable_numeric,22
+MET_Gyirong_2022.csv,MET,2022,WS_20m(m/s),QC_WS_20m,8,present_non_sentinel,0
+MET_Gyirong_2022.csv,MET,2022,WD_1m(degree),QC_WD_1m,0,present_non_sentinel,8625
+MET_Gyirong_2022.csv,MET,2022,WD_1m(degree),QC_WD_1m,1,present_non_sentinel,1
+MET_Gyirong_2022.csv,MET,2022,WD_1m(degree),QC_WD_1m,2,present_non_sentinel,118
+MET_Gyirong_2022.csv,MET,2022,WD_1m(degree),QC_WD_1m,4,present_non_sentinel,16
+MET_Gyirong_2022.csv,MET,2022,WD_2m(degree),QC_WD_2m,0,present_non_sentinel,8652
+MET_Gyirong_2022.csv,MET,2022,WD_2m(degree),QC_WD_2m,2,present_non_sentinel,96
+MET_Gyirong_2022.csv,MET,2022,WD_2m(degree),QC_WD_2m,4,present_non_sentinel,12
+MET_Gyirong_2022.csv,MET,2022,WD_4m(degree),QC_WD_4m,0,present_non_sentinel,8708
+MET_Gyirong_2022.csv,MET,2022,WD_4m(degree),QC_WD_4m,2,present_non_sentinel,44
+MET_Gyirong_2022.csv,MET,2022,WD_4m(degree),QC_WD_4m,4,present_non_sentinel,8
+MET_Gyirong_2022.csv,MET,2022,WD_10m(degree),QC_WD_10m,0,present_non_sentinel,8661
+MET_Gyirong_2022.csv,MET,2022,WD_10m(degree),QC_WD_10m,2,present_non_sentinel,95
+MET_Gyirong_2022.csv,MET,2022,WD_10m(degree),QC_WD_10m,4,present_non_sentinel,4
+MET_Gyirong_2022.csv,MET,2022,WD_20m(degree),QC_WD_20m,0,present_non_sentinel,8688
+MET_Gyirong_2022.csv,MET,2022,WD_20m(degree),QC_WD_20m,1,present_non_sentinel,1
+MET_Gyirong_2022.csv,MET,2022,WD_20m(degree),QC_WD_20m,2,present_non_sentinel,64
+MET_Gyirong_2022.csv,MET,2022,WD_20m(degree),QC_WD_20m,4,present_non_sentinel,7
+MET_Gyirong_2022.csv,MET,2022,Ta_1m(degree C),QC_Ta_1m,0,present_non_sentinel,8757
+MET_Gyirong_2022.csv,MET,2022,Ta_1m(degree C),QC_Ta_1m,4,present_non_sentinel,3
+MET_Gyirong_2022.csv,MET,2022,Ta_2m(degree C),QC_Ta_2m,0,present_non_sentinel,8759
+MET_Gyirong_2022.csv,MET,2022,Ta_2m(degree C),QC_Ta_2m,4,present_non_sentinel,1
+MET_Gyirong_2022.csv,MET,2022,Ta_4m(degree C),QC_Ta_4m,0,present_non_sentinel,8759
+MET_Gyirong_2022.csv,MET,2022,Ta_4m(degree C),QC_Ta_4m,4,present_non_sentinel,1
+MET_Gyirong_2022.csv,MET,2022,Ta_10m(degree C),QC_Ta_10m,0,present_non_sentinel,8759
+MET_Gyirong_2022.csv,MET,2022,Ta_10m(degree C),QC_Ta_10m,4,present_non_sentinel,1
+MET_Gyirong_2022.csv,MET,2022,Ta_20m(degree C),QC_Ta_20m,0,present_non_sentinel,8759
+MET_Gyirong_2022.csv,MET,2022,Ta_20m(degree C),QC_Ta_20m,4,present_non_sentinel,1
+MET_Gyirong_2022.csv,MET,2022,RH_1m(%),QC_RH_1m,0,present_non_sentinel,8760
+MET_Gyirong_2022.csv,MET,2022,RH_2m(%),QC_RH_2m,0,present_non_sentinel,8760
+MET_Gyirong_2022.csv,MET,2022,RH_4m(%),QC_RH_4m,0,present_non_sentinel,8760
+MET_Gyirong_2022.csv,MET,2022,RH_10m(%),QC_RH_10m,0,present_non_sentinel,8760
+MET_Gyirong_2022.csv,MET,2022,RH_20m(%),QC_RH_20m,0,present_non_sentinel,8760
+MET_Gyirong_2022.csv,MET,2022,Pressure(hPa),QC_Pressure,0,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,Pressure(hPa),QC_Pressure,0,present_non_sentinel,8373
+MET_Gyirong_2022.csv,MET,2022,Pressure(hPa),QC_Pressure,2,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,Pressure(hPa),QC_Pressure,2,present_non_sentinel,366
+MET_Gyirong_2022.csv,MET,2022,Pressure(hPa),QC_Pressure,4,missing_or_unusable_numeric,0
+MET_Gyirong_2022.csv,MET,2022,Pressure(hPa),QC_Pressure,4,present_non_sentinel,2
+MET_Gyirong_2022.csv,MET,2022,Pressure(hPa),QC_Pressure,8,missing_or_unusable_numeric,19
+MET_Gyirong_2022.csv,MET,2022,Pressure(hPa),QC_Pressure,8,present_non_sentinel,0
+MET_Gyirong_2023.csv,MET,2023,WS_1m(m/s),QC_WS_1m,0,present_non_sentinel,8634
+MET_Gyirong_2023.csv,MET,2023,WS_1m(m/s),QC_WS_1m,2,present_non_sentinel,55
+MET_Gyirong_2023.csv,MET,2023,WS_1m(m/s),QC_WS_1m,4,present_non_sentinel,71
+MET_Gyirong_2023.csv,MET,2023,WS_2m(m/s),QC_WS_2m,0,present_non_sentinel,8633
+MET_Gyirong_2023.csv,MET,2023,WS_2m(m/s),QC_WS_2m,1,present_non_sentinel,1
+MET_Gyirong_2023.csv,MET,2023,WS_2m(m/s),QC_WS_2m,2,present_non_sentinel,52
+MET_Gyirong_2023.csv,MET,2023,WS_2m(m/s),QC_WS_2m,4,present_non_sentinel,74
+MET_Gyirong_2023.csv,MET,2023,WS_4m(m/s),QC_WS_4m,0,present_non_sentinel,7531
+MET_Gyirong_2023.csv,MET,2023,WS_4m(m/s),QC_WS_4m,1,present_non_sentinel,4
+MET_Gyirong_2023.csv,MET,2023,WS_4m(m/s),QC_WS_4m,2,present_non_sentinel,1176
+MET_Gyirong_2023.csv,MET,2023,WS_4m(m/s),QC_WS_4m,4,present_non_sentinel,49
+MET_Gyirong_2023.csv,MET,2023,WS_10m(m/s),QC_WS_10m,0,present_non_sentinel,8656
+MET_Gyirong_2023.csv,MET,2023,WS_10m(m/s),QC_WS_10m,2,present_non_sentinel,62
+MET_Gyirong_2023.csv,MET,2023,WS_10m(m/s),QC_WS_10m,4,present_non_sentinel,42
+MET_Gyirong_2023.csv,MET,2023,WS_20m(m/s),QC_WS_20m,0,present_non_sentinel,8667
+MET_Gyirong_2023.csv,MET,2023,WS_20m(m/s),QC_WS_20m,1,present_non_sentinel,1
+MET_Gyirong_2023.csv,MET,2023,WS_20m(m/s),QC_WS_20m,2,present_non_sentinel,57
+MET_Gyirong_2023.csv,MET,2023,WS_20m(m/s),QC_WS_20m,4,present_non_sentinel,35
+MET_Gyirong_2023.csv,MET,2023,WD_1m(degree),QC_WD_1m,0,present_non_sentinel,8650
+MET_Gyirong_2023.csv,MET,2023,WD_1m(degree),QC_WD_1m,2,present_non_sentinel,103
+MET_Gyirong_2023.csv,MET,2023,WD_1m(degree),QC_WD_1m,4,present_non_sentinel,7
+MET_Gyirong_2023.csv,MET,2023,WD_2m(degree),QC_WD_2m,0,present_non_sentinel,8660
+MET_Gyirong_2023.csv,MET,2023,WD_2m(degree),QC_WD_2m,1,present_non_sentinel,1
+MET_Gyirong_2023.csv,MET,2023,WD_2m(degree),QC_WD_2m,2,present_non_sentinel,91
+MET_Gyirong_2023.csv,MET,2023,WD_2m(degree),QC_WD_2m,4,present_non_sentinel,8
+MET_Gyirong_2023.csv,MET,2023,WD_4m(degree),QC_WD_4m,0,present_non_sentinel,7564
+MET_Gyirong_2023.csv,MET,2023,WD_4m(degree),QC_WD_4m,1,present_non_sentinel,42
+MET_Gyirong_2023.csv,MET,2023,WD_4m(degree),QC_WD_4m,2,present_non_sentinel,1122
+MET_Gyirong_2023.csv,MET,2023,WD_4m(degree),QC_WD_4m,4,present_non_sentinel,32
+MET_Gyirong_2023.csv,MET,2023,WD_10m(degree),QC_WD_10m,0,present_non_sentinel,8631
+MET_Gyirong_2023.csv,MET,2023,WD_10m(degree),QC_WD_10m,2,present_non_sentinel,124
+MET_Gyirong_2023.csv,MET,2023,WD_10m(degree),QC_WD_10m,4,present_non_sentinel,5
+MET_Gyirong_2023.csv,MET,2023,WD_20m(degree),QC_WD_20m,0,present_non_sentinel,8678
+MET_Gyirong_2023.csv,MET,2023,WD_20m(degree),QC_WD_20m,1,present_non_sentinel,1
+MET_Gyirong_2023.csv,MET,2023,WD_20m(degree),QC_WD_20m,2,present_non_sentinel,79
+MET_Gyirong_2023.csv,MET,2023,WD_20m(degree),QC_WD_20m,4,present_non_sentinel,2
+MET_Gyirong_2023.csv,MET,2023,Ta_1m(degree C),QC_Ta_1m,0,present_non_sentinel,8758
+MET_Gyirong_2023.csv,MET,2023,Ta_1m(degree C),QC_Ta_1m,4,present_non_sentinel,2
+MET_Gyirong_2023.csv,MET,2023,Ta_2m(degree C),QC_Ta_2m,0,present_non_sentinel,8758
+MET_Gyirong_2023.csv,MET,2023,Ta_2m(degree C),QC_Ta_2m,4,present_non_sentinel,2
+MET_Gyirong_2023.csv,MET,2023,Ta_4m(degree C),QC_Ta_4m,0,present_non_sentinel,8758
+MET_Gyirong_2023.csv,MET,2023,Ta_4m(degree C),QC_Ta_4m,4,present_non_sentinel,2
+MET_Gyirong_2023.csv,MET,2023,Ta_10m(degree C),QC_Ta_10m,0,present_non_sentinel,8758
+MET_Gyirong_2023.csv,MET,2023,Ta_10m(degree C),QC_Ta_10m,4,present_non_sentinel,2
+MET_Gyirong_2023.csv,MET,2023,Ta_20m(degree C),QC_Ta_20m,0,present_non_sentinel,8759
+MET_Gyirong_2023.csv,MET,2023,Ta_20m(degree C),QC_Ta_20m,4,present_non_sentinel,1
+MET_Gyirong_2023.csv,MET,2023,RH_1m(%),QC_RH_1m,0,present_non_sentinel,8760
+MET_Gyirong_2023.csv,MET,2023,RH_2m(%),QC_RH_2m,0,present_non_sentinel,8760
+MET_Gyirong_2023.csv,MET,2023,RH_4m(%),QC_RH_4m,0,present_non_sentinel,8760
+MET_Gyirong_2023.csv,MET,2023,RH_10m(%),QC_RH_10m,0,present_non_sentinel,8760
+MET_Gyirong_2023.csv,MET,2023,RH_20m(%),QC_RH_20m,0,present_non_sentinel,8760
+MET_Gyirong_2023.csv,MET,2023,Pressure(hPa),QC_Pressure,0,missing_or_unusable_numeric,0
+MET_Gyirong_2023.csv,MET,2023,Pressure(hPa),QC_Pressure,0,present_non_sentinel,8607
+MET_Gyirong_2023.csv,MET,2023,Pressure(hPa),QC_Pressure,2,missing_or_unusable_numeric,0
+MET_Gyirong_2023.csv,MET,2023,Pressure(hPa),QC_Pressure,2,present_non_sentinel,150
+MET_Gyirong_2023.csv,MET,2023,Pressure(hPa),QC_Pressure,4,missing_or_unusable_numeric,0
+MET_Gyirong_2023.csv,MET,2023,Pressure(hPa),QC_Pressure,4,present_non_sentinel,2
+MET_Gyirong_2023.csv,MET,2023,Pressure(hPa),QC_Pressure,8,missing_or_unusable_numeric,1
+MET_Gyirong_2023.csv,MET,2023,Pressure(hPa),QC_Pressure,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,WS_1m(m/s),QC_WS_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_1m(m/s),QC_WS_1m,0,present_non_sentinel,8645
+MET_Gyirong_2024.csv,MET,2024,WS_1m(m/s),QC_WS_1m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_1m(m/s),QC_WS_1m,2,present_non_sentinel,47
+MET_Gyirong_2024.csv,MET,2024,WS_1m(m/s),QC_WS_1m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_1m(m/s),QC_WS_1m,4,present_non_sentinel,89
+MET_Gyirong_2024.csv,MET,2024,WS_1m(m/s),QC_WS_1m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,WS_1m(m/s),QC_WS_1m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,WS_2m(m/s),QC_WS_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_2m(m/s),QC_WS_2m,0,present_non_sentinel,8621
+MET_Gyirong_2024.csv,MET,2024,WS_2m(m/s),QC_WS_2m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_2m(m/s),QC_WS_2m,2,present_non_sentinel,56
+MET_Gyirong_2024.csv,MET,2024,WS_2m(m/s),QC_WS_2m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_2m(m/s),QC_WS_2m,4,present_non_sentinel,104
+MET_Gyirong_2024.csv,MET,2024,WS_2m(m/s),QC_WS_2m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,WS_2m(m/s),QC_WS_2m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,WS_4m(m/s),QC_WS_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_4m(m/s),QC_WS_4m,0,present_non_sentinel,8695
+MET_Gyirong_2024.csv,MET,2024,WS_4m(m/s),QC_WS_4m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_4m(m/s),QC_WS_4m,2,present_non_sentinel,32
+MET_Gyirong_2024.csv,MET,2024,WS_4m(m/s),QC_WS_4m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_4m(m/s),QC_WS_4m,4,present_non_sentinel,54
+MET_Gyirong_2024.csv,MET,2024,WS_4m(m/s),QC_WS_4m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,WS_4m(m/s),QC_WS_4m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,WS_10m(m/s),QC_WS_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_10m(m/s),QC_WS_10m,0,present_non_sentinel,8665
+MET_Gyirong_2024.csv,MET,2024,WS_10m(m/s),QC_WS_10m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_10m(m/s),QC_WS_10m,2,present_non_sentinel,54
+MET_Gyirong_2024.csv,MET,2024,WS_10m(m/s),QC_WS_10m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_10m(m/s),QC_WS_10m,4,present_non_sentinel,62
+MET_Gyirong_2024.csv,MET,2024,WS_10m(m/s),QC_WS_10m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,WS_10m(m/s),QC_WS_10m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,WS_20m(m/s),QC_WS_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_20m(m/s),QC_WS_20m,0,present_non_sentinel,8659
+MET_Gyirong_2024.csv,MET,2024,WS_20m(m/s),QC_WS_20m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_20m(m/s),QC_WS_20m,2,present_non_sentinel,69
+MET_Gyirong_2024.csv,MET,2024,WS_20m(m/s),QC_WS_20m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WS_20m(m/s),QC_WS_20m,4,present_non_sentinel,53
+MET_Gyirong_2024.csv,MET,2024,WS_20m(m/s),QC_WS_20m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,WS_20m(m/s),QC_WS_20m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,WD_1m(degree),QC_WD_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_1m(degree),QC_WD_1m,0,present_non_sentinel,8678
+MET_Gyirong_2024.csv,MET,2024,WD_1m(degree),QC_WD_1m,1,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_1m(degree),QC_WD_1m,1,present_non_sentinel,1
+MET_Gyirong_2024.csv,MET,2024,WD_1m(degree),QC_WD_1m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_1m(degree),QC_WD_1m,2,present_non_sentinel,93
+MET_Gyirong_2024.csv,MET,2024,WD_1m(degree),QC_WD_1m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_1m(degree),QC_WD_1m,4,present_non_sentinel,9
+MET_Gyirong_2024.csv,MET,2024,WD_1m(degree),QC_WD_1m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,WD_1m(degree),QC_WD_1m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,WD_2m(degree),QC_WD_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_2m(degree),QC_WD_2m,0,present_non_sentinel,8654
+MET_Gyirong_2024.csv,MET,2024,WD_2m(degree),QC_WD_2m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_2m(degree),QC_WD_2m,2,present_non_sentinel,124
+MET_Gyirong_2024.csv,MET,2024,WD_2m(degree),QC_WD_2m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_2m(degree),QC_WD_2m,4,present_non_sentinel,3
+MET_Gyirong_2024.csv,MET,2024,WD_2m(degree),QC_WD_2m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,WD_2m(degree),QC_WD_2m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,WD_4m(degree),QC_WD_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_4m(degree),QC_WD_4m,0,present_non_sentinel,8694
+MET_Gyirong_2024.csv,MET,2024,WD_4m(degree),QC_WD_4m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_4m(degree),QC_WD_4m,2,present_non_sentinel,78
+MET_Gyirong_2024.csv,MET,2024,WD_4m(degree),QC_WD_4m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_4m(degree),QC_WD_4m,4,present_non_sentinel,9
+MET_Gyirong_2024.csv,MET,2024,WD_4m(degree),QC_WD_4m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,WD_4m(degree),QC_WD_4m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,WD_10m(degree),QC_WD_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_10m(degree),QC_WD_10m,0,present_non_sentinel,8653
+MET_Gyirong_2024.csv,MET,2024,WD_10m(degree),QC_WD_10m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_10m(degree),QC_WD_10m,2,present_non_sentinel,120
+MET_Gyirong_2024.csv,MET,2024,WD_10m(degree),QC_WD_10m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_10m(degree),QC_WD_10m,4,present_non_sentinel,8
+MET_Gyirong_2024.csv,MET,2024,WD_10m(degree),QC_WD_10m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,WD_10m(degree),QC_WD_10m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,WD_20m(degree),QC_WD_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_20m(degree),QC_WD_20m,0,present_non_sentinel,8675
+MET_Gyirong_2024.csv,MET,2024,WD_20m(degree),QC_WD_20m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_20m(degree),QC_WD_20m,2,present_non_sentinel,101
+MET_Gyirong_2024.csv,MET,2024,WD_20m(degree),QC_WD_20m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,WD_20m(degree),QC_WD_20m,4,present_non_sentinel,5
+MET_Gyirong_2024.csv,MET,2024,WD_20m(degree),QC_WD_20m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,WD_20m(degree),QC_WD_20m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,Ta_1m(degree C),QC_Ta_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,Ta_1m(degree C),QC_Ta_1m,0,present_non_sentinel,8781
+MET_Gyirong_2024.csv,MET,2024,Ta_1m(degree C),QC_Ta_1m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,Ta_1m(degree C),QC_Ta_1m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,Ta_2m(degree C),QC_Ta_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,Ta_2m(degree C),QC_Ta_2m,0,present_non_sentinel,8781
+MET_Gyirong_2024.csv,MET,2024,Ta_2m(degree C),QC_Ta_2m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,Ta_2m(degree C),QC_Ta_2m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,Ta_4m(degree C),QC_Ta_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,Ta_4m(degree C),QC_Ta_4m,0,present_non_sentinel,8781
+MET_Gyirong_2024.csv,MET,2024,Ta_4m(degree C),QC_Ta_4m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,Ta_4m(degree C),QC_Ta_4m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,Ta_10m(degree C),QC_Ta_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,Ta_10m(degree C),QC_Ta_10m,0,present_non_sentinel,8781
+MET_Gyirong_2024.csv,MET,2024,Ta_10m(degree C),QC_Ta_10m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,Ta_10m(degree C),QC_Ta_10m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,Ta_20m(degree C),QC_Ta_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,Ta_20m(degree C),QC_Ta_20m,0,present_non_sentinel,8781
+MET_Gyirong_2024.csv,MET,2024,Ta_20m(degree C),QC_Ta_20m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,Ta_20m(degree C),QC_Ta_20m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,RH_1m(%),QC_RH_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,RH_1m(%),QC_RH_1m,0,present_non_sentinel,8779
+MET_Gyirong_2024.csv,MET,2024,RH_1m(%),QC_RH_1m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,RH_1m(%),QC_RH_1m,2,present_non_sentinel,2
+MET_Gyirong_2024.csv,MET,2024,RH_1m(%),QC_RH_1m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,RH_1m(%),QC_RH_1m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,RH_2m(%),QC_RH_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,RH_2m(%),QC_RH_2m,0,present_non_sentinel,8781
+MET_Gyirong_2024.csv,MET,2024,RH_2m(%),QC_RH_2m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,RH_2m(%),QC_RH_2m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,RH_4m(%),QC_RH_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,RH_4m(%),QC_RH_4m,0,present_non_sentinel,8781
+MET_Gyirong_2024.csv,MET,2024,RH_4m(%),QC_RH_4m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,RH_4m(%),QC_RH_4m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,RH_10m(%),QC_RH_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,RH_10m(%),QC_RH_10m,0,present_non_sentinel,8781
+MET_Gyirong_2024.csv,MET,2024,RH_10m(%),QC_RH_10m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,RH_10m(%),QC_RH_10m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,RH_20m(%),QC_RH_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,RH_20m(%),QC_RH_20m,0,present_non_sentinel,8763
+MET_Gyirong_2024.csv,MET,2024,RH_20m(%),QC_RH_20m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,RH_20m(%),QC_RH_20m,2,present_non_sentinel,18
+MET_Gyirong_2024.csv,MET,2024,RH_20m(%),QC_RH_20m,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,RH_20m(%),QC_RH_20m,8,present_non_sentinel,0
+MET_Gyirong_2024.csv,MET,2024,Pressure(hPa),QC_Pressure,0,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,Pressure(hPa),QC_Pressure,0,present_non_sentinel,8509
+MET_Gyirong_2024.csv,MET,2024,Pressure(hPa),QC_Pressure,2,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,Pressure(hPa),QC_Pressure,2,present_non_sentinel,271
+MET_Gyirong_2024.csv,MET,2024,Pressure(hPa),QC_Pressure,4,missing_or_unusable_numeric,0
+MET_Gyirong_2024.csv,MET,2024,Pressure(hPa),QC_Pressure,4,present_non_sentinel,1
+MET_Gyirong_2024.csv,MET,2024,Pressure(hPa),QC_Pressure,8,missing_or_unusable_numeric,3
+MET_Gyirong_2024.csv,MET,2024,Pressure(hPa),QC_Pressure,8,present_non_sentinel,0
+MET_Gyirong_2025.csv,MET,2025,WS_1m(m/s),QC_WS_1m,0,present_non_sentinel,8487
+MET_Gyirong_2025.csv,MET,2025,WS_1m(m/s),QC_WS_1m,2,present_non_sentinel,138
+MET_Gyirong_2025.csv,MET,2025,WS_1m(m/s),QC_WS_1m,4,present_non_sentinel,135
+MET_Gyirong_2025.csv,MET,2025,WS_2m(m/s),QC_WS_2m,0,present_non_sentinel,8479
+MET_Gyirong_2025.csv,MET,2025,WS_2m(m/s),QC_WS_2m,2,present_non_sentinel,140
+MET_Gyirong_2025.csv,MET,2025,WS_2m(m/s),QC_WS_2m,4,present_non_sentinel,141
+MET_Gyirong_2025.csv,MET,2025,WS_4m(m/s),QC_WS_4m,0,present_non_sentinel,8583
+MET_Gyirong_2025.csv,MET,2025,WS_4m(m/s),QC_WS_4m,2,present_non_sentinel,95
+MET_Gyirong_2025.csv,MET,2025,WS_4m(m/s),QC_WS_4m,4,present_non_sentinel,82
+MET_Gyirong_2025.csv,MET,2025,WS_10m(m/s),QC_WS_10m,0,present_non_sentinel,8551
+MET_Gyirong_2025.csv,MET,2025,WS_10m(m/s),QC_WS_10m,2,present_non_sentinel,118
+MET_Gyirong_2025.csv,MET,2025,WS_10m(m/s),QC_WS_10m,4,present_non_sentinel,91
+MET_Gyirong_2025.csv,MET,2025,WS_20m(m/s),QC_WS_20m,0,present_non_sentinel,8535
+MET_Gyirong_2025.csv,MET,2025,WS_20m(m/s),QC_WS_20m,1,present_non_sentinel,1
+MET_Gyirong_2025.csv,MET,2025,WS_20m(m/s),QC_WS_20m,2,present_non_sentinel,136
+MET_Gyirong_2025.csv,MET,2025,WS_20m(m/s),QC_WS_20m,4,present_non_sentinel,88
+MET_Gyirong_2025.csv,MET,2025,WD_1m(degree),QC_WD_1m,0,present_non_sentinel,8527
+MET_Gyirong_2025.csv,MET,2025,WD_1m(degree),QC_WD_1m,2,present_non_sentinel,222
+MET_Gyirong_2025.csv,MET,2025,WD_1m(degree),QC_WD_1m,4,present_non_sentinel,11
+MET_Gyirong_2025.csv,MET,2025,WD_2m(degree),QC_WD_2m,0,present_non_sentinel,8523
+MET_Gyirong_2025.csv,MET,2025,WD_2m(degree),QC_WD_2m,2,present_non_sentinel,229
+MET_Gyirong_2025.csv,MET,2025,WD_2m(degree),QC_WD_2m,4,present_non_sentinel,8
+MET_Gyirong_2025.csv,MET,2025,WD_4m(degree),QC_WD_4m,0,present_non_sentinel,8599
+MET_Gyirong_2025.csv,MET,2025,WD_4m(degree),QC_WD_4m,1,present_non_sentinel,1
+MET_Gyirong_2025.csv,MET,2025,WD_4m(degree),QC_WD_4m,2,present_non_sentinel,153
+MET_Gyirong_2025.csv,MET,2025,WD_4m(degree),QC_WD_4m,4,present_non_sentinel,7
+MET_Gyirong_2025.csv,MET,2025,WD_10m(degree),QC_WD_10m,0,present_non_sentinel,8547
+MET_Gyirong_2025.csv,MET,2025,WD_10m(degree),QC_WD_10m,2,present_non_sentinel,199
+MET_Gyirong_2025.csv,MET,2025,WD_10m(degree),QC_WD_10m,4,present_non_sentinel,14
+MET_Gyirong_2025.csv,MET,2025,WD_20m(degree),QC_WD_20m,0,present_non_sentinel,8562
+MET_Gyirong_2025.csv,MET,2025,WD_20m(degree),QC_WD_20m,1,present_non_sentinel,1
+MET_Gyirong_2025.csv,MET,2025,WD_20m(degree),QC_WD_20m,2,present_non_sentinel,192
+MET_Gyirong_2025.csv,MET,2025,WD_20m(degree),QC_WD_20m,4,present_non_sentinel,5
+MET_Gyirong_2025.csv,MET,2025,Ta_1m(degree C),QC_Ta_1m,0,present_non_sentinel,8759
+MET_Gyirong_2025.csv,MET,2025,Ta_1m(degree C),QC_Ta_1m,2,present_non_sentinel,1
+MET_Gyirong_2025.csv,MET,2025,Ta_2m(degree C),QC_Ta_2m,0,present_non_sentinel,8760
+MET_Gyirong_2025.csv,MET,2025,Ta_4m(degree C),QC_Ta_4m,0,present_non_sentinel,8760
+MET_Gyirong_2025.csv,MET,2025,Ta_10m(degree C),QC_Ta_10m,0,present_non_sentinel,8760
+MET_Gyirong_2025.csv,MET,2025,Ta_20m(degree C),QC_Ta_20m,0,present_non_sentinel,8760
+MET_Gyirong_2025.csv,MET,2025,RH_1m(%),QC_RH_1m,0,present_non_sentinel,8760
+MET_Gyirong_2025.csv,MET,2025,RH_2m(%),QC_RH_2m,0,present_non_sentinel,8760
+MET_Gyirong_2025.csv,MET,2025,RH_4m(%),QC_RH_4m,0,present_non_sentinel,8760
+MET_Gyirong_2025.csv,MET,2025,RH_10m(%),QC_RH_10m,0,present_non_sentinel,8760
+MET_Gyirong_2025.csv,MET,2025,RH_20m(%),QC_RH_20m,0,present_non_sentinel,8739
+MET_Gyirong_2025.csv,MET,2025,RH_20m(%),QC_RH_20m,2,present_non_sentinel,21
+MET_Gyirong_2025.csv,MET,2025,Pressure(hPa),QC_Pressure,0,present_non_sentinel,8693
+MET_Gyirong_2025.csv,MET,2025,Pressure(hPa),QC_Pressure,2,present_non_sentinel,67
+MET_Gyirong_2026.csv,MET,2026,WS_1m(m/s),QC_WS_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_1m(m/s),QC_WS_1m,0,present_non_sentinel,5596
+MET_Gyirong_2026.csv,MET,2026,WS_1m(m/s),QC_WS_1m,1,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_1m(m/s),QC_WS_1m,1,present_non_sentinel,2
+MET_Gyirong_2026.csv,MET,2026,WS_1m(m/s),QC_WS_1m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_1m(m/s),QC_WS_1m,2,present_non_sentinel,58
+MET_Gyirong_2026.csv,MET,2026,WS_1m(m/s),QC_WS_1m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_1m(m/s),QC_WS_1m,4,present_non_sentinel,65
+MET_Gyirong_2026.csv,MET,2026,WS_1m(m/s),QC_WS_1m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,WS_1m(m/s),QC_WS_1m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,WS_2m(m/s),QC_WS_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_2m(m/s),QC_WS_2m,0,present_non_sentinel,5589
+MET_Gyirong_2026.csv,MET,2026,WS_2m(m/s),QC_WS_2m,1,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_2m(m/s),QC_WS_2m,1,present_non_sentinel,1
+MET_Gyirong_2026.csv,MET,2026,WS_2m(m/s),QC_WS_2m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_2m(m/s),QC_WS_2m,2,present_non_sentinel,66
+MET_Gyirong_2026.csv,MET,2026,WS_2m(m/s),QC_WS_2m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_2m(m/s),QC_WS_2m,4,present_non_sentinel,65
+MET_Gyirong_2026.csv,MET,2026,WS_2m(m/s),QC_WS_2m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,WS_2m(m/s),QC_WS_2m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,WS_4m(m/s),QC_WS_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_4m(m/s),QC_WS_4m,0,present_non_sentinel,5642
+MET_Gyirong_2026.csv,MET,2026,WS_4m(m/s),QC_WS_4m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_4m(m/s),QC_WS_4m,2,present_non_sentinel,36
+MET_Gyirong_2026.csv,MET,2026,WS_4m(m/s),QC_WS_4m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_4m(m/s),QC_WS_4m,4,present_non_sentinel,43
+MET_Gyirong_2026.csv,MET,2026,WS_4m(m/s),QC_WS_4m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,WS_4m(m/s),QC_WS_4m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,WS_10m(m/s),QC_WS_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_10m(m/s),QC_WS_10m,0,present_non_sentinel,5643
+MET_Gyirong_2026.csv,MET,2026,WS_10m(m/s),QC_WS_10m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_10m(m/s),QC_WS_10m,2,present_non_sentinel,36
+MET_Gyirong_2026.csv,MET,2026,WS_10m(m/s),QC_WS_10m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_10m(m/s),QC_WS_10m,4,present_non_sentinel,42
+MET_Gyirong_2026.csv,MET,2026,WS_10m(m/s),QC_WS_10m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,WS_10m(m/s),QC_WS_10m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,WS_20m(m/s),QC_WS_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_20m(m/s),QC_WS_20m,0,present_non_sentinel,5643
+MET_Gyirong_2026.csv,MET,2026,WS_20m(m/s),QC_WS_20m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_20m(m/s),QC_WS_20m,2,present_non_sentinel,30
+MET_Gyirong_2026.csv,MET,2026,WS_20m(m/s),QC_WS_20m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WS_20m(m/s),QC_WS_20m,4,present_non_sentinel,48
+MET_Gyirong_2026.csv,MET,2026,WS_20m(m/s),QC_WS_20m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,WS_20m(m/s),QC_WS_20m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,WD_1m(degree),QC_WD_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_1m(degree),QC_WD_1m,0,present_non_sentinel,5616
+MET_Gyirong_2026.csv,MET,2026,WD_1m(degree),QC_WD_1m,1,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_1m(degree),QC_WD_1m,1,present_non_sentinel,1
+MET_Gyirong_2026.csv,MET,2026,WD_1m(degree),QC_WD_1m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_1m(degree),QC_WD_1m,2,present_non_sentinel,97
+MET_Gyirong_2026.csv,MET,2026,WD_1m(degree),QC_WD_1m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_1m(degree),QC_WD_1m,4,present_non_sentinel,7
+MET_Gyirong_2026.csv,MET,2026,WD_1m(degree),QC_WD_1m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,WD_1m(degree),QC_WD_1m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,WD_2m(degree),QC_WD_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_2m(degree),QC_WD_2m,0,present_non_sentinel,5615
+MET_Gyirong_2026.csv,MET,2026,WD_2m(degree),QC_WD_2m,1,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_2m(degree),QC_WD_2m,1,present_non_sentinel,1
+MET_Gyirong_2026.csv,MET,2026,WD_2m(degree),QC_WD_2m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_2m(degree),QC_WD_2m,2,present_non_sentinel,103
+MET_Gyirong_2026.csv,MET,2026,WD_2m(degree),QC_WD_2m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_2m(degree),QC_WD_2m,4,present_non_sentinel,2
+MET_Gyirong_2026.csv,MET,2026,WD_2m(degree),QC_WD_2m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,WD_2m(degree),QC_WD_2m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,WD_4m(degree),QC_WD_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_4m(degree),QC_WD_4m,0,present_non_sentinel,5651
+MET_Gyirong_2026.csv,MET,2026,WD_4m(degree),QC_WD_4m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_4m(degree),QC_WD_4m,2,present_non_sentinel,63
+MET_Gyirong_2026.csv,MET,2026,WD_4m(degree),QC_WD_4m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_4m(degree),QC_WD_4m,4,present_non_sentinel,7
+MET_Gyirong_2026.csv,MET,2026,WD_4m(degree),QC_WD_4m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,WD_4m(degree),QC_WD_4m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,WD_10m(degree),QC_WD_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_10m(degree),QC_WD_10m,0,present_non_sentinel,5656
+MET_Gyirong_2026.csv,MET,2026,WD_10m(degree),QC_WD_10m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_10m(degree),QC_WD_10m,2,present_non_sentinel,63
+MET_Gyirong_2026.csv,MET,2026,WD_10m(degree),QC_WD_10m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_10m(degree),QC_WD_10m,4,present_non_sentinel,2
+MET_Gyirong_2026.csv,MET,2026,WD_10m(degree),QC_WD_10m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,WD_10m(degree),QC_WD_10m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,WD_20m(degree),QC_WD_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_20m(degree),QC_WD_20m,0,present_non_sentinel,5643
+MET_Gyirong_2026.csv,MET,2026,WD_20m(degree),QC_WD_20m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_20m(degree),QC_WD_20m,2,present_non_sentinel,72
+MET_Gyirong_2026.csv,MET,2026,WD_20m(degree),QC_WD_20m,4,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,WD_20m(degree),QC_WD_20m,4,present_non_sentinel,6
+MET_Gyirong_2026.csv,MET,2026,WD_20m(degree),QC_WD_20m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,WD_20m(degree),QC_WD_20m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,Ta_1m(degree C),QC_Ta_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,Ta_1m(degree C),QC_Ta_1m,0,present_non_sentinel,5721
+MET_Gyirong_2026.csv,MET,2026,Ta_1m(degree C),QC_Ta_1m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,Ta_1m(degree C),QC_Ta_1m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,Ta_2m(degree C),QC_Ta_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,Ta_2m(degree C),QC_Ta_2m,0,present_non_sentinel,5721
+MET_Gyirong_2026.csv,MET,2026,Ta_2m(degree C),QC_Ta_2m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,Ta_2m(degree C),QC_Ta_2m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,Ta_4m(degree C),QC_Ta_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,Ta_4m(degree C),QC_Ta_4m,0,present_non_sentinel,5721
+MET_Gyirong_2026.csv,MET,2026,Ta_4m(degree C),QC_Ta_4m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,Ta_4m(degree C),QC_Ta_4m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,Ta_10m(degree C),QC_Ta_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,Ta_10m(degree C),QC_Ta_10m,0,present_non_sentinel,5721
+MET_Gyirong_2026.csv,MET,2026,Ta_10m(degree C),QC_Ta_10m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,Ta_10m(degree C),QC_Ta_10m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,Ta_20m(degree C),QC_Ta_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,Ta_20m(degree C),QC_Ta_20m,0,present_non_sentinel,5721
+MET_Gyirong_2026.csv,MET,2026,Ta_20m(degree C),QC_Ta_20m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,Ta_20m(degree C),QC_Ta_20m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,RH_1m(%),QC_RH_1m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,RH_1m(%),QC_RH_1m,0,present_non_sentinel,5721
+MET_Gyirong_2026.csv,MET,2026,RH_1m(%),QC_RH_1m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,RH_1m(%),QC_RH_1m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,RH_2m(%),QC_RH_2m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,RH_2m(%),QC_RH_2m,0,present_non_sentinel,5721
+MET_Gyirong_2026.csv,MET,2026,RH_2m(%),QC_RH_2m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,RH_2m(%),QC_RH_2m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,RH_4m(%),QC_RH_4m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,RH_4m(%),QC_RH_4m,0,present_non_sentinel,5721
+MET_Gyirong_2026.csv,MET,2026,RH_4m(%),QC_RH_4m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,RH_4m(%),QC_RH_4m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,RH_10m(%),QC_RH_10m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,RH_10m(%),QC_RH_10m,0,present_non_sentinel,5721
+MET_Gyirong_2026.csv,MET,2026,RH_10m(%),QC_RH_10m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,RH_10m(%),QC_RH_10m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,RH_20m(%),QC_RH_20m,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,RH_20m(%),QC_RH_20m,0,present_non_sentinel,5720
+MET_Gyirong_2026.csv,MET,2026,RH_20m(%),QC_RH_20m,2,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,RH_20m(%),QC_RH_20m,2,present_non_sentinel,1
+MET_Gyirong_2026.csv,MET,2026,RH_20m(%),QC_RH_20m,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,RH_20m(%),QC_RH_20m,8,present_non_sentinel,0
+MET_Gyirong_2026.csv,MET,2026,Pressure(hPa),QC_Pressure,0,missing_or_unusable_numeric,0
+MET_Gyirong_2026.csv,MET,2026,Pressure(hPa),QC_Pressure,0,present_non_sentinel,5721
+MET_Gyirong_2026.csv,MET,2026,Pressure(hPa),QC_Pressure,8,missing_or_unusable_numeric,3039
+MET_Gyirong_2026.csv,MET,2026,Pressure(hPa),QC_Pressure,8,present_non_sentinel,0
+RADM_Gyirong_2021.csv,RADM,2021,Rsd(W/m2),QC_Rsd,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2021.csv,RADM,2021,Rsd(W/m2),QC_Rsd,0,present_non_sentinel,5724
+RADM_Gyirong_2021.csv,RADM,2021,Rsd(W/m2),QC_Rsd,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2021.csv,RADM,2021,Rsd(W/m2),QC_Rsd,2,present_non_sentinel,228
+RADM_Gyirong_2021.csv,RADM,2021,Rsd(W/m2),QC_Rsd,4,missing_or_unusable_numeric,0
+RADM_Gyirong_2021.csv,RADM,2021,Rsd(W/m2),QC_Rsd,4,present_non_sentinel,3
+RADM_Gyirong_2021.csv,RADM,2021,Rsd(W/m2),QC_Rsd,8,missing_or_unusable_numeric,2805
+RADM_Gyirong_2021.csv,RADM,2021,Rsd(W/m2),QC_Rsd,8,present_non_sentinel,0
+RADM_Gyirong_2021.csv,RADM,2021,Rsu(W/m2),QC_rsu,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2021.csv,RADM,2021,Rsu(W/m2),QC_rsu,0,present_non_sentinel,5717
+RADM_Gyirong_2021.csv,RADM,2021,Rsu(W/m2),QC_rsu,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2021.csv,RADM,2021,Rsu(W/m2),QC_rsu,2,present_non_sentinel,236
+RADM_Gyirong_2021.csv,RADM,2021,Rsu(W/m2),QC_rsu,4,missing_or_unusable_numeric,0
+RADM_Gyirong_2021.csv,RADM,2021,Rsu(W/m2),QC_rsu,4,present_non_sentinel,2
+RADM_Gyirong_2021.csv,RADM,2021,Rsu(W/m2),QC_rsu,8,missing_or_unusable_numeric,2805
+RADM_Gyirong_2021.csv,RADM,2021,Rsu(W/m2),QC_rsu,8,present_non_sentinel,0
+RADM_Gyirong_2021.csv,RADM,2021,Rld(W/m2),QC_rld,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2021.csv,RADM,2021,Rld(W/m2),QC_rld,0,present_non_sentinel,5727
+RADM_Gyirong_2021.csv,RADM,2021,Rld(W/m2),QC_rld,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2021.csv,RADM,2021,Rld(W/m2),QC_rld,2,present_non_sentinel,217
+RADM_Gyirong_2021.csv,RADM,2021,Rld(W/m2),QC_rld,8,missing_or_unusable_numeric,2816
+RADM_Gyirong_2021.csv,RADM,2021,Rld(W/m2),QC_rld,8,present_non_sentinel,0
+RADM_Gyirong_2021.csv,RADM,2021,Rlu(W/m2),QC_rlu,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2021.csv,RADM,2021,Rlu(W/m2),QC_rlu,0,present_non_sentinel,5727
+RADM_Gyirong_2021.csv,RADM,2021,Rlu(W/m2),QC_rlu,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2021.csv,RADM,2021,Rlu(W/m2),QC_rlu,2,present_non_sentinel,217
+RADM_Gyirong_2021.csv,RADM,2021,Rlu(W/m2),QC_rlu,8,missing_or_unusable_numeric,2816
+RADM_Gyirong_2021.csv,RADM,2021,Rlu(W/m2),QC_rlu,8,present_non_sentinel,0
+RADM_Gyirong_2022.csv,RADM,2022,Rsd(W/m2),QC_Rsd,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2022.csv,RADM,2022,Rsd(W/m2),QC_Rsd,0,present_non_sentinel,8376
+RADM_Gyirong_2022.csv,RADM,2022,Rsd(W/m2),QC_Rsd,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2022.csv,RADM,2022,Rsd(W/m2),QC_Rsd,2,present_non_sentinel,365
+RADM_Gyirong_2022.csv,RADM,2022,Rsd(W/m2),QC_Rsd,8,missing_or_unusable_numeric,19
+RADM_Gyirong_2022.csv,RADM,2022,Rsd(W/m2),QC_Rsd,8,present_non_sentinel,0
+RADM_Gyirong_2022.csv,RADM,2022,Rsu(W/m2),QC_rsu,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2022.csv,RADM,2022,Rsu(W/m2),QC_rsu,0,present_non_sentinel,8371
+RADM_Gyirong_2022.csv,RADM,2022,Rsu(W/m2),QC_rsu,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2022.csv,RADM,2022,Rsu(W/m2),QC_rsu,2,present_non_sentinel,366
+RADM_Gyirong_2022.csv,RADM,2022,Rsu(W/m2),QC_rsu,4,missing_or_unusable_numeric,0
+RADM_Gyirong_2022.csv,RADM,2022,Rsu(W/m2),QC_rsu,4,present_non_sentinel,4
+RADM_Gyirong_2022.csv,RADM,2022,Rsu(W/m2),QC_rsu,8,missing_or_unusable_numeric,19
+RADM_Gyirong_2022.csv,RADM,2022,Rsu(W/m2),QC_rsu,8,present_non_sentinel,0
+RADM_Gyirong_2022.csv,RADM,2022,Rld(W/m2),QC_rld,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2022.csv,RADM,2022,Rld(W/m2),QC_rld,0,present_non_sentinel,8376
+RADM_Gyirong_2022.csv,RADM,2022,Rld(W/m2),QC_rld,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2022.csv,RADM,2022,Rld(W/m2),QC_rld,2,present_non_sentinel,208
+RADM_Gyirong_2022.csv,RADM,2022,Rld(W/m2),QC_rld,8,missing_or_unusable_numeric,176
+RADM_Gyirong_2022.csv,RADM,2022,Rld(W/m2),QC_rld,8,present_non_sentinel,0
+RADM_Gyirong_2022.csv,RADM,2022,Rlu(W/m2),QC_rlu,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2022.csv,RADM,2022,Rlu(W/m2),QC_rlu,0,present_non_sentinel,8376
+RADM_Gyirong_2022.csv,RADM,2022,Rlu(W/m2),QC_rlu,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2022.csv,RADM,2022,Rlu(W/m2),QC_rlu,2,present_non_sentinel,208
+RADM_Gyirong_2022.csv,RADM,2022,Rlu(W/m2),QC_rlu,8,missing_or_unusable_numeric,176
+RADM_Gyirong_2022.csv,RADM,2022,Rlu(W/m2),QC_rlu,8,present_non_sentinel,0
+RADM_Gyirong_2023.csv,RADM,2023,Rsd(W/m2),QC_Rsd,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rsd(W/m2),QC_Rsd,0,present_non_sentinel,8608
+RADM_Gyirong_2023.csv,RADM,2023,Rsd(W/m2),QC_Rsd,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rsd(W/m2),QC_Rsd,2,present_non_sentinel,149
+RADM_Gyirong_2023.csv,RADM,2023,Rsd(W/m2),QC_Rsd,4,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rsd(W/m2),QC_Rsd,4,present_non_sentinel,2
+RADM_Gyirong_2023.csv,RADM,2023,Rsd(W/m2),QC_Rsd,8,missing_or_unusable_numeric,1
+RADM_Gyirong_2023.csv,RADM,2023,Rsd(W/m2),QC_Rsd,8,present_non_sentinel,0
+RADM_Gyirong_2023.csv,RADM,2023,Rsu(W/m2),QC_rsu,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rsu(W/m2),QC_rsu,0,present_non_sentinel,8601
+RADM_Gyirong_2023.csv,RADM,2023,Rsu(W/m2),QC_rsu,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rsu(W/m2),QC_rsu,2,present_non_sentinel,156
+RADM_Gyirong_2023.csv,RADM,2023,Rsu(W/m2),QC_rsu,4,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rsu(W/m2),QC_rsu,4,present_non_sentinel,2
+RADM_Gyirong_2023.csv,RADM,2023,Rsu(W/m2),QC_rsu,8,missing_or_unusable_numeric,1
+RADM_Gyirong_2023.csv,RADM,2023,Rsu(W/m2),QC_rsu,8,present_non_sentinel,0
+RADM_Gyirong_2023.csv,RADM,2023,Rld(W/m2),QC_rld,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rld(W/m2),QC_rld,0,present_non_sentinel,8609
+RADM_Gyirong_2023.csv,RADM,2023,Rld(W/m2),QC_rld,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rld(W/m2),QC_rld,2,present_non_sentinel,93
+RADM_Gyirong_2023.csv,RADM,2023,Rld(W/m2),QC_rld,4,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rld(W/m2),QC_rld,4,present_non_sentinel,1
+RADM_Gyirong_2023.csv,RADM,2023,Rld(W/m2),QC_rld,8,missing_or_unusable_numeric,57
+RADM_Gyirong_2023.csv,RADM,2023,Rld(W/m2),QC_rld,8,present_non_sentinel,0
+RADM_Gyirong_2023.csv,RADM,2023,Rlu(W/m2),QC_rlu,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rlu(W/m2),QC_rlu,0,present_non_sentinel,8607
+RADM_Gyirong_2023.csv,RADM,2023,Rlu(W/m2),QC_rlu,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rlu(W/m2),QC_rlu,2,present_non_sentinel,93
+RADM_Gyirong_2023.csv,RADM,2023,Rlu(W/m2),QC_rlu,4,missing_or_unusable_numeric,0
+RADM_Gyirong_2023.csv,RADM,2023,Rlu(W/m2),QC_rlu,4,present_non_sentinel,3
+RADM_Gyirong_2023.csv,RADM,2023,Rlu(W/m2),QC_rlu,8,missing_or_unusable_numeric,57
+RADM_Gyirong_2023.csv,RADM,2023,Rlu(W/m2),QC_rlu,8,present_non_sentinel,0
+RADM_Gyirong_2024.csv,RADM,2024,Rsd(W/m2),QC_Rsd,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2024.csv,RADM,2024,Rsd(W/m2),QC_Rsd,0,present_non_sentinel,8511
+RADM_Gyirong_2024.csv,RADM,2024,Rsd(W/m2),QC_Rsd,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2024.csv,RADM,2024,Rsd(W/m2),QC_Rsd,2,present_non_sentinel,270
+RADM_Gyirong_2024.csv,RADM,2024,Rsd(W/m2),QC_Rsd,8,missing_or_unusable_numeric,3
+RADM_Gyirong_2024.csv,RADM,2024,Rsd(W/m2),QC_Rsd,8,present_non_sentinel,0
+RADM_Gyirong_2024.csv,RADM,2024,Rsu(W/m2),QC_rsu,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2024.csv,RADM,2024,Rsu(W/m2),QC_rsu,0,present_non_sentinel,8509
+RADM_Gyirong_2024.csv,RADM,2024,Rsu(W/m2),QC_rsu,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2024.csv,RADM,2024,Rsu(W/m2),QC_rsu,2,present_non_sentinel,270
+RADM_Gyirong_2024.csv,RADM,2024,Rsu(W/m2),QC_rsu,4,missing_or_unusable_numeric,0
+RADM_Gyirong_2024.csv,RADM,2024,Rsu(W/m2),QC_rsu,4,present_non_sentinel,2
+RADM_Gyirong_2024.csv,RADM,2024,Rsu(W/m2),QC_rsu,8,missing_or_unusable_numeric,3
+RADM_Gyirong_2024.csv,RADM,2024,Rsu(W/m2),QC_rsu,8,present_non_sentinel,0
+RADM_Gyirong_2024.csv,RADM,2024,Rld(W/m2),QC_rld,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2024.csv,RADM,2024,Rld(W/m2),QC_rld,0,present_non_sentinel,8511
+RADM_Gyirong_2024.csv,RADM,2024,Rld(W/m2),QC_rld,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2024.csv,RADM,2024,Rld(W/m2),QC_rld,2,present_non_sentinel,244
+RADM_Gyirong_2024.csv,RADM,2024,Rld(W/m2),QC_rld,8,missing_or_unusable_numeric,29
+RADM_Gyirong_2024.csv,RADM,2024,Rld(W/m2),QC_rld,8,present_non_sentinel,0
+RADM_Gyirong_2024.csv,RADM,2024,Rlu(W/m2),QC_rlu,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2024.csv,RADM,2024,Rlu(W/m2),QC_rlu,0,present_non_sentinel,8493
+RADM_Gyirong_2024.csv,RADM,2024,Rlu(W/m2),QC_rlu,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2024.csv,RADM,2024,Rlu(W/m2),QC_rlu,2,present_non_sentinel,258
+RADM_Gyirong_2024.csv,RADM,2024,Rlu(W/m2),QC_rlu,4,missing_or_unusable_numeric,0
+RADM_Gyirong_2024.csv,RADM,2024,Rlu(W/m2),QC_rlu,4,present_non_sentinel,4
+RADM_Gyirong_2024.csv,RADM,2024,Rlu(W/m2),QC_rlu,8,missing_or_unusable_numeric,29
+RADM_Gyirong_2024.csv,RADM,2024,Rlu(W/m2),QC_rlu,8,present_non_sentinel,0
+RADM_Gyirong_2025.csv,RADM,2025,Rsd(W/m2),QC_Rsd,0,present_non_sentinel,8694
+RADM_Gyirong_2025.csv,RADM,2025,Rsd(W/m2),QC_Rsd,2,present_non_sentinel,66
+RADM_Gyirong_2025.csv,RADM,2025,Rsu(W/m2),QC_rsu,0,present_non_sentinel,8687
+RADM_Gyirong_2025.csv,RADM,2025,Rsu(W/m2),QC_rsu,2,present_non_sentinel,66
+RADM_Gyirong_2025.csv,RADM,2025,Rsu(W/m2),QC_rsu,4,present_non_sentinel,7
+RADM_Gyirong_2025.csv,RADM,2025,Rld(W/m2),QC_rld,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2025.csv,RADM,2025,Rld(W/m2),QC_rld,0,present_non_sentinel,8694
+RADM_Gyirong_2025.csv,RADM,2025,Rld(W/m2),QC_rld,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2025.csv,RADM,2025,Rld(W/m2),QC_rld,2,present_non_sentinel,38
+RADM_Gyirong_2025.csv,RADM,2025,Rld(W/m2),QC_rld,8,missing_or_unusable_numeric,28
+RADM_Gyirong_2025.csv,RADM,2025,Rld(W/m2),QC_rld,8,present_non_sentinel,0
+RADM_Gyirong_2025.csv,RADM,2025,Rlu(W/m2),QC_rlu,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2025.csv,RADM,2025,Rlu(W/m2),QC_rlu,0,present_non_sentinel,8690
+RADM_Gyirong_2025.csv,RADM,2025,Rlu(W/m2),QC_rlu,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2025.csv,RADM,2025,Rlu(W/m2),QC_rlu,2,present_non_sentinel,42
+RADM_Gyirong_2025.csv,RADM,2025,Rlu(W/m2),QC_rlu,8,missing_or_unusable_numeric,28
+RADM_Gyirong_2025.csv,RADM,2025,Rlu(W/m2),QC_rlu,8,present_non_sentinel,0
+RADM_Gyirong_2026.csv,RADM,2026,Rsd(W/m2),QC_Rsd,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2026.csv,RADM,2026,Rsd(W/m2),QC_Rsd,0,present_non_sentinel,5721
+RADM_Gyirong_2026.csv,RADM,2026,Rsd(W/m2),QC_Rsd,8,missing_or_unusable_numeric,3039
+RADM_Gyirong_2026.csv,RADM,2026,Rsd(W/m2),QC_Rsd,8,present_non_sentinel,0
+RADM_Gyirong_2026.csv,RADM,2026,Rsu(W/m2),QC_rsu,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2026.csv,RADM,2026,Rsu(W/m2),QC_rsu,0,present_non_sentinel,5711
+RADM_Gyirong_2026.csv,RADM,2026,Rsu(W/m2),QC_rsu,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2026.csv,RADM,2026,Rsu(W/m2),QC_rsu,2,present_non_sentinel,4
+RADM_Gyirong_2026.csv,RADM,2026,Rsu(W/m2),QC_rsu,4,missing_or_unusable_numeric,0
+RADM_Gyirong_2026.csv,RADM,2026,Rsu(W/m2),QC_rsu,4,present_non_sentinel,6
+RADM_Gyirong_2026.csv,RADM,2026,Rsu(W/m2),QC_rsu,8,missing_or_unusable_numeric,3039
+RADM_Gyirong_2026.csv,RADM,2026,Rsu(W/m2),QC_rsu,8,present_non_sentinel,0
+RADM_Gyirong_2026.csv,RADM,2026,Rld(W/m2),QC_rld,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2026.csv,RADM,2026,Rld(W/m2),QC_rld,0,present_non_sentinel,5721
+RADM_Gyirong_2026.csv,RADM,2026,Rld(W/m2),QC_rld,8,missing_or_unusable_numeric,3039
+RADM_Gyirong_2026.csv,RADM,2026,Rld(W/m2),QC_rld,8,present_non_sentinel,0
+RADM_Gyirong_2026.csv,RADM,2026,Rlu(W/m2),QC_rlu,0,missing_or_unusable_numeric,0
+RADM_Gyirong_2026.csv,RADM,2026,Rlu(W/m2),QC_rlu,0,present_non_sentinel,5685
+RADM_Gyirong_2026.csv,RADM,2026,Rlu(W/m2),QC_rlu,2,missing_or_unusable_numeric,0
+RADM_Gyirong_2026.csv,RADM,2026,Rlu(W/m2),QC_rlu,2,present_non_sentinel,26
+RADM_Gyirong_2026.csv,RADM,2026,Rlu(W/m2),QC_rlu,4,missing_or_unusable_numeric,0
+RADM_Gyirong_2026.csv,RADM,2026,Rlu(W/m2),QC_rlu,4,present_non_sentinel,10
+RADM_Gyirong_2026.csv,RADM,2026,Rlu(W/m2),QC_rlu,8,missing_or_unusable_numeric,3039
+RADM_Gyirong_2026.csv,RADM,2026,Rlu(W/m2),QC_rlu,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.1m(degree C),QC_soilT_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.1m(degree C),QC_soilT_0.1m,0,present_non_sentinel,5986
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.1m(degree C),QC_soilT_0.1m,8,missing_or_unusable_numeric,2774
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.1m(degree C),QC_soilT_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.2m(degree C),QC_soilT_0.2m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.2m(degree C),QC_soilT_0.2m,0,present_non_sentinel,5986
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.2m(degree C),QC_soilT_0.2m,8,missing_or_unusable_numeric,2774
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.2m(degree C),QC_soilT_0.2m,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.4m(degree C),QC_soilT_0.4m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.4m(degree C),QC_soilT_0.4m,0,present_non_sentinel,5986
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.4m(degree C),QC_soilT_0.4m,8,missing_or_unusable_numeric,2774
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.4m(degree C),QC_soilT_0.4m,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.8m(degree C),QC_soilT_0.8m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.8m(degree C),QC_soilT_0.8m,0,present_non_sentinel,5986
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.8m(degree C),QC_soilT_0.8m,8,missing_or_unusable_numeric,2774
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_0.8m(degree C),QC_soilT_0.8m,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_1.6m(degree C),QC_soilT_1.6m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_1.6m(degree C),QC_soilT_1.6m,0,present_non_sentinel,5986
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_1.6m(degree C),QC_soilT_1.6m,8,missing_or_unusable_numeric,2774
+SOIL_Gyirong_2021.csv,SOIL,2021,soilT_1.6m(degree C),QC_soilT_1.6m,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.1m(m3/m3),QC_VWC_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.1m(m3/m3),QC_VWC_0.1m,0,present_non_sentinel,5955
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.1m(m3/m3),QC_VWC_0.1m,2,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.1m(m3/m3),QC_VWC_0.1m,2,present_non_sentinel,31
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.1m(m3/m3),QC_VWC_0.1m,8,missing_or_unusable_numeric,2774
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.1m(m3/m3),QC_VWC_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.2m(m3/m3),QC_VWC_0.2m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.2m(m3/m3),QC_VWC_0.2m,0,present_non_sentinel,5733
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.2m(m3/m3),QC_VWC_0.2m,2,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.2m(m3/m3),QC_VWC_0.2m,2,present_non_sentinel,253
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.2m(m3/m3),QC_VWC_0.2m,8,missing_or_unusable_numeric,2774
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.2m(m3/m3),QC_VWC_0.2m,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.4m(m3/m3),QC_VWC_0.4m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.4m(m3/m3),QC_VWC_0.4m,0,present_non_sentinel,5986
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.4m(m3/m3),QC_VWC_0.4m,8,missing_or_unusable_numeric,2774
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.4m(m3/m3),QC_VWC_0.4m,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.8m(m3/m3),QC_VWC_0.8m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.8m(m3/m3),QC_VWC_0.8m,0,present_non_sentinel,5986
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.8m(m3/m3),QC_VWC_0.8m,8,missing_or_unusable_numeric,2774
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_0.8m(m3/m3),QC_VWC_0.8m,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_1.6m(m3/m3),QC_VWC_1.6m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_1.6m(m3/m3),QC_VWC_1.6m,0,present_non_sentinel,5986
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_1.6m(m3/m3),QC_VWC_1.6m,8,missing_or_unusable_numeric,2774
+SOIL_Gyirong_2021.csv,SOIL,2021,VWC_1.6m(m3/m3),QC_VWC_1.6m,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.1m(W/m2),QC_G_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.1m(W/m2),QC_G_0.1m,0,present_non_sentinel,5752
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.1m(W/m2),QC_G_0.1m,2,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.1m(W/m2),QC_G_0.1m,2,present_non_sentinel,8
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.1m(W/m2),QC_G_0.1m,8,missing_or_unusable_numeric,3000
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.1m(W/m2),QC_G_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.2m(W/m2),QC_G_0.2m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.2m(W/m2),QC_G_0.2m,0,present_non_sentinel,5752
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.2m(W/m2),QC_G_0.2m,2,missing_or_unusable_numeric,0
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.2m(W/m2),QC_G_0.2m,2,present_non_sentinel,228
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.2m(W/m2),QC_G_0.2m,8,missing_or_unusable_numeric,2780
+SOIL_Gyirong_2021.csv,SOIL,2021,G_0.2m(W/m2),QC_G_0.2m,8,present_non_sentinel,0
+SOIL_Gyirong_2022.csv,SOIL,2022,soilT_0.1m(degree C),QC_soilT_0.1m,0,present_non_sentinel,8760
+SOIL_Gyirong_2022.csv,SOIL,2022,soilT_0.2m(degree C),QC_soilT_0.2m,0,present_non_sentinel,8760
+SOIL_Gyirong_2022.csv,SOIL,2022,soilT_0.4m(degree C),QC_soilT_0.4m,0,present_non_sentinel,8760
+SOIL_Gyirong_2022.csv,SOIL,2022,soilT_0.8m(degree C),QC_soilT_0.8m,0,present_non_sentinel,8760
+SOIL_Gyirong_2022.csv,SOIL,2022,soilT_1.6m(degree C),QC_soilT_1.6m,0,present_non_sentinel,8760
+SOIL_Gyirong_2022.csv,SOIL,2022,VWC_0.1m(m3/m3),QC_VWC_0.1m,0,present_non_sentinel,8760
+SOIL_Gyirong_2022.csv,SOIL,2022,VWC_0.2m(m3/m3),QC_VWC_0.2m,0,present_non_sentinel,8417
+SOIL_Gyirong_2022.csv,SOIL,2022,VWC_0.2m(m3/m3),QC_VWC_0.2m,2,present_non_sentinel,343
+SOIL_Gyirong_2022.csv,SOIL,2022,VWC_0.4m(m3/m3),QC_VWC_0.4m,0,present_non_sentinel,8760
+SOIL_Gyirong_2022.csv,SOIL,2022,VWC_0.8m(m3/m3),QC_VWC_0.8m,0,present_non_sentinel,8759
+SOIL_Gyirong_2022.csv,SOIL,2022,VWC_0.8m(m3/m3),QC_VWC_0.8m,9,present_non_sentinel,1
+SOIL_Gyirong_2022.csv,SOIL,2022,VWC_1.6m(m3/m3),QC_VWC_1.6m,0,present_non_sentinel,8760
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.1m(W/m2),QC_G_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.1m(W/m2),QC_G_0.1m,0,present_non_sentinel,8394
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.1m(W/m2),QC_G_0.1m,2,missing_or_unusable_numeric,0
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.1m(W/m2),QC_G_0.1m,2,present_non_sentinel,355
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.1m(W/m2),QC_G_0.1m,8,missing_or_unusable_numeric,11
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.1m(W/m2),QC_G_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.2m(W/m2),QC_G_0.2m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.2m(W/m2),QC_G_0.2m,0,present_non_sentinel,8394
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.2m(W/m2),QC_G_0.2m,2,missing_or_unusable_numeric,0
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.2m(W/m2),QC_G_0.2m,2,present_non_sentinel,365
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.2m(W/m2),QC_G_0.2m,8,missing_or_unusable_numeric,1
+SOIL_Gyirong_2022.csv,SOIL,2022,G_0.2m(W/m2),QC_G_0.2m,8,present_non_sentinel,0
+SOIL_Gyirong_2023.csv,SOIL,2023,soilT_0.1m(degree C),QC_soilT_0.1m,0,present_non_sentinel,8760
+SOIL_Gyirong_2023.csv,SOIL,2023,soilT_0.2m(degree C),QC_soilT_0.2m,0,present_non_sentinel,8760
+SOIL_Gyirong_2023.csv,SOIL,2023,soilT_0.4m(degree C),QC_soilT_0.4m,0,present_non_sentinel,8760
+SOIL_Gyirong_2023.csv,SOIL,2023,soilT_0.8m(degree C),QC_soilT_0.8m,0,present_non_sentinel,8760
+SOIL_Gyirong_2023.csv,SOIL,2023,soilT_1.6m(degree C),QC_soilT_1.6m,0,present_non_sentinel,8760
+SOIL_Gyirong_2023.csv,SOIL,2023,VWC_0.1m(m3/m3),QC_VWC_0.1m,0,present_non_sentinel,8760
+SOIL_Gyirong_2023.csv,SOIL,2023,VWC_0.2m(m3/m3),QC_VWC_0.2m,0,present_non_sentinel,8596
+SOIL_Gyirong_2023.csv,SOIL,2023,VWC_0.2m(m3/m3),QC_VWC_0.2m,2,present_non_sentinel,164
+SOIL_Gyirong_2023.csv,SOIL,2023,VWC_0.4m(m3/m3),QC_VWC_0.4m,0,present_non_sentinel,8760
+SOIL_Gyirong_2023.csv,SOIL,2023,VWC_0.8m(m3/m3),QC_VWC_0.8m,0,present_non_sentinel,8760
+SOIL_Gyirong_2023.csv,SOIL,2023,VWC_1.6m(m3/m3),QC_VWC_1.6m,0,present_non_sentinel,8760
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.1m(W/m2),QC_G_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.1m(W/m2),QC_G_0.1m,0,present_non_sentinel,8609
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.1m(W/m2),QC_G_0.1m,2,missing_or_unusable_numeric,0
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.1m(W/m2),QC_G_0.1m,2,present_non_sentinel,71
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.1m(W/m2),QC_G_0.1m,8,missing_or_unusable_numeric,80
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.1m(W/m2),QC_G_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.2m(W/m2),QC_G_0.2m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.2m(W/m2),QC_G_0.2m,0,present_non_sentinel,8609
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.2m(W/m2),QC_G_0.2m,2,missing_or_unusable_numeric,0
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.2m(W/m2),QC_G_0.2m,2,present_non_sentinel,149
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.2m(W/m2),QC_G_0.2m,4,missing_or_unusable_numeric,0
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.2m(W/m2),QC_G_0.2m,4,present_non_sentinel,1
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.2m(W/m2),QC_G_0.2m,8,missing_or_unusable_numeric,1
+SOIL_Gyirong_2023.csv,SOIL,2023,G_0.2m(W/m2),QC_G_0.2m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.1m(degree C),QC_soilT_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.1m(degree C),QC_soilT_0.1m,0,present_non_sentinel,8781
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.1m(degree C),QC_soilT_0.1m,8,missing_or_unusable_numeric,3
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.1m(degree C),QC_soilT_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.2m(degree C),QC_soilT_0.2m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.2m(degree C),QC_soilT_0.2m,0,present_non_sentinel,8781
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.2m(degree C),QC_soilT_0.2m,8,missing_or_unusable_numeric,3
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.2m(degree C),QC_soilT_0.2m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.4m(degree C),QC_soilT_0.4m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.4m(degree C),QC_soilT_0.4m,0,present_non_sentinel,8781
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.4m(degree C),QC_soilT_0.4m,8,missing_or_unusable_numeric,3
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.4m(degree C),QC_soilT_0.4m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.8m(degree C),QC_soilT_0.8m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.8m(degree C),QC_soilT_0.8m,0,present_non_sentinel,8781
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.8m(degree C),QC_soilT_0.8m,8,missing_or_unusable_numeric,3
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_0.8m(degree C),QC_soilT_0.8m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_1.6m(degree C),QC_soilT_1.6m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_1.6m(degree C),QC_soilT_1.6m,0,present_non_sentinel,8781
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_1.6m(degree C),QC_soilT_1.6m,8,missing_or_unusable_numeric,3
+SOIL_Gyirong_2024.csv,SOIL,2024,soilT_1.6m(degree C),QC_soilT_1.6m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.1m(m3/m3),QC_VWC_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.1m(m3/m3),QC_VWC_0.1m,0,present_non_sentinel,8781
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.1m(m3/m3),QC_VWC_0.1m,8,missing_or_unusable_numeric,3
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.1m(m3/m3),QC_VWC_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.2m(m3/m3),QC_VWC_0.2m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.2m(m3/m3),QC_VWC_0.2m,0,present_non_sentinel,8781
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.2m(m3/m3),QC_VWC_0.2m,8,missing_or_unusable_numeric,3
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.2m(m3/m3),QC_VWC_0.2m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.4m(m3/m3),QC_VWC_0.4m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.4m(m3/m3),QC_VWC_0.4m,0,present_non_sentinel,8781
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.4m(m3/m3),QC_VWC_0.4m,8,missing_or_unusable_numeric,3
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.4m(m3/m3),QC_VWC_0.4m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.8m(m3/m3),QC_VWC_0.8m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.8m(m3/m3),QC_VWC_0.8m,0,present_non_sentinel,8781
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.8m(m3/m3),QC_VWC_0.8m,8,missing_or_unusable_numeric,3
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_0.8m(m3/m3),QC_VWC_0.8m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_1.6m(m3/m3),QC_VWC_1.6m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_1.6m(m3/m3),QC_VWC_1.6m,0,present_non_sentinel,8781
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_1.6m(m3/m3),QC_VWC_1.6m,8,missing_or_unusable_numeric,3
+SOIL_Gyirong_2024.csv,SOIL,2024,VWC_1.6m(m3/m3),QC_VWC_1.6m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.1m(W/m2),QC_G_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.1m(W/m2),QC_G_0.1m,0,present_non_sentinel,8511
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.1m(W/m2),QC_G_0.1m,2,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.1m(W/m2),QC_G_0.1m,2,present_non_sentinel,209
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.1m(W/m2),QC_G_0.1m,8,missing_or_unusable_numeric,64
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.1m(W/m2),QC_G_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.2m(W/m2),QC_G_0.2m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.2m(W/m2),QC_G_0.2m,0,present_non_sentinel,8511
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.2m(W/m2),QC_G_0.2m,2,missing_or_unusable_numeric,0
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.2m(W/m2),QC_G_0.2m,2,present_non_sentinel,270
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.2m(W/m2),QC_G_0.2m,8,missing_or_unusable_numeric,3
+SOIL_Gyirong_2024.csv,SOIL,2024,G_0.2m(W/m2),QC_G_0.2m,8,present_non_sentinel,0
+SOIL_Gyirong_2025.csv,SOIL,2025,soilT_0.1m(degree C),QC_soilT_0.1m,0,present_non_sentinel,8760
+SOIL_Gyirong_2025.csv,SOIL,2025,soilT_0.2m(degree C),QC_soilT_0.2m,0,present_non_sentinel,8760
+SOIL_Gyirong_2025.csv,SOIL,2025,soilT_0.4m(degree C),QC_soilT_0.4m,0,present_non_sentinel,8760
+SOIL_Gyirong_2025.csv,SOIL,2025,soilT_0.8m(degree C),QC_soilT_0.8m,0,present_non_sentinel,8760
+SOIL_Gyirong_2025.csv,SOIL,2025,soilT_1.6m(degree C),QC_soilT_1.6m,0,present_non_sentinel,8760
+SOIL_Gyirong_2025.csv,SOIL,2025,VWC_0.1m(m3/m3),QC_VWC_0.1m,0,present_non_sentinel,8760
+SOIL_Gyirong_2025.csv,SOIL,2025,VWC_0.2m(m3/m3),QC_VWC_0.2m,0,present_non_sentinel,8760
+SOIL_Gyirong_2025.csv,SOIL,2025,VWC_0.4m(m3/m3),QC_VWC_0.4m,0,present_non_sentinel,8760
+SOIL_Gyirong_2025.csv,SOIL,2025,VWC_0.8m(m3/m3),QC_VWC_0.8m,0,present_non_sentinel,8760
+SOIL_Gyirong_2025.csv,SOIL,2025,VWC_1.6m(m3/m3),QC_VWC_1.6m,0,present_non_sentinel,8760
+SOIL_Gyirong_2025.csv,SOIL,2025,G_0.1m(W/m2),QC_G_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2025.csv,SOIL,2025,G_0.1m(W/m2),QC_G_0.1m,0,present_non_sentinel,8694
+SOIL_Gyirong_2025.csv,SOIL,2025,G_0.1m(W/m2),QC_G_0.1m,2,missing_or_unusable_numeric,0
+SOIL_Gyirong_2025.csv,SOIL,2025,G_0.1m(W/m2),QC_G_0.1m,2,present_non_sentinel,53
+SOIL_Gyirong_2025.csv,SOIL,2025,G_0.1m(W/m2),QC_G_0.1m,8,missing_or_unusable_numeric,13
+SOIL_Gyirong_2025.csv,SOIL,2025,G_0.1m(W/m2),QC_G_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2025.csv,SOIL,2025,G_0.2m(W/m2),QC_G_0.2m,0,present_non_sentinel,8694
+SOIL_Gyirong_2025.csv,SOIL,2025,G_0.2m(W/m2),QC_G_0.2m,2,present_non_sentinel,66
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.1m(degree C),QC_soilT_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.1m(degree C),QC_soilT_0.1m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.1m(degree C),QC_soilT_0.1m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.1m(degree C),QC_soilT_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.2m(degree C),QC_soilT_0.2m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.2m(degree C),QC_soilT_0.2m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.2m(degree C),QC_soilT_0.2m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.2m(degree C),QC_soilT_0.2m,8,present_non_sentinel,0
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.4m(degree C),QC_soilT_0.4m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.4m(degree C),QC_soilT_0.4m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.4m(degree C),QC_soilT_0.4m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.4m(degree C),QC_soilT_0.4m,8,present_non_sentinel,0
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.8m(degree C),QC_soilT_0.8m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.8m(degree C),QC_soilT_0.8m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.8m(degree C),QC_soilT_0.8m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_0.8m(degree C),QC_soilT_0.8m,8,present_non_sentinel,0
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_1.6m(degree C),QC_soilT_1.6m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_1.6m(degree C),QC_soilT_1.6m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_1.6m(degree C),QC_soilT_1.6m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,soilT_1.6m(degree C),QC_soilT_1.6m,8,present_non_sentinel,0
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.1m(m3/m3),QC_VWC_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.1m(m3/m3),QC_VWC_0.1m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.1m(m3/m3),QC_VWC_0.1m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.1m(m3/m3),QC_VWC_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.2m(m3/m3),QC_VWC_0.2m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.2m(m3/m3),QC_VWC_0.2m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.2m(m3/m3),QC_VWC_0.2m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.2m(m3/m3),QC_VWC_0.2m,8,present_non_sentinel,0
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.4m(m3/m3),QC_VWC_0.4m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.4m(m3/m3),QC_VWC_0.4m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.4m(m3/m3),QC_VWC_0.4m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.4m(m3/m3),QC_VWC_0.4m,8,present_non_sentinel,0
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.8m(m3/m3),QC_VWC_0.8m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.8m(m3/m3),QC_VWC_0.8m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.8m(m3/m3),QC_VWC_0.8m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_0.8m(m3/m3),QC_VWC_0.8m,8,present_non_sentinel,0
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_1.6m(m3/m3),QC_VWC_1.6m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_1.6m(m3/m3),QC_VWC_1.6m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_1.6m(m3/m3),QC_VWC_1.6m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,VWC_1.6m(m3/m3),QC_VWC_1.6m,8,present_non_sentinel,0
+SOIL_Gyirong_2026.csv,SOIL,2026,G_0.1m(W/m2),QC_G_0.1m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,G_0.1m(W/m2),QC_G_0.1m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,G_0.1m(W/m2),QC_G_0.1m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,G_0.1m(W/m2),QC_G_0.1m,8,present_non_sentinel,0
+SOIL_Gyirong_2026.csv,SOIL,2026,G_0.2m(W/m2),QC_G_0.2m,0,missing_or_unusable_numeric,0
+SOIL_Gyirong_2026.csv,SOIL,2026,G_0.2m(W/m2),QC_G_0.2m,0,present_non_sentinel,5721
+SOIL_Gyirong_2026.csv,SOIL,2026,G_0.2m(W/m2),QC_G_0.2m,8,missing_or_unusable_numeric,3039
+SOIL_Gyirong_2026.csv,SOIL,2026,G_0.2m(W/m2),QC_G_0.2m,8,present_non_sentinel,0

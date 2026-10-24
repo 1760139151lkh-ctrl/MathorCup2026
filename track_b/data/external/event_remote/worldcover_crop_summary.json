@@ -1,0 +1,99 @@
+{
+  "source_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+  "source_product": "ESA WorldCover 2021 v200 N27E084 Map",
+  "source_year": 2021,
+  "algorithm_version": "v200",
+  "source_full_object_bytes": 104225123,
+  "source_last_modified": "Wed, 26 Oct 2022 12:44:31 GMT",
+  "source_crs": "EPSG:4326",
+  "source_shape": [
+    36000,
+    36000
+  ],
+  "source_pixel_degrees": [
+    8.333333333333333e-05,
+    8.333333333333333e-05
+  ],
+  "requested_bounds_w_s_e_n": [
+    85.5053,
+    28.2691,
+    85.5501,
+    28.3069
+  ],
+  "actual_pixel_aligned_bounds_w_s_e_n": [
+    85.50525,
+    28.269083333333334,
+    85.55016666666667,
+    28.306916666666666
+  ],
+  "crop_shape": [
+    454,
+    539
+  ],
+  "crop_dtype": "uint8",
+  "nodata": 0.0,
+  "class_counts": [
+    {
+      "code": 10,
+      "label": "Tree cover",
+      "pixels": 242
+    },
+    {
+      "code": 30,
+      "label": "Grassland",
+      "pixels": 25061
+    },
+    {
+      "code": 60,
+      "label": "Bare/sparse vegetation",
+      "pixels": 89451
+    },
+    {
+      "code": 70,
+      "label": "Snow and ice",
+      "pixels": 115508
+    },
+    {
+      "code": 80,
+      "label": "Permanent water bodies",
+      "pixels": 7173
+    },
+    {
+      "code": 100,
+      "label": "Moss and lichen",
+      "pixels": 7271
+    }
+  ],
+  "valid_pixels": 244706,
+  "valid_fraction": 1.0,
+  "downloaded_source_range_bytes": 358545,
+  "range_blocks": [
+    {
+      "block_index": 701,
+      "offset": 73777101,
+      "compressed_bytes": 76866
+    },
+    {
+      "block_index": 702,
+      "offset": 73853975,
+      "compressed_bytes": 78022
+    },
+    {
+      "block_index": 737,
+      "offset": 75488213,
+      "compressed_bytes": 71625
+    },
+    {
+      "block_index": 738,
+      "offset": 75559846,
+      "compressed_bytes": 66496
+    }
+  ],
+  "crop_file": "worldcover_2021_v200_test_aoi.tif",
+  "crop_bytes": 20662,
+  "crop_sha256": "77b7f73e68f9f0940c322610de343d6748360120616b5de67554e40277ea40e4",
+  "readback_equal": true,
+  "reprojection_performed": false,
+  "resampling": "none; future category alignment must use nearest-neighbor",
+  "suitable_role": "Historical spatial background and cross-border data pipeline test; not 2026 land-cover observation, source proof or independent glacier validation."
+}

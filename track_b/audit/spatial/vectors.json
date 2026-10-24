@@ -1,0 +1,112 @@
+[
+  {
+    "path": "03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.shp",
+    "shape_type": 5,
+    "shape_type_name": "Polygon",
+    "record_count": 1,
+    "bytes": 5212,
+    "header_declared_bytes": 5212,
+    "header_length_matches": true,
+    "bounds_left_bottom_right_top": [
+      83.47135132183207,
+      26.48845603365736,
+      87.54924667816793,
+      30.09768128093998
+    ],
+    "crs_wkt": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "epsg_inferred_from_wkt_name": 4326,
+    "record_shape_types": {
+      "5": 1
+    },
+    "total_vertices": 316,
+    "scan": "all binary record headers, part/vertex counts and record envelopes"
+  },
+  {
+    "path": "03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.shp",
+    "shape_type": 5,
+    "shape_type_name": "Polygon",
+    "record_count": 3430,
+    "bytes": 5427520,
+    "header_declared_bytes": 5427520,
+    "header_length_matches": true,
+    "bounds_left_bottom_right_top": [
+      83.51691489000007,
+      27.635380780000048,
+      87.54380306300004,
+      30.075858243000027
+    ],
+    "crs_wkt": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "epsg_inferred_from_wkt_name": 4326,
+    "record_shape_types": {
+      "5": 3430
+    },
+    "total_vertices": 327119,
+    "scan": "all binary record headers, part/vertex counts and record envelopes"
+  },
+  {
+    "path": "03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.shp",
+    "shape_type": 15,
+    "shape_type_name": "PolygonZ",
+    "record_count": 4337,
+    "bytes": 15111028,
+    "header_declared_bytes": 15111028,
+    "header_length_matches": true,
+    "bounds_left_bottom_right_top": [
+      83.516894,
+      27.635381,
+      87.543696,
+      30.075528
+    ],
+    "crs_wkt": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "epsg_inferred_from_wkt_name": 4326,
+    "record_shape_types": {
+      "15": 4337
+    },
+    "total_vertices": 460148,
+    "scan": "all binary record headers, part/vertex counts and record envelopes"
+  },
+  {
+    "path": "06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp",
+    "shape_type": 15,
+    "shape_type_name": "PolygonZ",
+    "record_count": 84,
+    "bytes": 294244,
+    "header_declared_bytes": 294244,
+    "header_length_matches": true,
+    "bounds_left_bottom_right_top": [
+      85.00821132700008,
+      28.26045028200008,
+      85.48192468900002,
+      29.004931595000073
+    ],
+    "crs_wkt": "GEOGCS[\"GCS_China_Geodetic_Coordinate_System_2000\",DATUM[\"D_China_2000\",SPHEROID[\"CGCS2000\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "epsg_inferred_from_wkt_name": 4490,
+    "record_shape_types": {
+      "15": 84
+    },
+    "total_vertices": 8961,
+    "scan": "all binary record headers, part/vertex counts and record envelopes"
+  },
+  {
+    "path": "08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.shp",
+    "shape_type": 5,
+    "shape_type_name": "Polygon",
+    "record_count": 1,
+    "bytes": 50524,
+    "header_declared_bytes": 50524,
+    "header_length_matches": true,
+    "bounds_left_bottom_right_top": [
+      84.45079016543383,
+      28.25579655536677,
+      86.15826899971461,
+      29.321711490393
+    ],
+    "crs_wkt": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "epsg_inferred_from_wkt_name": 4326,
+    "record_shape_types": {
+      "5": 1
+    },
+    "total_vertices": 3148,
+    "scan": "all binary record headers, part/vertex counts and record envelopes"
+  }
+]

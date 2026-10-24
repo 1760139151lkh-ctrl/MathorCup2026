@@ -1,0 +1,65 @@
+{
+  "generated_at_utc": "2026-10-24T03:42:31.240486+00:00",
+  "run_directory": "runs/20261024T034202Z",
+  "aoi_bounds": [
+    85.5053,
+    28.2691,
+    85.5501,
+    28.3069
+  ],
+  "aoi_role": "Unconfirmed NC footprint, pipeline test only",
+  "scene_count": 41,
+  "scene_queries": [
+    {
+      "provider": "CDSE_Sentinel2_L2A",
+      "number_returned": 21,
+      "number_matched_last_page": null,
+      "pages_read": 1,
+      "next_page_present": false
+    },
+    {
+      "provider": "CDSE_Sentinel1_GRD",
+      "number_returned": 10,
+      "number_matched_last_page": null,
+      "pages_read": 1,
+      "next_page_present": false
+    },
+    {
+      "provider": "USGS_Landsat_C2_L2_SR",
+      "number_returned": 10,
+      "number_matched_last_page": 10,
+      "pages_read": 2,
+      "next_page_present": false
+    }
+  ],
+  "historical_queries": [
+    {
+      "geometry_type": "Points",
+      "number_returned": 53,
+      "transfer_limit_exceeded": false
+    },
+    {
+      "geometry_type": "Polygons",
+      "number_returned": 1,
+      "transfer_limit_exceeded": false
+    }
+  ],
+  "accepted_independent_historical_training_events": 0,
+  "jms_pdf_downloaded": true,
+  "jms_pages": 35,
+  "worldcover_crop_success": true,
+  "worldcover_error": null,
+  "network_responses": 18,
+  "saved_response_body_bytes": 3838201,
+  "http_failures": [
+    {
+      "name": "cdse_anonymous_asset_probe.bin",
+      "status": 401,
+      "error": null
+    }
+  ],
+  "ai_assistance": "AI assisted source discovery, bounded API retrieval, provenance registry and data pipeline verification. No fitted model, causal inference, threshold, hazard forecast or accepted training catalogue generated. Human team must review adopted evidence and cite sources.",
+  "original_files_modified": false,
+  "account_registration_or_payment": false,
+  "credentials_used": false
+}

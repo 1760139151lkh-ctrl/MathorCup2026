@@ -1,0 +1,25 @@
+{
+  "review_date_client_timezone": "2026-10-23 America/New_York",
+  "reviewer": "OpenAI Codex; direct view_image inspection",
+  "figure": "spatial_pipeline_qa.png",
+  "figure_sha256": "a3729e7498674f54ea104cd09086853e89a0a3dfba9600eda435504f6099f8c6",
+  "result": "passed for rendering and processing coverage illustration",
+  "observations": [
+    "All three panels, titles, axis labels and colour bars visible and legible; the complete leftmost Northing (m) label is inside the canvas with white padding.",
+    "Historical inventory, DEM footprint and NC grid shown at appropriate separate regional and local scales.",
+    "NC mask contours correspond to terrain export orientation; no visible mirroring or upside-down layout.",
+    "Missing land-cover support and unverified source/flow path are explicitly labelled."
+  ],
+  "limitations": [
+    "Visual review does not validate actual failure location, river path, vertical datum, source DEM accuracy or prediction capability.",
+    "Team human review remains required."
+  ],
+  "render_correction": {
+    "finding": "Independent review identified a clipped leftmost Northing axis label in the prior figure.",
+    "correction": "savefig bbox_inches=tight and pad_inches=0.25; rerendered the script plotting block from unchanged saved GIS artifacts.",
+    "prior_figure_sha256": "c223a154f4dc897c7c1a6b9b73bf3f338ab9980b13293c7230b918fe50ee9e05",
+    "rechecked_with": "view_image direct inspection of the corrected figure",
+    "leftmost_axis_label_complete": true,
+    "spatial_data_hashes_unchanged": true
+  }
+}

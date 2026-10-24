@@ -1,0 +1,2 @@
+﻿record_index,x,y,inside_DEM_extent,DEM_nearest_cell_valid,landcover_2020_cell_valid,landcover_2020_value,landcover_2021_cell_valid,landcover_2021_value,landcover_2022_cell_valid,landcover_2022_value,landcover_2023_cell_valid,landcover_2023_value
+0,85.510299,28.293263,True,True,False,0,False,0,False,0,False,0

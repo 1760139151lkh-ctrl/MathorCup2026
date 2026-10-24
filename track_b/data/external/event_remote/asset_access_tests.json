@@ -1,0 +1,19 @@
+[
+  {
+    "provider": "CDSE_Sentinel2_L2A",
+    "item_id": "S2B_MSIL2A_20260824T044659_N0512_R076_T45RUM_20260824T083447",
+    "asset": "B04_10m",
+    "http_status": 401,
+    "data_obtained": false,
+    "restriction": "Catalogue asset advertises OIDC/S3 authentication; no login or credentials used."
+  },
+  {
+    "provider": "USGS_Landsat_C2_L2_SR",
+    "item_id": "LC09_L2SP_141040_20260826_20260827_02_T1_SR",
+    "asset": "thumbnail",
+    "http_status": 200,
+    "final_url": "https://ers.cr.usgs.gov/login?redirectUrl=https://ers.cr.usgs.gov/?redirect_url%3Dhttps%253A%252F%252Flandsatlook.usgs.gov%252Fdata%252Fcollection02%252Flevel-2%252Fstandard%252Foli-tirs%252F2026%252F141%252F040%252FLC09_L2SP_141040_20260826_20260827_02_T1%252FLC09_L2SP_141040_20260826_20260827_02_T1_thumb_small.jpeg",
+    "data_obtained": false,
+    "restriction": "Redirect to USGS ERS login is not a downloaded satellite image. Requester-pays S3 alternative not attempted."
+  }
+]

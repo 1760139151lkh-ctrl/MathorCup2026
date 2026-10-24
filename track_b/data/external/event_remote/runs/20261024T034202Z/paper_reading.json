@@ -1,0 +1,60 @@
+{
+  "download_success": true,
+  "source_url": "https://jms.imde.ac.cn/en/article/pdf/preview/10.1007/s11629-026-1482-y.pdf",
+  "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0",
+  "bytes": 924233,
+  "reading_scope": "Relevant full pages 5-13, 28-31 plus Fig.1/Fig.2 rendered and visually inspected; parameter/method derivations not independently verified.",
+  "cms_metadata_selected": {
+    "doi": "10.1007/s11629-026-1482-y",
+    "articleNo": "26-11482",
+    "pdfAccess": true,
+    "htmlAccess": false,
+    "preprintDate": 1789833600000,
+    "receivedDate": 1788796800000,
+    "acceptedDate": 1789833600000,
+    "lastUpdateTime": 1789904349000,
+    "releaseProgress": {
+      "articleId": "6bca6b52-3ccf-470f-be8a-64acc8eda814",
+      "currentState": "一校",
+      "currentStateEn": "Uncorrected proof",
+      "lastReleaseTime": "2026-09-20 19:39",
+      "maxLastReleaseTime": "2026-09-20 19:39",
+      "minLastReleaseTime": "2026-09-20 19:39",
+      "otherReleaseList": [
+        {
+          "articleId": "6bca6b52-3ccf-470f-be8a-64acc8eda814",
+          "currentState": "一校",
+          "currentStateEn": "Uncorrected proof",
+          "lastReleaseTime": "2026-09-20 19:39",
+          "maxLastReleaseTime": "2026-09-20 19:39",
+          "minLastReleaseTime": "2026-09-20 19:39",
+          "otherReleaseList": []
+        }
+      ]
+    }
+  },
+  "cms_epoch_dates_utc": {
+    "preprintDate": "2026-09-19T16:00:00+00:00",
+    "receivedDate": "2026-09-07T16:00:00+00:00",
+    "acceptedDate": "2026-09-19T16:00:00+00:00",
+    "lastUpdateTime": "2026-09-20T11:39:09+00:00"
+  },
+  "original_data_access": "PDF p31 says study datasets available from corresponding author upon reasonable request; no author was contacted.",
+  "historical_availability_caveat": "CMS date fields/current release label are post-event; they are not an archive proving first public availability.",
+  "pages": 35,
+  "page_text_presence_checks": {
+    "9": {
+      "10:51:50": true,
+      "10:52:20": true
+    },
+    "10": {
+      "10:54:00": true
+    },
+    "11": {
+      "10:59:50": true
+    },
+    "31": {
+      "reasonable request": true
+    }
+  }
+}

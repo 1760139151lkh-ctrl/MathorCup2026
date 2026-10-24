@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-24T03:50:53.969926+00:00",
+  "passed": true,
+  "markdown_documents": 19,
+  "local_links_checked": 134,
+  "json_files_parsed_excluding_this_record": 18,
+  "temporal_output_hashes_checked": 16,
+  "research_records": 15,
+  "dataset_candidates": 13,
+  "errors": [],
+  "scope": [
+    "Local file-target links only; heading anchors and remote HTTP URLs are not validated.",
+    "Saved audit-artifact consistency only; model correctness and scientific conclusions are not tested.",
+    "Counts are intentionally fixed to the phase-1/2 handoff and must be revised when the scope changes."
+  ]
+}

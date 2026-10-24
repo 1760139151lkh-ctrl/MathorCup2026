@@ -1,0 +1,2386 @@
+[
+  {
+    "path": "03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.dbf",
+    "record_count_header": 1,
+    "active_records": 1,
+    "deleted_records": 0,
+    "record_length": 68,
+    "header_length": 161,
+    "codepage_byte_hex": "0x0",
+    "cpg": "UTF-8",
+    "used_encoding": "utf-8",
+    "fields": [
+      {
+        "name": "Longitude",
+        "type": "N",
+        "width": 19,
+        "decimals": 6,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "85.510299"
+        ],
+        "value_counts": {
+          "85.510299": 1
+        },
+        "parsed_numbers": 1,
+        "min": 85.510299,
+        "max": 85.510299
+      },
+      {
+        "name": "Latitude",
+        "type": "N",
+        "width": 19,
+        "decimals": 6,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "28.293263"
+        ],
+        "value_counts": {
+          "28.293263": 1
+        },
+        "parsed_numbers": 1,
+        "min": 28.293263,
+        "max": 28.293263
+      },
+      {
+        "name": "BUFF_DIST",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "2.00000000000e+02"
+        ],
+        "value_counts": {
+          "2.00000000000e+02": 1
+        },
+        "parsed_numbers": 1,
+        "min": 200.0,
+        "max": 200.0
+      },
+      {
+        "name": "ORIG_FID",
+        "type": "N",
+        "width": 10,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "0"
+        ],
+        "value_counts": {
+          "0": 1
+        },
+        "parsed_numbers": 1,
+        "min": 0.0,
+        "max": 0.0
+      }
+    ],
+    "sample_records_first3": [
+      {
+        "_record_index": 0,
+        "Longitude": "85.510299",
+        "Latitude": "28.293263",
+        "BUFF_DIST": "2.00000000000e+02",
+        "ORIG_FID": "0"
+      }
+    ],
+    "scan": "all records, all fields"
+  },
+  {
+    "path": "03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.dbf",
+    "record_count_header": 3430,
+    "active_records": 3430,
+    "deleted_records": 0,
+    "record_length": 181,
+    "header_length": 737,
+    "codepage_byte_hex": "0x0",
+    "cpg": "UTF-8",
+    "used_encoding": "utf-8",
+    "fields": [
+      {
+        "name": "RGIId",
+        "type": "C",
+        "width": 14,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 3430,
+        "examples": [
+          "RGI60-13.04765",
+          "RGI60-13.04766",
+          "RGI60-13.04767",
+          "RGI60-13.26198",
+          "RGI60-13.26199"
+        ]
+      },
+      {
+        "name": "GLIMSId",
+        "type": "C",
+        "width": 14,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 3430,
+        "examples": [
+          "G084355E28854N",
+          "G084361E28854N",
+          "G084331E28856N",
+          "G083849E29303N",
+          "G083865E29313N"
+        ]
+      },
+      {
+        "name": "BgnDate",
+        "type": "C",
+        "width": 8,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 22,
+        "examples": [
+          "20020103",
+          "20010929",
+          "20090130",
+          "20090616",
+          "20091107"
+        ],
+        "value_counts": {
+          "20001030": 279,
+          "20001122": 54,
+          "20001215": 15,
+          "20010704": 28,
+          "20010922": 110,
+          "20010929": 333,
+          "20011017": 28,
+          "20011024": 77,
+          "20011227": 92,
+          "20020103": 212,
+          "20020105": 188,
+          "20041102": 9,
+          "20061014": 279,
+          "20061122": 36,
+          "20090130": 325,
+          "20090607": 68,
+          "20090616": 225,
+          "20090725": 2,
+          "20091015": 16,
+          "20091022": 211,
+          "20091107": 77,
+          "20100409": 766
+        }
+      },
+      {
+        "name": "EndDate",
+        "type": "C",
+        "width": 8,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "-9999999"
+        ],
+        "value_counts": {
+          "-9999999": 3430
+        }
+      },
+      {
+        "name": "CenLon",
+        "type": "N",
+        "width": 14,
+        "decimals": 9,
+        "empty_records": 0,
+        "distinct_count": 2868,
+        "examples": [
+          "84.354917775",
+          "84.360800355",
+          "84.330998851",
+          "83.849000000",
+          "83.865000000"
+        ],
+        "parsed_numbers": 3430,
+        "min": 83.52835083,
+        "max": 87.542
+      },
+      {
+        "name": "CenLat",
+        "type": "N",
+        "width": 14,
+        "decimals": 9,
+        "empty_records": 0,
+        "distinct_count": 2540,
+        "examples": [
+          "28.854204967",
+          "28.853546055",
+          "28.856264989",
+          "29.303000000",
+          "29.313000000"
+        ],
+        "parsed_numbers": 3430,
+        "min": 27.637439708,
+        "max": 30.074
+      },
+      {
+        "name": "O1Region",
+        "type": "C",
+        "width": 2,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 2,
+        "examples": [
+          "13",
+          "15"
+        ],
+        "value_counts": {
+          "13": 768,
+          "15": 2662
+        }
+      },
+      {
+        "name": "O2Region",
+        "type": "C",
+        "width": 2,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 3,
+        "examples": [
+          "8",
+          "2",
+          "1"
+        ],
+        "value_counts": {
+          "1": 1275,
+          "2": 1387,
+          "8": 768
+        }
+      },
+      {
+        "name": "Area",
+        "type": "N",
+        "width": 14,
+        "decimals": 3,
+        "empty_records": 0,
+        "distinct_count": 1385,
+        "examples": [
+          "0.150",
+          "0.314",
+          "7.333",
+          "1.068",
+          "0.582"
+        ],
+        "parsed_numbers": 3430,
+        "min": 0.01,
+        "max": 73.215
+      },
+      {
+        "name": "Zmin",
+        "type": "N",
+        "width": 5,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1492,
+        "examples": [
+          "5766",
+          "5718",
+          "5440",
+          "5751",
+          "5892"
+        ],
+        "parsed_numbers": 3430,
+        "min": 3079.0,
+        "max": 6734.0
+      },
+      {
+        "name": "Zmax",
+        "type": "N",
+        "width": 5,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1474,
+        "examples": [
+          "6095",
+          "5959",
+          "6633",
+          "6216",
+          "6317"
+        ],
+        "parsed_numbers": 3430,
+        "min": 4102.0,
+        "max": 8799.0
+      },
+      {
+        "name": "Zmed",
+        "type": "N",
+        "width": 5,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1361,
+        "examples": [
+          "5930",
+          "5864",
+          "5849",
+          "5935",
+          "6116"
+        ],
+        "parsed_numbers": 3430,
+        "min": 3670.0,
+        "max": 7347.0
+      },
+      {
+        "name": "Slope",
+        "type": "N",
+        "width": 5,
+        "decimals": 1,
+        "empty_records": 0,
+        "distinct_count": 392,
+        "examples": [
+          "27.4",
+          "17.4",
+          "21.4",
+          "21.5",
+          "40.8"
+        ],
+        "parsed_numbers": 3430,
+        "min": 2.2,
+        "max": 59.6
+      },
+      {
+        "name": "Aspect",
+        "type": "N",
+        "width": 4,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 361,
+        "examples": [
+          "183",
+          "180",
+          "294",
+          "351",
+          "345"
+        ],
+        "parsed_numbers": 3430,
+        "min": 0.0,
+        "max": 360.0
+      },
+      {
+        "name": "Lmax",
+        "type": "N",
+        "width": 6,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1708,
+        "examples": [
+          "636",
+          "751",
+          "4965",
+          "1489",
+          "425"
+        ],
+        "parsed_numbers": 3430,
+        "min": -9.0,
+        "max": 20118.0
+      },
+      {
+        "name": "Status",
+        "type": "N",
+        "width": 2,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "0"
+        ],
+        "value_counts": {
+          "0": 3430
+        },
+        "parsed_numbers": 3430,
+        "min": 0.0,
+        "max": 0.0
+      },
+      {
+        "name": "Connect",
+        "type": "N",
+        "width": 2,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "0"
+        ],
+        "value_counts": {
+          "0": 3430
+        },
+        "parsed_numbers": 3430,
+        "min": 0.0,
+        "max": 0.0
+      },
+      {
+        "name": "Form",
+        "type": "N",
+        "width": 2,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 2,
+        "examples": [
+          "0",
+          "1"
+        ],
+        "value_counts": {
+          "0": 3358,
+          "1": 72
+        },
+        "parsed_numbers": 3430,
+        "min": 0.0,
+        "max": 1.0
+      },
+      {
+        "name": "TermType",
+        "type": "N",
+        "width": 2,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "0"
+        ],
+        "value_counts": {
+          "0": 3430
+        },
+        "parsed_numbers": 3430,
+        "min": 0.0,
+        "max": 0.0
+      },
+      {
+        "name": "Surging",
+        "type": "N",
+        "width": 2,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "9"
+        ],
+        "value_counts": {
+          "9": 3430
+        },
+        "parsed_numbers": 3430,
+        "min": 9.0,
+        "max": 9.0
+      },
+      {
+        "name": "Linkages",
+        "type": "N",
+        "width": 2,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "9"
+        ],
+        "value_counts": {
+          "9": 3430
+        },
+        "parsed_numbers": 3430,
+        "min": 9.0,
+        "max": 9.0
+      },
+      {
+        "name": "Name",
+        "type": "C",
+        "width": 48,
+        "decimals": 0,
+        "empty_records": 1465,
+        "distinct_count": 1636,
+        "examples": [
+          "",
+          "CN5O151D0002",
+          "CN5O151D0001",
+          "CN5O184A0045",
+          "CN5O184A0053"
+        ]
+      }
+    ],
+    "sample_records_first3": [
+      {
+        "_record_index": 0,
+        "RGIId": "RGI60-13.04765",
+        "GLIMSId": "G084355E28854N",
+        "BgnDate": "20020103",
+        "EndDate": "-9999999",
+        "CenLon": "84.354917775",
+        "CenLat": "28.854204967",
+        "O1Region": "13",
+        "O2Region": "8",
+        "Area": "0.150",
+        "Zmin": "5766",
+        "Zmax": "6095",
+        "Zmed": "5930",
+        "Slope": "27.4",
+        "Aspect": "183",
+        "Lmax": "636",
+        "Status": "0",
+        "Connect": "0",
+        "Form": "0",
+        "TermType": "0",
+        "Surging": "9",
+        "Linkages": "9",
+        "Name": ""
+      },
+      {
+        "_record_index": 1,
+        "RGIId": "RGI60-13.04766",
+        "GLIMSId": "G084361E28854N",
+        "BgnDate": "20020103",
+        "EndDate": "-9999999",
+        "CenLon": "84.360800355",
+        "CenLat": "28.853546055",
+        "O1Region": "13",
+        "O2Region": "8",
+        "Area": "0.314",
+        "Zmin": "5718",
+        "Zmax": "5959",
+        "Zmed": "5864",
+        "Slope": "17.4",
+        "Aspect": "180",
+        "Lmax": "751",
+        "Status": "0",
+        "Connect": "0",
+        "Form": "0",
+        "TermType": "0",
+        "Surging": "9",
+        "Linkages": "9",
+        "Name": ""
+      },
+      {
+        "_record_index": 2,
+        "RGIId": "RGI60-13.04767",
+        "GLIMSId": "G084331E28856N",
+        "BgnDate": "20010929",
+        "EndDate": "-9999999",
+        "CenLon": "84.330998851",
+        "CenLat": "28.856264989",
+        "O1Region": "13",
+        "O2Region": "8",
+        "Area": "7.333",
+        "Zmin": "5440",
+        "Zmax": "6633",
+        "Zmed": "5849",
+        "Slope": "21.4",
+        "Aspect": "294",
+        "Lmax": "4965",
+        "Status": "0",
+        "Connect": "0",
+        "Form": "0",
+        "TermType": "0",
+        "Surging": "9",
+        "Linkages": "9",
+        "Name": ""
+      }
+    ],
+    "scan": "all records, all fields"
+  },
+  {
+    "path": "03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.dbf",
+    "record_count_header": 4337,
+    "active_records": 4337,
+    "deleted_records": 0,
+    "record_length": 960,
+    "header_length": 929,
+    "codepage_byte_hex": "0x0",
+    "cpg": "UTF-8",
+    "used_encoding": "utf-8",
+    "fields": [
+      {
+        "name": "rgi_id",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 4337,
+        "examples": [
+          "RGI2000-v7.0-G-13-62468",
+          "RGI2000-v7.0-G-13-62469",
+          "RGI2000-v7.0-G-13-62470",
+          "RGI2000-v7.0-G-13-62471",
+          "RGI2000-v7.0-G-13-62472"
+        ]
+      },
+      {
+        "name": "o1region",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 2,
+        "examples": [
+          "13",
+          "15"
+        ],
+        "value_counts": {
+          "13": 831,
+          "15": 3506
+        }
+      },
+      {
+        "name": "o2region",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 3,
+        "examples": [
+          "13-08",
+          "15-01",
+          "15-02"
+        ],
+        "value_counts": {
+          "13-08": 831,
+          "15-01": 1745,
+          "15-02": 1761
+        }
+      },
+      {
+        "name": "glims_id",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 4337,
+        "examples": [
+          "G087283E28962N",
+          "G087277E28963N",
+          "G087281E28968N",
+          "G087260E28968N",
+          "G087276E28975N"
+        ]
+      },
+      {
+        "name": "anlys_id",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4337,
+        "examples": [
+          "9.07063000000e+05",
+          "9.07055000000e+05",
+          "9.07057000000e+05",
+          "9.07046000000e+05",
+          "9.07051000000e+05"
+        ],
+        "parsed_numbers": 4337,
+        "min": 895488.0,
+        "max": 974972.0
+      },
+      {
+        "name": "subm_id",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 2,
+        "examples": [
+          "7.52000000000e+02",
+          "7.65000000000e+02"
+        ],
+        "value_counts": {
+          "7.52000000000e+02": 4328,
+          "7.65000000000e+02": 9
+        },
+        "parsed_numbers": 4337,
+        "min": 752.0,
+        "max": 765.0
+      },
+      {
+        "name": "src_date",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 21,
+        "examples": [
+          "1998-06-11T00:00:00",
+          "2004-05-17T00:00:00",
+          "1999-04-02T00:00:00",
+          "2002-07-10T00:00:00",
+          "1998-06-18T00:00:00"
+        ],
+        "value_counts": {
+          "1992-09-22T00:00:00": 49,
+          "1994-09-27T00:00:00": 131,
+          "1994-10-13T00:00:00": 419,
+          "1994-10-20T00:00:00": 190,
+          "1998-06-11T00:00:00": 489,
+          "1998-06-18T00:00:00": 491,
+          "1998-10-17T00:00:00": 28,
+          "1999-04-02T00:00:00": 14,
+          "1999-04-27T00:00:00": 700,
+          "1999-06-05T00:00:00": 15,
+          "1999-06-14T00:00:00": 2,
+          "2000-12-18T00:00:00": 4,
+          "2001-09-22T00:00:00": 62,
+          "2001-09-29T00:00:00": 124,
+          "2001-10-17T00:00:00": 18,
+          "2001-11-29T00:00:00": 1,
+          "2001-12-20T00:00:00": 3,
+          "2002-07-10T00:00:00": 670,
+          "2004-05-17T00:00:00": 333,
+          "2005-10-18T00:00:00": 36,
+          "2010-06-10T00:00:00": 558
+        }
+      },
+      {
+        "name": "cenlon",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4337,
+        "examples": [
+          "8.72834826778e+01",
+          "8.72768235689e+01",
+          "8.72800706030e+01",
+          "8.72734098545e+01",
+          "8.72762611186e+01"
+        ],
+        "parsed_numbers": 4337,
+        "min": 83.5214196817,
+        "max": 87.5421346096
+      },
+      {
+        "name": "cenlat",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4333,
+        "examples": [
+          "2.89621475000e+01",
+          "2.89626880000e+01",
+          "2.89680755000e+01",
+          "2.89717195000e+01",
+          "2.89754690000e+01"
+        ],
+        "parsed_numbers": 4337,
+        "min": 27.6377405,
+        "max": 30.0739745
+      },
+      {
+        "name": "utm_zone",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 2,
+        "examples": [
+          "4.50000000000e+01",
+          "4.40000000000e+01"
+        ],
+        "value_counts": {
+          "4.40000000000e+01": 389,
+          "4.50000000000e+01": 3948
+        },
+        "parsed_numbers": 4337,
+        "min": 44.0,
+        "max": 45.0
+      },
+      {
+        "name": "area_km2",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4337,
+        "examples": [
+          "2.09848081250e-01",
+          "3.18547211600e-01",
+          "3.20191573620e-01",
+          "9.16821925095e-01",
+          "2.77185821055e-01"
+        ],
+        "parsed_numbers": 4337,
+        "min": 0.0106497062141,
+        "max": 70.8461858657
+      },
+      {
+        "name": "primeclass",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "0.00000000000e+00"
+        ],
+        "value_counts": {
+          "0.00000000000e+00": 4337
+        },
+        "parsed_numbers": 4337,
+        "min": 0.0,
+        "max": 0.0
+      },
+      {
+        "name": "conn_lvl",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "0.00000000000e+00"
+        ],
+        "value_counts": {
+          "0.00000000000e+00": 4337
+        },
+        "parsed_numbers": 4337,
+        "min": 0.0,
+        "max": 0.0
+      },
+      {
+        "name": "surge_type",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 3,
+        "examples": [
+          "0.00000000000e+00",
+          "2.00000000000e+00",
+          "3.00000000000e+00"
+        ],
+        "value_counts": {
+          "0.00000000000e+00": 4329,
+          "2.00000000000e+00": 5,
+          "3.00000000000e+00": 3
+        },
+        "parsed_numbers": 4337,
+        "min": 0.0,
+        "max": 3.0
+      },
+      {
+        "name": "term_type",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "9.00000000000e+00"
+        ],
+        "value_counts": {
+          "9.00000000000e+00": 4337
+        },
+        "parsed_numbers": 4337,
+        "min": 9.0,
+        "max": 9.0
+      },
+      {
+        "name": "glac_name",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 3615,
+        "distinct_count": 631,
+        "examples": [
+          "CN5O255B0021",
+          "",
+          "CN5O255B0025",
+          "CN5O255B0024",
+          "CN5O255C0005"
+        ]
+      },
+      {
+        "name": "is_rgi6",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "0.00000000000e+00"
+        ],
+        "value_counts": {
+          "0.00000000000e+00": 4337
+        },
+        "parsed_numbers": 4337,
+        "min": 0.0,
+        "max": 0.0
+      },
+      {
+        "name": "termlon",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4337,
+        "examples": [
+          "8.72879281741e+01",
+          "8.72733631046e+01",
+          "8.72846447478e+01",
+          "8.72678268650e+01",
+          "8.72722456733e+01"
+        ],
+        "parsed_numbers": 4337,
+        "min": 83.5224668845,
+        "max": 87.5416447399
+      },
+      {
+        "name": "termlat",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4337,
+        "examples": [
+          "2.89586132510e+01",
+          "2.89637423157e+01",
+          "2.89698984087e+01",
+          "2.89768523186e+01",
+          "2.89766721571e+01"
+        ],
+        "parsed_numbers": 4337,
+        "min": 27.6399112736,
+        "max": 30.0754456238
+      },
+      {
+        "name": "zmin_m",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4336,
+        "examples": [
+          "5.82478170000e+03",
+          "5.92659230000e+03",
+          "5.85482470000e+03",
+          "5.37935200000e+03",
+          "5.65082900000e+03"
+        ],
+        "parsed_numbers": 4337,
+        "min": 1612.8435,
+        "max": 7829.186
+      },
+      {
+        "name": "zmax_m",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4335,
+        "examples": [
+          "6.34257960000e+03",
+          "6.38221730000e+03",
+          "6.38029540000e+03",
+          "6.37826800000e+03",
+          "6.22246040000e+03"
+        ],
+        "parsed_numbers": 4337,
+        "min": 3689.8818,
+        "max": 8692.564
+      },
+      {
+        "name": "zmed_m",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4335,
+        "examples": [
+          "6.08839200000e+03",
+          "6.15594140000e+03",
+          "6.13284000000e+03",
+          "5.92805470000e+03",
+          "5.95285160000e+03"
+        ],
+        "parsed_numbers": 4337,
+        "min": 2138.5552,
+        "max": 8116.1636
+      },
+      {
+        "name": "zmean_m",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4334,
+        "examples": [
+          "6.07521700000e+03",
+          "6.15573700000e+03",
+          "6.12677700000e+03",
+          "5.90675100000e+03",
+          "5.94836230000e+03"
+        ],
+        "parsed_numbers": 4337,
+        "min": 2360.573,
+        "max": 8146.5215
+      },
+      {
+        "name": "slope_deg",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4336,
+        "examples": [
+          "2.74111100000e+01",
+          "3.75980600000e+01",
+          "3.76671560000e+01",
+          "3.53844640000e+01",
+          "3.35351500000e+01"
+        ],
+        "parsed_numbers": 4337,
+        "min": 2.7694051,
+        "max": 76.00541
+      },
+      {
+        "name": "aspect_deg",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 4337,
+        "examples": [
+          "1.37413510000e+02",
+          "2.36051307678e+02",
+          "7.11465760000e+01",
+          "3.21695011139e+02",
+          "2.97966476440e+02"
+        ],
+        "parsed_numbers": 4337,
+        "min": 0.024006985,
+        "max": 359.977287102
+      },
+      {
+        "name": "aspect_sec",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 8,
+        "examples": [
+          "4.00000000000e+00",
+          "6.00000000000e+00",
+          "3.00000000000e+00",
+          "8.00000000000e+00",
+          "1.00000000000e+00"
+        ],
+        "value_counts": {
+          "1.00000000000e+00": 1054,
+          "2.00000000000e+00": 607,
+          "3.00000000000e+00": 323,
+          "4.00000000000e+00": 336,
+          "5.00000000000e+00": 499,
+          "6.00000000000e+00": 484,
+          "7.00000000000e+00": 432,
+          "8.00000000000e+00": 602
+        },
+        "parsed_numbers": 4337,
+        "min": 1.0,
+        "max": 8.0
+      },
+      {
+        "name": "dem_source",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 2,
+        "examples": [
+          "COPDEM30",
+          "COPDEM90"
+        ],
+        "value_counts": {
+          "COPDEM30": 4275,
+          "COPDEM90": 62
+        }
+      },
+      {
+        "name": "lmax_m",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 2106,
+        "examples": [
+          "1.21700000000e+03",
+          "5.62000000000e+02",
+          "8.76000000000e+02",
+          "1.49600000000e+03",
+          "8.67000000000e+02"
+        ],
+        "parsed_numbers": 4337,
+        "min": 98.0,
+        "max": 22454.0
+      }
+    ],
+    "sample_records_first3": [
+      {
+        "_record_index": 0,
+        "rgi_id": "RGI2000-v7.0-G-13-62468",
+        "o1region": "13",
+        "o2region": "13-08",
+        "glims_id": "G087283E28962N",
+        "anlys_id": "9.07063000000e+05",
+        "subm_id": "7.52000000000e+02",
+        "src_date": "1998-06-11T00:00:00",
+        "cenlon": "8.72834826778e+01",
+        "cenlat": "2.89621475000e+01",
+        "utm_zone": "4.50000000000e+01",
+        "area_km2": "2.09848081250e-01",
+        "primeclass": "0.00000000000e+00",
+        "conn_lvl": "0.00000000000e+00",
+        "surge_type": "0.00000000000e+00",
+        "term_type": "9.00000000000e+00",
+        "glac_name": "CN5O255B0021",
+        "is_rgi6": "0.00000000000e+00",
+        "termlon": "8.72879281741e+01",
+        "termlat": "2.89586132510e+01",
+        "zmin_m": "5.82478170000e+03",
+        "zmax_m": "6.34257960000e+03",
+        "zmed_m": "6.08839200000e+03",
+        "zmean_m": "6.07521700000e+03",
+        "slope_deg": "2.74111100000e+01",
+        "aspect_deg": "1.37413510000e+02",
+        "aspect_sec": "4.00000000000e+00",
+        "dem_source": "COPDEM30",
+        "lmax_m": "1.21700000000e+03"
+      },
+      {
+        "_record_index": 1,
+        "rgi_id": "RGI2000-v7.0-G-13-62469",
+        "o1region": "13",
+        "o2region": "13-08",
+        "glims_id": "G087277E28963N",
+        "anlys_id": "9.07055000000e+05",
+        "subm_id": "7.52000000000e+02",
+        "src_date": "1998-06-11T00:00:00",
+        "cenlon": "8.72768235689e+01",
+        "cenlat": "2.89626880000e+01",
+        "utm_zone": "4.50000000000e+01",
+        "area_km2": "3.18547211600e-01",
+        "primeclass": "0.00000000000e+00",
+        "conn_lvl": "0.00000000000e+00",
+        "surge_type": "0.00000000000e+00",
+        "term_type": "9.00000000000e+00",
+        "glac_name": "",
+        "is_rgi6": "0.00000000000e+00",
+        "termlon": "8.72733631046e+01",
+        "termlat": "2.89637423157e+01",
+        "zmin_m": "5.92659230000e+03",
+        "zmax_m": "6.38221730000e+03",
+        "zmed_m": "6.15594140000e+03",
+        "zmean_m": "6.15573700000e+03",
+        "slope_deg": "3.75980600000e+01",
+        "aspect_deg": "2.36051307678e+02",
+        "aspect_sec": "6.00000000000e+00",
+        "dem_source": "COPDEM30",
+        "lmax_m": "5.62000000000e+02"
+      },
+      {
+        "_record_index": 2,
+        "rgi_id": "RGI2000-v7.0-G-13-62470",
+        "o1region": "13",
+        "o2region": "13-08",
+        "glims_id": "G087281E28968N",
+        "anlys_id": "9.07057000000e+05",
+        "subm_id": "7.52000000000e+02",
+        "src_date": "1998-06-11T00:00:00",
+        "cenlon": "8.72800706030e+01",
+        "cenlat": "2.89680755000e+01",
+        "utm_zone": "4.50000000000e+01",
+        "area_km2": "3.20191573620e-01",
+        "primeclass": "0.00000000000e+00",
+        "conn_lvl": "0.00000000000e+00",
+        "surge_type": "0.00000000000e+00",
+        "term_type": "9.00000000000e+00",
+        "glac_name": "CN5O255B0021",
+        "is_rgi6": "0.00000000000e+00",
+        "termlon": "8.72846447478e+01",
+        "termlat": "2.89698984087e+01",
+        "zmin_m": "5.85482470000e+03",
+        "zmax_m": "6.38029540000e+03",
+        "zmed_m": "6.13284000000e+03",
+        "zmean_m": "6.12677700000e+03",
+        "slope_deg": "3.76671560000e+01",
+        "aspect_deg": "7.11465760000e+01",
+        "aspect_sec": "3.00000000000e+00",
+        "dem_source": "COPDEM30",
+        "lmax_m": "8.76000000000e+02"
+      }
+    ],
+    "scan": "all records, all fields"
+  },
+  {
+    "path": "06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.dbf",
+    "record_count_header": 84,
+    "active_records": 84,
+    "deleted_records": 0,
+    "record_length": 1467,
+    "header_length": 1089,
+    "codepage_byte_hex": "0x4d",
+    "cpg": null,
+    "used_encoding": "gb18030",
+    "fields": [
+      {
+        "name": "Name",
+        "type": "C",
+        "width": 254,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 67,
+        "examples": [
+          "未命名多边形",
+          "203",
+          "204",
+          "206",
+          "207"
+        ]
+      },
+      {
+        "name": "flag",
+        "type": "N",
+        "width": 10,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "1"
+        ],
+        "value_counts": {
+          "1": 84
+        },
+        "parsed_numbers": 84,
+        "min": 1.0,
+        "max": 1.0
+      },
+      {
+        "name": "x_coord",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 84,
+        "examples": [
+          "85.277123770",
+          "85.225172320",
+          "85.283916000",
+          "85.290426980",
+          "85.289750640"
+        ]
+      },
+      {
+        "name": "y_coord",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 84,
+        "examples": [
+          "28.659711280",
+          "28.888691830",
+          "28.669028250",
+          "28.736784650",
+          "28.809612620"
+        ]
+      },
+      {
+        "name": "height",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 82,
+        "examples": [
+          "3.82400000000e+03",
+          "4.24300000000e+03",
+          "3.84700000000e+03",
+          "3.92800000000e+03",
+          "4.03400000000e+03"
+        ],
+        "parsed_numbers": 84,
+        "min": 1987.0,
+        "max": 4855.0
+      },
+      {
+        "name": "河流",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 3,
+        "examples": [
+          "吉隆河",
+          "佩枯错",
+          "龙章曲"
+        ],
+        "value_counts": {
+          "佩枯错": 5,
+          "吉隆河": 77,
+          "龙章曲": 2
+        }
+      },
+      {
+        "name": "RiveName",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 3,
+        "examples": [
+          "JLH",
+          "PKC",
+          "LZQ"
+        ],
+        "value_counts": {
+          "JLH": 77,
+          "LZQ": 2,
+          "PKC": 5
+        }
+      },
+      {
+        "name": "岸别",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 2,
+        "examples": [
+          "右",
+          "左"
+        ],
+        "value_counts": {
+          "右": 37,
+          "左": 47
+        }
+      },
+      {
+        "name": "承灾体",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 54,
+        "distinct_count": 8,
+        "examples": [
+          "",
+          "桥梁",
+          "道路",
+          "道路 房屋 农田",
+          "道路     桥梁"
+        ],
+        "value_counts": {
+          "": 54,
+          "农田": 1,
+          "桥梁": 4,
+          "道路": 17,
+          "道路     桥梁": 5,
+          "道路 房屋": 1,
+          "道路 房屋   桥梁": 1,
+          "道路 房屋 农田": 1
+        }
+      },
+      {
+        "name": "课题",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 84,
+        "examples": [
+          "D00208",
+          "D00245",
+          "D00206",
+          "D00199",
+          "D00188"
+        ]
+      },
+      {
+        "name": "Code",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 84,
+        "examples": [
+          "Q4XM-JLH-D00208",
+          "Q4XM-JLH-D00245",
+          "Q4XM-JLH-D00206",
+          "Q4XM-JLH-D00199",
+          "Q4XM-JLH-D00188"
+        ]
+      },
+      {
+        "name": "Area",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 84,
+        "examples": [
+          "2.76812999033e-01",
+          "5.25163613929e-01",
+          "3.13270888808e-02",
+          "1.46595116879e-01",
+          "1.65900462239e-01"
+        ],
+        "parsed_numbers": 84,
+        "min": 0.0313270888808,
+        "max": 112.671408081
+      },
+      {
+        "name": "DisFrmFlt",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 84,
+        "examples": [
+          "4.57318915191e+03",
+          "4.75026148544e+03",
+          "3.51433449905e+03",
+          "3.02340150063e+02",
+          "1.47128968264e+03"
+        ],
+        "parsed_numbers": 84,
+        "min": 113.018950151,
+        "max": 30715.5523615
+      },
+      {
+        "name": "沟比降",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 84,
+        "examples": [
+          "4.19195358728e-01",
+          "2.31543840948e-01",
+          "4.87720884539e-01",
+          "3.09936973559e-01",
+          "6.01812002391e-01"
+        ],
+        "parsed_numbers": 84,
+        "min": 0.0838369340937,
+        "max": 0.83063884402
+      },
+      {
+        "name": "主沟长",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 84,
+        "examples": [
+          "8.85028882776e+02",
+          "1.20063655704e+03",
+          "3.26006133919e+02",
+          "7.96936219528e+02",
+          "7.21155441028e+02"
+        ],
+        "parsed_numbers": 84,
+        "min": 311.651504107,
+        "max": 21263.7794918
+      },
+      {
+        "name": "高差",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 83,
+        "examples": [
+          "3.71000000000e+02",
+          "2.78000000000e+02",
+          "1.59000000000e+02",
+          "2.47000000000e+02",
+          "4.34000000000e+02"
+        ],
+        "parsed_numbers": 84,
+        "min": 138.0,
+        "max": 4291.0
+      },
+      {
+        "name": "规模",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 4,
+        "examples": [
+          "小",
+          "中",
+          "大",
+          "特大"
+        ],
+        "value_counts": {
+          "中": 45,
+          "大": 7,
+          "小": 30,
+          "特大": 2
+        }
+      },
+      {
+        "name": "频率",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 3,
+        "examples": [
+          "高",
+          "中",
+          "低"
+        ],
+        "value_counts": {
+          "中": 26,
+          "低": 21,
+          "高": 37
+        }
+      },
+      {
+        "name": "行政区",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "西藏-日喀则-吉隆县"
+        ],
+        "value_counts": {
+          "西藏-日喀则-吉隆县": 84
+        }
+      },
+      {
+        "name": "解译Time",
+        "type": "D",
+        "width": 8,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "20200725"
+        ],
+        "value_counts": {
+          "20200725": 84
+        }
+      },
+      {
+        "name": "影像类",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "Google earth"
+        ],
+        "value_counts": {
+          "Google earth": 84
+        }
+      },
+      {
+        "name": "影像type",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "1m"
+        ],
+        "value_counts": {
+          "1m": 84
+        }
+      },
+      {
+        "name": "Resolution",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 7,
+        "distinct_count": 2,
+        "examples": [
+          "吉隆河",
+          ""
+        ],
+        "value_counts": {
+          "": 7,
+          "吉隆河": 77
+        }
+      },
+      {
+        "name": "I水系",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 77,
+        "distinct_count": 3,
+        "examples": [
+          "",
+          "佩枯错",
+          "龙章曲"
+        ],
+        "value_counts": {
+          "": 77,
+          "佩枯错": 5,
+          "龙章曲": 2
+        }
+      },
+      {
+        "name": "II水系",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 84,
+        "distinct_count": 1,
+        "examples": [
+          ""
+        ],
+        "value_counts": {
+          "": 84
+        }
+      },
+      {
+        "name": "III水系",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 84,
+        "distinct_count": 1,
+        "examples": [
+          ""
+        ],
+        "value_counts": {
+          "": 84
+        }
+      },
+      {
+        "name": "沟口H",
+        "type": "N",
+        "width": 5,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 82,
+        "examples": [
+          "3824",
+          "4243",
+          "3847",
+          "3928",
+          "4034"
+        ],
+        "parsed_numbers": 84,
+        "min": 1987.0,
+        "max": 4855.0
+      },
+      {
+        "name": "高程Max",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 82,
+        "examples": [
+          "4.19500000000e+03",
+          "4.52100000000e+03",
+          "4.00600000000e+03",
+          "4.17500000000e+03",
+          "4.46800000000e+03"
+        ],
+        "parsed_numbers": 84,
+        "min": 3222.0,
+        "max": 7337.0
+      },
+      {
+        "name": "类型",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 4,
+        "examples": [
+          "降雨型",
+          "冰水混合型",
+          "冰湖溃决型",
+          "冰雪融水型"
+        ],
+        "value_counts": {
+          "冰水混合型": 25,
+          "冰湖溃决型": 2,
+          "冰雪融水型": 16,
+          "降雨型": 41
+        }
+      },
+      {
+        "name": "扇宽",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 53,
+        "examples": [
+          "0.00000000000e+00",
+          "3.05223912000e+02",
+          "5.01541691000e+02",
+          "4.74711329000e+02",
+          "6.20468739000e+02"
+        ],
+        "parsed_numbers": 84,
+        "min": 0.0,
+        "max": 891.844962
+      },
+      {
+        "name": "扇长",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 49,
+        "examples": [
+          "0.00000000000e+00",
+          "1.61000000000e+02",
+          "5.19000000000e+02",
+          "3.78000000000e+02",
+          "4.29000000000e+02"
+        ],
+        "parsed_numbers": 84,
+        "min": 0.0,
+        "max": 1548.0
+      },
+      {
+        "name": "有无_Fan",
+        "type": "C",
+        "width": 50,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 2,
+        "examples": [
+          "无",
+          "有"
+        ],
+        "value_counts": {
+          "无": 31,
+          "有": 53
+        }
+      },
+      {
+        "name": "影像Time",
+        "type": "D",
+        "width": 8,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 7,
+        "examples": [
+          "20171010",
+          "20150508",
+          "20150513",
+          "20100508",
+          "20141228"
+        ],
+        "value_counts": {
+          "20100508": 4,
+          "20141228": 4,
+          "20150508": 23,
+          "20150513": 6,
+          "20171010": 31,
+          "20171017": 3,
+          "20171111": 13
+        }
+      }
+    ],
+    "sample_records_first3": [
+      {
+        "_record_index": 0,
+        "Name": "未命名多边形",
+        "flag": "1",
+        "x_coord": "85.277123770",
+        "y_coord": "28.659711280",
+        "height": "3.82400000000e+03",
+        "河流": "吉隆河",
+        "RiveName": "JLH",
+        "岸别": "右",
+        "承灾体": "",
+        "课题": "D00208",
+        "Code": "Q4XM-JLH-D00208",
+        "Area": "2.76812999033e-01",
+        "DisFrmFlt": "4.57318915191e+03",
+        "沟比降": "4.19195358728e-01",
+        "主沟长": "8.85028882776e+02",
+        "高差": "3.71000000000e+02",
+        "规模": "小",
+        "频率": "高",
+        "行政区": "西藏-日喀则-吉隆县",
+        "解译Time": "20200725",
+        "影像类": "Google earth",
+        "影像type": "1m",
+        "Resolution": "吉隆河",
+        "I水系": "",
+        "II水系": "",
+        "III水系": "",
+        "沟口H": "3824",
+        "高程Max": "4.19500000000e+03",
+        "类型": "降雨型",
+        "扇宽": "0.00000000000e+00",
+        "扇长": "0.00000000000e+00",
+        "有无_Fan": "无",
+        "影像Time": "20171010"
+      },
+      {
+        "_record_index": 1,
+        "Name": "未命名多边形",
+        "flag": "1",
+        "x_coord": "85.225172320",
+        "y_coord": "28.888691830",
+        "height": "4.24300000000e+03",
+        "河流": "吉隆河",
+        "RiveName": "JLH",
+        "岸别": "左",
+        "承灾体": "桥梁",
+        "课题": "D00245",
+        "Code": "Q4XM-JLH-D00245",
+        "Area": "5.25163613929e-01",
+        "DisFrmFlt": "4.75026148544e+03",
+        "沟比降": "2.31543840948e-01",
+        "主沟长": "1.20063655704e+03",
+        "高差": "2.78000000000e+02",
+        "规模": "小",
+        "频率": "高",
+        "行政区": "西藏-日喀则-吉隆县",
+        "解译Time": "20200725",
+        "影像类": "Google earth",
+        "影像type": "1m",
+        "Resolution": "吉隆河",
+        "I水系": "",
+        "II水系": "",
+        "III水系": "",
+        "沟口H": "4243",
+        "高程Max": "4.52100000000e+03",
+        "类型": "降雨型",
+        "扇宽": "0.00000000000e+00",
+        "扇长": "0.00000000000e+00",
+        "有无_Fan": "无",
+        "影像Time": "20150508"
+      },
+      {
+        "_record_index": 2,
+        "Name": "未命名多边形",
+        "flag": "1",
+        "x_coord": "85.283916000",
+        "y_coord": "28.669028250",
+        "height": "3.84700000000e+03",
+        "河流": "吉隆河",
+        "RiveName": "JLH",
+        "岸别": "左",
+        "承灾体": "",
+        "课题": "D00206",
+        "Code": "Q4XM-JLH-D00206",
+        "Area": "3.13270888808e-02",
+        "DisFrmFlt": "3.51433449905e+03",
+        "沟比降": "4.87720884539e-01",
+        "主沟长": "3.26006133919e+02",
+        "高差": "1.59000000000e+02",
+        "规模": "小",
+        "频率": "高",
+        "行政区": "西藏-日喀则-吉隆县",
+        "解译Time": "20200725",
+        "影像类": "Google earth",
+        "影像type": "1m",
+        "Resolution": "吉隆河",
+        "I水系": "",
+        "II水系": "",
+        "III水系": "",
+        "沟口H": "3847",
+        "高程Max": "4.00600000000e+03",
+        "类型": "降雨型",
+        "扇宽": "0.00000000000e+00",
+        "扇长": "0.00000000000e+00",
+        "有无_Fan": "无",
+        "影像Time": "20171010"
+      }
+    ],
+    "scan": "all records, all fields"
+  },
+  {
+    "path": "08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.dbf",
+    "record_count_header": 1,
+    "active_records": 1,
+    "deleted_records": 0,
+    "record_length": 807,
+    "header_length": 897,
+    "codepage_byte_hex": "0x0",
+    "cpg": "UTF-8",
+    "used_encoding": "utf-8",
+    "fields": [
+      {
+        "name": "地名",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "吉隆县"
+        ],
+        "value_counts": {
+          "吉隆县": 1
+        }
+      },
+      {
+        "name": "区划码",
+        "type": "N",
+        "width": 18,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "540234"
+        ],
+        "value_counts": {
+          "540234": 1
+        },
+        "parsed_numbers": 1,
+        "min": 540234.0,
+        "max": 540234.0
+      },
+      {
+        "name": "县级",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "吉隆县"
+        ],
+        "value_counts": {
+          "吉隆县": 1
+        }
+      },
+      {
+        "name": "县级码",
+        "type": "N",
+        "width": 18,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "540234"
+        ],
+        "value_counts": {
+          "540234": 1
+        },
+        "parsed_numbers": 1,
+        "min": 540234.0,
+        "max": 540234.0
+      },
+      {
+        "name": "县级类",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "县"
+        ],
+        "value_counts": {
+          "县": 1
+        }
+      },
+      {
+        "name": "地级",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "日喀则市"
+        ],
+        "value_counts": {
+          "日喀则市": 1
+        }
+      },
+      {
+        "name": "地级码",
+        "type": "N",
+        "width": 18,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "540200"
+        ],
+        "value_counts": {
+          "540200": 1
+        },
+        "parsed_numbers": 1,
+        "min": 540200.0,
+        "max": 540200.0
+      },
+      {
+        "name": "地级类",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "地级市"
+        ],
+        "value_counts": {
+          "地级市": 1
+        }
+      },
+      {
+        "name": "省级",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "西藏自治区"
+        ],
+        "value_counts": {
+          "西藏自治区": 1
+        }
+      },
+      {
+        "name": "省级码",
+        "type": "N",
+        "width": 18,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "540000"
+        ],
+        "value_counts": {
+          "540000": 1
+        },
+        "parsed_numbers": 1,
+        "min": 540000.0,
+        "max": 540000.0
+      },
+      {
+        "name": "省级类",
+        "type": "C",
+        "width": 80,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "自治区"
+        ],
+        "value_counts": {
+          "自治区": 1
+        }
+      },
+      {
+        "name": "合计",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "17536"
+        ],
+        "value_counts": {
+          "17536": 1
+        },
+        "parsed_numbers": 1,
+        "min": 17536.0,
+        "max": 17536.0
+      },
+      {
+        "name": "男",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "9338"
+        ],
+        "value_counts": {
+          "9338": 1
+        },
+        "parsed_numbers": 1,
+        "min": 9338.0,
+        "max": 9338.0
+      },
+      {
+        "name": "女",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "8198"
+        ],
+        "value_counts": {
+          "8198": 1
+        },
+        "parsed_numbers": 1,
+        "min": 8198.0,
+        "max": 8198.0
+      },
+      {
+        "name": "性别比",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "1.13910000000e+02"
+        ],
+        "value_counts": {
+          "1.13910000000e+02": 1
+        },
+        "parsed_numbers": 1,
+        "min": 113.91,
+        "max": 113.91
+      },
+      {
+        "name": "非汉族",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "9.15800000000e+01"
+        ],
+        "value_counts": {
+          "9.15800000000e+01": 1
+        },
+        "parsed_numbers": 1,
+        "min": 91.58,
+        "max": 91.58
+      },
+      {
+        "name": "城镇人",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "5015"
+        ],
+        "value_counts": {
+          "5015": 1
+        },
+        "parsed_numbers": 1,
+        "min": 5015.0,
+        "max": 5015.0
+      },
+      {
+        "name": "乡村人",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "12521"
+        ],
+        "value_counts": {
+          "12521": 1
+        },
+        "parsed_numbers": 1,
+        "min": 12521.0,
+        "max": 12521.0
+      },
+      {
+        "name": "城区人",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "0"
+        ],
+        "value_counts": {
+          "0": 1
+        },
+        "parsed_numbers": 1,
+        "min": 0.0,
+        "max": 0.0
+      },
+      {
+        "name": "户数",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "4845"
+        ],
+        "value_counts": {
+          "4845": 1
+        },
+        "parsed_numbers": 1,
+        "min": 4845.0,
+        "max": 4845.0
+      },
+      {
+        "name": "人口数",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "16155"
+        ],
+        "value_counts": {
+          "16155": 1
+        },
+        "parsed_numbers": 1,
+        "min": 16155.0,
+        "max": 16155.0
+      },
+      {
+        "name": "户规模",
+        "type": "F",
+        "width": 19,
+        "decimals": 11,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "3.33000000000e+00"
+        ],
+        "value_counts": {
+          "3.33000000000e+00": 1
+        },
+        "parsed_numbers": 1,
+        "min": 3.33,
+        "max": 3.33
+      },
+      {
+        "name": "一人户",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "1394"
+        ],
+        "value_counts": {
+          "1394": 1
+        },
+        "parsed_numbers": 1,
+        "min": 1394.0,
+        "max": 1394.0
+      },
+      {
+        "name": "一代户",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "1909"
+        ],
+        "value_counts": {
+          "1909": 1
+        },
+        "parsed_numbers": 1,
+        "min": 1909.0,
+        "max": 1909.0
+      },
+      {
+        "name": "二代户",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "2028"
+        ],
+        "value_counts": {
+          "2028": 1
+        },
+        "parsed_numbers": 1,
+        "min": 2028.0,
+        "max": 2028.0
+      },
+      {
+        "name": "三代户",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "885"
+        ],
+        "value_counts": {
+          "885": 1
+        },
+        "parsed_numbers": 1,
+        "min": 885.0,
+        "max": 885.0
+      },
+      {
+        "name": "四代以",
+        "type": "N",
+        "width": 9,
+        "decimals": 0,
+        "empty_records": 0,
+        "distinct_count": 1,
+        "examples": [
+          "23"
+        ],
+        "value_counts": {
+          "23": 1
+        },
+        "parsed_numbers": 1,
+        "min": 23.0,
+        "max": 23.0
+      }
+    ],
+    "sample_records_first3": [
+      {
+        "_record_index": 0,
+        "地名": "吉隆县",
+        "区划码": "540234",
+        "县级": "吉隆县",
+        "县级码": "540234",
+        "县级类": "县",
+        "地级": "日喀则市",
+        "地级码": "540200",
+        "地级类": "地级市",
+        "省级": "西藏自治区",
+        "省级码": "540000",
+        "省级类": "自治区",
+        "合计": "17536",
+        "男": "9338",
+        "女": "8198",
+        "性别比": "1.13910000000e+02",
+        "非汉族": "9.15800000000e+01",
+        "城镇人": "5015",
+        "乡村人": "12521",
+        "城区人": "0",
+        "户数": "4845",
+        "人口数": "16155",
+        "户规模": "3.33000000000e+00",
+        "一人户": "1394",
+        "一代户": "1909",
+        "二代户": "2028",
+        "三代户": "885",
+        "四代以": "23"
+      }
+    ],
+    "scan": "all records, all fields"
+  }
+]

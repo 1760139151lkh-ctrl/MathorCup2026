@@ -1,0 +1,654 @@
+[
+  {
+    "path": "04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+    "bytes": 362728,
+    "magic_hex": "894844460d0a1a0a",
+    "xarray": {
+      "opened": false,
+      "exception": "ValueError: found the following matches with the input file in xarray's IO backends: ['netcdf4', 'h5netcdf']. But their dependencies may not be installed, see:\nhttps://docs.xarray.dev/en/stable/user-guide/io.html \nhttps://docs.xarray.dev/en/stable/getting-started-guide/installing.html"
+    },
+    "h5py_opened": true,
+    "global_attributes": {
+      "Conventions": "CF-1.8",
+      "title": "Glacier topographic and dynamic drivers",
+      "source": "dem_30m.tif, slope_30m.tif, thickness_30m.tif",
+      "velocity_source": "ITS_LIVE v2.1",
+      "velocity_resampling": "bilinear to the 30 m reference grid",
+      "ice_thickness_source": "https://www.research-collection.ethz.ch/entities/researchdata/23bc92d0-aa11-48b8-b6ca-69c5dcf0de6b",
+      "author": "zhaohongyu (zhaohongyu@swpu.edu.cn); zhang tong (tzhang@bnu.edu.cn)",
+      "_NCProperties": "version=2,h5netcdf=1.2.0,hdf5=1.14.5,h5py=3.14.0"
+    },
+    "variables": [
+      {
+        "name": "dem",
+        "shape": [
+          138,
+          145
+        ],
+        "dtype": "float32",
+        "dimensions": [
+          [
+            "/y"
+          ],
+          [
+            "/x"
+          ]
+        ],
+        "attributes": {
+          "_Netcdf4Coordinates": [
+            0,
+            1
+          ],
+          "_Netcdf4Dimid": 0,
+          "_FillValue": null,
+          "long_name": "digital elevation model",
+          "units": "m",
+          "grid_mapping": "spatial_ref"
+        },
+        "statistics": {
+          "cells": 20010,
+          "nonfinite_cells": 0,
+          "nodata_cells": 0,
+          "valid_cells": 20010,
+          "valid_fraction": 1.0,
+          "scan": "all cells",
+          "min": 3551.765869140625,
+          "max": 6458.126953125,
+          "mean": 4991.183961766676,
+          "quantiles_p0_p25_p50_p75_p100": [
+            3551.765869140625,
+            4507.981201171875,
+            5172.838134765625,
+            5431.6815185546875,
+            6458.126953125
+          ]
+        }
+      },
+      {
+        "name": "slope",
+        "shape": [
+          138,
+          145
+        ],
+        "dtype": "float32",
+        "dimensions": [
+          [
+            "/y"
+          ],
+          [
+            "/x"
+          ]
+        ],
+        "attributes": {
+          "_Netcdf4Coordinates": [
+            0,
+            1
+          ],
+          "_Netcdf4Dimid": 0,
+          "_FillValue": null,
+          "long_name": "terrain slope",
+          "units": "degree",
+          "grid_mapping": "spatial_ref"
+        },
+        "statistics": {
+          "cells": 20010,
+          "nonfinite_cells": 0,
+          "nodata_cells": 0,
+          "valid_cells": 20010,
+          "valid_fraction": 1.0,
+          "scan": "all cells",
+          "min": 0.46447762846946716,
+          "max": 78.50704193115234,
+          "mean": 36.3788147833081,
+          "quantiles_p0_p25_p50_p75_p100": [
+            0.46447762846946716,
+            25.083180904388428,
+            37.20232582092285,
+            48.62442874908447,
+            78.50704193115234
+          ]
+        }
+      },
+      {
+        "name": "thickness",
+        "shape": [
+          138,
+          145
+        ],
+        "dtype": "float32",
+        "dimensions": [
+          [
+            "/y"
+          ],
+          [
+            "/x"
+          ]
+        ],
+        "attributes": {
+          "_Netcdf4Coordinates": [
+            0,
+            1
+          ],
+          "_Netcdf4Dimid": 0,
+          "_FillValue": null,
+          "long_name": "ice thickness",
+          "units": "m",
+          "grid_mapping": "spatial_ref",
+          "description": "Ice thickness data from A consensus estimate for the ice thickness distribution of all glaciers on Earth (Farinotti et al., 2019)."
+        },
+        "statistics": {
+          "cells": 20010,
+          "nonfinite_cells": 12858,
+          "nodata_cells": 0,
+          "valid_cells": 7152,
+          "valid_fraction": 0.35742128935532236,
+          "scan": "all cells",
+          "min": 6.0,
+          "max": 154.0,
+          "mean": 49.58710850111857,
+          "quantiles_p0_p25_p50_p75_p100": [
+            6.0,
+            27.0,
+            43.0,
+            65.0,
+            154.0
+          ]
+        }
+      },
+      {
+        "name": "spatial_ref",
+        "shape": [],
+        "dtype": "int32",
+        "dimensions": [],
+        "attributes": {
+          "spatial_ref": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+          "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+          "GeoTransform": "353442.5 30.0 0.0 3132057.5 0.0 -30.0"
+        },
+        "statistics": {
+          "cells": 1,
+          "nonfinite_cells": 0,
+          "nodata_cells": 0,
+          "valid_cells": 1,
+          "valid_fraction": 1.0,
+          "scan": "all cells",
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "quantiles_p0_p25_p50_p75_p100": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "value_counts_including_nodata": {
+            "0": 1
+          }
+        }
+      },
+      {
+        "name": "vx",
+        "shape": [
+          138,
+          145
+        ],
+        "dtype": "float32",
+        "dimensions": [
+          [
+            "/y"
+          ],
+          [
+            "/x"
+          ]
+        ],
+        "attributes": {
+          "_Netcdf4Coordinates": [
+            0,
+            1
+          ],
+          "_Netcdf4Dimid": 0,
+          "_FillValue": null,
+          "description": "climatological [2014-2024] vx determined by a weighted least squares line fit, described by an offset and slope, to mean annual vx values. The climatology uses a time-intercept of January 1, 2018.",
+          "grid_mapping": "spatial_ref",
+          "standard_name": "climatological_x_velocity",
+          "units": "meter/year"
+        },
+        "statistics": {
+          "cells": 20010,
+          "nonfinite_cells": 12858,
+          "nodata_cells": 0,
+          "valid_cells": 7152,
+          "valid_fraction": 0.35742128935532236,
+          "scan": "all cells",
+          "min": -50.25105285644531,
+          "max": 4.171877384185791,
+          "mean": -3.735256772863086,
+          "quantiles_p0_p25_p50_p75_p100": [
+            -50.25105285644531,
+            -3.1871227622032166,
+            -0.5722411274909973,
+            -0.09013027139008045,
+            4.171877384185791
+          ]
+        }
+      },
+      {
+        "name": "vx_amp",
+        "shape": [
+          138,
+          145
+        ],
+        "dtype": "float32",
+        "dimensions": [
+          [
+            "/y"
+          ],
+          [
+            "/x"
+          ]
+        ],
+        "attributes": {
+          "_Netcdf4Coordinates": [
+            0,
+            1
+          ],
+          "_Netcdf4Dimid": 0,
+          "_FillValue": null,
+          "description": "climatological [2014-2024] mean seasonal amplitude of sinusoidal fit to vx",
+          "grid_mapping": "spatial_ref",
+          "standard_name": "vx_amplitude",
+          "units": "meter/year"
+        },
+        "statistics": {
+          "cells": 20010,
+          "nonfinite_cells": 12858,
+          "nodata_cells": 0,
+          "valid_cells": 7152,
+          "valid_fraction": 0.35742128935532236,
+          "scan": "all cells",
+          "min": 0.6232216358184814,
+          "max": 32.84864807128906,
+          "mean": 6.520626294666222,
+          "quantiles_p0_p25_p50_p75_p100": [
+            0.6232216358184814,
+            3.8248778581619263,
+            5.12574577331543,
+            8.072462797164917,
+            32.84864807128906
+          ]
+        }
+      },
+      {
+        "name": "vy",
+        "shape": [
+          138,
+          145
+        ],
+        "dtype": "float32",
+        "dimensions": [
+          [
+            "/y"
+          ],
+          [
+            "/x"
+          ]
+        ],
+        "attributes": {
+          "_Netcdf4Coordinates": [
+            0,
+            1
+          ],
+          "_Netcdf4Dimid": 0,
+          "_FillValue": null,
+          "description": "climatological [2014-2024] vy determined by a weighted least squares line fit, described by an offset and slope, to mean annual vy values. The climatology uses a time-intercept of January 1, 2018.",
+          "grid_mapping": "spatial_ref",
+          "standard_name": "climatological_y_velocity",
+          "units": "meter/year"
+        },
+        "statistics": {
+          "cells": 20010,
+          "nonfinite_cells": 12858,
+          "nodata_cells": 0,
+          "valid_cells": 7152,
+          "valid_fraction": 0.35742128935532236,
+          "scan": "all cells",
+          "min": -0.540359377861023,
+          "max": 35.74430465698242,
+          "mean": 6.172790266079197,
+          "quantiles_p0_p25_p50_p75_p100": [
+            -0.540359377861023,
+            0.5820460915565491,
+            1.5610625743865967,
+            8.899807691574097,
+            35.74430465698242
+          ]
+        }
+      },
+      {
+        "name": "vy_amp",
+        "shape": [
+          138,
+          145
+        ],
+        "dtype": "float32",
+        "dimensions": [
+          [
+            "/y"
+          ],
+          [
+            "/x"
+          ]
+        ],
+        "attributes": {
+          "_Netcdf4Coordinates": [
+            0,
+            1
+          ],
+          "_Netcdf4Dimid": 0,
+          "_FillValue": null,
+          "description": "climatological [2014-2024] mean seasonal amplitude in sinusoidal fit in vy",
+          "grid_mapping": "spatial_ref",
+          "standard_name": "vy_amplitude",
+          "units": "meter/year"
+        },
+        "statistics": {
+          "cells": 20010,
+          "nonfinite_cells": 12858,
+          "nodata_cells": 0,
+          "valid_cells": 7152,
+          "valid_fraction": 0.35742128935532236,
+          "scan": "all cells",
+          "min": 0.1254260540008545,
+          "max": 30.7615966796875,
+          "mean": 9.29191774201123,
+          "quantiles_p0_p25_p50_p75_p100": [
+            0.1254260540008545,
+            4.6715933084487915,
+            7.92789888381958,
+            12.692579984664917,
+            30.7615966796875
+          ]
+        }
+      },
+      {
+        "name": "v",
+        "shape": [
+          138,
+          145
+        ],
+        "dtype": "float32",
+        "dimensions": [
+          [
+            "/y"
+          ],
+          [
+            "/x"
+          ]
+        ],
+        "attributes": {
+          "_Netcdf4Coordinates": [
+            0,
+            1
+          ],
+          "_Netcdf4Dimid": 0,
+          "_FillValue": null,
+          "description": "determined by taking the hypotenuse of vx and vy. The climatology uses a time-intercept of January 1, 2018.",
+          "grid_mapping": "spatial_ref",
+          "standard_name": "climatological [2014-2024] velocity",
+          "units": "meter/year"
+        },
+        "statistics": {
+          "cells": 20010,
+          "nonfinite_cells": 12858,
+          "nodata_cells": 0,
+          "valid_cells": 7152,
+          "valid_fraction": 0.35742128935532236,
+          "scan": "all cells",
+          "min": 0.07501044124364853,
+          "max": 55.828922271728516,
+          "mean": 7.840962957783542,
+          "quantiles_p0_p25_p50_p75_p100": [
+            0.07501044124364853,
+            0.8049838989973068,
+            2.0281386375427246,
+            10.178314924240112,
+            55.828922271728516
+          ]
+        }
+      },
+      {
+        "name": "v_amp",
+        "shape": [
+          138,
+          145
+        ],
+        "dtype": "float32",
+        "dimensions": [
+          [
+            "/y"
+          ],
+          [
+            "/x"
+          ]
+        ],
+        "attributes": {
+          "_Netcdf4Coordinates": [
+            0,
+            1
+          ],
+          "_Netcdf4Dimid": 0,
+          "_FillValue": null,
+          "description": "climatological [2014-2024] mean seasonal amplitude in the direction of mean flow as defined by vx and vy",
+          "grid_mapping": "spatial_ref",
+          "standard_name": "climatological [2014-2024] mean seasonal amplitude",
+          "units": "meter/year"
+        },
+        "statistics": {
+          "cells": 20010,
+          "nonfinite_cells": 12858,
+          "nodata_cells": 0,
+          "valid_cells": 7152,
+          "valid_fraction": 0.35742128935532236,
+          "scan": "all cells",
+          "min": 0.1852264702320099,
+          "max": 42.31667709350586,
+          "mean": 9.72445959032782,
+          "quantiles_p0_p25_p50_p75_p100": [
+            0.1852264702320099,
+            4.977613210678101,
+            8.209054946899414,
+            12.846500158309937,
+            42.31667709350586
+          ]
+        }
+      },
+      {
+        "name": "y",
+        "shape": [
+          138
+        ],
+        "dtype": "float64",
+        "dimensions": [
+          []
+        ],
+        "attributes": {
+          "CLASS": "DIMENSION_SCALE",
+          "NAME": "y",
+          "_Netcdf4Dimid": 0,
+          "_FillValue": null,
+          "standard_name": "projection_y_coordinate",
+          "long_name": "y coordinate",
+          "units": "m"
+        },
+        "statistics": {
+          "cells": 138,
+          "nonfinite_cells": 0,
+          "nodata_cells": 0,
+          "valid_cells": 138,
+          "valid_fraction": 1.0,
+          "scan": "all cells",
+          "min": 3127932.5,
+          "max": 3132042.5,
+          "mean": 3129987.5,
+          "quantiles_p0_p25_p50_p75_p100": [
+            3127932.5,
+            3128960.0,
+            3129987.5,
+            3131015.0,
+            3132042.5
+          ]
+        }
+      },
+      {
+        "name": "x",
+        "shape": [
+          145
+        ],
+        "dtype": "float64",
+        "dimensions": [
+          []
+        ],
+        "attributes": {
+          "_Netcdf4Dimid": 1,
+          "CLASS": "DIMENSION_SCALE",
+          "NAME": "x",
+          "_FillValue": null,
+          "standard_name": "projection_x_coordinate",
+          "long_name": "x coordinate",
+          "units": "m"
+        },
+        "statistics": {
+          "cells": 145,
+          "nonfinite_cells": 0,
+          "nodata_cells": 0,
+          "valid_cells": 145,
+          "valid_fraction": 1.0,
+          "scan": "all cells",
+          "min": 353457.5,
+          "max": 357777.5,
+          "mean": 355617.5,
+          "quantiles_p0_p25_p50_p75_p100": [
+            353457.5,
+            354537.5,
+            355617.5,
+            356697.5,
+            357777.5
+          ]
+        }
+      },
+      {
+        "name": "glacier_mask",
+        "shape": [
+          138,
+          145
+        ],
+        "dtype": "float32",
+        "dimensions": [
+          [
+            "/y"
+          ],
+          [
+            "/x"
+          ]
+        ],
+        "attributes": {
+          "_Netcdf4Coordinates": [
+            0,
+            1
+          ],
+          "_Netcdf4Dimid": 0,
+          "_FillValue": null,
+          "description": "Glacier mask derived from the Randolph Glacier Inventory 6.0 (combining RGI60-15.04172, RGI60-15.04173, RGI60-15.04174, and RGI60-15.04175)",
+          "grid_mapping": "spatial_ref"
+        },
+        "statistics": {
+          "cells": 20010,
+          "nonfinite_cells": 12858,
+          "nodata_cells": 0,
+          "valid_cells": 7152,
+          "valid_fraction": 0.35742128935532236,
+          "scan": "all cells",
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0,
+          "quantiles_p0_p25_p50_p75_p100": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ],
+    "grid_shape_yx": [
+      138,
+      145
+    ],
+    "pixel_size_xy_metres": [
+      30.0,
+      30.0
+    ],
+    "epsg": 32645,
+    "bounds_UTM_left_bottom_right_top": [
+      353442.5,
+      3127917.5,
+      357792.5,
+      3132057.5
+    ],
+    "approximate_bounds_WGS84": [
+      85.50526453957602,
+      28.26909761708881,
+      85.5501245723933,
+      28.30693479720224
+    ],
+    "no_time_dimension": true,
+    "temporal_semantics": "Velocity metadata: 2014-2024 climatology with 2018-01-01 intercept; no event-time series",
+    "scan": "all datasets, all numeric cells, all non-internal attributes",
+    "mask": {
+      "cells": 20010,
+      "nonfinite_cells": 12858,
+      "nodata_cells": 0,
+      "valid_cells": 7152,
+      "valid_fraction": 0.35742128935532236,
+      "scan": "all cells",
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "quantiles_p0_p25_p50_p75_p100": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "on_positive_mask": {
+      "dem": {
+        "mask_cells": 7152,
+        "finite_cells": 7152
+      },
+      "slope": {
+        "mask_cells": 7152,
+        "finite_cells": 7152
+      },
+      "thickness": {
+        "mask_cells": 7152,
+        "finite_cells": 7152
+      },
+      "v": {
+        "mask_cells": 7152,
+        "finite_cells": 7152
+      },
+      "vx": {
+        "mask_cells": 7152,
+        "finite_cells": 7152
+      },
+      "vy": {
+        "mask_cells": 7152,
+        "finite_cells": 7152
+      }
+    }
+  }
+]

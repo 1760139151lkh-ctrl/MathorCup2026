@@ -1,0 +1,1443 @@
+{
+  "purpose": "stage3 formal GIS minimum processing loop and coverage diagnostics; not a validated hazard domain",
+  "software": {
+    "python": "3.12.14",
+    "rasterio": "1.5.2",
+    "gdal": "3.12.2",
+    "pyproj": "3.8.0",
+    "proj": "9.8.1",
+    "geopandas": "1.2.0",
+    "shapely": "2.2.0",
+    "xarray": "2026.9.0",
+    "h5netcdf": "1.8.1"
+  },
+  "policy": {
+    "schema_version": 1,
+    "status": "stage3_preprocessing_candidate_not_final_model_domain",
+    "work_crs": "EPSG:32645",
+    "work_crs_reason": "Local metre-based WGS84 / UTM zone 45N candidate for the supplied Nepal-border source grid and DEM; not a final area-of-use decision for all regional 200 km data.",
+    "axis_order": "always_xy=True; geographic input/output is longitude,latitude",
+    "datum_operation": "Use pyproj TransformerGroup and record selected operation, accuracy and ballpark flag. Unknown accuracy/ballpark is permitted only for exploratory coverage; no survey-grade positional claim.",
+    "geometry": {
+      "planar_analysis": "Force geometry copies to 2D; source Z values remain unchanged in originals and have no verified vertical semantics.",
+      "invalid_geometry": "Use make_valid on derived copies only and record counts; no source edits.",
+      "geographic_edge_densification_max_degrees": 0.000277746719,
+      "intersection": "Shapely projected planar geometry intersection after source-edge densification; area in square metres. Raster valid coverage separately measured from native pixel masks."
+    },
+    "dem": {
+      "output_grid_metres": 30,
+      "resampling": "bilinear",
+      "output_nodata": -9999.0,
+      "vertical_units": "m as source metadata",
+      "vertical_datum": "unknown; no vertical datum transformation performed",
+      "native_acquisition_date": null,
+      "warning": "30 m target sampling does not imply improved native spatial resolution, verified event-time terrain or a hydrologically corrected DEM."
+    },
+    "netcdf": {
+      "engine": "h5netcdf",
+      "decode_cf": true,
+      "mask_and_scale": true,
+      "decode_coords": "all",
+      "positive_mask": "finite(glacier_mask) and glacier_mask > 0",
+      "geotiff_orientation": "x increasing and y decreasing; reverse arrays with coordinates when necessary",
+      "continuous_resampling": "bilinear",
+      "categorical_resampling": "nearest",
+      "warning": "NC glacier mask is a source-parameter grid reference, not an independently confirmed 2026 failure polygon."
+    },
+    "landcover": {
+      "resampling": "nearest",
+      "nodata": 0,
+      "classes": "Retain numeric codes; names and product legend unverified",
+      "sample_support": "All positive NC glacier-mask cell centres transformed with formal pyproj; corresponding native raster cell is sampled. Also warp a nearest-neighbour NC-grid sample."
+    },
+    "corridor": {
+      "target_port_point": null,
+      "validated_river_centreline": null,
+      "result": "Source-grid local validity can be measured. Source-to-port channel continuity remains unverified until both endpoints and channel path have traceable evidence."
+    },
+    "human_review_required": [
+      "Confirm true event source polygon and port protection-point coordinates with traceable evidence.",
+      "Supply independently supported river centreline or DEM-derived network validated against imagery, then test buffered whole-path coverage.",
+      "Confirm DEM product, date, vertical datum and error before physical slope, routing or volume interpretation.",
+      "Assess CGCS2000 datum-operation accuracy requirement; ballpark transformation is not a precision geodetic result.",
+      "Confirm land-cover legend and obtain source-region valid categories before using class codes as features."
+    ],
+    "ai_assistance": "OpenAI Codex prepared this preprocessing policy and script; team members must review adoption and modifications in AI_USAGE.md."
+  },
+  "vectors": [
+    {
+      "key": "buffer_200km",
+      "source": "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.shp",
+      "records": 1,
+      "source_crs": "EPSG:4326",
+      "source_geometry_types": {
+        "Polygon": 1
+      },
+      "source_geometry_with_z": 0,
+      "source_invalid_geometry_count": 0,
+      "source_invalid_records": [],
+      "projected_invalid_before_repair": 0,
+      "projected_invalid_records_before_repair": [],
+      "post_projection_repair_max_absolute_area_change_m2": 0.0,
+      "derived_invalid_geometry_count": 0,
+      "null_empty_count": 0,
+      "projected_bounds": [
+        153845.80955730414,
+        2930617.1387576386,
+        553850.9402027155,
+        3330557.501565334
+      ]
+    },
+    {
+      "key": "rgi_v6",
+      "source": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.shp",
+      "records": 3430,
+      "source_crs": "EPSG:4326",
+      "source_geometry_types": {
+        "Polygon": 3430
+      },
+      "source_geometry_with_z": 0,
+      "source_invalid_geometry_count": 2,
+      "source_invalid_records": [
+        {
+          "source_record_index": 1568,
+          "reason": "Ring Self-intersection[85.7854523820001 28.13720048]"
+        },
+        {
+          "source_record_index": 1617,
+          "reason": "Ring Self-intersection[85.6715980750001 28.190389125]"
+        }
+      ],
+      "projected_invalid_before_repair": 0,
+      "projected_invalid_records_before_repair": [],
+      "post_projection_repair_max_absolute_area_change_m2": 0.0,
+      "derived_invalid_geometry_count": 0,
+      "null_empty_count": 0,
+      "projected_bounds": [
+        159651.37954826903,
+        3056819.927816559,
+        553328.17257699,
+        3327851.6646786896
+      ]
+    },
+    {
+      "key": "rgi_v7",
+      "source": "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.shp",
+      "records": 4337,
+      "source_crs": "EPSG:4326",
+      "source_geometry_types": {
+        "Polygon": 4337
+      },
+      "source_geometry_with_z": 4337,
+      "source_invalid_geometry_count": 0,
+      "source_invalid_records": [],
+      "projected_invalid_before_repair": 16,
+      "projected_invalid_records_before_repair": [
+        {
+          "source_record_index": 121,
+          "reason": "Self-intersection[346767.658236496 3301909.94140566]"
+        },
+        {
+          "source_record_index": 383,
+          "reason": "Self-intersection[272055.252951499 3294678.12244719]"
+        },
+        {
+          "source_record_index": 431,
+          "reason": "Self-intersection[319092.564515443 3291586.40680314]"
+        },
+        {
+          "source_record_index": 463,
+          "reason": "Self-intersection[345027.80255626 3262182.06630977]"
+        },
+        {
+          "source_record_index": 1405,
+          "reason": "Self-intersection[246210.134464055 3191668.07210004]"
+        },
+        {
+          "source_record_index": 1408,
+          "reason": "Self-intersection[247350.254983304 3191921.92318914]"
+        },
+        {
+          "source_record_index": 1469,
+          "reason": "Self-intersection[239964.899918403 3181331.68510444]"
+        },
+        {
+          "source_record_index": 1582,
+          "reason": "Self-intersection[279311.368962701 3152118.71741618]"
+        },
+        {
+          "source_record_index": 1708,
+          "reason": "Self-intersection[270722.353173559 3140383.08494598]"
+        },
+        {
+          "source_record_index": 2180,
+          "reason": "Self-intersection[354469.808332298 3126511.60072092]"
+        },
+        {
+          "source_record_index": 2359,
+          "reason": "Self-intersection[362719.773392203 3131700.21334695]"
+        },
+        {
+          "source_record_index": 2543,
+          "reason": "Self-intersection[254936.167969319 3181161.38002583]"
+        },
+        {
+          "source_record_index": 3043,
+          "reason": "Self-intersection[468523.434916832 3124733.43235967]"
+        },
+        {
+          "source_record_index": 3425,
+          "reason": "Self-intersection[515116.439649548 3084454.11637164]"
+        },
+        {
+          "source_record_index": 4247,
+          "reason": "Self-intersection[384448.850548981 3138603.23471542]"
+        },
+        {
+          "source_record_index": 4268,
+          "reason": "Self-intersection[383931.830995625 3132085.16835925]"
+        }
+      ],
+      "post_projection_repair_max_absolute_area_change_m2": 2.2988358978182077e-05,
+      "derived_invalid_geometry_count": 0,
+      "null_empty_count": 0,
+      "projected_bounds": [
+        159623.34329231444,
+        3056819.9522209675,
+        553317.7521645081,
+        3327813.8894738625
+      ]
+    },
+    {
+      "key": "history",
+      "source": "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp",
+      "records": 84,
+      "source_crs": "EPSG:4490",
+      "source_geometry_types": {
+        "Polygon": 84
+      },
+      "source_geometry_with_z": 84,
+      "source_invalid_geometry_count": 0,
+      "source_invalid_records": [],
+      "projected_invalid_before_repair": 0,
+      "projected_invalid_records_before_repair": [],
+      "post_projection_repair_max_absolute_area_change_m2": 0.0,
+      "derived_invalid_geometry_count": 0,
+      "null_empty_count": 0,
+      "projected_bounds": [
+        305829.69797277416,
+        3127229.3806921993,
+        351887.80586486496,
+        3209865.1786670745
+      ]
+    },
+    {
+      "key": "population",
+      "source": "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.shp",
+      "records": 1,
+      "source_crs": "EPSG:4326",
+      "source_geometry_types": {
+        "Polygon": 1
+      },
+      "source_geometry_with_z": 0,
+      "source_invalid_geometry_count": 0,
+      "source_invalid_records": [],
+      "projected_invalid_before_repair": 0,
+      "projected_invalid_records_before_repair": [],
+      "post_projection_repair_max_absolute_area_change_m2": 0.0,
+      "derived_invalid_geometry_count": 0,
+      "null_empty_count": 0,
+      "projected_bounds": [
+        251101.0340101359,
+        3126333.341436863,
+        418049.7846873348,
+        3245025.9832801716
+      ]
+    }
+  ],
+  "rasters": {
+    "native_dem": {
+      "source": "04_B赛道/07_DEM（2026-08-26）/DEM.tif",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "shape_yx": [
+        1148,
+        1816
+      ],
+      "transform_affine_gdal": [
+        85.18975577464204,
+        0.0002777467191455384,
+        0.0,
+        28.564382284579324,
+        0.0,
+        -0.00027774196409497727
+      ],
+      "bounds_left_bottom_right_top": [
+        85.18975577464204,
+        28.24553450979829,
+        85.69414381661034,
+        28.564382284579324
+      ],
+      "resolution_xy": [
+        0.0002777467191455384,
+        0.00027774196409497727
+      ],
+      "dtype": "float32",
+      "nodata": -32767.0,
+      "tags": {
+        "AREA_OR_POINT": "Area",
+        "DataType": "Generic"
+      },
+      "total_cells": 2084768,
+      "valid_cells": 2084768,
+      "min": 1620.91015625,
+      "max": 7254.47705078125,
+      "mean": 4538.38916015625
+    },
+    "dem_utm45_30m": {
+      "crs": "EPSG:32645",
+      "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+      "shape_yx": [
+        1199,
+        1663
+      ],
+      "transform_affine_gdal": [
+        322400.8611877846,
+        30.0,
+        0.0,
+        3161062.2250913926,
+        0.0,
+        -30.0
+      ],
+      "bounds_left_bottom_right_top": [
+        322400.8611877846,
+        3125092.2250913926,
+        372290.8611877846,
+        3161062.2250913926
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "tags": {
+        "policy": "track_b/config/spatial_policy.json",
+        "semantic": "continuous elevation; bilinear target sampling 30m; unknown vertical datum",
+        "sources": "[\"04_B赛道/07_DEM（2026-08-26）/DEM.tif\"]",
+        "vertical_datum": "unknown; no vertical transformation",
+        "AREA_OR_POINT": "Area"
+      },
+      "total_cells": 1993937,
+      "valid_cells": 1940245,
+      "min": 1620.9776611328125,
+      "max": 7253.0966796875,
+      "mean": 4538.07568359375
+    },
+    "nc_dem_native_grid": {
+      "crs": "EPSG:32645",
+      "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+      "shape_yx": [
+        138,
+        145
+      ],
+      "transform_affine_gdal": [
+        353442.5,
+        30.0,
+        0.0,
+        3132057.5,
+        0.0,
+        -30.0
+      ],
+      "bounds_left_bottom_right_top": [
+        353442.5,
+        3127917.5,
+        357792.5,
+        3132057.5
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "dtype": "float32",
+      "nodata": null,
+      "tags": {
+        "policy": "track_b/config/spatial_policy.json",
+        "semantic": "continuous elevation exported without resampling; vertical datum unverified",
+        "sources": "[\"04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc\"]",
+        "vertical_datum": "unknown; no vertical transformation",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    "nc_glacier_mask": {
+      "crs": "EPSG:32645",
+      "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+      "shape_yx": [
+        138,
+        145
+      ],
+      "transform_affine_gdal": [
+        353442.5,
+        30.0,
+        0.0,
+        3132057.5,
+        0.0,
+        -30.0
+      ],
+      "bounds_left_bottom_right_top": [
+        353442.5,
+        3127917.5,
+        357792.5,
+        3132057.5
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "dtype": "uint8",
+      "nodata": 0.0,
+      "tags": {
+        "policy": "track_b/config/spatial_policy.json",
+        "semantic": "categorical positive mask exported without resampling; not confirmed event failure boundary",
+        "sources": "[\"04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc\"]",
+        "vertical_datum": "unknown; no vertical transformation",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    "dem_on_nc_grid": {
+      "crs": "EPSG:32645",
+      "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+      "shape_yx": [
+        138,
+        145
+      ],
+      "transform_affine_gdal": [
+        353442.5,
+        30.0,
+        0.0,
+        3132057.5,
+        0.0,
+        -30.0
+      ],
+      "bounds_left_bottom_right_top": [
+        353442.5,
+        3127917.5,
+        357792.5,
+        3132057.5
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "tags": {
+        "policy": "track_b/config/spatial_policy.json",
+        "semantic": "continuous native DEM bilinear to supplied NC parameter grid",
+        "sources": "[\"04_B赛道/07_DEM（2026-08-26）/DEM.tif\", \"04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc\"]",
+        "vertical_datum": "unknown; no vertical transformation",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    "jilong_LUCD_2020": {
+      "crs": "EPSG:32645",
+      "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+      "shape_yx": [
+        138,
+        145
+      ],
+      "transform_affine_gdal": [
+        353442.5,
+        30.0,
+        0.0,
+        3132057.5,
+        0.0,
+        -30.0
+      ],
+      "bounds_left_bottom_right_top": [
+        353442.5,
+        3127917.5,
+        357792.5,
+        3132057.5
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "dtype": "uint8",
+      "nodata": 0.0,
+      "tags": {
+        "policy": "track_b/config/spatial_policy.json",
+        "semantic": "categorical codes; nearest resampling only; 0=NoData; class legend unverified",
+        "sources": "[\"04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2020.tif\"]",
+        "vertical_datum": "unknown; no vertical transformation",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    "jilong_LUCD_2021": {
+      "crs": "EPSG:32645",
+      "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+      "shape_yx": [
+        138,
+        145
+      ],
+      "transform_affine_gdal": [
+        353442.5,
+        30.0,
+        0.0,
+        3132057.5,
+        0.0,
+        -30.0
+      ],
+      "bounds_left_bottom_right_top": [
+        353442.5,
+        3127917.5,
+        357792.5,
+        3132057.5
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "dtype": "uint8",
+      "nodata": 0.0,
+      "tags": {
+        "policy": "track_b/config/spatial_policy.json",
+        "semantic": "categorical codes; nearest resampling only; 0=NoData; class legend unverified",
+        "sources": "[\"04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2021.tif\"]",
+        "vertical_datum": "unknown; no vertical transformation",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    "jilong_LUCD_2022": {
+      "crs": "EPSG:32645",
+      "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+      "shape_yx": [
+        138,
+        145
+      ],
+      "transform_affine_gdal": [
+        353442.5,
+        30.0,
+        0.0,
+        3132057.5,
+        0.0,
+        -30.0
+      ],
+      "bounds_left_bottom_right_top": [
+        353442.5,
+        3127917.5,
+        357792.5,
+        3132057.5
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "dtype": "uint8",
+      "nodata": 0.0,
+      "tags": {
+        "policy": "track_b/config/spatial_policy.json",
+        "semantic": "categorical codes; nearest resampling only; 0=NoData; class legend unverified",
+        "sources": "[\"04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2022.tif\"]",
+        "vertical_datum": "unknown; no vertical transformation",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    "jilong_LUCD_2023": {
+      "crs": "EPSG:32645",
+      "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+      "shape_yx": [
+        138,
+        145
+      ],
+      "transform_affine_gdal": [
+        353442.5,
+        30.0,
+        0.0,
+        3132057.5,
+        0.0,
+        -30.0
+      ],
+      "bounds_left_bottom_right_top": [
+        353442.5,
+        3127917.5,
+        357792.5,
+        3132057.5
+      ],
+      "resolution_xy": [
+        30.0,
+        30.0
+      ],
+      "dtype": "uint8",
+      "nodata": 0.0,
+      "tags": {
+        "policy": "track_b/config/spatial_policy.json",
+        "semantic": "categorical codes; nearest resampling only; 0=NoData; class legend unverified",
+        "sources": "[\"04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2023.tif\"]",
+        "vertical_datum": "unknown; no vertical transformation",
+        "AREA_OR_POINT": "Area"
+      }
+    }
+  },
+  "warnings": [
+    "CGCS2000 to WGS84 is ballpark in this PROJ environment; reported operation accuracy is unknown and no non-ballpark operation is available.",
+    "Local NC grid is supported by valid DEM cells, but confirmed event failure polygon, port target and full propagation channel remain unavailable.",
+    "Every positive NC glacier-mask centre is NoData in all four supplied land-cover rasters; reprojection cannot create coverage.",
+    "The separate DEM and NC DEM disagree materially; their product, date and vertical reference remain unverified and they must not be silently merged.",
+    "Two source RGI6 geometries and 16 post-projection RGI7 geometries needed make_valid on derived 2D copies; repair details are recorded."
+  ],
+  "historical_inventory_coverage": {
+    "records": 84,
+    "footprint_intersects": 23,
+    "positive_area_overlap": 23,
+    "fully_covered_by_dem_footprint": 17,
+    "with_native_valid_center_cells": 23,
+    "with_native_valid_all_touched_cells": 23,
+    "sum_inventory_polygon_area_m2": 1382258556.891356,
+    "sum_intersection_area_m2": 339675158.3890524,
+    "inventory_union_area_m2": 1382258555.6351795,
+    "inventory_union_on_dem_area_m2": 339675158.3666711,
+    "warning": "Per-polygon area sums can double-count overlaps. These are spatial inventory diagnostics, not event-time training labels. Centre and all-touched counts are raster support, not exact polygon area."
+  },
+  "netcdf": {
+    "source": "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+    "engine": "h5netcdf",
+    "decode_cf": true,
+    "decode_coords": "all",
+    "mask_and_scale": true,
+    "dimensions": {
+      "y": 138,
+      "x": 145
+    },
+    "coordinates": [
+      "spatial_ref",
+      "y",
+      "x"
+    ],
+    "no_time_dimension": true,
+    "global_attributes": {
+      "Conventions": "CF-1.8",
+      "title": "Glacier topographic and dynamic drivers",
+      "source": "dem_30m.tif, slope_30m.tif, thickness_30m.tif",
+      "velocity_source": "ITS_LIVE v2.1",
+      "velocity_resampling": "bilinear to the 30 m reference grid",
+      "ice_thickness_source": "https://www.research-collection.ethz.ch/entities/researchdata/23bc92d0-aa11-48b8-b6ca-69c5dcf0de6b",
+      "author": "zhaohongyu (zhaohongyu@swpu.edu.cn); zhang tong (tzhang@bnu.edu.cn)"
+    },
+    "crs": "EPSG:32645",
+    "transform_affine_gdal": [
+      353442.5,
+      30.0,
+      0.0,
+      3132057.5,
+      0.0,
+      -30.0
+    ],
+    "bounds_left_bottom_right_top": [
+      353442.5,
+      3127917.5,
+      357792.5,
+      3132057.5
+    ],
+    "resolution_metres_xy": [
+      30.0,
+      30.0
+    ],
+    "native_x_order": "increasing",
+    "native_y_order": "decreasing",
+    "export_order": "x increasing / y decreasing; arrays sorted with coordinates",
+    "positive_mask_cells": 7152,
+    "positive_mask_area_m2": 6436800.0,
+    "mask_covered_by_native_dem_valid_footprint": true,
+    "mask_area_on_native_dem_m2": 6436800.0,
+    "full_nc_grid_covered_by_native_dem_valid_footprint": true,
+    "variable_decode_checks": {
+      "dem": {
+        "attrs_after_decoding": {
+          "long_name": "digital elevation model",
+          "units": "m"
+        },
+        "raw_fill_value": null,
+        "raw_scale_factor": null,
+        "raw_add_offset": null,
+        "raw_and_decoded_equal_nan": true,
+        "decoded_statistics": {
+          "total_cells": 20010,
+          "valid_cells": 20010,
+          "min": 3551.765869140625,
+          "max": 6458.126953125,
+          "mean": 4991.18408203125
+        },
+        "finite_on_positive_mask": 7152
+      },
+      "slope": {
+        "attrs_after_decoding": {
+          "long_name": "terrain slope",
+          "units": "degree"
+        },
+        "raw_fill_value": null,
+        "raw_scale_factor": null,
+        "raw_add_offset": null,
+        "raw_and_decoded_equal_nan": true,
+        "decoded_statistics": {
+          "total_cells": 20010,
+          "valid_cells": 20010,
+          "min": 0.46447762846946716,
+          "max": 78.50704193115234,
+          "mean": 36.37881851196289
+        },
+        "finite_on_positive_mask": 7152
+      },
+      "thickness": {
+        "attrs_after_decoding": {
+          "long_name": "ice thickness",
+          "units": "m",
+          "description": "Ice thickness data from A consensus estimate for the ice thickness distribution of all glaciers on Earth (Farinotti et al., 2019)."
+        },
+        "raw_fill_value": null,
+        "raw_scale_factor": null,
+        "raw_add_offset": null,
+        "raw_and_decoded_equal_nan": true,
+        "decoded_statistics": {
+          "total_cells": 20010,
+          "valid_cells": 7152,
+          "min": 6.0,
+          "max": 154.0,
+          "mean": 49.58710861206055
+        },
+        "finite_on_positive_mask": 7152
+      },
+      "vx": {
+        "attrs_after_decoding": {
+          "description": "climatological [2014-2024] vx determined by a weighted least squares line fit, described by an offset and slope, to mean annual vx values. The climatology uses a time-intercept of January 1, 2018.",
+          "standard_name": "climatological_x_velocity",
+          "units": "meter/year"
+        },
+        "raw_fill_value": null,
+        "raw_scale_factor": null,
+        "raw_add_offset": null,
+        "raw_and_decoded_equal_nan": true,
+        "decoded_statistics": {
+          "total_cells": 20010,
+          "valid_cells": 7152,
+          "min": -50.25105285644531,
+          "max": 4.171877384185791,
+          "mean": -3.7352564334869385
+        },
+        "finite_on_positive_mask": 7152
+      },
+      "vx_amp": {
+        "attrs_after_decoding": {
+          "description": "climatological [2014-2024] mean seasonal amplitude of sinusoidal fit to vx",
+          "standard_name": "vx_amplitude",
+          "units": "meter/year"
+        },
+        "raw_fill_value": null,
+        "raw_scale_factor": null,
+        "raw_add_offset": null,
+        "raw_and_decoded_equal_nan": true,
+        "decoded_statistics": {
+          "total_cells": 20010,
+          "valid_cells": 7152,
+          "min": 0.6232216358184814,
+          "max": 32.84864807128906,
+          "mean": 6.520625591278076
+        },
+        "finite_on_positive_mask": 7152
+      },
+      "vy": {
+        "attrs_after_decoding": {
+          "description": "climatological [2014-2024] vy determined by a weighted least squares line fit, described by an offset and slope, to mean annual vy values. The climatology uses a time-intercept of January 1, 2018.",
+          "standard_name": "climatological_y_velocity",
+          "units": "meter/year"
+        },
+        "raw_fill_value": null,
+        "raw_scale_factor": null,
+        "raw_add_offset": null,
+        "raw_and_decoded_equal_nan": true,
+        "decoded_statistics": {
+          "total_cells": 20010,
+          "valid_cells": 7152,
+          "min": -0.540359377861023,
+          "max": 35.74430465698242,
+          "mean": 6.17279052734375
+        },
+        "finite_on_positive_mask": 7152
+      },
+      "vy_amp": {
+        "attrs_after_decoding": {
+          "description": "climatological [2014-2024] mean seasonal amplitude in sinusoidal fit in vy",
+          "standard_name": "vy_amplitude",
+          "units": "meter/year"
+        },
+        "raw_fill_value": null,
+        "raw_scale_factor": null,
+        "raw_add_offset": null,
+        "raw_and_decoded_equal_nan": true,
+        "decoded_statistics": {
+          "total_cells": 20010,
+          "valid_cells": 7152,
+          "min": 0.1254260540008545,
+          "max": 30.7615966796875,
+          "mean": 9.29191780090332
+        },
+        "finite_on_positive_mask": 7152
+      },
+      "v": {
+        "attrs_after_decoding": {
+          "description": "determined by taking the hypotenuse of vx and vy. The climatology uses a time-intercept of January 1, 2018.",
+          "standard_name": "climatological [2014-2024] velocity",
+          "units": "meter/year"
+        },
+        "raw_fill_value": null,
+        "raw_scale_factor": null,
+        "raw_add_offset": null,
+        "raw_and_decoded_equal_nan": true,
+        "decoded_statistics": {
+          "total_cells": 20010,
+          "valid_cells": 7152,
+          "min": 0.07501044124364853,
+          "max": 55.828922271728516,
+          "mean": 7.840963363647461
+        },
+        "finite_on_positive_mask": 7152
+      },
+      "v_amp": {
+        "attrs_after_decoding": {
+          "description": "climatological [2014-2024] mean seasonal amplitude in the direction of mean flow as defined by vx and vy",
+          "standard_name": "climatological [2014-2024] mean seasonal amplitude",
+          "units": "meter/year"
+        },
+        "raw_fill_value": null,
+        "raw_scale_factor": null,
+        "raw_add_offset": null,
+        "raw_and_decoded_equal_nan": true,
+        "decoded_statistics": {
+          "total_cells": 20010,
+          "valid_cells": 7152,
+          "min": 0.1852264702320099,
+          "max": 42.31667709350586,
+          "mean": 9.724459648132324
+        },
+        "finite_on_positive_mask": 7152
+      },
+      "glacier_mask": {
+        "attrs_after_decoding": {
+          "description": "Glacier mask derived from the Randolph Glacier Inventory 6.0 (combining RGI60-15.04172, RGI60-15.04173, RGI60-15.04174, and RGI60-15.04175)"
+        },
+        "raw_fill_value": null,
+        "raw_scale_factor": null,
+        "raw_add_offset": null,
+        "raw_and_decoded_equal_nan": true,
+        "decoded_statistics": {
+          "total_cells": 20010,
+          "valid_cells": 7152,
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0
+        },
+        "finite_on_positive_mask": 7152
+      }
+    },
+    "dem_comparison": {
+      "positive_mask_native_dem_inside_cells": 7152,
+      "positive_mask_native_dem_valid_cells": 7152,
+      "whole_nc_grid_valid_dem_cells": 20010,
+      "whole_grid_local_dem_minus_nc_dem_m": {
+        "total_cells": 20010,
+        "valid_cells": 20010,
+        "min": -231.8212890625,
+        "max": 573.44140625,
+        "mean": -13.532393455505371
+      },
+      "mask_local_dem_minus_nc_dem_m": {
+        "total_cells": 20010,
+        "valid_cells": 7152,
+        "min": -80.49267578125,
+        "max": 109.373046875,
+        "mean": -30.74067497253418
+      },
+      "interpretation": "Differences combine unknown product, date, vertical datum, resolution and interpolation effects; not an accuracy or co-registration validation."
+    }
+  },
+  "landcover_source_grid_coverage": [
+    {
+      "source": "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2020.tif",
+      "metadata": {
+        "crs": "EPSG:4326",
+        "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+        "shape_yx": [
+          3957,
+          6336
+        ],
+        "transform_affine_gdal": [
+          84.45097918618985,
+          0.0002694945852358567,
+          0.0,
+          29.32181935741689,
+          0.0,
+          -0.00026949458523585663
+        ],
+        "bounds_left_bottom_right_top": [
+          84.45097918618985,
+          28.255429283638605,
+          86.15849687824424,
+          29.32181935741689
+        ],
+        "resolution_xy": [
+          0.0002694945852358567,
+          0.00026949458523585663
+        ],
+        "dtype": "uint8",
+        "nodata": 0.0,
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        }
+      },
+      "positive_nc_mask_centres": 7152,
+      "inside_native_extent": 7152,
+      "native_valid_class_samples": 0,
+      "sample_numeric_code_counts": {
+        "0": 7152
+      },
+      "nearest_nc_grid_valid_on_positive_mask": 0
+    },
+    {
+      "source": "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2021.tif",
+      "metadata": {
+        "crs": "EPSG:4326",
+        "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+        "shape_yx": [
+          3957,
+          6336
+        ],
+        "transform_affine_gdal": [
+          84.45097918618985,
+          0.0002694945852358567,
+          0.0,
+          29.32181935741689,
+          0.0,
+          -0.00026949458523585663
+        ],
+        "bounds_left_bottom_right_top": [
+          84.45097918618985,
+          28.255429283638605,
+          86.15849687824424,
+          29.32181935741689
+        ],
+        "resolution_xy": [
+          0.0002694945852358567,
+          0.00026949458523585663
+        ],
+        "dtype": "uint8",
+        "nodata": 0.0,
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        }
+      },
+      "positive_nc_mask_centres": 7152,
+      "inside_native_extent": 7152,
+      "native_valid_class_samples": 0,
+      "sample_numeric_code_counts": {
+        "0": 7152
+      },
+      "nearest_nc_grid_valid_on_positive_mask": 0
+    },
+    {
+      "source": "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2022.tif",
+      "metadata": {
+        "crs": "EPSG:4326",
+        "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+        "shape_yx": [
+          3957,
+          6336
+        ],
+        "transform_affine_gdal": [
+          84.45097918618987,
+          0.00026949458523585647,
+          0.0,
+          29.3218193574169,
+          0.0,
+          -0.00026949458523585636
+        ],
+        "bounds_left_bottom_right_top": [
+          84.45097918618987,
+          28.255429283638616,
+          86.15849687824425,
+          29.3218193574169
+        ],
+        "resolution_xy": [
+          0.00026949458523585647,
+          0.00026949458523585636
+        ],
+        "dtype": "uint8",
+        "nodata": 0.0,
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        }
+      },
+      "positive_nc_mask_centres": 7152,
+      "inside_native_extent": 7152,
+      "native_valid_class_samples": 0,
+      "sample_numeric_code_counts": {
+        "0": 7152
+      },
+      "nearest_nc_grid_valid_on_positive_mask": 0
+    },
+    {
+      "source": "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2023.tif",
+      "metadata": {
+        "crs": "EPSG:4326",
+        "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+        "shape_yx": [
+          3957,
+          6336
+        ],
+        "transform_affine_gdal": [
+          84.45097918618985,
+          0.0002694945852358567,
+          0.0,
+          29.32181935741689,
+          0.0,
+          -0.00026949458523585663
+        ],
+        "bounds_left_bottom_right_top": [
+          84.45097918618985,
+          28.255429283638605,
+          86.15849687824424,
+          29.32181935741689
+        ],
+        "resolution_xy": [
+          0.0002694945852358567,
+          0.00026949458523585663
+        ],
+        "dtype": "uint8",
+        "nodata": 0.0,
+        "tags": {
+          "AREA_OR_POINT": "Area"
+        }
+      },
+      "positive_nc_mask_centres": 7152,
+      "inside_native_extent": 7152,
+      "native_valid_class_samples": 0,
+      "sample_numeric_code_counts": {
+        "0": 7152
+      },
+      "nearest_nc_grid_valid_on_positive_mask": 0
+    }
+  ],
+  "geopackage": {
+    "layers": {
+      "historical_inventory_diagnostic": 84,
+      "population_boundary": 1,
+      "rgi6_near_nc_grid": 8,
+      "coverage_footprints": 4
+    },
+    "planar_geometry": "source Z dropped only in derived copies; all layers EPSG:32645"
+  },
+  "terrain_continuity": {
+    "native_dem_valid_pixels": 2084768,
+    "native_dem_total_pixels": 2084768,
+    "native_dem_internal_invalid_pixels": 0,
+    "full_nc_parameter_grid_covered": true,
+    "nc_positive_mask_covered": true,
+    "verified_port_protection_point": null,
+    "verified_channel_centreline": null,
+    "source_to_port_continuity_verified": false,
+    "reason": "No traceable port target coordinate or verified river path is available to this work package. Full rectangular DEM validity establishes local grid support only, not downstream route coverage or hydrologic correctness.",
+    "required_next_inputs": [
+      "Port protection point with source and positional uncertainty",
+      "Event failure polygon independent of RGI parameter mask",
+      "Source-to-port river centreline and required corridor buffer",
+      "DEM product/date/vertical reference and hydrologic conditioning review"
+    ]
+  },
+  "verification": {
+    "raster_readbacks": [
+      {
+        "file": "dem_on_nc_grid.tif",
+        "readback_ok": true,
+        "crs": "EPSG:32645",
+        "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+        "shape_yx": [
+          138,
+          145
+        ],
+        "transform_affine_gdal": [
+          353442.5,
+          30.0,
+          0.0,
+          3132057.5,
+          0.0,
+          -30.0
+        ],
+        "bounds_left_bottom_right_top": [
+          353442.5,
+          3127917.5,
+          357792.5,
+          3132057.5
+        ],
+        "resolution_xy": [
+          30.0,
+          30.0
+        ],
+        "dtype": "float32",
+        "nodata": -9999.0,
+        "tags": {
+          "policy": "track_b/config/spatial_policy.json",
+          "semantic": "continuous native DEM bilinear to supplied NC parameter grid",
+          "sources": "[\"04_B赛道/07_DEM（2026-08-26）/DEM.tif\", \"04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc\"]",
+          "vertical_datum": "unknown; no vertical transformation",
+          "AREA_OR_POINT": "Area"
+        },
+        "valid_mask_cells": 20010
+      },
+      {
+        "file": "dem_utm45_30m.tif",
+        "readback_ok": true,
+        "crs": "EPSG:32645",
+        "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+        "shape_yx": [
+          1199,
+          1663
+        ],
+        "transform_affine_gdal": [
+          322400.8611877846,
+          30.0,
+          0.0,
+          3161062.2250913926,
+          0.0,
+          -30.0
+        ],
+        "bounds_left_bottom_right_top": [
+          322400.8611877846,
+          3125092.2250913926,
+          372290.8611877846,
+          3161062.2250913926
+        ],
+        "resolution_xy": [
+          30.0,
+          30.0
+        ],
+        "dtype": "float32",
+        "nodata": -9999.0,
+        "tags": {
+          "policy": "track_b/config/spatial_policy.json",
+          "semantic": "continuous elevation; bilinear target sampling 30m; unknown vertical datum",
+          "sources": "[\"04_B赛道/07_DEM（2026-08-26）/DEM.tif\"]",
+          "vertical_datum": "unknown; no vertical transformation",
+          "AREA_OR_POINT": "Area"
+        },
+        "valid_mask_cells": 1940245
+      },
+      {
+        "file": "jilong_LUCD_2020_nc_grid_nearest.tif",
+        "readback_ok": true,
+        "crs": "EPSG:32645",
+        "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+        "shape_yx": [
+          138,
+          145
+        ],
+        "transform_affine_gdal": [
+          353442.5,
+          30.0,
+          0.0,
+          3132057.5,
+          0.0,
+          -30.0
+        ],
+        "bounds_left_bottom_right_top": [
+          353442.5,
+          3127917.5,
+          357792.5,
+          3132057.5
+        ],
+        "resolution_xy": [
+          30.0,
+          30.0
+        ],
+        "dtype": "uint8",
+        "nodata": 0.0,
+        "tags": {
+          "policy": "track_b/config/spatial_policy.json",
+          "semantic": "categorical codes; nearest resampling only; 0=NoData; class legend unverified",
+          "sources": "[\"04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2020.tif\"]",
+          "vertical_datum": "unknown; no vertical transformation",
+          "AREA_OR_POINT": "Area"
+        },
+        "valid_mask_cells": 0
+      },
+      {
+        "file": "jilong_LUCD_2021_nc_grid_nearest.tif",
+        "readback_ok": true,
+        "crs": "EPSG:32645",
+        "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+        "shape_yx": [
+          138,
+          145
+        ],
+        "transform_affine_gdal": [
+          353442.5,
+          30.0,
+          0.0,
+          3132057.5,
+          0.0,
+          -30.0
+        ],
+        "bounds_left_bottom_right_top": [
+          353442.5,
+          3127917.5,
+          357792.5,
+          3132057.5
+        ],
+        "resolution_xy": [
+          30.0,
+          30.0
+        ],
+        "dtype": "uint8",
+        "nodata": 0.0,
+        "tags": {
+          "policy": "track_b/config/spatial_policy.json",
+          "semantic": "categorical codes; nearest resampling only; 0=NoData; class legend unverified",
+          "sources": "[\"04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2021.tif\"]",
+          "vertical_datum": "unknown; no vertical transformation",
+          "AREA_OR_POINT": "Area"
+        },
+        "valid_mask_cells": 0
+      },
+      {
+        "file": "jilong_LUCD_2022_nc_grid_nearest.tif",
+        "readback_ok": true,
+        "crs": "EPSG:32645",
+        "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+        "shape_yx": [
+          138,
+          145
+        ],
+        "transform_affine_gdal": [
+          353442.5,
+          30.0,
+          0.0,
+          3132057.5,
+          0.0,
+          -30.0
+        ],
+        "bounds_left_bottom_right_top": [
+          353442.5,
+          3127917.5,
+          357792.5,
+          3132057.5
+        ],
+        "resolution_xy": [
+          30.0,
+          30.0
+        ],
+        "dtype": "uint8",
+        "nodata": 0.0,
+        "tags": {
+          "policy": "track_b/config/spatial_policy.json",
+          "semantic": "categorical codes; nearest resampling only; 0=NoData; class legend unverified",
+          "sources": "[\"04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2022.tif\"]",
+          "vertical_datum": "unknown; no vertical transformation",
+          "AREA_OR_POINT": "Area"
+        },
+        "valid_mask_cells": 0
+      },
+      {
+        "file": "jilong_LUCD_2023_nc_grid_nearest.tif",
+        "readback_ok": true,
+        "crs": "EPSG:32645",
+        "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+        "shape_yx": [
+          138,
+          145
+        ],
+        "transform_affine_gdal": [
+          353442.5,
+          30.0,
+          0.0,
+          3132057.5,
+          0.0,
+          -30.0
+        ],
+        "bounds_left_bottom_right_top": [
+          353442.5,
+          3127917.5,
+          357792.5,
+          3132057.5
+        ],
+        "resolution_xy": [
+          30.0,
+          30.0
+        ],
+        "dtype": "uint8",
+        "nodata": 0.0,
+        "tags": {
+          "policy": "track_b/config/spatial_policy.json",
+          "semantic": "categorical codes; nearest resampling only; 0=NoData; class legend unverified",
+          "sources": "[\"04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2023.tif\"]",
+          "vertical_datum": "unknown; no vertical transformation",
+          "AREA_OR_POINT": "Area"
+        },
+        "valid_mask_cells": 0
+      },
+      {
+        "file": "nc_dem_native_grid.tif",
+        "readback_ok": true,
+        "crs": "EPSG:32645",
+        "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+        "shape_yx": [
+          138,
+          145
+        ],
+        "transform_affine_gdal": [
+          353442.5,
+          30.0,
+          0.0,
+          3132057.5,
+          0.0,
+          -30.0
+        ],
+        "bounds_left_bottom_right_top": [
+          353442.5,
+          3127917.5,
+          357792.5,
+          3132057.5
+        ],
+        "resolution_xy": [
+          30.0,
+          30.0
+        ],
+        "dtype": "float32",
+        "nodata": null,
+        "tags": {
+          "policy": "track_b/config/spatial_policy.json",
+          "semantic": "continuous elevation exported without resampling; vertical datum unverified",
+          "sources": "[\"04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc\"]",
+          "vertical_datum": "unknown; no vertical transformation",
+          "AREA_OR_POINT": "Area"
+        },
+        "valid_mask_cells": 20010
+      },
+      {
+        "file": "nc_glacier_mask.tif",
+        "readback_ok": true,
+        "crs": "EPSG:32645",
+        "crs_wkt": "PROJCS[\"WGS 84 / UTM zone 45N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",87],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32645\"]]",
+        "shape_yx": [
+          138,
+          145
+        ],
+        "transform_affine_gdal": [
+          353442.5,
+          30.0,
+          0.0,
+          3132057.5,
+          0.0,
+          -30.0
+        ],
+        "bounds_left_bottom_right_top": [
+          353442.5,
+          3127917.5,
+          357792.5,
+          3132057.5
+        ],
+        "resolution_xy": [
+          30.0,
+          30.0
+        ],
+        "dtype": "uint8",
+        "nodata": 0.0,
+        "tags": {
+          "policy": "track_b/config/spatial_policy.json",
+          "semantic": "categorical positive mask exported without resampling; not confirmed event failure boundary",
+          "sources": "[\"04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc\"]",
+          "vertical_datum": "unknown; no vertical transformation",
+          "AREA_OR_POINT": "Area"
+        },
+        "valid_mask_cells": 7152
+      }
+    ],
+    "geopackage_readbacks": {
+      "historical_inventory_diagnostic": {
+        "records": 84,
+        "valid_geometry_count": 84
+      },
+      "population_boundary": {
+        "records": 1,
+        "valid_geometry_count": 1
+      },
+      "rgi6_near_nc_grid": {
+        "records": 8,
+        "valid_geometry_count": 8
+      },
+      "coverage_footprints": {
+        "records": 4,
+        "valid_geometry_count": 4
+      }
+    },
+    "figure_visual_inspection": "Generation alone is not visual verification. See separate visual_review.json when present, and require its recorded figure hash to match the current figure.",
+    "figure_render_repair": {
+      "scope": "Figure boundary/padding only; no spatial analysis rerun or GIS artifact rewrite.",
+      "method": "Same plot block from current prepare_spatial.py executed with existing saved TIFF and GeoPackage layers.",
+      "spatial_artifacts_unchanged": [
+        "dem_on_nc_grid.tif",
+        "dem_utm45_30m.tif",
+        "history_dem_coverage.csv",
+        "jilong_LUCD_2020_nc_grid_nearest.tif",
+        "jilong_LUCD_2021_nc_grid_nearest.tif",
+        "jilong_LUCD_2022_nc_grid_nearest.tif",
+        "jilong_LUCD_2023_nc_grid_nearest.tif",
+        "nc_dem_native_grid.tif",
+        "nc_glacier_mask.tif",
+        "spatial_diagnostic.gpkg"
+      ],
+      "all_spatial_artifact_hashes_match_prior_delivery": true,
+      "script_sha256_before": "a0b26dde01410eedf5e40f0ce6680faf8a64ee034da34b31f62bd805d2e98abd",
+      "script_sha256_after": "bd26dd1beef20d7e2c7f9522d5db5f264c25e00541c8bcd0e8019dfd046f4295",
+      "figure_sha256": "a3729e7498674f54ea104cd09086853e89a0a3dfba9600eda435504f6099f8c6",
+      "visual_review_file": "visual_review.json"
+    }
+  },
+  "coordinate_operations_file": "coordinate_operations.json",
+  "source_integrity_after_run": {
+    "track_b/config/spatial_policy.json": true,
+    "track_b/scripts/prepare_spatial.py": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.cpg": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.dbf": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.prj": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.shp": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/JilongFlood_Buffer_200km.shx": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.cpg": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.dbf": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.prj": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.shp": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V6_JilongFlood_Buffer_200km.shx": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.cpg": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.dbf": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.prj": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.shp": true,
+    "04_B赛道/03_冰川及表面高程变化（2000-2020）/RGI_V7_JilongFlood_Buffer_200km.shx": true,
+    "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.dbf": true,
+    "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.prj": true,
+    "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shp": true,
+    "04_B赛道/06_历史灾点/西藏日喀则市吉隆县泥石流灾害区历史灾点数据.shx": true,
+    "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.cpg": true,
+    "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.dbf": true,
+    "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.prj": true,
+    "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.shp": true,
+    "04_B赛道/08_第七次人口普查/西藏日喀则市吉隆县第七次人口普查数据.shx": true,
+    "04_B赛道/07_DEM（2026-08-26）/DEM.tfw": true,
+    "04_B赛道/07_DEM（2026-08-26）/DEM.tif": true,
+    "04_B赛道/07_DEM（2026-08-26）/DEM.tif.aux.xml": true,
+    "04_B赛道/07_DEM（2026-08-26）/DEM.tif.ovr": true,
+    "04_B赛道/07_DEM（2026-08-26）/DEM.tif.xml": true,
+    "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc": true,
+    "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2020.tif": true,
+    "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2021.tif": true,
+    "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2022.tif": true,
+    "04_B赛道/05_土地覆盖（2020-2023）/jilong_LUCD_2023.tif": true
+  }
+}

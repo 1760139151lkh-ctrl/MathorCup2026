@@ -1,0 +1,82 @@
+[
+  {
+    "file": "daily_monthly_coverage.csv",
+    "bytes": 86885,
+    "sha256": "d811030c9e6fa1801f8b70fec0f912cb8b76d3da71199f78b06366a7b166681f"
+  },
+  {
+    "file": "daily_source_doc_extracted.txt",
+    "bytes": 726,
+    "sha256": "bd91eb69f2b00c86e200b201c2fbb7b4931418f10c5d7da61d7d0e8d3ee8612f"
+  },
+  {
+    "file": "daily_variables.csv",
+    "bytes": 23333,
+    "sha256": "2fbddcbfdb0d92f24b36ebef8df8f6b6af6e53c9fdbb1830eaa0b689691cd3e1"
+  },
+  {
+    "file": "daily_workbooks.csv",
+    "bytes": 5811,
+    "sha256": "28530ef2b4869f536b4a5e6df2a2d19599fc1ddf26b9379d79fa68dca083b6b9"
+  },
+  {
+    "file": "hourly_event_daily_coverage.csv",
+    "bytes": 130635,
+    "sha256": "9f0930311d70405e40afc4f18609d75bb56595ec39713018480966a0f2d81f29"
+  },
+  {
+    "file": "hourly_event_windows.csv",
+    "bytes": 34933,
+    "sha256": "6269035d1cdc40aa0f4764d2e4b690480520bce579ea834aa3ee860799aeb146"
+  },
+  {
+    "file": "hourly_extrema.csv",
+    "bytes": 70101,
+    "sha256": "4a61101bcc61236d63f205e318824c4bc0e0953712a81e006d948b15dd9e62fd"
+  },
+  {
+    "file": "hourly_files.csv",
+    "bytes": 6564,
+    "sha256": "31e1eaae031f18f38928fdc14998a8e793e3929088738b3dbd643609ec83d16d"
+  },
+  {
+    "file": "hourly_missing_runs_ge6h.csv",
+    "bytes": 185508,
+    "sha256": "32fee053589611d980d12c7942edaafd5a37d9a464b98c5dee01dbbe9c2a85eb"
+  },
+  {
+    "file": "hourly_monthly_coverage.csv",
+    "bytes": 301309,
+    "sha256": "68fcd44c74031efa74026ba7d7396a8287281a02f0cee5556631656117cc886d"
+  },
+  {
+    "file": "hourly_qc_distribution.csv",
+    "bytes": 26517,
+    "sha256": "8898be92902099024ce273d99645b4fdfd0df46a3aec0f7d6776e4946ff8c22e"
+  },
+  {
+    "file": "hourly_qc_value_crosstab.csv",
+    "bytes": 80475,
+    "sha256": "481d082b4d4fa5261079b697da8aa02faf5a75c50e02aca2e0a094710d4ccc6a"
+  },
+  {
+    "file": "hourly_variables.csv",
+    "bytes": 74960,
+    "sha256": "a1bc5e2f6f04bc4f13daa2b2268c3fae0048d906c6474ba121476bca6a0eb460"
+  },
+  {
+    "file": "manifest.csv",
+    "bytes": 7146,
+    "sha256": "8314f8040cb4560f73a59717773aac0db7783dd2ee1639665b379d997024062f"
+  },
+  {
+    "file": "quality_overview.png",
+    "bytes": 179214,
+    "sha256": "e2fce3d1b6ee08364df61de607728e9fa79320b4f4715b1df312797c5a24fbe8"
+  },
+  {
+    "file": "summary.json",
+    "bytes": 7875,
+    "sha256": "1ed345048cabe71dc3607735cfdce22da42bb0043351483f2af2532615e8a3d5"
+  }
+]

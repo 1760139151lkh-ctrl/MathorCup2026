@@ -1,0 +1,68 @@
+{
+  "source_url": "https://zgdzzhyfzxb.com/article/doi/10.16031/j.cghc.202610008?viewType=HTML",
+  "doi": "10.16031/j.cghc.202610008",
+  "authors": "殷跃平等",
+  "title": "尼泊尔蓝塘里壤峰‘8·26’冰岩崩致吉隆泥石流灾难研究",
+  "direct_html_http_status": 200,
+  "direct_reading_scope": "Publisher metadata and abstract. Full HTML is dynamically loaded and was not retrieved/checked in this audit.",
+  "browser_search_reading_scope": "Official publisher search extracts: main onset preliminarily inferred using wave speed and epicentral distance; main body reaches the port at approximately 11:00:00. Search extracts only, not verified original waveform/video.",
+  "browser_search_queries": [
+    "\"中尼边境\" \"8·26\" \"演化特征\" 2026",
+    "\"Dynamic Processes and Formation Mechanisms\" \"August 26\" 2026 Yang"
+  ],
+  "cms_metadata_selected": {
+    "doi": "10.16031/j.cghc.202610008",
+    "preprintDate": 1791907200000,
+    "lastUpdateTime": 1792661925000,
+    "releaseProgress": {
+      "articleId": "c03144d5-315b-40d3-88ad-1b54f870096b",
+      "currentState": "四校",
+      "currentStateEn": "",
+      "lastReleaseTime": "2026-10-22 17:38",
+      "maxLastReleaseTime": "2026-10-22 17:38",
+      "minLastReleaseTime": "2026-10-22 17:38",
+      "otherReleaseList": [
+        {
+          "articleId": "c03144d5-315b-40d3-88ad-1b54f870096b",
+          "currentState": "四校",
+          "currentStateEn": "",
+          "lastReleaseTime": "2026-10-22 17:38",
+          "maxLastReleaseTime": "2026-10-22 17:38",
+          "minLastReleaseTime": "2026-10-22 17:38",
+          "otherReleaseList": []
+        },
+        {
+          "articleId": "c03144d5-315b-40d3-88ad-1b54f870096b",
+          "currentState": "三校",
+          "currentStateEn": "",
+          "lastReleaseTime": "2026-10-22 16:56",
+          "maxLastReleaseTime": "2026-10-22 16:56",
+          "minLastReleaseTime": "2026-10-22 16:56",
+          "otherReleaseList": []
+        },
+        {
+          "articleId": "c03144d5-315b-40d3-88ad-1b54f870096b",
+          "currentState": "二校",
+          "currentStateEn": "",
+          "lastReleaseTime": "2026-10-17 12:21",
+          "maxLastReleaseTime": "2026-10-17 12:21",
+          "minLastReleaseTime": "2026-10-17 12:21",
+          "otherReleaseList": []
+        },
+        {
+          "articleId": "c03144d5-315b-40d3-88ad-1b54f870096b",
+          "currentState": "一校",
+          "currentStateEn": "Accepted Manuscript",
+          "lastReleaseTime": "2026-10-14 11:41",
+          "maxLastReleaseTime": "2026-10-14 11:41",
+          "minLastReleaseTime": "2026-10-14 11:41",
+          "otherReleaseList": []
+        }
+      ]
+    },
+    "htmlAccess": true,
+    "pdfAccess": true
+  },
+  "evidence_tier": "candidate_original_publisher_extract; human_fulltext_review_required",
+  "approved_training_label": false
+}

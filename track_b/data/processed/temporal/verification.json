@@ -1,0 +1,129 @@
+{
+  "verification_version": "stage3-e03-v1",
+  "passed": true,
+  "check_count": 18,
+  "checks": [
+    {
+      "check": "stdlib_raw_qc_numeric_counts_match_summary",
+      "passed": true,
+      "detail": {
+        "variables": 63,
+        "fields_per_variable": 13,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "stdlib_raw_numeric_values_match_every_output_cell",
+      "passed": true,
+      "detail": {
+        "cells": 3312792,
+        "mismatches": 0
+      }
+    },
+    {
+      "check": "stdlib_raw_qc_strings_match_every_output_cell",
+      "passed": true,
+      "detail": {
+        "cells": 1945608,
+        "mismatches": 0
+      }
+    },
+    {
+      "check": "qc_categories_partition_every_hourly_cell",
+      "passed": true,
+      "detail": {
+        "cells": 3312792
+      }
+    },
+    {
+      "check": "numeric_presence_equals_finite_minus_sentinel",
+      "passed": true,
+      "detail": {
+        "sentinel": 9999.9
+      }
+    },
+    {
+      "check": "numeric_and_text_missing_states_partition_all_cells",
+      "passed": true,
+      "detail": "non-finite tokens are explicitly retained; unknown malformed values fail processing"
+    },
+    {
+      "check": "text_missing_lexical_records_match_mask",
+      "passed": true,
+      "detail": {
+        "records": 320994,
+        "exact_raw_token_mismatches": 0
+      }
+    },
+    {
+      "check": "strict_mask_equals_present_and_qc0",
+      "passed": true,
+      "detail": "strict allowance is QC0 only"
+    },
+    {
+      "check": "strict_values_equal_retained_raw_values",
+      "passed": true,
+      "detail": "all retained numeric values are unchanged"
+    },
+    {
+      "check": "no_missing_sentinel_in_strict_view",
+      "passed": true,
+      "detail": "full-table check"
+    },
+    {
+      "check": "unknown_qc_never_enters_strict",
+      "passed": true,
+      "detail": {
+        "no_qc_variables": 26
+      }
+    },
+    {
+      "check": "timezone_round_trip",
+      "passed": true,
+      "detail": "UTC+8 is a recorded metadata assumption, not newly proven"
+    },
+    {
+      "check": "display_clock_is_fixed_utc_plus8",
+      "passed": true,
+      "detail": "no host-local timezone used"
+    },
+    {
+      "check": "all_artifacts_keep_full_hourly_shape",
+      "passed": true,
+      "detail": {
+        "rows": 52584,
+        "variables": 63
+      }
+    },
+    {
+      "check": "event_calendar_day_counts_match_raw",
+      "passed": true,
+      "detail": {
+        "variables": 63,
+        "date": "2026-08-26",
+        "mismatches": []
+      }
+    },
+    {
+      "check": "daily_original_numeric_values_and_dates_unchanged",
+      "passed": true,
+      "detail": {
+        "cells": 37595,
+        "reader": "openpyxl independent of pandas read_excel"
+      }
+    },
+    {
+      "check": "input_hashes_unchanged_after_processing",
+      "passed": true,
+      "detail": {
+        "files": 47
+      }
+    },
+    {
+      "check": "phase2_independent_audit_grid_agreement",
+      "passed": true,
+      "detail": "compare full hourly grid, variable total, daily row total with earlier audit"
+    }
+  ],
+  "scope_limit": "does not verify metadata mirror equivalence, physical plausibility, historical availability, daily semantics, or model fitness"
+}
