@@ -1,0 +1,2708 @@
+{
+  "schema_version": "q3-c-paper-audit-v1",
+  "audit_date": "2026-10-24",
+  "purpose": "Only evidence/q3_c_audit.json written; read-only verification of existing no-record-age C code/results; no model refitting or R3 mutation.",
+  "recommended_model_id": "nonlinear_rbf_hazard_no_record_age_raw",
+  "target_definition": "external terminal/main catastrophic failure conditional on selected recorded monitoring exposure; not local source first mechanical movement initiation",
+  "source_files": [
+    {
+      "path": "track_b/docs/19_stage4_round3_review.md",
+      "sha256": "e51db6d006b5471b34ab86f5fd5a802930e5abeeebd171fe002db3b6d5a531bc"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/engine_c.py",
+      "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/common_anchor_comparison.py",
+      "sha256": "32d1d0efa170ff57e347f735f90d780b6d931f75ffa71ccd0e98b1e8b2942083"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/integrate_results.py",
+      "sha256": "bc6404976b94e5b25678471b3d9cf2a3075e006a6c5fd5206bee8eed171fb9f8"
+    },
+    {
+      "path": "track_b/research/q3/round3/EXPERIMENT_PROTOCOL.md",
+      "sha256": "f292f8011f75be4234a3ef15cbb917f6e305dfdfdcaf349988db9a8bd35a5447"
+    },
+    {
+      "path": "track_b/research/q3/round3/COMMON_ANCHOR_PROTOCOL.md",
+      "sha256": "1d41911bead70686c4bca3354d24d750d4fe2298a2f51204efc2ebdae6dc4dfc"
+    },
+    {
+      "path": "track_b/research/q3/round3/SURVIVAL_EVIDENCE.md",
+      "sha256": "61dbee9cef6740b0214b7e0d100ddcbdc742960291711f01e1c2f6fb06a4bf6b"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/site_registry.csv",
+      "sha256": "3414206069197b945d8286d404ff98d17988b00fb16945cef11966d346c80303"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/deformation/metadata_audit.json",
+      "sha256": "ea0a6991efa4c9c30be38855da10e46a95d2809a25b6198daa64a03961a172ed"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/survival/stampa_site_registry.csv",
+      "sha256": "d7c9d8cdb551d8bfdda4bd179c6f86f01f94765f3168c002c238206ed0b4358c"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/stampa_audit.json",
+      "sha256": "7dd09e1baef0c8e7eaa5097f0cc35a07972a3e9ddbcf3e4087b889c7ca5729d9"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/survival_sources.json",
+      "sha256": "bc2d29d2ed2f6938aa7365ffa53761cbb185a6737d7908daa96cf7930d1bf0ca"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/deformation_sources.json",
+      "sha256": "945bd3395a55579d1b3bf739f62709065537f245bcba810bbf0cded43adbf520"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/feature_domain_amendment.json",
+      "sha256": "d58e57c2961c5819691d7608eaf9a63a970fb43bce2a332955631184db6e366b"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/record_age_ablation.csv",
+      "sha256": "41e632f8b3c452289aeaa3b664540711115427925b7907450ac2dbf7273fee73"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/summary.json",
+      "sha256": "93301806b50e51bdc98f04677763ebdb12954598582526adb8f8cd271492b18f"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/exposure_audit.json",
+      "sha256": "2cb6542f72add1c2c3a944fbc17872ed97a4445aadc4737fd54c1baebc404470"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/risk_intervals.csv",
+      "sha256": "08e64b617890eb02d889caf45f8a71058b08a3bce39d09fe21b8d6d84aae83a9"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/fold_membership.csv",
+      "sha256": "1ffd44f023b388194bff709866453b8ff66a006e87465d3fc44cab9497394e92"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/fit_details.json",
+      "sha256": "bcb18a01328ded998e7678f8fcd5ccfca32f048ee963e0b975d6b52062fdfb93"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_predictions.csv",
+      "sha256": "3517d1be4789e5c4d7b1af0f6d16faea4ba17969998a3089de85be9a34896ed6"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+      "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/evaluation.csv",
+      "sha256": "db28306a65c17dedd5a27efa82a633273241bc733b6260e19201c19faad0e4c9"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/evaluation_by_site.csv",
+      "sha256": "4c320ee1f3a68a4f65970ee2a335e7711bc02e069dd5c729c6703d0c6b1ead01"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/summary.json",
+      "sha256": "ac1bfcb3939a1b821c4dfa7999c6219fb70aba6b79f7b98df5ab696690d20995"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/fit_details.json",
+      "sha256": "a22a20f4838149a23849fef21025ace194c96b3d1682e2a33e441d1a10a1530d"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/anchor_predictions.csv",
+      "sha256": "7bbf844c842be2927516f28be4a46617fe235314ef8bf8234ceded2bbc58c751"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/anchor_evaluation.csv",
+      "sha256": "1595ddb4a1926e6f6ab92cb1c71499bb2f83dbc6d04babbb50088d9aaaf75c2d"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/grid_anchor_sensitivity.csv",
+      "sha256": "f61636b65b9b4a61a97f6e6e4b63553dea33f17552852b06f5db14e46b8068e1"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/grid_likelihood_sensitivity.csv",
+      "sha256": "200b7f50d09cd01f65bb299e6ccdd910c9e48300e7dc556b8728fa8939924c5e"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/common_anchors_no_age/predictions.csv",
+      "sha256": "a81949c0ba24c2c0ba5bb8bdf0dd58eab7bc5b6813c166c64887bfffebb11344"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/common_anchors_no_age/evaluation.csv",
+      "sha256": "eed91a516b92d26e54239efbd4d5b830c79f792781bc6f3e922424ec1ac5c222"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/common_anchors_no_age/paired_valid_scores.csv",
+      "sha256": "614327625b35e6318fa4ee5445d106d56a2579288156398f5731021589fb6564"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/common_anchors_no_age/validation.json",
+      "sha256": "ee6b7ee756ad2d4f824c1e89b520e7d13d222bad633464932ef5ec7848258416"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/paired_model_comparison.csv",
+      "sha256": "51d7f7541867a61ee43b1a47d699a4825cf45dfd7bbe60808ab2d7ce034796f7"
+    }
+  ],
+  "formula_tex_suggestions": [
+    {
+      "formula_id": "q3-c-feature",
+      "name": "两维过去信息特征",
+      "tex": "v_j=|\\operatorname{OLSslope}\\{(s_k,d_k):k=j-5,\\ldots,j\\}|,\\quad b_j=\\operatorname{median}\\left\\{\\frac{|d_k-d_{k-1}|}{s_k-s_{k-1}}:k=\\max(0,j-63)+1,\\ldots,j\\right\\},\\quad \\epsilon_j=\\max(10^{-6}b_j,10^{-12}),\\quad x_j=\\operatorname{clip}_{[-12,12]}\\left(\\log\\frac{v_j+\\epsilon_j}{b_j+\\epsilon_j},\\;\\log\\frac{v_j+\\epsilon_j}{c_j+\\epsilon_j}\\right).",
+      "definition": "b uses consecutive differences among the last <=64 observed signal values; c is median of velocity[-11:-5] (six prior increments), or b when fewer than11 increments. Start at j>=5; only observations <=j are used. d may be displacement or angular tilt, hence call it a monitoring deformation signal, not uniformly metric translation.",
+      "unit": "x dimensionless; time h; slope units of signal/h",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/scripts/engine_c.py",
+          "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+        }
+      ],
+      "previous_rate_tex": "c_j=\\operatorname{median}\\left\\{\\frac{|d_k-d_{k-1}|}{s_k-s_{k-1}}:k=j-10,\\ldots,j-5\\right\\}\\quad\\text{if at least11 increments are available; otherwise }c_j=b_j."
+    },
+    {
+      "formula_id": "q3-c-standardize",
+      "name": "训练折中位数/IQR标准化",
+      "tex": "z_m=\\operatorname{clip}_{[-6,6]}\\left(\\frac{x_m-\\operatorname{median}_{\\mathrm{train}}x_m}{\\max(\\operatorname{IQR}_{\\mathrm{train}}x_m,0.25)}\\right).",
+      "definition": "Fit median/IQR on training likelihood rows only, repeated for inner folds; not exposure-weighted and not estimated using the held-out group.",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/scripts/engine_c.py",
+          "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+        }
+      ]
+    },
+    {
+      "formula_id": "q3-c-hazard",
+      "name": "线性与固定RBF风险",
+      "tex": "\\eta_{\\rm lin}=\\beta_0+\\beta_1z_1+\\beta_2z_2,\\qquad \\eta_{\\rm RBF}=\\eta_{\\rm lin}+\\sum_{k\\in\\{-1,0,1\\}}\\sum_{m=1}^2 a_{km}e^{-(z_m-k)^2/2}+b z_1z_2,\\qquad \\lambda_\\theta=\\exp\\{\\operatorname{clip}_{[-35,20]}(\\eta)\\}.",
+      "definition": "Linear basis has3 coefficients; no-age RBF has10. Gaussian centres -1,0,1 and standardized width1 are fixed. Risk is piecewise constant between integration nodes with covariates from the latest observed state at each left endpoint. There is no separately fitted arbitrary baseline hazard and no elapsed-record-age feature.",
+      "unit": "hazard h^-1",
+      "reference_keys": [
+        "q3-friedman1982"
+      ],
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/scripts/engine_c.py",
+          "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+        }
+      ]
+    },
+    {
+      "formula_id": "q3-c-likelihood",
+      "name": "含区间失稳和右删失的条件似然",
+      "tex": "\\Lambda_i(u)=\\int_{a_i}^{u}\\lambda_i(s)\\,\\mathrm ds,\\qquad \\mathcal L_i=\\begin{cases}e^{-\\Lambda_i(L_i)}[1-e^{-\\lambda_i(L_i)(U_i-L_i)}],&\\Xi_i\\in(L_i,U_i],\\\\ e^{-\\Lambda_i(C_i)},&\\Xi_i>C_i,\\\\ \\lambda_i(\\Xi_i)e^{-\\Lambda_i(\\Xi_i)},&\\text{exact }\\Xi_i.\\end{cases}",
+      "definition": "a_i is the sixth observed signal time (feature warmup), conditional on surviving in the selected record. For interval labels, only observations <=lower endpoint enter predictors; the last observed state is frozen over the uncertain label interval. All13 main event rows are interval labels; exact-event branch is available in code but unused here.",
+      "unit": "time h; likelihood dimensionless; density for exact time h^-1",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/scripts/engine_c.py",
+          "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+        }
+      ]
+    },
+    {
+      "formula_id": "q3-c-penalty",
+      "name": "训练目标与正则选择",
+      "tex": "\\widehat\\theta=\\arg\\min_\\theta\\left\\{-\\sum_i\\log\\mathcal L_i+\\frac{0.001}{2}(\\beta_0-b_0)^2+\\frac{\\kappa}{2}\\sum_{\\ell>0}\\theta_\\ell^2\\right\\},\\quad b_0=\\log\\frac{N_e+0.5}{E+1},\\quad \\kappa\\in\\{0.1,1,10\\}.",
+      "definition": "E is the sum of model likelihood-interval widths in hours (including uncertain event-interval width), not guaranteed observed survival hours; N_e is training event count. Objective sums likelihood contributions; inner validation ranks the mean of complete held-group NLLs. Tie in tuning favours larger penalty. b0 is a fixed weak intercept-centre based on that training fold.",
+      "unit": "NLL nat; kappa dimensionless numerical regularization",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/scripts/engine_c.py",
+          "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+        }
+      ]
+    },
+    {
+      "formula_id": "q3-c-crossfit-scale",
+      "name": "训练侧乘性风险校准挑战",
+      "tex": "\\widehat\\gamma=\\arg\\min_{\\gamma\\in[-6,6]}\\left\\{\\sum_{g\\in\\mathrm{train}}\\ell_g(e^\\gamma\\widehat\\lambda_{-g})+0.05\\gamma^2\\right\\},\\qquad \\lambda_{\\rm scaled}=e^{\\widehat\\gamma}\\lambda_{\\rm raw}.",
+      "definition": "Each training group receives predictions from a model fitted without it; final rate scale is selected from those training-side cross-fit predictions. This is not an independent conformal calibration set.",
+      "unit": "scale dimensionless",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/scripts/engine_c.py",
+          "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+        }
+      ]
+    },
+    {
+      "formula_id": "q3-c-probability",
+      "name": "冻结协变量的24/48/72h概率",
+      "tex": "p_H(s)=1-e^{-\\lambda_sH},\\qquad p_{\\rm no}(s)=e^{-\\lambda_sH},\\qquad H\\in\\{24,48,72\\}\\,\\mathrm{h}.",
+      "definition": "Freeze the issue-time covariates and fitted risk over the forecast horizon; future measured covariates are not supplied. Event is external terminal/main catastrophic failure, not the local first mechanical movement initiation. Probabilities are conditional on this selected case/exposure design.",
+      "unit": "probabilities dimensionless",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/scripts/engine_c.py",
+          "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+        }
+      ]
+    },
+    {
+      "formula_id": "q3-c-conditional95",
+      "name": "模型内条件时间分位",
+      "tex": "F_H(u\\mid0<\\Xi_i-s\\le H)=\\frac{1-e^{-\\lambda_su}}{1-e^{-\\lambda_sH}},\\quad Q_q=-\\frac{\\log\\{1-q(1-e^{-\\lambda_sH})\\}}{\\lambda_s},\\quad I_{0.95}=[Q_{0.025},Q_{0.975}].",
+      "definition": "Finite central95% interval conditional on failure occurring within H under the fitted frozen-covariate exponential distribution. It does not integrate parameter/model uncertainty or supply distribution-free95% coverage. For finite positive risk Q_.975<H; as risk tends to0 the conditional distribution approaches Uniform(0,H).",
+      "unit": "u,Q,I in h after issue",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/scripts/engine_c.py",
+          "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+        }
+      ]
+    },
+    {
+      "formula_id": "q3-c-outcome",
+      "name": "可判结局与Brier",
+      "tex": "y_{i,H}=\\begin{cases}1,&U_i\\le s_i+H,\\\\0,&s_i+H<L_i\\ \\text{or verified censor followup reaches }s_i+H,\\\\\\mathrm{unknown},&\\text{otherwise},\\end{cases}\\qquad \\mathrm{BS}_{\\mathcal K}=|\\mathcal K|^{-1}\\sum_{i\\in\\mathcal K}(p_{i,H}-y_{i,H})^2.",
+      "definition": "Risk issues occur before the event lower endpoint. Do not label unknown after censor followup as a non-event. One retained fixed anchor per physical group gives group-equal scores. Unknown-label bounds use min/max of p^2,(1-p)^2 and average only rows with an issued probability; no probability is invented for abstention.",
+      "unit": "Brier dimensionless; lower is better",
+      "reference_keys": [
+        "q3-graf1999"
+      ],
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/scripts/engine_c.py",
+          "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+        },
+        {
+          "path": "track_b/research/q3/round3/scripts/common_anchor_comparison.py",
+          "sha256": "32d1d0efa170ff57e347f735f90d780b6d931f75ffa71ccd0e98b1e8b2942083"
+        }
+      ]
+    },
+    {
+      "formula_id": "q3-c-conformal-rank",
+      "name": "95%共形秩的实际样本约束",
+      "tex": "k=\\lceil(n_{\\rm cal}+1)(1-\\alpha)\\rceil,\\quad\\alpha=0.05;\\qquad n_{\\rm cal}^{\\max}=13:\\ k=\\lceil14\\cdot0.95\\rceil=14>13\\Rightarrow\\widehat q=+\\infty.\\quad n_{\\rm cal}<19\\Rightarrow k>n_{\\rm cal}.",
+      "definition": "The actual independently reserved calibration-set size is0. Code stores13 only as an upper bound from outer training group count, not13 independent calibration scores. All28 fits record rank14 and unbounded_insufficient_groups; no conformal scores/endpoints were calculated. Even the optimistic13-group bound cannot give a nontrivial finite split-conformal95% score quantile. Necessary minimum for a finite empirical95% rank is19 independent calibration groups, in addition to exchangeability and a proper calibration design.",
+      "reference_keys": [
+        "q3-angelopoulos2021"
+      ],
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/scripts/engine_c.py",
+          "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+        },
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/fit_details.json",
+          "sha256": "bcb18a01328ded998e7678f8fcd5ccfca32f048ee963e0b975d6b52062fdfb93"
+        }
+      ]
+    }
+  ],
+  "dataset_and_exposure": {
+    "physical_groups": 14,
+    "failure_groups": 13,
+    "right_censored_groups": 1,
+    "failure_group_names": [
+      "Agoyama",
+      "Arvigo",
+      "Brienz_Insel",
+      "Galterengraben",
+      "Grabengufer",
+      "Hogarth",
+      "Kagemori",
+      "La_Saxe",
+      "Nevis_Bluff",
+      "Ohto",
+      "Preonzo",
+      "Ryan_and_Call_slope_2",
+      "Weissmiess"
+    ],
+    "right_censored_group_names": [
+      "Stampa_rocksection4a"
+    ],
+    "PFTF_failure_groups_used": 12,
+    "Brienz_failure_groups_added": 1,
+    "selected_sensor_policy": "one lexicographically first sensor per physical group; multiple sensors do not expand event count",
+    "excluded_from_C": [
+      {
+        "event_group": "Veslemannen",
+        "selected_site_id": "Veslemannen__Pts_01",
+        "candidate_sensors": [
+          "Veslemannen__Pts_01"
+        ],
+        "selection": "lexicographic_sensor_predefined_not_best_forecast",
+        "observations": 7333,
+        "status": "excluded",
+        "reason": "unresolved_curator_clock_alignment_primary_evaluation_ineligible"
+      }
+    ],
+    "guaranteed_survival_exposure_hours": 56381.84055555558,
+    "interval_label_width_hours": 144.34999998659893,
+    "upper_followup_span_hours_including_interval_label_width": 56526.19055554218,
+    "do_not_call_upper_span_all_known_survival": true,
+    "likelihood_rows_512": 3878,
+    "survival_rows": 3865,
+    "interval_event_rows": 13,
+    "exact_event_rows": 0,
+    "Stampa": {
+      "physical_groups": 1,
+      "selected_sensor": "Block4a",
+      "same_chain_sensor_not_independent": "Base",
+      "daily_rows": 725,
+      "finite_block4a_rows": 725,
+      "first_date": "2020-12-03",
+      "last_date": "2022-11-27",
+      "relative_span_hours": 17376.0,
+      "source_csv_sha256": "c11d1589f6ffe7971577844481792837bb58826fd2fc33d04a483e222c774ba5",
+      "catastrophic_failure_not_within_record": "article documents collapse in July2023, after November2022 record end",
+      "first_mechanical_initiation": "already moving; label not supplied; external collapse phase only",
+      "data_licence": "repository MIT software licence does not independently establish third_party_measurement_data_licence",
+      "weather_columns": "retained only in raw cache; not survival predictors; soil_moisture and infiltration are HBV-model outputs"
+    },
+    "source_files": [
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/summary.json",
+        "sha256": "93301806b50e51bdc98f04677763ebdb12954598582526adb8f8cd271492b18f"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/exposure_audit.json",
+        "sha256": "2cb6542f72add1c2c3a944fbc17872ed97a4445aadc4737fd54c1baebc404470"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/risk_intervals.csv",
+        "sha256": "08e64b617890eb02d889caf45f8a71058b08a3bce39d09fe21b8d6d84aae83a9"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/stampa_audit.json",
+        "sha256": "7dd09e1baef0c8e7eaa5097f0cc35a07972a3e9ddbcf3e4087b889c7ca5729d9"
+      }
+    ]
+  },
+  "fitting_protocol": {
+    "outer_physical_group_folds": 14,
+    "heldout_groups_per_fold": 1,
+    "training_groups_per_fold": 13,
+    "fold_membership_rows": 196,
+    "fit_records": 28,
+    "model_bases": {
+      "linear": 3,
+      "RBF_no_record_age": 10
+    },
+    "penalty_candidates": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "inner_selection": "leave-one-training-physical-group-out; mean complete-group NLL; training-only preprocess in every inner fit",
+    "linear_selected_penalty_counts": {
+      "10": 14
+    },
+    "RBF_selected_penalty_counts": {
+      "0.1": 12,
+      "10": 2
+    },
+    "fit_successes": 28,
+    "fold_specific_parameters": [
+      {
+        "fold_id": "C_LOSO_Agoyama",
+        "held_group": "Agoyama",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.003825057648411396,
+          0.00023949522609052583
+        ],
+        "scale": [
+          1.1710247780152812,
+          1.0441071400275093
+        ],
+        "coefficients": [
+          -8.61609584896113,
+          0.20582840567168442,
+          0.00466435678520116
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 1056.0,
+        "rate_calibration_scale": 0.6819804443267466,
+        "heldout_survival_nll_raw": 5.14778615245163,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Agoyama",
+        "held_group": "Agoyama",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.003825057648411396,
+          0.00023949522609052583
+        ],
+        "scale": [
+          1.1710247780152812,
+          1.0441071400275093
+        ],
+        "coefficients": [
+          -8.132761754731707,
+          -0.07281275889238933,
+          0.24077955241088728,
+          -2.0724606029825816,
+          -1.5302176537565177,
+          -2.134937518820434,
+          -0.36702795262399945,
+          -0.7899865010025713,
+          4.470796750375857,
+          -0.07300757871514728
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 1056.0,
+        "rate_calibration_scale": 0.7226396973966709,
+        "heldout_survival_nll_raw": 2.8261645267475104,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Arvigo",
+        "held_group": "Arvigo",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.005732113777338701,
+          0.00023949522609052583
+        ],
+        "scale": [
+          1.185868552349139,
+          1.0526740633803737
+        ],
+        "coefficients": [
+          -8.58255246312339,
+          0.1748129030109687,
+          0.028580584957334176
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 1667.50833333,
+        "rate_calibration_scale": 0.6931134377721557,
+        "heldout_survival_nll_raw": 12.352505071723453,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Arvigo",
+        "held_group": "Arvigo",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.005732113777338701,
+          0.00023949522609052583
+        ],
+        "scale": [
+          1.185868552349139,
+          1.0526740633803737
+        ],
+        "coefficients": [
+          -7.906524227203386,
+          -0.09919909951717802,
+          0.26287663894889746,
+          -1.9922308943582683,
+          -1.3790739520476778,
+          -2.359145019211802,
+          -0.6518394915627803,
+          -0.4500862407597812,
+          4.246417357520011,
+          -0.07719587282992471
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 1667.50833333,
+        "rate_calibration_scale": 0.753931351545738,
+        "heldout_survival_nll_raw": 9.399012797151356,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Brienz_Insel",
+        "held_group": "Brienz_Insel",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.0019143577063423592,
+          6.661338147750917e-15
+        ],
+        "scale": [
+          1.652138713007121,
+          1.4072420454688466
+        ],
+        "coefficients": [
+          -8.491312553852548,
+          0.1391750021621324,
+          0.011662319436362825
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 3969.68333333,
+        "rate_calibration_scale": 0.6815166820634736,
+        "heldout_survival_nll_raw": 10.533704424564512,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Brienz_Insel",
+        "held_group": "Brienz_Insel",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.0019143577063423592,
+          6.661338147750917e-15
+        ],
+        "scale": [
+          1.652138713007121,
+          1.4072420454688466
+        ],
+        "coefficients": [
+          -7.5477649094522175,
+          -0.41967362506170486,
+          0.41280421345877283,
+          -2.699621765602609,
+          -1.4307330752780107,
+          -3.5007028567092515,
+          1.150718066769082,
+          -0.6530219773588962,
+          4.341288311587485,
+          -0.08685666120679271
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 3969.68333333,
+        "rate_calibration_scale": 0.7835341381918786,
+        "heldout_survival_nll_raw": 7.343749194359953,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Galterengraben",
+        "held_group": "Galterengraben",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.028095769067005824,
+          -0.043001122898313274
+        ],
+        "scale": [
+          1.306422435821721,
+          1.1750396524443076
+        ],
+        "coefficients": [
+          -8.529747869276513,
+          0.2173334947594832,
+          0.026885899770715437
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4318.75833333,
+        "rate_calibration_scale": 0.0033246929600914484,
+        "heldout_survival_nll_raw": 13.946103679626969,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Galterengraben",
+        "held_group": "Galterengraben",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.028095769067005824,
+          -0.043001122898313274
+        ],
+        "scale": [
+          1.306422435821721,
+          1.1750396524443076
+        ],
+        "coefficients": [
+          -8.214121433392334,
+          0.2579757658623657,
+          0.3119281137096099,
+          -0.290564508872483,
+          -0.29612541360963857,
+          -0.29156227480447666,
+          -0.08507162342424826,
+          0.15723200077881702,
+          0.3875032332420914,
+          -0.09085770039036312
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4318.75833333,
+        "rate_calibration_scale": 0.002478752176714009,
+        "heldout_survival_nll_raw": 12.711543655288969,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Grabengufer",
+        "held_group": "Grabengufer",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.07842161585665958,
+          0.0023923750609270936
+        ],
+        "scale": [
+          0.9723189003238702,
+          0.6958677764941199
+        ],
+        "coefficients": [
+          -8.648887008304344,
+          0.2043374848302407,
+          0.06012292505275401
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 3283.1058333344436,
+        "rate_calibration_scale": 0.5683718128900133,
+        "heldout_survival_nll_raw": 12.740829995768681,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Grabengufer",
+        "held_group": "Grabengufer",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.07842161585665958,
+          0.0023923750609270936
+        ],
+        "scale": [
+          0.9723189003238702,
+          0.6958677764941199
+        ],
+        "coefficients": [
+          -7.294993825513719,
+          0.003296413335877061,
+          0.2601265516744651,
+          -1.8497273968803596,
+          -1.0448404586401014,
+          -1.7082745580369936,
+          -1.9155542354643895,
+          -0.9236465667228029,
+          3.5975242557498315,
+          -0.06766252006931704
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 3283.1058333344436,
+        "rate_calibration_scale": 0.6369973573222083,
+        "heldout_survival_nll_raw": 10.44351861673969,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Hogarth",
+        "held_group": "Hogarth",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.004779040320691129,
+          0.00023949522609052583
+        ],
+        "scale": [
+          1.1513552986808968,
+          1.036210260504336
+        ],
+        "coefficients": [
+          -8.562855341378263,
+          0.20357397418320367,
+          0.007314571265190587
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4224.0,
+        "rate_calibration_scale": 0.665528369658016,
+        "heldout_survival_nll_raw": 5.805911317582502,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Hogarth",
+        "held_group": "Hogarth",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.004779040320691129,
+          0.00023949522609052583
+        ],
+        "scale": [
+          1.1513552986808968,
+          1.036210260504336
+        ],
+        "coefficients": [
+          -7.8352568670779785,
+          -0.11612235480696396,
+          0.2564583532449624,
+          -2.03244350303862,
+          -1.389139207085474,
+          -2.700683420277882,
+          -0.5032913372379744,
+          -0.6844332182553333,
+          4.7158172916428285,
+          -0.0737653286841595
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4224.0,
+        "rate_calibration_scale": 0.715809433029543,
+        "heldout_survival_nll_raw": 6.674308722210605,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Kagemori",
+        "held_group": "Kagemori",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.003825057648411396,
+          0.0002137595551443716
+        ],
+        "scale": [
+          1.1848697694873902,
+          1.044656589325508
+        ],
+        "coefficients": [
+          -8.57006906714533,
+          0.2022836007684498,
+          0.011254062424479414
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4224.0,
+        "rate_calibration_scale": 0.6548251568517086,
+        "heldout_survival_nll_raw": 5.960998819226187,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Kagemori",
+        "held_group": "Kagemori",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.003825057648411396,
+          0.0002137595551443716
+        ],
+        "scale": [
+          1.1848697694873902,
+          1.044656589325508
+        ],
+        "coefficients": [
+          -7.741295987094931,
+          -0.08862425562238532,
+          0.257497629038727,
+          -2.018172401947908,
+          -1.4376044690228436,
+          -1.8755725466762607,
+          -0.9220800614562913,
+          -1.396503246297221,
+          4.7144357522933795,
+          -0.07935195310778322
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4224.0,
+        "rate_calibration_scale": 0.7549806766524462,
+        "heldout_survival_nll_raw": 4.627927453406716,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_La_Saxe",
+        "held_group": "La_Saxe",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.0007183136730362134,
+          -0.011264356323230428
+        ],
+        "scale": [
+          1.0291647216771564,
+          1.0281229364089561
+        ],
+        "coefficients": [
+          -8.673366150320362,
+          0.43206819599290264,
+          -0.025088918709870362
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4314.88472222111,
+        "rate_calibration_scale": 0.006181879342216354,
+        "heldout_survival_nll_raw": 20.08824940878482,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_La_Saxe",
+        "held_group": "La_Saxe",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.0007183136730362134,
+          -0.011264356323230428
+        ],
+        "scale": [
+          1.0291647216771564,
+          1.0281229364089561
+        ],
+        "coefficients": [
+          -8.282934087282781,
+          0.42752663959548703,
+          0.40001179854496466,
+          -0.28177567792823527,
+          -0.29675221331511586,
+          -0.36859270408965494,
+          -0.10929108616923294,
+          -0.006645316842385815,
+          0.4152342243725115,
+          -0.10103381057791297
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4314.88472222111,
+        "rate_calibration_scale": 0.002478752176714009,
+        "heldout_survival_nll_raw": 19.479837128404796,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Nevis_Bluff",
+        "held_group": "Nevis_Bluff",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.0023923750609270936,
+          4.218847493575586e-15
+        ],
+        "scale": [
+          1.2391911888403127,
+          1.1402741964062801
+        ],
+        "coefficients": [
+          -8.561698522349847,
+          0.20662591748209447,
+          -0.0010382480426495842
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4224.0,
+        "rate_calibration_scale": 0.6588387454174371,
+        "heldout_survival_nll_raw": 6.102237347656025,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Nevis_Bluff",
+        "held_group": "Nevis_Bluff",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.0023923750609270936,
+          4.218847493575586e-15
+        ],
+        "scale": [
+          1.2391911888403127,
+          1.1402741964062801
+        ],
+        "coefficients": [
+          -7.929553052095155,
+          -0.13452640088515752,
+          0.26545368984391704,
+          -2.035699249982978,
+          -1.6467102921525905,
+          -2.477263860560615,
+          -0.39758205547011677,
+          -1.1682259216058986,
+          4.858334363093924,
+          -0.0786886323677747
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4224.0,
+        "rate_calibration_scale": 0.7635900251134566,
+        "heldout_survival_nll_raw": 6.000875851912908,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Ohto",
+        "held_group": "Ohto",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.004779040320691129,
+          0.00023949522609052583
+        ],
+        "scale": [
+          1.1995850258048153,
+          1.0538156919777564
+        ],
+        "coefficients": [
+          -8.581195612308418,
+          0.18782338310968397,
+          0.011812085879449248
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 2040.0,
+        "rate_calibration_scale": 0.6850115295875755,
+        "heldout_survival_nll_raw": 5.216433241954019,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Ohto",
+        "held_group": "Ohto",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.004779040320691129,
+          0.00023949522609052583
+        ],
+        "scale": [
+          1.1995850258048153,
+          1.0538156919777564
+        ],
+        "coefficients": [
+          -8.101128063160752,
+          -0.08572475727841194,
+          0.25197785571405756,
+          -1.9614036820070246,
+          -1.4278038246348237,
+          -2.2733500611156163,
+          -0.6531458320775647,
+          -0.5571924703517191,
+          4.563770888431176,
+          -0.07738677592802624
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 2040.0,
+        "rate_calibration_scale": 0.7414226232388504,
+        "heldout_survival_nll_raw": 3.2628222052239924,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Preonzo",
+        "held_group": "Preonzo",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.028813612140035624,
+          0.0007183136730362134
+        ],
+        "scale": [
+          1.2851562284219498,
+          1.0406074667797105
+        ],
+        "coefficients": [
+          -8.534446936907788,
+          0.16874579781941457,
+          0.028508682146768313
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4314.25833333,
+        "rate_calibration_scale": 0.658149682768205,
+        "heldout_survival_nll_raw": 13.155074334043494,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Preonzo",
+        "held_group": "Preonzo",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.028813612140035624,
+          0.0007183136730362134
+        ],
+        "scale": [
+          1.2851562284219498,
+          1.0406074667797105
+        ],
+        "coefficients": [
+          -7.490186918788355,
+          -0.16518445669303966,
+          0.2965365039097414,
+          -2.4741329661768408,
+          -1.3853945797238794,
+          -2.0374281304470823,
+          -0.5362644687641063,
+          -1.2674465343754933,
+          4.463465528987186,
+          -0.0824387021058866
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 4314.25833333,
+        "rate_calibration_scale": 0.7508978698659727,
+        "heldout_survival_nll_raw": 10.196147246456894,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Ryan_and_Call_slope_2",
+        "held_group": "Ryan_and_Call_slope_2",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.005732113777338701,
+          0.0003351205295404785
+        ],
+        "scale": [
+          1.176763287078732,
+          1.05265578812288
+        ],
+        "coefficients": [
+          -8.604116602040323,
+          0.20183608759503185,
+          0.009754485968518077
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 1584.0,
+        "rate_calibration_scale": 0.6805832983362752,
+        "heldout_survival_nll_raw": 5.280229937508183,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Ryan_and_Call_slope_2",
+        "held_group": "Ryan_and_Call_slope_2",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.005732113777338701,
+          0.0003351205295404785
+        ],
+        "scale": [
+          1.176763287078732,
+          1.05265578812288
+        ],
+        "coefficients": [
+          -7.954346264011238,
+          -0.0963873444270247,
+          0.25700545569059463,
+          -2.1680796955045976,
+          -1.4824134487967793,
+          -2.432328941059932,
+          -0.21302312870059972,
+          -0.6487507885499998,
+          4.323310850801584,
+          -0.07533052161894666
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 1584.0,
+        "rate_calibration_scale": 0.6457160412325192,
+        "heldout_survival_nll_raw": 3.58929726244872,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Stampa_rocksection4a",
+        "held_group": "Stampa_rocksection4a",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.03738749537498026,
+          0.000957636948779819
+        ],
+        "scale": [
+          1.1630534294093833,
+          0.9371108229561498
+        ],
+        "coefficients": [
+          -8.18306268399616,
+          0.14012523787418504,
+          0.017414868880172154
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 13,
+        "test_failure_groups": 0,
+        "test_exposure_hours": 17256.0,
+        "rate_calibration_scale": 0.6581091593061001,
+        "heldout_survival_nll_raw": 4.3754189267882735,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Stampa_rocksection4a",
+        "held_group": "Stampa_rocksection4a",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.03738749537498026,
+          0.000957636948779819
+        ],
+        "scale": [
+          1.1630534294093833,
+          0.9371108229561498
+        ],
+        "coefficients": [
+          -7.444762118734835,
+          -0.10134520281603317,
+          0.20580791849253172,
+          -2.1761302380837666,
+          -1.3742344157282715,
+          -1.589036067915874,
+          -1.2595120025949256,
+          -0.9809451971468631,
+          4.420973046365134,
+          -0.06870203339872552
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 13,
+        "test_failure_groups": 0,
+        "test_exposure_hours": 17256.0,
+        "rate_calibration_scale": 0.7229398140380434,
+        "heldout_survival_nll_raw": 2.2405763748392,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Weissmiess",
+        "held_group": "Weissmiess",
+        "model_id": "linear_dynamic_hazard",
+        "selected_penalty": 10.0,
+        "center": [
+          0.004779040320691129,
+          0.00023949522609052583
+        ],
+        "scale": [
+          1.1848090061006524,
+          1.0581084221405
+        ],
+        "coefficients": [
+          -8.658124458505936,
+          0.2217759010424623,
+          0.0037003645565954553
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 49.991666666629996,
+        "rate_calibration_scale": 0.6735768268191679,
+        "heldout_survival_nll_raw": 12.59386665368937,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      },
+      {
+        "fold_id": "C_LOSO_Weissmiess",
+        "held_group": "Weissmiess",
+        "model_id": "nonlinear_rbf_hazard",
+        "selected_penalty": 0.1,
+        "center": [
+          0.004779040320691129,
+          0.00023949522609052583
+        ],
+        "scale": [
+          1.1848090061006524,
+          1.0581084221405
+        ],
+        "coefficients": [
+          -7.8157605283509985,
+          -0.08968305556776558,
+          0.25792433527002506,
+          -1.9428674533434462,
+          -1.4196835900812168,
+          -2.3993919437061955,
+          -0.8188548990615074,
+          -1.158228025503977,
+          4.707115563722814,
+          -0.07880275157361558
+        ],
+        "optimizer_success": true,
+        "training_failure_groups": 12,
+        "test_failure_groups": 1,
+        "test_exposure_hours": 49.991666666629996,
+        "rate_calibration_scale": 0.7700531084568457,
+        "heldout_survival_nll_raw": 12.274588042399085,
+        "conformal_calibration_groups_upper_bound": 13,
+        "conformal_95_rank": 14,
+        "conformal_95_status": "unbounded_insufficient_groups"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "track_b/research/q3/round3/scripts/engine_c.py",
+        "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/fold_membership.csv",
+        "sha256": "1ffd44f023b388194bff709866453b8ff66a006e87465d3fc44cab9497394e92"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/fit_details.json",
+        "sha256": "bcb18a01328ded998e7678f8fcd5ccfca32f048ee963e0b975d6b52062fdfb93"
+      }
+    ]
+  },
+  "publication_and_result_scales": {
+    "main_no_age_is_anchors_only": true,
+    "raw_predictions": 1608,
+    "selected_issue_times_over_all_physical_groups": 67,
+    "horizons_per_issue": 6,
+    "model_branches": 4,
+    "explanation": "1608=67 selected issues x6 horizon specifications x4 branches. Three common24/48/72h and three native median-step multiples1/3/7 are output at selected issue times; this is not the complete no-age native/hourly rolling time series.",
+    "latest_fixed_anchor_rows_common_H": 164,
+    "latest_fixed_anchor_rows_per_model": 41,
+    "common_comparison_rows_with_B": 252,
+    "common_comparison_design": "14physical groups x3horizons x6models, including one unissuable Weissmiess72h record per model",
+    "per_horizon_cohorts": [
+      {
+        "horizon_hours": 24,
+        "C_probability_issued_groups": 14,
+        "C_known_scored_groups": 5,
+        "known_scored_groups": [
+          {
+            "event_group": "Arvigo",
+            "outcome": 0
+          },
+          {
+            "event_group": "Brienz_Insel",
+            "outcome": 0
+          },
+          {
+            "event_group": "Grabengufer",
+            "outcome": 0
+          },
+          {
+            "event_group": "La_Saxe",
+            "outcome": 0
+          },
+          {
+            "event_group": "Stampa_rocksection4a",
+            "outcome": 0
+          }
+        ],
+        "known_positive_groups": 0,
+        "known_negative_groups": 5,
+        "not_issuable_groups": [],
+        "common_table_known_events_including_abstain": 0
+      },
+      {
+        "horizon_hours": 48,
+        "C_probability_issued_groups": 14,
+        "C_known_scored_groups": 10,
+        "known_scored_groups": [
+          {
+            "event_group": "Agoyama",
+            "outcome": 1
+          },
+          {
+            "event_group": "Arvigo",
+            "outcome": 0
+          },
+          {
+            "event_group": "Brienz_Insel",
+            "outcome": 0
+          },
+          {
+            "event_group": "Hogarth",
+            "outcome": 1
+          },
+          {
+            "event_group": "Kagemori",
+            "outcome": 1
+          },
+          {
+            "event_group": "La_Saxe",
+            "outcome": 0
+          },
+          {
+            "event_group": "Nevis_Bluff",
+            "outcome": 1
+          },
+          {
+            "event_group": "Ohto",
+            "outcome": 1
+          },
+          {
+            "event_group": "Ryan_and_Call_slope_2",
+            "outcome": 1
+          },
+          {
+            "event_group": "Stampa_rocksection4a",
+            "outcome": 0
+          }
+        ],
+        "known_positive_groups": 6,
+        "known_negative_groups": 4,
+        "not_issuable_groups": [],
+        "common_table_known_events_including_abstain": 6
+      },
+      {
+        "horizon_hours": 72,
+        "C_probability_issued_groups": 13,
+        "C_known_scored_groups": 10,
+        "known_scored_groups": [
+          {
+            "event_group": "Agoyama",
+            "outcome": 1
+          },
+          {
+            "event_group": "Arvigo",
+            "outcome": 0
+          },
+          {
+            "event_group": "Brienz_Insel",
+            "outcome": 0
+          },
+          {
+            "event_group": "Hogarth",
+            "outcome": 1
+          },
+          {
+            "event_group": "Kagemori",
+            "outcome": 1
+          },
+          {
+            "event_group": "La_Saxe",
+            "outcome": 0
+          },
+          {
+            "event_group": "Nevis_Bluff",
+            "outcome": 1
+          },
+          {
+            "event_group": "Ohto",
+            "outcome": 1
+          },
+          {
+            "event_group": "Ryan_and_Call_slope_2",
+            "outcome": 1
+          },
+          {
+            "event_group": "Stampa_rocksection4a",
+            "outcome": 0
+          }
+        ],
+        "known_positive_groups": 6,
+        "known_negative_groups": 4,
+        "not_issuable_groups": [
+          "Weissmiess"
+        ],
+        "common_table_known_events_including_abstain": 7
+      }
+    ],
+    "source_files": [
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/summary.json",
+        "sha256": "93301806b50e51bdc98f04677763ebdb12954598582526adb8f8cd271492b18f"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_predictions.csv",
+        "sha256": "3517d1be4789e5c4d7b1af0f6d16faea4ba17969998a3089de85be9a34896ed6"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/common_anchors_no_age/predictions.csv",
+        "sha256": "a81949c0ba24c2c0ba5bb8bdf0dd58eab7bc5b6813c166c64887bfffebb11344"
+      }
+    ]
+  },
+  "original_fixed_anchor_table_all_four_C_branches": [
+    {
+      "model_id": "linear_dynamic_hazard_no_record_age_crossfit_calibrated",
+      "horizon_hours": 24.0,
+      "independent_sites": 14.0,
+      "failure_sites": 13.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 5.0,
+      "brier": 1.0597070900988121e-05,
+      "logloss": 0.002791484537225347,
+      "conditional_coverage": null,
+      "conditional_coverage_sites": 0.0,
+      "conditional_overlap": null,
+      "interval_width_hours": 22.799997336449888,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 5,
+      "interval_width_denominator_issued_groups": 14,
+      "coverage_denominator_positive_groups": 0,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    },
+    {
+      "model_id": "linear_dynamic_hazard_no_record_age_crossfit_calibrated",
+      "horizon_hours": 48.0,
+      "independent_sites": 14.0,
+      "failure_sites": 13.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 10.0,
+      "brier": 0.5891368614177626,
+      "logloss": 2.8289488595539187,
+      "conditional_coverage": 0.0,
+      "conditional_coverage_sites": 6.0,
+      "conditional_overlap": 1.0,
+      "interval_width_hours": 45.59997924949441,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 10,
+      "interval_width_denominator_issued_groups": 14,
+      "coverage_denominator_positive_groups": 6,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    },
+    {
+      "model_id": "linear_dynamic_hazard_no_record_age_crossfit_calibrated",
+      "horizon_hours": 72.0,
+      "independent_sites": 13.0,
+      "failure_sites": 12.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 10.0,
+      "brier": 0.5844684918922306,
+      "logloss": 2.6120171508623726,
+      "conditional_coverage": 0.0,
+      "conditional_coverage_sites": 6.0,
+      "conditional_overlap": 1.0,
+      "interval_width_hours": 68.39993286685772,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 10,
+      "interval_width_denominator_issued_groups": 13,
+      "coverage_denominator_positive_groups": 6,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    },
+    {
+      "model_id": "linear_dynamic_hazard_no_record_age_raw",
+      "horizon_hours": 24.0,
+      "independent_sites": 14.0,
+      "failure_sites": 13.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 5.0,
+      "brier": 2.721800180104954e-05,
+      "logloss": 0.00507728981227356,
+      "conditional_coverage": null,
+      "conditional_coverage_sites": 0.0,
+      "conditional_overlap": null,
+      "interval_width_hours": 22.799988288378238,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 5,
+      "interval_width_denominator_issued_groups": 14,
+      "coverage_denominator_positive_groups": 0,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    },
+    {
+      "model_id": "linear_dynamic_hazard_no_record_age_raw",
+      "horizon_hours": 48.0,
+      "independent_sites": 14.0,
+      "failure_sites": 13.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 10.0,
+      "brier": 0.583941999604034,
+      "logloss": 2.592941224801229,
+      "conditional_coverage": 0.0,
+      "conditional_coverage_sites": 6.0,
+      "conditional_overlap": 1.0,
+      "interval_width_hours": 45.599949512450465,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 10,
+      "interval_width_denominator_issued_groups": 14,
+      "coverage_denominator_positive_groups": 6,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    },
+    {
+      "model_id": "linear_dynamic_hazard_no_record_age_raw",
+      "horizon_hours": 72.0,
+      "independent_sites": 13.0,
+      "failure_sites": 12.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 10.0,
+      "brier": 0.5770919800739942,
+      "logloss": 2.3776450720473523,
+      "conditional_coverage": 0.0,
+      "conditional_coverage_sites": 6.0,
+      "conditional_overlap": 1.0,
+      "interval_width_hours": 68.39983266011777,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 10,
+      "interval_width_denominator_issued_groups": 13,
+      "coverage_denominator_positive_groups": 6,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    },
+    {
+      "model_id": "nonlinear_rbf_hazard_no_record_age_crossfit_calibrated",
+      "horizon_hours": 24.0,
+      "independent_sites": 14.0,
+      "failure_sites": 13.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 5.0,
+      "brier": 0.0035114387357764003,
+      "logloss": 0.028687795297599628,
+      "conditional_coverage": null,
+      "conditional_coverage_sites": 0.0,
+      "conditional_overlap": null,
+      "interval_width_hours": 22.798308702997964,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 5,
+      "interval_width_denominator_issued_groups": 14,
+      "coverage_denominator_positive_groups": 0,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    },
+    {
+      "model_id": "nonlinear_rbf_hazard_no_record_age_crossfit_calibrated",
+      "horizon_hours": 48.0,
+      "independent_sites": 14.0,
+      "failure_sites": 13.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 10.0,
+      "brier": 0.419151448785434,
+      "logloss": 1.4769506926335332,
+      "conditional_coverage": 0.0,
+      "conditional_coverage_sites": 6.0,
+      "conditional_overlap": 1.0,
+      "interval_width_hours": 45.58646912524991,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 10,
+      "interval_width_denominator_issued_groups": 14,
+      "coverage_denominator_positive_groups": 6,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    },
+    {
+      "model_id": "nonlinear_rbf_hazard_no_record_age_crossfit_calibrated",
+      "horizon_hours": 72.0,
+      "independent_sites": 13.0,
+      "failure_sites": 12.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 10.0,
+      "brier": 0.35773599663014133,
+      "logloss": 1.2874150748193536,
+      "conditional_coverage": 0.0,
+      "conditional_coverage_sites": 6.0,
+      "conditional_overlap": 1.0,
+      "interval_width_hours": 68.35864900443174,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 10,
+      "interval_width_denominator_issued_groups": 13,
+      "coverage_denominator_positive_groups": 6,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    },
+    {
+      "model_id": "nonlinear_rbf_hazard_no_record_age_raw",
+      "horizon_hours": 24.0,
+      "independent_sites": 14.0,
+      "failure_sites": 13.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 5.0,
+      "brier": 0.0059075561272728784,
+      "logloss": 0.03875003167830892,
+      "conditional_coverage": null,
+      "conditional_coverage_sites": 0.0,
+      "conditional_overlap": null,
+      "interval_width_hours": 22.796582384429307,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 5,
+      "interval_width_denominator_issued_groups": 14,
+      "coverage_denominator_positive_groups": 0,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    },
+    {
+      "model_id": "nonlinear_rbf_hazard_no_record_age_raw",
+      "horizon_hours": 48.0,
+      "independent_sites": 14.0,
+      "failure_sites": 13.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 10.0,
+      "brier": 0.3739165073216102,
+      "logloss": 1.3178176628906564,
+      "conditional_coverage": 0.0,
+      "conditional_coverage_sites": 6.0,
+      "conditional_overlap": 1.0,
+      "interval_width_hours": 45.57254396313612,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 10,
+      "interval_width_denominator_issued_groups": 14,
+      "coverage_denominator_positive_groups": 6,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    },
+    {
+      "model_id": "nonlinear_rbf_hazard_no_record_age_raw",
+      "horizon_hours": 72.0,
+      "independent_sites": 13.0,
+      "failure_sites": 12.0,
+      "censored_sites": 1.0,
+      "known_outcomes": 10.0,
+      "brier": 0.3077598726518518,
+      "logloss": 1.1349046037663901,
+      "conditional_coverage": 0.0,
+      "conditional_coverage_sites": 6.0,
+      "conditional_overlap": 1.0,
+      "interval_width_hours": 68.31664705722174,
+      "unit": {
+        "brier": "dimensionless",
+        "logloss": "nat",
+        "interval_width_hours": "h"
+      },
+      "score_denominator": 10,
+      "interval_width_denominator_issued_groups": 13,
+      "coverage_denominator_positive_groups": 6,
+      "scope": "latest available issue <= followup_end-H, one lexical sensor per physical group",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+          "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+        }
+      ]
+    }
+  ],
+  "fair_BSS_vs_C_same_issued_known_opportunities": [
+    {
+      "horizon_hours": 24,
+      "total_physical_case_denominator": 14,
+      "scored_common_groups": 5,
+      "known_positive_groups": 0,
+      "known_negative_groups": 5,
+      "C_RBF_raw_brier": 0.005907556127272893,
+      "B_SS_brier": 0.046923828125,
+      "score_unit": "dimensionless mean squared probability error",
+      "group_details": [
+        {
+          "event_group": "Arvigo",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.1718260525862911,
+          "B_SS_probability": 0.484375,
+          "C_brier": 0.029524192347386877,
+          "B_SS_brier": 0.234619140625
+        },
+        {
+          "event_group": "Brienz_Insel",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.0010936460547584,
+          "B_SS_probability": 0.0,
+          "C_brier": 1.1960616930886133e-06,
+          "B_SS_brier": 0.0
+        },
+        {
+          "event_group": "Grabengufer",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.000239984996381,
+          "B_SS_probability": 0.0,
+          "C_brier": 5.7592798487988585e-08,
+          "B_SS_brier": 0.0
+        },
+        {
+          "event_group": "La_Saxe",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.0034906863321562,
+          "B_SS_probability": 0.0,
+          "C_brier": 1.2184891069502104e-05,
+          "B_SS_brier": 0.0
+        },
+        {
+          "event_group": "Stampa_rocksection4a",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.0003869669449859,
+          "B_SS_probability": 0.0,
+          "C_brier": 1.4974341651172055e-07,
+          "B_SS_brier": 0.0
+        }
+      ],
+      "scope": "exact same selected sensor and retrospective issue/H; both probabilities issued and label known",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/common_anchors_no_age/predictions.csv",
+          "sha256": "a81949c0ba24c2c0ba5bb8bdf0dd58eab7bc5b6813c166c64887bfffebb11344"
+        },
+        {
+          "path": "track_b/research/q3/round3/results/common_anchors_no_age/paired_valid_scores.csv",
+          "sha256": "614327625b35e6318fa4ee5445d106d56a2579288156398f5731021589fb6564"
+        }
+      ]
+    },
+    {
+      "horizon_hours": 48,
+      "total_physical_case_denominator": 14,
+      "scored_common_groups": 8,
+      "known_positive_groups": 4,
+      "known_negative_groups": 4,
+      "C_RBF_raw_brier": 0.30882692885787494,
+      "B_SS_brier": 0.2428874969482422,
+      "score_unit": "dimensionless mean squared probability error",
+      "group_details": [
+        {
+          "event_group": "Agoyama",
+          "event_within_horizon": 1,
+          "C_RBF_raw_probability": 0.2956959366685669,
+          "B_SS_probability": 0.501953125,
+          "C_brier": 0.4960442136251672,
+          "B_SS_brier": 0.24805068969726562
+        },
+        {
+          "event_group": "Arvigo",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.3111820608473889,
+          "B_SS_probability": 0.599609375,
+          "C_brier": 0.09683427499322805,
+          "B_SS_brier": 0.3595314025878906
+        },
+        {
+          "event_group": "Brienz_Insel",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.0037491160074887,
+          "B_SS_probability": 0.1796875,
+          "C_brier": 1.405587083760801e-05,
+          "B_SS_brier": 0.03228759765625
+        },
+        {
+          "event_group": "Kagemori",
+          "event_within_horizon": 1,
+          "C_RBF_raw_probability": 0.0354171471437586,
+          "B_SS_probability": 0.25390625,
+          "C_brier": 0.9304200800242856,
+          "B_SS_brier": 0.5566558837890625
+        },
+        {
+          "event_group": "La_Saxe",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.008796434727927,
+          "B_SS_probability": 0.333984375,
+          "C_brier": 7.737726392268017e-05,
+          "B_SS_brier": 0.11154556274414062
+        },
+        {
+          "event_group": "Ohto",
+          "event_within_horizon": 1,
+          "C_RBF_raw_probability": 0.2167802495853006,
+          "B_SS_probability": 0.43359375,
+          "C_brier": 0.613433177439664,
+          "B_SS_brier": 0.3208160400390625
+        },
+        {
+          "event_group": "Ryan_and_Call_slope_2",
+          "event_within_horizon": 1,
+          "C_RBF_raw_probability": 0.4222526179262641,
+          "B_SS_probability": 0.439453125,
+          "C_brier": 0.33379203749305536,
+          "B_SS_brier": 0.3142127990722656
+        },
+        {
+          "event_group": "Stampa_rocksection4a",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.000462766506007,
+          "B_SS_probability": 0.0,
+          "C_brier": 2.1415283908192677e-07,
+          "B_SS_brier": 0.0
+        }
+      ],
+      "scope": "exact same selected sensor and retrospective issue/H; both probabilities issued and label known",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/common_anchors_no_age/predictions.csv",
+          "sha256": "a81949c0ba24c2c0ba5bb8bdf0dd58eab7bc5b6813c166c64887bfffebb11344"
+        },
+        {
+          "path": "track_b/research/q3/round3/results/common_anchors_no_age/paired_valid_scores.csv",
+          "sha256": "614327625b35e6318fa4ee5445d106d56a2579288156398f5731021589fb6564"
+        }
+      ]
+    },
+    {
+      "horizon_hours": 72,
+      "total_physical_case_denominator": 14,
+      "scored_common_groups": 8,
+      "known_positive_groups": 4,
+      "known_negative_groups": 4,
+      "C_RBF_raw_brier": 0.24339523523821985,
+      "B_SS_brier": 0.3469219207763672,
+      "score_unit": "dimensionless mean squared probability error",
+      "group_details": [
+        {
+          "event_group": "Agoyama",
+          "event_within_horizon": 1,
+          "C_RBF_raw_probability": 0.4413571490907228,
+          "B_SS_probability": 0.47265625,
+          "C_brier": 0.3120818348720448,
+          "B_SS_brier": 0.2780914306640625
+        },
+        {
+          "event_group": "Arvigo",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.1839183200419485,
+          "B_SS_probability": 0.61328125,
+          "C_brier": 0.03382594844705259,
+          "B_SS_brier": 0.3761138916015625
+        },
+        {
+          "event_group": "Brienz_Insel",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.0042612574894839,
+          "B_SS_probability": 0.4765625,
+          "C_brier": 1.8158315391682627e-05,
+          "B_SS_brier": 0.22711181640625
+        },
+        {
+          "event_group": "Kagemori",
+          "event_within_horizon": 1,
+          "C_RBF_raw_probability": 0.0328781677358973,
+          "B_SS_probability": 0.302734375,
+          "C_brier": 0.9353246384418751,
+          "B_SS_brier": 0.4861793518066406
+        },
+        {
+          "event_group": "La_Saxe",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.0151298565236131,
+          "B_SS_probability": 0.943359375,
+          "C_brier": 0.00022891255842511787,
+          "B_SS_brier": 0.8899269104003906
+        },
+        {
+          "event_group": "Ohto",
+          "event_within_horizon": 1,
+          "C_RBF_raw_probability": 0.3891727525096662,
+          "B_SS_probability": 0.458984375,
+          "C_brier": 0.3731099262766175,
+          "B_SS_brier": 0.2926979064941406
+        },
+        {
+          "event_group": "Ryan_and_Call_slope_2",
+          "event_within_horizon": 1,
+          "C_RBF_raw_probability": 0.4591004061927765,
+          "B_SS_probability": 0.525390625,
+          "C_brier": 0.2925723705808194,
+          "B_SS_brier": 0.22525405883789062
+        },
+        {
+          "event_group": "Stampa_rocksection4a",
+          "event_within_horizon": 0,
+          "C_RBF_raw_probability": 0.0003039959415947,
+          "B_SS_probability": 0.0,
+          "C_brier": 9.241353250604825e-08,
+          "B_SS_brier": 0.0
+        }
+      ],
+      "scope": "exact same selected sensor and retrospective issue/H; both probabilities issued and label known",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/common_anchors_no_age/predictions.csv",
+          "sha256": "a81949c0ba24c2c0ba5bb8bdf0dd58eab7bc5b6813c166c64887bfffebb11344"
+        },
+        {
+          "path": "track_b/research/q3/round3/results/common_anchors_no_age/paired_valid_scores.csv",
+          "sha256": "614327625b35e6318fa4ee5445d106d56a2579288156398f5731021589fb6564"
+        }
+      ]
+    }
+  ],
+  "coverage_and_conditional_interval_interpretation": {
+    "positive_group_label_checks": [
+      {
+        "horizon_hours": 24,
+        "positive_probability_issued_group_denominator": 0,
+        "entire_label_inclusion_count": 0,
+        "label_intersection_count": 0,
+        "positive_groups_with_label_upper_equal_horizon": 0,
+        "scope": "model-internal 2.5%/97.5% conditional quantiles versus full interval labels; no entire-label proportion is interpreted as general 95% calibration"
+      },
+      {
+        "horizon_hours": 48,
+        "positive_probability_issued_group_denominator": 6,
+        "entire_label_inclusion_count": 0,
+        "label_intersection_count": 6,
+        "positive_groups_with_label_upper_equal_horizon": 6,
+        "scope": "model-internal 2.5%/97.5% conditional quantiles versus full interval labels; no entire-label proportion is interpreted as general 95% calibration"
+      },
+      {
+        "horizon_hours": 72,
+        "positive_probability_issued_group_denominator": 6,
+        "entire_label_inclusion_count": 0,
+        "label_intersection_count": 6,
+        "positive_groups_with_label_upper_equal_horizon": 6,
+        "scope": "model-internal 2.5%/97.5% conditional quantiles versus full interval labels; no entire-label proportion is interpreted as general 95% calibration"
+      }
+    ],
+    "fixed_anchor_full_inclusion_at48_and72": "0/6 each C branch; label intersection6/6; six scored positive interval labels have upper endpoint exactlyH.",
+    "reason_tex": "Q_{0.975}(\\lambda,H)<H=U_i-s_i\\quad(\\lambda>0).",
+    "meaning": "The conditional central interval cannot include an interval label whose upper endpoint is the horizon boundary. This anchor/label geometry explains the zero entire-label inclusion here; it is not by itself evidence of arbitrary-issue95% calibration failure. Label overlap is not95% coverage.",
+    "model_internal_widths_raw_hours": {
+      "24": 22.796582384429307,
+      "48": 45.57254396313612,
+      "72": 68.31664705722174
+    },
+    "augmented72h_all_case_event_denominator": 7,
+    "augmented72h_issued_event_interval_denominator": 6,
+    "augmented72h_unissuable_event": "Weissmiess",
+    "source_files": [
+      {
+        "path": "track_b/research/q3/round3/scripts/engine_c.py",
+        "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_evaluation.csv",
+        "sha256": "924aecf59869d81ff61a610e773f3022a652ed10e3046a332e20dd2712772baf"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/common_anchors_no_age/predictions.csv",
+        "sha256": "a81949c0ba24c2c0ba5bb8bdf0dd58eab7bc5b6813c166c64887bfffebb11344"
+      }
+    ]
+  },
+  "conformal": {
+    "actual_separately_reserved_independent_calibration_groups": 0,
+    "coded_training_group_upper_bound": 13,
+    "coded_rank95": 14,
+    "coded_status": "unbounded_insufficient_groups",
+    "fit_records_with_this_status": 28,
+    "conformal_scores_computed": false,
+    "finite_conformal_endpoints_computed": false,
+    "minimum_independent_calibration_groups_for_finite_empirical95_rank": 19,
+    "assumptions_beyond_count": [
+      "exchangeable calibration/test physical groups",
+      "proper calibration design separate from fitted model or a separately justified conformal construction"
+    ],
+    "scope": "Upper-bound rank feasibility check, not an independently calibrated95% predictor; training-side rate scaling is a different operation.",
+    "reference_key": "q3-angelopoulos2021",
+    "source_files": [
+      {
+        "path": "track_b/research/q3/round3/scripts/engine_c.py",
+        "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/fit_details.json",
+        "sha256": "bcb18a01328ded998e7678f8fcd5ccfca32f048ee963e0b975d6b52062fdfb93"
+      }
+    ]
+  },
+  "numerical_grid_512_1024": {
+    "same_physical_groups": 14,
+    "same_failure_groups": 13,
+    "same_true_censor_groups": 1,
+    "risk_rows_512": 3878,
+    "risk_rows_1024": 6645,
+    "same_guaranteed_survival_exposure_hours": 56381.84055555558,
+    "same_upper_followup_span_hours": 56526.19055554218,
+    "same_raw_predictions_each": 1608,
+    "same_original_anchor_rows_each": 164,
+    "changed_selected_penalties": [],
+    "anchor_score_sensitivity": [
+      {
+        "model_id": "linear_dynamic_hazard_no_record_age_crossfit_calibrated",
+        "horizon_hours": 24.0,
+        "brier_512": 1.059707090098812e-05,
+        "conditional_coverage_512": null,
+        "conditional_overlap_512": null,
+        "brier_1024": 1.0435603755547531e-05,
+        "conditional_coverage_1024": null,
+        "conditional_overlap_1024": null,
+        "brier_1024_minus_512": -1.614671454405882e-07,
+        "conditional_coverage_1024_minus_512": null,
+        "conditional_overlap_1024_minus_512": null
+      },
+      {
+        "model_id": "linear_dynamic_hazard_no_record_age_crossfit_calibrated",
+        "horizon_hours": 48.0,
+        "brier_512": 0.5891368614177626,
+        "conditional_coverage_512": 0.0,
+        "conditional_overlap_512": 1.0,
+        "brier_1024": 0.5892162673419433,
+        "conditional_coverage_1024": 0.0,
+        "conditional_overlap_1024": 1.0,
+        "brier_1024_minus_512": 7.940592418076431e-05,
+        "conditional_coverage_1024_minus_512": 0.0,
+        "conditional_overlap_1024_minus_512": 0.0
+      },
+      {
+        "model_id": "linear_dynamic_hazard_no_record_age_crossfit_calibrated",
+        "horizon_hours": 72.0,
+        "brier_512": 0.5844684918922306,
+        "conditional_coverage_512": 0.0,
+        "conditional_overlap_512": 1.0,
+        "brier_1024": 0.5845996771964618,
+        "conditional_coverage_1024": 0.0,
+        "conditional_overlap_1024": 1.0,
+        "brier_1024_minus_512": 0.00013118530423117392,
+        "conditional_coverage_1024_minus_512": 0.0,
+        "conditional_overlap_1024_minus_512": 0.0
+      },
+      {
+        "model_id": "linear_dynamic_hazard_no_record_age_raw",
+        "horizon_hours": 24.0,
+        "brier_512": 2.721800180104954e-05,
+        "conditional_coverage_512": null,
+        "conditional_overlap_512": null,
+        "brier_1024": 2.7383458185941785e-05,
+        "conditional_coverage_1024": null,
+        "conditional_overlap_1024": null,
+        "brier_1024_minus_512": 1.6545638489224557e-07,
+        "conditional_coverage_1024_minus_512": null,
+        "conditional_overlap_1024_minus_512": null
+      },
+      {
+        "model_id": "linear_dynamic_hazard_no_record_age_raw",
+        "horizon_hours": 48.0,
+        "brier_512": 0.583941999604034,
+        "conditional_coverage_512": 0.0,
+        "conditional_overlap_512": 1.0,
+        "brier_1024": 0.58381223482135,
+        "conditional_coverage_1024": 0.0,
+        "conditional_overlap_1024": 1.0,
+        "brier_1024_minus_512": -0.00012976478268400538,
+        "conditional_coverage_1024_minus_512": 0.0,
+        "conditional_overlap_1024_minus_512": 0.0
+      },
+      {
+        "model_id": "linear_dynamic_hazard_no_record_age_raw",
+        "horizon_hours": 72.0,
+        "brier_512": 0.5770919800739942,
+        "conditional_coverage_512": 0.0,
+        "conditional_overlap_512": 1.0,
+        "brier_1024": 0.5769341094890048,
+        "conditional_coverage_1024": 0.0,
+        "conditional_overlap_1024": 1.0,
+        "brier_1024_minus_512": -0.00015787058498939466,
+        "conditional_coverage_1024_minus_512": 0.0,
+        "conditional_overlap_1024_minus_512": 0.0
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_no_record_age_crossfit_calibrated",
+        "horizon_hours": 24.0,
+        "brier_512": 0.0035114387357764,
+        "conditional_coverage_512": null,
+        "conditional_overlap_512": null,
+        "brier_1024": 0.0032544097884956,
+        "conditional_coverage_1024": null,
+        "conditional_overlap_1024": null,
+        "brier_1024_minus_512": -0.00025702894728079967,
+        "conditional_coverage_1024_minus_512": null,
+        "conditional_overlap_1024_minus_512": null
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_no_record_age_crossfit_calibrated",
+        "horizon_hours": 48.0,
+        "brier_512": 0.419151448785434,
+        "conditional_coverage_512": 0.0,
+        "conditional_overlap_512": 1.0,
+        "brier_1024": 0.4215141459180567,
+        "conditional_coverage_1024": 0.0,
+        "conditional_overlap_1024": 1.0,
+        "brier_1024_minus_512": 0.0023626971326227153,
+        "conditional_coverage_1024_minus_512": 0.0,
+        "conditional_overlap_1024_minus_512": 0.0
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_no_record_age_crossfit_calibrated",
+        "horizon_hours": 72.0,
+        "brier_512": 0.3577359966301413,
+        "conditional_coverage_512": 0.0,
+        "conditional_overlap_512": 1.0,
+        "brier_1024": 0.3595634467408238,
+        "conditional_coverage_1024": 0.0,
+        "conditional_overlap_1024": 1.0,
+        "brier_1024_minus_512": 0.001827450110682527,
+        "conditional_coverage_1024_minus_512": 0.0,
+        "conditional_overlap_1024_minus_512": 0.0
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_no_record_age_raw",
+        "horizon_hours": 24.0,
+        "brier_512": 0.0059075561272728,
+        "conditional_coverage_512": null,
+        "conditional_overlap_512": null,
+        "brier_1024": 0.0054806431491772,
+        "conditional_coverage_1024": null,
+        "conditional_overlap_1024": null,
+        "brier_1024_minus_512": -0.00042691297809559995,
+        "conditional_coverage_1024_minus_512": null,
+        "conditional_overlap_1024_minus_512": null
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_no_record_age_raw",
+        "horizon_hours": 48.0,
+        "brier_512": 0.3739165073216102,
+        "conditional_coverage_512": 0.0,
+        "conditional_overlap_512": 1.0,
+        "brier_1024": 0.376875950404712,
+        "conditional_coverage_1024": 0.0,
+        "conditional_overlap_1024": 1.0,
+        "brier_1024_minus_512": 0.0029594430831018093,
+        "conditional_coverage_1024_minus_512": 0.0,
+        "conditional_overlap_1024_minus_512": 0.0
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_no_record_age_raw",
+        "horizon_hours": 72.0,
+        "brier_512": 0.3077598726518518,
+        "conditional_coverage_512": 0.0,
+        "conditional_overlap_512": 1.0,
+        "brier_1024": 0.3099070680233926,
+        "conditional_coverage_1024": 0.0,
+        "conditional_overlap_1024": 1.0,
+        "brier_1024_minus_512": 0.0021471953715407888,
+        "conditional_coverage_1024_minus_512": 0.0,
+        "conditional_overlap_1024_minus_512": 0.0
+      }
+    ],
+    "probability_sensitivity": [
+      {
+        "model_id": "linear_dynamic_hazard_no_record_age_crossfit_calibrated",
+        "matched_anchor_groups_times_horizon": 41,
+        "mean_absolute_probability_change": 7.255013092073161e-05,
+        "max_absolute_probability_change": 0.0002272711303854015,
+        "unit": "absolute probability"
+      },
+      {
+        "model_id": "linear_dynamic_hazard_no_record_age_raw",
+        "matched_anchor_groups_times_horizon": 41,
+        "mean_absolute_probability_change": 0.00010342088300779031,
+        "max_absolute_probability_change": 0.0005482642229908997,
+        "unit": "absolute probability"
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_no_record_age_crossfit_calibrated",
+        "matched_anchor_groups_times_horizon": 41,
+        "mean_absolute_probability_change": 0.001247831280664065,
+        "max_absolute_probability_change": 0.009253491340301678,
+        "unit": "absolute probability"
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_no_record_age_raw",
+        "matched_anchor_groups_times_horizon": 41,
+        "mean_absolute_probability_change": 0.0017844029449811765,
+        "max_absolute_probability_change": 0.010411540564082389,
+        "unit": "absolute probability"
+      }
+    ],
+    "heldout_group_likelihood_sensitivity": [
+      {
+        "model_id": "linear_dynamic_hazard",
+        "physical_group_denominator": 14,
+        "mean_heldout_group_nll_512": 9.521382093669152,
+        "mean_heldout_group_nll_1024": 9.54061326750849,
+        "mean_absolute_group_nll_change": 0.05283544980698997,
+        "max_absolute_group_nll_change": 0.4676085932873022,
+        "unit": "nat per physical-group likelihood trajectory"
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard",
+        "physical_group_denominator": 14,
+        "mean_heldout_group_nll_512": 7.933597791256457,
+        "mean_heldout_group_nll_1024": 7.93982288223058,
+        "mean_absolute_group_nll_change": 0.05569907614999733,
+        "max_absolute_group_nll_change": 0.35696249890836995,
+        "unit": "nat per physical-group likelihood trajectory"
+      }
+    ],
+    "maximum_absolute_Brier_change_all_branches_H": 0.0029594430831018093,
+    "claim_scope": "Numerical quadrature-grid sensitivity within the same chosen data/model family; not external-event replication or a general convergence proof.",
+    "source_files": [
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/summary.json",
+        "sha256": "93301806b50e51bdc98f04677763ebdb12954598582526adb8f8cd271492b18f"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/summary.json",
+        "sha256": "ac1bfcb3939a1b821c4dfa7999c6219fb70aba6b79f7b98df5ab696690d20995"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/grid_anchor_sensitivity.csv",
+        "sha256": "f61636b65b9b4a61a97f6e6e4b63553dea33f17552852b06f5db14e46b8068e1"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/grid_likelihood_sensitivity.csv",
+        "sha256": "200b7f50d09cd01f65bb299e6ccdd910c9e48300e7dc556b8728fa8939924c5e"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/anchor_predictions.csv",
+        "sha256": "3517d1be4789e5c4d7b1af0f6d16faea4ba17969998a3089de85be9a34896ed6"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/nodes_1024/anchor_predictions.csv",
+        "sha256": "7bbf844c842be2927516f28be4a46617fe235314ef8bf8234ceded2bbc58c751"
+      }
+    ]
+  },
+  "record_age_diagnostic": {
+    "main_features": [
+      "log_relative_velocity",
+      "log_recent_velocity_ratio"
+    ],
+    "removed_feature": "log_monitoring_age_hours=log1p(time-current_file_start)",
+    "reason": "Our canonical preprocessing retains at most trailing180days before terminal failure. File/window start is outcome-conditioned and is not documented monitoring-deployment age; past-only feature computation alone does not remove this selection clock.",
+    "legacy_role": "curation_sensitive_challenge only, not main predictive candidate",
+    "Grabengufer_signal": "angular tilt in degree; use relative deformation-state language, not uniform metric displacement velocity",
+    "RBF_raw_record_age_vs_no_age_fixed_anchor_brier": [
+      {
+        "model_id": "nonlinear_rbf_hazard_raw",
+        "horizon_hours": 24.0,
+        "independent_sites_record_age": 14.0,
+        "failure_sites_record_age": 13.0,
+        "censored_sites_record_age": 1.0,
+        "known_outcomes_record_age": 5.0,
+        "brier_record_age": 0.0006994394768804,
+        "logloss_record_age": 0.014374957014528,
+        "conditional_coverage_record_age": null,
+        "conditional_coverage_sites_record_age": 0.0,
+        "conditional_overlap_record_age": null,
+        "interval_width_hours_record_age": 22.799283393550933,
+        "independent_sites_no_record_age": 14.0,
+        "failure_sites_no_record_age": 13.0,
+        "censored_sites_no_record_age": 1.0,
+        "known_outcomes_no_record_age": 5.0,
+        "brier_no_record_age": 0.0059075561272728,
+        "logloss_no_record_age": 0.0387500316783089,
+        "conditional_coverage_no_record_age": null,
+        "conditional_coverage_sites_no_record_age": 0.0,
+        "conditional_overlap_no_record_age": null,
+        "interval_width_hours_no_record_age": 22.796582384429307,
+        "brier_noage_minus_record_age": 0.0052081166503924,
+        "logloss_noage_minus_record_age": 0.024375074663780902,
+        "conditional_coverage_noage_minus_record_age": null,
+        "conditional_overlap_noage_minus_record_age": null,
+        "interval_width_hours_noage_minus_record_age": -0.0027010091216261856,
+        "record_age_role": "curation_sensitive_challenge",
+        "no_record_age_role": "recommended_feature_domain_for_external_survival_benchmark"
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_raw",
+        "horizon_hours": 48.0,
+        "independent_sites_record_age": 14.0,
+        "failure_sites_record_age": 13.0,
+        "censored_sites_record_age": 1.0,
+        "known_outcomes_record_age": 10.0,
+        "brier_record_age": 0.4658845704185695,
+        "logloss_record_age": 1.463042936132301,
+        "conditional_coverage_record_age": 0.0,
+        "conditional_coverage_sites_record_age": 6.0,
+        "conditional_overlap_record_age": 1.0,
+        "interval_width_hours_record_age": 45.59409944667407,
+        "independent_sites_no_record_age": 14.0,
+        "failure_sites_no_record_age": 13.0,
+        "censored_sites_no_record_age": 1.0,
+        "known_outcomes_no_record_age": 10.0,
+        "brier_no_record_age": 0.3739165073216102,
+        "logloss_no_record_age": 1.3178176628906564,
+        "conditional_coverage_no_record_age": 0.0,
+        "conditional_coverage_sites_no_record_age": 6.0,
+        "conditional_overlap_no_record_age": 1.0,
+        "interval_width_hours_no_record_age": 45.57254396313612,
+        "brier_noage_minus_record_age": -0.09196806309695932,
+        "logloss_noage_minus_record_age": -0.14522527324164458,
+        "conditional_coverage_noage_minus_record_age": 0.0,
+        "conditional_overlap_noage_minus_record_age": 0.0,
+        "interval_width_hours_noage_minus_record_age": -0.021555483537952114,
+        "record_age_role": "curation_sensitive_challenge",
+        "no_record_age_role": "recommended_feature_domain_for_external_survival_benchmark"
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_raw",
+        "horizon_hours": 72.0,
+        "independent_sites_record_age": 13.0,
+        "failure_sites_record_age": 12.0,
+        "censored_sites_record_age": 1.0,
+        "known_outcomes_record_age": 10.0,
+        "brier_record_age": 0.4201134412203872,
+        "logloss_record_age": 1.2684615208420396,
+        "conditional_coverage_record_age": 0.0,
+        "conditional_coverage_sites_record_age": 6.0,
+        "conditional_overlap_record_age": 1.0,
+        "interval_width_hours_record_age": 68.3801170667197,
+        "independent_sites_no_record_age": 13.0,
+        "failure_sites_no_record_age": 12.0,
+        "censored_sites_no_record_age": 1.0,
+        "known_outcomes_no_record_age": 10.0,
+        "brier_no_record_age": 0.3077598726518518,
+        "logloss_no_record_age": 1.13490460376639,
+        "conditional_coverage_no_record_age": 0.0,
+        "conditional_coverage_sites_no_record_age": 6.0,
+        "conditional_overlap_no_record_age": 1.0,
+        "interval_width_hours_no_record_age": 68.31664705722174,
+        "brier_noage_minus_record_age": -0.1123535685685354,
+        "logloss_noage_minus_record_age": -0.13355691707564965,
+        "conditional_coverage_noage_minus_record_age": 0.0,
+        "conditional_overlap_noage_minus_record_age": 0.0,
+        "interval_width_hours_noage_minus_record_age": -0.06347000949796211,
+        "record_age_role": "curation_sensitive_challenge",
+        "no_record_age_role": "recommended_feature_domain_for_external_survival_benchmark"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/feature_domain_amendment.json",
+        "sha256": "d58e57c2961c5819691d7608eaf9a63a970fb43bce2a332955631184db6e366b"
+      },
+      {
+        "path": "track_b/research/q3/round3/inputs/deformation/metadata_audit.json",
+        "sha256": "ea0a6991efa4c9c30be38855da10e46a95d2809a25b6198daa64a03961a172ed"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/record_age_ablation.csv",
+        "sha256": "41e632f8b3c452289aeaa3b664540711115427925b7907450ac2dbf7273fee73"
+      }
+    ]
+  },
+  "nonprimary_selected_issue_set_summary": {
+    "scope": "evaluation.csv aggregates67 selected issues per common H, first within group then group-equal; do not call these latest-fixed-anchor scores or full native/hourly rolling results",
+    "RBF_raw_common_H": [
+      {
+        "model_id": "nonlinear_rbf_hazard_no_record_age_raw",
+        "horizon_role": "common_hours",
+        "horizon_hours": 24.0,
+        "independent_sites": 14.0,
+        "observed_failure_sites": 13.0,
+        "right_censored_sites": 1.0,
+        "rolling_prediction_rows": 67.0,
+        "equal_site_brier_known": 0.2492953165185748,
+        "equal_site_logloss_known": 1.289490890163437,
+        "equal_site_brier_lower_bound": 0.22659019545702003,
+        "equal_site_brier_upper_bound": 0.4209621766566603,
+        "equal_site_conditional_coverage": 0.7777777777777777,
+        "equal_site_conditional_overlap": 0.7777777777777777,
+        "mean_conditional_width_hours": 22.79718123600412
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_no_record_age_raw",
+        "horizon_role": "common_hours",
+        "horizon_hours": 48.0,
+        "independent_sites": 14.0,
+        "observed_failure_sites": 13.0,
+        "right_censored_sites": 1.0,
+        "rolling_prediction_rows": 67.0,
+        "equal_site_brier_known": 0.5127357200467583,
+        "equal_site_logloss_known": 2.252112191176573,
+        "equal_site_brier_lower_bound": 0.4364987389633835,
+        "equal_site_brier_upper_bound": 0.5598823358682958,
+        "equal_site_conditional_coverage": 0.4807692307692308,
+        "equal_site_conditional_overlap": 0.8653846153846154,
+        "mean_conditional_width_hours": 45.57727960932191
+      },
+      {
+        "model_id": "nonlinear_rbf_hazard_no_record_age_raw",
+        "horizon_role": "common_hours",
+        "horizon_hours": 72.0,
+        "independent_sites": 14.0,
+        "observed_failure_sites": 13.0,
+        "right_censored_sites": 1.0,
+        "rolling_prediction_rows": 67.0,
+        "equal_site_brier_known": 0.5655823027509232,
+        "equal_site_logloss_known": 2.4868840903513765,
+        "equal_site_brier_lower_bound": 0.5329808577084696,
+        "equal_site_brier_upper_bound": 0.6039897905798511,
+        "equal_site_conditional_coverage": 0.5692307692307692,
+        "equal_site_conditional_overlap": 0.8923076923076922,
+        "mean_conditional_width_hours": 68.32236739740003
+      }
+    ],
+    "source_files": [
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/evaluation.csv",
+        "sha256": "db28306a65c17dedd5a27efa82a633273241bc733b6260e19201c19faad0e4c9"
+      },
+      {
+        "path": "track_b/research/q3/round3/results/engine_c/no_record_age/evaluation_by_site.csv",
+        "sha256": "4c320ee1f3a68a4f65970ee2a335e7711bc02e069dd5c729c6703d0c6b1ead01"
+      },
+      {
+        "path": "track_b/research/q3/round3/scripts/engine_c.py",
+        "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+      }
+    ]
+  },
+  "primary_references_checked": [
+    {
+      "key": "q3-friedman1982",
+      "authors": "Michael Friedman",
+      "year": 1982,
+      "title": "Piecewise Exponential Models for Survival Data with Covariates",
+      "publication": "The Annals of Statistics 10(1):101–113",
+      "doi": "10.1214/aos/1176345693",
+      "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-10/issue-1/Piecewise-Exponential-Models-for-Survival-Data-with-Covariates/10.1214/aos/1176345693.full",
+      "read_url": "https://www.ms.uky.edu/~mai/sta635/piecewise%20Exp.pdf",
+      "source_type": "original research article; university-hosted original PDF",
+      "verified_scope": "Original abstract/citation verifies positive interval-constant hazard and covariate log-hazard model. Current nonlinear basis and penalty are our code specification, not attributed to this article.",
+      "access_date": "2026-10-24"
+    },
+    {
+      "key": "q3-graf1999",
+      "authors": "Erika Graf; Claudia Schmoor; Willi Sauerbrei; Martin Schumacher",
+      "year": 1999,
+      "title": "Assessment and comparison of prognostic classification schemes for survival data",
+      "publication": "Statistics in Medicine18(17–18):2529–2545",
+      "doi": "10.1002/(SICI)1097-0258(19990915/30)18:17/18<2529::AID-SIM274>3.0.CO;2-5",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-0258%2819990915/30%2918%3A17/18%3C2529%3A%3AAID-SIM274%3E3.0.CO%3B2-5",
+      "metadata_url": "https://pubmed.ncbi.nlm.nih.gov/10474158/",
+      "source_type": "original research article; publisher abstract and official PubMed author/DOI metadata",
+      "verified_scope": "Probability prediction inaccuracy for survival validation and random-censoring setting; our interval-label score bounds and training KM convention are separately specified in code.",
+      "access_date": "2026-10-24"
+    },
+    {
+      "key": "q3-angelopoulos2021",
+      "authors": "Anastasios N. Angelopoulos; Stephen Bates",
+      "year": 2021,
+      "version": "arXiv2107.07511v6, revised2022-12-07",
+      "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification",
+      "doi": "10.48550/arXiv.2107.07511",
+      "url": "https://arxiv.org/abs/2107.07511",
+      "read_url": "https://arxiv.org/html/2107.07511v6",
+      "source_type": "authors original research/tutorial paper",
+      "verified_scope": "Section1.1 reserves fresh calibration data; AppendixD.1 uses ceil((n+1)(1-alpha)) and explicitly sets qhat=infinity when alpha<1/(n+1); exchangeability condition stated.",
+      "access_date": "2026-10-24"
+    },
+    {
+      "key": "q3-leinauer2023",
+      "authors": "Johannes Leinauer; Samuel Weber; Alessandro Cicoira; Jan Beutel; Michael Krautblatter",
+      "year": 2023,
+      "title": "An approach for prospective forecasting of rock slope failure time",
+      "publication": "Communications Earth & Environment4:253",
+      "doi": "10.1038/s43247-023-00909-z",
+      "url": "https://www.nature.com/articles/s43247-023-00909-z",
+      "official_author_metadata_url": "https://www.cee.ed.tum.de/en/landslides/news-detail/?cHash=b19d53577d57f7889082ea2edf9ff17b&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=3223",
+      "source_type": "original research article and authors institutional metadata",
+      "verified_scope": "Original collection described as46 displacement datasets from14 historic slope failures; it is not46 independent failure events. Current C subset/selection/censor are defined by our canonical files.",
+      "access_date": "2026-10-24"
+    },
+    {
+      "key": "q3-pftfdata2023",
+      "title": "PFTF original monitoring-data collection",
+      "year": 2023,
+      "doi": "10.14459/2023mp1688868",
+      "url": "https://mediatum.ub.tum.de/1688868",
+      "source_type": "official data repository linked by original PFTF article",
+      "live_access_note": "Direct landing returned429 in this check; original article and frozen acquisition manifest verify DOI/data relationship. Dataset contents/counts here follow frozen source manifests and canonical audit, not inferred web availability.",
+      "access_date": "2026-10-24"
+    },
+    {
+      "key": "q3-loewdata2024",
+      "authors": "Simon Loew",
+      "year": 2024,
+      "title": "Monitoring Data from the Insel Compartment at Brienz/Brinzauls Switzerland",
+      "doi": "10.3929/ethz-b-000670494",
+      "url": "https://www.research-collection.ethz.ch/entities/researchdata/71f80c84-731a-4486-a529-47f3ef0b37dd",
+      "source_type": "official ETH research-data record",
+      "verified_scope": "Official indexed record identifies TPS displacement/velocity data2012–2023 and Insel failure15June2023; source UTC/local alignment still follows our frozen registry.",
+      "live_access_note": "Official indexed record read; direct entity fetch403.",
+      "access_date": "2026-10-24"
+    },
+    {
+      "key": "q3-schild2026",
+      "authors": "Lukas Schild; Thomas Scheiber; Paula Snook; Alexander Maschler; Reza Arghandeh",
+      "year": 2026,
+      "title": "Exposing the potential of XAI-based causal discovery for analysing unstable rock slopes",
+      "publication": "Scientific Reports16:18935",
+      "doi": "10.1038/s41598-026-48268-x",
+      "url": "https://www.nature.com/articles/s41598-026-48268-x",
+      "source_type": "original research article",
+      "verified_scope": "Stampa rock section4a collapsed in a two-stage event inJuly2023; article monitoring period2020–2022 precedes collapse. Block4a and Base are components of the same instability, not independent cases. Raw CSV725 dates and selected censor endpoint are checked in frozen C audit.",
+      "access_date": "2026-10-24"
+    }
+  ],
+  "actual_code_files": [
+    {
+      "path": "track_b/research/q3/round3/scripts/engine_c.py",
+      "sha256": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd",
+      "role": "self-written dimensionless causal features, piecewise exponential/RBF likelihood, group-heldout tuning, rate scaling and predictions; 512/1024 run entry",
+      "executed_source_sha256_confirmed": "fc46b252ef66f6e489b71e48ca201963d829c7eab3297db536f31054b65380fd"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/common_anchor_comparison.py",
+      "sha256": "32d1d0efa170ff57e347f735f90d780b6d931f75ffa71ccd0e98b1e8b2942083",
+      "role": "self-written common sensor/issue/H B-vs-C opportunity construction and group-paired scoring"
+    },
+    {
+      "path": "track_b/research/q3/round3/scripts/integrate_results.py",
+      "sha256": "bc6404976b94e5b25678471b3d9cf2a3075e006a6c5fd5206bee8eed171fb9f8",
+      "role": "self-written final integration of already computed paired scores"
+    }
+  ],
+  "paper_ready_text_zh": [
+    "针对外部终末失稳时刻，构建以相对变形速率为状态的分段指数风险模型，并以固定高斯基函数与交互项描述非线性。13个失稳组及1个右删失组按物理事件整体留出；每折的标准化、正则选择和风险尺度校准均在其余13组内完成。",
+    "在每个物理组的固定回顾锚点上，无记录年龄RBF原始风险的48与72小时Brier分数分别为0.37392和0.30776，分母均为10个可判结局。与状态空间法在相同8组有效机会上比较，48小时Brier为0.30883与0.24289，72小时为0.24340与0.34692，表明两种模型的相对表现随时域改变。24小时仅有5个已知不失稳结局，单独列示其评分。",
+    "冻结发布时状态后，风险模型给出时域内失稳概率及条件于时域内失稳的中央95%时间区间。该条件区间与分布无关共形输出分别报告：现有每折最多13个潜在校准组，对应95%秩14，故不输出有限共形区间。",
+    "将似然积分节点由512增至1024后，RBF原始风险在48与72小时的固定锚点Brier分别变化0.00296与0.00215；风险集、标签和总暴露保持一致。文件起点年龄因依赖事后截窗规则而仅作诊断，主结果采用两维相对变形状态。"
+  ],
+  "paper_table_notes_zh": [
+    "风险单位h^{-1}，区间与暴露单位h，Brier无量纲且越低越好。",
+    "主C固定锚点：24/48/72h可判分母5/10/10；相应已知失稳数0/6/6。条件区间平均宽度的分母是实际发布锚点14/14/13，不能与覆盖分母0/6/6混写。",
+    "同机会比较的总病例14，48/72h共同可判且两者均发布概率的病例8（4阳4阴）；其余病例的未知或弃权仍保留在总病例报告。",
+    "72h的Weissmiess在选定记录中无可发布锚点：原C结果13组，公共表补齐为14病例，概率及区间为空。",
+    "模型内条件95%区间、标签全包含、标签相交和共形保证是不同量；六个可评阳性标签上界等于H，不能从固定锚点的0/6全包含率推断一般任意时刻95%校准。"
+  ],
+  "audit_checks": {
+    "no_model_refit": true,
+    "only_one_paper_file_written": true,
+    "physical_groups14_failures13_true_censor1": true,
+    "outer_folds_no_held_group_in_training": true,
+    "all_28_fit_records_same_rank14_upper13": true,
+    "pair_scores_recomputed_from_stored_small_probability_table": true,
+    "paired_source_matches_recomputed_numbers": true,
+    "all_source_paths_repo_relative": true,
+    "no_age_source_hash_equals_recorded_execution": true
+  },
+  "notation_for_paper": {
+    "t": "Reserved for the paper-wide UTC clock; not redefined by the C formulas.",
+    "s": "Native site-relative monitoring time in hours, used when source UTC is unknown.",
+    "u": "Hours after an issue.",
+    "Xi_i": "Random terminal-failure time on site i native monitoring clock.",
+    "Lambda_i": "Cumulative hazard after feature warmup a_i."
+  },
+  "ai_contribution": {
+    "tool": "Codex",
+    "contribution": "Read-only extraction of implemented C formulas and fold-specific parameters; recalculation of small-table group denominators, paired Brier scores and512/1024 sensitivity; primary-paper/official-source citation checks; drafting of this evidence JSON and suggested Chinese result paragraphs.",
+    "no_new_model_fit_or_data_acquisition_pipeline": true,
+    "human_role": "Team selects final method/wording and adopts scientific interpretation."
+  }
+}
