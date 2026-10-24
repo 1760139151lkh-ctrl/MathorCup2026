@@ -1,0 +1,17 @@
+{
+  "review_type": "read_only_interface_design",
+  "reviewed_at_utc": "2026-10-24T07:37:00Z",
+  "reviewer": "r3_export_reviewer",
+  "blocking_findings": [],
+  "checks": [
+    "failure margin sign/units/normalization and crossing interpolation/persistence",
+    "first sample unstable is left-censored, not a known first initiation",
+    "UTC origin, timestep and historical information cutoff",
+    "never crossed vs missing vs numerical failure; explicit probability priors/weights",
+    "release phase fractions basis, sum, density, volume integral and velocity coordinates",
+    "mechanical initiation to release delay separate from propagation delay",
+    "arrival threshold and never arrival/out-of-domain/failure statuses",
+    "scenario/model/mechanism/geometry/parameter version join prevents duplicate combinations"
+  ],
+  "action": "Checks delivered to Q2/Q3/Q4; no global truth/quality values changed"
+}
