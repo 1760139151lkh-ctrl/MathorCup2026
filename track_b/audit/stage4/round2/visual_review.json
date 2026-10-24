@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-10-24T06:30:54.437136+00:00",
+  "reviewer": "main_advisor_Codex",
+  "human_review": false,
+  "scope": "Actually opened all three integrated final PNGs; checked labels, annual n/unknown views, paper candidate overlay, source-channel gap, DEM extents and axis controls. No geographic truth or scientific model acceptance.",
+  "files": [
+    {
+      "path": "track_b/research/q1/round2/figures/equal_year_background.png",
+      "bytes": 228575,
+      "sha256": "da37e5681ebed6520680bb2e462ee5cd073adc1adc87057054a36cbc911ff127",
+      "actually_viewed": true
+    },
+    {
+      "path": "track_b/research/q4/round2/figures/candidate_geometry_coverage.png",
+      "bytes": 1677205,
+      "sha256": "d857c790fd6ccaf78f9a3bc8150e31769360cdd734c46f2dcceef59a4cba1f14",
+      "actually_viewed": true
+    },
+    {
+      "path": "track_b/research/q4/round2/figures/georeference_controls.png",
+      "bytes": 2163774,
+      "sha256": "5a90b4d325355ccae713c31fe6173e4aa4c78cc74aae1ec524bb6d00bd29e48e",
+      "actually_viewed": true
+    }
+  ]
+}
