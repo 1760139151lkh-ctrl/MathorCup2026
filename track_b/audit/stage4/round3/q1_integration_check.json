@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-24T08:54:40.267363+00:00",
+  "evidence": {
+    "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+    "source_commit": "8583b8164154abc0fa7a3f89f9f38efc780c5f3a",
+    "integration_commit": "a6162b313d21ee9d390eab8e845e77d95df86388",
+    "changed_paths_verified_in_main": 84,
+    "clean": true,
+    "five_exit_checks_passed": true,
+    "manifests": {
+      "input_manifest.json": {
+        "path": "track_b/research/q1/round3/results/input_manifest.json",
+        "file_count": 37,
+        "referenced_bytes": 40189736,
+        "sha256": "7cfcbd7b9d899932d073e3abc7c23bfd624780fbac6316003dc5247c5b2740ad",
+        "all_entries_match": true
+      },
+      "output_manifest.json": {
+        "path": "track_b/research/q1/round3/output_manifest.json",
+        "file_count": 79,
+        "referenced_bytes": 87036692,
+        "sha256": "f9066518e7466d3cfd5cda1b249fe27402ca8c245f27f4933c88a67bc083daab",
+        "all_entries_match": true
+      }
+    }
+  },
+  "scientific_review": {
+    "stable_output_count": 79,
+    "input_count": 37,
+    "bootstrap_consensus_valid": 44,
+    "requested": 100,
+    "ranking_comparison_max_error": 6.25e-17,
+    "all_300_folds_purged": true,
+    "adoption": "Conditional factor-family candidates only; fifth place disputed; no local validated disaster events."
+  }
+}

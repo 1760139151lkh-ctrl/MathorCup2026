@@ -20,13 +20,17 @@
       "previous_source_commit": "79f652a5b15a59250d63d4a3bb69fc1b469f20c5",
       "git_branch": "codex/track-b-q1-r3",
       "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
-      "status": "research_running",
+      "status": "integrated_research_packet",
       "dispatch_sent": true,
       "dispatch_at_utc": "2026-10-24T07:27:07.547238+00:00",
       "startup_verification": {
         "passed": true,
         "sha256": "b3c92ae897a2c6590ddc070d2152a04ce9c556f7d03db6257e2ea195b761299a"
-      }
+      },
+      "source_commit": "8583b8164154abc0fa7a3f89f9f38efc780c5f3a",
+      "integration_commit": "a6162b313d21ee9d390eab8e845e77d95df86388",
+      "output_files_verified": 79,
+      "final_output_manifest_sha256": "f9066518e7466d3cfd5cda1b249fe27402ca8c245f27f4933c88a67bc083daab"
     },
     {
       "question": "q2",
