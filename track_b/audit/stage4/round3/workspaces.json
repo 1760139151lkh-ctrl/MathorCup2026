@@ -60,7 +60,8 @@
       "increment_manifests": [
         "track_b/research/q2/round3/lab_strength/input_manifest.json",
         "track_b/research/q2/round3/lab_strength/output_manifest.json"
-      ]
+      ],
+      "output_manifest_scope": "immutable original core; external lab increment seal listed separately"
     },
     {
       "question": "q3",
@@ -73,7 +74,7 @@
       "previous_source_commit": "539df84bec574a27e3288c3dc944a87e692d7f4c",
       "git_branch": "codex/track-b-q3-r3",
       "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
-      "status": "core_and_domain_mapped_v2_integrated_pending_fullmask",
+      "status": "integrated_research_packet_pending_global_final_check",
       "dispatch_sent": true,
       "dispatch_at_utc": "2026-10-24T07:27:07.551750+00:00",
       "startup_verification": {
@@ -84,16 +85,19 @@
         "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial",
         "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official"
       ],
-      "source_commit": "0d5326d6e3428df4d714d8101c41c7c925eca0ef",
-      "integration_commit": "036b0dc5031e45c9110b2ef577002b43801289e8",
+      "source_commit": "f629a332844f07ff0be3275b74f24d7018fbdcac",
+      "integration_commit": "329a4550843fecd2e41562bdc4fd566d2cef13f2",
       "output_files_verified": 511,
       "final_output_manifest_sha256": "be979b3449118d8332ca7ff07c52c8c503889650246be8c97ac4d2f8565ee5b9",
       "increment_manifests": [
         "track_b/research/q3/round3/results/applicability_sensitivity/INPUT_MANIFEST.json",
         "track_b/research/q3/round3/results/applicability_sensitivity/OUTPUT_MANIFEST.json",
         "track_b/research/q3/round3/results/followup_v2/output_manifest.json",
-        "track_b/research/q3/round3/results/followup_v3/input_manifest.json"
-      ]
+        "track_b/research/q3/round3/results/followup_v3/input_manifest.json",
+        "track_b/research/q3/round3/results/final_propagation_v4/input_manifest.json",
+        "track_b/research/q3/round3/results/final_propagation_v4/output_manifest.json"
+      ],
+      "output_manifest_scope": "immutable original core; versioned incremental seals listed separately"
     },
     {
       "question": "q4",

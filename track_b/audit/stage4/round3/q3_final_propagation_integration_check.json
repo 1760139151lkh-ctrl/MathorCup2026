@@ -1,0 +1,30 @@
+{
+  "generated_utc": "2026-10-24T11:45:30.315273+00:00",
+  "source_commit": "f629a332844f07ff0be3275b74f24d7018fbdcac",
+  "integration_commit": "329a4550843fecd2e41562bdc4fd566d2cef13f2",
+  "manifests": [
+    {
+      "path": "track_b/research/q3/round3/results/final_propagation_v4/input_manifest.json",
+      "file_count": 230,
+      "referenced_bytes": 25259045,
+      "sha256": "40dd81ebd0dcab0d7748f385ac0975950352e1cd37569ad7670cf884ac0ef92b",
+      "all_entries_match": true
+    },
+    {
+      "path": "track_b/research/q3/round3/results/final_propagation_v4/output_manifest.json",
+      "file_count": 164,
+      "referenced_bytes": 5344949,
+      "sha256": "986cf532f935b08294d71675146e98c982a4d0e3be52a17507c44f25399babfc",
+      "all_entries_match": true
+    }
+  ],
+  "science_scope": "conditional interface/footprint diagnostics only; no accepted arrival or probability",
+  "all_increment_files_source_main_equal": 166,
+  "final_bundle_sha256": "b13db70865cfc8e233a9c97a896abf79da666b2a5aea71e25cca2da0a9b3d283",
+  "rows": 49,
+  "runs": 7,
+  "mechanical_designs": 4,
+  "qualified_arrival_rows": 0,
+  "local_validation_events": 0,
+  "passed": true
+}
