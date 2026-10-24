@@ -1,0 +1,210 @@
+{
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+  },
+  "file_count": 39,
+  "files": [
+    {
+      "path": "track_b/research/q2/round2/REMOTE_ACCESS_REVIEW.md",
+      "bytes": 3349,
+      "sha256": "6e4eae17614a577d154acec5b6b50faca29955618f1b2d5f7ef1208de25ec51e"
+    },
+    {
+      "path": "track_b/research/q2/round2/ROUTE_UPDATE.md",
+      "bytes": 3245,
+      "sha256": "79285971a41f0cb6285413a7788078518bf57999ef62ef691dc0adb1a05e8b87"
+    },
+    {
+      "path": "track_b/research/q2/round2/TASK.md",
+      "bytes": 6126,
+      "sha256": "40335d3dd463693c02eff85b4c3fdd3f705474335022a8c90edbe985116204ae"
+    },
+    {
+      "path": "track_b/research/q2/round2/VELOCITY_REVIEW.md",
+      "bytes": 7114,
+      "sha256": "98410b4b602f738e7969cec2294d07604cb7b2d610dcf811f7ca150bbcd4857f"
+    },
+    {
+      "path": "track_b/research/q2/round2/input_manifest.json",
+      "bytes": 8661,
+      "sha256": "d199fb3c1b04b2e5b4792fcd8f14aa8f13fb45d07c91031abf371200b3f3c644"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/advisor_aoi_review.json",
+      "bytes": 3249,
+      "sha256": "5be13b550bcf9f3f06dae87ac5e6a5cc731bf569af08331da27d46aaf9deda5e"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/georeference_controls.csv",
+      "bytes": 1088,
+      "sha256": "6e404e7bf960ed2798cc85a576f9a85c4e7a10aba2cff7d1dc6776bac8a1f4e1"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/georeference_review.json",
+      "bytes": 3453,
+      "sha256": "beda557273033ea212d6fcd523661864220f79aee095541db5c48b79b246ee68"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/search_aoi.geojson",
+      "bytes": 1225,
+      "sha256": "14db392ea6d318c2df34152af950b227653fd1f938aed1f4aa9eedf92c29579f"
+    },
+    {
+      "path": "track_b/research/q2/round2/inputs/search_aoi_evidence.json",
+      "bytes": 6107,
+      "sha256": "78ff69266903ee77626679b0bba542ec36f1e73e3d39581909543d63ba262d14"
+    },
+    {
+      "path": "track_b/research/q2/round2/network_budget.json",
+      "bytes": 3386,
+      "sha256": "5cab64fb5f8d2c4b387d3e6f0489f6254a74b9d6d42f3bcebe266e96c6e894fe"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/INDEPENDENT_REVIEW.md",
+      "bytes": 1193,
+      "sha256": "ca266bf84faf5e23ecb6df630549a4a8837880a92863b087af64dd7b138c4ee9"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/aoi_pixel_support.csv",
+      "bytes": 3893,
+      "sha256": "0b50dacfb6df1558d914e2357d27d3e7cd125880c7943feeab8f845785dfdadf"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/aoi_support_check.json",
+      "bytes": 1000,
+      "sha256": "2b0eda98175fc9cd247d12f2589fe45f7c5c82365371f1d557b8083096192a31"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/network_guard_checks.json",
+      "bytes": 887,
+      "sha256": "edad618dcb82982e26deeccbb37217f46eeae7810ccda7232bc73874903ef800"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/pair_access.json",
+      "bytes": 7636,
+      "sha256": "268a4d473aa4dbeccc86ee0ae848f50af3e262c330327b5dfaa7156001ac2688"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/parameter_evidence_update.csv",
+      "bytes": 7458,
+      "sha256": "16b931a5a039394f96aa01954a7b82ce405cbdff3c82c4fc102c5322ad409037"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/result_index.json",
+      "bytes": 2104,
+      "sha256": "0586ed8055f2c773d7ca150757e61a1e0f25ca1eedaa85e8dcb43b9f711f2f21"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/source_register.json",
+      "bytes": 18230,
+      "sha256": "3117083c1e0a1dc0ffd5281a2b7c5dbc18688e6c07809a85086c779203211292"
+    },
+    {
+      "path": "track_b/research/q2/round2/results/velocity_definition_chain.csv",
+      "bytes": 26323,
+      "sha256": "3a0566f4106fc59457a71388c03207e4e07f4433dcb24ba784fc07c9d0fc2f90"
+    },
+    {
+      "path": "track_b/research/q2/round2/scripts/check_aoi_support.py",
+      "bytes": 6974,
+      "sha256": "1e98cbabee6b0134d685a179e530464d5f11aebef99fd7225977b953f1abfe29"
+    },
+    {
+      "path": "track_b/research/q2/round2/scripts/check_network_guards.py",
+      "bytes": 5285,
+      "sha256": "85ea7b26f57ac99bbd94317afef6cb0a2045c66d2a0cb40ee0e3089db85638c0"
+    },
+    {
+      "path": "track_b/research/q2/round2/scripts/consolidate_round2.py",
+      "bytes": 13319,
+      "sha256": "d9a80fe3a83595dc439b05cf51df9792434efc780b59da87ce30c4676b4d5291"
+    },
+    {
+      "path": "track_b/research/q2/round2/scripts/probe_pair.py",
+      "bytes": 9969,
+      "sha256": "85e08b0dfbb776072bd46f3a01f6f8d6d74fc4ba18ae001996d3f3d168858b7d"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/sar/post_response.bin",
+      "bytes": 96,
+      "sha256": "fb58dd1030f2bd760f499323e8e64f3031b301c5cdfdf8c34c8cc5399b0fd281"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/sar/pre_response.bin",
+      "bytes": 96,
+      "sha256": "08390bc876c5c0683edb3c1fcc1f3b54b640f8cd94521a0ad922ecda7bb95387"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_build_chain.py",
+      "bytes": 11772,
+      "sha256": "49aca24bdbb843fab9068d2cc6ebd7a65b5e8643568ce27c86453e8f55108066"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_itslive_composite.py",
+      "bytes": 138321,
+      "sha256": "a5dae95a8ffb6f6efd3ca913e6791001e6dee109640e3012376e95f56586d3ee"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_itslive_mosaics_types.py",
+      "bytes": 8393,
+      "sha256": "e7a5a45922e645dd1df04745f4b103e21fd7ea8b2fcacfe10a7ae5e45ca08680"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_nsidc_mosaics_v2.py",
+      "bytes": 22772,
+      "sha256": "739d112fecd58cd629d568dce5fdce9e63299ee0ad68b5278825a95c3615712d"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_nsidc_v2_userguide.pdf",
+      "bytes": 383248,
+      "sha256": "206c62e5d9d1cc2612b15cd4c0879df0bbd03a980f49b8cb9b80b4bd02349587"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-04.png",
+      "bytes": 107231,
+      "sha256": "2a68d99b13df70876d958ae65bd30ddb943a2a2386812a12fea3ae7e6c53e8ae"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-05.png",
+      "bytes": 102450,
+      "sha256": "c69d3532ced9c551dea46e07761e2b3604b2aea6c631f36d9c6447f704c79b50"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-10.png",
+      "bytes": 163672,
+      "sha256": "2d19c4456d46f1de671c03ac0c4af881dddfa0b777d2885135abf9253364dcc6"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-11.png",
+      "bytes": 101150,
+      "sha256": "c6a162a4f7dc48d8f641787e263d0b403222edd2ebb434c6636b5e5842106661"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_s3_README.html",
+      "bytes": 19184,
+      "sha256": "decc808da4b5c77560803d7003c483a14bd2bf2bd0338c1abe446fb2ea5ae556"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_source_register.json",
+      "bytes": 17508,
+      "sha256": "1ff1f5e3a0cb11232f6ce08d6c7e586b6561f65658864766035bfe82fdc199fb"
+    },
+    {
+      "path": "track_b/research/q2/round2/workspace_binding.json",
+      "bytes": 734,
+      "sha256": "5e6370c4d9e092aa14ebaefbff2d46c046112409e36e1171dff8b11750e5b5ff"
+    },
+    {
+      "path": "track_b/research/q2/round2/workspace_verification.json",
+      "bytes": 4530,
+      "sha256": "345cf784a0e788bfba121cfcba49bb5515ad3e5a8d32009c9efa586f024e87a7"
+    }
+  ],
+  "excluded": [
+    "output_manifest.json: self-reference",
+    "HANDOFF.md: Git binds handoff text, avoids circular manifest reference",
+    "__pycache__: runtime cache"
+  ],
+  "scope": "Exact current delivery bytes; rerun offline steps then regenerate before validating after timestamp changes."
+}

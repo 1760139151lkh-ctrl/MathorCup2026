@@ -1,0 +1,187 @@
+{
+  "generated_at_utc": "2026-10-24T06:02:14.997949+00:00",
+  "scene_count": 2,
+  "scope": "Only fixed orbit-121 VV pair; header probes do not establish AOI pixel support.",
+  "records": [
+    {
+      "event_id": "B20260826_Chhochen",
+      "physical_phase": "pre_event_remote_candidate",
+      "time_utc": "2026-08-19T00:10:36.889384Z",
+      "time_uncertainty": null,
+      "space_object": {
+        "id": "scene_catalogue_footprint",
+        "crs": "EPSG:4326",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                87.76828,
+                27.070326
+              ],
+              [
+                88.040062,
+                28.588068
+              ],
+              [
+                85.468857,
+                28.997923
+              ],
+              [
+                85.232002,
+                27.484329
+              ],
+              [
+                87.76828,
+                27.070326
+              ]
+            ]
+          ]
+        },
+        "true_failure_geometry_verified": false
+      },
+      "variable_semantics": {
+        "polarization": "VV",
+        "product": "GRD COG",
+        "catalogue_type": "image/tiff; application=geotiff; profile=cloud-optimized"
+      },
+      "available_time": null,
+      "forecast_reference_time": null,
+      "issue_time": null,
+      "valid_time": "2026-08-19T00:10:36.889384Z",
+      "data_role": "exploration",
+      "input_version": {
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+      },
+      "evidence_status": "local_fact",
+      "scene_id": "S1D_IW_GRDH_1SDV_20260819T001036_20260819T001101_004187_007ABD_B38C_COG",
+      "asset_url": "https://download.dataspace.copernicus.eu/odata/v1/Products(f602b1b7-1ed0-417d-91e7-27991b733982)/Nodes(S1D_IW_GRDH_1SDV_20260819T001036_20260819T001101_004187_007ABD_B38C_COG.SAFE)/Nodes(measurement)/Nodes(s1d-iw-grd-vv-20260819t001036-20260819t001101-004187-007abd-001-cog.tiff)/$value",
+      "catalogue_asset_size_bytes": 671193558,
+      "requests": [
+        {
+          "request_id": 1,
+          "scene_id": "S1D_IW_GRDH_1SDV_20260819T001036_20260819T001101_004187_007ABD_B38C_COG",
+          "purpose": "VV COG header/range capability; no AOI pixels requested",
+          "method": "GET",
+          "url": "https://download.dataspace.copernicus.eu/odata/v1/Products(f602b1b7-1ed0-417d-91e7-27991b733982)/Nodes(S1D_IW_GRDH_1SDV_20260819T001036_20260819T001101_004187_007ABD_B38C_COG.SAFE)/Nodes(measurement)/Nodes(s1d-iw-grd-vv-20260819t001036-20260819t001101-004187-007abd-001-cog.tiff)/$value",
+          "range": "bytes=0-16383",
+          "requested_max_success_body_bytes": 16384,
+          "started_at_utc": "2026-10-24T06:00:14.801270+00:00",
+          "body_bytes_consumed": 96,
+          "http_status": 401,
+          "body_path": "track_b/research/q2/round2/sources/sar/pre_response.bin",
+          "sha256": "08390bc876c5c0683edb3c1fcc1f3b54b640f8cd94521a0ad922ecda7bb95387",
+          "range_honoured": false,
+          "usable_pixels_obtained": false,
+          "tiff_header_verified": false,
+          "outcome": "anonymous_authentication_or_authorization_failure",
+          "content_type": "application/json; charset=utf-8",
+          "content_length": "96",
+          "content_range": null,
+          "accept_ranges": null,
+          "location": null,
+          "etag": null,
+          "last_modified": null,
+          "ended_at_utc": "2026-10-24T06:00:16.350297+00:00",
+          "combined_consumed_after_request": 96
+        }
+      ],
+      "access_outcome": "anonymous_authentication_or_authorization_failure",
+      "usable_pixels_obtained": false,
+      "co_registration_verified": false,
+      "change_interpretation_verified": false
+    },
+    {
+      "event_id": "B20260826_Chhochen",
+      "physical_phase": "post_event_remote_candidate",
+      "time_utc": "2026-08-31T00:10:37.647071Z",
+      "time_uncertainty": null,
+      "space_object": {
+        "id": "scene_catalogue_footprint",
+        "crs": "EPSG:4326",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                87.767586,
+                27.070356
+              ],
+              [
+                88.039307,
+                28.588013
+              ],
+              [
+                85.467896,
+                28.997856
+              ],
+              [
+                85.231094,
+                27.48435
+              ],
+              [
+                87.767586,
+                27.070356
+              ]
+            ]
+          ]
+        },
+        "true_failure_geometry_verified": false
+      },
+      "variable_semantics": {
+        "polarization": "VV",
+        "product": "GRD COG",
+        "catalogue_type": "image/tiff; application=geotiff; profile=cloud-optimized"
+      },
+      "available_time": null,
+      "forecast_reference_time": null,
+      "issue_time": null,
+      "valid_time": "2026-08-31T00:10:37.647071Z",
+      "data_role": "exploration",
+      "input_version": {
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+      },
+      "evidence_status": "local_fact",
+      "scene_id": "S1D_IW_GRDH_1SDV_20260831T001037_20260831T001102_004362_0080EC_65B9_COG",
+      "asset_url": "https://download.dataspace.copernicus.eu/odata/v1/Products(e9713b54-de96-4bb1-a3f9-079c9660a442)/Nodes(S1D_IW_GRDH_1SDV_20260831T001037_20260831T001102_004362_0080EC_65B9_COG.SAFE)/Nodes(measurement)/Nodes(s1d-iw-grd-vv-20260831t001037-20260831t001102-004362-0080ec-001-cog.tiff)/$value",
+      "catalogue_asset_size_bytes": 671749872,
+      "requests": [
+        {
+          "request_id": 2,
+          "scene_id": "S1D_IW_GRDH_1SDV_20260831T001037_20260831T001102_004362_0080EC_65B9_COG",
+          "purpose": "VV COG header/range capability; no AOI pixels requested",
+          "method": "GET",
+          "url": "https://download.dataspace.copernicus.eu/odata/v1/Products(e9713b54-de96-4bb1-a3f9-079c9660a442)/Nodes(S1D_IW_GRDH_1SDV_20260831T001037_20260831T001102_004362_0080EC_65B9_COG.SAFE)/Nodes(measurement)/Nodes(s1d-iw-grd-vv-20260831t001037-20260831t001102-004362-0080ec-001-cog.tiff)/$value",
+          "range": "bytes=0-16383",
+          "requested_max_success_body_bytes": 16384,
+          "started_at_utc": "2026-10-24T06:00:16.352387+00:00",
+          "body_bytes_consumed": 96,
+          "http_status": 401,
+          "body_path": "track_b/research/q2/round2/sources/sar/post_response.bin",
+          "sha256": "fb58dd1030f2bd760f499323e8e64f3031b301c5cdfdf8c34c8cc5399b0fd281",
+          "range_honoured": false,
+          "usable_pixels_obtained": false,
+          "tiff_header_verified": false,
+          "outcome": "anonymous_authentication_or_authorization_failure",
+          "content_type": "application/json; charset=utf-8",
+          "content_length": "96",
+          "content_range": null,
+          "accept_ranges": null,
+          "location": null,
+          "etag": null,
+          "last_modified": null,
+          "ended_at_utc": "2026-10-24T06:00:17.732234+00:00",
+          "combined_consumed_after_request": 192
+        }
+      ],
+      "access_outcome": "anonymous_authentication_or_authorization_failure",
+      "usable_pixels_obtained": false,
+      "co_registration_verified": false,
+      "change_interpretation_verified": false
+    }
+  ],
+  "network_body_bytes": 192,
+  "max_network_body_bytes": 134217728
+}

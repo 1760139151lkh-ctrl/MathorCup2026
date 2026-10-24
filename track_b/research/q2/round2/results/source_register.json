@@ -1,0 +1,370 @@
+{
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "background_evidence_review",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "id": "NC_parameter_domain_or_reviewed_search_AOI",
+    "true_failure_geometry_verified": false
+  },
+  "variable_semantics": "historical product and access evidence only; no event parameter estimates",
+  "available_time": null,
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "data_role": "exploration",
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+  },
+  "evidence_status": "local_fact",
+  "generated_at_utc": "2026-10-24T06:15:10.342315+00:00",
+  "records": [
+    {
+      "source_id": "velocity_itslive_composite.py",
+      "url": "https://raw.githubusercontent.com/nasa-jpl/its_live_production/8a39afbd8279d94c4b1d3e7b99b722527f66a85c/src/itslive_composite.py",
+      "retrieved_at_utc": "2026-10-24T06:01:34.334383+00:00",
+      "version": "8a39afbd8279d94c4b1d3e7b99b722527f66a85c",
+      "status": "retrieved",
+      "actual_reading_scope": "Read source-text lines 995-1040,1222-1315,1408-1498,2900-2960,3480-3505; searched year/default/magnitude anchors throughout. No import/execution; composite definition only, not proven local maker version.",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "saved_path": "track_b/research/q2/round2/sources/velocity_itslive_composite.py",
+      "bytes": 138321,
+      "sha256": "a5dae95a8ffb6f6efd3ca913e6791001e6dee109640e3012376e95f56586d3ee",
+      "final_url": "https://raw.githubusercontent.com/nasa-jpl/its_live_production/8a39afbd8279d94c4b1d3e7b99b722527f66a85c/src/itslive_composite.py",
+      "input_version": {
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+      },
+      "event_id": "B20260826_Chhochen",
+      "physical_phase": "background",
+      "time_utc": null,
+      "time_uncertainty": null,
+      "space_object": {
+        "id": "NC_parameter_domain_not_failure_geometry",
+        "crs": "EPSG:32645",
+        "resolution_m": 30,
+        "positional_uncertainty": null,
+        "velocity_vector_frame_verified": false
+      },
+      "variable_semantics": {
+        "units": "meter/year",
+        "qc_policy": "all raw values retained; product chain and uncertainty unresolved",
+        "statistical_period_local_claim": [
+          2014,
+          2024
+        ],
+        "statistical_intercept_date_local_claim": "2018-01-01"
+      },
+      "available_time": null,
+      "forecast_reference_time": null,
+      "issue_time": null,
+      "valid_time": null,
+      "data_role": "exploration",
+      "evidence_status": "external_source",
+      "null_reason": "Source retrieval time does not prove historical operational availability; no event observation time is asserted.",
+      "read_at_utc": "2026-10-24T06:07:01.400189+00:00"
+    },
+    {
+      "source_id": "velocity_itslive_mosaics_types.py",
+      "url": "https://raw.githubusercontent.com/nasa-jpl/its_live_production/8a39afbd8279d94c4b1d3e7b99b722527f66a85c/src/itslive_mosaics_types.py",
+      "retrieved_at_utc": "2026-10-24T06:01:36.949378+00:00",
+      "version": "8a39afbd8279d94c4b1d3e7b99b722527f66a85c",
+      "status": "retrieved",
+      "actual_reading_scope": "Read source-text lines 88-185: field names, standard names and descriptions. No execution.",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "saved_path": "track_b/research/q2/round2/sources/velocity_itslive_mosaics_types.py",
+      "bytes": 8393,
+      "sha256": "e7a5a45922e645dd1df04745f4b103e21fd7ea8b2fcacfe10a7ae5e45ca08680",
+      "final_url": "https://raw.githubusercontent.com/nasa-jpl/its_live_production/8a39afbd8279d94c4b1d3e7b99b722527f66a85c/src/itslive_mosaics_types.py",
+      "input_version": {
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+      },
+      "event_id": "B20260826_Chhochen",
+      "physical_phase": "background",
+      "time_utc": null,
+      "time_uncertainty": null,
+      "space_object": {
+        "id": "NC_parameter_domain_not_failure_geometry",
+        "crs": "EPSG:32645",
+        "resolution_m": 30,
+        "positional_uncertainty": null,
+        "velocity_vector_frame_verified": false
+      },
+      "variable_semantics": {
+        "units": "meter/year",
+        "qc_policy": "all raw values retained; product chain and uncertainty unresolved",
+        "statistical_period_local_claim": [
+          2014,
+          2024
+        ],
+        "statistical_intercept_date_local_claim": "2018-01-01"
+      },
+      "available_time": null,
+      "forecast_reference_time": null,
+      "issue_time": null,
+      "valid_time": null,
+      "data_role": "exploration",
+      "evidence_status": "external_source",
+      "null_reason": "Source retrieval time does not prove historical operational availability; no event observation time is asserted.",
+      "read_at_utc": "2026-10-24T06:07:01.400189+00:00"
+    },
+    {
+      "source_id": "velocity_nsidc_v2_userguide.pdf",
+      "url": "https://nsidc.org/sites/default/files/documents/user-guide/nsidc-0776-v002-userguide.pdf",
+      "retrieved_at_utc": "2026-10-24T06:01:38.793224+00:00",
+      "version": "NSIDC-0776 Version 2; guide published/updated July 2025; 2014-2022 climatology; not local v2.1 release authentication",
+      "status": "retrieved",
+      "actual_reading_scope": "Read complete relevant pages: printed 2-4,6,8-10 and publication/update on printed 11-12 via PDF text; visually opened full rendered printed pages 3,4,9,10. Table 2, Sections 1,2.2.1-2.2.3,7; no claim full referenced product-description paper read.",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "saved_path": "track_b/research/q2/round2/sources/velocity_nsidc_v2_userguide.pdf",
+      "bytes": 383248,
+      "sha256": "206c62e5d9d1cc2612b15cd4c0879df0bbd03a980f49b8cb9b80b4bd02349587",
+      "final_url": "https://nsidc.org/sites/default/files/documents/user-guide/nsidc-0776-v002-userguide.pdf",
+      "input_version": {
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+      },
+      "event_id": "B20260826_Chhochen",
+      "physical_phase": "background",
+      "time_utc": null,
+      "time_uncertainty": null,
+      "space_object": {
+        "id": "NC_parameter_domain_not_failure_geometry",
+        "crs": "EPSG:32645",
+        "resolution_m": 30,
+        "positional_uncertainty": null,
+        "velocity_vector_frame_verified": false
+      },
+      "variable_semantics": {
+        "units": "meter/year",
+        "qc_policy": "all raw values retained; product chain and uncertainty unresolved",
+        "statistical_period_local_claim": [
+          2014,
+          2024
+        ],
+        "statistical_intercept_date_local_claim": "2018-01-01"
+      },
+      "available_time": null,
+      "forecast_reference_time": null,
+      "issue_time": null,
+      "valid_time": null,
+      "data_role": "exploration",
+      "evidence_status": "external_source",
+      "null_reason": "Source retrieval time does not prove historical operational availability; no event observation time is asserted.",
+      "read_at_utc": "2026-10-24T06:07:01.400189+00:00"
+    },
+    {
+      "source_id": "velocity_s3_README.html",
+      "url": "https://its-live-data.s3.amazonaws.com/README.html",
+      "retrieved_at_utc": "2026-10-24T06:01:41.620867+00:00",
+      "version": "as retrieved; content hash binds snapshot",
+      "status": "retrieved",
+      "actual_reading_scope": "Read body README dataset/Accessing data/prefix listings/license; no linked data object listing or pixel download.",
+      "http_status": 200,
+      "content_type": "text/html",
+      "saved_path": "track_b/research/q2/round2/sources/velocity_s3_README.html",
+      "bytes": 19184,
+      "sha256": "decc808da4b5c77560803d7003c483a14bd2bf2bd0338c1abe446fb2ea5ae556",
+      "final_url": "https://its-live-data.s3.amazonaws.com/README.html",
+      "input_version": {
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+      },
+      "event_id": "B20260826_Chhochen",
+      "physical_phase": "background",
+      "time_utc": null,
+      "time_uncertainty": null,
+      "space_object": {
+        "id": "NC_parameter_domain_not_failure_geometry",
+        "crs": "EPSG:32645",
+        "resolution_m": 30,
+        "positional_uncertainty": null,
+        "velocity_vector_frame_verified": false
+      },
+      "variable_semantics": {
+        "units": "meter/year",
+        "qc_policy": "all raw values retained; product chain and uncertainty unresolved",
+        "statistical_period_local_claim": [
+          2014,
+          2024
+        ],
+        "statistical_intercept_date_local_claim": "2018-01-01"
+      },
+      "available_time": null,
+      "forecast_reference_time": null,
+      "issue_time": null,
+      "valid_time": null,
+      "data_role": "exploration",
+      "evidence_status": "external_source",
+      "null_reason": "Source retrieval time does not prove historical operational availability; no event observation time is asserted.",
+      "read_at_utc": "2026-10-24T06:07:01.400189+00:00"
+    },
+    {
+      "source_id": "velocity_nsidc_mosaics_v2.py",
+      "url": "https://raw.githubusercontent.com/nasa-jpl/its_live_production/8a39afbd8279d94c4b1d3e7b99b722527f66a85c/src/tools/NSIDC/nsidc_mosaics_v2.py",
+      "retrieved_at_utc": "2026-10-24T06:02:37.637630+00:00",
+      "version": "8a39afbd8279d94c4b1d3e7b99b722527f66a85c",
+      "status": "retrieved",
+      "actual_reading_scope": "Read source-text lines 35-115,345-380,440-480: static period and attribute conversion version boundaries. No execution.",
+      "http_status": 200,
+      "saved_path": "track_b/research/q2/round2/sources/velocity_nsidc_mosaics_v2.py",
+      "bytes": 22772,
+      "sha256": "739d112fecd58cd629d568dce5fdce9e63299ee0ad68b5278825a95c3615712d",
+      "input_version": {
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+      },
+      "event_id": "B20260826_Chhochen",
+      "physical_phase": "background",
+      "time_utc": null,
+      "time_uncertainty": null,
+      "space_object": {
+        "id": "NC_parameter_domain_not_failure_geometry",
+        "crs": "EPSG:32645",
+        "resolution_m": 30,
+        "positional_uncertainty": null,
+        "velocity_vector_frame_verified": false
+      },
+      "variable_semantics": {
+        "units": "meter/year",
+        "qc_policy": "all raw values retained; product chain and uncertainty unresolved",
+        "statistical_period_local_claim": [
+          2014,
+          2024
+        ],
+        "statistical_intercept_date_local_claim": "2018-01-01"
+      },
+      "available_time": null,
+      "forecast_reference_time": null,
+      "issue_time": null,
+      "valid_time": null,
+      "data_role": "exploration",
+      "evidence_status": "external_source",
+      "null_reason": "Source retrieval time does not prove historical operational availability; no event observation time is asserted.",
+      "read_at_utc": "2026-10-24T06:07:01.400189+00:00"
+    },
+    {
+      "event_id": "B20260826_Chhochen",
+      "physical_phase": "background_evidence_review",
+      "time_utc": null,
+      "time_uncertainty": null,
+      "space_object": {
+        "id": "NC_parameter_domain_or_reviewed_search_AOI",
+        "true_failure_geometry_verified": false
+      },
+      "variable_semantics": "historical product and access evidence only; no event parameter estimates",
+      "available_time": null,
+      "forecast_reference_time": null,
+      "issue_time": null,
+      "valid_time": null,
+      "data_role": "exploration",
+      "input_version": {
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+      },
+      "evidence_status": "local_fact",
+      "source_id": "sar_request_1",
+      "url": "https://download.dataspace.copernicus.eu/odata/v1/Products(f602b1b7-1ed0-417d-91e7-27991b733982)/Nodes(S1D_IW_GRDH_1SDV_20260819T001036_20260819T001101_004187_007ABD_B38C_COG.SAFE)/Nodes(measurement)/Nodes(s1d-iw-grd-vv-20260819t001036-20260819t001101-004187-007abd-001-cog.tiff)/$value",
+      "version": "S1D_IW_GRDH_1SDV_20260819T001036_20260819T001101_004187_007ABD_B38C_COG",
+      "retrieved_at_utc": "2026-10-24T06:00:16.350297+00:00",
+      "actual_reading_scope": "Anonymous Range header probe received 401 JSON; error body only, not TIFF/pixels.",
+      "http_status": 401,
+      "saved_path": "track_b/research/q2/round2/sources/sar/pre_response.bin",
+      "bytes": 96,
+      "sha256": "08390bc876c5c0683edb3c1fcc1f3b54b640f8cd94521a0ad922ecda7bb95387",
+      "outcome": "excluded_with_reason"
+    },
+    {
+      "event_id": "B20260826_Chhochen",
+      "physical_phase": "background_evidence_review",
+      "time_utc": null,
+      "time_uncertainty": null,
+      "space_object": {
+        "id": "NC_parameter_domain_or_reviewed_search_AOI",
+        "true_failure_geometry_verified": false
+      },
+      "variable_semantics": "historical product and access evidence only; no event parameter estimates",
+      "available_time": null,
+      "forecast_reference_time": null,
+      "issue_time": null,
+      "valid_time": null,
+      "data_role": "exploration",
+      "input_version": {
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+      },
+      "evidence_status": "local_fact",
+      "source_id": "sar_request_2",
+      "url": "https://download.dataspace.copernicus.eu/odata/v1/Products(e9713b54-de96-4bb1-a3f9-079c9660a442)/Nodes(S1D_IW_GRDH_1SDV_20260831T001037_20260831T001102_004362_0080EC_65B9_COG.SAFE)/Nodes(measurement)/Nodes(s1d-iw-grd-vv-20260831t001037-20260831t001102-004362-0080ec-001-cog.tiff)/$value",
+      "version": "S1D_IW_GRDH_1SDV_20260831T001037_20260831T001102_004362_0080EC_65B9_COG",
+      "retrieved_at_utc": "2026-10-24T06:00:17.732234+00:00",
+      "actual_reading_scope": "Anonymous Range header probe received 401 JSON; error body only, not TIFF/pixels.",
+      "http_status": 401,
+      "saved_path": "track_b/research/q2/round2/sources/sar/post_response.bin",
+      "bytes": 96,
+      "sha256": "fb58dd1030f2bd760f499323e8e64f3031b301c5cdfdf8c34c8cc5399b0fd281",
+      "outcome": "excluded_with_reason"
+    }
+  ],
+  "official_velocity_document_count": 5,
+  "official_velocity_source_body_bytes": 571918,
+  "sar_response_body_budget_accounted_separately": true,
+  "sar_response_body_bytes": 192,
+  "aoi_approval": {
+    "path": "track_b/research/q2/round2/inputs/advisor_aoi_review.json",
+    "sha256": "5be13b550bcf9f3f06dae87ac5e6a5cc731bf569af08331da27d46aaf9deda5e",
+    "purpose": "search_only"
+  },
+  "rendered_pages_opened": [
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-04.png",
+      "bytes": 107231,
+      "sha256": "2a68d99b13df70876d958ae65bd30ddb943a2a2386812a12fea3ae7e6c53e8ae",
+      "read_at_utc": "2026-10-24T06:07:01.400189+00:00",
+      "role": "rendered source page visual inspection; not new scientific figure",
+      "source_pdf_path": "track_b/research/q2/round2/sources/velocity_nsidc_v2_userguide.pdf",
+      "source_pdf_page_one_based": 4,
+      "source_printed_page": 3,
+      "visual_review": "opened with view_image; complete page inspected for climatological Table 2 or process/quality section, including table headings, units and footnotes"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-05.png",
+      "bytes": 102450,
+      "sha256": "c69d3532ced9c551dea46e07761e2b3604b2aea6c631f36d9c6447f704c79b50",
+      "read_at_utc": "2026-10-24T06:07:01.400189+00:00",
+      "role": "rendered source page visual inspection; not new scientific figure",
+      "source_pdf_path": "track_b/research/q2/round2/sources/velocity_nsidc_v2_userguide.pdf",
+      "source_pdf_page_one_based": 5,
+      "source_printed_page": 4,
+      "visual_review": "opened with view_image; complete page inspected for climatological Table 2 or process/quality section, including table headings, units and footnotes"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-10.png",
+      "bytes": 163672,
+      "sha256": "2d19c4456d46f1de671c03ac0c4af881dddfa0b777d2885135abf9253364dcc6",
+      "read_at_utc": "2026-10-24T06:07:01.400189+00:00",
+      "role": "rendered source page visual inspection; not new scientific figure",
+      "source_pdf_path": "track_b/research/q2/round2/sources/velocity_nsidc_v2_userguide.pdf",
+      "source_pdf_page_one_based": 10,
+      "source_printed_page": 9,
+      "visual_review": "opened with view_image; complete page inspected for climatological Table 2 or process/quality section, including table headings, units and footnotes"
+    },
+    {
+      "path": "track_b/research/q2/round2/sources/velocity_pdf_review-11.png",
+      "bytes": 101150,
+      "sha256": "c6a162a4f7dc48d8f641787e263d0b403222edd2ebb434c6636b5e5842106661",
+      "read_at_utc": "2026-10-24T06:07:01.400189+00:00",
+      "role": "rendered source page visual inspection; not new scientific figure",
+      "source_pdf_path": "track_b/research/q2/round2/sources/velocity_nsidc_v2_userguide.pdf",
+      "source_pdf_page_one_based": 11,
+      "source_printed_page": 10,
+      "visual_review": "opened with view_image; complete page inspected for climatological Table 2 or process/quality section, including table headings, units and footnotes"
+    }
+  ],
+  "no_historical_available_time_inferred_from_retrieval": true
+}

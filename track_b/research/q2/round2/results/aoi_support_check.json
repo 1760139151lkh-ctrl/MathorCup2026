@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-10-24T06:07:31.430984+00:00",
+  "offline": true,
+  "aoi": "track_b/research/q2/round2/inputs/search_aoi.geojson",
+  "aoi_sha256": "14db392ea6d318c2df34152af950b227653fd1f938aed1f4aa9eedf92c29579f",
+  "approval_record": "track_b/research/q2/round2/inputs/advisor_aoi_review.json",
+  "approval_sha256": "5be13b550bcf9f3f06dae87ac5e6a5cc731bf569af08331da27d46aaf9deda5e",
+  "producer_evidence_sha256": "78ff69266903ee77626679b0bba542ec36f1e73e3d39581909543d63ba262d14",
+  "producer_pending_fields_preserved": true,
+  "features": 1,
+  "rows": 2,
+  "all_search_features_contained_in_both_catalogue_footprints": false,
+  "all_search_features_intersect_both_catalogue_footprints": true,
+  "all_three_retrospective_map_symbol_anchors_inside_both_footprints": true,
+  "usable_pixels_obtained": false,
+  "network_requests_this_step": 0,
+  "scope": "Catalogue topology of reviewed search geometry; not exact ground coverage, failure geometry, image quality or change detection."
+}

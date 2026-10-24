@@ -1,0 +1,37 @@
+{
+  "generated_at_utc": "2026-10-24T06:02:14.810456+00:00",
+  "offline": true,
+  "real_network_requests": 0,
+  "passed": true,
+  "checks": [
+    {
+      "name": "range_200_stops_before_body_read",
+      "passed": true
+    },
+    {
+      "name": "oversize_content_range_rejected_before_body",
+      "passed": true
+    },
+    {
+      "name": "valid_partial_tiff_header_only_no_pixel_claim",
+      "passed": true
+    },
+    {
+      "name": "both_failed_scene_bodies_accumulate_and_persist",
+      "passed": true
+    },
+    {
+      "name": "error_body_capture_has_64k_bound",
+      "passed": true
+    },
+    {
+      "name": "remaining_budget_checked_before_request",
+      "passed": true
+    },
+    {
+      "name": "redirect_not_followed_or_consumed",
+      "passed": true
+    }
+  ],
+  "scope": "Synthetic HTTP fixtures validate client stop rules; not provider Range or pixel capability."
+}
