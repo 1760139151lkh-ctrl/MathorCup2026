@@ -1,6 +1,6 @@
 {
   "round": "round3",
-  "updated_utc": "2026-10-24T11:11:57.013243+00:00",
+  "updated_utc": "2026-10-24T11:23:47.487128+00:00",
   "status": "q1_q2_q3_core_integrated_q4_and_coupling_pending",
   "reviewer": "main advisor and independent AI read-only reviewers; not human scientific adoption",
   "q1": {
@@ -280,5 +280,42 @@
     "mechanical_to_bulk_release_lag": "unknown",
     "legacy_expected_reference_volume_not_used_for_input_acceptance": true,
     "scope": "selected scenarios, not a weighted full2048 forecast ensemble; initial and full release geometries remain distinct"
+  },
+  "q4_compact_delta_review": {
+    "status": "independently_reviewed_delivered_conditional_only",
+    "bundle_sha256": "28c67deb49d694e992c005365cf19c73d1db31a89126f64dbe8b6973adba61cb",
+    "files_verified": 48,
+    "target_rows_independently_recomputed": 14,
+    "parent_mechanisms": [
+      "SH",
+      "STH"
+    ],
+    "never_crossed_parent_preserved_if_released": "p0072-SH",
+    "junction_brackets_s": [
+      [
+        801.1,
+        820.6
+      ],
+      [
+        1400.1,
+        1420.5
+      ]
+    ],
+    "actual_last_saved_seconds": [
+      1800.9,
+      1802.0
+    ],
+    "other12_target_saved_hits": 0,
+    "native_internal_mass_residual_pct": [
+      11.66547,
+      12.40282
+    ],
+    "raster_residual_pct": [
+      11.63845,
+      12.28968
+    ],
+    "qualified_envelope_rows": 0,
+    "mechanical_to_release_lag": "unknown",
+    "probability_weights": null
   }
 }
