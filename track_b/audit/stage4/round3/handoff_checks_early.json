@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-10-24T08:52:30.556442+00:00",
+  "generated_at_utc": "2026-10-24T09:07:36.805034+00:00",
   "round": "round3",
   "integrated": false,
   "status": "passed",
   "passed": true,
-  "delivery_count": 16,
+  "delivery_count": 17,
   "checks": [
     {
       "delivery_index": 0,
@@ -277,11 +277,28 @@
         "referenced_bytes": 8109745,
         "original_upstream_bytes_preserved": true
       }
+    },
+    {
+      "delivery_index": 16,
+      "layer": "worktrees",
+      "status": "passed",
+      "evidence": {
+        "producer": "q4",
+        "consumer": "q3",
+        "bundle_version": "q4-r3-propagation-v1-metadata-handoff",
+        "upstream_path": "track_b/research/q4/round3/exports/propagation_handoff_v1.json",
+        "upstream_bundle_sha256": "ef63555c5decb383a66eeb01ef48a7cfe1c1a29ec52cd435a9ed55a801ba2c16",
+        "delivered_bundle_path": "track_b/research/q3/round3/inputs/q4/propagation_handoff_v1_q4-r3-propagation-v1-metadata-handoff/bundle.json",
+        "delivered_bundle_sha256": "ca2687f43fbca865fea8556435c9765ccc429fed4bf3f05dd5df8f79deb2fda0",
+        "files": 40,
+        "referenced_bytes": 10174196,
+        "original_upstream_bytes_preserved": true
+      }
     }
   ],
   "tool_version": "1.0.0",
   "tool_sha256": "f4c9c349e08c4db03e524d90dc8536c258eaceee12a8c856035d5a3fa3a192c7",
-  "ledger_sha256": "832dfbf54589cabba124f36dba161ec70a2dec58b19938d7b052e719f169f958",
-  "workspace_registry_sha256": "ed3d7e2dd3229906745205c8d9b2567c92a66ad8b85cb30be5a2b1e76c0446a6",
+  "ledger_sha256": "7f77ab085c17d28460b6da08afed4b53dd30477031a5cdb684bcbaa2e67f656e",
+  "workspace_registry_sha256": "bf128f6d22c4aa9b891a30ec31e873dc04cd47140c0ec4c9f668616b7c6f3667",
   "scope": "Versioned bundle bytes, baseline, file mapping and hashes only; review_note is not machine-validated scientific adoption."
 }

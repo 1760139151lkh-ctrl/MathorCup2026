@@ -1,0 +1,72 @@
+{
+  "round": "round3",
+  "updated_utc": "2026-10-24T09:05:21.650648+00:00",
+  "status": "ongoing_q3_q4",
+  "reviewer": "main advisor and independent AI read-only reviewers; not human scientific adoption",
+  "q1": {
+    "status": "integrated",
+    "source": "8583b8164154abc0fa7a3f89f9f38efc780c5f3a",
+    "input_files_verified": 37,
+    "output_files_verified": 79,
+    "consensus_valid_bootstrap_draws": 44,
+    "requested_draws": 100,
+    "all_300_folds_purged": true,
+    "limitations": [
+      "factor-family individual-case anomalies, no independent local disaster labels",
+      "fifth slot disputed; wind mean conditional inclusion.526515 versus soil heatflux challenger.559343",
+      "soil moisture168h declining despite high seasonal median percentile"
+    ]
+  },
+  "q2": {
+    "status": "integrated",
+    "source": "a4a034eb3a93ae93d9ffb3852a0d7e13eabd2231",
+    "input_files_verified": 60,
+    "output_files_verified": 220,
+    "analytic_full_outcomes": 2048,
+    "finite_crossings": 137,
+    "left_censored": 248,
+    "never_crossed": 1663,
+    "reference_scope": "linear conduction only, same water/damage hourly engine",
+    "max_onset_diff_vs_fd0625_h": 0.34707951714221963,
+    "max_onset_diff_vs_v2_h": 19.07238048020787,
+    "unresolved": [
+      "constitutive branch discontinuity",
+      "material/rate/geometry/boundary transfer",
+      "local identifiability and no validation events"
+    ]
+  },
+  "q3_preliminary": {
+    "a_gap_test": "missing-hour trajectory returns unknown, P(no-start)=null, event mass bounds[0,1]",
+    "paired_table_rows": 252,
+    "physical_groups": 14,
+    "failed_groups": 13,
+    "real_censored_groups": 1,
+    "paired_brier_rows_checked": 45,
+    "max_arithmetic_error": 9.8e-17,
+    "conformal": "B ncal12 rank13, C max ncal13 rank14; unbounded retained",
+    "anchor_effect": "All78 known-positive model rows at common anchors have label upper bound exactly H;60 issued97.5percent quantiles<H. Full-label coverage0 there is structurally affected, not standalone evidence of general miscalibration.",
+    "fixed24h_lead72h_B_full_label_coverage": {
+      "IV": "3/13",
+      "SS": "6/13"
+    }
+  },
+  "q4_partial_propagation_review": {
+    "status": "context_only_not_numeric_validation",
+    "original_bundle_sha256": "aeafa98159440c675eaae00b2cbd7afec21b31b92a2511f8cb3ed988594ad9e7",
+    "metadata_handoff_sha256": "ef63555c5decb383a66eeb01ef48a7cfe1c1a29ec52cd435a9ed55a801ba2c16",
+    "files_verified": 40,
+    "native_saved_fields_independently_read": 6,
+    "target_rows_recomputed": 42,
+    "all_target_times_brackets_boundary_flags_match": true,
+    "expanded_port_saved_bracket_s": [
+      160,
+      180
+    ],
+    "expanded_domain_mass_change_pct": -4.147322,
+    "mass_change_at180s_pct": -2.1612,
+    "mass_scope": "density-weighted rho(m)h from native fort.b and NPZ, not only h volume; no sampled boundary flux; cannot attribute entire deficit to dilatancy or qfix without a step budget",
+    "all_parent_q2_mappings_absent": true,
+    "absolute_mechanical_arrival_adopted": false,
+    "remaining": "full mapped cases, final comparison and numerical qualification pending"
+  }
+}
