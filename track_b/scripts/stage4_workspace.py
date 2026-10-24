@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = ROOT / 'track_b/audit/stage4/baseline_manifest.json'
-ROUNDS = ('round1', 'round2')
+ROUNDS = ('round1', 'round2', 'round3')
 QUESTIONS = ('q1', 'q2', 'q3', 'q4')
 
 
@@ -25,7 +25,7 @@ def manifest_path(round_name='round1'):
         raise ValueError(f'Unsupported research round: {round_name}')
     if round_name == 'round1':
         return MANIFEST
-    return ROOT / 'track_b/audit/stage4/round2/baseline_manifest.json'
+    return ROOT / 'track_b/audit/stage4' / round_name / 'baseline_manifest.json'
 
 
 def question_directory(question, round_name='round1'):
@@ -33,7 +33,7 @@ def question_directory(question, round_name='round1'):
     if question not in QUESTIONS:
         raise ValueError(f'Unsupported question: {question}')
     path = ROOT / 'track_b/research' / question
-    return path / 'round2' if round_name == 'round2' else path
+    return path if round_name == 'round1' else path / round_name
 
 
 def safe_path(path):
@@ -98,9 +98,12 @@ def snapshot(preparation_commit, round_name='round1'):
         # Orchestration records remain mutable and must never freeze themselves.
         if name.startswith('track_b/audit/stage4/'):
             continue
-        research_input = round_name == 'round2' and name.startswith('track_b/research/')
-        if research_input and (any(name.startswith(f'track_b/research/{q}/round2/') for q in QUESTIONS)
-                               or any(part in ('__pycache__', '.cache', '.pytest_cache') for part in Path(name).parts)):
+        research_input = round_name != 'round1' and name.startswith('track_b/research/')
+        excluded_parts = ('__pycache__', '.cache', '.pytest_cache')
+        if round_name == 'round3':
+            excluded_parts += ('.venv', 'venv', '.tox', '.mypy_cache', '.ruff_cache')
+        if research_input and (any(name.startswith(f'track_b/research/{q}/{round_name}/') for q in QUESTIONS)
+                               or any(part in excluded_parts for part in Path(name).parts)):
             continue
         if research_input or name.startswith(prefixes) or name.startswith(('track_b/scripts/', 'track_b/config/')) or name in ('track_b/requirements.in', 'track_b/requirements-lock.txt'):
             path = ROOT / name
@@ -114,7 +117,9 @@ def snapshot(preparation_commit, round_name='round1'):
              'preparation_commit': commit, 'contract_version': f'stage4-r{ROUNDS.index(round_name) + 1}-v1',
              'scope': ('Original B/rules/templates plus preparation-commit shared data/audits/scripts/config/lock; no question outputs or self-reference.'
                        if round_name == 'round1' else
-                       'Original B/rules/templates and shared preparation inputs, plus committed round-1 research inputs; excludes stage4 orchestration, round-2 question outputs and caches.'),
+                       'Original B/rules/templates and shared preparation inputs, plus committed round-1 research inputs; excludes stage4 orchestration, round-2 question outputs and caches.'
+                       if round_name == 'round2' else
+                       'Original B/rules/templates and shared preparation inputs, plus committed round-1 and round-2 research inputs; excludes stage4 orchestration, round-3 question outputs, caches and environments.'),
              'file_count': len(files), 'files': files}
     save(safe_path(destination), value)
     print(json.dumps({'manifest': str(destination), 'files': len(files), 'preparation_commit': commit}))
@@ -240,7 +245,7 @@ def verify(args):
     result = {'generated_at_utc': datetime.now(timezone.utc).isoformat(), 'question': args.question,
               'passed': all(c['passed'] for c in checks), 'checks': checks,
               'scope': 'Workspace, frozen inputs, environment and technical I/O only; no scientific model acceptance.'}
-    if round_name == 'round2':
+    if round_name != 'round1':
         result['round'] = round_name
     save(safe_path(out), result)
     print(json.dumps({'passed': result['passed'], 'report': str(out), 'checks': [dict(name=c['name'], passed=c['passed'], **({'error': c['error']} if 'error' in c else {})) for c in checks]}, ensure_ascii=False))

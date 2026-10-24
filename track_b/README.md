@@ -12,6 +12,8 @@
 
 阶段3先读：[技术交接与四问基线工作包](docs/13_stage3_handoff.md)。
 
+当前正在实施[第三轮：机制探索、模型竞争与补证](docs/18_stage4_round3_workflow.md)，[本轮工作窗](audit/stage4/round3/workspaces.json)。直接本地完整实验，新增计算仅写各问round3，保留前两轮产物。
+
 ## 推荐阅读顺序
 
 1. [当前状态与下一动作](STATUS.md)

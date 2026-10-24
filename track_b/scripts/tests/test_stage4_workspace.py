@@ -42,12 +42,15 @@ class WorkspaceRoundTests(unittest.TestCase):
             'track_b/audit/stage4/baseline_manifest.json': '{"old": true}\n',
             'track_b/audit/stage4/workspaces.json': '{}\n',
             'track_b/audit/stage4/round2/baseline_manifest.json': '{"old": true}\n',
+            'track_b/audit/stage4/round3/baseline_manifest.json': '{"old": true}\n',
             'track_b/research/AGENTS.md': 'research contract\n',
             'track_b/research/q1/results/round1.json': '{"round": 1}\n',
             'track_b/research/q1/workspace_verification.json': '{"historical": true}\n',
             'track_b/research/q2/results/round1.json': '{"round": 1}\n',
             'track_b/research/q1/round2/existing.json': '{"round": 2}\n',
             'track_b/research/q2/round2/existing.json': '{"round": 2}\n',
+            'track_b/research/q1/round3/existing.json': '{"round": 3}\n',
+            'track_b/research/q2/round3/existing.json': '{"round": 3}\n',
             # Deliberately tracked to exercise exclusion even if ignores change.
             'track_b/research/q1/.cache/old.txt': 'cache\n',
         }
@@ -233,7 +236,8 @@ class WorkspaceRoundTests(unittest.TestCase):
         self.assertEqual(other.read_text(), 'keep\n')
 
     def test_cli_snapshot_round_argument_defaults_and_explicit_selection(self):
-        for arguments, expected_round in (([], 'round1'), (['--round', 'round2'], 'round2')):
+        for arguments, expected_round in (([], 'round1'), (['--round', 'round2'], 'round2'),
+                                          (['--round', 'round3'], 'round3')):
             with self.subTest(round=expected_round), \
                     patch('sys.argv', ['stage4_workspace.py', 'snapshot', '--preparation-commit', 'HEAD', *arguments]), \
                     patch.object(workspace, 'snapshot') as operation:
@@ -247,6 +251,96 @@ class WorkspaceRoundTests(unittest.TestCase):
         with patch('sys.argv', arguments), patch.object(workspace, 'verify', return_value=0) as operation:
             self.assertEqual(workspace.main(), 0)
         self.assertEqual(getattr(operation.call_args.args[0], 'round'), 'round2')
+
+    def test_round3_paths_select_new_manifest_and_question_directory(self):
+        self.assertEqual(workspace.manifest_path('round3'),
+                         self.root / 'track_b/audit/stage4/round3/baseline_manifest.json')
+        self.assertEqual(workspace.question_directory('q4', 'round3'),
+                         self.root / 'track_b/research/q4/round3')
+
+    def test_round3_snapshot_freezes_prior_research_without_overwriting_old_manifests(self):
+        old_manifests = {name: workspace.manifest_path(name).read_bytes()
+                         for name in ('round1', 'round2')}
+        result = self.snapshot('round3')
+        self.assertEqual(result['contract_version'], 'stage4-r3-v1')
+        paths = {item['path'] for item in result['files']}
+        for name in ('q1/results/round1.json', 'q2/results/round1.json',
+                     'q1/round2/existing.json', 'q2/round2/existing.json',
+                     'q1/workspace_verification.json'):
+            self.assertIn('track_b/research/' + name, paths)
+        self.assertFalse(any('/round3/' in name or '/.cache/' in name for name in paths))
+        self.assertFalse(any(name.startswith('track_b/audit/stage4/') for name in paths))
+        self.assertEqual(self.snapshot('round3')['files'], result['files'])
+        self.assertEqual(workspace.input_integrity('round3')['file_count'], len(paths))
+        for name, historical in old_manifests.items():
+            self.assertEqual(workspace.manifest_path(name).read_bytes(), historical)
+
+    def test_round3_snapshot_excludes_tracked_caches_and_environments_from_prior_rounds(self):
+        for component in ('__pycache__', '.cache', '.pytest_cache', '.venv',
+                          'venv', '.tox', '.mypy_cache', '.ruff_cache'):
+            self.write(f'track_b/research/q1/round2/{component}/tracked.txt', 'not input\n')
+        self.commit('tracked cache fixture')
+        self.preparation = self.git('rev-parse', 'HEAD')
+        result = self.snapshot('round3')
+        self.assertFalse(any(item['path'].endswith('/tracked.txt') for item in result['files']))
+
+    def test_round3_integrity_detects_frozen_round2_input_drift(self):
+        self.snapshot('round3')
+        self.write('track_b/research/q2/round2/existing.json', '{"round": 9}\n')
+        with self.assertRaisesRegex(ValueError, 'Frozen input mismatch'):
+            workspace.input_integrity('round3')
+
+    def test_round3_snapshot_rejects_round2_working_drift_from_preparation_commit(self):
+        self.write('track_b/research/q1/round2/existing.json', '{"round": 9}\n')
+        with self.assertRaisesRegex(ValueError, 'differs from preparation commit'):
+            self.snapshot('round3')
+
+    def test_round3_responsibility_accepts_only_own_round3_changes(self):
+        self.write('track_b/research/q1/round3/new.txt', 'new work\n')
+        self.commit('own round3 change')
+        self.write('track_b/research/q1/round3/untracked.txt', 'untracked work\n')
+        result = workspace.responsibility('q1', self.preparation, 'round3')
+        self.assertEqual(result['allowed_directory'], 'track_b/research/q1/round3/')
+        self.assertEqual(len(result['changed_paths']), 2)
+
+    def test_round3_rejects_round1_edits(self):
+        self.write('track_b/research/q1/results/round1.json', '{}\n')
+        with self.assertRaisesRegex(ValueError, 'outside assigned folder'):
+            workspace.responsibility('q1', self.preparation, 'round3')
+
+    def test_round3_rejects_round2_edits(self):
+        self.write('track_b/research/q1/round2/existing.json', '{}\n')
+        with self.assertRaisesRegex(ValueError, 'outside assigned folder'):
+            workspace.responsibility('q1', self.preparation, 'round3')
+
+    def test_round3_rejects_other_question_edits(self):
+        self.write('track_b/research/q2/round3/existing.json', '{}\n')
+        with self.assertRaisesRegex(ValueError, 'outside assigned folder'):
+            workspace.responsibility('q1', self.preparation, 'round3')
+
+    def test_round3_verify_writes_new_report_preserving_both_prior_reports(self):
+        self.write('track_b/research/q1/round2/workspace_verification.json',
+                   '{"historical_round": 2}\n')
+        self.commit('prior round2 verification fixture')
+        self.preparation = self.git('rev-parse', 'HEAD')
+        base = self.published('round3')
+        reports = [self.root / 'track_b/research/q1' / name for name in
+                   ('workspace_verification.json', 'round2/workspace_verification.json')]
+        old_reports = [path.read_bytes() for path in reports]
+        status, result = self.run_verify('round3', expected_base=base, pristine=True)
+        self.assertEqual(status, 0)
+        report = self.root / 'track_b/research/q1/round3/workspace_verification.json'
+        self.assertEqual(result['report'], str(report))
+        self.assertEqual(json.loads(report.read_text())['round'], 'round3')
+        self.assertEqual([path.read_bytes() for path in reports], old_reports)
+
+    def test_cli_verify_round3_selection(self):
+        arguments = ['stage4_workspace.py', 'verify', '--question', 'q4',
+                     '--round', 'round3', '--expected-root', str(self.root),
+                     '--expected-base', self.preparation]
+        with patch('sys.argv', arguments), patch.object(workspace, 'verify', return_value=0) as operation:
+            self.assertEqual(workspace.main(), 0)
+        self.assertEqual(getattr(operation.call_args.args[0], 'round'), 'round3')
 
 
 if __name__ == '__main__':

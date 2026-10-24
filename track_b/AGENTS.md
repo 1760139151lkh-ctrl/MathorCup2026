@@ -4,6 +4,8 @@
 
 ## 恢复顺序
 
+当前用户已批准实施阶段4第三轮完整模型研究。优先读`docs/18_stage4_round3_workflow.md`、本问`round3/TASK.md`/`HANDOFF.md`与最新派单绑定。第三轮覆盖旧轮“只方案/不模型/不安装/单对128MiB”等轮次限制；下方历史记录仅按所属轮解释。
+
 1. 读`STATUS.md`确认当前目标、已有授权和下一动作。
 2. 读`docs/01_task_matrix.md`与`docs/02_definitions_validation.md`恢复四问口径。
 3. 阶段4第二轮先读`docs/16_stage4_round2_workflow.md`及所分配`research/qN/round2/TASK.md`；首轮状态见`docs/15_stage4_round1_review.md`，阶段3技术状态见`docs/13_stage3_handoff.md`。
@@ -22,6 +24,7 @@
 - 阶段4已获用户实施授权：四个可见分支聊天、独立worktree、先方案论证与小实验，由主参谋统一派发/读取/交接。本轮本地提交，不推送；研究窗仅写`research/qN/`，公共修订交主参谋集成。
 - 首轮到联合审查点即交付，不擅自推进正式核心模型。先后运行`stage4_workspace.py verify`验证冻结输入与本问文件责任，不运行会重写公共审计的阶段3脚本。
 - 用户已要求实施第二轮：有界补证与背景分析，Q3主对象是源区首次机械启动但具体时刻仍待证实；现有四窗/环境复用，新分支`codex/track-b-qN-r2`，仅写本问`round2/`，验证必须加`--round round2`。首轮研究包和原冻结清单不可改；本轮契约见`config/stage4_round2_contract.json`。
+- 第三轮已获用户完整实施授权：直接本地开展机制/模型竞争和定向补证，不远程、不强制小试跑前置。可新增局部实验依赖、本地Linux求解器容器和研究所需公开数据。各窗仅写本问round3；工作区检查仍使用原44包venv及`--round round3`。早交exports由主参谋哈希分发，科学结果区分实测/迁移/情景，最终队员采用待审视；未知不导致整个研究停工。
 
 ## 运行与验证
 

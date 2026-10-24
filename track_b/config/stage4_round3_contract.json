@@ -1,0 +1,205 @@
+{
+  "contract_version": "stage4-r3-v1",
+  "round": "round3",
+  "inherits_field_definitions": "track_b/config/stage4_contract.json",
+  "primary_prediction_object": "first_mechanical_initiation_at_source",
+  "prediction_truth_timestamp_status": "not_automatically_accepted",
+  "compute": "local_full_research; no remote server or mandatory reduced pilot phase",
+  "question_ids": [
+    "q1",
+    "q2",
+    "q3",
+    "q4"
+  ],
+  "write_scope": "track_b/research/<assigned_question>/round3/",
+  "cache_root": "/Users/maxchen/Documents/MathorCup/research_cache/round3",
+  "cache_ownership": "each question writes only its qN namespace; runtime owner maintains runtime; append immutable versions",
+  "historical_policy": "round1/round2 research packets, manifests and audit records immutable; shared code upgrades bound to new baseline; old code integrity at historical Git refs",
+  "experiment_identifiers": [
+    "model_id",
+    "mechanism_id",
+    "experiment_id",
+    "scenario_id",
+    "geometry_version",
+    "parameter_version"
+  ],
+  "evaluation_strata": [
+    "local_observational",
+    "external_transfer",
+    "conditional_scenario",
+    "numerical_benchmark"
+  ],
+  "forecast_input_modes": [
+    "historically_available",
+    "assumed_latency",
+    "ideal_weather"
+  ],
+  "forecast_defaults": {
+    "issue_grid_hours": 1,
+    "horizon_hours": 72,
+    "report_horizons_hours": [
+      24,
+      48,
+      72
+    ],
+    "high_frequency_models_keep_native_outputs": true,
+    "probabilistic_outputs": [
+      "probability_start_within_horizon",
+      "probability_no_start_within_horizon",
+      "conditional_time_distribution_given_start",
+      "conditional_interval_level"
+    ],
+    "range_only_scenarios_do_not_imply_probability": true
+  },
+  "q1": {
+    "ranking_unit": "physical_factor_family",
+    "windows_hours": [
+      24,
+      72,
+      168
+    ],
+    "background_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "seasonal_anchor_day_offsets_inclusive": [
+      -30,
+      30
+    ],
+    "anchor_sensitivity_hours": [
+      -1,
+      0,
+      1
+    ],
+    "quality_tracks": [
+      "original_qc_view",
+      "unknown_qc_exploration"
+    ],
+    "validation": "year and weather-process grouped; overlap purge; fit transforms on background/training only"
+  },
+  "q2": {
+    "required_mechanism_groups": [
+      "S",
+      "S_T",
+      "S_H",
+      "S_T_H"
+    ],
+    "S": "structural_geometry_damage_creep_unloading",
+    "T": "thermal_transfer_and_temperature_dependent_strength",
+    "H": "water_storage_drainage_pressure_effective_stress"
+  },
+  "q4": {
+    "competitive_routes": [
+      "one_dimensional_along_path",
+      "two_dimensional_depth_averaged",
+      "multiphase",
+      "pore_pressure"
+    ],
+    "primary_framework_candidates": [
+      "r.avaflow 4.0 Revision 7",
+      "geoflows/dclaw tag 1.0.0"
+    ],
+    "initial_conditions": "observationally constrained or explicitly scenario-specified; same source/terrain/volume for comparable experiments",
+    "arrival_output": "relative travel time at separately versioned target; initiation kept separate"
+  },
+  "bundles": {
+    "q1": [
+      "exports/feature_bundle.json"
+    ],
+    "q2": [
+      "exports/mechanism_bundle.json",
+      "exports/release_bundle.json"
+    ],
+    "q3": [
+      "exports/event_bundle.json"
+    ],
+    "q4": [
+      "exports/geometry_bundle.json",
+      "exports/propagation_bundle.json"
+    ],
+    "required": [
+      "bundle_version",
+      "producer_question",
+      "input_version",
+      "evaluation_stratum",
+      "files",
+      "limitations"
+    ],
+    "file_fields": [
+      "path",
+      "bytes",
+      "sha256",
+      "role"
+    ],
+    "file_path_policy": "repo-relative for committed packet files; absolute immutable cache paths allowed with provenance; no self-entry",
+    "adoption": "main advisor hash-checks and delivers versioned consumer inputs; producer originals preserved",
+    "q2_state_exchange": {
+      "format": "CSV long table or Parquet with documented equivalent columns",
+      "fields": [
+        "scenario_id",
+        "model_id",
+        "mechanism_id",
+        "time_utc",
+        "elapsed_hours",
+        "failure_margin",
+        "margin_definition",
+        "data_role",
+        "forecast_input_mode"
+      ],
+      "failure_margin_sign": "positive stable; zero critical; negative beyond stated criterion; model supplies dimensional/normalized definition",
+      "missing_or_never_crossed": "preserve null or no_start flag; never drop to manufacture initiation probability",
+      "parameters": "named values/units/source plus grid or explicit prior/weights; no probability assigned merely because range exists"
+    },
+    "q4_release_exchange": {
+      "fields": [
+        "scenario_id",
+        "geometry_version",
+        "parameter_version",
+        "source_polygon_or_release_raster",
+        "release_thickness_or_volume",
+        "phase_fractions",
+        "density",
+        "initial_velocity",
+        "provenance_and_assumptions"
+      ],
+      "absent_fields": "null with context; produce explicitly specified scenario for required computation rather than claim measured"
+    },
+    "q4_propagation_exchange": {
+      "fields": [
+        "scenario_id",
+        "model_id",
+        "target_id",
+        "geometry_version",
+        "parameter_version",
+        "travel_time_seconds",
+        "arrival_definition",
+        "inundation_or_runout_reference",
+        "evaluation_stratum"
+      ],
+      "time_origin": "relative to supplied release; no automatic replacement of first mechanical initiation truth"
+    }
+  },
+  "source_requirements": [
+    "canonical_url_or_product_id",
+    "product_version",
+    "retrieved_at_utc",
+    "actual_read_scope",
+    "bytes",
+    "sha256",
+    "data_role",
+    "available_time_or_unknown"
+  ],
+  "acquisition_policy": "new round permits necessary public scenes, regional products, cases and model material; prior 128MiB/single-pair limit not inherited; public legal alternative routes after endpoint failure; no automated account creation, payment or contacting others",
+  "final_outputs": [
+    "reproducible_model_results",
+    "competitive_comparison",
+    "figures",
+    "recommended_main_and_challenger",
+    "question_requirement_map",
+    "paper_methods_results_discussion_outline"
+  ],
+  "human_scientific_adoption": "pending_team_review"
+}
