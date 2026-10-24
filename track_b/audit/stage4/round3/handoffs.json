@@ -99,7 +99,151 @@
         }
       ],
       "review_note": "Accepted as inherited local stage/label/availability constraints only. No new accepted first-initiation truth, independent training event, real-time availability or coverage validation. Same chain remains grouped; literature arrival/onset values are candidate reconstruction constraints and not independent validation."
+    },
+    {
+      "producer": "q4",
+      "consumer": "q2",
+      "bundle_version": "q4-r3-spatial-copdem-v1-frozen-export",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/bundle.json",
+      "upstream_bundle_sha256": "5a2315f807bac296e5ae9bf877e655499b7a2b40e39df8edd3b0cccbeade853a",
+      "delivered_bundle_path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/bundle.json",
+      "delivered_bundle_sha256": "8eb6cbc1b85e60fe8a82906f4f025ec22b3bcf96d5c59bd0535ffbe0ccf8a0c5",
+      "files": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif",
+          "bytes": 158462,
+          "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+          "role": "primary_dem_60m"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_60m.npz",
+          "bytes": 241460,
+          "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915",
+          "role": "model_arrays_60m",
+          "producer_original_path": "track_b/research/q4/round3/results/spatial_inputs_60m.npz",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_inputs_60m.npz"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_120m.tif",
+          "bytes": 39968,
+          "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+          "role": "primary_dem_120m"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_120m.npz",
+          "bytes": 55797,
+          "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+          "role": "model_arrays_120m",
+          "producer_original_path": "track_b/research/q4/round3/results/spatial_inputs_120m.npz",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_inputs_120m.npz"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/computational_geometries.geojson",
+          "bytes": 89016,
+          "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+          "role": "computational_geometry_candidates",
+          "producer_original_path": "track_b/research/q4/round3/results/computational_geometries.geojson",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/computational_geometries.geojson"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_paths.csv",
+          "bytes": 101231,
+          "sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e",
+          "role": "paths_60m_csv",
+          "producer_original_path": "track_b/research/q4/round3/results/spatial_paths.csv",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_paths.csv"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/terrain_bundle.json",
+          "bytes": 4745,
+          "sha256": "c7ce3a11c0dd5637f39bcb1fad81f3dbf08238045c825b41f80d00f14422ca0e",
+          "role": "terrain_bundle",
+          "producer_original_path": "track_b/research/q4/round3/results/terrain_bundle.json",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/terrain_bundle.json"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/figures/spatial_terrain_paths.png",
+          "bytes": 370168,
+          "sha256": "0de4a3e0cfa492e58ce8b35ac66e4e1f54b4f48ef4c5454d0da4f0ea678dac1d",
+          "role": "terrain_path_figure",
+          "producer_original_path": "track_b/research/q4/round3/figures/spatial_terrain_paths.png",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/figures/spatial_terrain_paths.png"
+        }
+      ],
+      "review_note": "Accepted as conditional computational geometry and independently sourced COPDEM EGM2008 terrain only. Three terrain-cost paths are candidates, source/port remain paper reconstructions; no observed release boundary, bridge identity, path, initial thickness or velocity is accepted. Native acquisition2011-2015/release2021 is not event2026 topography. Normalize release thickness by grid source area to hold volume fixed; use delivered file-role/path mapping rather than nested upstream-relative paths."
+    },
+    {
+      "producer": "q4",
+      "consumer": "q3",
+      "bundle_version": "q4-r3-spatial-copdem-v1-frozen-export",
+      "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/bundle.json",
+      "upstream_bundle_sha256": "5a2315f807bac296e5ae9bf877e655499b7a2b40e39df8edd3b0cccbeade853a",
+      "delivered_bundle_path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/bundle.json",
+      "delivered_bundle_sha256": "b6c02508acbe7bf131a0414ef7a90cafef2c5580597e2bc3b6f990e6892c4955",
+      "files": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif",
+          "bytes": 158462,
+          "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+          "role": "primary_dem_60m"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_60m.npz",
+          "bytes": 241460,
+          "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915",
+          "role": "model_arrays_60m",
+          "producer_original_path": "track_b/research/q4/round3/results/spatial_inputs_60m.npz",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_inputs_60m.npz"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_120m.tif",
+          "bytes": 39968,
+          "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+          "role": "primary_dem_120m"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_inputs_120m.npz",
+          "bytes": 55797,
+          "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+          "role": "model_arrays_120m",
+          "producer_original_path": "track_b/research/q4/round3/results/spatial_inputs_120m.npz",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_inputs_120m.npz"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/computational_geometries.geojson",
+          "bytes": 89016,
+          "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+          "role": "computational_geometry_candidates",
+          "producer_original_path": "track_b/research/q4/round3/results/computational_geometries.geojson",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/computational_geometries.geojson"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/spatial_paths.csv",
+          "bytes": 101231,
+          "sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e",
+          "role": "paths_60m_csv",
+          "producer_original_path": "track_b/research/q4/round3/results/spatial_paths.csv",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/spatial_paths.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/results/terrain_bundle.json",
+          "bytes": 4745,
+          "sha256": "c7ce3a11c0dd5637f39bcb1fad81f3dbf08238045c825b41f80d00f14422ca0e",
+          "role": "terrain_bundle",
+          "producer_original_path": "track_b/research/q4/round3/results/terrain_bundle.json",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/results/terrain_bundle.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/files/exports/geometry_v1/files/figures/spatial_terrain_paths.png",
+          "bytes": 370168,
+          "sha256": "0de4a3e0cfa492e58ce8b35ac66e4e1f54b4f48ef4c5454d0da4f0ea678dac1d",
+          "role": "terrain_path_figure",
+          "producer_original_path": "track_b/research/q4/round3/figures/spatial_terrain_paths.png",
+          "upstream_path": "track_b/research/q4/round3/exports/geometry_v1/files/figures/spatial_terrain_paths.png"
+        }
+      ],
+      "review_note": "Accepted as conditional computational geometry and independently sourced COPDEM EGM2008 terrain only. Three terrain-cost paths are candidates, source/port remain paper reconstructions; no observed release boundary, bridge identity, path, initial thickness or velocity is accepted. Native acquisition2011-2015/release2021 is not event2026 topography. Normalize release thickness by grid source area to hold volume fixed; use delivered file-role/path mapping rather than nested upstream-relative paths."
     }
   ],
-  "updated_at_utc": "2026-10-24T07:33:17.747886+00:00"
+  "updated_at_utc": "2026-10-24T07:43:24.409923+00:00"
 }

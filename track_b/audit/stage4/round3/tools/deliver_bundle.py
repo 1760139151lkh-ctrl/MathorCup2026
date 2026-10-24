@@ -114,7 +114,7 @@ def main():
             ledger['deliveries'].append(row)
     ledger['updated_at_utc'] = datetime.now(timezone.utc).isoformat()
     ledger_path.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + '\n')
-    print(json.dumps({'verified_files': len(verified), 'deliveries': records}, ensure_ascii=False))
+    print(json.dumps({'verified_files': len(verified), 'deliveries': [{k: r[k] for k in ('producer', 'consumer', 'bundle_version', 'delivered_bundle_path', 'delivered_bundle_sha256')} for r in records]}, ensure_ascii=False))
 
 
 if __name__ == '__main__':
