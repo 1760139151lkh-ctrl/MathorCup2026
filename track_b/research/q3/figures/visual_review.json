@@ -1,0 +1,7 @@
+{
+  "figure_path": "track_b/research/q3/figures/clock_audit.png",
+  "sha256": "a044a75667e71f256b4118915b9fc9fcb6e1058f39f566e5c6935be6661afeb6",
+  "reviewed": true,
+  "scope": "Latest rendered PNG visually checked for complete labels, no footer/x-axis overlap, legible clocks and explicit candidate/unknown labels. No waveform or event reconstruction validated.",
+  "reviewer": "Codex visual inspection, not human scientific acceptance"
+}

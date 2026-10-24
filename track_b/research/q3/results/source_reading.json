@@ -1,0 +1,24 @@
+{
+  "source_path": "track_b/data/external/event_remote/jms_2026_uncorrected_proof.pdf",
+  "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0",
+  "pages": 35,
+  "reading_scope": "Internal read-only reviewer read full extracted text on PDF pages 5-11 and 31; executor programmatically scanned full extracted text on pages 9-11 and 31 for these tokens. No new rendering or waveform interpretation.",
+  "text_checks": {
+    "9": {
+      "10:51:50": true,
+      "10:52:20": true
+    },
+    "10": {
+      "10:54:00": true
+    },
+    "11": {
+      "10:59:50": true
+    },
+    "31": {
+      "reasonable request": true
+    }
+  },
+  "proof_state": "Saved uncorrected proof; no raw waveform or arrival report obtained.",
+  "yin_reading_scope": "Publisher metadata and abstract. Full HTML is dynamically loaded and was not retrieved/checked in this audit. Official publisher search extracts: main onset preliminarily inferred using wave speed and epicentral distance; main body reaches the port at approximately 11:00:00. Search extracts only, not verified original waveform/video.",
+  "source_timing_note": "Post-event label evidence may support retrospective evaluation after label review; it cannot enter the pre-event predictor information set."
+}

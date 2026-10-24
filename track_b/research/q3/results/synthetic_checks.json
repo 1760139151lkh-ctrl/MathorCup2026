@@ -1,0 +1,205 @@
+{
+  "passed": true,
+  "alpha_used": 0.05,
+  "synthetic_test_count": 20,
+  "checks": [
+    {
+      "name": "availability_equal_boundary_and_future_forecast_valid_time",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "late_available_time_excluded",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "unknown_available_time_never_eligible",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "future_forecast_reference_excluded_even_with_early_availability",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "future_forecast_reference_excluded_with_unknown_availability",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "availability_before_forecast_reference_is_inconsistent",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "future_observation_excluded",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "naive_timestamp_rejected",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "timezone_conversion",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "closed_interval_boundary_hit",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "negative_lead_preserved",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "missed_event_kept_in_effective_denominator",
+      "passed": true,
+      "observed": {
+        "event_count": 4,
+        "assessable_events": 3,
+        "unassessable_events": 1,
+        "issued_assessable_events": 2,
+        "missed_events": 1,
+        "late_events": 1,
+        "zero_lead_events": 0,
+        "conditional_interval_coverage": 1.0,
+        "effective_event_coverage": 0.3333333333333333,
+        "rows": [
+          {
+            "event_id": "synthetic_equal",
+            "assessable": true,
+            "issued": true,
+            "hit": true,
+            "lead_seconds": 1800.0,
+            "late": false,
+            "effective_coverage_hit": true,
+            "interval_score_seconds": 60.0
+          },
+          {
+            "event_id": "synthetic_late",
+            "assessable": true,
+            "issued": true,
+            "hit": true,
+            "lead_seconds": -60.0,
+            "late": true,
+            "effective_coverage_hit": false,
+            "interval_score_seconds": 120.0
+          },
+          {
+            "event_id": "synthetic_missed",
+            "assessable": true,
+            "issued": false,
+            "hit": null,
+            "lead_seconds": null,
+            "late": false,
+            "effective_coverage_hit": false,
+            "interval_score_seconds": null
+          },
+          {
+            "event_id": "synthetic_missing_truth",
+            "assessable": false,
+            "issued": true,
+            "hit": null,
+            "lead_seconds": null,
+            "late": false,
+            "effective_coverage_hit": false,
+            "interval_score_seconds": null
+          }
+        ]
+      },
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "conditional_coverage_separated_from_effective",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "missing_truth_not_scored",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "zero_denominator_returns_null",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "zero_lead_not_advance_warning_and_counted",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "duplicate_event_rejected",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "reversed_interval_rejected",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "ambiguous_truth_overlap_not_certain_coverage",
+      "passed": true,
+      "observed": {
+        "certain_covered": false,
+        "possible_covered": true
+      },
+      "data_role": "scenario",
+      "synthetic": true
+    },
+    {
+      "name": "interval_score_width_and_penalty_seconds",
+      "passed": true,
+      "observed": null,
+      "data_role": "scenario",
+      "synthetic": true
+    }
+  ],
+  "synthetic_event_examples": 4,
+  "real_validation_events_added": 0,
+  "scope": "Hand-calculated boundary examples validate mechanics only, not forecast performance."
+}

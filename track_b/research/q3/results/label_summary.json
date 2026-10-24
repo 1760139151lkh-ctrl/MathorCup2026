@@ -1,0 +1,63 @@
+{
+  "case_evidence_rows": 9,
+  "case_independent_event_groups": 1,
+  "historical_candidate_rows": 54,
+  "accepted_training_events": 0,
+  "accepted_independent_validation_events": 0,
+  "candidate_mechanism_category_counts": {
+    "landslide": 45,
+    "rock_fall": 1,
+    "mudslide": 4,
+    "debris_flow": 2,
+    "unknown": 1,
+    "complex": 1
+  },
+  "candidate_trigger_counts": {
+    "unknown": 16,
+    "earthquake": 4,
+    "downpour": 15,
+    "rain": 12,
+    "continuous_rain": 1,
+    "monsoon": 3,
+    "snowfall_snowmelt": 2,
+    "other": 1
+  },
+  "source_time_counts": {
+    "null": 31,
+    "unknown": 5,
+    "hhmm": 18
+  },
+  "exact_duplicate_candidate_groups": [
+    [
+      13282,
+      13292
+    ]
+  ],
+  "same_source_multiple_record_groups": [
+    [
+      9499,
+      9500
+    ],
+    [
+      14585,
+      14287
+    ],
+    [
+      7947,
+      7949
+    ],
+    [
+      13282,
+      13292
+    ]
+  ],
+  "clock_conflict_catalogue_ids": [
+    7723,
+    14488
+  ],
+  "within_hourly_axis_candidate_ids": [
+    17482
+  ],
+  "all_timezones_unverified": true,
+  "interpretation": "Zero accepted is an audit status, not evidence that no historical events occurred. Catalogue epoch is retained separately and is not approved occurrence UTC."
+}

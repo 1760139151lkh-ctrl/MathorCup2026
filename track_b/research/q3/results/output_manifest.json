@@ -1,0 +1,172 @@
+{
+  "schema_version": 2,
+  "scope": "Q3 authored protocols/scripts/config, results, source snapshots, figure and handoff; each file size and hash independently re-read before saving.",
+  "excluded_names": [
+    "TASK.md",
+    "environment_setup.log",
+    "output_manifest.json",
+    "workspace_binding.json",
+    "workspace_verification.json"
+  ],
+  "exclusion_reason": "Self-reference, mutable runtime/dispatch logs, and unchanged inherited TASK. Runtime readiness is copied as results/workspace_readiness_at_run.json.",
+  "file_count": 31,
+  "files": [
+    {
+      "path": "track_b/research/q3/.gitignore",
+      "bytes": 91,
+      "sha256": "b7be2624ec9a5625a79855f7a9663f361cb385c29089391c2832d24d6eab17dc"
+    },
+    {
+      "path": "track_b/research/q3/EVALUATION_PROTOCOL.md",
+      "bytes": 8727,
+      "sha256": "d60fe190180e683823abd0618ac32e60c672b7581e8439c82479f73a605e35f9"
+    },
+    {
+      "path": "track_b/research/q3/EVIDENCE_REVIEW.md",
+      "bytes": 4628,
+      "sha256": "119a5780f71ad7df69e15ac78be60a12bbd91eeb44e7a7e2a6d471096a86c090"
+    },
+    {
+      "path": "track_b/research/q3/HANDOFF.md",
+      "bytes": 7006,
+      "sha256": "1542b3491f3e60dda742adde916c850ee2cb68246b6a3a50e2e6febea529d142"
+    },
+    {
+      "path": "track_b/research/q3/METHOD_OPTIONS.md",
+      "bytes": 3962,
+      "sha256": "f8cf01bf715d317eccf7a7a42467d31d4d66507968c3a7dbc90d47e8d5dccfd1"
+    },
+    {
+      "path": "track_b/research/q3/PROPOSALS.md",
+      "bytes": 2552,
+      "sha256": "fcc9610224bfc9adaacbb269d586c4114edf9557adcb1da46eb8cffa00abb3e0"
+    },
+    {
+      "path": "track_b/research/q3/config/replay.json",
+      "bytes": 895,
+      "sha256": "6266969a2278150acb0f4904b94d8aefb626ff67d18237d346c09df2e106a2b1"
+    },
+    {
+      "path": "track_b/research/q3/figures/clock_audit.png",
+      "bytes": 163207,
+      "sha256": "a044a75667e71f256b4118915b9fc9fcb6e1058f39f566e5c6935be6661afeb6"
+    },
+    {
+      "path": "track_b/research/q3/figures/visual_review.json",
+      "bytes": 440,
+      "sha256": "862a8d02711dbc5db5a6841fbbbf737a5400d68c8ae5762fdfbec37540e9a06d"
+    },
+    {
+      "path": "track_b/research/q3/results/CSV_SCHEMA.md",
+      "bytes": 1277,
+      "sha256": "4b4032d5973e2d9094a5828fdbf64918dad050cb681ff792836b8dd51b08d686"
+    },
+    {
+      "path": "track_b/research/q3/results/availability_review.csv",
+      "bytes": 7155,
+      "sha256": "7eb10c521ee5c15543bdb3b0a23aceda98a68b3caf57f994f13e93ba0e20e40a"
+    },
+    {
+      "path": "track_b/research/q3/results/forecast_metadata_checks.json",
+      "bytes": 2411,
+      "sha256": "7f4181c3d1fb3b44a36b3a8adb304c4eced768749752cd7535bc4867676d4abd"
+    },
+    {
+      "path": "track_b/research/q3/results/input_manifest.json",
+      "bytes": 4702,
+      "sha256": "2e6c458d79584cb52cbfdc27f87b06efcb92c0b26a360c86f75278dba199917c"
+    },
+    {
+      "path": "track_b/research/q3/results/label_review.csv",
+      "bytes": 99353,
+      "sha256": "f23b7d7d8c9ed093ea56ba397781899410801975f076be79637e789ef1eb2eff"
+    },
+    {
+      "path": "track_b/research/q3/results/label_summary.json",
+      "bytes": 1237,
+      "sha256": "ef00457b35692f3f33fe8d6be57cf361fd368dbeb371068fed870b3dcef12952"
+    },
+    {
+      "path": "track_b/research/q3/results/replay_delay_scenarios.csv",
+      "bytes": 94251,
+      "sha256": "487a34f59c27db0d56f4253fb72db2aaae42880c1b5ae223cc0b7c937296da92"
+    },
+    {
+      "path": "track_b/research/q3/results/replay_gate.csv",
+      "bytes": 30088,
+      "sha256": "51487884b9e62c527576a16df5a5734986a7d2b394ad76f07a7682f98bbcf567"
+    },
+    {
+      "path": "track_b/research/q3/results/replay_summary.json",
+      "bytes": 399,
+      "sha256": "b7386491b4e4534ad261ef76bad7eeff1365f677211d55f66fd16242e31f27ac"
+    },
+    {
+      "path": "track_b/research/q3/results/review_resolution.json",
+      "bytes": 1217,
+      "sha256": "92799de28e3948f892ece1cfb0b2d4b5371d9e7bb368d93310e942eb730488ff"
+    },
+    {
+      "path": "track_b/research/q3/results/source_reading.json",
+      "bytes": 1265,
+      "sha256": "fd87dffe256030db4cd8b2da85ee3c2b5beeee4212dcf8acb1b059b5d5c3c719"
+    },
+    {
+      "path": "track_b/research/q3/results/source_register.json",
+      "bytes": 2256,
+      "sha256": "6bdb75f2bb7751996cd41c386a56a98cc61e3222204c1091889129c5461d8a8a"
+    },
+    {
+      "path": "track_b/research/q3/results/summary.json",
+      "bytes": 2646,
+      "sha256": "a0d440a9f295e05753d7714665e0886346e4e9f8e3e23fd07510830a496e2e33"
+    },
+    {
+      "path": "track_b/research/q3/results/synthetic_checks.json",
+      "bytes": 5278,
+      "sha256": "432e311da88460e23a31a3fc8adf939b960ea5288b808bd099272665d6cffe37"
+    },
+    {
+      "path": "track_b/research/q3/results/workspace_binding_at_run.json",
+      "bytes": 655,
+      "sha256": "df6b76e8ce71d62226e49b94c37c8944007df343af30f8ffd713c72cf436348c"
+    },
+    {
+      "path": "track_b/research/q3/results/workspace_readiness_at_run.json",
+      "bytes": 2148,
+      "sha256": "b0c9e9900523662dcdbaf4f6654b613ea2febb18090f53509ff04c9753681e0d"
+    },
+    {
+      "path": "track_b/research/q3/scripts/audit_replay.py",
+      "bytes": 35997,
+      "sha256": "3577acd2d23543c796de6bc7e18b42ba714a4b75b9d9c9487fbc6b07a0d0c732"
+    },
+    {
+      "path": "track_b/research/q3/scripts/plot_clock_audit.py",
+      "bytes": 4642,
+      "sha256": "3bbcc677654287aff0e117322c00746feac1e33281610582f9e42be53cab9fca"
+    },
+    {
+      "path": "track_b/research/q3/sources/conformal_2107_07511v6.html",
+      "bytes": 826636,
+      "sha256": "f27bc500e3a1e5c294de7d55b9df436037e3577a4476fc414dfd08754fef18fd"
+    },
+    {
+      "path": "track_b/research/q3/sources/gneiting_raftery_2007.pdf",
+      "bytes": 556804,
+      "sha256": "d31a0c5f0ae8fec1a0a6544db5d056645b2d7296d71b44a2e8efb293c7d87ba2"
+    },
+    {
+      "path": "track_b/research/q3/sources/ncep_current_production.html",
+      "bytes": 6485,
+      "sha256": "27dd3e540a28d7be6e24d23001dd4b1a95a77ceb419d1615c488e478cfb68b90"
+    },
+    {
+      "path": "track_b/research/q3/sources/ncep_gfs_inventory.html",
+      "bytes": 18033,
+      "sha256": "3a0b838938b071b57cf2d6c03c8e98d2023bad90107e2bec312b572a82856480"
+    }
+  ],
+  "all_hashes_rechecked": true,
+  "verified_file_count": 31
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://www.nco.ncep.noaa.gov/pmb/products/gfs/nomads/",
+    "reading_scope": "GFS product table read; cycles/naming only, no historical first-availability proof",
+    "retrieved_at_utc": "2026-10-24T04:32:21.382502+00:00",
+    "reading_medium": "official/author primary source, web tool plus saved snapshot",
+    "source_kind": "primary",
+    "sha256": "3a0b838938b071b57cf2d6c03c8e98d2023bad90107e2bec312b572a82856480",
+    "status": "saved_snapshot",
+    "path": "track_b/research/q3/sources/ncep_gfs_inventory.html",
+    "bytes": 18033
+  },
+  {
+    "url": "https://www.nco.ncep.noaa.gov/pmb/nwprod/prodstat_new/prdst_main.html",
+    "reading_scope": "Current status page read; not an archive for the event date",
+    "retrieved_at_utc": "2026-10-24T04:32:23.867229+00:00",
+    "reading_medium": "official/author primary source, web tool plus saved snapshot",
+    "source_kind": "primary",
+    "sha256": "27dd3e540a28d7be6e24d23001dd4b1a95a77ceb419d1615c488e478cfb68b90",
+    "status": "saved_snapshot",
+    "path": "track_b/research/q3/sources/ncep_current_production.html",
+    "bytes": 6485
+  },
+  {
+    "url": "https://arxiv.org/html/2107.07511v6",
+    "reading_scope": "Read sections 1, 3.2-3.3, 4.6, 5.3 and appendix coverage theorem passages; not entire paper",
+    "retrieved_at_utc": "2026-10-24T04:32:26.005880+00:00",
+    "reading_medium": "official/author primary source, web tool plus saved snapshot",
+    "source_kind": "primary",
+    "sha256": "f27bc500e3a1e5c294de7d55b9df436037e3577a4476fc414dfd08754fef18fd",
+    "status": "saved_snapshot",
+    "path": "track_b/research/q3/sources/conformal_2107_07511v6.html",
+    "bytes": 826636
+  },
+  {
+    "url": "https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jasa.pdf",
+    "reading_scope": "Read section 6.2, equation 43; not whole-paper independent derivation",
+    "retrieved_at_utc": "2026-10-24T04:32:29.014652+00:00",
+    "reading_medium": "official/author primary source, web tool plus saved snapshot",
+    "source_kind": "primary",
+    "sha256": "d31a0c5f0ae8fec1a0a6544db5d056645b2d7296d71b44a2e8efb293c7d87ba2",
+    "status": "saved_snapshot",
+    "path": "track_b/research/q3/sources/gneiting_raftery_2007.pdf",
+    "bytes": 556804
+  }
+]

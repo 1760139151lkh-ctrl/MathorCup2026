@@ -1,0 +1,127 @@
+[
+  {
+    "path": "track_b/audit/stage4/baseline_manifest.json",
+    "bytes": 121317,
+    "sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97"
+  },
+  {
+    "path": "track_b/config/stage4_contract.json",
+    "bytes": 2286,
+    "sha256": "45189e648cd5238b4d064ebde1cc64f3b1388ffc1eb1e93be4db9b5c470ab00d"
+  },
+  {
+    "path": "track_b/data/external/event_remote/event_evidence_ledger.json",
+    "bytes": 14194,
+    "sha256": "7027df1460fbbdc536c626ceb4cd2b715626cf2ecac6e9bca1717a817970956a"
+  },
+  {
+    "path": "track_b/data/external/event_remote/historical_candidates.json",
+    "bytes": 140113,
+    "sha256": "d55e68cbcd423a3a059c4659b219675ed2ed3c8fa538de25d630647addceb737"
+  },
+  {
+    "path": "track_b/data/external/event_remote/jms_2026_uncorrected_proof.pdf",
+    "bytes": 924233,
+    "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0"
+  },
+  {
+    "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/nasa_COOLR_Reports_Points.json",
+    "bytes": 71679,
+    "sha256": "207de958300fac7f8d42ec55aa39d6509a4e7837f14536172450697b6750ad55"
+  },
+  {
+    "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/nasa_COOLR_Reports_Polygons.json",
+    "bytes": 5828,
+    "sha256": "9bab6b1fbf0186018d0b308f921d7e683f4141da41fa5d803977aa7ea75d63ba"
+  },
+  {
+    "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/usgs_event.json",
+    "bytes": 16261,
+    "sha256": "01933b8af6a2cd0cf792ed488927034378c10c9ce4ca718ec48c9839b8f378bc"
+  },
+  {
+    "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/usgs_origin_quakeml.xml",
+    "bytes": 3612,
+    "sha256": "d4e3b96594474387c114b3af23a61f854b64d5b7a53abcf912efdd57a1a832a9"
+  },
+  {
+    "path": "track_b/data/external/event_remote/supplemental_original_source.json",
+    "bytes": 2875,
+    "sha256": "2fd554be53594c2d6a03c35726f8144c3e1d272aac9d7f43c28d2249a81fe1b2"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/precip_accum_0_9h.grib2",
+    "bytes": 405228,
+    "sha256": "342d34c3d44c28df5cf08ac60874029b37bda6c58d08ed9cb864c98381589991"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/precip_accum_0_9h.http.json",
+    "bytes": 436,
+    "sha256": "abfe201e8c411af88a5e61e2093d736301f6849b4dc9d7a9d6742224062c849a"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/precip_accum_6_9h.grib2",
+    "bytes": 309231,
+    "sha256": "034612a951b34d1681ba75d5fd32426dee9ec00faf9456fd2a3a64c9f7eed536"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/precip_accum_6_9h.http.json",
+    "bytes": 436,
+    "sha256": "2f0ada931cd415a107fa891d0bfd2ca4caf7735e4b821045667b04df19509e89"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/relative_humidity_2m.grib2",
+    "bytes": 794008,
+    "sha256": "61e4997e0a3c918a349889082662e02170c7cbf4165d0b21d868dfb52a638381"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/relative_humidity_2m.http.json",
+    "bytes": 436,
+    "sha256": "398819eff9d733032e0ba2e24e2546463d78e00518fe3acd880abfb92a718210"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/temperature_2m.grib2",
+    "bytes": 511028,
+    "sha256": "36c0bab95887d7c0395bd2d2e5cf59ff5323e7bbaa1fa9b5b8e6f86bf104bba2"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/temperature_2m.http.json",
+    "bytes": 436,
+    "sha256": "68f3a9bc13ed1bfc9816194cb185a5a32fe3688aecf0d635f772443fb7260d89"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/wind_u_10m.grib2",
+    "bytes": 973065,
+    "sha256": "fb8634f1144503501a895148032a7da2af3f55fe20d42ea10b139f6510a5ad3f"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/wind_u_10m.http.json",
+    "bytes": 436,
+    "sha256": "ff949be2ee13596aec5b473f620b6f4a7254b8d7233efff7d3644c6bd71b8265"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/wind_v_10m.grib2",
+    "bytes": 950674,
+    "sha256": "0873171f768a5abf707ff8a08f370dc824ac35ed9e1c4659a743d648c41e605e"
+  },
+  {
+    "path": "track_b/data/external/forecast_sample/wind_v_10m.http.json",
+    "bytes": 436,
+    "sha256": "7ab886471f7c2240ace7f86487155cd1b4d697f94cedf14ae6df1c8f6f9b5d2b"
+  },
+  {
+    "path": "track_b/data/processed/forecast_sample/gfs_2026082518_f009_aoi.nc",
+    "bytes": 28380,
+    "sha256": "da53c0217ee1c3f74b31ffcbfafaa000483e4f209572b2105cd6fda2661441e8"
+  },
+  {
+    "path": "track_b/data/processed/forecast_sample/summary.json",
+    "bytes": 7870,
+    "sha256": "073a9f13f4ed11b32ddad23a86f8fc072ea2fe0d1e170514334d3bf363b1d81c"
+  },
+  {
+    "path": "track_b/research/q3/config/replay.json",
+    "bytes": 895,
+    "sha256": "6266969a2278150acb0f4904b94d8aefb626ff67d18237d346c09df2e106a2b1"
+  }
+]
