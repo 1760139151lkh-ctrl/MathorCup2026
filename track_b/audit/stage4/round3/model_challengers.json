@@ -28,7 +28,7 @@
       "registered_at_utc": "2026-10-24T09:41:36.884830+00:00",
       "registration_role": "posthoc_applicability_diagnostic_not_pre_registered_prediction",
       "reason": "All nonzero prospective event support comes from p0149-S, whose Q2 strength-domain fraction is0.",
-      "normal_stress_kpa": 820.5869390667067,
+      "normal_stress_kpa": 820.306718246536,
       "Mamot_numeric_stress_domain_kpa": [
         100,
         400
@@ -42,7 +42,9 @@
         "no local-material certification or operational availability inference",
         "no zero-event safety conclusion"
       ],
-      "scientific_adoption": "pending_review"
+      "scientific_adoption": "pending_review",
+      "gravity_used_m_s2": 9.80665,
+      "stress_domain_scope": "100-400 kPa domain of adopted constitutive relation, not the entire experiment suite; suite includes800kPa."
     }
   ]
 }

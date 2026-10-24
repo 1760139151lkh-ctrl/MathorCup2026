@@ -65,7 +65,22 @@
       "max_pressure_difference_kpa": 40.869149905
     },
     "cache_manifest_verified_files": 900,
-    "cache_manifest_verified_bytes": 972354039
+    "cache_manifest_verified_bytes": 972354039,
+    "strength_domain_followup": {
+      "crossing_rows_checked": 342,
+      "all_observed_strength_domain_fractions_zero": true,
+      "unique_design": "q2r3-p0149-S",
+      "normal_stress_kpa": 820.306718246536,
+      "gravity_m_s2": 9.80665,
+      "pressure_kpa": 0,
+      "interface_temperature_c": -3.26902638936412,
+      "stress_law_domain_kpa": [
+        100,
+        400
+      ],
+      "reason": "effective stress exceeds law domain, T within domain; two policies identical here",
+      "diagnostic_status": "new Q3 applicability increment dispatched, preserve old results and unknown mass"
+    }
   },
   "q4_partial_propagation_review": {
     "status": "context_only_not_numeric_validation",
@@ -85,6 +100,12 @@
     "all_parent_q2_mappings_absent": true,
     "absolute_mechanical_arrival_adopted": false,
     "remaining": "full mapped cases, final comparison and numerical qualification pending",
-    "parser_and_build_followups": "Code now removes frame-index time fallback, marks missing native times; per-run source/build/binary identity explicit. Final output review still pending."
+    "parser_and_build_followups": "Code now removes frame-index time fallback, marks missing native times; per-run source/build/binary identity explicit. Final output review still pending.",
+    "bowl_equilibrium_review": {
+      "configuration": "single rho1000 phi0 delta0; multi only P3 water",
+      "height_semantics": "ctopo0 vertical input/output; internal normal conversion explicit",
+      "native_float32_surface_constant_wet_cells": 216,
+      "conclusion": "Pure-fluid static target applies; measured60m csurface0 configuration does not preserve expected rest. Discrete/shoreline/slope sources not separated; not a universal constitutive-law failure or blanket rejection of granular regional routes."
+    }
   }
 }
