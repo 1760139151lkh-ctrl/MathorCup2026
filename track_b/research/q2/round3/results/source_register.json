@@ -1,0 +1,255 @@
+{
+  "register_version": "q2r3-source-index-v1",
+  "sources": [
+    {
+      "source_id": "mamot2018_html",
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/12/3333/2018/tc-12-3333-2018.html",
+      "product_version": "Mamot et al. (2018), final, DOI 10.5194/tc-12-3333-2018",
+      "retrieved_at_utc": "2026-10-24T07:29:57.450624+00:00",
+      "retrieval_time_method": "file write mtime recorded immediately following request; requests Session trust_env=False; no credentials",
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.html",
+      "bytes": 324421,
+      "sha256": "4ff53f5745dafc83d4919125132a1605f027f8b1bb46cfc5bfdb696c66f7c51b",
+      "actual_read_scope": "Full publisher HTML captured; read Sect2.2-2.4, Sect3.3-3.5, Sect4.1-4.5, Eq3-Eq6, Fig7/Fig9 captions and conclusion; PDF cross-check used for equations and tables; bibliography not independently verified",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": "public article date 2018-10-17; publication does not prove actual historical acquisition by forecasting system",
+      "published_at_date": "2018-10-17"
+    },
+    {
+      "source_id": "mamot2018_pdf",
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/12/3333/2018/tc-12-3333-2018.pdf",
+      "product_version": "Mamot et al. (2018), final, DOI 10.5194/tc-12-3333-2018",
+      "retrieved_at_utc": "2026-10-24T07:30:23.411875+00:00",
+      "retrieval_time_method": "file write mtime recorded immediately following request; requests Session trust_env=False; no credentials",
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "bytes": 8371754,
+      "sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+      "actual_read_scope": "All21 pages machine-extracted by pypdf. Actual reading focused printed3337-3339,3341-3348,3350; rendered and actually opened PDF one-based pages5,6,7,10,11,14; formulas Eq4-Eq6 also checked against publisher HTML; not an independent experiment replication",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": "public article date 2018-10-17; publication does not prove actual historical acquisition by forecasting system",
+      "published_at_date": "2018-10-17"
+    },
+    {
+      "source_id": "mamot2018_supplement_zip",
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/12/3333/2018/tc-12-3333-2018-supplement.zip",
+      "product_version": "Mamot et al. (2018) official supplement",
+      "retrieved_at_utc": "2026-10-24T07:32:01.703006+00:00",
+      "retrieval_time_method": "file write mtime recorded immediately following request; requests Session trust_env=False; no credentials",
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_supplement.zip",
+      "bytes": 3397215,
+      "sha256": "5fcd735a88654af1f4c150313ee79afb855a0ae67ed9319a851d8e125fa420a0",
+      "actual_read_scope": "ZIP member inventory inspected; actual member Supplement/Supplement_Mamot et al.pdf extracted (10 pages), TableS2 PDFpage10 read/rendered/opened and transcribed; introductory inventory and TableS1 location read. XLSX and DOCX members not opened or fitted",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": "public article date 2018-10-17; publication does not prove actual historical acquisition by forecasting system",
+      "published_at_date": "2018-10-17"
+    },
+    {
+      "source_id": "weber2025_thermal_html",
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/19/6727/2025/",
+      "product_version": "The Cryosphere 19, 6727, 2025, final",
+      "retrieved_at_utc": "2026-10-24T07:32:03.170398+00:00",
+      "retrieval_time_method": "file write mtime recorded immediately following request; requests Session trust_env=False; no credentials",
+      "path": "track_b/research/q2/round3/sources/strength/thermal_diffusivity2025.html",
+      "bytes": 418555,
+      "sha256": "df9810d2001dd37d740c6fafdef05114a216249017a61f8ae49f036b0314458b",
+      "actual_read_scope": "Full publisher HTML captured and plain text extracted; read methods applicability around heat equation, Sect3.3-3.4, Fig6 exclusions, Sect4 limitations and Sect5 conclusions; no source borehole dataset downloaded; no PDF visual review claimed",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": "public article date 2025-12-18; publication does not prove actual historical acquisition by forecasting system",
+      "published_at_date": "2025-12-18"
+    },
+    {
+      "source_id": "benasher2026_water_html",
+      "canonical_url_or_product_id": "https://hess.copernicus.org/articles/30/1735/2026/index.html",
+      "product_version": "Hydrology and Earth System Sciences 30, 1735, 2026, final",
+      "retrieved_at_utc": "2026-10-24T07:32:06.164954+00:00",
+      "retrieval_time_method": "file write mtime recorded immediately following request; requests Session trust_env=False; no credentials",
+      "path": "track_b/research/q2/round3/sources/strength/waterflow2026.html",
+      "bytes": 310716,
+      "sha256": "36d4f5ed16c2ed3ec10d0c70e6b1683a5e43f14f0138ac2191d1b21ee733122f",
+      "actual_read_scope": "Full publisher HTML captured and plain text extracted; read Sect3.5.1-3.5.2 recession/cross-correlation, Sect4.1, Sect4.3, Sect5.1-5.4 and Sect6; identified GST lag discrepancy Results4.1 vs abstract/conclusion; no original flow dataset downloaded; no PDF visual review claimed",
+      "data_role": "external_transfer",
+      "available_time_or_unknown": "public article date 2026-03-31; publication does not prove actual historical acquisition by forecasting system",
+      "published_at_date": "2026-03-31"
+    },
+    {
+      "canonical_url_or_product_id": "https://its-live-data.s3.amazonaws.com/datacubes/catalog_v02.json",
+      "product_version": "as saved response; version in upstream source record",
+      "retrieved_at_utc": "2026-10-24T07:30:58.597625+00:00",
+      "actual_read_scope": "explicit response body, not HTTP/TLS overhead",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q2/sar_v1/catalog_v02.json",
+      "bytes": 7647190,
+      "sha256": "5d2a6ada0d80368f124287ef666936faa482b1375889e3aeb73892d60ca1891f",
+      "data_role": "exploration",
+      "available_time_or_unknown": null,
+      "http_status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://tc.copernicus.org/articles/19/3517/2025/tc-19-3517-2025.html",
+      "product_version": "as saved response; version in upstream source record",
+      "retrieved_at_utc": "2026-10-24T07:34:34.114353+00:00",
+      "actual_read_scope": "explicit response body, not HTTP/TLS overhead",
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/sources/sar/itslive_2025_paper.html",
+      "bytes": 305988,
+      "sha256": "d26092199c6a9ef6b46af0dfeab9a636adb3306795a15ad7793be4dacf98e1ff",
+      "data_role": "exploration",
+      "available_time_or_unknown": null,
+      "http_status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://its-live.jpl.nasa.gov/itslive-web/index.xml",
+      "product_version": "as saved response; version in upstream source record",
+      "retrieved_at_utc": "2026-10-24T07:31:54.848092+00:00",
+      "actual_read_scope": "explicit response body, not HTTP/TLS overhead",
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/sources/sar/itslive_official_index.html",
+      "bytes": 41768,
+      "sha256": "e93020908f28ec81bc35e92cdbf92dc0b96830b825d4629d99c9d2805424f263",
+      "data_role": "exploration",
+      "available_time_or_unknown": null,
+      "http_status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://nsidc.org/apps/itslive-search/velocities/urls/?bbox=85.50%2C28.27%2C85.54%2C28.31&start=2024-07-01&end=2024-10-01&percent_valid_pixels=1&min_interval=6&max_interval=48&version=2",
+      "product_version": "as saved response; version in upstream source record",
+      "retrieved_at_utc": "2026-10-24T07:30:56.569918+00:00",
+      "actual_read_scope": "explicit response body, not HTTP/TLS overhead",
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/sources/sar/itslive_query_background_2024.json",
+      "bytes": 64766,
+      "sha256": "3741cfa3abf2e44787bc0dc6769c093bc3938a26b415185d728af1bd847df388",
+      "data_role": "exploration",
+      "available_time_or_unknown": null,
+      "http_status": 404
+    },
+    {
+      "canonical_url_or_product_id": "https://nsidc.org/apps/itslive-search/velocities/urls/?bbox=85.50%2C28.27%2C85.54%2C28.31&start=2026-07-01&end=2026-10-01&percent_valid_pixels=1&min_interval=6&max_interval=48&version=2",
+      "product_version": "as saved response; version in upstream source record",
+      "retrieved_at_utc": "2026-10-24T07:30:52.996003+00:00",
+      "actual_read_scope": "explicit response body, not HTTP/TLS overhead",
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/sources/sar/itslive_query_event_2026.json",
+      "bytes": 64766,
+      "sha256": "62bdc1551646d078d652e85442eb64614491f75f23676ea6b59356f6c091cd31",
+      "data_role": "exploration",
+      "available_time_or_unknown": null,
+      "http_status": 404
+    },
+    {
+      "canonical_url_or_product_id": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_X_S1D_IW_SLC__1SSV_20260912T001040_20260912T001056_004537_008704_00BC_G0120V02_P096.nc",
+      "product_version": "ITS_LIVE V02 SAR feature-tracking NetCDF",
+      "retrieved_at_utc": "2026-10-24T07:33:37.002498+00:00",
+      "actual_read_scope": "explicit response body, not HTTP/TLS overhead",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q2/sar_v1/itslive_s1d_post.nc",
+      "bytes": 17569302,
+      "sha256": "fb108ff579fe0dab9b0a159bc53b29eb373de6741c48388f199877abcfdbfcdb",
+      "data_role": "exploration",
+      "available_time_or_unknown": null,
+      "http_status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260807T001039_20260807T001054_004012_0074B7_7861_X_S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_G0120V02_P097.nc",
+      "product_version": "ITS_LIVE V02 SAR feature-tracking NetCDF",
+      "retrieved_at_utc": "2026-10-24T07:33:15.289643+00:00",
+      "actual_read_scope": "explicit response body, not HTTP/TLS overhead",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q2/sar_v1/itslive_s1d_pre.nc",
+      "bytes": 17148466,
+      "sha256": "abfe8866dd70b61dc7da10d543902ee1e16663f2f525bbd749b350990509806a",
+      "data_role": "exploration",
+      "available_time_or_unknown": null,
+      "http_status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_X_S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_G0120V02_P096.nc",
+      "product_version": "ITS_LIVE V02 SAR feature-tracking NetCDF",
+      "retrieved_at_utc": "2026-10-24T07:33:26.839006+00:00",
+      "actual_read_scope": "explicit response body, not HTTP/TLS overhead",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q2/sar_v1/itslive_s1d_straddle.nc",
+      "bytes": 17431649,
+      "sha256": "46a8a9601ee888dab7bca0e8ded57734e6aa00551721329afff3ac8346ffa7f3",
+      "data_role": "exploration",
+      "available_time_or_unknown": null,
+      "http_status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://stac.itslive.cloud/search?collections=itslive-granules&bbox=85.50%2C28.27%2C85.54%2C28.31&datetime=2024-07-01T00%3A00%3A00Z%2F2024-10-01T00%3A00%3A00Z&limit=100",
+      "product_version": "as saved response; version in upstream source record",
+      "retrieved_at_utc": "2026-10-24T07:31:58.567841+00:00",
+      "actual_read_scope": "explicit response body, not HTTP/TLS overhead",
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/sources/sar/itslive_stac_background.json",
+      "bytes": 317839,
+      "sha256": "332674a6dbbcdd69658a8e5e192b3eb0171e130c7ecf880c5cb1b5185385d13f",
+      "data_role": "exploration",
+      "available_time_or_unknown": null,
+      "http_status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://stac.itslive.cloud/search?collections=itslive-granules&bbox=85.50%2C28.27%2C85.54%2C28.31&datetime=2026-07-01T00%3A00%3A00Z%2F2026-10-01T00%3A00%3A00Z&limit=100",
+      "product_version": "as saved response; version in upstream source record",
+      "retrieved_at_utc": "2026-10-24T07:31:56.684666+00:00",
+      "actual_read_scope": "explicit response body, not HTTP/TLS overhead",
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/sources/sar/itslive_stac_event.json",
+      "bytes": 317700,
+      "sha256": "446522e13eae45e3e460c560beb1888d9522f44c08e9280008ce1366d94147ea",
+      "data_role": "exploration",
+      "available_time_or_unknown": null,
+      "http_status": 200
+    },
+    {
+      "canonical_url_or_product_id": "https://stac.itslive.cloud/search?collections=itslive-granules&bbox=85.50%2C28.27%2C85.54%2C28.31&datetime=2026-08-15T00%3A00%3A00Z%2F2026-09-01T23%3A59%3A59Z&limit=200&filter-lang=cql2-text&filter=platform%3D%27S1D%27+AND+date_dt+%3C%3D+24",
+      "product_version": "as saved response; version in upstream source record",
+      "retrieved_at_utc": "2026-10-24T07:32:35.350919+00:00",
+      "actual_read_scope": "explicit response body, not HTTP/TLS overhead",
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/sources/sar/itslive_stac_event_bracket.json",
+      "bytes": 23385,
+      "sha256": "ed2921cec4a486eebe05b6a19655668ce81fffa88552a00fe95faf0d6bb2ccfc",
+      "data_role": "exploration",
+      "available_time_or_unknown": null,
+      "http_status": 200
+    }
+  ],
+  "strength_register": {
+    "path": "track_b/research/q2/round3/sources/strength/source_register.json",
+    "bytes": 11331,
+    "sha256": "366e6c6852bc445823f0da9dc3662a7f0c26f0814344eef24f8bff1d5e6455ca",
+    "role": "detailed actual reading / coefficient domain / PDF views"
+  },
+  "sar_register": {
+    "path": "track_b/research/q2/round3/results/sar_evidence_register.json",
+    "bytes": 19189,
+    "sha256": "1c81720afc6f678db042b2ccc0fbd2f3647d1bb424d9bd96a58abdf91e885983",
+    "role": "actual public responses / pixels / source reading"
+  },
+  "composition_protocol": {
+    "path": "track_b/research/q2/round3/results/composition_sensitivity/protocol.json",
+    "bytes": 8844,
+    "sha256": "c28bec93ee0e15b291898b9a6b8943f700caedb6ec3b8c6630bbee665d218dd6",
+    "role": "actual frozen abstracts reread; precise volume from advisor; candidate bulk-to-slab mapping"
+  },
+  "advisor_interfaces": [
+    {
+      "producer": "q1",
+      "bundle_version": "q1-r3-feature-v1",
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/bundle.json",
+      "sha256": "765037010dadc269a6b3d89831abb61fc9d1163c2b9b989facbfcf4a2107b918",
+      "checked_files": 10,
+      "adoption_scope": "Only the explicit review note; all upstream limitations retained",
+      "advisor_note": "Accepted as regional-station feature definitions, QC-separated numerical features and support metadata only. No ranking or source-area representation is accepted here. Available time and hourly integration semantics remain unknown; downstream must apply registered coverage thresholds, and precipitation is label statistics rather than an accepted accumulated rainfall input."
+    },
+    {
+      "producer": "q3",
+      "bundle_version": "q3-r3-event-v1-local",
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+      "sha256": "16ecf5a0e3af9ad572104490b79a56f59a78fc011e37cee2dd8f75e34d0a5a32",
+      "checked_files": 3,
+      "adoption_scope": "Only the explicit review note; all upstream limitations retained",
+      "advisor_note": "Accepted as inherited local stage/label/availability constraints only. No new accepted first-initiation truth, independent training event, real-time availability or coverage validation. Same chain remains grouped; literature arrival/onset values are candidate reconstruction constraints and not independent validation."
+    },
+    {
+      "producer": "q4",
+      "bundle_version": "q4-r3-spatial-copdem-v1-frozen-export",
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/bundle.json",
+      "sha256": "8eb6cbc1b85e60fe8a82906f4f025ec22b3bcf96d5c59bd0535ffbe0ccf8a0c5",
+      "checked_files": 8,
+      "adoption_scope": "Only the explicit review note; all upstream limitations retained",
+      "advisor_note": "Accepted as conditional computational geometry and independently sourced COPDEM EGM2008 terrain only. Three terrain-cost paths are candidates, source/port remain paper reconstructions; no observed release boundary, bridge identity, path, initial thickness or velocity is accepted. Native acquisition2011-2015/release2021 is not event2026 topography. Normalize release thickness by grid source area to hold volume fixed; use delivered file-role/path mapping rather than nested upstream-relative paths."
+    }
+  ],
+  "historical_available_time_warning": "Retrieval/Last-Modified is not historical first availability"
+}

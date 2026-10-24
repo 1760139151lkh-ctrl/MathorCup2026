@@ -1,0 +1,782 @@
+{
+  "experiment_id": "q2r3_local_identifiability_v1",
+  "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+  "evaluation_stratum": "numerical_benchmark",
+  "independent_events": 0,
+  "data_role": "scenario",
+  "event_id": null,
+  "time_utc": null,
+  "time_note": "fixed-state hypothetical experimental design, not an event observation",
+  "input_version": {
+    "engine_path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+    "engine_sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+    "script_sha256": "13bf5a0542300cf60b7b6f693fdc3189e055d58b9bbdfc1671dbfd72ce2a3569"
+  },
+  "parameter_order": [
+    "bridge_cohesion_kpa",
+    "initial_damage",
+    "head_m",
+    "interface_temperature_c"
+  ],
+  "parameter_units": [
+    "kPa",
+    "1",
+    "m",
+    "degC"
+  ],
+  "parameter_center": [
+    800.0,
+    0.3,
+    5.0,
+    -2.5
+  ],
+  "parameter_scales": [
+    500.0,
+    0.2,
+    5.0,
+    1.0
+  ],
+  "fixed_known_parameters": {
+    "theta_deg": 55.0,
+    "density_kg_m3": 2400.0,
+    "thickness_normal_m": 20.0,
+    "bridge_fraction": 0.2,
+    "rock_mu": 0.6
+  },
+  "prescribed_noise_standard_deviations": {
+    "failure_margin": 0.05,
+    "interface_temperature_c": 0.1,
+    "pressure_kpa": 5.0,
+    "damage": 0.05
+  },
+  "noise_status": "arbitrary prospective design values, independent Gaussian measurement standardization only; no noisy data generated or fitted",
+  "finite_difference": {
+    "method": "central",
+    "normalized_step": 0.0001,
+    "check_steps": [
+      0.001,
+      1e-05
+    ]
+  },
+  "observation_definitions": {
+    "failure_margin": "(resisting_shear_kPa-driving_shear_kPa)/driving_shear_kPa; positive stable",
+    "interface_temperature_c": "hypothetical direct interface temperature",
+    "pressure_kpa": "hypothetical direct pressure, u=g*head with water density1000kg/m3",
+    "damage": "ideal direct model-state damage; actual damage proxy would require separate calibration"
+  },
+  "center_state": {
+    "resistance_kpa": 438.30912754202143,
+    "driving_kpa": 385.59059496607875,
+    "normal_kpa": 269.9934412580153,
+    "effective_kpa": 220.9601912580153,
+    "failure_margin": 0.13672152086743827,
+    "strength_domain": true,
+    "contact_valid": true,
+    "critical_head_m": 11.136751414622577,
+    "cohesion_kpa": 244.74799999999996,
+    "mu": 0.8760000000000001,
+    "critical_head_status": "positive_pressure_root"
+  },
+  "designs": [
+    {
+      "design_id": "margin_single",
+      "observation_names": [
+        "failure_margin"
+      ],
+      "observation_center_values": [
+        0.13672152086743827
+      ],
+      "standardized_jacobian": [
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ]
+      ],
+      "singular_values_returned_by_svd": [
+        6.912895810309158
+      ],
+      "parameter_space_singular_values_padded": [
+        6.912895810309158,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rank": 1,
+      "rank_relative_tolerance": 1e-10,
+      "nullity": 3,
+      "nullspace_directions_normalized_parameters": [
+        [
+          0.5246801803781411,
+          0.819508517979641,
+          -0.11086651340883429,
+          -0.20205225433472027
+        ],
+        [
+          0.32228369783501143,
+          -0.11086651340883429,
+          0.9319004771978946,
+          -0.12411017247871399
+        ],
+        [
+          0.5873563232097185,
+          -0.20205225433472027,
+          -0.124110172478714,
+          0.7738114119028757
+        ]
+      ],
+      "condition_full_parameter_space": null,
+      "condition_status": "infinite_rank_deficient",
+      "condition_identified_subspace": 1.0,
+      "evaluation_stratum": "numerical_benchmark",
+      "independent_events": 0
+    },
+    {
+      "design_id": "margin_24_fixed_condition_repeats",
+      "observation_names": [
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin",
+        "failure_margin"
+      ],
+      "observation_center_values": [
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827,
+        0.13672152086743827
+      ],
+      "standardized_jacobian": [
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ]
+      ],
+      "singular_values_returned_by_svd": [
+        33.866134760562176,
+        1.6091882059930603e-15,
+        3.0270212792345516e-31,
+        1.42201056560486e-47
+      ],
+      "parameter_space_singular_values_padded": [
+        33.866134760562176,
+        1.6091882059930603e-15,
+        3.0270212792345516e-31,
+        1.42201056560486e-47
+      ],
+      "rank": 1,
+      "rank_relative_tolerance": 1e-10,
+      "nullity": 3,
+      "nullspace_directions_normalized_parameters": [
+        [
+          -0.41177704145324107,
+          -0.29113657040069413,
+          0.7068654620755107,
+          -0.4960044193675217
+        ],
+        [
+          -0.13360505042392723,
+          -0.7971466080467489,
+          0.006991236568488972,
+          0.5887767814647809
+        ],
+        [
+          0.7326205584199248,
+          0.067137850525959,
+          0.6296233471257314,
+          0.24966791376030315
+        ]
+      ],
+      "condition_full_parameter_space": null,
+      "condition_status": "infinite_rank_deficient",
+      "condition_identified_subspace": 1.0,
+      "evaluation_stratum": "numerical_benchmark",
+      "independent_events": 0
+    },
+    {
+      "design_id": "margin_plus_temperature",
+      "observation_names": [
+        "failure_margin",
+        "interface_temperature_c"
+      ],
+      "observation_center_values": [
+        0.13672152086743827,
+        -2.5
+      ],
+      "standardized_jacobian": [
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          10.000000000021103
+        ]
+      ],
+      "singular_values_returned_by_svd": [
+        11.052859135363727,
+        5.061860667621996
+      ],
+      "parameter_space_singular_values_padded": [
+        11.052859135363727,
+        5.061860667621996,
+        0.0,
+        0.0
+      ],
+      "rank": 2,
+      "rank_relative_tolerance": 1e-10,
+      "nullity": 2,
+      "nullspace_directions_normalized_parameters": [
+        [
+          0.3046730159373228,
+          -0.25815796068005165,
+          0.9168035889421315,
+          -2.6780858030099907e-17
+        ],
+        [
+          0.6971567235448325,
+          0.7162915082904306,
+          -0.029982961282261782,
+          2.878637303269761e-16
+        ]
+      ],
+      "condition_full_parameter_space": null,
+      "condition_status": "infinite_rank_deficient",
+      "condition_identified_subspace": 2.1835565735862565,
+      "evaluation_stratum": "numerical_benchmark",
+      "independent_events": 0
+    },
+    {
+      "design_id": "margin_plus_temperature_pressure",
+      "observation_names": [
+        "failure_margin",
+        "interface_temperature_c",
+        "pressure_kpa"
+      ],
+      "observation_center_values": [
+        0.13672152086743827,
+        -2.5,
+        49.033249999999995
+      ],
+      "standardized_jacobian": [
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          10.000000000021103
+        ],
+        [
+          0.0,
+          0.0,
+          9.806649999994477,
+          0.0
+        ]
+      ],
+      "singular_values_returned_by_svd": [
+        11.238520246091397,
+        9.847537583351041,
+        4.547546473614763
+      ],
+      "parameter_space_singular_values_padded": [
+        11.238520246091397,
+        9.847537583351041,
+        4.547546473614763,
+        0.0
+      ],
+      "rank": 3,
+      "rank_relative_tolerance": 1e-10,
+      "nullity": 1,
+      "nullspace_directions_normalized_parameters": [
+        [
+          0.7067428455938639,
+          0.707470529564227,
+          -6.710834214332844e-18,
+          3.307197293462815e-17
+        ]
+      ],
+      "condition_full_parameter_space": null,
+      "condition_status": "infinite_rank_deficient",
+      "condition_identified_subspace": 2.4713370850189684,
+      "evaluation_stratum": "numerical_benchmark",
+      "independent_events": 0
+    },
+    {
+      "design_id": "margin_plus_temperature_pressure_damage",
+      "observation_names": [
+        "failure_margin",
+        "interface_temperature_c",
+        "pressure_kpa",
+        "damage"
+      ],
+      "observation_center_values": [
+        0.13672152086743827,
+        -2.5,
+        49.033249999999995,
+        0.3
+      ],
+      "standardized_jacobian": [
+        [
+          3.6307939515950456,
+          -3.627059420688305,
+          -2.227913624494593,
+          -4.060333065875055
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          10.000000000021103
+        ],
+        [
+          0.0,
+          0.0,
+          9.806649999994477,
+          0.0
+        ],
+        [
+          0.0,
+          4.000000000004,
+          0.0,
+          0.0
+        ]
+      ],
+      "singular_values_returned_by_svd": [
+        11.260417461717577,
+        9.84768138515031,
+        5.552906209259484,
+        2.3129883835880287
+      ],
+      "parameter_space_singular_values_padded": [
+        11.260417461717577,
+        9.84768138515031,
+        5.552906209259484,
+        2.3129883835880287
+      ],
+      "rank": 4,
+      "rank_relative_tolerance": 1e-10,
+      "nullity": 0,
+      "nullspace_directions_normalized_parameters": [],
+      "condition_full_parameter_space": 4.86834155398992,
+      "condition_status": "finite",
+      "condition_identified_subspace": 4.86834155398992,
+      "evaluation_stratum": "numerical_benchmark",
+      "independent_events": 0
+    }
+  ],
+  "exact_compensation_cases": [
+    {
+      "case_id": "specified_center",
+      "parameters": {
+        "bridge_cohesion_kpa": 800.0,
+        "initial_damage": 0.3,
+        "head_m": 5.0,
+        "interface_temperature_c": -2.5
+      },
+      "state": {
+        "resistance_kpa": 438.30912754202143,
+        "driving_kpa": 385.59059496607875,
+        "normal_kpa": 269.9934412580153,
+        "effective_kpa": 220.9601912580153,
+        "failure_margin": 0.13672152086743827,
+        "strength_domain": true,
+        "contact_valid": true,
+        "critical_head_m": 11.136751414622577,
+        "cohesion_kpa": 244.74799999999996,
+        "mu": 0.8760000000000001,
+        "critical_head_status": "positive_pressure_root"
+      },
+      "margin_difference_from_center": 0.0,
+      "evaluation_stratum": "numerical_benchmark",
+      "independent_events": 0
+    },
+    {
+      "case_id": "higher_bridge_cohesion_with_more_damage",
+      "parameters": {
+        "bridge_cohesion_kpa": 1499.2799999999993,
+        "initial_damage": 0.5,
+        "head_m": 5.0,
+        "interface_temperature_c": -2.5
+      },
+      "state": {
+        "resistance_kpa": 438.3091275420214,
+        "driving_kpa": 385.59059496607875,
+        "normal_kpa": 269.9934412580153,
+        "effective_kpa": 220.9601912580153,
+        "failure_margin": 0.13672152086743813,
+        "strength_domain": true,
+        "contact_valid": true,
+        "critical_head_m": 11.136751414622573,
+        "cohesion_kpa": 244.74799999999993,
+        "mu": 0.8760000000000001,
+        "critical_head_status": "positive_pressure_root"
+      },
+      "margin_difference_from_center": -1.3877787807814457e-16,
+      "evaluation_stratum": "numerical_benchmark",
+      "independent_events": 0
+    },
+    {
+      "case_id": "higher_bridge_cohesion_with_more_head",
+      "parameters": {
+        "bridge_cohesion_kpa": 984.0848299999997,
+        "initial_damage": 0.3,
+        "head_m": 8.0,
+        "interface_temperature_c": -2.5
+      },
+      "state": {
+        "resistance_kpa": 438.30912754202143,
+        "driving_kpa": 385.59059496607875,
+        "normal_kpa": 269.9934412580153,
+        "effective_kpa": 191.54024125801533,
+        "failure_margin": 0.13672152086743827,
+        "strength_domain": true,
+        "contact_valid": true,
+        "critical_head_m": 14.136751414622575,
+        "cohesion_kpa": 270.51987619999994,
+        "mu": 0.8760000000000001,
+        "critical_head_status": "positive_pressure_root"
+      },
+      "margin_difference_from_center": 0.0,
+      "evaluation_stratum": "numerical_benchmark",
+      "independent_events": 0
+    },
+    {
+      "case_id": "higher_bridge_cohesion_with_warmer_joint",
+      "parameters": {
+        "bridge_cohesion_kpa": 1079.5761147548092,
+        "initial_damage": 0.3,
+        "head_m": 5.0,
+        "interface_temperature_c": -2.0
+      },
+      "state": {
+        "resistance_kpa": 438.30912754202143,
+        "driving_kpa": 385.59059496607875,
+        "normal_kpa": 269.9934412580153,
+        "effective_kpa": 220.9601912580153,
+        "failure_margin": 0.13672152086743827,
+        "strength_domain": true,
+        "contact_valid": true,
+        "critical_head_m": 11.787618988900734,
+        "cohesion_kpa": 263.3086560656733,
+        "mu": 0.792,
+        "critical_head_status": "positive_pressure_root"
+      },
+      "margin_difference_from_center": 0.0,
+      "evaluation_stratum": "numerical_benchmark",
+      "independent_events": 0
+    }
+  ],
+  "structural_analysis": {
+    "surviving_combination_given_T_and_u": "C_eff=(1-D)*(fb*cb+(1-fb)*cj(T))",
+    "cohesion_damage_null_relation": "dcb=[fb*cb+(1-fb)*cj(T)]/[fb*(1-D)]*dD",
+    "cohesion_pressure_null_relation_at_fixed_D_and_T": "dcb=mu_mixed/[fb*(1-D)]*du",
+    "repeated_unchanged_conditions": "24 identical Jacobian rows retain rank1; singular value increases sqrt(24) only with independent noise and no shared model discrepancy",
+    "full_rank_scope": "local conditional identifiability of four unknowns only; not global uniqueness or practical field identifiability; allowing unknown fb/geometry/constitutive coefficients changes the result"
+  },
+  "validation": {
+    "rank_expected_vector": [
+      1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "all_rank_checks_passed": true,
+    "analytic_margin_jacobian": [
+      3.6307939516085987,
+      -3.627059420686945,
+      -2.227913624489658,
+      -4.060333065863971
+    ],
+    "finite_difference_checks": [
+      {
+        "design_id": "margin_single",
+        "expected_rank": 1,
+        "actual_rank": 1,
+        "analytic_margin_jacobian_max_abs_error": 1.3553158595414061e-11,
+        "finite_difference_step_checks": [
+          {
+            "normalized_step": 0.001,
+            "rank": 1,
+            "max_abs_jacobian_difference": 1.3323120384711729e-11
+          },
+          {
+            "normalized_step": 1e-05,
+            "rank": 1,
+            "max_abs_jacobian_difference": 9.159295544236556e-11
+          }
+        ]
+      },
+      {
+        "design_id": "margin_24_fixed_condition_repeats",
+        "expected_rank": 1,
+        "actual_rank": 1,
+        "analytic_margin_jacobian_max_abs_error": 1.3553158595414061e-11,
+        "finite_difference_step_checks": [
+          {
+            "normalized_step": 0.001,
+            "rank": 1,
+            "max_abs_jacobian_difference": 1.3323120384711729e-11
+          },
+          {
+            "normalized_step": 1e-05,
+            "rank": 1,
+            "max_abs_jacobian_difference": 9.159295544236556e-11
+          }
+        ]
+      },
+      {
+        "design_id": "margin_plus_temperature",
+        "expected_rank": 2,
+        "actual_rank": 2,
+        "analytic_margin_jacobian_max_abs_error": 1.3553158595414061e-11,
+        "finite_difference_step_checks": [
+          {
+            "normalized_step": 0.001,
+            "rank": 2,
+            "max_abs_jacobian_difference": 2.220446049250313e-11
+          },
+          {
+            "normalized_step": 1e-05,
+            "rank": 2,
+            "max_abs_jacobian_difference": 9.159295544236556e-11
+          }
+        ]
+      },
+      {
+        "design_id": "margin_plus_temperature_pressure",
+        "expected_rank": 3,
+        "actual_rank": 3,
+        "analytic_margin_jacobian_max_abs_error": 1.3553158595414061e-11,
+        "finite_difference_step_checks": [
+          {
+            "normalized_step": 0.001,
+            "rank": 3,
+            "max_abs_jacobian_difference": 2.220446049250313e-11
+          },
+          {
+            "normalized_step": 1e-05,
+            "rank": 3,
+            "max_abs_jacobian_difference": 9.159295544236556e-11
+          }
+        ]
+      },
+      {
+        "design_id": "margin_plus_temperature_pressure_damage",
+        "expected_rank": 4,
+        "actual_rank": 4,
+        "analytic_margin_jacobian_max_abs_error": 1.3553158595414061e-11,
+        "finite_difference_step_checks": [
+          {
+            "normalized_step": 0.001,
+            "rank": 4,
+            "max_abs_jacobian_difference": 2.220446049250313e-11
+          },
+          {
+            "normalized_step": 1e-05,
+            "rank": 4,
+            "max_abs_jacobian_difference": 9.159295544236556e-11
+          }
+        ]
+      }
+    ],
+    "same_margin_max_abs_error": 1.3877787807814457e-16,
+    "all_compensation_cases_in_joint_domain": true
+  },
+  "limits": [
+    "No local measured data, inverse fit, independent validation, event-time estimate or coverage claim",
+    "All parameter centers/scales/noise and measurement designs are prescribed numerical-benchmark choices",
+    "Rank depends on stated normalization/tolerance and local differentiability away from contact/domain transitions",
+    "Mamot brittle shear law transferred conditionally; not locally calibrated; added direct damage is idealized",
+    "Parameter compensation shows non-uniqueness, not likelihood or posterior probability"
+  ]
+}

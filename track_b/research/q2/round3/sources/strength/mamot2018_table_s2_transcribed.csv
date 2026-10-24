@@ -1,0 +1,10 @@
+mean_temperature_degC,reported_temperature_spread_degC,MAD_kPa,CV_percent,published_role
+-0.5,0.1,40.0,19.9,calibration
+-1.1,0.2,97.5,43.5,temperature_holdout
+-2.2,0.2,99.3,24.6,calibration
+-3.1,0.2,137.8,30.5,temperature_holdout
+-4.2,0.2,145.7,19.8,calibration
+-4.9,0.2,136.4,17.9,calibration
+-6.1,0.2,206.6,24.6,temperature_holdout
+-8.0,0.1,110.4,8.8,calibration
+-10.0,0.4,252.3,15.0,temperature_holdout_outside_fitted_temperature_domain

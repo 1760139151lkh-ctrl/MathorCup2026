@@ -1,0 +1,11 @@
+{
+  "figure_path": "track_b/research/q2/round3/results/analytic_thermal/numerical_comparison.png",
+  "sha256": "d5ba51b03c7ce1d76caaaf8758d58f9e1e23ea41267378873570533b9306b626",
+  "inspection": "opened via view_image, both panels inspected: labels and legend readable; left near-criterion y-limits intentional; right post-crossing diagnostic marked counterfactual",
+  "evaluation_stratum": "numerical_benchmark",
+  "data_sources": [
+    "results/analytic_thermal/diagnostic_traces.csv",
+    "results/analytic_thermal/paired_v2_fd0625.csv"
+  ],
+  "bundle_unmodified": true
+}

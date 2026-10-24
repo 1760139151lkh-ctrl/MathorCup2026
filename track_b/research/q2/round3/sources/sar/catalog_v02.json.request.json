@@ -1,0 +1,20 @@
+{
+  "requested_url": "https://its-live-data.s3.amazonaws.com/datacubes/catalog_v02.json",
+  "params": null,
+  "retrieved_at_utc": "2026-10-24T07:30:58.597625+00:00",
+  "method": "GET",
+  "authentication": "anonymous; trust_env=False",
+  "scope": "explicit response body, not HTTP/TLS overhead",
+  "byte_cap": 16777216,
+  "effective_url": "https://its-live-data.s3.amazonaws.com/datacubes/catalog_v02.json",
+  "http_status": 200,
+  "content_type": "application/json",
+  "last_modified": "Thu, 26 Mar 2026 21:37:55 GMT",
+  "etag": "\"9513a36aabd696c958f2e71743565639\"",
+  "completed_at_utc": "2026-10-24T07:31:12.565867+00:00",
+  "bytes_consumed": 7647190,
+  "sha256": "5d2a6ada0d80368f124287ef666936faa482b1375889e3aeb73892d60ca1891f",
+  "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q2/sar_v1/catalog_v02.json",
+  "available_time": null,
+  "available_time_note": "Retrieval and Last-Modified do not establish historical publication availability."
+}

@@ -1,0 +1,193 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "exports/mechanism_bundle.json",
+      "passed": true,
+      "details": {
+        "members": 8,
+        "sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1"
+      }
+    },
+    {
+      "check": "exports/release_bundle.json",
+      "passed": true,
+      "details": {
+        "members": 4,
+        "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b"
+      }
+    },
+    {
+      "check": "exports/release_bundle_v2.json",
+      "passed": true,
+      "details": {
+        "members": 11,
+        "sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3"
+      }
+    },
+    {
+      "check": "exports/mechanism_bundle_v2.json",
+      "passed": true,
+      "details": {
+        "members": 17,
+        "sha256": "dc53a9f805e96ff32b2c1fd064b0b7b33d90034e7d2c987f42403ae70bfcb093"
+      }
+    },
+    {
+      "check": "exports/numerical_supplement_bundle.json",
+      "passed": true,
+      "details": {
+        "members": 7,
+        "sha256": "151a7c7f822f3970a7dbdc0194b4c1df18548dbb70afca19a5927f49f3206b03"
+      }
+    },
+    {
+      "check": "exports/composition_bundle.json",
+      "passed": true,
+      "details": {
+        "members": 11,
+        "sha256": "14f96d7d1e8600154a831dba9921a9efbf70eeacfd71e54b12af78879b762335"
+      }
+    },
+    {
+      "check": "exports/analytic_thermal_bundle.json",
+      "passed": true,
+      "details": {
+        "members": 21,
+        "sha256": "ff989d23894f9b2d44daf032418583430791ef5b8367d423aa5cb54763767684"
+      }
+    },
+    {
+      "check": "original_exact_environment",
+      "passed": true,
+      "details": {
+        "distributions": 44,
+        "python": "3.12.14"
+      }
+    },
+    {
+      "check": "advisor_interfaces",
+      "passed": true,
+      "details": {
+        "original_qc_view": {
+          "overlap_hours": 1356,
+          "finite_temperature_pairs": 1356,
+          "temperature_max_abs_difference_c": 0.0,
+          "finite_rain_label_pairs": 0,
+          "rain_accumulation_accepted": false,
+          "source_representativeness_accepted": false
+        },
+        "unknown_qc_exploration": {
+          "overlap_hours": 1356,
+          "finite_temperature_pairs": 1356,
+          "temperature_max_abs_difference_c": 0.0,
+          "finite_rain_label_pairs": 1356,
+          "rain_accumulation_accepted": false,
+          "source_representativeness_accepted": false
+        }
+      }
+    },
+    {
+      "check": "real_sar",
+      "passed": true,
+      "details": {
+        "full_netcdf_bytes": 52149417,
+        "http_body_bytes": 60932819,
+        "checks": 9
+      }
+    },
+    {
+      "check": "independent_physics",
+      "passed": true,
+      "details": {
+        "checks": 14
+      }
+    },
+    {
+      "check": "retained_outcomes_time_and_censoring",
+      "passed": true,
+      "details": {
+        "outcomes": 2048,
+        "representative_state_rows": 133696,
+        "independent_events": 0
+      }
+    },
+    {
+      "check": "geometry_volume_mass",
+      "passed": true,
+      "details": {
+        "rows": 64,
+        "max_volume_relative_error": 1.4395663628976442e-16
+      }
+    },
+    {
+      "check": "identifiability_benchmark",
+      "passed": true,
+      "details": {
+        "ranks": [
+          1,
+          1,
+          2,
+          3,
+          4
+        ],
+        "independent_events": 0
+      }
+    },
+    {
+      "check": "composition_density_intervention",
+      "passed": true,
+      "details": {
+        "new_integrations": 128,
+        "new_state_rows": 267392,
+        "old_bundles_retained": true
+      }
+    },
+    {
+      "check": "analytic_thermal_independent_checks",
+      "passed": true,
+      "details": {
+        "checks": 43,
+        "outcomes": 2048,
+        "finite_onset_pairs_vs_fd0625": 137,
+        "max_onset_difference": {
+          "value": 0.34707951714221963,
+          "base_scenario_id": "q2r3-p0067-S_T_H-linear",
+          "mechanism_id": "S_T_H",
+          "law_policy": "linear_extension"
+        },
+        "actual_finite_bottom_approximation_bound_c": 2.3837703814831352e-26,
+        "scope": "linear heat equation numeric reference; 1h mechanical/water state and physical/source uncertainties retained"
+      }
+    },
+    {
+      "check": "workspace_end_and_preserved_startup",
+      "passed": true,
+      "details": {
+        "end_passed": true,
+        "startup_passed": true
+      }
+    },
+    {
+      "check": "actually_opened_model_and_sar_images",
+      "passed": true,
+      "details": {
+        "images": 14
+      }
+    }
+  ],
+  "scientific_adoption": "pending_team_review",
+  "independent_local_training_events": 0,
+  "independent_local_validation_events": 0,
+  "scope": "software/byte/physics implementation and conditional-model checks; not local mechanism validation",
+  "numerical_precision": {
+    "uniform_margin_0p02_target_passed": false,
+    "model_version": "FD 0.125m v2 control only; analytic thermal branch reported separately",
+    "failed_trajectories": 10,
+    "comparisons": 2048,
+    "finite_onset_pairs": 137,
+    "largest_observed_onset_difference_hours": 18.943779,
+    "interpretation": "passed above refers to integrity/implementation checks; full design timing precision NOT uniformly established; observed two-grid difference is not strict bound or95% interval",
+    "supplement": "exports/numerical_supplement_bundle.json"
+  }
+}

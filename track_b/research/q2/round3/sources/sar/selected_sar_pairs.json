@@ -1,0 +1,507 @@
+{
+  "selection_rule": "same S1D descending acquisition sequence, consecutive 12-day intervals, before/straddling/after task nominal event date; STAC footprint intersects candidate source search window, no claim yet of pixels",
+  "source_search_sha256": "ed2921cec4a486eebe05b6a19655668ce81fffa88552a00fe95faf0d6bb2ccfc",
+  "selected": [
+    {
+      "role": "pre",
+      "feature": {
+        "id": "S1D_IW_SLC__1SSV_20260807T001039_20260807T001054_004012_0074B7_7861_X_S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_G0120V02_P097",
+        "bbox": [
+          85.0232,
+          27.2044,
+          88.173,
+          28.8812
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://stac.itslive.cloud/collections/itslive-granules"
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://stac.itslive.cloud/collections/itslive-granules"
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://stac.itslive.cloud/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://stac.itslive.cloud/collections/itslive-granules/items/S1D_IW_SLC__1SSV_20260807T001039_20260807T001054_004012_0074B7_7861_X_S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_G0120V02_P097"
+          }
+        ],
+        "assets": {
+          "data": {
+            "href": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260807T001039_20260807T001054_004012_0074B7_7861_X_S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_G0120V02_P097.nc",
+            "type": "application/netcdf",
+            "roles": [
+              "data"
+            ],
+            "alternate": {
+              "s3": {
+                "href": "s3://its-live-data/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260807T001039_20260807T001054_004012_0074B7_7861_X_S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_G0120V02_P097.nc",
+                "alternate:name": "S3"
+              }
+            }
+          },
+          "overview": {
+            "href": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260807T001039_20260807T001054_004012_0074B7_7861_X_S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_G0120V02_P097.png",
+            "type": "image/png",
+            "roles": [
+              "overview"
+            ]
+          },
+          "thumbnail": {
+            "href": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260807T001039_20260807T001054_004012_0074B7_7861_X_S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_G0120V02_P097_thumb.png",
+            "type": "image/png",
+            "roles": [
+              "thumbnail"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                85.0534,
+                27.2044
+              ],
+              [
+                85.8286,
+                27.213
+              ],
+              [
+                86.6041,
+                27.2173
+              ],
+              [
+                87.3796,
+                27.2174
+              ],
+              [
+                88.1551,
+                27.2131
+              ],
+              [
+                88.1594,
+                27.629
+              ],
+              [
+                88.1639,
+                28.0449
+              ],
+              [
+                88.1684,
+                28.4608
+              ],
+              [
+                88.173,
+                28.8767
+              ],
+              [
+                87.3855,
+                28.8812
+              ],
+              [
+                86.5979,
+                28.8812
+              ],
+              [
+                85.8104,
+                28.8765
+              ],
+              [
+                85.0232,
+                28.8673
+              ],
+              [
+                85.031,
+                28.4516
+              ],
+              [
+                85.0386,
+                28.0359
+              ],
+              [
+                85.0461,
+                27.6201
+              ],
+              [
+                85.0534,
+                27.2044
+              ]
+            ]
+          ]
+        },
+        "collection": "itslive-granules",
+        "properties": {
+          "created": "2026-08-19T10:21:07Z",
+          "date_dt": 12.0,
+          "updated": "2026-08-19T10:21:07Z",
+          "version": "002",
+          "datetime": "2026-08-13T00:10:40.950581Z",
+          "latitude": 28.0493,
+          "platform": "S1D",
+          "longitude": 86.6011,
+          "proj:code": "EPSG:32645",
+          "scene_1_id": "S1D_IW_SLC__1SSV_20260807T001039_20260807T001054_004012_0074B7_7861",
+          "scene_2_id": "S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA",
+          "end_datetime": "2026-08-19T00:10:41.166478Z",
+          "mid_datetime": "2026-08-13T00:10:40.950581Z",
+          "scene_1_frame": "32333",
+          "scene_2_frame": "32333",
+          "start_datetime": "2026-08-07T00:10:40.734683Z",
+          "sat:orbit_state": "descending",
+          "percent_valid_pixels": 97
+        },
+        "stac_version": "1.1.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+          "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+          "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+          "https://stac-extensions.github.io/sat/v1.1.0/schema.json"
+        ]
+      }
+    },
+    {
+      "role": "straddle",
+      "feature": {
+        "id": "S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_X_S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_G0120V02_P096",
+        "bbox": [
+          85.0232,
+          27.2044,
+          88.173,
+          28.8812
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://stac.itslive.cloud/collections/itslive-granules"
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://stac.itslive.cloud/collections/itslive-granules"
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://stac.itslive.cloud/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://stac.itslive.cloud/collections/itslive-granules/items/S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_X_S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_G0120V02_P096"
+          }
+        ],
+        "assets": {
+          "data": {
+            "href": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_X_S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_G0120V02_P096.nc",
+            "type": "application/netcdf",
+            "roles": [
+              "data"
+            ],
+            "alternate": {
+              "s3": {
+                "href": "s3://its-live-data/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_X_S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_G0120V02_P096.nc",
+                "alternate:name": "S3"
+              }
+            }
+          },
+          "overview": {
+            "href": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_X_S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_G0120V02_P096.png",
+            "type": "image/png",
+            "roles": [
+              "overview"
+            ]
+          },
+          "thumbnail": {
+            "href": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_X_S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_G0120V02_P096_thumb.png",
+            "type": "image/png",
+            "roles": [
+              "thumbnail"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                85.0534,
+                27.2044
+              ],
+              [
+                85.8286,
+                27.213
+              ],
+              [
+                86.6041,
+                27.2173
+              ],
+              [
+                87.3796,
+                27.2174
+              ],
+              [
+                88.1551,
+                27.2131
+              ],
+              [
+                88.1594,
+                27.629
+              ],
+              [
+                88.1639,
+                28.0449
+              ],
+              [
+                88.1684,
+                28.4608
+              ],
+              [
+                88.173,
+                28.8767
+              ],
+              [
+                87.3855,
+                28.8812
+              ],
+              [
+                86.5979,
+                28.8812
+              ],
+              [
+                85.8104,
+                28.8765
+              ],
+              [
+                85.0232,
+                28.8673
+              ],
+              [
+                85.031,
+                28.4516
+              ],
+              [
+                85.0386,
+                28.0359
+              ],
+              [
+                85.0461,
+                27.6201
+              ],
+              [
+                85.0534,
+                27.2044
+              ]
+            ]
+          ]
+        },
+        "collection": "itslive-granules",
+        "properties": {
+          "created": "2026-08-31T03:26:14Z",
+          "date_dt": 12.0,
+          "updated": "2026-08-31T03:26:14Z",
+          "version": "002",
+          "datetime": "2026-08-25T00:10:41.545863Z",
+          "latitude": 28.0493,
+          "platform": "S1D",
+          "longitude": 86.6011,
+          "proj:code": "EPSG:32645",
+          "scene_1_id": "S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA",
+          "scene_2_id": "S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521",
+          "end_datetime": "2026-08-31T00:10:41.925248Z",
+          "mid_datetime": "2026-08-25T00:10:41.545863Z",
+          "scene_1_frame": "32333",
+          "scene_2_frame": "32333",
+          "start_datetime": "2026-08-19T00:10:41.166478Z",
+          "sat:orbit_state": "descending",
+          "percent_valid_pixels": 97
+        },
+        "stac_version": "1.1.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+          "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+          "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+          "https://stac-extensions.github.io/sat/v1.1.0/schema.json"
+        ]
+      }
+    },
+    {
+      "role": "post",
+      "feature": {
+        "id": "S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_X_S1D_IW_SLC__1SSV_20260912T001040_20260912T001056_004537_008704_00BC_G0120V02_P096",
+        "bbox": [
+          85.0232,
+          27.2044,
+          88.173,
+          28.8812
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://stac.itslive.cloud/collections/itslive-granules"
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://stac.itslive.cloud/collections/itslive-granules"
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://stac.itslive.cloud/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://stac.itslive.cloud/collections/itslive-granules/items/S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_X_S1D_IW_SLC__1SSV_20260912T001040_20260912T001056_004537_008704_00BC_G0120V02_P096"
+          }
+        ],
+        "assets": {
+          "data": {
+            "href": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_X_S1D_IW_SLC__1SSV_20260912T001040_20260912T001056_004537_008704_00BC_G0120V02_P096.nc",
+            "type": "application/netcdf",
+            "roles": [
+              "data"
+            ],
+            "alternate": {
+              "s3": {
+                "href": "s3://its-live-data/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_X_S1D_IW_SLC__1SSV_20260912T001040_20260912T001056_004537_008704_00BC_G0120V02_P096.nc",
+                "alternate:name": "S3"
+              }
+            }
+          },
+          "overview": {
+            "href": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_X_S1D_IW_SLC__1SSV_20260912T001040_20260912T001056_004537_008704_00BC_G0120V02_P096.png",
+            "type": "image/png",
+            "roles": [
+              "overview"
+            ]
+          },
+          "thumbnail": {
+            "href": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_X_S1D_IW_SLC__1SSV_20260912T001040_20260912T001056_004537_008704_00BC_G0120V02_P096_thumb.png",
+            "type": "image/png",
+            "roles": [
+              "thumbnail"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                85.0534,
+                27.2044
+              ],
+              [
+                85.8286,
+                27.213
+              ],
+              [
+                86.6041,
+                27.2173
+              ],
+              [
+                87.3796,
+                27.2174
+              ],
+              [
+                88.1551,
+                27.2131
+              ],
+              [
+                88.1594,
+                27.629
+              ],
+              [
+                88.1639,
+                28.0449
+              ],
+              [
+                88.1684,
+                28.4608
+              ],
+              [
+                88.173,
+                28.8767
+              ],
+              [
+                87.3855,
+                28.8812
+              ],
+              [
+                86.5979,
+                28.8812
+              ],
+              [
+                85.8104,
+                28.8765
+              ],
+              [
+                85.0232,
+                28.8673
+              ],
+              [
+                85.031,
+                28.4516
+              ],
+              [
+                85.0386,
+                28.0359
+              ],
+              [
+                85.0461,
+                27.6201
+              ],
+              [
+                85.0534,
+                27.2044
+              ]
+            ]
+          ]
+        },
+        "collection": "itslive-granules",
+        "properties": {
+          "created": "2026-09-12T09:06:43Z",
+          "date_dt": 12.0,
+          "updated": "2026-09-12T09:06:43Z",
+          "version": "002",
+          "datetime": "2026-09-06T00:10:42.142951Z",
+          "latitude": 28.0493,
+          "platform": "S1D",
+          "longitude": 86.6011,
+          "proj:code": "EPSG:32645",
+          "scene_1_id": "S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521",
+          "scene_2_id": "S1D_IW_SLC__1SSV_20260912T001040_20260912T001056_004537_008704_00BC",
+          "end_datetime": "2026-09-12T00:10:42.360654Z",
+          "mid_datetime": "2026-09-06T00:10:42.142951Z",
+          "scene_1_frame": "32333",
+          "scene_2_frame": "32333",
+          "start_datetime": "2026-08-31T00:10:41.925248Z",
+          "sat:orbit_state": "descending",
+          "percent_valid_pixels": 96
+        },
+        "stac_version": "1.1.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+          "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+          "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+          "https://stac-extensions.github.io/sat/v1.1.0/schema.json"
+        ]
+      }
+    }
+  ]
+}

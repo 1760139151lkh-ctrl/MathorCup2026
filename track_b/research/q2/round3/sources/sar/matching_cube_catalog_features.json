@@ -1,0 +1,76 @@
+{
+  "source_sha256": "5d2a6ada0d80368f124287ef666936faa482b1375889e3aeb73892d60ca1891f",
+  "match_point": [
+    85.52525662,
+    28.28784981
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.965927,
+              28.0102
+            ],
+            [
+              85.982767,
+              28.02149
+            ],
+            [
+              85.974084,
+              28.924013
+            ],
+            [
+              84.948575,
+              28.912293
+            ],
+            [
+              84.965927,
+              28.0102
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fill-opacity": 0.06211800446469107,
+        "fill": "red",
+        "roi_percent_coverage": 93.78819955353089,
+        "epsg": 32645,
+        "geometry_epsg": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                300000,
+                3100000
+              ],
+              [
+                400000,
+                3100000
+              ],
+              [
+                400000,
+                3200000
+              ],
+              [
+                300000,
+                3200000
+              ],
+              [
+                300000,
+                3100000
+              ]
+            ]
+          ]
+        },
+        "datacube_exist": 1,
+        "zarr_url": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N20E080/ITS_LIVE_vel_EPSG32645_G0120_X350000_Y3150000.zarr",
+        "granule_count": 127000,
+        "composite_zarr_url": "https://its-live-data.s3.amazonaws.com/composites/annual/v2-updated-september2025/N20E080/ITS_LIVE_velocity_EPSG32645_120m_X350000_Y3150000.zarr"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "requested_url": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_X_S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_G0120V02_P096.nc",
+  "params": null,
+  "retrieved_at_utc": "2026-10-24T07:33:26.839006+00:00",
+  "method": "GET",
+  "authentication": "anonymous; trust_env=False",
+  "scope": "explicit response body, not HTTP/TLS overhead",
+  "byte_cap": 268435456,
+  "effective_url": "https://its-live-data.s3.amazonaws.com/velocity_image_pair/sentinel1/v02/N20E080/S1D_IW_SLC__1SSV_20260819T001039_20260819T001055_004187_007ABD_94DA_X_S1D_IW_SLC__1SSV_20260831T001040_20260831T001056_004362_0080EC_8521_G0120V02_P096.nc",
+  "http_status": 200,
+  "content_type": "application/x-netcdf",
+  "last_modified": "Mon, 31 Aug 2026 03:35:36 GMT",
+  "etag": "\"d9249bdbd8e0c7e46fba3db6a4a35142-3\"",
+  "completed_at_utc": "2026-10-24T07:33:36.953340+00:00",
+  "bytes_consumed": 17431649,
+  "sha256": "46a8a9601ee888dab7bca0e8ded57734e6aa00551721329afff3ac8346ffa7f3",
+  "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q2/sar_v1/itslive_s1d_straddle.nc",
+  "available_time": null,
+  "available_time_note": "Retrieval and Last-Modified do not establish historical publication availability."
+}

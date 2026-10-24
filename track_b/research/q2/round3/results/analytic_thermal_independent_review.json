@@ -1,0 +1,325 @@
+{
+  "review_version": "q2r3-analytic-thermal-independent-v1",
+  "generated_at_utc": "2026-10-24T08:41:33.521338+00:00",
+  "reviewer": "independent_SAR_agent_numeric_review",
+  "outcome": "pass_with_nonblocking_input_hardening_advisory",
+  "files_reviewed": [
+    {
+      "path": "track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607",
+      "reading_scope": "Entire analytic engine, independently tested thermal operators and reflection bound; simulate wrapper delegation inspected and tested in four groups."
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/run_analytic_thermal.py",
+      "sha256": "8cb54a4a6db606994c18d9e82ab9dce8269e77b1e5445287f9f5d865f3e3e1d6",
+      "reading_scope": "Entire runner source read: protocol, input binding, causal thermal override, unchanged mechanical loops, scenario ID/version suffixes, reference pairing and bundle construction. No full2048 mechanical experiment rerun by this review."
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/forcing_hourly_v2.csv",
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+      "reading_scope": "All2089 station-air forcing values and elapsed-hours used for actual B total variation."
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/parameter_ensemble.csv",
+      "sha256": "a8a8f091a7cb0abf1847db784c83d9e4b73f42896c126468b100026f1ea35293",
+      "reading_scope": "All rows parsed; unique parameter_set_id thermal design used for bounds."
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/protocol.json",
+      "sha256": "1b775e7a942d9cbb0709d4a45f914fa3bba88e76229a466858911d2791bf53fd",
+      "reading_scope": "All rows/fields used by independent audit below."
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/config.json",
+      "sha256": "539c6e857d5d07e2cab7a70346ec02d2aad13eb47ee546df17f797850446177d",
+      "reading_scope": "All rows/fields used by independent audit below."
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/reflection_bounds.csv",
+      "sha256": "961f6fea14872b3d0c7cfa43f03f687a7b14750182eb94d5d04af53161b7a5c2",
+      "reading_scope": "All rows/fields used by independent audit below."
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/forcing_hourly.csv",
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+      "reading_scope": "All rows/fields used by independent audit below."
+    }
+  ],
+  "checks": [
+    {
+      "check": "multirow_fft_vs_independent_scalar_erfc_direct_loop",
+      "passed": true,
+      "max_abs_error_c": 8.881784197001252e-15,
+      "nt": 137,
+      "n_parameter_rows": 4,
+      "reference": "math.erfc + math.fsum scalar i<k loops; no engine kernel"
+    },
+    {
+      "check": "temperature_and_boundary_shape_time_by_parameter",
+      "passed": true,
+      "temperature_shape": [
+        137,
+        4
+      ],
+      "boundary_shape": [
+        137,
+        4
+      ]
+    },
+    {
+      "check": "hourly_left_hold_boundary_cap_preserved",
+      "passed": true
+    },
+    {
+      "check": "initial_state_exact_not_step_boundary",
+      "passed": true
+    },
+    {
+      "check": "warm_step_closed_form_and_monotonicity",
+      "passed": true,
+      "max_abs_error_c": 8.881784197001252e-16,
+      "initial_c": -5.0,
+      "boundary_c": -1.0
+    },
+    {
+      "check": "negative_cooling_closed_form_and_monotonicity",
+      "passed": true,
+      "max_abs_error_c": 4.440892098500626e-16,
+      "initial_c": -1.0,
+      "boundary_c": -5.0
+    },
+    {
+      "check": "isothermal_equilibrium_exact",
+      "passed": true
+    },
+    {
+      "check": "hours_to_seconds_units_0.5",
+      "passed": true,
+      "max_abs_error_c": 7.105427357601002e-15,
+      "dt_hours": 0.5,
+      "seconds_per_hour": 3600
+    },
+    {
+      "check": "hours_to_seconds_units_1.0",
+      "passed": true,
+      "max_abs_error_c": 8.881784197001252e-15,
+      "dt_hours": 1.0,
+      "seconds_per_hour": 3600
+    },
+    {
+      "check": "hours_to_seconds_units_3.0",
+      "passed": true,
+      "max_abs_error_c": 8.881784197001252e-15,
+      "dt_hours": 3.0,
+      "seconds_per_hour": 3600
+    },
+    {
+      "check": "future_only_forcing_has_no_past_effect_to_fft_roundoff",
+      "passed": true,
+      "past_max_abs_error_c": 7.105427357601002e-15,
+      "future_max_effect_c": 2.4635179235337734,
+      "first_changed_forcing_index": 63,
+      "first_permitted_changed_state_index": 64
+    },
+    {
+      "check": "final_boundary_has_no_returned_state_effect",
+      "passed": true,
+      "max_abs_error_c": 3.552713678800501e-15
+    },
+    {
+      "check": "explicit_zero_padding_and_no_circular_wrap",
+      "passed": true,
+      "nfft": 64,
+      "required_at_least": 45,
+      "max_abs_error_c": 8.326672684688674e-17
+    },
+    {
+      "check": "kernel_zero_lag_exact",
+      "passed": true
+    },
+    {
+      "check": "surface_depth_zero_is_documented_left_limit",
+      "passed": true,
+      "meaning": "state0=Tinit; state[k>0]=B[k-1]. Not the right-continuous B[k] at the forcing jump."
+    },
+    {
+      "check": "single_state_zero_elapsed_time",
+      "passed": true
+    },
+    {
+      "check": "discrete_maximum_principle_in_production_parameter_range",
+      "passed": true
+    },
+    {
+      "check": "reject_empty_air",
+      "passed": true
+    },
+    {
+      "check": "reject_nan_air",
+      "passed": true
+    },
+    {
+      "check": "reject_negative_alpha",
+      "passed": true
+    },
+    {
+      "check": "reject_negative_depth",
+      "passed": true
+    },
+    {
+      "check": "reject_zero_dt",
+      "passed": true
+    },
+    {
+      "check": "reject_mismatched_parameter_row_shapes",
+      "passed": true
+    },
+    {
+      "check": "reject_finite_depth_below_bottom",
+      "passed": true
+    },
+    {
+      "check": "finite_DN_image_kernel_independent_L3.0",
+      "passed": true,
+      "max_abs_image_error": 5.551115123125783e-17,
+      "max_abs_eigenfunction_error": 2.220446049250313e-16,
+      "domain": {
+        "L_m": 3.0,
+        "z_m": 2.3,
+        "alpha_m2_s": 2.1e-06,
+        "nt": 337,
+        "dt_hours": 1.0
+      },
+      "benchmark_evidence_tier": "numerical_benchmark_not_local_event"
+    },
+    {
+      "check": "finite_kernel_reflection_nonnegative_L3.0",
+      "passed": true,
+      "max_correction": 0.10043382606911685
+    },
+    {
+      "check": "finite_DN_image_kernel_independent_L7.0",
+      "passed": true,
+      "max_abs_image_error": 0.0,
+      "max_abs_eigenfunction_error": 3.3306690738754696e-16,
+      "domain": {
+        "L_m": 7.0,
+        "z_m": 5.8,
+        "alpha_m2_s": 1.3e-06,
+        "nt": 481,
+        "dt_hours": 1.0
+      },
+      "benchmark_evidence_tier": "numerical_benchmark_not_local_event"
+    },
+    {
+      "check": "finite_kernel_reflection_nonnegative_L7.0",
+      "passed": true,
+      "max_correction": 0.0001094561182011262
+    },
+    {
+      "check": "finite_Dirichlet_boundary_equals_unit_step",
+      "passed": true
+    },
+    {
+      "check": "finite_bottom_Neumann_independent_one_sided_derivative",
+      "passed": true,
+      "max_abs_derivative_per_m": 4.440892098500626e-12,
+      "h_m": 0.0001
+    },
+    {
+      "check": "actual_inputs_hourly_2088h_and_declared_thermal_domain",
+      "passed": true,
+      "nt": 2089,
+      "horizon_hours": 2088.0,
+      "parameter_rows": 256
+    },
+    {
+      "check": "finite_reflection_bound_actual_forcing_total_variation",
+      "passed": true,
+      "max_relative_error": 2.9667252744780857e-15,
+      "max_actual_bound_c": 2.3837703814831295e-26,
+      "max_actual_effective_total_variation_c": 1754.8986376653916,
+      "unused_last_increment_excluded": true
+    },
+    {
+      "check": "uniform_60m_minimum_reflection_distance_bound",
+      "passed": true,
+      "domain_kernel_upper_bound": 1.2833330404282015e-26,
+      "max_full_boundary_total_variation_c": 1754.9086376653916,
+      "temperature_uniform_upper_bound_c": 2.25213223764884e-23,
+      "derivation": "Kfinite-Ksemi=sum_m>=1(-1)^(m-1)[erfc((2mL-z)/a)-erfc((2mL+z)/a)]. Positive decreasing brackets imply 0<=difference<=first bracket<=erfc((2L-z)/a). Multiply its horizon supremum by sum(abs(dB)); 2L-z>=60m."
+    },
+    {
+      "check": "runner_binds_the_unchanged_mechanical_engine",
+      "passed": true,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "check": "published_runner_fft_config_hourly_and_linear_padding",
+      "passed": true,
+      "state_dt_hours": 1.0,
+      "nfft": 8192,
+      "minimum_padding": 4177
+    },
+    {
+      "check": "published_protocol_preserves_all_four_groups_no_independent_events",
+      "passed": true
+    },
+    {
+      "check": "published_reflection_csv_matches_independent_actual_forcing_bound",
+      "passed": true,
+      "max_relative_error": 9.305009127582843e-14
+    },
+    {
+      "check": "published_forcing_copy_preserves_hourly_inputs",
+      "passed": true
+    },
+    {
+      "check": "public_wrapper_direct_temperature_delegation_S",
+      "passed": true,
+      "max_abs_numeric_output_difference": 0.0,
+      "scope": "49 hourly states x4 real design rows; same frozen mechanics, independently summed thermal input; not an independent mechanical model or observed event"
+    },
+    {
+      "check": "public_wrapper_direct_temperature_delegation_S_T",
+      "passed": true,
+      "max_abs_numeric_output_difference": 8.881784197001252e-16,
+      "scope": "49 hourly states x4 real design rows; same frozen mechanics, independently summed thermal input; not an independent mechanical model or observed event"
+    },
+    {
+      "check": "public_wrapper_direct_temperature_delegation_S_H",
+      "passed": true,
+      "max_abs_numeric_output_difference": 0.0,
+      "scope": "49 hourly states x4 real design rows; same frozen mechanics, independently summed thermal input; not an independent mechanical model or observed event"
+    },
+    {
+      "check": "public_wrapper_direct_temperature_delegation_S_T_H",
+      "passed": true,
+      "max_abs_numeric_output_difference": 8.881784197001252e-16,
+      "scope": "49 hourly states x4 real design rows; same frozen mechanics, independently summed thermal input; not an independent mechanical model or observed event"
+    },
+    {
+      "check": "reviewed_engine_bytes_unchanged_during_review",
+      "passed": true,
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607"
+    }
+  ],
+  "advisories": [
+    "step_kernel does not reject NaN dt_hours. Production contract fixes dt_hours=1 finite; optional input-hardening follow-up, no observed production numerical effect."
+  ],
+  "mathematical_scope": {
+    "PDE": "dT/dt=alpha*d2T/dz2, homogeneous initial interior Tinit, Dirichlet B at z0, half-space bounded at infinity; finite challenger Dirichlet0/NeumannL.",
+    "boundary_hold": "B_i=min(air_i+offset,0), held on[i,i+1)hours. DeltaB0=B0-Tinit; later differences.",
+    "discrete_response": "T_k=Tinit+sum_i<k DeltaB_i erfc[z/(2sqrt(alpha*(k-i)*3600))], K0=0.",
+    "z0_convention": "state[k>0]=B[k-1] left boundary limit; state0=Tinit. Actual production depths0.5..20m.",
+    "time_units": "One hour=3600seconds; horizon2088h; diffusivity m2/s; depth m; temperatures and increments degreeC.",
+    "finite_reflection_scope": "Production L40,z<=20,alpha<=2.1e-6,horizon<=2088h; bound is only mathematical truncation error, not heat-physics or station-to-interface model error."
+  },
+  "independent_events": 0,
+  "data_role": "numerical_benchmark_and_conditional_scenario_review",
+  "scientific_causal_validation": false,
+  "actual_command": "track_b/.venv/bin/python track_b/research/q2/round3/scripts/review_analytic_thermal.py",
+  "writes": [
+    "track_b/research/q2/round3/results/analytic_thermal_independent_review.json"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "addendum_version": "q2r3-top5-onset-reference-v1",
+  "evaluation_stratum": "numerical_benchmark",
+  "selection_rule": "max absolute finite v1-to-v2 onset change within distinct parameter point, descending top5; include all4 mechanisms x2 policies",
+  "selected_parameter_ranking": [
+    {
+      "parameter_set_id": "q2r3-p0004",
+      "max_v1_v2_time_shift_h": 46.81903734885572
+    },
+    {
+      "parameter_set_id": "q2r3-p0054",
+      "max_v1_v2_time_shift_h": 35.14434873463881
+    },
+    {
+      "parameter_set_id": "q2r3-p0107",
+      "max_v1_v2_time_shift_h": 26.482207576854336
+    },
+    {
+      "parameter_set_id": "q2r3-p0036",
+      "max_v1_v2_time_shift_h": 22.04715007674656
+    },
+    {
+      "parameter_set_id": "q2r3-p0052",
+      "max_v1_v2_time_shift_h": 18.97928159406149
+    }
+  ],
+  "rows": 40,
+  "finite_main_reference_onset_pairs": 24,
+  "no_finite_pair_count": 16,
+  "main_status_counts": {
+    "interval_crossing": 24,
+    "never_crossed": 16
+  },
+  "reference_status_counts": {
+    "interval_crossing": 24,
+    "never_crossed": 16
+  },
+  "category_changes": 0,
+  "max_main_reference_onset_shift_h": 18.94377894765213,
+  "max_main_reference_onset_shift_base_scenario_id": "q2r3-p0107-S_T_H-linear",
+  "max_abs_margin_difference": 0.1787873488865898,
+  "branch_mismatch_hours": 2,
+  "full256_finite_pairs": 137,
+  "full256_rows": 2048,
+  "full256_max_onset_shift_h": 18.94377894765213,
+  "full256_max_onset_shift_base_scenario_id": "q2r3-p0107-S_T_H-linear",
+  "full256_main_status_counts": {
+    "never_crossed": 1663,
+    "left_censored_already_unstable": 248,
+    "interval_crossing": 137
+  },
+  "source_full_reference_csv_sha256": "1344f30d8e9fdffbd7db5051cb1d58bdb97d9a8ba202fe6b072aa5ecfe072623",
+  "source_paired_v1_v2_csv_sha256": "c3a2d4a971cf98b355ec6a69800ec0d56abeea96a2f7caeb250214aa2ca1e0f1",
+  "result_csv_sha256": "cd4cf56d6c34971fb0721cb9f021922492fcb35c72d2c75ad7d86d3e2dae789b",
+  "script_sha256": "b161423dda2857f6e11b4ecec0cbbf3609a7b27d4beea61313de2d29ae037114",
+  "mechanism_v2_bundle_sha256": "dc53a9f805e96ff32b2c1fd064b0b7b33d90034e7d2c987f42403ae70bfcb093",
+  "v2_members_unmodified": true,
+  "native_time_origin_utc": "2026-06-01T00:00:00+00:00",
+  "native_state_dt_hours": 1.0,
+  "interval_semantics": "adjacent model-hour crossing bracket; left-censored has only upper0, never/missing have no finite initiation; not observed onset interval",
+  "branch_semantics": "whole-run -0.5C switch mismatch count, not a direct observed phase transition or a claim of branch identity specifically at onset",
+  "independent_observed_events": 0,
+  "reproduction_command": "track_b/.venv/bin/python track_b/research/q2/round3/results/refined_v2/top5_reference_extract.py",
+  "limitations": [
+    "This extract runs no new model solves and uses the already completed full256 paired reference audit.",
+    "Finite-time denominator includes only both-grid interval_crossing, never left-censored/no-start trajectories.",
+    "Cross-grid numerical timing difference is not a statistical confidence interval or forecast coverage.",
+    "Same crossing category does not establish precise initiation time; shallow near-threshold trajectories can switch which forcing episode first crosses."
+  ]
+}

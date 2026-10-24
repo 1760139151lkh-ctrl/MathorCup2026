@@ -1,0 +1,50 @@
+{
+  "parameter_version": "mamot2018-eq6-transcription-v1",
+  "source": {
+    "source_id": "mamot2018_pdf",
+    "canonical_url_or_product_id": "https://tc.copernicus.org/articles/12/3333/2018/tc-12-3333-2018.pdf",
+    "product_version": "Mamot et al. (2018), final, DOI 10.5194/tc-12-3333-2018",
+    "retrieved_at_utc": "2026-10-24T07:30:23.411875+00:00",
+    "retrieval_time_method": "file write mtime recorded immediately following request; requests Session trust_env=False; no credentials",
+    "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+    "bytes": 8371754,
+    "sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471",
+    "actual_read_scope": "All21 pages machine-extracted by pypdf. Actual reading focused printed3337-3339,3341-3348,3350; rendered and actually opened PDF one-based pages5,6,7,10,11,14; formulas Eq4-Eq6 also checked against publisher HTML; not an independent experiment replication",
+    "data_role": "external_transfer",
+    "available_time_or_unknown": "public article date 2018-10-17; publication does not prove actual historical acquisition by forecasting system",
+    "published_at_date": "2018-10-17"
+  },
+  "evaluation_stratum": "external_transfer",
+  "temperature_unit": "degC",
+  "stress_unit": "kPa",
+  "c_intercept": 53.3,
+  "c_slope": -73.5,
+  "mu_intercept": 0.42,
+  "mu_slope": -0.21,
+  "coefficient_standard_errors": {
+    "c_intercept": 20.6,
+    "c_slope": 8.8,
+    "mu_intercept": 0.15,
+    "mu_slope": 0.06
+  },
+  "coefficient_covariance": null,
+  "temperature_domain_degC": [
+    -8.0,
+    -0.5
+  ],
+  "applied_normal_stress_domain_kPa": [
+    100.0,
+    400.0
+  ],
+  "mean_strain_rate_per_s": 0.0048,
+  "mean_strain_rate_reported_spread_per_s": 0.0014,
+  "adoption_status": "pending_team_review",
+  "local_validation": false,
+  "critical_extensions": [
+    "effective stress substitution not pressure-calibrated",
+    "bridge/damage area mixture assumed",
+    "slow creep outside rate regime",
+    "thawed branch requires independent law",
+    "no calibrated joint probability distribution"
+  ]
+}

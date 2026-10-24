@@ -1,0 +1,42 @@
+{
+  "bundle_version": "q2-r3-release-v1",
+  "producer_question": "q2",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "evaluation_stratum": "conditional_scenario",
+  "files": [
+    {
+      "path": "track_b/research/q2/round3/results/release_states.csv",
+      "bytes": 22691,
+      "sha256": "23278ea66f3141ad75634dbe8512d678bc46ab5a715c61228cf48ecba85ffad4",
+      "role": "results/release_states.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/parameter_ensemble.csv",
+      "bytes": 1071463,
+      "sha256": "27a77ced72931366be5e19f431cb40218e1f243d77a7fe2671fc6125b0cf98b6",
+      "role": "results/parameter_ensemble.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/mechanism_contract.json",
+      "bytes": 3236,
+      "sha256": "fd47ca5af08c56a5076d07a4707764e07e58089e3030a47cc812facf620923e7",
+      "role": "results/mechanism_contract.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/config/experiment_v1.json",
+      "bytes": 4192,
+      "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a",
+      "role": "config/experiment_v1.json"
+    }
+  ],
+  "limitations": [
+    "All source mechanism and release states conditional scenarios, not local measurements or calibrated event probability.",
+    "No probability weights. First-row unstable left-censored, never-crossed and missing retained.",
+    "Real weather availability unknown; ideal_weather retrospective forcing.",
+    "Mamot strength transferred beyond original material/stress/rate/temperature domain where marked.",
+    "Initiation is separate from propagation arrival. Human scientific adoption pending."
+  ]
+}

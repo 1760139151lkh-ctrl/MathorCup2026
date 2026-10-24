@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "inputs": [
+    {
+      "producer": "q1",
+      "bundle_version": "q1-r3-feature-v1",
+      "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/bundle.json",
+      "sha256": "765037010dadc269a6b3d89831abb61fc9d1163c2b9b989facbfcf4a2107b918",
+      "checked_files": 10,
+      "adoption_scope": "Only the explicit review note; all upstream limitations retained",
+      "advisor_note": "Accepted as regional-station feature definitions, QC-separated numerical features and support metadata only. No ranking or source-area representation is accepted here. Available time and hourly integration semantics remain unknown; downstream must apply registered coverage thresholds, and precipitation is label statistics rather than an accepted accumulated rainfall input."
+    },
+    {
+      "producer": "q3",
+      "bundle_version": "q3-r3-event-v1-local",
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+      "sha256": "16ecf5a0e3af9ad572104490b79a56f59a78fc011e37cee2dd8f75e34d0a5a32",
+      "checked_files": 3,
+      "adoption_scope": "Only the explicit review note; all upstream limitations retained",
+      "advisor_note": "Accepted as inherited local stage/label/availability constraints only. No new accepted first-initiation truth, independent training event, real-time availability or coverage validation. Same chain remains grouped; literature arrival/onset values are candidate reconstruction constraints and not independent validation."
+    },
+    {
+      "producer": "q4",
+      "bundle_version": "q4-r3-spatial-copdem-v1-frozen-export",
+      "path": "track_b/research/q2/round3/inputs/q4/bundle_q4-r3-spatial-copdem-v1-frozen-export/bundle.json",
+      "sha256": "8eb6cbc1b85e60fe8a82906f4f025ec22b3bcf96d5c59bd0535ffbe0ccf8a0c5",
+      "checked_files": 8,
+      "adoption_scope": "Only the explicit review note; all upstream limitations retained",
+      "advisor_note": "Accepted as conditional computational geometry and independently sourced COPDEM EGM2008 terrain only. Three terrain-cost paths are candidates, source/port remain paper reconstructions; no observed release boundary, bridge identity, path, initial thickness or velocity is accepted. Native acquisition2011-2015/release2021 is not event2026 topography. Normalize release thickness by grid source area to hold volume fixed; use delivered file-role/path mapping rather than nested upstream-relative paths."
+    }
+  ],
+  "q1_driver_compatibility": {
+    "original_qc_view": {
+      "overlap_hours": 1356,
+      "finite_temperature_pairs": 1356,
+      "temperature_max_abs_difference_c": 0.0,
+      "finite_rain_label_pairs": 0,
+      "rain_accumulation_accepted": false,
+      "source_representativeness_accepted": false
+    },
+    "unknown_qc_exploration": {
+      "overlap_hours": 1356,
+      "finite_temperature_pairs": 1356,
+      "temperature_max_abs_difference_c": 0.0,
+      "finite_rain_label_pairs": 1356,
+      "rain_accumulation_accepted": false,
+      "source_representativeness_accepted": false
+    }
+  },
+  "q1_feature_definition_rows": 112,
+  "q3_label_rows": 11,
+  "q3_event_group_rows": 2,
+  "q3_availability_rows": 5,
+  "accepted_local_training_events": 0,
+  "accepted_local_validation_events": 0,
+  "actual_use": {
+    "q1": "QC-separated regional temperature agrees exactly over overlap; precipitation remains label statistics; Q2 conversion only conditional assumption",
+    "q3": "No exact first initiation truth accepted; no event-time calibration and no historical forecast availability claim",
+    "q4": "Conditional geometry integrated separately in release_bundle_v2; top-level role paths used"
+  },
+  "no_cross_worktree_activity_reads": true
+}

@@ -1,0 +1,235 @@
+{
+  "addendum_version": "q2r3-full256-reference-audit-v1",
+  "evaluation_stratum": "numerical_benchmark",
+  "mechanism_v2_bundle_sha256": "dc53a9f805e96ff32b2c1fd064b0b7b33d90034e7d2c987f42403ae70bfcb093",
+  "engine_sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+  "all_17_v2_members_retained": true,
+  "main_grid_m": 0.125,
+  "reference_grid_m": 0.0625,
+  "state_dt_hours": 1.0,
+  "parameter_sets": 256,
+  "comparisons": 2048,
+  "independent_observed_events": 0,
+  "probability_weights": null,
+  "time_origin_utc": "2026-06-01T00:00:00+00:00",
+  "max_margin_difference": {
+    "value": 0.17878734888658981,
+    "base_scenario_id": "q2r3-p0052-S_T_H-thaw",
+    "parameter_set_id": "q2r3-p0052",
+    "mechanism_id": "S_T_H",
+    "law_policy": "thawed_rock_contact"
+  },
+  "max_final_margin_difference": {
+    "value": 0.01049933570517858,
+    "base_scenario_id": "q2r3-p0227-S_T-linear",
+    "parameter_set_id": "q2r3-p0227",
+    "mechanism_id": "S_T",
+    "law_policy": "linear_extension"
+  },
+  "max_temperature_difference": {
+    "value": 0.07548666518192859,
+    "base_scenario_id": "q2r3-p0178-S_T-linear",
+    "parameter_set_id": "q2r3-p0178",
+    "mechanism_id": "S_T",
+    "law_policy": "linear_extension"
+  },
+  "max_onset_difference": {
+    "value": 18.943778947652135,
+    "base_scenario_id": "q2r3-p0107-S_T_H-linear",
+    "parameter_set_id": "q2r3-p0107",
+    "mechanism_id": "S_T_H",
+    "law_policy": "linear_extension"
+  },
+  "category_changes": 0,
+  "categories_equal": 2048,
+  "margin_0p02_target_failed_n": 10,
+  "margin_0p02_target_met": false,
+  "branch_mismatch_hours": 44,
+  "groups": [
+    {
+      "mechanism_id": "S",
+      "law_policy": "linear_extension",
+      "rows": 256,
+      "max_margin_difference": {
+        "value": 0.0,
+        "base_scenario_id": "q2r3-p0000-S-linear",
+        "parameter_set_id": "q2r3-p0000",
+        "mechanism_id": "S",
+        "law_policy": "linear_extension"
+      },
+      "max_onset_difference": {
+        "value": 0.0,
+        "base_scenario_id": "q2r3-p0013-S-linear",
+        "parameter_set_id": "q2r3-p0013",
+        "mechanism_id": "S",
+        "law_policy": "linear_extension"
+      },
+      "category_changes": 0,
+      "margin_0p02_target_failed_n": 0,
+      "branch_mismatch_hours": 0
+    },
+    {
+      "mechanism_id": "S_T",
+      "law_policy": "linear_extension",
+      "rows": 256,
+      "max_margin_difference": {
+        "value": 0.024717197016530967,
+        "base_scenario_id": "q2r3-p0227-S_T-linear",
+        "parameter_set_id": "q2r3-p0227",
+        "mechanism_id": "S_T",
+        "law_policy": "linear_extension"
+      },
+      "max_onset_difference": {
+        "value": 0.6511450750176664,
+        "base_scenario_id": "q2r3-p0051-S_T-linear",
+        "parameter_set_id": "q2r3-p0051",
+        "mechanism_id": "S_T",
+        "law_policy": "linear_extension"
+      },
+      "category_changes": 0,
+      "margin_0p02_target_failed_n": 1,
+      "branch_mismatch_hours": 0
+    },
+    {
+      "mechanism_id": "S_H",
+      "law_policy": "linear_extension",
+      "rows": 256,
+      "max_margin_difference": {
+        "value": 0.0,
+        "base_scenario_id": "q2r3-p0000-S_H-linear",
+        "parameter_set_id": "q2r3-p0000",
+        "mechanism_id": "S_H",
+        "law_policy": "linear_extension"
+      },
+      "max_onset_difference": {
+        "value": 0.0,
+        "base_scenario_id": "q2r3-p0011-S_H-linear",
+        "parameter_set_id": "q2r3-p0011",
+        "mechanism_id": "S_H",
+        "law_policy": "linear_extension"
+      },
+      "category_changes": 0,
+      "margin_0p02_target_failed_n": 0,
+      "branch_mismatch_hours": 0
+    },
+    {
+      "mechanism_id": "S_T_H",
+      "law_policy": "linear_extension",
+      "rows": 256,
+      "max_margin_difference": {
+        "value": 0.02471597717816465,
+        "base_scenario_id": "q2r3-p0227-S_T_H-linear",
+        "parameter_set_id": "q2r3-p0227",
+        "mechanism_id": "S_T_H",
+        "law_policy": "linear_extension"
+      },
+      "max_onset_difference": {
+        "value": 18.943778947652135,
+        "base_scenario_id": "q2r3-p0107-S_T_H-linear",
+        "parameter_set_id": "q2r3-p0107",
+        "mechanism_id": "S_T_H",
+        "law_policy": "linear_extension"
+      },
+      "category_changes": 0,
+      "margin_0p02_target_failed_n": 1,
+      "branch_mismatch_hours": 0
+    },
+    {
+      "mechanism_id": "S",
+      "law_policy": "thawed_rock_contact",
+      "rows": 256,
+      "max_margin_difference": {
+        "value": 0.0,
+        "base_scenario_id": "q2r3-p0000-S-thaw",
+        "parameter_set_id": "q2r3-p0000",
+        "mechanism_id": "S",
+        "law_policy": "thawed_rock_contact"
+      },
+      "max_onset_difference": {
+        "value": 0.0,
+        "base_scenario_id": "q2r3-p0013-S-thaw",
+        "parameter_set_id": "q2r3-p0013",
+        "mechanism_id": "S",
+        "law_policy": "thawed_rock_contact"
+      },
+      "category_changes": 0,
+      "margin_0p02_target_failed_n": 0,
+      "branch_mismatch_hours": 0
+    },
+    {
+      "mechanism_id": "S_T",
+      "law_policy": "thawed_rock_contact",
+      "rows": 256,
+      "max_margin_difference": {
+        "value": 0.1516336545454834,
+        "base_scenario_id": "q2r3-p0052-S_T-thaw",
+        "parameter_set_id": "q2r3-p0052",
+        "mechanism_id": "S_T",
+        "law_policy": "thawed_rock_contact"
+      },
+      "max_onset_difference": {
+        "value": 0.9985397744649163,
+        "base_scenario_id": "q2r3-p0189-S_T-thaw",
+        "parameter_set_id": "q2r3-p0189",
+        "mechanism_id": "S_T",
+        "law_policy": "thawed_rock_contact"
+      },
+      "category_changes": 0,
+      "margin_0p02_target_failed_n": 4,
+      "branch_mismatch_hours": 22
+    },
+    {
+      "mechanism_id": "S_H",
+      "law_policy": "thawed_rock_contact",
+      "rows": 256,
+      "max_margin_difference": {
+        "value": 0.0,
+        "base_scenario_id": "q2r3-p0000-S_H-thaw",
+        "parameter_set_id": "q2r3-p0000",
+        "mechanism_id": "S_H",
+        "law_policy": "thawed_rock_contact"
+      },
+      "max_onset_difference": {
+        "value": 0.0,
+        "base_scenario_id": "q2r3-p0011-S_H-thaw",
+        "parameter_set_id": "q2r3-p0011",
+        "mechanism_id": "S_H",
+        "law_policy": "thawed_rock_contact"
+      },
+      "category_changes": 0,
+      "margin_0p02_target_failed_n": 0,
+      "branch_mismatch_hours": 0
+    },
+    {
+      "mechanism_id": "S_T_H",
+      "law_policy": "thawed_rock_contact",
+      "rows": 256,
+      "max_margin_difference": {
+        "value": 0.17878734888658981,
+        "base_scenario_id": "q2r3-p0052-S_T_H-thaw",
+        "parameter_set_id": "q2r3-p0052",
+        "mechanism_id": "S_T_H",
+        "law_policy": "thawed_rock_contact"
+      },
+      "max_onset_difference": {
+        "value": 18.943778947652135,
+        "base_scenario_id": "q2r3-p0107-S_T_H-thaw",
+        "parameter_set_id": "q2r3-p0107",
+        "mechanism_id": "S_T_H",
+        "law_policy": "thawed_rock_contact"
+      },
+      "category_changes": 0,
+      "margin_0p02_target_failed_n": 4,
+      "branch_mismatch_hours": 22
+    }
+  ],
+  "csv_sha256": "1344f30d8e9fdffbd7db5051cb1d58bdb97d9a8ba202fe6b072aa5ecfe072623",
+  "reproduction_script_sha256": "78e2ca0511cf5ce0c26e27f7383aac6c3910f402d7858534c47f4df945b983e3",
+  "reproduction_command": "track_b/.venv/bin/python track_b/research/q2/round3/results/refined_v2/full_reference_check.py",
+  "limitations": [
+    "All256 paired parameter points, not independent measured events.",
+    "Numerical cross-grid onset differences quantify this conditional discretization only, not empirical forecast coverage or observation timestamp uncertainty.",
+    "0.125m v2 is retained; actual target failures and extremes are reported without changing its already distributed bytes.",
+    "State1h and phenomenological dynamics remain fixed; linear interpolation does not claim measured subhourly initiation precision."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "requested_url": "https://tc.copernicus.org/articles/19/3517/2025/tc-19-3517-2025.html",
+  "params": null,
+  "retrieved_at_utc": "2026-10-24T07:34:34.114353+00:00",
+  "method": "GET",
+  "authentication": "anonymous; trust_env=False",
+  "scope": "explicit response body, not HTTP/TLS overhead",
+  "byte_cap": 2097152,
+  "effective_url": "https://tc.copernicus.org/articles/19/3517/2025/tc-19-3517-2025.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "last_modified": null,
+  "etag": null,
+  "completed_at_utc": "2026-10-24T07:34:35.734055+00:00",
+  "bytes_consumed": 305988,
+  "sha256": "d26092199c6a9ef6b46af0dfeab9a636adb3306795a15ad7793be4dacf98e1ff",
+  "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/sources/sar/itslive_2025_paper.html",
+  "available_time": null,
+  "available_time_note": "Retrieval and Last-Modified do not establish historical publication availability."
+}

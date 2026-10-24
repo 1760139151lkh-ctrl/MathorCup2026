@@ -1,0 +1,25 @@
+{
+  "requested_url": "https://stac.itslive.cloud/search",
+  "params": {
+    "collections": "itslive-granules",
+    "bbox": "85.50,28.27,85.54,28.31",
+    "datetime": "2026-07-01T00:00:00Z/2026-10-01T00:00:00Z",
+    "limit": 100
+  },
+  "retrieved_at_utc": "2026-10-24T07:31:56.684666+00:00",
+  "method": "GET",
+  "authentication": "anonymous; trust_env=False",
+  "scope": "explicit response body, not HTTP/TLS overhead",
+  "byte_cap": 20971520,
+  "effective_url": "https://stac.itslive.cloud/search?collections=itslive-granules&bbox=85.50%2C28.27%2C85.54%2C28.31&datetime=2026-07-01T00%3A00%3A00Z%2F2026-10-01T00%3A00%3A00Z&limit=100",
+  "http_status": 200,
+  "content_type": "application/geo+json",
+  "last_modified": null,
+  "etag": null,
+  "completed_at_utc": "2026-10-24T07:31:58.554577+00:00",
+  "bytes_consumed": 317700,
+  "sha256": "446522e13eae45e3e460c560beb1888d9522f44c08e9280008ce1366d94147ea",
+  "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/sources/sar/itslive_stac_event.json",
+  "available_time": null,
+  "available_time_note": "Retrieval and Last-Modified do not establish historical publication availability."
+}

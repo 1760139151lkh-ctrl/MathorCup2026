@@ -1,0 +1,21 @@
+{
+  "runtime_seconds": 88.1931996550411,
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "parameter_sets": 256,
+  "models": 4,
+  "law_policies": 2,
+  "scenario_outcomes": 2048,
+  "representative_state_rows": 133696,
+  "time_origin_utc": "2026-06-01 00:00:00+00:00",
+  "time_step_hours": 1,
+  "nt": 2089,
+  "information_cutoff": "forcing_cutoff_utc per state; real available_time unknown",
+  "max_water_budget_error_m": 1.1546319456101628e-14,
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "probability_prior": false,
+  "independent_validation_events": 0
+}

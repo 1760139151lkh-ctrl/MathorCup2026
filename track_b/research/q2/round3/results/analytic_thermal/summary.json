@@ -1,0 +1,94 @@
+{
+  "analytic_version": "q2-r3-analytic-erfc-thermal-v1",
+  "evaluation_stratum": "conditional_scenario",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "frozen_bundles_before_and_after": [
+    {
+      "path": "track_b/research/q2/round3/exports/mechanism_bundle.json",
+      "bytes": 2760,
+      "sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+      "role": "mechanism_bundle.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/release_bundle.json",
+      "bytes": 1801,
+      "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "role": "release_bundle.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/mechanism_bundle_v2.json",
+      "bytes": 5484,
+      "sha256": "dc53a9f805e96ff32b2c1fd064b0b7b33d90034e7d2c987f42403ae70bfcb093",
+      "role": "mechanism_bundle_v2.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/exports/release_bundle_v2.json",
+      "bytes": 4354,
+      "sha256": "3a6924f3ca796b39fad65c3c300e5417b08ed5343347388af938242d35dc1de3",
+      "role": "release_bundle_v2.json"
+    }
+  ],
+  "engine_sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+  "benchmark_all_passed": true,
+  "full_parameter_sets": 256,
+  "scenario_outcomes": 2048,
+  "representative_state_rows": 133696,
+  "native_state_dt_hours": 1.0,
+  "time_origin_utc": "2026-06-01T00:00:00+00:00",
+  "forcing_used_sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+  "fft_nfft": 8192,
+  "fft_min_linear_padding": 4177,
+  "max_actual_reflection_temperature_bound_c": 2.3837703814831352e-26,
+  "max_bound_parameter_set_id": "q2r3-p0237",
+  "max_actual_reflection_kernel_bound": 9.294915707162841e-29,
+  "conservative_parameter_box_first_reflection_kernel_bound": 1.2833330404282015e-26,
+  "max_boundary_total_variation_c": 1754.898637665395,
+  "box_kernel_times_max_actual_boundary_tv_bound_c": 2.25211940431844e-23,
+  "finite_bound_scope": "max over supplied256 actual parameter+boundary columns, horizon2088h, L40m; box bound uses z20/alpha2.1e-6",
+  "analytic_status_counts": {
+    "never_crossed": 1663,
+    "left_censored_already_unstable": 248,
+    "interval_crossing": 137
+  },
+  "finite_analytic_fd_onset_pairs": 137,
+  "finite_analytic_v2_onset_pairs": 137,
+  "fd_onset_category_changes": 0,
+  "v2_onset_category_changes": 0,
+  "max_analytic_fd_onset_difference": {
+    "value": 0.34707951714221963,
+    "base_scenario_id": "q2r3-p0067-S_T_H-linear",
+    "mechanism_id": "S_T_H",
+    "law_policy": "linear_extension"
+  },
+  "max_analytic_v2_onset_difference": {
+    "value": 19.07238048020787,
+    "base_scenario_id": "q2r3-p0107-S_T_H-linear",
+    "mechanism_id": "S_T_H",
+    "law_policy": "linear_extension"
+  },
+  "max_analytic_fd_margin_difference": {
+    "value": 0.17903188146659127,
+    "base_scenario_id": "q2r3-p0052-S_T_H-thaw",
+    "mechanism_id": "S_T_H",
+    "law_policy": "thawed_rock_contact"
+  },
+  "max_analytic_fd_temp_difference": {
+    "value": 0.021201989883107508,
+    "base_scenario_id": "q2r3-p0178-S_T-linear",
+    "mechanism_id": "S_T",
+    "law_policy": "linear_extension"
+  },
+  "thaw_branch_mismatch_hours": 12,
+  "max_water_budget_error_m": 1.1546319456101628e-14,
+  "probabilities_assigned": false,
+  "independent_observed_events": 0,
+  "scientific_adoption": "pending_team_review",
+  "runtime_stack": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3"
+  }
+}

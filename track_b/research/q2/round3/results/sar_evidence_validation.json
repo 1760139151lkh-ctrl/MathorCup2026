@@ -1,0 +1,52 @@
+{
+  "generated_at_utc": "2026-10-24T07:43:14.002732+00:00",
+  "checks": [
+    {
+      "check": "all_full_response_hashes_match",
+      "passed": true
+    },
+    {
+      "check": "three_real_netcdf_total_bytes",
+      "passed": true
+    },
+    {
+      "check": "not_metadata_pixels_1875_explicit_rows",
+      "passed": true
+    },
+    {
+      "check": "all_derived_output_hashes_match",
+      "passed": true
+    },
+    {
+      "check": "all_six_summary_strata_retained",
+      "passed": true
+    },
+    {
+      "check": "raw_flag_partition_matches_valid_velocity",
+      "passed": true
+    },
+    {
+      "check": "valid_fractions_correct",
+      "passed": true
+    },
+    {
+      "check": "zero_added_independent_events",
+      "passed": true
+    },
+    {
+      "check": "common_support_all_pairs_reported",
+      "passed": true
+    }
+  ],
+  "offline_pipeline_successful_runs": 2,
+  "new_dependencies_installed": false,
+  "figure_review": {
+    "path": "track_b/research/q2/round3/results/sar_evidence_pixels.png",
+    "sha256": "34698205f5442367831fc7f961b12a5026f3c49ff7f2766e9adccc79634b7d4d",
+    "actually_opened": true,
+    "tool": "view_image",
+    "reading_scope": "All six panels, titles/year, coordinate axes, gray missing cells, red symbol marker and colorbar saturation inspected.",
+    "outcome": "legible; limits visible; no release-boundary truth represented"
+  },
+  "not_scientific_adoption": true
+}

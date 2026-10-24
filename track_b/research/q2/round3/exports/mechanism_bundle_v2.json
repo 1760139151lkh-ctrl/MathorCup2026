@@ -1,0 +1,129 @@
+{
+  "bundle_version": "q2-r3-mechanism-thermal-refinement-v2",
+  "producer_question": "q2",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "evaluation_stratum": "conditional_scenario",
+  "files": [
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/refinement_protocol.json",
+      "bytes": 895,
+      "sha256": "21e72fbe8d79980a626e390958469305ee4e8f84b9cdd744f2d2e4c4756be006",
+      "role": "refinement_protocol.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/config.json",
+      "bytes": 4642,
+      "sha256": "210616d1e1adb94e57cdb3ef415cb40808ae4a05f7a0fdd81f3b5dddfd24d5ac",
+      "role": "config.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/forcing_hourly_v2.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+      "role": "forcing_hourly_v2.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/parameter_ensemble.csv",
+      "bytes": 1169784,
+      "sha256": "a8a8f091a7cb0abf1847db784c83d9e4b73f42896c126468b100026f1ea35293",
+      "role": "parameter_ensemble.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/state_trajectories.parquet",
+      "bytes": 3188047,
+      "sha256": "8f69e562bda819a348ec0e7dc000d79af7885015f4770a5ebbe5c6ec01a7b081",
+      "role": "state_trajectories.parquet"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/scenario_outcomes.csv",
+      "bytes": 837472,
+      "sha256": "2338e53291c2225f1e172cc85145d6cc047d6c40599b49051f51fe790b5f6edd",
+      "role": "scenario_outcomes.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/model_comparison.csv",
+      "bytes": 1688,
+      "sha256": "5a54fb20bced14d387daaa6acd34f364bef776e919bddc513ebc9b89c7f703a6",
+      "role": "model_comparison.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/mechanism_contract.json",
+      "bytes": 3907,
+      "sha256": "afca7a8fd0684808e4bab67cdad073e80aedc189bc0fae234047e9ecfaa5e5ff",
+      "role": "mechanism_contract.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/paired_v1_v2.csv",
+      "bytes": 1065426,
+      "sha256": "c3a2d4a971cf98b355ec6a69800ec0d56abeea96a2f7caeb250214aa2ca1e0f1",
+      "role": "paired_v1_v2.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/joint_sensitivity.csv",
+      "bytes": 30015,
+      "sha256": "38a97ed39c79cab5964a1b31cf18b753fb6fc40f86b73a2f9b4cabbd499fe4de",
+      "role": "joint_sensitivity.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/interaction.csv",
+      "bytes": 13784,
+      "sha256": "8681e19e24fa0ee3569720f4032df9d288f07d7cfa6dfe9071cf0d8f9e36b456",
+      "role": "interaction.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/refinement_125_vs_0625.csv",
+      "bytes": 10885,
+      "sha256": "a45f8707ea1afcd91521187e223c1e27332d055fbdd3689ea9d1ec99b02f591d",
+      "role": "refinement_125_vs_0625.csv"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/refinement_summary.json",
+      "bytes": 4746,
+      "sha256": "091ce1777f5deaa4ff76341ebe435ec9a713e73d3dd901b6b48a6aff08dc7a79",
+      "role": "refinement_summary.json"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "role": "frozen_local_mechanism_engine"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/run_experiments.py",
+      "bytes": 21983,
+      "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1",
+      "role": "parent_parameter_design_source"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/run_refined_v2.py",
+      "bytes": 28213,
+      "sha256": "100ece09e9348a81d3344964a6d9603347b388b5f5dc01beea707542e808e616",
+      "role": "refined_v2_reproduction_script"
+    },
+    {
+      "path": "track_b/research/q2/round3/NUMERICAL_REFINEMENT.md",
+      "bytes": 3098,
+      "sha256": "0c147f8f7cc52d6135ce7dee87fc12304f5f3c633123c13f960f464d84658b9f",
+      "role": "numerical_refinement_methods_limits"
+    }
+  ],
+  "numerical_grid": {
+    "thermal_dz_m": 0.125,
+    "state_dt_hours": 1.0,
+    "reference_dz_m": 0.0625
+  },
+  "limitations": [
+    "All source mechanism and release states conditional scenarios, not local measurements or calibrated event probability.",
+    "No probability weights. First-row unstable left-censored, never-crossed and missing retained.",
+    "Real weather availability unknown; ideal_weather retrospective forcing.",
+    "Mamot strength transferred beyond original material/stress/rate/temperature domain where marked.",
+    "Initiation is separate from propagation arrival. Human scientific adoption pending.",
+    "Only thermal spatial grid refined; hourly coupled-state discretization remains separate.",
+    "Full parameter/outcome grid has2048 rows; native hourly trajectories cover8 fixed representatives.",
+    "Thaw branch is discontinuous at-0.5C; all measured convergence errors retained.",
+    "Use base_scenario_id to join existing release geometry v2; do not replace measured onset truth with model crossing."
+  ]
+}
