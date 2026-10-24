@@ -83,7 +83,7 @@ def immutable_packets():
     require_bundle('exports/propagation_v3/bundle.json', '150c72537ee162d29cc2e20e3e31183df1915f64999234789e1875d368c09b9c')
     require_bundle('exports/propagation_handoff_v3.json', '9bb9fb3cd4242e728d22412dbea0191853307c7c647cf5bd3c607110053ccee1')
     require_bundle('exports/compact_delta_v1/bundle.json', '28c67deb49d694e992c005365cf19c73d1db31a89126f64dbe8b6973adba61cb')
-    require_bundle('exports/propagation_v4/bundle.json', 'd3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4')
+    require_bundle('exports/propagation_v4/bundle.json', '9ae2ac6e93d6972b351f76fd1a441b5d6a670f7ffb842426bc1feeecc326fbf0')
     require_bundle('results/spatial_supplement_bundle_v2.json', '81273f2f7f19ff5e598674542504ed012d96c4db7766224b7299a8351fd027ff')
     require_bundle('results/reduced_delivery_index.json', 'cd82c52cc772ed7702a6f4452f4bfbbe5c9a092bbbeeed46d356d09709a4a7dc')
     for rel in ['results/reduced_delivery_index.json', 'results/spatial_source_index.json']:

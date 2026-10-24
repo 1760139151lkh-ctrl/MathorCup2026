@@ -1,6 +1,6 @@
 {
   "schema_version": "q4-r3-cache-manifest-v1",
-  "generated_at_utc": "2026-10-24T11:33:33.576869+00:00",
+  "generated_at_utc": "2026-10-24T12:02:31.762183+00:00",
   "input_version": {
     "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
     "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
@@ -25,7 +25,11 @@
   "available_time": null,
   "data_role": "scenario",
   "evidence_status": "candidate",
-  "evaluation_stratum": "conditional_scenario; local products/external_transfer/numerical_benchmark individually labelled",
+  "evaluation_stratum": [
+    "conditional_scenario",
+    "numerical_benchmark"
+  ],
+  "evaluation_stratum_note": "local products/external_transfer/numerical_benchmark individually labelled; row/source roles remain authoritative",
   "initiation_to_release_delay_seconds": null,
   "human_scientific_adoption": "pending_team_review",
   "files": [

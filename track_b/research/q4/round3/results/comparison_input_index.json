@@ -3,11 +3,13 @@
   "integration_status": "frozen_for_joint_review",
   "files": [
     {
-      "path": "track_b/research/q4/round3/scripts/integrate_comparison.py",
+      "path": "track_b/research/q4/round3/exports/propagation_v4/source_snapshots/track_b/research/q4/round3/scripts/integrate_comparison.py",
       "bytes": 137070,
       "sha256": "66d5207de5254c2cf823edffda6a35c0c2e50df350c3a177bda96045d1c3171c",
       "role": "integration source code",
-      "read_at_utc": "2026-10-24T11:23:38.421874+00:00"
+      "read_at_utc": "2026-10-24T11:23:38.421874+00:00",
+      "original_read_path": "track_b/research/q4/round3/scripts/integrate_comparison.py",
+      "metadata_revision_note": "Exact original executed integration source preserved at existing read-time snapshot; current generator only fixes subsequent metadata output."
     },
     {
       "path": "track_b/research/q4/round3/config/comparison_policy.json",
@@ -5902,8 +5904,21 @@
       "role": "actual_official_process_fields",
       "read_at_utc": "2026-10-24T11:23:40.943513+00:00",
       "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/integrate_comparison.py",
+      "bytes": 137154,
+      "sha256": "e7e475ffbaf4fc6216cf4c1ce7a50abcf5c069408507d5ed7ebd45cba9b98eeb",
+      "role": "metadata-only corrected bundle header generator; not original scientific integration execution",
+      "read_at_utc": "2026-10-24T11:58:56.070646+00:00"
     }
   ],
   "no_self_reference": true,
-  "mutability_note": "read-time snapshot; rerun integration after official observer tables have settled"
+  "mutability_note": "read-time snapshot; rerun integration after official observer tables have settled",
+  "metadata_revision": {
+    "revision_id": "q4-r3-evaluation-stratum-v1",
+    "revised_at_utc": "2026-10-24T11:58:56.070646+00:00",
+    "original_read_time_index_archive": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/results/comparison_input_index.json",
+    "scope": "Preserve original executed generator via identical frozen snapshot and separately bind current header generator; all other original records unchanged."
+  }
 }

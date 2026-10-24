@@ -1,0 +1,79 @@
+{
+  "revision_id": "q4-r3-evaluation-stratum-v1",
+  "revised_at_utc": "2026-10-24T11:58:56.070646+00:00",
+  "cause": "Global contract review rejected descriptive text inside evaluation_stratum enum.",
+  "authorization": "Main advisor requested metadata repair; user and advisor explicitly allowed updating only the local validator SHA anchor without changing check predicates or shared contract.",
+  "before_source_commit": "02193169de59c2dc2559988e495147883edab83a",
+  "archive_index": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/archive_index.json",
+  "previous_header_sha256": "d3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4",
+  "current_header_sha256": "9ae2ac6e93d6972b351f76fd1a441b5d6a670f7ffb842426bc1feeecc326fbf0",
+  "corrected_evaluation_stratum": [
+    "conditional_scenario",
+    "numerical_benchmark"
+  ],
+  "changed_header_keys": [
+    "evaluation_stratum",
+    "evaluation_stratum_note",
+    "metadata_revision"
+  ],
+  "same_scientific_member_list": true,
+  "scientific_member_count": 777,
+  "members_independently_byte_hash_checked": true,
+  "scientific_files_unchanged": {
+    "model_runs.csv": {
+      "path": "track_b/research/q4/round3/results/model_runs.csv",
+      "sha256": "b9de45782efbf3d6864cefbdb1419f1c1fffe2abea507baa19b1201d408d4426",
+      "bytes": 1474331
+    },
+    "comparison_metrics.csv": {
+      "path": "track_b/research/q4/round3/results/comparison_metrics.csv",
+      "sha256": "3afac40a566a32c1bf6cbaa56dab4c85d1a3d430e866d079646452321f56b1f2",
+      "bytes": 394104
+    },
+    "target_arrivals.csv": {
+      "path": "track_b/research/q4/round3/results/target_arrivals.csv",
+      "sha256": "bdffab7ac731534250e5965793848cc4cffc310454720ce7651cc6067a4265e4",
+      "bytes": 2424215
+    },
+    "comparison_summary.json": {
+      "path": "track_b/research/q4/round3/results/comparison_summary.json",
+      "sha256": "c231cdaca75c324af6b03e8692859001d25a896fb0a23714279175c381c96762",
+      "bytes": 231637
+    },
+    "numerical_validation.json": {
+      "path": "track_b/research/q4/round3/results/numerical_validation.json",
+      "sha256": "cbb66f21307d232335e4dd4df0f01c6ff040e6797305bb785534ee998598ebf0",
+      "bytes": 749127
+    }
+  },
+  "original_cache_manifest_archive": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/results/cache_manifest.json",
+  "expected_unchanged_cache_member_count": 33934,
+  "additional_model_runs": 0,
+  "additional_independent_events": 0,
+  "scientific_qualification_changed": false,
+  "local_validator_change_scope": "Exactly one expected v4 SHA literal replaced; all other bytes/check predicates unchanged. Shared validators and contracts untouched.",
+  "source_index_revision_scope": {
+    "revision_id": "q4-r3-evaluation-stratum-v1",
+    "revised_at_utc": "2026-10-24T11:58:56.070646+00:00",
+    "original_read_time_index_archive": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/results/comparison_input_index.json",
+    "scope": "Preserve original executed generator via identical frozen snapshot and separately bind current header generator; all other original records unchanged."
+  },
+  "current_manifest_priority": "Current root results/source_register.json, input_manifest.json, cache_manifest.json, output_manifest.json and validation.json replace pre-revision records for current live aliases. Archived manifests remain historical only.",
+  "generator_changes": [
+    {
+      "path": "track_b/research/q4/round3/scripts/integrate_comparison.py",
+      "before_sha256": "66d5207de5254c2cf823edffda6a35c0c2e50df350c3a177bda96045d1c3171c",
+      "after_sha256": "e7e475ffbaf4fc6216cf4c1ce7a50abcf5c069408507d5ed7ebd45cba9b98eeb"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/freeze_round3.py",
+      "before_sha256": "3e13637be25000f355832bc21d9bf3e5f89897e8ef9c601db3db913e096713df",
+      "after_sha256": "393f87c0e4620690d582935e245d9672bc0e9fb06920e130f90422a0913c0fb0"
+    },
+    {
+      "path": "track_b/research/q4/round3/scripts/validate_round3.py",
+      "before_sha256": "1fdd0a3b7e0f4d6f1a21ecaacf4f2e57cd077cfa6f71d866948c04794aab8284",
+      "after_sha256": "7f5a8993aaa95aaebbeb77bd218a94069ae434765b633e2fb6e3d4212f9fc1a3"
+    }
+  ]
+}

@@ -30,5 +30,5 @@
 - 四个题面动词均已有实际计算和图像支撑；30必跑、1诊断、7材料排除、34reduced、2既有复跑各用自己的分母，不把packet、目录或输入catalogue算新案例。
 - `PAPER_OUTLINE.md` 的Q2七项完整表包括SH／STH原父映射、4 compact和3 fullmask的体积、状态、括号及双预算；全岩实际1800.4s、汇流(220.1,240.2]、native预算−13.145469%均已录入。所有结果同时保留数值反证，科学采用仍pending，accepted空。
 - 论文组织可用单相120m为主展示、D-Claw扩域为孔压结构挑战、复合固体／水三例为相结构挑战、reduced为数值对照；这些角色不是预测优胜或事件已还原的结论。
-- 最终入口 `exports/propagation_v4/bundle.json`，SHA256 `d3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4`。原v3已交Q3；`propagation_handoff_v3.json`仅补legacy体积元数据，`compact_delta_v1/bundle.json`仅补两例14目标，v1／v2／v3原字节保持不变。
+- 最终入口 `exports/propagation_v4/bundle.json`，SHA256 `9ae2ac6e93d6972b351f76fd1a441b5d6a670f7ffb842426bc1feeecc326fbf0`。原v3已交Q3；`propagation_handoff_v3.json`仅补legacy体积元数据，`compact_delta_v1/bundle.json`仅补两例14目标，v1／v2／v3原字节保持不变。
 - 主参谋已实际打开10幅comparison图并记录哈希；入正文时仍按模型过程、相对到达、累计hmax、运动末态与有限时刻静止残余分别命名。队员复核来源、公式、材料映射、阈值、人工采用和AI辅助披露；独立事件0、无95%含义、lag及位置误差未知均保留。

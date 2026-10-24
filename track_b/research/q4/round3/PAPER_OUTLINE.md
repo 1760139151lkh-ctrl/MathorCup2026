@@ -109,6 +109,6 @@ Q2七项均使用父参数 `q2r3-design-v1`；表中体积为实际释放栅格�
 
 光学探索对照已按原 `all_completed_2d_models` 协议修正角色筛选，实际报告为40个模型、160行；原29／116有限角色结果已保留legacy。修正补回7项Q2、3项复合相、1项夹带，不改mask、阈值、域、指标、模型或调参规则，见 `sources/optical_role_filter_correction.json` 与 `results/optical_model_agreement.json`。47天变化仍非事件影响真值、独立验证事件仍0，不能据重叠选择参数或认证到达。
 
-早交v1／v2／v3字节冻结。主参谋已向Q3分发原fullmask v3；`exports/propagation_handoff_v3.json` 为同66结果成员加1项legacy体积说明的67成员metadata adapter；`exports/compact_delta_v1/bundle.json` 仅补SH／STH两例14目标，不增加新案例。完整最终入口为 `exports/propagation_v4/bundle.json`（SHA256 `d3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4`），三表与根结果逐字一致；`exports/propagation_bundle.json` 指向相同v4描述。最终manifest与来源／图像审查由主参谋统一锁定。
+早交v1／v2／v3字节冻结。主参谋已向Q3分发原fullmask v3；`exports/propagation_handoff_v3.json` 为同66结果成员加1项legacy体积说明的67成员metadata adapter；`exports/compact_delta_v1/bundle.json` 仅补SH／STH两例14目标，不增加新案例。完整最终入口为 `exports/propagation_v4/bundle.json`（SHA256 `9ae2ac6e93d6972b351f76fd1a441b5d6a670f7ffb842426bc1feeecc326fbf0`），三表与根结果逐字一致；`exports/propagation_bundle.json` 指向相同v4描述。最终manifest与来源／图像审查由主参谋统一锁定。
 
 Q3接收给定释放后的条件时延、原始观察状态、括号和资格。首次机械启动到成规模释放的延迟为null；无概率权重，独立本地训练／验证事件为0，集合不产生置信区间或95%覆盖率。队员逐项核对来源、公式、物理映射、阈值、人工采用与AI辅助披露，科学采用仍为pending。

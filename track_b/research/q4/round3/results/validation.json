@@ -1,6 +1,6 @@
 {
   "schema_version": "q4-r3-packet-validation-v1",
-  "generated_at_utc": "2026-10-24T11:32:39.439622+00:00",
+  "generated_at_utc": "2026-10-24T12:01:14.383007+00:00",
   "status": "final",
   "all_artifact_and_interface_checks_passed": true,
   "checks": [
@@ -631,7 +631,7 @@
       "name": "final_integration_inputs_still_match_read_time_bytes",
       "passed": true,
       "details": {
-        "checked_files": 771,
+        "checked_files": 772,
         "mismatches": []
       }
     },
@@ -1106,8 +1106,8 @@
     },
     {
       "path": "track_b/research/q4/round3/results/comparison_input_index.json",
-      "bytes": 356292,
-      "sha256": "78ed43503d9a93d160df3b3a40c4a1ed999bc6ea473a0b8c84651a164ec3b010"
+      "bytes": 357455,
+      "sha256": "3d0608de55a5fbb2a7908bc22a0733b5f29c070a2a98f6ab31f74e819e83d245"
     },
     {
       "path": "track_b/research/q4/round3/config/scientific_acceptance_decision_05.json",
@@ -1116,8 +1116,8 @@
     },
     {
       "path": "track_b/research/q4/round3/exports/propagation_bundle.json",
-      "bytes": 498306,
-      "sha256": "d3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4"
+      "bytes": 499148,
+      "sha256": "9ae2ac6e93d6972b351f76fd1a441b5d6a670f7ffb842426bc1feeecc326fbf0"
     },
     {
       "path": "track_b/research/q4/round3/results/comparison_visual_review.json",
@@ -1127,12 +1127,12 @@
     {
       "path": "track_b/research/q4/round3/scripts/validate_round3.py",
       "bytes": 19711,
-      "sha256": "1fdd0a3b7e0f4d6f1a21ecaacf4f2e57cd077cfa6f71d866948c04794aab8284"
+      "sha256": "7f5a8993aaa95aaebbeb77bd218a94069ae434765b633e2fb6e3d4212f9fc1a3"
     },
     {
       "path": "track_b/research/q4/round3/scripts/freeze_round3.py",
-      "bytes": 9922,
-      "sha256": "3e13637be25000f355832bc21d9bf3e5f89897e8ef9c601db3db913e096713df"
+      "bytes": 10027,
+      "sha256": "393f87c0e4620690d582935e245d9672bc0e9fb06920e130f90422a0913c0fb0"
     }
   ]
 }

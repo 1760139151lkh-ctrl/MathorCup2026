@@ -280,7 +280,7 @@ track_b/.venv/bin/python track_b/research/q4/round3/scripts/plot_stationary_resi
 
 `scientific_acceptance_decision_05.json`的accepted名单当前为空，新rolling／最终v3+全部区域`include_in_arrival_envelope=false`。执行、实际时间、字段、适用材料、触边gate独立于科学接受，原始命中／未达不删；`conditional_diagnostic_range_eligible`若true也只表示有限执行诊断。该决定不以结果临时设预算容忍百分比。旧v1的12条true仅表示当时明示的执行／边界gate；v2两例全部排除，两包不可追改。
 
-根汇总入口为`scripts/integrate_comparison.py`，完整性与接口检查为`scripts/validate_round3.py`，最终流式冻结为`scripts/freeze_round3.py`。滚动运行不带freeze；最终已实际使用`--freeze --version propagation_v4`冻结777成员，SHA256 `d3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4`；该目录不可覆盖。今后重算须用更高未占用版本。v3已冻结三个Q2 fullmask的独立partial早交，另有legacy体积metadata adapter与SH／STH compact_delta_v1，最后全模型另版且不得覆盖已分发v3。脚本拒绝变化输入／未完成required／未结实际尝试，并冻结为`frozen_for_joint_review`，不是预测精度接受。`--early-freeze --version propagation_v1`是历史真实早交命令，不可重用已占用v1目录。
+根汇总入口为`scripts/integrate_comparison.py`，完整性与接口检查为`scripts/validate_round3.py`，最终流式冻结为`scripts/freeze_round3.py`。滚动运行不带freeze；最终已实际使用`--freeze --version propagation_v4`冻结777成员，SHA256 `9ae2ac6e93d6972b351f76fd1a441b5d6a670f7ffb842426bc1feeecc326fbf0`；原头部与旧验证／清单已精确归档至`results/metadata_revision_before/evaluation_stratum_v1/`，本次经主参谋授权，仅作共同枚举所需的metadata header修订，未改777成员或数值。今后科学重算须用更高未占用版本。v3已冻结三个Q2 fullmask的独立partial早交，另有legacy体积metadata adapter与SH／STH compact_delta_v1，最后全模型另版且不得覆盖已分发v3。脚本拒绝变化输入／未完成required／未结实际尝试，并冻结为`frozen_for_joint_review`，不是预测精度接受。`--early-freeze --version propagation_v1`是历史真实早交命令，不可重用已占用v1目录。
 
 复核须在稳定输入上按以下顺序执行；实际检查结果见workspace_verification.json、validation.json与最终只读manifest核验：
 
@@ -297,3 +297,9 @@ track_b/.venv/bin/python track_b/research/q4/round3/scripts/plot_stationary_resi
 保留故障入口至少包括：局部Numba0.68/LLVM失败、最初mapcalc适配失败、gully绘图错误、被隔离sf2、−11、输出flag诊断，以及任何后续数值失败和未达。失败日志不是可执行推荐队列，也不能因新版本成功而删除。
 
 尾部CPU配额续回执见`official_scheduling_cpu_tail_receipts_08.json`：全部待启任务确实启动后，按剩余活跃数每例min(3,6/n)CPU复用最多6vCPU；原OMP=3、输入、物理与原进程未改。最终50个native重放计划已做hash／shell检查，额外完整native重放仍为0；安全reduced实际科学复现为2个既有案例。完整raw清单、实际控制及最终交付身份见`official_final_delivery.json`。
+
+## 共同枚举的封包元数据修订
+
+修订记录见`sources/metadata_revision_v1.json`。`evaluation_stratum`写为`["conditional_scenario","numerical_benchmark"]`，说明移至`evaluation_stratum_note`；`integrate_comparison.py`及`freeze_round3.py`同步修正生成头。已有冻结源snapshot继续保留实际11:23执行代码；根comparison_input_index将原执行代码绑定指向该完全相同的snapshot，并另列当前metadata生成器，未把新代码冒充旧执行代码。原三表、比较／数值报告、777包成员与33934缓存不重算。
+
+本地validate_round3.py仅替换一个v4期望SHA字面量，其他检查规则逐字不变；共同validator和contract未改。按本节前述最终验证→freeze→只读manifest核验顺序再封包。新现行manifest优先，归档的旧manifest只描述提交0219316，不声称原live路径仍有效。精确修订前字节及archive_index可供复核。

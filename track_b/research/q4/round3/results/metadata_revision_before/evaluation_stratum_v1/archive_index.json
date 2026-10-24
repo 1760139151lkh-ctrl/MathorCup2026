@@ -1,0 +1,153 @@
+{
+  "archive_id": "q4-r3-evaluation-stratum-before-v1",
+  "archived_at_utc": "2026-10-24T11:58:00.877329+00:00",
+  "original_source_commit": "02193169de59c2dc2559988e495147883edab83a",
+  "scope": "Exact pre-revision headers, validation, manifests, source index, generators and documents; historical manifests refer to original live paths at this commit, not current live bytes. Current manifests take precedence.",
+  "files": [
+    {
+      "original_path": "track_b/research/q4/round3/exports/propagation_bundle.json",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/exports/propagation_bundle.json",
+      "bytes": 498306,
+      "sha256": "d3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/exports/propagation_v4/bundle.json",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/exports/propagation_v4/bundle.json",
+      "bytes": 498306,
+      "sha256": "d3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/results/source_register.json",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/results/source_register.json",
+      "bytes": 10090,
+      "sha256": "049d54a8acdf3804b5b8bb2efe3d9b6e32921114883cbbbce37e759c9160ba98"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/results/input_manifest.json",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/results/input_manifest.json",
+      "bytes": 54983,
+      "sha256": "84a1e43317d730ac15e44d71c883ac349b9fdbae0b4b5289b806fdf09d21dab6"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/results/cache_manifest.json",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/results/cache_manifest.json",
+      "bytes": 13820543,
+      "sha256": "99f7e8c2b01761b23a7e103b940e02d763fa3be5a611649f4b732c693b8a94e7"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/results/output_manifest.json",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/results/output_manifest.json",
+      "bytes": 381452,
+      "sha256": "1c23720315c4cf40898d30ad2c6d0fe9d0549fc5e8fdaf9d460780cb69afac82"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/results/validation.json",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/results/validation.json",
+      "bytes": 27912,
+      "sha256": "5c4898bc0b447406da4a015d405f09884105c306f02b6d43077ac81bd5e99482"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/results/comparison_input_index.json",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/results/comparison_input_index.json",
+      "bytes": 356292,
+      "sha256": "78ed43503d9a93d160df3b3a40c4a1ed999bc6ea473a0b8c84651a164ec3b010"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/scripts/integrate_comparison.py",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/scripts/integrate_comparison.py",
+      "bytes": 137070,
+      "sha256": "66d5207de5254c2cf823edffda6a35c0c2e50df350c3a177bda96045d1c3171c"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/scripts/freeze_round3.py",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/scripts/freeze_round3.py",
+      "bytes": 9922,
+      "sha256": "3e13637be25000f355832bc21d9bf3e5f89897e8ef9c601db3db913e096713df"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/scripts/validate_round3.py",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/scripts/validate_round3.py",
+      "bytes": 19711,
+      "sha256": "1fdd0a3b7e0f4d6f1a21ecaacf4f2e57cd077cfa6f71d866948c04794aab8284"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/DCLAW_MASS_AUDIT.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/DCLAW_MASS_AUDIT.md",
+      "bytes": 8473,
+      "sha256": "f2eece67243bdfb6d0cbdcb8d951baab4e7767487b14272872414eba7aed6816"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/EVIDENCE_REVIEW.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/EVIDENCE_REVIEW.md",
+      "bytes": 10964,
+      "sha256": "181cadbf1a65b3727d36bbc52dff19ea5ce9fa0733e27f098a5898a08167d1ff"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/EXPERIMENT_PROTOCOL.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/EXPERIMENT_PROTOCOL.md",
+      "bytes": 5471,
+      "sha256": "b7a27331822055da9643f6c0c5072a425ca2b20180b773f60780f4eca2cbbc48"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/HANDOFF.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/HANDOFF.md",
+      "bytes": 11903,
+      "sha256": "b82e7b61e78ac9bf0df28bb83243a5c97b59a1e60e38e89a6b0c28cc044a7159"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/INTERFACE_HANDOFF.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/INTERFACE_HANDOFF.md",
+      "bytes": 8760,
+      "sha256": "94ca40ba4aa110bbb66a0ae85fb4cf211d9be77221ef24d6d40ac0ea5fc0c62b"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/MODEL_COMPARISON.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/MODEL_COMPARISON.md",
+      "bytes": 20333,
+      "sha256": "bda0e4ace46e50eed355347f4df7cddf0f3b83480851d66d36a7b19c7e07336b"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/OFFICIAL_MODELS.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/OFFICIAL_MODELS.md",
+      "bytes": 24873,
+      "sha256": "3371f0ef5b892fa87645df274ea436cfab8ddf964e21cb348c63d3ef94f41d6b"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/PAPER_OUTLINE.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/PAPER_OUTLINE.md",
+      "bytes": 21007,
+      "sha256": "2740448db6b7ccaecb7f5a79c6ea29a34470fb4fc996a9b43e1911fec22201d3"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/QUESTION_REQUIREMENT_MAP.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/QUESTION_REQUIREMENT_MAP.md",
+      "bytes": 11078,
+      "sha256": "94b3f753f61ef760afc5c25703b2a4fe5dc6b10650a1480acff2755b3916d6f5"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/REDUCED_MODELS.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/REDUCED_MODELS.md",
+      "bytes": 9191,
+      "sha256": "a85c798bd9a7b3a423b6334ad0082229017ab4f27e5c78a3ad2723edd12a48c2"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/REPRODUCE.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/REPRODUCE.md",
+      "bytes": 30125,
+      "sha256": "2fa2d0545b680c86045172cef28b18bf4535ee4b15643b36322cdc68723e8394"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/TASK.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/TASK.md",
+      "bytes": 8043,
+      "sha256": "cb9eec26a2f54824d269fe82488c6af64160a62bec80983194a49fdab2ff7f2f"
+    },
+    {
+      "original_path": "track_b/research/q4/round3/spatial_report.md",
+      "archive_path": "track_b/research/q4/round3/results/metadata_revision_before/evaluation_stratum_v1/spatial_report.md",
+      "bytes": 12311,
+      "sha256": "8c34c04d1aa51fe04e5597ccfc4989f49622cbe34611df7da904fb027a8276c4"
+    }
+  ],
+  "self_included": false
+}

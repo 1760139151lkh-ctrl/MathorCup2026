@@ -15,6 +15,8 @@
 
 ## 输出版本与分发状态
 
+规范v4包头修订后SHA为 `9ae2ac6e93d6972b351f76fd1a441b5d6a670f7ffb842426bc1feeecc326fbf0`；原头 `d3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4` 和旧清单已归档至 `results/metadata_revision_before/evaluation_stratum_v1/`。本次仅把`evaluation_stratum`说明串拆为允许列表及独立说明，文件成员、数值与科学接受保持不变。消费者须以修订后canonical／v4头和现行根manifest为准；旧output清单不再验证更新后的live别名。
+
 | 包入口 | SHA256 | 成员／目标及状态 |
 |---|---|---|
 | `exports/geometry_v1/bundle.json` | `5a2315f807bac296e5ae9bf877e655499b7a2b40e39df8edd3b0cccbeade853a` | 8成员；主参谋已审读并分发Q2／Q3，仅接受条件几何用途 |
@@ -23,7 +25,7 @@
 | `exports/propagation_v3/bundle.json` | `150c72537ee162d29cc2e20e3e31183df1915f64999234789e1875d368c09b9c` | fullmask三例21目标、66成员；主参谋已审读原包并交Q3 |
 | `exports/propagation_handoff_v3.json` | `9bb9fb3cd4242e728d22412dbea0191853307c7c647cf5bd3c607110053ccee1` | 原v3同66成员加体积metadata注释，共67成员；已提供主参谋，消费者receipt待主参谋记录 |
 | `exports/compact_delta_v1/bundle.json` | `28c67deb49d694e992c005365cf19c73d1db31a89126f64dbe8b6973adba61cb` | SH／STH额外14目标、48成员；主参谋已核验并交Q3 |
-| `exports/propagation_v4/bundle.json` | `d3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4` | 最终全部路线777成员、844条目标记录；已独立全部bytes／SHA核验，供主参谋联合审查与分发 |
+| `exports/propagation_v4/bundle.json` | `9ae2ac6e93d6972b351f76fd1a441b5d6a670f7ffb842426bc1feeecc326fbf0` | 最终全部路线777成员、844条目标记录；已独立全部bytes／SHA核验，供主参谋联合审查与分发 |
 
 `exports/propagation_bundle.json` 与v4原字节相同，三张冻结表与根最终CSV同SHA：model_runs157行、comparison_metrics139行、target_arrivals844行。目录中的历史配置、数值基准、失败／隔离／未运行登记和诊断单列，表总行数不能充当独立事件或正式区域运行分母。正式范围为30必跑完成＋1代理诊断完成＋7材料适用性排除未运行；简化34项与2项既有案例实际复现另计。
 

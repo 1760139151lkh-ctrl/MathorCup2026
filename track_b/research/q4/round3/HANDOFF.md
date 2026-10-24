@@ -13,9 +13,11 @@
 
 ## 最终传播包
 
+本版包头已作 `q4-r3-evaluation-stratum-v1` 元数据修订：`evaluation_stratum` 为允许列表，分层说明另字段。修订前头部SHA `d3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4` 与旧验证／清单原字节保存在 `results/metadata_revision_before/evaluation_stratum_v1/`；旧清单仅对应提交0219316时的live路径，现行根清单／验证优先。777科学成员、三表、全部资格与33934缓存原字节不变，未重跑模型。修订记录见 `sources/metadata_revision_v1.json`。
+
 稳定版本入口 `exports/propagation_v4/bundle.json`，浮动最终入口 `exports/propagation_bundle.json` 与其逐字相同。
 
-- SHA256：`d3b87e86ceacd0709b6f9278aee7096e6671964b8baec0c4055eac1355d529e4`；498306 bytes，777个成员，已独立逐一核对大小与SHA。
+- SHA256：`9ae2ac6e93d6972b351f76fd1a441b5d6a670f7ffb842426bc1feeecc326fbf0`；499148 bytes，777个成员，已独立逐一核对大小与SHA。
 - `partial=false`、`all_routes_completed=true`；required30/30、诊断1/1、材料排除7项均有明确终态；pending、未结attempt、读时输入变化及字段／预算解析矛盾均为空。
 - 冻结三表 `model_runs.csv` 157行、`comparison_metrics.csv` 139行、`target_arrivals.csv` 844行，与根最终CSV逐字同SHA。库存含历史配置、隔离、失败、外部基准与未运行登记，157不是独立区域科学案例数。
 - Q2七个实际映射场景49条目标记录齐全，6条汇流命中、43条未达；各自的parent/model/parameter/geometry、never_crossed／if_released、真实时域、case／execution／控制／字段与三套上游catalogue成员绑定保留。无显式Q2父场景者记为未知，不能强行与Q2启动结果联接。

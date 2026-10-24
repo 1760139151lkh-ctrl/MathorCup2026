@@ -1397,7 +1397,8 @@ def main():
           'arrival_envelope_semantics_version':summary['arrival_envelope_semantics_version'],
           'accepted_arrival_envelope_run_ids':scientific_acceptance['accepted_arrival_envelope_run_ids'],
           'scientifically_qualified_for_prediction':False,'regional_accuracy_qualified':False,'mass_conservation_qualified':False,
-          'evaluation_stratum':'conditional_scenario; numerical_benchmark rows explicitly separated','files':files,
+          'evaluation_stratum':['conditional_scenario','numerical_benchmark'],
+          'evaluation_stratum_note':'conditional_scenario; numerical_benchmark rows explicitly separated','files':files,
           'status':'frozen_for_joint_review','probability_weights':None,'independent_local_validation_events':0,
           'time_origin':'bulk release','initiation_to_release_delay_seconds':None,'limitations':summary['limitations'],
           'human_scientific_adoption':'pending_team_review','file_list_excludes_self':True}

@@ -43,7 +43,8 @@ def context():
                                    'forecast_role': 'not a forecast of mechanical initiation'},
             'forecast_reference_time': None, 'issue_time': None, 'valid_time': None, 'available_time': None,
             'data_role': 'scenario', 'evidence_status': 'candidate',
-            'evaluation_stratum': 'conditional_scenario; local products/external_transfer/numerical_benchmark individually labelled',
+            'evaluation_stratum': ['conditional_scenario', 'numerical_benchmark'],
+            'evaluation_stratum_note': 'local products/external_transfer/numerical_benchmark individually labelled; row/source roles remain authoritative',
             'initiation_to_release_delay_seconds': None, 'human_scientific_adoption': 'pending_team_review'}
 
 
