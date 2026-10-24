@@ -1,0 +1,37 @@
+{
+  "recorded_at_utc": "2026-10-24T04:39:16.510034+00:00",
+  "input_version": {
+    "common_baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+    "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97"
+  },
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "background",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "type": "NC_parameter_domain",
+    "crs": "EPSG:32645"
+  },
+  "variable_semantics": {
+    "units": "meter/year",
+    "quantity": "v minus hypot(vx,vy), reported maximum residual"
+  },
+  "available_time": null,
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "data_role": "exploration",
+  "evidence_status": "unverified",
+  "updates": [
+    {
+      "source": "advisor-approved Q2 handoff, explicitly relayed to this window",
+      "source_thread_id": "01a16bc9-3c57-76a2-996d-eb801a26f735",
+      "reported_maximum_residual_m_per_year_approx": 0.494655,
+      "advisor_independent_review_reported": true,
+      "Q4_independent_recalculation": false,
+      "Q2_exact_artifact_and_hash": "pending handoff",
+      "cause": "unverified",
+      "action": "retain original v; request exact Q2 diagnostic and provenance; do not infer cause or replace v"
+    }
+  ]
+}

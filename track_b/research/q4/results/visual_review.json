@@ -1,0 +1,32 @@
+{
+  "reviewed_at_utc": "2026-10-24T04:41:48.597018+00:00",
+  "images": [
+    {
+      "path": "figures/terrain_feasibility.png",
+      "sha256": "a67e50fafad33c29cbb547a78ab9670b09372db0b2a03e7ecb2332a82fe8adf3",
+      "actually_opened": true,
+      "reviewer": "Codex visual inspection, not human acceptance",
+      "checks": [
+        "axes and units visible",
+        "legend and colourbar visible",
+        "no text clipping or source-mask obstruction",
+        "synthetic/event boundary stated"
+      ],
+      "findings": "No remaining visual defect observed."
+    },
+    {
+      "path": "figures/synthetic_numerics.png",
+      "sha256": "e7bfb0e06ae206e1cba0b486a42caa23ae4d0924b324a672f44b0b11102aa54a",
+      "actually_opened": true,
+      "reviewer": "Codex visual inspection, not human acceptance",
+      "checks": [
+        "axes and units visible",
+        "legend and colourbar visible",
+        "no text clipping or source-mask obstruction",
+        "synthetic/event boundary stated"
+      ],
+      "findings": "No remaining visual defect observed."
+    }
+  ],
+  "human_review": "pending"
+}

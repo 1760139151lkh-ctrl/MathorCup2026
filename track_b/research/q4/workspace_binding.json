@@ -1,0 +1,14 @@
+{
+  "question": "q4",
+  "thread_id": "01a16c21-82cb-7f80-8b44-204ba9b8cc04",
+  "title": "赛道B · Q4 传播仿真",
+  "chat_associated_cwd": "/Users/maxchen/Documents/MathorCup",
+  "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
+  "git_branch": "codex/track-b-q4-r1",
+  "starting_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+  "worktree_management": "manual_git_worktree_explicit_dispatch_binding",
+  "status": "environment_preparing",
+  "parent_thread_id": "01a16bc9-3c57-76a2-996d-eb801a26f735",
+  "baseline_manifest": "track_b/audit/stage4/baseline_manifest.json",
+  "contract_version": "stage4-r1-v1"
+}

@@ -1,0 +1,32 @@
+{
+  "recorded_at_utc": "2026-10-24T04:40:42.115751+00:00",
+  "attempts": [
+    {
+      "attempt": 1,
+      "outcome": "failed",
+      "stage": "saving terrain audit JSON",
+      "error": "NoData NaN metadata is not JSON compliant",
+      "public_inputs_changed": false
+    },
+    {
+      "attempt": 2,
+      "outcome": "passed",
+      "fix": "Preserve NaN nodata metadata explicitly as string nan; arrays retain masks/NaN",
+      "visual_followup": "Move annotation away from NC rectangle and show positive mask / resampling panels clearly"
+    },
+    {
+      "attempt": 3,
+      "outcome": "passed",
+      "stage": "full terrain and synthetic rerun with final figure layout",
+      "scientific_scope_extended": false
+    }
+  ],
+  "independent_static_review": {
+    "task": "q4_static_review",
+    "executed_numerics": false,
+    "findings": "No blocking data/units/numerics/write-scope defect; requested complete versioned artifact index, now supplied.",
+    "artifact_index_followup": "Read-only reviewer confirmed hashes/context/input-version binding for the three evidence files and no HANDOFF boundary defect; no new necessary fix."
+  },
+  "independent_sources_task": "q4_model_sources",
+  "human_acceptance": "pending"
+}

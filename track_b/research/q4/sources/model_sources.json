@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "contract_version": "stage4-r1-v1",
+  "generated_at_utc": "2026-10-24T04:28:43.548124+00:00",
+  "question": "q4",
+  "research_question": "传播模型层级与本地证据门槛比较；不选择核心模型或重建事件。",
+  "input_version": {
+    "baseline_commit": "1d64f91fe057075df7c9199b5c17c68839bc6153",
+    "manifest_path": "track_b/audit/stage4/baseline_manifest.json",
+    "manifest_sha256": "c520962ce8cc9e1b2a261b0ce289a19d657e8b392c3421b4b556f6569eaf5c97"
+  },
+  "event_id": null,
+  "physical_phase": "propagation",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": null,
+  "variable_semantics": null,
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "available_time": null,
+  "data_role": "exploration",
+  "evidence_status": "external_source",
+  "null_note": "本清单为一般方法论证；无事件真值、地点或历史业务可得性，相关字段留null。",
+  "reading_and_hash_policy": "仅将实际打开并读到的范围标为read_scope；当前HTTP响应哈希不等于已逐字阅读全文。未保存大篇全文、无安装器和数据集下载。",
+  "sources": [
+    {
+      "source_id": "H01",
+      "title": "USACE HEC-RAS Hydraulic Reference Manual: 1D Unsteady Flow Hydrodynamics",
+      "url": "https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/theoretical-basis-for-one-dimensional-and-two-dimensional-hydrodynamic-calculations/1d-unsteady-flow-hydrodynamics",
+      "doi": null,
+      "source_type": "official_documentation",
+      "read_scope": "官方HTML正文的守恒律说明；未审读所有子页推导。",
+      "supports": [
+        "河道水流的一维非恒定计算以质量、动量守恒偏微分方程为依据。"
+      ],
+      "limitations": "该页针对河道水动力；不能据此声称可无修改描述冰岩崩、固液转化或侵蚀。",
+      "evidence_status": "external_source",
+      "available_time": null,
+      "historical_availability_note": "此为当前定向研究；未证明任何事件发生前可获得性。",
+      "retrieval": {
+        "status": 200,
+        "final_url": "https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/theoretical-basis-for-one-dimensional-and-two-dimensional-hydrodynamic-calculations/1d-unsteady-flow-hydrodynamics",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 91706,
+        "sha256": "2895b7fa22185a867507e5faf89cafdb8b52ce88531adc77843f4bfa2237403d",
+        "retrieved_at_utc": "2026-10-24T04:28:43.548124+00:00",
+        "body_retained": false,
+        "hash_scope": "本轮额外HTTP抓取的原始响应字节；瞬时全文未保存，实际阅读范围见read_scope。"
+      }
+    },
+    {
+      "source_id": "H02",
+      "title": "USACE HEC-RAS Hydraulic Reference Manual: Geometric Data",
+      "url": "https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/basic-data-requirements/geometric-data",
+      "doi": null,
+      "source_type": "official_documentation",
+      "read_scope": "官方HTML正文的几何输入说明。",
+      "supports": [
+        "一维模型需河网连接、断面、河段长度及损失等几何信息；二维和淹没制图要求地形。"
+      ],
+      "limitations": "断面可直接输入并不意味着本项目已有断面；DEM栅格也不保证水下河床准确。",
+      "evidence_status": "external_source",
+      "available_time": null,
+      "historical_availability_note": "此为当前定向研究；未证明任何事件发生前可获得性。",
+      "retrieval": {
+        "status": 200,
+        "final_url": "https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/basic-data-requirements/geometric-data",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 91871,
+        "sha256": "3c981a986915cf554858a418b427eae76f98f78be166f1baf63c763390624039",
+        "retrieved_at_utc": "2026-10-24T04:28:43.548124+00:00",
+        "body_retained": false,
+        "hash_scope": "本轮额外HTTP抓取的原始响应字节；瞬时全文未保存，实际阅读范围见read_scope。"
+      }
+    },
+    {
+      "source_id": "H03",
+      "title": "USACE HEC-RAS Hydraulic Reference Manual: Unsteady Flow Data",
+      "url": "https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/basic-data-requirements/unsteady-flow-data",
+      "doi": null,
+      "source_type": "official_documentation",
+      "read_scope": "官方HTML正文的初边值数据要求。",
+      "supports": [
+        "非恒定计算要求外部/内部边界条件与初始条件。"
+      ],
+      "limitations": "未核查具体边界选项的数值适用性，不据此填写本事件流量。",
+      "evidence_status": "external_source",
+      "available_time": null,
+      "historical_availability_note": "此为当前定向研究；未证明任何事件发生前可获得性。",
+      "retrieval": {
+        "status": 200,
+        "final_url": "https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/basic-data-requirements/unsteady-flow-data",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 90332,
+        "sha256": "457182ea1f60639d7869955cfc9807f622a3e2df2ab940b06412d853cefe1edf",
+        "retrieved_at_utc": "2026-10-24T04:28:43.548124+00:00",
+        "body_retained": false,
+        "hash_scope": "本轮额外HTTP抓取的原始响应字节；瞬时全文未保存，实际阅读范围见read_scope。"
+      }
+    },
+    {
+      "source_id": "R01",
+      "title": "RAMMS::Debrisflow: Theory and release options",
+      "url": "https://ramms.ch/ramms-debrisflow/",
+      "doi": null,
+      "source_type": "official_documentation",
+      "read_scope": "官方产品页Theory、释放选项、输出和校准说明；未下载用户手册或安装器。",
+      "supports": [
+        "二维深度平均框架计算地形上的流深和速度，使用两参数Voellmy关系。",
+        "释放可为块体区域或流量过程线；历史事件可用于参数校准。"
+      ],
+      "limitations": "软件概念候选，不是本事件参数依据；无本地软件安装、性能或许可证核验。",
+      "evidence_status": "external_source",
+      "available_time": null,
+      "historical_availability_note": "此为当前定向研究；未证明任何事件发生前可获得性。",
+      "retrieval": {
+        "status": 200,
+        "final_url": "https://ramms.ch/ramms-debrisflow/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 375379,
+        "sha256": "f6c2feacf5c67b86a06cc96a9e0d8b508b2e7a4180e9d2a77f42dbc9416c8589",
+        "retrieved_at_utc": "2026-10-24T04:28:43.548124+00:00",
+        "body_retained": false,
+        "hash_scope": "本轮额外HTTP抓取的原始响应字节；瞬时全文未保存，实际阅读范围见read_scope。"
+      }
+    },
+    {
+      "source_id": "D01",
+      "title": "Clawpack: D-Claw for debris flows and landslides",
+      "url": "https://www.clawpack.org/v5.12.x/dclaw.html",
+      "doi": null,
+      "source_type": "official_documentation",
+      "read_scope": "官方5.12.x页面全部正文。",
+      "supports": [
+        "D-Claw采用二维深度平均状态，含厚度、两方向动量，并增加固相体积分数和孔压变量。",
+        "官方页说明近期已适配Clawpack 5.x，并提供固定网格监测/输出能力。"
+      ],
+      "limitations": "不等同纯水GeoClaw；未测试代码或依赖。详细USGS文档在本轮网页工具返回403。",
+      "evidence_status": "external_source",
+      "available_time": null,
+      "historical_availability_note": "此为当前定向研究；未证明任何事件发生前可获得性。",
+      "retrieval": {
+        "status": 200,
+        "final_url": "https://www.clawpack.org/v5.12.x/dclaw.html",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 8544,
+        "sha256": "9d223d9943b87e6ce77cfbe27c16ca8af3051763b90bc0067b1086595eb106a2",
+        "retrieved_at_utc": "2026-10-24T04:28:43.548124+00:00",
+        "body_retained": false,
+        "hash_scope": "本轮额外HTTP抓取的原始响应字节；瞬时全文未保存，实际阅读范围见read_scope。"
+      }
+    },
+    {
+      "source_id": "D02",
+      "title": "Iverson and George (2014): A depth-averaged debris-flow model that includes the effects of evolving dilatancy. I. Physical basis",
+      "url": "https://www.usgs.gov/publications/a-depth-averaged-debris-flow-model-includes-effects-evolving-dilatancy-i-physical",
+      "doi": "10.1098/rspa.2013.0819",
+      "source_type": "primary_paper_official_abstract",
+      "read_scope": "USGS原论文官方记录的摘要和DOI元数据；未核验论文全文。",
+      "supports": [
+        "两相深度平均模型耦合固相比例、基底孔压、厚度与速度；摩擦和剪胀/孔压松弛影响动力学。"
+      ],
+      "limitations": "摘要足以支持所需状态类别；不支持完整方程复现、参数范围或当前事件的定量采用。",
+      "evidence_status": "external_source",
+      "available_time": null,
+      "historical_availability_note": "此为当前定向研究；未证明任何事件发生前可获得性。",
+      "retrieval": {
+        "status": 200,
+        "final_url": "https://www.usgs.gov/publications/a-depth-averaged-debris-flow-model-includes-effects-evolving-dilatancy-i-physical",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 100847,
+        "sha256": "5086140b8be055e855e28418371d827badcd0b3f13d2c7d1ca11dba560a02fe3",
+        "retrieved_at_utc": "2026-10-24T04:28:43.548124+00:00",
+        "body_retained": false,
+        "hash_scope": "本轮额外HTTP抓取的原始响应字节；瞬时全文未保存，实际阅读范围见read_scope。"
+      }
+    },
+    {
+      "source_id": "A01",
+      "title": "Mergili et al. (2025): r.avaflow v4, a multi-purpose landslide simulation framework",
+      "url": "https://gmd.copernicus.org/articles/18/9879/2025/",
+      "doi": "10.5194/gmd-18-9879-2025",
+      "source_type": "primary_paper",
+      "read_scope": "公开HTML全文可访问；实际定向核读§1、§2.1–2.2、§5–6及代码/数据可用性；未逐项重算§3–4算例、表格参数和附属资产。",
+      "supports": [
+        "v4可按输入采用1–3相和不同流变，释放高度栅格或入流过程线提供质量/动量。",
+        "相关输出含流高时序栅格，可选动能/动压；新增分层等能力仍需参数约束和经验评价。",
+        "作者明确讨论深度平均几何尺度限制及复杂过程链前向参数校准难题。"
+      ],
+      "limitations": "不能因多相功能齐全就证明参数可辨识；本项目没有安装GRASS/r.avaflow或评估具体平台资源。",
+      "evidence_status": "external_source",
+      "available_time": null,
+      "historical_availability_note": "此为当前定向研究；未证明任何事件发生前可获得性。",
+      "retrieval": {
+        "status": 200,
+        "final_url": "https://gmd.copernicus.org/articles/18/9879/2025/",
+        "content_type": "text/html",
+        "bytes": 325641,
+        "sha256": "a9ed8c15cc86ceab998c11c95f9a90f65abafd7dcf9c31f0ea9939b6cae090bb",
+        "retrieved_at_utc": "2026-10-24T04:28:43.548124+00:00",
+        "body_retained": false,
+        "hash_scope": "本轮额外HTTP抓取的原始响应字节；瞬时全文未保存，实际阅读范围见read_scope。"
+      }
+    },
+    {
+      "source_id": "T01",
+      "title": "Clawpack 5.10.x: 1-dimensional advection",
+      "url": "https://www.clawpack.org/gallery/pyclaw/gallery/advection_1d.html",
+      "doi": null,
+      "source_type": "official_documentation",
+      "read_scope": "官方示例的方程、初值和周期边界说明；阅读页面源代码，不安装执行Clawpack。",
+      "supports": [
+        "线性平流示例采用高斯初值和周期边界，一次域穿越后解析形状回到初态。"
+      ],
+      "limitations": "只支持合成技术检查设计；不构成灾害动力学或选用Clawpack的证据。",
+      "evidence_status": "external_source",
+      "available_time": null,
+      "historical_availability_note": "此为当前定向研究；未证明任何事件发生前可获得性。",
+      "retrieval": {
+        "status": 200,
+        "final_url": "https://www.clawpack.org/gallery/pyclaw/gallery/advection_1d.html",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 19974,
+        "sha256": "14399a178ed5b0c2866898c9c638bd17e7b172163d0f4c4ccc99db8ce6b3f239",
+        "retrieved_at_utc": "2026-10-24T04:28:43.548124+00:00",
+        "body_retained": false,
+        "hash_scope": "本轮额外HTTP抓取的原始响应字节；瞬时全文未保存，实际阅读范围见read_scope。"
+      }
+    },
+    {
+      "source_id": "T02",
+      "title": "Clawpack Gallery notebook: Advection in one dimension",
+      "url": "https://www.clawpack.org/gallery/_static/notebooks/classic/advection_1d/advection_1d.html",
+      "doi": null,
+      "source_type": "official_documentation",
+      "read_scope": "官方静态Notebook的方程/周期边界、First order upwind method及数值扩散讨论。",
+      "supports": [
+        "官方示例指出一阶迎风结果比高分辨率方法更扩散。"
+      ],
+      "limitations": "不据此认定本项目代码等同官方实现；实际守恒/非负/细化结果由本问技术试验另行记录。",
+      "evidence_status": "external_source",
+      "available_time": null,
+      "historical_availability_note": "此为当前定向研究；未证明任何事件发生前可获得性。",
+      "retrieval": {
+        "status": 200,
+        "final_url": "https://www.clawpack.org/gallery/_static/notebooks/classic/advection_1d/advection_1d.html",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 1620842,
+        "sha256": "e845a07d98bb3de846fe587c2f52f4255c45f9e9174fadfef595f25f1b88ec50",
+        "retrieved_at_utc": "2026-10-24T04:28:43.548124+00:00",
+        "body_retained": false,
+        "hash_scope": "本轮额外HTTP抓取的原始响应字节；瞬时全文未保存，实际阅读范围见read_scope。"
+      }
+    }
+  ],
+  "failed_web_open_attempts": [
+    {
+      "url": "https://claw.code-pages.usgs.gov/dclaw/",
+      "observed_result": "403 Forbidden",
+      "used_for_technical_claims": false
+    },
+    {
+      "url": "https://claw.code-pages.usgs.gov/dclaw/src/installation.html",
+      "observed_result": "403 Forbidden",
+      "used_for_technical_claims": false
+    },
+    {
+      "url": "https://ramms.ch/faq/",
+      "observed_result": "网页打开超时；搜索摘要未作为参数/方程采用依据。",
+      "used_for_technical_claims": false
+    }
+  ],
+  "scientific_adoption": {
+    "final_model_selected": false,
+    "solver_installed_or_executed": false,
+    "parameters_assigned_to_event": false,
+    "independent_validation_events_added": 0,
+    "team_review_required": true
+  }
+}
