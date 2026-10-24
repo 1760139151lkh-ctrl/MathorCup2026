@@ -1,0 +1,15 @@
+{
+  "phase": "paper_draft",
+  "user_review_completed": true,
+  "authorization": "User explicitly approved full results-led LaTeX draft and adjustment of active writing constraints; 2026-10-24",
+  "source_baseline_commit": "0dfab57",
+  "scope": "Four-question full draft with existing research results; user review authorizes progression, not invented local observations or human modification records",
+  "deliverables": [
+    "LaTeX project",
+    "paper PDF",
+    "paper figures",
+    "AI tool use details PDF"
+  ],
+  "historical_research_packets": "preserved",
+  "created_at_utc": "2026-10-24T13:37:18.501960+00:00"
+}

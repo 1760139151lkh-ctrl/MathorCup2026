@@ -1,6 +1,6 @@
 # 当前状态
 
-更新：2026-10-24（America/New_York）。主参谋分支`codex/track-b-stage1-2`。**阶段4第三轮完整本地研究已完成并集成，研究交付验收通过。** 先读[第三轮联合审查](docs/19_stage4_round3_review.md)：四问实质结果、竞争比较、推荐主线/挑战方案、题目要求对照和论文提纲均已整理。队员最终科学采用待联合评审。
+更新：2026-10-24（America/New_York）。主参谋分支`codex/track-b-stage1-2`。**阶段4第三轮完整本地研究已完成并集成，研究交付验收通过。** 先读[第三轮联合审查](docs/19_stage4_round3_review.md)：四问实质结果、竞争比较、推荐主线/挑战方案、题目要求对照和论文提纲均已整理。用户已评审并批准进入成果导向的LaTeX完整初稿制作。
 
 ## 已有授权与组织
 
@@ -23,8 +23,8 @@
 
 共享原环境、四工作树、固定镜像和缓存均保留。已停止本轮自建的空闲工具构建容器；未删除镜像/缓存、未改动用户其他容器。运行和科学审查分别见[audit记录](audit/stage4/round3/)、[AI辅助记录](AI_USAGE.md)，AI交叉复核不等于队员人工验收。
 
-## 下一阶段入口
+## 当前论文阶段
 
-本轮已交齐用户要求的计算、图表、竞争结果、主方案/挑战方案建议、题意覆盖表及论文方法/结果/讨论提纲。队员据[联合报告](docs/19_stage4_round3_review.md)审议核心模型与科学解释、记录采用/修改，再组织论文；不因暂缺当地验证而将情景数或合成样例计入真实事件分母。
+本轮已交齐用户要求的计算、图表、竞争结果、主方案/挑战方案建议、题意覆盖表及论文方法/结果/讨论提纲。已依用户评审结果开始论文制作，采用[论文写作规范](paper/WRITING_GUIDE.md)和[采用记录](paper/adoption_record.json)。四窗撰写各问章节、公式及图表，主参谋整合LaTeX、证据索引、参考文献、附录及AI说明并检查PDF。
 
 复跑入口：[Q1](research/q1/round3/REPRODUCE.md)、[Q2](research/q2/round3/REPRODUCE.md)、[Q3](research/q3/round3/REPRODUCE.md)、[Q4](research/q4/round3/REPRODUCE.md)。决定见[DECISIONS](DECISIONS.md)。历史入口：[第二轮审查](docs/17_stage4_round2_review.md)、[首轮审查](docs/15_stage4_round1_review.md)、[阶段3交接](docs/13_stage3_handoff.md)。

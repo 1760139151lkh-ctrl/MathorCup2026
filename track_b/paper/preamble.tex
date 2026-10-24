@@ -1,0 +1,43 @@
+\usepackage[margin=2.45cm,headheight=0pt,footskip=1.0cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{DejaVu Sans Mono}[Scale=0.77]
+\setCJKmainfont{SimSun}[AutoFakeBold=2.5]
+\setCJKsansfont{Heiti SC}
+\setCJKmonofont{SimSun}
+\usepackage{amsmath,amssymb,bm,mathtools}
+\usepackage{graphicx,booktabs,array,tabularx,longtable,multirow}
+\usepackage{subcaption,caption,float,placeins}
+\usepackage{enumitem,xcolor,siunitx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,fit}
+\usepackage{fancyvrb,fvextra}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{bookmark}
+\hypersetup{pdftitle={基于多源数据与结构水热耦合的吉隆泥石流触发及传播研究},pdfauthor={},pdfsubject={赛道B论文初稿}}
+\pagestyle{plain}
+\linespread{1.12}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.15em}
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\setcounter{topnumber}{3}
+\setcounter{totalnumber}{5}
+\setcounter{tocdepth}{1}
+\captionsetup{font=small,labelfont=bf,labelsep=quad}
+\setlist{nosep,leftmargin=2em}
+\sisetup{detect-all,group-minimum-digits=5}
+\ctexset{section={format=\Large\bfseries,beforeskip=1.1ex plus .3ex,afterskip=.7ex},subsection={format=\large\bfseries,beforeskip=.9ex plus .2ex,afterskip=.5ex},subsubsection={format=\normalsize\bfseries}}
+\newcommand{\dif}{\mathop{}\!\mathrm d}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Prob}{\mathbb P}
+\newcommand{\given}{\,\vert\,}
+\newcommand{\AIcredit}{\par\begingroup\footnotesize 本节文字整理、程序与图表制作使用了OpenAI Codex辅助，贡献记录见文后声明及配套说明。\par\endgroup}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\sourcecode}[2]{\subsection*{#1}\begingroup\footnotesize\VerbatimInput[breaklines=true,breakanywhere=true,numbers=left,numbersep=4pt,fontsize=\scriptsize,tabsize=4]{#2}\endgroup}
