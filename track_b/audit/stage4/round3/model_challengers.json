@@ -17,10 +17,11 @@
         "state/crossing hourly and no-start/left-censor categories retained"
       ],
       "outputs": "independent analytic engine, complete outcomes, parameter/base-scenario map, export bundle; no old bytes overwritten",
-      "scientific_adoption": "pending_review",
+      "scientific_adoption": "pending_team_review",
       "technical_review": "passed_full2048_and_independent_kernel_review",
       "result": "137 finite onset pairs, max analytic-vs-fineFD0.34708h, analytic-vs-v2 19.07238h, all categories unchanged",
-      "export": "track_b/research/q2/round3/exports/analytic_thermal_bundle.json"
+      "export": "track_b/research/q2/round3/exports/analytic_thermal_bundle.json",
+      "advisor_disposition": "Recommended numerical reference for registered linear conduction; FD retained as comparison, not a new mechanism"
     },
     {
       "id": "q3-strength-experiment-domain-sensitivity",
@@ -42,9 +43,12 @@
         "no local-material certification or operational availability inference",
         "no zero-event safety conclusion"
       ],
-      "scientific_adoption": "pending_review",
+      "scientific_adoption": "pending_team_review",
       "gravity_used_m_s2": 9.80665,
-      "stress_domain_scope": "100-400 kPa domain of adopted constitutive relation, not the entire experiment suite; suite includes800kPa."
+      "stress_domain_scope": "100-400 kPa domain of adopted constitutive relation, not the entire experiment suite; suite includes800kPa.",
+      "technical_review": "passed_and_integrated_303750_rows",
+      "advisor_disposition": "Adopt as posthoc applicability diagnosis; fixed history risk set preserves unknown mass, not an operational safety filter",
+      "result": "All60750 fixed-history forecasts retain positive unknown mass; exact event probabilities and conditional time intervals remain null"
     },
     {
       "id": "q2-raw-lab-strength-domain-competition",
@@ -55,7 +59,12 @@
       "scope": "Two existing experimental/constitutive workbooks only; no raw acoustic reanalysis, local onset calibration or automatic local engine replacement.",
       "comparison": "Complete experiment-table audit, original<=400 reconstruction vs warm100-800 relation and parsimonious candidates; grouped temperature/stress holdout and uncertainty.",
       "adoption_gate": "Evidence report and recommendation only; original seven Q2 exports and all local forecasts remain frozen. New lab fits do not add local observed events.",
-      "scientific_adoption": "pending_external_lab_review"
+      "scientific_adoption": "pending_team_review",
+      "technical_review": "passed_and_integrated_141_experiments_32_fits_576_folds_32000_bootstrap_attempts",
+      "advisor_disposition": "Retain parsimonious warm Mohr-Coulomb relation as external high-stress challenger; no automatic field engine or prior replacement",
+      "result": "Physical specimen UID unknown; high-stress polynomial/hinge holdout instability retained; original core exports unchanged"
     }
-  ]
+  ],
+  "updated_utc": "2026-10-24T12:19:23.374895+00:00",
+  "human_scientific_adoption": "pending"
 }

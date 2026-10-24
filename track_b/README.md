@@ -2,17 +2,17 @@
 
 目标：围绕“泥石流灾害预报及防灾策略”组织可追溯研究。原始资料位于[`04_B赛道`](../04_B赛道/)，本目录保存审计、任务口径、调研与后续派生成果。
 
-当前正在实施阶段4第三轮完整模型研究：Q1/Q2及Q3核心与适用性/映射v2增量已集成，Q4正式竞争和完整源面耦合收尾中。先读[第三轮联合审查](docs/19_stage4_round3_review.md)；阶段状态以[`STATUS.md`](STATUS.md)为准。阶段1—3及前两轮保留，最终科学采用待队员评审。
+阶段4第三轮完整本地研究已完成并集成：四问模型计算、竞争比较、定向补证及跨问传播接口均已交付，整仓23项检查和20次交付的40项核对通过。先读[第三轮联合审查](docs/19_stage4_round3_review.md)，其中包含主方案/挑战方案建议、题目要求对照和论文提纲；阶段状态以[`STATUS.md`](STATUS.md)为准。最终科学采用待队员评审。
 
 [第二轮工作流](docs/16_stage4_round2_workflow.md)已实施：沿用四窗/环境，r2分支与round2目录隔离；147项稳定产物、8组集成检查通过，首轮成果不改。本轮[工作窗登记](audit/stage4/round2/workspaces.json)，四份路线建议由联合报告链接。
 
-主仓复核本轮交付：`track_b/.venv/bin/python track_b/scripts/review_stage4_round2.py`；不重跑阶段3生成管线。首轮历史见[首轮联合审查](docs/15_stage4_round1_review.md)。
+主仓复核第二轮历史交付：`track_b/.venv/bin/python track_b/scripts/review_stage4_round2.py`；不重跑阶段3生成管线。首轮历史见[首轮联合审查](docs/15_stage4_round1_review.md)。
 
 阶段4首轮历史入口：[四问并行工作流](docs/14_stage4_workflow.md)、[研究窗约定](research/AGENTS.md)。各窗任务为[Q1](research/q1/TASK.md)、[Q2](research/q2/TASK.md)、[Q3](research/q3/TASK.md)、[Q4](research/q4/TASK.md)；聊天与worktree登记见[audit/stage4/workspaces.json](audit/stage4/workspaces.json)。
 
 阶段3先读：[技术交接与四问基线工作包](docs/13_stage3_handoff.md)。
 
-当前正在实施[第三轮：机制探索、模型竞争与补证](docs/18_stage4_round3_workflow.md)，[本轮工作窗](audit/stage4/round3/workspaces.json)。直接本地完整实验，新增计算仅写各问round3，保留前两轮产物。
+[第三轮工作流](docs/18_stage4_round3_workflow.md)已实施，[四窗与提交登记](audit/stage4/round3/workspaces.json)保留源提交、集成提交及缓存位置。各问独立复跑见[Q1](research/q1/round3/REPRODUCE.md)、[Q2](research/q2/round3/REPRODUCE.md)、[Q3](research/q3/round3/REPRODUCE.md)、[Q4](research/q4/round3/REPRODUCE.md)。原环境及前两轮保留，新增研究位于各问round3；重跑前按对应文档选择局部环境、固定容器及缓存，不重跑旧公共生成管线。
 
 ## 推荐阅读顺序
 

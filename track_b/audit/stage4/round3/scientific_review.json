@@ -1,7 +1,7 @@
 {
   "round": "round3",
-  "updated_utc": "2026-10-24T11:23:47.487128+00:00",
-  "status": "q1_q2_q3_core_integrated_q4_and_coupling_pending",
+  "updated_utc": "2026-10-24T12:19:23.374895+00:00",
+  "status": "all_four_research_packets_integrated_review_passed",
   "reviewer": "main advisor and independent AI read-only reviewers; not human scientific adoption",
   "q1": {
     "status": "integrated",
@@ -19,7 +19,7 @@
   },
   "q2": {
     "status": "integrated",
-    "source": "a4a034eb3a93ae93d9ffb3852a0d7e13eabd2231",
+    "source": "604ce1be4d0f09cd9d18f3c1556993ddf066981d",
     "input_files_verified": 60,
     "output_files_verified": 220,
     "analytic_full_outcomes": 2048,
@@ -63,7 +63,8 @@
         "field effective-stress, material and strain-rate transfer unvalidated",
         "complex stress polynomials and hinge unstable in held-out800 class"
       ]
-    }
+    },
+    "core_source_commit": "a4a034eb3a93ae93d9ffb3852a0d7e13eabd2231"
   },
   "q3_preliminary": {
     "a_gap_test": "missing-hour trajectory returns unknown, P(no-start)=null, event mass bounds[0,1]",
@@ -317,5 +318,68 @@
     "qualified_envelope_rows": 0,
     "mechanical_to_release_lag": "unknown",
     "probability_weights": null
+  },
+  "human_scientific_adoption": "pending",
+  "review_history_note": "Preliminary/partial/v2/v3 entries are versioned historical reviews, not additive event counts; final entries supersede pending delivery states without promoting scientific qualification.",
+  "q3_final": {
+    "status": "all_three_engines_and_final_propagation_integrated",
+    "source_commit": "f629a332844f07ff0be3275b74f24d7018fbdcac",
+    "core_outputs": 511,
+    "final_increment_unique_inputs": 230,
+    "final_increment_outputs": 164,
+    "physical_failure_groups": 13,
+    "real_right_censored_groups": 1,
+    "local_independent_coverage_validation_events": 0,
+    "mapped_propagation_runs": 7,
+    "mapped_mechanical_designs": 4,
+    "target_rows": 49,
+    "parent_parameters_preserved": 20,
+    "qualified_arrival_envelope_rows": 0,
+    "absolute_arrival_probability_and_weights_null": true,
+    "mechanical_to_bulk_release_lag": "unknown",
+    "fixed_history_risk_mass_preserved": true,
+    "all_fixed_history_forecasts_have_unknown_mass": true,
+    "final_bundle_sha256": "b13db70865cfc8e233a9c97a896abf79da666b2a5aea71e25cca2da0a9b3d283",
+    "final_entry": "track_b/research/q3/round3/FINAL_PROPAGATION_HANDOFF.md",
+    "evidence": "track_b/audit/stage4/round3/q3_final_propagation_integration_check.json"
+  },
+  "q4_final": {
+    "status": "final_packet_and_metadata_revision_integrated",
+    "source_commit": "6d0562965727f32cb5ab6ae0f665c00b958eb109",
+    "simplified_regional_runs": 34,
+    "formal_native_runs": 31,
+    "required_native_runs": 30,
+    "generic_material_proxy_diagnostic_runs": 1,
+    "native_single_mixture_runs": 18,
+    "native_dclaw_runs": 9,
+    "native_legitimate_multiphase_runs": 3,
+    "material_inapplicable_configurations_excluded": 7,
+    "outputs_verified": 1191,
+    "cache_files_verified": 33934,
+    "cache_bytes": 8847957733,
+    "mapped_runs": 7,
+    "mapped_designs": 4,
+    "target_rows": 49,
+    "recommended_research_reference": "Homogeneous single-mixture120m with same-framework process/numerical controls",
+    "retained_challengers": [
+      "D-Claw pore-pressure process",
+      "Composite rock-ice solid plus water and interaction ablations",
+      "Bounded entrainment"
+    ],
+    "qualified_arrival_envelope_rows": 0,
+    "regional_predictive_qualification": false,
+    "mass_and_convergence_limits_retained": true,
+    "evidence": [
+      "track_b/audit/stage4/round3/q4_independent_packet_check.json",
+      "track_b/audit/stage4/round3/q4_metadata_revision_check.json"
+    ],
+    "scope": "Fields, process diagnostics and conditional propagation comparisons delivered; no validated absolute local arrival forecast."
+  },
+  "final_technical_acceptance": {
+    "global_checks": 23,
+    "deliveries": 20,
+    "integrated_and_worktree_handoff_checks": 40,
+    "status": "passed",
+    "scope": "Integrity and research delivery, not scientific predictive certification"
   }
 }

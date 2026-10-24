@@ -7,7 +7,7 @@
   "repository": "/Users/maxchen/Documents/MathorCup/MathorCup2026",
   "preparation_commit": "de790034cf302de58e69329dbe288aad269a359c",
   "common_baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
-  "stage": "four_question_research_running",
+  "stage": "round3_research_integrated",
   "workspaces": [
     {
       "question": "q1",
@@ -43,7 +43,7 @@
       "previous_source_commit": "9024b21a1c67607a826007e9e987223364d4834a",
       "git_branch": "codex/track-b-q2-r3",
       "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
-      "status": "core_and_external_lab_integrated",
+      "status": "integrated_research_packet",
       "dispatch_sent": true,
       "dispatch_at_utc": "2026-10-24T07:27:07.549931+00:00",
       "startup_verification": {
@@ -74,7 +74,7 @@
       "previous_source_commit": "539df84bec574a27e3288c3dc944a87e692d7f4c",
       "git_branch": "codex/track-b-q3-r3",
       "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
-      "status": "integrated_research_packet_pending_global_final_check",
+      "status": "integrated_research_packet",
       "dispatch_sent": true,
       "dispatch_at_utc": "2026-10-24T07:27:07.551750+00:00",
       "startup_verification": {
@@ -110,7 +110,7 @@
       "previous_source_commit": "de826005cdd8dd86d43cc99fea7cf8a16ca4c763",
       "git_branch": "codex/track-b-q4-r3",
       "starting_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
-      "status": "integrated_packet_pending_final_audit",
+      "status": "integrated_research_packet",
       "dispatch_sent": true,
       "dispatch_at_utc": "2026-10-24T07:27:07.552954+00:00",
       "startup_verification": {
@@ -148,5 +148,17 @@
       "evidence": "track_b/audit/stage4/round3/runtime_resourcefix1/advisor_snapshot.json",
       "scope": "45 final Segment cleanup calls only; all original equations unchanged; csurface=0 common70 ASCII byte identical"
     }
+  },
+  "completed_at_utc": "2026-10-24T12:19:23.374895+00:00",
+  "final_acceptance": {
+    "research_delivery": "passed",
+    "global_checks": 23,
+    "deliveries": 20,
+    "handoff_checks": 40,
+    "evidence": [
+      "track_b/audit/stage4/round3/integration_checks.json",
+      "track_b/audit/stage4/round3/handoff_checks.json"
+    ],
+    "scientific_scope": "Research delivery and reproducibility accepted; local predictive qualification and human adoption remain separate."
   }
 }
