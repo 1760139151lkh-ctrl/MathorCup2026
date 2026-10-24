@@ -1,0 +1,16 @@
+{
+  "schema_version": 3,
+  "round": "round3",
+  "question": "q1",
+  "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+  "branch": "codex/track-b-q1-r3",
+  "thread_id": "01a16c20-9e9f-7a93-b025-2e8a46f905d3",
+  "preparation_commit": "de790034cf302de58e69329dbe288aad269a359c",
+  "common_baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+  "manifest_path": "track_b/audit/stage4/round3/baseline_manifest.json",
+  "manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+  "manifest_file_count": 725,
+  "cache_root": "/Users/maxchen/Documents/MathorCup/research_cache/round3",
+  "compute": "local_only_full_research",
+  "bound_at_utc": "2026-10-24T07:25:41.758146+00:00"
+}

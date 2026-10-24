@@ -1,0 +1,256 @@
+{
+  "schema_version": "q1-r3-independent-numerical-review-v1",
+  "started_at_utc": "2026-10-24T08:00:23.297926+00:00",
+  "source_path": "track_b/research/q1/round3/scripts/run_models.py",
+  "source_sha256_at_compile": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2",
+  "review_script_sha256": "03ea3b942ac32bd85fc82eb0d066cc7b00a80b2da2107a2e9ca9a00e2bbd9762",
+  "interpreter": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1/track_b/.venv/bin/python",
+  "environment_prefix": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1/track_b/.venv",
+  "platform": "macOS-26.1-x86_64-i386-64bit",
+  "scipy_stats_import_stubbed": false,
+  "main_called": false,
+  "data_role": "exploration",
+  "evaluation_stratum": "numerical_benchmark",
+  "tests": {
+    "conditional_contribution_equals_full_minus_deleted_marginal": {
+      "passed": true,
+      "n_targets": 8,
+      "family_dimensions": 2,
+      "max_absolute_error_by_family": {
+        "a": 4.440892098500626e-16,
+        "b": 5.551115123125783e-16
+      },
+      "formula": "family_dimension * contribution = full_D2 - deleted_family_marginal_D2"
+    },
+    "hierarchical_weights_and_finite_reweighting": {
+      "passed": true,
+      "year_weight_totals": [
+        0.5,
+        0.5
+      ],
+      "year2021_process_weight_totals": [
+        0.25,
+        0.25
+      ],
+      "bootstrap_year_weight_totals": [
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      "invalid_row_weight": 0.0
+    },
+    "vectorized_weights_equal_independent_loop_under_missingness_and_draws": {
+      "passed": true,
+      "seed": 2026102401,
+      "n_comparisons": 480,
+      "blocks": [
+        3,
+        7,
+        14
+      ],
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "tolerance": {
+        "rtol": 1e-12,
+        "atol": 1e-14
+      },
+      "cases_include": [
+        "empty input",
+        "all invalid",
+        "unequal year/process sizes",
+        "missing draw years",
+        "zero year multiplicity",
+        "zero/missing process multiplicity"
+      ],
+      "case_digest_sha256": "9ca253ee5e2a530573be154ef5a8db1c9f4d65ba5b97d03a8f7ab5563a172abe"
+    },
+    "shrinkage_positive_definiteness": {
+      "passed": true,
+      "spectra": [
+        {
+          "alpha": 0.1,
+          "minimum_covariance_eigenvalue": 0.64396912814235,
+          "condition_number": 2.5466837018379995
+        },
+        {
+          "alpha": 0.5,
+          "minimum_covariance_eigenvalue": 0.8022050711901945,
+          "condition_number": 1.689776904209831
+        },
+        {
+          "alpha": 0.9,
+          "minimum_covariance_eigenvalue": 0.9604410142380393,
+          "condition_number": 1.115226759862185
+        }
+      ]
+    },
+    "B_crossfit_effective_year_requirement": {
+      "passed": true,
+      "cases": [
+        {
+          "active_distinct_years": 3,
+          "finite_family_scores": 0,
+          "reported_unweighted_calibration_support": {
+            "a": {
+              "n_observed_rows": 12,
+              "n_observed_years": 2,
+              "n_observed_processes": 6
+            },
+            "b": {
+              "n_observed_rows": 12,
+              "n_observed_years": 2,
+              "n_observed_processes": 6
+            }
+          }
+        },
+        {
+          "active_distinct_years": 4,
+          "finite_family_scores": 2,
+          "reported_unweighted_calibration_support": {
+            "a": {
+              "n_observed_rows": 30,
+              "n_observed_years": 5,
+              "n_observed_processes": 15
+            },
+            "b": {
+              "n_observed_rows": 30,
+              "n_observed_years": 5,
+              "n_observed_processes": 15
+            }
+          }
+        },
+        {
+          "active_distinct_years": 5,
+          "finite_family_scores": 2,
+          "reported_unweighted_calibration_support": {
+            "a": {
+              "n_observed_rows": 30,
+              "n_observed_years": 5,
+              "n_observed_processes": 15
+            },
+            "b": {
+              "n_observed_rows": 30,
+              "n_observed_years": 5,
+              "n_observed_processes": 15
+            }
+          }
+        }
+      ]
+    },
+    "B_fold_training_fit_ignores_heldout_values": {
+      "passed": true,
+      "heldout_year": 2021,
+      "maximum_parameter_errors": {
+        "ids": 0.0,
+        "median": 0.0,
+        "scale": 0.0,
+        "mean": 0.0,
+        "z": 0.0,
+        "weights": 0.0
+      }
+    },
+    "B_unobserved_holdout_family_not_counted_as_observed_contribution": {
+      "passed": true,
+      "support": {
+        "a": {
+          "n_observed_rows": 29,
+          "n_observed_years": 5,
+          "n_observed_processes": 15
+        },
+        "b": {
+          "n_observed_rows": 30,
+          "n_observed_years": 5,
+          "n_observed_processes": 15
+        }
+      }
+    },
+    "midranks_and_fractional_TOP5_boundary": {
+      "passed": true,
+      "fully_tied_rank": 5.0,
+      "fully_tied_each_credit": 0.5555555555555556,
+      "total_credit": 5.0,
+      "boundary_tie_credit": {
+        "f0": 1.0,
+        "f1": 1.0,
+        "f2": 1.0,
+        "f3": 1.0,
+        "f4": 0.3333333333333333,
+        "f5": 0.3333333333333333,
+        "f6": 0.3333333333333333,
+        "f7": 0.0,
+        "f8": 0.0
+      }
+    },
+    "purge_equals_actual_168_hour_label_intersection": {
+      "passed": true,
+      "heldout_rows": 2,
+      "purged_rows": 12,
+      "note": "Same-clock hourly-label supports; does not certify the original instrument averaging intervals."
+    },
+    "B_C_fit_reuse_is_private_and_serializable": {
+      "passed": true,
+      "fit_call_count": 6,
+      "training_rows_per_fit": [
+        30,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "private_fit_cache_removed_from_public_info": true
+    },
+    "C_matching_excludes_evaluated_family": {
+      "passed": true,
+      "selected_sample_ids": [
+        "2021-1-0",
+        "2021-0-1",
+        "2022-2-1",
+        "2022-1-1",
+        "2023-2-1",
+        "2023-1-1",
+        "2024-0-1",
+        "2024-2-0",
+        "2025-2-0",
+        "2025-1-1"
+      ]
+    },
+    "C_matching_rejects_unobserved_outside_family_row": {
+      "passed": true,
+      "rejected_sample_id": "2021-0-0",
+      "minimum_selected_matching_support": 1.0
+    }
+  },
+  "passed": true,
+  "scope": "Synthetic helper-level checks only; not real event validation, full experiment rerun or primary-data certification.",
+  "historical_interactive_checks": "Earlier transient review processes used an unused scipy.stats stub; this saved execution uses the actual production imports and reports its own snapshot hash.",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1"
+  },
+  "known_limitations": [
+    {
+      "issue": "Under bootstrap draw weights, calibration_support currently reports finite unweighted calibration rows, including zero-weight unsampled years.",
+      "observed_example": [
+        {
+          "active_years": 4,
+          "expected_positive_weight_calibration_years": 4,
+          "expected_positive_weight_calibration_rows": 24,
+          "reported_unweighted_calibration_years": 5,
+          "reported_unweighted_calibration_rows": 30
+        }
+      ],
+      "impact": "Scores use the correctly reweighted finite ECDF; current production covariance_diagnostics exports only draw=None, where this discrepancy does not arise. No production code changed by review.",
+      "future_action": "Intersect finite calibration rows with positive draw weights before exporting bootstrap-specific effective support, or label unweighted diagnostic counts explicitly."
+    },
+    {
+      "issue": "The tests do not establish real-event discrimination, physical causality, sample independence or empirical hazard coverage.",
+      "impact": "Numerical helper correctness is separate from scientific validation."
+    }
+  ],
+  "source_sha256_at_end": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2",
+  "source_unchanged_during_review": true,
+  "warnings": [
+    "The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead."
+  ],
+  "finished_at_utc": "2026-10-24T08:00:32.661234+00:00"
+}

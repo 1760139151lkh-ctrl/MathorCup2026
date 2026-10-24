@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-10-24T07:53:53.372458+00:00",
+  "reviewer": "q1_semantics_review independent AI agent",
+  "human_review": false,
+  "passed": true,
+  "checked_file_sha256": {
+    "exports/feature_bundle.json": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+    "results/features.parquet": "7300b94b5f537873a6b4d1ecaf46015fa130e8e28aa9464e098e219f52833079",
+    "results/sample_metadata.csv": "06c7b1273240779fcbde4a9777a878124fd9de47d5a4faff190f5118e73625b5",
+    "results/feature_support.csv": "8e8306d6c8bfcb8d3156cbd521dbff001c5e86413ab62bedb6cdcf81db2737b9",
+    "config/features.json": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c",
+    "exports/hourly_drivers.parquet": "9580f4ab81903e0bbdcea3b274815128b7bfc99a08972a59c933c51a487a059d"
+  },
+  "actual_checks": {
+    "all_sample_time_supports": 5526,
+    "target_windows_independently_recomputed": 36,
+    "target_feature_values_checked": 4032,
+    "target_driver_support_rows_checked": 864,
+    "target_max_absolute_floating_difference": 6.82e-13,
+    "hourly_driver_cells_checked": 65088,
+    "original_qc_variables_full_series_checked": 37,
+    "qc_features_identical_across_tracks": 82,
+    "unknown_features_empty_in_strict_track": 30,
+    "errors": 0
+  },
+  "scope_limitations": [
+    "not all historical feature values independently recomputed",
+    "model rankings not reviewed in this feature check",
+    "metadata/source representativeness and historical availability not certified"
+  ],
+  "exact_temporary_feature_review_code_archived": false
+}

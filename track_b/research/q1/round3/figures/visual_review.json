@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-10-24T08:41:42.214531+00:00",
+  "reviewer": "Q1 primary AI agent, actual view_image inspection of all five final PNGs",
+  "human_review": false,
+  "passed": true,
+  "files": [
+    {
+      "path": "figures/route_rank_comparison.png",
+      "sha256": "9c9a0fbac5e242bac4975485c80b519b758c3b67c4b3e9aff7769d7b8187d56f"
+    },
+    {
+      "path": "figures/bootstrap_stability.png",
+      "sha256": "b922797444cf0b916bee2c15897dc9fcbac2a5b3c59f1c41208586ad2a7f2186"
+    },
+    {
+      "path": "figures/feature_direction_percentiles.png",
+      "sha256": "ec7977c6ba5700af3e87c7cd8cd61db08211b6ff65ff7fa6bf82bc7f7266ce72"
+    },
+    {
+      "path": "figures/sensitivity_comparison.png",
+      "sha256": "61898a563ed98b9209e0f98595a532343933d82e7d61cd29dbe72d79d820a464"
+    },
+    {
+      "path": "figures/event_hourly_context.png",
+      "sha256": "bf4e153aeaf19f29b0f5b30faafea62be394de6d4e8b2399968f014a2fc1f9c6"
+    }
+  ],
+  "checks": [
+    "all axes, labels, legends, two quality tracks and complete family lists legible, no clipping",
+    "rank ties and NA conditional contributions visible; NA not painted as normal",
+    "stability plotted as conditional frequency with actual minimum denominators 89/44/61/10 out of100",
+    "direction percentiles identified as descriptive, not p-values, and all three windows visible",
+    "all predefined sensitivities included, negative-control settings unchanged where intended",
+    "hourly panel shows actual pre-reference 168h labels with QC0/unknown colours and gaps retained",
+    "observed soil moisture is declining despite above-background168h median; no wetting/trigger claim from family rank"
+  ]
+}

@@ -1,0 +1,2491 @@
+{
+  "review_version": "q1-r3-independent-final-results-v1",
+  "reviewed_at_utc": "2026-10-24T08:40:45.929625+00:00",
+  "passed": true,
+  "scope": [
+    "Prior independently executed six primary routes versus final midranks and across-window fractional scores/consensus",
+    "All tie-credit groups including null groups",
+    "All630 stability summary actual finite-rank denominators and frequencies",
+    "All bootstrap valid draw identities and stability >=70 valid draw gate",
+    "672 effective feature support rows rebuilt from frozen features and >=75% driver coverage;72 family summaries checked against actual support/calibration"
+  ],
+  "not_reexecuted": [
+    "Full variants/leave-process/100 bootstrap model fitting",
+    "Other-question active data",
+    "Independent numerical primitives (separate reviewer)"
+  ],
+  "file_snapshots": {
+    "track_b/research/q1/round3/scripts/run_models.py": {
+      "bytes": 30321,
+      "sha256": "b15a990c7f357b179f62f318ae86326a93174d9959d2138c0118157f4d523da2"
+    },
+    "track_b/research/q1/round3/results/rankings.csv": {
+      "bytes": 991101,
+      "sha256": "f7b79c33e5cb671f6c35531721ee2037e2858de552d54c41f03925961c0dd53a"
+    },
+    "track_b/research/q1/round3/results/top5_three_routes.csv": {
+      "bytes": 19105,
+      "sha256": "6efb36a12cf6d5ab8d5a8c64b3ce9e4a14fca13566b698f9b49fba2d1c4d9e4b"
+    },
+    "track_b/research/q1/round3/results/recommended_factors.csv": {
+      "bytes": 10206,
+      "sha256": "93cfe0a0222ea93795ca21004f63db3e0abac43260a845a3cd954f117c6a95a1"
+    },
+    "track_b/research/q1/round3/results/ranking_stability.csv": {
+      "bytes": 197720,
+      "sha256": "65c9d092d5ac9f7f53bd6bc65bbf2682d4f995175f772043cb26f3fae80bd392"
+    },
+    "track_b/research/q1/round3/results/stability_draws.csv": {
+      "bytes": 11054049,
+      "sha256": "81e4f3e98fb1c53ae9e9e41e7c66df678418aa3f686cd13341d1bfb34feaefd7"
+    },
+    "track_b/research/q1/round3/results/bootstrap_draw_specification.json": {
+      "bytes": 81124,
+      "sha256": "3b4c9908afdef96620d60d878542db9604adfa86750b716ca3a78bc2c97a728a"
+    },
+    "track_b/research/q1/round3/results/covariance_diagnostics.json": {
+      "bytes": 420634,
+      "sha256": "3fcafd61bc4eab724038671ae9b9c79e0ce136b64fac8cfef095393a4f35f5b5"
+    },
+    "track_b/research/q1/round3/results/comparison_metrics.csv": {
+      "bytes": 21864,
+      "sha256": "1edc589838e5b11ac643a9b9740b3daac052ff036a4e8275a5d61ca849cee592"
+    },
+    "track_b/research/q1/round3/results/effective_feature_support.csv": {
+      "bytes": 170031,
+      "sha256": "924dd31674557e1d6830dcaf7254505011a1e7041e7dd14a80297b9416435614"
+    },
+    "track_b/research/q1/round3/results/effective_family_support.csv": {
+      "bytes": 6260,
+      "sha256": "84994c64217aba95a19f7094f086117172eb218d7162ee3ded001b7d019eef15"
+    },
+    "track_b/research/q1/round3/results/features.parquet": {
+      "bytes": 1435260,
+      "sha256": "7300b94b5f537873a6b4d1ecaf46015fa130e8e28aa9464e098e219f52833079"
+    },
+    "track_b/research/q1/round3/results/sample_metadata.csv": {
+      "bytes": 1188914,
+      "sha256": "06c7b1273240779fcbde4a9777a878124fd9de47d5a4faff190f5118e73625b5"
+    },
+    "track_b/research/q1/round3/results/feature_support.csv": {
+      "bytes": 11289057,
+      "sha256": "8e8306d6c8bfcb8d3156cbd521dbff001c5e86413ab62bedb6cdcf81db2737b9"
+    },
+    "track_b/research/q1/round3/results/feature_contract.csv": {
+      "bytes": 58398,
+      "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb"
+    }
+  },
+  "check_counts": {
+    "source_snapshot": 1,
+    "independent_primary_families": 18,
+    "independent_primary_midranks": 18,
+    "independent_cross_window_fractional_score": 63,
+    "independent_consensus_value": 21,
+    "tie_credit_sum_rankings": 1,
+    "null_rank_credit_rankings": 1,
+    "tie_credit_sum_three_routes": 1,
+    "null_rank_credit_three_routes": 1,
+    "tie_credit_sum_recommended": 1,
+    "null_rank_credit_recommended": 1,
+    "tie_credit_sum_stability_draws": 1,
+    "null_rank_credit_stability_draws": 1,
+    "selected_flags_stability_draws": 1,
+    "all_stability_requested_denominators": 1,
+    "all_stability_finite_denominators": 1,
+    "all_stability_fractional_credit_frequencies": 1,
+    "fixed_bootstrap_unique_year_histogram": 1,
+    "bootstrap_actual_valid_draw_identity": 252,
+    "unknown_turbulent_A_C_61": 1,
+    "unknown_turbulent_B_consensus_10": 1,
+    "recommendation_frequency_and_denominator": 21,
+    "recommendation_70_draw_gate": 21,
+    "all_labels_correctly_conditional": 1,
+    "unknown_turbulent_primary_consensus_stays_null": 1,
+    "all_effective_feature_rows": 6,
+    "actual_feature_years": 672,
+    "actual_feature_window_process_counts": 672,
+    "actual_feature_target_B_selection": 672,
+    "actual_family_year_bounds": 72,
+    "actual_family_B_calibration": 216,
+    "reviewed_inputs_unchanged": 1
+  },
+  "total_checks": 2743,
+  "credit_groups_checked": {
+    "rankings": 270,
+    "three_routes": 6,
+    "recommended": 2,
+    "stability_draws": 3300
+  },
+  "bootstrap_distinct_year_histogram": {
+    "2": 11,
+    "3": 45,
+    "4": 40,
+    "5": 4
+  },
+  "actual_bootstrap_denominators": {
+    "regular_A_C": 89,
+    "regular_B_consensus": 44,
+    "unknown_turbulent_A_C": 61,
+    "unknown_turbulent_B_consensus": 10
+  },
+  "unknown_turbulent_B_draw_rule": "Exactly all four non2022 years and no2022; four all-five-year draws fail LOYO80% observation support and remain null",
+  "effective_feature_supported_year_histogram": [
+    {
+      "quality_track": "original_qc_view",
+      "actual_supported_years": 0,
+      "feature_window_records": 90
+    },
+    {
+      "quality_track": "original_qc_view",
+      "actual_supported_years": 5,
+      "feature_window_records": 246
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "actual_supported_years": 4,
+      "feature_window_records": 75
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "actual_supported_years": 5,
+      "feature_window_records": 261
+    }
+  ],
+  "bootstrap_group_results": [
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.9662921348
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6966292135
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.5842696629
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.9662921348
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.606741573
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6629213483
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.5168539326
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.5454545455
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.5454545455
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.75
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.4545454545
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.8636363636
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0227272727
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.2727272727
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.5454545455
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.7602996255
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2771535581
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6479400749
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2940074906
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.8558052434
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.1404494382
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4007490637
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.7584269663
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.8651685393
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9204545455
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0454545455
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.8257575758
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.3939393939
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.6136363636
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.2234848485
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.375
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.6136363636
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9886363636
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.1235955056
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.9775280899
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4719101124
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4382022472
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6797752809
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4719101124
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.9775280899
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.8595505618
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9545454545
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0909090909
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9318181818
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.1590909091
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9545454545
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.1136363636
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.5454545455
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.5454545455
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7045454545
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4831460674
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4353932584
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6807116105
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.5599250936
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.8764044944
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2593632959
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.3707865169
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.797752809
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.5365168539
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.5227272727
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9659090909
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.303030303
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9659090909
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.196969697
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.4962121212
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.8295454545
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7196969697
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.7415730337
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.9269662921
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0112359551
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6404494382
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.8595505618
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.8202247191
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0909090909
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.8636363636
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0681818182
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0681818182
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.4090909091
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7272727273
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.8181818182
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9545454545
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.8707865169
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2228464419
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4846441948
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2543071161
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2861423221
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.5558052434
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.8760299625
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.9550561798
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4943820225
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.8787878788
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.4924242424
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.8068181818
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "original_qc_view",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.821969697
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.9662921348
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6741573034
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.5842696629
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0112359551
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.9662921348
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.595505618
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6404494382
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4831460674
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.1147540984
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7954545455
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.4545454545
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.4772727273
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.2840909091
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7727272727
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.2159090909
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0227272727
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.1590909091
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.5909090909
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6011235955
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2887640449
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4157303371
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2063670412
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.7303370787
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2213483146
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4086142322
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.7513108614
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.7696629213
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.6366120219
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "C_other_family_analog",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.2486338798
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9090909091
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0227272727
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7954545455
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.2954545455
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.4204545455
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.2954545455
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.3522727273
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.6818181818
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 24,
+      "model_id": "consensus",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0449438202
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.8539325843
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2584269663
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2584269663
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4606741573
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.3483146067
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.9662921348
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.606741573
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.2950819672
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0681818182
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7954545455
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.1818181818
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9772727273
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.1136363636
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0681818182
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.3636363636
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.5909090909
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.5227272727
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 0.4
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.558988764
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2162921348
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.5018726592
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.3342696629
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.7921348315
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6666666667
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2303370787
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.1479400749
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.7574906367
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2284644195
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.4207650273
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "C_other_family_analog",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.4043715847
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7689393939
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9090909091
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.2045454545
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.8863636364
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7348484848
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.1136363636
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.1818181818
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.8636363636
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.2386363636
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 0.1833333333
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 72,
+      "model_id": "consensus",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 0.25
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6797752809
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.7359550562
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0112359551
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4662921348
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.702247191
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.9887640449
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4606741573
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.7049180328
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "A_marginal_ecdf",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.6885245902
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9772727273
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0795454545
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7386363636
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0909090909
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0909090909
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0909090909
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.2954545455
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.5681818182
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.8181818182
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9090909091
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 0.5
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "B_shrunk_conditional",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.8011235955
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.1887640449
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.3367041199
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.0880149813
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.2059925094
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.1325842697
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.4700374532
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.6831460674
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.8988764045
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 89,
+      "top5_frequency": 0.3314606742
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.5382513661
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "C_other_family_analog",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 61,
+      "top5_frequency": 0.7213114754
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "air_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 1.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "air_pressure",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0227272727
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "air_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7613636364
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "longwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0227272727
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "mean_wind",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "precipitation",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.0454545455
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "shortwave",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.3636363636
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "soil_heat_flux",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7159090909
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "soil_moisture",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.9545454545
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "soil_thermal",
+      "n_requested": 100,
+      "n_valid": 44,
+      "top5_frequency": 0.7045454545
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "turbulent_heat",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 0.85
+    },
+    {
+      "quality_track": "unknown_qc_exploration",
+      "window_hours": 168,
+      "model_id": "consensus",
+      "family_id": "turbulent_mechanics",
+      "n_requested": 100,
+      "n_valid": 10,
+      "top5_frequency": 0.95
+    }
+  ],
+  "primary_consensus_top5": {
+    "original_qc_view": [
+      {
+        "family_id": "soil_moisture",
+        "consensus_score": 0.7430555556,
+        "recommended_rank": 1.0
+      },
+      {
+        "family_id": "air_moisture",
+        "consensus_score": 0.6666666667,
+        "recommended_rank": 2.0
+      },
+      {
+        "family_id": "soil_thermal",
+        "consensus_score": 0.6388888889,
+        "recommended_rank": 3.0
+      },
+      {
+        "family_id": "air_thermal",
+        "consensus_score": 0.6111111111,
+        "recommended_rank": 4.0
+      },
+      {
+        "family_id": "mean_wind",
+        "consensus_score": 0.5833333333,
+        "recommended_rank": 5.0
+      }
+    ],
+    "unknown_qc_exploration": [
+      {
+        "family_id": "air_moisture",
+        "consensus_score": 0.7912457912,
+        "recommended_rank": 1.0
+      },
+      {
+        "family_id": "soil_moisture",
+        "consensus_score": 0.7452300786,
+        "recommended_rank": 2.0
+      },
+      {
+        "family_id": "soil_thermal",
+        "consensus_score": 0.6627384961,
+        "recommended_rank": 3.0
+      },
+      {
+        "family_id": "air_thermal",
+        "consensus_score": 0.608305275,
+        "recommended_rank": 4.0
+      },
+      {
+        "family_id": "mean_wind",
+        "consensus_score": 0.5628507295,
+        "recommended_rank": 5.0
+      }
+    ]
+  },
+  "limitations": [
+    "No disaster probability/causal/hazard validation is inferred",
+    "44 valid consensus draws for regular families and10 for unknown turbulent families; all recommendations remain conditional",
+    "rankings n_background_years=5 denotes nominal pool; actual supported years use independently verified effective support tables",
+    "Boundary ties use fractional credit and may produce >5 candidate rows",
+    "Initial exploratory reviewer assertion based only on non2022 distinct year count was corrected: actual B LOYO80% support additionally excludes all-five-year draws; production outputs required no changes"
+  ],
+  "strict_cross_window_and_consensus_max_absolute_error": 1.1102230246251565e-16,
+  "strict_score_tolerance": 1e-12,
+  "strict_score_comparisons": 80
+}

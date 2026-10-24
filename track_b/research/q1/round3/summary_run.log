@@ -1,0 +1,5 @@
+/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1/track_b/research/q1/round3/scripts/summarize_results.py:127: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  hh=hourly[(hourly.quality_track==track)&(hourly.time_utc>=reference-pd.Timedelta(hours=168))&(hourly.time_utc<reference)]
+/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1/track_b/research/q1/round3/scripts/summarize_results.py:129: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  ax.set_title(label,fontsize=9,loc='left');ax.grid(alpha=.16);ax.set_xlim(reference-pd.Timedelta(hours=168),reference);ax.xaxis.set_major_formatter(mdates.DateFormatter('%m-%d'))
+{"figures_created": 5, "comparison_rows": 6, "quality_comparison_rows": 34, "recommendation_rows": 21}
