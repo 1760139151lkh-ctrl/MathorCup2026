@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/PROTOCOL.md",
+      "bytes": 5541,
+      "sha256": "dfead99bacadb9e94839c44451d07085811ee001d37bf092ffcb5d8e24562041",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/RESULTS.md",
+      "bytes": 5026,
+      "sha256": "ede1b924e07443087ede404597f9656a8897bc7d11e6de264be4ad1882c267e9",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/adapter_schema.json",
+      "bytes": 1337,
+      "sha256": "5205b6a9f7a0994c51725dc06969fa31fb607d288de3e49188105515ea30bd38",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/conditional_arrivals.csv",
+      "bytes": 19498,
+      "sha256": "af84e04843dae847e8c9d6d34496e8d486ae8bd4203ffc49cb700be04438a355",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/conditional_footprints.png",
+      "bytes": 147714,
+      "sha256": "5a6f6d09517cd22d135b0ecbf14515ffbefe72a949c408f74d23ebe858bd0787",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/depth_footprint_diagnostics.csv",
+      "bytes": 4519,
+      "sha256": "f0ae3f1e5f39decbb79b17b8c6749f5a2e9433bfe50e0d8fbd7582676e6eb481",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/figure_review.json",
+      "bytes": 1508,
+      "sha256": "088ac510f68a8af9f5d59567305e5e1b706ed031597b89a256d1874e820c5a69",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/input_index.json",
+      "bytes": 21762,
+      "sha256": "164a218506453d78ce7707f91e99780a0d7f16f3fed3b73c8cc0a76f7aaf83f9",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/lineage_audit.csv",
+      "bytes": 1179,
+      "sha256": "9a2dca11d6989278b6c42eca4bf0005e811b73b697c87cbe0c98636692c38e54",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/onset_scope_audit.csv",
+      "bytes": 1377,
+      "sha256": "3876b0f9e5644f483f85a2cd53f1ee30b310de33412300860532c61bb27b0985",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/physical_parameter_audit.csv",
+      "bytes": 4899,
+      "sha256": "31a52cb9aec0ff9f88c8dbe142f42a2efbeb1454553d500a3192f37950fdc651",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/rejected_pairings.csv",
+      "bytes": 25,
+      "sha256": "f635b63432d0fe49bc36f22f9d6ad55337e8fde0d774519af2939c83c245d7d9",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/release_mapping_audit.csv",
+      "bytes": 2911,
+      "sha256": "b857a8a612ad03ac25e01df7ee8a26261ac6063a0622fe514c14db8afd78ab24",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/saved_field_target_checks.csv",
+      "bytes": 3159,
+      "sha256": "728cbc75c8ae4b52910b854d6276eb57051a6315e4309157be5208393d222d1f",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/status.json",
+      "bytes": 1722,
+      "sha256": "3cf5b715caea56c798340b6a6e9323ad85e5835b8dc0f39a6b4c816fecdca677",
+      "role": "new compact delta output"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/summary.json",
+      "bytes": 1722,
+      "sha256": "3cf5b715caea56c798340b6a6e9323ad85e5835b8dc0f39a6b4c816fecdca677",
+      "role": "new compact delta output"
+    }
+  ],
+  "file_list_excludes_self": true,
+  "validation_excluded_to_avoid_cycle": true,
+  "independent_review_directory_excluded": true,
+  "no_recursive_output_traversal": true
+}

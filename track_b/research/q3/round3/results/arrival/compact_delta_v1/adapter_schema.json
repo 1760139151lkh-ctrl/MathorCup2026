@@ -1,0 +1,46 @@
+{
+  "version": "q3-compact-SH-STH-delta-v1",
+  "explicit_model_replacements": {
+    "q2r3_SH_v1": [
+      "S_H",
+      "q2r3_S_H_analytic_v1"
+    ],
+    "q2r3_STH_v1": [
+      "S_T_H",
+      "q2r3_S_T_H_analytic_v1"
+    ]
+  },
+  "matching": "exact linear base/model/mechanism/parameter/geometry keys; no thaw-sibling or approximate match",
+  "physical_fields_compared": [
+    "theta_deg",
+    "thickness_normal_m",
+    "rock_volume_fraction",
+    "bridge_fraction",
+    "bridge_cohesion_kpa",
+    "rock_mu",
+    "initial_temp_c",
+    "diffusivity_m2_s",
+    "interface_depth_m",
+    "station_source_offset_c",
+    "storativity",
+    "drainage_hours",
+    "connected_depth_m",
+    "rain_multiplier",
+    "melt_mm_deg_day",
+    "damage_rate_h_inv",
+    "damage_exponent",
+    "initial_damage",
+    "drainage_damage_coupling",
+    "density_kg_m3"
+  ],
+  "original_evaluation_window_status_retained": true,
+  "original_evaluation_first_unstable_is_new_start": false,
+  "unknown_release_lag": true,
+  "material_fractions_are_solver_phase_fractions": false,
+  "H_mechanism_implies_free_release_water": false,
+  "compact_polygon_delivered": false,
+  "exact_polygon_independently_audited": false,
+  "selected_runs_are_2048_weighted_ensemble": false,
+  "accepted_arrival_envelope_run_ids": [],
+  "adapter_QA_is_predictive_qualification": false
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "review_method": "Codex actual visual inspection via view_image of locally generated PNG after delta execution",
+  "path_resolution": "figures[].path is Q3 worktree ROOT-relative",
+  "figures": [
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/conditional_footprints.png",
+      "sha256": "5a6f6d09517cd22d135b0ecbf14515ffbefe72a949c408f74d23ebe858bd0787",
+      "actually_opened": true
+    }
+  ],
+  "checks": {
+    "both_exact_linear_scenario_panels_visible": true,
+    "unqualified_and_requested_saved_horizon_labels_visible": true,
+    "metric_axes_CRS_units_visible": true,
+    "common_depth_colorbar_units_threshold_visible": true,
+    "actual_release_raster_support_red_visible": true,
+    "target_representative_points_black_visible": true,
+    "no_clipped_primary_labels": true,
+    "no_absolute_probability_validated_warning_claim": true
+  },
+  "observations": [
+    "Both actual saved-depth footprints include the paper-junction representative; the port/nearby OSM representative cluster is separate and unreached in the saved fields.",
+    "The p0072 support outline is larger than p0255, following their actual supplied compact rasters; it is not an observed release boundary.",
+    "The common 0..60m depth color range includes both actual saved maxima (51m and31.388m)."
+  ],
+  "scientific_qualification": "unqualified conditional diagnostics only; image review does not establish conservation, accuracy or independent event validation"
+}

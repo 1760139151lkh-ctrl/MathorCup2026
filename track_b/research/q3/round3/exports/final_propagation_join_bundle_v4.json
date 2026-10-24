@@ -1,0 +1,198 @@
+{
+  "bundle_version": "q3-r3-final-propagation-v4",
+  "producer_question": "q3",
+  "created_at_utc": "2026-10-24T11:38:14.392281+00:00",
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/PROTOCOL.md",
+      "bytes": 5541,
+      "sha256": "dfead99bacadb9e94839c44451d07085811ee001d37bf092ffcb5d8e24562041",
+      "role": "results/arrival/compact_delta_v1/PROTOCOL.md"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/RESULTS.md",
+      "bytes": 5026,
+      "sha256": "ede1b924e07443087ede404597f9656a8897bc7d11e6de264be4ad1882c267e9",
+      "role": "results/arrival/compact_delta_v1/RESULTS.md"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/adapter_schema.json",
+      "bytes": 1337,
+      "sha256": "5205b6a9f7a0994c51725dc06969fa31fb607d288de3e49188105515ea30bd38",
+      "role": "results/arrival/compact_delta_v1/adapter_schema.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/conditional_arrivals.csv",
+      "bytes": 19498,
+      "sha256": "af84e04843dae847e8c9d6d34496e8d486ae8bd4203ffc49cb700be04438a355",
+      "role": "results/arrival/compact_delta_v1/conditional_arrivals.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/conditional_footprints.png",
+      "bytes": 147714,
+      "sha256": "5a6f6d09517cd22d135b0ecbf14515ffbefe72a949c408f74d23ebe858bd0787",
+      "role": "results/arrival/compact_delta_v1/conditional_footprints.png"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/depth_footprint_diagnostics.csv",
+      "bytes": 4519,
+      "sha256": "f0ae3f1e5f39decbb79b17b8c6749f5a2e9433bfe50e0d8fbd7582676e6eb481",
+      "role": "results/arrival/compact_delta_v1/depth_footprint_diagnostics.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/figure_review.json",
+      "bytes": 1508,
+      "sha256": "088ac510f68a8af9f5d59567305e5e1b706ed031597b89a256d1874e820c5a69",
+      "role": "results/arrival/compact_delta_v1/figure_review.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/input_index.json",
+      "bytes": 21762,
+      "sha256": "164a218506453d78ce7707f91e99780a0d7f16f3fed3b73c8cc0a76f7aaf83f9",
+      "role": "results/arrival/compact_delta_v1/input_index.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/lineage_audit.csv",
+      "bytes": 1179,
+      "sha256": "9a2dca11d6989278b6c42eca4bf0005e811b73b697c87cbe0c98636692c38e54",
+      "role": "results/arrival/compact_delta_v1/lineage_audit.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/onset_scope_audit.csv",
+      "bytes": 1377,
+      "sha256": "3876b0f9e5644f483f85a2cd53f1ee30b310de33412300860532c61bb27b0985",
+      "role": "results/arrival/compact_delta_v1/onset_scope_audit.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/output_index.json",
+      "bytes": 4304,
+      "sha256": "dadb1c30cb31760116002f3e7a71aacec410922c7819363d814ed75178d70519",
+      "role": "results/arrival/compact_delta_v1/output_index.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/physical_parameter_audit.csv",
+      "bytes": 4899,
+      "sha256": "31a52cb9aec0ff9f88c8dbe142f42a2efbeb1454553d500a3192f37950fdc651",
+      "role": "results/arrival/compact_delta_v1/physical_parameter_audit.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/rejected_pairings.csv",
+      "bytes": 25,
+      "sha256": "f635b63432d0fe49bc36f22f9d6ad55337e8fde0d774519af2939c83c245d7d9",
+      "role": "results/arrival/compact_delta_v1/rejected_pairings.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/release_mapping_audit.csv",
+      "bytes": 2911,
+      "sha256": "b857a8a612ad03ac25e01df7ee8a26261ac6063a0622fe514c14db8afd78ab24",
+      "role": "results/arrival/compact_delta_v1/release_mapping_audit.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/review/REVIEW.md",
+      "bytes": 4454,
+      "sha256": "ddc92cf30f5101bb906763e70da9a392c4b788b074c44a3c5b45fbb6a81ecf90",
+      "role": "results/arrival/compact_delta_v1/review/REVIEW.md"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/review/audit_compact_delta_v1.py",
+      "bytes": 22402,
+      "sha256": "26af0d2bf71571ffb52886f7488b00f69856045cc7ae05e1d28b79ce16843383",
+      "role": "results/arrival/compact_delta_v1/review/audit_compact_delta_v1.py"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/review/final_review.json",
+      "bytes": 76341,
+      "sha256": "0c1926034f02e215db473906ce656b9013922fd2db82b23a3f6c9f253c131fcf",
+      "role": "results/arrival/compact_delta_v1/review/final_review.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/review/preliminary_input_review.json",
+      "bytes": 42917,
+      "sha256": "be0d90d307c41ad60270f32efc5fce2212e84c4b5a6de5e7fc1f3e9b6dd5f936",
+      "role": "results/arrival/compact_delta_v1/review/preliminary_input_review.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/saved_field_target_checks.csv",
+      "bytes": 3159,
+      "sha256": "728cbc75c8ae4b52910b854d6276eb57051a6315e4309157be5208393d222d1f",
+      "role": "results/arrival/compact_delta_v1/saved_field_target_checks.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/status.json",
+      "bytes": 1722,
+      "sha256": "3cf5b715caea56c798340b6a6e9323ad85e5835b8dc0f39a6b4c816fecdca677",
+      "role": "results/arrival/compact_delta_v1/status.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/summary.json",
+      "bytes": 1722,
+      "sha256": "3cf5b715caea56c798340b6a6e9323ad85e5835b8dc0f39a6b4c816fecdca677",
+      "role": "results/arrival/compact_delta_v1/summary.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/compact_delta_v1/validation.json",
+      "bytes": 55633,
+      "sha256": "58f27c6f57042aa4e3762e9d5431a2afb9f2940cac6cfd05f42f74b250c3914e",
+      "role": "results/arrival/compact_delta_v1/validation.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/final_propagation_v4/conditional_arrivals_49.csv",
+      "bytes": 56443,
+      "sha256": "1312aaafc608bddd3b41a285e4dc67a2b0c21967f740caf4a6048c448ff28b01",
+      "role": "results/final_propagation_v4/conditional_arrivals_49.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/final_propagation_v4/mapped_runs_7.csv",
+      "bytes": 2451,
+      "sha256": "3215f2c9697e852f4eb6ac61394961c8b761497cea9e2684311117b91d97dd54",
+      "role": "results/final_propagation_v4/mapped_runs_7.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/final_propagation_v4/summary.json",
+      "bytes": 1447,
+      "sha256": "ea43fc4e062a22c4c5165be7f1c27b32cf6df0570c92427e8aaa968a33a775cb",
+      "role": "results/final_propagation_v4/summary.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/final_propagation_v4/input_manifest.json",
+      "bytes": 213774,
+      "sha256": "40dd81ebd0dcab0d7748f385ac0975950352e1cd37569ad7670cf884ac0ef92b",
+      "role": "results/final_propagation_v4/input_manifest.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/final_propagation_v4/frozen_prior_files.json",
+      "bytes": 219521,
+      "sha256": "2b3208e5fddfad1406650fff8dc85c48ab4b3647cc5d1dacd65b1533c175ae57",
+      "role": "results/final_propagation_v4/frozen_prior_files.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/FINAL_PROPAGATION_HANDOFF.md",
+      "bytes": 6845,
+      "sha256": "e502397c9b31a0081fb742103dcc5254ecf9ca01e94411afe9c546adaff94baf",
+      "role": "FINAL_PROPAGATION_HANDOFF.md"
+    },
+    {
+      "path": "track_b/research/q3/round3/exports/fullmask_propagation_join_bundle_v3.json",
+      "bytes": 7978,
+      "sha256": "f76097b0cf75f403c04ef0315be0a366d8d07d3b37406e94f787be7dd504fbd8",
+      "role": "exports/fullmask_propagation_join_bundle_v3.json"
+    }
+  ],
+  "source_base_commit": "c6200b95db074775cc1cb24b163e3caef29f5cd2",
+  "original_increment_base": "0d5326d6e3428df4d714d8101c41c7c925eca0ef",
+  "mapped_runs": 7,
+  "mechanical_designs": 4,
+  "run_target_records": 49,
+  "local_truth_events_added": 0,
+  "empirical_coverage": null,
+  "physics_rerun": false,
+  "accepted_arrival_envelope_runs": [],
+  "arrival_probability": null,
+  "absolute_arrival": null,
+  "limitations": [
+    "Selected mapped runs are not independent events or the2048-weighted forecast ensemble",
+    "Unknown initiation-to-bulk-release delay; qualified arrivals and probabilities remain null",
+    "Global mechanical crossing and evaluation-window left censoring are separate states",
+    "No forced join of general Q4 scenarios without a Q2 parent identity"
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "bundle_version": "q4-r3-compact-delta-v1",
+  "producer_question": "q4",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "status": "frozen_partial_q2compact_delta_for_adapter_review",
+  "common_context": {
+    "event_id": "B20260826_Chhochen",
+    "physical_phase": "bulk_release_propagation_and_target_arrival",
+    "time_utc": null,
+    "time_uncertainty": null,
+    "available_time": null,
+    "forecast_reference_time": null,
+    "issue_time": null,
+    "valid_time": null,
+    "null_time_reasons": {
+      "time_utc": "Absolute UTC of modeled bulk release is unknown; scenario-relative travel times do not supply it",
+      "time_uncertainty": "No independently audited absolute release-time uncertainty is available",
+      "available_time": "Scenario evidence has no established historical forecast information-availability cutoff",
+      "forecast_reference_time": "Not applicable: these are conditional propagation scenarios",
+      "issue_time": "Not applicable: this package is not an issued forecast",
+      "valid_time": "Not applicable: no absolute forecast-valid timestamp is established"
+    },
+    "time_origin": "bulk_release",
+    "initiation_to_release_delay_seconds": null,
+    "space_object": {
+      "source_geometry_versions": [
+        "q4-r3-q2-mapped-release-v1"
+      ],
+      "target_geometry_versions": [
+        "q4-r3-osm-objects-v2",
+        "q4-r3-spatial-copdem-v1"
+      ],
+      "crs": "EPSG:32645",
+      "crs_code": 32645,
+      "axis_order": [
+        "easting",
+        "northing"
+      ],
+      "coordinate_unit": "m",
+      "position_uncertainty_m": null,
+      "position_uncertainty_reason": "Candidate source/target geometry lacks independently quantified positional error",
+      "target_detection_geometry": "registered cell centres inside 100m buffers; entity_id distinguishes five OSM representatives from three candidate objects"
+    },
+    "variable_semantics": {
+      "time": {
+        "unit": "s",
+        "reference": "relative to modeled bulk release",
+        "detection_interval": "previous saved output below threshold to first above; not numerical solver-step timing"
+      },
+      "depth": {
+        "unit": "m",
+        "definition": "model flow depth; native representation and initial depth/terrain differences retained per run"
+      },
+      "horizontal_speed": {
+        "unit": "m/s",
+        "definition": "horizontal east/north magnitude or explicitly marked along-path equivalent"
+      },
+      "native_scalar_speed": {
+        "unit": "m/s",
+        "definition": "ravaflow terrain-corrected scalar, retained separately from horizontal speed"
+      },
+      "release_volume": {
+        "unit": "m3",
+        "definition": "actual release-grid integral, checked against the explicitly delivered parent mapping and native t0 representation where present",
+        "legacy_reference_field": "expected_reference_grid_volume_m3 is an inherited standard h15 baseline reference, not the expected release volume for every thickness or Q2-mapped scenario"
+      },
+      "stationary_residual": {
+        "depth_threshold_m": 0.1,
+        "horizontal_speed_threshold_m_s": 0.1,
+        "definition": "last saved-state h>=0.1m and horizontal speed<0.1m/s; multiphase uses maximum over phases with h_phase>=1e-6m",
+        "interpretation": "finite-time stationary residual, not permanent or observed deposit; missing conservative phase velocity remains unavailable"
+      },
+      "quality_control": [
+        "input/case/execution/log/field byte-hash binding",
+        "finite and nonnegative saved states",
+        "actual native saved times and requested horizon distinguished",
+        "arrival threshold h>=0.1m within registered 100m buffers",
+        "sampling definitions, boundary evidence and native mass-budget limitations retained"
+      ],
+      "qualification": "QC gates do not establish predictive or mass-conservation qualification"
+    },
+    "data_role": "scenario",
+    "evidence_status": "candidate",
+    "row_evaluation_stratum_is_authoritative": true,
+    "scenario_lineage_semantics": "Explicit upstream Q2 model/parameter/base scenario/mapping are retained where delivered; missing upstream fields mean unknown Q2 parent and are never inferred from a generic conditional scenario",
+    "scientific_acceptance_decision_version": "q4-r3-scientific-acceptance-v05",
+    "arrival_envelope_semantics_version": "q4-r3-arrival-envelope-accepted-runs-v05",
+    "scientifically_qualified_for_prediction": false,
+    "regional_accuracy_qualified": false,
+    "mass_conservation_qualified": false,
+    "input_version": {
+      "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+      "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+    },
+    "human_scientific_adoption": "pending_team_review",
+    "statistical_weights": null,
+    "independent_local_event_validation_count": 0
+  },
+  "early_selection": "q2compactdelta",
+  "scientific_acceptance_decision_version": "q4-r3-scientific-acceptance-v05",
+  "arrival_envelope_semantics_version": "q4-r3-arrival-envelope-accepted-runs-v05",
+  "accepted_arrival_envelope_run_ids": [],
+  "lineage_by_run": [
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "scenario_id": "q2r3-p0072-S_H-linear",
+      "base_scenario_id": "q2r3-p0072-S_H-linear",
+      "upstream_model_id": "q2r3_SH_v1",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "mechanism_id": "S_H",
+      "parameter_version": "q2r3-design-v1",
+      "release_mapping_version": "q4-r3-q2-mapped-release-v1",
+      "geometry_version": "q4-r3-q2-mapped-release-v1",
+      "upstream_onset_status": "never_crossed",
+      "if_released_propagation": true,
+      "initiation_to_release_delay_seconds": null
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "scenario_id": "q2r3-p0255-S_T_H-linear",
+      "base_scenario_id": "q2r3-p0255-S_T_H-linear",
+      "upstream_model_id": "q2r3_STH_v1",
+      "upstream_parameter_version": "q2r3-design-v1",
+      "mechanism_id": "S_T_H",
+      "parameter_version": "q2r3-design-v1",
+      "release_mapping_version": "q4-r3-q2-mapped-release-v1",
+      "geometry_version": "q4-r3-q2-mapped-release-v1",
+      "upstream_onset_status": "interval_crossing",
+      "if_released_propagation": false,
+      "initiation_to_release_delay_seconds": null
+    }
+  ],
+  "scientifically_qualified_for_prediction": false,
+  "mass_conservation_qualified": false,
+  "regional_accuracy_qualified": false,
+  "scheduling_resource_context": {
+    "source_paths": [
+      "track_b/research/q4/round3/config/official_scheduling_amendment_06.json",
+      "track_b/research/q4/round3/results/official_scheduling_cpu_receipt_07.json",
+      "track_b/research/q4/round3/results/official_scheduling_cpu_tail_receipts_08.json"
+    ],
+    "wall_time_interpretation": "actual elapsed wall time under mixed concurrency and CPU quota regimes; no controlled model runtime/performance comparison",
+    "controlled_performance_benchmark": false,
+    "resource_controls_change_physical_equations": false
+  },
+  "partial": true,
+  "provisional_compare_scope": true,
+  "all_routes_completed": false,
+  "adds_new_model_case_count": 0,
+  "adds_independent_event_validation_count": 0,
+  "generated_at_utc": "2026-10-24T11:18:37.861029+00:00",
+  "selected_run_ids": [
+    "q2map60_q2r3_p0072_S_H_linear__sf0",
+    "q2map60_q2r3_p0255_S_T_H_linear__sf0"
+  ],
+  "evaluation_stratum": "conditional_scenario",
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/model_runs.csv",
+      "bytes": 43724,
+      "sha256": "1cc521a4c048e5137b6abcad9d5a63403ba60c42768a2cd194b6dfa2057dadd0",
+      "role": "model_runs",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/model_runs.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/comparison_metrics.csv",
+      "bytes": 15003,
+      "sha256": "35e792934ceafa81802ecb0a3023cd9f89f64e3a4c40a0a4737dce90a33e6424",
+      "role": "comparison_metrics",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/comparison_metrics.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/target_arrivals.csv",
+      "bytes": 81971,
+      "sha256": "6653ff590c440bd87ee2d44c6b1d615a152c7c575825277898edda17d7d7835c",
+      "role": "target_arrivals",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/target_arrivals.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/comparison_summary.json",
+      "bytes": 53079,
+      "sha256": "69f4794e264f94e3a42407f24e3d7e752fccf307a2b8bea25db9741bd9c837d4",
+      "role": "comparison_summary",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/comparison_summary.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/numerical_validation.json",
+      "bytes": 18596,
+      "sha256": "4ed11d9b8581748d7d915aa8518eb128e86ee2cb66eeae1758c186a24b7dfac8",
+      "role": "numerical_validation",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/numerical_validation.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/fields_index.json",
+      "bytes": 4255,
+      "sha256": "f59602b485c394e55f1253591995fb03b5999d4b28b946ff6fa7da97b1d97fbd",
+      "role": "fields_index",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/fields_index.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/case.json",
+      "bytes": 2722,
+      "sha256": "db40ffb25b893db3e22c3f0f5d6eacf1aafb648db2e790b76ca8fb1b4991ec8d",
+      "role": "native case",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/case.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/execution.json",
+      "bytes": 1887,
+      "sha256": "20cd36c787490c91eb0e38c04a75a06c9ddf127beecfc2a9d9e19626009ad926",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/execution.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/run.log",
+      "bytes": 173701,
+      "sha256": "6bade48fcfb7a7879d165ff24f765e66862994ef534b0ccfc90d5e597b85a94d",
+      "role": "actual native execution log snapshot",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/run.log",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/run.log"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_controls/q2map60_q2r3_p0072_S_H_linear__sf0_paramcomm.txt",
+      "bytes": 5926,
+      "sha256": "fe96c095e82cfbbea23f14f3685a2b67fe460f2a9266ef6ab64fc282c4e383e5",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/q2map60_q2r3_p0072_S_H_linear__sf0_results/q2map60_q2r3_p0072_S_H_linear__sf0_files/q2map60_q2r3_p0072_S_H_linear__sf0_paramcomm.txt",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_controls/q2map60_q2r3_p0072_S_H_linear__sf0_paramcomm.txt"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_controls/run_grass.sh",
+      "bytes": 626,
+      "sha256": "c9adc39b7f547df3168518a8fd80962c2333a576177497f4c4b41b962671cf02",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/run_grass.sh",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_controls/run_grass.sh"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/adapter_executed.py",
+      "bytes": 5174,
+      "sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "role": "saved actual executed adapter; contemporaneous hash retained",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/adapter_executed.py",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/adapter_executed.py"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/postprocessing/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "bytes": 30931,
+      "sha256": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+      "role": "actual parser source snapshot bound to selected process fields",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/postprocessing/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_internal_summary.txt",
+      "bytes": 5520,
+      "sha256": "1859f3880e44c76a9c7bfed9c05385ebc3bde76e4f00d813a96d7d34888235c1",
+      "role": "actual native internal unscaled volume summary",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/q2map60_q2r3_p0072_S_H_linear__sf0_results/q2map60_q2r3_p0072_S_H_linear__sf0_files/q2map60_q2r3_p0072_S_H_linear__sf0_summary.txt",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/native_internal_summary.txt"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/q2map60_q2r3_p0072_S_H_linear__sf0_nout1.txt",
+      "bytes": 180,
+      "sha256": "59db71c36795ba10f3b17d77a0e4f41486af70cfffa2a93f09bb66e43fb441e8",
+      "role": "actual native nout success/source/edge accounting output",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/q2map60_q2r3_p0072_S_H_linear__sf0_results/q2map60_q2r3_p0072_S_H_linear__sf0_files/q2map60_q2r3_p0072_S_H_linear__sf0_nout1.txt",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0072_S_H_linear__sf0/q2map60_q2r3_p0072_S_H_linear__sf0_nout1.txt"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/case.json",
+      "bytes": 2738,
+      "sha256": "2da552fe30dcbb457ffa794e9851a92dac0650316f9e1dd96aa5d7d75423bd02",
+      "role": "native case",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/case.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/execution.json",
+      "bytes": 1901,
+      "sha256": "0888cf27b2c5cf0787b8c4c6f5735b971d0c08f8aa5876a078834f8e9104bf22",
+      "role": "native execution record",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/execution.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/run.log",
+      "bytes": 195363,
+      "sha256": "edb49c8d51ef27630fcb1b5891b73d5cd9c700383880c55df502b8727232c98c",
+      "role": "actual native execution log snapshot",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/run.log",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/run.log"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_controls/q2map60_q2r3_p0255_S_T_H_linear__sf0_paramcomm.txt",
+      "bytes": 5948,
+      "sha256": "417455e5b9d6d236d340112bcebf07311f011de57322ec483476830e16783439",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/q2map60_q2r3_p0255_S_T_H_linear__sf0_results/q2map60_q2r3_p0255_S_T_H_linear__sf0_files/q2map60_q2r3_p0255_S_T_H_linear__sf0_paramcomm.txt",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_controls/q2map60_q2r3_p0255_S_T_H_linear__sf0_paramcomm.txt"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_controls/run_grass.sh",
+      "bytes": 630,
+      "sha256": "f9a1760fcb446771e349f9a342a4c0ca3611828e71b8f596b52805c3981fe273",
+      "role": "native_control_text",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/run_grass.sh",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_controls/run_grass.sh"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/adapter_executed.py",
+      "bytes": 5174,
+      "sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "role": "saved actual executed adapter; contemporaneous hash retained",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/adapter_executed.py",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/adapter_executed.py"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_internal_summary.txt",
+      "bytes": 5381,
+      "sha256": "42122779afc2a0ada3ca2fe00d4cfaa930f35775f91d51427bc6a7bcd95b7e6c",
+      "role": "actual native internal unscaled volume summary",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/q2map60_q2r3_p0255_S_T_H_linear__sf0_results/q2map60_q2r3_p0255_S_T_H_linear__sf0_files/q2map60_q2r3_p0255_S_T_H_linear__sf0_summary.txt",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/native_internal_summary.txt"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/q2map60_q2r3_p0255_S_T_H_linear__sf0_nout1.txt",
+      "bytes": 178,
+      "sha256": "84ee085ae73c44ec48994a2a2b08a70ba3597b48a41ae216eacd5e8d4266edf0",
+      "role": "actual native nout success/source/edge accounting output",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/q2map60_q2r3_p0255_S_T_H_linear__sf0_results/q2map60_q2r3_p0255_S_T_H_linear__sf0_files/q2map60_q2r3_p0255_S_T_H_linear__sf0_nout1.txt",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/q2map60_q2r3_p0255_S_T_H_linear__sf0/q2map60_q2r3_p0255_S_T_H_linear__sf0_nout1.txt"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/bundle.json",
+      "bytes": 3007,
+      "sha256": "ed745576ff706a4d82a560269b0e07804add6fc9bde2b3948cced43932ddf5b5",
+      "role": "delivered Q2 compact source lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/bundle.json",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/upstream_q2/bundle.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/upstream_bundle.json",
+      "bytes": 1801,
+      "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "role": "delivered Q2 compact source lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/upstream_bundle.json",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/upstream_q2/upstream_bundle.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/upstream_q2/release_states.csv",
+      "bytes": 22691,
+      "sha256": "23278ea66f3141ad75634dbe8512d678bc46ab5a715c61228cf48ecba85ffad4",
+      "role": "delivered Q2 compact source lineage",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/files/results/release_states.csv",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/upstream_q2/release_states.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/compact_registration/official_cases_q2mapped_v2.json",
+      "bytes": 863,
+      "sha256": "8c21d0fbb3a2928dfa11ef2a81aadca9630ea3baa7efcece0e45a38999bfcc97",
+      "role": "original compact Q2 native case registration",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/official_cases_q2mapped_v2.json",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/compact_registration/official_cases_q2mapped_v2.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/scientific_acceptance_decision_05.json",
+      "bytes": 2947,
+      "sha256": "1619328370807cbe78be707918993fa83031621e39b469c4408dd689282b3674",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/scientific_acceptance_decision_05.json",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/quality/scientific_acceptance_decision_05.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/model_qualification_evidence_05.json",
+      "bytes": 52044,
+      "sha256": "e80f8060ca73ae8f1331c86673bd94b993f1d504e32417492c909ac746a89bb5",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/sources/model_qualification_evidence_05.json",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/quality/model_qualification_evidence_05.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/DCLAW_MASS_AUDIT.md",
+      "bytes": 8473,
+      "sha256": "f2eece67243bdfb6d0cbdcb8d951baab4e7767487b14272872414eba7aed6816",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/DCLAW_MASS_AUDIT.md",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/quality/DCLAW_MASS_AUDIT.md"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/dclaw_mass_audit.json",
+      "bytes": 276746,
+      "sha256": "4aed4ff3e28e68e2fafb6baae16c5d37afbdcf1c5346d1bf3a18248adc570b04",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/dclaw_mass_audit.json",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/quality/dclaw_mass_audit.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/official_cfl_control_crosscheck.json",
+      "bytes": 1510,
+      "sha256": "feaa0b91845f377b4d715d04ff1ae0d4ae36f9c5f539fef667aa44390c8659b9",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/official_cfl_control_crosscheck.json",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/quality/official_cfl_control_crosscheck.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/quality/reduced_numerical_validation.json",
+      "bytes": 15571,
+      "sha256": "1f3c0cefa507689dff03aff2de489dae7ae1a715d2d127f4f7953e281805ee46",
+      "role": "scientific acceptance and qualification evidence",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/reduced_numerical_validation.json",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/quality/reduced_numerical_validation.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_amendment_06.json",
+      "bytes": 1865,
+      "sha256": "ff9233eeb461bc6315d8228c4b27720029970a2dcecf52e6ece85ca5470d3155",
+      "role": "scheduling/resource context; no controlled performance benchmark",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/official_scheduling_amendment_06.json",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/scheduling/official_scheduling_amendment_06.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_cpu_receipt_07.json",
+      "bytes": 6095,
+      "sha256": "c1309131f5a1ccfcf615514bfa2e5707cb7c7664046191927e1e438c96f7dd31",
+      "role": "scheduling/resource context; no controlled performance benchmark",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/official_scheduling_cpu_receipt_07.json",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/scheduling/official_scheduling_cpu_receipt_07.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/scheduling/official_scheduling_cpu_tail_receipts_08.json",
+      "bytes": 8217,
+      "sha256": "17624c27bebe6e8650ebb5a1301ee65620bf8271ab72d5cc173fd0b1e4b6fa8b",
+      "role": "scheduling/resource context; no controlled performance benchmark",
+      "storage": "copied_versioned_metadata",
+      "source_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/official_scheduling_cpu_tail_receipts_08.json",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/scheduling/official_scheduling_cpu_tail_receipts_08.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/native_controls_index.json",
+      "bytes": 4090,
+      "sha256": "c3fcadd6370a1c3a76f0aca40ed33e27b14471379bc7eaf25414b0fdece279d2",
+      "role": "selected actual native controls provenance index",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/native_controls_index.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/geometry/spatial_targets_v2.csv",
+      "bytes": 1483,
+      "sha256": "6735c7dbb668c97bd73024050cbd0b7d1570bb78382dce005dddd983a276b18d",
+      "role": "target geometry",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/geometry/spatial_targets_v2.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/geometry/computational_geometries.geojson",
+      "bytes": 89016,
+      "sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+      "role": "target geometry",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/geometry/computational_geometries.geojson"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/provenance/integrate_comparison.py",
+      "bytes": 133549,
+      "sha256": "37ad5cd084ecf48602e6911ca6ff5c68b6488b05908d725271c7ae7ddabe47cd",
+      "role": "exact early-package postprocessor source",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/provenance/integrate_comparison.py"
+    },
+    {
+      "path": "track_b/research/q3/round3/inputs/q4/bundle_q4-r3-compact-delta-v1/files/exports/compact_delta_v1/input_index.json",
+      "bytes": 29945,
+      "sha256": "e15d9e080bda75c9609be90453bd2b66d69c6c6031fe7d70391895653b6d499d",
+      "role": "selected dependency and observer snapshot index",
+      "storage": "copied_versioned_metadata",
+      "upstream_path": "track_b/research/q4/round3/exports/compact_delta_v1/input_index.json"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "role": "immutable native input terrain",
+      "read_at_utc": "2026-10-24T11:18:37.777306+00:00",
+      "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0072-S_H-linear/release.tif",
+      "bytes": 1530,
+      "sha256": "3e138cd6097579f40b7b17097417aae9f553a6544bca1aa6310c637d3effbd14",
+      "role": "immutable native release thickness",
+      "read_at_utc": "2026-10-24T11:18:37.777914+00:00",
+      "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "bytes": 1701056,
+      "sha256": "700a584257efeda004119179d37781710096f809e217cfc7a3bdfa512a2cd643",
+      "role": "actual_official_process_fields",
+      "case_sha256": "db40ffb25b893db3e22c3f0f5d6eacf1aafb648db2e790b76ca8fb1b4991ec8d",
+      "execution_sha256": "20cd36c787490c91eb0e38c04a75a06c9ddf127beecfc2a9d9e19626009ad926",
+      "log_sha256": "6bade48fcfb7a7879d165ff24f765e66862994ef534b0ccfc90d5e597b85a94d",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "time_end_seconds": 1800.9,
+      "native_time_evidence": "flushed summary or native stdout tsum; no frame index time inference",
+      "parser_sha256_at_start": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+      "parser_source_snapshot_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "fields_schema": "v4_phase_depth_stationary",
+      "solver_build": "official_original",
+      "actual_binary_sha256": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+      "actual_binary_path": "/opt/grass-addons/bin/r.avaflow.main",
+      "binary_identity_evidence": "sha256sum_in_this_execution_log",
+      "execution_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "container_id": null,
+      "readonly_addon_mount": null,
+      "official_source_archive_preserved": true,
+      "executed_solver_source_modified": false,
+      "source_modification_scope": "official fixed native source",
+      "physical_equations_modified": false,
+      "applicability_decision": "required",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/run.log",
+      "bytes": 173701,
+      "sha256": "6bade48fcfb7a7879d165ff24f765e66862994ef534b0ccfc90d5e597b85a94d",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0255-S_T_H-linear/release.tif",
+      "bytes": 1456,
+      "sha256": "0a720e8a5593339b266922f99a066b36438c64c9fb0efdd7d0beedb1fe82636b",
+      "role": "immutable native release thickness",
+      "read_at_utc": "2026-10-24T11:18:37.784819+00:00",
+      "hash_operation_scope": "complete byte stream hashed in 1MiB blocks; later array reads for independent target/final residual checks are recorded separately",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "bytes": 1177115,
+      "sha256": "0d15d37bc6bf0f7429739ad1ccf3baa8f824eb49c9d839fd9b75bf3f2f42d20d",
+      "role": "actual_official_process_fields",
+      "case_sha256": "2da552fe30dcbb457ffa794e9851a92dac0650316f9e1dd96aa5d7d75423bd02",
+      "execution_sha256": "0888cf27b2c5cf0787b8c4c6f5735b971d0c08f8aa5876a078834f8e9104bf22",
+      "log_sha256": "edb49c8d51ef27630fcb1b5891b73d5cd9c700383880c55df502b8727232c98c",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "time_end_seconds": 1802.0,
+      "native_time_evidence": "flushed summary or native stdout tsum; no frame index time inference",
+      "parser_sha256_at_start": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+      "parser_source_snapshot_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "fields_schema": "v4_phase_depth_stationary",
+      "solver_build": "official_original",
+      "actual_binary_sha256": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+      "actual_binary_path": "/opt/grass-addons/bin/r.avaflow.main",
+      "binary_identity_evidence": "sha256sum_in_this_execution_log",
+      "execution_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "container_id": null,
+      "readonly_addon_mount": null,
+      "official_source_archive_preserved": true,
+      "executed_solver_source_modified": false,
+      "source_modification_scope": "official fixed native source",
+      "physical_equations_modified": false,
+      "applicability_decision": "required",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/run.log",
+      "bytes": 195363,
+      "sha256": "edb49c8d51ef27630fcb1b5891b73d5cd9c700383880c55df502b8727232c98c",
+      "role": "immutable native execution log",
+      "storage": "immutable_external_cache"
+    }
+  ],
+  "file_list_excludes_self": true,
+  "table_paths": {
+    "model_runs": "track_b/research/q4/round3/exports/compact_delta_v1/model_runs.csv",
+    "comparison_metrics": "track_b/research/q4/round3/exports/compact_delta_v1/comparison_metrics.csv",
+    "target_arrivals": "track_b/research/q4/round3/exports/compact_delta_v1/target_arrivals.csv"
+  },
+  "probability_weights": null,
+  "independent_local_validation_events": 0,
+  "coverage_probability_claimed": false,
+  "time_origin": "bulk_release",
+  "initiation_to_release_delay_seconds": null,
+  "limitations": [
+    "Only the two already executed compact geometry-v1 p0072 S_H and p0255 S_T_H parent mappings are included; this packet adds no new model cases or independent events",
+    "Original Q2 v1 release catalogue, actual case/execution/log/fields/native controls and all14 target rows are retained; this delta does not duplicate the earlier v2/v3 cases",
+    "Decision05 accepted-run list remains empty; all selected arrival-envelope, regional accuracy, mass-conservation and predictive qualification flags remain false",
+    "Compact-source budget discrepancies are unresolved; ASCII and native-internal residuals remain separate diagnostics, with no passing tolerance declared",
+    "Travel/brackets are relative to modeled bulk release; initiation-to-release delay and absolute release UTC remain unknown",
+    "Saved-output target detection was independently re-evaluated against hashed native NPZ times/depth; not solver-step arrival precision",
+    "Five OSM representatives refer to three distinct candidate entities, not five independent validation targets",
+    "No independent validation events, statistical weighting, predictive adoption or probability coverage claim"
+  ],
+  "human_scientific_adoption": "pending_team_review",
+  "advisor_review": {
+    "upstream_bundle_sha256": "28c67deb49d694e992c005365cf19c73d1db31a89126f64dbe8b6973adba61cb",
+    "note": "Verified48 files and14 native field target rows for SH/STH compact release against frozen Q2v1, all source/model/geometry mappings explicit. SH never-crossed remains if-released; STH interval crossing remains conditional. Native budget drift+11.66547/+12.40282percent unresolved; all accepted-arrival/quality flags false; unknown mechanical-to-release lag and no probability weights. Adopt lineage/conditional numerical diagnostics only.",
+    "adoption_scope": "Only the explicit review note; all upstream limitations retained"
+  }
+}
