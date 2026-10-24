@@ -1,0 +1,35 @@
+{
+  "bundle_version": "q3-r3-followup-v2",
+  "producer_question": "q3",
+  "created_at_utc": "2026-10-24T10:14:21.789994+00:00",
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/exports/applicability_bundle_v2.json",
+      "bytes": 5667,
+      "sha256": "ac45bb5b437ccaab983f2bb95322aff69a4c0bb5dd1f1d122245f248c3120738",
+      "role": "fixed_risk_applicability"
+    },
+    {
+      "path": "track_b/research/q3/round3/exports/propagation_join_bundle_v2.json",
+      "bytes": 5417,
+      "sha256": "851e79c8655a4eeabc22a31e820326115ba4330ef9c755b0de233a71b1ae70eb",
+      "role": "Q4_mapped_lineage_and_quality_negative_result"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/followup_v2/input_manifest.json",
+      "bytes": 16831,
+      "sha256": "91d1dc933de07b435a625c4177252229785f3e58f5949c481301fdd5949816df",
+      "role": "approved_increment_inputs"
+    },
+    {
+      "path": "track_b/research/q3/round3/R3_FOLLOWUP_HANDOFF.md",
+      "bytes": 7134,
+      "sha256": "1f727b7826dfee810682ac1d36d3c4171d28ee6c5395620a102f4f40425afceb",
+      "role": "increment_handoff"
+    }
+  ],
+  "original_packets_unchanged": true,
+  "physical_simulations_rerun": false,
+  "local_truth_events_added": 0,
+  "empirical_coverage": null
+}

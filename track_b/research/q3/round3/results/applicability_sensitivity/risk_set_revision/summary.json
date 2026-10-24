@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-10-24T10:05:59.171712+00:00",
+  "physics_rerun": false,
+  "primary_policy": "fixed_history_risk_out_of_domain_to_unknown",
+  "secondary_history_revocation_diagnostic": "revoke_out_of_domain_history_classification_diagnostic",
+  "fixed_risk_rows": 60750,
+  "five_policy_rows": 303750,
+  "fixed_precise_probability_rows": 0,
+  "fixed_lower_bound_min": 0.0,
+  "fixed_upper_bound_min": 0.4885844748858447,
+  "fixed_upper_bound_max": 1.0,
+  "checks": {
+    "750_tracks_and_60750_new_fixed_risk_rows": true,
+    "five_named_policies_303750_rows": true,
+    "original_history_risk_mass_unchanged": true,
+    "original_already_started_mass_unchanged": true,
+    "no_already_started_mass_transferred": true,
+    "fixed_risk_four_way_mass_preserved": true,
+    "mixture_unknown_matches_explicit_category_transfers": true,
+    "positive_unknown_never_precise_probability": true,
+    "old_diagnostic_preserved_under_separate_name": true,
+    "zero_event_support_no_conditional_interval": true
+  },
+  "passed": true,
+  "local_truth_events": 0,
+  "empirical_coverage": null
+}

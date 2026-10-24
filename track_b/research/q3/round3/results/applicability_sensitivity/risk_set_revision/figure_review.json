@@ -1,0 +1,11 @@
+{
+  "figures": [
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/fixed_risk_comparison.png",
+      "sha256": "a85de8d6e0490f1ec6d8c9c70e5b481eea48d55f937674cd7cf9112922603ada",
+      "actually_opened": true,
+      "review": "Opened final pixels in Codex; three panels and legends fit, UTC labels readable, fixed-risk primary versus separately named history-revocation diagnostic clear. Zero subset support explicitly excludes a safety interpretation."
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,28 @@
+{
+  "version": "q3-q4-explicit-mapped-adapter-v2",
+  "field_resolution": {
+    "original_upstream_model_id": "target.upstream_model_id = model_run.upstream_model_id = bundle.lineage_by_run.upstream_model_id = Q2 compact release.model_id",
+    "mechanism_id": "verified bundle.lineage_by_run.mechanism_id; absent target header is not a missing scientific quantity",
+    "parameter_version": "target.upstream_parameter_version = Q2 original release and original/analytic parameter ensemble version",
+    "mechanism_geometry_version": "original/analytic parameter ensemble and analytic first_passages.geometry_version",
+    "original_release_geometry_version": "original compact release.geometry_version; conceptual conditional area only",
+    "mapped_release_geometry_version": "executed case.geometry_version = bundle/run/target.release_mapping_version",
+    "target_geometry_version": "target.target_geometry_version checked against delivered representative point geometry",
+    "initiation_to_release_delay_seconds": "delivered null; same physical quantity as old mechanical_to_release_delay_seconds alias"
+  },
+  "model_replacements": {
+    "q2r3_S_v1": [
+      "S",
+      "q2r3_S_analytic_v1"
+    ],
+    "q2r3_ST_v1": [
+      "S_T",
+      "q2r3_S_T_analytic_v1"
+    ]
+  },
+  "matching": "exact keys; no approximate strings or cross-product",
+  "missing_compact_vector_not_reconstructed": true,
+  "independent_mapping_table_missing": true,
+  "adapter_pass_is_physical_qualification": false,
+  "rejected_pair_count": 0
+}

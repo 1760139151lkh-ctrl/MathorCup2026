@@ -1,0 +1,129 @@
+{
+  "bundle_version": "q3-r3-q4mapped-join-v2",
+  "producer_question": "q3",
+  "created_at_utc": "2026-10-24T10:14:21.789994+00:00",
+  "input_bundle_sha256": "9fec7f2083ab43f81b19da2c1cca3cef9b2ad0b5db36441495162412d1e8dda4",
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/PROTOCOL.md",
+      "bytes": 4456,
+      "sha256": "9fa2cb22146bc0f3f821841edd2679b750e04b80872cd8a47545cd5c8555fed7",
+      "role": "PROTOCOL.md"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/RESULTS.md",
+      "bytes": 3683,
+      "sha256": "2e3754395fa452f090461c6033593cfec50c0b0f98a4bea232dd32c5e04c3ae2",
+      "role": "RESULTS.md"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/adapter_schema.json",
+      "bytes": 1522,
+      "sha256": "d2c01243ede24b650f688f76a9417cef7e6eeb5dcad522cbca9f99d5a6e81ec7",
+      "role": "adapter_schema.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/conditional_arrivals.csv",
+      "bytes": 13094,
+      "sha256": "6c95c5ce1c71f4554dafe75ba48a387f7e8375bf12979f4bddf8a7602f798028",
+      "role": "conditional_arrivals.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/conditional_footprints.png",
+      "bytes": 141598,
+      "sha256": "7b6bf2ea40c71e30f56910e949d282ebf185178324700fc1338e931f22aae139",
+      "role": "conditional_footprints.png"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/depth_footprint_diagnostics.csv",
+      "bytes": 6289,
+      "sha256": "35582e23bfab5419ae8897d968ea27b4c4a5b385680f72c4023ddb277a85c029",
+      "role": "depth_footprint_diagnostics.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/different_geometry_comparison.csv",
+      "bytes": 1519,
+      "sha256": "6b123babb87705e72af0ae6f1c3956f292d9866b78b0094336c51580695c1910",
+      "role": "different_geometry_comparison.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/figure_review.json",
+      "bytes": 1669,
+      "sha256": "ae2bb9ab06b430af6c8ca1cfa46281dad2d6693f2237d5a073d2916f77abe351",
+      "role": "figure_review.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/input_index.json",
+      "bytes": 15987,
+      "sha256": "b2913c1d761f8f220db3e47910ebd7197fa50f50ed7e96f37b90038b7794b007",
+      "role": "input_index.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/lineage_audit.csv",
+      "bytes": 1655,
+      "sha256": "b90501572944e387a61dda48816aaeed58bdb77499aa5439b4ee8308485d5532",
+      "role": "lineage_audit.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/output_index.json",
+      "bytes": 4494,
+      "sha256": "596909b3ba91c9e43db118117ecc39a0eb5415991a986ae4536a698adc5a7fd0",
+      "role": "output_index.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/physical_parameter_audit.csv",
+      "bytes": 4729,
+      "sha256": "8928ff4858c21a219c5556c9ff67918b93adbc1f40d38969b473042eb2accb7a",
+      "role": "physical_parameter_audit.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/previous_adapter_comparison.csv",
+      "bytes": 5616,
+      "sha256": "231976d5b45fb65b4c32b1f81b2e8cccc6ba442a7f3a16942336ae0651d7eeee",
+      "role": "previous_adapter_comparison.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/rejected_pairings.csv",
+      "bytes": 25,
+      "sha256": "f635b63432d0fe49bc36f22f9d6ad55337e8fde0d774519af2939c83c245d7d9",
+      "role": "rejected_pairings.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/release_mapping_audit.csv",
+      "bytes": 2217,
+      "sha256": "5e92b0b750b70c5d71fa945e10fff4e07a0dbcbeb88604f4c3eb31ff8ecb77d6",
+      "role": "release_mapping_audit.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/saved_field_target_checks.csv",
+      "bytes": 3151,
+      "sha256": "1de39c98c02ef6332c2728ce5da9284018020ab05ad1b3c04c6730b4897578f0",
+      "role": "saved_field_target_checks.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/status.json",
+      "bytes": 1258,
+      "sha256": "81b809e6d7fa86ffdc8a9477ca9c37cf6894fb199c8c13d7b8cf378a1ef4512c",
+      "role": "status.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/summary.json",
+      "bytes": 1258,
+      "sha256": "81b809e6d7fa86ffdc8a9477ca9c37cf6894fb199c8c13d7b8cf378a1ef4512c",
+      "role": "summary.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/validation.json",
+      "bytes": 61555,
+      "sha256": "9c2c64fb380df421a31a359e234f7485110acd99b59400021d91150278c50b87",
+      "role": "validation.json"
+    }
+  ],
+  "limitations": [
+    "Legitimate parent lineage may pass despite unqualified propagation quality",
+    "No qualified arrival envelope or probability",
+    "Unknown mechanical-to-bulk-release delay leaves absolute arrival null",
+    "No-start parent stays if-released counterfactual",
+    "Raster-derived distance is conditional, not validated warning effectiveness"
+  ]
+}

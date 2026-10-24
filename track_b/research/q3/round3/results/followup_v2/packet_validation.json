@@ -1,0 +1,22 @@
+{
+  "generated_at_utc": "2026-10-24T10:14:21.789994+00:00",
+  "checks": {
+    "fixed_risk_distribution_checks": true,
+    "fixed_risk_independent_review": true,
+    "mapped_lineage_and_quality_gates": true,
+    "standard_five_checks": true,
+    "original_packet_hashes_preserved": true,
+    "legacy_applicability_v1_registered_bytes_preserved": true,
+    "Q4_39_approved_roles_verified": true,
+    "fixed_review_bound_inputs_verified": true,
+    "mapped_adapter_input_output_indices_verified": true,
+    "new_figures_actually_opened": true
+  },
+  "passed": true,
+  "input_manifest_sha256": "91d1dc933de07b435a625c4177252229785f3e58f5949c481301fdd5949816df",
+  "output_manifest_sha256": "300e93c840fda449ef541b50aeac45c949288d880312c3fe201e64d7ef890837",
+  "bundle_sha256": "b134d88deadd2f2a5f92e954881dc3c38349a787ae41348e2245b7026fbdbb96",
+  "local_truth_events": 0,
+  "empirical_coverage": null,
+  "physics_rerun": false
+}

@@ -1,0 +1,121 @@
+{
+  "bundle_version": "q3-r3-strength-applicability-v2-fixed-history-risk",
+  "producer_question": "q3",
+  "created_at_utc": "2026-10-24T10:14:21.789994+00:00",
+  "input_version": {
+    "original_research_commit": "bb9258d791a6e9735c28528ff4408c7434c3d149",
+    "legacy_applicability_v1_sha256": "c96e82632b461d913831eec2b736c318ead8a180f950735ccc4aa48eb082c157"
+  },
+  "files": [
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/PROTOCOL.md",
+      "bytes": 1562,
+      "sha256": "1fa12c11dc2e4efa899698c85c39a9b72a7d71685c98fc0cd2a2cac995b09b11",
+      "role": "PROTOCOL.md"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/RESULTS.md",
+      "bytes": 4014,
+      "sha256": "13b213f4ab19cb057769cbceeb8ff03465a2a45e5c224952c00cc5cecf557e00",
+      "role": "RESULTS.md"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/aggregation_validation.json",
+      "bytes": 573,
+      "sha256": "072827fc42928341e58106c3bfaf8dabd673bae8c281241022c1fab8d55938a3",
+      "role": "aggregation_validation.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/comparison_summary.csv",
+      "bytes": 4921,
+      "sha256": "0205e8efdd4043d80379781d731d925bcb2ceb8c08d99ad42c333d5f288b36af",
+      "role": "comparison_summary.csv"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/figure_review.json",
+      "bytes": 534,
+      "sha256": "d45b75ecfecf39a0e264cdf16d1676d3b415ea9f047c4fe2c4bec262a9d25e10",
+      "role": "figure_review.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/five_policy_predictions.csv.gz",
+      "bytes": 5000638,
+      "sha256": "297b7456a38ee32b3f41ca39d763deee637706b8b56d2f9265ab8500fdc238a2",
+      "role": "five_policy_predictions.csv.gz"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/fixed_and_revoked_history_mass_comparison.csv.gz",
+      "bytes": 45230,
+      "sha256": "14d15219c84b114b37ecda38198c4aabef52efe3610b78bb06f97ce2eb3882ef",
+      "role": "fixed_and_revoked_history_mass_comparison.csv.gz"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/fixed_history_risk_predictions.csv.gz",
+      "bytes": 1259262,
+      "sha256": "6359858efbf548db96cab4221fd9e147e47c35686fadf7bf5ebba7490ff0af80",
+      "role": "fixed_history_risk_predictions.csv.gz"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/fixed_risk_comparison.png",
+      "bytes": 142311,
+      "sha256": "a85de8d6e0490f1ec6d8c9c70e5b481eea48d55f937674cd7cf9112922603ada",
+      "role": "fixed_risk_comparison.png"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/input_registration.json",
+      "bytes": 1468,
+      "sha256": "c5cd3f86ba4ae83d5d24624c0362825b0cd94297de6d6ac3ea72ef94c310cd52",
+      "role": "input_registration.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/review/REVIEW.md",
+      "bytes": 4302,
+      "sha256": "3ffaa9aecd00b3d5a4c1c9a53dcbdab8e9b45d39e486db304bc2f90096d8e7ad",
+      "role": "REVIEW.md"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/review/final_fixed_risk_audit.json",
+      "bytes": 11877,
+      "sha256": "d157695c2fad03ddd569cef8a72c0d5193c91fd0c75622f38ef109d6714e0abd",
+      "role": "final_fixed_risk_audit.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/review/read_only_fixed_risk_review.py",
+      "bytes": 15247,
+      "sha256": "0972a24a130719c901a961abbb740410288058063f2497a17ec71d861eb9bd88",
+      "role": "read_only_fixed_risk_review.py"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/risk_set_revision/summary.json",
+      "bytes": 1092,
+      "sha256": "59eab2d414523676dbe06e9375c6e86f083403b3f05cb050f24d094bd2da9eed",
+      "role": "summary.json"
+    },
+    {
+      "path": "track_b/research/q3/round3/APPLICABILITY_FIXED_RISK.md",
+      "bytes": 923,
+      "sha256": "d36d10d9e17f5f5c017d75a621f95bf44f54582a8dcc50a755edcffbb692098c",
+      "role": "primary_interpretation_update"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/crossing_support_audit.csv",
+      "bytes": 155552,
+      "sha256": "488c3c03fd2c7fc82bcbc12b965d5c2a2e717213b35d3015972089c9243ac498",
+      "role": "all342_original_crossings"
+    },
+    {
+      "path": "track_b/research/q3/round3/results/applicability_sensitivity/p0149_parameter_audit.csv",
+      "bytes": 5154,
+      "sha256": "97413d847d9c51e1adccc7aefd095e2b9190608f77aaf6a71b0fac1aca0de637",
+      "role": "independent_stress_audit"
+    }
+  ],
+  "primary_policy": "fixed_history_risk_out_of_domain_to_unknown",
+  "secondary_diagnostic": "revoke_out_of_domain_history_classification_diagnostic",
+  "limitations": [
+    "All domain filtering is retrospective, including future and post-cross states",
+    "Original at-risk and already-started masses remain fixed in primary contrast",
+    "Renormalized zero support is not safety; no empirical probability or95 guarantee",
+    "Old packets retained; v1 sealing script retired because case-insensitive filename collision was repaired with distinct-word packet validation"
+  ]
+}

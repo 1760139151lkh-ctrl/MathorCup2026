@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "figure": "conditional_footprints.png",
+  "figure_sha256": "7b6bf2ea40c71e30f56910e949d282ebf185178324700fc1338e931f22aae139",
+  "review_method": "Codex visual inspection of local PNG via view_image after actual adapter execution",
+  "checks": {
+    "both_scenario_panels_visible": true,
+    "titles_show_unqualified_and_saved_horizon": true,
+    "axes_metric_crs_and_units_visible": true,
+    "colorbar_units_and_threshold_visible": true,
+    "compact_release_raster_support_red_outline_visible": true,
+    "registered_target_representative_points_visible": true,
+    "no_clipped_or_overlapping_primary_labels": true,
+    "no_absolute_probability_or_validated_warning_claim": true
+  },
+  "observations": [
+    "Two side-by-side footprints; p0036 reaches paper-junction representative point, p0000 ends south of it.",
+    "Black OSM representatives overlap near paper port because they are nearby representatives of three entities; they are not five independent validation targets.",
+    "Red support is tiny at 60m (8/16 cells); diagram does not resolve exact compact polygon boundary."
+  ],
+  "scientific_qualification": "unqualified diagnostics only; visual QA does not establish conservation or predictive accuracy",
+  "figures": [
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v2/conditional_footprints.png",
+      "sha256": "7b6bf2ea40c71e30f56910e949d282ebf185178324700fc1338e931f22aae139",
+      "actually_opened": true,
+      "review_method": "Codex visual inspection of local PNG via view_image after actual adapter execution"
+    }
+  ],
+  "path_resolution": "figures[].path is Q3 worktree ROOT-relative"
+}
