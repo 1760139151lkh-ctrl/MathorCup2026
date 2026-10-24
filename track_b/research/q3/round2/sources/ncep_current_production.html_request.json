@@ -1,0 +1,29 @@
+{
+  "url": "https://www.nco.ncep.noaa.gov/pmb/nwprod/prodstat/",
+  "method": "GET",
+  "requested_at_utc": "2026-10-24T06:07:20.952480+00:00",
+  "max_body_bytes": 524288,
+  "body_bytes_transferred": 65777,
+  "grib_body_downloaded": false,
+  "http_status": 200,
+  "response_headers": {
+    "Date": "Sat, 24 Oct 2026 06:07:22 GMT",
+    "Server": "Apache",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Content-Security-Policy": "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://services.swpc.noaa.gov https://earthquake.usgs.gov https://api.weather.gov https://volcanoes.usgs.gov;",
+    "Referrer-Policy": "no-referrer",
+    "Last-Modified": "Sat, 24 Oct 2026 06:02:26 GMT",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "65777",
+    "Connection": "close",
+    "Content-Type": "text/html; charset=utf-8",
+    "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload"
+  },
+  "final_url": "https://www.nco.ncep.noaa.gov/pmb/nwprod/prodstat/",
+  "saved_path": "track_b/research/q3/round2/sources/ncep_current_production.html",
+  "bytes": 65777,
+  "sha256": "dca83a406305166948cf666f5e59efcd961996694aa8f09c7d3ab1c1f661251a",
+  "received_at_utc": "2026-10-24T06:07:23.658308+00:00"
+}

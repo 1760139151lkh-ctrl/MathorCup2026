@@ -1,0 +1,28 @@
+{
+  "round": "round2",
+  "contract_version": "stage4-r2-v1",
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+  },
+  "run_started_at_utc": "2026-10-24T06:12:32.178465+00:00",
+  "analysis_completed_at_utc": "2026-10-24T06:12:32.697722+00:00",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:22) [Clang 22.1.3 ]",
+    "prefix": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/.venv",
+    "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3"
+  },
+  "event_outcome": "adoptable_with_explicit_role_as_retrospective_regional_context; excluded_as_primary_first_initiation_truth",
+  "forecast_outcome": "object/version-association metadata adoptable; historical first availability remains unknown; real-time replay not certified",
+  "independent_training_events_added": 0,
+  "independent_validation_events_added": 0,
+  "accepted_independent_events_total": 0,
+  "available_time": null,
+  "real_coverage": null,
+  "new_grib_body_bytes": 0,
+  "historical_catalogue_expansion": false,
+  "evidence_checks_passed": true,
+  "source_request_records": 9,
+  "new_plots_created": false,
+  "next_gate": "round2 joint review and human scientific adoption"
+}

@@ -1,0 +1,78 @@
+{
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+  },
+  "event_id": "USGS:us7000tc90",
+  "physical_phase": "later_regional_landslide_catalogue_proxy",
+  "time_utc": "2026-08-26T06:00:35+00:00",
+  "time_uncertainty": {
+    "catalogue_seconds": 2.64,
+    "catalogue_confidence_level_percent": 90.0,
+    "proxy_to_first_mechanical_initiation_bias_seconds": null,
+    "proxy_bias_quantified": false
+  },
+  "space_object": {
+    "catalogue_coordinates_lon_lat_depth_km": [
+      85.4798,
+      28.3281,
+      0
+    ],
+    "crs": "EPSG:4326",
+    "location_method": "estimated_from_satellite_images_per_USGS",
+    "horizontal_uncertainty_m": 20000.0,
+    "horizontal_uncertainty_confidence_level_percent": 90.0,
+    "max_horizontal_uncertainty_m": 48191.0,
+    "min_horizontal_uncertainty_m": 19185.0,
+    "preferred_uncertainty_description": "confidence ellipsoid",
+    "true_failure_geometry_verified": false
+  },
+  "variable_semantics": null,
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "available_time": null,
+  "data_role": "exploration",
+  "evidence_status": "external_source",
+  "catalogue_id": "us7000tc90",
+  "catalogue_type": "landslide",
+  "catalogue_magnitude": 4.2,
+  "catalogue_magnitude_type": "ms_vx",
+  "origin_public_id": "quakeml:us.anss.org/origin/locationdisp_20260827215448_28_86",
+  "origin_created_time_utc": "2026-10-14T02:51:27.000Z",
+  "catalogue_updated_time_utc": "2026-10-14T03:10:44.040000+00:00",
+  "origin_product_id": "urn:usgs-product:us:origin:us7000tc90:1791947444040",
+  "origin_product_update_time_utc": "2026-10-14T03:10:44.040000+00:00",
+  "official_explanations": {
+    "general_header_html": "<p class=\"alert info\">This event occurred about three hours after the \n\n<a href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbwb/executive\">\n  landslide that triggered catastrophic flooding in Nepal and China\n</a>\n\n. It was identified during post-processing of low-frequency seismic records and shows characteristics consistent with a landslide. Due to the lack of high-frequency energy, the location of this event was estimated from satellite images.\n\nFor more information see the\n<a href=\"https://www.usgs.gov/programs/landslide-hazards/science/2026-nepal-debris-avalanche-and-flash-flood\">\nUSGS landslides special event page. \n</a>\n\n</p>",
+    "impact_text": "A second landslide event following M 5.2 at 02:52 UTC. This event created a temporary dam and lake on the Trishuli River. The landslide location was obtained from satellite imagery.\n"
+  },
+  "mechanism_evidence": "USGS post-processing of low-frequency records found characteristics consistent with landslide; no high-frequency energy; later event described as forming a temporary Trishuli River dam/lake",
+  "reference_case_catalogue_id": "us7000tbwb",
+  "reference_case_catalogue_time_utc": "2026-08-26T02:52:10+00:00",
+  "catalogue_time_difference_seconds": 11305.0,
+  "catalogue_point_geodesic_separation_m": 7208.722740183405,
+  "separation_interpretation": "Between catalogue centres only; quoted horizontal uncertainties do not permit precise source separation or travel distance inference",
+  "relationship": {
+    "different_physical_sub_event": true,
+    "same_regional_disaster_sequence_supported": true,
+    "strict_causal_same_chain_verified": false,
+    "strict_causal_link": null,
+    "statistical_independence_verified": false,
+    "independent_event_group": null
+  },
+  "first_mechanical_initiation_mapping": "not_corresponding_to_primary_case_first_initiation; later-event catalogue proxy only",
+  "adoption_proposal": "adoptable_with_explicit_role_as_retrospective_regional_context; excluded_as_primary_first_initiation_truth",
+  "approved_training_label": false,
+  "approved_independent_validation_label": false,
+  "source_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tc90&format=geojson",
+  "source_sha256": "959675e32af594c192cedea66d84d8828ea9f36c86b030bb72c604c4f366ab9e",
+  "quakeml_sha256": "009f8944e9880e84735b442d0499eb531b73bdc8befbb0a656ef78606f040b99",
+  "remaining": [
+    "raw waveform and onset detection method",
+    "proxy-to-mechanical onset bias",
+    "precise failure geometry",
+    "causal relation and statistical independence"
+  ],
+  "post_event_label_policy": "Late-created reliable labels may support retrospective evaluation after review; this version is not a pre-event predictor"
+}

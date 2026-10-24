@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": {
+    "event_id_matches": true,
+    "reciprocal_context_confirmed": true,
+    "time_uncertainty_kept_at_original_confidence": true,
+    "proxy_bias_still_unknown": true,
+    "strict_causal_link_not_claimed": true,
+    "label_not_auto_accepted": true,
+    "s3_etag_correspondence": true,
+    "index_matches_frozen_bytes": true,
+    "first_availability_still_unknown": true,
+    "no_grib_body_in_collection_logs": true
+  },
+  "scope": "Evidence consistency and bounded-query checks; no repeated R1 mechanics or forecast skill evaluation"
+}

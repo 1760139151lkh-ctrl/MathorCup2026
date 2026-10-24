@@ -1,0 +1,146 @@
+{
+  "files": [
+    {
+      "path": "track_b/audit/stage4/round2/baseline_manifest.json",
+      "bytes": 153919,
+      "sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+    },
+    {
+      "path": "track_b/config/stage4_round2_contract.json",
+      "bytes": 2240,
+      "sha256": "6ab9af1465561344abd95424a0866d21d4c35b096cd4a0367b9c697ade789313"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/usgs_event.json",
+      "bytes": 16261,
+      "sha256": "01933b8af6a2cd0cf792ed488927034378c10c9ce4ca718ec48c9839b8f378bc"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/raw/usgs_origin_quakeml.xml",
+      "bytes": 3612,
+      "sha256": "d4e3b96594474387c114b3af23a61f854b64d5b7a53abcf912efdd57a1a832a9"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/gfs_2026082518_f009.idx",
+      "bytes": 40473,
+      "sha256": "1084fb07c3ec70234a763de9c43ede3b23b8f27447866fc7b34283d8f2559081"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/precip_accum_0_9h.http.json",
+      "bytes": 436,
+      "sha256": "abfe201e8c411af88a5e61e2093d736301f6849b4dc9d7a9d6742224062c849a"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/precip_accum_6_9h.http.json",
+      "bytes": 436,
+      "sha256": "2f0ada931cd415a107fa891d0bfd2ca4caf7735e4b821045667b04df19509e89"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/relative_humidity_2m.http.json",
+      "bytes": 436,
+      "sha256": "398819eff9d733032e0ba2e24e2546463d78e00518fe3acd880abfb92a718210"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/temperature_2m.http.json",
+      "bytes": 436,
+      "sha256": "68f3a9bc13ed1bfc9816194cb185a5a32fe3688aecf0d635f772443fb7260d89"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/wind_u_10m.http.json",
+      "bytes": 436,
+      "sha256": "ff949be2ee13596aec5b473f620b6f4a7254b8d7233efff7d3644c6bd71b8265"
+    },
+    {
+      "path": "track_b/data/external/forecast_sample/wind_v_10m.http.json",
+      "bytes": 436,
+      "sha256": "7ab886471f7c2240ace7f86487155cd1b4d697f94cedf14ae6df1c8f6f9b5d2b"
+    },
+    {
+      "path": "track_b/data/processed/forecast_sample/summary.json",
+      "bytes": 7870,
+      "sha256": "073a9f13f4ed11b32ddad23a86f8fc072ea2fe0d1e170514334d3bf363b1d81c"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/aws_headobject.md",
+      "bytes": 49643,
+      "sha256": "fe5216a6d102071cdf00f9f265554c851331954df6ca7b730f6418c6f558b07a"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/aws_headobject.md_request.json",
+      "bytes": 1906,
+      "sha256": "501cedc9545aef683d132341b75eb0b4370289e1a732671ad89025ca13709961"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gdex_20260825_listing.html",
+      "bytes": 1682615,
+      "sha256": "470b2f1b2ab982b8e2e16038065e1b9d49d9453fd43b3e3cd21d802f3ad9cab4"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gdex_20260825_listing.html_request.json",
+      "bytes": 1178,
+      "sha256": "39862e08b65988a3713ec343becf62d96abba4d491f8ca1d819454f2c69dd3e3"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gfs_f009_current.idx",
+      "bytes": 40473,
+      "sha256": "1084fb07c3ec70234a763de9c43ede3b23b8f27447866fc7b34283d8f2559081"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gfs_f009_current.idx_request.json",
+      "bytes": 1188,
+      "sha256": "08a005a9c3fd1ca8453c1c6f6156eb5748d28a52671a89afc71e70897ef43ff6"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gfs_f009_head.json",
+      "bytes": 1012,
+      "sha256": "7462892000310dd2300061b6dbeea64ff6d0c87ef8e837c5c34b27cc77161ee9"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/gfs_f009_idx_head.json",
+      "bytes": 1020,
+      "sha256": "9c27a3929f378b9b1238f9c38b42b3b3076a683622b183383b64152dda2c295d"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/ncep_current_production.html",
+      "bytes": 65777,
+      "sha256": "dca83a406305166948cf666f5e59efcd961996694aa8f09c7d3ab1c1f661251a"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/ncep_current_production.html_request.json",
+      "bytes": 1323,
+      "sha256": "9811c60337fe0a62465d22eaabdf28616e3f654daf510f28a103e1d547257a1c"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/us7000tc90.geojson",
+      "bytes": 6529,
+      "sha256": "959675e32af594c192cedea66d84d8828ea9f36c86b030bb72c604c4f366ab9e"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/us7000tc90_origin_quakeml.xml",
+      "bytes": 3659,
+      "sha256": "009f8944e9880e84735b442d0499eb531b73bdc8befbb0a656ef78606f040b99"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/us7000tc90_origin_request.json",
+      "bytes": 1963,
+      "sha256": "51b45f27890545f867d750f883797ac31a95ca0b8373d10e1c253bad7e5183a0"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/us7000tc90_request.json",
+      "bytes": 1522,
+      "sha256": "48fa7d923723017bfd01a42399999953631a9752c194f3a557277d97c5a58f2e"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/usgs_special_page.html",
+      "bytes": 118803,
+      "sha256": "42505636182dec5357b17f4b8be03bf2dee8f1603857ab7e93adc0bc1b8188fe"
+    },
+    {
+      "path": "track_b/research/q3/round2/sources/usgs_special_page.html_request.json",
+      "bytes": 3714,
+      "sha256": "6a638ad83a30906208b2451290830d42380db6d50aa9c1bcff267e9a183f00b9"
+    }
+  ],
+  "file_count": 28,
+  "self_and_output_manifest_excluded": true
+}

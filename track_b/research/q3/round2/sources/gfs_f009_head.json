@@ -1,0 +1,24 @@
+{
+  "source_id": "gfs_f009_head",
+  "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20260825/18/atmos/gfs.t18z.pgrb2.0p25.f009",
+  "method": "HEAD",
+  "requested_at_utc": "2026-10-24T06:01:06.770729+00:00",
+  "body_bytes_transferred": 0,
+  "grib_body_downloaded": false,
+  "http_status": 200,
+  "response_headers": {
+    "x-amz-id-2": "rUnu9RzjIQcy/qyJnQtCY+Yjbd41UI1s3dB/aQR3xnzL7ivYjcucyxXfY1HX95IAY8kC4jDq/9Fm6xQ2jZIsCFRw9GHD+MIz",
+    "x-amz-request-id": "F3D4SK3WEQACSHNR",
+    "Server": "AmazonS3",
+    "Date": "Sat, 24 Oct 2026 06:01:08 GMT",
+    "Last-Modified": "Tue, 25 Aug 2026 21:38:07 GMT",
+    "ETag": "\"854b49133eff0621b43f59c19b3e1c66\"",
+    "x-amz-server-side-encryption": "AES256",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "544955433",
+    "Content-Type": "binary/octet-stream",
+    "Connection": "close"
+  },
+  "final_url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20260825/18/atmos/gfs.t18z.pgrb2.0p25.f009",
+  "received_at_utc": "2026-10-24T06:01:08.396003+00:00"
+}

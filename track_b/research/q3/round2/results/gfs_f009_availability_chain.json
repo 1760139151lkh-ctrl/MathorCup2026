@@ -1,0 +1,61 @@
+{
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+  },
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "environmental_forecast_background",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": null,
+  "variable_semantics": null,
+  "forecast_reference_time": "2026-08-25T18:00:00+00:00",
+  "issue_time": null,
+  "valid_time": "2026-08-26T03:00:00+00:00",
+  "available_time": null,
+  "data_role": "exploration",
+  "evidence_status": "external_source",
+  "object_url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20260825/18/atmos/gfs.t18z.pgrb2.0p25.f009",
+  "source_scope": "one fixed 18UTC f009; no new GRIB body downloaded",
+  "current_object_head": {
+    "http_status": 200,
+    "last_modified_time_utc": "2026-08-25T21:38:07+00:00",
+    "etag": "\"854b49133eff0621b43f59c19b3e1c66\"",
+    "content_length": 544955433,
+    "version_id": null,
+    "received_at_utc": "2026-10-24T06:01:08.396003+00:00"
+  },
+  "current_index_head": {
+    "http_status": 200,
+    "last_modified_time_utc": "2026-08-25T21:38:34+00:00",
+    "etag": "\"40ef93d7de164ebe81daf45fe75dc5be\"",
+    "content_length": 40473,
+    "version_id": null
+  },
+  "etag_matches_six_saved_range_responses": true,
+  "current_index_bytes_match_saved_index": true,
+  "full_historical_version_and_public_access_history_proven": false,
+  "gdex_archive_entry": {
+    "url": "https://gdex.ucar.edu/datasets/d084001/filelist/20260825/",
+    "filename": "gfs.0p25.2026082518.f009.grib2",
+    "target_entry_found": true,
+    "date_archived_text": "2026-08-27",
+    "date_timezone_or_time_of_day_verified": false,
+    "full_content_identity_with_S3_verified": false,
+    "target_entry_text": "gfs.0p25.2026082518.f009.grib2 519.71 MB Size 519.71 MB Data Format GRIB2 Date Archived 2026-08-27 Access Options 320"
+  },
+  "available_time_verified": false,
+  "historical_first_public_access_lower_bound": null,
+  "historical_first_public_access_upper_bound_before_event": null,
+  "earliest_saved_successful_range_receipt_utc": "2026-10-24T03:35:01.714773+00:00",
+  "range_receipt_bound_meaning": "Public byte-range access observed no later than this October receipt; no August operational bound follows",
+  "adoption_proposal": "object/version-association metadata adoptable; historical first availability remains unknown; real-time replay not certified",
+  "current_production_schedule_role": "current status/rolling-average schedule only; not this historical run completion log",
+  "requirements_for_stronger_bound": [
+    "historical object-created/distribution record for this exact key",
+    "proof of public access at the claimed time",
+    "version identity and timestamp semantics"
+  ],
+  "operational_gate_for_pre_event_issues": "unknown_not_eligible",
+  "real_coverage": null
+}
