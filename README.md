@@ -36,7 +36,9 @@ B 赛道目录编号 01—08 对应原始附件编号。同一组 GIS 数据的�
 
 ## B 赛道研究工作区
 
-已选择 B 赛道的研究与协作入口见 [track_b/README.md](track_b/README.md)。题目拆解、统一口径、数据审计、调研来源和下一阶段任务集中保存于该工作区；原始资料仍保留在 `04_B赛道/`。
+当前 B 赛道完整研究与论文工程位于 [track_b_cdy/](track_b_cdy/)。直接阅读[中文论文初稿](track_b_cdy/paper/output/赛道B论文初稿.pdf)、[AI工具使用详情说明](track_b_cdy/paper/output/AI工具使用详情说明.pdf)和[LaTeX源码包](track_b_cdy/paper/output/赛道B_LaTeX工程.zip)。研究、程序、数据来源与结果索引集中于该目录；原始赛题附件位于 `04_B赛道/`。
+
+`track_b` 是指向 `track_b_cdy` 的相对兼容链接，保留原研究命令和来源索引中的路径。发布布局、历史验收版本及本地环境用法见 [发布说明](track_b_cdy/PUBLISHING.md)。
 
 ## 队友参与
 
