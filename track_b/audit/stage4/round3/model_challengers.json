@@ -45,6 +45,17 @@
       "scientific_adoption": "pending_review",
       "gravity_used_m_s2": 9.80665,
       "stress_domain_scope": "100-400 kPa domain of adopted constitutive relation, not the entire experiment suite; suite includes800kPa."
+    },
+    {
+      "id": "q2-raw-lab-strength-domain-competition",
+      "owner": "q2",
+      "registered_at_utc": "2026-10-24T09:57:04.046366+00:00",
+      "reason": "Prospective support depends on low-stress-law extrapolation; original supplement contains raw experiments including warmer800kPa stress tests.",
+      "new_explanation": "Whether a temperature/stress interaction or alternative bounded high-stress relation is supported by original external experiments and grouped held-out conditions.",
+      "scope": "Two existing experimental/constitutive workbooks only; no raw acoustic reanalysis, local onset calibration or automatic local engine replacement.",
+      "comparison": "Complete experiment-table audit, original<=400 reconstruction vs warm100-800 relation and parsimonious candidates; grouped temperature/stress holdout and uncertainty.",
+      "adoption_gate": "Evidence report and recommendation only; original seven Q2 exports and all local forecasts remain frozen. New lab fits do not add local observed events.",
+      "scientific_adoption": "pending_external_lab_review"
     }
   ]
 }
