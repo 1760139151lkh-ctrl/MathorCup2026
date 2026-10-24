@@ -1,10 +1,10 @@
 # 当前状态
 
-更新：2026-10-23（America/New_York）。本地工作分支：`codex/track-b-stage1-2`（沿用原分支，当前含阶段3新增结果）。
+更新：2026-10-24（America/New_York）。主参谋分支：`codex/track-b-stage1-2`。阶段1—3准备基线已本地保存，阶段4四窗初始化实施中。
 
 ## 目标与已有授权
 
-用户选择赛道B，指定本窗口为主参谋。阶段1—2已交付；用户随后明确“按你的规划进入下一阶段”，本轮执行阶段3 E01—E06。不按具体日历排程。
+用户选择赛道B，指定本窗口为主参谋。阶段1—3已交付；用户已要求实施阶段4完整计划：四个可见分支聊天、独立worktree、首轮方案论证与小实验、主参谋统一派发/读取/交接。先保存本地共同基线，不推送，不按具体日历排程。
 
 ## 当前可用结果
 
@@ -18,6 +18,7 @@
 
 ## 当前入口
 
+0. [阶段4工作流](docs/14_stage4_workflow.md)、[四窗实际登记](audit/stage4/workspaces.json)、各问[任务入口](research/AGENTS.md)
 1. [阶段3交接与四问基线工作包](docs/13_stage3_handoff.md)
 2. [时序管线](docs/09_temporal_pipeline.md)、[空间管线](docs/10_spatial_pipeline.md)
 3. [事件与遥感](docs/11_event_remote_evidence.md)、[环境与预报](docs/12_environment_forecast.md)
@@ -35,6 +36,6 @@
 
 ## 下一动作
 
-领取[交接中的B01—B04](docs/13_stage3_handoff.md)：Q1区域背景与质量检查可先开展；并行完善标签、元数据、影像和地形证据。Q2/Q3统计推断与Q4事件校准必须分别满足对应证据条件；不把技术读取成功等同科学可验证性。
+落实[四窗首轮](docs/14_stage4_workflow.md)：统一起点与输入哈希，分配Q1—Q4任务，核对各自环境/真实I/O/文件责任，收集方案论证和小实验后开展联合审查。Q2/Q3统计推断与Q4事件校准仍分别受上述证据条件限制。
 
-重建与复跑命令见[README](README.md)。原始资料保持原样；本轮新增结果在`track_b/`，仅本地修改，尚未commit/push。决定和AI辅助记录分别见[DECISIONS](DECISIONS.md)、[AI_USAGE](AI_USAGE.md)。
+重建与复跑命令见[README](README.md)。原始资料保持原样；阶段1—3已本地commit，阶段4持续本地提交和集成，未push。决定和AI辅助记录分别见[DECISIONS](DECISIONS.md)、[AI_USAGE](AI_USAGE.md)。

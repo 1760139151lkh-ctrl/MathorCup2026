@@ -2,7 +2,9 @@
 
 目标：围绕“泥石流灾害预报及防灾策略”组织可追溯研究。原始资料位于[`04_B赛道`](../04_B赛道/)，本目录保存审计、任务口径、调研与后续派生成果。
 
-当前主参谋窗口已按用户指令完成阶段1—2，并推进阶段3的数据准备与技术验证。阶段状态和未解决事项以[`STATUS.md`](STATUS.md)为准；尚无已验证的四问最终模型或结论。
+当前主参谋窗口已完成阶段1—3的数据准备与技术验证，正在落实阶段4四问分窗探索。阶段状态和未解决事项以[`STATUS.md`](STATUS.md)为准；尚无已验证的四问最终模型或结论。
+
+阶段4先读：[四问并行工作流](docs/14_stage4_workflow.md)、[研究窗约定](research/AGENTS.md)。各窗任务为[Q1](research/q1/TASK.md)、[Q2](research/q2/TASK.md)、[Q3](research/q3/TASK.md)、[Q4](research/q4/TASK.md)；聊天与worktree登记见[audit/stage4/workspaces.json](audit/stage4/workspaces.json)。
 
 阶段3先读：[技术交接与四问基线工作包](docs/13_stage3_handoff.md)。
 
@@ -66,4 +68,4 @@ python3 track_b/scripts/probe_forecast_archive.py
 
 主参谋统一问题口径、共享输入和阶段证据；独立工作包按文件责任并行推进；队员承担核心建模和最终科学判断。任何技术路线仍须通过数据可行性、队员审视和后续验证。本目录的实验候选不会自动成为已确认决定。
 
-仓库沿用原README的个人分支与PR协作方式。本轮工作位于`codex/track-b-stage1-2`；是否提交、推送及后续集成，以实际用户授权与仓库约定为准。
+仓库沿用原README的分支协作方式。主参谋沿用`codex/track-b-stage1-2`，阶段4四窗使用独立worktree及各自分支。用户已授权本地保存共同基线和研究交接；本轮不推送远端。

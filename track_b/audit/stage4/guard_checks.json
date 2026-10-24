@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-10-24T04:15:33.884295+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "snapshot_accepts_committed_content",
+      "passed": true
+    },
+    {
+      "name": "snapshot_rejects_live_content_different_from_preparation_commit",
+      "passed": true
+    },
+    {
+      "name": "verification_rejects_frozen_input_drift",
+      "passed": true
+    },
+    {
+      "name": "ownership_accepts_assigned_question_output",
+      "passed": true
+    },
+    {
+      "name": "ownership_rejects_other_question_output",
+      "passed": true
+    }
+  ],
+  "scope": "Disposable git fixture: freeze/version consistency and cross-question file responsibility. No production inputs modified."
+}
