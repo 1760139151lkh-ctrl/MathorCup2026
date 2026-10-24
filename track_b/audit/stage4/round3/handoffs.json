@@ -243,7 +243,279 @@
         }
       ],
       "review_note": "Accepted as conditional computational geometry and independently sourced COPDEM EGM2008 terrain only. Three terrain-cost paths are candidates, source/port remain paper reconstructions; no observed release boundary, bridge identity, path, initial thickness or velocity is accepted. Native acquisition2011-2015/release2021 is not event2026 topography. Normalize release thickness by grid source area to hold volume fixed; use delivered file-role/path mapping rather than nested upstream-relative paths."
+    },
+    {
+      "producer": "q1",
+      "consumer": "q2",
+      "bundle_version": "q1-r3-feature-v1",
+      "upstream_path": "track_b/research/q1/round3/exports/feature_bundle.json",
+      "upstream_bundle_sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+      "delivered_bundle_path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/bundle.json",
+      "delivered_bundle_sha256": "765037010dadc269a6b3d89831abb61fc9d1163c2b9b989facbfcf4a2107b918",
+      "files": [
+        {
+          "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/config/features.json",
+          "bytes": 14787,
+          "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c",
+          "role": "frozen_driver_definitions",
+          "upstream_path": "track_b/research/q1/round3/config/features.json"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/scripts/build_features.py",
+          "bytes": 30508,
+          "sha256": "dbea3bca9f519e43b065481b433372d7abdab3e8f789cf1a1804d09589a3aeb0",
+          "role": "offline_feature_builder",
+          "upstream_path": "track_b/research/q1/round3/scripts/build_features.py"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_contract.csv",
+          "bytes": 58398,
+          "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb",
+          "role": "feature_definitions",
+          "upstream_path": "track_b/research/q1/round3/results/feature_contract.csv"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/variable_family_map.csv",
+          "bytes": 12742,
+          "sha256": "0b339b5b813a3cf95673acbb18168589aaaae81fde3d95005824e967f7e22e15",
+          "role": "all_input_variables_selection_and_exclusion",
+          "upstream_path": "track_b/research/q1/round3/results/variable_family_map.csv"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/features.parquet",
+          "bytes": 1435260,
+          "sha256": "7300b94b5f537873a6b4d1ecaf46015fa130e8e28aa9464e098e219f52833079",
+          "role": "wide_features_by_sample",
+          "upstream_path": "track_b/research/q1/round3/results/features.parquet"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/sample_metadata.csv",
+          "bytes": 1188914,
+          "sha256": "06c7b1273240779fcbde4a9777a878124fd9de47d5a4faff190f5118e73625b5",
+          "role": "time_support_process_and_anchor_metadata",
+          "upstream_path": "track_b/research/q1/round3/results/sample_metadata.csv"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_support.csv",
+          "bytes": 11289057,
+          "sha256": "8e8306d6c8bfcb8d3156cbd521dbff001c5e86413ab62bedb6cdcf81db2737b9",
+          "role": "driver_validity_coverage_and_gap_counts",
+          "upstream_path": "track_b/research/q1/round3/results/feature_support.csv"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_extrema.csv",
+          "bytes": 12646116,
+          "sha256": "09ae88b26738bb526ab9bc829c2b8917cf957e13edfa70df985c4ad7b5f8b664",
+          "role": "diagnostic_driver_extrema",
+          "upstream_path": "track_b/research/q1/round3/results/feature_extrema.csv"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_build_validation.json",
+          "bytes": 27873,
+          "sha256": "c19c74937b4052ec9a4b104199d0bde4998af27bda904b5c959b900045800f98",
+          "role": "executed_feature_checks",
+          "upstream_path": "track_b/research/q1/round3/results/feature_build_validation.json"
+        },
+        {
+          "path": "track_b/research/q2/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/exports/hourly_drivers.parquet",
+          "bytes": 260088,
+          "sha256": "9580f4ab81903e0bbdcea3b274815128b7bfc99a08972a59c933c51a487a059d",
+          "role": "2026_regional_hourly_drivers",
+          "upstream_path": "track_b/research/q1/round3/exports/hourly_drivers.parquet"
+        }
+      ],
+      "review_note": "Accepted as regional-station feature definitions, QC-separated numerical features and support metadata only. No ranking or source-area representation is accepted here. Available time and hourly integration semantics remain unknown; downstream must apply registered coverage thresholds, and precipitation is label statistics rather than an accepted accumulated rainfall input."
+    },
+    {
+      "producer": "q1",
+      "consumer": "q3",
+      "bundle_version": "q1-r3-feature-v1",
+      "upstream_path": "track_b/research/q1/round3/exports/feature_bundle.json",
+      "upstream_bundle_sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+      "delivered_bundle_path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/bundle.json",
+      "delivered_bundle_sha256": "edd817989c3bdb5b21953e31d2a2ebcc7c637eedb414a1c86495e02210d3eaa9",
+      "files": [
+        {
+          "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/config/features.json",
+          "bytes": 14787,
+          "sha256": "3b7771e7794380d3eb55fa32ce29a7e2f5b2edc19c0fba1f31e24958e087422c",
+          "role": "frozen_driver_definitions",
+          "upstream_path": "track_b/research/q1/round3/config/features.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/scripts/build_features.py",
+          "bytes": 30508,
+          "sha256": "dbea3bca9f519e43b065481b433372d7abdab3e8f789cf1a1804d09589a3aeb0",
+          "role": "offline_feature_builder",
+          "upstream_path": "track_b/research/q1/round3/scripts/build_features.py"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_contract.csv",
+          "bytes": 58398,
+          "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb",
+          "role": "feature_definitions",
+          "upstream_path": "track_b/research/q1/round3/results/feature_contract.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/variable_family_map.csv",
+          "bytes": 12742,
+          "sha256": "0b339b5b813a3cf95673acbb18168589aaaae81fde3d95005824e967f7e22e15",
+          "role": "all_input_variables_selection_and_exclusion",
+          "upstream_path": "track_b/research/q1/round3/results/variable_family_map.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/features.parquet",
+          "bytes": 1435260,
+          "sha256": "7300b94b5f537873a6b4d1ecaf46015fa130e8e28aa9464e098e219f52833079",
+          "role": "wide_features_by_sample",
+          "upstream_path": "track_b/research/q1/round3/results/features.parquet"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/sample_metadata.csv",
+          "bytes": 1188914,
+          "sha256": "06c7b1273240779fcbde4a9777a878124fd9de47d5a4faff190f5118e73625b5",
+          "role": "time_support_process_and_anchor_metadata",
+          "upstream_path": "track_b/research/q1/round3/results/sample_metadata.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_support.csv",
+          "bytes": 11289057,
+          "sha256": "8e8306d6c8bfcb8d3156cbd521dbff001c5e86413ab62bedb6cdcf81db2737b9",
+          "role": "driver_validity_coverage_and_gap_counts",
+          "upstream_path": "track_b/research/q1/round3/results/feature_support.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_extrema.csv",
+          "bytes": 12646116,
+          "sha256": "09ae88b26738bb526ab9bc829c2b8917cf957e13edfa70df985c4ad7b5f8b664",
+          "role": "diagnostic_driver_extrema",
+          "upstream_path": "track_b/research/q1/round3/results/feature_extrema.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/results/feature_build_validation.json",
+          "bytes": 27873,
+          "sha256": "c19c74937b4052ec9a4b104199d0bde4998af27bda904b5c959b900045800f98",
+          "role": "executed_feature_checks",
+          "upstream_path": "track_b/research/q1/round3/results/feature_build_validation.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q1/feature_bundle_q1-r3-feature-v1/files/exports/hourly_drivers.parquet",
+          "bytes": 260088,
+          "sha256": "9580f4ab81903e0bbdcea3b274815128b7bfc99a08972a59c933c51a487a059d",
+          "role": "2026_regional_hourly_drivers",
+          "upstream_path": "track_b/research/q1/round3/exports/hourly_drivers.parquet"
+        }
+      ],
+      "review_note": "Accepted as regional-station feature definitions, QC-separated numerical features and support metadata only. No ranking or source-area representation is accepted here. Available time and hourly integration semantics remain unknown; downstream must apply registered coverage thresholds, and precipitation is label statistics rather than an accepted accumulated rainfall input."
+    },
+    {
+      "producer": "q2",
+      "consumer": "q3",
+      "bundle_version": "q2-r3-mechanism-v1",
+      "upstream_path": "track_b/research/q2/round3/exports/mechanism_bundle.json",
+      "upstream_bundle_sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+      "delivered_bundle_path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/bundle.json",
+      "delivered_bundle_sha256": "65758b85d934267e883616eb2a56924e5b52d818e10b6f3eaa08bf934e54ce3a",
+      "files": [
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/EXPERIMENT_PROTOCOL.md",
+          "bytes": 5797,
+          "sha256": "888b65535ff477f4e6ef07be3dfeea19392209d7903ef58559cb8473ad96626a",
+          "role": "EXPERIMENT_PROTOCOL.md",
+          "upstream_path": "track_b/research/q2/round3/EXPERIMENT_PROTOCOL.md"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/config/experiment_v1.json",
+          "bytes": 4192,
+          "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a",
+          "role": "config/experiment_v1.json",
+          "upstream_path": "track_b/research/q2/round3/config/experiment_v1.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/scripts/mechanism_engine.py",
+          "bytes": 10650,
+          "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+          "role": "scripts/mechanism_engine.py",
+          "upstream_path": "track_b/research/q2/round3/scripts/mechanism_engine.py"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/mechanism_contract.json",
+          "bytes": 3236,
+          "sha256": "fd47ca5af08c56a5076d07a4707764e07e58089e3030a47cc812facf620923e7",
+          "role": "results/mechanism_contract.json",
+          "upstream_path": "track_b/research/q2/round3/results/mechanism_contract.json"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/parameter_ensemble.csv",
+          "bytes": 1071463,
+          "sha256": "27a77ced72931366be5e19f431cb40218e1f243d77a7fe2671fc6125b0cf98b6",
+          "role": "results/parameter_ensemble.csv",
+          "upstream_path": "track_b/research/q2/round3/results/parameter_ensemble.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/forcing_hourly_v1.csv",
+          "bytes": 278218,
+          "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+          "role": "results/forcing_hourly_v1.csv",
+          "upstream_path": "track_b/research/q2/round3/results/forcing_hourly_v1.csv"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/state_trajectories.parquet",
+          "bytes": 3194674,
+          "sha256": "7ce07a43bc3cce5d51d39b4ff86eddd795ca12fb996d0c508f1a4bea6e2bb587",
+          "role": "results/state_trajectories.parquet",
+          "upstream_path": "track_b/research/q2/round3/results/state_trajectories.parquet"
+        },
+        {
+          "path": "track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/scenario_outcomes.csv",
+          "bytes": 722959,
+          "sha256": "dd7be14535d0a782ca5b260375b830ca16b0275817bba6cde1852cd22c2a1737",
+          "role": "results/scenario_outcomes.csv",
+          "upstream_path": "track_b/research/q2/round3/results/scenario_outcomes.csv"
+        }
+      ],
+      "review_note": "Accepted for conditional mechanism coupling and ideal-weather first-passage research only. 256 parameter design points are not probability priors, 8 representative trajectories per mechanism/policy are not independent observed events. Lab domain flags and explicit extrapolation/thaw branches retained; left censoring/never-cross/missing retained. No local event calibration, operational weather eligibility or empirical coverage accepted."
+    },
+    {
+      "producer": "q2",
+      "consumer": "q4",
+      "bundle_version": "q2-r3-release-v1",
+      "upstream_path": "track_b/research/q2/round3/exports/release_bundle.json",
+      "upstream_bundle_sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "delivered_bundle_path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/bundle.json",
+      "delivered_bundle_sha256": "ed745576ff706a4d82a560269b0e07804add6fc9bde2b3948cced43932ddf5b5",
+      "files": [
+        {
+          "path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/files/results/release_states.csv",
+          "bytes": 22691,
+          "sha256": "23278ea66f3141ad75634dbe8512d678bc46ab5a715c61228cf48ecba85ffad4",
+          "role": "results/release_states.csv",
+          "upstream_path": "track_b/research/q2/round3/results/release_states.csv"
+        },
+        {
+          "path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/files/results/parameter_ensemble.csv",
+          "bytes": 1071463,
+          "sha256": "27a77ced72931366be5e19f431cb40218e1f243d77a7fe2671fc6125b0cf98b6",
+          "role": "results/parameter_ensemble.csv",
+          "upstream_path": "track_b/research/q2/round3/results/parameter_ensemble.csv"
+        },
+        {
+          "path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/files/results/mechanism_contract.json",
+          "bytes": 3236,
+          "sha256": "fd47ca5af08c56a5076d07a4707764e07e58089e3030a47cc812facf620923e7",
+          "role": "results/mechanism_contract.json",
+          "upstream_path": "track_b/research/q2/round3/results/mechanism_contract.json"
+        },
+        {
+          "path": "track_b/research/q4/round3/inputs/q2/release_bundle_q2-r3-release-v1/files/config/experiment_v1.json",
+          "bytes": 4192,
+          "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a",
+          "role": "config/experiment_v1.json",
+          "upstream_path": "track_b/research/q2/round3/config/experiment_v1.json"
+        }
+      ],
+      "review_note": "Accepted as explicit conditional release ensemble, not observed release boundary or volume. Preserve scenario/model/parameter keys; map the supplied plan area and normal/vertical thickness to a versioned computational source and verify raster volume, phase fraction basis and density. Never-cross scenarios released by assumption must be flagged as if-released propagation and not predicted event initiation. Mechanical initiation to release delay unknown."
     }
   ],
-  "updated_at_utc": "2026-10-24T07:43:24.409923+00:00"
+  "updated_at_utc": "2026-10-24T07:49:10.922516+00:00"
 }

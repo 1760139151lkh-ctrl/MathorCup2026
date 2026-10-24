@@ -53,7 +53,11 @@ def main():
     contract = json.loads((ROOT / 'track_b/config/stage4_round3_contract.json').read_text())
     assert all(k in original for k in contract['bundles']['required'])
     assert original['producer_question'] == args.producer
-    assert original['input_version']['baseline_commit'] == registry['common_baseline_commit']
+    iv = original['input_version']
+    refs = [iv[k] for k in ('baseline_commit', 'common_baseline_commit') if k in iv]
+    assert refs and all(r == registry['common_baseline_commit'] for r in refs), 'Baseline ref mismatch'
+    hashes = [iv[k] for k in ('manifest_sha256', 'baseline_manifest_sha256') if k in iv]
+    assert hashes and all(h == registry['baseline_manifest_sha256'] for h in hashes), 'Baseline manifest mismatch'
     label = re.sub(r'[^A-Za-z0-9_.-]+', '_', bundle_path.stem + '_' + original['bundle_version'])
     verified = []
     seen = set()

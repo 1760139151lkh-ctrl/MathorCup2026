@@ -13,5 +13,40 @@
     "arrival threshold and never arrival/out-of-domain/failure statuses",
     "scenario/model/mechanism/geometry/parameter version join prevents duplicate combinations"
   ],
-  "action": "Checks delivered to Q2/Q3/Q4; no global truth/quality values changed"
+  "action": "Checks delivered to Q2/Q3/Q4; no global truth/quality values changed",
+  "early_actual_bundles": {
+    "q1_feature": {
+      "sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+      "files": 10
+    },
+    "q2_mechanism": {
+      "sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+      "files": 8
+    },
+    "q2_release": {
+      "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+      "files": 4
+    }
+  },
+  "actual_q2_state_checks": {
+    "rows": 133696,
+    "trajectories": 64,
+    "hourly_continuous": true,
+    "duplicate_scenario_time": 0,
+    "nonfinite_margins": 0,
+    "forcing_before_state": true,
+    "input_mode": "ideal_weather",
+    "release_ids_match_states": 32,
+    "phase_volume_fractions_sum_one": true,
+    "design_outcome_counts": {
+      "never_crossed": 1663,
+      "left_censored_already_unstable": 248,
+      "interval_crossing": 137
+    }
+  },
+  "implementation_followups_to_q3": [
+    "first_passage gap detection must check missing timestamp rows, not only finite values",
+    "discover/read Q2 state_trajectories.parquet, not CSV only"
+  ],
+  "actual_review_updated_at_utc": "2026-10-24T07:50:05.055413+00:00"
 }
