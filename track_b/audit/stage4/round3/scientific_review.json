@@ -1,6 +1,6 @@
 {
   "round": "round3",
-  "updated_utc": "2026-10-24T09:24:33.773368+00:00",
+  "updated_utc": "2026-10-24T10:21:28.891098+00:00",
   "status": "q1_q2_q3_core_integrated_q4_and_coupling_pending",
   "reviewer": "main advisor and independent AI read-only reviewers; not human scientific adoption",
   "q1": {
@@ -79,7 +79,21 @@
         400
       ],
       "reason": "effective stress exceeds law domain, T within domain; two policies identical here",
-      "diagnostic_status": "new Q3 applicability increment dispatched, preserve old results and unknown mass"
+      "diagnostic_status": "independent_increment_review_passed_pending_source_integration",
+      "policies": 5,
+      "rows": 303750,
+      "fixed_history_rows": 60750,
+      "max_risk_mass_difference": 3.33e-16,
+      "max_already_started_mass_difference": 3.89e-16,
+      "already_started_to_unknown_mass": 0,
+      "all_fixed_history_rows_have_positive_unknown": true,
+      "exact_probability_and_conditional_time_all_null": true,
+      "onset_information_bound_lower": 0,
+      "onset_information_bound_upper_range": [
+        0.4885844748858447,
+        1.0
+      ],
+      "scope": "retrospective numerical-law-domain sensitivity on already integrated physical outputs; not local material certification or operational screening"
     }
   },
   "q4_partial_propagation_review": {
@@ -107,5 +121,42 @@
       "native_float32_surface_constant_wet_cells": 216,
       "conclusion": "Pure-fluid static target applies; measured60m csurface0 configuration does not preserve expected rest. Discrete/shoreline/slope sources not separated; not a universal constitutive-law failure or blanket rejection of granular regional routes."
     }
+  },
+  "q4_mapped_v2_review": {
+    "status": "lineage_and_saved_fields_passed_physical_forecast_unqualified",
+    "bundle_sha256": "2a54e77d811faa8d949f92a2e45788751122517b6e91839ca8742cda20ea88a4",
+    "producer_files_verified": 39,
+    "consumer_input_files_verified": 50,
+    "consumer_output_files_verified": 17,
+    "consumer_validation_checks_passed": 387,
+    "target_rows": 14,
+    "physical_scenarios": 2,
+    "parameters_preserved_per_scenario": 20,
+    "raw_hit": {
+      "base_scenario_id": "q2r3-p0036",
+      "target": "paper_junction",
+      "bracket_after_assumed_bulk_release_s": [
+        1360.5,
+        1380.1
+      ],
+      "threshold_depth_m": 0.1,
+      "representative_point_buffer_m": 100
+    },
+    "native_internal_mass_residual_pct": [
+      21.372917,
+      12.716325
+    ],
+    "raster_adjusted_mass_residual_pct": [
+      21.153363,
+      12.613015
+    ],
+    "qualified_arrival_envelope_rows": 0,
+    "absolute_arrivals_and_probabilities_null": true,
+    "limitations": [
+      "compact source underresolved on60m grid",
+      "unresolved native mass source",
+      "unknown initiation-to-bulk-release lag",
+      "candidate geometries and targets not event truth"
+    ]
   }
 }
