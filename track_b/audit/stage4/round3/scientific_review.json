@@ -1,6 +1,6 @@
 {
   "round": "round3",
-  "updated_utc": "2026-10-24T10:33:04.516624+00:00",
+  "updated_utc": "2026-10-24T11:11:57.013243+00:00",
   "status": "q1_q2_q3_core_integrated_q4_and_coupling_pending",
   "reviewer": "main advisor and independent AI read-only reviewers; not human scientific adoption",
   "q1": {
@@ -235,5 +235,50 @@
       "unknown initiation-to-bulk-release lag",
       "candidate geometries and targets not event truth"
     ]
+  },
+  "q4_fullmask_v3_review": {
+    "status": "independently_reviewed_delivered_conditional_diagnostics_only",
+    "bundle_sha256": "150c72537ee162d29cc2e20e3e31183df1915f64999234789e1875d368c09b9c",
+    "files_verified": 66,
+    "runs": 3,
+    "targets_recomputed": 21,
+    "release_cells_60m": 257,
+    "release_cells_120m": 67,
+    "p0000_release_volume_m3": 51755728.5926,
+    "p0036_both_grid_release_volume_m3": 31184139.1284,
+    "actual_last_saved_seconds": [
+      1800.5,
+      1800.5,
+      1801.2
+    ],
+    "junction_saved_brackets_s": {
+      "p0000_60m": [
+        161.1,
+        180.2
+      ],
+      "p0036_120m": [
+        240.6,
+        260.1
+      ],
+      "p0036_60m": [
+        221.0,
+        240.7
+      ]
+    },
+    "raster_mass_residual_pct": [
+      0.94721,
+      -0.39735,
+      1.66319
+    ],
+    "native_internal_mass_residual_pct": [
+      0.94778,
+      -0.38838,
+      1.66505
+    ],
+    "other18_target_saved_threshold_hits": 0,
+    "qualified_envelope_rows": 0,
+    "mechanical_to_bulk_release_lag": "unknown",
+    "legacy_expected_reference_volume_not_used_for_input_acceptance": true,
+    "scope": "selected scenarios, not a weighted full2048 forecast ensemble; initial and full release geometries remain distinct"
   }
 }
