@@ -1,0 +1,269 @@
+{
+  "schema_version": "q4-r2-input-manifest-v1",
+  "generated_at_utc": "2026-10-24T06:27:39.114873+00:00",
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "manifest_path": "track_b/audit/stage4/round2/baseline_manifest.json",
+    "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+    "frozen_file_count": 565
+  },
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "retrospective_candidate_geometry_and_terrain_review",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "geometry_version": "q4-r2-fig1-candidates-v1",
+    "geometry_sha256": "cd68bf0bda80ab1d075fa33dbf0d713307d535e95e0f2494e41ce16b698b113e",
+    "candidate_crs": "OGC:CRS84 assumed; EPSG:32645 for metric diagnostics",
+    "original_map_datum_verified": false,
+    "positional_uncertainty_m": null,
+    "event_geometry_accepted": false
+  },
+  "variable_semantics": {
+    "coverage": "valid-grid geometric support, not geographic truth or dynamics",
+    "units": "metric diagnostics in metres and square metres; original raster vertical datum unknown",
+    "corridor_half_widths_m": [
+      100,
+      250,
+      500
+    ],
+    "corridor_widths_are_error_bounds": false
+  },
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "available_time": null,
+  "data_role": "exploration",
+  "evidence_status": "candidate",
+  "null_policy": "Unknown or unavailable; generation/retrieval dates are not event or historical availability times.",
+  "scope": "Direct inputs/protocols and explicitly labelled local derived analysis inputs; not the full 565-file baseline index",
+  "files": [
+    {
+      "path": "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+      "bytes": 362728,
+      "sha256": "0a57192a65557f052dbc0bfbca71687ad1d158d4edaa363f26b3d65f337f32c8",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tfw",
+      "bytes": 81,
+      "sha256": "5a3abc5a2ec97ca8f662558305229333c7b6d4a672f34416754622895e05831c",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif",
+      "bytes": 8437119,
+      "sha256": "7b9e8e53282b2e91d5302e616840c802eda80a963ce0777ddc6da2b65c6db9af",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif.aux.xml",
+      "bytes": 2326,
+      "sha256": "8f6c82061d45641e5733a5f7d920d3fd10e028203282021de13ad18f3a80b98b",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif.xml",
+      "bytes": 5786,
+      "sha256": "80557f3241126bc525a27e30f6f94f55ebc19f98b6676ebd0596606bd531e8be",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/audit/spatial/netcdf.json",
+      "bytes": 18481,
+      "sha256": "505f0e7abd035801ea8820ace6a9d1f3f6fc2eefd9cdf39566f3324f870ad089",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/audit/spatial/source_documentation.json",
+      "bytes": 34350,
+      "sha256": "b3e7770e812bc172d1ec6b5315338439bb29d607bb88a01366ee03c7731b34c1",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/audit/stage4/round2/baseline_manifest.json",
+      "bytes": 153919,
+      "sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/config/spatial_policy.json",
+      "bytes": 3432,
+      "sha256": "7bf25e43d64cdb72184282ca97fd2a8bd7c56e916ff7a219474d9dc455c180c7",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/config/stage4_contract.json",
+      "bytes": 2286,
+      "sha256": "45189e648cd5238b4d064ebde1cc64f3b1388ffc1eb1e93be4db9b5c470ab00d",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/config/stage4_round2_contract.json",
+      "bytes": 2240,
+      "sha256": "6ab9af1465561344abd95424a0866d21d4c35b096cd4a0367b9c697ade789313",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/data/external/event_remote/jms_2026_uncorrected_proof.pdf",
+      "bytes": 924233,
+      "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/data/external/event_remote/pdf_preview/jms-06.png",
+      "bytes": 1265779,
+      "sha256": "2e504a0068a37c0c3f18f89596956d295ca64d34d341a4c44ad5ed07a01251de",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/http_requests.json",
+      "bytes": 19178,
+      "sha256": "9a97fb331dfe398e70566f0229513bf27a915d46da9bd90bbf084bb6ff214ddc",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/paper_reading.json",
+      "bytes": 2154,
+      "sha256": "bd449fcdb0d4866eac16588c4be9eec8e10cd596049c9f10694a1949c7b025df",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/data/processed/spatial/coordinate_operations.json",
+      "bytes": 10935,
+      "sha256": "dac32a3ff87d59d4a6e80585e42de2af846c6dbb05dbf56e41c457e7344e36fa",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/data/processed/spatial/dem_on_nc_grid.tif",
+      "bytes": 68003,
+      "sha256": "dd4204378ba7740f45525994bb8cf158857126a7bb49aee908cc56d0981b1327",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/data/processed/spatial/dem_utm45_30m.tif",
+      "bytes": 6623907,
+      "sha256": "eaf39d044af5580fb12b7b991bdadf4da54294f8f78a818c15fff0f6390c2e95",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/data/processed/spatial/nc_dem_native_grid.tif",
+      "bytes": 67745,
+      "sha256": "51316ce445f89016d79dcbb5baa12e2444e6eef90448d4f46825cd9d77f80d20",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/data/processed/spatial/nc_glacier_mask.tif",
+      "bytes": 1925,
+      "sha256": "88f91bb215d00f9773933befb27ba85dba250198e28ded265f5d9f0d20b12732",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/data/processed/spatial/source_manifest.json",
+      "bytes": 6984,
+      "sha256": "24de9976bcd0f011ff89617fbd66eb629834b792f76e15f454a2cf4fefac559d",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/docs/15_stage4_round1_review.md",
+      "bytes": 7707,
+      "sha256": "fde39d75e5f76bc05ccecb7c5f19127b0692bfbcf8494bc278e52cdb4ef6eef7",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/docs/16_stage4_round2_workflow.md",
+      "bytes": 4964,
+      "sha256": "3656422af458b769df70cb3e5e3d91fa136b0c7641a1e00d056b5eb4880cc09d",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/research/q4/HANDOFF.md",
+      "bytes": 6254,
+      "sha256": "b46ece1cc12ec84d24164d35249d07ae2b818339b3edd2d508b857c36090031d",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/research/q4/PROPOSALS.md",
+      "bytes": 3848,
+      "sha256": "b176c3c3d839bdb8bd3c23509c9ac5792b8a0a8a59219922a785679a37f5e47f",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/research/q4/results/terrain_feasibility.json",
+      "bytes": 10272,
+      "sha256": "2071b8acc428286a93ee160a2563d48297fd204003ab1aadbae2e6bf1966ea2a",
+      "role": "frozen_source_or_protocol"
+    },
+    {
+      "path": "track_b/research/q4/round2/TASK.md",
+      "bytes": 6308,
+      "sha256": "ebe8398c60927fdbc566b24ca5c856d804ea1e7f72652d9083377dd3b2d4455d",
+      "role": "frozen_task_protocol"
+    },
+    {
+      "path": "track_b/research/q4/round2/config/geometry_trace.json",
+      "bytes": 1495,
+      "sha256": "814f227db61101e6da9a68279e5e6447cf165d7c417f60907d2c794d05241e0e",
+      "role": "derived_round2_analysis_input"
+    },
+    {
+      "path": "track_b/research/q4/round2/config/map_digitisation.json",
+      "bytes": 2026,
+      "sha256": "173bab8346d7a5b4872bc860304b407791c200f101e127e607efb250bb11d28f",
+      "role": "derived_round2_analysis_input"
+    },
+    {
+      "path": "track_b/research/q4/round2/results/georeference_review.json",
+      "bytes": 3453,
+      "sha256": "beda557273033ea212d6fcd523661864220f79aee095541db5c48b79b246ee68",
+      "role": "derived_round2_analysis_input"
+    },
+    {
+      "path": "track_b/research/q4/round2/results/search_aoi.geojson",
+      "bytes": 1225,
+      "sha256": "14db392ea6d318c2df34152af950b227653fd1f938aed1f4aa9eedf92c29579f",
+      "role": "derived_round2_analysis_input"
+    },
+    {
+      "path": "track_b/research/q4/round2/results/search_aoi_evidence.json",
+      "bytes": 6107,
+      "sha256": "78ff69266903ee77626679b0bba542ec36f1e73e3d39581909543d63ba262d14",
+      "role": "derived_round2_analysis_input"
+    },
+    {
+      "path": "track_b/research/q4/round2/sources/jms_fig1c_crop_300dpi.png",
+      "bytes": 2012486,
+      "sha256": "31c063dc8947e5fd4fd12e7dfb2fffa86b641c785de48751f3b314d52917279d",
+      "role": "derived_round2_analysis_input"
+    },
+    {
+      "path": "track_b/research/q4/round2/sources/jms_longitude_ticks_300dpi.png",
+      "bytes": 112119,
+      "sha256": "377de88140f5871b7d8d09f20b5f438a82da89aa944b2ff9795349fc141224c3",
+      "role": "derived_round2_analysis_input"
+    },
+    {
+      "path": "track_b/research/q4/round2/sources/jms_page6_300dpi.png",
+      "bytes": 3407728,
+      "sha256": "6dfa9b0d9d39ca601642a410c85cae4c16ab73d67ecf2a792584ab7e194f0e34",
+      "role": "derived_round2_analysis_input"
+    },
+    {
+      "path": "track_b/research/q4/round2/workspace_binding.json",
+      "bytes": 734,
+      "sha256": "d4a48bb44ff15216f5b31ebba69977a6157a5e3ef1721084e5dde13782d7f30f",
+      "role": "local_execution_binding"
+    },
+    {
+      "path": "track_b/scripts/prepare_spatial.py",
+      "bytes": 28934,
+      "sha256": "bd26dd1beef20d7e2c7f9522d5db5f264c25e00541c8bcd0e8019dfd046f4295",
+      "role": "frozen_source_or_protocol"
+    }
+  ],
+  "excluded": [
+    "This manifest and other delivery indices",
+    "Mutable exit workspace_verification.json"
+  ],
+  "self_included": false
+}

@@ -1,0 +1,17 @@
+{
+  "version": "q4-r2-fig1-candidates-v1",
+  "source": "JMS Fig.1c, PDF page6, round2 sources/jms_fig1c_crop_300dpi.png",
+  "digitisation": "Manual visual trace of paper symbols/blue rivers; all are retrospective reconstruction candidates",
+  "source_outline_crop_pixels": [[1338,748],[1350,719],[1357,699],[1370,682],[1394,677],[1413,680],[1417,704],[1415,732],[1397,740],[1379,746],[1362,756],[1346,758],[1338,748]],
+  "target_port_symbol_crop_pixels": [345,780],
+  "junction_crop_pixels": [1095,419],
+  "chhochen_blue_river_crop_pixels": [[1290,752],[1295,726],[1288,695],[1271,672],[1254,641],[1229,618],[1206,582],[1188,561],[1175,533],[1158,507],[1136,482],[1119,459],[1105,438],[1095,419]],
+  "lende_blue_river_crop_pixels": [[1095,419],[1056,403],[1016,393],[971,385],[928,386],[879,379],[836,383],[793,384],[754,395],[719,414],[687,419],[653,423],[619,427],[595,445],[582,471],[582,500],[584,529],[580,553],[559,576],[552,605],[530,639],[495,672],[465,704],[425,726],[401,747],[371,765],[345,780]],
+  "candidate_corridor_half_widths_m": [100,250,500],
+  "corridor_width_role": "diagnostic area support sensitivity, not bank width or positional-error bound",
+  "source_to_blue_river_connection": "not independently verified; no artificial connector drawn",
+  "target_definition": "paper port cartographic symbol representative point; exact facility/bridge/protection object unknown",
+  "original_position_accuracy_m": null,
+  "phase_time_utc": null,
+  "event_geometry_accepted": false
+}

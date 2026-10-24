@@ -1,0 +1,36 @@
+{
+  "schema_version": "q4-r2-delivery-validation-v1",
+  "generated_at_utc": "2026-10-24T06:27:09.639634+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "adopted_AOI_and_safe_replay",
+      "passed": true,
+      "evidence": "Early geometry/evidence bytes, script/config bindings and isolated geometry replay match."
+    },
+    {
+      "name": "five_candidate_objects_and_gap",
+      "passed": true,
+      "evidence": {
+        "count": 5,
+        "gap_m_not_true_connection": 647.1267757398565
+      }
+    },
+    {
+      "name": "candidate_corridor_coverage_semantics",
+      "passed": true,
+      "evidence": "Six conditional coverage rows coherent; no acceptance of real connectivity or terrain provenance."
+    },
+    {
+      "name": "independent_geometry_and_vertical_datum_remain_unknown",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "visual_bindings_syntax_json_and_document_links",
+      "passed": true,
+      "evidence": "Actual visual review hashes match; scripts parse and local handoff links exist."
+    }
+  ],
+  "scope": "Artifact integrity and conditional diagnostic consistency only; no truth geometry, dynamics, independent validation or human scientific adoption."
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "q4-r2-internal-review-v1",
+  "recorded_at_utc": "2026-10-24T06:24:42.202778+00:00",
+  "reviewer": "q4_r2_georef_review internal agent",
+  "review_mode": "Read-only; no external network, no R1 or AOI builder run, no file changes",
+  "reviewed_artifacts": {
+    "track_b/research/q4/round2/scripts/build_candidates.py": "8cb83675c8dfb8a18e283927eed03605d2718b55b1a333a4e90643cd4e32b75c",
+    "track_b/research/q4/round2/results/geometry_candidates.geojson": "cd68bf0bda80ab1d075fa33dbf0d713307d535e95e0f2494e41ce16b698b113e",
+    "track_b/research/q4/round2/results/corridor_coverage.json": "2cbd8c86c5a6021323db6cf5628ecdb539a4030c84ab222920e5fa8f5f0cc86b",
+    "track_b/research/q4/round2/results/geometry_evidence.csv": "060c373ead13146effff7734eac2f3efe4a67ec75a5258ff02ec64ab459a4073",
+    "track_b/research/q4/round2/sources/independent_geography_review.json": "30d405eccd530befdb878853a5635ac34318cb916a5807578b45b9c2e89028da"
+  },
+  "outcome": "No substantive code or numerical defect found.",
+  "independently_checked": [
+    "five valid objects inside AOI",
+    "independent DEM full coverage and pixel counts",
+    "NC partial corridor coverage and only source fully covered",
+    "647.1268 m source candidate gap",
+    "no artificial connector, truth distance or independent geometry acceptance"
+  ],
+  "review_is_not_independent_geographic_evidence": true,
+  "human_scientific_adoption": false
+}

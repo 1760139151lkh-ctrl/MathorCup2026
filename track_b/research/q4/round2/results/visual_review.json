@@ -1,0 +1,31 @@
+{
+  "schema_version": "q4-r2-visual-review-v1",
+  "reviewed_at_utc": "2026-10-24T06:24:42.202778+00:00",
+  "reviewer": "Codex Q4 window; actual tool-returned image inspection",
+  "human_scientific_adoption": false,
+  "figures": [
+    {
+      "path": "track_b/research/q4/round2/figures/georeference_controls.png",
+      "sha256": "5a90b4d325355ccae713c31fe6173e4aa4c78cc74aae1ec524bb6d00bd29e48e",
+      "actually_opened": true,
+      "checks": [
+        "axes and units legible",
+        "labels do not obstruct candidate objects",
+        "candidate status and unknown datum limits visible"
+      ],
+      "outcome": "readable_for_joint_review"
+    },
+    {
+      "path": "track_b/research/q4/round2/figures/candidate_geometry_coverage.png",
+      "sha256": "d857c790fd6ccaf78f9a3bc8150e31769360cdd734c46f2dcceef59a4cba1f14",
+      "actually_opened": true,
+      "checks": [
+        "axes and units legible",
+        "labels do not obstruct candidate objects",
+        "candidate status and unknown datum limits visible"
+      ],
+      "outcome": "readable_for_joint_review"
+    }
+  ],
+  "scope": "Visual legibility and consistency only; no verification of original map position, physical geometry, terrain epoch or dynamics."
+}

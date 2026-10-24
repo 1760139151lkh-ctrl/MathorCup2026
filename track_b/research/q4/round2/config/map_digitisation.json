@@ -1,0 +1,32 @@
+{
+  "version": "q4-r2-fig1-search-v1",
+  "source_pdf": "track_b/data/external/event_remote/jms_2026_uncorrected_proof.pdf",
+  "source_pdf_page": 6,
+  "crop_image": "track_b/research/q4/round2/sources/jms_fig1c_crop_300dpi.png",
+  "render_dpi": 300,
+  "crop_origin_page_pixels_xy": [400, 880],
+  "crop_size_pixels_wh": [1730, 1120],
+  "pixel_convention": "x right / y down; image upper-left edge origin, pixel values may be subpixel centres",
+  "map_frame_crop_pixels_ltrb": [63, 50, 1647, 1018],
+  "calibration_model": "separable longitude=a*x+b and latitude=c*y+d; zero rotation/shear assumed, not independently verified",
+  "datum_assumption": "Printed degree axes interpreted as longitude/latitude; original datum/projection unstated. WGS84/CRS84 adopted for SEARCH ONLY, not verified original datum.",
+  "controls": [
+    {"id":"lon_24","axis":"longitude","x":496.5,"y":1018.0,"degrees":85.4,"label":"85 deg 24 min E","role":"train"},
+    {"id":"lon_28","axis":"longitude","x":965.5,"y":1018.0,"degrees":85.46666666666667,"label":"85 deg 28 min E","role":"holdout_then_final_fit"},
+    {"id":"lon_32","axis":"longitude","x":1437.5,"y":1018.0,"degrees":85.53333333333333,"label":"85 deg 32 min E","role":"train"},
+    {"id":"lat_20","axis":"latitude","x":63.0,"y":399.0,"degrees":28.333333333333332,"label":"28 deg 20 min N","role":"train"},
+    {"id":"lat_16","axis":"latitude","x":63.0,"y":869.5,"degrees":28.266666666666666,"label":"28 deg 16 min N","role":"train"}
+  ],
+  "digitising_sensitivity_pixels": 5.0,
+  "original_map_positional_accuracy_m": null,
+  "datum_error_m": null,
+  "feature_identification_error_m": null,
+  "search_anchors_crop_pixels": {
+    "paper_source_symbol_centre": [1380,720],
+    "paper_chhochen_lende_junction": [1095,419],
+    "paper_gyirong_port_symbol_centre": [345,780]
+  },
+  "search_padding_m": 2000.0,
+  "padding_role": "Analyst-chosen search expansion, NOT a confidence radius or guaranteed upper positional-error bound",
+  "purpose": "search_only_not_release_or_failure_geometry"
+}

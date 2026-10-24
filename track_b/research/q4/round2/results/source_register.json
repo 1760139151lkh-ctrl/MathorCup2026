@@ -1,0 +1,546 @@
+{
+  "schema_version": "q4-r2-source-register-v1",
+  "generated_at_utc": "2026-10-24T06:27:39.114873+00:00",
+  "input_version": {
+    "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+    "manifest_path": "track_b/audit/stage4/round2/baseline_manifest.json",
+    "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+    "frozen_file_count": 565
+  },
+  "event_id": "B20260826_Chhochen",
+  "physical_phase": "retrospective_candidate_geometry_and_terrain_review",
+  "time_utc": null,
+  "time_uncertainty": null,
+  "space_object": {
+    "geometry_version": "q4-r2-fig1-candidates-v1",
+    "geometry_sha256": "cd68bf0bda80ab1d075fa33dbf0d713307d535e95e0f2494e41ce16b698b113e",
+    "candidate_crs": "OGC:CRS84 assumed; EPSG:32645 for metric diagnostics",
+    "original_map_datum_verified": false,
+    "positional_uncertainty_m": null,
+    "event_geometry_accepted": false
+  },
+  "variable_semantics": {
+    "coverage": "valid-grid geometric support, not geographic truth or dynamics",
+    "units": "metric diagnostics in metres and square metres; original raster vertical datum unknown",
+    "corridor_half_widths_m": [
+      100,
+      250,
+      500
+    ],
+    "corridor_widths_are_error_bounds": false
+  },
+  "forecast_reference_time": null,
+  "issue_time": null,
+  "valid_time": null,
+  "available_time": null,
+  "data_role": "exploration",
+  "evidence_status": "candidate",
+  "null_policy": "Unknown or unavailable; generation/retrieval dates are not event or historical availability times.",
+  "register_scope": "Source read/retrieval metadata only; external HTML payloads were not retained locally.",
+  "source_record_files": [
+    {
+      "path": "track_b/research/q4/round2/sources/dem_provenance_notes.json",
+      "bytes": 25147,
+      "sha256": "54f43a2c3be4cd5181f2c7df7631471e0b69ecbf89c3dd9ade6ca4eb426d4c4a"
+    },
+    {
+      "path": "track_b/research/q4/round2/sources/independent_geography_review.json",
+      "bytes": 13213,
+      "sha256": "30d405eccd530befdb878853a5635ac34318cb916a5807578b45b9c2e89028da"
+    }
+  ],
+  "dem_local_and_paper_sources": {
+    "independent_dem": {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif",
+      "bytes": 8437119,
+      "sha256": "7b9e8e53282b2e91d5302e616840c802eda80a963ce0777ddc6da2b65c6db9af",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "All raster metadata/tags, CRS, units and namespaces; no DEM pixel reread/differencing",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "xml": {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif.xml",
+      "bytes": 5786,
+      "sha256": "80557f3241126bc525a27e30f6f94f55ebc19f98b6676ebd0596606bd531e8be",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete XML",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "aux": {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tif.aux.xml",
+      "bytes": 2326,
+      "sha256": "8f6c82061d45641e5733a5f7d920d3fd10e028203282021de13ad18f3a80b98b",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete XML",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "tfw": {
+      "path": "04_B赛道/07_DEM（2026-08-26）/DEM.tfw",
+      "bytes": 81,
+      "sha256": "5a3abc5a2ec97ca8f662558305229333c7b6d4a672f34416754622895e05831c",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "All six lines",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "nc": {
+      "path": "04_B赛道/04_冰川地形、冰厚及表面速度/Glacier topographic and dynamic drivers (Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal).nc",
+      "bytes": 362728,
+      "sha256": "0a57192a65557f052dbc0bfbca71687ad1d158d4edaa363f26b3d65f337f32c8",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "All global and variable attributes/dimensions; no numerical DEM comparison",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "audit_docs": {
+      "path": "track_b/audit/spatial/source_documentation.json",
+      "bytes": 34350,
+      "sha256": "b3e7770e812bc172d1ec6b5315338439bb29d607bb88a01366ee03c7731b34c1",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "DEM entries fully; source inventory scanned for terrain/NC documentation",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "audit_nc": {
+      "path": "track_b/audit/spatial/netcdf.json",
+      "bytes": 18481,
+      "sha256": "505f0e7abd035801ea8820ace6a9d1f3f6fc2eefd9cdf39566f3324f870ad089",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete NC audit entry",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "input_manifest": {
+      "path": "track_b/data/processed/spatial/source_manifest.json",
+      "bytes": 6984,
+      "sha256": "24de9976bcd0f011ff89617fbd66eb629834b792f76e15f454a2cf4fefac559d",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete source manifest",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "operations": {
+      "path": "track_b/data/processed/spatial/coordinate_operations.json",
+      "bytes": 10935,
+      "sha256": "dac32a3ff87d59d4a6e80585e42de2af846c6dbb05dbf56e41c457e7344e36fa",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "EPSG:4326 to 32645 operation and no-vertical-transform interpretation",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "prepare": {
+      "path": "track_b/scripts/prepare_spatial.py",
+      "bytes": 28934,
+      "sha256": "bd26dd1beef20d7e2c7f9522d5db5f264c25e00541c8bcd0e8019dfd046f4295",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Lines 205-231 and 272-327",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "policy": {
+      "path": "track_b/config/spatial_policy.json",
+      "bytes": 3432,
+      "sha256": "7bf25e43d64cdb72184282ca97fd2a8bd7c56e916ff7a219474d9dc455c180c7",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "DEM and NC sampling/vertical-datum policy",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "round1": {
+      "path": "track_b/research/q4/results/terrain_feasibility.json",
+      "bytes": 10272,
+      "sha256": "2071b8acc428286a93ee160a2563d48297fd204003ab1aadbae2e6bf1966ea2a",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete; pre-existing statistics reused without recomputation",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "dem_utm": {
+      "path": "track_b/data/processed/spatial/dem_utm45_30m.tif",
+      "bytes": 6623907,
+      "sha256": "eaf39d044af5580fb12b7b991bdadf4da54294f8f78a818c15fff0f6390c2e95",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Dataset/band tags, CRS and units",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "dem_nc_grid": {
+      "path": "track_b/data/processed/spatial/dem_on_nc_grid.tif",
+      "bytes": 68003,
+      "sha256": "dd4204378ba7740f45525994bb8cf158857126a7bb49aee908cc56d0981b1327",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Dataset/band tags, CRS and units",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "nc_export": {
+      "path": "track_b/data/processed/spatial/nc_dem_native_grid.tif",
+      "bytes": 67745,
+      "sha256": "51316ce445f89016d79dcbb5baa12e2444e6eef90448d4f46825cd9d77f80d20",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Dataset/band tags, CRS and units",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "paper": {
+      "path": "track_b/data/external/event_remote/jms_2026_uncorrected_proof.pdf",
+      "bytes": 924233,
+      "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "pypdf all-35-page keyword scan; full relevant PDF pages 7,8,17,31 read as extracted text; no new visual review/model validation",
+      "url": "https://jms.imde.ac.cn/en/article/pdf/preview/10.1007/s11629-026-1482-y.pdf",
+      "http_status": 200,
+      "version": "DOI 10.1007/s11629-026-1482-y; saved Uncorrected proof",
+      "metric_scope": "Original existing HTTP-log retrieval; current subtask rehashed local bytes, no redownload",
+      "retrieved_at_utc": "2026-10-24T03:42:04.722039+00:00",
+      "response_headers": {
+        "Content-Type": "application/pdf",
+        "Content-Length": "924233",
+        "Date": "Sat, 24 Oct 2026 11:23:40 GMT"
+      }
+    },
+    "http_log": {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/http_requests.json",
+      "bytes": 19178,
+      "sha256": "9a97fb331dfe398e70566f0229513bf27a915d46da9bd90bbf084bb6ff214ddc",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "JMS PDF/article request entries",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "prior_paper_reading": {
+      "path": "track_b/data/external/event_remote/runs/20261024T034202Z/paper_reading.json",
+      "bytes": 2154,
+      "sha256": "bd449fcdb0d4866eac16588c4be9eec8e10cd596049c9f10694a1949c7b025df",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete version/retrieval record; prior visual review not claimed as this subtask visual inspection",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    },
+    "binding": {
+      "path": "track_b/research/q4/round2/workspace_binding.json",
+      "bytes": 734,
+      "sha256": "d4a48bb44ff15216f5b31ebba69977a6157a5e3ef1721084e5dde13782d7f30f",
+      "read_at_utc": "2026-10-24T06:07:16.854267+00:00",
+      "reading_scope": "Complete authoritative round2 binding",
+      "url": null,
+      "http_status": null,
+      "version": "local frozen input",
+      "metric_scope": "Local complete file byte count/hash; HTTP fields not applicable unless explicitly supplied from retrieval log"
+    }
+  },
+  "dem_bounded_external_trace": {
+    "new_dem_downloads": 0,
+    "authors_contacted": false,
+    "new_source_bodies_saved": 0,
+    "original_paper": {
+      "source_ref": "paper",
+      "read_pages": [
+        7,
+        8,
+        17,
+        31
+      ],
+      "supported_summary": "The reconstruction reports Copernicus 30 m and HMA 8 m elevation data; Copernicus supplies path/profile information and topographic sections. The data declaration offers datasets on request.",
+      "bridge_to_local_filenames": null,
+      "local_product_identity_adopted": false,
+      "limitation": "No filename, product-version, tile or checksum link to either supplied DEM. The paper does not establish their epoch/datum."
+    },
+    "searches": [
+      {
+        "logged_at_utc": "2026-10-24T06:07:16.854267+00:00",
+        "queries": [
+          "\"GeBainiDEM_30M\"",
+          "\"Glacier topographic and dynamic drivers\" \"Langtang\"",
+          "\"Glacier-collapse and debris-flow disasters at Langtang Lirung, Nepal\" DEM"
+        ],
+        "result": "No official source record linked to exact local inputs; unrelated results not adopted",
+        "http_status": null,
+        "bytes": null,
+        "sha256": null
+      },
+      {
+        "logged_at_utc": "2026-10-24T06:07:16.854267+00:00",
+        "queries": [
+          "\"GeBainiDEM_30M.tif\"",
+          "\"Glacier topographic and dynamic drivers\" \"dem_30m.tif\""
+        ],
+        "result": "Empty search results; not evidence that no original product exists",
+        "http_status": null,
+        "bytes": null,
+        "sha256": null
+      }
+    ],
+    "search_transport_null_reason": "web search exposes no raw HTTP body/status/byte hash; no search result adopted as technical evidence",
+    "stop_reason": "Provenance ends at unqualified upstream filenames. Generic product documentation would not identify these exact files; bounded trace ends with explicit unknowns."
+  },
+  "independent_geographic_sources": [
+    {
+      "source_id": "china_customs_targeted_search",
+      "url": "https://www.customs.gov.cn/",
+      "authority": "中华人民共和国海关总署官方域名（作为本次搜索约束；未读取该站对象页）",
+      "access_state": "no_eligible_official_result_in_single_targeted_search",
+      "actual_read_scope": "仅搜索返回集合；无海关官方页面正文读取。",
+      "http_status": null,
+      "response_bytes_sha256": null,
+      "machine_geometry_obtained": false,
+      "coordinates_obtained": false,
+      "crs": "unknown",
+      "horizontal_accuracy_m": "unknown",
+      "geometry_observation_time": "unknown",
+      "decision": "unknown",
+      "limitation": "未取得可归属吉隆口岸设施/桥位/代表点的坐标；不可把未命中解释为官方无坐标。"
+    },
+    {
+      "source_id": "nepal_rasuwagadhi_office",
+      "url": "https://rasuwagadhi.immigration.gov.np/",
+      "authority": "Government of Nepal, Department of Immigration, Rasuwagadhi office official subdomain",
+      "access_state": "search_index_only_direct_http_failed_tls",
+      "actual_read_scope": "读到搜索索引提供的办公室名称/地址文本；两次Python urllib直读均在TLS证书链验证阶段失败，未取得HTTP响应或原始正文。",
+      "attempt_ids": [
+        "nepal_rasuwagadhi_office",
+        "nepal_rasuwagadhi_office_retry"
+      ],
+      "http_status": null,
+      "response_bytes_sha256": null,
+      "machine_geometry_obtained": false,
+      "coordinates_obtained": false,
+      "crs": "unknown",
+      "horizontal_accuracy_m": "unknown",
+      "geometry_observation_time": "unknown",
+      "decision": "unknown",
+      "limitation": "官方地名线索不能确认JMS图中Gyirong Port符号对应移民办公室、口岸设施还是桥位；没有读取/验证坐标，不推断页面不存在地图。未关闭TLS校验。"
+    },
+    {
+      "source_id": "hydrorivers_product",
+      "url": "https://www.hydrosheds.org/products/hydrorivers",
+      "authority": "HydroSHEDS official HydroRIVERS product publisher",
+      "access_state": "http_200_metadata_read",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T06:13:10.277852+00:00",
+      "response_bytes": 31468,
+      "response_bytes_sha256": "ea8ca5f29c27452ff1fa972bef481576756f091b7070b004a84112595eb4bd9f",
+      "actual_read_scope": "完整31,468字节HTML经标准库解析的可见正文：版本说明、网络定义、来源栅格分辨率、几何属性、技术文档/许可/文献及下载表。检查HTML坐标/GeoJSON/地图标记；未执行页面脚本、未打开链接文件。",
+      "product_facts": {
+        "version": "1",
+        "product_type": "global vector river-reach line network",
+        "source_grid_resolution_arc_seconds": 15,
+        "inclusion_criterion": "集水面积至少10 km²，或平均流量至少0.1 m³/s，或二者同时满足。",
+        "asia_download_sizes_displayed": "91 MB Shapefile; 103 MB geodatabase",
+        "crs": "unknown_in_reviewed_page",
+        "horizontal_position_accuracy_m": "unknown_in_reviewed_page; 15 arc-second is source grid resolution, not a verified local accuracy",
+        "acquisition_or_observation_time": "unknown_in_reviewed_page; HTTP Last-Modified is page metadata, not terrain or river observation date"
+      },
+      "machine_geometry_obtained": false,
+      "coordinates_obtained": false,
+      "local_reach_ids_obtained": false,
+      "decision": "adopt_as_independent_product_documentation_only",
+      "limitation": "说明证明存在独立河道产品，不证明已取得本研究AOI内河段、命名对应、交汇点或真实中心线。未下载全球/亚洲产品；本次响应是HTML，非机器几何。"
+    },
+    {
+      "source_id": "hydrosheds_faq",
+      "url": "https://www.hydrosheds.org/faq",
+      "authority": "HydroSHEDS official project FAQ",
+      "access_state": "http_200_metadata_read",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T06:13:12.361680+00:00",
+      "response_bytes": 59727,
+      "response_bytes_sha256": "24395b9c58e4a03703aa5b52194d33bd26218f64291321af49bb69296253d1c8",
+      "actual_read_scope": "完整59,727字节HTML的可见正文，重点阅读本地应用适用性、HydroRIVERS与HydroATLAS差别、河流命名及外部托管数据说明；未访问论坛/外部镜像。",
+      "findings": "官方FAQ提示全球产品在小流域应用可能有显著误差，需就具体用途评估；也不能由产品名表直接确定每条水体的名称。",
+      "machine_geometry_obtained": false,
+      "coordinates_obtained": false,
+      "crs": "unknown",
+      "horizontal_accuracy_m": "unknown",
+      "geometry_observation_time": "unknown",
+      "decision": "adopt_as_product_limitations_documentation",
+      "limitation": "不能据此判断AOI内Chhochen/Lende是否有对应河段；本次没有本地数据/命名匹配。"
+    }
+  ],
+  "independent_directed_searches": [
+    {
+      "sequence": 1,
+      "query": "site.customs.gov.cn 吉隆 口岸 友谊桥",
+      "tool": "web search_query",
+      "searched_utc": null,
+      "searched_utc_precision": "not exposed by search tool; search completed before first official HTTP attempt",
+      "result": "本次返回集合未见可采用的customs.gov.cn原始命中；第三方页面未作事实来源。",
+      "source_url": null,
+      "http_status": null,
+      "response_bytes_sha256": null,
+      "limitation": "搜索未命中不证明官方不存在该资料；未打开海关官方对象页。",
+      "search_completed_before_utc": "2026-10-24T06:13:07.905915+00:00"
+    },
+    {
+      "sequence": 2,
+      "query": "site.immigration.gov.np Rasuwagadhi immigration office",
+      "tool": "web search_query",
+      "searched_utc": null,
+      "searched_utc_precision": "not exposed by search tool; search completed before first official HTTP attempt",
+      "official_result_url": "https://rasuwagadhi.immigration.gov.np/",
+      "result": "官方域名搜索索引显示Rasuwagadhi办公室名称及Rasuwa地址语境；只作待核查线索。",
+      "search_completed_before_utc": "2026-10-24T06:13:07.905915+00:00"
+    },
+    {
+      "sequence": 3,
+      "query": "site.hydrosheds.org HydroRIVERS technical specifications download river network",
+      "tool": "web search_query",
+      "searched_utc": null,
+      "searched_utc_precision": "not exposed by search tool; search completed before first official HTTP attempt",
+      "official_result_urls": [
+        "https://www.hydrosheds.org/products/hydrorivers",
+        "https://www.hydrosheds.org/faq"
+      ],
+      "result": "找到并直读产品说明和FAQ；未打开技术PDF或任何河网文件。",
+      "search_completed_before_utc": "2026-10-24T06:13:07.905915+00:00"
+    }
+  ],
+  "independent_http_attempts": [
+    {
+      "source_id": "nepal_rasuwagadhi_office",
+      "requested_url": "https://rasuwagadhi.immigration.gov.np/",
+      "final_url": null,
+      "retrieved_utc": "2026-10-24T06:13:07.905915+00:00",
+      "http_status": null,
+      "content_type": null,
+      "bytes_read": null,
+      "response_complete": null,
+      "response_bytes_sha256": null,
+      "last_modified_header": null,
+      "tls_verification": null,
+      "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))"
+    },
+    {
+      "source_id": "hydrorivers_product",
+      "requested_url": "https://www.hydrosheds.org/products/hydrorivers",
+      "final_url": "https://www.hydrosheds.org/products/hydrorivers",
+      "retrieved_utc": "2026-10-24T06:13:10.277852+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 31468,
+      "response_complete": true,
+      "response_bytes_sha256": "ea8ca5f29c27452ff1fa972bef481576756f091b7070b004a84112595eb4bd9f",
+      "last_modified_header": "Wed, 21 Oct 2026 01:28:12 GMT",
+      "tls_verification": null,
+      "error": null
+    },
+    {
+      "source_id": "hydrosheds_faq",
+      "requested_url": "https://www.hydrosheds.org/faq",
+      "final_url": "https://www.hydrosheds.org/faq",
+      "retrieved_utc": "2026-10-24T06:13:12.361680+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 59727,
+      "response_complete": true,
+      "response_bytes_sha256": "24395b9c58e4a03703aa5b52194d33bd26218f64291321af49bb69296253d1c8",
+      "last_modified_header": "Sun, 30 Aug 2026 17:25:48 GMT",
+      "tls_verification": null,
+      "error": null
+    },
+    {
+      "source_id": "nepal_rasuwagadhi_office_retry",
+      "requested_url": "https://rasuwagadhi.immigration.gov.np/",
+      "final_url": null,
+      "retrieved_utc": "2026-10-24T06:13:42.246086+00:00",
+      "http_status": null,
+      "content_type": null,
+      "bytes_read": null,
+      "response_complete": null,
+      "response_bytes_sha256": null,
+      "last_modified_header": null,
+      "tls_verification": "existing certifi CA bundle; verification enabled",
+      "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))"
+    }
+  ],
+  "source_map_render": {
+    "source": {
+      "path": "track_b/data/external/event_remote/jms_2026_uncorrected_proof.pdf",
+      "bytes": 924233,
+      "sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0"
+    },
+    "version": "JMS uncorrected proof, DOI 10.1007/s11629-026-1482-y",
+    "actual_visual_read_scope": "PDF page6 Fig.1/caption and 300dpi panel-c and longitude-tick crops; no full visual paper review claimed",
+    "render_dpi": 300,
+    "crop_origin_page_pixels_xy": [
+      400,
+      880
+    ],
+    "crop_size_pixels_wh": [
+      1730,
+      1120
+    ],
+    "render_files": [
+      {
+        "path": "track_b/research/q4/round2/sources/jms_page6_300dpi.png",
+        "bytes": 3407728,
+        "sha256": "6dfa9b0d9d39ca601642a410c85cae4c16ab73d67ecf2a792584ab7e194f0e34"
+      },
+      {
+        "path": "track_b/research/q4/round2/sources/jms_fig1c_crop_300dpi.png",
+        "bytes": 2012486,
+        "sha256": "31c063dc8947e5fd4fd12e7dfb2fffa86b641c785de48751f3b314d52917279d"
+      },
+      {
+        "path": "track_b/research/q4/round2/sources/jms_longitude_ticks_300dpi.png",
+        "bytes": 112119,
+        "sha256": "377de88140f5871b7d8d09f20b5f438a82da89aa944b2ff9795349fc141224c3"
+      }
+    ],
+    "read_time_record": "results/search_aoi_evidence.json generated_at_utc records the early read/digitisation stage"
+  },
+  "startup_snapshot": {
+    "path": "track_b/research/q4/round2/sources/startup_workspace_verification.json",
+    "bytes": 1805,
+    "sha256": "83feeee7732e784c4f614ea908bbf687280599cb0a12c9be91089026b346fb4b"
+  },
+  "advisor_relay": {
+    "path": "track_b/research/q4/round2/sources/advisor_aoi_receipt.json",
+    "bytes": 1181,
+    "sha256": "3bc3b1fee4455ef2b8b9121056dc1c0fbb7ffec17c3e30d9e07a6033f4f99896"
+  },
+  "internal_review": {
+    "path": "track_b/research/q4/round2/sources/independent_internal_review.json",
+    "bytes": 1430,
+    "sha256": "42fd82fe8a28748ea35df2a71f3b1ec647eed548bc2577388c6aa6ef101c2bb2"
+  },
+  "omitted_mutable_record": "dem_provenance_notes sources.workspace_check remains a historical read-time reference; use startup snapshot and final workspace_verification separately",
+  "http_null_policy": "No raw body/status supplied by search tools, or TLS before HTTP response, stays null; local byte counts never impersonate downloaded response sizes."
+}

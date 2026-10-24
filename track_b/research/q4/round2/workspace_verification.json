@@ -1,0 +1,110 @@
+{
+  "generated_at_utc": "2026-10-24T06:27:19.620303+00:00",
+  "question": "q4",
+  "passed": true,
+  "checks": [
+    {
+      "name": "workspace_and_git_baseline",
+      "passed": true,
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
+        "head": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "baseline_commit": "76ee1532cb2acf36fb82c5f4749a4288507dfcc8",
+        "branch": "codex/track-b-q4-r2"
+      }
+    },
+    {
+      "name": "frozen_input_hashes",
+      "passed": true,
+      "evidence": {
+        "file_count": 565,
+        "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+        "preparation_commit": "85e66c94a054780d476324cdcdfc02d406b703d7"
+      }
+    },
+    {
+      "name": "isolated_environment_and_lock",
+      "passed": true,
+      "evidence": {
+        "python": "3.12.14",
+        "prefix": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv",
+        "package_count": 44,
+        "lock_sha256": "5a780bc65de35a11a1eac4ec9370cad50957dcabb8ebe02cecdbfdb550ad645a",
+        "pip_check": "No broken requirements found."
+      }
+    },
+    {
+      "name": "six_real_formats",
+      "passed": true,
+      "evidence": {
+        "formats_read": [
+          "CSV",
+          "XLSX",
+          "SHP",
+          "GeoTIFF",
+          "NetCDF4",
+          "GRIB2"
+        ]
+      }
+    },
+    {
+      "name": "question_file_ownership",
+      "passed": true,
+      "evidence": {
+        "allowed_directory": "track_b/research/q4/round2/",
+        "changed_paths": [
+          "track_b/research/q4/round2/AOI_HANDOFF.md",
+          "track_b/research/q4/round2/HANDOFF.md",
+          "track_b/research/q4/round2/ROUTE_UPDATE.md",
+          "track_b/research/q4/round2/TERRAIN_REVIEW.md",
+          "track_b/research/q4/round2/config/geometry_trace.json",
+          "track_b/research/q4/round2/config/map_digitisation.json",
+          "track_b/research/q4/round2/figures/candidate_geometry_coverage.png",
+          "track_b/research/q4/round2/figures/georeference_controls.png",
+          "track_b/research/q4/round2/results/corridor_coverage.json",
+          "track_b/research/q4/round2/results/delivery_validation.json",
+          "track_b/research/q4/round2/results/dem_provenance.csv",
+          "track_b/research/q4/round2/results/geometry_candidates.geojson",
+          "track_b/research/q4/round2/results/geometry_evidence.csv",
+          "track_b/research/q4/round2/results/geometry_independent_status.json",
+          "track_b/research/q4/round2/results/georeference_controls.csv",
+          "track_b/research/q4/round2/results/georeference_review.json",
+          "track_b/research/q4/round2/results/input_manifest.json",
+          "track_b/research/q4/round2/results/local_metadata_recheck.json",
+          "track_b/research/q4/round2/results/output_manifest.json",
+          "track_b/research/q4/round2/results/replay_check/config/map_digitisation.json",
+          "track_b/research/q4/round2/results/replay_check/replay_check.json",
+          "track_b/research/q4/round2/results/replay_check/results/georeference_controls.csv",
+          "track_b/research/q4/round2/results/replay_check/results/georeference_review.json",
+          "track_b/research/q4/round2/results/replay_check/results/search_aoi.geojson",
+          "track_b/research/q4/round2/results/replay_check/results/search_aoi_evidence.json",
+          "track_b/research/q4/round2/results/replay_check/workspace_binding.json",
+          "track_b/research/q4/round2/results/replay_check/workspace_verification.json",
+          "track_b/research/q4/round2/results/search_aoi.geojson",
+          "track_b/research/q4/round2/results/search_aoi_evidence.json",
+          "track_b/research/q4/round2/results/source_register.json",
+          "track_b/research/q4/round2/results/visual_review.json",
+          "track_b/research/q4/round2/scripts/build_candidates.py",
+          "track_b/research/q4/round2/scripts/build_search_aoi.py",
+          "track_b/research/q4/round2/scripts/freeze_delivery.py",
+          "track_b/research/q4/round2/scripts/recheck_local_metadata.py",
+          "track_b/research/q4/round2/scripts/replay_search_aoi.py",
+          "track_b/research/q4/round2/scripts/validate_delivery.py",
+          "track_b/research/q4/round2/sources/INDEPENDENT_GEOGRAPHY.md",
+          "track_b/research/q4/round2/sources/advisor_aoi_receipt.json",
+          "track_b/research/q4/round2/sources/dem_provenance_notes.json",
+          "track_b/research/q4/round2/sources/independent_geography_review.json",
+          "track_b/research/q4/round2/sources/independent_internal_review.json",
+          "track_b/research/q4/round2/sources/jms_fig1c_crop_300dpi.png",
+          "track_b/research/q4/round2/sources/jms_longitude_ticks_300dpi.png",
+          "track_b/research/q4/round2/sources/jms_page6_300dpi.png",
+          "track_b/research/q4/round2/sources/startup_workspace_verification.json",
+          "track_b/research/q4/round2/workspace_binding.json",
+          "track_b/research/q4/round2/workspace_verification.json"
+        ]
+      }
+    }
+  ],
+  "scope": "Workspace, frozen inputs, environment and technical I/O only; no scientific model acceptance.",
+  "round": "round2"
+}

@@ -1,0 +1,6 @@
+id,axis,x,y,degrees,label,role,predicted_degrees,residual_degrees,residual_equivalent_m,other_coordinate_status
+lon_24,longitude,496.5,1018.0,85.4,85 deg 24 min E,train,85.4000710722422,7.10722421928267e-05,6.9713420100655314,unconstrained; axis tick is not a full 2D ground control point
+lon_28,longitude,965.5,1018.0,85.46666666666667,85 deg 28 min E,holdout_then_final_fit,85.46652497391256,-0.00014169275411290982,13.898374650812253,unconstrained; axis tick is not a full 2D ground control point
+lon_32,longitude,1437.5,1018.0,85.53333333333333,85 deg 32 min E,train,85.5334039538452,7.06205118632397e-05,6.92703263517165,unconstrained; axis tick is not a full 2D ground control point
+lat_20,latitude,63.0,399.0,28.333333333333332,28 deg 20 min N,train,28.333333333333318,-1.4210854715202004e-14,2.1194058745074637e-09,unconstrained; axis tick is not a full 2D ground control point
+lat_16,latitude,63.0,869.5,28.266666666666666,28 deg 16 min N,train,28.266666666666655,-1.0658141036401503e-14,1.413167369744879e-09,unconstrained; axis tick is not a full 2D ground control point

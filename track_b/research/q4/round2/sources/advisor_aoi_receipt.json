@@ -1,0 +1,16 @@
+{
+  "schema_version": "q4-r2-advisor-feedback-v1",
+  "recorded_at_utc": "2026-10-24T06:24:42.202778+00:00",
+  "approval_time_utc": null,
+  "evidence_type": "main_advisor_message_relay_record; not a copy of the master repository approval artifact",
+  "advisor_thread_id": "01a16bc9-3c57-76a2-996d-eb801a26f735",
+  "version": "q4-r2-fig1-search-v1",
+  "approved_role": "search_only",
+  "search_aoi_sha256": "14db392ea6d318c2df34152af950b227653fd1f938aed1f4aa9eedf92c29579f",
+  "early_evidence_sha256": "78ff69266903ee77626679b0bba542ec36f1e73e3d39581909543d63ba262d14",
+  "feedback": "Main advisor reported actually reviewing the figures, approving search_only use, and copying exact AOI/evidence bytes plus a separate adoption record to Q2 round2 inputs.",
+  "early_embedded_pending_status": "Historical creation-stage status retained unchanged; this separate relay records later advisor feedback.",
+  "human_scientific_adoption": false,
+  "event_geometry_accepted": false,
+  "q2_update_relay": "Main advisor reported both specified SAR anonymous-access requests returned 401 and Q2 stopped; this window did not retrieve their pixels or independently verify their HTTP response."
+}

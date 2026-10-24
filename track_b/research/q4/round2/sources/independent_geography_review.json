@@ -1,0 +1,266 @@
+{
+  "schema_version": "q4-r2-independent-geography-review-v1",
+  "created_utc": "2026-10-24T06:14:15.783068+00:00",
+  "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
+  "review_status": "completed_bounded_review_no_object_geometry_obtained",
+  "inputs_read_and_hashed": [
+    {
+      "path": "track_b/research/q4/round2/TASK.md",
+      "bytes": 6308,
+      "sha256": "ebe8398c60927fdbc566b24ca5c856d804ea1e7f72652d9083377dd3b2d4455d"
+    },
+    {
+      "path": "track_b/research/q4/round2/AOI_HANDOFF.md",
+      "bytes": 2337,
+      "sha256": "406e7e1cdd98ad8d162328fc1089d06383846fe1e93fc3fb625026b5a18237b8"
+    },
+    {
+      "path": "track_b/research/q4/round2/results/geometry_evidence.csv",
+      "bytes": 2042,
+      "sha256": "060c373ead13146effff7734eac2f3efe4a67ec75a5258ff02ec64ab459a4073"
+    }
+  ],
+  "remit": "核查中国海关吉隆口岸、尼泊尔移民署Rasuwagadhi官方信息及HydroSHEDS HydroRIVERS官方说明，是否实际提供可归属本项目对象的独立坐标/几何。",
+  "bounds": {
+    "directed_searches_limit": 3,
+    "directed_searches_used": 3,
+    "official_url_http_attempt_limit": 4,
+    "official_url_http_attempts_used": 4,
+    "distinct_official_urls_attempted": 3,
+    "successful_http_responses": 2,
+    "downloaded_river_networks_dem_or_imagery": false,
+    "registration_author_contact_or_environment_changes": false,
+    "saved_raw_external_responses": false,
+    "note": "仅保留元数据/阅读结论。4次尝试包括同一尼泊尔官网的两次TLS失败；没有再次搜索、技术PDF读取、整洲下载或后续API探测。"
+  },
+  "directed_searches": [
+    {
+      "sequence": 1,
+      "query": "site.customs.gov.cn 吉隆 口岸 友谊桥",
+      "tool": "web search_query",
+      "searched_utc": null,
+      "searched_utc_precision": "not exposed by search tool; search completed before first official HTTP attempt",
+      "result": "本次返回集合未见可采用的customs.gov.cn原始命中；第三方页面未作事实来源。",
+      "source_url": null,
+      "http_status": null,
+      "response_bytes_sha256": null,
+      "limitation": "搜索未命中不证明官方不存在该资料；未打开海关官方对象页。",
+      "search_completed_before_utc": "2026-10-24T06:13:07.905915+00:00"
+    },
+    {
+      "sequence": 2,
+      "query": "site.immigration.gov.np Rasuwagadhi immigration office",
+      "tool": "web search_query",
+      "searched_utc": null,
+      "searched_utc_precision": "not exposed by search tool; search completed before first official HTTP attempt",
+      "official_result_url": "https://rasuwagadhi.immigration.gov.np/",
+      "result": "官方域名搜索索引显示Rasuwagadhi办公室名称及Rasuwa地址语境；只作待核查线索。",
+      "search_completed_before_utc": "2026-10-24T06:13:07.905915+00:00"
+    },
+    {
+      "sequence": 3,
+      "query": "site.hydrosheds.org HydroRIVERS technical specifications download river network",
+      "tool": "web search_query",
+      "searched_utc": null,
+      "searched_utc_precision": "not exposed by search tool; search completed before first official HTTP attempt",
+      "official_result_urls": [
+        "https://www.hydrosheds.org/products/hydrorivers",
+        "https://www.hydrosheds.org/faq"
+      ],
+      "result": "找到并直读产品说明和FAQ；未打开技术PDF或任何河网文件。",
+      "search_completed_before_utc": "2026-10-24T06:13:07.905915+00:00"
+    }
+  ],
+  "http_attempts": [
+    {
+      "source_id": "nepal_rasuwagadhi_office",
+      "requested_url": "https://rasuwagadhi.immigration.gov.np/",
+      "final_url": null,
+      "retrieved_utc": "2026-10-24T06:13:07.905915+00:00",
+      "http_status": null,
+      "content_type": null,
+      "bytes_read": null,
+      "response_complete": null,
+      "response_bytes_sha256": null,
+      "last_modified_header": null,
+      "tls_verification": null,
+      "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))"
+    },
+    {
+      "source_id": "hydrorivers_product",
+      "requested_url": "https://www.hydrosheds.org/products/hydrorivers",
+      "final_url": "https://www.hydrosheds.org/products/hydrorivers",
+      "retrieved_utc": "2026-10-24T06:13:10.277852+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 31468,
+      "response_complete": true,
+      "response_bytes_sha256": "ea8ca5f29c27452ff1fa972bef481576756f091b7070b004a84112595eb4bd9f",
+      "last_modified_header": "Wed, 21 Oct 2026 01:28:12 GMT",
+      "tls_verification": null,
+      "error": null
+    },
+    {
+      "source_id": "hydrosheds_faq",
+      "requested_url": "https://www.hydrosheds.org/faq",
+      "final_url": "https://www.hydrosheds.org/faq",
+      "retrieved_utc": "2026-10-24T06:13:12.361680+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 59727,
+      "response_complete": true,
+      "response_bytes_sha256": "24395b9c58e4a03703aa5b52194d33bd26218f64291321af49bb69296253d1c8",
+      "last_modified_header": "Sun, 30 Aug 2026 17:25:48 GMT",
+      "tls_verification": null,
+      "error": null
+    },
+    {
+      "source_id": "nepal_rasuwagadhi_office_retry",
+      "requested_url": "https://rasuwagadhi.immigration.gov.np/",
+      "final_url": null,
+      "retrieved_utc": "2026-10-24T06:13:42.246086+00:00",
+      "http_status": null,
+      "content_type": null,
+      "bytes_read": null,
+      "response_complete": null,
+      "response_bytes_sha256": null,
+      "last_modified_header": null,
+      "tls_verification": "existing certifi CA bundle; verification enabled",
+      "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "china_customs_targeted_search",
+      "url": "https://www.customs.gov.cn/",
+      "authority": "中华人民共和国海关总署官方域名（作为本次搜索约束；未读取该站对象页）",
+      "access_state": "no_eligible_official_result_in_single_targeted_search",
+      "actual_read_scope": "仅搜索返回集合；无海关官方页面正文读取。",
+      "http_status": null,
+      "response_bytes_sha256": null,
+      "machine_geometry_obtained": false,
+      "coordinates_obtained": false,
+      "crs": "unknown",
+      "horizontal_accuracy_m": "unknown",
+      "geometry_observation_time": "unknown",
+      "decision": "unknown",
+      "limitation": "未取得可归属吉隆口岸设施/桥位/代表点的坐标；不可把未命中解释为官方无坐标。"
+    },
+    {
+      "source_id": "nepal_rasuwagadhi_office",
+      "url": "https://rasuwagadhi.immigration.gov.np/",
+      "authority": "Government of Nepal, Department of Immigration, Rasuwagadhi office official subdomain",
+      "access_state": "search_index_only_direct_http_failed_tls",
+      "actual_read_scope": "读到搜索索引提供的办公室名称/地址文本；两次Python urllib直读均在TLS证书链验证阶段失败，未取得HTTP响应或原始正文。",
+      "attempt_ids": [
+        "nepal_rasuwagadhi_office",
+        "nepal_rasuwagadhi_office_retry"
+      ],
+      "http_status": null,
+      "response_bytes_sha256": null,
+      "machine_geometry_obtained": false,
+      "coordinates_obtained": false,
+      "crs": "unknown",
+      "horizontal_accuracy_m": "unknown",
+      "geometry_observation_time": "unknown",
+      "decision": "unknown",
+      "limitation": "官方地名线索不能确认JMS图中Gyirong Port符号对应移民办公室、口岸设施还是桥位；没有读取/验证坐标，不推断页面不存在地图。未关闭TLS校验。"
+    },
+    {
+      "source_id": "hydrorivers_product",
+      "url": "https://www.hydrosheds.org/products/hydrorivers",
+      "authority": "HydroSHEDS official HydroRIVERS product publisher",
+      "access_state": "http_200_metadata_read",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T06:13:10.277852+00:00",
+      "response_bytes": 31468,
+      "response_bytes_sha256": "ea8ca5f29c27452ff1fa972bef481576756f091b7070b004a84112595eb4bd9f",
+      "actual_read_scope": "完整31,468字节HTML经标准库解析的可见正文：版本说明、网络定义、来源栅格分辨率、几何属性、技术文档/许可/文献及下载表。检查HTML坐标/GeoJSON/地图标记；未执行页面脚本、未打开链接文件。",
+      "product_facts": {
+        "version": "1",
+        "product_type": "global vector river-reach line network",
+        "source_grid_resolution_arc_seconds": 15,
+        "inclusion_criterion": "集水面积至少10 km²，或平均流量至少0.1 m³/s，或二者同时满足。",
+        "asia_download_sizes_displayed": "91 MB Shapefile; 103 MB geodatabase",
+        "crs": "unknown_in_reviewed_page",
+        "horizontal_position_accuracy_m": "unknown_in_reviewed_page; 15 arc-second is source grid resolution, not a verified local accuracy",
+        "acquisition_or_observation_time": "unknown_in_reviewed_page; HTTP Last-Modified is page metadata, not terrain or river observation date"
+      },
+      "machine_geometry_obtained": false,
+      "coordinates_obtained": false,
+      "local_reach_ids_obtained": false,
+      "decision": "adopt_as_independent_product_documentation_only",
+      "limitation": "说明证明存在独立河道产品，不证明已取得本研究AOI内河段、命名对应、交汇点或真实中心线。未下载全球/亚洲产品；本次响应是HTML，非机器几何。"
+    },
+    {
+      "source_id": "hydrosheds_faq",
+      "url": "https://www.hydrosheds.org/faq",
+      "authority": "HydroSHEDS official project FAQ",
+      "access_state": "http_200_metadata_read",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T06:13:12.361680+00:00",
+      "response_bytes": 59727,
+      "response_bytes_sha256": "24395b9c58e4a03703aa5b52194d33bd26218f64291321af49bb69296253d1c8",
+      "actual_read_scope": "完整59,727字节HTML的可见正文，重点阅读本地应用适用性、HydroRIVERS与HydroATLAS差别、河流命名及外部托管数据说明；未访问论坛/外部镜像。",
+      "findings": "官方FAQ提示全球产品在小流域应用可能有显著误差，需就具体用途评估；也不能由产品名表直接确定每条水体的名称。",
+      "machine_geometry_obtained": false,
+      "coordinates_obtained": false,
+      "crs": "unknown",
+      "horizontal_accuracy_m": "unknown",
+      "geometry_observation_time": "unknown",
+      "decision": "adopt_as_product_limitations_documentation",
+      "limitation": "不能据此判断AOI内Chhochen/Lende是否有对应河段；本次没有本地数据/命名匹配。"
+    }
+  ],
+  "object_assessments": [
+    {
+      "space_id": "paper_source_outline",
+      "object_kind": "source_outline",
+      "independent_geometry_status": "unknown_not_obtained",
+      "reason": "本次官方口岸/河网说明未提供源区边界。"
+    },
+    {
+      "space_id": "paper_port_symbol",
+      "object_kind": "target_representative_point",
+      "independent_geometry_status": "unknown_not_obtained",
+      "reason": "没有可归属保护对象的官方坐标；设施/桥位/代表点的定义仍未知，尼泊尔办公室地名不能自动对应JMS符号。"
+    },
+    {
+      "space_id": "paper_junction",
+      "object_kind": "junction",
+      "independent_geometry_status": "unknown_not_obtained",
+      "reason": "未取得AOI内独立河网或交汇点坐标；全局产品说明不能完成本地几何核查。"
+    },
+    {
+      "space_id": "paper_chhochen_blue_trace",
+      "object_kind": "channel_candidate",
+      "independent_geometry_status": "unknown_not_obtained",
+      "reason": "HydroRIVERS仅核实产品说明，未获取/匹配本地河段。"
+    },
+    {
+      "space_id": "paper_lende_blue_trace",
+      "object_kind": "channel_candidate",
+      "independent_geometry_status": "unknown_not_obtained",
+      "reason": "HydroRIVERS仅核实产品说明，未获取/匹配本地河段。"
+    }
+  ],
+  "decisions": {
+    "adopt": [
+      "HydroRIVERS官方产品定义与独立产品候选身份。",
+      "HydroSHEDS官方对局地适用性与河名匹配的限制说明。"
+    ],
+    "exclude": [
+      "把官方地名页面/搜索索引当成保护对象独立坐标。",
+      "把HydroRIVERS全球产品说明当成已经取得AOI内河道。",
+      "把同一JMS Fig.1内部拟合/闭合关系当成独立定位验证。"
+    ],
+    "unknown": [
+      "五个对象的独立可追溯坐标/几何。",
+      "保护对象究竟为口岸设施、桥位还是代表点。",
+      "可采用独立几何的CRS、真实定位精度、观测时间。"
+    ],
+    "current_geometry_status": "all_five_remain_retrospective_reconstruction_candidates_from_same_JMS_figure",
+    "updates_to_candidate_geometries_or_aoi": false
+  },
+  "stop_reason": "一次有界检索已给出可采用/排除/仍未知及依据；未为追齐缺口追加查询或下载。"
+}
