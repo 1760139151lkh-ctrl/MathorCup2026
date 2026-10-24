@@ -96,5 +96,14 @@
     }
   ],
   "human_scientific_adoption": "pending",
-  "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d"
+  "manifest_sha256": "c10cb6a30ea728ffbbd3a64d5f10fe00981bdf1d4b966ec37506dcef02e5d29d",
+  "aoi_handoff": {
+    "status": "adopted_for_search_only_and_delivered",
+    "version": "q4-r2-fig1-search-v1",
+    "geometry_sha256": "14db392ea6d318c2df34152af950b227653fd1f938aed1f4aa9eedf92c29579f",
+    "review": "track_b/audit/stage4/round2/aoi_handoff_review.json",
+    "review_sha256": "5be13b550bcf9f3f06dae87ac5e6a5cc731bf569af08331da27d46aaf9deda5e",
+    "consumer_path": "track_b/research/q2/round2/inputs/search_aoi.geojson",
+    "scientific_release_geometry_adopted": false
+  }
 }
