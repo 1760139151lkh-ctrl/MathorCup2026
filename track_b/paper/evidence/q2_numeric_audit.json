@@ -1,0 +1,1621 @@
+{
+  "audit_version": "q2-paper-independent-numeric-v1",
+  "generated_at_utc": "2026-10-24T14:03:12.950643+00:00",
+  "data_role": "paper_evidence_postprocessing_only_no_model_execution",
+  "review_script_sha256": "a3974a2ce1e767bc9ac11afe5c2d5ec6a6d70923f74ae643ff4aea54f2ecde07",
+  "independent_local_events": 0,
+  "checks": [
+    {
+      "check": "analytic_2048_scenarios_256_common_designs",
+      "passed": true
+    },
+    {
+      "check": "count_and_median_S_linear_extension",
+      "passed": true
+    },
+    {
+      "check": "count_and_median_S_T_linear_extension",
+      "passed": true
+    },
+    {
+      "check": "count_and_median_S_H_linear_extension",
+      "passed": true
+    },
+    {
+      "check": "count_and_median_S_T_H_linear_extension",
+      "passed": true
+    },
+    {
+      "check": "count_and_median_S_thawed_rock_contact",
+      "passed": true
+    },
+    {
+      "check": "count_and_median_S_T_thawed_rock_contact",
+      "passed": true
+    },
+    {
+      "check": "count_and_median_S_H_thawed_rock_contact",
+      "passed": true
+    },
+    {
+      "check": "count_and_median_S_T_H_thawed_rock_contact",
+      "passed": true
+    },
+    {
+      "check": "all_statuses_retained_and_counts_not_event_probabilities",
+      "passed": true
+    },
+    {
+      "check": "initial_left_censor_and_hourly_onset_brackets",
+      "passed": true
+    },
+    {
+      "check": "analytic_vs_fineFD_time_difference_direct_recalculation",
+      "passed": true
+    },
+    {
+      "check": "finite40_reflection_all256_bounds_recomputed_from_forcing",
+      "passed": true,
+      "max_relative_error": 9.303668946358812e-14
+    },
+    {
+      "check": "all_condition_critical_head_relations_independent_algebra",
+      "passed": true,
+      "n": 40,
+      "max_error_m": 2.3238355684185308e-14
+    },
+    {
+      "check": "all152_joint_sensitivity_rows_independently_recomputed",
+      "passed": true,
+      "max_rho_error": 9.71445146547012e-17,
+      "max_beta_error": 2.6753772808252307e-15
+    },
+    {
+      "check": "thermal_step_response_direct_math_erfc",
+      "passed": true,
+      "n": 45,
+      "max_error": 9.410874857174178e-17
+    },
+    {
+      "check": "representative_water_damage_and_causal_time_support",
+      "passed": true,
+      "pressure_relation_error_kpa": 4.689582056016661e-13,
+      "min_damage_step": 2.7805781899203907e-08,
+      "cutoff_errors": 0
+    },
+    {
+      "check": "identifiability_benchmark_ranks",
+      "passed": true
+    },
+    {
+      "check": "lab_trial_and_fit_fold_counts",
+      "passed": true
+    },
+    {
+      "check": "lab_warm_comparison_RMSE_from_individual_residuals",
+      "passed": true,
+      "max_abs_error": 1.3642420526593924e-12
+    },
+    {
+      "check": "conditional_lab_mean_and_bands_recomputed_from_saved_coefficients",
+      "passed": true
+    },
+    {
+      "check": "claim_19_parameter_ranges_and_design_counts",
+      "passed": true
+    },
+    {
+      "check": "claim_all_parameter_endpoints_scales_and_fixed_seed",
+      "passed": true
+    },
+    {
+      "check": "claim_hourly_boundary_counts",
+      "passed": true
+    },
+    {
+      "check": "claim_causal_FFT_padding",
+      "passed": true
+    },
+    {
+      "check": "claim_step_response_depth2.0",
+      "passed": true
+    },
+    {
+      "check": "claim_step_response_depth5.0",
+      "passed": true
+    },
+    {
+      "check": "claim_water_budget_and_gamma_units",
+      "passed": true
+    },
+    {
+      "check": "claim_p0036_critical_-6.0",
+      "passed": true
+    },
+    {
+      "check": "claim_p0036_critical_-3.0",
+      "passed": true
+    },
+    {
+      "check": "claim_p0036_critical_-1.0",
+      "passed": true
+    },
+    {
+      "check": "claim_final_mechanism_S",
+      "passed": true
+    },
+    {
+      "check": "claim_final_mechanism_S_T",
+      "passed": true
+    },
+    {
+      "check": "claim_final_mechanism_S_H",
+      "passed": true
+    },
+    {
+      "check": "claim_final_mechanism_S_T_H",
+      "passed": true
+    },
+    {
+      "check": "claim_total_censor_counts_and_no_probability",
+      "passed": true
+    },
+    {
+      "check": "claim_joint_sensitivity_order_and_values",
+      "passed": true
+    },
+    {
+      "check": "claim_FD_comparison_time_and_margin",
+      "passed": true
+    },
+    {
+      "check": "claim_finite40_actual_temperature_bound_relative_tolerance",
+      "passed": true
+    },
+    {
+      "check": "claim_local_jacobian_rank_sequence",
+      "passed": true
+    },
+    {
+      "check": "claim_lab_counts_and_actual800_support",
+      "passed": true
+    },
+    {
+      "check": "claim_lab_design_and_resampling_counts",
+      "passed": true
+    },
+    {
+      "check": "claim_lab_macro_mc_linear_temperature",
+      "passed": true
+    },
+    {
+      "check": "claim_lab_macro_mc_linear_normal_stress",
+      "passed": true
+    },
+    {
+      "check": "claim_lab_macro_mc_temperature_quadratic_temperature",
+      "passed": true
+    },
+    {
+      "check": "claim_lab_macro_mc_temperature_quadratic_normal_stress",
+      "passed": true
+    },
+    {
+      "check": "claim_lab_macro_mc_stress_quadratic_temperature",
+      "passed": true
+    },
+    {
+      "check": "claim_lab_macro_mc_stress_quadratic_normal_stress",
+      "passed": true
+    },
+    {
+      "check": "claim_lab_macro_mc_stress_hinge_400_temperature",
+      "passed": true
+    },
+    {
+      "check": "claim_lab_macro_mc_stress_hinge_400_normal_stress",
+      "passed": true
+    },
+    {
+      "check": "claim_800_holdout_mc_linear",
+      "passed": true
+    },
+    {
+      "check": "claim_800_holdout_mc_temperature_quadratic",
+      "passed": true
+    },
+    {
+      "check": "claim_800_holdout_mc_stress_quadratic",
+      "passed": true
+    },
+    {
+      "check": "claim_800_holdout_mc_stress_hinge_400",
+      "passed": true
+    },
+    {
+      "check": "claim_warm_selected_layer_sets",
+      "passed": true
+    },
+    {
+      "check": "claim_conditional_mean_percentiles_within_cell_independent_tests",
+      "passed": true
+    },
+    {
+      "check": "claim_conditional_mean_percentiles_specimen_label_blocks_assumed",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C01_mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C01_run_experiments.py",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C02_mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C03_mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C03_mamot2018_article.pdf",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C03_literature_facts.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C04_experiment_v1.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C04_config.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C04_summary.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C05_experiment_v1.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C05_forcing_hourly.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C05_EXPERIMENT_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C06_analytic_thermal_engine.py",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C06_protocol.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C07_thermal_response_times.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C07_analyze_robustness.py",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C08_mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C08_summary.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C09_critical_relations.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C09_mechanism_engine.py",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C10_model_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C10_scenario_outcomes.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C11_model_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C11_summary.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C12_joint_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C13_summary.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C13_paired_v2_fd0625.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C14_identifiability.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C14_identifiability_details.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C15_observations.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C15_coefficient_strata.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C15_schema.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C16_run_summary.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C16_run_config.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C17_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C17_holdout_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C17_holdout_folds.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C18_figure6_temperature_screen.csv",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C18_literature_facts.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C18_REPORT.md",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C19_decision_summary.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-C19_bootstrap_coefficient_draws.npz",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-F01_q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-F01_q2_figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-F01_q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-F02_q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-F02_q2_figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-F02_q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-F03_q2_lab_grouped_validation.pdf",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-F03_q2_figure_sources.json",
+      "passed": true
+    },
+    {
+      "check": "claim_source_hash_q2-F03_q2_make_figures.py",
+      "passed": true
+    },
+    {
+      "check": "paper_q2_citations_resolve_and_prefix",
+      "passed": true,
+      "citations": [
+        "q2-benasher2026",
+        "q2-mamot2018",
+        "q2-weber2025"
+      ],
+      "bibitems": [
+        "q2-benasher2026",
+        "q2-mamot2018",
+        "q2-weber2025"
+      ]
+    },
+    {
+      "check": "paper_q2_labels_unique_and_references_resolve",
+      "passed": true,
+      "labels": [
+        "q2:sec-model",
+        "q2:sec-structure",
+        "q2:eq-stress",
+        "q2:eq-resistance",
+        "q2:eq-strength",
+        "q2:tab-parameters",
+        "q2:sec-coupling",
+        "q2:eq-thermal",
+        "q2:eq-inflow",
+        "q2:eq-states",
+        "q2:sec-critical",
+        "q2:eq-critical",
+        "q2:fig-critical",
+        "q2:sec-results",
+        "q2:tab-mechanisms",
+        "q2:fig-mechanisms",
+        "q2:sec-laboratory",
+        "q2:tab-lab",
+        "q2:fig-lab"
+      ]
+    },
+    {
+      "check": "all_claims_have_source_files_and_resolved_paper_anchor",
+      "passed": true
+    },
+    {
+      "check": "displayed_mechanism_table_S",
+      "passed": true
+    },
+    {
+      "check": "displayed_mechanism_table_ST",
+      "passed": true
+    },
+    {
+      "check": "displayed_mechanism_table_SH",
+      "passed": true
+    },
+    {
+      "check": "displayed_mechanism_table_STH",
+      "passed": true
+    },
+    {
+      "check": "displayed_lab_table_mc_linear",
+      "passed": true
+    },
+    {
+      "check": "displayed_lab_table_mc_temperature_quadratic",
+      "passed": true
+    },
+    {
+      "check": "displayed_lab_table_mc_stress_quadratic",
+      "passed": true
+    },
+    {
+      "check": "displayed_lab_table_mc_stress_hinge_400",
+      "passed": true
+    },
+    {
+      "check": "paper_figure_exists_q2_critical_head_sensitivity.pdf",
+      "passed": true
+    },
+    {
+      "check": "paper_figure_exists_q2_mechanism_comparison.pdf",
+      "passed": true
+    },
+    {
+      "check": "paper_figure_exists_q2_lab_grouped_validation.pdf",
+      "passed": true
+    }
+  ],
+  "facts": {
+    "analytic_mechanism_table": [
+      {
+        "mechanism_id": "S",
+        "law_policy": "linear_extension",
+        "n": 256,
+        "interval_crossing": 4,
+        "left_censored": 31,
+        "never_crossed": 221,
+        "median_evaluation_min_margin": 0.6900801901421822,
+        "p05_evaluation_min_margin": -0.23024985611125007,
+        "p95_evaluation_min_margin": 2.77253760291464
+      },
+      {
+        "mechanism_id": "S_T",
+        "law_policy": "linear_extension",
+        "n": 256,
+        "interval_crossing": 28,
+        "left_censored": 31,
+        "never_crossed": 197,
+        "median_evaluation_min_margin": 0.4852997674212091,
+        "p05_evaluation_min_margin": -0.42929198870183,
+        "p95_evaluation_min_margin": 2.3661394269487395
+      },
+      {
+        "mechanism_id": "S_H",
+        "law_policy": "linear_extension",
+        "n": 256,
+        "interval_crossing": 6,
+        "left_censored": 31,
+        "never_crossed": 219,
+        "median_evaluation_min_margin": 0.662315744180745,
+        "p05_evaluation_min_margin": -0.26796107473848324,
+        "p95_evaluation_min_margin": 2.607236962528243
+      },
+      {
+        "mechanism_id": "S_T_H",
+        "law_policy": "linear_extension",
+        "n": 256,
+        "interval_crossing": 31,
+        "left_censored": 31,
+        "never_crossed": 194,
+        "median_evaluation_min_margin": 0.4717932586129435,
+        "p05_evaluation_min_margin": -0.4668268690686569,
+        "p95_evaluation_min_margin": 2.2425009813957986
+      },
+      {
+        "mechanism_id": "S",
+        "law_policy": "thawed_rock_contact",
+        "n": 256,
+        "interval_crossing": 4,
+        "left_censored": 31,
+        "never_crossed": 221,
+        "median_evaluation_min_margin": 0.6900801901421822,
+        "p05_evaluation_min_margin": -0.23024985611125007,
+        "p95_evaluation_min_margin": 2.77253760291464
+      },
+      {
+        "mechanism_id": "S_T",
+        "law_policy": "thawed_rock_contact",
+        "n": 256,
+        "interval_crossing": 27,
+        "left_censored": 31,
+        "never_crossed": 198,
+        "median_evaluation_min_margin": 0.4852997674212091,
+        "p05_evaluation_min_margin": -0.42945539666054044,
+        "p95_evaluation_min_margin": 2.3661394269487395
+      },
+      {
+        "mechanism_id": "S_H",
+        "law_policy": "thawed_rock_contact",
+        "n": 256,
+        "interval_crossing": 6,
+        "left_censored": 31,
+        "never_crossed": 219,
+        "median_evaluation_min_margin": 0.662315744180745,
+        "p05_evaluation_min_margin": -0.26796107473848324,
+        "p95_evaluation_min_margin": 2.607236962528243
+      },
+      {
+        "mechanism_id": "S_T_H",
+        "law_policy": "thawed_rock_contact",
+        "n": 256,
+        "interval_crossing": 31,
+        "left_censored": 31,
+        "never_crossed": 194,
+        "median_evaluation_min_margin": 0.4717932586129435,
+        "p05_evaluation_min_margin": -0.465743113639625,
+        "p95_evaluation_min_margin": 2.2425009813957986
+      }
+    ],
+    "total_counts": {
+      "parameter_designs": 256,
+      "mechanisms": 4,
+      "strength_policies": 2,
+      "scenarios": 2048,
+      "crossing": 137,
+      "left_censored": 248,
+      "never_crossed": 1663,
+      "interpretation": "conditional design counts, not event probabilities"
+    },
+    "numeric_comparison": {
+      "finite_pairs": 137,
+      "fineFD_dz_m": 0.0625,
+      "max_onset_abs_difference_hours": 0.34707951714221963,
+      "fineFD_max_base_scenario": "q2r3-p0067-S_T_H-linear",
+      "v2_FD_dz_m": 0.125,
+      "v2_max_onset_abs_difference_hours": 19.07238048020784,
+      "v2_max_base_scenario": "q2r3-p0107-S_T_H-linear",
+      "all_category_changes": 0,
+      "max_margin_difference": 0.1790318814665912,
+      "max_interface_temp_difference_c": 0.0212019898831075,
+      "thaw_branch_mismatch_scenario_hours": 12,
+      "state_dt_hours": 1,
+      "scope": "linear heat-equation numerical reference; 1h water/damage integration and physical source uncertainties remain"
+    },
+    "finite40_reflection_bound": {
+      "parameter_set_id": "q2r3-p0237",
+      "boundary_total_variation_c": 256.4596018494444,
+      "first_reflection_kernel_bound": 9.294915707162841e-29,
+      "temperature_bound_c": 2.3837703814831295e-26,
+      "bottom_m": 40,
+      "horizon_hours": 2088,
+      "conservative_parameter_box_kernel_bound": 1.2833330404282015e-26,
+      "box_kernel_times_max_actual_boundary_tv_bound_c": 2.2521194043184357e-23,
+      "scope": "actual 256 supplied boundary columns; homogeneous initial condition, linear Dirichlet-top/Neumann-bottom heat equation; no in-situ geometry or physics validation"
+    },
+    "parameter_design": {
+      "ranges": {
+        "theta_deg": {
+          "min": 30,
+          "max": 60,
+          "scale": "linear",
+          "source": "conditional structural plane; not NC surface slope"
+        },
+        "thickness_normal_m": {
+          "min": 10,
+          "max": 60,
+          "scale": "linear",
+          "source": "conditional; NC inventory 6..154 m is background only"
+        },
+        "rock_volume_fraction": {
+          "min": 0.2,
+          "max": 0.8,
+          "scale": "linear",
+          "source": "conditional two-solid mixture; not measured"
+        },
+        "bridge_fraction": {
+          "min": 0.0,
+          "max": 0.25,
+          "scale": "linear",
+          "source": "conditional load-bearing area fraction"
+        },
+        "bridge_cohesion_kpa": {
+          "min": 300,
+          "max": 3000,
+          "scale": "log",
+          "source": "conditional rock-bridge effective cohesion, not measured"
+        },
+        "rock_mu": {
+          "min": 0.45,
+          "max": 0.85,
+          "scale": "linear",
+          "source": "conditional friction coefficient"
+        },
+        "initial_temp_c": {
+          "min": -6,
+          "max": -0.8,
+          "scale": "linear",
+          "source": "conditional initial joint temperature; within lab thermal domain"
+        },
+        "diffusivity_m2_s": {
+          "min": 9e-07,
+          "max": 2.1e-06,
+          "scale": "linear",
+          "source": "external_transfer Weber2025 median +/- MAD endpoints; design interval not statistical CI"
+        },
+        "interface_depth_m": {
+          "min": 0.5,
+          "max": 20,
+          "scale": "log",
+          "source": "conditional depth of thermal path, distinct from slab thickness"
+        },
+        "station_source_offset_c": {
+          "min": -18,
+          "max": -6,
+          "scale": "linear",
+          "source": "conditional combined elevation/exposure/surface transfer offset"
+        },
+        "storativity": {
+          "min": 0.002,
+          "max": 0.08,
+          "scale": "log",
+          "source": "conditional water-equivalent storage/head ratio"
+        },
+        "drainage_hours": {
+          "min": 3,
+          "max": 240,
+          "scale": "log",
+          "source": "conditional reservoir time constant; not fixed by external flow lag"
+        },
+        "connected_depth_m": {
+          "min": 2,
+          "max": 40,
+          "scale": "log",
+          "source": "conditional maximum connected water head"
+        },
+        "rain_multiplier": {
+          "min": 0.25,
+          "max": 3,
+          "scale": "log",
+          "source": "conditional station-to-source and effective infiltration multiplier"
+        },
+        "melt_mm_deg_day": {
+          "min": 0.5,
+          "max": 6,
+          "scale": "linear",
+          "source": "conditional degree-day coefficient; not an energy balance"
+        },
+        "damage_rate_h_inv": {
+          "min": 1e-07,
+          "max": 0.0002,
+          "scale": "log",
+          "source": "phenomenological design range; not calibrated ice rheology"
+        },
+        "damage_exponent": {
+          "min": 2,
+          "max": 6,
+          "scale": "linear",
+          "source": "phenomenological stress-ratio power"
+        },
+        "initial_damage": {
+          "min": 0.05,
+          "max": 0.7,
+          "scale": "linear",
+          "source": "conditional cohesion loss fraction"
+        },
+        "drainage_damage_coupling": {
+          "min": 0,
+          "max": 3,
+          "scale": "linear",
+          "source": "conditional damage-enhanced drainage exp(-k*D)"
+        }
+      },
+      "seed": 260826
+    },
+    "critical_p0036_example": [
+      {
+        "temperature_c": -6.0,
+        "critical_head_m": null,
+        "root_status": "no_pressure_only_root",
+        "allowed_head_capacity_m": 7.832945655793302,
+        "root_reachable_before_capacity": false
+      },
+      {
+        "temperature_c": -3.0,
+        "critical_head_m": 11.358354707084557,
+        "root_status": "positive_pressure_root",
+        "allowed_head_capacity_m": 7.832945655793302,
+        "root_reachable_before_capacity": false
+      },
+      {
+        "temperature_c": -1.0,
+        "critical_head_m": -8.214371095305054,
+        "root_status": "dry_already_critical",
+        "allowed_head_capacity_m": 7.832945655793302,
+        "root_reachable_before_capacity": false
+      },
+      {
+        "temperature_c": -0.5,
+        "critical_head_m": -16.903130915759853,
+        "root_status": "dry_already_critical",
+        "allowed_head_capacity_m": 7.832945655793302,
+        "root_reachable_before_capacity": false
+      },
+      {
+        "temperature_c": 0.0,
+        "critical_head_m": -28.782828724852138,
+        "root_status": "dry_already_critical",
+        "allowed_head_capacity_m": 7.832945655793302,
+        "root_reachable_before_capacity": false
+      }
+    ],
+    "joint_sensitivity": [
+      {
+        "mechanism_id": "S",
+        "law_policy": "linear_extension",
+        "rank_by_abs_spearman_top5": [
+          {
+            "parameter": "initial_temp_c",
+            "rho": -0.620034618905928,
+            "beta": -0.4909525690647434
+          },
+          {
+            "parameter": "theta_deg",
+            "rho": -0.5781121252002746,
+            "beta": -0.4731358721453439
+          },
+          {
+            "parameter": "initial_damage",
+            "rho": -0.37850838292515443,
+            "beta": -0.238725995104057
+          },
+          {
+            "parameter": "thickness_normal_m",
+            "rho": -0.3545018883039596,
+            "beta": -0.3875560548517939
+          },
+          {
+            "parameter": "bridge_fraction",
+            "rho": 0.2083042458228427,
+            "beta": 0.0714481394208331
+          }
+        ]
+      },
+      {
+        "mechanism_id": "S_T",
+        "law_policy": "linear_extension",
+        "rank_by_abs_spearman_top5": [
+          {
+            "parameter": "theta_deg",
+            "rho": -0.551830367360952,
+            "beta": -0.4561848450419896
+          },
+          {
+            "parameter": "initial_temp_c",
+            "rho": -0.39090967612726013,
+            "beta": -0.2897759543413882
+          },
+          {
+            "parameter": "initial_damage",
+            "rho": -0.32048595216296627,
+            "beta": -0.2020754801528993
+          },
+          {
+            "parameter": "thickness_normal_m",
+            "rho": -0.29641794460975046,
+            "beta": -0.3616068340608124
+          },
+          {
+            "parameter": "station_source_offset_c",
+            "rho": -0.2771822785534447,
+            "beta": -0.2867336094434448
+          }
+        ]
+      },
+      {
+        "mechanism_id": "S_H",
+        "law_policy": "linear_extension",
+        "rank_by_abs_spearman_top5": [
+          {
+            "parameter": "initial_temp_c",
+            "rho": -0.625180962462806,
+            "beta": -0.4917704284389511
+          },
+          {
+            "parameter": "theta_deg",
+            "rho": -0.5709494449530784,
+            "beta": -0.472488590957146
+          },
+          {
+            "parameter": "initial_damage",
+            "rho": -0.37878662165255195,
+            "beta": -0.2412714304222539
+          },
+          {
+            "parameter": "thickness_normal_m",
+            "rho": -0.34367561226825355,
+            "beta": -0.3811569609804855
+          },
+          {
+            "parameter": "bridge_fraction",
+            "rho": 0.20446755550469212,
+            "beta": 0.0733069880877417
+          }
+        ]
+      },
+      {
+        "mechanism_id": "S_T_H",
+        "law_policy": "linear_extension",
+        "rank_by_abs_spearman_top5": [
+          {
+            "parameter": "theta_deg",
+            "rho": -0.5452213035019454,
+            "beta": -0.452921063134565
+          },
+          {
+            "parameter": "initial_temp_c",
+            "rho": -0.3903353170061798,
+            "beta": -0.2888422191339684
+          },
+          {
+            "parameter": "initial_damage",
+            "rho": -0.31817993247882803,
+            "beta": -0.2028544214448319
+          },
+          {
+            "parameter": "station_source_offset_c",
+            "rho": -0.29578493362325475,
+            "beta": -0.3061363257296066
+          },
+          {
+            "parameter": "thickness_normal_m",
+            "rho": -0.2850423437857633,
+            "beta": -0.3553300464131917
+          }
+        ]
+      },
+      {
+        "mechanism_id": "S",
+        "law_policy": "thawed_rock_contact",
+        "rank_by_abs_spearman_top5": [
+          {
+            "parameter": "initial_temp_c",
+            "rho": -0.620034618905928,
+            "beta": -0.4909525690647434
+          },
+          {
+            "parameter": "theta_deg",
+            "rho": -0.5781121252002746,
+            "beta": -0.4731358721453439
+          },
+          {
+            "parameter": "initial_damage",
+            "rho": -0.37850838292515443,
+            "beta": -0.238725995104057
+          },
+          {
+            "parameter": "thickness_normal_m",
+            "rho": -0.3545018883039596,
+            "beta": -0.3875560548517939
+          },
+          {
+            "parameter": "bridge_fraction",
+            "rho": 0.2083042458228427,
+            "beta": 0.0714481394208331
+          }
+        ]
+      },
+      {
+        "mechanism_id": "S_T",
+        "law_policy": "thawed_rock_contact",
+        "rank_by_abs_spearman_top5": [
+          {
+            "parameter": "theta_deg",
+            "rho": -0.5524383440146486,
+            "beta": -0.4566481640872866
+          },
+          {
+            "parameter": "initial_temp_c",
+            "rho": -0.3929317349507896,
+            "beta": -0.290395678437611
+          },
+          {
+            "parameter": "initial_damage",
+            "rho": -0.3145163366903181,
+            "beta": -0.1991206419481996
+          },
+          {
+            "parameter": "thickness_normal_m",
+            "rho": -0.29419775692378114,
+            "beta": -0.3600421482554662
+          },
+          {
+            "parameter": "station_source_offset_c",
+            "rho": -0.27848764019226363,
+            "beta": -0.2863580532738004
+          }
+        ]
+      },
+      {
+        "mechanism_id": "S_H",
+        "law_policy": "thawed_rock_contact",
+        "rank_by_abs_spearman_top5": [
+          {
+            "parameter": "initial_temp_c",
+            "rho": -0.625180962462806,
+            "beta": -0.4917704284389511
+          },
+          {
+            "parameter": "theta_deg",
+            "rho": -0.5709494449530784,
+            "beta": -0.472488590957146
+          },
+          {
+            "parameter": "initial_damage",
+            "rho": -0.37878662165255195,
+            "beta": -0.2412714304222539
+          },
+          {
+            "parameter": "thickness_normal_m",
+            "rho": -0.34367561226825355,
+            "beta": -0.3811569609804855
+          },
+          {
+            "parameter": "bridge_fraction",
+            "rho": 0.20446755550469212,
+            "beta": 0.0733069880877417
+          }
+        ]
+      },
+      {
+        "mechanism_id": "S_T_H",
+        "law_policy": "thawed_rock_contact",
+        "rank_by_abs_spearman_top5": [
+          {
+            "parameter": "theta_deg",
+            "rho": -0.5454981116960401,
+            "beta": -0.4527577418238061
+          },
+          {
+            "parameter": "initial_temp_c",
+            "rho": -0.3928544861524376,
+            "beta": -0.2900643101370334
+          },
+          {
+            "parameter": "initial_damage",
+            "rho": -0.31195782787823295,
+            "beta": -0.200286541362594
+          },
+          {
+            "parameter": "station_source_offset_c",
+            "rho": -0.2973964293888761,
+            "beta": -0.306195489638507
+          },
+          {
+            "parameter": "thickness_normal_m",
+            "rho": -0.28234006637674525,
+            "beta": -0.3531903166126552
+          }
+        ]
+      }
+    ],
+    "thermal_response_72h_alpha1p5e6": [
+      {
+        "depth_m": 0.5,
+        "fraction": 0.5707063585940395,
+        "diffusion_scale_hours": 46.29629629629629
+      },
+      {
+        "depth_m": 2.0,
+        "fraction": 0.0233263995853345,
+        "diffusion_scale_hours": 740.7407407407406
+      },
+      {
+        "depth_m": 5.0,
+        "fraction": 1.4270157958793224e-08,
+        "diffusion_scale_hours": 4629.62962962963
+      },
+      {
+        "depth_m": 10.0,
+        "fraction": 8.292595236435729e-30,
+        "diffusion_scale_hours": 18518.51851851852
+      },
+      {
+        "depth_m": 20.0,
+        "fraction": 6.985417278413763e-114,
+        "diffusion_scale_hours": 74074.07407407407
+      }
+    ],
+    "water_damage_time_support": {
+      "parameter_ranges": {
+        "storativity": {
+          "min": 0.002,
+          "max": 0.08,
+          "scale": "log",
+          "source": "conditional water-equivalent storage/head ratio"
+        },
+        "drainage_hours": {
+          "min": 3,
+          "max": 240,
+          "scale": "log",
+          "source": "conditional reservoir time constant; not fixed by external flow lag"
+        },
+        "connected_depth_m": {
+          "min": 2,
+          "max": 40,
+          "scale": "log",
+          "source": "conditional maximum connected water head"
+        },
+        "damage_rate_h_inv": {
+          "min": 1e-07,
+          "max": 0.0002,
+          "scale": "log",
+          "source": "phenomenological design range; not calibrated ice rheology"
+        },
+        "damage_exponent": {
+          "min": 2,
+          "max": 6,
+          "scale": "linear",
+          "source": "phenomenological stress-ratio power"
+        },
+        "initial_damage": {
+          "min": 0.05,
+          "max": 0.7,
+          "scale": "linear",
+          "source": "conditional cohesion loss fraction"
+        },
+        "drainage_damage_coupling": {
+          "min": 0,
+          "max": 3,
+          "scale": "linear",
+          "source": "conditional damage-enhanced drainage exp(-k*D)"
+        }
+      },
+      "states_per_scenario": 2089,
+      "run_horizon_hours": 2088,
+      "start_utc": "2026-06-01 00:00:00+00:00",
+      "end_utc": "2026-08-27 00:00:00+00:00",
+      "representative_scenarios": 64,
+      "representative_state_rows": 133696,
+      "max_water_budget_residual_m": 1.1546319456101628e-14,
+      "hourly_state_dt": 1,
+      "pressure_relation": "u=9.80665*storage_m/storativity [kPa]",
+      "coupling_scope": "H includes rain/melt supply and damage-dependent drainage; noH closes the hydrologic pathway. NoT fixes interface temperature. Damage is phenomenological."
+    },
+    "identifiability_ranks": [
+      {
+        "design": "margin_single",
+        "n_observations": 1,
+        "rank": 1,
+        "nullity": 3
+      },
+      {
+        "design": "margin_24_fixed_condition_repeats",
+        "n_observations": 24,
+        "rank": 1,
+        "nullity": 3
+      },
+      {
+        "design": "margin_plus_temperature",
+        "n_observations": 2,
+        "rank": 2,
+        "nullity": 2
+      },
+      {
+        "design": "margin_plus_temperature_pressure",
+        "n_observations": 3,
+        "rank": 3,
+        "nullity": 1
+      },
+      {
+        "design": "margin_plus_temperature_pressure_damage",
+        "n_observations": 4,
+        "rank": 4,
+        "nullity": 0
+      }
+    ],
+    "lab_strength": {
+      "trials": 141,
+      "author_derived_summaries": 14,
+      "new_fits": 32,
+      "holdout_folds": 576,
+      "warm_all_trials": 83,
+      "warm_all_folds_both_weights": 136,
+      "nominal_800_trials": 20,
+      "actual_800_stress_range_kpa": [
+        808.886485058098,
+        868.6324664032768
+      ],
+      "actual_800_temperature_range_c": [
+        -4.1,
+        -0.3
+      ],
+      "warm_row_OLS_comparison": [
+        {
+          "model": "mc_linear",
+          "train_rmse_kpa": 187.45467779022826,
+          "temperature_macro_rmse_kpa": 198.41407650031582,
+          "stress_macro_rmse_kpa": 296.3399924585788,
+          "heldout_800_rmse_kpa": 443.94029342565346
+        },
+        {
+          "model": "mc_temperature_quadratic",
+          "train_rmse_kpa": 185.39291515870255,
+          "temperature_macro_rmse_kpa": 236.2740134185117,
+          "stress_macro_rmse_kpa": 289.99688772213835,
+          "heldout_800_rmse_kpa": 421.0689942505907
+        },
+        {
+          "model": "mc_stress_quadratic",
+          "train_rmse_kpa": 174.32268958608284,
+          "temperature_macro_rmse_kpa": 196.51541833510512,
+          "stress_macro_rmse_kpa": 491.6103336685256,
+          "heldout_800_rmse_kpa": 925.776587102246
+        },
+        {
+          "model": "mc_stress_hinge_400",
+          "train_rmse_kpa": 177.406928870166,
+          "temperature_macro_rmse_kpa": 195.9450243406683,
+          "stress_macro_rmse_kpa": 1047.9338749228714,
+          "heldout_800_rmse_kpa": 2065.128580646233
+        }
+      ],
+      "macro_rmse_definition": "sqrt(mean(heldout_group_mean_squared_error)), distinct from pooled sample RMSE",
+      "interpretation": "external laboratory constitutive competition; repeated specimen identities uncertain; no local event validation; author Eq6 is reused fixed calibration reference, excluded from CV rankings",
+      "fixed_nominal_design_mean": {
+        "temperature_c": -2,
+        "normal_stress_kpa": 800,
+        "design_scaling": "t=T/5, s=sigma/400; columns[1,t,s,t*s]",
+        "row": [
+          1.0,
+          -0.4,
+          2.0,
+          -0.8
+        ],
+        "schemes": [
+          {
+            "scheme": "within_cell_independent_tests",
+            "mean_kpa": 659.3006982135558,
+            "mean_percentiles_2p5_50_97p5_kpa": [
+              614.4866188271816,
+              657.2878431184342,
+              714.293421927502
+            ],
+            "usable_draws": 1000
+          },
+          {
+            "scheme": "specimen_label_blocks_assumed",
+            "mean_kpa": 659.3006982135558,
+            "mean_percentiles_2p5_50_97p5_kpa": [
+              607.5750989593263,
+              662.1970947411046,
+              691.8812135658819
+            ],
+            "usable_draws": 1000
+          }
+        ],
+        "scope": "conditional fitted mean sensitivity from saved draws, not individual prediction interval or event coverage"
+      }
+    },
+    "author_selected_layers": [
+      {
+        "block": "nominal_100_400",
+        "selection": "published_significant_layers",
+        "temperature_layers": "[-8.0, -5.0, -4.0, -2.0, -0.5]"
+      },
+      {
+        "block": "nominal_100_400",
+        "selection": "warm_published_significant_layers",
+        "temperature_layers": "[-4.0, -2.0, -0.5]"
+      },
+      {
+        "block": "nominal_100_800",
+        "selection": "published_significant_layers",
+        "temperature_layers": "[-4.0, -2.0, -1.0, -0.5]"
+      }
+    ],
+    "SAR_local_symbol_window": [
+      {
+        "role": "pre",
+        "grid_cells": 625,
+        "valid_velocity_cells": 479,
+        "v_median_m_year": 27.0,
+        "v_error_median_m_year": 48.0
+      },
+      {
+        "role": "straddle",
+        "grid_cells": 625,
+        "valid_velocity_cells": 395,
+        "v_median_m_year": 26.0,
+        "v_error_median_m_year": 55.0
+      },
+      {
+        "role": "post",
+        "grid_cells": 625,
+        "valid_velocity_cells": 423,
+        "v_median_m_year": 28.0,
+        "v_error_median_m_year": 52.0
+      }
+    ],
+    "mechanical_implementation": {
+      "failure_margin": "(resistance-driving)/driving, positive stable",
+      "damage_rate": "a*min(driving/max(resistance,1e-6),10)^p; exponential state update of1-D; numerical upper capD=.999999",
+      "water_pressure_kpa_per_m_head": 9.80665,
+      "reservoir_capacity": "min(connected_depth,.98*sigma_n/G)*storativity",
+      "source_scope": "conditional plane slab and mixture; separate bridge-area fraction and bulk composition"
+    }
+  },
+  "source_files": [
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/scenario_outcomes.csv",
+      "bytes": 909276,
+      "sha256": "847143dc8ad8c495ea6e7747fbbcdb187ef465b9c7879fecb4717135372dc30c"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/model_comparison.csv",
+      "bytes": 1614,
+      "sha256": "add46d7873516e8b91db034308fd46b4eef08f912c9f442ce161b79b3a744921"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/summary.json",
+      "bytes": 3610,
+      "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/config.json",
+      "bytes": 4478,
+      "sha256": "539c6e857d5d07e2cab7a70346ec02d2aad13eb47ee546df17f797850446177d"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/parameter_ensemble.csv",
+      "bytes": 1171832,
+      "sha256": "8393874e341789316d2862435f8498ed8c9e01c4e3f674dc2b46d9bcadce6203"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/paired_v2_fd0625.csv",
+      "bytes": 576099,
+      "sha256": "a9a620bd0566603b22205c30babe8cbb5736585f6a845bd01576431b9830aac9"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/forcing_hourly.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/reflection_bounds.csv",
+      "bytes": 34816,
+      "sha256": "961f6fea14872b3d0c7cfa43f03f687a7b14750182eb94d5d04af53161b7a5c2"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/critical_relations.csv",
+      "bytes": 6626,
+      "sha256": "f2765fbc418e64ffb912dff736db255f2c513cf10dbc9df4a78a0db6ef58f551"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/joint_sensitivity.csv",
+      "bytes": 26199,
+      "sha256": "cc1df1e87bfb6a8ab0a0fa2086de5a3ebc4d11a39bec37101369c763afd77187"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/thermal_response_times.csv",
+      "bytes": 6840,
+      "sha256": "205b7501180039f697662088041f976bdd222738228305409112f41f2bd86d9f"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/state_trajectories.parquet",
+      "bytes": 3188841,
+      "sha256": "6592967eafdbdde9cce6c0547943abf7d15190c8ce9aac70f085b969ccf6e1bb"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/identifiability.csv",
+      "bytes": 4108,
+      "sha256": "618e58dab165a96f1fd22cc5a4a91f303a5ee883eaac9372481fac3ae9e16f7d"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/observations.csv",
+      "bytes": 577837,
+      "sha256": "7b0601f0b5c9aff60e79d2730ef21ac42c168f61b54984cd36d2b8175f58b600"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/fits.csv",
+      "bytes": 12631,
+      "sha256": "21c6c9c99fc2d4cf1b7a9e5e213e58726229dfd4059f77a707c19454e8474050"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/holdout_predictions.csv",
+      "bytes": 1896826,
+      "sha256": "53f92ea677dbc4a32273b2c62fac3e201cd62ae66e6aa5f2099a0ffb88a859e4"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/holdout_folds.csv",
+      "bytes": 256405,
+      "sha256": "d8e62b4e98a5c4e08f098ce934b343f52297f9be95559b45727b2c40e1b115f8"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/run_summary.json",
+      "bytes": 615,
+      "sha256": "3376cd75b5c8cde3c420857284beba541cc273fc06a35fe96dc89d06d2b7fb99"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/holdout_summary.csv",
+      "bytes": 19571,
+      "sha256": "4e219db8f5657112e1a027469903ea748ba32b87e7a3cebf8c3c1c78096d77e7"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/calibration_residuals.csv",
+      "bytes": 476771,
+      "sha256": "ec0e538d48db84929cacd63a76779d5ca0965fd3c70269918e494cc2ed864fec"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/coefficients.csv",
+      "bytes": 17367,
+      "sha256": "a4a6a418b4c534a2e57cb1ffabfcca05e9481be6814505500996ef746c532a6b"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/bootstrap_coefficient_draws.npz",
+      "bytes": 1264129,
+      "sha256": "906dd62c57558349a49231fe78938dca1937118af246e3e29a377eeba56ab5e6"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/author_results/source_stage2_weight_sensitivity.csv",
+      "bytes": 24666,
+      "sha256": "56998c132c2920076f521d73f1ebbe16877d4eb63fc413c6fdd56051b809e10c"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/sar_evidence_summary.csv",
+      "bytes": 2753,
+      "sha256": "8e21bf96b6cc2cef8132345a91ad5922553f48c6176d67ab0869906dcdcce351"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e"
+    },
+    {
+      "path": "track_b/paper/sections/q2.tex",
+      "bytes": 14816,
+      "sha256": "c6d55c822f99675f33f001839b7a02f732e3581d6ece50b63f74343759e9fed0"
+    },
+    {
+      "path": "track_b/paper/evidence/q2_references.tex",
+      "bytes": 1172,
+      "sha256": "f7e955db25aa677f411d6843415f32508cc28a198624a2638ed2bd8f91383559"
+    },
+    {
+      "path": "track_b/paper/evidence/q2_claims.json",
+      "bytes": 46560,
+      "sha256": "ebe11548e906cf4c7ee0c3e0801ac08476e146a1972aa6088881d0d0c650f954"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/run_experiments.py",
+      "bytes": 21983,
+      "sha256": "376fae8826c2be1abb87004b3340c5dd9a420d14087cf21b38d7d943a86ff0b1"
+    },
+    {
+      "path": "track_b/research/q2/round3/sources/strength/mamot2018_article.pdf",
+      "bytes": 8371754,
+      "sha256": "08662fb95d594e5a882957281aea00232918c1fa33f64c48748a2c9516670471"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/literature_facts.json",
+      "bytes": 9480,
+      "sha256": "3d8451dbe1b1a678db46e2189a7097406653ae2d5254598630fe018847cb301b"
+    },
+    {
+      "path": "track_b/research/q2/round3/config/experiment_v1.json",
+      "bytes": 4192,
+      "sha256": "9d108765f38fa142bfbcd09328967eb23a62ac0b3c0dc864dd678bcd8e92903a"
+    },
+    {
+      "path": "track_b/research/q2/round3/EXPERIMENT_PROTOCOL.md",
+      "bytes": 5797,
+      "sha256": "888b65535ff477f4e6ef07be3dfeea19392209d7903ef58559cb8473ad96626a"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analytic_thermal_engine.py",
+      "bytes": 7560,
+      "sha256": "a113d3f47e97266761fa47b7d6ed7e5a9e830edeeaf2ba3918a70db3c0003607"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/analytic_thermal/protocol.json",
+      "bytes": 1304,
+      "sha256": "1b775e7a942d9cbb0709d4a45f914fa3bba88e76229a466858911d2791bf53fd"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analyze_robustness.py",
+      "bytes": 4190,
+      "sha256": "fbf6345802318a7a54a2d307cfcb5f7b79af98ec64e9a906ac8dc3ac4f3ff355"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/identifiability_details.json",
+      "bytes": 22123,
+      "sha256": "c5b999fc8aec0255b9d5dd62bd0fddd7aadc79fffb489bf1d38d8131e3b36ea7"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/coefficient_strata.csv",
+      "bytes": 14516,
+      "sha256": "32739872d3b82ae79dc1bfaca0eaa114a43c3edc28dfc42f12cd0f62e8ceb1fe"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/audit/results/schema.json",
+      "bytes": 3878,
+      "sha256": "dc0858482123a6e75e5b0ba72f6555807623e01f55c5428ad172de832d755c1d"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/run_config.json",
+      "bytes": 1765,
+      "sha256": "91064a45f2b05dab0e79131394ede660634d6cebc3e29342737d5723a28f4e52"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/literature/figure6_temperature_screen.csv",
+      "bytes": 1752,
+      "sha256": "11c3078d5f3a1a56f28c400a8525878d3ea126a3990919a42d7a1ad6975155c9"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/REPORT.md",
+      "bytes": 11135,
+      "sha256": "557cd7ec79212c9f8f9b1c406db35ef89759ec204512a172652b11e0911079bd"
+    },
+    {
+      "path": "track_b/research/q2/round3/lab_strength/model/results/decision_summary.json",
+      "bytes": 19760,
+      "sha256": "10ca4ed72ad0c552757b79543ef668a2f052b9717205af3cff06404f26995a2c"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+      "bytes": 18809,
+      "sha256": "b735a06df83702bdc41bac9795da0b53c43fc384143712a8c6afd235c1984c63"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_figure_sources.json",
+      "bytes": 38467,
+      "sha256": "cb18fa6985f86111056219d7454fb1cf9c910f7e51beac4a2d022b3577d97a0f"
+    },
+    {
+      "path": "track_b/paper/scripts/q2_make_figures.py",
+      "bytes": 17938,
+      "sha256": "9c2ee22d79d5d5a289491266b569e4e882c76b5c2312bf1c0c0c943998fa8e34"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+      "bytes": 36430,
+      "sha256": "883ca10cd9ef32d91248d72fe2a11fe64124f573b6f4f9b8786600eb02bb6d0d"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+      "bytes": 14066,
+      "sha256": "aa33e916a917a17b9c3efc8ede1958ea412a30d913ff23ad147bd755d196eae7"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_mechanism_comparison.png",
+      "bytes": 84800,
+      "sha256": "b951b355248495338353f2220740ffeac4ad39ec34970a02e6d90be7b6aa1520"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+      "bytes": 163985,
+      "sha256": "d82a8fcc7e9d2470e58df59062154dfd4276cb60cec867ac78c7ea559ccf66b6"
+    },
+    {
+      "path": "track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+      "bytes": 64292,
+      "sha256": "4d61c13044ae56547e6c8552238e946412e7f6b18fe875beb526a6c62e771cda"
+    }
+  ],
+  "paper_review": {
+    "status": "passed_including_manual_numeric_prose_and_visual_review",
+    "claims": 22,
+    "source_file_references_verified": 51,
+    "citations": [
+      "q2-benasher2026",
+      "q2-mamot2018",
+      "q2-weber2025"
+    ],
+    "figure_files": [
+      {
+        "path": "track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+        "sha256": "883ca10cd9ef32d91248d72fe2a11fe64124f573b6f4f9b8786600eb02bb6d0d"
+      },
+      {
+        "path": "track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+        "sha256": "b735a06df83702bdc41bac9795da0b53c43fc384143712a8c6afd235c1984c63"
+      },
+      {
+        "path": "track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+        "sha256": "aa33e916a917a17b9c3efc8ede1958ea412a30d913ff23ad147bd755d196eae7"
+      }
+    ],
+    "style_warnings": [],
+    "manual_prose_snapshot_matches": true,
+    "visual_review": [
+      {
+        "path": "track_b/paper/figures/q2/q2_mechanism_comparison.png",
+        "sha256": "b951b355248495338353f2220740ffeac4ad39ec34970a02e6d90be7b6aa1520",
+        "matches_actually_opened_snapshot": true
+      },
+      {
+        "path": "track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+        "sha256": "d82a8fcc7e9d2470e58df59062154dfd4276cb60cec867ac78c7ea559ccf66b6",
+        "matches_actually_opened_snapshot": true
+      },
+      {
+        "path": "track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+        "sha256": "4d61c13044ae56547e6c8552238e946412e7f6b18fe875beb526a6c62e771cda",
+        "matches_actually_opened_snapshot": true
+      }
+    ],
+    "manual_review_scope": "All numerical statements, seven equation groups, three tables, captions and 22 claim values against independent facts and actual sources. Gamma_w units, source screening cohorts, conditional means and formula scope checked. Figures reviewed from actual PNG snapshots, not inferred from generation success. No new mechanism calibration or event validation."
+  },
+  "command": "track_b/.venv/bin/python track_b/paper/scripts/q2_review_paper.py --paper",
+  "scope": "Read historical results only; independent counts, medians, sensitivity ranks, response erfc, reflection bounds, state/time invariants and lab RMSE from individual residuals; saved bootstrap coefficient arithmetic only, no resampling. No historical files modified."
+}

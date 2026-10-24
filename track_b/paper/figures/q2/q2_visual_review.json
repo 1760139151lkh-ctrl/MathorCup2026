@@ -1,0 +1,92 @@
+{
+  "reviewer": "Q2 plotting subagent; AI technical visual review, not team scientific adoption",
+  "reviewed_at_utc": "2026-10-24T13:56:25.628321+00:00",
+  "figure_sources_sha256": "cb18fa6985f86111056219d7454fb1cf9c910f7e51beac4a2d022b3577d97a0f",
+  "supersedes_generator_pending_visual_review_status": true,
+  "items": [
+    {
+      "figure_id": "q2-mechanism-comparison",
+      "pdf": {
+        "path": "track_b/paper/figures/q2/q2_mechanism_comparison.pdf",
+        "bytes": 18809,
+        "sha256": "b735a06df83702bdc41bac9795da0b53c43fc384143712a8c6afd235c1984c63",
+        "role": "publication_figure"
+      },
+      "png": {
+        "path": "track_b/paper/figures/q2/q2_mechanism_comparison.png",
+        "bytes": 84800,
+        "sha256": "b951b355248495338353f2220740ffeac4ad39ec34970a02e6d90be7b6aa1520",
+        "role": "300dpi_visual_review"
+      },
+      "actual_open_method": "PDF rendered with pdftoppm180dpi, then actually opened with view_image",
+      "reviewed_pdf_render_sha256": "adee3956df43e9c912ed46ab86f9ac8d6468c6ee0d9f1ef71c52e4cb24abdcb0",
+      "temporary_render_retained": false,
+      "poppler_warnings": [],
+      "visual_checks": {
+        "Chinese_labels_legible": true,
+        "labels_and_legends_not_overlapping": true,
+        "no_clipping": true,
+        "units_present": true
+      },
+      "review_note": "图例与面板标题分开，脚注转入正文图注记录；临界根状态保留；图3数字与标记垂直错位防止贴连。"
+    },
+    {
+      "figure_id": "q2-critical-head-sensitivity",
+      "pdf": {
+        "path": "track_b/paper/figures/q2/q2_critical_head_sensitivity.pdf",
+        "bytes": 36430,
+        "sha256": "883ca10cd9ef32d91248d72fe2a11fe64124f573b6f4f9b8786600eb02bb6d0d",
+        "role": "publication_figure"
+      },
+      "png": {
+        "path": "track_b/paper/figures/q2/q2_critical_head_sensitivity.png",
+        "bytes": 163985,
+        "sha256": "d82a8fcc7e9d2470e58df59062154dfd4276cb60cec867ac78c7ea559ccf66b6",
+        "role": "300dpi_visual_review"
+      },
+      "actual_open_method": "PDF rendered with pdftoppm180dpi, then actually opened with view_image",
+      "reviewed_pdf_render_sha256": "983a629b5d3328509f17df9477d3a5e2f47ef611e092f71401e44b901284fb2e",
+      "temporary_render_retained": false,
+      "poppler_warnings": [],
+      "visual_checks": {
+        "Chinese_labels_legible": true,
+        "labels_and_legends_not_overlapping": true,
+        "no_clipping": true,
+        "units_present": true
+      },
+      "review_note": "图例与面板标题分开，脚注转入正文图注记录；临界根状态保留；图3数字与标记垂直错位防止贴连。"
+    },
+    {
+      "figure_id": "q2-lab-grouped-validation",
+      "pdf": {
+        "path": "track_b/paper/figures/q2/q2_lab_grouped_validation.pdf",
+        "bytes": 14066,
+        "sha256": "aa33e916a917a17b9c3efc8ede1958ea412a30d913ff23ad147bd755d196eae7",
+        "role": "publication_figure"
+      },
+      "png": {
+        "path": "track_b/paper/figures/q2/q2_lab_grouped_validation.png",
+        "bytes": 64292,
+        "sha256": "4d61c13044ae56547e6c8552238e946412e7f6b18fe875beb526a6c62e771cda",
+        "role": "300dpi_visual_review"
+      },
+      "actual_open_method": "PDF rendered with pdftoppm180dpi, then actually opened with view_image",
+      "reviewed_pdf_render_sha256": "9a88a69df833925893c8f74181d3201ad18294932aaa2d7bd2e2ea0d21ddd6ab",
+      "temporary_render_retained": false,
+      "poppler_warnings": [],
+      "visual_checks": {
+        "Chinese_labels_legible": true,
+        "labels_and_legends_not_overlapping": true,
+        "no_clipping": true,
+        "units_present": true
+      },
+      "review_note": "图例与面板标题分开，脚注转入正文图注记录；临界根状态保留；图3数字与标记垂直错位防止贴连。"
+    }
+  ],
+  "all3_final_pdf_renders_actually_opened": true,
+  "all3_single_page_fonts_embedded_and_no_raster_images": true,
+  "research_models_rerun": 0,
+  "new_scenarios": 0,
+  "source_hash_checks_passed": true,
+  "pdf_skill_marker_calls_this_task": 1
+}
