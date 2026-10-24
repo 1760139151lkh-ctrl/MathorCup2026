@@ -1,0 +1,26 @@
+{
+  "version": "q4-r3-optical-agreement-protocol-v1",
+  "registered_at_utc": "2026-10-24T08:00:29.154194+00:00",
+  "registered_before_model_optical_agreement_calculation": true,
+  "mask_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spectral-screen-v2_masks.npz",
+  "mask_sha256": "b350e6022beadd7f0bbecd53f29415b3d15fbc756cd90a33d595509ed9b0562b",
+  "main_mask": "change_candidate",
+  "sensitivity_mask": "change_candidate_ge9",
+  "evaluation_domains": [
+    "paired valid full shared model domain",
+    "paired valid within250m of union of P1/P2/P3 terrain paths"
+  ],
+  "model_footprint": "max over available stored depth outputs h>=0.1m, nearest reproject to optical10m grid; preserves20/30s sampling and60/120m native model resolution",
+  "metrics": [
+    "intersection_area_m2",
+    "union_area_m2",
+    "intersection_over_union",
+    "candidate_change_covered_fraction",
+    "model_area_with_candidate_change_fraction"
+  ],
+  "comparison_role": "Exploratory retrospective spatial agreement, not calibration, independent validation, causality or a scored accuracy benchmark",
+  "independent_event_validation_count": 0,
+  "one_dimensional_excluded": "Equivalent constant width has no uniquely observed lateral footprint; do not rasterize it as real inundation",
+  "all_completed_2d_models": "Retain unqualified reduced outputs with flag, native failures separately; do not select by best agreement",
+  "weights": null
+}

@@ -1,0 +1,961 @@
+{
+  "checked_utc": "2026-10-24T11:19:05.565278+00:00",
+  "control_index_sha256": "b696597dba57cbca397de9f6de6e6a1572d7ee424ed599653b1456e889a60d20",
+  "replay_script_sha256": "2443d1c5c8fb41d3d21f0c18f8e63a720fb5fc2385dcd2df08df6d2b46974313",
+  "checked_run_count": 50,
+  "checks": [
+    {
+      "run_id": "bowlrest_60_ravaflow_multi__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "bowlrest_60_ravaflow_multi__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_bowlrest_60_ravaflow_multi__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_multi__sf0__resourcefix",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "bowlrest_60_ravaflow_multi__sf0__resourcefix",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_bowlrest_60_ravaflow_multi__sf0__resourcefix"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": true,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "bowlrest_60_ravaflow_single",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_bowlrest_60_ravaflow_single"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work/q4/official"
+      ]
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "bowlrest_60_ravaflow_single__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_bowlrest_60_ravaflow_single__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf0__noa",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "bowlrest_60_ravaflow_single__sf0__noa",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_bowlrest_60_ravaflow_single__sf0__noa"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf0__resourcefix",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "bowlrest_60_ravaflow_single__sf0__resourcefix",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_bowlrest_60_ravaflow_single__sf0__resourcefix"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": true,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf1",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "bowlrest_60_ravaflow_single__sf1",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_bowlrest_60_ravaflow_single__sf1"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf1__resourcefix",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "bowlrest_60_ravaflow_single__sf1__resourcefix",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_bowlrest_60_ravaflow_single__sf1__resourcefix"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": true,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "composite_RI_water_120__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "composite_RI_water_120__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_composite_RI_water_120__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "composite_RI_water_nodragvm_120__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "composite_RI_water_nodragvm_120__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_composite_RI_water_nodragvm_120__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "composite_rock_water_120__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "composite_rock_water_120__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_composite_rock_water_120__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_dclaw_loose",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_dclaw_loose",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_dclaw_loose"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_dclaw_nopressure",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_dclaw_nopressure",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_dclaw_nopressure"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_dclaw_permeable",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_dclaw_permeable",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_dclaw_permeable"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_dclaw_ref",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_dclaw_ref",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_dclaw_ref"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work/q4/official"
+      ]
+    },
+    {
+      "run_id": "copdem_120_multi_ref__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_multi_ref__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_multi_ref__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_single_cfl025__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_single_cfl025__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_single_cfl025__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_single_entrain1m_P1buf250__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_single_entrain1m_P1buf250__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_single_entrain1m_P1buf250__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_single_h136__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_single_h136__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_single_h136__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_single_h30__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_single_h30__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_single_h30__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_single_h5__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_single_h5__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_single_h5__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_single_mu0p08__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_single_mu0p08__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_single_mu0p08__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_single_mu0p25__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_single_mu0p25__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_single_mu0p25__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_single_ref",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_single_ref",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_single_ref"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work/q4/official"
+      ]
+    },
+    {
+      "run_id": "copdem_120_single_ref__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_single_ref__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_single_ref__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_single_xi2000__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_single_xi2000__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_single_xi2000__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_120_single_xi500__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_120_single_xi500__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_120_single_xi500__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_60_dclaw_loose",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_60_dclaw_loose",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_60_dclaw_loose"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_60_dclaw_nopressure",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_60_dclaw_nopressure",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_60_dclaw_nopressure"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_60_dclaw_permeable",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_60_dclaw_permeable",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_60_dclaw_permeable"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_60_dclaw_ref",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_60_dclaw_ref",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_60_dclaw_ref"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "copdem_60_single_ref__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "copdem_60_single_ref__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_copdem_60_single_ref__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "dclaw_ref_extended120",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "dclaw_ref_extended120",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_dclaw_ref_extended120"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "flatrest_60_dclaw",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "flatrest_60_dclaw",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_flatrest_60_dclaw"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work/q4/official"
+      ]
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_multi",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "flatrest_60_ravaflow_multi",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_flatrest_60_ravaflow_multi"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_multi__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "flatrest_60_ravaflow_multi__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_flatrest_60_ravaflow_multi__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_multi__sf0__resourcefix",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "flatrest_60_ravaflow_multi__sf0__resourcefix",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_flatrest_60_ravaflow_multi__sf0__resourcefix"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": true,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "flatrest_60_ravaflow_single",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_flatrest_60_ravaflow_single"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work/q4/official"
+      ]
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "flatrest_60_ravaflow_single__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_flatrest_60_ravaflow_single__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single__sf0__noa",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "flatrest_60_ravaflow_single__sf0__noa",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_flatrest_60_ravaflow_single__sf0__noa"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single__sf0__resourcefix",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "flatrest_60_ravaflow_single__sf0__resourcefix",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_flatrest_60_ravaflow_single__sf0__resourcefix"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": true,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "q2full_q2r3_p0000_S_linear__geomv2_60m",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_q2full_q2r3_p0000_S_linear__geomv2_60m"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_q2full_q2r3_p0000_S_linear__geomv2_60m__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "q2map60_q2r3_p0000_S_linear",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_q2map60_q2r3_p0000_S_linear"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work/q4/official"
+      ]
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "q2map60_q2r3_p0000_S_linear__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_q2map60_q2r3_p0000_S_linear__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "q2map60_q2r3_p0036_S_T_linear__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "q2map60_q2r3_p0036_S_T_linear__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_q2map60_q2r3_p0036_S_T_linear__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "q2map60_q2r3_p0072_S_H_linear__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_q2map60_q2r3_p0072_S_H_linear__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "description_command": [
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/.venv/bin/python",
+        "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/scripts/official_replay_native.py",
+        "--run-id",
+        "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+        "--output-dir",
+        "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/replays/validation_only_q2map60_q2r3_p0255_S_T_H_linear__sf0"
+      ],
+      "inputs_and_control_hashes_verified": true,
+      "shell_syntax_checked": true,
+      "output_directory_not_created": true,
+      "native_replay_executed": false,
+      "fixed_addon": false,
+      "readonly_evidence_mounts": [
+        "/work"
+      ]
+    }
+  ],
+  "scope": "plan/identity/input/control hashes and shell syntax only; no extra native solver run",
+  "regression": "ravaflow mount and script use actual top-level run_grass.sh, not archived attempts or stale expanded parameter paths",
+  "physics_accuracy_or_replay_execution_qualified": false
+}

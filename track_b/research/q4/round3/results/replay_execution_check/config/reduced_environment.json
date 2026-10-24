@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-24T07:42:25.436085+00:00",
+  "python": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/venv/bin/python",
+  "python_version": "3.12.14 (main, Aug 25 2026, 13:50:22) [Clang 22.1.3 ]",
+  "numba": "0.62.1",
+  "numpy": "2.3.5",
+  "rasterio": "1.5.2",
+  "matplotlib": "3.11.2",
+  "uses_numba_jit": true,
+  "cache_root": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced",
+  "original_44_package_venv_unchanged": true,
+  "pth_bridge": "original_scientific_stack.pth adds original venv site after local site",
+  "install_commands": [
+    "python -m venv /Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/venv",
+    "reduced/venv/bin/python -m pip install --only-binary=:all: numba==0.62.1 numpy==2.3.5"
+  ],
+  "failed_attempt": {
+    "numba": "0.68.0",
+    "reason": "no compatible llvmlite0.50 binary and source build lacks LLVM; no toolchain installed; superseded by compatible wheels"
+  },
+  "freeze_sha256": "09311aefffac85a082b680c176b1912335a1c7a96467cd198ecc31c181db035e"
+}

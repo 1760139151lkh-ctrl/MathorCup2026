@@ -1,0 +1,10 @@
+{
+  "container_name": "mathorcup-r3-toolchain-build",
+  "container_id": "ad84a77a0ea9eb7447f61eb2e08756f00665429b7c90f8744a957efd918fd8c7",
+  "base_image_id": "sha256:0e0a0fc6d18feda9db1590da249ac93e8d5abfea8f4c3c0c849ce512b5ef8982",
+  "published_solver_image_id": null,
+  "fixed_source_manifest": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/source_versions.json",
+  "source_versions_sha256": "7d71429b432b5ca4699bf0fbc35ffc9457faedc1ee6396023bbde880143c8d2e",
+  "scope": "authorised existing local compiled container; /opt sources untouched",
+  "inspected_utc": "2026-10-24T07:58:09.184738+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "version": "q4-r3-spectral-screen-v2",
+  "files": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spectral-screen-v2_masks.npz",
+      "bytes": 50721,
+      "sha256": "b350e6022beadd7f0bbecd53f29415b3d15fbc756cd90a33d595509ed9b0562b",
+      "role": "exploratory paired spectral masks; not accepted event footprint"
+    }
+  ],
+  "schema": {
+    "valid_pair": "bool HxW: both SCL4/5, DN>1 and finite NDVI",
+    "change_candidate": "bool HxW: valid_pair, preNDVI>0.4 postNDVI<0.3 delta<-0.3",
+    "change_candidate_ge9": "bool HxW: change_candidate retained 4-neighbor components>=9pixels",
+    "affine": "6 floats [a,b,c,d,e,f], x=a*col+b*row+c y=d*col+e*row+f",
+    "crs": "scalar EPSG:32645; rows north-to-south",
+    "geometry_version": "scalar q4-r3-spectral-screen-v2",
+    "pre_scene": "scalar scene ID",
+    "post_scene": "scalar scene ID"
+  },
+  "shape": [
+    924,
+    1800
+  ],
+  "resolution_m": 10,
+  "data_role": "exploration",
+  "evaluation_stratum": "local_observational",
+  "observation_role": "exploratory spectral proxy, not accepted event footprint",
+  "limitations": [
+    "47-day interval includes vegetation seasonality and unrelated processes",
+    "SCL and image registration errors unvalidated locally",
+    "routes/threshold selection are exploration, not independent model validation",
+    "No causal debris-flow footprint acceptance",
+    "Spatial agreement measured only on valid_pair; masked/unobservable pixels are not negative observations",
+    "Centerline and structure duplicates are not independent targets; repeated pixels are not independent events",
+    "For comparison, reproject model inundation to this 10m grid with nearest; this adds no model resolution, record 60m/120m support"
+  ]
+}

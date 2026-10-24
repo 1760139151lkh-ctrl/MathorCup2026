@@ -1,0 +1,136 @@
+{
+  "reads": [
+    {
+      "item_id": "S2C_45RUM_20260812_0_L2A",
+      "band": "red",
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2C_45RUM_20260812_0_L2A/B04.tif",
+      "product_version": "05.12",
+      "read_at_utc": "2026-10-24T07:59:52.256630+00:00",
+      "retrieved_at_utc": "2026-10-24T07:48:30.898802+00:00",
+      "retrieval_time_basis": "derived cache file completion mtime from original write, not scene availability",
+      "actual_read_scope": {
+        "type": "COG 10m raster window",
+        "bounds_utm45n": [
+          339480.0,
+          3127680.0,
+          357480.0,
+          3136920.0
+        ],
+        "shape": [
+          924,
+          1800
+        ]
+      },
+      "derived_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_red_crop.tif",
+      "derived_bytes": 2512641,
+      "derived_sha256": "2939638d36c235ee767cc1662b3608d47edfd0e0457f1821d5bd6e785b178419",
+      "source_complete_sha256": null,
+      "source_complete_bytes": null,
+      "source_null_reason": "HTTP byte-range window, full source object not downloaded",
+      "scale": 0.0001,
+      "declared_offset": -0.1,
+      "effective_offset": 0.0,
+      "earthsearch_boa_offset_applied": true,
+      "available_time": null
+    },
+    {
+      "item_id": "S2C_45RUM_20260812_0_L2A",
+      "band": "nir",
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2C_45RUM_20260812_0_L2A/B08.tif",
+      "product_version": "05.12",
+      "read_at_utc": "2026-10-24T07:59:52.550647+00:00",
+      "retrieved_at_utc": "2026-10-24T07:48:35.553067+00:00",
+      "retrieval_time_basis": "derived cache file completion mtime from original write, not scene availability",
+      "actual_read_scope": {
+        "type": "COG 10m raster window",
+        "bounds_utm45n": [
+          339480.0,
+          3127680.0,
+          357480.0,
+          3136920.0
+        ],
+        "shape": [
+          924,
+          1800
+        ]
+      },
+      "derived_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_nir_crop.tif",
+      "derived_bytes": 2812167,
+      "derived_sha256": "feaddba7fed82910072e87d88df3c1fc0cd8d641dddd049d2aca5e3a02250081",
+      "source_complete_sha256": null,
+      "source_complete_bytes": null,
+      "source_null_reason": "HTTP byte-range window, full source object not downloaded",
+      "scale": 0.0001,
+      "declared_offset": -0.1,
+      "effective_offset": 0.0,
+      "earthsearch_boa_offset_applied": true,
+      "available_time": null
+    },
+    {
+      "item_id": "S2C_45RUM_20260928_0_L2A",
+      "band": "red",
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/9/S2C_45RUM_20260928_0_L2A/B04.tif",
+      "product_version": "05.13",
+      "read_at_utc": "2026-10-24T07:59:52.891429+00:00",
+      "retrieved_at_utc": "2026-10-24T07:48:39.219703+00:00",
+      "retrieval_time_basis": "derived cache file completion mtime from original write, not scene availability",
+      "actual_read_scope": {
+        "type": "COG 10m raster window",
+        "bounds_utm45n": [
+          339480.0,
+          3127680.0,
+          357480.0,
+          3136920.0
+        ],
+        "shape": [
+          924,
+          1800
+        ]
+      },
+      "derived_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_red_crop.tif",
+      "derived_bytes": 2209366,
+      "derived_sha256": "e87ff1fe3ffd877053b86c7f89d1c60578df0971ec97aa72a55774c651b82329",
+      "source_complete_sha256": null,
+      "source_complete_bytes": null,
+      "source_null_reason": "HTTP byte-range window, full source object not downloaded",
+      "scale": 0.0001,
+      "declared_offset": -0.1,
+      "effective_offset": 0.0,
+      "earthsearch_boa_offset_applied": true,
+      "available_time": null
+    },
+    {
+      "item_id": "S2C_45RUM_20260928_0_L2A",
+      "band": "nir",
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/9/S2C_45RUM_20260928_0_L2A/B08.tif",
+      "product_version": "05.13",
+      "read_at_utc": "2026-10-24T07:59:52.955992+00:00",
+      "retrieved_at_utc": "2026-10-24T07:48:42.871757+00:00",
+      "retrieval_time_basis": "derived cache file completion mtime from original write, not scene availability",
+      "actual_read_scope": {
+        "type": "COG 10m raster window",
+        "bounds_utm45n": [
+          339480.0,
+          3127680.0,
+          357480.0,
+          3136920.0
+        ],
+        "shape": [
+          924,
+          1800
+        ]
+      },
+      "derived_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_nir_crop.tif",
+      "derived_bytes": 2342254,
+      "derived_sha256": "ce73a1d87a30abe2ba54413159d77c06abf65a946d219c349461c407edc0a4ec",
+      "source_complete_sha256": null,
+      "source_complete_bytes": null,
+      "source_null_reason": "HTTP byte-range window, full source object not downloaded",
+      "scale": 0.0001,
+      "declared_offset": -0.1,
+      "effective_offset": 0.0,
+      "earthsearch_boa_offset_applied": true,
+      "available_time": null
+    }
+  ]
+}

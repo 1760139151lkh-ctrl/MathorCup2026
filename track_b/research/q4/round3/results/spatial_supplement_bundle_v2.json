@@ -1,0 +1,156 @@
+{
+  "bundle_version": "q4-r3-spatial-supplement-v2",
+  "producer_question": "q4",
+  "input_version": {
+    "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+    "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+  },
+  "evaluation_stratum": "conditional_scenario",
+  "observation_role": "supplement includes explicitly separated local observational proxies",
+  "files": [
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_dem_comparison.png",
+      "bytes": 193318,
+      "sha256": "1b5f0b7a3cb451c97b272b46ee73f8a605e04b12aa8f2c05f9e6fefc6300edf6",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_edge_connectors_v2.png",
+      "bytes": 81767,
+      "sha256": "0a7a9df5c1aae04f714f6e4dbf261f90152827857e4505ce4fb0f4153946a81e",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_optical_candidates.png",
+      "bytes": 1427959,
+      "sha256": "d4ebdca3dadb480688c56bc35bbd4fcb78c7af5b9d82fc48e73749a54ca888f7",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_osm_objects_v2.png",
+      "bytes": 1339150,
+      "sha256": "a81e8a38d8bc41a3b195d9814622020c182e2d01a6d8a9edac629d948374056f",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_spectral_screen.png",
+      "bytes": 1136924,
+      "sha256": "b818806e4ae1f11f4a440e9f22f2cf80be0258a06047ef64cb35a8276fda5206",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_terrain_paths_review_v2.png",
+      "bytes": 369141,
+      "sha256": "2cbb8b9dbbc02c4d0c6889e71c0ed75e8604fb86aa3063b7e18787a01580ab29",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_dem_comparison.json",
+      "bytes": 1231,
+      "sha256": "f7f020dc52bc0e09149f2822b25a11c201dc61682fb8b09cff6bd5d501bbaa40",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_edge_connectors_v2.csv",
+      "bytes": 2897,
+      "sha256": "d33947eaa3004e49d76946325d98a28d87282fb995ac895ff67845ed41ef115e",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_edge_connectors_v2.geojson",
+      "bytes": 7404,
+      "sha256": "77292194c3c95d990fa9cc7a6a937bdeb95d8d49980d23e05e5fa3fee02ea714",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_edge_review_v2.json",
+      "bytes": 3806,
+      "sha256": "d80ebb2ef8beef686ecdcbaff040da4e8d8b74c118a8beaf6b497fc58123e7a1",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_optical_quality.json",
+      "bytes": 8819,
+      "sha256": "115899242f0c1000cfed096a7aa0cb1f36e555d8504a3e5d2e0194daaa417630",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_osm_objects_v2.geojson",
+      "bytes": 602099,
+      "sha256": "9ef2579afd5611a66b9bbc7be0789c279936fedc38abd7847b260d718914b80d",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_osm_review_v2.json",
+      "bytes": 8170,
+      "sha256": "d8bc6620ffe6531d58e0df5e8886aa2079a732efb130aad680adcfd53cdce515",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_radiometry_check.json",
+      "bytes": 7897,
+      "sha256": "50e9fa6e865b1e8ba144c9fbedabb8b4d7d16fb78eb4f0882ccc32256423b8ba",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_source_index.json",
+      "bytes": 17692,
+      "sha256": "a1096013df0785fb19887cdcd4763388de3be11f8907962ecb2e91c0bc6cc109",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_spectral_change_candidates.geojson",
+      "bytes": 816406,
+      "sha256": "2df1acab8219a0a93f75d4dbe53da3a99bb6de64f01e0e03739ff6ae1f341cd7",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_spectral_mask_index.json",
+      "bytes": 1780,
+      "sha256": "569cd372ae205badf0919ba941b8a5aae0fa455058f33a51906831ac40c69611",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_spectral_naive_offset_rejected.json",
+      "bytes": 4429,
+      "sha256": "682c1c2233776be9a867bc089ceed7bb301c3442b75ff5a4b2856994828f344b",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_spectral_screen.json",
+      "bytes": 4993,
+      "sha256": "c219acbfdce668cfa46cacdef1d134e184ff9003a8cfaf589269b93ddffc5a6f",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_targets_v2.csv",
+      "bytes": 1483,
+      "sha256": "6735c7dbb668c97bd73024050cbd0b7d1570bb78382dce005dddd983a276b18d",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_validation.json",
+      "bytes": 5685,
+      "sha256": "3ae68c889b82b4dd8f545a56284696954cf06094cac8a736800b80fa2066562a",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/results/spatial_visual_review.json",
+      "bytes": 3033,
+      "sha256": "2d63d433a861d348c063d5b4279bf16f2c205174c1b85f9945d915c43cde40f7",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    },
+    {
+      "path": "track_b/research/q4/round3/spatial_report.md",
+      "bytes": 12311,
+      "sha256": "8c34c04d1aa51fe04e5597ccfc4989f49622cbe34611df7da904fb027a8276c4",
+      "role": "spatial supplement; per-file evidence boundaries in report"
+    }
+  ],
+  "limitations": [
+    "No accepted event failure boundary, actual path, protected-facility extent, or causal inundation footprint",
+    "Spectral agreement is exploration only; rejected offset trial cannot be used",
+    "OSM object representations are not independent entities; last edit not observation time",
+    "Original v1 geometry bundle and bound artifacts remain byte unchanged"
+  ]
+}

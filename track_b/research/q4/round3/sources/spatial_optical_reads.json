@@ -1,0 +1,97 @@
+{
+  "reads": [
+    {
+      "item_id": "S2C_45RUM_20260812_0_L2A",
+      "acquisition_time_utc": "2026-08-12T05:10:48.070000Z",
+      "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2C_45RUM_20260812_0_L2A/TCI.tif",
+      "product_version": "05.12",
+      "read_at_utc": "2026-10-24T07:55:12.600917+00:00",
+      "retrieved_at_utc": "2026-10-24T07:37:47.322381+00:00",
+      "retrieval_time_basis": "derived cache file completion mtime from original write, not scene availability",
+      "actual_read_scope": {
+        "type": "full-resolution TCI raster window",
+        "bounds_utm45n": [
+          339480.0,
+          3127680.0,
+          357480.0,
+          3136920.0
+        ],
+        "derived_shape": [
+          3,
+          924,
+          1800
+        ],
+        "note": "TCI visualization; no surface-reflectance quantitative change inference"
+      },
+      "derived_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_visual_crop.tif",
+      "derived_bytes": 4003253,
+      "derived_sha256": "699a4b0b1e5d80ba78c9e152c0722b020e5d0b9d8b88039807791ddbed164cca",
+      "source_object_complete_bytes": null,
+      "source_object_complete_sha256": null,
+      "null_reason": "source COG read by HTTP byte ranges unless full cached acquisition separately recorded",
+      "available_time": null
+    },
+    {
+      "item_id": "S2B_45RUM_20260824_0_L2A",
+      "acquisition_time_utc": "2026-08-24T05:00:49.736000Z",
+      "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2B_45RUM_20260824_0_L2A/TCI.tif",
+      "product_version": "05.12",
+      "read_at_utc": "2026-10-24T07:55:12.960508+00:00",
+      "retrieved_at_utc": "2026-10-24T07:37:54.326442+00:00",
+      "retrieval_time_basis": "derived cache file completion mtime from original write, not scene availability",
+      "actual_read_scope": {
+        "type": "full-resolution TCI raster window",
+        "bounds_utm45n": [
+          339480.0,
+          3127680.0,
+          357480.0,
+          3136920.0
+        ],
+        "derived_shape": [
+          3,
+          924,
+          1800
+        ],
+        "note": "TCI visualization; no surface-reflectance quantitative change inference"
+      },
+      "derived_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2B_45RUM_20260824_0_L2A_visual_crop.tif",
+      "derived_bytes": 2458080,
+      "derived_sha256": "b9540c7982c0bd0434a12b91b8f9c9fbfd79de69efeaa9af815d118757b5117d",
+      "source_object_complete_bytes": null,
+      "source_object_complete_sha256": null,
+      "null_reason": "source COG read by HTTP byte ranges unless full cached acquisition separately recorded",
+      "available_time": null
+    },
+    {
+      "item_id": "S2C_45RUM_20260928_0_L2A",
+      "acquisition_time_utc": "2026-09-28T05:00:54.257000Z",
+      "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/9/S2C_45RUM_20260928_0_L2A/TCI.tif",
+      "product_version": "05.13",
+      "read_at_utc": "2026-10-24T07:55:13.161011+00:00",
+      "retrieved_at_utc": "2026-10-24T07:37:56.688157+00:00",
+      "retrieval_time_basis": "derived cache file completion mtime from original write, not scene availability",
+      "actual_read_scope": {
+        "type": "full-resolution TCI raster window",
+        "bounds_utm45n": [
+          339480.0,
+          3127680.0,
+          357480.0,
+          3136920.0
+        ],
+        "derived_shape": [
+          3,
+          924,
+          1800
+        ],
+        "note": "TCI visualization; no surface-reflectance quantitative change inference"
+      },
+      "derived_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_visual_crop.tif",
+      "derived_bytes": 2585714,
+      "derived_sha256": "2e98c9ec36620ef43e9f9484779f4157afce68363de140d86096f4781a804eda",
+      "source_object_complete_bytes": null,
+      "source_object_complete_sha256": null,
+      "null_reason": "source COG read by HTTP byte ranges unless full cached acquisition separately recorded",
+      "available_time": null
+    }
+  ]
+}

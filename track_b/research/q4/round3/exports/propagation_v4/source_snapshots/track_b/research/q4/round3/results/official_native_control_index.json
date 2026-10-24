@@ -1,0 +1,2604 @@
+{
+  "indexed_utc": "2026-10-24T11:18:58.016872+00:00",
+  "runs": [
+    {
+      "run_id": "bowlrest_60_ravaflow_multi__sf0",
+      "model": "ravaflow_multi",
+      "execution_sha256": "e51e4c13ecc47cb23154a00296229398684cf5d6144ab4c603510d7a784d6018",
+      "case_sha256": "7bcc67e99239563bc232d9b5bbc060742a64ab861d2c8877cfee1bc3b9f550af",
+      "log_sha256": "c2f84fe858a3a93a466b5d37f76d3d3bbfc54ebe7b9de5df2688174b3f04c14f",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_multi__sf0/bowlrest_60_ravaflow_multi__sf0_results/bowlrest_60_ravaflow_multi__sf0_files/bowlrest_60_ravaflow_multi__sf0_paramcomm.txt",
+          "bytes": 7593,
+          "sha256": "ec415835c575dfc6856054b596568daa83a60f680a295e887618ed54fe5901fb",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_multi__sf0/run_grass.sh",
+          "bytes": 814,
+          "sha256": "499802dec928fb6c2c2b90cdb4a1b954e9546c59855c5d1593ecc01f88e1f039",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_multi__sf0__resourcefix",
+      "model": "ravaflow_multi",
+      "execution_sha256": "2b8174a8dc8f9ac548604a102b119b1ddb5868b8a3d05bf71c1eff3356149415",
+      "case_sha256": "09b87ce6b63611016c1bdeee02ed194a6178b4a40e195f2a778ee21359b817da",
+      "log_sha256": "4796745abf44e7ab02925eff7c7f292cbfc2d9ec4c00a3be72beba58bd620df4",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_multi__sf0__resourcefix/bowlrest_60_ravaflow_multi__sf0__resourcefix_results/bowlrest_60_ravaflow_multi__sf0__resourcefix_files/bowlrest_60_ravaflow_multi__sf0__resourcefix_paramcomm.txt",
+          "bytes": 7736,
+          "sha256": "19b4de0088045fa8021314682a6b4ce44290d57cf565bc242791c4ddc44615c7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_multi__sf0__resourcefix/run_grass.sh",
+          "bytes": 894,
+          "sha256": "e318bb823f17d77dc3399767abf992a451861c69e27bb9cd832f9cce4794e4ff",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_multi__sf0__resourcefix/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single",
+      "model": "ravaflow_single",
+      "execution_sha256": "f782178320f79fa9ee50247e4c984f56bc3c885add44e78b2c2c41b8ec486d99",
+      "case_sha256": "cb3c450648753accbff323732653b189c9603a924718bbc76a59178a1a126239",
+      "log_sha256": "51fb2f0d58984aacea77f2121b77612a4d036d6b09eeece89be121235bd386e8",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single/bowlrest_60_ravaflow_single_results/bowlrest_60_ravaflow_single_files/bowlrest_60_ravaflow_single_paramcomm.txt",
+          "bytes": 5847,
+          "sha256": "48a42212d6b9005481630973af9c4313c28a1ce6cf1ff340d60ecec8c7ee1d6e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single/run_grass.sh",
+          "bytes": 520,
+          "sha256": "27a2aeab58b29776afcb3bc7bd36d7847d4bfe1e997b0168cf934160b6deaf38",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "a465697d1ff7346beb33d482b1dcf72873d73fa02e3acab0e0edd869b665cdad",
+      "case_sha256": "3b51b46296ae0799bbb6b5772ea689c78a2bb267397facdff07742729391007b",
+      "log_sha256": "2bf4bdded5c35396711c21cd89b3ed43bb1d51c611b4be1acd937a145de6a92e",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0/bowlrest_60_ravaflow_single__sf0_results/bowlrest_60_ravaflow_single__sf0_files/bowlrest_60_ravaflow_single__sf0_paramcomm.txt",
+          "bytes": 5902,
+          "sha256": "2a7dbe42482e9eb4b0bc732b3b6d67edf1cd6e849767ee0099e6b520b900e155",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0/run_grass.sh",
+          "bytes": 501,
+          "sha256": "40a5d4137c8fe157d9abc322af5ea6cf44dbca6ddda724f5353af6ee89254bca",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf0__noa",
+      "model": "ravaflow_single",
+      "execution_sha256": "1e6613f7d8cb9c64d90138cff4986f0e8b3857792a1b5c49673abbb134cc46a3",
+      "case_sha256": "17e776f3692ece230e93537ed5b1b78853ef2fe7e489379372e254470312c35a",
+      "log_sha256": "d1883ae45e3d6098bae9f44e9f1b9e4c05659a4fa5eaa03352a46ac68950d139",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0__noa/bowlrest_60_ravaflow_single__sf0__noa_results/bowlrest_60_ravaflow_single__sf0__noa_files/bowlrest_60_ravaflow_single__sf0__noa_paramcomm.txt",
+          "bytes": 5957,
+          "sha256": "6108de2c368ba6073223d6522833a8b163adfe408ac3aa6c299fbf0a04c90db7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0__noa/run_grass.sh",
+          "bytes": 505,
+          "sha256": "55b73982c52688338defc521ba428bfda361319aca672638596ccf58aeaaf4c5",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf0__resourcefix",
+      "model": "ravaflow_single",
+      "execution_sha256": "9386ab35511aa88144fce7d9fed7cce4aace4f58fc49c64cb7ccef4ff8bb61d7",
+      "case_sha256": "926443b01a5106e5a0b310c10b193c23553d8ce4c2e3b3f885f608d0d4ac9c8a",
+      "log_sha256": "8e21a8d24aac2dea78110a8f662921cdfd68b138acf972eedd7a865abe804d90",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0__resourcefix/bowlrest_60_ravaflow_single__sf0__resourcefix_results/bowlrest_60_ravaflow_single__sf0__resourcefix_files/bowlrest_60_ravaflow_single__sf0__resourcefix_paramcomm.txt",
+          "bytes": 6045,
+          "sha256": "138b8bd31af9de57a0f3740cd17405edb22c02a0960656bd787758e7f7353a32",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0__resourcefix/run_grass.sh",
+          "bytes": 581,
+          "sha256": "4824ca3d98d087a62cb47295bb711eb155297bb802f0d127b20c215dcb72e5d8",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0__resourcefix/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf1",
+      "model": "ravaflow_single",
+      "execution_sha256": "bec26114bc22a79854ef06c1ac4f2f320615a3f22c113966494408099aff55a5",
+      "case_sha256": "773b7d4d07b116d0457b20ac982f720560745b2e5a6c4a0b7c494022fa1c6aab",
+      "log_sha256": "ee2991716c3f95d7f72edab10c3c1a284815924f34cb19c90eba82f5f2ba0876",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf1/bowlrest_60_ravaflow_single__sf1_results/bowlrest_60_ravaflow_single__sf1_files/bowlrest_60_ravaflow_single__sf1_paramcomm.txt",
+          "bytes": 5902,
+          "sha256": "a26a72d24577bc61b45f5e57b4ea7bec5b96f73d4eef4f66080a0e0602f3133c",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf1/run_grass.sh",
+          "bytes": 501,
+          "sha256": "3e14693e2f2c407e65d2626c535334f3bbe42bdfcc1c989ef2165f2bb835eab9",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf1__resourcefix",
+      "model": "ravaflow_single",
+      "execution_sha256": "1854219400cbfe401d4b652018de9f58a8ce4f1d61f12066f759bbfb828c6701",
+      "case_sha256": "89b3570fe5da5d4c83998bd9dcdcbdd8ca1ad5924391b863ec404cf14dc900e2",
+      "log_sha256": "33f79c5dc8ca4703c07e9775fb4572773704c5a457401f7e5eb600c47645c9ba",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf1__resourcefix/bowlrest_60_ravaflow_single__sf1__resourcefix_results/bowlrest_60_ravaflow_single__sf1__resourcefix_files/bowlrest_60_ravaflow_single__sf1__resourcefix_paramcomm.txt",
+          "bytes": 6045,
+          "sha256": "a1ded3d380cd71fe70bd0772919089622825877ef86cc3e72e0da6836a2eb877",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf1__resourcefix/run_grass.sh",
+          "bytes": 581,
+          "sha256": "52cfb4669d23d0af58990cf0ceec76209fc2069d7db2955b3e81887aca7986a4",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf1__resourcefix/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "composite_RI_water_120__sf0",
+      "model": "ravaflow_multi",
+      "execution_sha256": "9b8066fcdd3c1f9bcb842983465632e4698b61086d10900c40fdcda62e5092b9",
+      "case_sha256": "8f1154ed7b2906fde3df30d2686c4ddcbc75560ef753bca65bdae1aca66da4d3",
+      "log_sha256": "5eafd11787c67e8f7a5ccb4d83877858adcbebb939efdfc69ab2f36416273f85",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_120__sf0/composite_RI_water_120__sf0_results/composite_RI_water_120__sf0_files/composite_RI_water_120__sf0_paramcomm.txt",
+          "bytes": 7550,
+          "sha256": "e1ba395a8d0d778479dd12bb37746af42e861695faae6a101fb264fb4257b63a",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_120__sf0/run_grass.sh",
+          "bytes": 870,
+          "sha256": "48ffe46f20b2cd892414513fa79f2a250e700ae19d0b1bb64c8446933f8dade9",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "composite_RI_water_nodragvm_120__sf0",
+      "model": "ravaflow_multi",
+      "execution_sha256": "cd6e4bb7cfa8e7c1f1ca511f1f4c64f10aebeb661a4c5b5a50c953d540f9afbd",
+      "case_sha256": "7a222af22c0211f79c82e23a577ca784f234581c5a826d9da4e333a6073beaf0",
+      "log_sha256": "15dedff9c054d436babdde6fe8cc0a727fdfc94dfa6b12e273a6579ceea953bb",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_nodragvm_120__sf0/composite_RI_water_nodragvm_120__sf0_results/composite_RI_water_nodragvm_120__sf0_files/composite_RI_water_nodragvm_120__sf0_paramcomm.txt",
+          "bytes": 7649,
+          "sha256": "289ce90509899722383f14c01ed64dfe87d65520f9146ba8e54f31391f97d8dd",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_nodragvm_120__sf0/run_grass.sh",
+          "bytes": 943,
+          "sha256": "8787579cf48b1211c2376b223aadeae85605b6aa314d5454e7f103a241e9fc05",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_nodragvm_120__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "composite_rock_water_120__sf0",
+      "model": "ravaflow_multi",
+      "execution_sha256": "dc25bd8f2d2e004bf5347f996caa739eb3fd9272cf0f856ac99f5257704710a7",
+      "case_sha256": "e9bb287881f80ce7482949b7095e8807d58d77db616a14c3a6d6b5ca2d7b999d",
+      "log_sha256": "d74303d261b9a4a919c220f4faf9c2dcf1811d495b23298ccd362279add2e83b",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_rock_water_120__sf0/composite_rock_water_120__sf0_results/composite_rock_water_120__sf0_files/composite_rock_water_120__sf0_paramcomm.txt",
+          "bytes": 7572,
+          "sha256": "77dd8fac2bb389e9090eabed1c69ad91f286400bc0bd936196e5b2b12c3311d2",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_rock_water_120__sf0/run_grass.sh",
+          "bytes": 925,
+          "sha256": "1fa5977ac78b33a60718d8a919b0507da4acafa81ffcf1534f6c270163c6c155",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_dclaw_loose",
+      "model": "dclaw",
+      "execution_sha256": "5ef77e32497ec45725317fca48a5fdb0b21f355774999ea585b63a33c7fb2923",
+      "case_sha256": "1e0900f96c4ae6dfbca0b7575f673e8da926c519004bee697a56dcbaf5b2cb52",
+      "log_sha256": "d3f2ffe748028b69c8f5d923880c814cefe5ef9ed5001cc74025128e4437cd3c",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/amr.data",
+          "bytes": 1484,
+          "sha256": "f549c4e5acb2b0ca289c4cea8587d7627d14a8e21d7fb1e3265ce4ec6bdc9018",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/auxinit_dclaw.data",
+          "bytes": 345,
+          "sha256": "a2c895983a1488fb089c55d32e5858c3108e6285fc5d81bb951389be6b5efd30",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/basal_topo.tt3",
+          "bytes": 192471,
+          "sha256": "1e7958bf65ce0ec6257914ed527afe63d3bfd7c716c313064407c45c4dff52c3",
+          "role": "native_terrain",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/claw.data",
+          "bytes": 1916,
+          "sha256": "a78406f5cf3407edbf7a2e923ba571bb61ab35e3a7818800404c5d967f41503f",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/dclaw.data",
+          "bytes": 2848,
+          "sha256": "c1c346aace14327f21189031f5b6a5a58bf036c805a233b3ca3cedcc5941897c",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/dtopo.data",
+          "bytes": 378,
+          "sha256": "64a58c86d51f680340ec7152ad5d56dbff35a7bfce8a20692d1bc07c646dcdf3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/fgmax_grids.data",
+          "bytes": 377,
+          "sha256": "692e51d50f65c25d2e2c0021c7db7505ccabb4048559c5f3e7d2d5fe64f7729e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/fgout_grids.data",
+          "bytes": 332,
+          "sha256": "534922e09aebd55119087c90688f4a852c4478828a975a26c2ddd8b8e42bccb1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/flagregions.data",
+          "bytes": 331,
+          "sha256": "520be24022e5bc2fef06c7d7081d36bf729ceb79cb7e0378dcbf819cebdeca2b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/flowgrades.data",
+          "bytes": 405,
+          "sha256": "f252fe7668c9238567d1b4dc5673c7358f1e921670d71766b19c5a242fd184f7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/gauges.data",
+          "bytes": 517,
+          "sha256": "595d3bb123444c5b99086c5844294c625b6e4b4fb200090020f51a37a7402ef7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/geoclaw.data",
+          "bytes": 1185,
+          "sha256": "f81e4781509dfa7ea8c497324bbaab6fa3e03bc478e8f2c70ba7786bdbfdd219",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/pinit_dclaw.data",
+          "bytes": 440,
+          "sha256": "99b456332cf9f0b62b30b07f5056a4b69a96edb5f443aeca29ec43e0bb9dcf48",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/qinit_dclaw.data",
+          "bytes": 405,
+          "sha256": "90b3737f3fd6432dc799d5f84bc4b775992456a3545479f36df0567512a0e55e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/refinement.data",
+          "bytes": 550,
+          "sha256": "afa0336ef00df4b1a8e0f7de55ff0a4f774271bfc7d213dc6fd8062cfe50aa64",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/regions.data",
+          "bytes": 331,
+          "sha256": "4182f5f930b63f2dad77869c58950ac7faa05b8e03cbac09a29b05c4e5b83a5b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/thickness.tt3",
+          "bytes": 192471,
+          "sha256": "057064664fd66b6f9a018ee96e40b021ace78fec1c2e0946411f98ac5c0d72e4",
+          "role": "native_release",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/topo.data",
+          "bytes": 565,
+          "sha256": "b66ee25c8853fca40c78190568f268e4ca366f9e91af235c6e0ec08e42effcb6",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/xdclaw",
+          "bytes": 1190832,
+          "sha256": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9",
+          "role": "native_executed_binary",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_loose/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use saved *.data + basal_topo/thickness.tt3 withsameverifiedxdclaw",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_dclaw_nopressure",
+      "model": "dclaw",
+      "execution_sha256": "ab4d2b26f23f5598261a2bfb5ae8a120e7e747bbabf85527d3dcaa06d71a5ba3",
+      "case_sha256": "c5c45fed8c02256e0e49e97d654f67b31d9ca69bb3dd7ac302695914e280a82b",
+      "log_sha256": "c3e5d078fe8b9dd121373309eec731e160b45e071496dd960c523ffc5e3f0a61",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/amr.data",
+          "bytes": 1484,
+          "sha256": "f549c4e5acb2b0ca289c4cea8587d7627d14a8e21d7fb1e3265ce4ec6bdc9018",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/auxinit_dclaw.data",
+          "bytes": 345,
+          "sha256": "a2c895983a1488fb089c55d32e5858c3108e6285fc5d81bb951389be6b5efd30",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/basal_topo.tt3",
+          "bytes": 192471,
+          "sha256": "1e7958bf65ce0ec6257914ed527afe63d3bfd7c716c313064407c45c4dff52c3",
+          "role": "native_terrain",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/claw.data",
+          "bytes": 1916,
+          "sha256": "a78406f5cf3407edbf7a2e923ba571bb61ab35e3a7818800404c5d967f41503f",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/dclaw.data",
+          "bytes": 2848,
+          "sha256": "5b9bf2e9a5367cd31588fb243eae45f9494fa671a0bc813e0e0a91a89b6d63ab",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/dtopo.data",
+          "bytes": 378,
+          "sha256": "64a58c86d51f680340ec7152ad5d56dbff35a7bfce8a20692d1bc07c646dcdf3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/fgmax_grids.data",
+          "bytes": 377,
+          "sha256": "692e51d50f65c25d2e2c0021c7db7505ccabb4048559c5f3e7d2d5fe64f7729e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/fgout_grids.data",
+          "bytes": 332,
+          "sha256": "534922e09aebd55119087c90688f4a852c4478828a975a26c2ddd8b8e42bccb1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/flagregions.data",
+          "bytes": 331,
+          "sha256": "520be24022e5bc2fef06c7d7081d36bf729ceb79cb7e0378dcbf819cebdeca2b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/flowgrades.data",
+          "bytes": 405,
+          "sha256": "f252fe7668c9238567d1b4dc5673c7358f1e921670d71766b19c5a242fd184f7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/gauges.data",
+          "bytes": 517,
+          "sha256": "595d3bb123444c5b99086c5844294c625b6e4b4fb200090020f51a37a7402ef7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/geoclaw.data",
+          "bytes": 1185,
+          "sha256": "f81e4781509dfa7ea8c497324bbaab6fa3e03bc478e8f2c70ba7786bdbfdd219",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/pinit_dclaw.data",
+          "bytes": 440,
+          "sha256": "a50085430542b8dc29cacd24bed853c0744332f3cefb5e69628ace9e88efb17a",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/qinit_dclaw.data",
+          "bytes": 410,
+          "sha256": "2fb215e69a3cf78ababc0a4202d4e423207ab0854142fe60e1ff934a121f9f63",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/refinement.data",
+          "bytes": 550,
+          "sha256": "afa0336ef00df4b1a8e0f7de55ff0a4f774271bfc7d213dc6fd8062cfe50aa64",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/regions.data",
+          "bytes": 331,
+          "sha256": "4182f5f930b63f2dad77869c58950ac7faa05b8e03cbac09a29b05c4e5b83a5b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/thickness.tt3",
+          "bytes": 192471,
+          "sha256": "057064664fd66b6f9a018ee96e40b021ace78fec1c2e0946411f98ac5c0d72e4",
+          "role": "native_release",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/topo.data",
+          "bytes": 570,
+          "sha256": "1df674c0a2bc0b3670c3ecb5d7d036fac843867435a05bc3f2473c69107af054",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_nopressure/xdclaw",
+          "bytes": 1190832,
+          "sha256": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9",
+          "role": "native_executed_binary",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use saved *.data + basal_topo/thickness.tt3 withsameverifiedxdclaw",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_dclaw_permeable",
+      "model": "dclaw",
+      "execution_sha256": "73515aea0c9a27e345ac45c33d02771716b40a383016c8d4247513ac3eb663f1",
+      "case_sha256": "2da43f16b166d238eb9fc27b7228e2b08fa71107179876dca7d914cb18c4e0eb",
+      "log_sha256": "73af794dfe195aaf72e23a17bb35a367935389fde28395775bd169e5f5221bd7",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/amr.data",
+          "bytes": 1484,
+          "sha256": "f549c4e5acb2b0ca289c4cea8587d7627d14a8e21d7fb1e3265ce4ec6bdc9018",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/auxinit_dclaw.data",
+          "bytes": 345,
+          "sha256": "a2c895983a1488fb089c55d32e5858c3108e6285fc5d81bb951389be6b5efd30",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/basal_topo.tt3",
+          "bytes": 192471,
+          "sha256": "1e7958bf65ce0ec6257914ed527afe63d3bfd7c716c313064407c45c4dff52c3",
+          "role": "native_terrain",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/claw.data",
+          "bytes": 1916,
+          "sha256": "a78406f5cf3407edbf7a2e923ba571bb61ab35e3a7818800404c5d967f41503f",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/dclaw.data",
+          "bytes": 2848,
+          "sha256": "611bf1f392c991ac23a9c1d17da32dde4d1887c805577de8e29a4d8d1c80c5b3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/dtopo.data",
+          "bytes": 378,
+          "sha256": "64a58c86d51f680340ec7152ad5d56dbff35a7bfce8a20692d1bc07c646dcdf3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/fgmax_grids.data",
+          "bytes": 377,
+          "sha256": "692e51d50f65c25d2e2c0021c7db7505ccabb4048559c5f3e7d2d5fe64f7729e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/fgout_grids.data",
+          "bytes": 332,
+          "sha256": "534922e09aebd55119087c90688f4a852c4478828a975a26c2ddd8b8e42bccb1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/flagregions.data",
+          "bytes": 331,
+          "sha256": "520be24022e5bc2fef06c7d7081d36bf729ceb79cb7e0378dcbf819cebdeca2b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/flowgrades.data",
+          "bytes": 405,
+          "sha256": "f252fe7668c9238567d1b4dc5673c7358f1e921670d71766b19c5a242fd184f7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/gauges.data",
+          "bytes": 517,
+          "sha256": "595d3bb123444c5b99086c5844294c625b6e4b4fb200090020f51a37a7402ef7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/geoclaw.data",
+          "bytes": 1185,
+          "sha256": "f81e4781509dfa7ea8c497324bbaab6fa3e03bc478e8f2c70ba7786bdbfdd219",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/pinit_dclaw.data",
+          "bytes": 440,
+          "sha256": "99b456332cf9f0b62b30b07f5056a4b69a96edb5f443aeca29ec43e0bb9dcf48",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/qinit_dclaw.data",
+          "bytes": 409,
+          "sha256": "38bf32643b07540c1d47219b5180d4606a34d03b9f2d5fb65e0c24f9bdcda3a4",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/refinement.data",
+          "bytes": 550,
+          "sha256": "afa0336ef00df4b1a8e0f7de55ff0a4f774271bfc7d213dc6fd8062cfe50aa64",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/regions.data",
+          "bytes": 331,
+          "sha256": "4182f5f930b63f2dad77869c58950ac7faa05b8e03cbac09a29b05c4e5b83a5b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/thickness.tt3",
+          "bytes": 192471,
+          "sha256": "057064664fd66b6f9a018ee96e40b021ace78fec1c2e0946411f98ac5c0d72e4",
+          "role": "native_release",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/topo.data",
+          "bytes": 569,
+          "sha256": "643492893f98df55c55c1e504e683072ddebe2bf3eb17a39fd29b3f211d17827",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/xdclaw",
+          "bytes": 1190832,
+          "sha256": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9",
+          "role": "native_executed_binary",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use saved *.data + basal_topo/thickness.tt3 withsameverifiedxdclaw",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_dclaw_ref",
+      "model": "dclaw",
+      "execution_sha256": "b188e8362b790c047881596e721b9c3f52fa67163160d62d953759f50e75ab23",
+      "case_sha256": "f039f5d79bc7238739b0b397814ac25cda1325a92006e26d1b8ce88be64cd0d9",
+      "log_sha256": "02747a91655bae106c3c10804820ab8d8f3c43b3f59b3d30822e5f71f4dcf70b",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/amr.data",
+          "bytes": 1484,
+          "sha256": "f549c4e5acb2b0ca289c4cea8587d7627d14a8e21d7fb1e3265ce4ec6bdc9018",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/auxinit_dclaw.data",
+          "bytes": 345,
+          "sha256": "a2c895983a1488fb089c55d32e5858c3108e6285fc5d81bb951389be6b5efd30",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/basal_topo.tt3",
+          "bytes": 192471,
+          "sha256": "1e7958bf65ce0ec6257914ed527afe63d3bfd7c716c313064407c45c4dff52c3",
+          "role": "native_terrain",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/claw.data",
+          "bytes": 1916,
+          "sha256": "a78406f5cf3407edbf7a2e923ba571bb61ab35e3a7818800404c5d967f41503f",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/dclaw.data",
+          "bytes": 2848,
+          "sha256": "5b9bf2e9a5367cd31588fb243eae45f9494fa671a0bc813e0e0a91a89b6d63ab",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/dtopo.data",
+          "bytes": 378,
+          "sha256": "64a58c86d51f680340ec7152ad5d56dbff35a7bfce8a20692d1bc07c646dcdf3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/fgmax_grids.data",
+          "bytes": 377,
+          "sha256": "692e51d50f65c25d2e2c0021c7db7505ccabb4048559c5f3e7d2d5fe64f7729e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/fgout_grids.data",
+          "bytes": 332,
+          "sha256": "534922e09aebd55119087c90688f4a852c4478828a975a26c2ddd8b8e42bccb1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/flagregions.data",
+          "bytes": 331,
+          "sha256": "520be24022e5bc2fef06c7d7081d36bf729ceb79cb7e0378dcbf819cebdeca2b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/flowgrades.data",
+          "bytes": 405,
+          "sha256": "f252fe7668c9238567d1b4dc5673c7358f1e921670d71766b19c5a242fd184f7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/gauges.data",
+          "bytes": 517,
+          "sha256": "595d3bb123444c5b99086c5844294c625b6e4b4fb200090020f51a37a7402ef7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/geoclaw.data",
+          "bytes": 1185,
+          "sha256": "f81e4781509dfa7ea8c497324bbaab6fa3e03bc478e8f2c70ba7786bdbfdd219",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/pinit_dclaw.data",
+          "bytes": 440,
+          "sha256": "99b456332cf9f0b62b30b07f5056a4b69a96edb5f443aeca29ec43e0bb9dcf48",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/qinit_dclaw.data",
+          "bytes": 415,
+          "sha256": "3d9727df150e3f939d6d554f7ec3c01d0189c11622881006562f6dd26074cfc8",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/refinement.data",
+          "bytes": 550,
+          "sha256": "afa0336ef00df4b1a8e0f7de55ff0a4f774271bfc7d213dc6fd8062cfe50aa64",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/regions.data",
+          "bytes": 331,
+          "sha256": "4182f5f930b63f2dad77869c58950ac7faa05b8e03cbac09a29b05c4e5b83a5b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/thickness.tt3",
+          "bytes": 192471,
+          "sha256": "057064664fd66b6f9a018ee96e40b021ace78fec1c2e0946411f98ac5c0d72e4",
+          "role": "native_release",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/topo.data",
+          "bytes": 575,
+          "sha256": "0d547b61cc2fb9a28600ca8d6fc627ced325c343b1fc404ecbb5bb6ba6f4ee54",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/xdclaw",
+          "bytes": 1190832,
+          "sha256": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9",
+          "role": "native_executed_binary",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use saved *.data + basal_topo/thickness.tt3 withsameverifiedxdclaw",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_multi_ref__sf0",
+      "model": "ravaflow_multi",
+      "execution_sha256": "da138885a6f48e69a4b33cb416405c181bb2d711277f8a96560b132cd50b8dbe",
+      "case_sha256": "94f9ccb940d984808c3edd5f25b59c1f69993d05c39a2e4b043e88d6319fdf78",
+      "log_sha256": "afbb5c20fee20cd92e751891153b1d599246ebb1f808cd61e489b6f18b1ebb5b",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_multi_ref__sf0/copdem_120_multi_ref__sf0_results/copdem_120_multi_ref__sf0_files/copdem_120_multi_ref__sf0_paramcomm.txt",
+          "bytes": 7528,
+          "sha256": "c778aef0fb9dac2bbdef3e3735d3928d7cccb2178c95e882642d46533d5a7c26",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_multi_ref__sf0/run_grass.sh",
+          "bytes": 856,
+          "sha256": "0e1c0924eed35ed0a21c5ab22008835c48c276c2ff994c5e7da8ececb38c1cf7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_single_cfl025__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "aa91b7c41dacde6fdfa5c10b05f3924dab64836b4274d49ec988235d82ed4f93",
+      "case_sha256": "3543a38af1bbabde905e731cfe0dba287d1dfd14eb8fadd1be6f02ee27481a7c",
+      "log_sha256": "66e0409255d0f336d8b372800bd194a785404397f7c2b46b3c0a5580e1a027f2",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_cfl025__sf0/copdem_120_single_cfl025__sf0_results/copdem_120_single_cfl025__sf0_files/copdem_120_single_cfl025__sf0_paramcomm.txt",
+          "bytes": 5871,
+          "sha256": "1a1417ef8561ed035ed30128c307bca7f0e0c4edccb0f626d151ee25fcb6a2fb",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_cfl025__sf0/run_grass.sh",
+          "bytes": 595,
+          "sha256": "0c7844ee3c3d4877b1d2de9c07c9020a03b21c1435f40f7542454a61369af2ff",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_cfl025__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_single_entrain1m_P1buf250__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "4fb4309f3913bff453a7e8a59f7ffdbbf648ef5488608b145e48c65f920f24ed",
+      "case_sha256": "fa10388607394035f818ab9b9e34cf8f1c961a9f03865a3cce60cdaf9ad13ffd",
+      "log_sha256": "2571cfe3700342bb143d117488aff1f2aa0859484fbfbf39f3470276e75ec694",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_entrain1m_P1buf250__sf0/copdem_120_single_entrain1m_P1buf250__sf0_results/copdem_120_single_entrain1m_P1buf250__sf0_files/copdem_120_single_entrain1m_P1buf250__sf0_paramcomm.txt",
+          "bytes": 6011,
+          "sha256": "94b66c574bf71c134f9b65256401ad69902cf07781dfe5a2c72d8d1885d06e54",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_entrain1m_P1buf250__sf0/run_grass.sh",
+          "bytes": 812,
+          "sha256": "e79939858d9f75f84fcfe471402540cfe47e88494bae9c826fc35844367bce7a",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_entrain1m_P1buf250__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_single_h136__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "4c8c47146e45ab6c001979441e96d29d1f4bf6af502966b95e9f0df8ba5ef9bb",
+      "case_sha256": "acc4b9d07613debe7d5578e8475f3b30e311c4db27173ea2b9e3f6f0dd93982d",
+      "log_sha256": "751cc96109f5d0bd9dd9208dc5d8f1d601fc32558dadb0158cd96b893e6e9d20",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h136__sf0/copdem_120_single_h136__sf0_results/copdem_120_single_h136__sf0_files/copdem_120_single_h136__sf0_paramcomm.txt",
+          "bytes": 5849,
+          "sha256": "d76aa5cfdb042e327ffb161671235e8b388a07dcd44a552899cb404583266168",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h136__sf0/run_grass.sh",
+          "bytes": 593,
+          "sha256": "fb8b48c67f3115539a515894d6084d35c8ffe94f74a409f7e27054c51827567d",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h136__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_single_h30__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "955ca7e8c38fb91b5affe1a4d792de77938927944beeffb079424dcbd49861cb",
+      "case_sha256": "1226629cb160f6cb55615414d380d83267473835b9418e62f4384c133b464244",
+      "log_sha256": "199e29d0e59faf492e022c950cbe1eee3ec2637b2c3a1ffad5afafbab7af08dd",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h30__sf0/copdem_120_single_h30__sf0_results/copdem_120_single_h30__sf0_files/copdem_120_single_h30__sf0_paramcomm.txt",
+          "bytes": 5838,
+          "sha256": "34367b76b6eba739631ed8978b7cd1afee55a509471c802731ef076e1b6623e9",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h30__sf0/run_grass.sh",
+          "bytes": 591,
+          "sha256": "3fc2f4a5cb1b0126d40a25816c7d1c618d75e83a3227ec6bca6967d1964aeaf7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h30__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_single_h5__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "9285312f6005d5320ffe424d3de6aa3ce6b5a6527e04c002f094e3236364e2b2",
+      "case_sha256": "0f737a37098e335150bb48ac75973eaeff5c61b5dc11041955a59507e7c41b21",
+      "log_sha256": "b47e96645ffae43f58b7d2de57a49c9e2441005c77dca188714b876b43a575fd",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h5__sf0/copdem_120_single_h5__sf0_results/copdem_120_single_h5__sf0_files/copdem_120_single_h5__sf0_paramcomm.txt",
+          "bytes": 5827,
+          "sha256": "cf4e07a03023567f2e5f09d23d5c57e1b95994e20781d4e3f203d44a36f7a76b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h5__sf0/run_grass.sh",
+          "bytes": 589,
+          "sha256": "8b15f51928c1a0b0695ec4e7bfedfe77dc2dcc4eb413171d1707bf810f13056d",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_h5__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_single_mu0p08__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "1f568a9511204f04d260534d8e19c2206da9eef8c5b184b40560f078737bb48d",
+      "case_sha256": "6620398ba6b85faa6774a2c060fae08972f71bd54233f48280d9461bff9982a3",
+      "log_sha256": "ba0f816fe267830352f68c9299d11f884fc4e31dc93eb277c0b22ab345b4e2fd",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_mu0p08__sf0/copdem_120_single_mu0p08__sf0_results/copdem_120_single_mu0p08__sf0_files/copdem_120_single_mu0p08__sf0_paramcomm.txt",
+          "bytes": 5871,
+          "sha256": "1734d13382d634a5f65c44d654b4c1743c91d0e8edce58a6c99bb365bfc46018",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_mu0p08__sf0/run_grass.sh",
+          "bytes": 594,
+          "sha256": "8927082525cbecb6e6af52d89ea047f730109d9aaf36a6c5251d4918f635057d",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_mu0p08__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_single_mu0p25__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "246c99cce8d5313fc8c57298670fe0328cc43aa057caded2166811226a7bac1a",
+      "case_sha256": "78da8484ea2bb64eb3cbc47a4cbcb369bd0aa2463eb819dac3615183581f75ac",
+      "log_sha256": "b850f91d3f472f20635a7f08ddff53f2c6a626d26b23beab5fc5c4d5c32135e9",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_mu0p25__sf0/copdem_120_single_mu0p25__sf0_results/copdem_120_single_mu0p25__sf0_files/copdem_120_single_mu0p25__sf0_paramcomm.txt",
+          "bytes": 5872,
+          "sha256": "59b21cbafd7a77c0118aacd17d834a4c2fa8d07bddf9d7a67933fb3f679c0c8a",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_mu0p25__sf0/run_grass.sh",
+          "bytes": 595,
+          "sha256": "93905156213ef0c25366e4d02bbb78ffa2480d29982a549b0ce06b4686460ffa",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_mu0p25__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_single_ref",
+      "model": "ravaflow_single",
+      "execution_sha256": "8e447eb7e90bdb57fa346a665fc22057bb61a4e8816f0518cba5e81e68f8109d",
+      "case_sha256": "9f26a8f543a8b2eccd9f463c17cfcc0a38834f5b49906a7b0cec8198351f4575",
+      "log_sha256": "626d3ad2f6d598608d8d04146cb4423afca8a2f511bdae9a79c7439773e4fc42",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_ref/copdem_120_single_ref_results/copdem_120_single_ref_files/copdem_120_single_ref_paramcomm.txt",
+          "bytes": 5783,
+          "sha256": "1edd829553936a73be4dd65b06213274dd8afe572a4f4505a20fb5af1b0e027f",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_ref/run_grass.sh",
+          "bytes": 543,
+          "sha256": "d72a99c1ababf743fa8a08e770e96c22a3955b7a1abc4b296c8b5b797da545bd",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_single_ref__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "c07d045188016afd7e0251c52cc5653883dfac74a78661415f363e35ac535708",
+      "case_sha256": "d79ba36d5e9a548480836377a6e8625058de014c34dfd281816a096772018daa",
+      "log_sha256": "bf326011fbae097ff8c585ee5efff654ea8363dec6619facd186e45dd91a353d",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_ref__sf0/copdem_120_single_ref__sf0_results/copdem_120_single_ref__sf0_files/copdem_120_single_ref__sf0_paramcomm.txt",
+          "bytes": 5838,
+          "sha256": "fa0c86b27ede13831814970478ec7a49a1ca1adcedc56b3491262bfe99a17358",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_ref__sf0/run_grass.sh",
+          "bytes": 524,
+          "sha256": "7debbf699be8a27df4157a617aea752ec6a3e296fa96778f297b9cd72f7e07be",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_single_xi2000__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "9dde8eeaf9401f81846ae60b1f9cd170253ddd9267ac27ced664c77ca34b7bc9",
+      "case_sha256": "bc904c9848fa6c3e0d721da19c13c0329087c8841dca54ef71e0dee0fc322a85",
+      "log_sha256": "71e11e5ca8c956d3288901b48870d0aad4b6ecf998a4bd76d0ece387fd780af2",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_xi2000__sf0/copdem_120_single_xi2000__sf0_results/copdem_120_single_xi2000__sf0_files/copdem_120_single_xi2000__sf0_paramcomm.txt",
+          "bytes": 5871,
+          "sha256": "bfdf8e57607474783af354edd6990c860d74a3b901f6d119b6c9067313043548",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_xi2000__sf0/run_grass.sh",
+          "bytes": 594,
+          "sha256": "72ee26c37334b4bb6285d422fd53d580489e1c1f8129f33c401b37b6f02d9c6e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_xi2000__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_120_single_xi500__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "7bcd87bbd28c9167089557cc4adde0014fbc3a5d2f12f6b1ac2b8b5525599103",
+      "case_sha256": "f6c4eb6ee06cb0eb7905c953999c68f7be03544938514decd43c14c445c4fe27",
+      "log_sha256": "1033dbfd8d3237663ecad9ec0f88d47af65c8eed4206270f7e9fd383fc90f653",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_xi500__sf0/copdem_120_single_xi500__sf0_results/copdem_120_single_xi500__sf0_files/copdem_120_single_xi500__sf0_paramcomm.txt",
+          "bytes": 5859,
+          "sha256": "cfbaf5a8234c9bc6953cf4cd4dc742eec0400be2f618d5259abe230dbae32cf1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_xi500__sf0/run_grass.sh",
+          "bytes": 592,
+          "sha256": "28aedd9a923df9a7e12c3b1e054bdb956642f81336cf65a927a5bc77957ab160",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_single_xi500__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_60_dclaw_loose",
+      "model": "dclaw",
+      "execution_sha256": "7ddcbadae63dd4123c8a1b519031a5b38416945d44c1cfe8885a55e7f54a0a3e",
+      "case_sha256": "04d811751fb56dc74364ff0a599c92b4f0116b919320351ea61cb82bab407bac",
+      "log_sha256": "0a9f0fc1763db45117034698454ecdb8fb916353e464305b00d0c53ca3acf829",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/amr.data",
+          "bytes": 1484,
+          "sha256": "4ffe75b84926a7362821b829fbe3590045d89003f3bd5d67cad5b788eaa1d706",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/auxinit_dclaw.data",
+          "bytes": 345,
+          "sha256": "a2c895983a1488fb089c55d32e5858c3108e6285fc5d81bb951389be6b5efd30",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/basal_topo.tt3",
+          "bytes": 754212,
+          "sha256": "c859e1e47d9945aa48d7fcab88e09cf07c701ac1c942a8ffb765e122b1fb38fe",
+          "role": "native_terrain",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/claw.data",
+          "bytes": 1916,
+          "sha256": "1a3ab4d1e1c747e0ca8044e3fd6f314ef25eaee1d656e9cb477774e110b4d695",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/dclaw.data",
+          "bytes": 2848,
+          "sha256": "c1c346aace14327f21189031f5b6a5a58bf036c805a233b3ca3cedcc5941897c",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/dtopo.data",
+          "bytes": 378,
+          "sha256": "64a58c86d51f680340ec7152ad5d56dbff35a7bfce8a20692d1bc07c646dcdf3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/fgmax_grids.data",
+          "bytes": 377,
+          "sha256": "692e51d50f65c25d2e2c0021c7db7505ccabb4048559c5f3e7d2d5fe64f7729e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/fgout_grids.data",
+          "bytes": 332,
+          "sha256": "534922e09aebd55119087c90688f4a852c4478828a975a26c2ddd8b8e42bccb1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/flagregions.data",
+          "bytes": 331,
+          "sha256": "520be24022e5bc2fef06c7d7081d36bf729ceb79cb7e0378dcbf819cebdeca2b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/flowgrades.data",
+          "bytes": 405,
+          "sha256": "f252fe7668c9238567d1b4dc5673c7358f1e921670d71766b19c5a242fd184f7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/gauges.data",
+          "bytes": 517,
+          "sha256": "595d3bb123444c5b99086c5844294c625b6e4b4fb200090020f51a37a7402ef7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/geoclaw.data",
+          "bytes": 1185,
+          "sha256": "f81e4781509dfa7ea8c497324bbaab6fa3e03bc478e8f2c70ba7786bdbfdd219",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/pinit_dclaw.data",
+          "bytes": 440,
+          "sha256": "99b456332cf9f0b62b30b07f5056a4b69a96edb5f443aeca29ec43e0bb9dcf48",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/qinit_dclaw.data",
+          "bytes": 404,
+          "sha256": "db6c8f2ade8b3334b3371b2196d68e3a16102d1b04da4bfb04ad6b16b76f3c58",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/refinement.data",
+          "bytes": 550,
+          "sha256": "afa0336ef00df4b1a8e0f7de55ff0a4f774271bfc7d213dc6fd8062cfe50aa64",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/regions.data",
+          "bytes": 331,
+          "sha256": "4182f5f930b63f2dad77869c58950ac7faa05b8e03cbac09a29b05c4e5b83a5b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/thickness.tt3",
+          "bytes": 754212,
+          "sha256": "cb05a64911d078a9fa0fc0245fb640a95ebf71f90ee4295bad68e48b489cc3c2",
+          "role": "native_release",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/topo.data",
+          "bytes": 564,
+          "sha256": "6cae15431e2dd17fc613562f5798559e59127d0785695f94892cd5644628ec32",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/xdclaw",
+          "bytes": 1190832,
+          "sha256": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9",
+          "role": "native_executed_binary",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_loose/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use saved *.data + basal_topo/thickness.tt3 withsameverifiedxdclaw",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_60_dclaw_nopressure",
+      "model": "dclaw",
+      "execution_sha256": "640d4cfd876ece06820596483d0a4e9195b6a8d0e0bd841a4ff2044e18b437cf",
+      "case_sha256": "f173f6119d3ecc3dd37a47cbe8a4840d9405da1ed89b67b60baebfee112c754a",
+      "log_sha256": "029b2a7fff7d033d3c9ac60db3e88f5693f6abccc675d361eac80c60fd989f4d",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/amr.data",
+          "bytes": 1484,
+          "sha256": "4ffe75b84926a7362821b829fbe3590045d89003f3bd5d67cad5b788eaa1d706",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/auxinit_dclaw.data",
+          "bytes": 345,
+          "sha256": "a2c895983a1488fb089c55d32e5858c3108e6285fc5d81bb951389be6b5efd30",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/basal_topo.tt3",
+          "bytes": 754212,
+          "sha256": "c859e1e47d9945aa48d7fcab88e09cf07c701ac1c942a8ffb765e122b1fb38fe",
+          "role": "native_terrain",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/claw.data",
+          "bytes": 1916,
+          "sha256": "1a3ab4d1e1c747e0ca8044e3fd6f314ef25eaee1d656e9cb477774e110b4d695",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/dclaw.data",
+          "bytes": 2848,
+          "sha256": "5b9bf2e9a5367cd31588fb243eae45f9494fa671a0bc813e0e0a91a89b6d63ab",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/dtopo.data",
+          "bytes": 378,
+          "sha256": "64a58c86d51f680340ec7152ad5d56dbff35a7bfce8a20692d1bc07c646dcdf3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/fgmax_grids.data",
+          "bytes": 377,
+          "sha256": "692e51d50f65c25d2e2c0021c7db7505ccabb4048559c5f3e7d2d5fe64f7729e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/fgout_grids.data",
+          "bytes": 332,
+          "sha256": "534922e09aebd55119087c90688f4a852c4478828a975a26c2ddd8b8e42bccb1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/flagregions.data",
+          "bytes": 331,
+          "sha256": "520be24022e5bc2fef06c7d7081d36bf729ceb79cb7e0378dcbf819cebdeca2b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/flowgrades.data",
+          "bytes": 405,
+          "sha256": "f252fe7668c9238567d1b4dc5673c7358f1e921670d71766b19c5a242fd184f7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/gauges.data",
+          "bytes": 517,
+          "sha256": "595d3bb123444c5b99086c5844294c625b6e4b4fb200090020f51a37a7402ef7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/geoclaw.data",
+          "bytes": 1185,
+          "sha256": "f81e4781509dfa7ea8c497324bbaab6fa3e03bc478e8f2c70ba7786bdbfdd219",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/pinit_dclaw.data",
+          "bytes": 440,
+          "sha256": "a50085430542b8dc29cacd24bed853c0744332f3cefb5e69628ace9e88efb17a",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/qinit_dclaw.data",
+          "bytes": 409,
+          "sha256": "702975667cdea14d36315c76d43be379a5bff16beceb10eaf10acd0c6140b539",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/refinement.data",
+          "bytes": 550,
+          "sha256": "afa0336ef00df4b1a8e0f7de55ff0a4f774271bfc7d213dc6fd8062cfe50aa64",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/regions.data",
+          "bytes": 331,
+          "sha256": "4182f5f930b63f2dad77869c58950ac7faa05b8e03cbac09a29b05c4e5b83a5b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/thickness.tt3",
+          "bytes": 754212,
+          "sha256": "cb05a64911d078a9fa0fc0245fb640a95ebf71f90ee4295bad68e48b489cc3c2",
+          "role": "native_release",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/topo.data",
+          "bytes": 569,
+          "sha256": "416d2176221cb7b6dc31dab9c54d2eb703ea649f25cec99b3c2daf6ba80a9520",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/xdclaw",
+          "bytes": 1190832,
+          "sha256": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9",
+          "role": "native_executed_binary",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_nopressure/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use saved *.data + basal_topo/thickness.tt3 withsameverifiedxdclaw",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_60_dclaw_permeable",
+      "model": "dclaw",
+      "execution_sha256": "eca10a4dac2275978edb62ce73f12539f07f6030447d5f106e1e42e92f4756df",
+      "case_sha256": "28d7fdceb5c6defd3f86abd4b6f0abc8f27e64d558cda40a01d820cd156bfcb9",
+      "log_sha256": "84bf9b5b4f23501c80343876a5d4d00e4f02f475f4aa5e9885f8fcb23c8d6023",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/amr.data",
+          "bytes": 1484,
+          "sha256": "4ffe75b84926a7362821b829fbe3590045d89003f3bd5d67cad5b788eaa1d706",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/auxinit_dclaw.data",
+          "bytes": 345,
+          "sha256": "a2c895983a1488fb089c55d32e5858c3108e6285fc5d81bb951389be6b5efd30",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/basal_topo.tt3",
+          "bytes": 754212,
+          "sha256": "c859e1e47d9945aa48d7fcab88e09cf07c701ac1c942a8ffb765e122b1fb38fe",
+          "role": "native_terrain",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/claw.data",
+          "bytes": 1916,
+          "sha256": "1a3ab4d1e1c747e0ca8044e3fd6f314ef25eaee1d656e9cb477774e110b4d695",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/dclaw.data",
+          "bytes": 2848,
+          "sha256": "611bf1f392c991ac23a9c1d17da32dde4d1887c805577de8e29a4d8d1c80c5b3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/dtopo.data",
+          "bytes": 378,
+          "sha256": "64a58c86d51f680340ec7152ad5d56dbff35a7bfce8a20692d1bc07c646dcdf3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/fgmax_grids.data",
+          "bytes": 377,
+          "sha256": "692e51d50f65c25d2e2c0021c7db7505ccabb4048559c5f3e7d2d5fe64f7729e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/fgout_grids.data",
+          "bytes": 332,
+          "sha256": "534922e09aebd55119087c90688f4a852c4478828a975a26c2ddd8b8e42bccb1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/flagregions.data",
+          "bytes": 331,
+          "sha256": "520be24022e5bc2fef06c7d7081d36bf729ceb79cb7e0378dcbf819cebdeca2b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/flowgrades.data",
+          "bytes": 405,
+          "sha256": "f252fe7668c9238567d1b4dc5673c7358f1e921670d71766b19c5a242fd184f7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/gauges.data",
+          "bytes": 517,
+          "sha256": "595d3bb123444c5b99086c5844294c625b6e4b4fb200090020f51a37a7402ef7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/geoclaw.data",
+          "bytes": 1185,
+          "sha256": "f81e4781509dfa7ea8c497324bbaab6fa3e03bc478e8f2c70ba7786bdbfdd219",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/pinit_dclaw.data",
+          "bytes": 440,
+          "sha256": "99b456332cf9f0b62b30b07f5056a4b69a96edb5f443aeca29ec43e0bb9dcf48",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/qinit_dclaw.data",
+          "bytes": 408,
+          "sha256": "65f0c179b63d4268ef974c1c6a62dff355b80028efe0dd21eacade7fc7148140",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/refinement.data",
+          "bytes": 550,
+          "sha256": "afa0336ef00df4b1a8e0f7de55ff0a4f774271bfc7d213dc6fd8062cfe50aa64",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/regions.data",
+          "bytes": 331,
+          "sha256": "4182f5f930b63f2dad77869c58950ac7faa05b8e03cbac09a29b05c4e5b83a5b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/thickness.tt3",
+          "bytes": 754212,
+          "sha256": "cb05a64911d078a9fa0fc0245fb640a95ebf71f90ee4295bad68e48b489cc3c2",
+          "role": "native_release",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/topo.data",
+          "bytes": 568,
+          "sha256": "6ae57d05675769b455d1e2607057196d9de083f0739525ccc4ed27f9d825ffc1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/xdclaw",
+          "bytes": 1190832,
+          "sha256": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9",
+          "role": "native_executed_binary",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_permeable/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use saved *.data + basal_topo/thickness.tt3 withsameverifiedxdclaw",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_60_dclaw_ref",
+      "model": "dclaw",
+      "execution_sha256": "32c16a6b110a492f32871246ad77b62e84b6c1c85ed6c91c9c20e4b34c340c08",
+      "case_sha256": "107aa9c210a5f60c5bea543e12b724e2c2054251db87c150423b1ced31a0cc6c",
+      "log_sha256": "8d053f4c180bf00cac6c7e31f368d66f0c1473707571830339382a71cc6fc411",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/amr.data",
+          "bytes": 1484,
+          "sha256": "4ffe75b84926a7362821b829fbe3590045d89003f3bd5d67cad5b788eaa1d706",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/auxinit_dclaw.data",
+          "bytes": 345,
+          "sha256": "a2c895983a1488fb089c55d32e5858c3108e6285fc5d81bb951389be6b5efd30",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/basal_topo.tt3",
+          "bytes": 754212,
+          "sha256": "c859e1e47d9945aa48d7fcab88e09cf07c701ac1c942a8ffb765e122b1fb38fe",
+          "role": "native_terrain",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/claw.data",
+          "bytes": 1916,
+          "sha256": "1a3ab4d1e1c747e0ca8044e3fd6f314ef25eaee1d656e9cb477774e110b4d695",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/dclaw.data",
+          "bytes": 2848,
+          "sha256": "5b9bf2e9a5367cd31588fb243eae45f9494fa671a0bc813e0e0a91a89b6d63ab",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/dtopo.data",
+          "bytes": 378,
+          "sha256": "64a58c86d51f680340ec7152ad5d56dbff35a7bfce8a20692d1bc07c646dcdf3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/fgmax_grids.data",
+          "bytes": 377,
+          "sha256": "692e51d50f65c25d2e2c0021c7db7505ccabb4048559c5f3e7d2d5fe64f7729e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/fgout_grids.data",
+          "bytes": 332,
+          "sha256": "534922e09aebd55119087c90688f4a852c4478828a975a26c2ddd8b8e42bccb1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/flagregions.data",
+          "bytes": 331,
+          "sha256": "520be24022e5bc2fef06c7d7081d36bf729ceb79cb7e0378dcbf819cebdeca2b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/flowgrades.data",
+          "bytes": 405,
+          "sha256": "f252fe7668c9238567d1b4dc5673c7358f1e921670d71766b19c5a242fd184f7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/gauges.data",
+          "bytes": 517,
+          "sha256": "595d3bb123444c5b99086c5844294c625b6e4b4fb200090020f51a37a7402ef7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/geoclaw.data",
+          "bytes": 1185,
+          "sha256": "f81e4781509dfa7ea8c497324bbaab6fa3e03bc478e8f2c70ba7786bdbfdd219",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/pinit_dclaw.data",
+          "bytes": 440,
+          "sha256": "99b456332cf9f0b62b30b07f5056a4b69a96edb5f443aeca29ec43e0bb9dcf48",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/qinit_dclaw.data",
+          "bytes": 402,
+          "sha256": "efd94cee010daefd274ef5ffc11bb542a216c78df1595cd5a78d423909a95778",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/refinement.data",
+          "bytes": 550,
+          "sha256": "afa0336ef00df4b1a8e0f7de55ff0a4f774271bfc7d213dc6fd8062cfe50aa64",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/regions.data",
+          "bytes": 331,
+          "sha256": "4182f5f930b63f2dad77869c58950ac7faa05b8e03cbac09a29b05c4e5b83a5b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/thickness.tt3",
+          "bytes": 754212,
+          "sha256": "cb05a64911d078a9fa0fc0245fb640a95ebf71f90ee4295bad68e48b489cc3c2",
+          "role": "native_release",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/topo.data",
+          "bytes": 562,
+          "sha256": "54c3e8c50c699f7652e8e1b5cce2044ba782d6493459bd058a0793b57b6f408b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_dclaw_ref/xdclaw",
+          "bytes": 1190832,
+          "sha256": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9",
+          "role": "native_executed_binary",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use saved *.data + basal_topo/thickness.tt3 withsameverifiedxdclaw",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "copdem_60_single_ref__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "0168a4dbd4cf5a2e0511e26dbfe42fe9b9577ee91417ff8afc15251a1215be52",
+      "case_sha256": "ed8666da4acf542cedaa724c7a597107c3b7a0c29178143047a8a6110f90c411",
+      "log_sha256": "de1d5612e3e0887417482aaaa5b9de3dd7e943b8cfa1336194eb9844d13063df",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_single_ref__sf0/copdem_60_single_ref__sf0_results/copdem_60_single_ref__sf0_files/copdem_60_single_ref__sf0_paramcomm.txt",
+          "bytes": 5827,
+          "sha256": "0a5d15aeb503732ec57ba3a9863ec250c7334d14ec83f4bdf310b7bf02317094",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_single_ref__sf0/run_grass.sh",
+          "bytes": 587,
+          "sha256": "b96f1229d08e17fb31e6257805765a9b7fce90fbb135b0d3a02e1ad6898731c1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_60_single_ref__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "dclaw_ref_extended120",
+      "model": "dclaw",
+      "execution_sha256": "477f94c4e6a0ea7d0ded73789263d03b24e2664e9e07bf6d0b73ae2c581d1f3c",
+      "case_sha256": "4d83681ccc75c8372c479dda21937d0e3cbfdd1cf72df03049347aa0184a3735",
+      "log_sha256": "7e1a609aea44ee56167d8daca31668be7342b7cc78420faab89aac37504bd21b",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/amr.data",
+          "bytes": 1484,
+          "sha256": "40276a9c31fe219b7c8552680f51baf0d9e9be6f721b08bfe0b69e98c7df6b00",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/auxinit_dclaw.data",
+          "bytes": 345,
+          "sha256": "a2c895983a1488fb089c55d32e5858c3108e6285fc5d81bb951389be6b5efd30",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/basal_topo.tt3",
+          "bytes": 1265151,
+          "sha256": "a9f9139c735affa420717d9ed025a90bf08487721ded78e21ea42c6c79bf1aa5",
+          "role": "native_terrain",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/claw.data",
+          "bytes": 1916,
+          "sha256": "d9b903acab0b729a4273740b1b727bed00fe6287517f1e1e15a1aec18e45d0ae",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/dclaw.data",
+          "bytes": 2848,
+          "sha256": "5b9bf2e9a5367cd31588fb243eae45f9494fa671a0bc813e0e0a91a89b6d63ab",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/dtopo.data",
+          "bytes": 378,
+          "sha256": "64a58c86d51f680340ec7152ad5d56dbff35a7bfce8a20692d1bc07c646dcdf3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/fgmax_grids.data",
+          "bytes": 377,
+          "sha256": "692e51d50f65c25d2e2c0021c7db7505ccabb4048559c5f3e7d2d5fe64f7729e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/fgout_grids.data",
+          "bytes": 332,
+          "sha256": "534922e09aebd55119087c90688f4a852c4478828a975a26c2ddd8b8e42bccb1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/flagregions.data",
+          "bytes": 331,
+          "sha256": "520be24022e5bc2fef06c7d7081d36bf729ceb79cb7e0378dcbf819cebdeca2b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/flowgrades.data",
+          "bytes": 405,
+          "sha256": "f252fe7668c9238567d1b4dc5673c7358f1e921670d71766b19c5a242fd184f7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/gauges.data",
+          "bytes": 517,
+          "sha256": "595d3bb123444c5b99086c5844294c625b6e4b4fb200090020f51a37a7402ef7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/geoclaw.data",
+          "bytes": 1185,
+          "sha256": "f81e4781509dfa7ea8c497324bbaab6fa3e03bc478e8f2c70ba7786bdbfdd219",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/pinit_dclaw.data",
+          "bytes": 440,
+          "sha256": "99b456332cf9f0b62b30b07f5056a4b69a96edb5f443aeca29ec43e0bb9dcf48",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/qinit_dclaw.data",
+          "bytes": 404,
+          "sha256": "d4668402ee18d173b4b217a6c6c8075ee307126b472ddaad14fb44bc0bd4cabb",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/refinement.data",
+          "bytes": 550,
+          "sha256": "afa0336ef00df4b1a8e0f7de55ff0a4f774271bfc7d213dc6fd8062cfe50aa64",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/regions.data",
+          "bytes": 331,
+          "sha256": "4182f5f930b63f2dad77869c58950ac7faa05b8e03cbac09a29b05c4e5b83a5b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/thickness.tt3",
+          "bytes": 1265151,
+          "sha256": "e3617f02b5dbc1fef5d9571315eb8d6893a35de2b70b25a5e4fcb87eb31bbe93",
+          "role": "native_release",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/topo.data",
+          "bytes": 564,
+          "sha256": "de0e27b5c91575c49c9f912eca48d3de6f42c4fc10f7fe70464db2318d5147bb",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/xdclaw",
+          "bytes": 1190832,
+          "sha256": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9",
+          "role": "native_executed_binary",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use saved *.data + basal_topo/thickness.tt3 withsameverifiedxdclaw",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "flatrest_60_dclaw",
+      "model": "dclaw",
+      "execution_sha256": "e27cb5b29acab666c5d912c3e250f548a2827b9ade80fd26f516079461c5afa7",
+      "case_sha256": "f81c934c469058bbdf3b42a190a7f310cf3396f8a78d8e346ac06627cf610c37",
+      "log_sha256": "32cda5cbad66484a995b11ba2356de5c0a00c4a2b9aa8c6dfc6d111490e427f1",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/amr.data",
+          "bytes": 1484,
+          "sha256": "224418a039b5fb142c198cf0e949385a29828598bbb5d60ed093dc43897520da",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/auxinit_dclaw.data",
+          "bytes": 345,
+          "sha256": "a2c895983a1488fb089c55d32e5858c3108e6285fc5d81bb951389be6b5efd30",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/basal_topo.tt3",
+          "bytes": 21800,
+          "sha256": "5932bf1454437c3029de6725f34d6e146f31334b51856699f486b401b0eb5e3f",
+          "role": "native_terrain",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/claw.data",
+          "bytes": 1916,
+          "sha256": "8b2b378d546a81653dd9a15a34f342f891e5e535cc55f2a7af768904f2913b68",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/dclaw.data",
+          "bytes": 2848,
+          "sha256": "5b9bf2e9a5367cd31588fb243eae45f9494fa671a0bc813e0e0a91a89b6d63ab",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/dtopo.data",
+          "bytes": 378,
+          "sha256": "64a58c86d51f680340ec7152ad5d56dbff35a7bfce8a20692d1bc07c646dcdf3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/fgmax_grids.data",
+          "bytes": 377,
+          "sha256": "692e51d50f65c25d2e2c0021c7db7505ccabb4048559c5f3e7d2d5fe64f7729e",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/fgout_grids.data",
+          "bytes": 332,
+          "sha256": "534922e09aebd55119087c90688f4a852c4478828a975a26c2ddd8b8e42bccb1",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/flagregions.data",
+          "bytes": 331,
+          "sha256": "520be24022e5bc2fef06c7d7081d36bf729ceb79cb7e0378dcbf819cebdeca2b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/flowgrades.data",
+          "bytes": 405,
+          "sha256": "f252fe7668c9238567d1b4dc5673c7358f1e921670d71766b19c5a242fd184f7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/gauges.data",
+          "bytes": 517,
+          "sha256": "595d3bb123444c5b99086c5844294c625b6e4b4fb200090020f51a37a7402ef7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/geoclaw.data",
+          "bytes": 1185,
+          "sha256": "f81e4781509dfa7ea8c497324bbaab6fa3e03bc478e8f2c70ba7786bdbfdd219",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/pinit_dclaw.data",
+          "bytes": 440,
+          "sha256": "99b456332cf9f0b62b30b07f5056a4b69a96edb5f443aeca29ec43e0bb9dcf48",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/qinit_dclaw.data",
+          "bytes": 412,
+          "sha256": "c9ca6dbc141e33c2447732e725d9ff9894f667d1b69d5eabc3e10e8693211e17",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/refinement.data",
+          "bytes": 550,
+          "sha256": "afa0336ef00df4b1a8e0f7de55ff0a4f774271bfc7d213dc6fd8062cfe50aa64",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/regions.data",
+          "bytes": 331,
+          "sha256": "4182f5f930b63f2dad77869c58950ac7faa05b8e03cbac09a29b05c4e5b83a5b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/thickness.tt3",
+          "bytes": 21800,
+          "sha256": "68c9f99b7e7f3f339d15dd6f415c93a086983d99287256b6564be57569993838",
+          "role": "native_release",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/topo.data",
+          "bytes": 572,
+          "sha256": "b15473b217fc09b9b124b84648c70747530b5b4841527e06a31037bf221e53be",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/xdclaw",
+          "bytes": 1190832,
+          "sha256": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9",
+          "role": "native_executed_binary",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use saved *.data + basal_topo/thickness.tt3 withsameverifiedxdclaw",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_multi",
+      "model": "ravaflow_multi",
+      "execution_sha256": "2b3b42b2040427179a98dd500a9fa2168b090cef799fe6cd378d844cb4da8baa",
+      "case_sha256": "ec894c468aafb71ea828d55bfaf6808047e57cac204d42f087ce04c43e3466f7",
+      "log_sha256": "39c2d6b2ce3b69f452f912d389c956785063123797c7d7bca7983b2c2ab360eb",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi/attempts/01_mapcalc_adapter_failure/run_grass.sh",
+          "bytes": 834,
+          "sha256": "5330af935ec31e329d406b2a47780307bd58b62ee316cbbf1244196350016efc",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi/flatrest_60_ravaflow_multi_results/flatrest_60_ravaflow_multi_files/flatrest_60_ravaflow_multi_paramcomm.txt",
+          "bytes": 7538,
+          "sha256": "5928f1f363dce84b2a9c3f5d26f9e56cdb536532cc5b0d96846e809ddb882e2a",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi/run_grass.sh",
+          "bytes": 843,
+          "sha256": "8b637a81b5db7b2f36e06846bc5dac80624439fb4e60497d403bf992799b14dc",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_multi__sf0",
+      "model": "ravaflow_multi",
+      "execution_sha256": "18b0ab88d2226879ffe33a3af15450336e88af63fee7d7d20358331754ea1978",
+      "case_sha256": "8a1c2c8a02d2f82b81d66d39c02e07e9c9941c73ed87e9b98f998434735e5c57",
+      "log_sha256": "749c0fa95e1c6cfc40aa6bdd71ee721e1c990058ee76cdc997445a2a710a4ac3",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi__sf0/flatrest_60_ravaflow_multi__sf0_results/flatrest_60_ravaflow_multi__sf0_files/flatrest_60_ravaflow_multi__sf0_paramcomm.txt",
+          "bytes": 7593,
+          "sha256": "51875ff69aa4e69a4feba0e0a8e0fc1fe02b30eb8e83c307916616b8749573a3",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi__sf0/run_grass.sh",
+          "bytes": 848,
+          "sha256": "a82338aef7a09c3efc30a6658712a2bd253d29b80fc59af40ecb624d3d9bbbb9",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_multi__sf0__resourcefix",
+      "model": "ravaflow_multi",
+      "execution_sha256": "631ee7d874d2440d1c4ac2b17c75fe5a43caaa36579235ce48bff5ed0ac23c21",
+      "case_sha256": "24b2329a6701939707b5f05709d36ec738baf50ea98966a055f5c170556590b0",
+      "log_sha256": "834f21c47bc9a9b5db4b8c55f11a4360db3e20b2b1af3bcc75612416a36d39d1",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi__sf0__resourcefix/flatrest_60_ravaflow_multi__sf0__resourcefix_results/flatrest_60_ravaflow_multi__sf0__resourcefix_files/flatrest_60_ravaflow_multi__sf0__resourcefix_paramcomm.txt",
+          "bytes": 7736,
+          "sha256": "094a121a9c6e616e8dd2516720287d4e1dbc3328017c9c80f8437eb115cae670",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi__sf0__resourcefix/run_grass.sh",
+          "bytes": 928,
+          "sha256": "da235b5ef0ef752803f869f787487bdd3a2cd94875443deaee3e4e0178f700b5",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi__sf0__resourcefix/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single",
+      "model": "ravaflow_single",
+      "execution_sha256": "73d9f183261cbd966d6716263a17006878d37bf98ab741f0150c88a6b03d45c1",
+      "case_sha256": "2a4d3c94d585ab95cb3195974e0cc6027a4a1c4384bf5bd0e853aab0a68f665d",
+      "log_sha256": "ee0098dcb9ab95976d3c6c7b5ebc79be0c370526d63b1877657dcc4a1f6778d1",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single/flatrest_60_ravaflow_single_results/flatrest_60_ravaflow_single_files/flatrest_60_ravaflow_single_paramcomm.txt",
+          "bytes": 5848,
+          "sha256": "cdca84090b9bd98c8270a36c4db50f78cb1cfafd77de6a8d39b15994a8ee2446",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single/run_grass.sh",
+          "bytes": 535,
+          "sha256": "26584382797ceb5d3ca6519b684f530103e0ffdfb67ac04e0762f723e7199e30",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "819ad70a19a08d31375c3594b957f2e942a88f9f31e4426c52d9f51de6e65c6f",
+      "case_sha256": "38d039f423e9ca23694516c9e3351c818f63b6f400dd0d7e2584694cc61bbf61",
+      "log_sha256": "ded9dc9388194e94772c4eadad71a2033970c0844b7d4900afff6d1b1e8dc08b",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single__sf0/flatrest_60_ravaflow_single__sf0_results/flatrest_60_ravaflow_single__sf0_files/flatrest_60_ravaflow_single__sf0_paramcomm.txt",
+          "bytes": 5903,
+          "sha256": "3ba49bc4c8f252f70f136f5f6735d945259f11b807f816e97de085d7b3b638c8",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single__sf0/run_grass.sh",
+          "bytes": 516,
+          "sha256": "c4428be6a9efcbd0a5373877b4cce81cbbef5b967c05ce7bc64a3c0287db0789",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single__sf0__noa",
+      "model": "ravaflow_single",
+      "execution_sha256": "8742a0efdc2f0c769d3731584b974cd1ef1b5ec0c6d83487bcae638705eb653c",
+      "case_sha256": "8a08dfc07dbbab5f82bfc264080a6b790f5b4ba2d38901f96e1ffb9ba7ebd4cc",
+      "log_sha256": "fb3db2b054e7720e9192ab6e89cb6635057727683ed1cd9b285c50e65a6ba74a",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single__sf0__noa/flatrest_60_ravaflow_single__sf0__noa_results/flatrest_60_ravaflow_single__sf0__noa_files/flatrest_60_ravaflow_single__sf0__noa_paramcomm.txt",
+          "bytes": 5958,
+          "sha256": "51457d7e9c426fb0453fc97aca5bf79977dda754d72f8c94fa80450de04900ab",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single__sf0__noa/run_grass.sh",
+          "bytes": 520,
+          "sha256": "534b31c2044a2e64709bcb092deba4de7c957bccbdc1abb67b56464a4e292e64",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_single__sf0__resourcefix",
+      "model": "ravaflow_single",
+      "execution_sha256": "65128605e2496594078d70ccce862c9d375084276da412fb1b1b59f29021833d",
+      "case_sha256": "be3becd4c530628b76b6ed376e8df8391e6f2a6e1a6abe0f653579699896fefe",
+      "log_sha256": "e7749f548136aba79e75a80d22b1bbd81afdc5538e922a2ae70bcf2b4421d18d",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single__sf0__resourcefix/flatrest_60_ravaflow_single__sf0__resourcefix_results/flatrest_60_ravaflow_single__sf0__resourcefix_files/flatrest_60_ravaflow_single__sf0__resourcefix_paramcomm.txt",
+          "bytes": 6046,
+          "sha256": "119e56344db4a89a5e2f884e67170bb70e995d99fac29ab8aff633c07aabb10a",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single__sf0__resourcefix/run_grass.sh",
+          "bytes": 596,
+          "sha256": "bdbbe18ee8c2e3899152e1f6ea67dbdf56a09c9dcdb6d6bd9569b2388f194cb5",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single__sf0__resourcefix/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m",
+      "model": "ravaflow_single",
+      "execution_sha256": "c7b89825c95fab1e9931302bbb3c673ce7c4e19376f76255911177bcf368c702",
+      "case_sha256": "907b2393cb384bd656c5c21bd4bc58827b2e931b9e2bcaf099752dcb8e4fde7e",
+      "log_sha256": "024b25503a2aab5277a585c7f8b27ca4d09534979f9ff1389d922e74756785ed",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m/q2full_q2r3_p0000_S_linear__geomv2_60m_results/q2full_q2r3_p0000_S_linear__geomv2_60m_files/q2full_q2r3_p0000_S_linear__geomv2_60m_paramcomm.txt",
+          "bytes": 5970,
+          "sha256": "e71272a92e4bb1fda802a2e2ecdd1654a59019b81dbf763518f5f53731ff83b8",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m/run_grass.sh",
+          "bytes": 575,
+          "sha256": "7fd7e0a1e4caea479994cbb28e9146ecc2bd45944af120f5ca48e502d447935d",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "0efa8f7b5f00eadb5c1eef67b6ea828ce55faaff80deb5912a13f5d767e532f3",
+      "case_sha256": "4ba9554a8353a3042830e5f2026abf52d7cd00061a4d01dbb9a35278e6cfa4e1",
+      "log_sha256": "0774aac0f2eeef294c4a7eb0aa62ec791f8ca9143c2424b6f5db9386174465d7",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_results/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_files/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_paramcomm.txt",
+          "bytes": 6025,
+          "sha256": "76e3dedd89fc52ed2bc4fd28f50572b75f02b48248ab96ae2269fdbeed214075",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run_grass.sh",
+          "bytes": 647,
+          "sha256": "478b477da7bc9c7972cd0fe8ce5426f38e6802e28dfdba4743cdbc8861137324",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "08311c31cd562a5f9134101960b68474179d9176de5620f40c41bd4439ce230a",
+      "case_sha256": "d5550a6e402f27682ebdd3022b596f22655ce45c50b8a48e34790a80d8c88e39",
+      "log_sha256": "3a4295d1aaee6801d0a901701eb572d809a222b81e5ca60debfa4592abdcd85a",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_results/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_files/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_paramcomm.txt",
+          "bytes": 6058,
+          "sha256": "e23dca9237845c34c5a81d39491629a50ccd9cf74519899dffd83fecce3e4a12",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run_grass.sh",
+          "bytes": 654,
+          "sha256": "f739833b76e080938e68d1fb314ebb43128db875d58becd294fe2963e42fe279",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "113988d3f78857112651ec8ae104edc9661227ab912452b89b8d6f96bfc59c44",
+      "case_sha256": "6082cc9a5cba60d93ae005bc3af7b9027cd483d83e811282cbebef0597c900fa",
+      "log_sha256": "77b4d84d6c143a9f2b7c867e71f9cd3f08ccab9270c15f3001b7a777b8b33ae5",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_results/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_files/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_paramcomm.txt",
+          "bytes": 6047,
+          "sha256": "d7906a3ca970bbc30637575dd3dd73620f8bf8a1179bb45d3b5e54d786fbe76c",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run_grass.sh",
+          "bytes": 650,
+          "sha256": "01f62dd211d6b79b9148a626271d471158672f5225ea4db5959465c423860256",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear",
+      "model": "ravaflow_single",
+      "execution_sha256": "53cd6fe49b663c5c53e43e782c14e483cc6593f4ca8aa2229f2cb0f2736a7c67",
+      "case_sha256": "2f1ae0e0b17328a42fb72bb7fd75b7c51a312b0b2aa0b110f66f02ea0f0e1458",
+      "log_sha256": "479a9e87dec9a73fc9d8cfff7477baa8701e7e320457960959f44bddbb93b04c",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear/q2map60_q2r3_p0000_S_linear_results/q2map60_q2r3_p0000_S_linear_files/q2map60_q2r3_p0000_S_linear_paramcomm.txt",
+          "bytes": 5849,
+          "sha256": "925d468945b8f81961812197fa4f1b1e84db296de0873d245b60bef1e4331393",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear/run_grass.sh",
+          "bytes": 574,
+          "sha256": "ac6256def7ee8de89783a52b09ec7f2eb58c468458c226e5741ab4c4b61f7d4b",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": null,
+      "saved_executed_adapter_sha256": null,
+      "historical_adapter_identity_status": "not_saved_at_execution_start; do_not_retroactively_substitute_currentadapter",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "0eddb0daa73f26ca6d831e2f7d43b425462cede1a064cf05e09c3b0d8cae824f",
+      "case_sha256": "1bbfcb97cd49fd65caf46f8220b24e3478ee81005970eedfdcdf3a69dbfde992",
+      "log_sha256": "17b89b57f26aae9ae7a2fcb3a3533db0fbe26db01f46e596a6c3e349826a25af",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/q2map60_q2r3_p0000_S_linear__sf0_results/q2map60_q2r3_p0000_S_linear__sf0_files/q2map60_q2r3_p0000_S_linear__sf0_paramcomm.txt",
+          "bytes": 5904,
+          "sha256": "eef5ce2b9899a61c20327d9eb64d4f3eac0d724fab5a25d62a8dbc33b7149620",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/run_grass.sh",
+          "bytes": 622,
+          "sha256": "9f999e5a587bf2c404d703f6ecd4a311f4ecd01a4d7779d351dfac2d6037e5b7",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2map60_q2r3_p0036_S_T_linear__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "d5100369e7ba2e50b6c42d91ef7765ef81007b22a6a9342dff0a3af70ad0cc25",
+      "case_sha256": "ecebcdf7e9efa8335f4d834bafb29275ea6686a08d3139c05b5c2eaf0e6290c2",
+      "log_sha256": "b48edd7113cd6a1187d92b4bd1e275d6f957c20d24e21253f51e33c5ed03e66c",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/q2map60_q2r3_p0036_S_T_linear__sf0_results/q2map60_q2r3_p0036_S_T_linear__sf0_files/q2map60_q2r3_p0036_S_T_linear__sf0_paramcomm.txt",
+          "bytes": 5926,
+          "sha256": "0c2fddc2b4e457351a8fa7bfb213b846dda9dd56bf0fb81012ef5556bdb24697",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/run_grass.sh",
+          "bytes": 625,
+          "sha256": "75a8507ff1d887b55ddb6e368bf6e7e3073774a367d888a9b38f84ff5d28fc9f",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "be0199aace2ac970292460e6ab8facda886da605ec20ab8108bb450797f3330b",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "20cd36c787490c91eb0e38c04a75a06c9ddf127beecfc2a9d9e19626009ad926",
+      "case_sha256": "db40ffb25b893db3e22c3f0f5d6eacf1aafb648db2e790b76ca8fb1b4991ec8d",
+      "log_sha256": "6bade48fcfb7a7879d165ff24f765e66862994ef534b0ccfc90d5e597b85a94d",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/q2map60_q2r3_p0072_S_H_linear__sf0_results/q2map60_q2r3_p0072_S_H_linear__sf0_files/q2map60_q2r3_p0072_S_H_linear__sf0_paramcomm.txt",
+          "bytes": 5926,
+          "sha256": "fe96c095e82cfbbea23f14f3685a2b67fe460f2a9266ef6ab64fc282c4e383e5",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/run_grass.sh",
+          "bytes": 626,
+          "sha256": "c9adc39b7f547df3168518a8fd80962c2333a576177497f4c4b41b962671cf02",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0072_S_H_linear__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "0888cf27b2c5cf0787b8c4c6f5735b971d0c08f8aa5876a078834f8e9104bf22",
+      "case_sha256": "2da552fe30dcbb457ffa794e9851a92dac0650316f9e1dd96aa5d7d75423bd02",
+      "log_sha256": "edb49c8d51ef27630fcb1b5891b73d5cd9c700383880c55df502b8727232c98c",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/q2map60_q2r3_p0255_S_T_H_linear__sf0_results/q2map60_q2r3_p0255_S_T_H_linear__sf0_files/q2map60_q2r3_p0255_S_T_H_linear__sf0_paramcomm.txt",
+          "bytes": 5948,
+          "sha256": "417455e5b9d6d236d340112bcebf07311f011de57322ec483476830e16783439",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/run_grass.sh",
+          "bytes": 630,
+          "sha256": "f9a1760fcb446771e349f9a342a4c0ca3611828e71b8f596b52805c3981fe273",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0255_S_T_H_linear__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    }
+  ],
+  "historical_missing_runner_not_reconstructed": true,
+  "scope": "actualsaved nativecontrols, independentlyhashable; doesnotassert historicalPython sourcehashwhen absent"
+}

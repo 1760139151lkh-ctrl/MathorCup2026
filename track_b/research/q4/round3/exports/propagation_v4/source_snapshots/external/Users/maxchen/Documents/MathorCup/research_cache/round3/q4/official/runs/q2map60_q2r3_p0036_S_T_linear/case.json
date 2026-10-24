@@ -1,0 +1,72 @@
+{
+  "run_id": "q2map60_q2r3_p0036_S_T_linear",
+  "scenario_id": "q2r3-p0036-S_T-linear",
+  "model": "ravaflow_single",
+  "terrain_id": "copdem",
+  "resolution_m": 60.0,
+  "dem": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+  "dem_sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+  "release": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2mapped/q2r3-p0036-S_T-linear/release.tif",
+  "release_sha256": "37973f5dc5b60eb96133b314d9b88776913c5004b994cb4bf74db8415e3a19c9",
+  "source_geometry_sha256": "75e59d97b861bd409f1fde35719ee202f5e8bd00bbb4e559b346630b79e832c4",
+  "release_thickness_m": 33.70529521014883,
+  "release_grid_volume_m3": 1348211.813735962,
+  "nominal_polygon_volume_m3": null,
+  "expected_reference_grid_volume_m3": null,
+  "mu_basal": 0.15,
+  "xi": 1000,
+  "phase_volume_fractions": [
+    1
+  ],
+  "initial_velocity_east_north_m_s": [
+    0,
+    0
+  ],
+  "initiation_to_release_delay_seconds": null,
+  "end_seconds": 1800,
+  "output_interval_seconds": 20,
+  "targets": [
+    {
+      "id": "paper_port_symbol",
+      "xy": [
+        340981.5408349674,
+        3129214.004555992
+      ],
+      "buffer_m": 100,
+      "candidate": true
+    },
+    {
+      "id": "paper_junction",
+      "xy": [
+        351476.41323709604,
+        3134746.4349620095
+      ],
+      "buffer_m": 100,
+      "candidate": true
+    }
+  ],
+  "extras": {},
+  "evidence_role": "conditional_cross_question_scenario",
+  "model_adoption": "pending_team_review",
+  "geometry_version": "q4-r3-q2-mapped-release-v1",
+  "upstream_model_id": "q2r3_ST_v1",
+  "upstream_parameter_version": "q2r3-design-v1",
+  "upstream_onset_status": "interval_crossing",
+  "if_released_propagation": false,
+  "not_an_initiation_prediction": true,
+  "source_plan_area_m2": 40000.0,
+  "source_mapping": "Circular compact subsource centred on paper candidate centroid, clipped to that polygon, area solved exactly; no observed release geometry claim",
+  "bulk_density_kg_m3": 2158.626225168872,
+  "passive_material_volume_fractions": {
+    "rock": 0.6963691672287561,
+    "ice": 0.3036308327712439,
+    "free_water": 0
+  },
+  "passive_material_fraction_basis": "volume",
+  "source_release_reference": {
+    "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/q4-r3-q2-mapped-release-v1/q2r3_p0036_S_T_linear_release_60m.tif",
+    "bytes": 1455,
+    "sha256": "37973f5dc5b60eb96133b314d9b88776913c5004b994cb4bf74db8415e3a19c9",
+    "role": "native_solver_mapped_release"
+  }
+}

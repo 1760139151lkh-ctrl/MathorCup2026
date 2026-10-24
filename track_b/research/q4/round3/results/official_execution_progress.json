@@ -1,0 +1,246 @@
+{
+  "reported_utc": "2026-10-24T11:19:08.733032+00:00",
+  "registered_scientific_cases": 38,
+  "applicable_required_count": 30,
+  "diagnostic_only_count": 1,
+  "counts": {
+    "complete": 31,
+    "running": 0,
+    "not_started": 0,
+    "failed": 0,
+    "held_not_run": 0,
+    "not_run_material_applicability_exclusion": 7
+  },
+  "cases": [
+    {
+      "run_id": "copdem_120_single_ref__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1801.2
+    },
+    {
+      "run_id": "copdem_120_multi_ref__sf0",
+      "state": "complete",
+      "applicability_decision": "generic_material_proxy_diagnostic_only",
+      "last_actual_output_time_s_from_native_log": 1800.4
+    },
+    {
+      "run_id": "copdem_120_multi_dry__sf0",
+      "state": "not_run_material_applicability_exclusion",
+      "applicability_decision": "not_run_material_applicability_exclusion",
+      "last_actual_output_time_s_from_native_log": null
+    },
+    {
+      "run_id": "copdem_120_multi_wet__sf0",
+      "state": "not_run_material_applicability_exclusion",
+      "applicability_decision": "not_run_material_applicability_exclusion",
+      "last_actual_output_time_s_from_native_log": null
+    },
+    {
+      "run_id": "copdem_120_multi_nodrag__sf0",
+      "state": "not_run_material_applicability_exclusion",
+      "applicability_decision": "not_run_material_applicability_exclusion",
+      "last_actual_output_time_s_from_native_log": null
+    },
+    {
+      "run_id": "copdem_120_dclaw_ref",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.0
+    },
+    {
+      "run_id": "copdem_120_dclaw_nopressure",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.0
+    },
+    {
+      "run_id": "copdem_120_dclaw_loose",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.0
+    },
+    {
+      "run_id": "copdem_120_dclaw_permeable",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.0
+    },
+    {
+      "run_id": "copdem_120_single_h136__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.3
+    },
+    {
+      "run_id": "copdem_120_single_h5__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1801.9
+    },
+    {
+      "run_id": "copdem_120_single_h30__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1801.2
+    },
+    {
+      "run_id": "copdem_120_single_mu0p08__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.2
+    },
+    {
+      "run_id": "copdem_120_single_mu0p25__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1802.0
+    },
+    {
+      "run_id": "copdem_120_single_xi500__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1802.4
+    },
+    {
+      "run_id": "copdem_120_single_xi2000__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.5
+    },
+    {
+      "run_id": "copdem_120_single_cfl025__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.9
+    },
+    {
+      "run_id": "copdem_60_single_ref__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1801.4
+    },
+    {
+      "run_id": "copdem_60_multi_ref__sf0",
+      "state": "not_run_material_applicability_exclusion",
+      "applicability_decision": "not_run_material_applicability_exclusion",
+      "last_actual_output_time_s_from_native_log": null
+    },
+    {
+      "run_id": "copdem_60_multi_dry__sf0",
+      "state": "not_run_material_applicability_exclusion",
+      "applicability_decision": "not_run_material_applicability_exclusion",
+      "last_actual_output_time_s_from_native_log": null
+    },
+    {
+      "run_id": "copdem_60_multi_wet__sf0",
+      "state": "not_run_material_applicability_exclusion",
+      "applicability_decision": "not_run_material_applicability_exclusion",
+      "last_actual_output_time_s_from_native_log": null
+    },
+    {
+      "run_id": "copdem_60_multi_nodrag__sf0",
+      "state": "not_run_material_applicability_exclusion",
+      "applicability_decision": "not_run_material_applicability_exclusion",
+      "last_actual_output_time_s_from_native_log": null
+    },
+    {
+      "run_id": "copdem_60_dclaw_ref",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.0
+    },
+    {
+      "run_id": "copdem_60_dclaw_nopressure",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.0
+    },
+    {
+      "run_id": "copdem_60_dclaw_loose",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.0
+    },
+    {
+      "run_id": "copdem_60_dclaw_permeable",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.0
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.1
+    },
+    {
+      "run_id": "q2map60_q2r3_p0036_S_T_linear__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1801.7
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.9
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1802.0
+    },
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.5
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1801.2
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.5
+    },
+    {
+      "run_id": "composite_RI_water_120__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.4
+    },
+    {
+      "run_id": "composite_rock_water_120__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.4
+    },
+    {
+      "run_id": "dclaw_ref_extended120",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.0
+    },
+    {
+      "run_id": "composite_RI_water_nodragvm_120__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.4
+    },
+    {
+      "run_id": "copdem_120_single_entrain1m_P1buf250__sf0",
+      "state": "complete",
+      "applicability_decision": "required",
+      "last_actual_output_time_s_from_native_log": 1800.2
+    }
+  ],
+  "outside_primary": "old multiphaseSF2 configuration challenge, quarantinedsingleSF2, external official benchmarks and numericalstatic benchmarks separately",
+  "completion_scope": "native program exit and closed metadata; physical qualification assessed separately"
+}

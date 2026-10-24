@@ -1,0 +1,49 @@
+{
+  "version": "q4-r3-spatial-copdem-extended-v1",
+  "created_at_utc": "2026-10-24T08:12:22.620367+00:00",
+  "protocol_sha256": "b4342253dc70b6603f506ca84d464c5314f5b366550d433c7ac2e8ce71841c19",
+  "base_grid_path": "results/spatial_inputs_120m.npz",
+  "base_grid_sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0",
+  "source_product": {
+    "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/Copernicus_DSM_COG_10_N28_00_E085_00_DEM.tif",
+    "bytes": 38402839,
+    "sha256": "1590255a0ae7e8c1f49b277e287032a18a2e32c8e13c4c3298ed458f851cd3c7",
+    "role": "same_native_Copernicus_tile"
+  },
+  "shape": [
+    245,
+    318
+  ],
+  "affine": [
+    120.0,
+    0.0,
+    329400.0,
+    0.0,
+    -120.0,
+    3147000.0
+  ],
+  "resolution_m": 120.0,
+  "pad_cells": 84,
+  "same_source_resampling_difference_before_core_preservation": {
+    "mean_m": -0.2071839594324946,
+    "rmse_m": 1.1357279981267987,
+    "max_abs_m": 8.75146484375
+  },
+  "core_dem_exactly_preserved": true,
+  "release_grid_volume_m3": 13877999.546813965,
+  "files": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/domain_extension_v1/dem_120m.tif",
+      "bytes": 267673,
+      "sha256": "4cae4537a6a5991938247082731f958c05008cc07a55141cae8e608f50e313b1",
+      "role": "extended_dem"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/integrated_inputs/domain_extension_v1/release_h15_120m.tif",
+      "bytes": 2036,
+      "sha256": "640c682dfd9e9004383ca96a783b597198a80311dafc1ed1f54471b698a83eaf",
+      "role": "same_reference_release"
+    }
+  ],
+  "evaluation_stratum": "conditional_scenario"
+}

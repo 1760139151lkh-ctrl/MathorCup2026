@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-24T08:03:32.100307+00:00",
+  "context": {
+    "input_version": {
+      "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+      "baseline_manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53"
+    },
+    "event_id": "B20260826_Chhochen",
+    "physical_phase": "spatial_background_and_conditional_propagation_geometry",
+    "time_utc": null,
+    "time_uncertainty": {
+      "reason": "event geometry measurement time unverified; scene times separately in source logs"
+    },
+    "space_object": {
+      "geometry_version": "q4-r3-spatial-copdem-v1 plus explicitly separate v2 supplements",
+      "crs": "CRS84 geometry / EPSG32645 metric grids",
+      "positional_uncertainty_m": null
+    },
+    "variable_semantics": {
+      "DEM": "metres EGM2008 for Copernicus; supplied DEM datum unknown",
+      "NDVI": "unitless; corrected legacy scale only after C1 check; paired SCL4/5 DN>1",
+      "QC": "classwise SCL, all missing masks retained"
+    },
+    "forecast_reference_time": null,
+    "issue_time": null,
+    "valid_time": null,
+    "available_time": null,
+    "data_role": "exploration",
+    "downstream_model_use": "conditional scenarios require separate supplied release state",
+    "evidence_status": "not accepted event geometry or independent event validation",
+    "evaluation_stratum": "local_observational",
+    "downstream_evaluation_stratum": "conditional_scenario",
+    "null_policy": "not applicable forecast times or unknown historical availability retained null; file retrieval UTC does not imply issue-time availability"
+  },
+  "cache_files": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/Copernicus_DSM_COG_10_N28_00_E085_00_DEM.tif",
+      "bytes": 38402839,
+      "sha256": "1590255a0ae7e8c1f49b277e287032a18a2e32c8e13c4c3298ed458f851cd3c7",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2B_45RUM_20260824_0_L2A.json",
+      "bytes": 33627,
+      "sha256": "3bec33387083a74129077e97166558a43e03928e50c41111a473b36c30013200",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2B_45RUM_20260824_0_L2A_scl.tif",
+      "bytes": 1753893,
+      "sha256": "9c1fb8dfb4975cd416ab8989284e540a85c67862f2467f32629b66e69905088d",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2B_45RUM_20260824_0_L2A_visual.tif",
+      "bytes": 128104115,
+      "sha256": "2bb50bf86890a2e1fb3d3f680ddbb563060fa169272390cc22eef3bc9fdaa7b4",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2B_45RUM_20260824_0_L2A_visual_crop.tif",
+      "bytes": 2458080,
+      "sha256": "b9540c7982c0bd0434a12b91b8f9c9fbfd79de69efeaa9af815d118757b5117d",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A.json",
+      "bytes": 33694,
+      "sha256": "54d94594638bd6770272827f4bd6af9c0e0ca79fb9c42782ed4ed1e8350bc6e9",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_nir_crop.tif",
+      "bytes": 2812167,
+      "sha256": "feaddba7fed82910072e87d88df3c1fc0cd8d641dddd049d2aca5e3a02250081",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_red_crop.tif",
+      "bytes": 2512641,
+      "sha256": "2939638d36c235ee767cc1662b3608d47edfd0e0457f1821d5bd6e785b178419",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_scl.tif",
+      "bytes": 3063474,
+      "sha256": "bb7d751e5e7b4c313cbf320c72c8dad8b505de65bc8a577a592e599d4a533fe8",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_visual.tif",
+      "bytes": 265529453,
+      "sha256": "d87a9f98b759ff52ca6781ed1403828eaf5743fb662604e6b65d343cdfbb0ab0",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_visual_crop.tif",
+      "bytes": 4003253,
+      "sha256": "699a4b0b1e5d80ba78c9e152c0722b020e5d0b9d8b88039807791ddbed164cca",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A.json",
+      "bytes": 33619,
+      "sha256": "3514e651be3a24c516331e60a02fcdd8e6064affbbeb216399912158173453b4",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_nir_crop.tif",
+      "bytes": 2342254,
+      "sha256": "ce73a1d87a30abe2ba54413159d77c06abf65a946d219c349461c407edc0a4ec",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_red_crop.tif",
+      "bytes": 2209366,
+      "sha256": "e87ff1fe3ffd877053b86c7f89d1c60578df0971ec97aa72a55774c651b82329",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_scl.tif",
+      "bytes": 820797,
+      "sha256": "8915e3d43618e58de1aa28d4f22939ea5038c9ca440dc468310fbd12a3d3245f",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_visual.tif",
+      "bytes": 98535707,
+      "sha256": "85a9caefbf072a0d686a6e72267e52a421f5c6abfc4a7a4ead50f9c50cef9afc",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_visual_crop.tif",
+      "bytes": 2585714,
+      "sha256": "2e98c9ec36620ef43e9f9484779f4157afce68363de140d86096f4781a804eda",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260812T050239_L2A_c1.json",
+      "bytes": 25677,
+      "sha256": "f548be1c5f7d8b13f7a1dcf39357a3f074536b593946f24f9522a8d191171e29",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260812T050239_L2A_nir_radiometry_sample.tif",
+      "bytes": 21288,
+      "sha256": "c77ad4d08349cbfa6e9ce310bbfce1c0236086285ccc50e1fe0d85964627dd70",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260812T050239_L2A_red_radiometry_sample.tif",
+      "bytes": 18819,
+      "sha256": "9c7da18f6aa35b3d393701773cd3306b968c2fd954b66d5061445a86fc57ffbf",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260928T045730_L2A_c1.json",
+      "bytes": 25598,
+      "sha256": "7ebad7e556014040edd42b89d99f4325d490f322679e4d17c4b47da65d8383ac",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260928T045730_L2A_nir_radiometry_sample.tif",
+      "bytes": 21178,
+      "sha256": "a82b326eaffb12c91b2c28f94feb56660d7a8ae9df072bb1f92ba728d4559d8b",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260928T045730_L2A_red_radiometry_sample.tif",
+      "bytes": 19743,
+      "sha256": "360c83e3cfb2189deef7933bb85aa0a3f83058db2ebd468d90efd6820bf55f2d",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/copdem_cdse_description.html",
+      "bytes": 114252,
+      "sha256": "7beef5b37afc9ce183afa499fa7656c3f14fa2ec72104e4aa0f7662b5bb26494",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/copdem_readme.html",
+      "bytes": 8536,
+      "sha256": "922461d55070e3c7e0cf2903ec54190d69e3773da2dc9e776a3f03566cfd56d2",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/copdem_registry.html",
+      "bytes": 10002,
+      "sha256": "04b2d63198acecd854a2a04100feb63d71aeecd83773c692b7f5093a0a4defca",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/earthsearch_issue41_comments.json",
+      "bytes": 2748,
+      "sha256": "5ba5825fa7a2f633e5b54f421b48f206b9aca33c9d7dfa1c532b4771b6fc13fc",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/osm_map.osm",
+      "bytes": 7089549,
+      "sha256": "00b716cf68b779ea4bce61e79041e56fc27ccfa53154dcf841a4701ee42735fb",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/osm_map_direct.osm",
+      "bytes": 7089549,
+      "sha256": "903e813b392dcaf7fe310a5aa09ee8f891858282ed241ffb9229408fec002484",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_120m.tif",
+      "bytes": 39968,
+      "sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spatial-copdem-v1_dem_60m.tif",
+      "bytes": 158462,
+      "sha256": "86d16335429614602d8da483dfbedfde63b0a371ba0a9f3c1a7c62de0436bf4f",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/q4-r3-spectral-screen-v2_masks.npz",
+      "bytes": 50721,
+      "sha256": "b350e6022beadd7f0bbecd53f29415b3d15fbc756cd90a33d595509ed9b0562b",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/sentinel2_c1_search.json",
+      "bytes": 549478,
+      "sha256": "b7431b15374a17c45fdb69556bbcfe57e4d2de84275cf0b1bd4c730bdbeed5c4",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/sentinel2_search.json",
+      "bytes": 648432,
+      "sha256": "edc4d9a0511dcfb0024c34ee4e6f159010f4a2af166e02a430c85f91e5c17e56",
+      "role": "immutable acquired or derived spatial cache; provenance and actual read scope in dedicated source records"
+    }
+  ],
+  "source_logs": [
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_acquisition.json",
+      "bytes": 3109,
+      "sha256": "fc51c90c339501e5eb02866990b5681e7fe7255a0d99b5ddb3e59d993f3d0b3c",
+      "role": "acquisition/read receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_auxiliary_acquisition.json",
+      "bytes": 4478,
+      "sha256": "ec58dcaff39d3c04609cd234c145448ec9d62b31aefd6996dff3020cecc43cf0",
+      "role": "acquisition/read receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_optical_osm_acquisition.json",
+      "bytes": 4477,
+      "sha256": "7871dae669cf8f2a50c5504136cda5eb8d75b71f163e34b584e2a56a761a4753",
+      "role": "acquisition/read receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_optical_reads.json",
+      "bytes": 4199,
+      "sha256": "92ed9ff576235ba97ddddc42f461313f272066ec37551c83c8d0df1dd639cd64",
+      "role": "acquisition/read receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_osm_direct.json",
+      "bytes": 428,
+      "sha256": "08e6f672a19409159cc9661be07715a1ea2911d89c7f8a57136365587b8bfa1e",
+      "role": "acquisition/read receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_product_documentation.json",
+      "bytes": 1390,
+      "sha256": "54a44f30c69bf45bae1c16e153610bf50aaf6f1b83004bf66325be8708505078",
+      "role": "acquisition/read receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_radiometry_acquisition.json",
+      "bytes": 1340,
+      "sha256": "be3137a902ca59966192f25cb9daef9707a827abb6895ffa73ff7fe48804f416",
+      "role": "acquisition/read receipt"
+    },
+    {
+      "path": "track_b/research/q4/round3/sources/spatial_spectral_reads.json",
+      "bytes": 5280,
+      "sha256": "d9e38ada55203f1c9a8efe80a348bdcf6f207ae0d24c2c13ef997274657c5ceb",
+      "role": "acquisition/read receipt"
+    }
+  ],
+  "protocols": [
+    {
+      "path": "track_b/research/q4/round3/config/spatial_protocol.json",
+      "bytes": 1812,
+      "sha256": "3422fbf617244d922d504335f66dc5ceeff01d2132b7660cd6ffb62c8c967dfc",
+      "role": "precalculation protocol or explicit QA revision"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/spatial_spectral_protocol_v1.json",
+      "bytes": 1511,
+      "sha256": "6c465e75acfa13f5253d729e7af4bdf6babfb3baf661f6de82f6d9acc01d1eae",
+      "role": "precalculation protocol or explicit QA revision"
+    },
+    {
+      "path": "track_b/research/q4/round3/config/spatial_spectral_protocol_v2.json",
+      "bytes": 1806,
+      "sha256": "42aabaa90378c82dd8326ac7f295d7351e8d470fa0d56ac392baa8141f85a464",
+      "role": "precalculation protocol or explicit QA revision"
+    }
+  ],
+  "fixed_inputs": [
+    {
+      "path": "track_b/research/q4/round2/results/geometry_candidates.geojson",
+      "bytes": 9824,
+      "sha256": "cd68bf0bda80ab1d075fa33dbf0d713307d535e95e0f2494e41ce16b698b113e",
+      "role": "frozen retrospective paper geometry candidates"
+    },
+    {
+      "path": "track_b/data/processed/spatial/dem_utm45_30m.tif",
+      "bytes": 6623907,
+      "sha256": "eaf39d044af5580fb12b7b991bdadf4da54294f8f78a818c15fff0f6390c2e95",
+      "role": "supplied unknown-product DEM derived grid for new comparison only"
+    }
+  ],
+  "exclusions": [
+    "this source index",
+    "output supplement bundle",
+    "future audit/operational files",
+    "other question active outputs",
+    "runtime"
+  ],
+  "bytes_semantics": "cache SHA is complete actual cached artifact, not full remote source COG SHA for byte-window reads; HTTP complete response and interpreted pixel windows are separately recorded"
+}

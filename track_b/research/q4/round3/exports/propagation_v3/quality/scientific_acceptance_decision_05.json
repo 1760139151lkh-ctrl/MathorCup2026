@@ -1,0 +1,32 @@
+{
+  "version": "q4-r3-scientific-acceptance-v05",
+  "registered_at_utc": "2026-10-24T10:13:28.262563+00:00",
+  "type": "Scientific acceptance and output-semantics decision; no new experiments, parameters or retrospective percentage pass line.",
+  "applies_to": "All regional scenario outputs from all frameworks in new rolling and final v3+ packets. Frozen v1/v2 bytes are not altered.",
+  "accepted_arrival_envelope_run_ids": [],
+  "include_in_arrival_envelope_requires": "Explicit presence in accepted_arrival_envelope_run_ids plus execution/time/material/field/boundary checks; empty list currently means all false.",
+  "mass_conservation_qualified": false,
+  "regional_accuracy_qualified": false,
+  "scientifically_qualified_for_prediction": false,
+  "human_scientific_adoption": "pending_team_review",
+  "conditional_diagnostic_range_eligible_scope": "Optional execution/time/field/material/boundary diagnostic gate only; NOT mass conservation, regional accuracy, predictive qualification or accepted arrival ensemble. Existing stricter review04 exclusions remain.",
+  "passes_execution_time_boundary_gates_scope": "Separate raw execution diagnostic. Preserve original brackets, actual end times, non-arrival, missing, failures and domain flags.",
+  "diagnostic_observation_available_scope": "Raw process/target observation availability; it can remain available even when boundary affected or scientific acceptance is false.",
+  "basis": [
+    "Reduced thin-steep-flow counterexample excludes regional timing accuracy despite a closed mass ledger.",
+    "Single-phase actual-control CFL-only comparison changes saved peak speed and arrival bracket materially; convergence is not established.",
+    "D-Claw expanded-domain raw mass audit leaves an unresolved mass deficit; dilation is not a general mass source.",
+    "Composite-solid/water physical mapping is valid but native mass budgets drift; material legality and solver completion are separate from numerical qualification.",
+    "Compact Q2 source cases show native internal budget drift including newly completed p0072; a fixed blacklist cannot cover future unaccepted cases.",
+    "No model has a preregistered, demonstrated full regional accuracy qualification or accepted independent local validation. No tolerance is invented from the observed results."
+  ],
+  "interpretation_of_prior_v1_flags": "The 12 old true rows were explicitly execution/field/time/boundary gates only, never physical accuracy or predictive validation. New v3+ semantics reserves include_in_arrival_envelope for accepted runs and records diagnostic gates separately.",
+  "evidence": {
+    "path": "track_b/research/q4/round3/sources/model_qualification_evidence_05.json",
+    "bytes": 52044,
+    "sha256": "e80f8060ca73ae8f1331c86673bd94b993f1d504e32417492c909ac746a89bb5"
+  },
+  "independent_local_event_validation_count": 0,
+  "probability_weights": null,
+  "initiation_to_release_delay_seconds": null
+}

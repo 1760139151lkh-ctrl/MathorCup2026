@@ -1,0 +1,176 @@
+{
+  "protocol_version": "q2r3-composition-domain-extension-v1-preregistered",
+  "registered_at_utc": "2026-10-24T08:19:36.052377+00:00",
+  "baseline_commit": "904d7257b899b9f71d1ac9e0eab7479e459eab52",
+  "selection_rule": "8 original predeclared index representatives, not selected by outcomes or reconstructed event time",
+  "representative_parameter_indices": [
+    0,
+    36,
+    72,
+    109,
+    145,
+    182,
+    218,
+    255
+  ],
+  "rock_volume_fractions": [
+    0.85,
+    0.9
+  ],
+  "mechanisms": [
+    "S",
+    "S_T",
+    "S_H",
+    "S_T_H"
+  ],
+  "strength_policies": [
+    "linear_extension",
+    "thawed_rock_contact"
+  ],
+  "new_full_state_integrations": 128,
+  "existing_paired_baseline_paths": 64,
+  "baseline_reintegrations_planned": 0,
+  "dt_hours": 1.0,
+  "dz_m": 0.125,
+  "thermal_bottom_m": 40.0,
+  "same_forcing": true,
+  "density_mapping": "rho=917*(1-rock_volume_fraction)+2700*rock_volume_fraction kg/m3; same two-solid no-void/no-liquid mixture as v2",
+  "composition_to_structure_mapping": "release-scale total rock/ice fraction is conditionally homogenized into plane-slab density; not evidence of the actual sliding interface",
+  "bridge_fraction_mapping": "unchanged independently sampled load-bearing area fraction; never equated to total rock volume fraction",
+  "paired_invariants": "all parameters except rock_volume_fraction and its deterministic density transform; alpha/thermal depth/water/bridge/damage parameters unchanged",
+  "omitted_composition_couplings": "thermal diffusivity, latent heat, roughness, bridge area and drainage are not automatically changed by this one-factor density experiment",
+  "advisor_provided_candidate": {
+    "instruction_excerpt": "当前rock体积分数0.2–0.8未覆盖他已读JMS源区103.35Mm3中ice12.6/rock90.75(ice12.2%)、另一原摘要ice10–15%。都是事后文献候选不是实测定值。",
+    "instruction_excerpt_sha256": "4c968b71ecfe674ef73c8a8c09ed1cde582342c9cca06bb629d238eeeb9f10ed",
+    "total_Mm3": 103.35,
+    "ice_Mm3": 12.6,
+    "rock_Mm3": 90.75,
+    "derived_ice_volume_fraction": 0.12191582002902758,
+    "derived_rock_volume_fraction": 0.8780841799709724,
+    "provenance_status": "exact volumes supplied by main advisor dispatch; not verified against full paper in this subexperiment"
+  },
+  "source_records": [
+    {
+      "path": "track_b/research/q2/sources/jms_abstract.html",
+      "bytes": 209068,
+      "sha256": "6cf316f8d40fee7d48ab40f9a62699a867cf632ef5ca17bcfe56a5df7ca04b41",
+      "role": "retrospective_literature_candidate",
+      "canonical_url_or_product_id": "https://jms.imde.ac.cn/en/article/doi/10.1007/s11629-026-1482-y",
+      "product_version": "round1 frozen publisher abstract HTML; full article not reread",
+      "retrieved_at_utc": "2026-10-24T04:31:13.324630+00:00",
+      "actual_read_scope": "this subexperiment: relevant complete abstract locally parsed and read, no new download or full-paper reading",
+      "small_local_locator_contexts": [
+        ".l.. The initial slide had a total volume of ~103 Mm 3 , of which ~12.6 Mm 3 (≈12%) was ice. (2) After ~30 s of th",
+        "e had a total volume of ~103 Mm 3 , of which ~12.6 Mm 3 (≈12%) was ice. (2) After ~30 s of the descent, the slide s"
+      ],
+      "interpretation": "local frozen abstract supports rounded total~103Mm3 and ice~12.6Mm3 (~12%); exact103.35/90.75 not verified in abstract",
+      "data_role": "scenario",
+      "available_time_or_unknown": "retrospective paper candidate; not accepted as antecedent operational input"
+    },
+    {
+      "path": "track_b/research/q2/sources/yin_abstract.html",
+      "bytes": 309894,
+      "sha256": "7e7312b13c0c7acd39d68810fdbe78863ea8c836837d38aaac34a5f5879da56c",
+      "role": "retrospective_literature_candidate",
+      "canonical_url_or_product_id": "https://zgdzzhyfzxb.com/article/doi/10.16031/j.cghc.202610008?viewType=HTML",
+      "product_version": "round1 frozen publisher abstract HTML; full article not reread",
+      "retrieved_at_utc": "2026-10-24T04:31:14.020753+00:00",
+      "actual_read_scope": "this subexperiment: relevant complete abstract locally parsed and read, no new download or full-paper reading",
+      "small_local_locator_contexts": [
+        "高等级变质岩组成，混合岩化作用较为明显，总体积约1.1×10 8 m 3 ，其中冰体含量约10%～15%；源区母岩发育于高喜马拉雅地块，受断层破碎带、岩性接触界面及多组结构面共同控制，形成了典型的断裂控制型易滑地质结构；在长期地震累积",
+        "10 8 m 3 and an ice content of approximately 10%–15%. The source bedrock belongs to the Greater Himalayan block, wher"
+      ],
+      "interpretation": "local frozen Chinese and English abstracts state ice content10%-15%; not a locally measured fraction",
+      "data_role": "scenario",
+      "available_time_or_unknown": "retrospective paper candidate; not accepted as antecedent operational input"
+    }
+  ],
+  "source_use": "retrospective composition candidates motivate domain extension only; not measured constants, calibration labels or validation events",
+  "time_window": "same v2 2026-06-01T00:00Z..2026-08-27T00:00Z; evaluation start2026-08-19T00:00Z",
+  "output_metrics": [
+    "rho",
+    "normal/driving/effective stresses",
+    "all/evaluation/initial/final margin",
+    "critical-head values and domain/root-status",
+    "all onset categories including no-start/left-censor",
+    "temperature/effective-stress joint-domain fractions",
+    "paired changes"
+  ],
+  "evaluation_stratum": "conditional_scenario",
+  "comparison_stratum": "numerical_benchmark",
+  "data_role": "scenario",
+  "forecast_input_mode": "ideal_weather",
+  "independent_events": 0,
+  "probabilities_assigned": false,
+  "weights": null,
+  "event_time_fitting": false,
+  "validation": "verify published v2 baseline states algebraically without reintegration; unchanged engine/input hashes; paired invariants; full128 count; finite states and mass balance; preserve null roots and no-start/left-censor",
+  "inputs": [
+    {
+      "path": "track_b/research/q2/round3/scripts/mechanism_engine.py",
+      "bytes": 10650,
+      "sha256": "bb6636d2d3f463c894cdc6bc1df9c7fd0f93f9b7a6f9aa6e8233113630afe14e",
+      "role": "unchanged_model_engine"
+    },
+    {
+      "path": "track_b/research/q2/round3/scripts/analyze_composition.py",
+      "bytes": 29369,
+      "sha256": "801bd11ce305a6c3d679bd795b94c76994a384f32634d241bfb831e160823699",
+      "role": "independent_composition_script"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/config.json",
+      "bytes": 4642,
+      "sha256": "210616d1e1adb94e57cdb3ef415cb40808ae4a05f7a0fdd81f3b5dddfd24d5ac",
+      "role": "thermal125v2_frozen_config"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/forcing_hourly_v2.csv",
+      "bytes": 278218,
+      "sha256": "c3736f361282906050e394c7ed9b92b348d6a33e05bdf14418b687063882878a",
+      "role": "same_frozen_hourly_forcing"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/parameter_ensemble.csv",
+      "bytes": 1169784,
+      "sha256": "a8a8f091a7cb0abf1847db784c83d9e4b73f42896c126468b100026f1ea35293",
+      "role": "same_v2_design_and_original_composition"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/scenario_outcomes.csv",
+      "bytes": 837472,
+      "sha256": "2338e53291c2225f1e172cc85145d6cc047d6c40599b49051f51fe790b5f6edd",
+      "role": "existing_64_paired_baseline_outcomes_from_2048"
+    },
+    {
+      "path": "track_b/research/q2/round3/results/refined_v2/state_trajectories.parquet",
+      "bytes": 3188047,
+      "sha256": "8f69e562bda819a348ec0e7dc000d79af7885015f4770a5ebbe5c6ec01a7b081",
+      "role": "existing_64_representative_baseline_state_paths"
+    },
+    {
+      "path": "track_b/research/q2/sources/jms_abstract.html",
+      "bytes": 209068,
+      "sha256": "6cf316f8d40fee7d48ab40f9a62699a867cf632ef5ca17bcfe56a5df7ca04b41",
+      "role": "frozen_round1_JMS_abstract_snapshot"
+    },
+    {
+      "path": "track_b/research/q2/sources/yin_abstract.html",
+      "bytes": 309894,
+      "sha256": "7e7312b13c0c7acd39d68810fdbe78863ea8c836837d38aaac34a5f5879da56c",
+      "role": "frozen_round1_Yin_abstract_snapshot"
+    },
+    {
+      "path": "track_b/research/q2/sources/mechanism_reading.json",
+      "bytes": 2664,
+      "sha256": "3f26027dd096deb168c2665dc2517fb7cbbd0e3346baaae7dd3ac432f488f48b",
+      "role": "frozen_round1_source_acquisition_record"
+    },
+    {
+      "path": "track_b/research/q2/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/label_mapping.csv",
+      "bytes": 7392,
+      "sha256": "3c920a97038f5f75227d040a3783a13bd91d6aac9c5f181ab885194bb55b4df6",
+      "role": "advisor_delivered_Q3_candidate_reference_URLs"
+    }
+  ]
+}

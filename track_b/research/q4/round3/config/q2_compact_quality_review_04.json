@@ -1,0 +1,31 @@
+{
+  "version": "q4-r3-q2compact-quality-review04",
+  "registered_at_utc": "2026-10-24T09:47:23.425146+00:00",
+  "decision": "Retain completed Q2-linked conditional propagation diagnostics and explicit lineage, exclude these two runs from arrival envelope and prediction adoption",
+  "run_ids": [
+    "q2map60_q2r3_p0000_S_linear__sf0",
+    "q2map60_q2r3_p0036_S_T_linear__sf0"
+  ],
+  "evidence": {
+    "path": "track_b/research/q4/round3/sources/q2_compact_budget_review_v1.json",
+    "sha256": "bd8aba9310c741517fc91b1eea44910828cdfcd5be95c4bd2a5362a918a757a7"
+  },
+  "source_support_cells": [
+    8,
+    16
+  ],
+  "source_equivalent_full_cells": [
+    2.7777777777777777,
+    11.11111111111111
+  ],
+  "include_in_arrival_envelope": false,
+  "conditional_diagnostic_raw_travel_preserved": true,
+  "mass_conservation_qualified": false,
+  "scientifically_qualified_for_prediction": false,
+  "quality_reason": "Underresolved compact source and independently confirmed large native-internal/ascii budget discrepancy; numerical cause not yet separated. No retrospective tolerance threshold chosen to certify pass.",
+  "no_new_case_or_parameter_tuning": true,
+  "no_new_validation_event": true,
+  "upstream_never_crossed_status_and_if_released_retained": true,
+  "original_case_log_execution_and_v1_export_unchanged": true,
+  "human_scientific_adoption": "pending_team_review"
+}

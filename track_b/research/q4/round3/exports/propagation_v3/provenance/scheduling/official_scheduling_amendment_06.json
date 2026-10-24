@@ -1,0 +1,30 @@
+{
+  "registered_utc": "2026-10-24T10:35:06.669301+00:00",
+  "authority": "parent /root explicit scheduling instruction at current active turn",
+  "scope": "only registered required cases, no new cases/input/physics or horizons",
+  "previous_max_total_native_processes": 4,
+  "new_max_total_native_processes": 6,
+  "priority_remaining_fullmask": [
+    "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+    "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0"
+  ],
+  "resource_basis": "parent observed each solver about one CPU thread and80\u2013130MiB, 8CPU VM; reserve2CPU; host disk about34GiB available",
+  "mutual_exclusion": "existing per-run fcntl lock unchanged; independent directories; preserve active solvers and adopt existing extra launchers on scheduler-only restart",
+  "fallback": "return cap4 if memory/disk/I/O pressure occurs",
+  "prior_dispatcher_sha256": "78a77704f61adcd39278b43064bd36d084a2a188a33e0867862ed16ded374a54",
+  "prior_scheduler_state": {
+    "updated_utc": "2026-10-24T10:35:00.677032+00:00",
+    "registered": 38,
+    "applicable_required": 30,
+    "remaining_required": 8,
+    "legacy_reserved_queues": 2,
+    "extra_launchers": [
+      "copdem_120_single_h5__sf0",
+      "copdem_120_single_h30__sf0"
+    ],
+    "adopted_extra_launchers": [],
+    "max_total_native_processes": 4,
+    "uniqueness": "futuremain/extra launchers share per-runfcntl lock; existingmatchedcomposite queue excludedextra"
+  },
+  "container_snapshot": "79ea922f472f angry_moser \"python3 /work/runs/\u2026\"\n6efdf3b06441 sweet_lederberg \"python3 /work/runs/\u2026\"\nc3e24f0fa10b angry_kepler \"python3 /work/runs/\u2026\"\n6275f846bfc9 affectionate_burnell \"python3 /repo/track\u2026\"\nad84a77a0ea9 mathorcup-r3-toolchain-build \"sleep infinity\"\n9f2ebf8f7f94 gzctf-gzctf-1 \"dotnet GZCTF.dll\"\nc10d3a301147 gzctf-db-1 \"docker-entrypoint.s\u2026\"\n"
+}

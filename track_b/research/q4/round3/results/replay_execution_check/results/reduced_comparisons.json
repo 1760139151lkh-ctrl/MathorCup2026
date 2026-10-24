@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-24T09:07:37.312420+00:00",
+  "runs_executed": 2,
+  "one_d_runs": 1,
+  "two_d_runs": 1,
+  "status_counts": {
+    "not_reached_within_horizon": 2
+  },
+  "numerical_sensitivity": [],
+  "external_validation_events": 0,
+  "calibration_events": 0,
+  "all_runs_are_conditional_scenarios": true
+}

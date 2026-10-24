@@ -1,0 +1,43 @@
+{
+  "run_id": "flatrest_60_dclaw",
+  "image_id": null,
+  "container_id": "ad84a77a0ea9eb7447f61eb2e08756f00665429b7c90f8744a957efd918fd8c7",
+  "base_image_id": "sha256:0e0a0fc6d18feda9db1590da249ac93e8d5abfea8f4c3c0c849ce512b5ef8982",
+  "command": [
+    "docker",
+    "exec",
+    "-e",
+    "CLAW=/opt/clawpack",
+    "-e",
+    "PYTHONPATH=/opt/clawpack",
+    "-e",
+    "GRASS_ADDON_BASE=/opt/grass-addons",
+    "-e",
+    "MPLBACKEND=Agg",
+    "-e",
+    "OMP_NUM_THREADS=2",
+    "-e",
+    "OFFICIAL_WORK_ROOT=/work/q4/official",
+    "-w",
+    "/work/q4/official/runs/flatrest_60_dclaw",
+    "mathorcup-r3-toolchain-build",
+    "python3",
+    "/work/q4/official/scripts/official_container.py",
+    "/work/q4/official/runs/flatrest_60_dclaw/case.json"
+  ],
+  "copy_output_command": [
+    "docker",
+    "cp",
+    "mathorcup-r3-toolchain-build:/work/q4/official/runs/flatrest_60_dclaw/.",
+    "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw"
+  ],
+  "copy_returncode": 0,
+  "copy_stderr": "",
+  "case_sha256": "f81c934c469058bbdf3b42a190a7f310cf3396f8a78d8e346ac06627cf610c37",
+  "started_utc": "2026-10-24T07:51:08.747311+00:00",
+  "elapsed_seconds": 12.698107957839966,
+  "returncode": 0,
+  "log_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_dclaw/run.log",
+  "log_sha256": "32cda5cbad66484a995b11ba2356de5c0a00c4a2b9aa8c6dfc6d111490e427f1",
+  "shared_solver_source_unchanged": true
+}

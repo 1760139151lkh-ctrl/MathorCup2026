@@ -1,0 +1,54 @@
+{
+  "checked_utc": "2026-10-24T09:40:28.030745+00:00",
+  "cases": [
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear__sf0",
+      "native_summary_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/q2map60_q2r3_p0000_S_linear__sf0_results/q2map60_q2r3_p0000_S_linear__sf0_files/q2map60_q2r3_p0000_S_linear__sf0_summary.txt",
+      "native_summary_sha256": "16101c9ba2a61f402044c828a0bcfd8c96b56fbc8fc09db3debbe797487e4240",
+      "initial_native_summary_row": "0\t0\t-----\t-----\t0.0\t48.78\t0.00\t559400.38\t",
+      "final_native_summary_row": "90\t1556\t0.495\t113.5\t1800.1\t3.26\t21.23\t678960.56\t10463865856",
+      "native_nout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/q2map60_q2r3_p0000_S_linear__sf0_results/q2map60_q2r3_p0000_S_linear__sf0_files/q2map60_q2r3_p0000_S_linear__sf0_nout1.txt",
+      "native_nout_sha256": "80a3cca5e9bb549ce5f534f3b7e37da9c636740ede42c4d42d1dae226fb3f261",
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_edge_outflow_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_final_hflow_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0000_S_linear__sf0/q2map60_q2r3_p0000_S_linear__sf0_results/q2map60_q2r3_p0000_S_linear__sf0_ascii/q2map60_q2r3_p0000_S_linear__sf0_hflow0090.asc",
+      "actual_final_hflow_sha256": "99fd889c12d1c642e5ef5cec6dea8aa881f3a2591c066dbe84cafb9dd3207b11",
+      "final_ascii_grid_volume_m3": 677732.4008703232,
+      "final_ascii_native_interior_volume_m3": 677732.4008703232,
+      "findings": "Noentrainmentorboundarysource recorded, domainvolumeincrease notexplained bysources; independentnative summary vsASCII crosscheck, notconservationqualification"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0036_S_T_linear__sf0",
+      "native_summary_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/q2map60_q2r3_p0036_S_T_linear__sf0_results/q2map60_q2r3_p0036_S_T_linear__sf0_files/q2map60_q2r3_p0036_S_T_linear__sf0_summary.txt",
+      "native_summary_sha256": "daba39f77f4fd575e419d6e1ac5e35b52674110e315cc3aca1a5e0338b0254e8",
+      "initial_native_summary_row": "0\t0\t-----\t-----\t0.0\t33.71\t0.00\t1348211.8\t",
+      "final_native_summary_row": "90\t1775\t0.497\t50.2\t1801.7\t4.57\t26.55\t1519654.8\t54308331520",
+      "native_nout_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/q2map60_q2r3_p0036_S_T_linear__sf0_results/q2map60_q2r3_p0036_S_T_linear__sf0_files/q2map60_q2r3_p0036_S_T_linear__sf0_nout1.txt",
+      "native_nout_sha256": "028c6bab0f785aa1bbc973e3736098bb493378fdb04a6a1c88c9b8f3dc7af2a2",
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_edge_outflow_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_final_hflow_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2map60_q2r3_p0036_S_T_linear__sf0/q2map60_q2r3_p0036_S_T_linear__sf0_results/q2map60_q2r3_p0036_S_T_linear__sf0_ascii/q2map60_q2r3_p0036_S_T_linear__sf0_hflow0090.asc",
+      "actual_final_hflow_sha256": "c936006b343d3750c0e388de7e5aea508a699dff42d82bbf4fae687ef1710648",
+      "final_ascii_grid_volume_m3": 1518256.802630704,
+      "final_ascii_native_interior_volume_m3": 1518256.802630704,
+      "findings": "Noentrainmentorboundarysource recorded, domainvolumeincrease notexplained bysources; independentnative summary vsASCII crosscheck, notconservationqualification"
+    }
+  ],
+  "no_parameters_changed": true
+}

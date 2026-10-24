@@ -1,0 +1,8 @@
+{
+  "protocol_version": "q4-r3-official-output-flag-v1",
+  "registered_utc": "2026-10-24T08:12:26.943829+00:00",
+  "before_flag_test": true,
+  "question": "Native main lateSIGSEGV with-a extra outputs versus successful runtime-e selfcheck; controlled same inputs100s, no native source change",
+  "controls": "purefluidbowl andflat initialstates,csurface0; additional_output=False executes-e",
+  "scope": "diagnostic only; do not automatically replace main experiments or erase failing-a results"
+}

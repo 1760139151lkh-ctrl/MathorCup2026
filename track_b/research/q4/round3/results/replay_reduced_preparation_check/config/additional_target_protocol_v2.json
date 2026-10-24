@@ -1,0 +1,18 @@
+{
+  "version": "q4-r3-additional-target-protocol-v2",
+  "registered_at_utc": "2026-10-24T07:48:06.897064+00:00",
+  "before_new_target_arrival_evaluation": true,
+  "target_table": {
+    "path": "track_b/research/q4/round3/results/spatial_targets_v2.csv",
+    "sha256": "96202126426c50fdebe5d72ddf74bd443f531a77c77db094d0c8fe739dc86b98"
+  },
+  "geometry_version": "q4-r3-osm-objects-v2",
+  "selected_objects": "All5 OSM target rows, no best-fit subset; bridge centerline/structure and immigration facility remain distinct",
+  "definition": "100m buffers around each explicitly stated representative centroid; first stored output with h>=0.1m; time bracket is previous below-threshold output to first above; not exact structure intersection",
+  "base_target": "paper_port_symbol unchanged",
+  "time_origin": "bulk release; initiation-to-release delay unknown",
+  "allow_postprocess_existing_fields": true,
+  "postprocess_is_not_solver_rerun": true,
+  "geometry_truth_accepted": false,
+  "exclusion": "No recomputation of source/DEM, no changing established primary arrival by choosing faster target"
+}

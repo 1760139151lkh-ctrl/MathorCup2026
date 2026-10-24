@@ -1,0 +1,73 @@
+{
+  "generated_at_utc": "2026-10-24T09:26:34.314099+00:00",
+  "inputs": [
+    {
+      "run_id": "copdem_120_dclaw_ref",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_ref/summary_fields_ea72693f3104.npz",
+      "bytes": 1153621,
+      "sha256": "61686c16fefd034959ea7281aaf27f85a44230228e4df3f7d606381a704ce3ad",
+      "role": "actual_official_process_fields",
+      "case_sha256": "f039f5d79bc7238739b0b397814ac25cda1325a92006e26d1b8ce88be64cd0d9",
+      "execution_sha256": "b188e8362b790c047881596e721b9c3f52fa67163160d62d953759f50e75ab23",
+      "log_sha256": "02747a91655bae106c3c10804820ab8d8f3c43b3f59b3d30822e5f71f4dcf70b",
+      "image_id": null,
+      "solver_build": "official_original",
+      "time_end_seconds": 1800.0,
+      "native_time_evidence": "flushedsummary ornative stdout tsum, neverindex*interval",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "dclaw_ref_extended120",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/dclaw_ref_extended120/summary_fields_ea72693f3104.npz",
+      "bytes": 2478565,
+      "sha256": "2b49815d1ad35e594c1a30ed6eca0fd787de0b73a1fdcb6b198c34414246a07c",
+      "role": "actual_official_process_fields",
+      "case_sha256": "4d83681ccc75c8372c479dda21937d0e3cbfdd1cf72df03049347aa0184a3735",
+      "execution_sha256": "477f94c4e6a0ea7d0ded73789263d03b24e2664e9e07bf6d0b73ae2c581d1f3c",
+      "log_sha256": "7e1a609aea44ee56167d8daca31668be7342b7cc78420faab89aac37504bd21b",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "solver_build": "official_original",
+      "time_end_seconds": 1800.0,
+      "native_time_evidence": "flushedsummary ornative stdout tsum, neverindex*interval",
+      "storage": "immutable_external_cache"
+    },
+    {
+      "run_id": "copdem_120_dclaw_permeable",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/copdem_120_dclaw_permeable/summary_fields_ea72693f3104.npz",
+      "bytes": 1119541,
+      "sha256": "f72657aafc91bea8b527ad9b9e04964a9cba74a554d826b589f86152d15558f2",
+      "role": "actual_official_process_fields",
+      "case_sha256": "2da43f16b166d238eb9fc27b7228e2b08fa71107179876dca7d914cb18c4e0eb",
+      "execution_sha256": "73515aea0c9a27e345ac45c33d02771716b40a383016c8d4247513ac3eb663f1",
+      "log_sha256": "73af794dfe195aaf72e23a17bb35a367935389fde28395775bd169e5f5221bd7",
+      "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+      "solver_build": "official_original",
+      "time_end_seconds": 1800.0,
+      "native_time_evidence": "flushedsummary ornative stdout tsum, neverindex*interval",
+      "storage": "immutable_external_cache"
+    }
+  ],
+  "scope": "Frozenv1 conditional diagnostics; no new simulation, no observational validation",
+  "same_grid_core_offset_rc": [
+    84,
+    84
+  ],
+  "original_domain_shape": [
+    77,
+    150
+  ],
+  "expanded_domain_shape": [
+    245,
+    318
+  ],
+  "depth_threshold_m": 0.1,
+  "footprint_original_m2": 51480000,
+  "footprint_expanded_full_m2": 83390400,
+  "footprint_expanded_within_original_domain_m2": 53020800,
+  "common_domain_footprint_iou": 0.8878772112382934,
+  "common_domain_maxdepth_field_mae_m": 0.30097106099128723,
+  "arrival_brackets_unchanged_at_saved_resolution": true,
+  "arrival_claim_scope": "See independently rechecked v1 target table, paper (160,180]s; does not imply continuous-time equality",
+  "mass_budget_qualified": false,
+  "independent_local_event_validation_count": 0
+}

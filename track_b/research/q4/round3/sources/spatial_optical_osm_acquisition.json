@@ -1,0 +1,90 @@
+{
+  "version": "q4-r3-optical-osm-v1",
+  "records": [
+    {
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2B_45RUM_20260824_0_L2A/TCI.tif",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2B_45RUM_20260824_0_L2A_visual.tif",
+      "retrieved_at_utc": "2026-10-24T07:34:08.870910+00:00",
+      "status": 200,
+      "cache_reuse": false,
+      "bytes": 128104115,
+      "sha256": "2bb50bf86890a2e1fb3d3f680ddbb563060fa169272390cc22eef3bc9fdaa7b4",
+      "actual_read_scope": "complete HTTP response",
+      "available_time": null
+    },
+    {
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2B_45RUM_20260824_0_L2A/SCL.tif",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2B_45RUM_20260824_0_L2A_scl.tif",
+      "retrieved_at_utc": "2026-10-24T07:34:08.873087+00:00",
+      "status": 200,
+      "cache_reuse": false,
+      "bytes": 1753893,
+      "sha256": "9c1fb8dfb4975cd416ab8989284e540a85c67862f2467f32629b66e69905088d",
+      "actual_read_scope": "complete HTTP response",
+      "available_time": null
+    },
+    {
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2C_45RUM_20260812_0_L2A/TCI.tif",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_visual.tif",
+      "retrieved_at_utc": "2026-10-24T07:34:08.873418+00:00",
+      "status": 200,
+      "cache_reuse": false,
+      "bytes": 265529453,
+      "sha256": "d87a9f98b759ff52ca6781ed1403828eaf5743fb662604e6b65d343cdfbb0ab0",
+      "actual_read_scope": "complete HTTP response",
+      "available_time": null
+    },
+    {
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/8/S2C_45RUM_20260812_0_L2A/SCL.tif",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260812_0_L2A_scl.tif",
+      "retrieved_at_utc": "2026-10-24T07:34:12.300890+00:00",
+      "status": 200,
+      "cache_reuse": false,
+      "bytes": 3063474,
+      "sha256": "bb7d751e5e7b4c313cbf320c72c8dad8b505de65bc8a577a592e599d4a533fe8",
+      "actual_read_scope": "complete HTTP response",
+      "available_time": null
+    },
+    {
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/9/S2C_45RUM_20260928_0_L2A/TCI.tif",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_visual.tif",
+      "retrieved_at_utc": "2026-10-24T07:34:22.641641+00:00",
+      "status": 200,
+      "cache_reuse": false,
+      "bytes": 98535707,
+      "sha256": "85a9caefbf072a0d686a6e72267e52a421f5c6abfc4a7a4ead50f9c50cef9afc",
+      "actual_read_scope": "complete HTTP response",
+      "available_time": null
+    },
+    {
+      "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/45/R/UM/2026/9/S2C_45RUM_20260928_0_L2A/SCL.tif",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_45RUM_20260928_0_L2A_scl.tif",
+      "retrieved_at_utc": "2026-10-24T07:37:51.533015+00:00",
+      "status": 200,
+      "cache_reuse": false,
+      "bytes": 820797,
+      "sha256": "8915e3d43618e58de1aa28d4f22939ea5038c9ca440dc468310fbd12a3d3245f",
+      "actual_read_scope": "complete HTTP response",
+      "available_time": null
+    },
+    {
+      "url": "https://overpass.kumi.systems/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3B%28way%5B%22waterway%22%5D%2828.25%2C85.35%2C28.36%2C85.55%29%3Bway%5B%22bridge%22%5D%2828.25%2C85.35%2C28.36%2C85.55%29%3B%29%3Bout%20tags%20geom%3B",
+      "retrieved_at_utc": "2026-10-24T07:41:41.537945+00:00",
+      "exception": "HTTPSConnectionPool(host='overpass.kumi.systems', port=443): Read timed out. (read timeout=180)",
+      "bytes": null,
+      "sha256": null,
+      "status": null
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=85.35,28.25,85.55,28.36",
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/osm_map.osm",
+      "retrieved_at_utc": "2026-10-24T07:44:43.482044+00:00",
+      "status": 200,
+      "cache_reuse": false,
+      "bytes": 7089549,
+      "sha256": "00b716cf68b779ea4bce61e79041e56fc27ccfa53154dcf841a4701ee42735fb",
+      "actual_read_scope": "complete HTTP response",
+      "available_time": null
+    }
+  ]
+}

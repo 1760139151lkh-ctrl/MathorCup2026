@@ -1,0 +1,77 @@
+{
+  "status": "final_actual_image_review",
+  "reviewed_at_utc": "2026-10-24T11:22:10.014545+00:00",
+  "figures": [
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_domain_sensitivity.png",
+      "bytes": 212499,
+      "sha256": "983d116d4b6373215d02eeae8c10520fe5116a3d0483c50536c8143d977de813",
+      "actual_opened": true,
+      "review": "Readable UTMkm/colour depth scales or masskgderivedpercent and native sample markers; original/expanded domain differences and unresolved mass qualification explicit. Domain image regenerated deterministically after title-marker edit affecting only mass plot."
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_mass_budget.png",
+      "bytes": 139009,
+      "sha256": "7a8084213be1d7cbb748091a8fbfe100597dd08fb3dc0e0e1159d6b8add3f922",
+      "actual_opened": true,
+      "review": "Readable UTMkm/colour depth scales or masskgderivedpercent and native sample markers; original/expanded domain differences and unresolved mass qualification explicit. Domain image regenerated deterministically after title-marker edit affecting only mass plot."
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_regional_fields.png",
+      "bytes": 315569,
+      "sha256": "e632cad8bfec886807030e8f39f75d2fcce0efc5c04691a479a74eef93a9e576",
+      "actual_opened": true,
+      "review": "Actually opened final four reference panels after Custom2D label clarification. Hash-bound inputs, common UTMkm axes/depth scales and original boundary/mapping differences explicit; none scientifically accepted for prediction."
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_dclaw_process.png",
+      "bytes": 173369,
+      "sha256": "4456a3a1ec7b4e38e17e664f30a6d0e470223b87c95da58173076fc075b79681",
+      "actual_opened": true,
+      "review": "Actually reopened six frames with actual native times0/40/80/180/360/1800. Source and candidate target distinguishable; boundary wet80s and conditional release explicit."
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_dclaw_pressure.png",
+      "bytes": 95811,
+      "sha256": "bea77e0c87368f111037101414b4ba0a38447332ffcaf2c903f35085717cfb63",
+      "actual_opened": true,
+      "review": "Actually reopened pressurekPa and solid fraction at native80s. Labels, title and colorbars fit; prescribed pressure is not measured."
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_entrainment_residuals.png",
+      "bytes": 177411,
+      "sha256": "c1a8323c1f6724c065ada5ce6aa6acfe1bb8b0bc0fc652960617898a724b95fd",
+      "actual_opened": true,
+      "review": "Actually reopened corrected four-panel plot: final moving depth remains visible when stationary set is empty; both stationary volumes0 retained, layer/cumulative erosion0–1m scales and UTMkm readable. No permanent deposit claim."
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_single_sensitivity.png",
+      "bytes": 352491,
+      "sha256": "1ddd97eeca2661e8a841c455b0bc5208c058dde1c3cb1c49aaeae5534385a65a",
+      "actual_opened": true,
+      "review": "Actually opened final ten registered single-phase comparisons. Numerical settings orange versus conditional physical inputs blue; native actual-time curves, saved domain volume/wet speed/area and normalized metrics readable. No convergence/predictive acceptance claim; nonmonotonic peak responses retained."
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_stationary_residuals.png",
+      "bytes": 137874,
+      "sha256": "7cf774007165d68d0ad346964e66872f384f7e263a300934f9371d9d62586785",
+      "actual_opened": true,
+      "review": "Actually opened three finite-time stationary residual maps. Reference and bounded-entrainment empty sets labeled; mu0.25 stationary0.3805Mm3 at actual1802s, source grey outline, candidate target and UTMkm readable. Permanent deposition explicitly not established."
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_composite_phases.png",
+      "bytes": 210480,
+      "sha256": "8914911a9a3007b098a58b0a28c7967f12c8b972cb1c119e5e4369401796b69d",
+      "actual_opened": true,
+      "review": "Actually opened six source/native180s/end water-fraction panels. Actual180.5/181.1s shown rather than a common invented180.0; emptyP2 verified, no melting claim, composition colorbar and UTMkm axes readable."
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_composite_phase_volumes.png",
+      "bytes": 162208,
+      "sha256": "f4d793e72ea1f6b97dff6a8fb55557c2d18c9c2a38d14ae1b8405f6c0a0e77d1",
+      "actual_opened": true,
+      "review": "Actually opened solid/water domain volume curves of three completed phase cases. Same initial phase depths and differing all-rock mass explicitly checked; domain-volume change is not phase transformation or independently validated phase segregation."
+    }
+  ],
+  "independent_validation_claim": false
+}

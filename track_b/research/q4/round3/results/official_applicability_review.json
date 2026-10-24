@@ -1,0 +1,423 @@
+{
+  "reviewed_utc": "2026-10-24T09:14:01.350887+00:00",
+  "registered_historical_cases": 36,
+  "group_counts": {
+    "single_mixture": {
+      "complete": 1,
+      "not_started": 9
+    },
+    "generic3phase_proxy": {
+      "running": 1,
+      "not_started": 7
+    },
+    "dclaw": {
+      "complete": 8,
+      "running": 1
+    },
+    "Q2_single_equivalent": {
+      "running": 1,
+      "not_started": 6
+    },
+    "composite_water": {
+      "running": 1,
+      "not_started": 1
+    }
+  },
+  "provisionally_required_count": 29,
+  "held_not_run_count": 7,
+  "cases": [
+    {
+      "run_id": "copdem_120_single_ref__sf0",
+      "group": "single_mixture",
+      "model": "ravaflow_single",
+      "resolution_m": 120.0,
+      "operational_state": "complete",
+      "applicability": "required",
+      "last_native_saved_time_s": 1801.2,
+      "completed_wall_seconds": 2705.3186609745026
+    },
+    {
+      "run_id": "copdem_120_multi_ref__sf0",
+      "group": "generic3phase_proxy",
+      "model": "ravaflow_multi",
+      "resolution_m": 120.0,
+      "operational_state": "running",
+      "applicability": "required_diagnostic_nonRWI",
+      "last_native_saved_time_s": 840.0,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_120_multi_dry__sf0",
+      "group": "generic3phase_proxy",
+      "model": "ravaflow_multi",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "pending_review_do_not_start",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_120_multi_wet__sf0",
+      "group": "generic3phase_proxy",
+      "model": "ravaflow_multi",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "pending_review_do_not_start",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_120_multi_nodrag__sf0",
+      "group": "generic3phase_proxy",
+      "model": "ravaflow_multi",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "pending_review_do_not_start",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_120_dclaw_ref",
+      "group": "dclaw",
+      "model": "dclaw",
+      "resolution_m": 120.0,
+      "operational_state": "complete",
+      "applicability": "required",
+      "last_native_saved_time_s": 1800.0,
+      "completed_wall_seconds": 490.19870495796204
+    },
+    {
+      "run_id": "copdem_120_dclaw_nopressure",
+      "group": "dclaw",
+      "model": "dclaw",
+      "resolution_m": 120.0,
+      "operational_state": "complete",
+      "applicability": "required",
+      "last_native_saved_time_s": 1800.0,
+      "completed_wall_seconds": 702.54971575737
+    },
+    {
+      "run_id": "copdem_120_dclaw_loose",
+      "group": "dclaw",
+      "model": "dclaw",
+      "resolution_m": 120.0,
+      "operational_state": "complete",
+      "applicability": "required",
+      "last_native_saved_time_s": 1800.0,
+      "completed_wall_seconds": 405.5899031162262
+    },
+    {
+      "run_id": "copdem_120_dclaw_permeable",
+      "group": "dclaw",
+      "model": "dclaw",
+      "resolution_m": 120.0,
+      "operational_state": "complete",
+      "applicability": "required",
+      "last_native_saved_time_s": 1800.0,
+      "completed_wall_seconds": 247.07843017578125
+    },
+    {
+      "run_id": "copdem_120_single_h136__sf0",
+      "group": "single_mixture",
+      "model": "ravaflow_single",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_120_single_h5__sf0",
+      "group": "single_mixture",
+      "model": "ravaflow_single",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_120_single_h30__sf0",
+      "group": "single_mixture",
+      "model": "ravaflow_single",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_120_single_mu0p08__sf0",
+      "group": "single_mixture",
+      "model": "ravaflow_single",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_120_single_mu0p25__sf0",
+      "group": "single_mixture",
+      "model": "ravaflow_single",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_120_single_xi500__sf0",
+      "group": "single_mixture",
+      "model": "ravaflow_single",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_120_single_xi2000__sf0",
+      "group": "single_mixture",
+      "model": "ravaflow_single",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_120_single_cfl025__sf0",
+      "group": "single_mixture",
+      "model": "ravaflow_single",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_60_single_ref__sf0",
+      "group": "single_mixture",
+      "model": "ravaflow_single",
+      "resolution_m": 60.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_60_multi_ref__sf0",
+      "group": "generic3phase_proxy",
+      "model": "ravaflow_multi",
+      "resolution_m": 60.0,
+      "operational_state": "not_started",
+      "applicability": "pending_review_do_not_start",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_60_multi_dry__sf0",
+      "group": "generic3phase_proxy",
+      "model": "ravaflow_multi",
+      "resolution_m": 60.0,
+      "operational_state": "not_started",
+      "applicability": "pending_review_do_not_start",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_60_multi_wet__sf0",
+      "group": "generic3phase_proxy",
+      "model": "ravaflow_multi",
+      "resolution_m": 60.0,
+      "operational_state": "not_started",
+      "applicability": "pending_review_do_not_start",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_60_multi_nodrag__sf0",
+      "group": "generic3phase_proxy",
+      "model": "ravaflow_multi",
+      "resolution_m": 60.0,
+      "operational_state": "not_started",
+      "applicability": "pending_review_do_not_start",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "copdem_60_dclaw_ref",
+      "group": "dclaw",
+      "model": "dclaw",
+      "resolution_m": 60.0,
+      "operational_state": "complete",
+      "applicability": "required",
+      "last_native_saved_time_s": 1800.0,
+      "completed_wall_seconds": 1707.102975845337
+    },
+    {
+      "run_id": "copdem_60_dclaw_nopressure",
+      "group": "dclaw",
+      "model": "dclaw",
+      "resolution_m": 60.0,
+      "operational_state": "complete",
+      "applicability": "required",
+      "last_native_saved_time_s": 1800.0,
+      "completed_wall_seconds": 797.2349851131439
+    },
+    {
+      "run_id": "copdem_60_dclaw_loose",
+      "group": "dclaw",
+      "model": "dclaw",
+      "resolution_m": 60.0,
+      "operational_state": "complete",
+      "applicability": "required",
+      "last_native_saved_time_s": 1800.0,
+      "completed_wall_seconds": 330.50993514060974
+    },
+    {
+      "run_id": "copdem_60_dclaw_permeable",
+      "group": "dclaw",
+      "model": "dclaw",
+      "resolution_m": 60.0,
+      "operational_state": "running",
+      "applicability": "required",
+      "last_native_saved_time_s": 220.0,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear__sf0",
+      "group": "Q2_single_equivalent",
+      "model": "ravaflow_single",
+      "resolution_m": 60.0,
+      "operational_state": "running",
+      "applicability": "required",
+      "last_native_saved_time_s": 1300.5,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "q2map60_q2r3_p0036_S_T_linear__sf0",
+      "group": "Q2_single_equivalent",
+      "model": "ravaflow_single",
+      "resolution_m": 60.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "group": "Q2_single_equivalent",
+      "model": "ravaflow_single",
+      "resolution_m": 60.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "group": "Q2_single_equivalent",
+      "model": "ravaflow_single",
+      "resolution_m": 60.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "group": "Q2_single_equivalent",
+      "model": "ravaflow_single",
+      "resolution_m": 60.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "group": "Q2_single_equivalent",
+      "model": "ravaflow_single",
+      "resolution_m": 60.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "group": "Q2_single_equivalent",
+      "model": "ravaflow_single",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "composite_RI_water_120__sf0",
+      "group": "composite_water",
+      "model": "ravaflow_multi",
+      "resolution_m": 120.0,
+      "operational_state": "running",
+      "applicability": "required",
+      "last_native_saved_time_s": 680.4,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "composite_rock_water_120__sf0",
+      "group": "composite_water",
+      "model": "ravaflow_multi",
+      "resolution_m": 120.0,
+      "operational_state": "not_started",
+      "applicability": "required",
+      "last_native_saved_time_s": null,
+      "completed_wall_seconds": null
+    },
+    {
+      "run_id": "dclaw_ref_extended120",
+      "group": "dclaw",
+      "model": "dclaw",
+      "resolution_m": 120.0,
+      "operational_state": "complete",
+      "applicability": "required",
+      "last_native_saved_time_s": 1800.0,
+      "completed_wall_seconds": 1982.9558391571045
+    }
+  ],
+  "active_cost_evidence": [
+    {
+      "run_id": "copdem_60_dclaw_permeable",
+      "wall_elapsed_seconds": 200.676139,
+      "actual_native_saved_time_s": 220.0,
+      "linear_full_horizon_wall_seconds_rough": 1641.8956827272727,
+      "caution": "nonlinear Courant-limited runtime; concurrent CPU competition and late-step collapse can invalidate linear estimate"
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear__sf0",
+      "wall_elapsed_seconds": 1191.742585,
+      "actual_native_saved_time_s": 1300.5,
+      "linear_full_horizon_wall_seconds_rough": 1649.4707058823528,
+      "caution": "nonlinear Courant-limited runtime; concurrent CPU competition and late-step collapse can invalidate linear estimate"
+    },
+    {
+      "run_id": "composite_RI_water_120__sf0",
+      "wall_elapsed_seconds": 2431.669891,
+      "actual_native_saved_time_s": 680.4,
+      "linear_full_horizon_wall_seconds_rough": 6432.98912962963,
+      "caution": "nonlinear Courant-limited runtime; concurrent CPU competition and late-step collapse can invalidate linear estimate"
+    },
+    {
+      "run_id": "copdem_120_multi_ref__sf0",
+      "wall_elapsed_seconds": 3897.687755,
+      "actual_native_saved_time_s": 840.0,
+      "linear_full_horizon_wall_seconds_rough": 8352.188046428571,
+      "caution": "nonlinear Courant-limited runtime; concurrent CPU competition and late-step collapse can invalidate linear estimate"
+    }
+  ],
+  "60m_generic_cost_inference": "Same domain 4xcellcount and approximately2xtimestep count gives roughly8x120m work, highly nonlinear and no true60m generic measured runtime; not an ETA",
+  "mapping_assessment": "All7 held2700/1850/1000 generic3phase scenarios are lawfulgeneric proxies, but none is pure rock2700/ice917/water1000. They do not answer explicitRWI material question or justify interpreting1850 component asice.",
+  "minimal_substitution_assessment": "One compositeRI+water120m nodrag is lawful: sameP1rho2445.285714/P1vol.7/P2empty/P3water.3, samegeometry/volume/strength, native drag=-1 and virtualmass=1,0,0 disablesinteraction terms; compare toexisting compositeRI+water coupled. This is one coupledinteraction ablation, not purethreephase ice andnot isolateddrag only because virtualmassalso disabled."
+}

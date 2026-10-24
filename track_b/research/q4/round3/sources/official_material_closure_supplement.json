@@ -1,0 +1,10 @@
+{
+  "read_utc": "2026-10-24T09:35:16.467942+00:00",
+  "source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/ravaflow_direct.html",
+  "source_sha256": "326853734fa4e7b6ff438067aafd444d4206ec684733160cac8ec8e7dff951e3",
+  "source_line": 769,
+  "official_text": "The default is the single-phase model. Note that the multi-phase model can be reduced from three to two phases by providing input only for two phases (see release, entrainment, and hydrograph parameters). Thereby, the density of P1 has to be higher that the density of P2, and the density of P2 has to be higher than the density of P3 (see density parameters).",
+  "finding": "Officialparameterdocumentation explicitly requiresrhoP1>rhoP2>rhoP3; pureRWI P1rock2700/P2ice917/P3water1000 violatesrequirement. Nativefdrag also givesnegative paircoefficient. CompositeP1rho2445.285714/P2empty1850/P3water1000 respectsordering.",
+  "no_parameter_change": true,
+  "no_claim_of_pure_ice_independent_phase": true
+}

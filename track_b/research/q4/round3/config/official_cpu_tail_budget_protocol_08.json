@@ -1,0 +1,17 @@
+{
+  "registered_utc": "2026-10-24T10:47:36.827841+00:00",
+  "authority": "parent/root explicit tail scheduling directive",
+  "scope": "only currently registered required and diagnostic cases, no new models/cases",
+  "start_condition": "pending0 AND all unclosed cases represented by active owned solver containers; a run.log alone is insufficient",
+  "policy": "per_container_nano_cpus=min(3e9,floor(6e9/actual_active_count)); total<=6e9, preserve2of8vCPU",
+  "no_restart": true,
+  "unchanged": [
+    "OMP_NUM_THREADS=3",
+    "inputs",
+    "physics",
+    "horizons",
+    "case and original execution bytes"
+  ],
+  "action_receipt": "results/official_scheduling_cpu_tail_receipts_08.json",
+  "script_sha256": "0c0e7afa53957da227c83aa02e46455fc417c6245ff5100ec84ad584b16e1daf"
+}

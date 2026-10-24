@@ -1,0 +1,75 @@
+{
+  "checked_utc": "2026-10-24T07:50:33.342146+00:00",
+  "source_pairs": [
+    {
+      "container_path": "/opt/clawpack/dclaw/examples/gully/setrun.py",
+      "local_source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/dclaw-1.0.0/examples/gully/setrun.py",
+      "container_sha256": "96a49f3afe45ceb1f973aff94a36b9c06d6da0d30117b7c17f684dc6914e492f",
+      "local_sha256": "96a49f3afe45ceb1f973aff94a36b9c06d6da0d30117b7c17f684dc6914e492f",
+      "identical": true,
+      "command": [
+        "docker",
+        "exec",
+        "mathorcup-r3-toolchain-build",
+        "sha256sum",
+        "/opt/clawpack/dclaw/examples/gully/setrun.py"
+      ],
+      "read_status": 0
+    },
+    {
+      "container_path": "/opt/clawpack/dclaw/examples/gully/setinput.py",
+      "local_source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/dclaw-1.0.0/examples/gully/setinput.py",
+      "container_sha256": "47f9e7a7b333a05396df2553584eb49a05695612d48f102b90015ea9c9e7d7d2",
+      "local_sha256": "47f9e7a7b333a05396df2553584eb49a05695612d48f102b90015ea9c9e7d7d2",
+      "identical": true,
+      "command": [
+        "docker",
+        "exec",
+        "mathorcup-r3-toolchain-build",
+        "sha256sum",
+        "/opt/clawpack/dclaw/examples/gully/setinput.py"
+      ],
+      "read_status": 0
+    },
+    {
+      "container_path": "/opt/clawpack/dclaw/src/2d/dig/digclaw_module.f90",
+      "local_source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/dclaw-1.0.0/src/2d/dig/digclaw_module.f90",
+      "container_sha256": "1abbd3a24a47718759fbb0b166d10257cda9b48bc40587576765b3337af1d2dd",
+      "local_sha256": "1abbd3a24a47718759fbb0b166d10257cda9b48bc40587576765b3337af1d2dd",
+      "identical": true,
+      "command": [
+        "docker",
+        "exec",
+        "mathorcup-r3-toolchain-build",
+        "sha256sum",
+        "/opt/clawpack/dclaw/src/2d/dig/digclaw_module.f90"
+      ],
+      "read_status": 0
+    },
+    {
+      "container_path": "/opt/grass-addons/scripts/r.avaflow.40G",
+      "local_source_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/sources/r.avaflow.40G/r.avaflow/r.avaflow.40G.py",
+      "container_sha256": "d062d4c62092e9cb026cd55869505e16db2aea463c603ec997740ff1beb682ec",
+      "local_sha256": "d062d4c62092e9cb026cd55869505e16db2aea463c603ec997740ff1beb682ec",
+      "identical": true,
+      "command": [
+        "docker",
+        "exec",
+        "mathorcup-r3-toolchain-build",
+        "sha256sum",
+        "/opt/grass-addons/scripts/r.avaflow.40G"
+      ],
+      "read_status": 0
+    }
+  ],
+  "binary_hash_command": [
+    "docker",
+    "exec",
+    "mathorcup-r3-toolchain-build",
+    "sha256sum",
+    "/opt/clawpack/dclaw/examples/gully/xdclaw",
+    "/opt/grass-addons/bin/r.avaflow.main"
+  ],
+  "binary_hash_stdout": "e63b50048d871840e0ef42b4b440fcbd7751ddf2c6d7e45fc1e008e6935db3b9  /opt/clawpack/dclaw/examples/gully/xdclaw\n7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931  /opt/grass-addons/bin/r.avaflow.main\n",
+  "binary_hash_returncode": 0
+}

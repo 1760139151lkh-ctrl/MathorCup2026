@@ -1,0 +1,13 @@
+{
+  "version": "q4-r3-official-resourcefix-smallgrid-v1",
+  "registered_utc": "2026-10-24T08:41:16.783587+00:00",
+  "before_execution": true,
+  "solver_build": "explicit_resourcefix_build",
+  "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+  "addon_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/runtime/diagnostics/q4_native_asan/derived/release_addon",
+  "binary_sha256": "45ace2befd657d31232a73e1f5eabc174dd68c5962f6353385594fc70499bc1c",
+  "wrapper_sha256": "d062d4c62092e9cb026cd55869505e16db2aea463c603ec997740ff1beb682ec",
+  "scope": "resourcecleanup only,45 Segment_release toSegment_close; not originalofficialbinary; no physicalequation edit byQ4",
+  "selection": "all5 previously preregistered sf0/sf1 smallgrid tests, no csurface2single; existinglargearea unchanged",
+  "comparison": "originalvsresourcefix samecommandsandinputs; per-fileCSV commondata bytehashes, fullprogram exit separately"
+}

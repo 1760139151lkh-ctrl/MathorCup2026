@@ -1,0 +1,56 @@
+{
+  "run_id": "copdem_120p0_single_ref",
+  "scenario_id": "conditional_h15_mu0.15_xi1000",
+  "model": "ravaflow_single",
+  "terrain_id": "copdem",
+  "resolution_m": 120.0,
+  "dem": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/dem.tif",
+  "dem_sha256": "75af6b738fee4834eb34f196687bc59b0068c7302240748e4da02224d2e1e2cf",
+  "release": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/release_15m.tif",
+  "release_sha256": "64efb8011842e3d431e3f9fe75b65d073e9c0af3fc7b5028e886e07e61d7c9a2",
+  "source_geometry_sha256": "6d5575f8f9309046ca9fd0fe0c2ab2d99e5754c721a107aaf9e50639a9bb4c8c",
+  "source_exact_area_m2": 927822.8616441403,
+  "source_mask_cells": 67,
+  "source_grid_area_m2": 964800.0,
+  "reference_source_grid_area_m2": 925200.0,
+  "grid_thickness_normalization_factor": 0.9589552238805971,
+  "release_thickness_m": 15,
+  "release_grid_volume_m3": 13877999.546813965,
+  "nominal_polygon_volume_m3": null,
+  "expected_reference_grid_volume_m3": 13878000.0,
+  "mu_basal": 0.15,
+  "xi": 1000,
+  "phase_volume_fractions": [
+    1
+  ],
+  "initial_velocity_east_north_m_s": [
+    0,
+    0
+  ],
+  "initiation_to_release_delay_seconds": null,
+  "end_seconds": 1800,
+  "output_interval_seconds": 20,
+  "targets": [
+    {
+      "id": "paper_port_symbol",
+      "xy": [
+        340981.5408349674,
+        3129214.004555992
+      ],
+      "buffer_m": 100,
+      "candidate": true
+    },
+    {
+      "id": "paper_junction",
+      "xy": [
+        351476.41323709604,
+        3134746.4349620095
+      ],
+      "buffer_m": 100,
+      "candidate": true
+    }
+  ],
+  "extras": {},
+  "evidence_role": "conditional_scenario",
+  "model_adoption": "pending_team_review"
+}

@@ -1,0 +1,86 @@
+{
+  "registered_utc": "2026-10-24T09:13:28.592706+00:00",
+  "source": "parent instruction2026-10-24 applicabilityreview beforestarting additionalgeneric proxies",
+  "original_registered_count": 36,
+  "required_provisionally": null,
+  "held_not_run_count": 0,
+  "entries": [
+    {
+      "run_id": "copdem_120_multi_dry__sf0",
+      "decision": "not_run_material_applicability_exclusion",
+      "reason": "mathematically lawful genericproxy but not pureice material mapping; formal decision03",
+      "physical_interpretation": "generic frictional solid/intermediate solid/water proxy only",
+      "native_numerical_invalidity_asserted": false
+    },
+    {
+      "run_id": "copdem_120_multi_wet__sf0",
+      "decision": "not_run_material_applicability_exclusion",
+      "reason": "mathematically lawful genericproxy but not pureice material mapping; formal decision03",
+      "physical_interpretation": "generic frictional solid/intermediate solid/water proxy only",
+      "native_numerical_invalidity_asserted": false
+    },
+    {
+      "run_id": "copdem_120_multi_nodrag__sf0",
+      "decision": "not_run_material_applicability_exclusion",
+      "reason": "mathematically lawful genericproxy but not pureice material mapping; formal decision03",
+      "physical_interpretation": "generic frictional solid/intermediate solid/water proxy only",
+      "native_numerical_invalidity_asserted": false
+    },
+    {
+      "run_id": "copdem_60_multi_ref__sf0",
+      "decision": "not_run_material_applicability_exclusion",
+      "reason": "mathematically lawful genericproxy but not pureice material mapping; formal decision03",
+      "physical_interpretation": "generic frictional solid/intermediate solid/water proxy only",
+      "native_numerical_invalidity_asserted": false
+    },
+    {
+      "run_id": "copdem_60_multi_dry__sf0",
+      "decision": "not_run_material_applicability_exclusion",
+      "reason": "mathematically lawful genericproxy but not pureice material mapping; formal decision03",
+      "physical_interpretation": "generic frictional solid/intermediate solid/water proxy only",
+      "native_numerical_invalidity_asserted": false
+    },
+    {
+      "run_id": "copdem_60_multi_wet__sf0",
+      "decision": "not_run_material_applicability_exclusion",
+      "reason": "mathematically lawful genericproxy but not pureice material mapping; formal decision03",
+      "physical_interpretation": "generic frictional solid/intermediate solid/water proxy only",
+      "native_numerical_invalidity_asserted": false
+    },
+    {
+      "run_id": "copdem_60_multi_nodrag__sf0",
+      "decision": "not_run_material_applicability_exclusion",
+      "reason": "mathematically lawful genericproxy but not pureice material mapping; formal decision03",
+      "physical_interpretation": "generic frictional solid/intermediate solid/water proxy only",
+      "native_numerical_invalidity_asserted": false
+    },
+    {
+      "run_id": "copdem_120_multi_ref__sf0",
+      "decision": "generic_material_proxy_diagnostic_only",
+      "reason": "alreadyrunning generic2700/1850/1000 complete1800 as processdiagnostic; excludedtargetmaterial main/Q3candidate"
+    }
+  ],
+  "default_decision": "required",
+  "current_generic120_ref": "continue existingexecution, diagnosticnonRWI status, parentreview pending",
+  "no_source_or_physics_change": true,
+  "final_decision_protocol_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/model_applicability_decision_03.json",
+  "final_decision_protocol_sha256": "fb64f37fed3c7266942748667440f38cbe79e58e9c3847c8a934c4ce3911e500",
+  "registered_case_count_including_replacement": 37,
+  "applicable_required_count": 30,
+  "diagnostic_only_count": 1,
+  "not_run_material_applicability_exclusion_count": 7,
+  "current_historical_registered_count": 38,
+  "current_applicable_required_count": 30,
+  "current_diagnostic_only_count": 1,
+  "current_excluded_not_run_count": 7,
+  "later_entrainment_protocol_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/official_entrainment_protocol.json",
+  "later_entrainment_protocol_sha256": "69b3cc6219d5d059e186986eabbdd716a76958e657b539ec46c0ed419041a05f",
+  "counts_supersession": "laterentrainmentprotocol adds1 required withoutchangingformaldecision03bytes",
+  "at_decision03_counts": {
+    "registered": 37,
+    "applicable_required": 29,
+    "diagnostic_only": 1,
+    "not_run_material_exclusion": 7
+  },
+  "registered_scientific_cases": 38
+}

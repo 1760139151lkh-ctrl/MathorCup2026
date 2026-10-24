@@ -1,0 +1,19 @@
+{
+  "version": "q4-r3-official-q2mapped-v1",
+  "registered_utc": "2026-10-24T07:58:08.475530+00:00",
+  "before_native_solver_runs": true,
+  "mapping_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/q2_release_mapping.json",
+  "mapping_sha256": "75e59d97b861bd409f1fde35719ee202f5e8bd00bbb4e559b346630b79e832c4",
+  "selection": "all4 fixed preregistered mapped releases, no fastest subset",
+  "geometry_version": "q4-r3-q2-mapped-release-v1",
+  "method": "native phases1 equivalent bulk density, passive rock/ice/water volume fractions retained; no explicit ice melting",
+  "postrelease_resistance": {
+    "mu_basal": 0.15,
+    "xi": 1000,
+    "source": "root conditional propagation protocol, not Q2 intact-rock friction"
+  },
+  "end_seconds": 1800,
+  "output_interval_seconds": 20,
+  "initiation_to_release_delay_seconds": null,
+  "never_crossed": "if_released counterfactual, not initiation forecast"
+}

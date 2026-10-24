@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""Map the separately preregistered Q2 release raster to actual native single-phase runs."""
+from pathlib import Path
+import json,hashlib,datetime,shutil
+import numpy as np,rasterio
+P=Path(__file__).resolve().parents[1];C=Path('/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official')
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+mp=P/'results/q2_release_mapping.json';mapping=json.loads(mp.read_text());reference=json.loads((C/'runs/copdem_60_single_ref/case.json').read_text());cases=[]
+protocol={'version':'q4-r3-official-q2mapped-v1','registered_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'before_native_solver_runs':True,'mapping_path':str(mp),'mapping_sha256':sha(mp),'selection':'all4 fixed preregistered mapped releases, no fastest subset','geometry_version':'q4-r3-q2-mapped-release-v1','method':'native phases1 equivalent bulk density, passive rock/ice/water volume fractions retained; no explicit ice melting','postrelease_resistance':{'mu_basal':.15,'xi':1000,'source':'root conditional propagation protocol, not Q2 intact-rock friction'},'end_seconds':1800,'output_interval_seconds':20,'initiation_to_release_delay_seconds':None,'never_crossed':'if_released counterfactual, not initiation forecast'};(P/'config/official_q2_protocol.json').write_text(json.dumps(protocol,indent=2)+'\n')
+for release in mapping['releases']:
+ src=Path(release['release_raster']['path']);assert sha(src)==release['release_raster']['sha256'];sid=release['scenario_id'];rid='q2map60_'+sid.replace('-','_');inp=C/'inputs/q2mapped'/sid;inp.mkdir(parents=True,exist_ok=True);dst=inp/'release.tif';shutil.copy2(src,dst)
+ with rasterio.open(dst) as ds:h=ds.read(1).astype(float);v=float(h.sum()*abs(ds.transform.a*ds.transform.e))
+ assert abs(v/release['grid_integrated_release_volume_m3']-1)<1e-9
+ f=C/'runs'/rid;f.mkdir(parents=True,exist_ok=True);case=dict(reference);case.update({'run_id':rid,'scenario_id':sid,'model':'ravaflow_single','geometry_version':release['geometry_version'],'upstream_model_id':release['upstream_model_id'],'upstream_parameter_version':release['upstream_parameter_version'],'upstream_onset_status':release['upstream_onset_status'],'if_released_propagation':release['if_released_propagation'],'not_an_initiation_prediction':True,'release':str(dst),'release_sha256':sha(dst),'release_grid_volume_m3':v,'expected_reference_grid_volume_m3':None,'release_thickness_m':release['thickness_vertical_m'],'source_plan_area_m2':release['source_plan_area_m2'],'source_mapping':release['source_mapping_assumption'],'source_geometry_sha256':sha(mp),'bulk_density_kg_m3':release['bulk_density_kg_m3'],'phase_volume_fractions':[1],'passive_material_volume_fractions':release['phase_fractions'],'passive_material_fraction_basis':'volume','initial_velocity_east_north_m_s':release['initial_velocity_east_north_m_s'],'initiation_to_release_delay_seconds':None,'extras':{},'source_release_reference':release['release_raster'],'evidence_role':'conditional_cross_question_scenario'})
+ for key in ['source_mask_cells','source_grid_area_m2','reference_source_grid_area_m2','grid_thickness_normalization_factor','source_exact_area_m2']:case.pop(key,None)
+ (f/'case.json').write_text(json.dumps(case,indent=2)+'\n');cases.append({'run_id':rid,'case':str(f/'case.json')})
+(P/'config/official_cases_q2mapped.json').write_text(json.dumps({'cases':cases},indent=2)+'\n');print(len(cases))

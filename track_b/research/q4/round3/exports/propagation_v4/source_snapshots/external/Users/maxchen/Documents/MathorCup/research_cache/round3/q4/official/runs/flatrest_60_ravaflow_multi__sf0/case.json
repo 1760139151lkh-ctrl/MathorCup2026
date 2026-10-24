@@ -1,0 +1,32 @@
+{
+  "run_id": "flatrest_60_ravaflow_multi__sf0",
+  "scenario_id": "numerical_flatrest",
+  "model": "ravaflow_multi",
+  "terrain_id": "analytic_flat",
+  "resolution_m": 60,
+  "dem": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/flatrest/dem.tif",
+  "dem_sha256": "05212228ff4b7ff87416b5812f3c55d7fe495e93d740f6d45a42606a84729ea4",
+  "release": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/flatrest/release.tif",
+  "release_sha256": "7234adbb648fbe5a93bb068e69e7b6d17b81147bc5fa51400d010db45b5c2809",
+  "release_thickness_m": 10,
+  "release_grid_volume_m3": 43200000.0,
+  "mu_basal": 0.15,
+  "xi": 1000,
+  "phase_volume_fractions": [
+    0.6,
+    0.1,
+    0.3
+  ],
+  "initial_velocity_east_north_m_s": [
+    0,
+    0
+  ],
+  "initiation_to_release_delay_seconds": null,
+  "end_seconds": 100,
+  "output_interval_seconds": 20,
+  "targets": [],
+  "extras": {},
+  "evidence_role": "numerical_benchmark",
+  "csurface": 0,
+  "official_protocol_version": "q4-r3-official-v2"
+}

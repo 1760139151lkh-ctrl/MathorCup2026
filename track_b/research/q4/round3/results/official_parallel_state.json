@@ -1,0 +1,11 @@
+{
+  "updated_utc": "2026-10-24T11:14:46.452270+00:00",
+  "registered": 38,
+  "applicable_required": 30,
+  "remaining_required": 0,
+  "legacy_reserved_queues": 0,
+  "extra_launchers": [],
+  "adopted_extra_launchers": [],
+  "max_total_native_processes": 6,
+  "uniqueness": "futuremain/extra launchers share per-runfcntl lock; existingmatchedcomposite queue excludedextra"
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-24T11:23:41.163049+00:00",
+  "command_mode": "freeze",
+  "source_index_sha256": "78ed43503d9a93d160df3b3a40c4a1ed999bc6ea473a0b8c84651a164ec3b010",
+  "source_count": 771,
+  "source_files_changed": [],
+  "outputs_written": [
+    "model_runs.csv",
+    "comparison_metrics.csv",
+    "target_arrivals.csv",
+    "numerical_validation.json",
+    "comparison_summary.json"
+  ],
+  "final_bundle_written": true,
+  "bundle_version": "q4-r3-propagation-v4"
+}

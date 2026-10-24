@@ -1,0 +1,62 @@
+{
+  "reviewed_at_utc": "2026-10-24T08:02:22.622928+00:00",
+  "method": "view_image actual rendered pixels; final corrected spectrum and final OSM/TCI outputs re-opened",
+  "figures": [
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_terrain_paths.png",
+      "bytes": 370168,
+      "sha256": "0de4a3e0cfa492e58ce8b35ac66e4e1f54b4f48ef4c5454d0da4f0ea678dac1d",
+      "actual_opened": true,
+      "reviewer": "Codex spatial agent, not human scientific acceptance",
+      "status": "historical v1, crowded UTM x labels; use v2 final"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_terrain_paths_review_v2.png",
+      "bytes": 369141,
+      "sha256": "2cbb8b9dbbc02c4d0c6889e71c0ed75e8604fb86aa3063b7e18787a01580ab29",
+      "actual_opened": true,
+      "reviewer": "Codex spatial agent, not human scientific acceptance",
+      "status": "readable axes, units, legends and candidate/uncertainty language; no clipping identified"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_edge_connectors_v2.png",
+      "bytes": 81767,
+      "sha256": "0a7a9df5c1aae04f714f6e4dbf261f90152827857e4505ce4fb0f4153946a81e",
+      "actual_opened": true,
+      "reviewer": "Codex spatial agent, not human scientific acceptance",
+      "status": "readable axes, units, legends and candidate/uncertainty language; no clipping identified"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_dem_comparison.png",
+      "bytes": 193318,
+      "sha256": "1b5f0b7a3cb451c97b272b46ee73f8a605e04b12aa8f2c05f9e6fefc6300edf6",
+      "actual_opened": true,
+      "reviewer": "Codex spatial agent, not human scientific acceptance",
+      "status": "readable axes, units, legends and candidate/uncertainty language; no clipping identified"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_optical_candidates.png",
+      "bytes": 1427959,
+      "sha256": "d4ebdca3dadb480688c56bc35bbd4fcb78c7af5b9d82fc48e73749a54ca888f7",
+      "actual_opened": true,
+      "reviewer": "Codex spatial agent, not human scientific acceptance",
+      "status": "readable axes, units, legends and candidate/uncertainty language; no clipping identified"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_osm_objects_v2.png",
+      "bytes": 1339150,
+      "sha256": "a81e8a38d8bc41a3b195d9814622020c182e2d01a6d8a9edac629d948374056f",
+      "actual_opened": true,
+      "reviewer": "Codex spatial agent, not human scientific acceptance",
+      "status": "readable axes, units, legends and candidate/uncertainty language; no clipping identified"
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/spatial_spectral_screen.png",
+      "bytes": 1136924,
+      "sha256": "b818806e4ae1f11f4a440e9f22f2cf80be0258a06047ef64cb35a8276fda5206",
+      "actual_opened": true,
+      "reviewer": "Codex spatial agent, not human scientific acceptance",
+      "status": "readable axes, units, legends and candidate/uncertainty language; no clipping identified"
+    }
+  ]
+}

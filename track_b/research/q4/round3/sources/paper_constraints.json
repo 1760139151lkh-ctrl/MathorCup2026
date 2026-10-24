@@ -1,0 +1,83 @@
+{
+  "schema_version": "q4-r3-literature-constraints-v1",
+  "read_at_utc": "2026-10-24T07:33:04.877952+00:00",
+  "canonical_url": "https://jms.imde.ac.cn/en/article/pdf/preview/10.1007/s11629-026-1482-y.pdf",
+  "source_path": "track_b/data/external/event_remote/jms_2026_uncorrected_proof.pdf",
+  "source_bytes": 924233,
+  "source_sha256": "825537a19029e3da229b80bf2e37d930839cfdde0df62ca9e755c709508454c0",
+  "product_version": "JMS uncorrected proof; DOI10.1007/s11629-026-1482-y",
+  "retrieved_at_utc": "2026-10-24T03:42:04.722039+00:00",
+  "actual_read_scope": {
+    "full_extracted_pages": [
+      9,
+      14,
+      15,
+      17,
+      26,
+      29
+    ],
+    "keyword_scan": "35 pages for volume/velocity/routing/arrival terms; selected matching lines returned",
+    "new_visual_read_pages": [],
+    "prior_round_visual_read_pages": [
+      6
+    ]
+  },
+  "available_time": null,
+  "data_role": "external_transfer",
+  "independent_event_validation": false,
+  "constraints": [
+    {
+      "id": "author_source_reconstruction",
+      "page": 9,
+      "area_m2": 760000,
+      "mean_thickness_m": 136,
+      "rock_volume_m3": 90750000,
+      "ice_volume_m3": 12600000,
+      "total_volume_m3": 103350000,
+      "phase_fraction_basis": "volume",
+      "status": "author retrospective reconstruction; original survey not obtained"
+    },
+    {
+      "id": "alternate_volume_report",
+      "page": 26,
+      "volume_range_m3": [
+        20000000,
+        40000000
+      ],
+      "status": "second-hand comparison inside JMS; original cited paper not verified in this round"
+    },
+    {
+      "id": "stage1_paper_model",
+      "pages": [
+        14,
+        15
+      ],
+      "model": "1D rigid slider Voellmy",
+      "mu": 0.05,
+      "xi_m_per_s2": 1200,
+      "depth_m": 136,
+      "distance_m": 1980,
+      "status": "model inputs/output, not independent truth"
+    },
+    {
+      "id": "stage3_paper_model",
+      "page": 17,
+      "model": "1D Saint-Venant prescribed hydrograph",
+      "volume_m3": 36000000,
+      "manning_n": 0.065,
+      "duration_s": 500,
+      "inlet_speed_m_per_s": 50,
+      "status": "prescribed downstream boundary routing, not full chain simulation"
+    },
+    {
+      "id": "source_geometry_and_process_limits",
+      "page": 29,
+      "status": "author notes lack of repeat topography, continuous trajectories, evolving entrainment/deposition/composition constraints"
+    }
+  ],
+  "inconsistency_notes": [
+    "Paper uses 17.3% and about22% for speed discrepancy under differing normalization; no single validation percentage adopted.",
+    "Reported source-to-port22.8km background and22.32km reconstruction remain source-specific; no path forced to either."
+  ],
+  "usage": "Physically motivate a literature-thickness challenge and uncertainty discussion; do not tune against or validate with the same reconstruction."
+}

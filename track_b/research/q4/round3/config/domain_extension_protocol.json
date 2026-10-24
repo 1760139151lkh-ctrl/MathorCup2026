@@ -1,0 +1,24 @@
+{
+  "version": "q4-r3-domain-extension-v1",
+  "registered_at_utc": "2026-10-24T08:12:16.884313+00:00",
+  "registered_before_extended_domain_solver_run": true,
+  "reason": "120m DClawref first boundary wet at80s before paper target arrival160-180s; need actual domain sensitivity",
+  "base_geometry_version": "q4-r3-spatial-copdem-v1",
+  "extended_geometry_version": "q4-r3-spatial-copdem-extended-v1",
+  "grid_resolution_m": 120,
+  "pad_cells_each_side": 84,
+  "extension_m_each_side": 10080,
+  "source": "Same Copernicus native tile; preserve original core DEM/source cell values exactly, extend only border using bilinear same-product values. Report any resampling-core difference before keeping frozen core. No vertical correction or hydraulic conditioning.",
+  "release": "Same reference initial grid-integratedV13,878,000m3, initialE/N0, same source global coordinates",
+  "model": "native DClawref m0.63 kref1e-10 initptype0 mu.15, same original version",
+  "horizon_seconds": 1800,
+  "outputs": [
+    "native finite/nonnegative and initial matching checks",
+    "first boundary wet time and boundary-affected-before-arrival flag",
+    "paper/junction/OSM threshold arrival brackets",
+    "domain volume and approximate boundary diagnostic separately",
+    "common interior fields against original domain"
+  ],
+  "evaluation_stratum": "conditional_scenario",
+  "interpretation": "One enlarged domain is a sensitivity test, not proof of infinite-domain convergence."
+}

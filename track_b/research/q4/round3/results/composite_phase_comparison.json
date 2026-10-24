@@ -1,0 +1,206 @@
+{
+  "generated_at_utc": "2026-10-24T11:17:56.667086+00:00",
+  "runs": [
+    {
+      "run_id": "composite_RI_water_120__sf0",
+      "fields": {
+        "run_id": "composite_RI_water_120__sf0",
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_120__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+        "bytes": 2079959,
+        "sha256": "20ce900fc6f01c5e822dd11437d32b476da3fa25567b2d14ceb02d5f641f128b",
+        "role": "actual_official_process_fields",
+        "case_sha256": "8f1154ed7b2906fde3df30d2686c4ddcbc75560ef753bca65bdae1aca66da4d3",
+        "execution_sha256": "9b8066fcdd3c1f9bcb842983465632e4698b61086d10900c40fdcda62e5092b9",
+        "log_sha256": "5eafd11787c67e8f7a5ccb4d83877858adcbebb939efdfc69ab2f36416273f85",
+        "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+        "time_end_seconds": 1800.4,
+        "native_time_evidence": "flushed summary or native stdout tsum; no frame index time inference",
+        "parser_sha256_at_start": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+        "parser_source_snapshot_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+        "fields_schema": "v4_phase_depth_stationary",
+        "solver_build": "official_original",
+        "actual_binary_sha256": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+        "actual_binary_path": "/opt/grass-addons/bin/r.avaflow.main",
+        "binary_identity_evidence": "same_shared_container_binary_snapshot_2026-10-24T07:50:33.342146+00:00",
+        "execution_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+        "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+        "container_id": null,
+        "readonly_addon_mount": null,
+        "official_source_archive_preserved": true,
+        "executed_solver_source_modified": false,
+        "source_modification_scope": "official fixed native source",
+        "physical_equations_modified": false,
+        "applicability_decision": "required"
+      },
+      "empty_phase2_max_abs_depth_m": 0.0,
+      "max_abs_phase_sum_minus_mixture_depth_m": 0.0010013580322265625,
+      "initial_phase_volumes_m3": [
+        9714571.435546875,
+        0.0,
+        4163112.055206299
+      ],
+      "final_phase_volumes_m3": [
+        8741260.81618052,
+        0.0,
+        3657096.0088642314
+      ],
+      "initial_mass_kg": 27918014806.957138,
+      "final_domain_mass_kg": 25031976207.51594,
+      "actual_end_time_s": 1800.4,
+      "descriptive_water_fraction_statistics": [
+        {
+          "actual_time_s": 0.0,
+          "wet_total_depth_threshold_m": 0.1,
+          "minimum": 0.29998609335486126,
+          "maximum": 0.29998609335486126,
+          "mixture_volume_weighted_mean": 0.29998609335486126,
+          "mixture_volume_weighted_spatial_stddev": 0.0
+        },
+        {
+          "actual_time_s": 1800.4,
+          "wet_total_depth_threshold_m": 0.1,
+          "minimum": 0.16993463893148353,
+          "maximum": 0.3148148237575554,
+          "mixture_volume_weighted_mean": 0.2846640192366032,
+          "mixture_volume_weighted_spatial_stddev": 0.01685864616502849
+        }
+      ]
+    },
+    {
+      "run_id": "composite_RI_water_nodragvm_120__sf0",
+      "fields": {
+        "run_id": "composite_RI_water_nodragvm_120__sf0",
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_RI_water_nodragvm_120__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+        "bytes": 1825333,
+        "sha256": "7480659b74d8f2a1e3c22cd99dedd5f52ef56763d80d6170e3ce24ad2fceca42",
+        "role": "actual_official_process_fields",
+        "case_sha256": "7a222af22c0211f79c82e23a577ca784f234581c5a826d9da4e333a6073beaf0",
+        "execution_sha256": "cd6e4bb7cfa8e7c1f1ca511f1f4c64f10aebeb661a4c5b5a50c953d540f9afbd",
+        "log_sha256": "15dedff9c054d436babdde6fe8cc0a727fdfc94dfa6b12e273a6579ceea953bb",
+        "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+        "time_end_seconds": 1800.4,
+        "native_time_evidence": "flushed summary or native stdout tsum; no frame index time inference",
+        "parser_sha256_at_start": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+        "parser_source_snapshot_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+        "fields_schema": "v4_phase_depth_stationary",
+        "solver_build": "official_original",
+        "actual_binary_sha256": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+        "actual_binary_path": "/opt/grass-addons/bin/r.avaflow.main",
+        "binary_identity_evidence": "sha256sum_in_this_execution_log",
+        "execution_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+        "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+        "container_id": null,
+        "readonly_addon_mount": null,
+        "official_source_archive_preserved": true,
+        "executed_solver_source_modified": false,
+        "source_modification_scope": "official fixed native source",
+        "physical_equations_modified": false,
+        "applicability_decision": "required"
+      },
+      "empty_phase2_max_abs_depth_m": 0.0,
+      "max_abs_phase_sum_minus_mixture_depth_m": 0.0010013580322265625,
+      "initial_phase_volumes_m3": [
+        9714571.435546875,
+        0.0,
+        4163112.055206299
+      ],
+      "final_phase_volumes_m3": [
+        9536039.980277047,
+        0.0,
+        4031740.802679956
+      ],
+      "initial_mass_kg": 27918014806.957138,
+      "final_domain_mass_kg": 27350083137.308846,
+      "actual_end_time_s": 1800.4,
+      "descriptive_water_fraction_statistics": [
+        {
+          "actual_time_s": 0.0,
+          "wet_total_depth_threshold_m": 0.1,
+          "minimum": 0.29998609335486126,
+          "maximum": 0.29998609335486126,
+          "mixture_volume_weighted_mean": 0.29998609335486126,
+          "mixture_volume_weighted_spatial_stddev": 0.0
+        },
+        {
+          "actual_time_s": 1800.4,
+          "wet_total_depth_threshold_m": 0.1,
+          "minimum": 0.017638587878417218,
+          "maximum": 0.953757225091231,
+          "mixture_volume_weighted_mean": 0.29826066649763733,
+          "mixture_volume_weighted_spatial_stddev": 0.30885382823159363
+        }
+      ]
+    },
+    {
+      "run_id": "composite_rock_water_120__sf0",
+      "fields": {
+        "run_id": "composite_rock_water_120__sf0",
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/composite_rock_water_120__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+        "bytes": 2086771,
+        "sha256": "952008afdb2e78042fa92d995f29b2ccc60e3f47c11cea5442799ac647c73749",
+        "role": "actual_official_process_fields",
+        "case_sha256": "e9bb287881f80ce7482949b7095e8807d58d77db616a14c3a6d6b5ca2d7b999d",
+        "execution_sha256": "dc25bd8f2d2e004bf5347f996caa739eb3fd9272cf0f856ac99f5257704710a7",
+        "log_sha256": "d74303d261b9a4a919c220f4faf9c2dcf1811d495b23298ccd362279add2e83b",
+        "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+        "time_end_seconds": 1800.4,
+        "native_time_evidence": "flushed summary or native stdout tsum; no frame index time inference",
+        "parser_sha256_at_start": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+        "parser_source_snapshot_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/postprocessing_sources/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+        "fields_schema": "v4_phase_depth_stationary",
+        "solver_build": "official_original",
+        "actual_binary_sha256": "7b1a7b0da5cd7ec858ac5d6c2332e424f95fd78fac760c535dd77de161b28931",
+        "actual_binary_path": "/opt/grass-addons/bin/r.avaflow.main",
+        "binary_identity_evidence": "sha256sum_in_this_execution_log",
+        "execution_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+        "base_image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+        "container_id": null,
+        "readonly_addon_mount": null,
+        "official_source_archive_preserved": true,
+        "executed_solver_source_modified": false,
+        "source_modification_scope": "official fixed native source",
+        "physical_equations_modified": false,
+        "applicability_decision": "required"
+      },
+      "empty_phase2_max_abs_depth_m": 0.0,
+      "max_abs_phase_sum_minus_mixture_depth_m": 0.0010013580322265625,
+      "initial_phase_volumes_m3": [
+        9714571.435546875,
+        0.0,
+        4163112.055206299
+      ],
+      "final_phase_volumes_m3": [
+        8463095.990159176,
+        0.0,
+        3534292.8103471175
+      ],
+      "initial_mass_kg": 30392454931.18286,
+      "final_domain_mass_kg": 26384651983.776894,
+      "actual_end_time_s": 1800.4,
+      "descriptive_water_fraction_statistics": [
+        {
+          "actual_time_s": 0.0,
+          "wet_total_depth_threshold_m": 0.1,
+          "minimum": 0.29998609335486126,
+          "maximum": 0.29998609335486126,
+          "mixture_volume_weighted_mean": 0.29998609335486126,
+          "mixture_volume_weighted_spatial_stddev": 0.0
+        },
+        {
+          "actual_time_s": 1800.4,
+          "wet_total_depth_threshold_m": 0.1,
+          "minimum": 0.17880795322841248,
+          "maximum": 0.3109243665910965,
+          "mixture_volume_weighted_mean": 0.2840324380207524,
+          "mixture_volume_weighted_spatial_stddev": 0.016039456128269177
+        }
+      ]
+    }
+  ],
+  "comparison": "Same composite-solid/water initial phases and mass; only drag and virtual-mass terms disabled. Other buoyancy/pressure coupling remains.",
+  "material_limit": "Ice only changes composite-solid density. No separate rock/ice velocity, thermal state or melting is solved.",
+  "all_rock_pair": "Same phase volumes, different solid density and total mass; not fixed-mass pure-ice intervention.",
+  "initial_all_rock_phase_depths_equal_to_RI": true,
+  "water_fraction_statistic_scope": "Descriptive native spatial composition, not a preregistered score, observed phase segregation, thermal phase change or calibrated physical attribution. Domain losses and mass drift remain separate.",
+  "independent_local_event_validation_count": 0
+}

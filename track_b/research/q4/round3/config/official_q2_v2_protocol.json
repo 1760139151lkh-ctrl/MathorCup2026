@@ -1,0 +1,17 @@
+{
+  "registered_utc": "2026-10-24T08:04:28.103866+00:00",
+  "before_native_runs": true,
+  "upstream_protocol_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/q2_fullmask_integration_protocol.json",
+  "upstream_protocol_sha256": "556902c41430fd9fb6bc1cbd2cca9d1ede025a0582f63bc248a3c92d3c462e40",
+  "selection": [
+    "q2r3-p0000-S-linear__geomv2_60m",
+    "q2r3-p0036-S_T-linear__geomv2_60m",
+    "q2r3-p0036-S_T-linear__geomv2_120m"
+  ],
+  "model": "fixed official native single homogeneous equivalent, composition passive",
+  "postrelease_parameters": {
+    "mu_basal": 0.15,
+    "xi": 1000
+  },
+  "source_and_volume": "fullmask v2 distinct from compact v1; scenario suffix and base key retained"
+}

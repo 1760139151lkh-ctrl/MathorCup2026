@@ -1,0 +1,90 @@
+{
+  "runs": [
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "0efa8f7b5f00eadb5c1eef67b6ea828ce55faaff80deb5912a13f5d767e532f3",
+      "case_sha256": "4ba9554a8353a3042830e5f2026abf52d7cd00061a4d01dbb9a35278e6cfa4e1",
+      "log_sha256": "0774aac0f2eeef294c4a7eb0aa62ec791f8ca9143c2424b6f5db9386174465d7",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_results/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_files/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_paramcomm.txt",
+          "bytes": 6025,
+          "sha256": "76e3dedd89fc52ed2bc4fd28f50572b75f02b48248ab96ae2269fdbeed214075",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run_grass.sh",
+          "bytes": 647,
+          "sha256": "478b477da7bc9c7972cd0fe8ce5426f38e6802e28dfdba4743cdbc8861137324",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "08311c31cd562a5f9134101960b68474179d9176de5620f40c41bd4439ce230a",
+      "case_sha256": "d5550a6e402f27682ebdd3022b596f22655ce45c50b8a48e34790a80d8c88e39",
+      "log_sha256": "3a4295d1aaee6801d0a901701eb572d809a222b81e5ca60debfa4592abdcd85a",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_results/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_files/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_paramcomm.txt",
+          "bytes": 6058,
+          "sha256": "e23dca9237845c34c5a81d39491629a50ccd9cf74519899dffd83fecce3e4a12",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run_grass.sh",
+          "bytes": 654,
+          "sha256": "f739833b76e080938e68d1fb314ebb43128db875d58becd294fe2963e42fe279",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "model": "ravaflow_single",
+      "execution_sha256": "113988d3f78857112651ec8ae104edc9661227ab912452b89b8d6f96bfc59c44",
+      "case_sha256": "6082cc9a5cba60d93ae005bc3af7b9027cd483d83e811282cbebef0597c900fa",
+      "log_sha256": "77b4d84d6c143a9f2b7c867e71f9cd3f08ccab9270c15f3001b7a777b8b33ae5",
+      "native_input_controls": [
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_results/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_files/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_paramcomm.txt",
+          "bytes": 6047,
+          "sha256": "d7906a3ca970bbc30637575dd3dd73620f8bf8a1179bb45d3b5e54d786fbe76c",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        },
+        {
+          "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run_grass.sh",
+          "bytes": 650,
+          "sha256": "01f62dd211d6b79b9148a626271d471158672f5225ea4db5959465c423860256",
+          "role": "native_control_text",
+          "hash_observation": "index_time_saved_generated_bytes; not a retrospective execution-time adapterhash"
+        }
+      ],
+      "saved_executed_adapter_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/adapter_executed.py",
+      "saved_executed_adapter_sha256": "7a480b0137c893a1fe5e9cde4b869b01ec6ef50055696df5217146d679971ad3",
+      "historical_adapter_identity_status": "saved_per_run_and_hash_bound_at_start",
+      "exact_native_replay_route": "use savedrun_grass.sh + fullyexpandednativeparamcomm andcaseinputrasters withsameverifiedbinary",
+      "original_execution_metadata_unchanged": true
+    }
+  ],
+  "source_index_path": "results/official_native_control_index.json",
+  "scope": "selected actual saved generated controls; source_path in manifest maps copied control bytes"
+}

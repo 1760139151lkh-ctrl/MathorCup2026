@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-10-24T11:18:55.484785+00:00",
+  "parser_sha256": "5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5",
+  "native_time_regressions": [
+    "missing native time produces empty mapping, including frame zero",
+    "actual overshooting tsum retained; absent frame three not assigned nominal60s",
+    "progress-only rows do not assign saved-output time"
+  ],
+  "field_interfaces_checked": 45,
+  "bound_csv_rows_checked": 3194,
+  "all_assertions_passed": true,
+  "scope": "postprocessing provenance and time handling; no physics accuracy or conservation claim"
+}

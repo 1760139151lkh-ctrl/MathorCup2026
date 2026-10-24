@@ -1,0 +1,371 @@
+{
+  "evaluation_stratum": "numerical_benchmark",
+  "created_utc": "2026-10-24T07:47:14.964536+00:00",
+  "cases": [
+    {
+      "case_id": "lake_at_rest_wet_dry",
+      "summary": {
+        "execution_status": "completed",
+        "failure_reason": null,
+        "duration_requested_seconds": 300,
+        "duration_actual_seconds": 300.0,
+        "steps": 391,
+        "wall_seconds": 6.166704443981871,
+        "initial_volume_m3": 305646.15568055713,
+        "final_domain_volume_m3": 305646.15568055713,
+        "outflow_volume_m3": 0.0,
+        "inflow_volume_m3": 0.0,
+        "depth_clipping_added_volume_m3": 0.0,
+        "mass_balance_residual_m3": 0.0,
+        "relative_mass_balance_error": 0.0,
+        "minimum_preclip_depth_m": 0.0,
+        "minimum_final_depth_m": 0.0,
+        "max_depth_m": 0.5298860374436307,
+        "maximum_speed_any_wet_m_s": 5.9961222702386025e-15,
+        "max_speed_final_h_ge_01_m_s": 5.9961222702386025e-15,
+        "final_stationary_volume_v_lt_01_m3": 305646.15568055713,
+        "footprint_area_hmax_ge_01_m2": 707600,
+        "target_arrivals": {}
+      },
+      "max_h_change_m": 2.969195933566482e-08,
+      "max_speed_m_s": 5.996122093174195e-15,
+      "tolerance_h_m": 1e-06,
+      "tolerance_speed_m_s": 1e-07,
+      "pass": true
+    },
+    {
+      "case_id": "ritter_dry_bed_grid_and_cfl",
+      "runs": [
+        {
+          "dx_m": 5.0,
+          "cfl": 0.35,
+          "l1_depth_error_m": 0.006947221863648438,
+          "summary": {
+            "execution_status": "completed",
+            "failure_reason": null,
+            "duration_requested_seconds": 20,
+            "duration_actual_seconds": 20.0,
+            "steps": 47,
+            "wall_seconds": 0.07397321308963001,
+            "initial_volume_m3": 500.0,
+            "final_domain_volume_m3": 500.0,
+            "outflow_volume_m3": 0.0,
+            "inflow_volume_m3": 0.0,
+            "depth_clipping_added_volume_m3": 0.0,
+            "mass_balance_residual_m3": 0.0,
+            "relative_mass_balance_error": 0.0,
+            "minimum_preclip_depth_m": 0.0,
+            "minimum_final_depth_m": 0.0,
+            "max_depth_m": 1.0,
+            "maximum_speed_any_wet_m_s": 3.3113797674736447,
+            "max_speed_final_h_ge_01_m_s": 3.291515280322043,
+            "final_stationary_volume_v_lt_01_m3": 419.76294759566906,
+            "footprint_area_hmax_ge_01_m2": 565.0,
+            "target_arrivals": {}
+          }
+        },
+        {
+          "dx_m": 2.5,
+          "cfl": 0.35,
+          "l1_depth_error_m": 0.004839256025297948,
+          "summary": {
+            "execution_status": "completed",
+            "failure_reason": null,
+            "duration_requested_seconds": 20,
+            "duration_actual_seconds": 20.0,
+            "steps": 100,
+            "wall_seconds": 0.0361046539619565,
+            "initial_volume_m3": 500.0,
+            "final_domain_volume_m3": 500.0,
+            "outflow_volume_m3": 0.0,
+            "inflow_volume_m3": 0.0,
+            "depth_clipping_added_volume_m3": 0.0,
+            "mass_balance_residual_m3": 0.0,
+            "relative_mass_balance_error": 0.0,
+            "minimum_preclip_depth_m": 0.0,
+            "minimum_final_depth_m": 0.0,
+            "max_depth_m": 1.0,
+            "maximum_speed_any_wet_m_s": 3.8624421275882517,
+            "max_speed_final_h_ge_01_m_s": 3.775507251352588,
+            "final_stationary_volume_v_lt_01_m3": 427.2986563686926,
+            "footprint_area_hmax_ge_01_m2": 567.5,
+            "target_arrivals": {}
+          }
+        },
+        {
+          "dx_m": 1.25,
+          "cfl": 0.35,
+          "l1_depth_error_m": 0.0031526096076112554,
+          "summary": {
+            "execution_status": "completed",
+            "failure_reason": null,
+            "duration_requested_seconds": 20,
+            "duration_actual_seconds": 20.0,
+            "steps": 214,
+            "wall_seconds": 0.13742073811590672,
+            "initial_volume_m3": 500.0,
+            "final_domain_volume_m3": 500.0,
+            "outflow_volume_m3": 0.0,
+            "inflow_volume_m3": 0.0,
+            "depth_clipping_added_volume_m3": 0.0,
+            "mass_balance_residual_m3": 0.0,
+            "relative_mass_balance_error": 0.0,
+            "minimum_preclip_depth_m": 0.0,
+            "minimum_final_depth_m": 0.0,
+            "max_depth_m": 1.0,
+            "maximum_speed_any_wet_m_s": 4.367647257331663,
+            "max_speed_final_h_ge_01_m_s": 4.0742094243166544,
+            "final_stationary_volume_v_lt_01_m3": 432.3298313298725,
+            "footprint_area_hmax_ge_01_m2": 568.75,
+            "target_arrivals": {}
+          }
+        },
+        {
+          "dx_m": 2.5,
+          "cfl": 0.175,
+          "l1_depth_error_m": 0.004854211204824878,
+          "summary": {
+            "execution_status": "completed",
+            "failure_reason": null,
+            "duration_requested_seconds": 20,
+            "duration_actual_seconds": 20.0,
+            "steps": 199,
+            "wall_seconds": 0.0344876570161432,
+            "initial_volume_m3": 500.0,
+            "final_domain_volume_m3": 500.0,
+            "outflow_volume_m3": 0.0,
+            "inflow_volume_m3": 0.0,
+            "depth_clipping_added_volume_m3": 0.0,
+            "mass_balance_residual_m3": 0.0,
+            "relative_mass_balance_error": 0.0,
+            "minimum_preclip_depth_m": 0.0,
+            "minimum_final_depth_m": 0.0,
+            "max_depth_m": 1.0,
+            "maximum_speed_any_wet_m_s": 3.8122600754570355,
+            "max_speed_final_h_ge_01_m_s": 3.742086915461366,
+            "final_stationary_volume_v_lt_01_m3": 427.24964440385526,
+            "footprint_area_hmax_ge_01_m2": 567.5,
+            "target_arrivals": {}
+          }
+        }
+      ],
+      "grid_error_strictly_decreases": true,
+      "cfl_halving_depth_l1_difference_m": 1.4955179526930304e-05,
+      "pass": true
+    },
+    {
+      "case_id": "radial_dry_front",
+      "summary": {
+        "execution_status": "completed",
+        "failure_reason": null,
+        "duration_requested_seconds": 30,
+        "duration_actual_seconds": 30.0,
+        "steps": 109,
+        "wall_seconds": 0.24686774681322277,
+        "initial_volume_m3": 7900.0,
+        "final_domain_volume_m3": 7900.0,
+        "outflow_volume_m3": 0.0,
+        "inflow_volume_m3": 0.0,
+        "depth_clipping_added_volume_m3": 0.0,
+        "mass_balance_residual_m3": 0.0,
+        "relative_mass_balance_error": 0.0,
+        "minimum_preclip_depth_m": 0.0,
+        "minimum_final_depth_m": 0.0,
+        "max_depth_m": 1.0,
+        "maximum_speed_any_wet_m_s": 3.2468909164571564,
+        "max_speed_final_h_ge_01_m_s": 2.7850689103525665,
+        "final_stationary_volume_v_lt_01_m3": 1.8005126689660406e-06,
+        "footprint_area_hmax_ge_01_m2": 37800,
+        "target_arrivals": {}
+      },
+      "transpose_symmetry_max_h_m": 0.0,
+      "pass": true
+    },
+    {
+      "case_id": "open_boundary_volume_ledger",
+      "summary": {
+        "execution_status": "completed",
+        "failure_reason": null,
+        "duration_requested_seconds": 70,
+        "duration_actual_seconds": 70.0,
+        "steps": 2180,
+        "wall_seconds": 0.6223817858844995,
+        "initial_volume_m3": 200.0,
+        "final_domain_volume_m3": 0.810466253999062,
+        "outflow_volume_m3": 199.18953374600125,
+        "inflow_volume_m3": 0.0,
+        "depth_clipping_added_volume_m3": 0.0,
+        "mass_balance_residual_m3": 3.126388037344441e-13,
+        "relative_mass_balance_error": 1.5631940186722204e-15,
+        "minimum_preclip_depth_m": 0.0,
+        "minimum_final_depth_m": 0.0,
+        "max_depth_m": 1.0,
+        "maximum_speed_any_wet_m_s": 13.44996991157396,
+        "max_speed_final_h_ge_01_m_s": 0.0,
+        "final_stationary_volume_v_lt_01_m3": 1.7337693701254478e-07,
+        "footprint_area_hmax_ge_01_m2": 400,
+        "target_arrivals": {}
+      },
+      "pass": true
+    },
+    {
+      "case_id": "uniform_incline_grid_response",
+      "runs": [
+        {
+          "dx_m": 20.0,
+          "actual_centre_speed_m_s": 0.6325986385345459,
+          "cartesian_graph_constant_depth_exact_m_s": 2.5844201365066994,
+          "absolute_error_m_s": 1.9518214979721535,
+          "bed_step_over_depth": 0.4,
+          "summary": {
+            "execution_status": "completed",
+            "failure_reason": null,
+            "duration_requested_seconds": 5,
+            "duration_actual_seconds": 5.0,
+            "steps": 8,
+            "wall_seconds": 0.02629005815833807,
+            "initial_volume_m3": 80000.0,
+            "final_domain_volume_m3": 80000.0,
+            "outflow_volume_m3": 0.0,
+            "inflow_volume_m3": 0.0,
+            "depth_clipping_added_volume_m3": 0.0,
+            "mass_balance_residual_m3": 0.0,
+            "relative_mass_balance_error": 0.0,
+            "minimum_preclip_depth_m": 6.760412594768638,
+            "minimum_final_depth_m": 6.760412594768638,
+            "max_depth_m": 13.481231791111865,
+            "maximum_speed_any_wet_m_s": 0.6325986273312936,
+            "max_speed_final_h_ge_01_m_s": 0.6325986273312936,
+            "final_stationary_volume_v_lt_01_m3": 805.4379685279167,
+            "footprint_area_hmax_ge_01_m2": 8000.0,
+            "target_arrivals": {}
+          }
+        },
+        {
+          "dx_m": 10.0,
+          "actual_centre_speed_m_s": 1.6097263097763062,
+          "cartesian_graph_constant_depth_exact_m_s": 2.5844201365066994,
+          "absolute_error_m_s": 0.9746938267303933,
+          "bed_step_over_depth": 0.2,
+          "summary": {
+            "execution_status": "completed",
+            "failure_reason": null,
+            "duration_requested_seconds": 5,
+            "duration_actual_seconds": 5.0,
+            "steps": 16,
+            "wall_seconds": 0.0015742969699203968,
+            "initial_volume_m3": 40000.0,
+            "final_domain_volume_m3": 40000.0,
+            "outflow_volume_m3": 0.0,
+            "inflow_volume_m3": 0.0,
+            "depth_clipping_added_volume_m3": 0.0,
+            "mass_balance_residual_m3": 0.0,
+            "relative_mass_balance_error": 0.0,
+            "minimum_preclip_depth_m": 7.109766798483735,
+            "minimum_final_depth_m": 7.109766798483735,
+            "max_depth_m": 13.148081006641148,
+            "maximum_speed_any_wet_m_s": 1.6097263653701517,
+            "max_speed_final_h_ge_01_m_s": 1.6097263653701517,
+            "final_stationary_volume_v_lt_01_m3": 404.48114504635123,
+            "footprint_area_hmax_ge_01_m2": 4000.0,
+            "target_arrivals": {}
+          }
+        },
+        {
+          "dx_m": 5.0,
+          "actual_centre_speed_m_s": 2.0973289012908936,
+          "cartesian_graph_constant_depth_exact_m_s": 2.5844201365066994,
+          "absolute_error_m_s": 0.4870912352158059,
+          "bed_step_over_depth": 0.1,
+          "summary": {
+            "execution_status": "completed",
+            "failure_reason": null,
+            "duration_requested_seconds": 5,
+            "duration_actual_seconds": 5.0,
+            "steps": 32,
+            "wall_seconds": 0.004388739122077823,
+            "initial_volume_m3": 20000.0,
+            "final_domain_volume_m3": 20000.0,
+            "outflow_volume_m3": 0.0,
+            "inflow_volume_m3": 0.0,
+            "depth_clipping_added_volume_m3": 0.0,
+            "mass_balance_residual_m3": 0.0,
+            "relative_mass_balance_error": 0.0,
+            "minimum_preclip_depth_m": 7.346075763190261,
+            "minimum_final_depth_m": 7.346075763190261,
+            "max_depth_m": 12.921512301873692,
+            "maximum_speed_any_wet_m_s": 2.0973290081500595,
+            "max_speed_final_h_ge_01_m_s": 2.0973290081500595,
+            "final_stationary_volume_v_lt_01_m3": 202.59009467472737,
+            "footprint_area_hmax_ge_01_m2": 2000.0,
+            "target_arrivals": {}
+          }
+        }
+      ],
+      "pass": true,
+      "interpretation": "Cartesian graph acceleration g*tan(theta), vertical depth. This is not terrain-normal avalanche momentum."
+    },
+    {
+      "case_id": "rigid_constant_slope_voellmy_analytic",
+      "analytic_v_m_s": 26.361069883459095,
+      "analytic_s_m": 2215.927149990583,
+      "runs": [
+        {
+          "dt_seconds": 1.0,
+          "v_m_s": 26.361069860808286,
+          "s_m": 2215.9271488513987,
+          "v_absolute_error": 2.265080922825291e-08,
+          "s_absolute_error": 1.139184405474225e-06
+        },
+        {
+          "dt_seconds": 0.5,
+          "v_m_s": 26.36106988206046,
+          "s_m": 2215.927149918793,
+          "v_absolute_error": 1.39863587378386e-09,
+          "s_absolute_error": 7.179005478974432e-08
+        },
+        {
+          "dt_seconds": 0.25,
+          "v_m_s": 26.361069883372217,
+          "s_m": 2215.927149986075,
+          "v_absolute_error": 8.687806030138745e-11,
+          "s_absolute_error": 4.507910489337519e-09
+        }
+      ],
+      "pass": true,
+      "interpretation": "additional ODE benchmark only; no volume transport and not an event prediction nor the 1D FV model"
+    }
+  ],
+  "all_declared_checks_pass": true,
+  "pass_scope": "Declared algebraic properties and direction of grid response only; not a quantitative regional accuracy acceptance or event validation.",
+  "regional_event_accuracy_accepted": false,
+  "incline_accuracy_warning": "At h10m, slope.2, dx20m, the centre speed error is about 75%; refinement reduces this but 60/120m regional grids are not demonstrated accurate.",
+  "jit_evidence": {
+    "advance_compiled_signatures": [
+      "(Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), int64, int64, float64, int64, int64, float64, bool, bool)",
+      "(Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), float64, int64, float64, int64, int64, float64, bool, bool)",
+      "(Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), float64, int64, float64, float64, int64, float64, bool, bool)"
+    ],
+    "timestep_compiled_signatures": [
+      "(Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), int64, int64, float64, float64, bool)",
+      "(Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), Array(float64, 2, 'C', False, aligned=True), float64, int64, float64, float64, bool)"
+    ],
+    "all_jit_functions_have_signatures": true
+  },
+  "regional_thin_flow_accuracy_qualified": false,
+  "known_numerical_defects": {
+    "uniform_incline_speed_relative_errors": [
+      0.7552260835617792,
+      0.3771421731947439,
+      0.18847215603040293
+    ],
+    "uniform_incline_grid_m": [
+      20,
+      10,
+      5
+    ],
+    "regional_reference_source_central_gradient_one_cell_drop_gt_h_fraction": 0.9494163424124513,
+    "regional_reference_source_max_adjacent_face_jump_gt_h_fraction": 0.9727626459143969,
+    "interpretation": "HR bed steps and friction splitting strongly suppress thin flow; similar defect applies to 1D. Conservative and refinement checks are not regional accuracy qualification."
+  }
+}

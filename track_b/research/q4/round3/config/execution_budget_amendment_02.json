@@ -1,0 +1,16 @@
+{
+  "version": "q4-r3-execution-budget-amendment02",
+  "registered_at_utc": "2026-10-24T09:03:46.679744+00:00",
+  "decision": "cancel_only_superseded_ravaflow_multiphase_surface2_challenge_in_favour_of_registered_surface0_primary_queue",
+  "run_id": "copdem_120_multi_ref",
+  "reason": "Optional superseded surface2 configuration occupies native CPU while common official-default surface0 competition and Q2 integrations remain pending; selection is configuration/resource prioritisation, not target-fit selection.",
+  "actual_execution_context": "Runtime owner confirms host88981/89003 and sharedcontainer native8890/wrapper8850 active at report time; old execution return1 is previous-attempt metadata, current retry log incomplete.",
+  "partial_last_reported_native_time_s": 760.5,
+  "requested_horizon_s": 1800,
+  "instruction": "Terminate only exact owned legacy retry processes and wrapper, keep shared container/all DClaw/surface0 jobs alive. Append cancellation record; retain old log/execution/raw outputs unchanged; do not relabel previous return1 as retry terminal.",
+  "classification_after_confirmed_stop": "cancelled_superseded_compute_priority",
+  "scientific_comparison_eligible": false,
+  "arrival_envelope_eligible": false,
+  "formal_surface0_primary_horizon_unchanged": true,
+  "new_scientific_route": false
+}

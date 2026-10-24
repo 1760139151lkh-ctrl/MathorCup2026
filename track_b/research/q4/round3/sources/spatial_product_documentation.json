@@ -1,0 +1,27 @@
+{
+  "records": [
+    {
+      "url": "https://registry.opendata.aws/copernicus-dem/",
+      "retrieved_at_utc": "2026-10-24T07:35:59.913852+00:00",
+      "status": 200,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/copdem_registry.html",
+      "bytes": 10002,
+      "sha256": "04b2d63198acecd854a2a04100feb63d71aeecd83773c692b7f5093a0a4defca",
+      "actual_read_scope": "complete response bytes; selected product description, datum, epoch and release paragraphs read"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+      "retrieved_at_utc": "2026-10-24T07:36:02.145250+00:00",
+      "status": 200,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/copdem_cdse_description.html",
+      "bytes": 114252,
+      "sha256": "7beef5b37afc9ce183afa499fa7656c3f14fa2ec72104e4aa0f7662b5bb26494",
+      "actual_read_scope": "complete response bytes; selected product description, datum, epoch and release paragraphs read"
+    }
+  ],
+  "supported_claims": [
+    "AWS catalogue identifies 2021 COG release",
+    "CDSE lists EGM2008 vertical, WGS84-G1150 horizontal, TanDEM-X 2011-2015 primary acquisition with older infilling",
+    "DSM is edited surface; product-wide accuracy specs are not local error measurements"
+  ]
+}

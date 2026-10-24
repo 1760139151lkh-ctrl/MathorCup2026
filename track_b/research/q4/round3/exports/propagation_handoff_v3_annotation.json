@@ -1,0 +1,152 @@
+{
+  "annotation_version": "q4-r3-fullmask-legacy-volume-reference-annotation-v1",
+  "generated_at_utc": "2026-10-24T11:13:27.104356+00:00",
+  "status": "metadata_interpretation_only",
+  "source_bundle": {
+    "path": "track_b/research/q4/round3/exports/propagation_v3/bundle.json",
+    "bytes": 46477,
+    "sha256": "150c72537ee162d29cc2e20e3e31183df1915f64999234789e1875d368c09b9c"
+  },
+  "reason": "The fullmask native case inherited expected_reference_grid_volume_m3=13878000 from the standard h15 reference. It is retained as historical bytes but is not the expected release volume for Q2 geometry-v2 scenarios.",
+  "release_input_identity_review_basis": [
+    "case release_grid_volume_m3 and release TIFF byte identity",
+    "frozen delivered Q2 geometry-v2 scenario integrated_volume_m3/release_volume_m3",
+    "actual native saved t0 thickness integral, with native internal t0 summary reported separately"
+  ],
+  "not_an_acceptance_criterion": [
+    "legacy expected_reference_grid_volume_m3",
+    "proximity of final mass-budget residual to zero"
+  ],
+  "scientific_artifacts_unchanged": true,
+  "native_rerun_performed": false,
+  "no_new_tolerance_or_accuracy_acceptance_declared": true,
+  "scientific_acceptance_decision_version": "q4-r3-scientific-acceptance-v05",
+  "accepted_arrival_envelope_run_ids": [],
+  "q2_frozen_mapping_table": {
+    "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/upstream_q2_fullmask/release_states_geometry_v2.csv",
+    "bytes": 121276,
+    "sha256": "c40aa56cfd5075ab73b84d97abbea17dc932343f776ff87eb25a868a9f47d575"
+  },
+  "runs": [
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "scenario_id": "q2r3-p0000-S-linear__geomv2_60m",
+      "base_scenario_id": "q2r3-p0000-S-linear",
+      "release_mapping_version": "q2-r3-release-v2-spatial-copdem-v1",
+      "original_case": {
+        "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/case.json",
+        "bytes": 6022,
+        "sha256": "4ba9554a8353a3042830e5f2026abf52d7cd00061a4d01dbb9a35278e6cfa4e1"
+      },
+      "legacy_expected_reference_grid_volume_m3": 13878000.0,
+      "legacy_field_role": "inherited standard Q4 reference h15 x925200m2 baseline only; not expected volume or acceptance target for this Q2 geometry-v2 release",
+      "release_grid_volume_m3": 51755728.59264966,
+      "q2_frozen_integrated_volume_m3": 51755728.59264966,
+      "q2_frozen_release_volume_m3": 51755728.59264966,
+      "release_tiff_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0000-S-linear__geomv2_60m/release.tif",
+      "release_tiff_sha256": "9be5c69fcb388182a843058deec9cce1026692bb4b5d30454f84a86872dd39d7",
+      "source_mask_cells": 257,
+      "source_grid_area_m2": 925200.0,
+      "release_vertical_thickness_m": 55.94004387445921,
+      "native_saved_t0_seconds": 0.0,
+      "native_saved_t0_depth_integral_m3_float64": 51755686.72943115,
+      "native_saved_t0_relative_difference_from_supplied_release_volume": -8.088615434109769e-07,
+      "native_saved_t0_integration_definition": "float64 sum of hash-bound native saved NPZ depth_frames[0] times absolute affine pixel determinant; no comparison with legacy baseline13.878Mm3",
+      "native_internal_summary_initial_volume_m3": 51755692.0,
+      "native_internal_summary_initial_volume_representation": "native internal unscaled summary m3; distinct from rounded saved ASCII/NPZ t0 integral",
+      "source_fields": {
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+        "bytes": 3682170,
+        "sha256": "49b15da62ef0f4478d13dcfcab2205c0c40bb591b02d8718b790857ae0ede589",
+        "role": "actual_official_process_fields"
+      },
+      "ascii_raster_source_adjusted_budget_relative_residual": 0.009472096474490144,
+      "native_internal_summary_mass_budget_relative_residual": 0.009477836756583218,
+      "budget_representations_are_separate": true,
+      "include_in_arrival_envelope": false,
+      "mass_conservation_qualified": false,
+      "regional_accuracy_qualified": false,
+      "scientifically_qualified_for_prediction": false
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "scenario_id": "q2r3-p0036-S_T-linear__geomv2_120m",
+      "base_scenario_id": "q2r3-p0036-S_T-linear",
+      "release_mapping_version": "q2-r3-release-v2-spatial-copdem-v1",
+      "original_case": {
+        "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/case.json",
+        "bytes": 6095,
+        "sha256": "d5550a6e402f27682ebdd3022b596f22655ce45c50b8a48e34790a80d8c88e39"
+      },
+      "legacy_expected_reference_grid_volume_m3": 13878000.0,
+      "legacy_field_role": "inherited standard Q4 reference h15 x925200m2 baseline only; not expected volume or acceptance target for this Q2 geometry-v2 release",
+      "release_grid_volume_m3": 31184139.128429696,
+      "q2_frozen_integrated_volume_m3": 31184139.128429696,
+      "q2_frozen_release_volume_m3": 31184139.1284297,
+      "release_tiff_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_120m/release.tif",
+      "release_tiff_sha256": "081ef7c3fd20c26b87ed717e67c283f3f7c2e39810cd329e3ee24283d57e0275",
+      "source_mask_cells": 67,
+      "source_grid_area_m2": 964800.0,
+      "release_vertical_thickness_m": 32.32186891420989,
+      "native_saved_t0_seconds": 0.0,
+      "native_saved_t0_depth_integral_m3_float64": 31184264.24560547,
+      "native_saved_t0_relative_difference_from_supplied_release_volume": 4.012205540027125e-06,
+      "native_saved_t0_integration_definition": "float64 sum of hash-bound native saved NPZ depth_frames[0] times absolute affine pixel determinant; no comparison with legacy baseline13.878Mm3",
+      "native_internal_summary_initial_volume_m3": 31184114.0,
+      "native_internal_summary_initial_volume_representation": "native internal unscaled summary m3; distinct from rounded saved ASCII/NPZ t0 integral",
+      "source_fields": {
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+        "bytes": 1566998,
+        "sha256": "2d3ffbb57ddec47179c56d8ea6e5a540dfc857019dabd7b28ce7584f02769fe1",
+        "role": "actual_official_process_fields"
+      },
+      "ascii_raster_source_adjusted_budget_relative_residual": -0.003973499594596741,
+      "native_internal_summary_mass_budget_relative_residual": -0.003883772359221106,
+      "budget_representations_are_separate": true,
+      "include_in_arrival_envelope": false,
+      "mass_conservation_qualified": false,
+      "regional_accuracy_qualified": false,
+      "scientifically_qualified_for_prediction": false
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "scenario_id": "q2r3-p0036-S_T-linear__geomv2_60m",
+      "base_scenario_id": "q2r3-p0036-S_T-linear",
+      "release_mapping_version": "q2-r3-release-v2-spatial-copdem-v1",
+      "original_case": {
+        "path": "track_b/research/q4/round3/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/case.json",
+        "bytes": 6069,
+        "sha256": "6082cc9a5cba60d93ae005bc3af7b9027cd483d83e811282cbebef0597c900fa"
+      },
+      "legacy_expected_reference_grid_volume_m3": 13878000.0,
+      "legacy_field_role": "inherited standard Q4 reference h15 x925200m2 baseline only; not expected volume or acceptance target for this Q2 geometry-v2 release",
+      "release_grid_volume_m3": 31184139.128429696,
+      "q2_frozen_integrated_volume_m3": 31184139.128429696,
+      "q2_frozen_release_volume_m3": 31184139.1284297,
+      "release_tiff_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_60m/release.tif",
+      "release_tiff_sha256": "ec3a73e460db37b67d33eb1f3f2f4490fd8265e72747a1ac861522f6f8871827",
+      "source_mask_cells": 257,
+      "source_grid_area_m2": 925200.0,
+      "release_vertical_thickness_m": 33.70529521014883,
+      "native_saved_t0_seconds": 0.0,
+      "native_saved_t0_depth_integral_m3_float64": 31183867.694091797,
+      "native_saved_t0_relative_difference_from_supplied_release_volume": -8.704243422585911e-06,
+      "native_saved_t0_integration_definition": "float64 sum of hash-bound native saved NPZ depth_frames[0] times absolute affine pixel determinant; no comparison with legacy baseline13.878Mm3",
+      "native_internal_summary_initial_volume_m3": 31184242.0,
+      "native_internal_summary_initial_volume_representation": "native internal unscaled summary m3; distinct from rounded saved ASCII/NPZ t0 integral",
+      "source_fields": {
+        "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+        "bytes": 3092369,
+        "sha256": "243bdbee9dd186995f2323e71c48c10bb461ab67199cdf33e1e97d60ab3f025c",
+        "role": "actual_official_process_fields"
+      },
+      "ascii_raster_source_adjusted_budget_relative_residual": 0.016631891235469775,
+      "native_internal_summary_mass_budget_relative_residual": 0.01665052496706515,
+      "budget_representations_are_separate": true,
+      "include_in_arrival_envelope": false,
+      "mass_conservation_qualified": false,
+      "regional_accuracy_qualified": false,
+      "scientifically_qualified_for_prediction": false
+    }
+  ]
+}

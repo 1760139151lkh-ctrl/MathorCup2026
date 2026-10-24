@@ -1,0 +1,216 @@
+{
+  "version": "q4-r3-osm-objects-v2",
+  "source_snapshot": {
+    "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/osm_map_direct.osm",
+    "bytes": 7089549,
+    "sha256": "903e813b392dcaf7fe310a5aa09ee8f891858282ed241ffb9229408fec002484",
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=85.35,28.25,85.55,28.36",
+    "query_bbox_crs84": [
+      85.35,
+      28.25,
+      85.55,
+      28.36
+    ]
+  },
+  "counts": {
+    "river_stream_lines": 167,
+    "selected_objects": 184,
+    "target_geometry_representations": 5,
+    "distinct_target_entities": 3
+  },
+  "comparisons": {
+    "paper_chhochen_blue_trace": {
+      "n_120m_samples": 51,
+      "distance_to_nearest_any_mapped_waterway_median_m": 53.84802937742245,
+      "p95_m": 433.0503109120443,
+      "max_m": 553.6362973871725,
+      "scope": "nearest among all retrieved river/stream lines; tributary ambiguity, not matched true route"
+    },
+    "paper_lende_blue_trace": {
+      "n_120m_samples": 117,
+      "distance_to_nearest_any_mapped_waterway_median_m": 68.6091612111688,
+      "p95_m": 206.63486537533558,
+      "max_m": 363.6872493566071,
+      "scope": "nearest among all retrieved river/stream lines; tributary ambiguity, not matched true route"
+    },
+    "P1": {
+      "n_120m_samples": 173,
+      "distance_to_nearest_any_mapped_waterway_median_m": 45.37693970566755,
+      "p95_m": 377.33630759216464,
+      "max_m": 1350.603425997345,
+      "scope": "nearest among all retrieved river/stream lines; tributary ambiguity, not matched true route"
+    },
+    "P2": {
+      "n_120m_samples": 179,
+      "distance_to_nearest_any_mapped_waterway_median_m": 37.550872891143214,
+      "p95_m": 353.87213227816335,
+      "max_m": 1350.603425997345,
+      "scope": "nearest among all retrieved river/stream lines; tributary ambiguity, not matched true route"
+    },
+    "P3": {
+      "n_120m_samples": 181,
+      "distance_to_nearest_any_mapped_waterway_median_m": 38.25425493800408,
+      "p95_m": 320.300432647709,
+      "max_m": 1350.603425997345,
+      "scope": "nearest among all retrieved river/stream lines; tributary ambiguity, not matched true route"
+    }
+  },
+  "closest_waterways_to_source": [
+    {
+      "id": "osm_way_1553042354",
+      "distance_to_source_polygon_m": 918.4368719497935,
+      "name": null,
+      "osm_last_edit_time_utc": "2026-09-07T00:39:21Z"
+    },
+    {
+      "id": "osm_way_937848327",
+      "distance_to_source_polygon_m": 943.1838085481228,
+      "name": null,
+      "osm_last_edit_time_utc": "2021-05-01T19:31:44Z"
+    },
+    {
+      "id": "osm_way_1553042348",
+      "distance_to_source_polygon_m": 1096.8293833365037,
+      "name": null,
+      "osm_last_edit_time_utc": "2026-08-27T20:37:34Z"
+    },
+    {
+      "id": "osm_way_937848322",
+      "distance_to_source_polygon_m": 1214.7515437152945,
+      "name": null,
+      "osm_last_edit_time_utc": "2026-08-27T20:37:34Z"
+    },
+    {
+      "id": "osm_way_341038141",
+      "distance_to_source_polygon_m": 1530.2576229424824,
+      "name": null,
+      "osm_last_edit_time_utc": "2026-08-27T20:37:34Z"
+    },
+    {
+      "id": "osm_way_937848328",
+      "distance_to_source_polygon_m": 1665.7107042805173,
+      "name": null,
+      "osm_last_edit_time_utc": "2026-08-27T20:37:34Z"
+    },
+    {
+      "id": "osm_way_937848323",
+      "distance_to_source_polygon_m": 1855.6763244889914,
+      "name": null,
+      "osm_last_edit_time_utc": "2026-08-26T16:20:42Z"
+    },
+    {
+      "id": "osm_way_1553042351",
+      "distance_to_source_polygon_m": 1903.159313386715,
+      "name": null,
+      "osm_last_edit_time_utc": "2026-08-27T20:37:34Z"
+    },
+    {
+      "id": "osm_way_341276775",
+      "distance_to_source_polygon_m": 2049.961319116414,
+      "name": null,
+      "osm_last_edit_time_utc": "2021-05-01T19:31:44Z"
+    },
+    {
+      "id": "osm_way_847904246",
+      "distance_to_source_polygon_m": 2098.797538547163,
+      "name": null,
+      "osm_last_edit_time_utc": "2020-09-16T08:18:47Z"
+    }
+  ],
+  "target_definitions": [
+    {
+      "target_id": "osm_way_1443180803",
+      "entity_id": "former_resuo_bridge",
+      "target_kind": "former_resuo_bridge_centerline_candidate",
+      "x_m": 340927.83455239376,
+      "y_m": 3129139.008594241,
+      "longitude": 85.37806745,
+      "latitude": 28.278665,
+      "distance_to_paper_point_m": 74.75725386000808,
+      "centroid_to_paper_point_m": 92.2429350509582,
+      "osm_version": "13",
+      "osm_last_edit_time_utc": "2026-09-02T18:24:39Z",
+      "position_uncertainty_m": null,
+      "data_role": "conditional_scenario",
+      "geometry_version": "q4-r3-osm-objects-v2",
+      "observed_time_utc": null
+    },
+    {
+      "target_id": "osm_way_1552746552",
+      "entity_id": "temporary_resuo_bridge",
+      "target_kind": "temporary_bridge_centerline_candidate",
+      "x_m": 340937.6036759768,
+      "y_m": 3129150.896430109,
+      "longitude": 85.3781654,
+      "latitude": 28.278773449999996,
+      "distance_to_paper_point_m": 61.60527455375691,
+      "centroid_to_paper_point_m": 76.89674565669195,
+      "osm_version": "8",
+      "osm_last_edit_time_utc": "2026-09-02T18:24:39Z",
+      "position_uncertainty_m": null,
+      "data_role": "conditional_scenario",
+      "geometry_version": "q4-r3-osm-objects-v2",
+      "observed_time_utc": null
+    },
+    {
+      "target_id": "osm_way_1552746559",
+      "entity_id": "former_resuo_bridge",
+      "target_kind": "former_resuo_bridge_structure_candidate",
+      "x_m": 340927.8358523344,
+      "y_m": 3129138.999450755,
+      "longitude": 85.37806746651907,
+      "latitude": 28.278664914191385,
+      "distance_to_paper_point_m": 68.79498905470366,
+      "centroid_to_paper_point_m": 92.24961230935517,
+      "osm_version": "5",
+      "osm_last_edit_time_utc": "2026-09-02T18:24:39Z",
+      "position_uncertainty_m": null,
+      "data_role": "conditional_scenario",
+      "geometry_version": "q4-r3-osm-objects-v2",
+      "observed_time_utc": null
+    },
+    {
+      "target_id": "osm_way_1552746560",
+      "entity_id": "temporary_resuo_bridge",
+      "target_kind": "temporary_bridge_structure_candidate",
+      "x_m": 340937.6059504162,
+      "y_m": 3129150.900129278,
+      "longitude": 85.37816542114457,
+      "latitude": 28.27877348733369,
+      "distance_to_paper_point_m": 58.784016436677945,
+      "centroid_to_paper_point_m": 76.89241023266365,
+      "osm_version": "7",
+      "osm_last_edit_time_utc": "2026-09-02T18:24:39Z",
+      "position_uncertainty_m": null,
+      "data_role": "conditional_scenario",
+      "geometry_version": "q4-r3-osm-objects-v2",
+      "observed_time_utc": null
+    },
+    {
+      "target_id": "osm_way_1553369440",
+      "entity_id": "china_immigration_facility",
+      "target_kind": "china_immigration_facility_candidate",
+      "x_m": 340865.16173050966,
+      "y_m": 3129272.2166810916,
+      "longitude": 85.37741041344702,
+      "latitude": 28.27985938821656,
+      "distance_to_paper_point_m": 118.83500109440918,
+      "centroid_to_paper_point_m": 130.12589082504505,
+      "osm_version": "2",
+      "osm_last_edit_time_utc": "2026-08-29T21:47:37Z",
+      "position_uncertainty_m": null,
+      "data_role": "conditional_scenario",
+      "geometry_version": "q4-r3-osm-objects-v2",
+      "observed_time_utc": null
+    }
+  ],
+  "limitations": [
+    "Volunteer geometry is an independent machine-readable source, not independently surveyed event truth",
+    "Many last edits are post-event and some damage tags cite Wikipedia; geometry/label evidential independence from literature is unestablished",
+    "OSM timestamp is last edit, not feature observation time or historical availability",
+    "Temporary bridge and former bridge are distinct lifecycle/object candidates; no damage-state claim accepted; centerline/structure are duplicate representations within each entity, not independent targets",
+    "China immigration footprint is a facility candidate, not the entire port polygon; actual protected facility extent remains unknown",
+    "Nearest-waterway proximity does not identify the event path or close source geometry truth"
+  ],
+  "license": "OpenStreetMap contributors; ODbL attribution required"
+}

@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "TCI_is_visualization_not_reflectance": true,
+  "scl_classes_configured_clear": [
+    4,
+    5,
+    6,
+    11
+  ],
+  "scl_classes_dark_shadow_cloud": [
+    2,
+    3,
+    8,
+    9,
+    10
+  ],
+  "quality_acceptance_note": "SCL is algorithmic product classification; configured clear is not independent visual/registration accuracy validation; class7 kept unclassified",
+  "missing_SCL_quality": "NA; TCI availability alone does not imply pixel quality",
+  "scenes": [
+    {
+      "item_id": "S2C_45RUM_20260812_0_L2A",
+      "observation_time_utc": "2026-08-12T05:10:48.070000Z",
+      "tile_cloud_percent": 18.746611,
+      "quality": {
+        "aoi": {
+          "n": 415800,
+          "class_counts": {
+            "2": 33660,
+            "3": 970,
+            "4": 316550,
+            "5": 35566,
+            "6": 1859,
+            "7": 410,
+            "8": 1834,
+            "9": 1051,
+            "11": 23900
+          },
+          "valid_observed_fraction": 1.0,
+          "configured_clear_land_water_snow_fraction": 0.9087902837902838,
+          "snow_ice_11_fraction": 0.05747955747955748,
+          "configured_clear_excluding_snow_fraction": 0.8513107263107264,
+          "unclassified_7_fraction": 0.0009860509860509861,
+          "saturated_defective_1_fraction": 0.0,
+          "topographic_dark_2_fraction": 0.08095238095238096,
+          "cloud_shadow_3_fraction": 0.0023328523328523328,
+          "medium_high_cloud_8_9_fraction": 0.006938431938431938,
+          "cirrus_10_fraction": 0.0,
+          "dark_shadow_cloud_fraction": 0.09022366522366522
+        },
+        "paper_source": {
+          "n": 2317,
+          "class_counts": {
+            "2": 1759,
+            "4": 24,
+            "5": 476,
+            "6": 36,
+            "11": 22
+          },
+          "valid_observed_fraction": 1.0,
+          "configured_clear_land_water_snow_fraction": 0.24082865774708676,
+          "snow_ice_11_fraction": 0.009495036685369012,
+          "configured_clear_excluding_snow_fraction": 0.23133362106171773,
+          "unclassified_7_fraction": 0.0,
+          "saturated_defective_1_fraction": 0.0,
+          "topographic_dark_2_fraction": 0.7591713422529133,
+          "cloud_shadow_3_fraction": 0.0,
+          "medium_high_cloud_8_9_fraction": 0.0,
+          "cirrus_10_fraction": 0.0,
+          "dark_shadow_cloud_fraction": 0.7591713422529133
+        },
+        "path_250m_corridor": {
+          "n": 32031,
+          "class_counts": {
+            "2": 3014,
+            "4": 21770,
+            "5": 5917,
+            "7": 13,
+            "11": 1317
+          },
+          "valid_observed_fraction": 1.0,
+          "configured_clear_land_water_snow_fraction": 0.9054977990072117,
+          "snow_ice_11_fraction": 0.04111641846960757,
+          "configured_clear_excluding_snow_fraction": 0.8643813805376042,
+          "unclassified_7_fraction": 0.0004058568261996191,
+          "saturated_defective_1_fraction": 0.0,
+          "topographic_dark_2_fraction": 0.09409634416658862,
+          "cloud_shadow_3_fraction": 0.0,
+          "medium_high_cloud_8_9_fraction": 0.0,
+          "cirrus_10_fraction": 0.0,
+          "dark_shadow_cloud_fraction": 0.09409634416658862
+        }
+      }
+    },
+    {
+      "item_id": "S2B_45RUM_20260824_0_L2A",
+      "observation_time_utc": "2026-08-24T05:00:49.736000Z",
+      "tile_cloud_percent": 38.568816,
+      "quality": {
+        "aoi": {
+          "n": 415800,
+          "class_counts": {
+            "0": 127375,
+            "2": 7720,
+            "3": 22920,
+            "4": 120872,
+            "5": 34846,
+            "6": 1454,
+            "7": 1445,
+            "8": 37373,
+            "9": 43514,
+            "11": 18281
+          },
+          "valid_observed_fraction": 0.6936628186628186,
+          "configured_clear_land_water_snow_fraction": 0.421964886964887,
+          "snow_ice_11_fraction": 0.043965848965848965,
+          "configured_clear_excluding_snow_fraction": 0.377999037999038,
+          "unclassified_7_fraction": 0.0034752284752284754,
+          "saturated_defective_1_fraction": 0.0,
+          "topographic_dark_2_fraction": 0.018566618566618568,
+          "cloud_shadow_3_fraction": 0.05512265512265512,
+          "medium_high_cloud_8_9_fraction": 0.19453342953342953,
+          "cirrus_10_fraction": 0.0,
+          "dark_shadow_cloud_fraction": 0.2682227032227032
+        },
+        "paper_source": {
+          "n": 2317,
+          "class_counts": {
+            "2": 1222,
+            "4": 14,
+            "5": 816,
+            "11": 265
+          },
+          "valid_observed_fraction": 1.0,
+          "configured_clear_land_water_snow_fraction": 0.47259387138541215,
+          "snow_ice_11_fraction": 0.11437203280103582,
+          "configured_clear_excluding_snow_fraction": 0.35822183858437634,
+          "unclassified_7_fraction": 0.0,
+          "saturated_defective_1_fraction": 0.0,
+          "topographic_dark_2_fraction": 0.5274061286145878,
+          "cloud_shadow_3_fraction": 0.0,
+          "medium_high_cloud_8_9_fraction": 0.0,
+          "cirrus_10_fraction": 0.0,
+          "dark_shadow_cloud_fraction": 0.5274061286145878
+        },
+        "path_250m_corridor": {
+          "n": 32031,
+          "class_counts": {
+            "0": 10353,
+            "2": 1120,
+            "3": 63,
+            "4": 12979,
+            "5": 6263,
+            "8": 79,
+            "11": 1174
+          },
+          "valid_observed_fraction": 0.6767818675657956,
+          "configured_clear_land_water_snow_fraction": 0.6373825356685711,
+          "snow_ice_11_fraction": 0.03665199338141176,
+          "configured_clear_excluding_snow_fraction": 0.6007305422871593,
+          "unclassified_7_fraction": 0.0,
+          "saturated_defective_1_fraction": 0.0,
+          "topographic_dark_2_fraction": 0.03496612656489026,
+          "cloud_shadow_3_fraction": 0.001966844619275077,
+          "medium_high_cloud_8_9_fraction": 0.002466360713059224,
+          "cirrus_10_fraction": 0.0,
+          "dark_shadow_cloud_fraction": 0.03939933189722456
+        }
+      }
+    },
+    {
+      "item_id": "S2C_45RUM_20260928_0_L2A",
+      "observation_time_utc": "2026-09-28T05:00:54.257000Z",
+      "tile_cloud_percent": 1.587821,
+      "quality": {
+        "aoi": {
+          "n": 415800,
+          "class_counts": {
+            "0": 81146,
+            "2": 35697,
+            "4": 171686,
+            "5": 30468,
+            "6": 6,
+            "7": 90,
+            "8": 297,
+            "11": 96410
+          },
+          "valid_observed_fraction": 0.8048436748436748,
+          "configured_clear_land_water_snow_fraction": 0.7180615680615681,
+          "snow_ice_11_fraction": 0.23186628186628186,
+          "configured_clear_excluding_snow_fraction": 0.4861952861952862,
+          "unclassified_7_fraction": 0.00021645021645021645,
+          "saturated_defective_1_fraction": 0.0,
+          "topographic_dark_2_fraction": 0.08585137085137085,
+          "cloud_shadow_3_fraction": 0.0,
+          "medium_high_cloud_8_9_fraction": 0.0007142857142857143,
+          "cirrus_10_fraction": 0.0,
+          "dark_shadow_cloud_fraction": 0.08656565656565657
+        },
+        "paper_source": {
+          "n": 2317,
+          "class_counts": {
+            "2": 213,
+            "11": 2104
+          },
+          "valid_observed_fraction": 1.0,
+          "configured_clear_land_water_snow_fraction": 0.9080707811825637,
+          "snow_ice_11_fraction": 0.9080707811825637,
+          "configured_clear_excluding_snow_fraction": 0.0,
+          "unclassified_7_fraction": 0.0,
+          "saturated_defective_1_fraction": 0.0,
+          "topographic_dark_2_fraction": 0.09192921881743633,
+          "cloud_shadow_3_fraction": 0.0,
+          "medium_high_cloud_8_9_fraction": 0.0,
+          "cirrus_10_fraction": 0.0,
+          "dark_shadow_cloud_fraction": 0.09192921881743633
+        },
+        "path_250m_corridor": {
+          "n": 32031,
+          "class_counts": {
+            "0": 2898,
+            "2": 5601,
+            "4": 3670,
+            "5": 16410,
+            "6": 3,
+            "7": 34,
+            "8": 7,
+            "11": 3408
+          },
+          "valid_observed_fraction": 0.9095251475133465,
+          "configured_clear_land_water_snow_fraction": 0.7333832849427118,
+          "snow_ice_11_fraction": 0.10639692797602322,
+          "configured_clear_excluding_snow_fraction": 0.6269863569666885,
+          "unclassified_7_fraction": 0.0010614716992913115,
+          "saturated_defective_1_fraction": 0.0,
+          "topographic_dark_2_fraction": 0.1748618525803128,
+          "cloud_shadow_3_fraction": 0.0,
+          "medium_high_cloud_8_9_fraction": 0.00021853829103056415,
+          "cirrus_10_fraction": 0.0,
+          "dark_shadow_cloud_fraction": 0.1750803908713434
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "prepared_at_utc": "2026-10-24T09:07:26.355971+00:00",
+  "source_code_unchanged": true,
+  "original_output_paths_untouched": true,
+  "packet_destination": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check",
+  "cache_destination": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/replays/execution_check_v1",
+  "copied_inputs": [
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/spatial_inputs_60m.npz",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check/results/spatial_inputs_60m.npz",
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/spatial_inputs_120m.npz",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check/results/spatial_inputs_120m.npz",
+      "sha256": "ae0714d2355a5fa768460c9fe74404b2d547dc792b5eb9eac34713385010baa0"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/spatial_paths.csv",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check/results/spatial_paths.csv",
+      "sha256": "af85e0b2172a2fdd764cf8c371a294c81a582c8c8f5493a4b5de3f45a400b74e"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/additional_target_protocol_v2.json",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check/config/additional_target_protocol_v2.json",
+      "sha256": "d8b07436070bad4768f8a73abf71a46ecac66854a7aab00dfd733d2622219e91"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/reduced_protocol.json",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check/config/reduced_protocol.json",
+      "sha256": "ec4caac240dfa667cdd3917da0f0e07946cd780ec481a0a25d883f12eb6df7fc"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/reduced_environment.json",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check/config/reduced_environment.json",
+      "sha256": "f4634155cc0d26c7f95786d23d3a0e19e2378a1a99dedd986a3bad026bef04e0"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/reduced_environment.lock",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check/config/reduced_environment.lock",
+      "sha256": "09311aefffac85a082b680c176b1912335a1c7a96467cd198ecc31c181db035e"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/config/reduced_protocol_amendment01.json",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check/config/reduced_protocol_amendment01.json",
+      "sha256": "e781a54ec40aaf798bef095d23fb47579d2049eee21be75241cfc4e5356be865"
+    },
+    {
+      "source": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/spatial_targets_v2_initial.csv",
+      "copy": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check/results/spatial_targets_v2.csv",
+      "sha256": "96202126426c50fdebe5d72ddf74bd443f531a77c77db094d0c8fe739dc86b98"
+    }
+  ],
+  "mode": "all",
+  "select": "1d_P1_ref,2d_ref_120m",
+  "source_code_sha256": {
+    "reduced_solver.py": "0cb0eb23bb4c752fb6688c4dc721d660b5288de0537ac1e6854fce56614af054",
+    "reduced_region.py": "37dd019f086240de32300749d29cc426fc32dd2c3c2fa231275aab12686b5e77",
+    "reduced_benchmarks.py": "58c77910c029b60619ffe53000f2bab9c91afd0994c45ef77298f8e0c6b6076a",
+    "reduced_report.py": "6929110d5434f3d5e2e3db3180b2b6f187e10d013188e296f5c8443663567b3e"
+  },
+  "prepare_only": false,
+  "scientific_execution_complete": true,
+  "completed_at_utc": "2026-10-24T09:07:37.318439+00:00"
+}

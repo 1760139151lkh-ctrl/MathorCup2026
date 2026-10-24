@@ -1,0 +1,975 @@
+{
+  "created_utc": "2026-10-24T11:19:09.198746+00:00",
+  "registered_count": 38,
+  "material_excluded_not_run_count": 7,
+  "closed_postprocessed_count": 31,
+  "all_applicable_and_diagnostic_closed": true,
+  "sources": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/official_metrics.csv",
+      "sha256": "a927b1bb437451105c7f6abce7400200eeb1ef7e2f664cb72455a91cd909bb1d"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/official_arrivals.csv",
+      "sha256": "111f2adb4b14af30e702fb8f5b727216d98b6ce67e4f22b1bb9cb5c9c4c26f72"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/official_validation.json",
+      "sha256": "4afd0959dde27389e7e8c21dd536ec046757260089c6677a2e8246faa2872eda"
+    }
+  ],
+  "stationary_residual_definition": "last actual saved output: h>=0.1m and max horizontal speed over wet native phases (phase h>=1e-6m)<0.1m/s; finite v only; not permanent deposition",
+  "phase_budget_definition": "saved-output domain phase volumes; DClaw solid/fluid from h*m and h*(1-m), ravaflow active native phases; no melt inference",
+  "dclaw_boundary_budget_limitation": "boundary mass estimate is trapezoidal integration of saved output, not native conservative phase flux; no qualification from this estimate",
+  "accuracy_or_conservation_qualification": false,
+  "local_event_validation_count": 0,
+  "phase_ledgers": [
+    {
+      "run_id": "copdem_120_single_ref__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "80cb48f5093a1c963f62a58ea5e0cd3b805f83d9261efc2abcbb636140dce0fb",
+      "phase_volume_initial_m3": [
+        13877683.030700684
+      ],
+      "phase_volume_final_m3": [
+        13733265.614680387
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 29212522779.62494,
+      "final_total_mass_kg": 28908524118.902214,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_multi_ref__sf0",
+      "model": "ravaflow_multi",
+      "source_fields_sha256": "e806b993a7e6ce2664b00affbfb3c0881c7fbe80f78dd0a93f2c7a66330ede45",
+      "phase_volume_initial_m3": [
+        8327188.380432129,
+        1387382.3650360107,
+        4163112.055206299
+      ],
+      "phase_volume_final_m3": [
+        7640769.610065781,
+        1278720.0068369508,
+        3742920.0033266097
+      ],
+      "phase_material_names": [
+        "native_phase_1",
+        "native_phase_2",
+        "native_phase_3"
+      ],
+      "initial_total_mass_kg": 29213178057.689667,
+      "final_total_mass_kg": 26738629963.152576,
+      "native_edge_store_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_dclaw_ref",
+      "model": "dclaw",
+      "source_fields_sha256": "a7a6ea19e7153a60493572556afef708236da5e7ee9eb755eb208837ec89755e",
+      "phase_volume_initial_m3": [
+        8743139.782272002,
+        5134859.872128
+      ],
+      "phase_volume_final_m3": [
+        3334442.8824084913,
+        1842671.1588695985
+      ],
+      "phase_material_names": [
+        "solid",
+        "fluid"
+      ],
+      "initial_total_mass_kg": 28741337284.2624,
+      "final_total_mass_kg": 10845666941.372524,
+      "native_edge_store_phase_volumes_m3": null,
+      "native_signed_entrainment_phase_volumes_m3": null,
+      "native_added_entrainment_mass_kg": null,
+      "estimated_boundary_mass_out_kg": 18188469872.593872,
+      "native_boundary_phase_budget_available": false,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_dclaw_nopressure",
+      "model": "dclaw",
+      "source_fields_sha256": "6f8dcf1fdff8004de1772cd4991405163f71458de1b941fe925fa8f4f235e15c",
+      "phase_volume_initial_m3": [
+        8743139.782272002,
+        5134859.872128
+      ],
+      "phase_volume_final_m3": [
+        3122986.483608116,
+        1734180.4001992515
+      ],
+      "phase_material_names": [
+        "solid",
+        "fluid"
+      ],
+      "initial_total_mass_kg": 28741337284.2624,
+      "final_total_mass_kg": 10166243905.941164,
+      "native_edge_store_phase_volumes_m3": null,
+      "native_signed_entrainment_phase_volumes_m3": null,
+      "native_added_entrainment_mass_kg": null,
+      "estimated_boundary_mass_out_kg": 19957614921.244385,
+      "native_boundary_phase_budget_available": false,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_dclaw_loose",
+      "model": "dclaw",
+      "source_fields_sha256": "105b3402e43d7c52275a1eda60786eb6863586c68a77d6bcdbc7fe18a7ee68b0",
+      "phase_volume_initial_m3": [
+        7632899.809920001,
+        6245099.8444799995
+      ],
+      "phase_volume_final_m3": [
+        141225.58681274537,
+        70573.67013418463
+      ],
+      "phase_material_names": [
+        "solid",
+        "fluid"
+      ],
+      "initial_total_mass_kg": 26853929331.264,
+      "final_total_mass_kg": 451882754.5285971,
+      "native_edge_store_phase_volumes_m3": null,
+      "native_signed_entrainment_phase_volumes_m3": null,
+      "native_added_entrainment_mass_kg": null,
+      "estimated_boundary_mass_out_kg": 23359994888.621796,
+      "native_boundary_phase_budget_available": false,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_dclaw_permeable",
+      "model": "dclaw",
+      "source_fields_sha256": "5258835975fb1b56165a66b6d2de8203afb1d2524cecf2b6fd7236ca8de1af07",
+      "phase_volume_initial_m3": [
+        8743139.782272002,
+        5134859.872128
+      ],
+      "phase_volume_final_m3": [
+        9138603.20912298,
+        4619909.339294519
+      ],
+      "phase_material_names": [
+        "solid",
+        "fluid"
+      ],
+      "initial_total_mass_kg": 28741337284.2624,
+      "final_total_mass_kg": 29294138003.926567,
+      "native_edge_store_phase_volumes_m3": null,
+      "native_signed_entrainment_phase_volumes_m3": null,
+      "native_added_entrainment_mass_kg": null,
+      "estimated_boundary_mass_out_kg": 3827200522.423628,
+      "native_boundary_phase_budget_available": false,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_single_h136__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "b28fc09e2ef70575e46bbad4236375e573ad37a6a7a4e99c9eb8fdf89c646ff3",
+      "phase_volume_initial_m3": [
+        125827285.69335938
+      ],
+      "phase_volume_final_m3": [
+        125251329.63060848
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 264866436384.52148,
+      "final_total_mass_kg": 263654048872.43085,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_single_h5__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "341bc3927cc802a36889929eb5f04fbfed2dab6b1ef6738950af9faf030ad4a4",
+      "phase_volume_initial_m3": [
+        4626216.073608398
+      ],
+      "phase_volume_final_m3": [
+        4537051.198946871
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 9738184834.945679,
+      "final_total_mass_kg": 9550492773.783163,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_single_h30__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "59da673ae27c679e6c000d55a65fb175325fe8222ba618c8a24d6f918095f54d",
+      "phase_volume_initial_m3": [
+        27756330.3314209
+      ],
+      "phase_volume_final_m3": [
+        27672681.58148825
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 58427075347.64099,
+      "final_total_mass_kg": 58250994729.03277,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_single_mu0p08__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "32a5bfc57cb156c77eab2cf211d40bd58ed07f4d57af3dd2ac444df793abc643",
+      "phase_volume_initial_m3": [
+        13877683.030700684
+      ],
+      "phase_volume_final_m3": [
+        13694601.594770886
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 29212522779.62494,
+      "final_total_mass_kg": 28827136356.992714,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_single_mu0p25__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "4e49a91e5e16b69308e01f447fbf5d50213f35bcbe9eca3e4dc2ccc0aeda7344",
+      "phase_volume_initial_m3": [
+        13877683.030700684
+      ],
+      "phase_volume_final_m3": [
+        13885012.80466821
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 29212522779.62494,
+      "final_total_mass_kg": 29227951953.826584,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_single_xi500__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "bfa14d405419b41ca89a2512ce449b5e9d3100874b7bb32280678ce599b78d26",
+      "phase_volume_initial_m3": [
+        13877683.030700684
+      ],
+      "phase_volume_final_m3": [
+        13661280.001533218
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 29212522779.62494,
+      "final_total_mass_kg": 28756994403.227425,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_single_xi2000__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "c6f76e61bcd8be1ebb942eff16ef132b5e8a6e1b15ed47d62d9546c0976f20dc",
+      "phase_volume_initial_m3": [
+        13877683.030700684
+      ],
+      "phase_volume_final_m3": [
+        14202964.799816161
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 29212522779.62494,
+      "final_total_mass_kg": 29897240903.613018,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_120_single_cfl025__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "bf13f28120ef77c6852e6ca22e2703bf53a43d11ff8198f34bd38ad46af9ca72",
+      "phase_volume_initial_m3": [
+        13877683.030700684
+      ],
+      "phase_volume_final_m3": [
+        13660732.838147879
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 29212522779.62494,
+      "final_total_mass_kg": 28755842624.301285,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_60_single_ref__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "a4b6c9b7d636131325f9cb4e87d5b662ed56d2e5bf2ef0c495fe68ad93f7c264",
+      "phase_volume_initial_m3": [
+        13878000.0
+      ],
+      "phase_volume_final_m3": [
+        15473397.581169102
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 29213190000.0,
+      "final_total_mass_kg": 32571501908.360962,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_60_dclaw_ref",
+      "model": "dclaw",
+      "source_fields_sha256": "dcf97d5f7eb9cf3cea341191afe5a6d6a19da54c9b0c906611320de8ad02ca88",
+      "phase_volume_initial_m3": [
+        8743139.999999998,
+        5134860.0
+      ],
+      "phase_volume_final_m3": [
+        1364671.188005012,
+        748485.0016025057
+      ],
+      "phase_material_names": [
+        "solid",
+        "fluid"
+      ],
+      "initial_total_mass_kg": 28741337999.999996,
+      "final_total_mass_kg": 4433097209.216038,
+      "native_edge_store_phase_volumes_m3": null,
+      "native_signed_entrainment_phase_volumes_m3": null,
+      "native_added_entrainment_mass_kg": null,
+      "estimated_boundary_mass_out_kg": 22971974006.863552,
+      "native_boundary_phase_budget_available": false,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_60_dclaw_nopressure",
+      "model": "dclaw",
+      "source_fields_sha256": "91987cfd8233d9fe0228d5e91464a20f0a28106b8ff8ae13f1db419a15653d39",
+      "phase_volume_initial_m3": [
+        8743139.999999998,
+        5134860.0
+      ],
+      "phase_volume_final_m3": [
+        2136299.415148626,
+        1176938.6155106388
+      ],
+      "phase_material_names": [
+        "solid",
+        "fluid"
+      ],
+      "initial_total_mass_kg": 28741337999.999996,
+      "final_total_mass_kg": 6944947036.41193,
+      "native_edge_store_phase_volumes_m3": null,
+      "native_signed_entrainment_phase_volumes_m3": null,
+      "native_added_entrainment_mass_kg": null,
+      "estimated_boundary_mass_out_kg": 20906202219.27246,
+      "native_boundary_phase_budget_available": false,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_60_dclaw_loose",
+      "model": "dclaw",
+      "source_fields_sha256": "c0e6a7a455347b408f6e5063e98e52e4ca8e67d95616dfe8a94325f118aed982",
+      "phase_volume_initial_m3": [
+        7632900.0,
+        6245100.0
+      ],
+      "phase_volume_final_m3": [
+        11206.681120022355,
+        5801.733132871051
+      ],
+      "phase_material_names": [
+        "solid",
+        "fluid"
+      ],
+      "initial_total_mass_kg": 26853930000.0,
+      "final_total_mass_kg": 36059772.15693141,
+      "native_edge_store_phase_volumes_m3": null,
+      "native_signed_entrainment_phase_volumes_m3": null,
+      "native_added_entrainment_mass_kg": null,
+      "estimated_boundary_mass_out_kg": 23450310694.877598,
+      "native_boundary_phase_budget_available": false,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "copdem_60_dclaw_permeable",
+      "model": "dclaw",
+      "source_fields_sha256": "2cc11bb010804171d4e04798a3fe2917da1876e637239e4bc50c449e5eb459d7",
+      "phase_volume_initial_m3": [
+        8743139.999999998,
+        5134860.0
+      ],
+      "phase_volume_final_m3": [
+        8643567.700772502,
+        4352308.956670825
+      ],
+      "phase_material_names": [
+        "solid",
+        "fluid"
+      ],
+      "initial_total_mass_kg": 28741337999.999996,
+      "final_total_mass_kg": 27689941748.75658,
+      "native_edge_store_phase_volumes_m3": null,
+      "native_signed_entrainment_phase_volumes_m3": null,
+      "native_added_entrainment_mass_kg": null,
+      "estimated_boundary_mass_out_kg": 60730802.016463675,
+      "native_boundary_phase_budget_available": false,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "q2map60_q2r3_p0000_S_linear__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "8851f4e372b05ab6797c73244a7046f5ac7852cec56f276e97419d007d6a8316",
+      "phase_volume_initial_m3": [
+        559400.4019796848
+      ],
+      "phase_volume_final_m3": [
+        677732.4008703232
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 726345179.9208058,
+      "final_total_mass_kg": 879991614.0678636,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "q2map60_q2r3_p0036_S_T_linear__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "5c29491e7ec9256e5bee5d07eb77e04ac41d7a304736df39430d9a257477a41f",
+      "phase_volume_initial_m3": [
+        1348207.2226524353
+      ],
+      "phase_volume_final_m3": [
+        1518256.802630704
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 2910275467.7796354,
+      "final_total_mass_kg": 3277348950.699678,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "q2map60_q2r3_p0072_S_H_linear__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "700a584257efeda004119179d37781710096f809e217cfc7a3bdfa512a2cd643",
+      "phase_volume_initial_m3": [
+        5099997.600245476
+      ],
+      "phase_volume_final_m3": [
+        5693558.401948353
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 6594593910.776093,
+      "final_total_mass_kg": 7362102595.171701,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "q2map60_q2r3_p0255_S_T_H_linear__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "0d15d37bc6bf0f7429739ad1ccf3baa8f824eb49c9d839fd9b75bf3f2f42d20d",
+      "phase_volume_initial_m3": [
+        1255521.607875824
+      ],
+      "phase_volume_final_m3": [
+        1409821.201662859
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 2145013110.4461474,
+      "final_total_mass_kg": 2408628367.6695337,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "49b15da62ef0f4478d13dcfcab2205c0c40bb591b02d8718b790857ae0ede589",
+      "phase_volume_initial_m3": [
+        51755686.72943115
+      ],
+      "phase_volume_final_m3": [
+        52245921.58723581
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 67201406106.2093,
+      "final_total_mass_kg": 67837944308.0687,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "243bdbee9dd186995f2323e71c48c10bb461ab67199cdf33e1e97d60ab3f025c",
+      "phase_volume_initial_m3": [
+        31183867.694091797
+      ],
+      "phase_volume_final_m3": [
+        31702514.389881212
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 67314314606.66292,
+      "final_total_mass_kg": 68433878965.79113,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "2d3ffbb57ddec47179c56d8ea6e5a540dfc857019dabd7b28ce7584f02769fe1",
+      "phase_volume_initial_m3": [
+        31184264.24560547
+      ],
+      "phase_volume_final_m3": [
+        31060353.584267758
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 67315170613.159966,
+      "final_total_mass_kg": 67047693810.018364,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "composite_RI_water_120__sf0",
+      "model": "ravaflow_multi",
+      "source_fields_sha256": "20ce900fc6f01c5e822dd11437d32b476da3fa25567b2d14ceb02d5f641f128b",
+      "phase_volume_initial_m3": [
+        9714571.435546875,
+        0.0,
+        4163112.055206299
+      ],
+      "phase_volume_final_m3": [
+        8741260.81618052,
+        0.0,
+        3657096.0088642314
+      ],
+      "phase_material_names": [
+        "rock_ice_composite",
+        "empty",
+        "water"
+      ],
+      "initial_total_mass_kg": 27918014806.957138,
+      "final_total_mass_kg": 25031976207.51594,
+      "native_edge_store_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": {
+        "2": 0.0
+      },
+      "empty_phase_max_abs_volume_m3": {
+        "2": 0.0
+      }
+    },
+    {
+      "run_id": "composite_rock_water_120__sf0",
+      "model": "ravaflow_multi",
+      "source_fields_sha256": "952008afdb2e78042fa92d995f29b2ccc60e3f47c11cea5442799ac647c73749",
+      "phase_volume_initial_m3": [
+        9714571.435546875,
+        0.0,
+        4163112.055206299
+      ],
+      "phase_volume_final_m3": [
+        8463095.990159176,
+        0.0,
+        3534292.8103471175
+      ],
+      "phase_material_names": [
+        "rock",
+        "empty",
+        "water"
+      ],
+      "initial_total_mass_kg": 30392454931.18286,
+      "final_total_mass_kg": 26384651983.776894,
+      "native_edge_store_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": {
+        "2": 0.0
+      },
+      "empty_phase_max_abs_volume_m3": {
+        "2": 0.0
+      }
+    },
+    {
+      "run_id": "dclaw_ref_extended120",
+      "model": "dclaw",
+      "source_fields_sha256": "ede42f97b79145f94b0eacb00908d49dc1f72f91d6255e9d58d6d30a3148bd7f",
+      "phase_volume_initial_m3": [
+        8743139.782272002,
+        5134859.872128
+      ],
+      "phase_volume_final_m3": [
+        8466735.767174378,
+        4689154.864088922
+      ],
+      "phase_material_names": [
+        "solid",
+        "fluid"
+      ],
+      "initial_total_mass_kg": 28741337284.2624,
+      "final_total_mass_kg": 27549341435.45974,
+      "native_edge_store_phase_volumes_m3": null,
+      "native_signed_entrainment_phase_volumes_m3": null,
+      "native_added_entrainment_mass_kg": null,
+      "estimated_boundary_mass_out_kg": 0.0,
+      "native_boundary_phase_budget_available": false,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    },
+    {
+      "run_id": "composite_RI_water_nodragvm_120__sf0",
+      "model": "ravaflow_multi",
+      "source_fields_sha256": "7480659b74d8f2a1e3c22cd99dedd5f52ef56763d80d6170e3ce24ad2fceca42",
+      "phase_volume_initial_m3": [
+        9714571.435546875,
+        0.0,
+        4163112.055206299
+      ],
+      "phase_volume_final_m3": [
+        9536039.980277047,
+        0.0,
+        4031740.802679956
+      ],
+      "phase_material_names": [
+        "rock_ice_composite",
+        "empty",
+        "water"
+      ],
+      "initial_total_mass_kg": 27918014806.957138,
+      "final_total_mass_kg": 27350083137.308846,
+      "native_edge_store_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 0.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": {
+        "2": 0.0
+      },
+      "empty_phase_max_abs_volume_m3": {
+        "2": 0.0
+      }
+    },
+    {
+      "run_id": "copdem_120_single_entrain1m_P1buf250__sf0",
+      "model": "ravaflow_single",
+      "source_fields_sha256": "db5a72eca748fa1126a5f33d0ba62df3c5945c0b84c930092b71e4865c71d03c",
+      "phase_volume_initial_m3": [
+        13877683.030700684
+      ],
+      "phase_volume_final_m3": [
+        19333094.38615814
+      ],
+      "phase_material_names": [
+        "equivalent_bulk"
+      ],
+      "initial_total_mass_kg": 29212522779.62494,
+      "final_total_mass_kg": 40696163682.862885,
+      "native_edge_store_phase_volumes_m3": [
+        0.0
+      ],
+      "native_signed_entrainment_phase_volumes_m3": [
+        -5618430.0,
+        0.0,
+        0.0
+      ],
+      "native_added_entrainment_mass_kg": 11826795150.0,
+      "estimated_boundary_mass_out_kg": null,
+      "native_boundary_phase_budget_available": true,
+      "native_conservation_qualified": false,
+      "empty_phase_max_abs_depth_m": null,
+      "empty_phase_max_abs_volume_m3": null
+    }
+  ]
+}

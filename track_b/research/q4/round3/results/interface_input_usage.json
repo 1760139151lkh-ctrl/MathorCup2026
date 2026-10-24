@@ -1,0 +1,37 @@
+{
+  "received_at_utc": "2026-10-24T07:34:24.054938+00:00",
+  "bundle_path": "track_b/research/q4/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/bundle.json",
+  "bundle_sha256": "b38711d8e34e7ab79a21a8856099aa5fb2bd003f31fdab4a5074b55337003724",
+  "bundle_version": "q3-r3-event-v1-local",
+  "files_verified": [
+    {
+      "path": "track_b/research/q4/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/event_group_registry.csv",
+      "bytes": 1820,
+      "sha256": "c2109a17be0d0c92a4d35c4257c320af04e8e16e0e649c247e7abf2caa3f8741",
+      "role": "event_group_registry",
+      "upstream_path": "track_b/research/q3/round3/exports/event_v1/event_group_registry.csv",
+      "rows": 2
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/forecast_availability.csv",
+      "bytes": 2911,
+      "sha256": "f4627f1edabe316c986916cb599f49945de63cdc3a27b270ef5745c6196c99e6",
+      "role": "forecast_availability",
+      "upstream_path": "track_b/research/q3/round3/exports/event_v1/forecast_availability.csv",
+      "rows": 5
+    },
+    {
+      "path": "track_b/research/q4/round3/inputs/q3/event_bundle_q3-r3-event-v1-local/files/exports/event_v1/label_mapping.csv",
+      "bytes": 7392,
+      "sha256": "3c920a97038f5f75227d040a3783a13bd91d6aac9c5f181ab885194bb55b4df6",
+      "role": "label_mapping",
+      "upstream_path": "track_b/research/q3/round3/exports/event_v1/label_mapping.csv",
+      "rows": 11
+    }
+  ],
+  "read_scope": "Complete three CSV files; label/stage/availability constraints only",
+  "accepted_independent_local_training_validation_events": 0,
+  "first_initiation_truth_accepted": false,
+  "use": "Constrain interpretation of conditional propagation; no calibration or independent event validation performed",
+  "source_to_release_delay_seconds": null
+}

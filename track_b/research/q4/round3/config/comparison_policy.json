@@ -1,0 +1,72 @@
+{
+  "schema_version": "q4-r3-comparison-policy-v1",
+  "registered_at_utc": "2026-10-24T07:40:26.038194+00:00",
+  "primary_goal": "Compare added lateral, phase and pore-pressure processes under stated shared inputs; never rank by closeness to unaccepted event arrival",
+  "paired_invariants": [
+    "geometry_version",
+    "DEM grid/terrain version",
+    "initial grid-integrated volume",
+    "initial east/north velocity",
+    "boundary description",
+    "target geometry and arrival definition",
+    "simulation horizon"
+  ],
+  "common_reference": {
+    "geometry_version": "q4-r3-spatial-copdem-v1",
+    "reference_resolution_m": 60,
+    "source_area_60m_m2": 925200,
+    "source_area_120m_m2": 964800,
+    "thickness_reference_m": 15,
+    "reference_volume_m3": 13878000,
+    "coarse_thickness_factor": 0.9589552238805971,
+    "initial_velocity_east_north_m_s": [
+      0,
+      0
+    ],
+    "mu_if_supported": 0.15,
+    "xi_if_supported_m_per_s2": 1000,
+    "horizon_s": 1800
+  },
+  "outcome_roles": {
+    "local_observational": "data/product/geographic support only; no accepted event trajectory",
+    "conditional_scenario": "regional computed propagation under prescribed source and material parameters",
+    "external_transfer": "literature constraints and model-specific material assumptions",
+    "numerical_benchmark": "synthetic and official reference examples; not event validation"
+  },
+  "arrival_status_map": {
+    "arrived": "arrived",
+    "not_reached_within_horizon": "not_arrived_by_horizon",
+    "not_arrived_by_horizon": "not_arrived_by_horizon",
+    "never_arrival": "never_arrival_as_reported_with_source_definition",
+    "out_of_domain": "outside_domain",
+    "outside_domain": "outside_domain",
+    "numerical_failure": "numerical_failure",
+    "missing": "missing"
+  },
+  "derived_metrics": [
+    "initial/final/source/outflow volume and mass balance",
+    "hmax>=0.1m footprint area",
+    "peak and final depth separately",
+    "velocity with wet-depth cutoff stated",
+    "arrival time with temporal bracket or output interval",
+    "wall-clock cost and actual completed horizon"
+  ],
+  "ranking_dimensions": [
+    "equation/process suitability",
+    "numerical quality",
+    "paired-input fairness",
+    "observational identifiability",
+    "incremental information relative to terrain/parameter uncertainty",
+    "runtime and reproducibility"
+  ],
+  "not_scored": [
+    "in-sample match to literature8min",
+    "number of snapshots as independent events",
+    "complexity alone"
+  ],
+  "noncomparable_parameters": "D-Claw porosity/effective stress and multiphase phase drag have no automatic one-to-one Voellmy mapping; report NA or controlled within-framework ablation.",
+  "independent_local_training_events": 0,
+  "independent_local_validation_events": 0,
+  "initiation_to_release_delay_seconds": null,
+  "statistical_weights": "none assigned to parameter grid; report conditional ranges, never automatic95pct interval"
+}

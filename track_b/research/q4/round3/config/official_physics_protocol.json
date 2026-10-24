@@ -1,0 +1,15 @@
+{
+  "protocol": "q4-r3-official-flatrest-v1",
+  "registered_utc": "2026-10-24T07:43:37.144989+00:00",
+  "before_execution": true,
+  "state": "flat b=0,constant h=10m,zero momentum,open/extrapolation boundaries; exact static depth and zero velocity",
+  "domain": "2400m east x1800m north,60m grid",
+  "end_seconds": 100,
+  "models": [
+    "ravaflow_single",
+    "ravaflow_multi",
+    "dclaw"
+  ],
+  "dclaw_pore_pressure": "hydrostatic,m=.63,actual sourced terms atzero speed andhydrostatic excesszero",
+  "role": "numerical_benchmark_not_local_event"
+}

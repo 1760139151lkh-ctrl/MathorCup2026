@@ -1,0 +1,169 @@
+{
+  "version": "q4-r3-radiometric-QA-v1",
+  "provider_guidance": "https://github.com/Element84/earth-search/issues/41",
+  "test": "same product_uri; legacy adjusted DN compared with alternate C1 COG representation of same observation",
+  "results": [
+    {
+      "legacy_item": "S2C_45RUM_20260812_0_L2A",
+      "c1_item": "S2C_T45RUM_20260812T050239_L2A",
+      "product_uri_equal": true,
+      "product_uri": "S2C_MSIL2A_20260812T045701_N0512_R119_T45RUM_20260812T100317.SAFE",
+      "band": "red",
+      "sample_bounds_utm45n": [
+        345000,
+        3134000,
+        346000,
+        3135000
+      ],
+      "sample_shape": [
+        100,
+        100
+      ],
+      "valid_n": 10000,
+      "legacy_floor_DN1_pixels": 0,
+      "C1_minus_legacy_DN_nonfloor_unique": [
+        1000
+      ],
+      "C1_minus_legacy_DN_min": 1000,
+      "C1_minus_legacy_DN_max": 1000,
+      "reflectance_C1_scaled_offset_minus_legacy_scaled_max_abs": 5.551115123125783e-17,
+      "max_abs_nonfloor_reflectance_residual": 5.551115123125783e-17,
+      "legacy_item_boa_offset_applied": true,
+      "legacy_declared_band_offset": -0.1,
+      "legacy_effective_offset": 0.0,
+      "c1_declared_offset_used": -0.1,
+      "C1_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/45/R/UM/2026/8/S2C_T45RUM_20260812T050239_L2A/B04.tif",
+      "read_at_utc": "2026-10-24T07:55:16.723087+00:00",
+      "retrieved_at_utc": "2026-10-24T07:52:08.788588+00:00",
+      "retrieval_time_basis": "derived cache file completion mtime from original write, not scene availability",
+      "derived_sample_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260812T050239_L2A_red_radiometry_sample.tif",
+      "derived_bytes": 18819,
+      "derived_sha256": "9c7da18f6aa35b3d393701773cd3306b968c2fd954b66d5061445a86fc57ffbf",
+      "actual_read_scope": "1km x 1km, 100x100 full-resolution pixels, identical product_uri; not whole-scene cross-validation",
+      "source_full_bytes": null,
+      "source_full_sha256": null
+    },
+    {
+      "legacy_item": "S2C_45RUM_20260812_0_L2A",
+      "c1_item": "S2C_T45RUM_20260812T050239_L2A",
+      "product_uri_equal": true,
+      "product_uri": "S2C_MSIL2A_20260812T045701_N0512_R119_T45RUM_20260812T100317.SAFE",
+      "band": "nir",
+      "sample_bounds_utm45n": [
+        345000,
+        3134000,
+        346000,
+        3135000
+      ],
+      "sample_shape": [
+        100,
+        100
+      ],
+      "valid_n": 10000,
+      "legacy_floor_DN1_pixels": 0,
+      "C1_minus_legacy_DN_nonfloor_unique": [
+        1000
+      ],
+      "C1_minus_legacy_DN_min": 1000,
+      "C1_minus_legacy_DN_max": 1000,
+      "reflectance_C1_scaled_offset_minus_legacy_scaled_max_abs": 2.220446049250313e-16,
+      "max_abs_nonfloor_reflectance_residual": 2.220446049250313e-16,
+      "legacy_item_boa_offset_applied": true,
+      "legacy_declared_band_offset": -0.1,
+      "legacy_effective_offset": 0.0,
+      "c1_declared_offset_used": -0.1,
+      "C1_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/45/R/UM/2026/8/S2C_T45RUM_20260812T050239_L2A/B08.tif",
+      "read_at_utc": "2026-10-24T07:55:16.831729+00:00",
+      "retrieved_at_utc": "2026-10-24T07:52:09.944233+00:00",
+      "retrieval_time_basis": "derived cache file completion mtime from original write, not scene availability",
+      "derived_sample_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260812T050239_L2A_nir_radiometry_sample.tif",
+      "derived_bytes": 21288,
+      "derived_sha256": "c77ad4d08349cbfa6e9ce310bbfce1c0236086285ccc50e1fe0d85964627dd70",
+      "actual_read_scope": "1km x 1km, 100x100 full-resolution pixels, identical product_uri; not whole-scene cross-validation",
+      "source_full_bytes": null,
+      "source_full_sha256": null
+    },
+    {
+      "legacy_item": "S2C_45RUM_20260928_0_L2A",
+      "c1_item": "S2C_T45RUM_20260928T045730_L2A",
+      "product_uri_equal": true,
+      "product_uri": "S2C_MSIL2A_20260928T044701_N0513_R076_T45RUM_20260928T075011.SAFE",
+      "band": "red",
+      "sample_bounds_utm45n": [
+        345000,
+        3134000,
+        346000,
+        3135000
+      ],
+      "sample_shape": [
+        100,
+        100
+      ],
+      "valid_n": 10000,
+      "legacy_floor_DN1_pixels": 19,
+      "C1_minus_legacy_DN_nonfloor_unique": [
+        1000
+      ],
+      "C1_minus_legacy_DN_min": 940,
+      "C1_minus_legacy_DN_max": 1000,
+      "reflectance_C1_scaled_offset_minus_legacy_scaled_max_abs": 0.006000000000000003,
+      "max_abs_nonfloor_reflectance_residual": 5.551115123125783e-17,
+      "legacy_item_boa_offset_applied": true,
+      "legacy_declared_band_offset": -0.1,
+      "legacy_effective_offset": 0.0,
+      "c1_declared_offset_used": -0.1,
+      "C1_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/45/R/UM/2026/9/S2C_T45RUM_20260928T045730_L2A/B04.tif",
+      "read_at_utc": "2026-10-24T07:55:16.871666+00:00",
+      "retrieved_at_utc": "2026-10-24T07:52:10.918646+00:00",
+      "retrieval_time_basis": "derived cache file completion mtime from original write, not scene availability",
+      "derived_sample_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260928T045730_L2A_red_radiometry_sample.tif",
+      "derived_bytes": 19743,
+      "derived_sha256": "360c83e3cfb2189deef7933bb85aa0a3f83058db2ebd468d90efd6820bf55f2d",
+      "actual_read_scope": "1km x 1km, 100x100 full-resolution pixels, identical product_uri; not whole-scene cross-validation",
+      "source_full_bytes": null,
+      "source_full_sha256": null
+    },
+    {
+      "legacy_item": "S2C_45RUM_20260928_0_L2A",
+      "c1_item": "S2C_T45RUM_20260928T045730_L2A",
+      "product_uri_equal": true,
+      "product_uri": "S2C_MSIL2A_20260928T044701_N0513_R076_T45RUM_20260928T075011.SAFE",
+      "band": "nir",
+      "sample_bounds_utm45n": [
+        345000,
+        3134000,
+        346000,
+        3135000
+      ],
+      "sample_shape": [
+        100,
+        100
+      ],
+      "valid_n": 10000,
+      "legacy_floor_DN1_pixels": 24,
+      "C1_minus_legacy_DN_nonfloor_unique": [
+        1000
+      ],
+      "C1_minus_legacy_DN_min": 941,
+      "C1_minus_legacy_DN_max": 1000,
+      "reflectance_C1_scaled_offset_minus_legacy_scaled_max_abs": 0.0059,
+      "max_abs_nonfloor_reflectance_residual": 2.220446049250313e-16,
+      "legacy_item_boa_offset_applied": true,
+      "legacy_declared_band_offset": -0.1,
+      "legacy_effective_offset": 0.0,
+      "c1_declared_offset_used": -0.1,
+      "C1_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/45/R/UM/2026/9/S2C_T45RUM_20260928T045730_L2A/B08.tif",
+      "read_at_utc": "2026-10-24T07:55:16.935795+00:00",
+      "retrieved_at_utc": "2026-10-24T07:52:11.904564+00:00",
+      "retrieval_time_basis": "derived cache file completion mtime from original write, not scene availability",
+      "derived_sample_path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/S2C_T45RUM_20260928T045730_L2A_nir_radiometry_sample.tif",
+      "derived_bytes": 21178,
+      "derived_sha256": "a82b326eaffb12c91b2c28f94feb56660d7a8ae9df072bb1f92ba728d4559d8b",
+      "actual_read_scope": "1km x 1km, 100x100 full-resolution pixels, identical product_uri; not whole-scene cross-validation",
+      "source_full_bytes": null,
+      "source_full_sha256": null
+    }
+  ],
+  "conclusion": "Nonfloor legacy pixels use scale only: C1 raw DN minus legacy adjusted DN equals 1000; legacy DN1 floor pixels differ and are excluded from spectral screen; band offset -0.1 double application rejected",
+  "scope_limit": "4 band-window comparisons at one 1km-square terrain region; supports these two products conversion, not a global guarantee or local reflectance accuracy validation"
+}

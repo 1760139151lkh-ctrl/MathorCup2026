@@ -1,0 +1,10 @@
+{
+  "version": "q4-r3-official-extended-domain-v1",
+  "registered_utc": "2026-10-24T08:16:02.265329+00:00",
+  "before_native_extended_run": true,
+  "upstream_bundle_path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/extended_domain_bundle.json",
+  "upstream_bundle_sha256": "5945bca9d96bd3a8aa1c91f8f831e842f02d148492fb541fdd2d7175470c1760",
+  "method": "same DClaw m0/kref/pinit/mu andV as120 reference, all4 domain boundaries extended10080m, original core values exactly retained",
+  "old_domain": "boundary affected beforepaperarrival; keep original result andnumerical limitations",
+  "not_infinite_domain_convergence_proof": true
+}

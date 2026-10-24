@@ -1,0 +1,36 @@
+{
+  "figures": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/figures/reduced_1d_profiles.png",
+      "bytes": 311831,
+      "sha256": "c70bd9a6d27d95567c35162f83a7dc7bfcbb1fa36b29927d71998030978d333f",
+      "role": "reduced model figure; actual visual inspection complete"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/figures/reduced_2d_reference.png",
+      "bytes": 490771,
+      "sha256": "440d4dcc158912d5c0defe2d13155ed1bb6f3fae88083a52ff0015a5bb014fbb",
+      "role": "reduced model figure; actual visual inspection complete"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/figures/reduced_2d_sensitivity.png",
+      "bytes": 114902,
+      "sha256": "a7196032439c60805fc35c4399d4834c9c3c4b2d5c6a91b73b0425a5e0622e86",
+      "role": "reduced model figure; actual visual inspection complete"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/figures/reduced_2d_snapshots.png",
+      "bytes": 159473,
+      "sha256": "7278c0389c61f6b0653adbe8576299f4661c9e2e78e368280e38fc2bbcb77456",
+      "role": "reduced model figure; actual visual inspection complete"
+    },
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/figures/reduced_numerical_checks.png",
+      "bytes": 109495,
+      "sha256": "83c8fd04a972bfdd2a335acf78600c898425659596eb85dd65f2f318a9f8afaa",
+      "role": "reduced model figure; actual visual inspection complete"
+    }
+  ],
+  "visual_review_status": "actually opened and inspected",
+  "visual_review_reference": "results/reduced_visual_review.json"
+}

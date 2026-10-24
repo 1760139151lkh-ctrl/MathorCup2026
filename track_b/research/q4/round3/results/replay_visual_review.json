@@ -1,0 +1,13 @@
+{
+  "reviewed_at_utc": "2026-10-24T09:14:26.913135+00:00",
+  "purpose": "Safe two-case replay verification only, not a new sensitivity study or paper figure",
+  "figures": [
+    {
+      "path": "track_b/research/q4/round3/results/replay_execution_check/figures/reduced_2d_sensitivity.png",
+      "bytes": 53525,
+      "sha256": "56f4f823ead5e357ec62b9b4aca33dd3472ff14fe26f6240f91a7cff658a6ae2",
+      "actual_opened": true,
+      "review": "One replayed2D120m row, km2 footprint/m depth/Mm3 boundary-outflow axes readable; alloutflow0annotation readable. Automatic inherited title remains generic. Do not present as multi-case new evidence."
+    }
+  ]
+}

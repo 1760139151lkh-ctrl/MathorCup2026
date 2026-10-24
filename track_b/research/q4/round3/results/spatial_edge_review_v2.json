@@ -1,0 +1,99 @@
+{
+  "version": "q4-r3-edge-connectors-v2",
+  "source_to_river_continuous_gap_m": 647.1267757398565,
+  "method": "3 edge points at nearest boundary point and +/-300m perimeter; local Dijkstra length+30*positive rise; no fill or burn",
+  "stats": [
+    {
+      "connector_id": "C1",
+      "source_edge_offset_m": 0,
+      "source_edge_lonlat": [
+        85.5193055248128,
+        28.283882394615638
+      ],
+      "source_edge_utm": [
+        354788.730539817,
+        3129539.345660505
+      ],
+      "river_candidate_nearest_utm": [
+        354152.16530611954,
+        3129655.7834856613
+      ],
+      "raster_snap_start_m": 36.24303694426841,
+      "raster_snap_end_m": 25.87424749506263,
+      "direct_geometric_gap_m": 647.12677573986,
+      "path_length_m": 709.7056274847714,
+      "start_height_m": 4305.90380859375,
+      "end_height_m": 4021.752197265625,
+      "net_drop_m": 284.151611328125,
+      "cumulative_ascent_m": 0.0,
+      "max_single_step_ascent_m": 0.0,
+      "max_uphill_gradient": 0.0,
+      "strict_nonincreasing_height_reaches_goal": true,
+      "strict_test_scope": "8-neighbour current 60m bilinear DSM, bounded local window; not physical avalanche impossibility test",
+      "geometry_status": "conditional_connector_candidate; independently observed connection unknown"
+    },
+    {
+      "connector_id": "C2",
+      "source_edge_offset_m": 300,
+      "source_edge_lonlat": [
+        85.52035745132612,
+        28.286424596538627
+      ],
+      "source_edge_utm": [
+        354895.3531196041,
+        3129819.758972385
+      ],
+      "river_candidate_nearest_utm": [
+        354152.16530611954,
+        3129655.7834856613
+      ],
+      "raster_snap_start_m": 27.166490676403207,
+      "raster_snap_end_m": 25.87424749506263,
+      "direct_geometric_gap_m": 761.0624720469804,
+      "path_length_m": 794.5584412271571,
+      "start_height_m": 4337.12646484375,
+      "end_height_m": 4021.752197265625,
+      "net_drop_m": 315.374267578125,
+      "cumulative_ascent_m": 0.0,
+      "max_single_step_ascent_m": 0.0,
+      "max_uphill_gradient": 0.0,
+      "strict_nonincreasing_height_reaches_goal": true,
+      "strict_test_scope": "8-neighbour current 60m bilinear DSM, bounded local window; not physical avalanche impossibility test",
+      "geometry_status": "conditional_connector_candidate; independently observed connection unknown"
+    },
+    {
+      "connector_id": "C3",
+      "source_edge_offset_m": -300,
+      "source_edge_lonlat": [
+        85.52152532277476,
+        28.28260124958282
+      ],
+      "source_edge_utm": [
+        355004.7163005296,
+        3129394.729864473
+      ],
+      "river_candidate_nearest_utm": [
+        354152.16530611954,
+        3129655.7834856613
+      ],
+      "raster_snap_start_m": 15.457720375605867,
+      "raster_snap_end_m": 25.87424749506263,
+      "direct_geometric_gap_m": 891.6233460408589,
+      "path_length_m": 939.4112549695428,
+      "start_height_m": 4595.833984375,
+      "end_height_m": 4021.752197265625,
+      "net_drop_m": 574.081787109375,
+      "cumulative_ascent_m": 0.0,
+      "max_single_step_ascent_m": 0.0,
+      "max_uphill_gradient": 0.0,
+      "strict_nonincreasing_height_reaches_goal": true,
+      "strict_test_scope": "8-neighbour current 60m bilinear DSM, bounded local window; not physical avalanche impossibility test",
+      "geometry_status": "conditional_connector_candidate; independently observed connection unknown"
+    }
+  ],
+  "conclusions": [
+    "Multiple DEM-conditioned connectors exist as computational candidates; actual trajectory remains unobserved",
+    "Strict descent reachability does not include momentum, depth, entrainment, lateral forces, DSM/georegistration error",
+    "Positive uphill is reported, never silently clipped or called validated terrain connectivity"
+  ]
+}

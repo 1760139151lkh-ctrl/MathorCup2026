@@ -1,0 +1,27 @@
+{
+  "protocol": {
+    "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check/config/additional_target_protocol_v2.json",
+    "bytes": 1099,
+    "sha256": "d8b07436070bad4768f8a73abf71a46ecac66854a7aab00dfd733d2622219e91",
+    "role": "prior registration for all five targets"
+  },
+  "target_input": {
+    "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/replay_execution_check/results/spatial_targets_v2.csv",
+    "bytes": 1360,
+    "sha256": "96202126426c50fdebe5d72ddf74bd443f531a77c77db094d0c8fe739dc86b98",
+    "role": "all five OSM representative centroids"
+  },
+  "rows": 10,
+  "runs": 2,
+  "targets_per_run": 5,
+  "postprocess_is_not_solver_rerun": true,
+  "primary_paper_target_unchanged": true,
+  "count_arrived": 0,
+  "status_counts": {
+    "missing": 5,
+    "not_reached_within_horizon": 5
+  },
+  "include_in_arrival_envelope": false,
+  "reason": "reduced HR thin-flow numerical accuracy not qualified",
+  "missing_semantics": "Finite path/grid cell centres have no support inside the specified 100m object buffer; no nearest-cell substitution or extrapolation."
+}

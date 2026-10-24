@@ -1,0 +1,36 @@
+{
+  "records": [
+    {
+      "url": "https://earth-search.aws.element84.com/v1/search",
+      "request_json": {
+        "collections": [
+          "sentinel-2-c1-l2a"
+        ],
+        "bbox": [
+          85.35,
+          28.25,
+          85.55,
+          28.36
+        ],
+        "datetime": "2026-08-01T00:00:00Z/2026-09-30T23:59:59Z",
+        "limit": 100
+      },
+      "retrieved_at_utc": "2026-10-24T07:50:40.166975+00:00",
+      "status": 200,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/sentinel2_c1_search.json",
+      "bytes": 549478,
+      "sha256": "b7431b15374a17c45fdb69556bbcfe57e4d2de84275cf0b1bd4c730bdbeed5c4",
+      "actual_read_scope": "complete response; provider contributor offset guidance or scene metadata selected"
+    },
+    {
+      "url": "https://api.github.com/repos/Element84/earth-search/issues/41/comments",
+      "request_json": null,
+      "retrieved_at_utc": "2026-10-24T07:50:42.690684+00:00",
+      "status": 200,
+      "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/spatial/earthsearch_issue41_comments.json",
+      "bytes": 2748,
+      "sha256": "5ba5825fa7a2f633e5b54f421b48f206b9aca33c9d7dfa1c532b4771b6fc13fc",
+      "actual_read_scope": "complete response; provider contributor offset guidance or scene metadata selected"
+    }
+  ]
+}

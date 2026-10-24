@@ -1,0 +1,68 @@
+{
+  "created_utc": "2026-10-24T07:57:30.441477+00:00",
+  "runs_executed": 34,
+  "one_d_runs": 24,
+  "two_d_runs": 10,
+  "status_counts": {
+    "not_reached_within_horizon": 34
+  },
+  "numerical_sensitivity": [
+    {
+      "reference": "2d_ref_60m",
+      "other": "2d_ref_120m",
+      "metrics": {
+        "footprint_area_hmax_ge_01_m2": {
+          "reference": 3963600.0,
+          "other": 5256000.0,
+          "relative_change": 0.3260672116257947
+        },
+        "max_depth_m": {
+          "reference": 56.84450119050558,
+          "other": 53.10190821492987,
+          "relative_change": -0.06583913830175038
+        },
+        "maximum_speed_any_wet_m_s": {
+          "reference": 18.70887914315662,
+          "other": 4.314601498980348,
+          "relative_change": -0.769382149194194
+        },
+        "outflow_volume_m3": {
+          "reference": 0.0,
+          "other": 0.0,
+          "relative_change": null
+        }
+      },
+      "interpretation": "sensitivity only; no asymptotic grid-convergence assertion from two grids"
+    },
+    {
+      "reference": "2d_ref_60m",
+      "other": "2d_ref_60m_cflhalf",
+      "metrics": {
+        "footprint_area_hmax_ge_01_m2": {
+          "reference": 3963600.0,
+          "other": 3960000.0,
+          "relative_change": -0.0009082652134423251
+        },
+        "max_depth_m": {
+          "reference": 56.84450119050558,
+          "other": 56.84086466660418,
+          "relative_change": -6.397318694400454e-05
+        },
+        "maximum_speed_any_wet_m_s": {
+          "reference": 18.70887914315662,
+          "other": 18.024114047058582,
+          "relative_change": -0.03660107539625172
+        },
+        "outflow_volume_m3": {
+          "reference": 0.0,
+          "other": 0.0,
+          "relative_change": null
+        }
+      },
+      "interpretation": "sensitivity only; no asymptotic grid-convergence assertion from two grids"
+    }
+  ],
+  "external_validation_events": 0,
+  "calibration_events": 0,
+  "all_runs_are_conditional_scenarios": true
+}

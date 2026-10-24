@@ -1,0 +1,25 @@
+{
+  "protocol": "q4-r3-official-v2",
+  "cases": [
+    {
+      "run_id": "flatrest_60_ravaflow_single__sf0",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_single__sf0/case.json"
+    },
+    {
+      "run_id": "flatrest_60_ravaflow_multi__sf0",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/flatrest_60_ravaflow_multi__sf0/case.json"
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf0",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf0/case.json"
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_single__sf1",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_single__sf1/case.json"
+    },
+    {
+      "run_id": "bowlrest_60_ravaflow_multi__sf0",
+      "case": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/bowlrest_60_ravaflow_multi__sf0/case.json"
+    }
+  ]
+}

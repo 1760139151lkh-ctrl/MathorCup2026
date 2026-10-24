@@ -1,0 +1,117 @@
+{
+  "version": "q4-r3-spectral-screen-v2",
+  "protocol": {
+    "version": "q4-r3-spectral-screen-v2",
+    "registered_before_spectral_computation": true,
+    "role": "exploratory independent pixel constraint; not accepted event footprint, release polygon or calibration-validation split",
+    "pre_scene": "S2C_45RUM_20260812_0_L2A",
+    "post_scene": "S2C_45RUM_20260928_0_L2A",
+    "reason": "pre AOI relatively clear and post river valley visible; chosen after TCI screening, spectral threshold not yet computed",
+    "bands": [
+      "red",
+      "nir"
+    ],
+    "reflectance_conversion": "per-asset scale, zero effective offset when item boa_offset_applied=true; otherwise metadata offset, with physical range QA",
+    "paired_mask": "both images SCL4 or SCL5; both red/nir DN>1 to exclude noData and legacy clipping-floor pixels; finite NDVI; snow/water/unclassified/dark/cloud excluded",
+    "candidate_change": "preNDVI>0.4 and postNDVI<0.3 and postNDVI-preNDVI<-0.3",
+    "sensitivity_deltaNDVI_thresholds": [
+      -0.2,
+      -0.3,
+      -0.4
+    ],
+    "spatial_comparison": "union P1/P2/P3 250m corridors versus 500-1000m distance annulus, paired-mask denominators separate",
+    "attribution_limits": [
+      "47-day interval includes vegetation seasonality and unrelated processes",
+      "SCL and image registration errors unvalidated locally",
+      "routes/threshold selection are exploration, not independent model validation",
+      "No causal debris-flow footprint acceptance"
+    ],
+    "radiometry_policy": "Earth Search legacy boa_offset_applied=true: apply scale only; provider issue41 contributor guidance, to be cross-checked against C1 same-date actual pixel samples",
+    "minimum_component_pixels": 9,
+    "component_connectivity": 4,
+    "quality_revision_reason": "C1 same-product pixel check reveals legacy DN1 clips negative corrected reflectance; mask floor pixels before inference"
+  },
+  "rows": [
+    {
+      "region": "candidate_corridor_250m",
+      "delta_threshold": -0.2,
+      "region_pixels": 128888,
+      "paired_usable_pixels": 74511,
+      "paired_usable_area_m2": 7451100,
+      "candidate_change_pixels": 40564,
+      "candidate_change_area_m2": 4056400,
+      "change_fraction_of_paired_usable": 0.5444028398491498,
+      "median_deltaNDVI_paired": -0.6018331934017094
+    },
+    {
+      "region": "control_annulus_500_1000m",
+      "delta_threshold": -0.2,
+      "region_pixels": 226955,
+      "paired_usable_pixels": 142262,
+      "paired_usable_area_m2": 14226200,
+      "candidate_change_pixels": 5904,
+      "candidate_change_area_m2": 590400,
+      "change_fraction_of_paired_usable": 0.041500892719067636,
+      "median_deltaNDVI_paired": -0.03603964498085849
+    },
+    {
+      "region": "candidate_corridor_250m",
+      "delta_threshold": -0.3,
+      "region_pixels": 128888,
+      "paired_usable_pixels": 74511,
+      "paired_usable_area_m2": 7451100,
+      "candidate_change_pixels": 40537,
+      "candidate_change_area_m2": 4053700,
+      "change_fraction_of_paired_usable": 0.5440404772449705,
+      "median_deltaNDVI_paired": -0.6018331934017094
+    },
+    {
+      "region": "control_annulus_500_1000m",
+      "delta_threshold": -0.3,
+      "region_pixels": 226955,
+      "paired_usable_pixels": 142262,
+      "paired_usable_area_m2": 14226200,
+      "candidate_change_pixels": 5816,
+      "candidate_change_area_m2": 581600,
+      "change_fraction_of_paired_usable": 0.04088231572732001,
+      "median_deltaNDVI_paired": -0.03603964498085849
+    },
+    {
+      "region": "candidate_corridor_250m",
+      "delta_threshold": -0.4,
+      "region_pixels": 128888,
+      "paired_usable_pixels": 74511,
+      "paired_usable_area_m2": 7451100,
+      "candidate_change_pixels": 40423,
+      "candidate_change_area_m2": 4042300,
+      "change_fraction_of_paired_usable": 0.5425105018051026,
+      "median_deltaNDVI_paired": -0.6018331934017094
+    },
+    {
+      "region": "control_annulus_500_1000m",
+      "delta_threshold": -0.4,
+      "region_pixels": 226955,
+      "paired_usable_pixels": 142262,
+      "paired_usable_area_m2": 14226200,
+      "candidate_change_pixels": 5678,
+      "candidate_change_area_m2": 567800,
+      "change_fraction_of_paired_usable": 0.03991227453571579,
+      "median_deltaNDVI_paired": -0.03603964498085849
+    }
+  ],
+  "connected_candidate_components_ge9pixels": 94,
+  "radiometric_QA": {
+    "policy": "legacy boa_offset_applied true => scale only; C1 pixel spot-check separate",
+    "pre_paired_NDVI_min": -0.45324675324675323,
+    "pre_paired_NDVI_max": 0.9772079772079774,
+    "post_paired_NDVI_min": -0.3169604160647212,
+    "post_paired_NDVI_max": 0.9968
+  },
+  "paired_usable_total_pixels": 798691,
+  "limits": [
+    "47-day interval includes vegetation seasonality and unrelated processes",
+    "SCL and image registration errors unvalidated locally",
+    "routes/threshold selection are exploration, not independent model validation",
+    "No causal debris-flow footprint acceptance"
+  ]
+}

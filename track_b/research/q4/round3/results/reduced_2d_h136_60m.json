@@ -1,0 +1,108 @@
+{
+  "run_id": "2d_h136_60m",
+  "model_id": "independent_2d_hydrostatic_fv",
+  "mechanism_id": "homogeneous_coulomb_voellmy",
+  "experiment_id": "regional_ofat",
+  "scenario_id": "q4-r3-release-h136-v0",
+  "geometry_version": "q4-r3-spatial-copdem-v1",
+  "parameter_version": "q4-r3-reduced-v1",
+  "evaluation_stratum": "conditional_scenario",
+  "parameters": {
+    "name": "h136",
+    "thickness_m": 136,
+    "mu": 0.15,
+    "xi": 1000,
+    "resolution_m": 60,
+    "cfl": 0.35
+  },
+  "density_kg_m3": 2000,
+  "density_role": "scenario bulk density, not observed; no role in volume dynamics",
+  "initial_velocity": {
+    "east_m_s": 0,
+    "north_m_s": 0,
+    "crs": "EPSG:32645"
+  },
+  "time_origin": "bulk release",
+  "initiation_to_release_delay_seconds": null,
+  "inputs": [
+    {
+      "path": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/results/spatial_inputs_60m.npz",
+      "bytes": 241460,
+      "sha256": "35fb1b8b95aaab0953916fa55e818fd5215041d9c705de1bc5a2a36412757915",
+      "role": "frozen common terrain and source binary mask"
+    }
+  ],
+  "summary": {
+    "execution_status": "completed",
+    "failure_reason": null,
+    "duration_requested_seconds": 1800,
+    "duration_actual_seconds": 1800.0,
+    "steps": 6361,
+    "wall_seconds": 83.65741459699348,
+    "initial_volume_m3": 125827200.0,
+    "final_domain_volume_m3": 125827200.0,
+    "outflow_volume_m3": 0.0,
+    "inflow_volume_m3": 0.0,
+    "depth_clipping_added_volume_m3": 0.0,
+    "mass_balance_residual_m3": 0.0,
+    "relative_mass_balance_error": 0.0,
+    "minimum_preclip_depth_m": 0.0,
+    "minimum_final_depth_m": 0.0,
+    "max_depth_m": 180.60592897151568,
+    "maximum_speed_any_wet_m_s": 87.50239298585547,
+    "max_speed_final_h_ge_01_m_s": 8.586485010675617,
+    "final_stationary_volume_v_lt_01_m3": 109383729.9254351,
+    "footprint_area_hmax_ge_01_m2": 9324000.0,
+    "target_arrivals": {
+      "paper_port_symbol": {
+        "travel_time_seconds": null,
+        "arrival_status": "not_reached_within_horizon",
+        "arrival_time_bracket_seconds": null,
+        "target_cells": 8,
+        "definition": "first solver step with h >= 0.1 m in raster target mask; previous step below threshold",
+        "time_origin": "seconds after scenario bulk release",
+        "initiation_to_release_delay_seconds": null
+      },
+      "candidate_channel": {
+        "travel_time_seconds": 6.253308029363578,
+        "arrival_status": "arrived",
+        "arrival_time_bracket_seconds": [
+          6.101841973177417,
+          6.253308029363578
+        ],
+        "target_cells": 1351,
+        "definition": "first solver step with h >= 0.1 m in raster target mask; previous step below threshold",
+        "time_origin": "seconds after scenario bulk release",
+        "initiation_to_release_delay_seconds": null
+      }
+    },
+    "initial_mass_kg": 251654400000.0,
+    "final_mass_kg": 251654400000.0
+  },
+  "fields": {
+    "path": "/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/reduced/2d_h136_60m/fields.npz",
+    "bytes": 796025,
+    "sha256": "59bccc3978cb82553685d5cae8b385a4341cacaf47e50038c44d8346e8094858",
+    "role": "full gridded maxdepth/maxspeed/final state and 30s process snapshots"
+  },
+  "execution": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:22) [Clang 22.1.3 ]",
+    "platform": "macOS-26.1-x86_64-i386-64bit"
+  },
+  "raster_shape": [
+    154,
+    300
+  ],
+  "resolution_m": 60.0,
+  "source_area_m2_common": 925200.0,
+  "native_source_area_m2": 925200.0,
+  "source_depth_scale": 1.0,
+  "source_initial_volume_integral_m3": 125827200.0,
+  "target_definition": "cell centres within 100 m of paper_port_symbol; h>=0.1m at solver step",
+  "source_bedstep_gt_thickness_fraction": 0.0,
+  "no_entrainment": true,
+  "deposition_interpretation": "h_final is residual material, not all stationary deposit",
+  "source_bedstep_diagnostic_definition": "legacy key: max absolute central row/col elevation difference, one-cell slope proxy; not maximum adjacent face jump",
+  "source_max_adjacent_face_jump_gt_initial_h_fraction": 0.023346303501945526,
+  "source_max_adjacent_face_jump_definition": "maximum |z_neighbour-z_cell| over four direct neighbours, compared with actual initial thickness"
+}

@@ -1,0 +1,21 @@
+{
+  "reviewed_at_utc": "2026-10-24T09:26:55.805532+00:00",
+  "source": "frozen propagation_v1 bound fields",
+  "figures": [
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_domain_sensitivity.png",
+      "bytes": 212499,
+      "sha256": "983d116d4b6373215d02eeae8c10520fe5116a3d0483c50536c8143d977de813",
+      "actual_opened": true,
+      "review": "Readable UTMkm/colour depth scales or masskgderivedpercent and native sample markers; original/expanded domain differences and unresolved mass qualification explicit. Domain image regenerated deterministically after title-marker edit affecting only mass plot."
+    },
+    {
+      "path": "track_b/research/q4/round3/figures/comparison_mass_budget.png",
+      "bytes": 139009,
+      "sha256": "7a8084213be1d7cbb748091a8fbfe100597dd08fb3dc0e0e1159d6b8add3f922",
+      "actual_opened": true,
+      "review": "Readable UTMkm/colour depth scales or masskgderivedpercent and native sample markers; original/expanded domain differences and unresolved mass qualification explicit. Domain image regenerated deterministically after title-marker edit affecting only mass plot."
+    }
+  ],
+  "independent_validation_claim": false
+}

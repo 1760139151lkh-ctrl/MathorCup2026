@@ -1,0 +1,10 @@
+{
+  "requested": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+  "image_id": "sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29",
+  "repo_digests": [
+    "mathorcup-r3-solvers@sha256:a725b54f17797c8d4ffd2ac94a02b4a613115832c0633eb26135b309d5336f29"
+  ],
+  "architecture": "amd64",
+  "os": "linux",
+  "inspected_utc": "2026-10-24T11:05:43.222927+00:00"
+}
