@@ -1,0 +1,309 @@
+{
+  "generated_at_utc": "2026-10-24T09:32:49.688551+00:00",
+  "round": "round3",
+  "mode": "final",
+  "status": "incomplete",
+  "passed": false,
+  "checks": [
+    {
+      "name": "round3_frozen_inputs_all_checkouts",
+      "status": "passed",
+      "evidence": {
+        "manifest_sha256": "fd755fab38df285a67c986026859be5f635a314aa3f79f2d247a2626246c3a53",
+        "checkouts": [
+          {
+            "root": "/Users/maxchen/Documents/MathorCup/MathorCup2026",
+            "files": 725,
+            "all_unchanged": true
+          },
+          {
+            "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+            "files": 725,
+            "all_unchanged": true
+          },
+          {
+            "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2",
+            "files": 725,
+            "all_unchanged": true
+          },
+          {
+            "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3",
+            "files": 725,
+            "all_unchanged": true
+          },
+          {
+            "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
+            "files": 725,
+            "all_unchanged": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "historical_bytes:/Users/maxchen/Documents/MathorCup/MathorCup2026",
+      "status": "passed",
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/MathorCup2026",
+        "files": 300,
+        "all_unchanged": true
+      }
+    },
+    {
+      "name": "historical_bytes:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+      "status": "passed",
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+        "files": 300,
+        "all_unchanged": true
+      }
+    },
+    {
+      "name": "historical_bytes:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2",
+      "status": "passed",
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2",
+        "files": 300,
+        "all_unchanged": true
+      }
+    },
+    {
+      "name": "historical_bytes:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3",
+      "status": "passed",
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3",
+        "files": 300,
+        "all_unchanged": true
+      }
+    },
+    {
+      "name": "historical_bytes:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
+      "status": "passed",
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
+        "files": 300,
+        "all_unchanged": true
+      }
+    },
+    {
+      "name": "q1:final_source_and_integration",
+      "status": "passed",
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+        "source_commit": "8583b8164154abc0fa7a3f89f9f38efc780c5f3a",
+        "integration_commit": "a6162b313d21ee9d390eab8e845e77d95df86388",
+        "changed_paths_verified_in_main": 84,
+        "clean": true,
+        "five_exit_checks_passed": true,
+        "manifests": {
+          "input_manifest.json": {
+            "path": "track_b/research/q1/round3/results/input_manifest.json",
+            "file_count": 37,
+            "referenced_bytes": 40189736,
+            "sha256": "7cfcbd7b9d899932d073e3abc7c23bfd624780fbac6316003dc5247c5b2740ad",
+            "all_entries_match": true
+          },
+          "output_manifest.json": {
+            "path": "track_b/research/q1/round3/output_manifest.json",
+            "file_count": 79,
+            "referenced_bytes": 87036692,
+            "sha256": "f9066518e7466d3cfd5cda1b249fe27402ca8c245f27f4933c88a67bc083daab",
+            "all_entries_match": true
+          }
+        }
+      }
+    },
+    {
+      "name": "q1:bundle:/Users/maxchen/Documents/MathorCup/MathorCup2026/track_b/research/q1/round3/exports/feature_bundle.json",
+      "status": "passed",
+      "evidence": {
+        "path": "track_b/research/q1/round3/exports/feature_bundle.json",
+        "file_count": 10,
+        "referenced_bytes": 26963743,
+        "sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+        "all_entries_match": true
+      }
+    },
+    {
+      "name": "q1:bundle:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1/track_b/research/q1/round3/exports/feature_bundle.json",
+      "status": "passed",
+      "evidence": {
+        "path": "track_b/research/q1/round3/exports/feature_bundle.json",
+        "file_count": 10,
+        "referenced_bytes": 26963743,
+        "sha256": "4e65566a1a473d7fdd16af10f209c2cb6841282b215e8c9d4981f748d6c1cc8e",
+        "all_entries_match": true
+      }
+    },
+    {
+      "name": "q2:final_source_and_integration",
+      "status": "passed",
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2",
+        "source_commit": "a4a034eb3a93ae93d9ffb3852a0d7e13eabd2231",
+        "integration_commit": "36f7fd8a59c36cb2f380af2a12aa1e7ed2d036a0",
+        "changed_paths_verified_in_main": 221,
+        "clean": true,
+        "five_exit_checks_passed": true,
+        "manifests": {
+          "input_manifest.json": {
+            "path": "track_b/research/q2/round3/input_manifest.json",
+            "file_count": 60,
+            "referenced_bytes": 126343406,
+            "sha256": "0bc88f7359cb3cd58d4dabe69fa0038320822965fd02a48db2f96460dbd53cb7",
+            "all_entries_match": true
+          },
+          "output_manifest.json": {
+            "path": "track_b/research/q2/round3/output_manifest.json",
+            "file_count": 220,
+            "referenced_bytes": 77925432,
+            "sha256": "1ad183731b3fe46a554c98a8282af94aeb668526e3256c3c28c4c429592cb097",
+            "all_entries_match": true
+          }
+        }
+      }
+    },
+    {
+      "name": "q2:bundle:/Users/maxchen/Documents/MathorCup/MathorCup2026/track_b/research/q2/round3/exports/mechanism_bundle.json",
+      "status": "passed",
+      "evidence": {
+        "path": "track_b/research/q2/round3/exports/mechanism_bundle.json",
+        "file_count": 8,
+        "referenced_bytes": 5291189,
+        "sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+        "all_entries_match": true
+      }
+    },
+    {
+      "name": "q2:bundle:/Users/maxchen/Documents/MathorCup/MathorCup2026/track_b/research/q2/round3/exports/release_bundle.json",
+      "status": "passed",
+      "evidence": {
+        "path": "track_b/research/q2/round3/exports/release_bundle.json",
+        "file_count": 4,
+        "referenced_bytes": 1101582,
+        "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+        "all_entries_match": true
+      }
+    },
+    {
+      "name": "q2:bundle:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/exports/mechanism_bundle.json",
+      "status": "passed",
+      "evidence": {
+        "path": "track_b/research/q2/round3/exports/mechanism_bundle.json",
+        "file_count": 8,
+        "referenced_bytes": 5291189,
+        "sha256": "250f25f180bfd2f7c6c296b679dd2c9aea18826411f5e7195f18b9ee07a56bc1",
+        "all_entries_match": true
+      }
+    },
+    {
+      "name": "q2:bundle:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2/track_b/research/q2/round3/exports/release_bundle.json",
+      "status": "passed",
+      "evidence": {
+        "path": "track_b/research/q2/round3/exports/release_bundle.json",
+        "file_count": 4,
+        "referenced_bytes": 1101582,
+        "sha256": "a22c0949d16f3f1f50efc6f97a74734bed45a8553096ec3084c84298c474d56b",
+        "all_entries_match": true
+      }
+    },
+    {
+      "name": "q3:final_source_and_integration",
+      "status": "passed",
+      "evidence": {
+        "root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3",
+        "source_commit": "bb9258d791a6e9735c28528ff4408c7434c3d149",
+        "integration_commit": "15eec61aad14de43c06963771642f1e6b624aedf",
+        "changed_paths_verified_in_main": 512,
+        "clean": true,
+        "five_exit_checks_passed": true,
+        "manifests": {
+          "input_manifest.json": {
+            "path": "track_b/research/q3/round3/results/input_manifest.json",
+            "file_count": 180,
+            "referenced_bytes": 88108631,
+            "sha256": "d75a50dff1e7e9a62bd75cdded747bf4df1a0924b1fe46c1c76d088303fc1c54",
+            "all_entries_match": true
+          },
+          "output_manifest.json": {
+            "path": "track_b/research/q3/round3/results/output_manifest.json",
+            "file_count": 511,
+            "referenced_bytes": 244388673,
+            "sha256": "be979b3449118d8332ca7ff07c52c8c503889650246be8c97ac4d2f8565ee5b9",
+            "all_entries_match": true
+          }
+        }
+      }
+    },
+    {
+      "name": "q3:bundle:/Users/maxchen/Documents/MathorCup/MathorCup2026/track_b/research/q3/round3/exports/event_bundle.json",
+      "status": "passed",
+      "evidence": {
+        "path": "track_b/research/q3/round3/exports/event_bundle.json",
+        "file_count": 3,
+        "referenced_bytes": 12123,
+        "sha256": "075b149214b5c9a8827af45af221ee6ee6b6428090e6d9337afb1943698d2faf",
+        "all_entries_match": true
+      }
+    },
+    {
+      "name": "q3:bundle:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3/track_b/research/q3/round3/exports/event_bundle.json",
+      "status": "passed",
+      "evidence": {
+        "path": "track_b/research/q3/round3/exports/event_bundle.json",
+        "file_count": 3,
+        "referenced_bytes": 12123,
+        "sha256": "075b149214b5c9a8827af45af221ee6ee6b6428090e6d9337afb1943698d2faf",
+        "all_entries_match": true
+      }
+    },
+    {
+      "name": "q4:final_source_and_integration",
+      "status": "incomplete",
+      "error": "q4: missing final registry fields ['source_commit', 'integration_commit']"
+    },
+    {
+      "name": "q4:bundle:/Users/maxchen/Documents/MathorCup/MathorCup2026/track_b/research/q4/round3/exports/geometry_bundle.json",
+      "status": "incomplete",
+      "error": "Missing export bundle: /Users/maxchen/Documents/MathorCup/MathorCup2026/track_b/research/q4/round3/exports/geometry_bundle.json"
+    },
+    {
+      "name": "q4:bundle:/Users/maxchen/Documents/MathorCup/MathorCup2026/track_b/research/q4/round3/exports/propagation_bundle.json",
+      "status": "incomplete",
+      "error": "Missing export bundle: /Users/maxchen/Documents/MathorCup/MathorCup2026/track_b/research/q4/round3/exports/propagation_bundle.json"
+    },
+    {
+      "name": "q4:bundle:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/exports/geometry_bundle.json",
+      "status": "passed",
+      "evidence": {
+        "path": "track_b/research/q4/round3/exports/geometry_bundle.json",
+        "file_count": 8,
+        "referenced_bytes": 1060847,
+        "sha256": "64cd8369ce79d599890d4ed726a87833b63f64472c4dbea54408e39e79a40561",
+        "all_entries_match": true
+      }
+    },
+    {
+      "name": "q4:bundle:/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4/track_b/research/q4/round3/exports/propagation_bundle.json",
+      "status": "passed",
+      "evidence": {
+        "path": "track_b/research/q4/round3/exports/propagation_bundle.json",
+        "file_count": 40,
+        "referenced_bytes": 10174196,
+        "sha256": "aeafa98159440c675eaae00b2cbd7afec21b31b92a2511f8cb3ed988594ad9e7",
+        "all_entries_match": true
+      }
+    },
+    {
+      "name": "workflow_and_final_review_links",
+      "status": "passed",
+      "evidence": {
+        "documents": 2,
+        "local_links": 29
+      }
+    }
+  ],
+  "review_tool_version": "1.0.0",
+  "review_tool_sha256": "1c4b1b673b14a7a474be202fad86e1d907715e7f584bb21b89b6a584b8fb7864",
+  "scope": "Frozen inputs, historical bytes, source scope, manifests and exports; handoff adoption and scientific conclusions require advisor review.",
+  "human_scientific_adoption": "pending"
+}
