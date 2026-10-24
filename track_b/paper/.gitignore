@@ -9,3 +9,5 @@
 qa/pages/
 qa/contact_sheets/
 __pycache__/
+build/
+.DS_Store

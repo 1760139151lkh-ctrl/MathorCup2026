@@ -1,0 +1,259 @@
+{
+  "claims": [
+    {
+      "claim_id": "public-rows_full_time_grid",
+      "statement": "共同小时网格为52584小时",
+      "value": 52584,
+      "unit": "count",
+      "source_files": [
+        {
+          "path": "track_b/data/processed/temporal/quality_summary.json",
+          "sha256": "8c55da8bbc4300fc757bc69494bf24a2b258a54f99e238cc79135b77ae1aecd3"
+        }
+      ],
+      "model_id": "shared-paper-synthesis",
+      "scenario_id": null,
+      "scope": "Source-supported synthesis; evaluation roles follow chapters",
+      "paper_anchor": "tab:common-data",
+      "checks": [
+        {
+          "source_path": "track_b/data/processed/temporal/quality_summary.json",
+          "json_pointer": "/hourly/rows_full_time_grid",
+          "expected": 52584
+        }
+      ]
+    },
+    {
+      "claim_id": "public-measurement_columns",
+      "statement": "小时资料共63测量字段",
+      "value": 63,
+      "unit": "count",
+      "source_files": [
+        {
+          "path": "track_b/data/processed/temporal/quality_summary.json",
+          "sha256": "8c55da8bbc4300fc757bc69494bf24a2b258a54f99e238cc79135b77ae1aecd3"
+        }
+      ],
+      "model_id": "shared-paper-synthesis",
+      "scenario_id": null,
+      "scope": "Source-supported synthesis; evaluation roles follow chapters",
+      "paper_anchor": "tab:common-data",
+      "checks": [
+        {
+          "source_path": "track_b/data/processed/temporal/quality_summary.json",
+          "json_pointer": "/hourly/measurement_columns",
+          "expected": 63
+        }
+      ]
+    },
+    {
+      "claim_id": "public-raw_qc_columns",
+      "statement": "小时资料保留37质量标记字段",
+      "value": 37,
+      "unit": "count",
+      "source_files": [
+        {
+          "path": "track_b/data/processed/temporal/quality_summary.json",
+          "sha256": "8c55da8bbc4300fc757bc69494bf24a2b258a54f99e238cc79135b77ae1aecd3"
+        }
+      ],
+      "model_id": "shared-paper-synthesis",
+      "scenario_id": null,
+      "scope": "Source-supported synthesis; evaluation roles follow chapters",
+      "paper_anchor": "tab:common-data",
+      "checks": [
+        {
+          "source_path": "track_b/data/processed/temporal/quality_summary.json",
+          "json_pointer": "/hourly/raw_qc_columns",
+          "expected": 37
+        }
+      ]
+    },
+    {
+      "claim_id": "public-q1-design",
+      "statement": "因素研究使用5526窗口和112特征",
+      "value": {
+        "windows": 5526,
+        "features": 112
+      },
+      "unit": "count",
+      "source_files": [
+        {
+          "path": "track_b/research/q1/round3/results/sample_metadata.csv",
+          "sha256": "06c7b1273240779fcbde4a9777a878124fd9de47d5a4faff190f5118e73625b5"
+        },
+        {
+          "path": "track_b/research/q1/round3/results/feature_contract.csv",
+          "sha256": "ac992dfcb333e79f9d07d8ad0a16aa23e4719867f53fcf2f9560123bf3899ccb"
+        }
+      ],
+      "model_id": "shared-paper-synthesis",
+      "scenario_id": null,
+      "scope": "Source-supported synthesis; evaluation roles follow chapters",
+      "paper_anchor": "sec:conclusion",
+      "checks": []
+    },
+    {
+      "claim_id": "public-q2-design",
+      "statement": "解析热研究2048情景",
+      "value": 2048,
+      "unit": "scenarios",
+      "source_files": [
+        {
+          "path": "track_b/research/q2/round3/results/analytic_thermal/summary.json",
+          "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080"
+        }
+      ],
+      "model_id": "shared-paper-synthesis",
+      "scenario_id": null,
+      "scope": "Source-supported synthesis; evaluation roles follow chapters",
+      "paper_anchor": "sec:conclusion",
+      "checks": [
+        {
+          "source_path": "track_b/research/q2/round3/results/analytic_thermal/summary.json",
+          "json_pointer": "/scenario_outcomes",
+          "expected": 2048
+        }
+      ]
+    },
+    {
+      "claim_id": "public-q2-thermal-reference",
+      "statement": "解析热和细FD最大有限启动差，正文四舍五入为0.347小时",
+      "value": 0.34707951714221963,
+      "unit": "h",
+      "source_files": [
+        {
+          "path": "track_b/research/q2/round3/results/analytic_thermal/summary.json",
+          "sha256": "711df117f1cfc269b1a4d56bd039a4d482f42f3c6896b03b4fd1d3922d1c1080"
+        }
+      ],
+      "model_id": "shared-paper-synthesis",
+      "scenario_id": null,
+      "scope": "Source-supported synthesis; evaluation roles follow chapters",
+      "paper_anchor": "tab:common-numerics",
+      "checks": [
+        {
+          "source_path": "track_b/research/q2/round3/results/analytic_thermal/summary.json",
+          "json_pointer": "/max_analytic_fd_onset_difference/value",
+          "expected": 0.34707951714221963
+        }
+      ]
+    },
+    {
+      "claim_id": "public-mapped_runs",
+      "statement": "跨问最终传播关联 mapped_runs",
+      "value": 7,
+      "unit": "count",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/final_propagation_v4/summary.json",
+          "sha256": "ea43fc4e062a22c4c5165be7f1c27b32cf6df0570c92427e8aaa968a33a775cb"
+        }
+      ],
+      "model_id": "shared-paper-synthesis",
+      "scenario_id": null,
+      "scope": "Source-supported synthesis; evaluation roles follow chapters",
+      "paper_anchor": "sec:conclusion",
+      "checks": [
+        {
+          "source_path": "track_b/research/q3/round3/results/final_propagation_v4/summary.json",
+          "json_pointer": "/mapped_runs",
+          "expected": 7
+        }
+      ]
+    },
+    {
+      "claim_id": "public-mechanical_designs",
+      "statement": "跨问最终传播关联 mechanical_designs",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/final_propagation_v4/summary.json",
+          "sha256": "ea43fc4e062a22c4c5165be7f1c27b32cf6df0570c92427e8aaa968a33a775cb"
+        }
+      ],
+      "model_id": "shared-paper-synthesis",
+      "scenario_id": null,
+      "scope": "Source-supported synthesis; evaluation roles follow chapters",
+      "paper_anchor": "sec:conclusion",
+      "checks": [
+        {
+          "source_path": "track_b/research/q3/round3/results/final_propagation_v4/summary.json",
+          "json_pointer": "/mechanical_designs",
+          "expected": 4
+        }
+      ]
+    },
+    {
+      "claim_id": "public-run_target_records",
+      "statement": "跨问最终传播关联 run_target_records",
+      "value": 49,
+      "unit": "count",
+      "source_files": [
+        {
+          "path": "track_b/research/q3/round3/results/final_propagation_v4/summary.json",
+          "sha256": "ea43fc4e062a22c4c5165be7f1c27b32cf6df0570c92427e8aaa968a33a775cb"
+        }
+      ],
+      "model_id": "shared-paper-synthesis",
+      "scenario_id": null,
+      "scope": "Source-supported synthesis; evaluation roles follow chapters",
+      "paper_anchor": "sec:conclusion",
+      "checks": [
+        {
+          "source_path": "track_b/research/q3/round3/results/final_propagation_v4/summary.json",
+          "json_pointer": "/run_target_records",
+          "expected": 49
+        }
+      ]
+    },
+    {
+      "claim_id": "public-entrainment-volume",
+      "statement": "有界夹带原生新增体积5.61843百万立方米",
+      "value": 5618430.0,
+      "unit": "m3",
+      "source_files": [
+        {
+          "path": "track_b/research/q4/round3/results/entrainment_residual_comparison.json",
+          "sha256": "f5e53c224c623e96109c54548b630fa95b002ae1e397bf99d173f898ea0566fa"
+        }
+      ],
+      "model_id": "shared-paper-synthesis",
+      "scenario_id": null,
+      "scope": "Source-supported synthesis; evaluation roles follow chapters",
+      "paper_anchor": "tab:common-numerics",
+      "checks": [
+        {
+          "source_path": "track_b/research/q4/round3/results/entrainment_residual_comparison.json",
+          "json_pointer": "/native_added_volume_m3",
+          "expected": 5618430.0
+        }
+      ]
+    },
+    {
+      "claim_id": "public-reduced-count",
+      "statement": "简化区域计算34项",
+      "value": 34,
+      "unit": "runs",
+      "source_files": [
+        {
+          "path": "track_b/research/q4/round3/results/comparison_summary.json",
+          "sha256": "c231cdaca75c324af6b03e8692859001d25a896fb0a23714279175c381c96762"
+        }
+      ],
+      "model_id": "shared-paper-synthesis",
+      "scenario_id": null,
+      "scope": "Source-supported synthesis; evaluation roles follow chapters",
+      "paper_anchor": "sec:conclusion",
+      "checks": [
+        {
+          "source_path": "track_b/research/q4/round3/results/comparison_summary.json",
+          "json_pointer": "/reduced_regional_count",
+          "expected": 34
+        }
+      ]
+    }
+  ],
+  "review_note": "Q1 counts independently counted with csv.DictReader; JSON value checks explicit; other major overview numbers also indexed in q1-q4 claims."
+}

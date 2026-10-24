@@ -1,0 +1,34 @@
+{
+  "phase": "paper",
+  "baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2",
+  "workspaces": [
+    {
+      "question": "q1",
+      "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q1",
+      "branch": "codex/track-b-q1-paper",
+      "previous_source_commit": "8583b8164154abc0fa7a3f89f9f38efc780c5f3a",
+      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2"
+    },
+    {
+      "question": "q2",
+      "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q2",
+      "branch": "codex/track-b-q2-paper",
+      "previous_source_commit": "604ce1be4d0f09cd9d18f3c1556993ddf066981d",
+      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2"
+    },
+    {
+      "question": "q3",
+      "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q3",
+      "branch": "codex/track-b-q3-paper",
+      "previous_source_commit": "f629a332844f07ff0be3275b74f24d7018fbdcac",
+      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2"
+    },
+    {
+      "question": "q4",
+      "execution_root": "/Users/maxchen/Documents/MathorCup/worktrees/track-b-q4",
+      "branch": "codex/track-b-q4-paper",
+      "previous_source_commit": "6d0562965727f32cb5ab6ae0f665c00b958eb109",
+      "paper_baseline_commit": "eecf07db7873b3c2c63275fa0b419867d8bdd3b2"
+    }
+  ]
+}

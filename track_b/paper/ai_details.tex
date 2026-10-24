@@ -1,0 +1,133 @@
+% !TeX program = xelatex
+% AI-assisted: OpenAI Codex / GPT-6 family, OpenAI, 2026-10-24.
+\documentclass[UTF8,a4paper,zihao=-4,fontset=none]{ctexart}
+\input{preamble}
+\hypersetup{pdftitle={AI工具使用详情说明},pdfsubject={赛道B论文配套说明},pdfauthor={}}
+\newcommand{\AIfile}[1]{\texttt{\nolinkurl{#1}}}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries AI工具使用详情说明}\par\vspace{0.6em}
+{\large 《基于多源数据与结构水热耦合的吉隆泥石流触发及传播研究》}\par
+\vspace{0.5em}记录日期：2026年10月24日
+\end{center}
+
+本说明依据实际对话、版本化研究包、程序、数据来源索引和审查记录编制，说明论文中的人工智能辅助范围、关键交互、采用内容及人工调整。论文采用成果导向叙事，具体数值通过“论断—源表—图表—章节”索引关联。本说明同时保留辅助过程的实际分工，使文字、方法、代码和图表的来源清晰可查。
+
+\section{工具、版本及使用时段}
+\begin{table}[H]\centering\small
+\begin{tabularx}{\textwidth}{p{3.1cm}Y}
+\toprule 项目 & 实际登记 \\
+\midrule
+工具与开发机构 & OpenAI Codex；开发机构为OpenAI。 \\
+可核对的模型层级 & 本次论文编制会话的系统身份为GPT-6系列Codex。历史研究记录以Codex工具名登记。 \\
+精确模型快照 & 会话接口未提供精确快照标识；本说明按可审计的工具名和系列身份记录，不从公开产品列表推定实际调用型号。 \\
+使用时段 & 项目研究记录覆盖2026年10月23日至24日；本轮论文编制记录日期为2026年10月24日。 \\
+组织方式 & 主参谋聊天统筹，四个持续研究聊天分别承担Q1—Q4；内部辅助代理承担约定范围的代码、算术、来源及文件复核。 \\
+执行与素材 & 研究程序在本地运行；Linux求解器采用本地容器。论文科学图由真实结果表或过程场通过绘图程序生成。 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Codex的工具身份参考OpenAI官方代码生成说明\footnote{OpenAI，Code generation，\url{https://developers.openai.com/api/docs/guides/code-generation}，访问日期：2026-10-24。该来源用于说明工具用途，不用于推断本项目精确模型快照。}。研究软件的具体版本、容器镜像及求解器源码版本由本项目运行清单单独登记；这些软件的数值计算与大语言模型生成文本分别记录。
+
+\section{实际用途与应用环节}
+AI辅助贯穿资料整理、模型程序、计算组织、结果比较及论文制作。下表列出实际贡献，详细文件可通过第\ref{sec:ai-evidence}节的索引复查。
+
+\begingroup\small
+\begin{longtable}{p{2.0cm}p{5.7cm}p{5.9cm}}
+\toprule 环节 & AI辅助内容 & 实际输出及论文使用方式 \\
+\midrule\endfirsthead
+\toprule 环节 & AI辅助内容 & 实际输出及论文使用方式 \\
+\midrule\endhead
+题意与资料 & 将四问拆解为数据、方法与结果要求；核查时间、单位、质量标记、空间参考和事件阶段；检索原论文与官方产品说明。 & 任务矩阵、变量字典、时空审计和来源索引；用于共同数据与研究框架。 \\
+Q1气象因素 & 辅助特征公式、三路线因素族比较、背景等权、重叠窗口隔离、层级重采样及数值复算。 & 112项特征、三套TOP5、300个折配置及100次抽样记录；共识频率按实际可估计的44次抽样报告。 \\
+Q2触发机制 & 辅助结构—温度—水—损伤方程、共同参数设计、导热数值与解析计算、联合敏感性、实验数据核对与本构比较。 & 每版2048情景；原始141次实验与14行派生汇总分开，形成32组拟合、576个留组折和32000次条件重采样。 \\
+Q3时间预测 & 辅助机制首次过阈、逆速度、状态空间及风险/生存模型代码；公开变形、天气和波形获取；逐发布截断、样本分组和区间评价。 & 三类预测引擎；其中变形与生存模型使用13个失稳物理组及1个右删失组进行外部评价；天气支线153.6万设计行；7个传播运行、4个机械设计、49条目标关联。 \\
+Q4传播响应 & 辅助地形与几何处理、一维/二维程序、原生求解器配置、本地容器运行、场数据解析及模型比较。 & 34个简化区域计算、31个原生区域计算，以及材料适用性记录；过程帧、流深、足迹、目标响应、夹带和组分对照。 \\
+技术与科学复核 & 公式、量纲、守恒、因果信息截止、实际时刻、分母、版本血缘及哈希检查；提出并执行定点修订。 & 第三轮23项整仓检查、20次交付的40项核对；各问独立AI复核记录。 \\
+论文编制 & 辅助中文正文、公式转写、图表重绘、摘要与结论提炼、文献整理、LaTeX排版和本说明编制。 & 独立论文工程、证据索引、图表程序和AI贡献标注；正文、图表及程序按实际贡献登记。 \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+AI直接参与了模型方案、程序实现、求解调度、结果解释和文本生成，而非仅进行语言润色。观测资料、外部实验和第三方求解器均以其提供者为来源，AI生成的模型状态、情景和图件按计算结果登记。
+
+\section{关键交互记录}
+本节保留能够改变工作范围或采用方式的重要提示词摘录，并给出回复/产物摘要。提示词使用引号，回复栏为摘要，不作为逐字回复转录。记录中的路径与身份采用匿名写法，仅作隐私处理，技术任务保持原意。完整研究交接及实际采用路径见第\ref{sec:ai-evidence}节。
+
+\begingroup\small
+\begin{longtable}{p{1.1cm}p{5.3cm}p{7.2cm}}
+\toprule 编号 & 用户提示词摘录 & AI回复或产物摘要 \\
+\midrule\endfirsthead
+\toprule 编号 & 用户提示词摘录 & AI回复或产物摘要 \\
+\midrule\endhead
+I01 & “我们选择赛道B，当前窗口负责主参谋……前期调研—工具与环境依赖的准备—正式分析—撰写论文，优化一下流程” & 建立题意统一、定向调研与审计、环境准备、模型研究、论文和交付流程。 \\
+I02 & “可以不用排成具体时间的日程，直接给出流程即可，时间很充裕” & 按阶段产物和验收组织工作，采用阶段推进方式。 \\
+I03 & “开始阶段1和阶段2：题目拆解与口径统一、定向调研与数据审计，详细推进” & 形成任务矩阵、时间/空间对象定义、全量审计、官方来源登记及数据准备方案。 \\
+I04 & “每一问创建一个分支窗口……并行研究探索”及获批准的四窗计划 & 沿用主参谋与四问研究窗，建立独立工作树、共同基线、文件责任和显式交接。 \\
+I05 & “第四阶段第二轮：有界补证与背景分析”及完整计划 & 围绕语义、参数、标签和空间对象开展限定补证，分别保存本轮资料与背景结果。 \\
+I06 & “第四阶段第三轮：机制探索、模型竞争、定向补证并行”及完整计划 & 本地实施四问模型竞争、公开资料获取、机制与传播耦合，形成可复跑计算、比较图表和联合推荐。 \\
+I07 & “已评审，可以进一步推进……尽可能针对我们目前的成果进行正向的描述……避免过度的防御性” & 将论文叙事调整为方法、结果和解释；把适用条件集中放入定义、表注及模型评价，统一成果导向写作规范。 \\
+I08 & “PLEASE IMPLEMENT THIS PLAN: 论文阶段：成果导向的LaTeX完整初稿”及完整计划 & 进入中文完整论文制作，组织四问正文、统一符号和证据索引，生成论文及AI使用详情说明。 \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\section{采用内容与人工调整记录}
+\subsection{本稿采用方式}
+论文按用户已评审的研究成果组织完整初稿。Q1采用因素族三路线与共识排序；Q2采用共同参数下的四机制比较与解析导热参考；Q3分别呈现本地条件启动、外部站点区间评价和给定释放后的传播响应；Q4采用全源面ST、120米格网的过程图主线，辅以60米、孔压及复合固水对照。采用的是相应源表、方程和计算结果，主要数字与情景编号登记在论文证据索引。
+
+\subsection{可定位的人工决策与调整}
+现有记录中，用户已完成第三轮评审并明确授权论文阶段。人工动作按其实际内容登记如下。
+\begin{table}[H]\centering\small
+\begin{tabularx}{\textwidth}{p{1.1cm}p{4.1cm}Y}
+\toprule 编号 & 人工动作 & 对本稿的实际影响 \\
+\midrule
+H01 & 确定赛道B和主参谋角色 & 固定四问研究与全局集成的分工。 \\
+H02 & 选择阶段流程、四窗并行及本地完整研究 & 固定工作组织、计算位置与模型竞争范围。 \\
+H03 & 明确“已评审，可以进一步推进” & 第三轮成果进入完整论文制作，采用记录写入\AIfile{adoption_record.json}。 \\
+H04 & 要求成果导向、减少防御性语言 & 正文突出方法和定量发现，将条件集中表述，并保留实际样本分母与敏感性数值。 \\
+H05 & 批准完整LaTeX初稿计划 & 固定题目、章节、版式、图表、程序附录和AI披露交付。 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+上述记录描述已发生的人工选择和文字方向调整。逐公式人工改写、逐行程序修改及个人分工，在当前可核对记录中没有对应明细；本说明不据AI的自动检查反推这些人工操作。后续队员对本稿的具体增删、重算及解释调整，可沿论文版本继续登记。
+
+\subsection{研究过程中的AI修订}
+多轮AI复核提出并落实了具体纠正：Q1保留真实重采样分母与土水状态/变化方向；Q2增加全设计导热配对和解析参考，分开处理实验应力等级与实测应力；Q3修订记录年龄泄漏、固定历史风险集、条件区间及传播情景谱系；Q4分开原生时刻、质量预算、材料组分和格网/CFL对照。这些均登记为AI辅助修订，不列作人工修改。
+
+r.avaflow资源收尾修订单独保存原始源码与差分。派生版将45处\AIfile{Segment_release}改为\AIfile{Segment_close}；70项有效配置共同输出逐字节一致。该修改用于运行资源管理，其来源、二进制与对比记录单列，不作为新的物理模型。
+
+\section{正文、图表及程序的标注方式}
+四问章节末尾标明“本节文字整理、程序与图表制作使用了OpenAI Codex辅助”；图表由本节代码读取源表或场数据重绘，其来源、情景、单位及时间定义写入图注或证据索引。文后AI使用声明概述全篇贡献并引用Codex工具条目。程序附录保留实际采用的自编源码；程序注释采用下列信息要素：
+\begin{quote}\small
+AI-assisted: OpenAI Codex / GPT-6 family, OpenAI, 2026-10-24.\par
+Contribution: model/program/plotting assistance; see AI\_DISCLOSURE.md.\par
+Exact model snapshot: not exposed by the session interface.
+\end{quote}
+历史程序按其已有日期与注释登记，不把论文编制日期替写为历史运行日期。第三方求解器引用其作者、版本与源码；本项目配置、接口和后处理程序的AI辅助贡献另行说明。
+
+\section{记录来源与复查入口}\label{sec:ai-evidence}
+\begingroup\small
+\begin{longtable}{p{3.6cm}p{10.0cm}}
+\toprule 内容 & 项目内记录入口（仓库相对路径） \\
+\midrule\endfirsthead
+\toprule 内容 & 项目内记录入口（仓库相对路径） \\
+\midrule\endhead
+全过程AI交互摘要 & \AIfile{track_b/AI_USAGE.md}。记录工具、用户关键提示、实际输出和研究修订。 \\
+当前人工评审/论文授权 & \AIfile{track_b/paper/adoption_record.json}；本稿所依据的用户评审及实施计划。 \\
+第三轮联合结果 & \AIfile{track_b/docs/19_stage4_round3_review.md}；各问结果、推荐路线及论文材料。 \\
+Q1实际贡献与命令 & \AIfile{track_b/research/q1/round3/HANDOFF.md}、\AIfile{REPRODUCE.md}及同目录结果清单。 \\
+Q2实际贡献与命令 & \AIfile{track_b/research/q2/round3/HANDOFF.md}、\AIfile{REPRODUCE.md}；原始实验增量另见同目录\AIfile{lab_strength/}相关索引。 \\
+Q3实际贡献与命令 & \AIfile{track_b/research/q3/round3/AI_RESEARCH_LOG.md}、\AIfile{REPRODUCE.md}及\AIfile{FINAL_PROPAGATION_HANDOFF.md}。 \\
+Q4实际贡献与命令 & \AIfile{track_b/research/q4/round3/HANDOFF.md}、\AIfile{REPRODUCE.md}及最终传播包。 \\
+整仓及交付检查 & \AIfile{track_b/audit/stage4/round3/integration_checks.json}、\AIfile{handoff_checks.json}；23项整仓、20次交付40项核对。 \\
+资源修订与输出对比 & \AIfile{track_b/audit/stage4/round3/runtime_resourcefix1/RUNTIME_RESOURCE_FIX.md}及\AIfile{physical_output_comparison_production.json}。 \\
+论文采用与来源 & \AIfile{track_b/paper/AI_DISCLOSURE.md}、\AIfile{evidence/}中的各问论断、来源与自编程序清单。 \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+本说明依据《MathorCup数学应用挑战赛人工智能工具使用规定（试行）》（2026年8月）组织工具、用途、关键交互、采用和人工调整信息。模型快照字段按可取得的会话信息登记，个人身份及队号不进入本初稿。
+\end{document}
