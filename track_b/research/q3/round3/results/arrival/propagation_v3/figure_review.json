@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "review_method": "Codex actual visual inspection of local PNG using view_image after adapter execution",
+  "path_resolution": "figures[].path is Q3 worktree ROOT-relative",
+  "figures": [
+    {
+      "path": "track_b/research/q3/round3/results/arrival/propagation_v3/conditional_footprints.png",
+      "sha256": "d05400180865daa210d4bac0134053009a9339eab302b59c6b3075de593f2a1e",
+      "actually_opened": true
+    }
+  ],
+  "checks": {
+    "three_scenario_grid_panels_visible": true,
+    "source_grid_outlines_red_visible": true,
+    "target_representative_points_black_visible": true,
+    "metric_axes_CRS_and_units_visible": true,
+    "common_depth_colorbar_threshold_units_visible": true,
+    "unqualified_labels_and_requested_saved_horizon_visible": true,
+    "no_clipped_primary_labels": true,
+    "no_absolute_probability_validated_warning_claim": true
+  },
+  "observations": [
+    "Three full-source panels show actual 60m / 120m grid morphology differences; these are conditional numerical diagnostics.",
+    "All three footprints include the paper-junction representative; the paper port/nearby OSM representative cluster remains outside the shown saved-depth footprint.",
+    "Red contours are actual supplied positive-release raster support, not compact-v1 source or an observed release perimeter."
+  ],
+  "scientific_qualification": "unqualified diagnostic only; no independent event validation or numerical convergence claim"
+}

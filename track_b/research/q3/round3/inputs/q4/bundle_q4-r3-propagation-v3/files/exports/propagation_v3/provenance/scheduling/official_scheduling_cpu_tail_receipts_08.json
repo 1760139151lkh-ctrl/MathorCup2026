@@ -1,0 +1,245 @@
+{
+  "started_utc": "2026-10-24T10:47:37.112332+00:00",
+  "authority": "parent/root explicit tail redistribution instruction",
+  "scope": "HostConfig CPU quota only; no restart/OMPenv/input/physics/execution metadata changes",
+  "total_nano_cpu_budget": 6000000000,
+  "per_container_max_nano_cpus": 3000000000,
+  "protocol": "config/official_cpu_tail_budget_protocol_08.json",
+  "actions": [
+    {
+      "started_utc": "2026-10-24T10:48:07.997450+00:00",
+      "container_id": "e15ec79e489bcfdcf8876830ce2f0b2217da14c668b8ea8136adc92c4b8a1bc3",
+      "run_id": "copdem_120_single_xi2000__sf0",
+      "active_count_at_decision": 4,
+      "before_nano_cpus": 1000000000,
+      "requested_nano_cpus": 1500000000,
+      "omp_env_preserved": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "pending_run_count": 0,
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "1.500000000",
+        "e15ec79e489bcfdcf8876830ce2f0b2217da14c668b8ea8136adc92c4b8a1bc3"
+      ],
+      "finished_utc": "2026-10-24T10:48:08.065313+00:00",
+      "returncode": 0,
+      "stdout": "e15ec79e489bcfdcf8876830ce2f0b2217da14c668b8ea8136adc92c4b8a1bc3",
+      "stderr": "",
+      "after_nano_cpus": 1500000000
+    },
+    {
+      "started_utc": "2026-10-24T10:48:08.117447+00:00",
+      "container_id": "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d",
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "active_count_at_decision": 4,
+      "before_nano_cpus": 1000000000,
+      "requested_nano_cpus": 1500000000,
+      "omp_env_preserved": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "pending_run_count": 0,
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "1.500000000",
+        "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d"
+      ],
+      "finished_utc": "2026-10-24T10:48:08.197226+00:00",
+      "returncode": 0,
+      "stdout": "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d",
+      "stderr": "",
+      "after_nano_cpus": 1500000000
+    },
+    {
+      "started_utc": "2026-10-24T10:48:08.270537+00:00",
+      "container_id": "c3e24f0fa10bacd690c3252b18fb8a0b2f408099593c439f524aa9a441ab9e3b",
+      "run_id": "q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "active_count_at_decision": 4,
+      "before_nano_cpus": 1000000000,
+      "requested_nano_cpus": 1500000000,
+      "omp_env_preserved": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "pending_run_count": 0,
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "1.500000000",
+        "c3e24f0fa10bacd690c3252b18fb8a0b2f408099593c439f524aa9a441ab9e3b"
+      ],
+      "finished_utc": "2026-10-24T10:48:08.342274+00:00",
+      "returncode": 0,
+      "stdout": "c3e24f0fa10bacd690c3252b18fb8a0b2f408099593c439f524aa9a441ab9e3b",
+      "stderr": "",
+      "after_nano_cpus": 1500000000
+    },
+    {
+      "started_utc": "2026-10-24T10:48:08.393858+00:00",
+      "container_id": "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa",
+      "run_id": "composite_rock_water_120__sf0",
+      "active_count_at_decision": 4,
+      "before_nano_cpus": 1000000000,
+      "requested_nano_cpus": 1500000000,
+      "omp_env_preserved": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "pending_run_count": 0,
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "1.500000000",
+        "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa"
+      ],
+      "finished_utc": "2026-10-24T10:48:08.460890+00:00",
+      "returncode": 0,
+      "stdout": "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa",
+      "stderr": "",
+      "after_nano_cpus": 1500000000
+    },
+    {
+      "started_utc": "2026-10-24T10:54:12.630263+00:00",
+      "container_id": "e15ec79e489bcfdcf8876830ce2f0b2217da14c668b8ea8136adc92c4b8a1bc3",
+      "run_id": "copdem_120_single_xi2000__sf0",
+      "active_count_at_decision": 3,
+      "before_nano_cpus": 1500000000,
+      "requested_nano_cpus": 2000000000,
+      "omp_env_preserved": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "pending_run_count": 0,
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "2.000000000",
+        "e15ec79e489bcfdcf8876830ce2f0b2217da14c668b8ea8136adc92c4b8a1bc3"
+      ],
+      "finished_utc": "2026-10-24T10:54:12.707759+00:00",
+      "returncode": 0,
+      "stdout": "e15ec79e489bcfdcf8876830ce2f0b2217da14c668b8ea8136adc92c4b8a1bc3",
+      "stderr": "",
+      "after_nano_cpus": 2000000000
+    },
+    {
+      "started_utc": "2026-10-24T10:54:12.759335+00:00",
+      "container_id": "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d",
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "active_count_at_decision": 3,
+      "before_nano_cpus": 1500000000,
+      "requested_nano_cpus": 2000000000,
+      "omp_env_preserved": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "pending_run_count": 0,
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "2.000000000",
+        "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d"
+      ],
+      "finished_utc": "2026-10-24T10:54:12.833650+00:00",
+      "returncode": 0,
+      "stdout": "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d",
+      "stderr": "",
+      "after_nano_cpus": 2000000000
+    },
+    {
+      "started_utc": "2026-10-24T10:54:12.900011+00:00",
+      "container_id": "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa",
+      "run_id": "composite_rock_water_120__sf0",
+      "active_count_at_decision": 3,
+      "before_nano_cpus": 1500000000,
+      "requested_nano_cpus": 2000000000,
+      "omp_env_preserved": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "pending_run_count": 0,
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "2.000000000",
+        "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa"
+      ],
+      "finished_utc": "2026-10-24T10:54:12.986494+00:00",
+      "returncode": 0,
+      "stdout": "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa",
+      "stderr": "",
+      "after_nano_cpus": 2000000000
+    },
+    {
+      "started_utc": "2026-10-24T10:56:14.116776+00:00",
+      "container_id": "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d",
+      "run_id": "q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "active_count_at_decision": 2,
+      "before_nano_cpus": 2000000000,
+      "requested_nano_cpus": 3000000000,
+      "omp_env_preserved": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "pending_run_count": 0,
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "3.000000000",
+        "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d"
+      ],
+      "finished_utc": "2026-10-24T10:56:14.185351+00:00",
+      "returncode": 0,
+      "stdout": "40e94abecc85f7e66c26b7a81f7846b9286faa863d92ffe8b324bbef74dd965d",
+      "stderr": "",
+      "after_nano_cpus": 3000000000
+    },
+    {
+      "started_utc": "2026-10-24T10:56:14.243245+00:00",
+      "container_id": "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa",
+      "run_id": "composite_rock_water_120__sf0",
+      "active_count_at_decision": 2,
+      "before_nano_cpus": 2000000000,
+      "requested_nano_cpus": 3000000000,
+      "omp_env_preserved": [
+        "OMP_NUM_THREADS=3"
+      ],
+      "pending_run_count": 0,
+      "command": [
+        "docker",
+        "update",
+        "--cpus",
+        "3.000000000",
+        "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa"
+      ],
+      "finished_utc": "2026-10-24T10:56:14.319243+00:00",
+      "returncode": 0,
+      "stdout": "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa",
+      "stderr": "",
+      "after_nano_cpus": 3000000000
+    }
+  ],
+  "latest_observation": {
+    "utc": "2026-10-24T11:09:19.197866+00:00",
+    "pending_run_ids": [],
+    "unfinished_run_ids": [
+      "composite_rock_water_120__sf0"
+    ],
+    "active_containers": [
+      {
+        "container_id": "6275f846bfc9cb91e3a8b30a873a9792e2f9f91213bd4514c4109936a6e783aa",
+        "run_id": "composite_rock_water_120__sf0",
+        "nano_cpus": 3000000000,
+        "omp_env": [
+          "OMP_NUM_THREADS=3"
+        ]
+      }
+    ],
+    "unclosed_without_active_container": [],
+    "tail_redistribution_eligible": true
+  }
+}

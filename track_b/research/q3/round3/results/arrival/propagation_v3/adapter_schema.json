@@ -1,0 +1,53 @@
+{
+  "version": "q3-q4-fullmask-adapter-v3",
+  "exact_keys": [
+    "full_release_scenario_id",
+    "base_scenario_id",
+    "model_id",
+    "mechanism_id",
+    "parameter_version",
+    "release_mapping_version",
+    "source_geometry_version",
+    "grid_resolution_m"
+  ],
+  "mechanism_model_replacement": {
+    "q2r3_S_v1": [
+      "S",
+      "q2r3_S_analytic_v1"
+    ],
+    "q2r3_ST_v1": [
+      "S_T",
+      "q2r3_S_T_analytic_v1"
+    ]
+  },
+  "physical_fields": [
+    "theta_deg",
+    "thickness_normal_m",
+    "rock_volume_fraction",
+    "bridge_fraction",
+    "bridge_cohesion_kpa",
+    "rock_mu",
+    "initial_temp_c",
+    "diffusivity_m2_s",
+    "interface_depth_m",
+    "station_source_offset_c",
+    "storativity",
+    "drainage_hours",
+    "connected_depth_m",
+    "rain_multiplier",
+    "melt_mm_deg_day",
+    "damage_rate_h_inv",
+    "damage_exponent",
+    "initial_damage",
+    "drainage_damage_coupling",
+    "density_kg_m3"
+  ],
+  "source_volume_authority": "Q2 frozen geometry-v2 row + actual supplied release TIFF integral + case actual grid volume + audited native/saved initial state",
+  "legacy_reference_field_is_actual_volume": false,
+  "source_geometry_is_mechanism_geometry": false,
+  "material_fractions_are_solver_phase_fractions": false,
+  "selected_runs_are_probability_ensemble": false,
+  "accepted_arrival_envelope_run_ids": [],
+  "absolute_release_lag_unknown": true,
+  "semantic_adapter_pass_is_predictive_qualification": false
+}

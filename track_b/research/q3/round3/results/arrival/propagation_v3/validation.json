@@ -1,0 +1,2007 @@
+{
+  "passed": true,
+  "generated_at_utc": "2026-10-24T11:19:24.126293+00:00",
+  "check_count": 499,
+  "checks": [
+    {
+      "name": "producer_packet_pin",
+      "passed": true
+    },
+    {
+      "name": "advisor_review_binds_producer",
+      "passed": true
+    },
+    {
+      "name": "66_unique_delivered_role_objects",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/model_runs.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/model_runs.csv",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/comparison_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/comparison_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/target_arrivals.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/target_arrivals.csv",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/comparison_summary.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/comparison_summary.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/numerical_validation.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/numerical_validation.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/fields_index.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/fields_index.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_controls/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_controls/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/postprocessing/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/postprocessing/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_controls/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_controls/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_controls/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_controls/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/official_q2full_ready_receipt.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/official_q2full_ready_receipt.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/upstream_bundle.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/upstream_bundle.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/release_states_geometry_v2.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/release_states_geometry_v2.csv",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/geometry_integration_summary.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/geometry_integration_summary.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/geometry_integration_terrain.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/geometry_integration_terrain.csv",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/GEOMETRY_INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/GEOMETRY_INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/official_cases_q2fullmask_v2.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/official_cases_q2fullmask_v2.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/q2_fullmask_integration_protocol.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/q2_fullmask_integration_protocol.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/official_q2_v2_protocol.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/official_q2_v2_protocol.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/scientific_acceptance_decision_05.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/scientific_acceptance_decision_05.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/model_qualification_evidence_05.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/model_qualification_evidence_05.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/DCLAW_MASS_AUDIT.md",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/DCLAW_MASS_AUDIT.md",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/dclaw_mass_audit.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/dclaw_mass_audit.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/official_cfl_control_crosscheck.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/official_cfl_control_crosscheck.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/reduced_numerical_validation.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/reduced_numerical_validation.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/scheduling/official_scheduling_amendment_06.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/scheduling/official_scheduling_amendment_06.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/scheduling/official_scheduling_cpu_receipt_07.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/scheduling/official_scheduling_cpu_receipt_07.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/scheduling/official_scheduling_cpu_tail_receipts_08.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/scheduling/official_scheduling_cpu_tail_receipts_08.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/native_controls_index.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/native_controls_index.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/geometry/spatial_targets_v2.csv",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/geometry/spatial_targets_v2.csv",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/geometry/computational_geometries.geojson",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/geometry/computational_geometries.geojson",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/integrate_comparison.py",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/integrate_comparison.py",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/input_index.json",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/input_index.json",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0000-S-linear__geomv2_60m/release.tif",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0000-S-linear__geomv2_60m/release.tif",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/dem.tif",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/dem.tif",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_120m/release.tif",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_120m/release.tif",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_60m/release.tif",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_60m/release.tif",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "passed": true
+    },
+    {
+      "name": "approved_delivered_path:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "delivered_hash:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "one_role:model_runs",
+      "passed": true
+    },
+    {
+      "name": "one_role:target_arrivals",
+      "passed": true
+    },
+    {
+      "name": "one_role:comparison_metrics",
+      "passed": true
+    },
+    {
+      "name": "three_selected_runs",
+      "passed": true
+    },
+    {
+      "name": "21_unique_run_target_rows",
+      "passed": true
+    },
+    {
+      "name": "two_base_scenarios_no_statistical_weights",
+      "passed": true
+    },
+    {
+      "name": "empty_accepted_envelope_list",
+      "passed": true
+    },
+    {
+      "name": "decision05_false_qualification",
+      "passed": true
+    },
+    {
+      "name": "fullmask_preregistered_selection",
+      "passed": true
+    },
+    {
+      "name": "fullmask_received_bundle_matches_registration",
+      "passed": true
+    },
+    {
+      "name": "copied_and_Q3_frozen_release_tables_identical",
+      "passed": true
+    },
+    {
+      "name": "existing_import_hash:track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/parameter_ensemble.csv",
+      "passed": true
+    },
+    {
+      "name": "existing_import_hash:track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv",
+      "passed": true
+    },
+    {
+      "name": "existing_import_hash:track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/mechanism_contract.json",
+      "passed": true
+    },
+    {
+      "name": "analytic_contract_preserves_release_and_base_join",
+      "passed": true
+    },
+    {
+      "name": "GeoJSON_coordinate_semantics",
+      "passed": true
+    },
+    {
+      "name": "registered_model_replacement:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "analytic_model_contract:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "full_release_keys_exact:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "bundle_run_lineage_exact:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "case_frozen_release_lineage:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "mechanism_geometry_separate_from_source:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "design_identity_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:theta_deg",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:thickness_normal_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:rock_volume_fraction",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:bridge_fraction",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:bridge_cohesion_kpa",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:rock_mu",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:initial_temp_c",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:diffusivity_m2_s",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:interface_depth_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:station_source_offset_c",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:storativity",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:drainage_hours",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:connected_depth_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:rain_multiplier",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:melt_mm_deg_day",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:damage_rate_h_inv",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:damage_exponent",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:initial_damage",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:drainage_damage_coupling",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:density_kg_m3",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:plan_area_m2",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:mechanism_thickness_normal_m",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:mechanism_plane_theta_deg",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:release_thickness_vertical_m",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:release_thickness_normal_equivalent_m",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:release_volume_m3",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:integrated_volume_m3",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:density",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:release_mass_kg",
+      "passed": true
+    },
+    {
+      "name": "reference_area_and_grid_normalization:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "material_composition_and_bulk_phase:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "zero_initial_velocity:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "original_no_cross_is_if_released:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "unknown_release_lag:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "qualification_remains_false:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "paper_target_coordinates_match_case:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_release_path_is_explicit_role:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_release_hash_is_registered:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "frozen_Q2_tiff_pin:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "frozen_Q2_release_array_and_grid_identical:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "release_grid_metric_axis_aligned:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_fullmask_volume_not_legacy:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_source_support:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "field_case_execution_log_binding:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "copied_parser_hash_binding:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_saved_depth_time_grid:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "native_summary_time_binding:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "native_initial_and_saved_TIFF_rounding_audit:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "native_budget_kept_separate_and_reproduced:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "saved_raster_budget_reproduced:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "saved_impact_area_reproduced:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0000_S_linear__geomv2_60m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "registered_model_replacement:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "analytic_model_contract:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "full_release_keys_exact:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "bundle_run_lineage_exact:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "case_frozen_release_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "mechanism_geometry_separate_from_source:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "design_identity_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:theta_deg",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:thickness_normal_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:rock_volume_fraction",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:bridge_fraction",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:bridge_cohesion_kpa",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:rock_mu",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:initial_temp_c",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:diffusivity_m2_s",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:interface_depth_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:station_source_offset_c",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:storativity",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:drainage_hours",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:connected_depth_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:rain_multiplier",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:melt_mm_deg_day",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:damage_rate_h_inv",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:damage_exponent",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:initial_damage",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:drainage_damage_coupling",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:density_kg_m3",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:plan_area_m2",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:mechanism_thickness_normal_m",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:mechanism_plane_theta_deg",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:release_thickness_vertical_m",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:release_thickness_normal_equivalent_m",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:release_volume_m3",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:integrated_volume_m3",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:density",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:release_mass_kg",
+      "passed": true
+    },
+    {
+      "name": "reference_area_and_grid_normalization:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "material_composition_and_bulk_phase:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "zero_initial_velocity:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "original_no_cross_is_if_released:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "unknown_release_lag:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "qualification_remains_false:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "paper_target_coordinates_match_case:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_release_path_is_explicit_role:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_release_hash_is_registered:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "frozen_Q2_tiff_pin:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "frozen_Q2_release_array_and_grid_identical:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "release_grid_metric_axis_aligned:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_fullmask_volume_not_legacy:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_source_support:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "field_case_execution_log_binding:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "copied_parser_hash_binding:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_saved_depth_time_grid:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "native_summary_time_binding:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "native_initial_and_saved_TIFF_rounding_audit:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "native_budget_kept_separate_and_reproduced:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "saved_raster_budget_reproduced:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "saved_impact_area_reproduced:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "registered_model_replacement:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "analytic_model_contract:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "full_release_keys_exact:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "bundle_run_lineage_exact:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "case_frozen_release_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "mechanism_geometry_separate_from_source:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "design_identity_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:theta_deg",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:thickness_normal_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:rock_volume_fraction",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:bridge_fraction",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:bridge_cohesion_kpa",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:rock_mu",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:initial_temp_c",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:diffusivity_m2_s",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:interface_depth_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:station_source_offset_c",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:storativity",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:drainage_hours",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:connected_depth_m",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:rain_multiplier",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:melt_mm_deg_day",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:damage_rate_h_inv",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:damage_exponent",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:initial_damage",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:drainage_damage_coupling",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_preserved:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:density_kg_m3",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:plan_area_m2",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:mechanism_thickness_normal_m",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:mechanism_plane_theta_deg",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:release_thickness_vertical_m",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:release_thickness_normal_equivalent_m",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:release_volume_m3",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:integrated_volume_m3",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:density",
+      "passed": true
+    },
+    {
+      "name": "case_and_registration_release_value:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:release_mass_kg",
+      "passed": true
+    },
+    {
+      "name": "reference_area_and_grid_normalization:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "material_composition_and_bulk_phase:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "zero_initial_velocity:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "original_no_cross_is_if_released:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "unknown_release_lag:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "qualification_remains_false:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "paper_target_coordinates_match_case:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_release_path_is_explicit_role:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_release_hash_is_registered:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "frozen_Q2_tiff_pin:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "frozen_Q2_release_array_and_grid_identical:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "release_grid_metric_axis_aligned:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_fullmask_volume_not_legacy:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_source_support:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "field_case_execution_log_binding:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "copied_parser_hash_binding:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "actual_saved_depth_time_grid:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "native_summary_time_binding:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "native_initial_and_saved_TIFF_rounding_audit:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "native_budget_kept_separate_and_reproduced:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "saved_raster_budget_reproduced:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "saved_impact_area_reproduced:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:paper_port_symbol",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:paper_junction",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1443180803",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746552",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746559",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1552746560",
+      "passed": true
+    },
+    {
+      "name": "target_exact_fullmask_lineage:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "target_qualification_false:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "target_geometry_binding:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "independent_field_target_reproduction:q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0:osm_way_1553369440",
+      "passed": true
+    },
+    {
+      "name": "all21_lineage_pairs_retained",
+      "passed": true
+    },
+    {
+      "name": "3raw_junction_hits18_saved_nonhits",
+      "passed": true
+    },
+    {
+      "name": "all_absolute_qualified_probability_fields_null",
+      "passed": true
+    },
+    {
+      "name": "all_no_accepted_envelope_membership",
+      "passed": true
+    },
+    {
+      "name": "p36_actual_July8_analytic_crossing",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/upstream_bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/model_runs.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/comparison_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/target_arrivals.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/comparison_summary.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/numerical_validation.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/fields_index.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_controls/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/postprocessing/official_analyse_5f8f127f8af0ec6f63ca78bb1fd1d9fd02b35cf348b799ec5ff3d98d3530d1d5.py",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_controls/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/case.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/execution.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_controls/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_paramcomm.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_controls/run_grass.sh",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/adapter_executed.py",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/native_internal_summary.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0_nout1.txt",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/official_q2full_ready_receipt.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/upstream_bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/release_states_geometry_v2.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/geometry_integration_summary.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/geometry_integration_terrain.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/upstream_q2_fullmask/GEOMETRY_INTEGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/official_cases_q2fullmask_v2.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/q2_fullmask_integration_protocol.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/fullmask_registration/official_q2_v2_protocol.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/scientific_acceptance_decision_05.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/model_qualification_evidence_05.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/DCLAW_MASS_AUDIT.md",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/dclaw_mass_audit.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/official_cfl_control_crosscheck.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/quality/reduced_numerical_validation.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/scheduling/official_scheduling_amendment_06.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/scheduling/official_scheduling_cpu_receipt_07.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/scheduling/official_scheduling_cpu_tail_receipts_08.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/native_controls_index.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/geometry/spatial_targets_v2.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/geometry/computational_geometries.geojson",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/provenance/integrate_comparison.py",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q4/bundle_q4-r3-propagation-v3/files/exports/propagation_v3/input_index.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_60m/dem.tif",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0000-S-linear__geomv2_60m/release.tif",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0000_S_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/copdem_120m/dem.tif",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_120m/release.tif",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_120m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/inputs/q2fullmask/q2r3-p0036-S_T-linear__geomv2_60m/release.tif",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/summary_fields_v4_phase_depth_stationary_5f8f127f8af0.npz",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:/Users/maxchen/Documents/MathorCup/research_cache/round3/q4/official/runs/q2full_q2r3_p0036_S_T_linear__geomv2_60m__sf0/run.log",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_states_geometry_v2.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/mechanism_bundle_q2-r3-mechanism-v1/files/results/parameter_ensemble.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/parameter_ensemble.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/analytic_thermal_bundle_q2-r3-analytic-erfc-thermal-v1/files/results/analytic_thermal/mechanism_contract.json",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/results/engine_a/analytic_erfc/first_passages.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/results/arrival/propagation_v2/release_mapping_audit.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/results/arrival/propagation_v2/conditional_arrivals.csv",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0000_60m_v2.tif",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0036_120m_v2.tif",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/inputs/q2/release_bundle_v2_q2-r3-release-v2-spatial-copdem-v1/files/results/release_thickness_q2r3-p0036_60m_v2.tif",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/results/arrival/propagation_v3/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "input_unchanged_during_adapter:track_b/research/q3/round3/scripts/join_propagation_v3.py",
+      "passed": true
+    },
+    {
+      "name": "actual_figure_review_binding",
+      "passed": true
+    },
+    {
+      "name": "input_index_has_no_repeated_canonical_paths",
+      "passed": true
+    }
+  ],
+  "adapter_pass_is_predictive_qualification": false,
+  "input_index_sha256": "da1a76b6d0f523d8fdfa539de081119932375982e63ac0c1c870ebd79e5130b9",
+  "output_index_sha256": "2481d7ad595c6b58dfb45b7317fe515a8e4a7a9a1ba20032cef2d3c1a8f9cd34",
+  "figure_visual_qa": "passed_external_visual_inspection"
+}
