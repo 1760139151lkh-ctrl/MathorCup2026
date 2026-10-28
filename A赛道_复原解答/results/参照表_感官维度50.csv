@@ -1,0 +1,51 @@
+﻿target_id,column_4csv,name,clean_name,block,category
+Y01,A_malt_all,麦芽香·总体,Malt - overall,香气(Aroma),Aroma
+Y02,A_malt_grain,麦芽香·谷物,Malt - grain,香气(Aroma),Aroma
+Y03,A_malt_bread,麦芽香·面包皮,Malt - bread,香气(Aroma),Aroma
+Y04,A_malt_cara,麦芽香·焦糖,Malt - caramel,香气(Aroma),Aroma
+Y05,A_malt_burn,麦芽香·烟熏焦苦,Malt - smoked,香气(Aroma),Aroma
+Y06,A_hops_all,酒花香·总体,Hops - overall,香气(Aroma),Aroma
+Y07,A_hops_citrus,酒花香·柑橘,Hops - citrus,香气(Aroma),Aroma
+Y08,A_hops_tropical,酒花香·热带水果,Hops - tropical fruit,香气(Aroma),Aroma
+Y09,A_hops_noble,酒花香·草本,Hops - grassy,香气(Aroma),Aroma
+Y10,A_hops_woody,酒花香·木质树脂,Hops - woody,香气(Aroma),Aroma
+Y11,A_esters_all,酯香·总体,Esters - overall,香气(Aroma),Aroma
+Y12,A_esters_ethac,酯香·溶剂,Esters - nail polish,香气(Aroma),Aroma
+Y13,A_esters_isoaa,酯香·香蕉,Esters - banana,香气(Aroma),Aroma
+Y14,A_esters_flower,酯香·花香,Esters - floral,香气(Aroma),Aroma
+Y15,A_esters_fruity,酯香·甜果,Esters - fruity,香气(Aroma),Aroma
+Y16,F_malt_all,麦芽风味·总体,Malt - overall,风味(Flavour),Taste
+Y17,F_malt_grain,麦芽风味·谷物,Malt - grain,风味(Flavour),Taste
+Y18,F_malt_bread,麦芽风味·面包皮,Malt - bread,风味(Flavour),Taste
+Y19,F_malt_cara,麦芽风味·焦糖,Malt - caramel,风味(Flavour),Taste
+Y20,F_malt_burn,麦芽风味·烟熏焦苦,Malt - smoked,风味(Flavour),Taste
+Y21,F_hops_all,酒花风味·总体,Hops - overall,风味(Flavour),Taste
+Y22,F_hops_citrus,酒花风味·柑橘,Hops - citrus,风味(Flavour),Taste
+Y23,F_hops_tropical,酒花风味·热带水果,Hops - tropical fruit,风味(Flavour),Taste
+Y24,F_hops_noble,酒花风味·草本,Hops - grassy,风味(Flavour),Taste
+Y25,F_hops_woody,酒花风味·木质树脂,Hops - woody,风味(Flavour),Taste
+Y26,F_esters_all,酯风味·总体,Esters - overall,风味(Flavour),Taste
+Y27,F_esters_ethac,酯风味·溶剂,Esters - nail polish,风味(Flavour),Taste
+Y28,F_esters_isoaa,酯风味·香蕉,Esters - banana,风味(Flavour),Taste
+Y29,F_esters_flower,酯风味·花香,Esters - floral,风味(Flavour),Taste
+Y30,F_esters_fruity,酯风味·甜果,Esters - fruity,风味(Flavour),Taste
+Y31,acidity,酸度,Acidity,口感/缺陷/总体,Taste
+Y32,bitternes,苦度,Bitterness,口感/缺陷/总体,Taste
+Y33,sweetness,甜度,Sweetness,口感/缺陷/总体,Taste
+Y34,X4vg,4-乙烯基愈创木酚,4-vinyl guaiacol,口感/缺陷/总体,Taste
+Y35,diacetyl,双乙酰,Diacetyl,口感/缺陷/总体,Taste
+Y36,dms,二甲基硫(DMS),Dimethyl sulfide,口感/缺陷/总体,Taste
+Y37,metallic,金属味,Metallic,口感/缺陷/总体,Taste
+Y38,stale_hops,陈酒花味,Stale hops,口感/缺陷/总体,Taste
+Y39,t2n,反-2-壬烯醛,Trans-2-nonenal,口感/缺陷/总体,Taste
+Y40,orange,橙味,Orange,口感/缺陷/总体,Taste
+Y41,coriander,芫荽,Coriander,口感/缺陷/总体,Taste
+Y42,clove,丁香/茴香,Clove,口感/缺陷/总体,Taste
+Y43,lactic,乳酸味,Lactic acid,口感/缺陷/总体,Taste
+Y44,acetic,乙酸味,Acetic acid,口感/缺陷/总体,Taste
+Y45,barnyard,马厩味,Barnyard,口感/缺陷/总体,Taste
+Y46,alcohol,酒精感,Alcohol,口感/缺陷/总体,Palate
+Y47,aftertaste,余味,Aftertaste,口感/缺陷/总体,Palate
+Y48,body,酒体,Body,口感/缺陷/总体,Palate
+Y49,co2,碳酸感,Carbonation,口感/缺陷/总体,Palate
+Y50,overall,总体喜好,Overall appreciation,口感/缺陷/总体,Overall

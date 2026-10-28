@@ -1,0 +1,51 @@
+﻿target,target_name,top1_compound,top1_column,top1_freq,top1_module,top2_compound,top2_column,top2_freq,top2_module,top3_compound,top3_column,top3_freq,top3_module,module_any_rep_freq,mean_method_Jaccard
+Y01,麦芽香·总体,Color,V025,0.99,12,Protein,V031,0.83,12,β-phellandrene,V078,0.115,6,1.0,0.6666666666666666
+Y02,麦芽香·谷物,Octyl acetate,V018,0.2,24,α-terpineol,V118,0.155,6,Terpinen-4-ol,V115,0.295,6,0.2,0.1666666666666666
+Y03,麦芽香·面包皮,Ethyl tiglate,V063,0.215,47,Glycerol,V028,0.28,4,Terpinen-4-ol,V115,0.185,6,0.215,0.3333333333333333
+Y04,麦芽香·焦糖,Color,V025,1.0,12,Protein,V031,0.905,12,Sugars,V033,0.295,34,1.0,0.6666666666666666
+Y05,麦芽香·烟熏焦苦,Color,V025,0.655,12,Diethyl sulfide,V003,0.28,21,Protein,V031,0.29,12,0.735,0.1666666666666666
+Y06,酒花香·总体,Ethyl octanoate,V010,0.6,4,Total hop aroma compounds,V229,0.415,6,Carbon dioxide,V035,0.375,35,0.61,0.2333333333333333
+Y07,酒花香·柑橘,Carbon dioxide,V035,0.735,35,Protein,V031,0.225,12,Methyl heptenone,V070,0.14,50,0.735,0.1333333333333333
+Y08,酒花香·热带水果,Dimethyl sulfide,V004,0.625,9,N-hexanol,V055,0.265,4,β-phellandrene,V078,0.18,6,0.625,0.2
+Y09,酒花香·草本,Ethyl decanoate,V007,0.73,3,Ethyl octanoate,V010,0.745,4,Iron,V029,0.3,31,0.765,0.1666666666666666
+Y10,酒花香·木质树脂,Neryl propanoate,V165,0.285,2,E-ortho-methoxy cinnamaldehyde,V180,0.38,101,Allo-aromadendrene epoxide,V189,0.125,2,0.595,0.0
+Y11,酯香·总体,Acetaldehyde,V001,0.745,4,N-hexanol,V055,0.625,4,Protein,V031,0.55,12,0.97,0.3
+Y12,酯香·溶剂,Acetaldehyde,V001,0.46,4,1-propanol,V038,0.22,7,Ethyl acetate,V006,0.335,4,0.825,0.1666666666666666
+Y13,酯香·香蕉,N-hexanol,V055,0.75,4,Tau-cadinol,V196,0.315,106,Isoamyl acetate,V016,0.37,4,0.88,0.3999999999999999
+Y14,酯香·花香,β-phellandrene,V078,0.295,6,Isobutyl acetate,V015,0.175,4,E-dihydro-apofarnesal,V178,0.15,99,0.44,0.0666666666666666
+Y15,酯香·甜果,β-phellandrene,V078,0.48,6,Neryl formate,V132,0.37,5,Lactic acid,V027,0.205,30,0.505,0.1666666666666666
+Y16,麦芽风味·总体,Acetaldehyde,V001,0.755,4,Color,V025,0.78,12,pH,V030,0.535,32,0.905,0.3
+Y17,麦芽风味·谷物,E-β-ionone,V172,0.355,2,Terpinen-4-ol acetate,V136,0.205,77,Vanillin,V151,0.13,83,0.54,0.1666666666666666
+Y18,麦芽风味·面包皮,Glycerol,V028,0.61,4,Acetaldehyde,V001,0.365,4,2-acetylpyrrole,V089,0.285,1,0.875,0.2333333333333333
+Y19,麦芽风味·焦糖,Color,V025,0.975,12,Protein,V031,0.605,12,Acetaldehyde,V001,0.6,4,1.0,0.5
+Y20,麦芽风味·烟熏焦苦,Ethanol,V034,0.42,4,Color,V025,0.395,12,Iso-alpha acids,V032,0.435,33,0.61,0.1666666666666666
+Y21,酒花风味·总体,Iso-alpha acids,V032,0.85,33,Dimethyl sulfide,V004,0.39,9,Iron,V029,0.42,31,0.85,0.1666666666666666
+Y22,酒花风味·柑橘,Ethyl furoate,V086,0.24,1,Protein,V031,0.315,12,Furfural,V052,0.255,42,0.355,0.0666666666666666
+Y23,酒花风味·热带水果,Dimethyl sulfide,V004,0.46,9,Hexyl acetate,V075,0.58,54,Geraniol,V128,0.32,72,0.465,0.1666666666666666
+Y24,酒花风味·草本,Iso-alpha acids,V032,0.715,33,Iron,V029,0.75,31,Ethyl octanoate,V010,0.475,4,0.715,0.1666666666666666
+Y25,酒花风味·木质树脂,Ethyl tetradecanoate,V214,0.435,3,Isobutanol,V014,0.48,4,Ethyl hexadecanoate,V220,0.145,3,0.54,0.3333333333333333
+Y26,酯风味·总体,Protein,V031,0.88,12,Acetaldehyde,V001,0.67,4,Caloric value,V037,0.47,4,0.885,0.6666666666666666
+Y27,酯风味·溶剂,Ethyl acetate,V006,0.93,4,Methanethiol,V017,0.375,23,Glycerol,V028,0.435,4,0.995,0.4666666666666666
+Y28,酯风味·香蕉,Protein,V031,0.565,12,N-hexanol,V055,0.475,4,Acetaldehyde,V001,0.265,4,0.565,0.2333333333333333
+Y29,酯风味·花香,β-phellandrene,V078,0.54,6,Isopentyl butanoate,V076,0.355,55,E-dihydro-apofarnesal,V178,0.18,99,0.655,0.3
+Y30,酯风味·甜果,Diethyl sulfide,V003,0.685,21,Protein,V031,0.44,12,β-phellandrene,V078,0.27,6,0.685,0.5
+Y31,酸度,pH,V030,0.92,32,Prenyl isobutyrate,V085,0.38,5,Perillyl acetate,V157,0.325,5,0.92,0.2
+Y32,苦度,Iso-alpha acids,V032,0.995,33,Ethyl octanoate,V010,0.83,4,Ethyl decanoate,V007,0.44,3,0.995,0.6666666666666666
+Y33,甜度,Ethyl decanoate,V007,0.74,3,Sugars,V033,0.745,34,Protein,V031,0.605,12,0.755,0.3999999999999999
+Y34,4-乙烯基愈创木酚,4-vinylguaiacol,V021,0.965,26,Terpiryl acetate,V138,0.66,78,Prenyl isobutyrate,V085,0.32,5,0.965,0.3
+Y35,双乙酰,Eugenol,V146,0.87,81,Ethyl decanoate,V007,0.27,3,Ethyl octanoate,V010,0.235,4,0.87,0.3
+Y36,二甲基硫(DMS),Unfermentables,V036,0.44,36,E-nerolidol,V182,0.315,8,Protein,V031,0.35,12,0.44,0.1333333333333333
+Y37,金属味,Iron,V029,0.63,31,Ethyl 3-methylbutyrate,V009,0.2,5,α-calacorene,V181,0.41,2,0.63,0.0666666666666666
+Y38,陈酒花味,2-undecanol,V137,0.53,2,E-ortho-methoxy cinnamaldehyde,V180,0.39,101,Neryl propanoate,V165,0.145,2,0.745,0.0666666666666666
+Y39,反-2-壬烯醛,β-phellandrene,V078,0.18,6,Terpinen-4-ol,V115,0.235,6,Iso-alpha acids,V032,0.19,33,0.36,0.0
+Y40,橙味,Camphor,V106,0.87,6,Ethanol,V034,0.275,4,Caloric value,V037,0.205,4,0.925,0.2
+Y41,芫荽,Cumin aldehyde,V125,0.32,1,Hexyl acetate,V075,0.3,54,α-phellandrene,V073,0.215,52,0.36,0.0666666666666666
+Y42,丁香/茴香,Limonene,V079,0.775,56,Eucalyptol,V080,0.32,57,Cis-dihydro-β-terpineol,V110,0.07,10,0.775,0.3
+Y43,乳酸味,pH,V030,0.775,32,Lactic acid,V027,0.58,30,Total acids,V230,0.37,11,0.775,0.0666666666666666
+Y44,乙酸味,pH,V030,0.465,32,Diethyl sulfide,V003,0.415,21,Z-nerolidol,V179,0.265,100,0.465,0.0666666666666666
+Y45,马厩味,2-undecanol,V137,0.45,2,Gamma-eudesmol,V193,0.41,105,Linalool isovalerate,V168,0.315,94,0.65,0.3
+Y46,酒精感,Ethanol,V034,1.0,4,Caloric value,V037,0.995,4,Acetaldehyde,V001,0.28,4,1.0,0.5
+Y47,余味,Ethanol,V034,0.695,4,Ethyl 3-methylbutyrate,V009,0.625,5,Iso-alpha acids,V032,0.495,33,0.93,0.1666666666666666
+Y48,酒体,Ethanol,V034,0.995,4,Caloric value,V037,0.995,4,Ethyl hexanoate,V008,0.245,4,1.0,0.6666666666666666
+Y49,碳酸感,Carbon dioxide,V035,1.0,35,Ethyl octanoate,V010,0.88,4,3-methyl-2-hexanol,V058,0.205,1,1.0,0.2333333333333333
+Y50,总体喜好,Carbon dioxide,V035,0.235,35,Ethyl acetate,V006,0.415,4,Unfermentables,V036,0.355,36,0.235,0.3333333333333333

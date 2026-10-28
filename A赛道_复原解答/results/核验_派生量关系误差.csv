@@ -1,0 +1,7 @@
+﻿target,source,n_valid_pairs,recorded_MAE,recorded_max_abs_error,scope,column_1csv
+V037,ref_first37_D01_others,250,2.6340689363024696e-10,5.012013026828298e-10,"exploratory algebraic consistency, not independent generalization",kcalperc
+V228,ref_first37_D01_others,250,2.5320585450572245e-10,4.938137676546717e-10,"exploratory algebraic consistency, not independent generalization",esters_sum
+V229,ref_first37_D01_others,237,1.2552791375504454e-09,3.4134689519405015e-08,"exploratory algebraic consistency, not independent generalization",aroma_hops_sum
+V230,ref_first37_D01_others,250,2.67042616648467e-10,4.981246803925643e-10,"exploratory algebraic consistency, not independent generalization",acids_sum
+V231,ref_first37_D01_others,250,2.3592404826966446e-10,4.978074619188533e-10,"exploratory algebraic consistency, not independent generalization",sulfur_sum
+V229,ref_scale_six_components,237,2.579423037095015e-10,4.986908663795474e-10,"exploratory algebraic consistency, not independent generalization",aroma_hops_sum

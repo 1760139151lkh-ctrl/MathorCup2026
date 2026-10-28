@@ -1,0 +1,2532 @@
+{
+  "data_audit": {
+    "n_samples": 250,
+    "n_features": 231,
+    "n_targets": 50,
+    "n_styles": 22,
+    "missing_cells_D01": 73,
+    "missing_rows_D01": 63,
+    "missing_cols_D01": 9,
+    "missing_cells_D07": 750,
+    "D03_cards": 12,
+    "D03_nonblank_checkmarks": 0,
+    "scale_log10_count": 37,
+    "scale_identity_count": 33,
+    "identity_conflicts_gt_1e-7": 86,
+    "D01_D04_object_id_equal_count": 0,
+    "D06_rows": 44,
+    "correlation_types": {
+      "D02_spearman_MAE": 1.6021924986637158e-16,
+      "D02_pearson_MAE": 0.08730394533051206,
+      "D05_spearman_MAE": 1.595e-16,
+      "D05_pearson_MAE": 0.0513316,
+      "D06_spearman_MAE": 1.5063071812105482e-16,
+      "D06_pearson_MAE": 0.0579355
+    },
+    "ref_attribution": {
+      "scope": "hypothetical additive reconstruction; target and output scale undocumented",
+      "n_objects": 250,
+      "n_complete_sums": 250,
+      "base_prediction_nunique": 1,
+      "base_prediction_min": -0.326338210932459,
+      "base_prediction_max": -0.326338210932459,
+      "candidate_min": -2.9129451124420145,
+      "candidate_max": 1.3719383260291413,
+      "n_near_integer_abs_error_le_1e_6": 0,
+      "strongest_absolute_pearson_target": "Y47",
+      "strongest_absolute_pearson_r": 0.6512758601326926,
+      "strongest_target_affine_RMSE_D04_units": 0.4707969264387188,
+      "strongest_target_affine_max_abs_residual_D04_units": 1.834298051548607,
+      "strongest_target_affine_R2_in_sample_descriptive": 0.42416024599157853
+    },
+    "critical_scale": [
+      {
+        "var_id": "V004",
+        "n_pairs": 250,
+        "best_transform": "log10",
+        "best_error": 3e-10,
+        "identity_max_abs_error": 517.735254623,
+        "error_identity": 0.9434487662,
+        "error_log10": 3e-10,
+        "error_ln": 1.8086645439,
+        "native_nonpositive_count": 1.0,
+        "native_negative_count": 0.0,
+        "native_min_positive": 2.224545,
+        "replacement_floor_native": 1.1122725,
+        "nonpositive_floor_max_log_error": 2e-10,
+        "positive_log10_max_error": 5e-10,
+        "identity_discrepancies_gt_1e_7": null
+      },
+      {
+        "var_id": "V021",
+        "n_pairs": 250,
+        "best_transform": "log10",
+        "best_error": 3e-10,
+        "identity_max_abs_error": 2.013157381,
+        "error_identity": 2013157381000.0,
+        "error_log10": 3e-10,
+        "error_ln": 1.1936961496,
+        "native_nonpositive_count": 168.0,
+        "native_negative_count": 0.0,
+        "native_min_positive": 0.0194031667,
+        "replacement_floor_native": 0.0097015833,
+        "nonpositive_floor_max_log_error": 2e-10,
+        "positive_log10_max_error": 5e-10,
+        "identity_discrepancies_gt_1e_7": null
+      },
+      {
+        "var_id": "V039",
+        "n_pairs": 241,
+        "best_transform": "identity",
+        "best_error": 0.0,
+        "identity_max_abs_error": 0.31101582,
+        "error_identity": 0.0,
+        "error_log10": 1.0546981594,
+        "error_ln": 1.7660384386,
+        "native_nonpositive_count": null,
+        "native_negative_count": null,
+        "native_min_positive": null,
+        "replacement_floor_native": null,
+        "nonpositive_floor_max_log_error": null,
+        "positive_log10_max_error": null,
+        "identity_discrepancies_gt_1e_7": 3.0
+      },
+      {
+        "var_id": "V109",
+        "n_pairs": 249,
+        "best_transform": "identity",
+        "best_error": 6.7e-09,
+        "identity_max_abs_error": 0.004122478,
+        "error_identity": 6.7e-09,
+        "error_log10": 1.9496857331,
+        "error_ln": 4.43678827,
+        "native_nonpositive_count": null,
+        "native_negative_count": null,
+        "native_min_positive": null,
+        "replacement_floor_native": null,
+        "nonpositive_floor_max_log_error": null,
+        "positive_log10_max_error": null,
+        "identity_discrepancies_gt_1e_7": 2.0
+      }
+    ]
+  },
+  "derived": {
+    "names": {
+      "V037": "kcalperc",
+      "V228": "esters_sum",
+      "V229": "aroma_hops_sum",
+      "V230": "acids_sum",
+      "V231": "sulfur_sum"
+    },
+    "consistency": [
+      {
+        "target": "V037",
+        "source": "ref_first37_D01_others",
+        "n_valid_pairs": 250,
+        "recorded_MAE": 2.6340689363024696e-10,
+        "recorded_max_abs_error": 5.012013026828298e-10
+      },
+      {
+        "target": "V228",
+        "source": "ref_first37_D01_others",
+        "n_valid_pairs": 250,
+        "recorded_MAE": 2.5320585450572245e-10,
+        "recorded_max_abs_error": 4.938137676546717e-10
+      },
+      {
+        "target": "V229",
+        "source": "ref_first37_D01_others",
+        "n_valid_pairs": 237,
+        "recorded_MAE": 1.2552791375504454e-09,
+        "recorded_max_abs_error": 3.4134689519405015e-08
+      },
+      {
+        "target": "V230",
+        "source": "ref_first37_D01_others",
+        "n_valid_pairs": 250,
+        "recorded_MAE": 2.67042616648467e-10,
+        "recorded_max_abs_error": 4.981246803925643e-10
+      },
+      {
+        "target": "V231",
+        "source": "ref_first37_D01_others",
+        "n_valid_pairs": 250,
+        "recorded_MAE": 2.3592404826966446e-10,
+        "recorded_max_abs_error": 4.978074619188533e-10
+      },
+      {
+        "target": "V229",
+        "source": "ref_scale_six_components",
+        "n_valid_pairs": 237,
+        "recorded_MAE": 2.579423037095015e-10,
+        "recorded_max_abs_error": 4.986908663795474e-10
+      }
+    ],
+    "formulas_power10": {
+      "V037": "10^V037 = 0.4*u(V031) + 0.4*u(V033) + 0.4*u(V036) + 5.523*u(V034) + 0.0003*u(V027)",
+      "V228": "10^V228 = (1/23)*u(V006) + (200/207)*u(V007) + (40/9)*u(V008) + 10*u(V009) + (4/3)*u(V010) + (1/10)*u(V011) + (5/3)*u(V016) + (100/129)*u(V019)",
+      "V229": "10^V229 = (2000/9)*u(V095) + (2/3)*u(V118) + (2000/49)*u(V121) + (1000/23)*u(V128) + (100/23)*u(V155) + (8/5)*u(V164)",
+      "V230": "10^V230 = (200/29)*u(V023) + (1/400)*u(V027)",
+      "V231": "10^V231 = (1/50)*u(V002) + (5/6)*u(V003) + (1/19)*u(V004) + (2/7)*u(V012) + (1/11)*u(V022)"
+    }
+  },
+  "q1_protocol": {
+    "fitted": {
+      "exact_agreement_rate": 0.23384,
+      "mean_abs_grade_diff": 1.0364000000000002,
+      "mean_B_minus_A": 0.42135999999999996,
+      "max_abs_diff": 3
+    },
+    "oof": {
+      "exact_agreement_rate": 0.25864,
+      "mean_abs_grade_diff": 0.9862400000000001,
+      "mean_B_minus_A": 0.47536,
+      "max_abs_diff": 3
+    }
+  },
+  "q1_K_distribution": [
+    {
+      "dataset": "fitted",
+      "protocol": "A",
+      "grade": 0,
+      "count": 0,
+      "frequency": 0.0,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "A",
+      "grade": 1,
+      "count": 1,
+      "frequency": 0.004,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "A",
+      "grade": 2,
+      "count": 36,
+      "frequency": 0.144,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "A",
+      "grade": 3,
+      "count": 181,
+      "frequency": 0.724,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "A",
+      "grade": 4,
+      "count": 32,
+      "frequency": 0.128,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "A",
+      "grade": 5,
+      "count": 0,
+      "frequency": 0.0,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "A",
+      "grade": 6,
+      "count": 0,
+      "frequency": 0.0,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "B",
+      "grade": 0,
+      "count": 18,
+      "frequency": 0.072,
+      "n_objects": 250,
+      "K_ge2_count": 231,
+      "K_ge2_rate": 0.924,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "B",
+      "grade": 1,
+      "count": 1,
+      "frequency": 0.004,
+      "n_objects": 250,
+      "K_ge2_count": 231,
+      "K_ge2_rate": 0.924,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "B",
+      "grade": 2,
+      "count": 24,
+      "frequency": 0.096,
+      "n_objects": 250,
+      "K_ge2_count": 231,
+      "K_ge2_rate": 0.924,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "B",
+      "grade": 3,
+      "count": 29,
+      "frequency": 0.116,
+      "n_objects": 250,
+      "K_ge2_count": 231,
+      "K_ge2_rate": 0.924,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "B",
+      "grade": 4,
+      "count": 87,
+      "frequency": 0.348,
+      "n_objects": 250,
+      "K_ge2_count": 231,
+      "K_ge2_rate": 0.924,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "B",
+      "grade": 5,
+      "count": 86,
+      "frequency": 0.344,
+      "n_objects": 250,
+      "K_ge2_count": 231,
+      "K_ge2_rate": 0.924,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "fitted",
+      "protocol": "B",
+      "grade": 6,
+      "count": 5,
+      "frequency": 0.02,
+      "n_objects": 250,
+      "K_ge2_count": 231,
+      "K_ge2_rate": 0.924,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "A",
+      "grade": 0,
+      "count": 0,
+      "frequency": 0.0,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "A",
+      "grade": 1,
+      "count": 1,
+      "frequency": 0.004,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "A",
+      "grade": 2,
+      "count": 16,
+      "frequency": 0.064,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "A",
+      "grade": 3,
+      "count": 212,
+      "frequency": 0.848,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "A",
+      "grade": 4,
+      "count": 21,
+      "frequency": 0.084,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "A",
+      "grade": 5,
+      "count": 0,
+      "frequency": 0.0,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "A",
+      "grade": 6,
+      "count": 0,
+      "frequency": 0.0,
+      "n_objects": 250,
+      "K_ge2_count": 249,
+      "K_ge2_rate": 0.996,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "B",
+      "grade": 0,
+      "count": 11,
+      "frequency": 0.044,
+      "n_objects": 250,
+      "K_ge2_count": 238,
+      "K_ge2_rate": 0.952,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "B",
+      "grade": 1,
+      "count": 1,
+      "frequency": 0.004,
+      "n_objects": 250,
+      "K_ge2_count": 238,
+      "K_ge2_rate": 0.952,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "B",
+      "grade": 2,
+      "count": 9,
+      "frequency": 0.036,
+      "n_objects": 250,
+      "K_ge2_count": 238,
+      "K_ge2_rate": 0.952,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "B",
+      "grade": 3,
+      "count": 48,
+      "frequency": 0.192,
+      "n_objects": 250,
+      "K_ge2_count": 238,
+      "K_ge2_rate": 0.952,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "B",
+      "grade": 4,
+      "count": 100,
+      "frequency": 0.4,
+      "n_objects": 250,
+      "K_ge2_count": 238,
+      "K_ge2_rate": 0.952,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "B",
+      "grade": 5,
+      "count": 80,
+      "frequency": 0.32,
+      "n_objects": 250,
+      "K_ge2_count": 238,
+      "K_ge2_rate": 0.952,
+      "target": "stale_hops"
+    },
+    {
+      "dataset": "oof",
+      "protocol": "B",
+      "grade": 6,
+      "count": 1,
+      "frequency": 0.004,
+      "n_objects": 250,
+      "K_ge2_count": 238,
+      "K_ge2_rate": 0.952,
+      "target": "stale_hops"
+    }
+  ],
+  "q1_metrics": [
+    {
+      "model": "mean",
+      "protocol": "nested_D04_ID_holdout_5x3_sensitivity",
+      "mae": 0.41853,
+      "rmse": 0.57081,
+      "r2": -0.013604,
+      "r2_positive": 0,
+      "mae_improvement": 0.0,
+      "n": 50
+    },
+    {
+      "model": "mean",
+      "protocol": "nested_random_5x3",
+      "mae": 0.416922,
+      "rmse": 0.568691,
+      "r2": -0.006859,
+      "r2_positive": 0,
+      "mae_improvement": 0.0,
+      "n": 50
+    },
+    {
+      "model": "mean",
+      "protocol": "nested_regime_holdout_5x3",
+      "mae": 0.421588,
+      "rmse": 0.575316,
+      "r2": -0.028962,
+      "r2_positive": 0,
+      "mae_improvement": 0.0,
+      "n": 50
+    },
+    {
+      "model": "pls",
+      "protocol": "nested_D04_ID_holdout_5x3_sensitivity",
+      "mae": 0.356298,
+      "rmse": 0.488811,
+      "r2": 0.210443,
+      "r2_positive": 47,
+      "mae_improvement": 0.128936,
+      "n": 50
+    },
+    {
+      "model": "pls",
+      "protocol": "nested_random_5x3",
+      "mae": 0.353161,
+      "rmse": 0.484344,
+      "r2": 0.223809,
+      "r2_positive": 50,
+      "mae_improvement": 0.134091,
+      "n": 50
+    },
+    {
+      "model": "pls",
+      "protocol": "nested_regime_holdout_5x3",
+      "mae": 0.366216,
+      "rmse": 0.501065,
+      "r2": 0.174922,
+      "r2_positive": 44,
+      "mae_improvement": 0.113325,
+      "n": 50
+    },
+    {
+      "model": "ridge",
+      "protocol": "nested_D04_ID_holdout_5x3_sensitivity",
+      "mae": 0.35484,
+      "rmse": 0.493968,
+      "r2": 0.204523,
+      "r2_positive": 49,
+      "mae_improvement": 0.13576,
+      "n": 50
+    },
+    {
+      "model": "ridge",
+      "protocol": "nested_random_5x3",
+      "mae": 0.354107,
+      "rmse": 0.492131,
+      "r2": 0.208512,
+      "r2_positive": 50,
+      "mae_improvement": 0.134524,
+      "n": 50
+    },
+    {
+      "model": "ridge",
+      "protocol": "nested_regime_holdout_5x3",
+      "mae": 0.366747,
+      "rmse": 0.508474,
+      "r2": 0.161938,
+      "r2_positive": 46,
+      "mae_improvement": 0.114942,
+      "n": 50
+    },
+    {
+      "model": "selected",
+      "protocol": "nested_D04_ID_holdout_5x3_sensitivity",
+      "mae": 0.356298,
+      "rmse": 0.488811,
+      "r2": 0.210443,
+      "r2_positive": 47,
+      "mae_improvement": 0.128936,
+      "n": 50
+    },
+    {
+      "model": "selected",
+      "protocol": "nested_random_5x3",
+      "mae": 0.354449,
+      "rmse": 0.486817,
+      "r2": 0.217195,
+      "r2_positive": 50,
+      "mae_improvement": 0.131529,
+      "n": 50
+    },
+    {
+      "model": "selected",
+      "protocol": "nested_regime_holdout_5x3",
+      "mae": 0.368797,
+      "rmse": 0.508447,
+      "r2": 0.157265,
+      "r2_positive": 44,
+      "mae_improvement": 0.108794,
+      "n": 50
+    }
+  ],
+  "q1_best": [
+    {
+      "target": "Y31",
+      "target_name": "酸度",
+      "mae": 0.3301,
+      "r2": 0.6953
+    },
+    {
+      "target": "Y46",
+      "target_name": "酒精感",
+      "mae": 0.3526,
+      "r2": 0.675
+    },
+    {
+      "target": "Y43",
+      "target_name": "乳酸味",
+      "mae": 0.2673,
+      "r2": 0.6296
+    },
+    {
+      "target": "Y32",
+      "target_name": "苦度",
+      "mae": 0.3652,
+      "r2": 0.5873
+    },
+    {
+      "target": "Y44",
+      "target_name": "乙酸味",
+      "mae": 0.2856,
+      "r2": 0.5706
+    },
+    {
+      "target": "Y48",
+      "target_name": "酒体",
+      "mae": 0.3068,
+      "r2": 0.533
+    },
+    {
+      "target": "Y47",
+      "target_name": "余味",
+      "mae": 0.3421,
+      "r2": 0.4952
+    },
+    {
+      "target": "Y16",
+      "target_name": "麦芽风味·总体",
+      "mae": 0.4205,
+      "r2": 0.4394
+    },
+    {
+      "target": "Y21",
+      "target_name": "酒花风味·总体",
+      "mae": 0.4215,
+      "r2": 0.4315
+    },
+    {
+      "target": "Y01",
+      "target_name": "麦芽香·总体",
+      "mae": 0.4271,
+      "r2": 0.4152
+    }
+  ],
+  "q1_worst": [
+    {
+      "target": "Y15",
+      "target_name": "酯香·甜果",
+      "mae": 0.3595,
+      "r2": 0.0523
+    },
+    {
+      "target": "Y45",
+      "target_name": "马厩味",
+      "mae": 0.3001,
+      "r2": 0.0486
+    },
+    {
+      "target": "Y38",
+      "target_name": "陈酒花味",
+      "mae": 0.2964,
+      "r2": 0.0439
+    },
+    {
+      "target": "Y17",
+      "target_name": "麦芽风味·谷物",
+      "mae": 0.3487,
+      "r2": 0.0429
+    },
+    {
+      "target": "Y28",
+      "target_name": "酯风味·香蕉",
+      "mae": 0.4039,
+      "r2": 0.0388
+    },
+    {
+      "target": "Y14",
+      "target_name": "酯香·花香",
+      "mae": 0.3157,
+      "r2": 0.0163
+    },
+    {
+      "target": "Y13",
+      "target_name": "酯香·香蕉",
+      "mae": 0.4198,
+      "r2": 0.0091
+    },
+    {
+      "target": "Y29",
+      "target_name": "酯风味·花香",
+      "mae": 0.2896,
+      "r2": 0.0021
+    }
+  ],
+  "q1_summary": {
+    "alignment": "object; object_id conflicts in every row; regime agrees",
+    "n": 250,
+    "features": 231,
+    "targets": 50,
+    "D03_cards": 12,
+    "D03_has_observed_grades": false,
+    "raw_grade_identified": false,
+    "final_selection": {
+      "family": "pls",
+      "parameter": 10.0
+    },
+    "conformal": {
+      "mean_marginal_coverage": 0.9012,
+      "joint_box_covered": 42,
+      "joint_box_test_n": 50,
+      "joint_box_test_coverage": 0.84,
+      "joint_box_coverage_ci95": [
+        0.7088736934048891,
+        0.9282992328167138
+      ],
+      "all50_covered_by_marginal_intervals": 0.1
+    },
+    "conformal_selection": {
+      "family": "pls",
+      "parameter": 10.0
+    },
+    "grade_warning": "All integer grades are an explicit working convention, not recovered original labels. No original-grade accuracy is estimable.",
+    "conformal_warning": "Separate 90% marginal intervals and 90% joint max-residual box apply to exchangeable D04 target rows; no class-conditional, generated-OOD or causal safety guarantee. Repeated D04 IDs have unknown semantics, so entity dependence is unresolved."
+  },
+  "q1_conformal": {
+    "mean_marginal_coverage": 0.9012,
+    "mean_interval_width": 1.5381109194878233,
+    "coverage_min": 0.64,
+    "coverage_max": 0.98,
+    "joint_box_coverage": 0.84,
+    "joint_box_covered": 42,
+    "joint_box_n": 50,
+    "all50_covered_rate": 0.1
+  },
+  "q1_identifiability": {
+    "n_cells": 12500,
+    "true_anchor_count": 0,
+    "unconditional_scope": "0..6 is only the defining grade domain; actual unknown standardization mechanism has not been characterized",
+    "extra_common_monotone_calibration_assumption_verified": false,
+    "common_monotone_ASSUMPTION_all_cells_set_size": 7,
+    "ALL7_batch_occupancy_assumption_verified": false,
+    "ALL7_ASSUMPTION_mean_set_size": 6.73416,
+    "ALL7_ASSUMPTION_cells_with_smaller_set": 945,
+    "ALL7_ASSUMPTION_singleton_cells": 162,
+    "ALL7_ASSUMPTION_threshold2_status_identified_cells_all_targets": 476,
+    "ALL7_ASSUMPTION_Y38_critical_status_identified_rows": 17,
+    "rows_with_50_distinct_values": 250,
+    "observed_source_guard_branch_present": true,
+    "transfer_Y38": [
+      {
+        "branch": "joint_control",
+        "baseline": "observed_source_D04",
+        "n": 11,
+        "all_monotone_maps_exact_nonincrease_n": 6,
+        "largest_after_minus_before": 0.27169227522804906
+      },
+      {
+        "branch": "joint_control",
+        "baseline": "original_D01_source",
+        "n": 11,
+        "all_monotone_maps_exact_nonincrease_n": 11,
+        "largest_after_minus_before": -0.07003222243286006
+      },
+      {
+        "branch": "observed_source_guard",
+        "baseline": "observed_source_D04",
+        "n": 11,
+        "all_monotone_maps_exact_nonincrease_n": 11,
+        "largest_after_minus_before": -9.996589514e-07
+      },
+      {
+        "branch": "observed_source_guard",
+        "baseline": "original_D01_source",
+        "n": 11,
+        "all_monotone_maps_exact_nonincrease_n": 11,
+        "largest_after_minus_before": -0.010651607079421364
+      },
+      {
+        "branch": "observed_source_guard",
+        "baseline": "reexpressed_candidate_relations_source",
+        "n": 11,
+        "all_monotone_maps_exact_nonincrease_n": 11,
+        "largest_after_minus_before": -0.010455819718673346
+      },
+      {
+        "branch": "structure",
+        "baseline": "observed_source_D04",
+        "n": 11,
+        "all_monotone_maps_exact_nonincrease_n": 6,
+        "largest_after_minus_before": 0.2848920690064988
+      },
+      {
+        "branch": "structure",
+        "baseline": "original_D01_source",
+        "n": 11,
+        "all_monotone_maps_exact_nonincrease_n": 11,
+        "largest_after_minus_before": -0.010651607079421675
+      },
+      {
+        "branch": "structure",
+        "baseline": "reexpressed_candidate_relations_source",
+        "n": 11,
+        "all_monotone_maps_exact_nonincrease_n": 11,
+        "largest_after_minus_before": -0.010455819718673655
+      }
+    ],
+    "warning": "Identified sets contain possibilities, not probabilities; no 1/7 accuracy claim, no true K safety claim, no model refit."
+  },
+  "q2_top3_examples": [
+    {
+      "target": "Y01",
+      "target_name": "麦芽香·总体",
+      "top1_compound": "Color",
+      "top1_column": "V025",
+      "top1_freq": 0.99,
+      "top1_module": 12,
+      "top2_compound": "Protein",
+      "top2_column": "V031",
+      "top2_freq": 0.83,
+      "top2_module": 12,
+      "top3_compound": "β-phellandrene",
+      "top3_column": "V078",
+      "top3_freq": 0.115,
+      "top3_module": 6,
+      "module_any_rep_freq": 1.0,
+      "mean_method_Jaccard": 0.6667
+    },
+    {
+      "target": "Y06",
+      "target_name": "酒花香·总体",
+      "top1_compound": "Ethyl octanoate",
+      "top1_column": "V010",
+      "top1_freq": 0.6,
+      "top1_module": 4,
+      "top2_compound": "Total hop aroma compounds",
+      "top2_column": "V229",
+      "top2_freq": 0.415,
+      "top2_module": 6,
+      "top3_compound": "Carbon dioxide",
+      "top3_column": "V035",
+      "top3_freq": 0.375,
+      "top3_module": 35,
+      "module_any_rep_freq": 0.61,
+      "mean_method_Jaccard": 0.2333
+    },
+    {
+      "target": "Y07",
+      "target_name": "酒花香·柑橘",
+      "top1_compound": "Carbon dioxide",
+      "top1_column": "V035",
+      "top1_freq": 0.735,
+      "top1_module": 35,
+      "top2_compound": "Protein",
+      "top2_column": "V031",
+      "top2_freq": 0.225,
+      "top2_module": 12,
+      "top3_compound": "Methyl heptenone",
+      "top3_column": "V070",
+      "top3_freq": 0.14,
+      "top3_module": 50,
+      "module_any_rep_freq": 0.735,
+      "mean_method_Jaccard": 0.1333
+    },
+    {
+      "target": "Y11",
+      "target_name": "酯香·总体",
+      "top1_compound": "Acetaldehyde",
+      "top1_column": "V001",
+      "top1_freq": 0.745,
+      "top1_module": 4,
+      "top2_compound": "N-hexanol",
+      "top2_column": "V055",
+      "top2_freq": 0.625,
+      "top2_module": 4,
+      "top3_compound": "Protein",
+      "top3_column": "V031",
+      "top3_freq": 0.55,
+      "top3_module": 12,
+      "module_any_rep_freq": 0.97,
+      "mean_method_Jaccard": 0.3
+    },
+    {
+      "target": "Y31",
+      "target_name": "酸度",
+      "top1_compound": "pH",
+      "top1_column": "V030",
+      "top1_freq": 0.92,
+      "top1_module": 32,
+      "top2_compound": "Prenyl isobutyrate",
+      "top2_column": "V085",
+      "top2_freq": 0.38,
+      "top2_module": 5,
+      "top3_compound": "Perillyl acetate",
+      "top3_column": "V157",
+      "top3_freq": 0.325,
+      "top3_module": 5,
+      "module_any_rep_freq": 0.92,
+      "mean_method_Jaccard": 0.2
+    },
+    {
+      "target": "Y32",
+      "target_name": "苦度",
+      "top1_compound": "Iso-alpha acids",
+      "top1_column": "V032",
+      "top1_freq": 0.995,
+      "top1_module": 33,
+      "top2_compound": "Ethyl octanoate",
+      "top2_column": "V010",
+      "top2_freq": 0.83,
+      "top2_module": 4,
+      "top3_compound": "Ethyl decanoate",
+      "top3_column": "V007",
+      "top3_freq": 0.44,
+      "top3_module": 3,
+      "module_any_rep_freq": 0.995,
+      "mean_method_Jaccard": 0.6667
+    },
+    {
+      "target": "Y34",
+      "target_name": "4-乙烯基愈创木酚",
+      "top1_compound": "4-vinylguaiacol",
+      "top1_column": "V021",
+      "top1_freq": 0.965,
+      "top1_module": 26,
+      "top2_compound": "Terpiryl acetate",
+      "top2_column": "V138",
+      "top2_freq": 0.66,
+      "top2_module": 78,
+      "top3_compound": "Prenyl isobutyrate",
+      "top3_column": "V085",
+      "top3_freq": 0.32,
+      "top3_module": 5,
+      "module_any_rep_freq": 0.965,
+      "mean_method_Jaccard": 0.3
+    },
+    {
+      "target": "Y35",
+      "target_name": "双乙酰",
+      "top1_compound": "Eugenol",
+      "top1_column": "V146",
+      "top1_freq": 0.87,
+      "top1_module": 81,
+      "top2_compound": "Ethyl decanoate",
+      "top2_column": "V007",
+      "top2_freq": 0.27,
+      "top2_module": 3,
+      "top3_compound": "Ethyl octanoate",
+      "top3_column": "V010",
+      "top3_freq": 0.235,
+      "top3_module": 4,
+      "module_any_rep_freq": 0.87,
+      "mean_method_Jaccard": 0.3
+    },
+    {
+      "target": "Y36",
+      "target_name": "二甲基硫(DMS)",
+      "top1_compound": "Unfermentables",
+      "top1_column": "V036",
+      "top1_freq": 0.44,
+      "top1_module": 36,
+      "top2_compound": "E-nerolidol",
+      "top2_column": "V182",
+      "top2_freq": 0.315,
+      "top2_module": 8,
+      "top3_compound": "Protein",
+      "top3_column": "V031",
+      "top3_freq": 0.35,
+      "top3_module": 12,
+      "module_any_rep_freq": 0.44,
+      "mean_method_Jaccard": 0.1333
+    },
+    {
+      "target": "Y38",
+      "target_name": "陈酒花味",
+      "top1_compound": "2-undecanol",
+      "top1_column": "V137",
+      "top1_freq": 0.53,
+      "top1_module": 2,
+      "top2_compound": "E-ortho-methoxy cinnamaldehyde",
+      "top2_column": "V180",
+      "top2_freq": 0.39,
+      "top2_module": 101,
+      "top3_compound": "Neryl propanoate",
+      "top3_column": "V165",
+      "top3_freq": 0.145,
+      "top3_module": 2,
+      "module_any_rep_freq": 0.745,
+      "mean_method_Jaccard": 0.0667
+    },
+    {
+      "target": "Y39",
+      "target_name": "反-2-壬烯醛",
+      "top1_compound": "β-phellandrene",
+      "top1_column": "V078",
+      "top1_freq": 0.18,
+      "top1_module": 6,
+      "top2_compound": "Terpinen-4-ol",
+      "top2_column": "V115",
+      "top2_freq": 0.235,
+      "top2_module": 6,
+      "top3_compound": "Iso-alpha acids",
+      "top3_column": "V032",
+      "top3_freq": 0.19,
+      "top3_module": 33,
+      "module_any_rep_freq": 0.36,
+      "mean_method_Jaccard": 0.0
+    },
+    {
+      "target": "Y46",
+      "target_name": "酒精感",
+      "top1_compound": "Ethanol",
+      "top1_column": "V034",
+      "top1_freq": 1.0,
+      "top1_module": 4,
+      "top2_compound": "Caloric value",
+      "top2_column": "V037",
+      "top2_freq": 0.995,
+      "top2_module": 4,
+      "top3_compound": "Acetaldehyde",
+      "top3_column": "V001",
+      "top3_freq": 0.28,
+      "top3_module": 4,
+      "module_any_rep_freq": 1.0,
+      "mean_method_Jaccard": 0.5
+    },
+    {
+      "target": "Y50",
+      "target_name": "总体喜好",
+      "top1_compound": "Carbon dioxide",
+      "top1_column": "V035",
+      "top1_freq": 0.235,
+      "top1_module": 35,
+      "top2_compound": "Ethyl acetate",
+      "top2_column": "V006",
+      "top2_freq": 0.415,
+      "top2_module": 4,
+      "top3_compound": "Unfermentables",
+      "top3_column": "V036",
+      "top3_freq": 0.355,
+      "top3_module": 36,
+      "module_any_rep_freq": 0.235,
+      "mean_method_Jaccard": 0.3333
+    }
+  ],
+  "q2_network": {
+    "n_nodes": 231,
+    "n_edges": 266,
+    "weighted_degree_sum": 532.0,
+    "n_modules_incl_isolates": 120,
+    "n_isolates": 101,
+    "n_nontrivial_modules": 19,
+    "largest_module": 23,
+    "module_summary": [
+      {
+        "module": 1,
+        "size": 23,
+        "edges_degree_sum": 59,
+        "origins": "Yeast:12;Malt:7;Spices:3;Others:1",
+        "top_compounds": "3-methyl-2-hexanol; O-cresol; 2-acetylfuran; 4-methyl-1-pentanol; 3-furanmethanol; N-octanol; N-heptanol; N-dodecanol",
+        "top_features": "V058;V087;V060;V100;V059;V091;V066;V170"
+      },
+      {
+        "module": 2,
+        "size": 17,
+        "edges_degree_sum": 114,
+        "origins": "Hops:15;Yeast:2",
+        "top_compounds": "Caryophylla-4,8-dien-5-ol; Nerol oxide; Epicubenol; Allo-aromadendrene epoxide; α-muurolol; α-calacorene; Humulene epoxide II; Tau-muurolol",
+        "top_features": "V192;V108;V190;V189;V194;V181;V188;V200"
+      },
+      {
+        "module": 3,
+        "size": 16,
+        "edges_degree_sum": 171,
+        "origins": "Yeast:12;Hops:4",
+        "top_compounds": "2-methylbutyl octanoate; Pentyl octanoate; 1,2-dihydro-8-hydroxy-2E-linalool; Isopentyl hexanoate; Z-β-farnesene; 2-butyl octanoate; Trans-dihydro-α-terpinyl acetate; Ethyl tetradecanoate",
+        "top_features": "V163;V161;V195;V127;V160;V143;V135;V214"
+      },
+      {
+        "module": 4,
+        "size": 15,
+        "edges_degree_sum": 68,
+        "origins": "Yeast:13;:1;Others:1",
+        "top_compounds": "Ethanol; Total ester compounds; Ethyl hexanoate; Caloric value; Isobutyl acetate; Glycerol; Isoamyl alcohol; Isoamyl acetate",
+        "top_features": "V034;V228;V008;V037;V015;V028;V013;V016"
+      },
+      {
+        "module": 5,
+        "size": 13,
+        "edges_degree_sum": 36,
+        "origins": "Yeast:5;Wild flora:3;Hops:2;Others:2;Spices:1",
+        "top_compounds": "Ethyl phenylacetate; Prenyl isobutyrate; Neryl formate; 4-ethyl-guaiacol; 4-ethyl-phenol; Ethyl benzoate; Ethyl 2-methylbutyrate; Perillyl acetate",
+        "top_features": "V126;V085;V132;V133;V111;V113;V005;V157"
+      },
+      {
+        "module": 6,
+        "size": 12,
+        "edges_degree_sum": 31,
+        "origins": "Hops:7;Spices:3;:1;Others:1",
+        "top_compounds": "Terpinen-4-ol; Ethyl linalool; Total hop aroma compounds; Linalool; Isoborneol; α-terpineol; β-phellandrene; Citronellol",
+        "top_features": "V115;V119;V229;V095;V112;V118;V078;V121"
+      },
+      {
+        "module": 7,
+        "size": 5,
+        "edges_degree_sum": 12,
+        "origins": "Yeast:4;Hops:1",
+        "top_compounds": "2-methyl-1-butanol; N-pentanol; Isopentyl formate; 1-propanol; 14-hydroxy-9-epi-(E)-caryophyllene",
+        "top_features": "V044;V043;V045;V038;V199"
+      },
+      {
+        "module": 8,
+        "size": 5,
+        "edges_degree_sum": 14,
+        "origins": "Hops:5",
+        "top_compounds": "2,3-dihydro-farnesol; E-nerolidol; Tobacarol; Z,E-farnesol; E,Z-farnesal",
+        "top_features": "V204;V182;V183;V210;V205"
+      }
+    ],
+    "edges": 266,
+    "communities": 120,
+    "isolates": 101,
+    "modularity": 0.7446379885269494,
+    "network_bootstrap_ARI_median": 0.749197828967787,
+    "network_bootstrap_edge_Jaccard_median": 0.7182117957414735,
+    "top3_frequency_median": 0.4125,
+    "top3_frequency_min": 0.07,
+    "top3_frequency_ge_0_8": 20,
+    "mean_method_Jaccard": 0.26599999999999996,
+    "threshold_hinge_tests": 1050,
+    "threshold_hinge_q_BH_below_0_05": 174,
+    "threshold_hinge_q_BH_HC3_below_0_05": 166,
+    "top3_overall_within_regime_sign_reversals": 1
+  },
+  "q2_summary": {
+    "D02_spearman_MAE": 1.6021924986637158e-16,
+    "D02_pearson_MAE": 0.08730394533051206,
+    "D06_recomputed_spearman_MAE": 1.5063071812105482e-16,
+    "D06_rows": 44,
+    "missing_features": 73,
+    "bootstrap": 200,
+    "seed": 20261026,
+    "ridge_alpha": 100,
+    "association_outcome": "D04 continuous values, rank transformed",
+    "identification": "association, not causal effect; grades unavailable",
+    "network_cutoff": 0.6,
+    "edges": 266,
+    "communities": 120,
+    "isolates": 101,
+    "modularity": 0.7446379885269494,
+    "top3_frequency_median": 0.4125,
+    "top3_frequency_min": 0.07,
+    "top3_frequency_ge_0_8": 20,
+    "mean_method_Jaccard": 0.26599999999999996,
+    "threshold_hinge_tests": 1050,
+    "threshold_hinge_q_BH_below_0_05": 174,
+    "threshold_hinge_q_BH_HC3_below_0_05": 166,
+    "top3_overall_within_regime_sign_reversals": 1,
+    "network_bootstrap_ARI_median": 0.749197828967787,
+    "network_bootstrap_edge_Jaccard_median": 0.7182117957414735
+  },
+  "q2_hinge_top": [
+    {
+      "feature": "V004",
+      "compound": "Dimethyl sulfide",
+      "target": "Y32",
+      "target_name": "苦度",
+      "threshold_native": 17.25,
+      "hinge_slope_change": -1.674036,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 0.0
+    },
+    {
+      "feature": "V004",
+      "compound": "Dimethyl sulfide",
+      "target": "Y46",
+      "target_name": "酒精感",
+      "threshold_native": 17.25,
+      "hinge_slope_change": -1.778342,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 0.0
+    },
+    {
+      "feature": "V006",
+      "compound": "Ethyl acetate",
+      "target": "Y32",
+      "target_name": "苦度",
+      "threshold_native": 24.0,
+      "hinge_slope_change": -1.470337,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 0.0
+    },
+    {
+      "feature": "V006",
+      "compound": "Ethyl acetate",
+      "target": "Y09",
+      "target_name": "酒花香·草本",
+      "threshold_native": 24.0,
+      "hinge_slope_change": -0.983675,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 0.0
+    },
+    {
+      "feature": "V008",
+      "compound": "Ethyl hexanoate",
+      "target": "Y46",
+      "target_name": "酒精感",
+      "threshold_native": 0.23,
+      "hinge_slope_change": -1.396459,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 0.0
+    },
+    {
+      "feature": "V006",
+      "compound": "Ethyl acetate",
+      "target": "Y24",
+      "target_name": "酒花风味·草本",
+      "threshold_native": 24.0,
+      "hinge_slope_change": -1.044547,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 0.0
+    },
+    {
+      "feature": "V004",
+      "compound": "Dimethyl sulfide",
+      "target": "Y24",
+      "target_name": "酒花风味·草本",
+      "threshold_native": 17.25,
+      "hinge_slope_change": -0.957252,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 1e-06
+    },
+    {
+      "feature": "V010",
+      "compound": "Ethyl octanoate",
+      "target": "Y46",
+      "target_name": "酒精感",
+      "threshold_native": 0.7,
+      "hinge_slope_change": -1.452243,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 3e-06
+    },
+    {
+      "feature": "V010",
+      "compound": "Ethyl octanoate",
+      "target": "Y09",
+      "target_name": "酒花香·草本",
+      "threshold_native": 0.7,
+      "hinge_slope_change": -1.041799,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 3e-06
+    },
+    {
+      "feature": "V008",
+      "compound": "Ethyl hexanoate",
+      "target": "Y32",
+      "target_name": "苦度",
+      "threshold_native": 0.23,
+      "hinge_slope_change": -1.176835,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 3e-06
+    },
+    {
+      "feature": "V033",
+      "compound": "Sugars",
+      "target": "Y01",
+      "target_name": "麦芽香·总体",
+      "threshold_native": 2.9,
+      "hinge_slope_change": -0.768772,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 9e-06
+    },
+    {
+      "feature": "V004",
+      "compound": "Dimethyl sulfide",
+      "target": "Y09",
+      "target_name": "酒花香·草本",
+      "threshold_native": 17.25,
+      "hinge_slope_change": -0.82843,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 1.2e-05
+    },
+    {
+      "feature": "V008",
+      "compound": "Ethyl hexanoate",
+      "target": "Y48",
+      "target_name": "酒体",
+      "threshold_native": 0.23,
+      "hinge_slope_change": -0.911228,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 1.4e-05
+    },
+    {
+      "feature": "V004",
+      "compound": "Dimethyl sulfide",
+      "target": "Y21",
+      "target_name": "酒花风味·总体",
+      "threshold_native": 17.25,
+      "hinge_slope_change": -1.254257,
+      "p_HC3_approximate": 0.0,
+      "q_BH_HC3_exploratory": 2.8e-05
+    },
+    {
+      "feature": "V004",
+      "compound": "Dimethyl sulfide",
+      "target": "Y48",
+      "target_name": "酒体",
+      "threshold_native": 17.25,
+      "hinge_slope_change": -1.066142,
+      "p_HC3_approximate": 1e-06,
+      "q_BH_HC3_exploratory": 3.8e-05
+    },
+    {
+      "feature": "V006",
+      "compound": "Ethyl acetate",
+      "target": "Y06",
+      "target_name": "酒花香·总体",
+      "threshold_native": 24.0,
+      "hinge_slope_change": -1.025738,
+      "p_HC3_approximate": 1e-06,
+      "q_BH_HC3_exploratory": 5.7e-05
+    },
+    {
+      "feature": "V029",
+      "compound": "Iron",
+      "target": "Y21",
+      "target_name": "酒花风味·总体",
+      "threshold_native": 0.1,
+      "hinge_slope_change": 0.693092,
+      "p_HC3_approximate": 1e-06,
+      "q_BH_HC3_exploratory": 5.9e-05
+    },
+    {
+      "feature": "V003",
+      "compound": "Diethyl sulfide",
+      "target": "Y43",
+      "target_name": "乳酸味",
+      "threshold_native": 1.2,
+      "hinge_slope_change": 1.112428,
+      "p_HC3_approximate": 1e-06,
+      "q_BH_HC3_exploratory": 6.6e-05
+    },
+    {
+      "feature": "V004",
+      "compound": "Dimethyl sulfide",
+      "target": "Y47",
+      "target_name": "余味",
+      "threshold_native": 17.25,
+      "hinge_slope_change": -1.205244,
+      "p_HC3_approximate": 1e-06,
+      "q_BH_HC3_exploratory": 7.2e-05
+    },
+    {
+      "feature": "V029",
+      "compound": "Iron",
+      "target": "Y32",
+      "target_name": "苦度",
+      "threshold_native": 0.1,
+      "hinge_slope_change": 0.848745,
+      "p_HC3_approximate": 1e-06,
+      "q_BH_HC3_exploratory": 7.2e-05
+    }
+  ],
+  "q3_portrait_corr": [
+    {
+      "style": "Tripel",
+      "pearson_r": 0.8763111905580153,
+      "spearman_r": 0.8739975990396157,
+      "mean_abs_diff": 0.06053583481091671
+    },
+    {
+      "style": "Kriek",
+      "pearson_r": 0.9578342609967084,
+      "spearman_r": 0.9354621848739496,
+      "mean_abs_diff": 0.19216034108681046
+    },
+    {
+      "style": "Lambic",
+      "pearson_r": 0.9675531852001871,
+      "spearman_r": 0.8225210084033613,
+      "mean_abs_diff": 0.12414054631476285
+    }
+  ],
+  "q3_portrait_means": {
+    "Kriek": {
+      "A_malt_all": -0.3931,
+      "A_malt_grain": -0.0865,
+      "A_malt_bread": -0.1617,
+      "A_malt_cara": -0.2556,
+      "A_malt_burn": -0.2653,
+      "A_hops_all": -0.3563,
+      "A_hops_citrus": -0.1849,
+      "A_hops_tropical": -0.1302,
+      "A_hops_noble": -0.2316,
+      "A_hops_woody": -0.0873,
+      "A_esters_all": 0.3726,
+      "A_esters_ethac": 0.0064,
+      "A_esters_isoaa": 0.1726,
+      "A_esters_flower": 0.1666,
+      "A_esters_fruity": 0.3953,
+      "F_malt_all": -0.5484,
+      "F_malt_grain": -0.1466,
+      "F_malt_bread": -0.275,
+      "F_malt_cara": -0.2336,
+      "F_malt_burn": -0.3764,
+      "F_hops_all": -0.4303,
+      "F_hops_citrus": -0.1233,
+      "F_hops_tropical": -0.0418,
+      "F_hops_noble": -0.3305,
+      "F_hops_woody": -0.2076,
+      "F_esters_all": 0.3366,
+      "F_esters_ethac": 0.0272,
+      "F_esters_isoaa": 0.1899,
+      "F_esters_flower": 0.1643,
+      "F_esters_fruity": 0.3982,
+      "acidity": 1.3593,
+      "bitternes": -0.6612,
+      "sweetness": 0.2972,
+      "X4vg": -0.4258,
+      "diacetyl": -0.071,
+      "dms": -0.1641,
+      "metallic": -0.1595,
+      "stale_hops": -0.0913,
+      "t2n": -0.0451,
+      "orange": 0.0118,
+      "coriander": -0.0786,
+      "clove": -0.0927,
+      "lactic": 1.1176,
+      "acetic": 1.0777,
+      "barnyard": -0.0835,
+      "alcohol": -0.5185,
+      "aftertaste": 0.0704,
+      "body": -0.2744,
+      "co2": -0.2656,
+      "overall": -0.0161
+    },
+    "Lambic": {
+      "A_malt_all": -0.2988,
+      "A_malt_grain": -0.0571,
+      "A_malt_bread": -0.1132,
+      "A_malt_cara": -0.2405,
+      "A_malt_burn": -0.1842,
+      "A_hops_all": -0.1713,
+      "A_hops_citrus": -0.1124,
+      "A_hops_tropical": -0.1032,
+      "A_hops_noble": -0.0566,
+      "A_hops_woody": 0.0309,
+      "A_esters_all": -0.015,
+      "A_esters_ethac": -0.029,
+      "A_esters_isoaa": -0.1226,
+      "A_esters_flower": -0.0202,
+      "A_esters_fruity": 0.1094,
+      "F_malt_all": -0.3947,
+      "F_malt_grain": -0.0376,
+      "F_malt_bread": -0.1888,
+      "F_malt_cara": -0.2445,
+      "F_malt_burn": -0.2553,
+      "F_hops_all": -0.2635,
+      "F_hops_citrus": -0.0801,
+      "F_hops_tropical": -0.0823,
+      "F_hops_noble": -0.1619,
+      "F_hops_woody": -0.0785,
+      "F_esters_all": -0.0295,
+      "F_esters_ethac": -0.0094,
+      "F_esters_isoaa": -0.1074,
+      "F_esters_flower": 0.0011,
+      "F_esters_fruity": 0.122,
+      "acidity": 1.1658,
+      "bitternes": -0.398,
+      "sweetness": -0.0838,
+      "X4vg": -0.2277,
+      "diacetyl": -0.0604,
+      "dms": 0.0098,
+      "metallic": -0.0881,
+      "stale_hops": 0.0945,
+      "t2n": -0.0135,
+      "orange": 0.0279,
+      "coriander": -0.0276,
+      "clove": -0.1003,
+      "lactic": 0.9335,
+      "acetic": 0.9387,
+      "barnyard": 0.1108,
+      "alcohol": -0.3631,
+      "aftertaste": 0.073,
+      "body": -0.1776,
+      "co2": -0.1221,
+      "overall": -0.0573
+    },
+    "Tripel": {
+      "A_malt_all": -0.0404,
+      "A_malt_grain": 0.024,
+      "A_malt_bread": 0.0777,
+      "A_malt_cara": 0.0055,
+      "A_malt_burn": -0.1449,
+      "A_hops_all": 0.1363,
+      "A_hops_citrus": 0.0653,
+      "A_hops_tropical": 0.0393,
+      "A_hops_noble": 0.099,
+      "A_hops_woody": -0.0627,
+      "A_esters_all": 0.2086,
+      "A_esters_ethac": 0.1228,
+      "A_esters_isoaa": 0.1603,
+      "A_esters_flower": 0.0044,
+      "A_esters_fruity": 0.0321,
+      "F_malt_all": 0.0324,
+      "F_malt_grain": 0.0861,
+      "F_malt_bread": 0.1019,
+      "F_malt_cara": 0.039,
+      "F_malt_burn": -0.0881,
+      "F_hops_all": 0.153,
+      "F_hops_citrus": 0.0384,
+      "F_hops_tropical": 0.0062,
+      "F_hops_noble": 0.1198,
+      "F_hops_woody": -0.0165,
+      "F_esters_all": 0.2088,
+      "F_esters_ethac": 0.1473,
+      "F_esters_isoaa": 0.1457,
+      "F_esters_flower": 0.0184,
+      "F_esters_fruity": 0.0031,
+      "acidity": -0.1951,
+      "bitternes": 0.1489,
+      "sweetness": -0.0329,
+      "X4vg": 0.1676,
+      "diacetyl": -0.0191,
+      "dms": 0.0559,
+      "metallic": 0.0865,
+      "stale_hops": -0.0968,
+      "t2n": -0.0361,
+      "orange": -0.022,
+      "coriander": 0.053,
+      "clove": 0.0079,
+      "lactic": -0.1891,
+      "acetic": -0.1743,
+      "barnyard": -0.0919,
+      "alcohol": 0.3351,
+      "aftertaste": 0.0391,
+      "body": 0.1458,
+      "co2": 0.2373,
+      "overall": 0.1603
+    }
+  },
+  "q3_K_generated": {
+    "A_ge2": 300,
+    "n": 300,
+    "by_style_A_ge2": {
+      "Kriek": 100,
+      "Lambic": 100,
+      "Tripel": 100
+    }
+  },
+  "q3_generation": {
+    "representation": "226_base_columns; V001-V036_ref_native; other_D01_observed_scale",
+    "final_generator": "class_and_global_shrunk_step_empirical_marginals_with_shared_copula",
+    "marginal_shrinkage_weight": "per_feature_nonmissing_n_jc/(n_jc+5)",
+    "full231_native_filename_scope": "native_mixed: V001-V036_and_five_derived_native; remaining_columns_D01_observed_scale",
+    "native_reference_missing": {
+      "V024": 1,
+      "V035": 39
+    },
+    "missing_handling": "CDFs_use_observed_cells; rank_geometry_and_transfer_use_training_medians; no_inverse_log_floor_fabrication",
+    "derived_status": "five_data_supported_candidate_formulas; not_official_definitions",
+    "generated_per_class": 100,
+    "sampling": [
+      {
+        "regime": "R20",
+        "batches": 1,
+        "rejected_invalid_candidates": 0,
+        "proposed_count": 200,
+        "valid_proposal_count": 200,
+        "kept_count": 100,
+        "rejection_rate": 0.0,
+        "proposal_zero_rate_before_rejection": {
+          "V002": 0.88,
+          "V004": 0.0,
+          "V021": 0.825,
+          "V026": 0.015,
+          "V036": 0.0
+        },
+        "valid_pool_zero_rate_before_truncation": {
+          "V002": 0.88,
+          "V004": 0.0,
+          "V021": 0.825,
+          "V026": 0.015,
+          "V036": 0.0
+        },
+        "retained_zero_rate": {
+          "V002": 0.92,
+          "V004": 0.0,
+          "V021": 0.87,
+          "V026": 0.02,
+          "V036": 0.0
+        },
+        "theoretical_zero_probability_before_rejection": {
+          "V002": 0.8842424242424246,
+          "V004": 0.000606060606060606,
+          "V021": 0.7987878787878789,
+          "V026": 0.036363636363636355,
+          "V036": 0.0
+        }
+      },
+      {
+        "regime": "R12",
+        "batches": 1,
+        "rejected_invalid_candidates": 0,
+        "proposed_count": 200,
+        "valid_proposal_count": 200,
+        "kept_count": 100,
+        "rejection_rate": 0.0,
+        "proposal_zero_rate_before_rejection": {
+          "V002": 0.685,
+          "V004": 0.0,
+          "V021": 0.89,
+          "V026": 0.18,
+          "V036": 0.0
+        },
+        "valid_pool_zero_rate_before_truncation": {
+          "V002": 0.685,
+          "V004": 0.0,
+          "V021": 0.89,
+          "V026": 0.18,
+          "V036": 0.0
+        },
+        "retained_zero_rate": {
+          "V002": 0.69,
+          "V004": 0.0,
+          "V021": 0.94,
+          "V026": 0.18,
+          "V036": 0.0
+        },
+        "theoretical_zero_probability_before_rejection": {
+          "V002": 0.678666666666667,
+          "V004": 0.0013333333333333335,
+          "V021": 0.8906666666666669,
+          "V026": 0.14666666666666664,
+          "V036": 0.0
+        }
+      },
+      {
+        "regime": "R13",
+        "batches": 1,
+        "rejected_invalid_candidates": 0,
+        "proposed_count": 200,
+        "valid_proposal_count": 200,
+        "kept_count": 100,
+        "rejection_rate": 0.0,
+        "proposal_zero_rate_before_rejection": {
+          "V002": 0.845,
+          "V004": 0.0,
+          "V021": 0.795,
+          "V026": 0.08,
+          "V036": 0.0
+        },
+        "valid_pool_zero_rate_before_truncation": {
+          "V002": 0.845,
+          "V004": 0.0,
+          "V021": 0.795,
+          "V026": 0.08,
+          "V036": 0.0
+        },
+        "retained_zero_rate": {
+          "V002": 0.85,
+          "V004": 0.0,
+          "V021": 0.79,
+          "V026": 0.1,
+          "V036": 0.0
+        },
+        "theoretical_zero_probability_before_rejection": {
+          "V002": 0.8237500000000001,
+          "V004": 0.00125,
+          "V021": 0.8350000000000002,
+          "V026": 0.07500000000000001,
+          "V036": 0.0
+        }
+      }
+    ],
+    "seed": 20261026,
+    "heldout_repeats": 5,
+    "heldout_means": {
+      "conditional_lw": {
+        "energy_v": 27.251873727109245,
+        "mmd2_v": 0.30765953279116676,
+        "gaussian_rank_space_nll": 409.8283193382852
+      },
+      "conditional_posterior_predictive": {
+        "energy_v": 27.35789282133363,
+        "mmd2_v": 0.30985696174415533,
+        "gaussian_rank_space_nll": 398.21067107440734
+      },
+      "empirical_marginal_copula": {
+        "energy_v": 22.46757427719216,
+        "mmd2_v": 0.23293257833780617,
+        "gaussian_rank_space_nll": null
+      },
+      "global_lw": {
+        "energy_v": 29.647972557569027,
+        "mmd2_v": 0.3453217674115364,
+        "gaussian_rank_space_nll": 390.208753548955
+      }
+    },
+    "transfer_fallback_count": 0,
+    "transfer_path_search_count": 2,
+    "transfer_source_unchanged_count": 0,
+    "compatibility_screened_representative_counts": {
+      "R20": 3,
+      "R12": 3,
+      "R13": 3
+    },
+    "true_K_status": "unidentified; only_fitted_continuous_prediction_constrained",
+    "observed_source_guard": {
+      "cap_definition": "min(original_D01_source_prediction,reexpressed_source_prediction,observed_D04_source_Y38)",
+      "numerical_inner_margin": 1e-06,
+      "margin_meaning": "floating_point_only; not_statistical_safety_bound",
+      "final_order_rule": "saved_CSV_reprediction<=mathematical_cap; no_positive_tolerance",
+      "source_count": 11,
+      "critical_coordinate_pass_count": 44,
+      "strict_all_score_caps_pass_count": 11,
+      "strict_observed_source_pass_count": 11,
+      "unresolved_count": 0,
+      "source_unchanged_count": 0,
+      "optimizer_success_count": 9,
+      "verified_initial_selected_count": 1,
+      "exact_qp_selected_count": 5,
+      "plateau_polished_selected_count": 2,
+      "max_exact_qp_prediction_affine_error": 2.7755575615628914e-16,
+      "exact_qp_scope": "182_free_coordinate_box_and_affine_halfspace; not_global_226d_optimum",
+      "feasible_initial_fallback_count": 0,
+      "distance_to_R20_center_improved_count": 11,
+      "old_branch_exceeding_observed_source_count": 5,
+      "max_guard_minus_observed": -9.996589513949772e-07,
+      "min_strict_saved_cap_margin": 9.996589513949772e-07,
+      "true_migrated_score_and_original_K": "unobserved_or_unidentified; no_real_safety_certificate"
+    },
+    "source_baseline": "source_native_reexpressed_with_candidate_formulas_and_training_floors; original_D01_saved_separately"
+  },
+  "q3_heldout": [
+    {
+      "method": "conditional_lw",
+      "energy_v": 27.251873727109245,
+      "mmd2_v": 0.3076595327911667,
+      "gaussian_rank_space_nll": 409.8283193382852
+    },
+    {
+      "method": "conditional_posterior_predictive",
+      "energy_v": 27.35789282133363,
+      "mmd2_v": 0.3098569617441553,
+      "gaussian_rank_space_nll": 398.21067107440734
+    },
+    {
+      "method": "empirical_marginal_copula",
+      "energy_v": 22.46757427719216,
+      "mmd2_v": 0.2329325783378061,
+      "gaussian_rank_space_nll": NaN
+    },
+    {
+      "method": "global_lw",
+      "energy_v": 29.647972557569027,
+      "mmd2_v": 0.3453217674115364,
+      "gaussian_rank_space_nll": 390.208753548955
+    }
+  ],
+  "q3_representatives": [
+    {
+      "generated_id": "R20_s006",
+      "regime": "R20",
+      "style": "Tripel",
+      "selected_rank_within_class": 3.0,
+      "nearest_real_class_rank_distance": 25.76278772344036,
+      "class_center_rank_distance": 23.878212445234336
+    },
+    {
+      "generated_id": "R20_s037",
+      "regime": "R20",
+      "style": "Tripel",
+      "selected_rank_within_class": 2.0,
+      "nearest_real_class_rank_distance": 25.25096894133526,
+      "class_center_rank_distance": 23.47106027930787
+    },
+    {
+      "generated_id": "R20_s040",
+      "regime": "R20",
+      "style": "Tripel",
+      "selected_rank_within_class": 1.0,
+      "nearest_real_class_rank_distance": 24.262407227032416,
+      "class_center_rank_distance": 20.680360686000743
+    },
+    {
+      "generated_id": "R12_s035",
+      "regime": "R12",
+      "style": "Kriek",
+      "selected_rank_within_class": 2.0,
+      "nearest_real_class_rank_distance": 28.277872448844334,
+      "class_center_rank_distance": 26.03415234530232
+    },
+    {
+      "generated_id": "R12_s059",
+      "regime": "R12",
+      "style": "Kriek",
+      "selected_rank_within_class": 3.0,
+      "nearest_real_class_rank_distance": 28.358345430151733,
+      "class_center_rank_distance": 23.46635438639985
+    },
+    {
+      "generated_id": "R12_s080",
+      "regime": "R12",
+      "style": "Kriek",
+      "selected_rank_within_class": 1.0,
+      "nearest_real_class_rank_distance": 27.67304829665578,
+      "class_center_rank_distance": 24.377493541943043
+    },
+    {
+      "generated_id": "R13_s019",
+      "regime": "R13",
+      "style": "Lambic",
+      "selected_rank_within_class": 3.0,
+      "nearest_real_class_rank_distance": 25.263803163648205,
+      "class_center_rank_distance": 21.124595098185942
+    },
+    {
+      "generated_id": "R13_s043",
+      "regime": "R13",
+      "style": "Lambic",
+      "selected_rank_within_class": 2.0,
+      "nearest_real_class_rank_distance": 24.16153738951857,
+      "class_center_rank_distance": 22.627471930052977
+    },
+    {
+      "generated_id": "R13_s085",
+      "regime": "R13",
+      "style": "Lambic",
+      "selected_rank_within_class": 1.0,
+      "nearest_real_class_rank_distance": 21.67659642575033,
+      "class_center_rank_distance": 21.74373732348198
+    }
+  ],
+  "q3_transfer_critical": [
+    {
+      "source_object": 124,
+      "criterion": "V004",
+      "criterion_name": "DMS",
+      "threshold": 17.25,
+      "source_native": 14.29599,
+      "after_native": 14.29599,
+      "source_ratio": 0.828753,
+      "after_ratio": 0.828753,
+      "nonworsening": true
+    },
+    {
+      "source_object": 124,
+      "criterion": "V039",
+      "criterion_name": "双乙酰",
+      "threshold": 0.29925,
+      "source_native": 0.051621,
+      "after_native": 0.051621,
+      "source_ratio": 0.172501,
+      "after_ratio": 0.172501,
+      "nonworsening": true
+    },
+    {
+      "source_object": 124,
+      "criterion": "V021",
+      "criterion_name": "4-VG",
+      "threshold": 0.206333,
+      "source_native": 0.0,
+      "after_native": 0.0,
+      "source_ratio": 0.0,
+      "after_ratio": 0.0,
+      "nonworsening": true
+    },
+    {
+      "source_object": 124,
+      "criterion": "V109",
+      "criterion_name": "反-2-壬烯醛",
+      "threshold": 0.35,
+      "source_native": 0.000804,
+      "after_native": 0.000804,
+      "source_ratio": 0.002297,
+      "after_ratio": 0.002297,
+      "nonworsening": true
+    },
+    {
+      "source_object": 81,
+      "criterion": "V004",
+      "criterion_name": "DMS",
+      "threshold": 17.25,
+      "source_native": 8.858685,
+      "after_native": 8.858685,
+      "source_ratio": 0.513547,
+      "after_ratio": 0.513547,
+      "nonworsening": true
+    },
+    {
+      "source_object": 81,
+      "criterion": "V039",
+      "criterion_name": "双乙酰",
+      "threshold": 0.29925,
+      "source_native": 0.284814,
+      "after_native": 0.284814,
+      "source_ratio": 0.951761,
+      "after_ratio": 0.951761,
+      "nonworsening": true
+    },
+    {
+      "source_object": 81,
+      "criterion": "V021",
+      "criterion_name": "4-VG",
+      "threshold": 0.206333,
+      "source_native": 0.0,
+      "after_native": 0.0,
+      "source_ratio": 0.0,
+      "after_ratio": 0.0,
+      "nonworsening": true
+    },
+    {
+      "source_object": 81,
+      "criterion": "V109",
+      "criterion_name": "反-2-壬烯醛",
+      "threshold": 0.35,
+      "source_native": 0.003422,
+      "after_native": 0.003422,
+      "source_ratio": 0.009777,
+      "after_ratio": 0.009777,
+      "nonworsening": true
+    },
+    {
+      "source_object": 218,
+      "criterion": "V004",
+      "criterion_name": "DMS",
+      "threshold": 17.25,
+      "source_native": 26.675045,
+      "after_native": 26.675045,
+      "source_ratio": 1.546379,
+      "after_ratio": 1.546379,
+      "nonworsening": true
+    },
+    {
+      "source_object": 218,
+      "criterion": "V039",
+      "criterion_name": "双乙酰",
+      "threshold": 0.29925,
+      "source_native": 0.05696,
+      "after_native": 0.05696,
+      "source_ratio": 0.190341,
+      "after_ratio": 0.190341,
+      "nonworsening": true
+    },
+    {
+      "source_object": 218,
+      "criterion": "V021",
+      "criterion_name": "4-VG",
+      "threshold": 0.206333,
+      "source_native": 0.0,
+      "after_native": 0.0,
+      "source_ratio": 0.0,
+      "after_ratio": 0.0,
+      "nonworsening": true
+    },
+    {
+      "source_object": 218,
+      "criterion": "V109",
+      "criterion_name": "反-2-壬烯醛",
+      "threshold": 0.35,
+      "source_native": 0.001111,
+      "after_native": 0.001111,
+      "source_ratio": 0.003173,
+      "after_ratio": 0.003173,
+      "nonworsening": true
+    },
+    {
+      "source_object": 96,
+      "criterion": "V004",
+      "criterion_name": "DMS",
+      "threshold": 17.25,
+      "source_native": 15.55845,
+      "after_native": 15.55845,
+      "source_ratio": 0.901939,
+      "after_ratio": 0.901939,
+      "nonworsening": true
+    },
+    {
+      "source_object": 96,
+      "criterion": "V039",
+      "criterion_name": "双乙酰",
+      "threshold": 0.29925,
+      "source_native": 0.523886,
+      "after_native": 0.523886,
+      "source_ratio": 1.750663,
+      "after_ratio": 1.750663,
+      "nonworsening": true
+    },
+    {
+      "source_object": 96,
+      "criterion": "V021",
+      "criterion_name": "4-VG",
+      "threshold": 0.206333,
+      "source_native": 0.0,
+      "after_native": 0.0,
+      "source_ratio": 0.0,
+      "after_ratio": 0.0,
+      "nonworsening": true
+    },
+    {
+      "source_object": 96,
+      "criterion": "V109",
+      "criterion_name": "反-2-壬烯醛",
+      "threshold": 0.35,
+      "source_native": 0.011935,
+      "after_native": 0.011935,
+      "source_ratio": 0.0341,
+      "after_ratio": 0.0341,
+      "nonworsening": true
+    },
+    {
+      "source_object": 230,
+      "criterion": "V004",
+      "criterion_name": "DMS",
+      "threshold": 17.25,
+      "source_native": 15.112783,
+      "after_native": 15.112783,
+      "source_ratio": 0.876103,
+      "after_ratio": 0.876103,
+      "nonworsening": true
+    },
+    {
+      "source_object": 230,
+      "criterion": "V039",
+      "criterion_name": "双乙酰",
+      "threshold": 0.29925,
+      "source_native": 0.041743,
+      "after_native": 0.041743,
+      "source_ratio": 0.139492,
+      "after_ratio": 0.139492,
+      "nonworsening": true
+    },
+    {
+      "source_object": 230,
+      "criterion": "V021",
+      "criterion_name": "4-VG",
+      "threshold": 0.206333,
+      "source_native": 0.019403,
+      "after_native": 0.019403,
+      "source_ratio": 0.094038,
+      "after_ratio": 0.094038,
+      "nonworsening": true
+    },
+    {
+      "source_object": 230,
+      "criterion": "V109",
+      "criterion_name": "反-2-壬烯醛",
+      "threshold": 0.35,
+      "source_native": 0.001499,
+      "after_native": 0.001499,
+      "source_ratio": 0.004284,
+      "after_ratio": 0.004284,
+      "nonworsening": true
+    },
+    {
+      "source_object": 185,
+      "criterion": "V004",
+      "criterion_name": "DMS",
+      "threshold": 17.25,
+      "source_native": 6.663105,
+      "after_native": 6.663105,
+      "source_ratio": 0.386267,
+      "after_ratio": 0.386267,
+      "nonworsening": true
+    },
+    {
+      "source_object": 185,
+      "criterion": "V039",
+      "criterion_name": "双乙酰",
+      "threshold": 0.29925,
+      "source_native": 0.035773,
+      "after_native": 0.035773,
+      "source_ratio": 0.119542,
+      "after_ratio": 0.119542,
+      "nonworsening": true
+    },
+    {
+      "source_object": 185,
+      "criterion": "V021",
+      "criterion_name": "4-VG",
+      "threshold": 0.206333,
+      "source_native": 0.0,
+      "after_native": 0.0,
+      "source_ratio": 0.0,
+      "after_ratio": 0.0,
+      "nonworsening": true
+    },
+    {
+      "source_object": 185,
+      "criterion": "V109",
+      "criterion_name": "反-2-壬烯醛",
+      "threshold": 0.35,
+      "source_native": 0.001743,
+      "after_native": 0.001743,
+      "source_ratio": 0.004981,
+      "after_ratio": 0.004981,
+      "nonworsening": true
+    },
+    {
+      "source_object": 139,
+      "criterion": "V004",
+      "criterion_name": "DMS",
+      "threshold": 17.25,
+      "source_native": 20.15957,
+      "after_native": 20.15957,
+      "source_ratio": 1.168671,
+      "after_ratio": 1.168671,
+      "nonworsening": true
+    },
+    {
+      "source_object": 139,
+      "criterion": "V039",
+      "criterion_name": "双乙酰",
+      "threshold": 0.29925,
+      "source_native": 0.032551,
+      "after_native": 0.032551,
+      "source_ratio": 0.108776,
+      "after_ratio": 0.108776,
+      "nonworsening": true
+    },
+    {
+      "source_object": 139,
+      "criterion": "V021",
+      "criterion_name": "4-VG",
+      "threshold": 0.206333,
+      "source_native": 0.0,
+      "after_native": 0.0,
+      "source_ratio": 0.0,
+      "after_ratio": 0.0,
+      "nonworsening": true
+    },
+    {
+      "source_object": 139,
+      "criterion": "V109",
+      "criterion_name": "反-2-壬烯醛",
+      "threshold": 0.35,
+      "source_native": 0.002012,
+      "after_native": 0.002012,
+      "source_ratio": 0.005748,
+      "after_ratio": 0.005748,
+      "nonworsening": true
+    },
+    {
+      "source_object": 209,
+      "criterion": "V004",
+      "criterion_name": "DMS",
+      "threshold": 17.25,
+      "source_native": 14.07209,
+      "after_native": 14.07209,
+      "source_ratio": 0.815773,
+      "after_ratio": 0.815773,
+      "nonworsening": true
+    },
+    {
+      "source_object": 209,
+      "criterion": "V039",
+      "criterion_name": "双乙酰",
+      "threshold": 0.29925,
+      "source_native": 0.026185,
+      "after_native": 0.026185,
+      "source_ratio": 0.087503,
+      "after_ratio": 0.087503,
+      "nonworsening": true
+    },
+    {
+      "source_object": 209,
+      "criterion": "V021",
+      "criterion_name": "4-VG",
+      "threshold": 0.206333,
+      "source_native": 0.0,
+      "after_native": 0.0,
+      "source_ratio": 0.0,
+      "after_ratio": 0.0,
+      "nonworsening": true
+    },
+    {
+      "source_object": 209,
+      "criterion": "V109",
+      "criterion_name": "反-2-壬烯醛",
+      "threshold": 0.35,
+      "source_native": 0.002712,
+      "after_native": 0.002712,
+      "source_ratio": 0.007749,
+      "after_ratio": 0.007749,
+      "nonworsening": true
+    },
+    {
+      "source_object": 119,
+      "criterion": "V004",
+      "criterion_name": "DMS",
+      "threshold": 17.25,
+      "source_native": 16.661495,
+      "after_native": 16.661495,
+      "source_ratio": 0.965884,
+      "after_ratio": 0.965884,
+      "nonworsening": true
+    },
+    {
+      "source_object": 119,
+      "criterion": "V039",
+      "criterion_name": "双乙酰",
+      "threshold": 0.29925,
+      "source_native": 0.0,
+      "after_native": 0.0,
+      "source_ratio": 0.0,
+      "after_ratio": 0.0,
+      "nonworsening": true
+    },
+    {
+      "source_object": 119,
+      "criterion": "V021",
+      "criterion_name": "4-VG",
+      "threshold": 0.206333,
+      "source_native": 0.143755,
+      "after_native": 0.143755,
+      "source_ratio": 0.696712,
+      "after_ratio": 0.696712,
+      "nonworsening": true
+    },
+    {
+      "source_object": 119,
+      "criterion": "V109",
+      "criterion_name": "反-2-壬烯醛",
+      "threshold": 0.35,
+      "source_native": 0.004838,
+      "after_native": 0.004838,
+      "source_ratio": 0.013822,
+      "after_ratio": 0.013822,
+      "nonworsening": true
+    },
+    {
+      "source_object": 90,
+      "criterion": "V004",
+      "criterion_name": "DMS",
+      "threshold": 17.25,
+      "source_native": 7.933115,
+      "after_native": 7.933115,
+      "source_ratio": 0.459891,
+      "after_ratio": 0.459891,
+      "nonworsening": true
+    },
+    {
+      "source_object": 90,
+      "criterion": "V039",
+      "criterion_name": "双乙酰",
+      "threshold": 0.29925,
+      "source_native": 0.236137,
+      "after_native": 0.236137,
+      "source_ratio": 0.789097,
+      "after_ratio": 0.789097,
+      "nonworsening": true
+    },
+    {
+      "source_object": 90,
+      "criterion": "V021",
+      "criterion_name": "4-VG",
+      "threshold": 0.206333,
+      "source_native": 0.0,
+      "after_native": 0.0,
+      "source_ratio": 0.0,
+      "after_ratio": 0.0,
+      "nonworsening": true
+    },
+    {
+      "source_object": 90,
+      "criterion": "V109",
+      "criterion_name": "反-2-壬烯醛",
+      "threshold": 0.35,
+      "source_native": 0.001816,
+      "after_native": 0.001816,
+      "source_ratio": 0.005189,
+      "after_ratio": 0.005189,
+      "nonworsening": true
+    },
+    {
+      "source_object": 28,
+      "criterion": "V004",
+      "criterion_name": "DMS",
+      "threshold": 17.25,
+      "source_native": 27.357605,
+      "after_native": 27.357605,
+      "source_ratio": 1.585948,
+      "after_ratio": 1.585948,
+      "nonworsening": true
+    },
+    {
+      "source_object": 28,
+      "criterion": "V039",
+      "criterion_name": "双乙酰",
+      "threshold": 0.29925,
+      "source_native": 0.0,
+      "after_native": 0.0,
+      "source_ratio": 0.0,
+      "after_ratio": 0.0,
+      "nonworsening": true
+    },
+    {
+      "source_object": 28,
+      "criterion": "V021",
+      "criterion_name": "4-VG",
+      "threshold": 0.206333,
+      "source_native": 0.0,
+      "after_native": 0.0,
+      "source_ratio": 0.0,
+      "after_ratio": 0.0,
+      "nonworsening": true
+    },
+    {
+      "source_object": 28,
+      "criterion": "V109",
+      "criterion_name": "反-2-壬烯醛",
+      "threshold": 0.35,
+      "source_native": 0.01153,
+      "after_native": 0.01153,
+      "source_ratio": 0.032944,
+      "after_ratio": 0.032944,
+      "nonworsening": true
+    }
+  ],
+  "q3_transfer_K": [
+    {
+      "branch": "joint231_model_source",
+      "baseline_kind": "model_prediction",
+      "n_objects": 11,
+      "continuous_nonincrease_exact_count": 11,
+      "A_nonincrease_count": 11,
+      "B_nonincrease_count": 11,
+      "both_protocols_nonincrease_count": 11,
+      "all_criteria_pass_count": 11,
+      "maximum_continuous_delta": -0.070032
+    },
+    {
+      "branch": "joint231_observed_D04_source",
+      "baseline_kind": "observed_D04",
+      "n_objects": 11,
+      "continuous_nonincrease_exact_count": 6,
+      "A_nonincrease_count": 10,
+      "B_nonincrease_count": 7,
+      "both_protocols_nonincrease_count": 7,
+      "all_criteria_pass_count": 6,
+      "maximum_continuous_delta": 0.271692
+    },
+    {
+      "branch": "observed_guard_original_D01_model_source",
+      "baseline_kind": "model_prediction",
+      "n_objects": 11,
+      "continuous_nonincrease_exact_count": 11,
+      "A_nonincrease_count": 11,
+      "B_nonincrease_count": 11,
+      "both_protocols_nonincrease_count": 11,
+      "all_criteria_pass_count": 11,
+      "maximum_continuous_delta": -0.010652
+    },
+    {
+      "branch": "observed_guard_reexpressed_model_source",
+      "baseline_kind": "model_prediction",
+      "n_objects": 11,
+      "continuous_nonincrease_exact_count": 11,
+      "A_nonincrease_count": 11,
+      "B_nonincrease_count": 11,
+      "both_protocols_nonincrease_count": 11,
+      "all_criteria_pass_count": 11,
+      "maximum_continuous_delta": -0.010456
+    },
+    {
+      "branch": "observed_source_guard",
+      "baseline_kind": "observed_D04",
+      "n_objects": 11,
+      "continuous_nonincrease_exact_count": 11,
+      "A_nonincrease_count": 11,
+      "B_nonincrease_count": 11,
+      "both_protocols_nonincrease_count": 11,
+      "all_criteria_pass_count": 11,
+      "maximum_continuous_delta": -1e-06
+    },
+    {
+      "branch": "structure_observed_D04_source",
+      "baseline_kind": "observed_D04",
+      "n_objects": 11,
+      "continuous_nonincrease_exact_count": 6,
+      "A_nonincrease_count": 10,
+      "B_nonincrease_count": 7,
+      "both_protocols_nonincrease_count": 7,
+      "all_criteria_pass_count": 6,
+      "maximum_continuous_delta": 0.284892
+    },
+    {
+      "branch": "structure_original_D01_model_source",
+      "baseline_kind": "model_prediction",
+      "n_objects": 11,
+      "continuous_nonincrease_exact_count": 11,
+      "A_nonincrease_count": 11,
+      "B_nonincrease_count": 11,
+      "both_protocols_nonincrease_count": 11,
+      "all_criteria_pass_count": 11,
+      "maximum_continuous_delta": -0.010652
+    },
+    {
+      "branch": "structure_reexpressed_model_source",
+      "baseline_kind": "model_prediction",
+      "n_objects": 11,
+      "continuous_nonincrease_exact_count": 11,
+      "A_nonincrease_count": 11,
+      "B_nonincrease_count": 11,
+      "both_protocols_nonincrease_count": 11,
+      "all_criteria_pass_count": 11,
+      "maximum_continuous_delta": -0.010456
+    }
+  ],
+  "q3_transfer_summary": {
+    "cap_definition": "min(original_D01_source_prediction,reexpressed_source_prediction,observed_D04_source_Y38)",
+    "numerical_inner_margin": 1e-06,
+    "margin_meaning": "floating_point_only; not_statistical_safety_bound",
+    "final_order_rule": "saved_CSV_reprediction<=mathematical_cap; no_positive_tolerance",
+    "source_count": 11,
+    "critical_coordinate_pass_count": 44,
+    "strict_all_score_caps_pass_count": 11,
+    "strict_observed_source_pass_count": 11,
+    "unresolved_count": 0,
+    "source_unchanged_count": 0,
+    "optimizer_success_count": 9,
+    "verified_initial_selected_count": 1,
+    "exact_qp_selected_count": 5,
+    "plateau_polished_selected_count": 2,
+    "max_exact_qp_prediction_affine_error": 2.7755575615628914e-16,
+    "exact_qp_scope": "182_free_coordinate_box_and_affine_halfspace; not_global_226d_optimum",
+    "feasible_initial_fallback_count": 0,
+    "distance_to_R20_center_improved_count": 11,
+    "old_branch_exceeding_observed_source_count": 5,
+    "max_guard_minus_observed": -9.996589513949772e-07,
+    "min_strict_saved_cap_margin": 9.996589513949772e-07,
+    "true_migrated_score_and_original_K": "unobserved_or_unidentified; no_real_safety_certificate"
+  },
+  "q3_feasibility": [
+    {
+      "feature": "V004",
+      "critical_threshold_native": 17.25,
+      "native_W1_lower_bound": 30.722584909630843,
+      "W1_bound_divided_by_critical_threshold": 1.7810194150510634,
+      "max_positive_tail_gap": 0.7142857142857143,
+      "scope": "empirical_1D_distributions; not_population_CI_or_joint_sufficiency",
+      "compound": "Dimethyl sulfide"
+    },
+    {
+      "feature": "V039",
+      "critical_threshold_native": 0.29925,
+      "native_W1_lower_bound": 0.4398467914642856,
+      "W1_bound_divided_by_critical_threshold": 1.4698305479174123,
+      "max_positive_tail_gap": 0.4448051948051947,
+      "scope": "empirical_1D_distributions; not_population_CI_or_joint_sufficiency",
+      "compound": "Diacetyl"
+    },
+    {
+      "feature": "V021",
+      "critical_threshold_native": 0.206333333,
+      "native_W1_lower_bound": 0.0049074902568181,
+      "W1_bound_divided_by_critical_threshold": 0.0237842823816459,
+      "max_positive_tail_gap": 0.0876623376623376,
+      "scope": "empirical_1D_distributions; not_population_CI_or_joint_sufficiency",
+      "compound": "4-vinylguaiacol"
+    },
+    {
+      "feature": "V109",
+      "critical_threshold_native": 0.35,
+      "native_W1_lower_bound": 0.4084724264610388,
+      "W1_bound_divided_by_critical_threshold": 1.1670640756029682,
+      "max_positive_tail_gap": 0.5487012987012987,
+      "scope": "empirical_1D_distributions; not_population_CI_or_joint_sufficiency",
+      "compound": "E-2-nonenal"
+    }
+  ],
+  "q3_observed_guard": {
+    "cap_definition": "min(original_D01_source_prediction,reexpressed_source_prediction,observed_D04_source_Y38)",
+    "numerical_inner_margin": 1e-06,
+    "margin_meaning": "floating_point_only; not_statistical_safety_bound",
+    "final_order_rule": "saved_CSV_reprediction<=mathematical_cap; no_positive_tolerance",
+    "source_count": 11,
+    "critical_coordinate_pass_count": 44,
+    "strict_all_score_caps_pass_count": 11,
+    "strict_observed_source_pass_count": 11,
+    "unresolved_count": 0,
+    "source_unchanged_count": 0,
+    "optimizer_success_count": 9,
+    "verified_initial_selected_count": 1,
+    "exact_qp_selected_count": 5,
+    "plateau_polished_selected_count": 2,
+    "max_exact_qp_prediction_affine_error": 2.7755575615628914e-16,
+    "exact_qp_scope": "182_free_coordinate_box_and_affine_halfspace; not_global_226d_optimum",
+    "feasible_initial_fallback_count": 0,
+    "distance_to_R20_center_improved_count": 11,
+    "old_branch_exceeding_observed_source_count": 5,
+    "max_guard_minus_observed": -9.996589513949772e-07,
+    "min_strict_saved_cap_margin": 9.996589513949772e-07,
+    "true_migrated_score_and_original_K": "unobserved_or_unidentified; no_real_safety_certificate"
+  }
+}

@@ -1,0 +1,20 @@
+﻿module,size,edges_degree_sum,origins,top_compounds,top_features
+1,23,59,Yeast:12;Malt:7;Spices:3;Others:1,3-methyl-2-hexanol; O-cresol; 2-acetylfuran; 4-methyl-1-pentanol; 3-furanmethanol; N-octanol; N-heptanol; N-dodecanol,V058;V087;V060;V100;V059;V091;V066;V170
+2,17,114,Hops:15;Yeast:2,"Caryophylla-4,8-dien-5-ol; Nerol oxide; Epicubenol; Allo-aromadendrene epoxide; α-muurolol; α-calacorene; Humulene epoxide II; Tau-muurolol",V192;V108;V190;V189;V194;V181;V188;V200
+3,16,171,Yeast:12;Hops:4,"2-methylbutyl octanoate; Pentyl octanoate; 1,2-dihydro-8-hydroxy-2E-linalool; Isopentyl hexanoate; Z-β-farnesene; 2-butyl octanoate; Trans-dihydro-α-terpinyl acetate; Ethyl tetradecanoate",V163;V161;V195;V127;V160;V143;V135;V214
+4,15,68,Yeast:13;:1;Others:1,Ethanol; Total ester compounds; Ethyl hexanoate; Caloric value; Isobutyl acetate; Glycerol; Isoamyl alcohol; Isoamyl acetate,V034;V228;V008;V037;V015;V028;V013;V016
+5,13,36,Yeast:5;Wild flora:3;Hops:2;Others:2;Spices:1,Ethyl phenylacetate; Prenyl isobutyrate; Neryl formate; 4-ethyl-guaiacol; 4-ethyl-phenol; Ethyl benzoate; Ethyl 2-methylbutyrate; Perillyl acetate,V126;V085;V132;V133;V111;V113;V005;V157
+6,12,31,Hops:7;Spices:3;:1;Others:1,Terpinen-4-ol; Ethyl linalool; Total hop aroma compounds; Linalool; Isoborneol; α-terpineol; β-phellandrene; Citronellol,V115;V119;V229;V095;V112;V118;V078;V121
+7,5,12,Yeast:4;Hops:1,2-methyl-1-butanol; N-pentanol; Isopentyl formate; 1-propanol; 14-hydroxy-9-epi-(E)-caryophyllene,V044;V043;V045;V038;V199
+8,5,14,Hops:5,"2,3-dihydro-farnesol; E-nerolidol; Tobacarol; Z,E-farnesol; E,Z-farnesal",V204;V182;V183;V210;V205
+9,3,4,:1;Yeast:1;Malt:1,Total sulfur compounds; Hydrogen sulfide; Dimethyl sulfide,V231;V012;V004
+10,3,5,Others:1;Hops:1;Yeast:1,E-2-nonenal; Cis-dihydro-β-terpineol; Y-methyl-1-octanol,V109;V110;V105
+11,2,2,Wild flora:1;:1,Acetic acid; Total acids,V023;V230
+12,2,2,Malt:1;Others:1,Color; Protein,V025;V031
+13,2,2,Yeast:2,Diacetyl; Ethyl pentanoate,V039;V226
+14,2,2,Yeast:1;Internal standard solution:1,N-propyl acetate; 3-methyl-2-butenal,V042;V047
+15,2,2,Yeast:1;Others:1,Diethyl succinate; Ethyl nicotinate,V116;V120
+16,2,2,Hops:2,Car-3-en-2-one; Dimethoxy-E-citral,V141;V142
+17,2,2,Yeast:1;Hops:1,Gamma-nonalactone; E-β-damascenone,V147;V149
+18,2,2,Spices:1;Others:1,Methyl isoeugenol; Butylated hydroxytoluene,V175;V177
+19,2,2,Spices:1;Yeast:1,Manool oxide; Isopropyl hexadecanoate,V221;V223

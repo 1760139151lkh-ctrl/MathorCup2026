@@ -1,0 +1,9 @@
+﻿branch,baseline_kind,n_objects,continuous_nonincrease_exact_count,A_nonincrease_count,B_nonincrease_count,both_protocols_nonincrease_count,all_criteria_pass_count,maximum_continuous_delta
+joint231_model_source,model_prediction,11,11,11,11,11,11,-0.0700322224328601
+joint231_observed_D04_source,observed_D04,11,6,10,7,7,6,0.2716922752280489
+observed_guard_original_D01_model_source,model_prediction,11,11,11,11,11,11,-0.0106516070794212
+observed_guard_reexpressed_model_source,model_prediction,11,11,11,11,11,11,-0.0104558197186733
+observed_source_guard,observed_D04,11,11,11,11,11,11,-9.996589513949772e-07
+structure_observed_D04_source,observed_D04,11,6,10,7,7,6,0.2848920690064989
+structure_original_D01_model_source,model_prediction,11,11,11,11,11,11,-0.0106516070794215
+structure_reexpressed_model_source,model_prediction,11,11,11,11,11,11,-0.0104558197186735

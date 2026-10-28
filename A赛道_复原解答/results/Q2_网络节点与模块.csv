@@ -1,0 +1,232 @@
+﻿feature,module,degree,strength,source_group,compound,origin
+V001,4,2,1.3303965884407312,G2,Acetaldehyde,Yeast
+V002,20,0,0.0,G2,Carbon disulfide,Yeast
+V003,21,0,0.0,G2,Diethyl sulfide,Yeast
+V004,9,1,0.693797340757452,G3,Dimethyl sulfide,Malt
+V005,5,2,1.347975887162486,G6,Ethyl 2-methylbutyrate,Others
+V006,4,4,2.831086998975094,G2,Ethyl acetate,Yeast
+V007,3,6,4.09727101361768,G2,Ethyl decanoate,Yeast
+V008,4,6,4.100513525645059,G2,Ethyl hexanoate,Yeast
+V009,5,1,0.737056676778286,G6,Ethyl 3-methylbutyrate,Others
+V010,4,3,2.2313631384931147,G2,Ethyl octanoate,Yeast
+V011,22,0,0.0,G2,Ethyl propionate,Yeast
+V012,9,1,0.775228131266335,G2,Hydrogen sulfide,Yeast
+V013,4,5,3.2243331775449944,G2,Isoamyl alcohol,Yeast
+V014,4,3,2.04156231055613,G2,Isobutanol,Yeast
+V015,4,5,3.581851327314679,G2,Isobutyl acetate,Yeast
+V016,4,4,3.152588575973212,G2,Isoamyl acetate,Yeast
+V017,23,0,0.0,G2,Methanethiol,Yeast
+V018,24,0,0.0,G2,Octyl acetate,Yeast
+V019,4,2,1.35355637690203,G2,Phenethyl acetate,Yeast
+V020,25,0,0.0,G2,Phenethyl alcohol,Yeast
+V021,26,0,0.0,G2,4-vinylguaiacol,Yeast
+V022,27,0,0.0,G2,Sulfur dioxide,Yeast
+V023,11,1,0.96625558611341,G5,Acetic acid,Wild flora
+V024,28,0,0.0,G3,Ammonia,Malt
+V025,12,1,0.788272799657229,G3,Color,Malt
+V026,29,0,0.0,G3,Betaglucan,Malt
+V027,30,0,0.0,G5,Lactic acid,Wild flora
+V028,4,5,3.242165629738671,G2,Glycerol,Yeast
+V029,31,0,0.0,G6,Iron,Others
+V030,32,0,0.0,G6,pH,Others
+V031,12,1,0.788272799657229,G6,Protein,Others
+V032,33,0,0.0,G1,Iso-alpha acids,Hops
+V033,34,0,0.0,G3,Sugars,Malt
+V034,4,10,6.993496282765283,G2,Ethanol,Yeast
+V035,35,0,0.0,G6,Carbon dioxide,Others
+V036,36,0,0.0,G3,Unfermentables,Malt
+V037,4,6,4.053485577673338,G6,Caloric value,Others
+V038,7,2,1.344981389019865,G2,1-propanol,Yeast
+V039,13,1,0.663595210809322,G2,Diacetyl,Yeast
+V040,37,0,0.0,G3,3-methylbutanal,Malt
+V041,38,0,0.0,G6,Propylene glycol,Others
+V042,14,1,0.606532418561472,G2,N-propyl acetate,Yeast
+V043,7,3,2.098000266920925,G2,N-pentanol,Yeast
+V044,7,4,2.929158880234643,G2,2-methyl-1-butanol,Yeast
+V045,7,2,1.562706859309749,G2,Isopentyl formate,Yeast
+V046,1,1,0.635464189502668,G2,Ethyl isobutyrate,Yeast
+V047,14,1,0.606532418561472,G0,3-methyl-2-butenal,Internal standard solution
+V048,39,0,0.0,G3,2-methyltetrahydrofuran-3-one,Malt
+V049,4,1,0.628963951025104,G2,Ethyl butyrate,Yeast
+V050,40,0,0.0,G2,Butyl acetate,Yeast
+V051,41,0,0.0,G3,Methylpyrazine,Malt
+V052,42,0,0.0,G3,Furfural,Malt
+V053,43,0,0.0,G6,Ethyl lactate,Others
+V054,44,0,0.0,G1,Cis-3-hexenol,Hops
+V055,4,3,1.96967688755797,G2,N-hexanol,Yeast
+V056,45,0,0.0,G2,Styrene,Yeast
+V057,1,1,0.616702436866643,G6,Furfuryl alcohol,Others
+V058,1,8,5.4543926305821255,G2,3-methyl-2-hexanol,Yeast
+V059,1,4,2.805311448709947,G3,3-furanmethanol,Malt
+V060,1,5,3.2614143938075,G3,2-acetylfuran,Malt
+V061,1,1,0.627642237270929,G3,"2,6-dimethylpyrazine",Malt
+V062,46,0,0.0,G2,Amyl acetate,Yeast
+V063,47,0,0.0,G2,Ethyl tiglate,Yeast
+V064,48,0,0.0,G2,Benzaldehyde,Yeast
+V065,1,1,0.617105518200145,G3,5-methylfurfural,Malt
+V066,1,4,2.5114026677083,G2,N-heptanol,Yeast
+V067,2,6,3.764066711671084,G2,1-octen-3-ol,Yeast
+V068,49,0,0.0,G6,Methionol,Others
+V069,1,1,0.619072631669172,G3,Isomaltol,Malt
+V070,50,0,0.0,G2,Methyl heptenone,Yeast
+V071,51,0,0.0,G3,2-pentyl furan,Malt
+V072,5,1,0.600485499061212,G2,Ethyl 3-hexanoate,Yeast
+V073,52,0,0.0,G1,α-phellandrene,Hops
+V074,53,0,0.0,G1,Dehydroxy-cis-linalool oxide,Hops
+V075,54,0,0.0,G2,Hexyl acetate,Yeast
+V076,55,0,0.0,G2,Isopentyl butanoate,Yeast
+V077,1,1,0.666023009680138,G2,2-ethyl-1-hexanol,Yeast
+V078,6,3,1.945031536532283,G1,β-phellandrene,Hops
+V079,56,0,0.0,G1,Limonene,Hops
+V080,57,0,0.0,G1,Eucalyptol,Hops
+V081,58,0,0.0,G1,Benzyl alcohol,Hops
+V082,2,2,1.344991002511818,G2,Ethyl 2-hexenoate,Yeast
+V083,59,0,0.0,G6,Phenylacetaldehyde,Others
+V084,6,1,0.606370873630931,G1,E-β-ocimene,Hops
+V085,5,5,3.325928235590184,G2,Prenyl isobutyrate,Yeast
+V086,1,3,1.902738865091239,G3,Ethyl furoate,Malt
+V087,1,7,4.673839208334022,G2,O-cresol,Yeast
+V088,5,2,1.237836084527247,G2,Ethyl 5-methylhexanoate,Yeast
+V089,1,2,1.303925585639069,G3,2-acetylpyrrole,Malt
+V090,5,2,1.28119870835403,G5,Isoamyl lactate,Wild flora
+V091,1,4,2.591193709144103,G2,N-octanol,Yeast
+V092,60,0,0.0,G1,Cis-linalool oxide,Hops
+V093,61,0,0.0,G1,Meta-cymenene,Hops
+V094,6,2,1.25905631487314,G4,Terpinolene,Spices
+V095,6,3,2.260567616660364,G1,Linalool,Hops
+V096,62,0,0.0,G1,2-nonanol,Hops
+V097,63,0,0.0,G2,N-nonanal,Yeast
+V098,64,0,0.0,G3,2-methyl-benzofuran,Malt
+V099,65,0,0.0,G2,Heptyl acetate,Yeast
+V100,1,4,2.8793683147219387,G2,4-methyl-1-pentanol,Yeast
+V101,66,0,0.0,G1,Neo-allo-ocimene,Hops
+V102,1,1,0.814038485603805,G2,X-methyl-1-octanol,Yeast
+V103,67,0,0.0,G4,Trans-dihydro-β-terpineol,Spices
+V104,68,0,0.0,G1,Cis-β-terpineol,Hops
+V105,10,1,0.618395100891824,G2,Y-methyl-1-octanol,Yeast
+V106,6,1,0.631451742884115,G4,Camphor,Spices
+V107,3,7,4.473159093312107,G2,Isobutyl hexanoate,Yeast
+V108,2,12,7.797112352314705,G1,Nerol oxide,Hops
+V109,10,2,1.254373589005268,G6,E-2-nonenal,Others
+V110,10,2,1.244965979016902,G1,Cis-dihydro-β-terpineol,Hops
+V111,5,2,1.46321796840805,G5,4-ethyl-phenol,Wild flora
+V112,6,3,2.105648465676428,G6,Isoborneol,Others
+V113,5,2,1.364779111511203,G2,Ethyl benzoate,Yeast
+V114,1,2,1.314659733580744,G2,N-nonanol,Yeast
+V115,6,5,3.452306190669246,G4,Terpinen-4-ol,Spices
+V116,15,1,0.610338331519888,G2,Diethyl succinate,Yeast
+V117,69,0,0.0,G2,Vinyl caprylate,Yeast
+V118,6,3,2.053391416532848,G1,α-terpineol,Hops
+V119,6,4,2.754071088600427,G1,Ethyl linalool,Hops
+V120,15,1,0.610338331519888,G6,Ethyl nicotinate,Others
+V121,6,2,1.339102422554796,G1,Citronellol,Hops
+V122,70,0,0.0,G1,Nerol,Hops
+V123,71,0,0.0,G3,5-hydroxymethylfurfural,Malt
+V124,6,1,0.620415037760303,G1,Ocimenone,Hops
+V125,1,1,0.603833164054427,G4,Cumin aldehyde,Spices
+V126,5,8,5.394924257683799,G2,Ethyl phenylacetate,Yeast
+V127,3,14,10.462469800526309,G2,Isopentyl hexanoate,Yeast
+V128,72,0,0.0,G1,Geraniol,Hops
+V129,73,0,0.0,G1,Î’-cyclohomocitral,Hops
+V130,74,0,0.0,G4,Cinnamaldehyde,Spices
+V131,75,0,0.0,G2,N-decanol,Yeast
+V132,5,5,3.300506577449735,G1,Neryl formate,Hops
+V133,5,2,1.604387015186881,G5,4-ethyl-guaiacol,Wild flora
+V134,76,0,0.0,G1,2-undecanone,Hops
+V135,3,13,9.288806432675688,G1,Trans-dihydro-α-terpinyl acetate,Hops
+V136,77,0,0.0,G1,Terpinen-4-ol acetate,Hops
+V137,2,6,3.995376277635029,G1,2-undecanol,Hops
+V138,78,0,0.0,G1,Terpiryl acetate,Hops
+V139,79,0,0.0,G6,"E,E-2,4-decadienal",Others
+V140,2,7,4.6461429543650095,G1,Methyl geranate,Hops
+V141,16,1,0.78069326829314,G1,Car-3-en-2-one,Hops
+V142,16,1,0.78069326829314,G1,Dimethoxy-E-citral,Hops
+V143,3,13,9.415929435811016,G2,2-butyl octanoate,Yeast
+V144,80,0,0.0,G4,4-methoxysalicylaldehyde,Spices
+V145,1,1,0.61442267851609,G4,Ethyl hydrocinnamate,Spices
+V146,81,0,0.0,G4,Eugenol,Spices
+V147,17,1,0.665397077865724,G2,Gamma-nonalactone,Yeast
+V148,82,0,0.0,G4,Methyl para-anisate,Spices
+V149,17,1,0.665397077865724,G1,E-β-damascenone,Hops
+V150,3,7,4.443796377235376,G2,Ethyl 9-decenoate,Yeast
+V151,83,0,0.0,G6,Vanillin,Others
+V152,84,0,0.0,G5,Geosmin,Wild flora
+V153,85,0,0.0,G4,Dodecanal,Spices
+V154,86,0,0.0,G1,"4,8-α-epoxy-caryophyllane",Hops
+V155,87,0,0.0,G1,Caryophyllene,Hops
+V156,88,0,0.0,G1,E-α-ionone,Hops
+V157,5,2,1.342555128347405,G4,Perillyl acetate,Spices
+V158,89,0,0.0,G1,β-humulene,Hops
+V159,3,11,8.646330253104862,G2,2-phenyl ethyl butyrate,Yeast
+V160,3,12,9.450315329083022,G1,Z-β-farnesene,Hops
+V161,3,14,11.10858733124475,G2,Pentyl octanoate,Yeast
+V162,90,0,0.0,G1,E-β-farnesene,Hops
+V163,3,16,12.028884534451104,G2,2-methylbutyl octanoate,Yeast
+V164,91,0,0.0,G1,α-humulene,Hops
+V165,2,6,3.935086346334793,G1,Neryl propanoate,Hops
+V166,92,0,0.0,G1,9-epi-E-caryophyllene,Hops
+V167,93,0,0.0,G6,Ethyl cinnamate,Others
+V168,94,0,0.0,G1,Linalool isovalerate,Hops
+V169,95,0,0.0,G1,α-terpinyl isobutanoate,Hops
+V170,1,3,2.055050963161298,G2,N-dodecanol,Yeast
+V171,5,2,1.267113805326869,G1,Germacrene D,Hops
+V172,2,3,1.924856403000906,G1,E-β-ionone,Hops
+V173,96,0,0.0,G4,Valencene,Spices
+V174,97,0,0.0,G1,Neryl isobutanoate,Hops
+V175,18,1,0.869216243551411,G4,Methyl isoeugenol,Spices
+V176,98,0,0.0,G1,Z-dihydro-apofarnesal,Hops
+V177,18,1,0.869216243551411,G6,Butylated hydroxytoluene,Others
+V178,99,0,0.0,G1,E-dihydro-apofarnesal,Hops
+V179,100,0,0.0,G1,Z-nerolidol,Hops
+V180,101,0,0.0,G4,E-ortho-methoxy cinnamaldehyde,Spices
+V181,2,8,5.552525212900289,G1,α-calacorene,Hops
+V182,8,3,2.268273299220454,G1,E-nerolidol,Hops
+V183,8,3,2.201993191642636,G1,Tobacarol,Hops
+V184,2,2,1.302469086487535,G1,Caryophyllene alcohol,Hops
+V185,102,0,0.0,G1,Neryl isovalerate,Hops
+V186,103,0,0.0,G4,Spathulenol,Spices
+V187,2,4,3.014882066541556,G1,Caryophyllene oxide,Hops
+V188,2,8,5.387663742760058,G1,Humulene epoxide II,Hops
+V189,2,9,6.228672975299973,G1,Allo-aromadendrene epoxide,Hops
+V190,2,11,7.619614767064056,G1,Epicubenol,Hops
+V191,104,0,0.0,G2,Isopropyl laurate,Yeast
+V192,2,13,8.459311495829866,G1,"Caryophylla-4,8-dien-5-ol",Hops
+V193,105,0,0.0,G4,Gamma-eudesmol,Spices
+V194,2,8,5.8536796197111,G1,α-muurolol,Hops
+V195,3,14,10.571524226832231,G1,"1,2-dihydro-8-hydroxy-2E-linalool",Hops
+V196,106,0,0.0,G1,Tau-cadinol,Hops
+V197,2,2,1.217861992922116,G1,Kongol,Hops
+V198,107,0,0.0,G4,α-eudesmol,Spices
+V199,7,1,0.628988683110502,G1,14-hydroxy-9-epi-(E)-caryophyllene,Hops
+V200,2,7,5.070765007120349,G1,Tau-muurolol,Hops
+V201,1,2,1.334094314873385,G2,N-tetradecanol,Yeast
+V202,108,0,0.0,G4,Eoeniculin,Spices
+V203,109,0,0.0,G1,Cadalene,Hops
+V204,8,4,2.67198364497067,G1,"2,3-dihydro-farnesol",Hops
+V205,8,1,0.642824935317188,G1,"E,Z-farnesal",Hops
+V206,110,0,0.0,G1,Caryophyllene acetate,Hops
+V207,111,0,0.0,G1,14-hydroxy-α-humulene,Hops
+V208,112,0,0.0,G1,"Z,E-farnesal",Hops
+V209,113,0,0.0,G1,"Z,Z-farnesol",Hops
+V210,8,3,2.067155718792538,G1,"Z,E-farnesol",Hops
+V211,114,0,0.0,G4,Ambroxide,Spices
+V212,115,0,0.0,G6,Benzyl benzoate,Others
+V213,116,0,0.0,G1,"2E,6E-methyl farnesoate",Hops
+V214,3,12,9.099007133013998,G2,Ethyl tetradecanoate,Yeast
+V215,117,0,0.0,G6,2-ethylhexyl acrylate,Others
+V216,1,1,0.610287767025775,G2,Isopropyl tetradecanoate,Yeast
+V217,3,12,8.859512693665108,G2,Ethyl pentadecanoate,Yeast
+V218,118,0,0.0,G2,Methyl hexadecanoate,Yeast
+V219,3,4,2.790407361722978,G1,"Z,Z-geranyl linalool",Hops
+V220,3,12,8.594218024356957,G2,Ethyl hexadecanoate,Yeast
+V221,19,1,0.735496780152608,G4,Manool oxide,Spices
+V222,119,0,0.0,G4,13-epi manool oxide,Spices
+V223,19,1,0.735496780152608,G2,Isopropyl hexadecanoate,Yeast
+V224,1,1,0.713628371002376,G4,Manool,Spices
+V225,3,4,2.771976473447,G2,Ethyl octadecanoate,Yeast
+V226,13,1,0.663595210809322,G2,Ethyl pentanoate,Yeast
+V227,120,0,0.0,G3,2-ethyl-3-methylpyrazine,Malt
+V228,4,9,6.5372915159034335,,Total ester compounds,
+V229,6,3,2.403870666481568,,Total hop aroma compounds,
+V230,11,1,0.96625558611341,,Total acids,
+V231,9,2,1.469025472023787,,Total sulfur compounds,

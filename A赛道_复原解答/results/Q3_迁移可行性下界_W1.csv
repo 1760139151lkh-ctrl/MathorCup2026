@@ -1,0 +1,5 @@
+﻿feature,critical_threshold_native,native_W1_lower_bound,W1_bound_divided_by_critical_threshold,max_positive_tail_gap,scope,compound
+V004,17.25,30.722584909630843,1.7810194150510634,0.7142857142857143,empirical_1D_distributions; not_population_CI_or_joint_sufficiency,Dimethyl sulfide
+V039,0.29925,0.4398467914642856,1.4698305479174123,0.4448051948051947,empirical_1D_distributions; not_population_CI_or_joint_sufficiency,Diacetyl
+V021,0.206333333,0.0049074902568181,0.0237842823816459,0.0876623376623376,empirical_1D_distributions; not_population_CI_or_joint_sufficiency,4-vinylguaiacol
+V109,0.35,0.4084724264610388,1.1670640756029682,0.5487012987012987,empirical_1D_distributions; not_population_CI_or_joint_sufficiency,E-2-nonenal

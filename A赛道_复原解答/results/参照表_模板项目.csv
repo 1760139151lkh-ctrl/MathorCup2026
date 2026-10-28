@@ -1,0 +1,53 @@
+﻿template_item,label_cell,score_cell,target_id,original_item
+A-01,B6,Q7,Y01,Malt (overall)
+A-02,E10,Q10,Y02,"Cereals, flour, grains"
+A-03,E12,Q12,Y03,Bread crust
+A-04,E14,Q14,Y04,Caramel
+A-05,E16,Q16,Y05,"Smoked, burnt toast"
+A-06,B19,Q20,Y06,Hops (overall)
+A-07,E23,Q23,Y07,Citrus
+A-08,E25,Q25,Y08,Tropical fruit
+A-09,E27,Q27,Y09,Noble hops
+A-10,E29,Q29,Y10,"Pine, woody, resinous"
+A-11,B32,Q33,Y11,Esters (overall)
+A-12,E36,Q36,Y12,"Ethyl acetate, solvent"
+A-13,E38,Q38,Y13,"Banana, pear, candy"
+A-14,E40,Q40,Y14,"Flowers, roses"
+A-15,E42,Q42,Y15,"Sweet, fruity, apples"
+A-16,B44,Q45,,Acetaldehyde
+A-17,B49,Q50,Y48,Body
+A-18,B53,Q54,Y32,Bitterness
+A-19,B57,Q58,Y49,Carbonation
+A-20,B61,Q62,Y47,Aftertaste
+A-21,B67,Q68,Y36,DMS (fault)
+A-22,B71,Q72,Y37,Metallic (fault)
+A-23,B75,Q76,Y34,4VG (fault)
+A-24,B81,Q82,Y40,Orange
+A-25,B85,Q86,Y41,Coriander
+A-26,B89,Q90,Y42,Clove/anise
+A-27,B93,Q94,Y50,Overall
+F-01,R6,AG7,Y16,Malt (overall)
+F-02,U10,AG10,Y17,"Cereals, flour, grains"
+F-03,U12,AG12,Y18,Bread crust
+F-04,U14,AG14,Y19,Caramel
+F-05,U16,AG16,Y20,"Smoked, burnt toast"
+F-06,R19,AG20,Y21,Hops (overall)
+F-07,U23,AG23,Y22,Citrus
+F-08,U25,AG25,Y23,Tropical fruit
+F-09,U27,AG27,Y24,Noble hops
+F-10,U29,AG29,Y25,"Pine, woody, resinous"
+F-11,R32,AG33,Y26,Esters (overall)
+F-12,U36,AG36,Y27,"Ethyl acetate, solvent"
+F-13,U38,AG38,Y28,"Banana, pear, candy"
+F-14,U40,AG40,Y29,"Flowers, roses"
+F-15,U42,AG42,Y30,"Sweet, fruity, apples"
+F-16,R44,AG45,,Acetaldehyde
+F-17,R49,AG50,Y46,Alcohol
+F-18,R53,AG54,Y33,Sweetness
+F-19,R57,AG58,Y31,Acidity/sourness
+F-20,R67,AG68,Y39,Trans-2-nonenal (fault)
+F-21,R71,AG72,Y35,Diacetyl (fault)
+F-22,R75,AG76,Y38,Stale hops (fault)
+F-23,R81,AG82,Y43,Lactic acid
+F-24,R85,AG86,Y44,Acetic acid
+F-25,R89,AG90,Y45,Barnyard/horsey
